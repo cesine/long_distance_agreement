@@ -1,0 +1,819 @@
+\documentclass{article}
+\usepackage{covington}
+\usepackage{fullpage}
+\usepackage{cgloss4e}
+\usepackage{pdfpages}
+\usepackage{graphicx}
+%\usepackage{xyling}
+\usepackage{qtree}
+\usepackage{amsfonts}
+\usepackage{marvosym}
+%\usepackage{2up}
+\usepackage{ulem}
+\usepackage{setspace}
+ \usepackage{natbib}
+ \bibpunct{(}{)}{;}{a}{,}{,}
+
+
+\newcommand{\doublebr}[1]{[\hspace{-.02in}[{\bf#1}]\hspace{-.02in}]}
+\newcommand{\doublebrexpand}[1]{$\left[\hspace{-.06in}\left[#1\hspace{-.5in}\right]\hspace{-.06in}\right]$}
+
+
+
+\author{Henk Van Riemsdijk}
+\title {Categorical feature magnetism: The endocentricity and distribution of projections}
+\begin{document}
+\pagenumbering{arabic}
+\maketitle
+
+\singlespace
+
+\section{Introduction: The Problem}
+
+X'-Theory was developed based on two main concept:
+\begin{itemize}
+\item complements are closer to the head than modifiers
+\item endocentricity: there is an intrinsic connection between the categorical status of a head and that of the phrasal node
+\end{itemize}
+
+The second assumption needs revision due to the introduction of functional heads. Since functional heads are identified as heads, X'-theory must apply to them in full. Each head has its own projection, its own specifier, its own maximal projection. The problem is that now the endocentricity does not hold between N and DP any longer. The intrinsic connection is not only not visible in the choice of the labels but it is formally inexpressible because there are two projections (N with its maximal projection and D with its maximal projection). Endocentricity hold within each of these but not for the structure as a whole. Yet, the relationship between a functional head and its lexical projection is a certain sense unique (D goes with N, I goes with V). Selection holds between lexical heads and involves choice while the functional heads have a fixed selection. 
+\subsection{what we will see}
+\begin{itemize}
+\item the Categorial Identity Thesis (CIT)
+\item the Unlike Feature Condition (UFC) 
+\item there can be more than one head per projection (projections can contain several non-lexical heads)
+\item a projection can contain semi-lexical heads
+\item if semi-lexical heads are part of endocentric projections, then this holds a fortiori for functional heads
+\item the Categorial Identity Thesis correctly predicts that semi-lexical heads in a projection must be of the same category as the lexical and the functional heads of that projection 
+\item P and C have ambivalent status: they are sometimes semi-lexical and sometimes functional, but categorically always preserve their own identity; they are heads in an E(xpanded) M-Projection (EMP) because categorial identity is not fully preserved within the EMP
+\item the Law of Categorial Feature Magnetism (LCFM)
+\end{itemize}
+
+\section{Grimshaw's system}
+Grimshaw (1991) introduced 'extended projection' based on the insight that the essential property that ties lexical projections to their functional heads is categorial identity (e.g. D is nominal). She distinguishes between 'perfect projections' and 'extended projections'.
+
+
+\begin{example}
+\label{sec: Grimshaw's system}
+\begin{tabular} [t] {|c|c|c|c|}
+
+\hline
+V & [+V, -N] & (F0) & (L0)\\
+V' & [+V, -N] & (F0) & (L1)\\
+VP & [+V, -N] & (F0) & (L2)\\
+\hline
+I & [+V, -N] & (F1) & (L0)\\
+I' & [+V, -N] & (F1) & (L1)\\
+IP & [+V, -N] & (F1) & (L2)\\
+\hline
+N & [-V, +N] & (F0) & (L0)\\
+N' & [-V, +N] & (F0) & (L1)\\
+NP & [-V, +N] & (F0) & (L2)\\
+\hline
+D & [-V, +N] & (F1) & (L0)\\
+D' & [-V, +N] & (F1) & (L1)\\
+DP & [-V, +N] & (F1) & (L2)\\
+\hline
+\end{tabular}
+L is a ternary feature serving to distinguish the main projection levels. F is a binary feature which serves to distinguish lexical nodes from functional ones.
+
+\end{example}
+
+\begin{itemize}
+\item perfect projection: 
+x is the perfect head of y, and y is a perfect projection of x iff
+\begin{enumerate}
+\item y dominates x:
+\item y and x share all categorial features;
+\item all nodes intervening between x and y share all categorial features;
+\item the F value of y is the same as the F value of x.
+\end{enumerate}
+
+
+\item extended projection: 
+x is the extended head of y, and y is n extended projection of x iff:
+\begin{enumerate}
+\item y dominates x;
+\item y and x share all categorial features;
+\item all nodes intervening between x and y share all categorial features;
+\item if x and y are not in the same perfect projection, the F value of y is higher than the F value of x.
+\end{enumerate}
+\end{itemize}
+
+Endocentricity is reformulated as a property holding of extended projections rather than perfect projections. 
+Grimshaw's system maintains the biunique relation between head and projection for every type of head. 
+
+\section{van Riemsdijk's approach}
+Van Riemsdijk (1990) independently concluded the same and called the generalization Categorial Identity Thesis (CIT).
+If the CIT holds and if there are functional heads in the prepositional domain, then those functional elements must themselves be prepositional in nature. 
+
+\begin{example}
+\label{German circum-and postpositional constructions}
+   \gll 
+ auf den Berg hinauf\\ 
+on the mountain up (acc)\\
+   	\gll 
+	hinter der Scheune hervor\\
+	behind the barn from (dat)\\
+
+	\glt
+	\glend
+   \end{example}
+
+The circumpositional phrases are argued to consist of a lexical preposition, followed by the DP complement, followed by the functional prepositional element.\\
+Biuniqueness holds only on the level of lexical heads. There is exactly one lexical head per projection, but a projection may contain several heads: one lexical and more functional heads. (This understanding of 'projection' is called (M-)projection.)\\
+Projections are defined in terms of three subsets of features characterizing heads and projection nodes: C(ategorial) features, L(exical) features and F(unctional) features. In addition the binary features MAX(imal) and PROJ(ected) are used.
+
+\begin{example}
+\begin{itemize}
+\item C-features: [$\pm$ N], [$\pm$V]
+\begin{itemize}
+\item $[+N, -V]$ = N, D, Q, ...
+\item $[-N, +V]$ = V, I, Agr, ...
+\item $[+N, +V]$ = A, Deg, ...
+\item $[-N, -V]$ = P, FP, ...
+\end{itemize}
+\item L-features: [$\pm$ PROJ], [$\pm$ MAX]
+\begin{itemize}
+\item $[-PROJ, -MAX]$ = head
+\item $[+PROJ, -MAX]$ = intermediate node
+\item $[+PROJ, +MAX]$ = maximal projected node
+\item ($[-PROJ, +MAX]$ = unprojected particles)
+\end{itemize}
+\item F-features: [$\pm$ F]
+\begin{itemize}
+\item $[-F]$ = lexical node
+\item $[+F]$ = functional node
+\end{itemize}
+\end{itemize}
+\end{example}
+
+
+\subsection{well-formedness conditions}
+
+\begin{example}
+\begin{description}
+\item [Categorial Identity Thesis (CIT)] 
+Within a projection, the values for the C-feature must be uniform.
+\end{description}
+\end{example}
+\begin{example}
+\begin{description}
+\item[No value Reversal (NVR)]
+Within a projection, the following holds:\\
+$*[-L/F]$ \\
+       $|$ \\
+ $[+L/F]$
+\end{description}
+\end {example}
+\begin{example}
+\begin{description}
+\item [Phrases are maximal (PAM)]
+Phrases must be dominated by a (unique) $[+M]$ node at both d-structure and s-structure.
+\end{description}
+\end{example}
+\begin{example}
+\begin{description}
+\item [$(M-)$Projection]
+An (M-)Projection M is the maximal (vertical) path through a tree such that that path satisfies the well-formedness conditions CIT and NVR.
+\end{description}
+\end{example}
+
+\subsection{Dependents}
+\begin{example}
+A dependent D of an (M-)Projection M is
+\begin{enumerate}
+\item a specifier if it entertains an agreement relation with a functional head of M;
+\item a complement if it is a theta-identified by the lexical head of M
+\item an adjunct in all other cases.
+\end{enumerate}
+\end{example}
+
+\subsection{Summary}
+M-projections are preferred over Grimshaw's extended projections because the concept of M-Projection permits a principled and non-stipulative formalization of the notion of endocentricity in its full force. There is no distinction between normal (perfect) and extended projections, and categorial identity is simply the basic concept of coherence that holds within a projection. 
+
+
+\section{Semi-lexical heads}
+There is a functionality level which is intermediate between lexical and functional heads. 
+\subsection{the partitive constructions}
+\begin{description}
+\item [Direct Partitive construction (DPC)]
+Two nouns that are in a partitive relation to one another are directly juxtaposed without the intervention of an intermediate preposition or genitive case marker. 
+\item [Indirect Partitive Construction (IPC)]
+Two nouns that are in a partitive relation to one another are juxtaposed with the intervention of an intermediate preposition or genitive case marker.
+\end{description}
+\begin{example}
+\label{Dutch DPC}
+DPC (Det - N$_{1}$ - N$_{2}$)
+   \gll een plak kaas\\
+a slice cheese\\
+
+   \glt
+   \glend
+
+   \end{example}
+\begin{example}
+\label{Dutch IPC}
+IPC (Det - N$_{1}$ - Prep - N$_{2}$)
+\gll een bus met toeristen\\
+ a bus with tourists\\
+\glt
+  \glend
+\end{example}
+
+DCPs show the behavior of single projections rather than dual projections (N$_{1}$ taking a DP complement):
+\begin{itemize}
+\item selection: In DPCs, selection is in general between the predicate and either N$_{1}$ or N$_{2}$. The corresponding IPC blocks the verb's access to N$_{2}$. 
+\begin{example}
+\label{}
+\begin{enumerate}
+\item DCP  
+ \gll  Zij hebben een schaal gebakjes omgestoten / opgegeten\\
+they have a tray pastries turned-over / eaten-up\\
+
+   \glt
+   \glend
+\item ICP
+ \gll Zij hebben een schaal met gebakjes omgestoten / ??opgegeten\\
+they have a tray with pastries turned-over / eaten-up\\
+
+   \glt
+   \glend
+\end{enumerate}
+   \end{example}
+
+\item case agreement: N$_{1}$ always bears the case assigned by the case governor (verb or preposition). N$_{2}$ either agrees in case with N$_{1}$ or shows up in the genitive.
+
+\begin{example}
+\label{German Case}
+\begin{enumerate}
+\item DPC
+   \gll nach zwei Flaschen rotem Wein\\
+after two bottles.DAT red.DAT wine.DAT\\
+
+\item IPC
+\gll nach zwei Flaschen roten Weins\\
+after two bottles.DAT red.GEN wine.GEN\\
+   \glt
+   \glend
+\end{enumerate}
+   \end{example}
+If the DPC consists of a single M-Projection, we expect all heads in that M-Projection to agree in case.
+
+\item No D or Q between N$_{1}$ and N$_{2}$:
+N$_{2}$ cannot take any functional heads of the D/Q type
+
+\begin{example}
+\label{Dutch head}
+\begin{enumerate}
+\item DPC
+   \gll mijn collectie (*de) Duitse klassieken\\
+my collection (the) German classics\\
+
+\item DPC
+\gll drie kisten (*25) sigaren\\
+three boxes (25) cigars\\
+   \glt
+   \glend
+\item IPC
+\gll mijn collectie met Duitse klassieken\\
+my collection with German classics\\
+
+\item IPC
+\gll drie kisten met 25 sigaren (elk)\\
+three boxes with 25 cigars (each)\\
+
+\end{enumerate}
+   \end{example}
+
+\end{itemize}
+ DPCs constitute single projections. Also, N$_{1}$ retains more of its independence than would be expected if it were a functional head. 
+
+\begin{itemize}
+\item antecedenthood for relative clauses
+\begin{example}
+\label{}
+\begin{enumerate}
+\item  
+ \gll een bus toeristen die allemaal dronken waren\\
+ a bus tourists who all drunk were\\
+ 'a bus with tourists who were all drunk'
+ \item
+ \gll een bus toeristen die in de sneeuw was blijven steken\\
+ a bus tourists that in the snow had remained stuck\\
+ 'a bus with tourists that was stuck in the snow'
+\end{enumerate}
+   \glt
+   \glend
+   \end{example}
+\item adjective order: N$_{1}$ and N$_{2}$ each determine the order of the adjectives preceding them independently.
+\begin{example}
+\label{German adjectives}
+\begin{enumerate}
+\item  
+ \gll mit einer braunen Kiste grossen Zigarren\\
+ with a brwon box big cigars\\
+ \item
+ \gll ??mit einer braunen grossen Kiste vs. mit einer grossen braunen Kiste\\
+ with a brown big box vs. with a big brown box\\
+ \item
+ \gll ??mit braunen grossen Zigarren vs. mit grossen braunen Zigarren\\
+ with brown big cigars vs. with big brown cigars\\
+   \glt
+   \glend
+ \end{enumerate}
+   \end{example}
+ \end{itemize}
+
+ 
+ Container nouns as well as partitative nouns, collective nouns and kind nouns in DPCs constitute a semi-open class in much the same sense as prepositions. They are analyzed as semi-lexical heads. Quantifier nouns are a truly closed class and are analyzed as functional heads. Some measure nouns seem to waver between functional and semi-lexical status.
+ 
+ 
+ \begin{example}
+\label{}
+ \begin{enumerate}
+ \item MN functional
+  \gll Er zit drie kilo heroine in die zak\\
+  there sits three kilo heroin in that bag\\
+  'There are 3 kilograms heroin in that bag.'
+  \item MN semi-lexical
+  \gll ?Er zitten meerdere kilo's heroine in die zak\\
+  there sit several kilos heroin in that bag\\
+  'There are several kilograms heroin in that bag.'
+  \end{enumerate}
+
+   \glt
+   \glend
+   \end{example}
+ Gender agreement of the DPC is with N$_{1}$ rather than with N$_{2}$. 
+ 
+ \begin{example}
+\label{}
+ \begin{enumerate}
+ \item neuter agreement with 'glas'
+  \gll het vijfde glas wijn\\
+  the fifth glass wine\\
+  \item non-neuter agreement with 'wijn'
+  \gll *de vijfde glas wijn\\
+  the fifth glas wine\\
+
+   \glt
+   \glend
+  \end{enumerate}
+   \end{example}
+ 
+ In conclusion, DPCs involve a single projection in which N$_{1}$ is almost always a semi-lexical noun. 
+ In Romance languages and English, there is always an element intervening between the two nouns. Since they behave like DPCs (rather than IPCs) they are classified as pseudo-DPCs.
+ 
+ \begin{example}
+\label{}
+English Pseudo-DPC: 
+  \textit{Mary ate a whole tray of /*with pastries.}
+
+   \glt
+   \glend
+   \end{example}
+
+The problem of dummy prepositional elements which are found within single projections is a general one. Pseudo-DPCs are analyzable as single projections.
+
+\subsection{Restrictive Appositive}
+\begin{description}
+\item[Restrictive Appositive: ] 
+a construction with postnominal inflected adjectives
+\item[qualificational construction (QC):]
+a nominal projection with a semi-lexical head
+\end{description}
+\begin{example}
+\label{}
+\begin{enumerate}
+\item the non-restrictive appositive (NRA)
+   \gll Herr Meyer, der B\"{u}rgermeister der Stadt\\
+mister Meyer, the mayor of.the city\\
+\item Postnominal inflected adjetives = restrictive elliptic apposatives (REA)
+\gll Unterhosen dreckige solltest du waschen\\
+underpants dirty should you wash\\
+'You should wash dirty underpants.'
+\item Qualificational noun phrases (QC)
+\gll der Planet Venus\\
+the planet Venus\\
+\gll der Monat Mai\\
+the month May\\
+'the month of May'
+\gll die Stadt Wien\\
+the city Vienna\\
+'the city of Vienna'
+   \glt
+   \glend
+\end{enumerate}
+   \end{example}
+
+It seems as if REA invovle a phrase with a postnominal inflected adjective. This is surprising since adjectives are generally prenominal and where postnominal adjectives exist (heavy APs), they are always uninflected.
+
+\begin{example}
+\label{}
+Heavy AP Shift (HAPS)
+   \gll Der Trainer, besoffen/*besoffene wie immer, ...\\
+the coach drunk as always ...\\
+
+   \glt
+   \glend
+   \end{example}
+
+REA constructions differ from HAPS. The adjective is usually preceded by an overt article in REA constructions. If the adjective is part of the noun phrase, then that noun phrase is apparently elliptic, since the adjective does not have a noun of its own.
+\begin{example}
+\label{}
+   \gll Eine Unterhose *(eine) dreckige solltest du waschen.\\
+a underpant a dirty should you wash\\
+'You should wash a dirty pair of underpants.'
+   \glt
+   \glend
+   \end{example}
+ 
+If it is an elliptic noun phrase than the adjective is actually prenominal in the sense that it precedes the missing N or N' in the elliptical noun phrase. 
+
+\begin{enumerate}
+\item repetition of the article, other modifiers and prepositions\\ The appropriate article must accompany the postnominal adjective.
+\begin{example}
+\label{}
+\begin{enumerate}
+\item  
+ \gll F\"ur ein altes Auto *(ein) Amerikanisches w\"urde ich keinen Dollar zahlen.\\
+ for an old car an American would I no dollar pay\\
+ 'I would not pay any money for an old American car.'\\
+
+ \item
+  \gll  Auf einen Drink, auf einen kurz-*(en), komme ich gern hin\"uber.\\
+for a drink for a quick come I gladly over\\
+'I'll gladly come over to have a quick drink with you.' 
+   \glt
+   \glend
+\end{enumerate}
+   \end{example}
+REAs show a different pattern than DPCs and QCs.
+DPCs can never have an article between N$_{1}$ and N$_{2}$, even though adjectives may intervene. 
+\begin{example}
+\label{}
+   \gll ein Glas (*ein) guter Wein\\
+a glass a good wine\\
+
+   \glt
+   \glend
+   \end{example}
+
+The appearance of articles is generally excluded from QCs. 
+\begin{example}
+\label{}
+   \gll der Monat *(der) Mai\\
+the month the may\\
+
+   \glt
+   \glend
+   \end{example}
+The CIT does not preclude determiners from popping up at various points in a nominal projections. The absence of the article in DPCs is at least part due to their semantics. If the semi-lexical noun in DPCs has a certain quantificational force (as it does), the we would not expect other quantificational elements including articles to show up since they would cause double quantification. Quantificational adjectives are excluded in DPCs while non-quantificational ones are permitted. The appearance of the article is severely restricted in both DPCs and QCs. 
+\begin{example}
+\label{}
+   \gll een kist *de / *twintig / *talrijke / Cubaanse sigaren\\
+a box the / twenty / numerous / Cuban cigars\\
+
+   \glt
+   \glend
+   \end{example}
+\item extraposition\\
+The restrictive elliptic appositive (REA) can extrapose. (In this it resembels non-restrictive appositives and HAPSs.) This differs from qualificational constructions (QCs).
+\begin{example}
+\label{}
+\begin{enumerate}
+\item REA 
+ \gll Ich habe gl\"ucklicherweise doch noch eine Unterhose gefunden eine saubere\\
+ I have forunately after all an underpant found a clean\\
+ 'Fortunately, I have found a clean underpant after all.'\\
+\item QC
+ \gll *Wir haben den Planeten gesehen, Venus.\\
+ we have the planet seen Venus\\
+
+   \glt
+   \glend
+\end{enumerate}
+   \end{example}
+
+The impossibility of extraposition with QCs can be assimilated to the fact that the second nominal of DPCs cannot be extraposed either.
+\begin{example}
+\label{}
+   \gll *Ik heb dire glasen gedronken Franse wijn\\
+I have three glasses drunk French wine\\
+
+   \glt
+   \glend
+   \end{example}
+ 
+If DPCs and QCs are assigned the same type of structure with N$_{1}$ being a semi-lexical head and the whole construction consisting of a single M-Projection, then the impossibility of extraposition can simply be attributed to the general observation that extraposition can only apply to maximal phrases.
+\item stress and intonation\\
+The Restrictive Elliptic Appositive (REA) requires a very specific intonation contour. The REA must be part of the stress domain that contains the head. The head noun receives the main stress, after which there is a sharp fall in pitch followed by a low, flat intonation contour. In DPCs the main stress falls on the second noun (which may therefore be the lexical head).
+
+
+\end{enumerate}
+
+\subsection{summary}
+\begin{table}[htdp]
+\caption{comparison}
+\begin{center}
+\begin{tabular}{|c|c|c|c||c|c|}
+\hline
+& HAPS &NRA &REA & QC & DPC\\
+\hline
+$\sqrt{ N_{1}}$ Det N$_{2}$ & n/a & yes & yes& very limited& no\\
+\hline
+N$_{2}$ extraposition & yes & yes & yes & no & no \\
+\hline
+main stress on & N$_{1}$ & N$_{1}$ & N$_{1}$ & N$_{2}$ & N$_{2}$ \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}%
+
+QCs patten with DPCs and hence constitute a second instantiation of nominal projections consisting of a semi-lexical noun followed by a lexical noun.
+
+
+\section{A revision of Van Riemsdijk 1990}
+The F-feature must be modified. 
+\begin{example}
+\label{}
+F-features:
+\begin{itemize}
+\item $[\pm$ F(unctinal)]
+\item $[\pm$ G(rammatical]
+\item $[+F, +G]$ = functional heads/projections
+\item $[-F, -G]$ = lexical heads
+\item $[-F, +G], [+F, -G]$ = intermediate categories
+\end{itemize}
+   \end{example}
+
+\begin{example}
+\begin{description}
+\item[No value Reversal (NVR) revsited: ]
+Within a projection, the following holds:\\
+$*[-f_{j}]$\\
+$|$\\
+$[+f_{i}]$ where f$_{i}$ $\epsilon$ ${L}$ or f$_{i}$ $\epsilon$ ${F}$
+\end{description}
+\end{example}
+This predicts that the two subclasses of semi-lexical projections cannot be combined within one projection. If indeed DPCs and QCs are distinguished along these lines, the prediction is that these two constructions cannot be combined within a single projection.
+
+\subsection{the Status of P}
+There is a direct selectional dependency between the verb and the noun in which the preposition plays little or no role. If P is an independent lexical head, standard locality restrictions will force us to say that the verb selects PP and that within that PP the P selects DP. Prepositions are sometimes functional and sometimes lexical. Similarly, some complementizers (e.g. $that$) could be considered to be purely functional, while others (e.g. $before$) would be lexical. Yet there are a number of considerations which suggest that PPs constitute a category $sui$ $generis$.
+
+\begin{itemize}
+\item external distribution\\
+There are contexts where PPs can appear while DPs are excluded. Adjunct and complement PPs can be extraposed to a post-verbal position in Dutch, while DPs are excluded from this process.
+\begin{example}
+\label{}
+\begin{enumerate}
+\item
+   \gll Ik had niet op zoveel mensen gerekend\\
+I had not on so.many people counted\\
+'I had not expected so many people.' (maybe?)\\
+\item
+\gll Ik had niet gerekend op zoveel mensen\\
+I had not counted on so.many people\\
+\item
+\gll Hij gaat op zondagochtend altijd golfen\\
+he goes on Sunday.morning always play.golf\\
+"He goes to play golf every Sunday morning.' \\
+\item
+\gll Hij gaat altijd golfen op zondagochtend\\
+he goes always play.golf on Sunday.morning\\
+\item 
+\gll Ik had niet zoveel mensen verwacht\\
+I had not so.many people expected\\
+'I had not expected so many people.'
+\item
+\gll *Ik had niet verwacht zoveel mensen.\\
+I had not expected so.many people\\
+\item 
+\gll Hij gaat de hele dag golfen\\
+he goes the whole day play.golf\\
+'He plays golf all day.'\\
+\item
+\gll *Hij gaat golfen de hele dag\\
+he goes play.golf the whole day\\
+  \glt
+   \glend
+\end{enumerate}
+   \end{example}
+The same holds for CPs which are awkward in a preverbal position but extrapose freely.
+\begin{example}
+\label{}
+\begin{enumerate}
+\item
+   \gll *Ik had niet dat er zoveel mensen zouden komen verwacht\\
+I had not that there so.many people would come expected\\
+'I had not expected that so many people would come.'\\
+\item
+\gll Ik had nied verwacht dat er zoveel mensen zouden komen\\
+I had not expected that there so.many people would come\\
+   \glt
+   \glend
+   \end{enumerate}
+      \end{example}
+From this Emonds (1985) concludes, correctly according to van Riemsdijk, that PPs and CPs have the same categorial status, i.e. $[-N, -V]$.
+\item internal syntax\\
+In Dutch, non-human pronouns can be replaced by the corresponding locative pronouns ('$r$-pronouns'). They occur to the left rather than to the right of the preposition. The suppletion of regular pronouns by $r$-pronouns applies in argument PPs and adjunct PPs.
+\begin{example}
+\label{}
+\begin{enumerate}
+\item
+   \gll ??Ik had op niets gerekend\\
+I had on nothing counted\\
+'I had no expectations.'\\
+\item
+\gll Ik had nergens op gerekend\\
+I had nowhere on counted\\
+\item
+\gll *Hij gaat voor het altijd golfen.\\
+he goes before it always play.golf\\
+
+\item
+\gll Hij gaat er voor altijd golfen.\\
+he goes there before always play.golf\\
+
+   \glt
+   \glend
+\end{enumerate}
+   \end{example}
+\item P-N dependencies\\
+Some verbs select specific prepositions but there are also dependencies between P and N. These P-N dependencies hold regardless of whether the PP is an argument or an adjunct. The noun determines the choice of the prepositions (bottom up rather than top down). 
+\begin{example}
+\label{}
+\begin{enumerate}
+\item Could you put those pictures on/*at the wall?
+\item On/*At the wall, we discovered some peculiar pictures.
+\end{enumerate}   
+   \end{example}
+P-N dependencies cannot plausibly be used to identify the preposition as a lexical phrase. Instead it seems to be similar to the gender selection in the noun phrase in which it is also the lexical head noun that determines the choice of the article (rather than the other way around). P-N dependencies are consistent with prepositions being functional or semi-lexical heads. 
+\end{itemize}
+
+\subsection{summary}
+\begin{itemize}
+\item Prepositions and their projections are categorically distinct from NP/DP. Thy are characterized as $[-N, -V]$.
+\item They cannot be part of the M-projection of nouns (by CIT).
+\item They should be considered extended projections of nouns (at least when they are transitive).
+\item A nominal projection embedded in a prepositional shell does not constitute a maximal DP. There is a transition form D' to P' (induced by the prepositional head). In other words, M-Projections can have a $[-N, -V]$ shell (=E-Projection).
+\item In addition to semi-lexical prepositions there are also functional prepositions.
+\item A projection can be headed by a semi-lexical head which can then occupy the position of the lexical head.
+\end{itemize}
+
+\subsection{DPs with semantic case}
+Nikanne (1993) argues that a DP with semantic case is a PP with an empty preposition that assigns case. True PPs with a real preposition and DPs with a semantic case have the same distribution. Yet the domain of the verb typically admits both, true PPs and true DPs. In truly diagnostic contexts such as extraposition, DPs and PPs have different distributions. Positing empty prepositions makes wrong predictions with respect to the distribution of these phrases.
+\begin{example}
+\label{}
+A DP with semantic case can occur in the domain of a noun.
+   \gll Tie Helsinki-in on huono.\\
+way Helsinki.ILL is bad\\
+'The way into Helsinki is bad.'
+
+   \glt
+   \glend
+   \end{example}
+DPs with overt semantic case pattern like PPs. Therefore such phrases should be analyzed as E-projections. \\
+The PP shell consists of a semi-lexical head and a functional head, where the semi-lexical head typically expresses a location whereas the functional head serves to express direction and/or orientation and is the place where deictic particles are attached. This is in essence the structure of circumpositional PPs in German.\\
+Do lexical prepositions exist? We could either assume that a $[-N, -V]$ projection which is not rooted in a nominal head could start with a semi-lexical head at the bottom or with a true lexical position into which a semi-lexical preposition is lexically inserted. There is no reason to decide for either approach now. 
+
+\subsection{Expanded M-Projections}
+
+\begin{table}[htdp]
+\caption{definitions}
+\begin{center}
+\begin{tabular}{|c||c|c|c|c|}
+\hline
+name/feature status & $[-P,-M]$ Head & $[+P, -M]$ Intermediate & $[+P, +M]$ Maximal & $[-P, +M]$ Particle\\
+\hline
+\\[.3pt]
+functional ($[+F,+G]$): $_{F}$ & X$_{F^{\circ}}$ & $\bar{X}_{F}$&$\bar{X}_{F}$P &$\bar{X}_{F^{\circ}}$P\\
+\hline
+\\[.3pt]
+semi-lex. ($[\alpha F,-\alpha G]): _{S}$ & X$_{S^{\circ}}$ & $\bar{X}_{S}$&$\bar{X}_{S}$P &$\bar{X}_{S^{\circ}}$P\\
+\hline
+\\[.3pt]
+lexical ($[-F,-G]$): $_{L}$ & X$_{L^{\circ}}$ & $\bar{X}_{L}$&$\bar{X}_{L}$P &$\bar{X}_{L^{\circ}}$P\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{itemize}
+\item standard DP-tree\\
+\Tree [.DP ... [.D' D [.N' N  ] ] ]\\
+ \item new typology\\
+\Tree [.$\bar{N}_{F}P$ ... [.$\bar{N}_{F}$ N$_{F^{\circ}}$ [.$\bar{N}_{L}$ N$_{L^{\circ}}$ ] ] ]\\
+\end{itemize}
+
+\begin{example}
+
+\begin{center}
+\includegraphics[height=3cm, width=7cm]{example1riems.eps}
+\end{center}
+   \end{example}
+
+
+
+It is a single projection in the sense that there is only one maximal projection, but it is not well-formed. The NVR is violated in the transition form $\overline{[+N,-V]}_{F}$ to $\overline{[-N, N]}_{S}$ in which an F-feature changes. The CIT is violated in the same transition because of the categorial switch form [+N] to [-N]. The first violation can be avoided by assuming that it is not the Functionality features of the semi-lexical head which are projected to the next higher node but rather the Functionality features from the nominal part of the projection.
+
+\begin{example}
+
+\includegraphics{38bot.eps}
+
+   \end{example}
+
+The CIT needs to be slightly modified to allow the transition. 
+\begin{example}
+\begin{description}
+\item[CIT (revised version) ]
+Within a projection, the following well-formedness condition holds:\\
+$*[\alpha N, \beta V]$\\
+ $\mid$ \\
+ $[\gamma N, \delta V]$ where $\alpha, \beta, \gamma, \delta$ range over + and -\\
+ unless either (i) $\alpha = \gamma$ and $\beta = \delta$ or (ii) at most one of $\alpha, \beta, \gamma, \delta$ has the value +.
+\end{description}
+\end{example}
+
+
+The well-formed semi-lexical constructions are examplified below. 
+\begin{example}
+\includegraphics{39bot.eps}
+\includegraphics{40top.eps}
+
+   \end{example}
+
+\section{Unifying the CIT and the Unlike Feature Constraint}
+Projections are characterized by categorial identity. Prepositional elements act as neutral, invisible, skippable elements with respect to the overall principle that forces categorial uniformity within a single projection because they do not have a positive value for either of the categorial features. \\
+The Unlike Feature Constraint (UFC) regulates the distribution of phrasal categories within larger syntactic contexts. 
+\begin{example}
+\begin{description}
+\item[The Unlike Feature Condition (UFC) ]
+$*{[+F_{i}]^\circ [+F_{i}]P}$ where F$_{i}$ = N or V 
+\end{description}
+\end{example}
+Although CIT and UFC are very different on the surface, they share the idea that within a projection we have categorial cohesion (attraction between the likes) whereas outside a projection we find repulsion of likes, a kind of magnetism in which the positively specified features attract one another internal to a  projection but repel each other externally. The prepositional elements escape both due to their negative specification for both features. 
+
+\begin{example}
+\includegraphics{43top.eps}
+
+CIT: two category labels dominating one another should be taken to mean that the upper one has a higher level value than the lower one
+
+\includegraphics{43bot.eps}\\
+UFC: between governor and governee $[-M] >> [+M]$ holds, which is another way of saying that the government relation holds between a head and a phrase
+
+   \end{example}
+
+\begin{example}
+\begin{description}
+\item[UFC revised: ] 
+Within a projection, the following well-formedness condition holds:\\
+$*[\alpha N, \beta V]$\\
+ $\mid$ \\
+ $[\gamma N, \delta V]$ where $\alpha, \beta, \gamma, \delta$ range over + and -\\
+ unless either (i) $\alpha \neq \gamma$ and $\beta \neq \delta$ or (ii) at most one of $\alpha, \beta, \gamma, \delta$ has the value +.
+\end{description}
+\end{example}
+
+In order to collapse the CIT and the UFC, four types have to be taken into consideration: head, intermediate node, maximal projection, particle. There are sixteen logically possible domination configurations.
+
+\begin{example}
+\includegraphics{45top.eps}
+   \end{example}
+
+The ten shaded ones can be eliminated because of the intrinsic content of the level features. The bottom half can be discarded because [-P] means that the elements in question are terminal nodes that cannot dominate anything. [+M] means 'maximal' in an absolute sense, so it cannot dominate another [+M] node. This leaves the six cases in the non-shaded cells. All of them have [+P] as the upper node. The four that have [-M] at the bottom are CIT cases, the two that have [+M] are UFC cases. 
+\begin{example}
+\begin{description}
+\item[Law of Categorical Feature Magnetism (LCFM) ]
+A configuration\\
+$[\alpha N, \beta V]_{C} \cup L_{i}$\\
+$\|$\\
+$[\gamma N, \delta V]_{C} \cup L_{j}$ (where $\alpha, \beta, \gamma, \delta$ range over + and -, $[+P] \subset L_{i}$, and $[\pm P,\pm M] \subseteq L_{j}$) is illicit $(*)$ unless 
+\begin{enumerate} 
+\item at most one of $\alpha, \beta, \gamma, \delta$ is +, or 
+\item if [-M] $\subset L_{j}$, then $\alpha = \gamma$ and $\beta = \delta$, or
+\item if [+M] $\subset L_{j}$, then $\alpha \neq \gamma$ and $\beta \neq \delta$.
+
+ \end{enumerate}
+\end{description}
+ \end{example}
+
+
+
+
+\bibliographystyle{astron}
+\bibliography{/Users/tutzel/Documents/mec}
+
+\begin{thebibliography}{100}
+
+\citep*{Grimshaw:1991}
+\citep*{Riemsdijk:1998a}
+\citep*{Nikanne:1993}
+\citep*{Riemsdijk:1990}
+\citep*{Emonds:1985}
+\end{thebibliography}
+
+
+\end{document}
+
