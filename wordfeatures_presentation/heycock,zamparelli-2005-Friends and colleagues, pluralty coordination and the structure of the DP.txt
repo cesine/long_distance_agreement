@@ -1,0 +1,2729 @@
+CAROLINE HEYCOCK and ROBERTO ZAMPARELLI 
+FRIENDS AND COLLEAGUES: PLURALITY, 
+COORDINATION, AND THE STRUCTURE OF DP* 
+Starting from an analysis for the crosslinguistic variation in the grammaticality of DPinternal 
+conjunctions such as This [man and woman] are in love, this article develops a 
+theory of the syntax/semantics interface within the DP and a novel proposal for the 
+interpretation of conjunction. The main claims are that plural/mass denotations are built 
+in stages within the DP, by the combined effect of number features and semantic 
+operators associated with functional heads; that languages differ in whether the denotation 
+of nouns is filtered for singular or plural number; and that the word and crosslinguistically 
+denotes SET PRODUCT, an operation which, in different contexts, can mimic 
+the behavior of intersection and union. 
+Keywords: conjunction, plurality, number, DP-structure, syntax/semantics interface 
+1. INTRODUCTION 
+This paper presents a little-known set of data concerning conjunction inside 
+the noun phrase, and shows how this domain includes structures with 
+readings which are unexpected under any current theory of the semantics of 
+coordination. Moreover, these readings are shown to vary across languages 
+in an interesting and systematic fashion, and to depend on the choice of 
+determiners outside the conjunction. 
+Our goal is to account for these facts without having to posit an extra 
+meaning for and. The attempt rests on three pillars: a theory of the syntax/ 
+semantics interface for Determiner Phrases, based on the idea that the 
+semantic number for a noun phrase is built ‘‘in stages’’ inside the DP, 
+through the combined semantic effect of two independent functional heads; 
+a syntactic parameter which distinguishes English from Romance languages 
+with respect to the realization of Number; and a novel semantics for conjunction, 
+which – in different contexts – can mimic either union or intersection. We will try to show that these proposals can be independently 
+motivated, and that, when combined, they converge on the desired crosslinguistic 
+distribution for the DP-conjunction facts under consideration. 
+To the extent that our analysis is successful, it supports the existence of a 
+mapping between syntactically motivated functional heads and semantic 
+functions, and speaks in favor of a tighter integration between syntactic and 
+semantic approaches to language. 
+2. THE PROBLEM 
+2.1. Distributive and Collective Conjunction 
+The background to this study is a well-known puzzle in the semantics of 
+conjunction. If we take the standard semantic view that predicates denote 
+properties – sets of individuals in an extensional Montegovian framework – 
+constituent conjunction of predicates as in (1) can be straightforwardly 
+mapped onto the operation of set intersection. 
+(1)a. My uncle is [short and fat]. 
+b. My uncle is [a good father and an excellent husband]. 
+The conjunction of two argument noun phrases, however, cannot be mapped 
+onto intersection with the same ease. For instance, the conjunction in 
+(2) does not denote the intersection of the property of being John and that of 
+being Mary, but, pretheoretically, a plurality formed by the two entities 
+which John and Mary individually denote. 
+(2)a. [John and Mary] danced. 
+b. [John and Mary] met. 
+Even setting aside the fact that and can conjoin many other categories, the 
+difference between (1) and (2) raises issues for the possibility of a unified analysis 
+of the meaning of and. There are nevertheless compelling motivations for a 
+unified analysis; first and foremost the observation (made most forcefully in 
+Winter l996, citing a survey in Payne 1985) that no language seems to have 
+differentwords for the intersective and in (1) and the plurality-forming and in (2). 
+Treating noun phrases as generalized quantifiers (sets of properties) 
+appears to offer a promising solution under the banner of intersection. And 
+in (2 a) can be rendered as intersection just as in (1): the conjoined noun 
+phrase denotes the intersection of the properties independently possessed by 
+John and Mary. This solution still leaves as a problem the behavior of 
+conjoined noun phrases in sentences with non-distributive – ‘‘collective’’ – 
+predicates (e.g. meet, be together); since meet in (2 b) denotes a property 
+
+which is not independently possessed by either John or Mary, it will not be 
+found in the intersection of the GQs built on John and Mary; something else 
+therefore needs to be said for these cases. Some authors have responded to 
+this problem by adopting a non-Boolean view of conjunction (e.g. Hoeksema 
+1983; Krifka 1990); Winter (1996) pursues instead the strategy of 
+adapting an intersective (or Boolean; Winter 1998, 2001) semantics for and 
+also to these cases of collective conjunction. 
+While the debate in the last ten years has been lively and productive, the 
+set of data considered in the semantic literature has always had at its core 
+the cases illustrated in (1)–(2): conjunction of whole noun phrases, in 
+English, functioning as the subjects of a range of distributive and nondistributive 
+predicates. Building on Heycock and Zamparelli (1999) and 
+Heycock and Zamparelli (2000), this paper aims to turn the attention of the 
+linguistic community to the largely uncharted domain of conjunction inside 
+the noun phrase, and to the analytic challenges and possibilities opened up 
+by a comparative view that looks beyond English. 
+2.2. Conjunction within the Noun Phrase 
+In extensional Montague semantics, common nouns – just like adjectives – 
+denote properties (type <e,t>). This denotation combines with the 
+denotation of the determiner to yield an e,t>,t> type denotation (a 
+Generalized Quantifier), or alternatively, an e-type denotation if we follow 
+Heim’s (1982) quantifier raising system, or a type-shifting system a` la Partee 
+(1987), Partee and Rooth (1983). Montague’s semantics for common nouns 
+can easily be mapped onto the more elaborate syntactic structure for noun 
+phrases originating with Abney (1987): the Determiner Phrase (DP) 
+hypothesis. Under this hypothesis, the determiner heads the whole noun 
+phrase and the noun heads its own internal projection, NP.1 The semantic 
+distinction between Montague’s ‘‘full noun phrases’’ and ‘‘common nouns’’ 
+can be recast assuming a division of labor between the two projections DP 
+and NP (see Stowell 1983; Higginbotham 1987; Hudson 1989; Longobardi 
+l994; Chierchia l998 a,b; Longobardi 1999, among others): 
+(3) noun phrase = [DP Det [NP (Adjs) Noun]] 
+(4)a. DPs can be arguments. 
+b. NPs are predicates. 
+1 The terminology in this area is unfortunately confusing. In the rest of this paper, we follow 
+typical recent practice in using the expression ‘‘noun phrase’’ to mean the extended projection of 
+N, namely the DP, and the acronym NP to refer to the immediate maximal projection of N, 
+inside the DP. 
+
+Syntactic work subsequent to Abney 1987 (including at least Valois 1991; 
+Cinque 1990; Crisma 1991; Cinque 1994; Giusti 1992; Bernstein 1993; and 
+Zamparelli 1995, 1998) has added various functional projections (FPs) 
+between D and the NP proper, to host attributive adjectives and other DPinternal 
+modifiers (in particular, numerals). Semantically, this move has 
+pushed upward the boundary of the part of DP which has to be interpreted 
+‘‘predicatively’’ from NP to some FP immediately under D. For the time 
+being, we will take the predicate to be NP, but we will partially correct this 
+simplifying assumption in section 4. 
+If NPs are predicates, the null hypothesis is that the conjunction of two 
+NPs under a common determiner should behave exactly like the conjunction 
+of two predicative adjectives, as in (1 a). Indeed, this prediction seems correct 
+for (5), where each DP refers to a single individual who has both the 
+property of being a friend and the property of being a colleague. Henceforth, 
+we refer to this reading of conjunction-containing DPs as the JOINT 
+reading}}.2 
+(5)a. [DP My [NP friend and colleague]] is writing a paper. 
+b. [DP That [NP liar and cheat]] is not to be trusted. 
+This would be all there is to say on the matter, if we considered only singular 
+count nouns and most languages other than English. In English, however, 
+the following sentences are also grammatical. 
+(6)a. [DP This [NP man and woman]] are in love. 
+b. [DP This [NP soldier and sailor]] are inseparable. 
+The DPs in (6) refer to pairs of individuals, as is made clear by the verbal 
+agreement. Despite the singular morphology of the determiner and both Ns, 
+the DPs do not each refer to a singular individual with the properties of 
+being both a man and a woman, or a soldier and a sailor. Pretheoretically, it 
+seems that each property in the conjunction applies to a distinct individual: 
+2 properties lead to 2 individuals. We call this reading of the DP the SPLIT 
+interpretation. 
+If NPs are properties, i.e. sets of individuals, and and denotes set intersection, 
+the existence of a split reading is completely unexpected, as pointed 
+out in Bergmann’s (1982) squib. For one thing, no comparable split interpretation 
+seems to exist for cases of copular predication: A recent event was 
+sad and unexpected cannot mean ‘A recent eventi was sad, and a recent 
+2 Throughout this paper we use the terminology joint/split reading pretheoretically. As will 
+become clear, we do not mean to suggest that the existence of these two ‘‘readings’’ implies the 
+existence of a lexical or structural ambiguity. 
+
+eventj, unexpected.’3 Moreover, a cursory crosslinguistic look reveals that 
+English is unusual (though not unique) in allowing a split reading in singular 
+conjunction: in many other languages the direct equivalent of (6) is sharply 
+ungrammatical, as illustrated by the French example in (7). 
+(7) *[Ce [marin et soldat]] sont souvent ensemble. 
+[this [sailor and soldier]] are often together 
+The restricted crosslinguistic distribution of the split reading was noted by 
+Dowty (1988) and has recently been presented and analyzed by King and 
+Dalrymple (2004) for English, Finnish, Hindi and other languages. We will 
+return to their analysis in section 6; at this point, however, a brief comment 
+is probably in order to rule out a simple direction of analysis which might 
+have occurred to some readers. This is the idea that split readings might be 
+reduced to a separate phenomenon: the possibility – in British English – of 
+using plural verb agreement with singular collective nouns: 
+(8) That group / couple were eating lunch. 
+For instance, one could imagine treating (6 a) as (9), with a silent noun 
+meaning pair: 
+(9) This man and woman pair were eating lunch. 
+This simple way out is not viable, for a number of reasons. First, all our 
+American informants have confirmed the existence of singular split readings 
+in their varieties of English, while (8) is known to be ruled out in American 
+English.4 Second, even for British speakers, (8) may also have singular verb 
+agreement, while This man and woman was eating lunch is impossible with 
+the 2-people meaning. Third, the conditions in which ‘‘silent pair-nouns’’ 
+may appear remain entirely unspecified. For instance, if (9) exists, what 
+could rule out *This Italian pair love each other? Fourth, the singular split 
+reading is systematically present in residual forms even in languages, like 
+Italian, that do not allow (6) or (8), as we will see in section 3.1. Finally, 
+joint and split readings are also available for plural NPs, where a ‘‘silent 
+pair’’ approach would have no effect. Thus, the most salient (perhaps the 
+only) reading of (10 a) has two people, each of whom is both a friend and a 
+colleague; the most salient reading of (10 b) is one in which 5 men and 5 
+women got married. 
+3 See, however, section 7.2 for a discussion of somewhat similar cases. 
+4 Although some US speakers do report that plural agreement with couple is better than it is 
+with government, team, etc. 
+
+(10)a. [My two [friends and colleagues]] wrote their paper together. 
+Joint 
+b. [Ten [men and women]] got married today in San Pietro. 
+Split 
+Although plural split cases such as (10 b) are perhaps less striking than 
+singular examples like (6) because there is no mismatch between the DPinternal 
+agreement and the agreement on the verb, they are equally unexpected 
+under an intersection analysis. 
+Remarkably, languages which do not allow singular split cases almost 
+always allow split readings in the plural:5 
+(11) Ces marins et soldats sont souvent ensembles. 
+these sailors and soldiers are often together 
+(Possible description of a group with no one who is both a 
+soldier and a sailor) 
+Given these facts, three research issues arise: 
+I. What semantics for conjunction can capture the full range of DPinternal 
+cases? 
+II. What is the difference between English and languages that do not allow 
+a singular split reading? And why does this difference break down in the 
+plural? 
+III. Can a semantics that handles DP-internal conjunction correctly be 
+extended to conjunction of other categories – at the least, conjunction 
+of full DPs? 
+The rest of the paper offers a detailed answer to the first two of these 
+issues, and some ideas about how the third one might be tackled. Our 
+strategy will be to tackle the problem in two parts. We focus on the paradigmatic 
+split case in (12), with the bracketing indicated: 
+(12) [DP this/a [NP man and woman]] are in love. 
+We propose that the existence of this reading can be explained if: 
+– the NP conjunction man and woman denotes the property of being a couple 
+(of opposing sex); 
+– the pluralities present in this NP denotation, i.e. the couples themselves, 
+can be made compatible with a singular determiner such as this in 
+languages which allow the singular split reading, and incompatible in 
+those which don’t. 
+5 The single exception of which we are aware is Greek, discussed in section 6.1. 
+
+We will discuss these points in reverse order. In the next section, we take 
+some time to lay out the data, many aspects of which have never been 
+discussed in the literature from the perspective of the syntax/semantics 
+interface. Next, in section 4, we concentrate on the second part of the 
+problem; that is, we assume that man and woman does indeed denote the 
+property of being a couple, and lay down a theory of how the denotation of 
+NPs is formally processed within the DP – a theory of the syntax/semantics 
+mapping in a nominal structure with multiple layers. The core idea is that 
+singular-split and non-singular-split languages differ on a parameter that 
+determines whether singular determiners ‘‘filter’’ the content of a plural 
+property or not. This will answer research issue II above. 
+In section 5, we go back to research issue I, to give a novel semantics for 
+conjunction which justifies our previous assumption that man and woman 
+does in fact denote the property of being a couple. We will show that this 
+semantics interacts with the syntax/semantics interface to yield the full 
+distribution of the split and joint readings both within and across the languages 
+discussed. Section 6 discusses some alternative analyses. Finally, 
+research issue III is addressed, far more briefly than it deserves, in section 7, 
+together with some speculations on open issues. 
+3. CONJUNCTION WITHIN THE DP: THE DATA 
+3.1. Conjunction of Singulars 
+The joint reading of singular DP-internal conjunction is illustrated again in 
+(13). 
+(13)a. In front of me, [a friend and colleague] was standing in line. 
+b. [That famous linguist and political activist] is always shunned 
+by the popular press. 
+c. Anne married [the well-known composer and performer] in 
+April 1956. 
+d. Bill is [John’s friend and brother-in-law] 
+For many speakers there is something odd about the joint reading in the 
+presence of a singular definite determiner, except when the context makes 
+available a very clear, unique referent. A survey of the British National 
+Corpus shows in fact that these constructions are most commonly used as 
+appositions, where the referent is maximally identifiable. The following are 
+typical examples from the BNC: 
+(14)a. Included in the pardon were General Leopoldo Galtieri, [the 
+former army commander and president], and 38 other officers. 
+
+b. Gordon Dunlop, [the former director and chief financial officer 
+of British Airways], has turned his interest toward … 
+It is important to stress that, out of context, all the DPs in (13) are 
+ambiguous: a friend and colleague stereotypically refers to a single person, 
+but it can also refer to two, as it does in Father Brown married a friend and 
+colleague to each other. Of course, the context, verbal agreement, or the use 
+of (in)compatible properties can bias the interpretation toward a split or a 
+joint reading to a greater or lesser extent. Thus, the following cases allow 
+only the split interpretation. 
+(15)a. [My grandfather and great-grandfather] were both sailors. 
+b. [That soldier and sailor] are always in agreement. 
+c. [The red card and white card] face each other. 
+A second point is that the split reading is not an idiomatic peculiarity 
+within English, limited to a small number of potentially lexicalized pairs like 
+bread and butter or to a limited subset of determiners. A search of the BNC 
+reveals many examples of unambiguously split readings of DP-internal 
+conjunction, with at least the following determiners and quantifiers:6 
+(16)a. Definite determiner: … the actor’s work depends so much on the 
+technical decisions of [the director and editor]… 
+b. Indefinite determiner: In today’s preliminary hearings … [a 36- 
+year-old farmer and 25-year-old X-ray technician] both claim a 
+right to asylum… 
+c. Demonstrative: [This global stance and anthropological imagination] 
+continue to guide him … 
+d. ‘‘One’’:… each item consisted of so many bars of [one tempo and 
+time signature] … 
+e. Possessive: [My mouth and throat] went dry… 
+Split conjunction is also possible with every and each; the examples in (17) 
+are also from the BNC. 
+(17)a. Every: There is a Bastille in [every glen and firth]. 
+b. Each:…the technical structure of [each step and pose] is known… 
+Example (17 a) seems most plausibly interpreted as quantification over glens 
+and over firths (river-mouths), rather than over glen-firth pairs; quantification 
+over individuals rather than pairs is also clearly possible, and probably 
+also the most plausible interpretation for each step and pose in (17 b). It 
+is possible to construct examples which make this clearer: 
+6 It is impossible to quantify exactly the percentage of split readings over the total number of 
+DP-internal coordinations, since the context cannot fully disambiguate most of the cases. 
+
+(18)a. Every man and woman has lived alone at some point. 
+b. Each man and woman had to enter the room alone. 
+Moreover, split readings seem available also for Dutch, particularly with 
+definite determiners, though not as productively for pairs of semantically 
+unrelated nouns (Jack Hoeksema, personal communication).7 
+(19)a. Deze man en vrouw zijn gescheiden. Dutch 
+this man and woman are divorced 
+‘This man and woman are divorced.’ (not necessarily from 
+each other) 
+b. Dit mannetje en vrouwtje staan op de taart. 
+this man-DIM and woman-DIM stand on the cake 
+‘‘This little man (figurine) and woman (figurine) are on top of 
+the cake.’’ 
+c. ?Een man en vrouw stonden te roken. 
+a man and woman were smoking 
+Split readings also occur in Finnish.8 
+(20)a. Ta¨ ma¨ mies ja nainen ta¨ ssa¨ laulavat kuorossa. Finnish 
+this-SG man and woman here sing-PL in a choir 
+b. Yksi sotilas ja merimies tappelivat kadulla. 
+one soldier and sailor were fighting in the street 
+On the other hand, in most languages we have looked at (Italian, Spanish, 
+French, German)9 singular joint readings are possible, but singular split 
+7 Flemish differs from Standard Dutch in not allowing split readings (Liliane Haegeman, 
+personal communication). It seems that split readings are ruled out in the plural as well as the 
+singular in this language, a situation otherwise only documented for Greek so far, but the facts 
+remain to be investigated properly. 
+8 In Finnish bare nouns can appear in the singular, so it is not as straightforward as it is in 
+English to establish that the coordination is within the DP, rather than being between a DP with 
+a determiner and a DP consisting only of a noun. However, the adverbial ta¨ssa¨ (here) cannot 
+appear with a bare noun like nainen (woman) when this is used as a DP; thus it marks the right 
+periphery of the DP commencing with ta¨ma¨ (this). 
+A striking fact about Finnish, for which we currently have no explanation, is that it is also 
+possible for the determiner to show plural rather than singular morphology; the same possibility 
+appears to be true of Russian (Andrew Spencer, personal communication, and King and 
+Dalrymple 2004), as if in these languages determiner agreement followed the pattern of verbal 
+agreement. We will not discuss these facts in the present work. 
+9 The judgments on German seem more variable than those for the other languages; it remains 
+to be determined whether this reflects idiolectal, dialectal, or possibly lexical variation. Some 
+possible split cases, e.g. Ottos Bruder und Schwester ‘Otto’s brother and sister’ have been 
+confirmed by speakers from different areas. 
+Hungarian is also a language in which split readings are available only in the plural. We do 
+not discuss Hungarian in detail here, however, as the overall pattern of number agreement in 
+the noun phrase is different from the other languages under consideration, and merits more 
+detailed analysis than we can provide here. 
+
+readings, when forced, are strongly ungrammatical even when gender 
+agreement is controlled for. 
+(21)a. *Un uomo e bambino mangiano. Italian 
+a man and child are eating 
+b. *Questo uomo e ragazzo sono buoni amici. 
+this man and boy are good friends 
+c. *Ho visto il padrone e cane insieme 
+I have seen the master and dog together 
+(22)a. *En face de moi discussaient un soldat et marin. French 
+opposite me were arguing a soldier and sailor 
+b. *Ce soldat et marin e´ taient d’accord. 
+this soldier and sailor were in agreement 
+c. *Mon grandpe` re et arrie` re-grand-pe` re e´ taient tous les deux 
+my grandfather and great-grandfather were both 
+charpentiers. 
+carpenters 
+(23)a. *En el bar vi a un soldado y pescador. Spanish 
+in the bar I saw ACC a soldier and sailor 
+b. *El soldado y pescador estaban luchando. 
+the soldier and sailor were fighting 
+c. *Ese soldado y pescador se han odiado siempre. 
+that soldier and sailor REFL have hated always 
+(24)a. *Der Stuhl und Tisch, den/die sie gerade 
+the chair and table which [sing/plur] she just 
+angestrichen hatte, waren noch feucht. German 
+painted had were still wet 
+‘The chair and table that she had just painted were still wet.’ 
+b. ??Ich sah ein Fahrrad und Auto, das/die 
+I saw a bicycle and car which[sing/plur] 
+draussen liegengelassen worden waren. 
+outside left become had. 
+‘I saw a bicycle and car that had been left lying outside.’ 
+c. *Die Hu¨ ndin und Katze, von der/denen ich dir 
+that/those dog and cat about which[sing/plur] I you 
+erza¨ hlt habe, sind draussen. 
+told have are outside. 
+‘The dog and cat that I was telling you about are outside.’ 
+
+(25) *A mesa e escrivaninha estao arrumadas. 
+the table and small desk are in order 
+Brazilian Portuguese 
+(26) *Az orvos es ugyved reszegek voltak. Hungarian 
+the doctor and lawyer were drunk 
+The prohibition of split readings extends to the conjunction of singular mass 
+nouns (e.g. butter, bread, water, earth). (27) illustrates for Italian.10 
+(27)a. *Secondo gli antichi filosofi, l’ acqua e *(la) 
+according to the ancient philosophers, the water and *(the) 
+terra sono elementi primordiali. 
+earth are elements primordial 
+b. Il frumento ed *(1’) orzo contengono glutine. 
+the wheat and *(the) barley contain gluten 
+c. In quelle due ricette ha usato rispettivamente il [latte 
+in those two recipies he has used respectively the [milk 
+e *(il) vino]. 
+and *(the) wine] 
+Among count nouns, one important exception to the impossibility of split 
+readings in Italian is the case of singular conjuncts introduced by the singular 
+quantifiers ogni ‘every’, ciascuno ‘each’, qualche ‘somesing’, qualunque freechoice 
+‘anysing’. These cases range from mildly deviant to completely normal. 
+10 Two types of mass noun conjunctions behave exceptionally. If the conjunction denotes the 
+material mix of two substances (a ‘‘cocktail reading’’), the determiner can appear in the singular 
+and verbal agreement is obligatorily singular. This is, we believe, not a genuine ‘‘split’’ reading: 
+beer and lemonade behave in all respects as the name of a single substance. 
+(i) La birra e limonata e` in frigo. 
+the beer and lemonade is in (the) fridge 
+In addition, the conjunction of certain abstract mass nouns (of the same gender) allows what 
+appear to be split readings. Such conjunctions are extremely common in our English data; (ii) 
+gives some examples from the BNC; (iii) are equivalent Italian examples. 
+(ii)a. their fitness and concentration 
+b. much determination and hard work 
+c. the fanaticism and sheer ferocity of tabloid prejudice 
+d. this optimism, cheerfulness, and absolute lack of self-pity 
+(iii)a. La corruzione e lentezza del tribunale era/erano nota/e a tutti. 
+the corruption and slowness of the court was/were known[sg/pl] to everyone 
+b. La sua estrema [pazienza e determinazione] ci ha/?hanno sorpreso. 
+the his extreme [patience and determination] us has/have surprised. 
+‘His extreme [patience and determination] has/have surprised us.’ 
+Similar examples in French do not appear to be acceptable. It might be that the second set of 
+cases could be reduced to the first one, but there is no room to discuss this interesting possibility 
+in the paper. 
+
+(28)a. ?{Ciascun / qualsiasi / qualche} cucchiaio e coltello va 
+{each / any / some} spoon and knife must be 
+lucidato individualmente. 
+polished individually 
+b. Ho invitato ogni uomo, donna e bambino ad evacuare 
+I invited every man, woman and child to abandon 
+l’ area. 
+the area 
+c. Parlero` con qualsiasi genitore e insegnante interessato 
+I will speak with any parent and teacher interested 
+ad ascoltarmi. 
+to listen to me 
+Analogous judgments hold for French and Spanish (Corine Astesano, 
+Leonor Moral, personal communication). 
+Similarly, conjunctions under nessuno ‘no’ and alcuno negative polarity 
+‘anyplur’ in Italian are only mildly deviant, though they tend to be interpreted 
+as quantifications over pairs of objects.11 
+(29)a. ?Nessun cucchiaio e coltello va pulito con l’ 
+no spoon and knife must be cleaned with 
+aceto. 
+vinegar 
+b. Non ho comprato nessuna/alcuna borsa e sciarpa per 
+(I) not have bought any/any bag and scarf for 
+questo vestito. 
+this dress. 
+The residual marginality seems to be linked to uncertainty in verbal 
+agreement; plural verbal agreement is indeed a possibility with the (a) cases, 
+but more marginal. Object position, where no agreement has to be overtly 
+realized, improves all cases. 
+3.2. Conjunction of Plurals 
+While in singular DP-internal conjunction it is usually simple to identify two 
+distinct readings, one joint, the other split, in the plural the situation is more 
+complex. Verbal agreement can no longer be used to disambiguate; on the 
+other hand, numerals can now help to clarify the total number of individuals 
+referred to. In addition, of course, it continues to be possible to pick NPs 
+denoting incompatible properties. 
+11 Italian is a negative concord language: hence in negative polarity environments, nessuno and 
+alcuno are synonymous. 
+
+3.2.1. Simple Plural Definites 
+Consider first of all cases of simple plural definites: 
+(30)a. [His friends and enemies] agreed only on one point. 
+b. He talked to [John’s sons and nephews]. 
+c [Those arrogant American generals and Yugoslavian diplomats] 
+will surely find the peace talks exceedingly irritating. 
+d. [The diamonds and rubies you saw at the exhibit] are worth a 
+king’s ransom. 
+(31)a. [His friends and colleagues] all came to the party. 
+b. [The writers, journalists and film critics who crowded the party] 
+steered the conversation into a dead end. 
+c. Robert and Bill, [my countrymen and fellow revolutionaries], 
+have been arrested. 
+In (30), pragmatics and the use of incompatible properties yield the direct 
+equivalent of a fully split reading for the bracketed DPs: pretheoretically, all 
+the bracketed DPs in (30) refer to a plurality of individuals, each of whom 
+has one and only one of the properties in the conjunction.Moreover, each of 
+the properties must be represented in the plurality, that is to say, [John’s 
+sons and nephews] cannot refer to a group made up entirely of John’s sons, 
+or entirely of John’s nephews. The necessity for all the properties to be 
+represented distinguishes these cases from simple cases of disjunction. Thus 
+for example it is clear that the requirement stated in (32) would be satisfied 
+by 5 passes without any distinctions.12 
+(32) You need [5 passes or distinctions] to be allowed to take the 
+class. 
+The minimally different 5 passes and distinctions does not cover such a case; 
+this will be further discussed in sections 5.3 and 5.4. 
+In (31), on the other hand, the use of compatible properties makes possible 
+fully mixed readings, provided all the properties are represented. For 
+instance, the friends and colleagues could refer to a group of two friends who 
+are not colleagues, three colleagues who are not friends, and five who have 
+both properties. What intuitions show here is that ‘‘fully joint’’ and ‘‘fully 
+12 In many cases of disjunction there is a strong preference for a reading where the disjunction 
+has wide scope, as pointed out by an anonymous referee with respect to (i). 
+(i) He talked to [John’s sons or nephews] yesterday. 
+We do not know why it should be so hard to get the reading where disjunction is interpreted 
+with low scope; the example in (32) shows that it is possible, however. 
+
+split’’ readings are just two extremes of a range of possible denotations. This 
+fact places an interesting constraint on the type of account we need to look 
+for: any theory which posits a strong binary distinction between fully split 
+and fully joint readings (e.g. attributing them to separate syntactic structures) 
+would simply be inadequate to deal with simple cases like (31).13 
+In the previous section we saw that in a number of languages, including 
+Italian, French, German, Spanish, Brazilian Portuguese, and Hungarian, 
+singular DP-internal conjunction can receive only the joint interpretation; 
+the split interpretation is unavailable, as illustrated in (21)–(26). In the 
+plural, however, all but one of the languages we have investigated fully allow 
+split readings in addition to the joint one.14 
+(33) Gli amici e nemici di Gianni si trovavano 
+the friends and enemies of Gianni were in 
+d’accordo su un solo punto. Italian 
+agreement on a single point 
+‘Gianni’s friends and enemies were in agreement on a single point.’ 
+(34) Les neveux et petit-neveux de Jean sont venus aux 
+the nephews and great-nephews of Jean are come to the 
+fune´ railles. French 
+funeral 
+‘Jean’s nephews and great-nephews came to the funeral.’ 
+(35) Los hermanos y hermanas de Juan se dividieron 
+the nephews and nieces of Juan REFL divided 
+la herencia. Spanish 
+the inheritance 
+‘Juan’s nephews and nieces split the inheritance.’ 
+(36) Die Bu¨ cherborde und Fenster, die sie gerade 
+the bookcases and windows which she just 
+14 The split interpretation is reminiscent of a (semi)partitive structure with tra (among/ 
+between) found in Italian: 
+(i) Venti tra generali e diplomatici discutevano animatamente. 
+twenty among generals and diplomats discussed animatedly 
+‘Twenty of the generals and diplomats were having an animated discussion.’ 
+However, the split constructions in this section cannot in general be considered elliptical 
+versions of the tra construction, since tra versions of definite examples, such as (38 a) in section 
+3.2.2. below, are clearly ill-formed. 
+(ii) *I (numerosi/vari) tra generali e soldati … 
+the numerous/various) among generals and soldiers 
+13 As discussed in section 6.1, this may be a problem for the analysis in King and Dalrymple 
+(2004). 
+
+angestrichen hatte, waren noch feucht. German 
+painted had were still wet. 
+‘The bookcases and windows that she had just painted were 
+still wet’ 
+As mentioned in section 2.2, Greek provides a single counterexample to this 
+generalization: split readings are ruled out also for plural definites like (37 a), 
+although they are available for plural indefinites like (37 b) (King and 
+Dalrymple 2004). 
+(37)a. *oi ga´ tes kai ko´ ttes 
+the-PL cats and chickens 
+b. merike´s ga´ tes kai ko´ ttes 
+several-PLUR cats and chickens 
+3.2.2. Plurals with Numerals 
+In all the languages we have tested, plural split readings can also be introduced 
+by cardinal numerals and vague adjectival numerals (many, several, 
+numerous, few, a few, various), with and without a definite determiner. Split 
+readings with vague determiners are particularly natural.15 The examples in 
+(38) are from Italian, those in (39) from French:16 
+16 One exception to the possibility of plural split readings in languages which do not allow 
+singular split readings is the significantly reduced acceptability of conjunctions of nouns with 
+modifiers or complements, introduced only by an article. Thus, (ia,b) contrast with (38): 
+(i)a. ??I [generali americani e diplomatici iugoslavi] alla conferenza… 
+the [generals American and diplomats Yugoslavian]at the conference… 
+b. ??Gli [amici di Carlo e parenti di Francesca]… 
+the [friends of Carlo and relatives of Francesca]… 
+This effect is likely to be due to the clitic nature of the Italian definite determiner, which cannot 
+cliticize to conjunctions of ‘‘larger’’ nominal categories. Italian clitic pronouns show a parallel 
+effect: they can combine with conjunctions of verbal heads with similar meaning, but not when 
+the verbs are modified by adverbials (which force the conjunction to be between full VPs, or 
+higher). 
+(ii)a. Io lo leggo e rileggo 
+I itcl read and re-read 
+‘I read and reread it.’ 
+b. *Io lo leggo subito e rileggo dopo un ora 
+I itcl read immediately and re-read after an hour 
+‘I [read immediately and re-read after an hour] it.’ 
+(Continued on next page) 
+15 The salient reading of these examples is one in which the vague numeral is applying 
+‘‘collectively’’ to the group formed by e.g. American generals and Yugoslavian diplomats, not a 
+conjunction between [the numerous American generals] and the bare plural [Yugoslavian soldiers]. 
+Note that this second (irrelevant) parse is restricted in Italian and completely unavailable 
+in French, given well-known constraints on the distribution of bare plurals in these languages. 
+
+(38)a. I {numerosi / pochi / venti} generali americani e 
+the {numerous / few / 20} generals American and 
+diplomatici yugoslavi alla conferenza concordavano 
+diplomats Yugoslavian at the conference agreed 
+su un solo punto. 
+on a single point 
+‘The numerous/few/20 American generals and Yugoslavian 
+diplomats at the conference agreed on a single point.’ 
+b. {Molti / Vari / Parecchi} amici di Carlo e 
+{many / various / several} friends of Carlo and 
+parenti di Francesca si 
+relatives of Francesca REFL 
+incontrarono per la prima volta al 
+met for the first time at the 
+matrimonio. 
+wedding 
+‘Many/various/several friends of Carlo and relatives of 
+Francesca met for the first time at the wedding.’ 
+(39)a. {Les / Ces} nombreux marins americains et soldats 
+{the / these} numerous sailors American and soldiers 
+britanniques se battaient. 
+British REFL fought 
+‘The/these numerous American sailors and British soldiers were 
+fighting.’ 
+b. Plusieurs neveux de Jean et cousins de sa femme 
+several nephews of Jean and cousins of his wife 
+sont arrive´ s. 
+are arrived 
+(Footnote 16 continued) 
+The grammaticality of (40 a) and (40 b) suggests that this process can apply recursively to 
+unmodified heads, allowing the numeral to combine with the noun and then the result to 
+combine with the article. Examples with numerals like these are again significantly degraded if 
+the nominals are larger than a simple head: 
+(iii) ??i due colleghi di Carlo e due amici di Maria 
+the two colleagues of Carlo and two friends of Maria 
+However, we leave the precise working-out of this possibility aside. 
+
+World knowledge disfavours a joint reading for these examples, but in other 
+cases, e.g. those involving people with multiple roles like (Quei) venti 
+linguisti e filosofi ((those) twenty linguists and philosophers), the joint 
+reading is clearly available, exactly as in English. However, this reading is 
+lost, in both English and Italian, if the numeral is repeated in each conjunct. 
+For instance, in (40), only the split reading (distinct objects or people) 
+survives. 
+(40)a. I tre cavatappi e tre apribottiglie erano gia` 
+the three corkscrews and three bottle-openers were already 
+sul tavolo. total: 6 
+on the table 
+b. I due amici e due colleghi apparvero sulla 
+the two friends and two colleagues appeared on my 
+soglia. total: 4 
+doorstep 
+c. Quei venti linguisti e venti filosofi non 
+those 20 linguists and 20 philosophers will 
+raggiungeranno mai un accordo total: 40 
+never reach an agreement. 
+4. DP STRUCTURE AND PLURALITY 
+We have now set out the basic data. In the rest of the paper we will argue 
+that the distribution of split and joint readings for DP-internal coordination 
+follows from the interaction of minimally different realizations of the 
+singular/plural distinction in the noun phrase with a language-invariant 
+interpretation for conjunction. In this section we set out a detailed proposal 
+for the realization of number and the internal structure of noun phrases. 
+Our interpretation for conjunction will be given in section 5. 
+4.1. Functional Projections and Their Semantics 
+The structure we will use to account for the data is an extended DP with 
+multiple projections between D and the N proper, based on Abney (1987), 
+Hudson (1989), Cinque (1994), Longobardi (1994), Ritter (1991), Siloni 
+(1994), Zamparelli (1995, 1998), and others: 
+(41)a. [DP Det [NumP Num [PlP Pl [NP (Modifiers) Noun (Modifiers) 
+(Compl)]]]] 
+b. [DP Those [NumP few [PlP Pl [NP linguistic papers]]]] 
+Following Zamparelli (1995) and others, we assume that the NP layer hosts 
+the noun plus attributive adjectives (possibly within additional projections, 
+
+which we disregard), NumP hosts cardinal numerals (and possibly other 
+‘‘weak’’ determiners, see the discussion on the indefinite article a(n) below). 
+At spell-out, DP can host ‘‘strong’’ determiners (definite articles, 
+demonstratives, universal quantifiers, and most), plus some and no, though 
+as we shall see, in the account that we are going to propose not all of these 
+elements will be generated (merged) in this layer. We will leave open whether 
+the DP layer also hosts cardinals in their specific (‘‘strong,’’ in Milsark’s 
+sense) reading. Finally, we name PlP a projection linked to the generation of 
+plural denotations. We will discuss the crucial role of Pl in sections 4.2 and 
+4.3.17 
+Although (41) is not meant to be a complete structure for the noun 
+phrase, we will work under the hypothesis that the layers in (41) constitute 
+the minimal structure necessary to obtain a quantificationally correct 
+denotation for noun phrases.18 
+Locating cardinals in NumP means that a noun phrase introduced by a 
+cardinal numeral will be quite different from a ‘‘strong’’ DP such as those 
+children (42 a). If argumental noun phrases are full DPs (a point to which we 
+will return), two children will have the structure in (42 b) as an argument, 
+while in predicative position it will be a bare NumP, as shown in (42 c) 
+(Zamparelli 1995). 
+(42)a. [DP those [NumP . . . [NP children]]] 
+b. [DP De [NumP two . . . [NP children]]] 
+c. [NumP two . . . [NP children]] 
+Observe that, for arguments, (42 b) follows automatically from the availability 
+of a post-determiner position for numerals (as in the two children) 
+which is ‘‘adjectival’’ in nature (Carden 1976, Giusti 1991, Kadmon 1987), 
+and the possibility of determinerless plurals introduced by an adjective (a 
+point made in Hoeksema 1983 and Verkuyl 1981). 
+17 In what follows, we will be deliberately vague about the specifier or head position of some 
+of these elements, assuming that the semantic variation which may be derived from this syntactic 
+difference (if any) will be orthogonal to our topic. Across constructions, it is not hard to 
+find operators with comparable meaning but a different spec/head status. Examples are whether 
+vs. if (Kayne 1991); possessor phrases (John’s; see Abney 1987, sect. 2.1 and 4.1) vs. possessive 
+pronouns; ‘‘complex determiners’’ such as more than 3 but less than 5 vs. 4 (Keenan and Stavi 
+1986). See Zamparelli (1995, sect. 6.4) and Heycock and Zamparelli (2003) for discussion. 
+The structure in (41) corresponds to the one in Zamparelli (1995, 1998), mapping his SDP 
+(‘Strong DP’) onto our DP, PDP (‘Predicative DP’) onto NumP, and KIP (‘Kind Phrase’) onto 
+PlP (for some of its functions). We adopt the present terminology because it is more in line with 
+the labels used elsewhere in the literature. 
+18 For instance, (41) does not have room for all, which must be external to DP (given all those 
+forty-five boys), possibly realized as an adjunct; see Sportiche (1988). 
+
+We will adopt a ‘‘checking’’ theory of features along the lines of 
+Chomsky (1995, 2000), augmented with a mechanism of feature underspecification 
+similar to the one described in Chomsky (2001) (but also common 
+to unification grammars; see Shieber 1985). Specifically, we assume that 
+lexical heads come with features which may have a value but may also be 
+unvalued (underspecified, in the terminology of unification grammars). The 
+presence of an unvalued feature drives the operation of agree: a head with 
+an unvalued feature establishes a local agreement relation with another head 
+which has the same feature and a value for it. As a result of this process, the 
+unvalued feature receives a value. Features without a value crash at spellout. 
+‘‘Agree’’ may involve visible movement of a constituent, or a mechanism 
+of feature percolation which only moves the formal features of some 
+element. In one important departure from the system set out in Chomsky 
+(2001) we do not assume that features that receive a value in the course of 
+the derivation are deleted before the level of interpretation is reached; on the 
+contrary, we believe that the feature values acquired by a head may have an 
+important role in determining the specific semantic function of that head. 
+This will be exemplified in section 4.4. As an abbreviatory convention, we 
+will simply write, e.g., [GENDER] for [GENDER=unvalued]. 
+In this paper we will be distinguishing between a semantic and a syntactic 
+feature for number. The semantic feature we will call LATT (for ‘‘lattice’’). It 
+has two possible values: )LATT (semantically singular) or þLATT (semantically 
+plural, i.e. ‘‘having a join semilattice structure’’ – see below). The 
+semantic feature LATT is distinguished from the /-feature for syntactic 
+number, indicated as þPLUR (syntactically plural) and )PLUR (syntactically 
+singular). ±PLUR belongs to the more general group of agreement features. 
+The motivation for this choice of features will be the topic of section 4.3. 
+4.2. The Syntax/Semantics Interface of Nominals 
+Turning to the semantics, we assume a basic domain At of atomic objects 
+(entities of type e, like the reader of this paper, the Earth, Africa, but also 
+portions of matter, like the water that fills my sink – see Link 1983, and 
+below). For the sake of simplicity we will disregard intensions unless where 
+noted and use ½X to refer to the extension assigned to the syntactic object X 
+by the interpretation function f in a model M. 
+Consider first countable expressions: what should be the denotation of 
+singulars and plurals of such nominals? Following Link (1983, 1987), 
+Landman (1989), Schwarzschild (1996), and many others, we assume that 
+pluralization can be modeled as an operation that turns the denotation of a 
+count noun, a set of singular individuals, into a set composed of all the ways 
+
+in which these individuals can be grouped together into pluralities – 
+rendered here as sets of atomic individuals (as in Landman 1989 and 
+Schwarzschild 1996). To keep the ontology uniformly flat, singular individuals 
+will also be mapped onto sets, i.e. the singleton sets containing the 
+relevant atomic individuals (as e.g. in Scha 1981). This choice will give, for 
+instance: 
+(43)a. ½John = {john} 
+b. ½The boys = {john, bill, henry} 
+The operation that forms plural individuals can thus simply be set union ([), 
+and the relation between an individual and a plurality that contains it, 
+subset (). 
+As many authors have pointed out, mass nouns have similarities with 
+count plurals, in particular, the properties of cumulative reference (Quine 
+1960) and distributed reference (Cheng 1973). These similarities will be relevant 
+for their effects at the syntax/semantics interface and should be rendered 
+by any proper semantics. One way to do so is to capitalize on the 
+notion of part. The main idea is that pluralities can be formed not only by 
+gathering singular objects into larger and larger collections, but also by 
+taking an object and breaking it down into its smaller and smaller constituent 
+parts. Two operators are needed: material part19 (£m, basically Link’s 
+1983 material part operator, modified here to apply to singletons), which 
+establishes a partial order over the domain of atom-containing singletons, 
+and material fusion (written +), which combines two atom-containing singletons 
+into a new one. With {a} and {b} atom-containing singletons, {a+b} 
+is an atom-containing singleton, while {a, b} is the plural entity formed by 
+{a} and {b}. It holds that:20 
+(44)a. X £m Y ” X+Y = Y with X, Y, singular individuals 
+(e.g. {a}, {b}); undefined otherwise; 
+b. XY ” X[Y = Y with X, Y sets 
+We can now define two operators which give rise to pluralities. If P is the 
+denotation of a predicate over singulars (a property of type  e,t>,t>), the 
+notation *P (‘‘star P’’) stands for the set product of the elements in P, minus 
+the empty set (the closure under union). 
+19 The attribute ‘‘material’’ should not be taken too literally here, since, as in Link, the + and 
+£m operators must also apply to abstract nouns such as time, volume, gravity, etc. 
+20 We use x, y, z, k, p, q, r as variables, other letters as constants; P, Q, R for sets of sets and 
+other uppercase letters for elements in the set of singular or plural individuals. 
+
+(45) *Pe;t>t> ¼ the smallest X such that P  X and 
+8Y; Z 2 X ½Y [ Z 2 X 
+If P is a singleton property of a singular individual (e.g. {{a}}), the notation 
+‚P (‘‘div P’’) stands for the set of parts of that singular individual. 
+(46) Pe;t>t> ¼ the smallest X such that 8Y<e;t>½Y m iP ! Y 2 X 
+These operators impose an algebraic structure over the domain D of discourse 
+(see Link 1983, section II; Keenan and Faltz 1985). Let E be a 
+complete Boolean algebra. Now *P is a complete join subsemilattice of E, 
+generated by the singular individuals in ½P, minus the empty set (as in 
+Landman 1989). [ is the join operation and  the ordering relation for E. 
+The set of singular individuals D can similarly be seen as a join semilattice, 
+where material fusion is the join operation and £m the ordering relation. 
+Unlike E, this semilattice doesn’t necessarily have minimal elements (i.e. 
+elements which cannot be further subdivided by £m). This captures the idea 
+of homogeneous reference, i.e. the intuition that masses like space or time 
+(and in a naive physics sense, nouns like water or food) can be subdivided 
+into smaller and smaller parts, ad infinitum. 
+Homogeneous reference is perhaps too strong a property for mass nouns 
+like furniture, hair, spaghetti, which – as argued by Chierchia (1998 a) and 
+others – do seem to have minimal elements (the individual piece of furniture, 
+stand of hair, string of pasta, but not material parts thereof). To address this 
+problem, we will make use of a revised version of (46), in (47), which 
+includes a constraint on what can be a ‘proper part’. 
+(47) Pe;t>t>(revised) = the smallest X such that 8Y<e;t>½Y m iP^ 
+CðYÞ ! Y 2 X where C is some (salient) 
+property true of P 
+For instance, if P = furniture, C could be a property like that of having 
+certain functions in domestic routine. A splinter of wood off the table, in this 
+case, would not count as furniture.21 
+Formally, a model for the interpretation of noun phrases will consist of a 
+sextuple <At, f, , [, £m,þ>, where At is the set of atomic objects, f the 
+interpretation function,  and £m the individual and material subpart 
+relations, and [ and + the join operations on count and mass denotations, 
+respectively. 
+21 Evidently, the choice ofCis a crucial and sensitive issue, but will have to remain unaddressed in 
+this paper. See Bunt (1981, 1985), Pelletier and Schubert (1989), Gillon (1992), Chierchia(1998 a) 
+for discussion. 
+
+The syntax/semantics interface we envision in this work is one where each 
+functional head denotes a function over the denotation of its syntactic 
+complement; the function varies depending on the (overt or covert) content 
+of the head. We will assume that functional layers whose heads do not 
+perform any semantic or syntactic function are simply missing: the denotation 
+of their complement is passed up the tree unaltered.22 Within this 
+model, one central aspect of the proposal is that semantic pluralization 
+(meaning by this the creation of a lattice structure, via * or ‚) is not performed 
+at N (say, with the application of plural morphology to the noun 
+root), but is left to the abstract functional head Pl, which takes the NP as its 
+complement. Pl can perform two distinct semantic operations, depending on 
+the value of its feature PLUR at LF: Pl[+PLUR] denotes star (*), the pluralizer 
+for count nouns, Pl[)PLUR] denotes div (‚), the pluralizer for mass nouns. The 
+idea of introducing a structural gap between denotation (the NP) and pluralization 
+(PlP and NumP) will be defended in section 4.3. In this section, we 
+will simply show how the system functions, combining the semantics of the 
+noun with the correct operator at Pl. 
+We take the denotation of all nouns, singular or plural, to be a set of 
+singular elements (a singular  e,t>,t>-type property). Mass nouns (or 
+mass uses of nouns) differ from count ones in that they denote a singleton 
+property at each situation where their denotation is nonempty: this is the 
+property of being the maximal amount of stuff of the relevant kind in that 
+situation (cf. Gillon 1992 for a similar stand). ‘‘Situations’’ (roughly in the 
+sense of Kratzer 1989) are taken here to be contextually dependent subparts 
+of worlds. Context can select a situation in which water ends up referring to, 
+for instance, the water in this sink, but in the absence of restrictive contexts 
+situations coincide with worlds, and out of the blue water denotes the sum of 
+all existing water at the world/index of evaluation.23 
+The relation between nouns and their mass/count status is notoriously 
+complex. Here, we will assume that nouns may have a default count or mass 
+status (in a given language), but that this status may be changed by means of 
+operators which perform ‘massification’ (e.g. from an object to the material 
+constituting it) or ‘discretization’ (e.g. from a mass to the corresponding 
+taxonomic subkind; see Pelletier and Schubert 1989). These shifts can in 
+22 1t may of course be empirically impossible to distinguish between FPs that are missing and 
+FPs that are present but completely inactive. If the latter route turns out to be preferable on 
+theoretical grounds, we will assume that semantically empty heads denote the identity function 
+as a default. 
+23 Notice that this is very close to the ‘intensional property’ view of kinds (functions from 
+worlds/indexes to the set of instantiations of that kind at that world/index discussed in Krifka 
+et al. (1995), etc. We remain neutral on the question whether mass nouns are a subkind of kinds. 
+
+principle apply to any noun, subject to world knowledge and other constraints. 
+The type of pluralization a noun undergoes depends on its number, hence 
+on its PLUR feature, according to the schema: 
+(48)a. ½[PlP Pl[+PLUR]NP[+PLUR]] = *½NP vacuous if ½NP is a singleton property 
+b. ½[PlP Pl[)PLUR] NP[)PLUR]] = ‚½NP iff NP denotes a 
+singleton-containing property at every situation where it is 
+not ;; undefined otherwise.24 
+Recall that PLUR is a feature of N, one which normally corresponds to its 
+morphosyntactic number. Pl has no morphology and no intrinsic PLUR 
+value, so it must acquire a value from N via Agree. Let’s assume that Pl is 
+merged with an unvalued feature PLUR. After Agree, Pl has obtained from N 
+a PLUR value, which determines the semantic pluralizer to apply: * for 
+morphologically plural nouns, ‚ for morphologically singular ones. 
+But information must also travel in the other direction: N needs to 
+‘‘know’’ whether pluralization will apply higher in the structure. Suppose 
+that N has the feature [)PLUR], but not a mass denotation (a singular 
+property at every situation). In this case, if pluralization takes place at Pl, 
+the output of the ‚-operator will be undefined (see (48 b)) unless one of the 
+‘massification’ operators applies at N to produce a semantics appropriate 
+for ‚. Vice-versa, if N is [+PLUR] and pluralization does not apply at Pl we 
+have the morphology of plurality without its semantic effects. The undesirability 
+of this situation can be stated as a principle: 
+(49) No vacuous plurality: Morphological pluralization is a marked 
+choice, and as such it cannot be used vacuously. 
+In this case, the rescuing operation might involve shiftingNto a kind meaning 
+(perhaps raising it to D; Longobardi 1994), but in this paper we remain 
+agnostic on the precise nature of this operation. What matters is that there are 
+cases where the information about whether semantic pluralization will be 
+applied at PlP can force the application of certain operators at the NP level. 
+Again, this can be obtained via the Agree mechanism, provided we take N to 
+have an unvalued LATT feature and Pl a valued one. A positive value for LATT 
+on the Pl head signals that a lattice structure will be formed via * or ‚; a 
+negative one, that Pl is semantically inactive (in this case, the denotation ofNP 
+24 The use of an intensional singleton restriction is crucial. Without it, we would predict that if 
+there was a single contextually salient rabbit at this world, This is rabbit should be able to mean 
+‘‘This is a part of the (contextually unique) rabbit’’, which it doesn’t mean. 
+
+is directly fed to the next level up, NumP).The two cases where the values of 
+PLUR and LATT force some semantic shift are therefore as follows: 
+(50)a. Pl[+LATT] N[+PLUR]], ½N not a mass-type  Massification 
+b. Pl[)LATT] N[+PLUR]  Kind-formation 
+Above Pl, NumP behaves as a filter. It regulates the cardinality of the 
+PlP/NP denotation, eliminating from it any plurality with the wrong number 
+of atoms, much as in Hoeksema (1983:65) and Verkuyl (1981). |X| 
+should be read as ‘‘the cardinality of X’’. 
+(51) ½[NumP n PlP] = {X : X . ½PlP and |X| = n} 
+Note that * is a pluralization operator that preserves singletons in its output, 
+as argued for by Schwarzschild (1996), Lasersohn (1995), but contra 
+Chierchia (1998 a). This choice makes at least three correct predictions. 
+First, complex determiners like one or more, or 1.0 (one point zero), are 
+interpreted correctly: 
+(52)a. ½[NumP one or more [PlP boys]] = ½[PlP boys] b. American households have, on average 1.0 dogs. (cf. Krifka 2003) 
+Second, as noted by many authors, examples like (53) seems to be falsified 
+by a single case:25 
+(53)a. There have never been relatives of mine in the House of Lords. 
+b. I have never come across linguists who have met Jakobson. 
+Third, although the English determiner no can select for singular as well as 
+plural nouns, the meaning in the two cases doesn’t seem to be 
+truth-conditionally different, as pointed out by Schwarzschild (1996) and 
+others; (54) has the same truth conditions as No boy arrived: it is false in a 
+situation in which a single boy has arrived. 
+(54) No boys arrived. 
+At the next level up, we have DPs – the canonical arguments. Semantically, 
+this means that DPs denote singular or plural individuals (type<e,t> 
+in this system) or Generalized Quantifiers (type < e,t>t>t>). We adopt 
+the following as a general semantic schema for the D head: D minimally 
+denotes a free variable whose value is chosen from the set denoted by the 
+NumP. 
+(55) ½ [DP D NumP ]  = X : X . ½NumP, NumP a property 
+25 Since relatives of mine and linguists who have met Jakobson cannot denote kinds, the possibility 
+of deriving a single individual reading from a kind denotation, as in Chierchia (1998 b), is 
+precluded. 
+
+This skeleton definition can be further specified by the lexical content of D; 
+in particular, overt quantifiers in this position bind the D variable and can 
+introduce additional restrictions on it. 
+A particularly interesting case is that of definites. Following Sharvy 
+(1980), we assume that the definite determiner the denotes Max, which picks 
+the supremum of the denotation of its complement: 
+(56) Max(P) = iY : Y . P and "Z: Z .P, ZY 
+(57) ½[DP the NumP ]  = Max(½NumP) NumP a property 
+If the argument of the definite is a set of singletons (as will be the case for a 
+singular noun), Max will be defined only in case this set actually contains a 
+single element. This captures the fact that the with a singular noun presupposes 
+(contextual) uniqueness, but the plus a plural noun picks the largest 
+plurality which can be built from the denotation of the noun (Sharvy 1980; 
+Chierchia l998 a) and so presupposes maximality.26 The proposal that mass 
+nouns are intensionally singular properties automatically derives the fact that 
+definites are always acceptable with these nouns. Furthermore, we can 
+assume that in this water, the noun water has not been pluralized by ‚. More 
+generally, singular definites and demonstratives never require or induce 
+semantic pluralization (in our terms, they are never [þLATT]). Since 
+Max(*P)=Max(P) when P is a singular property, this avoids a vacuous 
+pluralization, much in the spirit of (49). 
+4.3. Motivations for Two Heads and Two Features 
+In the DP structure introduced above two features (LATT and PLUR) and 
+three syntactic projections (NP, NumP, and PlP) are involved in the 
+semantic realization of plurality. It might seem that a more conservative 
+approach should be able to obtain the same result assigning the semantics of 
+plurality to N directly, or at most, using a single extra syntactic projection 
+(say, NumP, home of cardinal numbers) and a single ‘Number’ feature. The 
+goal of this section is to show the advantages of the more complex system 
+described above. 
+Empirical evidence for the idea that semantic plurality comes into play at 
+a structural position higher than NP comes mainly from a constraint on the 
+position of cardinal modifiers: crosslinguistically, numerical modifiers must 
+appear in a very external position in the DP. If plural nouns denoted pluralities 
+to start with, it would be a mystery why these modifiers, in many 
+cases clearly adjectival in nature, never appear in a position below PlP, 
+26 We leave open here whether the also provides an existential quantifier, or just a variable to be 
+bound at sentence level. 
+
+unlike all other adjectives. The distribution of numerals could of course be 
+stipulated at a syntactic level, but this would not capture the fact that 
+cardinal expressions are bad even when embedded in restrictive relative 
+clauses. Contrast (58 a) with (58 b). 
+(58)a. ?The people who lifted the piano came to twelve. 
+b. *I need people who come to twelve to lift the piano. 
+In English, the point is obscured by the fact that cardinal numerals are 
+marginal in predicative position, but Italian, where numeric predicates are 
+perfect, shows the same pattern. 
+(59)a. I problemi erano {quattro / molti / troppi}. 
+the problems were {4 / many / too many} 
+b. ??Devo risolvere problemi *(che siano) {quattro / molti / troppi}. 
+I must solve problems*(that are) {4 / many / too many} 
+c. *Ho comprato libri che hai letto (che erano) quattro. 
+I have bought books that you have read (that were) 4 
+Example (59 b) cannot mean: I must solve n problems, for some value of n, 
+and in (59 c) che erano quattro is only interpretable as a parenthetic nonrestrictive 
+relative.27 This fact casts serious doubts on an approach like 
+that of Krifka (2003), where numerals are lexical arguments of count 
+nouns: it would be very unusual for an argument to be obligatorily realized 
+more externally than any non-argumental modifier (e.g. the subjectoriented 
+lucky in {three lucky/*lucky three} numbers). Our approach to the 
+problem is instead that modifiers that crucially make reference to a plurality 
+can attach only above the point at which a plurality has been formed 
+by the */‚ operators, and that a mechanism of feature sharing between N 
+and the point at which plurality is formed makes the system internally 
+consistent. 
+The same argument applies to mass nouns, which show restrictions on 
+the position of amount modifiers entirely parallel to those seen for plurals 
+(consider *dirty much water, or in Italian *l’ acqua molta ‘the water much’). 
+So the very same reasoning leads to the conclusion that they, too, are 
+semantically pluralized by a PlP projection above NP, and do not come 
+from the lexicon already denoting mereologies (Leonard and Goodman 
+1940) or lattices (Link 1983). 
+27 Notice that Cerco colleghi che siano in quattro ‘I am looking for colleagues who are in a 
+group of 4’ is perfect; but the property of belonging in a group is quite different from the 
+property of having a certain cardinality. The less than total ungrammaticality of (59 b) with a 
+relative is probably due to this back-up interpretational strategy. 
+
+Additional evidence pointing to this conclusion comes from measure 
+phrases. Schwarzschild (2002) observes that measure phrases (MPs) can 
+appear as pseudopartitives with mass nouns (MP of N, as in (60 a)) only 
+when they are built on a scalar property which covaries with the part-whole 
+relation of the object they measure. 
+(60)a. [2 liters] of oil 
+b. *[90 degree(s)] of oil 
+Subparts of 2 liters of oil must be less than 2 liters, while subparts of oil 
+whose temperature is 90 degrees may well still be 90 degrees, hence the 
+contrast in (60). Interestingly, the opposite is true when measure phrases 
+appear in nominal compounds: 
+(61)a. *[2 liter] oil (poured through the hole) 
+b. [90 degree] oil (poured through the hole) 
+Here, measure phrases which track the part-whole relation are ill-formed, 
+while measure phrases which do not, such as 90 degree(s), make fine 
+compounds. The question is why (61 a) is bad. The use of the ‚-operator 
+provides an explanatory answer: MPs in nominal compounds appear in a 
+position much closer to N than MPs in pseudopartitives (witness 2 liters of 
+dark 90-degree oil), a position below the layer in which the part-whole 
+structure is generated by ‚. Therefore, only MPs which do not rely on the 
+existence of a part-whole structure are well-formed at this level. 
+(62) [DP . . . [PlP Pl[)PLUR] [NP {90 degree / *2 liter(s)} oil]]] 
+These facts strongly suggests that mass nouns, just like plurals, acquire their 
+final denotation only at some point in the derivation, but leave open the 
+possibility that a single head, say NumP, could denote the composition of 
+the two semantic operations – the creation of a plurality and its filtering by a 
+cardinal number. But coexistence in a single head strongly predicts that the 
+two operations should be both active or both inactive; in particular, it 
+should be impossible to form a plurality without filtering it. We will show 
+that if this possibility is assumed to exist we obtain a natural account of the 
+difference between English and Romance languages: the existence of two 
+distinct projections, though not logically necessary, has more explanatory 
+power. 
+Turning to the role of the features encoding plurality: in the system we 
+have proposed LATT has an exclusively semantic role, while PLUR makes sure 
+that syntactic number is consistent across all DP constituents, nouns, 
+determiners, and adjectives (in languages where adjectives agree in number), 
+so as to exclude: 
+
+(63)a. *that boys 
+b. *those boy 
+One could argue, as Hoeksema (1983) does for the agreement between 
+nouns and verbs, that this should be a semantic, not a syntactic matter. 
+Semantics alone can in fact exclude many ill-formed combinations, such as 
+*three boy, under the minimal hypothesis that singular nouns do not contain 
+pluralities, but cannot go all the way (see Wechsler and Zlatic´ 2000; King 
+and Dalrymple 2004 for the same conclusion). 
+First, the ungrammaticality of *one boys (contrasted with one or more 
+boys in (52 a)) could not be accounted for semantically, since singularities are 
+present in a plural nominal. Similarly, the contrast in English between one 
+man and woman and *two man and woman (which should both mean ‘‘a 
+couple’’) is hard to explain without a syntactic clash between two and the 
+two singular terms. 
+Second, even where a syntactically singular noun allows plural verb 
+agreement (as with ‘‘collective nouns’’ in British English), the determiner 
+always follows the syntactic number. 
+(64) {This /*These} committee are to meet tomorrow. 
+Languages like Hungarian and Latin provide clear evidence of a split 
+between syntactic and semantic features. In Hungarian, nouns remain 
+morphologically singular when combined with numerals (65 a), while plural 
+morphology is needed when the numeral is absent (65 b): 
+(65)a. O¨
+t hajo´t la´ ttam. 
+5 shipsing I saw 
+b. Hajo´ kat la´ ttam. 
+shipsplur I saw 
+Conversely, Latin proper names such as Athenae, Syracusae, Pisae are 
+syntactically plural objects with a singular semantics. At first, these cases 
+seem to fly in the face of the non-vacuous pluralization principle in (49). 
+Actually, they merely show that the principle doesn’t apply when the plural 
+suffix is stored as an idiosyncratic part of a world lexical entry and is not 
+added by the normal, productive morphological rule. The same holds for 
+plural mass nouns like brains or funds, which we can assume to have a 
+)PLUR value despite the plural suffix (hence he hasn’t got much brains/funds). 
+Capturing semantic phenomena by positing new features is methodologically 
+sound only if there are syntactic operations which make use of that 
+feature. In this respect, as Pelletier and Schubert (1989) observe, there is very 
+little purpose for a syntactic feature ±COUNT/±MASS. On the other hand, 
+
+mass noun phrases are also similar to plurals in their distribution. For 
+instance, in Italian and Spanish both bare plural count and bare singular 
+mass nominals are restricted, roughly, to lexically governed positions, while 
+singular count nominals are impossible in any argumental position 
+(Contreras 1986; Longobardi 1994). Evidently, count plural and singular 
+mass nominals must share a common value for some syntactic feature that 
+plays a role in this distribution, which cannot be easily reduced to semantics. 
+This value cannot be PLUR (a singular count noun is )PLUR just like a 
+singular mass one). The natural alternative is þLATT. 
+4.4. The Role of LATT 
+If the account given so far is correct, the semantic difference between 
+count singular and plural/mass DPs is that in the former the set of singletons 
+that the NP denotes is passed up to higher heads unaltered, while 
+in the latter it is pluralized by * or ‚. We have argued that N needs to 
+have an unvalued LATT feature, which the presence of Pl sets positively. 
+Since features cannot remain unvalued, the question is what is the source 
+of the )LATT value that singular count nouns need to receive. One possibility 
+is that it comes from a ‘singular’ equivalent of Pl[þLATT], an abstract 
+Pl[)LATT] head. But this choice is problematic: unlike its plural counterpart, 
+Pl[)LATT] would be not only phonologically, but also semantically empty – a 
+pure ad-hoc feature-assigning device. Allowing a head which is null and 
+completely inactive to set the value of a feature would render the distinction 
+between valued and unvalued features entirely moot. If instead we 
+follow the hypothesis that such ‘‘radically empty’’ heads do not exist, we 
+conclude that N must acquire a value for LATT from a source which has at 
+least a phonology, if not a semantics. This source – we propose – is any 
+overt singular determiner. 
+This idea has some positive empirical consequence. As is well known, in 
+most Germanic and Romance languages singular count nouns are impossible 
+(66), contrasting with the broad acceptability of plural count and 
+singular mass nouns (especially in object or predicative position; see 
+Contreras 1986; Longobardi 1994). 
+(66)a. Gianni e` *(un) uomo. 
+John is *(a) man. 
+b. Ho visto *(un) uomo. 
+I have seen *(a) man. 
+Our system offers a natural solution to this puzzle: plural count and singular 
+mass nominals can take þLATT from the semantically active Pl, but singular 
+
+count nouns cannot; a phonologically realized support element within the 
+DP is needed to obtain the )LATT value on N.28,29 
+Let us now examine the role of the second head associated with number: 
+NumP. As we have seen, a cardinal occupying NumP has the semantic effect 
+of filtering the denotation of its complement.30 We will assume that one and 
+all simple singular count determiners are marked )LATT. Everything else 
+(two, three, many, few, etc. for counts, much/little for masses, plus perhaps 
+one point zero, zero, etc. – the last requiring a separate, intensional treatment) 
+cooccurs with Pl and carries an unvalued LATT feature. 
+One important question is the status of a phonologically empty Num 
+head. Our proposal is that when they are merged into the syntactic structure, 
+phonologically empty Num heads have a LATT feature, but no intrinsic value 
+for it; thus, they must obtain this value by agreeing with a ±LATT-bearing 
+head, Pl or an overt determiner. 
+What is the semantic effect of ±LATT at NumP? The possibility we want 
+to pursue is that Num[)LATT] is equivalent to a cardinal with the meaning one, 
+and Num[+LATT] to a cardinal (set) meaning more than one. The former 
+preserves only elements with one atom in the denotation of PlP, the latter 
+removes exactly these elements. Pluralities formed by ‚ do not contain 
+countable atoms, so cardinals above 1 will be ill-formed with them.31 
+One[)LATT] water has a better chance of being acceptable, since the property 
+½water does indeed contain one singular individual (the totality of water). 
+We suggest that what makes this case impossible is the competition with the 
+water (see end of sec. 4.2), since by hypothesis, water denotes a singular 
+property in every possible situation – the wrong restriction for an indefinite 
+article. 
+28 Many languages have no articles and must have other ways to satisfy NLATT, but to our 
+knowledge, no language exhibits the opposite pattern (bare count singular possible, bare plural/ 
+mass nouns impossible), as predicted by our account. It must be added that many 
+no-bare-singular-count languages do allow a restricted subset of nominals (typically profession 
+names or kin terms) to appear bare in predicate position (see, for example, Munn and Schmitt 
+2005); we set these aside for present purposes. 
+29 Note that * John is dark man is no better than (66 a); adjectives contrast with determiners in 
+this respect because they are themselves unvalued for the features LATT, PLUR, and GEND; if its 
+semantics is compatible, the same adjective can easily accompany mass nouns as well as count 
+nouns (dark water, dark chair). 
+30 ‘‘Filtering’’ is a neutral term which reduces to intersective modification if number is represented 
+as the set of all pluralities having a certain cardinality, but could also apply to more 
+complex functions from pluralities to pluralities of the right size. 
+31 Even when bottom elements could exist (e.g. the pieces of furniture), there is no homogeneous 
+sortal criterion which can tell when this bottom layer has been reached (unlike the case of 
+pluralities built bottom-up, from the atoms themselves); we take this to be sufficient reason for 
+the impossibility of counting them. 
+
+In conclusion, if NumP is present, the ±LATT value will always make an 
+empty Num exclude either singular or plural individuals from a count PlP 
+denotation. Schematically, starting from a situation such as (67 a) (NumP 
+present but phonologically empty, Num and N unvalued for LATT, Pl valued), 
+the ‘agree’ operation derives (67 b). (68) gives a sample denotation at 
+the various layers. 
+(67)a. [NumP Num[LATT] [PlP P1[PLUR,+LATT] [NP N[+PLUR,LATT]]]] 
+b. [NumP Num[+LATT] [PlP P1[+LATT,+PLUR] [NP N[+LATT,+PLUR]]]]] 
+(68)a. [NP N[LATT,+PLUR]]={{a}, {b}, {c}} 
+b. [PlP P1[þLATT,+PLUR] [NP N[þLATT,+PLUR]]]={{a}, {b}, {c}, {a,b}, 
+{a,c}, {b,c}, {a,b,c}} 
+c. [NumP Num[+LATT] [PlP P1*[+LATT] [NP N[+LATT,+PLUR]]]]= 
+{{a,b}, {a,c}, {b,c}, {a,b,c}} 
+Now let’s consider another possibility. Suppose that an empty Num did not 
+have an unvalued LATT feature. In this case, LATT would never play a role in 
+the interpretation of Num. An empty NumP would be inactive and (by 
+hypothesis) absent from the structure just like an empty PlP. The denotation 
+of PlP (whether singular or plural) would not be filtered. This is a relevant 
+result, since part of the problem of examples like (6), repeated below, is that 
+if man and woman denotes a plural individual (a pair), as we have assumed, 
+this plurality should not be filtered out by this in English, despite the fact 
+that this is syntactically singular. 
+(6) This man and woman are in love. 
+We are now in a position to state the syntactic core of our proposal, and the 
+root of the difference in the availability of a singular split interpretation for 
+coordination in different languages. 
+(69) NumP Parameter 
+a. In English-type languages, Num never carries an unvalued 
+LATT feature. 
+b. In Italian-type languages, the phonologically empty Num 
+head carries an unvalued LATT feature. 
+The effect of this parameter is that in Italian-type languages (that is, languages 
+that do not allow singular split conjunctions), both singulars and 
+plurals are filtered at NumP. In English, on the other hand, singular or 
+plural semantic number may just involve the presence or absence of the 
+*-operator, and nothing else – unless of course a numeral is overtly present 
+
+at NumP. Thus, in English a singular number on the noun does not entail 
+that pluralities will be eliminated from its denotation. This is the first step in 
+obtaining (6). 
+4.5. Definite and Indefinite Articles 
+Let us now consider the behavior of singular articles and numerals in more 
+detail. Since in English (70) is as acceptable as (6), and by hypothesis man 
+and woman denotes a plurality, we want to say, somewhat paradoxically, 
+that even a or one do not always eliminate pluralities from the denotation 
+they receive. 
+(70) A/One [man and woman] were in love. 
+Our proposal is that in English a (and, probably one, taken as a stressed 
+counterpart of a, as in Perlmutter 1971) can be merged as a head of PlP, in 
+complementary distribution with the Pl empty operators. A has no semantic 
+role to play, but is inserted as a last restort to provide a )LATT value for N. 
+NumP remains empty in this case, so according to our proposed parameter, 
+it may be missing, as in (71 a); no filtering is performed. We propose that in 
+Italian, on the other hand, the corresponding indefinite form un(o) must 
+always appear at NumP. 
+(71)a. [DP De [PlP a/one[)LATT] [NP soldier and sailor]]] 
+b. *[DP De[NumP un[)LATT] [NP soldato e marinaio]]] 
+Empirical evidence for this difference comes from various well-known uses 
+of the English indefinite article which in Italian would be either unnecessary 
+((72 a,b)) or impossible ((72 c), (73)) (Munn and Schmitt 2005). In particular, 
+the cases in (73) (which have no literal equivalent in Italian) clearly show 
+that a can appear below other determiners or operators.32 
+(72)a. quella peste di (un) Gianni 
+that rascal of *(a) Gianni 
+b. Sarebbe pericoloso contare su di 
+it would be dangerous to rely on 
+lui [come (?un) testimone]. 
+him [as *(a) witness] 
+c. [Da (*un) esperto linguista], Gianni sapeva come 
+[as *(an) expert linguist] Gianni knew how 
+far crescere un albero sintattico. 
+to grow a syntactic tree 
+32 In many a time, a should be realized in P1 with an exceptional * meaning. As a reviewer points 
+out, this would allow *too many a gumdrop and jellybean. We have no solution for this problem. 
+
+(73)a. many a time 
+b. too tall a man 
+This does not imply, of course, that one can never appear in NumP. (In 
+one or more people, one or two things, the word one behaves like all other 
+numerals, and must be higher than the *-operator.) The possibility of a 
+non-NumP position for a/one is sufficient to justify the acceptability of 
+(70).33 
+Turning to definites and demonstratives, the/this/that must be able to give 
+N the )LATT value, in cases such as this coin/this change. As expected, 
+coordinations of a mass and a count nominal are possible beneath a singular 
+definite determiner:34 
+(74) this/the biographical information and photograph 
+Plural definites and demonstratives will either have no LATT feature or have 
+it unvalued (acquiring a positive value from Pl). The semantic value of 
+plural and singular definites will in any case be the same across singular and 
+plural, i.e. Max. 
+As pointed out by King and Dalrymple (2004) (who provide naturallyoccurring 
+examples), the English definite determiner, which is not morphologically 
+marked for number, can take a coordination of plural and 
+singular PlPs as complement: 
+(75)a. The stars and sun / sun and stars are an inspiration to bad 
+poetry. 
+b. My ears and nose / nose and ears were quite frozen. 
+34 On the other hand, the case of some people / some water should probably be treated as an 
+ambiguity, given the semantic difference between (ia) and (ib), and the ungrammaticality of (iic) 
+(compare with (74)). 
+(i)a. In the box there is some coin. (a specific coin) 
+b. In the box there is some change. (any amount of change) 
+(ii)a. I was looking for some photograph. 
+b. I was looking for some biographical information. 
+c. *I was looking for some biographical information and photograph. 
+33 Assuming that 1.0 is unambiguously a numeral in NumP, we would predict that it would 
+not allow the split reading even in English. The ungrammaticality of *one point zero cat and dog 
+is not probative, however, since such numerals uniformly require syntactically plural complements 
+(one point zero cat*(s)). It seems to us that (ia) is indeed unacceptable, but it is hard to 
+tell whether there is clear water between this case and (ib), which is far from natural, even 
+compared to (ic). 
+(i)a. * The average family has 1.0 cats and dogs. 
+b. ?*The average family has 2.0 cats and dogs. 
+c. The average family back then had 23.0 ducks and hens. 
+
+Evidently, the definite article must be able to contribute )LATT (to license 
+the singular count noun) but also be compatible with a +LATT value for Pl 
+on the plural noun. Rather than treating this phenomenon as an ambiguity, 
+we prefer to regard this example as an instance of feature neutralization, 
+formally similar to the cases discussed by Pullum and Zwicky (1986) (see 
+(76)) and Bayer (1996). 
+(76) Either they or you are2Pers-Sing/3Pres-Pl going to have to do it. 
+These cases are best described as words that, being identical in the two 
+forms, can have different feature values. The discussion is generally based 
+on cases where the coinciding forms involve different features for a single 
+value, but as far as we can tell there is no reason to make a distinction 
+between these cases and one in which one ‘‘form’’ is not specified for a 
+feature for which the other carries a particular value. Crucially, the definite 
+article (and the possessive) is just like the cases discussed by Bayer 
+(1996) in showing not only phonological but also semantic identity: the 
+semantics of the definite itself, i.e. the function Max, remains the same 
+whether or not LATT is present (and regardless of how it is specified). In 
+analogy with cases like (76) then, we propose that English possessives and 
+definite determiners can carry a )LATT feature-value pair (in the singular) 
+or be unspecified for the feature (in the plural, where þLATT is specified 
+on Pl), and that coordinations like (75) are to be analyzed on a par with 
+(76). 
+4.6. Gender and NumP 
+As stated, the NumP Principle in (69) is not linked to other independently 
+established differences between the relevant languages. A suggestive possibility 
+is to try to derive this principle from the presence in many languages of 
+grammatical gender agreement, given the well-established crosslinguistic 
+connection between number and gender (see e.g. the gender-number 
+agreement phenomena in Semitic languages; Corbett 2000, sec. 6.6; Lecarme 
+2002). An approach in terms of gender would link the fact that Italian uno 
+has to appear higher than PlP to the observation that uno and many 
+determiners in this and other non-singular-split languages have overt gender 
+marking. Vice-versa, the fact that English has the possibility of leaving a in a 
+low, non-filtering position would follow from the lack of (gender) agreement 
+on a. 
+Suppose, for concreteness, that in Italian NumP carries a GEND feature, 
+which forces any determiner marked for gender to be merged in NumP, or 
+to transit through it on the way to DP. In English, gender is a notional and 
+
+not a grammatical category (it refers to things, he to masculine human 
+beings, etc.); NumP and determiners in general are not marked for gender 
+and the latter are therefore under no syntactic obligation to appear in 
+NumP. 
+One result of this hypothesis is that in Italian two gender-marked 
+determiners would compete for checking on the same NumP/GendP, and 
+should thus be impossible. Indeed, in Italian, it is possible to combine 
+definite determiners and cardinal numerals just as in English – but not when 
+the numeral is uno, which alone of all the numerals carries gender agreement.
+35 
+(77)a. Ho visto {i/questi} quattro o cinque ragazzi. 
+b. I have seen {the/these} four or five boys. 
+(78)a. ??Ho visto {l’/quest’} un ragazzo. 
+b. I have seen {the/this} one boy. 
+Starting from the universal that if a language has gender, it also has number 
+agreement, we can hypothesize that the obligatory presence of GEND at a 
+head entails the presence of LATT and PLUR. The proposal in (69) could then 
+be recast in terms of whether a phonetically empty NumP hosts a gender 
+feature. 
+(79) NumP Parameter (Gender version) 
+In Italian-type languages, NumP needs to check gender 
+agreement whenever a gender-marked determiner is present. 
+However, when considered in more detail, this hypothesis faces various 
+problems. For one thing, it is not clear why determiners couldn’t obtain 
+their gender features directly from N, under Agree (which must obtain 
+between these two heads, given the behavior of LATT). Next, the hypothesis 
+that Romance NumP is valued for the gender feature raises the question of 
+why no cardinal numerals but uno are gender-marked. Typologically, the 
+correlation between singular-split languages and lack of gender in the 
+determiner system is sustained in Finnish, an English-type language with 
+respect to split readings, which lacks gender agreement, but finds a counterexample 
+in Dutch, which has a Neuter and a ‘‘Common’’ (Masculine/ 
+35 Following Crisma (1991), Cinque (1994), Zamparelli (1995), and subsequent work, we take 
+adjectives to head extended projections containing their own agreement phrases. A consequence 
+is that while in (78) the definite and indefinite articles compete for a single agreement position, 
+the plural definite can be followed by adjectives that have the status of numerals, such as molti/ 
+pochi ‘many/few’ (see Carden 1976; Giusti 1992), because these words are self-sufficient with 
+respect to agreement positions. 
+
+Feminine) gender. For these reasons, pending further studies, we retain the 
+more conservative version of the parameter stated in (69).36 
+4.7. Bare Nominals 
+A last aspect to consider before turning to NP conjunction is the possibility 
+of cases where even in Italian the denotation delivered by PlP would not be 
+filtered. In these cases, Italian should behave just like English with respect to 
+plurality. 
+The first example comes from bare plurals. (80) is entirely parallel to (53), 
+and clearly false in exactly the same conditions. 
+(80)a. Non ci sono [parenti di mio padre] in questo governo. 
+not there are [relatives of my father] in this government 
+‘There aren’t relatives of my father in this government.’ 
+(false if one is in) 
+b. Non ho mai conosciuto [linguisti che avessero incontrato 
+not I have ever met [linguists who have met 
+Jakobson]. 
+Jakobson]. 
+‘I have never met [linguists who have met Jakobson].’ 
+(false if I met one) 
+The simplest account for these facts is probably the proposal in Zimmermann 
+(1993) and Van Geenhoven (1996), according to which the bracketed noun 
+phrases above are property-denoting subparts of full DPs, which undergo 
+semantic incorporation with the verb. Suppose, specifically, that crosslinguistically, 
+these nominals are ‘bare PlPs’; the DP layer is missing, and since 
+there is no D to select NumP, the NumP layer can be missing as well. PlP, 
+however, cannot be missing, or N[LATT] would remain unvalued. But since the 
+plurality formed by Pl[þPLUR] is not filtered, singletons will be present in the 
+denotation of the plural nominals in any language, Italian included.37 
+A second case where Italian resembles English is the ‘bare noun coordination’ 
+discussed in Heycock and Zamparelli (2003), where even bare 
+singulars may occur, with a meaning similar to definites: 
+36 Munn and Schmitt (2005) propose that English and Romance differ in whether a Number 
+Phrase is projected: Number would be always present in English but optionally absent in 
+Romance. This seems to be the exact opposite of our proposal, but in fact Munn and Schmitt’s 
+‘‘Number Phrase’’ does not correspond to our NumP since it doesn’t appear to host numerals. 
+We will not explore the possibility of integrating the two approaches. 
+37 Note that we are not saying that the bare-PlP structure is the only possible structure for 
+(80); likewise, we are not claiming that kind-denoting bare plurals are bare PlPs. Both 
+assumptions are unnecessary for the point we are making, and quite possibly false. 
+
+(81) Quando apparecchi la tavola, [coltello e forchetta] vanno 
+when you set the table, [knife and fork] go 
+ai lati opposti del piatto. 
+at the opposite sides of the plate 
+Crucially for the argument here, such coordinations have a split interpretation 
+even in Italian. 
+Heycock and Zamparelli (2003) show that knife and fork is a conjunction 
+of NPs (or in the present system, PlPs) which has raised to the Spec of a 
+single DP, acquiring all its feature values in that position. 
+(82) [DP [PlP knife and fork]i De [NumP Nume ti] ] 
+Here, we can hypothesize that the ±LATT value does reach NumP, but the 
+PlP denotation is interpreted directly in the [Spec,DP] position and not fed 
+to Num. As a result, no filtering takes place. 
+4.8. Singular Quantifiers 
+The third case where Italian behaves like English is in a sense the opposite of 
+the one just discussed. In bare singular conjunctions, the PlPs were interpreted 
+above the filtering point. Another possibility is that a PlP denotation 
+may be used as a restriction for a variable at a point below the level at which 
+filtering should occur. 
+We noted in the data section that in Italian the quantifiers ogni ‘every,’ 
+qualche ‘somesing,’ qualunque ‘anysing,’ ciascuno ‘each,’ and nessuno 
+‘no/no-one’ are acceptable with singular split readings, particularly in object 
+position (83). What these quantifiers have in common is that they are singular 
+and have no plural counterpart. Apart from the last two, which we 
+return to shortly, they have no gender morphology. We will refer to this 
+class as singular quantifiers. 
+(83) Non posso lucidare {ogni / qualche / ciascun / qualsiasi / nessun} 
+I cannot polish {every / some / each / any / no-one} 
+coltello e cucchiaio in mezzo minuto. 
+knife and spoon in half a minute 
+The contrast between these cases and other singular determiners is striking. 
+Our proposal is that like a/one in English, these quantifiers are generated as 
+heads of Pl, where they provide a )LATT value; from Pl, they probably raise 
+to a higher position (DP), leaving a trace which is interpreted as a variable 
+bound by the quantifier and restricted by the denotation of the NP. 
+(84) [DP ogni/qualchei [NumP ti [Pl ti [NP ...]]]] 
+
+Since these quantifiers are in complementary distribution with the empty Pl 
+operators, their argument can never be mass or plural count. Direct evidence 
+for the existence of a ‘low’ determiner position comes from the fact 
+that some quantifiers in this class can appear under an indefinite article.38 
+(85)a. un qualche libro 
+a some book 
+(a book of some sort) 
+b. un qualsiasi libro 
+an any book 
+(a single book, it doesn’t matter which one you pick) 
+Here uno functions as a normal indefinite article in Num and qualche/ 
+qualsiasi as a modifier, as indicated by the glosses. In this case, we propose 
+that the singular quantifier does not move to DP, and no variable is left in 
+Pl; the denotation of N reaches NumP[)LATT] as is normally the case with 
+the indefinite article, and pluralities are filtered out. Under the hypothesis 
+that coltello e cucchiaio denotes the property of a plurality, the difference 
+between (86 a) (with the structure in (84), and no filtering) and (86 b) (with 
+filtering) is predicted. 
+(86)a. Posso lucidare ciascun/qualsiasi coltello e 
+I can polish each/any knife and 
+cucchiaio. split possible 
+spoon 
+b. *Posso lucidare un {qualche/qualsiasi} coltello e 
+I can polish a {some/any} knife and 
+cucchiaio. split impossible 
+spoon 
+Not all quantifiers have the in situ option. For the singular quantifiers 
+nessuno ‘NEG+one’ and ciascuno ‘each+one’ we suggest that the morphemes 
+ciasc-(‘each’) and ness-(‘no-’) are merged in Pl, but obligatorily 
+incorporate with uno in Num and raise from there to DP. Crucially, even 
+though uno/a agrees with N and must thus trigger filtering, the variable 
+bound by ciasc-/ness- is below the filtering point, NumP, and ranges over the 
+unfiltered denotation of the NP. 
+38 A related set of facts, which we will not address here, is the appearance of quale ‘which’ and 
+cui ‘whose’ after a definite article, in certain types of Italian relative clauses. 
+(i)a. il quale ragazzo 
+the which boy 
+b. il cui padre 
+the whose father 
+
+(87) [DP ciasc-uno/ness-uno [NumP t [P1P t [NP N]]]] 
+The complementary distribution of the Pl semantic pluralizer and nessexplains 
+the absence in Italian of a plural version of nessuno ‘no/no-one’ in 
+the paradigm in (88 a). Note that the problem here is not in the absence of a 
+plural form for the numeral uno: in (87 b) alc-uni contains this plural form, 
+but only with a non-negative meaning which excludes singulars (plural 
+‘some’).39 
+(88)a. Non ho visto {nessun ragazzo / *nessuni ragazzi}. 
+I haven’t seen {no+onesing boy / ‘no+onesplur boys} 
+‘I haven’t seen any boy/boys.’ 
+b. Non ho visto alcuni ragazzi. 
+I haven’t seen some+ones boys 
+‘I haven’t seen some boys.’ 
+To sum up: Our theory predicts that languages where empty NumP 
+projections do not filter for lack of the LATT feature should all have singular 
+and plural split readings. Among languages where empty NumP is normally 
+active as a filter, singular split readings may also occur, in three circumstances: 
+when the whole noun phrase is reduced to a bare PlP and no DP/ 
+NumP layer is present, when a PlP conjunction is interpreted above NumP 
+(as in (82)), or when the determiner is a quantifier which binds a variable 
+below the filtering point (at Pl, we have proposed). A/one (and all numerals) 
+do not bind variables; they are either support elements to provide the )LATT 
+feature, or filters (this second option, only when interpreted at NumP).40 
+Since singularities are filtered out of an Italian plural DP, but not out of 
+an English DP, one could ask why English speakers don’t say the boys 
+instead of the boy in a context with one boy. The answer is that having a 
+singular denotation hidden in the plural does not entail using it, provided 
+an alternative with unambiguously singular meaning is available. The use of 
+a plural noun to convey a singular meaning would involve a vacuous 
+application of the *-operator, since if the plural was used in a context where 
+NP denotes a singular property (the appropriate context for a singular 
+40 A final question about singular quantifiers is why split readings under every seem to allow 
+both cumulative and distributive predicates, while split readings under no only allow cumulative 
+ones: 
+(i)a. Every man and woman {had lived alone at some point / were married to each other} 
+b. No man and woman {?? had lived alone at some point / were married to each other} 
+The answer is simply that in (ia), if the distributive predicate truthfully applies to the pair it 
+applies to each member; but this isn’t the case with no, as the reader can easily verify. 
+39 We suggest that the English no, which may be either singular or plural, may be realized in a 
+higher position, perhaps D itself. 
+
+definite), *½NP would be equal to ½NP and pluralization would have no 
+effect, in conflict with the principle in (49). 
+5. CONJUNCTION 
+5.1. DP-internal Conjunction as Set Product 
+Having set out our position concerning the structure of noun phrases and 
+the behavior of the features associated with number within the nominal 
+system, we now return to the interpretation of conjunction. 
+Recall that our problem, as pointed out already by Cooper (1979), Partee 
+and Rooth (1983), Dowty (1988), was that if conjunction of common nouns 
+were interpreted as the intersection of the sets of individuals denoted by the 
+conjuncts, only the joint reading should be obtained. This gives the correct 
+interpretations for (89 a,b) and (90 a), but not for (90 b). 
+(89)a. That man is [friendly and collegial]. 
+b. My [friend and colleague] was waiting in the bar. 
+(90)a. # That individual is [male and female]. 
+b. That [man and woman] waited for me in the bar. 
+The problem here is clearly that the intersection of ½man and ½woman is 
+empty. Thus the split reading of (90 b) is not captured. 
+Treating singular split conjunction as set union, rather than intersection, 
+also fails to yield the correct result. If ½man is {a, b, c}, and ½woman is 
+{d, e, f}, then ½man and woman would be {a, b, c, d, e, f}. But under 
+standard accounts of disjunction, this is precisely the interpretation of man 
+or woman. Yet, we do not want the denotation of a man and woman to be a 
+single individual of either sex, but a pair of individuals. It might be thought 
+that one could keep to set union, but somehow allow the DP to refer to a 
+plurality built from the set of individuals. But this would result in serious 
+overgeneration: there is neither a principled way to then restrict that man 
+and woman to refer to exactly two individuals (rather than three or more), 
+nor a way to ensure that it refers to a pair comprised of one man and one 
+woman, rather than two men or two women. 
+Our proposal instead is that, crosslinguistically, conjunction be interpreted 
+as an operation which, given two or more sets (the denotations of 
+each conjunct), takes a member from each set, performs set union on the 
+resulting tuple, and then returns the set of all the results (Heycock and 
+Zamparelli 1999, 2000). We will refer to this operation as set product; it can 
+be defined as follows: 
+
+(91) Set Product (SP) 
+SP(S1,. . .,Sn) = def {X : X=A1[. . .[ An,A1 . S1,. . ., An . Sn} 
+For an example of how this works, consider (92) and (93): 
+(92)a. ½ NPib = {{a}, {b}}, ½ NPjb = {{c}, {d}} 
+b. ½ NPi and NPjb= SP(½ NPib,½NPjb) = {{a,c} {a,d} {b,c} {b,d}} 
+(93)a. ½ NPib = {{a}, {b}, {c}}, ½ NPjb = {{c}, {d}} 
+b. ½ NPi andNPjb=SP(½ NPib, ½NPjb) = {{a,c} {a,d} {b,c} {b,d} {c,d} {c}} 
+As can be seen from these examples, where two non-empty, non-intersecting 
+sets of elements are combined by the set product operation (as in (92)), the 
+result will be a set of two-membered sets. Crucially, if the two sets intersect 
+at all (as is the case in (93), where {c} is a member of both), for each element 
+contained in both sets there will be a corresponding element/singleton set in 
+the result. 
+This operation is clearly more complex than simple set union or set 
+intersection. As we shall see, however, it has exactly the properties required 
+for capturing the facts concerning nominal conjunction that were set out in 
+section 3. For the moment, note that the set of singleton sets in SP(S1, . . ., Sn) 
+corresponds exactly to the intersection of S1,. . ., Sn.41 
+5.2. Singular Conjunction 
+Consider first the conjunction of singular NPs. On the assumption that the 
+sets denoted by the NPs soldier and sailor are disjoint, as in (94 a), we obtain 
+(94 b): 
+41 If the denotation of one conjunct is empty our semantics in (91) returns the SP of the 
+remaining conjuncts. This means that (ia) should be equivalent to (ib) and true if men exist but 
+unicorns don’t. 
+(i)a. A man and unicorn could exist. 
+b. A man could exist. 
+One solution is to redefine SP, enforcing a restriction against vacuous conjuncts. 
+(ii) Set Product (presuppositional version) 
+SP(S1,. . . , Sn)=def {X : X=A1¨ . . . ¨An, A1 . S1, . . . ,An . Sn} if 
+S1 „ ; ^ . . . ^ Sn „ ;, 
+undefined otherwise 
+Another solution is to impute the problems of (ia) to a pragmatic condition which rules out 
+vacuous uses of conjunction. We feel that this is probably to be preferred, since such a constraint 
+is necessary in any case for ill-formed conjunctions like (iii), which no purely logical 
+condition can possibly exclude. See section 5.4 for similar cases. 
+(iii) *This man and man was / were tall. 
+
+(94)a. ½soldierb = {{a}, {b}, {c}}, ½sailorb = {{m},{n}, {o}} 
+b. ½soldier and sailorb = SP(½soldierb,½sailorb) 
+= {{a,m}, {a,n}, {a,o}, {b,m}, {b,n}, {b,o}, {c,m}, {c,n}, {c,o}} 
+That is, the interpretation of the whole conjunction is a set of all possible 
+pairs consisting of one soldier and one sailor. This is exactly as required for 
+the singular split reading. 
+The joint reading follows equally straightforwardly. This interpretation 
+can only arise in a model where there is overlap – whether partial or total – 
+between the denotations of the two NPs. (95) illustrates total overlap of the 
+two conjuncts, with three people who qualify both as friends and colleagues. 
+(96) illustrates partial overlap. 
+(95)a. ½friendb = {{a}, {b}, {c}}, ½colleagueb = {{a}, {b}, {c}} 
+b. ½friend and colleagueb = SP(½friendb, ½colleagueb) 
+= {{a}, {b}, {c}, {a,b}, {a,c}, {b,c}} 
+(96)a. ½friendb = {{a}, {b}, {c}}, ½colleagueb = {{b}, {c}, {d}}, 
+b. ½friend and colleagueb = SP (½friendb, ½ colleagueb) 
+= {{b}, {c}, {a,b}, {a,c}, {a,d}, {b,c} {b,d} {c,d}} 
+As can be seen from these examples, apart from the limit case where 
+the denotation of each of the conjuncts contains only one individual, the same 
+in each conjunct, NP conjunction always produces these ‘‘mixed’’ readings. 
+What has been said so far holds for English and Italian-type languages 
+alike, but differences begin to emerge when these denotations are embedded 
+in more structure. Consider for example a definite DP like the soldier and 
+sailor, which would be well-formed in English in a model where there was a 
+(contextually relevant) single soldier and a single (distinct) sailor, given that 
+the extracts the supremum of its complement (which is not defined for a set 
+containing no single maximal superset). Recall that a phonologically empty 
+NumP is inactive/absent in English when it is not lexically filled, and that a 
+‘‘semantically singular’’ PlP is always missing. 
+(97)a. ½ [NP soldier] b = {{a}}, ½ [NP sailor] b = {{m}} 
+b. ½ [NP soldier and sailor] b = SP(½ [NP soldier] b, ½ [NP sailor]b) 
+= {{a,m}} 
+c. ½ [DP the [NP soldier and sailor]] b = Max(½ [NP soldier and 
+sailor] b) = {a,m} 
+Now consider what happens in Italian when this conjunction is embedded in 
+a DP. Up to NP, the conjunction proceeds in exactly the same way and 
+yields the same interpretation. 
+
+Crucially, though, in this language NumP is present. Moreover, some 
+overt determiner must be present, to deliver the )LATT value. In the 
+example, Num receives the )LATT feature trom il and filters the PlP 
+denotation: only elements in the set which contain a single atom are preserved. 
+In the case of split conjunction ½PlP contains one or more twomembered 
+sets; these will be removed.42 
+(98)a. ½ [NP soldato e marinaio] b = SP(½ [NP soldato] b, ½ [NP marinaio] b) 
+= {{a,m}} 
+b. ½ [NumP Num[)LATT] [NP soldato e marinaio]] b = ; 
+c. ½ [DP il[)LATT] [NumP Num[)LATT] [NP soldato e marinaio]]] b= 
+Max(½ [NumP soldato e marinaio] b) = Max(;) = undefined 
+Since two-membered sets are removed from ½PlP, the only elements that 
+will ever remain in the case of conjoined singulars are singletons, i.e. singular 
+individuals. If any such are present, the joint reading results. If the two sets 
+are entirely disjoint, however, as in the example above, the restriction will be 
+empty and the result undefined. Interestingly, the same is true with mass 
+nouns like acqua ‘water’ and terra ‘soil,’ due to the way we have defined the 
+semantics of mass and of the definite article. 
+(99)a. ½ [NP acqua e terra] b = SP(½ [NP acqua] b, ½ [NP terra] b) = {{a,t}} 
+b. ½ [NumP Num[)LATT] [NP acqua e terra]] b = ; 
+c. ½ [DP 1’[)LATT] [NumP Num[)LATT] [NP acqua e terra]]] b= 
+Max(½ [NumP acqua e terra] b) = Max(;) = undefined 
+This is not a trivial result, considering that in other respects masses are 
+known to pattern as plural count nouns, whose split conjunction is indeed 
+acceptable. 
+Our account crucially assumes that in cases like *il soldato e marinaio, 
+coordination takes place below the level of NumP; if this was not the case, 
+filtering would affect the two conjuncts independently and the following 
+derivation could be used to derive the split reading also in Italian: 
+(100)a. ½ [NP soldato] b = ½ [NumP soldato] b = {{a}}, 
+½ [NP marinaio] b = ½ [NumP marinaio] b = {{m}} 
+42 In (98 b) we show the subtree consisting of NumP in order to make it clear what the 
+denotation of this piece of structure is; the value of LATT is only set, however, when this subtree 
+occurs as the complement of a D, as discussed in the text. 
+
+b. ½ [NumP Num[)LATT] soldato e marinaio] b 
+= SP(½ [NumP Num[)LATT] soldato] b, ½ [NumP Num[)LATT] 
+marinaio] b) 
+= SP({{a}},{{m}}) = {{a,m}} Coordination of NumPs! 
+c. ½ [DP il [NumP soldato e marinaio]] b = Max(½ [NumP soldato e 
+marinaio] b) 
+= Max({{a,m}}) = {a,m} 
+We can derive this assumption from a more general principle of economy: 
+(101) Economy of Coordinate Structure 
+Avoid duplication of identical structure within coordination. 
+That is, if a NumP layer is present in two conjuncts, with the same feature 
+values and no overt content, only the structure in (102 b) is allowed. 
+(102)a. [DP il [ [NumP Num [NP soldato]] & [NumP Num [NP marinaio]]]] 
+b. [DP il [ [NumP Num[ [NP soldato]] & [NP marinaio]]]] 
+If, on the other hand, the two noun phrases contain multiple overt numerals, 
+the structure in (102 a) becomes possible, and indeed necessary. 
+5.3. Plural Conjunction 
+So far we have considered only singular conjunction. We have demonstrated 
+how the properties of Num interact with the proposed interpretation of 
+conjunction to yield the observed pattern: crosslinguistic availability of the 
+joint reading, and a split reading limited to cases where filtering is not 
+applied to the conjoined NP denotation. We now turn to the interpretation 
+of plural conjunctions. 
+Assuming a model with two soldiers and two (distinct) sailors, we have: 
+(103)a. ½ [NP soldiers] b= {{a}, {b}}, ½ [NP sailors] b = {{m},{n}} 
+b. ½ [NP sailors and soldiers] b = SP(½ [NP soldiers] b,½ [NP sailors] b) 
+c. = {{a,m}, {a,n}, {b,m}, {b,n}} 
+Up to this point, there is no difference between ½soldier and sailor and 
+½soldiers and sailors. However, since the latter occurs as the complement of 
+Pl[+LATT,+PLUR], pluralization is triggered and the interpretations of singular 
+and plural conjunctions diverge. 
+(104) ½ [PlP Pl[+LATT,+PLUR] [NP sailors and soldiers]] b = 
+*½ [NP sailors and soldiers] b 
+= *{{a,m}, {a,n}, {b,m}, {b,n}} 
+= {{a,m}, {a,n}, {b,m}, {b,n}, {a,m,n}, {a,b,m}, 
+{a,b,n},{b,m,n},{a,b,m,n}} 
+
+As can be seen, ½[PlP sailors and soldiers] is a set containing all possible 
+sets composed by at least one soldier and at least one sailor. This corresponds 
+well to linguistic intuitions about the meaning of the conjunction, 
+as opposed to the disjunction soldiers or sailors, as observed in section 
+3.2.1. On the other hand, this account of conjunction correctly predicts the 
+existence of ‘‘mixed’’ readings. Consider now the case in which PlP is the 
+complement of an overt cardinal in NumP, e.g. three. Now the denotation 
+of the NumP will contain all the sets in the PlP denotation that have three 
+atoms: 
+(105) ½ [NumP three soldiers and sailors] b={{a,m,n},{a,b,m}, 
+{a,b,n},{b,m,n}} 
+Again, the interpretation of the Italian equivalent tre soldati e marinai would 
+be identical.43 
+It is noticeable that split readings under cardinal numerals tend to be 
+better with larger numbers; in particular, the cardinals two and (to a lesser 
+extent) three are deviant both in Italian-type and English-type languages. 
+There is no comparable effect with the joint reading. 
+(106)a. (I){*due / ??tre / ?quattro / dodici} coltelli e cucchiai sono 
+(the) {2 / 3 / 4 / 12} knives and spoons are 
+accanto al piatto. 
+beside to the plate 
+‘(The) two/three/four/twelve knives and spoons are beside the 
+plate.’ 
+b. (Quei) venti generali americani e diplomatici yugoslavi 
+(those) 20 generals American and diplomats Yugoslavian 
+non raggiungeranno mai un accordo. 
+not will reach ever an agreement 
+‘Those twenty American generals and Yugoslavian diplomats will 
+never reach an agreement.’ 
+43 An exception is evidently that when there is total or partial overlap between the sets of 
+individuals contributed by the two conjuncts (as for example would be possible in the case of 
+friends and colleagues), the singletons arising from the overlap would be preserved in English, 
+but not in Italian-type languages. Thus in the limit case of total overlap, (i) in English could 
+refer to a single individual: 
+(i) [DP my [P1P [NP friends and colleagues]]] 
+The oddness of this case can be accounted for in the same way as the oddness of the boys in the 
+context of one boy (section 4.8). 
+
+With small numbers, it is sometimes difficult to tell whether judgments 
+correspond to the predictions of our analysis, which generates all the following 
+examples, in both types of language: 
+(107)a. twenty men and women 
+b. four men and women 
+c. three men and women 
+d. two men and women 
+The (a) and (b) examples tend to be accepted by all native speakers, 
+although the higher number in (a) is felt to be more natural; there is considerable 
+variation in the acceptability reported for (c), and all speakers 
+agree that (d) is unacceptable or infelicitous. We will argue that in this and 
+other cases pragmatic considerations constrain the actual acceptabilitity of 
+the conjunction. 
+5.4. Pragmatic Issues in Conjunction 
+Observe that in our system the denotation of the DP twenty men and 
+women will necessarily include sets containing nineteen men and a single 
+woman and vice versa (in both language types), as well as those containing 
+ten men and ten women, etc. We take this to be the correct 
+result: our judgment is that (108) would be falsified if there was one door 
+guarded only by twenty sailors, but not if one was guarded by nineteen 
+sailors and one soldier: 
+(108) Every door was guarded by (some combination of) twenty soldiers 
+and sailors. 
+If this interpretation is indeed possible, there seems no straightforward 
+semantic way to exclude the DP in (107 c), even though this seems significantly 
+less acceptable. We take the main reason for this effect to be 
+pragmatic in nature. According to our analysis, there are only two possible 
+ways for the group denoted by three men and women to be constituted: 
+two men and one woman, or two women and one man. Given 
+Grice’s Maxim of Quantity, any speaker who knows that there is in fact 
+only one man or one woman in the group should refer to it with the 
+more informative one woman/man and two men/women. Further, given 
+this small a number it is hard to imagine a context in which the speaker 
+does not know whether there is only one man or only one woman, but 
+does know that there is at least one (since if not, three men or women 
+would be the appropriate description). This also explains why relatively 
+small numbers (where it is likely that the speaker would have been able 
+
+to notice the relative cardinality of the groups) are felt to be less natural 
+in general than large ones.44 
+Equally, under our analysis as it currently stands (107 d) is syntactically 
+and semantically well-formed. The marginality of this example is harder to 
+explain by Gricean principles. There is only one possible interpretation for 
+this phrase: a group of one man and one woman. There are of course 
+alternative ways to express this meaning: 
+(109)a. one man and woman 
+b. one man and one woman 
+But it is not clear what Gricean principle would lead these to be preferred. 
+Instead we hypothesize that the marginal status of the examples is due to the 
+principle against vacuous pluralization in (49), and thus to the general 
+strategy of avoiding the marked plural morphology when unnecessary.45 
+Although (107 d) is universally judged to be deviant, it is also perceived to 
+have a quite different status from the syntactically deviant (110), ruled out 
+by the mismatch between the )PLUR features that must be instantiated on 
+the nouns (given the morphology) and the þPLUR specification of the numeral. 
+(111) will be ruled out in exactly the same way: 
+(110) *two man and woman 
+(111) *those children and adult 
+In such examples, there is conflict between the PLUR features instantiated on 
+the second noun and the feature on the determiner.46 
+A final point regarding plural coordination concerns the observation in 
+section 3.2.2 that cases with the same numeral in each conjunct strongly 
+resist a joint reading: 
+(112) My four friends and four colleagues appeared on my doorstep. 
+total: 8 
+44 The pattern in (106) is replicated in the Italian (semi)partitive structure with tra ‘among’ 
+mentioned in footnote 14: 
+(i) { ??due/ ?tre/ venti } tra ragazzi e ragazze. . . 
+two three twenty among boys and girls 
+Since the syntax and the compositional semantics of the tra construction are distinct from the 
+DP-internal coordination that we have been looking at, the replication of the judgments supports 
+our view that the effect is essentially pragmatic. 
+45 There is an alternative possible account for the oddness of three men and women and the 
+even more severe oddness of two men and women, and that is the hypothesis that a hearer 
+expects a plural noun to contribute more than one entity. This expectation is necessarily violated 
+by one of the nouns in three men and women, and by both in two men and women. 
+46 Gender conflict in languages with grammatical gender gives quite variable results, a 
+discussion of which is beyond the scope of this article. 
+
+It turns out that this effect is shared by non-numeral modifiers, whether in 
+the singular or plural: 
+(113) My Italian friend and Italian colleague {*was / were} on my 
+doorstep. 
+The natural way to obtain a joint reading is to unify the numeral or adjective 
+and coordinate at NP: 
+(114) My {four / Italian} friends and colleagues were at my doorstep. 
+Since four is present twice in the numeration for (112), two separate 
+NumP must be projected. We propose that the lack of joint reading is 
+once again derived pragmatically. The task of the DP in (114) is that of 
+fixing the reference: it must be informative enough to let the hearer know 
+which objects the predicate should apply to. Given Grice’s Maxim of 
+Quantity, any element it contains should provide useful information to 
+this effect. Now, if the joint reading was intended, the second instance of 
+four or of an intersective adjective like Italian would be redundant. If, on 
+the other hand, the intended reading is split, four and Italian are informative, 
+since in this reading numbers and properties can vary independently 
+in each conjunct.47 
+Evidently the issue of a possible joint reading doesn’t arise in the case of 
+different numbers (e.g. the [two friends and four colleagues]) since such a 
+reading would have a single variable restricted with the property of being a 
+group of four and a group of two individuals. But restriction, just like 
+predication, cannot apply to a subpart of its argument, possibily because 
+this would violate (some version of) the principle of Full Interpretation. 
+(115)a. *Those four people are two students. The other two are 
+professors. 
+b. *‘‘A’’, ‘‘B’’, and ‘‘e’’ are two vowels and two capital letters. 
+6. PREVIOUS AND ALTERNATIVE ACCOUNTS 
+As indicated in the introduction, there are to the best of our knowledge no 
+accounts of the pattern of data presented in the last section because the full 
+47 This effect is much weaker in predicative nominals like (190), which seem to have reasonably 
+accessible joint readings; similar facts hold for Italian. 
+(i)a. John and Mary are [my [two best friends] and [two oldest colleagues]]. 
+b. I consider John and Mary [two excellent philosophers] but [two lousy 
+parents], 
+c. The new job turned John and Mary into [two frustrated linguists] and 
+[two experts on academic politics]. 
+At the moment we have no explanation for this difference. 
+
+pattern has not been described to date. There have, however, been analyses 
+dealing with subsets of the data; in this section we will give at least an 
+overview of these accounts. We will show that each has various problems. 
+In our view, the shortcoming of the analysis in King and Dalrymple 
+(2004) (the only account to give a detailed crosslinguistic paradigm) is that it 
+does not address the first issue that we posed at the outset, in section 2.2: 
+I. What semantics for conjunction can capture the full range of DP-internal 
+cases? 
+Our main reason for rejecting the other accounts is that we do not see any 
+principled way to extend them so that they can answer to the second issue: 
+II. What is the difference between English and languages that do not allow 
+a singular split reading? Why does this difference break down in the 
+plural? 
+6.1. Concord and Agreement 
+There are two crucial aspects to the proposal made in King and Dalrymple 
+(2004). The first is a distinction between two types of agreement features: 
+CONCORD features and INDEX features. The first generally control agreement 
+within the DP and are primarily syntactic; the second control agreement 
+between the DP and bound pronouns (and often the verb) and have more 
+semantic content, although the actual semantics of plural and singular 
+specification for the INDEX feature is not spelled out. The second crucial 
+aspect of the proposal is an ambiguity for and (and its counterparts in other 
+languages). One and has the standard Boolean semantics and contributes no 
+agreement features of its own; what is required is that the INDEX NUM of the 
+coordinate structure be the same as one of the conjunct phrases (which in 
+turn are assumed to have to match each other for semantic reasons). The 
+other and has a ‘‘group forming’’ interpretation, the semantics of which is 
+not specified. This second and itself requires that the coordinate NP as a 
+whole have a plural specification for INDEX NUM. 
+The way these parts of the proposal interact to account for the behaviors 
+of English and Italian (other possible systems are also discussed and analyzed) 
+is as follows: both languages have both types of and. English determiners 
+such as that/those specify a particular CONCORD value for the 
+coordinate phrase, but they do not determine an INDEX value. Thus the two 
+features may have different values within a single English noun phrase, as 
+they do in the case of the singular split reading (this boy and girl), where the 
+INDEX agreement feature is plural (required by the collective and, and 
+
+reflected in verbal agreement), while the CONCORD feature is singular 
+(inherited from the individual conjuncts). 
+Italian determiners such as questo/questi, on the other hand, specify both 
+a particular CONCORD value and the identical INDEX value. If two singulars 
+are coordinated with Boolean and, both CONCORD and INDEX features for the 
+coordination will be singular, so there is no conflict. If two singulars are 
+coordinated with the ‘‘group-forming’’ and, the CONCORD feature will again 
+be singular, but the INDEX feature will be plural, as we have seen. But since in 
+this language determiners specify both types of agreement feature, this 
+conflict between the singular INDEX feature required by the singular determiner 
+and the plural INDEX feature contributed by collective and will result in 
+ungrammaticality. Hence the lack of singular split cases in Italian. In the 
+plural, however, both types of and will be able to occur, since there will 
+never be any conflict between the plural INDEX feature of collective and and 
+the plural INDEX feature of the plural determiner. 
+As should be clear, we are in agreement with King and Dalrymple (2004) 
+that the facts require two different types of agreement feature: our PLUR is a 
+purely syntactic feature (and therefore corresponds largely to CONCORD), 
+while LATT signals semantic plurality, in a broad sense (and therefore corresponds, 
+even more roughly, to INDEX – one important difference being that 
+in our proposal this feature captures the well-known similarities between 
+plurals and mass nouns). There is thus considerable overlap in the two 
+accounts. Setting aside various differences of greater or lesser degrees of 
+detail, there are however two important, closely related differences between 
+our approach and that of King and Dalrymple. 
+First, we are able to maintain the assumption that there is a single lexical 
+item and; King and Dalrymple instead have to posit the existence in every 
+language of two distinct homophonous items, with distinct semantics, one of 
+which (the group-forming and) must in addition have a number specification 
+of its own. 
+Second, we have attempted to set out explictly the semantics both of 
+conjunction and of plurality that are relevant to the types of conjunction at 
+issue. Since King and Dalrymple do not specify either, it is hard to tell at 
+some points what their proposal entails. Most importantly, it is unclear 
+what the semantics could be for their proposed ‘‘group-forming’’ and, and 
+exactly what a plural INDEX value entails. For example, as discussed earlier, 
+we predict that three boys and girls is well-formed; also that twenty friends 
+and colleagues means a group composed of twenty people, each one of which 
+is either a friend or a colleague or both, and which contains at least one 
+friend and one colleague. With respect to the first example, we think that it 
+would probably be excluded in the King and Dalrymple system, though this 
+
+is actually difficult to determine. Similarly, for King and Dalrymple the 
+second example is ambiguous between a reading with Boolean and and one 
+with ‘‘group-forming’’ and, but it is again hard to tell whether or not the 
+second interpretation rules out a ‘‘mixed’’ reading of partial overlap (or 
+whether it allows an interpretation with, for example, one friend and 
+nineteen colleagues). 
+Finally, we should at least briefly address the two problems that King and 
+Dalrymple raise for our account.48 First, they point out that our account 
+predicts that a plural like my friends and colleagues could, in a particular 
+model, refer to a single individual. This is, however, a direct consequence of 
+our choice to follow Lasersohn (1995) and Schwarzschild (1996) in allowing 
+(uncoordinated) bare plurals to include singletons in their denotation, for 
+the reasons (completely independent of coordination) discussed in section 
+4.2 and in the cited literature. Nothing in our proposal would change if we 
+made the other choice, except that we would face the problems discussed in 
+that section; King and Dalrymple do not say how these problems should be 
+better resolved. 
+Second, King and Dalrymple point out that our account does not extend 
+to Greek, a language in which split readings are impossible for definite noun 
+phrases even in the plural, as was illustrated in (37), repeated here as (116). 
+(116)a. *oi ga´ tes kai ko´ ttes 
+the-PL cats and chickens 
+b. merike´s ga´ tes kai ko´ ttes 
+several-PL cats and chickens 
+We do indeed have no account at present for the absence of a split reading 
+for plural examples like (116 a). However, as far as we are able to determine 
+this is also true for King and Dalrymple. Greek does not figure in the 
+typology of languages that falls out from the different ways of specifying 
+INDEX and CONCORD features because none of the combinations would rule 
+out (116 a). Given the grammaticality of the split reading in (116 b), presumably 
+King and Dalrymple would not want to claim that Greek lacks the 
+‘‘group-forming’’ and (a possiblity that their system does however predict). 
+The only solution that we see available to them but not to us is that of 
+making the plural definite determiner require not only a plural INDEX feature, 
+but also a conjunction containing the Boolean and, while excluding 
+those containing ‘‘group-forming’’ and. While this is presumably technically 
+feasible, it would be the only case we have ever come across of this kind of 
+48 King and Dalrymple raise a third issue, that of mixed singular plural coordinations like the 
+cat and dogs. They are correct that these cases were not discussed in our earlier papers; they are 
+however addressed here in section 4.5. 
+
+selection. We therefore consider that the lack of a split reading in Greek 
+examples like (116 a) is an unsolved problem under all analyses. 
+6.2. Split Conjunction and Type-Raising 
+The first analysis of singular split conjunction that we have found in the 
+literature is a brief discussion in Dowty (1988, pp. 173–176). This analysis is 
+based on the analysis of split plural conjunction given in Partee and Rooth 
+(1983) (who cite Cooper 1979), taken together with the account of agreement 
+in Hoeksema (1983). The central idea of this analysis is that split 
+conjunction is the result of type-raising the denotations of the common 
+nouns so that they become functions over the translation of the determiner. 
+The effect of this is to allow the determiner to distribute over the conjuncts. 
+Dowty (1988, p. 175) gives the following translation for the conjunction this 
+man and woman, where \ stands for the conjunction operator and D is a 
+variable of the type that determiners translate into: 
+(117) man ) kDD(man¢ ) 
+woman ) kDD(woman¢ ) 
+man and woman ) kDD(man) \ kDD(woman¢) 
+= kD[D(man¢ ) \ D(woman¢ )] 
+this man and woman ) kD[D(man¢ ) \ D(woman¢ )](this¢ ) 
+=[this¢(man¢ ) \ this¢(woman¢ )] 
+As Dowty notes, the meaning obtained is the same as for the full DP conjunction 
+this man and this woman. 
+In fact Dowty’s ultimate analysis is slightly different, as he argues that it 
+is necessary to use Hoeksema’s (1983) collective conjunction (essentially the 
+same point is made in Krifka 1990, pp. 165–166). Since this in turn cannot 
+be generalized across categories, a non-compositional rule specifically for 
+split conjunction has to be stipulated (Dowty 1988, p. 176). In the syntactic 
+system that Dowty is using, adapted from Ades and Steedman (1982) and 
+Steedman (1985), NP\Det is the syntactic type of a type-raised common 
+noun. Thus (118 a) translates into (118 b), where &c is the ‘‘collective conjunction’’ 
+of Hoeksema (1983). 
+(118)a. [NP\Det NP\Det and NP\Det] 
+b. kP[NP\Det¢(P) &c NP\Det¢(P)] 
+Dowty makes a virtue of this specific definition, pointing out (the earliest 
+place that we have found this observation in the literature) that ‘‘even a 
+language as closely related to English as French does not have the collective 
+interpretation of conjoined common nouns,’’ and that the same is true of 
+Italian and Spanish (Dowty 1988, p. 176); that is, that these languages have 
+
+only the intersective (what we have been calling the joint) reading of 
+DP-internal conjunction. 
+As we have seen, however, while Italian-type languages do indeed lack 
+singular split conjunction, they allow split conjunction in the plural. Hence, 
+rather than stipulating a particular interpretation for and in a single language 
+(English) that allows the conjunction of two type-raised common 
+nouns, it appears instead that it would be necessary to make this interpretation 
+available for all plural DP-internal conjunctions in both English-type 
+and Italian-type languages, but exclude it in the singular for the latter group 
+of languages only. 
+We believe that this stipulation is enough to motivate looking elsewhere 
+for an account of split coordination. However, it should perhaps be pointed 
+out that there are some problems for this analysis even if we remain within 
+English. These problems concern the interpretation of numerals and 
+adjectives. Since adjectives can occur in conjunctions with the split interpretation, 
+they too will have to be made type-ambiguous in order to account 
+for the grammaticality of examples like (119), on the (preferred) interpretation 
+where the adjective modifies both nouns: 
+(119) the unripe peaches and pears 
+From this example, where the adjective is a predicate over individuals, it 
+appears that it would be necessary in fact to provide another type-raised 
+interpretation for common nouns, in order to make it possible for them to 
+take the adjective as an argument which can then be applied to each noun. 
+However, this is not the only possibility, given the acceptability of examples 
+where the adjective is a collective predicate: 
+(120)a. that ill-matched man and woman (6¼ that ill-matched man and 
+ill-matched woman) 
+b. that mutually incompatible man and woman (6¼ that mutually 
+incompatible man and mutually incompatible woman) 
+This problem is perhaps most striking when numerals are considered. In 
+accordance with Hoeksema (1983) we assume that numerals are not in the 
+same syntactic class as definites, for various reasons including their possible 
+cooccurrence with the/these/those. As shown in section 3.2.2, numerals are 
+perfectly acceptable in split conjunctions, but (except for English one) they do 
+not apply to each of the conjuncts in turn, as shown by the contrast between 
+the split conjunction in (121 a), on the one hand, and (121 b–c), on the other. 
+(121)a. those five men and women total = 5 people 
+b. those five men and five women total = 10 people 
+c. those five men and those five women total = 10 people 
+
+In a compositional semantics, we do not see any way under the type-raising 
+approach to get the determiner in (121 a) to apply to each of the conjuncts 
+while the numeral gives the number of atoms in the group denoted by the 
+conjunction as a whole. 
+6.3. The Ellipsis Analysis 
+Given the synonymy of a split conjunction like (122 a) with the full DP 
+conjunction in (122 b), an obvious line of analysis is to propose that these 
+two constructions are in fact syntactically (and semantically) identical; the 
+only difference between them is in the phonological spell-out. 
+(122)a. My mother and father live in the South. 
+b. My mother and my father live in the South. 
+That is to say, the split reading arises from ellipsis of (at least) the determiner 
+in the second conjunct: 
+(123) My mother and my father live in the South. 
+We have not found a developed version of this kind of account in the 
+literature, but we mention it here as it has been suggested to us on more than 
+one occasion as a possible alternative (see also Winter (1998), who raises – 
+but like us ultimately rejects – an ellipsis account for split conjunction). 
+Although this analysis has some initial plausibility, questions arise 
+immediately. For example, consider the contrast in acceptability between 
+(124 a) on the one hand and (124 b,c) on the other: 
+(124)a.??His stupidly attacking the speaker and general attitude made a 
+bad impression. 
+b. His stupidly attacking the speaker and his general attitude made 
+a bad impression. 
+c. His stupid attack on the speaker and (his) general attitude made 
+a bad impression. 
+Under an ellipsis account, the marginality of (124 a) is surprising, given that 
+it is, by hypothesis, simply a phonological variant of (124 b). Further, the 
+fact that it also contrasts with (124 c) suggests that it is precisely an 
+incompatibility between the verbal features within the gerund in (124 a) and 
+the purely nominal second conjunct that gives rise to the reduced acceptability, 
+suggesting that the conjunction is indeed of some DP-internal projection. 
+The following contrast makes the same point: 
+(125)a. That man and the/that woman next to him 
+b. *That mani and woman next to himi. 
+
+In addition, the ellipsis analysis has at least the problems that we have 
+already identified for the type-raising analysis. First, it offers no insight into 
+the crosslinguistic pattern of distribution of the split reading that we have 
+documented, and into its availability in the plural in these languages (why 
+should plural determiners in these languages be more susceptible to 
+ellipsis?). Second, it suffers from the same drawbacks as the type-raising 
+account when it comes to collective modifiers like ill-matched or mutually 
+incompatible: in (126) and (127), the (a) and (b) cases should differ only in 
+whether the second determiner (and numeral) is fully pronounced. But 
+(126 b) is ungrammatical and (l27 b) has a reading which (l27 a) does not 
+have.49 
+(126)a. that ill-matched man and that ill matched woman 
+b. *that ill-matched man and that ill-matched woman 
+(127)a. those five men and those five women total = 5 people 
+b. those five men and those five women total = 10 people 
+Note further that the examples in (128) show that numerals cannot undergo 
+ellipsis even when they occur between an ellipsed determiner and an ellipsed 
+adjective: 
+(128)a. My five maternal aunts and uncles were all Methodists (on my 
+father’s side they were Anabaptists).
+total = 5 maternal relatives 
+b. My five maternal aunts and my five maternal uncles were all 
+Methodists. 
+total = 10 maternal relatives 
+6.4. Wide Scope Conjunction and the Strongest Meaning Hypothesis 
+Winter (1998, chaps. 7, 8) addresses the problem of split and joint readings 
+in the context of a Boolean approach to the semantics of and (Keenan and 
+Faltz 1985). His discussion is centered on joint/split readings of plural and 
+reciprocal sentential predicates and on the split reading of every with singular 
+nominals. 
+Consider the plural/reciprocal predicates first. There is an important 
+difference in the interpretation of the (a) and (b) cases below. 
+49 Even in a theory of ellipsis in which it might be possible to explain how only one of the two 
+‘‘copies’’ of the numeral would be interpreted at LF, it remains entirely unclear how one would 
+guarantee that the set whose cardinality is being restricted contains at least one member from 
+each conjunct (Alan Munn, personal communication). 
+
+(129)a. The girls know each other. 
+b. The girls are standing on each other. 
+(130)a. The ducks are swimming and quacking. 
+b. The ducks are swimming and flying. 
+Given what we know about the relation of ‘‘knowing’’, (129 a) is judged false 
+in a situation in which not every girl knows every other girl. (129 b), on the 
+other hand, cannot require each girl to stand on each other girl, since the 
+lexical semantics of standing on plus world knowledge tells us that the 
+bottom girl is not standing on anybody. 
+On the basis of this contrast, Dalrymple et al. (1994, 1998) propose that 
+the strength of a reciprocal may be weakened to the strongest meaning 
+which is still compatible with the semantics of the predicates involved — the 
+‘Strongest Meaning Hypothesis’. Winter extends this idea to coordinated 
+predicates like (130). Here, world knowledge tells us that swimming and 
+flying are incompatible at any given moment, while swimming and quacking 
+are not. As a result, (130 a,b) are again interpreted differently: 
+(131)a. Each duck is simultaneously swimming and quacking. 
+b. Some of the ducks are swimming, the others are flying. 
+Winter’s formulation of the Strongest Meaning Hypothesis (SMH) generalizes 
+it to non-reciprocal predicates: 
+(132) Extended Strongest Meaning Hypothesis (SMH) 
+A plural predicate whose meaning is derived from one or more 
+singular predicates is interpreted using the logically strongest 
+truth conditions that are generated from one basic meaning and 
+that are not contradicted by known properties of the singular 
+predicate(s). (Winter 1998, p. 233) 
+In (l30 a), the SMH can afford the strongest possible distributive meaning, 
+(133 a); in (130 b) it must apply the different predicates to subparts of the 
+whole set of ducks, (133 b). 
+(133)a. "x.duck "P.{swim, fly} [P(x)] 
+b. 9X,Y,Z[ducks(X) ^Y[Z=X ^ "k[[k.Y fi swimming(k)] ^ 
+[k.Z fi flying(k)]]] 
+An additional condition states that meanings can never be weakened to the 
+point of making one of the properties in the conjunction inapplicable. In 
+other words, neither Y nor Z in (133 b) can be empty. 
+Winter does not explicitly discuss DP-internal plural predicates, but 
+intuitively the SMH can be extended to these cases, mapping the weakened 
+
+interpretation to the split reading with incompatible properties, e.g. (134 a), 
+and the joint reading to the purely logical, Boolean meaning which may 
+surface in (134 b) because this time the predicates are compatible. 
+(134)a. The cats and dogs were licensed. 
+b. My friends and colleagues were at the party. 
+As formulated, the SMH does not extends to split singular cases like 
+(135), which are treated via a completely different mechanism. 
+(135) Every cat and dog was licensed. 
+Winter proposes that the required meaning is obtained by giving the conjunction 
+wide scope: 
+(136) every(cat) \ every(dog)(is licensed) 
+To this effect, he proposes that the word and and its cognates in other 
+languages are actually meaningless and that the conjunctive meaning (the 
+meet operation in a Boolean semantics) is available at any level. More 
+precisely, two or more conjuncts can be collected into a tuple; a predicate 
+applying to the tuple can be applied pointwise to each element in it. At any 
+point, the free application of meet can apply to a tuple to generate a single 
+element. 
+(137)a. ½cat and dogb= <cat,dog> 
+b. ½every cat and dogb = every<cat,dog> 
+)<every(cat),every(dog)> pointwise application of ‘every’ 
+c. every(cat) \ every(dog) application of ‘meet’ to the pair 
+The possibility of applying the meet operation at any point is argued to be a 
+general property of language, linked to its ‘default’ status (in contrast, for 
+instance, to the join operation associated with disjunction). Since meet can 
+apply at any level, the pointwise technique must of course be capable of 
+distributing sentential predicates and other material, giving conjunction the 
+widest possible scope. 
+(138) <every(cat),every(dog)>(is licensed) ) <every(cat)(is licensed), 
+every(dog)(is licensed)> 
+) every(cat)(is licensed) u every(dog)(is licensed) by ‘meet’ 
+When applied to the problem of DP-internal conjunction, Winter’s 
+approach avoids some of the pitfalls of previous analyses, but tends to 
+overgenerate. Most importantly, like the others it offers no prospect of a 
+principled account of the crosslinguistic differences. 
+
+The first issue is the very existence of two separate – but in fact overlapping 
+– accounts for plural and singular split readings. If singular split 
+readings like (139 a) result from wide-scoping conjunction (a universal 
+possibility in this system), this operation should also generate plural split 
+cases like (139 b). 
+(139)a. My cat and dog were waiting for me. 
+b. My cats and dogs were waiting for me. 
+But as seen above, (139 b) would also have an analysis under the Strongest 
+Meaning Hypothesis. Prima facie, this derivational ambiguity might seem 
+an advantage, because the SMH wrongly predicts an unambiguously ‘‘joint’’ 
+interpretation for examples like (140), since friends and colleagues are 
+compatible properties: 
+(140) My friends and colleagues were waiting for me. 
+Sentence (140) can describe a situation where less than all – even zero – 
+people share the two properties.50 The SMH does not admit such drastic 
+weakening in the case of a fully distributive predicate like know in (129), so 
+the source of the ‘‘weak’’ joint reading above must be sought elsewhere. The 
+only candidate seems to be the alternative derivation via wide scoping of 
+conjunction. 
+But this solution creates other problems. Recall the interpretation of 
+examples with numerals, like (121 a), repeated here: 
+(141) those five men and women total = 5 people 
+A derivation appealing to the SMH can give the correct reading. But the 
+alternative derivation involving wide scope conjunction and pointwise 
+application will yield the unavailable interpretation (a group of 5 men and 5 
+women). 
+A further weakness that this account shares with the ellipsis and 
+type-raising accounts is that it does not explain the cooccurrence of collective 
+predicates and split conjunction (this incompatible man and woman). 
+More generally, an approach to split readings in terms of the scope of the 
+conjunction seems to allow a reading for (142 a) which is equivalent to 
+(142 b): 
+50 In fact fully joint readings are typically dispreferred, even when strongly favoured by 
+context: 
+(i) We want people for this job who can do both linguistics and philosophy. So we 
+plan to give this job to the best qualified linguist and philospher. 
+
+(142)a. Every knife and fork matches in style. 
+b. Every knife matches in style and every fork matches in style. 
+It seems to us, however, that (142 a) would be judged false in a situation in 
+which forks matched forks and knives matched knives, but forks did not 
+match with knives; (142 b) would of course be true in this scenario. 
+Finally, the nature of the two operations proposed to account for split 
+readings seems so general that it is hard to explain why in languages like 
+Italian these should be productive in the plural, but possible in the singular 
+only with the singular quantifiers at the end of section 3.1. Thus this analysis 
+also fails to offer any hope of addressing our original question II. 
+7. OTHER CASES OF CONJUNCTION 
+In the semantic literature, the idea that conjunction must have multiple 
+meanings has been based primarily on analyses of the cases in (143), which 
+appear to call for an ‘intersection’ and a ‘union’ or ‘group forming’ 
+semantics respectively. 
+(143)a. John is big and burly. 
+b. John and Mary met. 
+After reading the previous sections, the reader might wonder if we are 
+adding yet another meaning for and to this ambiguity, a meaning to be 
+found only in the highly specialized (and relatively rare) context of 
+DP-internal coordinations. This could be seen as a step toward empirical 
+coverage, but hardly toward explanatory adequacy, since questions of 
+learnability and of parsing complexity would immediately arise. 
+This is, however, not what we intend. We are proposing set product as a 
+candidate for a fully unified, crosslinguistic semantics of and, at any categorical 
+level. At the same time, we are convinced that this semantics can 
+work only in conjunction with additional principles, some tied to syntactic 
+parameters, others pragmatic in nature, yet others due perhaps to more 
+general cognitive factors. The enterprise will be successful if we are able to 
+show in each case that the interaction between coordination and these 
+factors (one example of which is the plural forming strategies seen in the 
+previous sections) yields the desired semantics. 
+It should be evident that proving a claim of this sort involves a close 
+inspection of the behavior of coordination at all levels, a task which cannot 
+possibly be taken up in the present article. In this final section, however, we 
+want at least to give a bird’s-eye view of what it would mean to apply set 
+product at some other levels: what results conjunction would produce, and 
+what general assumptions would be needed to supplement it. 
+
+7.1. Coordinations of Predicates 
+If John is tall and John is fat, then we want (144) to come out true: 
+(144) John is tall and fat. 
+The simplest view of the semantics of singular adjectives is that they denote 
+sets of singletons. Set product will apply union to each possible pair of 
+individuals in the denotation of the two predicates, forming two-membered 
+sets if the two individuals differ, singletons if they are the same. Thus, if the 
+singleton {john} is present in each predicate, it will be present in the 
+denotation of tall and fat. In addition, if John and Mary denotes a plural 
+individual, the set product approach licenses an inference from (a) to (b) in 
+cases such as (145) and (146).51 
+(145)a. Last night, John played and Mary danced at the Jimmie bar. 
+b. Last night, John and Mary played and danced at the Jimmie bar. 
+(146)a. John is a linguist and Mary is a philosopher. 
+b. {John and Mary/These two people} are a linguist and a 
+philosopher. 
+This pattern seems to be acceptable, even in the absence of respectively, and 
+it is not captured by a union or intersection approach without further 
+assumptions (see the discussion on the Strongest Meaning Hypothesis in 
+section 6.4 above). However, using other predicates we have sentences that 
+have the flavor of a contradiction. 
+(147)a. ??My grandparents were taller than me and much shorter than 
+me. 
+b. #My grandparents died in Normandy and drowned in the 
+Pacific. 
+c. ??My friends know German and don’t know any European 
+language. 
+Evidently, pragmatics (and the Strongest Meaning Hypothesis) should 
+favour a distributive reading over the plurality, yet this reading is not readily 
+available. In yet other cases, the sentences become worse with certain 
+choices of subjects. Consider, in particular, the case of coordinate subjects at 
+least one of which is a quantifier. 
+(148)a. (At the conference,) John was a linguist and every Italian was a 
+philosopher. 
+51 Here and in the following examples, we assume that sentence-conjoining and has the 
+standard propositional semantics. See below for some comments. 
+
+b. *John and every Italian were a linguist and a philosopher. 
+(149)a. Most Scots must be linguists and some Italians must be 
+philosophers. 
+b. ??Most Scots and some Italians must be linguists and philosophers 
+(in the ‘‘mixed’’ reading) 
+(150)a. More than two women are linguists and more than three men 
+are philosophers. 
+b. ??More than two women and more than three men are linguists 
+and philosophers. 
+(in the ‘‘mixed’’ reading) 
+Thus, in this area our semantics must be constrained by additional principles. 
+We will not address the problems raised by (147) here, but we do have 
+some comments on (148)–(150), at the end of the next section. 
+7.2. DP Coordination 
+The two leading proposals for the semantics of noun phrases take them to 
+denote either individuals (sets of atoms, in our approach) or generalized 
+quantifiers (sets of properties, i.e. sets of sets of sets of atoms in our proposal). 
+A popular view since Partee and Rooth (1983), Partee (1987) is that 
+type-shifting between these two denotations is also possible, subject to 
+various constraints. 
+Consider the first possibility, that full DPs denote individuals. An 
+immediate problem is that the application of SP to sets which do not contain 
+other sets is undefined. 
+(151) ½John and Maryb =SP({j},{m}) undefined! 
+One solution is to apply a covert operator, call it Q for ‘‘Quine’’, which 
+shifts individuals into singular properties. Now SP can apply: 
+(152) ½John and Maryb = SP ({j}, {m}) ) Qtype-shift 
+SP({{j}, {{m}})={{j,m}} 
+Here, set product mimics union or group formation, yielding a plural 
+individual (or perhaps, if further type-shifting applies, a GQ built on it) 
+which is a suitable denotation to combine with cumulative predicates such 
+as meet.52 In this respect, our semantics for conjunction can be considered a 
+generalization of the classic ‘‘collective’’ or ‘‘non-boolean’’ and of Hoek- 
+52 Q might be independently needed to interpret equatives: 
+(i) Mark Twain is (probably) Samuel Clements. 
+
+sema (1983, 1988), Krifka (1990), Lasersohn (1995) – see especially the 
+latter, sec. 14.4 for a similar proposal in an event-based framework. 
+Now let’s consider the second possibility: DPs denote generalized 
+quantifiers (GQs). Thus, John denotes the set of properties which are true of 
+John, i.e. kP[P({j})], and the same for Mary. What happens if we apply set 
+product to these denotations? 
+(153) ½John and Maryb =SP(kP[P({j})],kQ[Q({m})]) 
+Given the definition of SP, the result will be a set containing the result of the 
+union of each property John has with each property Mary has. Say the two 
+properties involved in the union are P and Q. If P ¼ Q (i.e. if John and Mary 
+share a property), then [(P,Q) ¼ P ¼ Q. This means that the set of all properties 
+which are common to John and Mary, i.e. the intersection between the 
+two GQs, will still be represented in the output of SP. Next, if Mary has 
+property P and John has property Q, and PQ, then [(P,Q) ¼ Q, i.e. only the 
+most general property is preserved in the conjunction. This is as it should be: if 
+John is from England and Mary is from the South of England it is fair to 
+conclude that John and Mary are from England, nothing more. Finally, if 
+Mary has property P and John doesn’t have any property R such that R . P, 
+then P will not be present in the conjunction of the GQs John and Mary, since 
+for every Q John does have, [(P,Q)P. Thus in this case, set product mimics 
+intersection. Interestingly, the same reasoning holds for the conjunction of 
+more complex GQ such as (154), as the reader can verify. 
+(154) ½John and between 1 and 3 womenb =SP(kP[P({j})],kQ["X . 
+(women\Q)j X j  3]) 
+One could wonder whether the set product operation doesn’t end up 
+introducing undesirable properties, for instance properties that neither GQ 
+conjunct independently has. There are two main cases to take into account. 
+Consider first GQs which are monotonically increasing in their second 
+argument, like proper names, or numerals like three or more. In this case it 
+can be shown that no extra property is added. Suppose, for instance, that 
+the following holds: 
+(155)a. John is fat (and he is not tall) 
+b. Mary is tall (and she is not fat) 
+By weakening, the following must also be true; the disjunction is simply 
+validated by its first member. 
+(156)a. John is fat or tall. 
+b. Mary is tall or fat. 
+
+If disjunction takes narrow scope, the property R ¼ ½fat or tall must be in 
+kP[P({j})] and in kQ[Q({m})] (i.e., these GQs are closed under disjunction). 
+But R is precisely one of the elements in the set returned by applying SP to 
+the GQs John and Mary. 
+(157) [(½fatb,½tallb)=½fat or tallb 
+Thus, SP isn’t adding any property which isn’t already common to the GQ 
+conjuncts. 
+The conjunction of GQs is more problematic in the case of quantifiers 
+which are not monotone increasing in their second argument (e.g. no, 
+exactly 2, less than 20). If (158 a) is true, it doesn’t follow that (158 b) is 
+true. 
+(158)a. Exactly 2 people are children. 
+b. Exactly 2 people are human beings. 
+When applied to the GQs built with these determiners, set product validates 
+the incorrect inference from (a) and (b) to (c) in (159) and (160).53 
+(159)a. [Exactly two children in the group] were males. 
+b. [Exactly two adults in the group] were females. 
+c. [Exactly two children] and [exactly two adults] in the group were 
+people. 
+(160)a. [No children in the group] were males. 
+b. [No adults in the group] were females. 
+c. [No children] and [no adults] in the group were people. 
+However, it is worth noting that the class of GQs where the problem 
+appears has received alternative analyses for reasons quite independent of 
+coordination. For instance, a popular approach for no and other negative 
+quantifiers has been to factor no into an external negative operator that 
+combines with a (singular) indefinite (161), which is monotone increasing 
+(see Ladusaw 1992). 
+(161) NEG. . . [DP De [ [PlP a children] and [PlP a adults]]] were people. 
+As for the case of ‘exact numerals’, Krifka (1999) points out that treatment 
+of these elements in terms of standard Generalized Quantifiers makes 
+false predictions in various domains (see also Landman 2000). One alternative 
+is to see exactly as a sentential adverbial which applies to the ‘normal’ 
+53 This is assuming that people ¼ males+females. Note that the system sketched above would 
+not validate the inference to Exactly two children and exactly two adults in the group were male 
+and female. 
+
+interpretation for cardinal numerals (an existential quantifier over pluralities 
+with a cardinal filter, see section 4.2) and blocks certain scalar implicatures 
+normally associated with numerals. Spelling this out would again go beyond 
+the purpose of this overview, but there is one aspect of this approach which 
+might immediately appear counterintuitive, and which can be easily defused. 
+Exactly can be associated with only one conjunct, as in (162). 
+(162) John and exactly one woman met. 
+Regarding exactly not as a determiner but as an operator with scope wider 
+than the conjunction appears to run against well-known scope island effects 
+attributed to coordination. Consider however (163): 
+(163) I interviewed [10 men but only 3 women] 
+There is widespread agreement that only is not a determiner (since it doesn’t 
+respect Conservativity), but rather an operator over comparison classes 
+which are built using the predicate. Despite this, only has no problem 
+appearing within a single conjunct. Whatever the proper analysis of these 
+cases, it seems likely that the same method could be applied to exactly in 
+(162). 
+The possibility of existential quantification over plural individuals is 
+crucial in other cases. Take a party scenario with 3 guests on the balcony 
+and 3 in the bedroom. In this situation, (164 a) is clearly false (assuming that 
+3 guests don’t count as ‘‘many’’). Yet, (164 b) and (164 c) seem to have a true 
+reading (admittedly, less natural in (164 c)). 
+(164)a. At present, [{exactly 6 / more than 5 / many} guests] are on the 
+balcony or [{most / exactly 6 / more than 5} guests] are in the 
+bedroom. 
+b. At present, there are [{exactly 6 / more than 5 / many} guests] on 
+the balcony and in the bedroom. 
+c. At present, [{exactly 6 / more than 5 / many} guests] are on the 
+balcony and in the bedroom. 
+Examples (164 b,c) would be false if 6 guests were amassed in the bedroom 
+but nobody was on the balcony – a situation in which the same sentence 
+with and replaced by or would be judged true. How does set product fare in 
+obtaining these ‘cumulative’ readings? Assuming that the set product conjunction 
+of on the balcony and in the bedroom has been pluralized, the 
+resulting denotation will contain the plural individual formed by the six 
+guests, but no individual guest (its minimal elements will be pairs of guests). 
+This denotation will be a member of the bracketed quantifiers in (164 b,c) 
+only if these are rendered as existentials over pluralities, as in e.g. (165 b), 
+
+and not as cardinal quantifiers over singular individuals, like e.g. 6 or more 
+in (165 c) (see Barwise and Cooper 1981, p. 169). 
+(165)a. More than 5 guests are on the balcony and in the bedroom. 
+b. kP 9X [guests¢(X) ^ j X j>5 ^ P(X)] 
+(*SP(on_the_balcony¢,in_the_bedroom¢)) True 
+c. kP 9x1 . . . 9x6[x1 6¼x2 ^ x1 6¼x3 ^ . . . ^x5 6¼x6 ^ guest¢(x1) ^ . . . ^ 
+guest¢(x6) ^ P(x1) ^ . . . ^ P(x6)] 
+(*SP(on_the_balcony¢,in_the_bedroom¢)) ” 
+kP 6x[guest¢(x) ^ P(x)] 
+(*SP(on_the_balcony¢,in_the_bedroom¢)) False 
+Abstracting away from the difference between (164) (b) and (c), this leads 
+us to expect, probably correctly, that the ‘cumulative’ readings in (164) 
+should be unobtainable with genuine singular quantifiers like every/each, 
+as in (166). 
+(166) #Every/Each guest was on the balcony and in the bedroom. 
+One last issue to consider here is the relation between the conjunction of 
+GQs and the conjunction of predicates. With a single GQ subject, in (167), 
+(c) follows from (a) or (b) if both tall and fat are present in the GQ for 
+every boy (kQ "X[boy¢(X) fi Q(X)]) and no boy (kQ:9X[boy¢(X) ^ 
+Q(X)]). 
+(167)a. Every boy was tall and every boy was fat. 
+b. No boy was tall and no boy was fat. 
+c. Every/no boy was tall and fat. 
+But interestingly, bad ‘mixed conjunctions’ like (168), repeated from (148), 
+can now be distinguished from the acceptable mixed coordinations seen in 
+(145) and (146). 
+(168)a. (At the conference,) John was a linguist and every Italian was a 
+philosopher. 
+b.*John and every Italian were a linguist and a philosopher. 
+The difference is that cases like (168) must be conjunctions of GQs, since one 
+of the conjuncts is a GQ. However, the property of being a linguist and a 
+philosopher (the set product of ½ linguist  and ½ philosopher, a set of pairs or 
+singular individuals) will not be present in ½ John and each Italian , the set 
+containing the union of the properties of John and of each Italian – unless 
+the conjoined property is independently present in each conjunct, i.e. only if 
+(169) is true. 
+
+(169) John was a linguist and a philosopher and each Italian was a 
+linguist and a philosopher. 
+But of course, (168 a) does not validate (169). On the other hand, John 
+and Mary played and danced (from (145)) will be true because John and 
+Mary can be interpreted as a conjunction of individuals and yield a 
+plural individual which may be present in the set product of played and 
+danced. 
+7.3. Coordination at Higher Levels 
+As might be expected, the level which is less susceptible to an approach 
+along the lines of the one presented here is the coordination of sentences, 
+and in particular truth-value bearing declaratives. The problem here is not 
+so much to understand what kinds of sets would be conjoined by set product 
+in coordinations such as (170) (candidates that come to mind are (sets of) 
+events, sets of answers, sets of worlds where the imperatives have been 
+obeyed), but whether the tuples of elements predicted by the application of 
+set product actually play a role in the interpretation of these coordinations 
+and, if not, how they can be filtered away. 
+(170)a. John left and Mary returned. 
+b. When did John arrive and how did he get in? 
+c. Go and get lost! 
+One possible avenue to explore relies on events; if two sentences denote two 
+distinct events e1 and e2 their set product conjunction {{ e1, e2}}, obtained as 
+in (152) above, could be the base on which event ordering is defined. 
+Unfortunately, at this stage we must leave these speculations entirely 
+unexplored. 
+8. CONCLUSIONS 
+There is a long history of using conjunction as a tool to probe the syntax 
+of non-coordinated structures (often with controversial results: see, for 
+example, Steedman 2000). In this paper we have attempted simultaneously 
+to use conjunction in a new way as a tool for exploring the syntax and 
+semantics of nominal projections and to develop a semantics for conjunction 
+that covers this case but which holds out the possibility of being 
+extensible beyond it. 
+Conjunction, so simple in appearance, does not give up its mysteries 
+easily; we hope at least to have shown that there are additional readings that 
+
+any fully adequate account for conjunction will have to give an account of, 
+and that anchoring these readings to syntactic projections can lead to 
+important and potentially far-reaching insights. 
+REFERENCES 
+Abney, S. P.: 1987, The English Noun Phrase in its Sentential Aspect, PhD thesis, MIT. 
+Ades, A. and M. Steedman: 1982, ‘On the Order of Words’, Linguistics and Philosophy 4, 517– 
+538. 
+Barwise, J. and R. Cooper: 1981, ‘Generalized Quantifiers and Natural Language’, Linguistics 
+and Philosophy 4, 159–219. 
+Bayer, S.: 1996. ‘The Coordination of Unlike Categories’, Language 72(3), 579–616. 
+Bergmann, M.: 1982, ‘Cross-categorial Semantics’, Linguistics and Philosophy 5, 299–401. 
+Bernstein, J.: 1993, Topics in the Syntax of Nominal Structure across Romance, PhD thesis, 
+CUNY. 
+Bunt, C. H.: 1981, The Formal Semantics of Mass Terms. PhD thesis, University of Amsterdam. 
+Bunt, C. H.: 1985, Mass Terms and Model-Theoretic Semantics, Cambridge University Press, 
+Cambridge. 
+Carden, G.: 1976, English Quantifiers: Logical Structure and Linguistic Variation, Academic 
+Press, London. 
+Cheng, C.-Y.: 1973, ‘Response to Moravcsik’, in J. Hintikka, J. Moravczik, and P. Suppes 
+(eds.), Approaches to Natural Language, pp. 286–288. Reidel, Dordrecht. 
+Chierchia, G.: 1998 a, ‘Plurality of Mass Nouns and the Notion of ‘‘Semantic Parameter’’ ’, in 
+S. Rothstein (ed.), Events and Grammar, pp. 53–104. Kluwer, Dordrecht. 
+Chierchia, G.: 1998 b, ‘Reference to Kinds across Languages’, Natural Language Semantics 6, 
+339–405. 
+Chomsky, N.: 1995, The Minimalist Program, MIT Press, Cambridge, Mass. 
+Chomsky, N.: 2000, ‘Minimalist Inquiries: The Framework’, in R. Martin, D. Michaels, and 
+J. Uriagereka (eds.), Step by Step, pp. 89–155. MIT Press, Cambridge, Mass. 
+Chomsky, N.: 2001, ‘Derivation by Phase’, in M. Kenstowicz (ed.), Ken Hale: A Life in Language, 
+pp. 1–52. MIT Press, Cambridge, Mass. 
+Cinque, G.: 1994. ‘Partial N-Movement in the Romance DP’, in G. Cinque et al. (eds.), Paths 
+Towards Universal Grammar, pp. 85–110. Georgetown University Press, Washington, D.C. 
+Contretas, H.: 1986, ‘Spanish Bare NPs and the ECP’, in I. Bordelois, H. Contreras, and 
+K. Zagona (eds.), Generative Studies in Spanish Syntax. Foris, Dordrecht. 
+Cooper, R: 1979, ‘Model Theory for a Fragment of English Syntax’, draft chapter of a projected 
+book, Madison, Wisconsin. 
+Corbett: 2000, Number, Cambridge University Press, Cambridge. 
+Crisma, P.: 1991, ‘Functional Categories inside the Noun Phrase: A Study on the Distribution of 
+Nominal Modifiers’, honors thesis, University of Venice. 
+Dalrymple, M., M. Kanazawa, S. Mchombo, and S. Peters: 1994, ‘What Do Reciprocals 
+Mean?’, in M. Harvey and L. Santelmann (eds.), Proceedings of Semantics and Linguistics 
+Theory 4, pp. 61–78. Cornell University, Ithaca, N.Y. 
+Dalrymple, M., M. Kanazawa, Y. Kim, S. Mchombo, and S. Peters: 1998, ‘Reciprocal 
+Expressions and the Concept of Reciprocity’, Linguistics and Philosophy 21, 159–210. 
+Dowty, D.: 1988, ‘Type Raising, Functional Composition, and Non-Constitutent Conjunction’, 
+in R. Oehrle, E. Bach, and D. Wheeler (eds.), Categorial Grammars and Natural Language 
+Structures, pp. 153–198. Reidel, Dordrecht. 
+Gillon, B.: 1992, ‘Towards a Common Semantics for English Count and Mass Nouns’, Linguistics 
+and Philosophy 13, 597–640. 
+
+Giusti, G.: 1991, ‘The Categorial Status of Quantified Nominals’, Linguistische Berichte 136, 
+438–452. 
+Giusti, G.: 1992, La Sintassi dei Sintagmi Nominali Quantificati: Uno Studio Comparativo, PhD 
+thesis, University of Venice. 
+Heim, I.: 1982, The Semantics of Definite and Indefinite Noun Phrases, PhD thesis, University of 
+Massachusetts at Amherst. 
+Heycock, C. and R. Zamparelli: 1999, ‘Toward a Unified Analysis of DP Conjunction’, in P. 
+Dekker (ed.), Proceedings of the Twelfth Amsterdam Colloquium, pp. 127–132. Universiteit 
+van Amsterdam. 
+Heycock, C. and R. Zamparelli: 2000, ‘Plurality and NP-Coordination’, in M. Hirotani et al. 
+(eds.), Proceedings of NELS 30, pp. 341–352. GLSA, University of Massachusetts at 
+Amherst. 
+Heycock, C. and R. Zamparelli: 2003, ‘Coordinated Bare Definites’, Linguistic Inquiry 34(3), 
+443–469. 
+Higginbotham, J.: 1983, ‘Indefiniteness and Predication’, in E. Reuland and A. ter Meulen 
+(eds.), The Representation of (In)Definiteness. pp. 43–70, MIT Press, Cambridge, Mass. 
+Hoeksema, J.: 1983, ‘Plurality and Conjunction’, in A. G. B. ter Meulen (ed.), Studies in Model- 
+Theoretic Semantics, pp. 63–84. Foris, Dordrecht. 
+Hoeksema, J.: 1988, ‘The Semantic of Non-boolean and’, Journal of Semantics 6, 19–40. 
+Hudson, W.: 1989, ‘Functional Categories and the Saturation of Noun Phrases’, in J. Carter 
+and R. Dechaine (eds.), Proceedings of NELS 19, pp. 207–222. GLSA, University of 
+Massachusetts at Amherst. 
+Kadmon, N.: 1987, On Unique and Non-Unique Reference and Asymmetrical Quantification. 
+PhD thesis, University of Massachusetts at Amherst. 
+Kayne, R.: 1991, ‘Romance Clitics, Verb Movement, and PRO’, Linguistic Inquiry 22, 647–686. 
+Keenan, E. L. and L. M. Faltz: 1985, Boolean Semantics for Natural Languages, Kluwer, 
+Dordrecht. 
+Keenan, E. L. and J. Stavi: 1986, ‘A Semantic Characterization of Natural Language Determiners’, 
+Linguistics and Philosophy 9, 253–326. 
+King, T. H. and M. Dalrymple: 2004, ‘Determiner Agreement and Noun Conjunction’, Journal 
+of Linguistics 40(1), 69–104. 
+Kratzer, A.: 1989, ‘An Investigation of the Lumps of Thought’, Linguistics and Philosophy 12, 
+607–653. 
+Krifka, M.: 1990, ‘Boolean and Non-Boolean ‘and’’, in L. Ka´ lma´ n and L. Po´ los (eds.), Papers 
+from the Second Symposium on Logic and Language, pp. 161–188. Akade´ miai Kiado´ , 
+Budapest. 
+Krifka, M.: 1999, ‘At Least Some Determiners Aren’t Determiners’, in K. Turner (ed.), The 
+Semantics/Pragmatics Interface from Different Points of View. Vol. 1, pp. 257–291. Elsevier, 
+Oxford. 
+Krifka, M.: 2003, ‘Bare NPs: Kind-Referring, Indefinites, Both or Neither?’, in R. B. Young 
+and Y. Zhou, Proceedings of SALT 13, pp. 180–203. CLC Publications, Cornell University, 
+Ithaca, N.Y. 
+Krifka, M. et al.: 1995, ‘Genericity: An Introduction’, pp. 1–124. The University of Chicago 
+Press, Chicago. 
+Ladusaw, W.: 1992, ‘Expressing Negation’, in C. Barker and D. Dowty (eds.), Proceedings of 
+SALT 2, pp. 236–259. CLS, Cornell University, Ithaca, N.Y. 
+Landman, F.: 1989, ‘Groups, I’, Linguistics and Philosophy 12, 559–605. 
+Landman, F.: 2000, ‘Predicate-Argument Mismatches and the Adjectival Theory of Indefinites’, 
+manuscript. To appear in the proceedings of the Antwerpen Conference on NP-DP, 2000. 
+Lasersohn, P.: 1995, Plurality, Conjunction and Events, Kluwer, Dordrecht. 
+Lecarme, J.: 2002, ‘Gender Polarity: Theoretical Aspects of Somali Nominal Morphology’, in P. 
+Boucher (ed.), Many Morphologies, pp. 109–141. Cascadilla Press, Somerville, Mass. 
+
+Leonard, H. and N. Goodman: 1940, ‘The Calculus of Individuals and Its Uses’, Journal of 
+Symbolic Logic 5, 45–55. 
+Link, G.: 1983, ‘The Logical Analysis of Plurals and Mass Terms: A Lattice-Theoretical 
+Approach’, in R. Ba¨ uerle, C. Schwarze, and A. von Stechow (eds.), Meaning, Use, and the 
+Interpretation of Language, pp. 302–323. De Gruyter, Berlin. 
+Link, G.: 1987, ‘Generalized Quantifiers and Plurals’, in P. Gaerdenfors (ed.), Generalized 
+Quantifiers, pp. 151–180. Reidel, Dordrecht. 
+Longobardi, G.: 1994, ‘Proper Names and the Theory of N-Movement in Syntax and Logical 
+Form’, Linguistic Inquiry 25, 609–665. 
+Longobardi, G.: 1999, ‘How Comparative is Semantics? A Unified Parametric Theory of Bare 
+Nouns and Proper Names’, manuscript, Universita` di Trieste. 
+Munn, A. and C. Schmitt: 2005, ‘Number and Indefinites’, Lingua 115, 821–855. 
+Partee, B. H.: 1987, ‘Noun Phrase Interpretation and Type-Shifting Principles’, in F. Groenendijk 
+et al. (eds.), Studies in Discourse Representation Theory and the Theory of 
+Generalized Quantifiers, pp. 115–143. Foris, Dordrecht. 
+Partee, B. and M. Rooth: 1983, ‘Generalized Conjunction and Type Ambiguity’, in R. Ba¨ uerle, 
+C. Schwarze, and A. von Stechow (eds.), Meaning, Use, and Interpretation of Language, pp. 
+361–383. De Gruyter, Berlin. 
+Payne, J.: 1985, ‘Complex Phrases and Complex Sentences’, in T. Shopen (ed.), Language 
+Typology and Syntactic Description, Vol. 2: Complex Constructions, pp. 3–41. Cambridge 
+University Press, Cambridge. 
+Pelletier, F. J. and L. K. Schubert: 1989, ‘Mass Expressions’, in D. Gabbay and F. Guenthner 
+(eds.), Handbook of Philosophical Logic, Vol. 4, pp. 327–407. Kluwer, Dordrecht. 
+Permutter, D.: 1971, ‘On the Article in English’, in M. Bierwisch and K. E. Heidolph (eds.), 
+Progress in Linguistics: A Collection of Papers, pp. 233–248. Mouton, The Hague. 
+Pullum, G. and A. Zwicky: 1986, ‘Phonological Resolution of Syntactic Feature Conflict’, 
+Language, 62, 751–773. 
+Quine, W.: 1960, Word and Object. MIT Press, Cambridge, Mass. 
+Ritter, E.: 1991, ‘Two Functional Categories in Noun Phrases: Evidence from Modem Hebrew’, 
+in S. Rothstein (ed.), Syntax and Semantics, Vol. 26, pp. 37–62. Academic Press, San Diego. 
+Scha, R.: 1981, ‘Distributive, Collective and Cumulative Quantification’, in J. Groenendijk, 
+T. Janssen and M. Stokhof (eds.), Formal Methods in the Study of Language, pp. 483–512. 
+Mathematisch Centrum, Amsterdam. 
+Schwarzschild, R. S.: 1996, Pluralities, Kluwer, Dordrecht. 
+Schwarzschild, R.: 2002, ‘The Grammar of Measurement’, in B. Jackson (ed.), Proceedings of 
+SALT 12, pp. 225–246. CLC Publications, Cornell University, Ithaca, N.Y. 
+Sharvy, R.: 1980, ‘A More General Theory of Definite Descriptions’, The Philosophical Review 
+89, 607–624. 
+Shieber, S.: 1985, ‘An Introduction to Unification-Based Approaches to Grammar’, presented 
+as a tutorial session of the ACL, Chicago. 
+Siloni, T.: 1994, Noun Phrases and Nominalizations. PhD thesis, University of Geneva. 
+Sportiche, D.: 1988, ‘A Theory of Floating Quantifiers and Its Corollaries for Constituent 
+Structure’, Linguistic Inquiry 19, 425–449. 
+Steedman, M.: 1985, ‘Dependency and Coordination in the Grammar of Dutch and English’, 
+Language 6, 523–568. 
+Steedman, M.: 2000, The Syntactic Process, MIT Press, Cambridge, Mass. 
+Stowell, T.: 1983, ‘Subjects Across Categories’, The Linguistic Review 2, 285–312. 
+Valois, D.: 1991, ‘Internal Syntax of DP’, PhD thesis, University of California, Los Angeles. 
+Van Geenhoven, V.: 1996, Semantic Incorporation and Indefinite Descriptions. PhD thesis, 
+University of Tu¨ bingen. 
+Verkuyl, H. J.: 1981, ‘Numerals and Quantifiers in X-bar Syntax and Their Semantic Interpretation’, 
+in J. Groenendijk, T. Janssen, and M. Stokhof (eds.), Formal Methods in the 
+Study of Language, pp. 567–599. Mathematisch Centrum, Amsterdam. 
+
+Wechsler, S. and L. Zlatic´ : 2000, ‘A Theory of Agreement and Its Application to 
+Serbo-Croatian’, Language 76(4), 799–832. 
+Winter, Y.: 1996, ‘A Unified Semantic Treatment of Singular NP Coordination’, Linguistics and 
+Philosophy 19, 337-391. 
+Winter, Y.: 1998, Flexible Boolean Semantics, PhD thesis, Universiteit Utrecht. 
+Winter, Y.: 2001, Flexible Principles in Boolean Semantics, MIT Press, Cambridge, Mass. 
+Zamparelli, R.: 1995, ‘Layers in the Determiner Phrase’, PhD thesis, University of Rochester. 
+(Published by Garland, 2000.) 
+Zamparelli, R.: 1998, ‘A Theory of Kinds, Partitives and OF/Z Possessives’, in A. Alexiadou and 
+C. Wilder (eds.), Possessors, Predicates and Movement in the Determiner Phrase, pp. 259– 
+301. John Benjamins, Amsterdam. 
+Zimmermann, T. E.: 1993, ‘On the Proper Treatment of Opacity in Certain Verbs’, Natural 
+Language Semantics 1, 149–179. 
+Caroline Heycock 
+School of Philosophy, Psychology and Language Sciences 
+University of Edinburgh 
+AFB George Square 
+Edinburgh EH8 9LL 
+UK 
+E-mail: heycock@ling.ed.ac.uk 
+Roberto Zamparelli 
+Facolta` di Lettere 
+Universita` di Bergamo 
+Sede S. Agostino 
+24100 Bergamo 
+Italy 
+E-mail: roberto@unibg.it 
+

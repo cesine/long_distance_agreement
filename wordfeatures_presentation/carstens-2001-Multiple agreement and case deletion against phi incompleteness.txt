@@ -1,0 +1,456 @@
+MULTIPLE AGREEMENT AND CASE DELETION: AGAINST phi- (IN)COMPLETENESS 
+Vicki Carstens 
+Abstract. I argue against Chomsky’s (1999, 2000) proposal that Case deletion 
+correlates with the phi-completeness of probes, based on (i) the omission of gender in 
+subject agreement in, for example, Romance languages; and (ii) the inclusion of full 
+phi-features in subject agreement in Bantu, repeated on all verbal heads within a clause. 
+I propose instead a return to the traditional view that certain categories are Case 
+‘‘assigners,’’ such that Agree deletes the goal’s Case only if the probe has an intrinsic 
+structural Case value. Finally, I show that Agree so modified accounts for concord in 
+noun phrases, including concord on ‘of’ in African languages, reflecting phi-features of 
+head nouns. Crucial to this account is a structural analysis in which ‘of’ is merged with 
+a nominal constituent that includes the head noun but excludes the surface ‘of’ object, 
+be it possessor, agent, or theme. 
+1. The Agree Relation 
+It is fairly common in syntactic theory to suppose that a relationship exists 
+between Case and agreement. A recent instantiation of this idea is Chomsky’s 
+(1999, 2000) proposal that uninterpretable phi-features delete Case through the 
+relation called Agree. The phi-features of an agreeing element a, which are 
+called a probe, seek a goal element b with interpretable phi-features and an 
+unchecked structural Case feature, under Chomsky’s theory. When the search 
+succeeds, the Agree relation results, deleting a’s phi-features and b’s Case. 
+This is necessary because both Case and the uninterpretable phi-features of 
+agreement are illicit at LF, owing to their lack of interpretations. 
+Once its Case is eliminated, b ceases to be a candidate for further Agree 
+relations and accordingly for A-movement, which is tied to instances of 
+Agree. 
+As Chomsky notes, not all agreement relations can be taken to delete Case. 
+To see why this is so, consider (1a). Here the subject is a deep object and 
+enters into two Agree relations before raising to its surface position. The first 
+is motivated by past participle agreement (PPA) on morte, the features of 
+which are, by assumption, deleted in an Agree relation with elle. The Case of 
+elle appears not to be deleted in this relation, however, as a second Agree 
+relation is then established between elle and subject agreement (SA) on T0, 
+here instantiated as the auxiliary est. This deletes both the nominative Case of 
+elle and the phi-features of est. Elle then raises to [Spec,TP] to satisfy the EPP 
+feature of est. 
+
+Henceforth I use the term multiple agreement to refer to such cases, wherein a 
+many-to-one relation exists between agreeing categories and agreed-with 
+nominal. 
+In light of multiple agreement phenomena like (1), Chomsky (1999, 2000) 
+proposes that agreement deletes Case only if it is phi-complete. Predicate 
+adjectives and past participles are phi-incomplete, agreeing only in a subset of 
+the possible phi-features. As a result, they do not affect the Case of the DP they 
+agree with; the DP must therefore enter into a subsequent Agree relation with 
+a phi-complete element like the auxiliary in (1) for a licit result to be obtained. 
+Its Case deleted, the DP, in this case elle, enters into no other agreement 
+relations and raises no further. 
+2. A Problem for phi-(in)completeness 
+A serious problem for this proposal becomes apparent on consideration of the 
+features involved in (1). Although it is true that agreement on the past 
+participle lacks the full complement of phi-features, consisting as it does of 
+number and gender only, subject agreement is similarly partial in features: it 
+includes person and number features only, omitting gender. Thus both 
+agreeing elements in (1) are phi-incomplete; yet one appears to check Case, 
+whereas the other does not. 
+
+Gender is systematically excluded from the features of subject agreement in 
+Indo-European languages with gender systems.1 Hence the facts are not 
+plausibly attributed to an accidental gap in subject-agreement paradigms, any 
+more than is the omission of person in agreement on the past participle. 
+1 Subject agreement in Bantu and Afro-Asiatic includes gender features, however. See 
+section 3. 
+
+
+Based on (1) and (2) alone, we might amend Chomsky’s characterization 
+of when Case deletes, as in (3): 
+(3) Person features are crucial to Case deletion. 
+(3) maintains Chomsky’s assumption that the absence of person features on 
+participles and predicate adjectives keeps them from deleting Case. It is 
+consistent with the facts of subject agreement in (1) and (2) as well. 
+However, (3) does not suffice to explain all the facts. For one thing, 
+Chomsky analyzes certain instances of nondeleting Case in terms of phi- 
+incompleteness due to specification for person features only. Chomsky argues 
+that the infinitival T0 of raising and ECM clauses has an uninterpretable 
+person feature. This feature must be deleted and therefore acts as a probe, 
+giving rise to an Agree relation and hence raising of a DP to the embedded 
+subject position in cases like (4). A subsequent Agree relation between the 
+matrix v and the embedded subject deletes the latter’s accusative Case (see 
+Chomsky 1999:5). 
+
+The abstract person features that Chomsky hypothesizes here are connected 
+to his proposal that the Agree relation is prerequisite to movement. We might 
+abandon this view, assume that infinitival T0 has no phi-features, and adopt (3), 
+or alternatively (30). Both moves are consistent with (2) and (4):2 
+(30) Person and number together delete Case. 
+But multiple agreement in Bantu compound tense constructions (CTs) shows 
+that differentiating among phi-features is not the answer.3 In CTs, overt person 
+agreement apparently fails to delete Case. More than this, CTs show that full 
+agreement in all phi-features is compatible with A-movement. As a result, the 
+proposed relationship between Case and phi-specification cannot be 
+maintained in any form. 
+2 My thanks to an anonymous Syntax reviewer for pointing out these possibilities. 
+3 See also multiple subject agreement in Arabic, described by Bahloul and Harbert (1992). 
+
+3. Compound Tenses 
+In Swahili CTs, tense morphology appears as an affix on the verb ‘be’, which 
+also inflects for agreement with the surface subject. Aspectual auxiliaries and 
+verbs bearing aspectual morphemes follow, each agreeing with the subject as 
+well, as shown in (5). Note that agreement includes person features in these 
+examples. 
+
+Carstens and Kinyalolo (1989) analyze CTs in terms of a failure of aspectbearing 
+verbs to undergo raising. ‘‘Dummy’’ ‘be’ is required to support the 
+tense morpheme, each aspectual category remains in situ, and the subject, 
+raising Spec-to-Spec en route to a Case position in [Spec,TP], licenses 
+multiple instances of subject agreement. 
+(6) [T00 Jumai [T0 a-li-kuwa [ASP00 ti [ASP0 a -me-pikav [vP ti [VP tv chakula]]]]]] 
+Carstens and Kinyalolo support this analysis by demonstrating that CTs are 
+raising constructions, placing no thematic restrictions on their subjects. 
+Whereas the examples in (5) contain agent subjects, the CT subjects in (7)– 
+(9) are a theme, an expletive, and an idiom chunk, respectively.4 
+
+Analyzed in the framework of Chomsky (1999, 2000), each instance of 
+agreement in a CT indicates a probe-goal relation that deletes the 
+uninterpretable phi-features of the probe. (5a) appears to involve two such 
+relations, only the second of which deletes the subject’s Case: 
+4 The analysis is consistent with the status of ‘be’ as a raising verb; cf. Stowell (1978). 
+
+
+Consider the identity of the phi-features that appear as agreement within CTs. 
+Note that they are the same on all verbal elements in a given CT—that is, the 
+downstairs agreement, which functions as Probe 1, includes the same features 
+as the higher Probe 2. Under Chomsky’s approach, it is necessary to conclude 
+that of two or more identical instances of agreement, one deletes Case and the 
+other does not. Note also that the phi-features of agreement in a CT perfectly 
+match those of the surface subject, in person and number (5) or in noun class 
+(7)–(9). I follow Carstens 1991, 1997 in analyzing Bantu noun class as 
+number and gender. Thus, each agreeing head in a CT inflects for all 
+available person, number, and gender features of the surface subject; each 
+agreeing head is phi-complete. 
+4. Proposal 
+4.1 The Case-Assigning Property 
+Case and agreement correlate with sufficient regularity that a relationship 
+between them seems well motivated; something other than phi-incompleteness 
+must account for the exceptions, however. A simple solution to this problem 
+lies in the traditional assumption that only certain heads assign Case. I 
+propose that Agree does not delete the goal’s Case feature unless the probe 
+has an intrinsic value for structural Case, that is, belongs to the traditional 
+class of structural Case assigners. The Agree relation operates as in (11). 
+(11) In the Agree relation: 
+a. A probe a has uninterpretable phi-features. 
+b. A goal b has matching phi-features. 
+c. Uninterpretable phi-features are valued, and delete. 
+d. If a has an intrinsic structural Case value, it values any unvalued 
+Case feature of b; the two Case features then delete. 
+In point of fact this is not an independent modification to Chomsky’s theory, 
+wherein the Case-assigning property of relevant heads continues to play a 
+small role. Consider the facts of Case agreement on passive participles in 
+Scandinavian. The construction is illustrated in schematic form in (12), taken 
+from Chomsky (1999:13–14). 
+
+Chomsky argues that four Agree relations contribute to the derivation of 
+(12a). First, Agree between the past participle (PRT) and the direct object 
+‘several fish’ deletes the participle’s uninterpretable number and gender 
+features. Second, Agree between the matrix T0 and the expletive ‘there’ 
+deletes the latter’s uninterpretable person feature and induces it to raise. 
+Third, Agree between T0 and the participle values and deletes the latter’s 
+nominative Case feature. Given that each of these relations involves a phi- 
+incomplete category, the Case feature of ‘several fish’ and the phi-features of 
+T0 are undeleted at this point. A fourth and final application of Agree values 
+and deletes the nominative Case of ‘several fish’ and deletes T0’s phi- 
+features.5,6 
+A question arises as to why the initial Agree relation between the participle 
+and the direct object does not delete the former’s Case feature, because the 
+latter is phi-complete. Although it is typically the goal whose Case deletes, there 
+is some symmetricality among the feature-deletion cases Chomsky discusses; 
+uninterpretable person features of expletive goals delete in Agree relations, for 
+example, as do the uninterpretable number and gender features of the 
+participial goal under Chomsky’s analysis of (12). The question therefore 
+bears consideration. Chomsky explains that ‘‘Case is unvalued for both PRT 
+and DO, so neither can assign a Case value to the other’’ (Chomsky 1999:14); 
+in a footnote he adds that ‘‘both PRT and DO lack the structural Case-assigning 
+property of T and v’’ (Chomsky 1999:37, note 36). 
+Thus, Case deletion relies not only on phi-completeness; it is also 
+contingent on the potential agent of deletion’s ability to assign a Case value. 
+But if this is true, the role of phi-completeness in the theory is 
+redundant—agreeing passive participles, predicate adjectives, and infinitival 
+T0 can be assumed not to delete Case through the Agree relation because they 
+lack the Case-assigning feature, which may be interpreted as an intrinsic 
+value for a particular structural Case.7 
+5 This is possible despite the fact that the participle’s phi-features are deleted in the earliest 
+Agree relation—that between the participle and the direct object. What makes the participle 
+available as a probe nonetheless is the continued presence of those features in the syntactic 
+representation, until they are sent to Spell-Out at the next strong phase. See note 7. 
+6 Yet the participle does not act as a ‘‘defective intervener’’ in cases of passive raising; 
+presumably because it is not the head of an A-chain (Chomsky 1999). 
+7 Chomsky’s treatment of these Scandinavian facts is suggestive of an alternative to my 
+account—namely, that all instances of Agree delete Case, but deleted Case is accessible until the 
+next strong phase (Chomsky 1999:14). This approach accounts for the multiple agreement facts 
+but wrongly predicts the sentences in (i) to be well formed. In (i), an Agree relation with the 
+infinitival T0 by assumption precedes raising of the DP ‘John’ to the embedded subject position, 
+so would delete this DP’s Case; then merger of expletive it in the matrix clause could check the 
+uninterpretable phi-features of the matrix T0 because it has full phi-features. In (ii), Agree between 
+the participle and elle would check the phi-features of the former and the Case of the latter. Merger 
+of expletive il would value and delete the agreement features of T0, ensuring a grammatical 
+result. 
+
+4.2 When phi-incompleteness Matters 
+There is a class of cases in which I assume with Chomsky that phi- 
+incompleteness does result in a failure of feature deletion: this is when a goal 
+does not have all the features needed to match the probe. As analyzed in 
+Chomsky 1999, 2000, [expletive . . . DP] constructions are one such case. 
+Chomsky proposes that the expletive there is specified only for an 
+uninterpretable feature of person. This person feature makes it possible for 
+the expletive to enter into an Agree relation with finite T0 in (13) (adapted 
+from Chomsky 1999:12). Agree deletes the expletive’s person, and the 
+expletive raises to satisfy the EPP feature of T0. The relation does not 
+however delete T0’s phi-features, because there is phi-incomplete. T0 therefore 
+enters into a second Agree relation, with the associate a man. This relation 
+deletes T0’s phi-features and the Case of a man. 
+
+I adopt this account and the general conclusion that if a probe a has a fuller 
+set of phi-features than a goal b, b cannot delete a’s phi-features. I assume also 
+that if a is a Case assigner, its Case feature is not deleted; thus the Case and 
+phi-features of a Case-assigning probe are deleted together, by a single goal. 
+This conclusion has an application in the analysis of concord, discussed in 
+section 5. 
+5. Concord 
+Agree, modified as in section 4, provides an elegant analysis of concord in 
+noun phrases. Given that concord involves multiple agreement with a single 
+item as a matter of course, this is an important extension of the theory. 
+Consider the Italian examples in (14), in which determiner, adjective, and 
+pronoun inflect for the number and gender of the head noun. 
+Thus, the assumption that all Agree relations delete Case is untenable, and there is no reason to 
+suppose that deleted Case is ever syntactically accessible. The sole empirical motivation for 
+assuming deleted features are active seems to lie in Case agreement between the Scandinavian 
+passive participle and its nominative object in (12) (Chomsky 1999:14; see my note 5). But these 
+facts are explained under the alternative assumption that any unvalued feature suffices to identify 
+a potential goal, including the Case of the participle in (12). 
+
+
+I represent noun phrases as in (15), where n0 is a kind of light noun, 
+analogous to v0 in that it selects and h-marks a possessor or agent argument 
+(see Carstens 2000 and section 6). Num0 is a midlevel functional category, 
+analogous to T0 (Ritter 1991). As a point of departure, I adopt the view that 
+surface word order in Romance noun phrases results from N-to-n-to-Num0 
+raising, and raising of genitive pronouns like mie to [Spec,Num] (Valois 
+1991, Cinque 1994). These assumptions are independently motivated in the 
+works sited and in much related work on noun phrase structure; with them in 
+place I can account for concord by means of three instances of Agree, as 
+illustrated in (15). (Examples (14) and (15) are from Carstens 2000, which 
+rejects this account.) 
+
+None of the probes in the Agree relations depicted in (15) has a Caseassigning 
+feature. Under the modified definition of Agree in (11), this makes 
+it possible for N(P) in (15) to serve as goal to the multiple, non-Case-deleting, 
+Agree relations that constitute concord. 
+Carstens (2000) argues that concord on ‘of’ in Bantu and Afro-Asiatic 
+languages poses problems for Agree. This is because ‘of’ agrees with the 
+head noun, rather than with its apparent complement: 
+
+
+Inextricably linked to this agreement problem is the question of the 
+construction’s true properties: given the facts, either Agree must be the 
+wrong theory of how agreement works, or (25c) is the wrong representation 
+of an ‘of’ construction. I argue here for the latter position and propose a new 
+account of ‘of’ constructions consistent with Agree. 
+My point of departure is Kayne 1994, which proposes that ‘of’ and its 
+surface object do not form a constituent. Kayne argues that ‘of’ is inserted to 
+indefinite D0 to assign Case to a genitive phrase, as shown in (26a). The 
+possessed NP then raises to [Spec,DP] (see (17b)). The approach constitutes 
+an important first step toward explaining the agreement phenomena. 
+Koopman (1996) suggests that the Spec-head relation between the 
+possessed NP and of in (17) can explain agreement on ‘of’ in Bantu. But 
+why the possessed NP should raise instead of the genitive phrase is not clear, 
+as Carstens (2000) notes; the genitive phrase is closer to D0, making the 
+proposed movement incompatible with minimalist assumptions. 
+
+Kayne (1997, 1998) proposes a revision under which ‘of’ takes as 
+complement a constituent a including the head noun and the genitive phrase. 
+I illustrate for the Swahili example (16), in (18). The genitive phrase, in this 
+case mwalimu ‘teacher’, raises to [Spec,ofP]; a functional category X0 is 
+merged with ofP; a raises to [Spec,XP] and ‘of’ adjoins to X, yielding the 
+surface order. 
+
+
+Like its predecessor, this approach to ‘of’ is not completely satisfactory. It 
+does not explain why ‘of’ agrees only with ‘teacher’ as Carstens (2000) 
+points out, and the locality issue for raising a across ‘teacher’ remains. 
+I adopt Kayne’s proposal that ‘of’ does not form a constituent with its 
+surface object, and that the head noun comes to precede ‘of’ through leftward 
+movement of its containing category. I depart from his assumptions in taking 
+‘of’ to be an instantiation of n0 in (15).8 This means that the possessor is base 
+generated in the specifier of ‘of’, and the complement to ‘of’ is the NP 
+containing the head noun, as shown in (19). It follows that ‘of’ inflects for the 
+phi-features of the head noun:9 
+(19) 
+Although this accounts for the agreement facts, it yields the wrong word 
+order. In Chomsky’s theory, Agree underlies all movements that might derive the correct order, as noted in section 2.
+
+
+8 An anonymous reviewer asks why ‘of’ is not instead analyzed as Number. ‘of’ correlates 
+with the presence of arguments, rather than with any singular/plural value. 
+9 The order posited as underlying in (19) is the surface order in Wolof, and ‘of’ also agrees 
+with the head noun in that language (Collins, p.c.). 
+
+
+ I will show that Agree, as modified in 
+section 4, suffices to account for this aspect of the construction as well as for 
+its agreement properties. 
+Surface word order calls for raising of ‘of’ to precede the possessor and 
+raising of the NP ‘book’ to precede them both. I propose that the derivation 
+proceeds as follows. First, an optional EPP-feature of n0 causes the NP ‘book’ 
+to raise from complement of n0 to nP’s outer specifier (see (20a)). Next, a 
+silent functional head F is merged with nP, as shown in (20b).10 I assume that 
+F has abstract uninterpretable phi-features but assigns no Case. An Agree 
+relation is established between F and ‘book’. An EPP-feature of F then drives 
+‘book’ to raise to [Spec,FP] as shown in (20c). Finally, ‘of’ raises to F (20d). 
+10 Under minimalist assumptions, F must have semantic content; I leave this question for 
+future study. 
+
+
+Note that the possessor is never in an Agree relation with F, under this 
+account, eliminating any expectation that the phi-features of F will be valued 
+by the possessor and show up on ‘of’ in Bantu, either instead of or in addition 
+to those valued by the head noun. 
+Theme arguments of nouns are also introduced by ‘of’ in Bantu, bearing 
+agreement with the head noun. It follows that themes are also generated in 
+[Spec,nP] rather than in sister to N0 position. Thus N0 takes no direct 
+arguments. 
+
+
+Noun phrases containing multiple ofPs are unacceptable to most speakers of 
+Swahili, but this is not true of all languages. An optimal approach will extend 
+to languages that allow multiple arguments of nouns introduced by ‘of’. 
+Consider French, which permits multiple lexical arguments in noun phrases, 
+each introduced by ‘of’ (Valois 1991). The account requires only that each 
+argument be merged in the specifier of an additional n0, whose projection is 
+complement to an additional F. The derivation in (21b) simply continues 
+through a second set of movements. 
+(22) a. le portrait de Rembrandt d’ Aristote (Valois 1991) 
+the portrait of Rembrandt of Aristotle 
+‘Rembrandt’s portrait of Aristotle’ 
+
+
+Why, though, should some languages permit more than one ofP and others 
+not? I suggest that F in languages like French is a Case assigner, able to 
+delete the Case feature of the DP in [Spec,nP]. In a language like Swahili that 
+allows only one argument introduced by ‘of’, this DP must have its Case 
+deleted by the higher, Case-assigning head Num0. When this happens, Num’s 
+Case feature is deleted and cannot value and delete the Case features of any 
+additional DPs. 
+F thus enters into Agree relations with the head noun and the noun’s 
+argument both, in languages like French. This perhaps explains the absence 
+of inflection on French ‘of’ if, as a morphological property, it cannot agree 
+overtly with both items. 
+With this proposal in mind, consider (23). For F to check the Case of the 
+DP Aristote it must fail to check Case with the NP portrait, although it enters 
+an Agree relation with it first, leading to raising of portrait to [Spec,FP]. How 
+can this be possible? 
+
+
+Recall that phi-incompleteness of a goal prevents it from deleting the probe’s 
+features (see section 4.2). It has been proposed that person is a feature of D0 
+rather than N0 (Ritter 1991, among others) and that interpretable number 
+features head their own midlevel projection in the DP, as illustrated in (15). If 
+Case-assigning F has full phi-features, they cannot be valued in the Agree 
+relation with the NP portrait. Accordingly, portrait deletes none of the 
+features of F, and F must enter into an Agree relation with the DP Aristote for 
+deletion of its agreement and Case. 
+6. Conclusion 
+Based on cases of multiple agreement, I have shown that there is no 
+correlation between Case checking and the phi-completeness of probes in 
+either French or Swahili.11 In French participial constructions, all instances of 
+agreement omit some phi-feature of the subject, and thus are phi-incomplete; in 
+Swahili CTs, all instances of agreement reflect the full phi-feature set of the 
+surface subject, and thus are phi-complete. 
+The facts can be taken as evidence that agreement and, in particular, the 
+Agree relation, play no role in Case deletion. But this seems too strong a 
+conclusion, given frequent correlations between agreement and Case across 
+languages. Alternatively, a relationship between agreement and Case can be 
+maintained if Case is deleted in the Agree relation with a Case assigner. I 
+have argued for the latter position. 
+I have proposed an account of concord in noun phrases in terms of this 
+modified version of Agree. Given that concord consistently involves multiple  agreement, it is of critical importance to the question of how Agree and Case 
+deletion relate.
+
+
+11 These languages serve to represent systematic problems, as noted in section 1: Romance, 
+Slavic, and Scandinavian are among those groups that pattern with French, and other Bantu 
+languages are like Swahili; see also Kural 1993 on subject raising out of Turkish infinitives 
+containing full subject agreement; Bahloul and Harbert’s (1992) description of compound tenses 
+in Arabic; and Watanabe 1993 on subject raising out of Balkan subjunctive clauses containing 
+subject agreement in person and number. 
+
+ 
+The analysis of concord on ‘of’ involves raising of the NP constituent to 
+[Spec,ofP] and to the specifiers of higher functional categories F. Thus N0- 
+raising is not what underlies NSO order, contra Ritter (1991), Carstens 
+(1991), Valois (1991), Cinque (1994), among many others.12 
+The concord facts motivate an analysis of ‘of’ constructions that is 
+antisymmetric in the sense of Kayne 1994 and that adopts Kayne’s insight 
+that ‘of’ and its surface object are not a constituent. ‘Of’ is known to be 
+irrelevant to binding relations among the arguments within DP (see Giorgi & 
+Longobardi 1991 for detailed discussion); the analysis presented here 
+accounts for this. 
+The status of n(P) perhaps requires some comment. n0 differs from v* in 
+assigning no Case; this is a matter of lexical properties. It is reasonable 
+nonetheless to expect that the highest nP in any DP is a phrase, given that it 
+constitutes the domain of full argument structure for noun phrases in cases 
+like (22). Under the analysis I have proposed, it is indeed n0 that permits an 
+extra specifier, thus provides a landing site for movement, like v* does at the 
+clausal level. Further research is called for comparing these categories and 
+accounting for the differences between them; the parallels are promising and 
+intriguing. 
+References 
+BAHLOUL, M. & W. HARBERT. 1992. Some agreement asymmetries in Arabic. 
+Proceedings of WCCFL 11, ed. J. Mead, 15–31. Stanford, Calif.: CSLI Publications. 
+CARSTENS, V. 2000. Concord in minimalist theory. Linguistic Inquiry 31:319–355. 
+CARSTENS, V. 1997. Empty nouns in Bantu locatives. The Linguistic Review 
+14:361–410. 
+CARSTENS, V. & K. KINYALOLO. 1989. On IP structure: Tense, aspect, and 
+agreement. Ms., Cornell University and UCLA. 
+CHOMSKY, N. 1995. The Minimalist Program. Cambridge, Mass.: MIT Press. 
+CHOMSKY, N. 1999. Derivation by phase. Ms., MIT, Cambridge, Mass. 
+CHOMSKY, N. 2000. Minimalist inquiries. In Step by step: Studies in honor of 
+Howard Lasnik, ed. R. Martin, D. Michaels & J. Uriagereka, 89–155. Cambridge, 
+Mass.: MIT Press. 
+CINQUE, G. 1994. On the evidence for partial N-movement in the Romance DP. In 
+Paths towards Universal Grammar: Studies in honor of Richard S. Kayne, ed. G. 
+Cinque, J. Koster, J.-Y. Pollock, L. Rizzi & R. Zanuttini, 85–110. Washington, DC: 
+Georgetown University Press. 
+GIORGI, A. & G. LONGOBARDI. 1991. The syntax of noun phrases. New York: 
+Cambridge University Press. 
+KAYNE, R. 1994. The antisymmetry of syntax. Cambridge, Mass.: MIT Press. 
+KAYNE, R. 1997. Class lectures. LSA Linguistic Institute, Cornell University, Ithaca. 
+KAYNE, R. 1998. A note on prepositions and complementizers. Ms., New York 
+University. 
+12 Shlonsky (2000) arrives at the same general conclusion based on word-order variation 
+among nouns, adjectives, and quantifiers in Semitic languages. 
+
+KOOPMAN, H. 1997. The Spec-head relation. In UCLA Working Papers in Syntax 
+and Semantics 1, 37–64. Los Angeles: UCLA Department of Linguistics. 
+KURAL, M. 1993. V-to-(I-to)-C in Turkish. In UCLA Occasional Papers in 
+Linguistics 11, ed. F. Beghelli & M. Kural, 1–37. Los Angeles: UCLA Department 
+of Linguistics. 
+RITTER, E. 1988. A head-movement approach to construct-state noun phrases. 
+Linguistics 26:909–929. 
+RITTER, E. 1991. Two functional categories in noun phrases: Evidence from modern 
+Hebrew. Syntax and semantics 25: Perspectives on phrase structure, ed. S. 
+Rothstein, 37–62. San Diego, Calif.: Academic Press. 
+SHLONSKY, U. The form of Semitic noun phrases. Ms., University of Geneva. 
+VALOIS, D. 1991. The syntax of DP. Ph.D. dissertation, University of California, Los 
+Angeles. 
+WATANABE, A. 1993. The notion of finite clauses. In Papers on Case & Agreement 
+I. MIT Working Papers in Linguistics 18, ed. J. Bobaljik. & C. Phillips, 281–296. 
+Cambridge, Mass: MIT Working Papers in Linguistics. 
+Vicki Carstens 
+University of Missouri–Columbia 
+Department of English 
+107 Tate Hall 
+Columbia, MO 65211-1500 
+USA 
+carstensv@missouri.edu 
+

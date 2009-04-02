@@ -1,35 +1,6 @@
 *.pdf
 
-#ignore compiled handlebars
-compiled_handlebars.js
-backbone_client/data.js
-*.handlebars.js
-#ignore generated folders
-release/
-dist
-map_reduce_data/_attachments
-couchapp_minified/views
-couchapp_minified/lists
-couchapp_minified/_attachments
-couchapp_prototype/views
-couchapp_prototype/lists
-couchapp_prototype/_attachments
-dist/
-coverage/
-.imported_corpora
-imported_corpora
-
-spreadsheet_build_dev
-
-#ignore private config files
-*_production*
-*private*
-*mcgill*
-
-# Ignore natural lib
-public/libs/natural/
-
-.wav
+*.wav
 audio_stimuli
 
 TEST*.xml
@@ -41,11 +12,6 @@ TEST*.xml
 proguard.cfg
 
 node_modules
-bin
-gen
-docs/javascript
-fielddb.js
-fielddb.min.js
 
 # Node #
 ########
@@ -126,5 +92,4 @@ ehthumbs.db
 Icon?
 Thumbs.db
 *.swp
-sample_data/orthography.txt.fielddb
 solv_feedback.txt
