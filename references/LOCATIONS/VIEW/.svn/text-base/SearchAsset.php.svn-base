@@ -1,0 +1,118 @@
+<!-- TBD1: Only physicalasset table is implemented - All equipment, computer, furniture, storage unit and additional parameters not yet accounted for -->
+<!-- TBD2: If user = Role 2 then Faculty = user faculty in the search (with validation) -->
+<!-- TBD3: Populate Location with list from DB -->
+<!-- TBD4: Populate Owner/Faculty with list from DB --
+<!-- TBD5: Date range (Purchase and Warranty) to be added -->
+<!-- TBD4: Convert FacultyName and LocationName to FacultyID and LocationID before passing -->
+
+<html>
+<head><title>Search physical asset</title></head>
+
+<body>
+
+<h1>Search physical asset</h1>
+
+<form action="../CONTROLLER/SelectPhysicalAssetDispatcher.php" method="post">
+
+<!-- Hidden element: Calling form -->
+
+<input type="hidden" name="CallingForm" value="SearchAsset"/>
+
+<fieldset>
+<legend><font color=cornflowerblue><b>Choose an Asset Type</b></font></legend>
+Category:
+	<select name="$Category">
+		<option value="">All</option>
+		<option value=Equipment>Equipment</option>
+		<option value=Furniture>Furniture</option>
+		<option value="Storage Unit">Storage Unit</option>
+		<option value=Computer>Computer</option>
+		
+	</select>
+</fieldset>
+<br/>
+
+<fieldset>
+<legend><font color=cornflowerblue><b>Generic asset information</b></font></legend>
+
+
+Asset ID:
+    <input type="text" name="$AssetID"            size ="32" maxlength="64"  class="inputtext">
+
+Group ID:
+    <input type="text" name="$GroupID"            size ="32" maxlength="64"  class="inputtext">
+<br><br>
+
+Barcode:
+    <input type="text" name="$BarCode"            size ="32" maxlength="64"  class="inputtext">
+
+Legacy code:
+    <input type="text" name="$LegacyCode"         size ="32" maxlength="64"  class="inputtext">
+<br><br>
+
+Owner/Faculty:
+	<select name="$FacultyName">
+		<option></option>
+		<option value=Engineering and Computer Science>Engineering and Computer Science</option>
+		<option value=Arts and Science>Arts and Science</option>
+	</select>
+
+Location:
+	<select name="$LocationName">
+		<option></option>
+		<option value=EV3.Administration>EV3.Administration</option>
+		<option value=EV8.177>EV8.177</option>
+		<option value=EV8.107>EV8.107</option>
+		<option value=EV3.177>EV3.177</option>
+		<option value=EV9.104>EV9.104</option>
+	</select>
+<br><br>
+
+Purchase requisition number:
+    <input type="text" name="$ReqNumber"          size ="32" maxlength="64"  class="inputtext">
+
+Purchase order number:
+    <input type="text" name="$PoNumber"           size ="32" maxlength="64"  class="inputtext">
+<br><br>
+
+Manufacturer:
+    <input type="text" name="$Manufacturer"       size ="32" maxlength="128" class="inputtext">
+
+Model:
+    <input type="text" name="$Model"              size ="32" maxlength="128" class="inputtext">
+<br><br>
+
+Status:
+	<select name="$Status">
+		<option></option>
+		<option value=In-stock>In-stock</option>
+		<option value=Assigned>Assigned</option>
+		<option value=Damaged>Damaged</option>
+		<option value=In-repair>In-repair</option>
+		<option value=Lost>Lost</option>
+		<option value=Retired>Retired</option>
+	</select>
+<br>
+
+</fieldset>
+<br>
+
+<fieldset>
+<legend> <font color=gray><b>Submit/Clear</b></font> </legend>
+    <input type="submit" name="submit" value="Submit search" />
+    <input type="reset"  name="reset"  value="Clear" />
+</fieldset>
+
+</form>
+
+<!-- Return link -->
+
+<form action="AssetMenu.php" method="post">
+<fieldset>
+<legend> <font color=gray><b>Return</b></font> </legend>
+    <input type="submit" name="submit" value="Return" />
+</fieldset>
+</form>
+
+</body>
+</html>

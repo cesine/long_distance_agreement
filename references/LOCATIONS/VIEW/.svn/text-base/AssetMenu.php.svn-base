@@ -1,0 +1,43 @@
+<html>
+<head><title>Physical asset - Top menu (in lieu of system page)</title></head>
+<body>
+
+<h2>Physical asset - Top menu (in lieu of system page)</h2>
+
+
+<form method=post action="AddAsset.php">
+<fieldset>
+    <legend> <font color=black><b>Add physical asset</b></font> </legend>
+    <input type="submit" value="Add asset">
+</fieldset>
+</form>
+
+
+<form method=post action="SearchAsset.php">
+<fieldset>
+    <legend> <font color=black><b>Search asset</b></font> </legend>
+    <input type="submit" value="Search asset">
+</fieldset>
+</form>
+
+
+<form method=post action="CreateGroup.php">
+<fieldset>
+    <legend> <font color=black><b>Create asset group</b></font> </legend>
+    <input type="submit" value="Create group">
+</fieldset>
+</form>
+
+
+<form method=post action="EditGroup.php">
+<fieldset>
+    <legend> <font color=black><b>View/Update/Delete asset group</b></font> </legend>
+    <input type="submit" value="View/Update/Delete group">
+</fieldset>
+</form>
+
+
+<br>
+
+</body>
+</html>

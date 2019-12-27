@@ -1,0 +1,2372 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="18"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 18 - Copular Sentences.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">1</page>
+<page type="last">23</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="0"/>
+<count type="table" count="29"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="47"/>
+<count type="page" count="23"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051105"/>
+<trackingdate type="markedup" date="0000" by="christine tsai"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 18&ensp;Moro: Copular Sentences</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 18&ensp;Moro: Copular Sentences</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">18&ensp;Copular Sentences</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>ANDREA</forenames><x> </x><surname>MORO</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction: what is a copular sentence?</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>The anomaly of copular sentences</p>
+</li>
+<li level="2">
+<number>2.1&ensp;</number>
+<p>Testing verbal agreement, <i>wh</i>-movement, and cliticization on copular sentences of the type &lsqb;DP V DP&rsqb;</p>
+</li>
+<li level="2">
+<number>2.2&ensp;</number>
+<p>Surprising anomalies of some copular sentences of the type &lsqb;DP V DP&rsqb;</p>
+</li>
+<li level="2">
+<number>2.3&ensp;</number>
+<p>Testing infinitival copular sentences of the type &lsqb;DP V DP&rsqb;</p>
+</li>
+<li level="2">
+<number>2.4&ensp;</number>
+<p>Further anomalies</p>
+</li>
+<li level="3">
+<number>2.4.1&ensp;</number>
+<p>Binding theoretical effects and the unambiguous interpretation of the copula</p>
+</li>
+<li level="3">
+<number>2.4.2&ensp;</number>
+<p>Backward reflexivization: a recalcitrant case</p>
+</li>
+<li level="3">
+<number>2.4.3&ensp;</number>
+<p>Pseudo-extraction</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>Inverse copular sentences</p>
+</li>
+<li level="2">
+<number>3.1&ensp;</number>
+<p>The raising of predicates</p>
+</li>
+<li level="2">
+<number>3.2&ensp;</number>
+<p>Explaining locality restrictions on the subject of inverse copular sentences</p>
+</li>
+<li level="2">
+<number>3.3&ensp;</number>
+<p>Rightward agreement in inverse copular sentences: pro as a null predicate</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1&ensp;Introduction: what is a copular sentence?</heading>
+<p>Few concepts in the history of linguistics have received more attention than the concept of &lsquo;copula&rsquo;, which was first introduced in the field by Abelard in his <i>Dialectica</i>. In fact, the term &lsquo;copula&rsquo; and the associated phrase &lsquo;copular sentences&rsquo; are meant to refer to a variety of conceptually distinct objects; for example, copular sentences involve a special verb in Indo-European languages whereas they may involve a pronoun in Semitic languages. In fact, there is no &lsquo;standard&rsquo; definition of the notion of &lsquo;copula&rsquo;. Leaving discussions and full references for a brief history of the notion of copula to the appendix of <link rid="b1">Moro (1997</link>), we can at least single out three distinct analytical traditions: first, stemming from Aristotle&apos;s own work in the field, the copula has been considered as the sign of tense, or more generally of those inflectional features that are normally expressed syncretically on the verbal predicate; second, starting at least from Abelard, the copula has been considered as the sign of affirmation, and this meaning has been pursued by the Port Royal school, influencing many subsequent theories; third, ever since Frege&apos;s and Russell&apos;s works in the field, the copula has been considered as ambiguous between the sign of identity and that of predication. In this case study, we will concentrate on copular sentences from two Indo-European languages, English and Italian, that played a central role in the development of generative grammar and more generally of formal syntax in the twentieth century; for a general and in-depth source of studies of the verb <i>be</i> and its equivalent across languages see <link rid="b2 b3 b4 b5 b6 b7">Verhaar (1967, 1968a, 1968b, 1969, 1972, 1973</link>). It is nevertheless important to highlight the fact that copular sentences have always constituted and still constitute a challenging field for all grammatical models: the aim of this work is to illustrate both some well-understood and some rather murky aspects of these constructions, concentrating on the general consequences that the syntax of copular sentences has for the general design of grammar. Data will be mainly taken from English and Italian for three distinct reasons: first, these two languages do have verbal copulas (<i>be</i> and <i>essere</i>, respectively); second, most recent literature is based on analyses of these two languages (especially since current analyses of copular sentences are related to the analysis of expletives: see <related relationship="sibling" type="samework"><externallink id="chapter 24 - Existential Sentences and Expletive There.xml" type="file">chapter 24</externallink></related>); third, the two languages instantiate two opposite values of the pro-drop parameter, allowing us to extend our knowledge of the impact of this parameter on grammar.</p>
+<p>Let us define &lsquo;copular sentences&rsquo; as those sentences whose main verb is <i>be</i> (the copula) and its equivalents across languages. In English, such a verb can be followed by DPs, APs and PPs:</p>
+<p>(1)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John &lsqb;<sub>VP</sub> is &lsqb;<sub>DP</sub> the cause of the riot&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John &lsqb;<sub>VP</sub> is &lsqb;<sub>AP</sub> angry&rsqb;&rsqb;</entry>
+</row>
+<row><entry>c.</entry>
+<entry>John &lsqb;<sub>VP</sub> is &lsqb;<sub>PP</sub> on the wall&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In some languages, such as Italian, moreover, bare NPs can also follow the copula:</p>
+<p>(2)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>Gianni &lsqb;<sub>VP</sub> &egrave; &lsqb;<sub>NP</sub> causa della rivolta&rsqb;</entry>
+</row>
+<row><entry>&lsquo;Gianni is (the) cause of the riot.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As for those cases where the copula is followed by a VP, such as in <i>John is coming here</i> or <i>John is to come here</i>, they are not generally labeled as &lsquo;copular sentences&rsquo;, since the verb <i>be</i> in these cases rather plays the role of an auxiliary or a modal respectively. <i>A priori</i>, there wouldn&apos;t be a reason to consider the sentences in (1) and (2) as special with respect to any other sentence of the kind &lsqb;DP VP&rsqb;. This expectation is generally borne out, with one exception: in fact, a particular subtype of copular sentence, i.e. sentences of the type &lsqb;DP copula DP&rsqb;, does show surprising properties, with many consequences both theoretical and empirical. These properties have attracted the attention of linguists throughout the development of the discipline, and their discussion has often reflected the debate within generative grammar.<link rid="fn1">
+<sup>1</sup></link> In the next section, some of these properties will be reviewed.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2&ensp;The anomaly of copular sentences</heading>
+<p>Consider a sentence of the type &lsqb;DP V DP&rsqb; in an SVO language like Italian or English. For any choice of V we expect there to be a set of asymmetries distinguishing the two DPs from a syntactic point of view. For example, we expect the preverbal DP to trigger agreement on the verb, to c-command the postverbal DP asymmetrically, and to be subject to more restrictions with respect to movement transformation than the postverbal DP (e.g., <i>that</i>-trace effect in English, absence of cliticization from preverbal DPs, etc.). These asymmetries, which are frequently dubbed the &lsquo;subject&ndash;object&rsquo; asymmetries, constitute some of the major empirical arguments for assuming an asymmetric representation of sentences in natural language syntax such as the following (cf. <link rid="b8">Chomsky 1986b</link>: 62):</p>
+<p>(3)&ensp;&lsqb;DP &lsqb;<sub>VP</sub> &lsqb;V DP&rsqb;&rsqb;&rsqb;</p>
+<p>Indeed, there is no <i>a priori</i> reason to expect the same asymmetric representation not to remain valid when a sentence of the type &lsqb;DP V DP&rsqb; is construed by choosing the copula as a V. But in fact, this expectation is not borne out.</p>
+<subsection id="ss4" level="2">
+<heading id="h3" level="2">2.1&ensp;Testing verbal agreement, <roman>wh</roman>-movement, and cliticization on copular sentences of the type &lsqb;DP V DP&rsqb;</heading>
+<p>Let us first of all consider a copular sentence like the following in English:</p>
+<p>(4)&ensp;&lsqb;a picture of the wall&rsqb; is &lsqb;the cause of the riot&rsqb;</p>
+<p>It can be easily shown that verbal agreement yields exactly the same pattern as all sentences of the type &lsqb;DP V DP&rsqb;, i.e. the verb agrees with the preverbal DPs, not with the postverbal one:</p>
+<p>(5)&ensp;&lsqb;some pictures of the wall&rsqb; are/*is &lsqb;the cause of the riot&rsqb;</p>
+<p><i>Wh</i>-movement of preverbal and postverbal DP, however, yields a first anomalous fact:</p>
+<p>(6)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;which picture of the wall&rsqb; do you think (*that) t is the cause of the riot?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*&lsqb;which wall&rsqb; do you think that &lsqb;a picture of t&rsqb; is the cause of the riot?</entry>
+</row>
+<row><entry>c.</entry>
+<entry>&lsqb;which riot&rsqb; do you think that a picture of the wall is &lsqb;the cause of t&rsqb;?</entry>
+</row>
+<row><entry>d.</entry>
+<entry>*&lsqb;which cause of the riot&rsqb; do you think that a picture of the wall is t?</entry>
+</row>
+<row><entry>e.</entry>
+<entry>&lsqb;what&rsqb; do you think that a picture of the wall is t?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As far as <i>wh</i>-movement is concerned, the behavior of preverbal DPs in copular sentences indeed parallels the well-known behavior of non copular sentences: <i>wh</i>-movement <i>of</i> a preverbal DP is possible only across non-overt complementizers (6a) and <i>wh</i>-movement <i>from</i> a preverbal DP is not possible (6b). As for postverbal DPs, instead, the situation for copular sentences is different from that for non-copular sentences: <i>wh</i>-movement <i>from</i> a postcopular DP is possible as in non-copular sentences (6c), but if one tests movement <i>of</i> the whole postverbal DP in a sentence like (4), the result is that only <i>what</i> can be extracted (6e); the phrase headed by <i>which</i> is banned (6d).<link rid="fn2">
+<sup>2</sup></link>
+</p>
+<p>This anomaly with respect to <i>wh</i>-movement is not inherently related to this specific type of movement, though. If we turn to a language like Italian, which allows clitic movement, for example, similar patterns can be easily detected. Normally, a postverbal noun phrase in a sequence of the type &lsqb;DP V DP&rsqb; can be cliticized onto the verb or there can be cliticization of subparts of it onto the verb. <i>Prima facie</i>, copular sentences are not deviant. Consider the following examples:</p>
+<p>(7)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10"/>
+<tbody>
+<row><entry morerows="1" valign="top">a.</entry>
+<entry>una</entry>
+<entry>foto</entry>
+<entry>del</entry>
+<entry>muro</entry>
+<entry>&egrave;</entry>
+<entry>la</entry>
+<entry>causa</entry>
+<entry>della</entry>
+<entry>rivolta</entry>
+</row>
+<row><entry>a</entry>
+<entry>picture</entry>
+<entry>of the</entry>
+<entry>wall</entry>
+<entry>is</entry>
+<entry>the</entry>
+<entry>cause</entry>
+<entry>of the</entry>
+<entry>riot</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="1" valign="top">b.</entry>
+<entry>una</entry>
+<entry>foto</entry>
+<entry>del</entry>
+<entry>muro</entry>
+<entry>lo</entry>
+<entry>&egrave; t</entry>
+</row>
+<row><entry>a</entry>
+<entry>picture</entry>
+<entry>of the</entry>
+<entry>wall</entry>
+<entry>it</entry>
+<entry>is</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="1" valign="top">c.</entry>
+<entry>una</entry>
+<entry>foto</entry>
+<entry>del</entry>
+<entry>muro</entry>
+<entry>ne</entry>
+<entry>&egrave;</entry>
+<entry>&lsqb;la</entry>
+<entry>causa t&rsqb;</entry>
+</row>
+<row><entry>a</entry>
+<entry>picture</entry>
+<entry>of the</entry>
+<entry>wall</entry>
+<entry>of-it</entry>
+<entry>is</entry>
+<entry> the</entry>
+<entry>cause</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Yet there is an anomalous fact here: copular sentences are different from all other sentences of the type &lsqb;DP V DP&rsqb; in that the clitic replacing the postverbal DP is always the uninflected form <i>lo</i>, as opposed to the case with verbs other than the copula, where inflected clitics occur, such as <i>lo</i>, <i>la</i>, <i>le li</i> etc. (cf. <link rid="b9">Burzio 1986</link>).</p>
+</subsection>
+<subsection id="ss5" level="2">
+<heading id="h4" level="2">2.2&ensp;Surprising anomalies of some copular sentences of the type &lsqb;DP V DP&rsqb;</heading>
+<p>The result of movement tests changes dramatically if we now check a sentence like the following:</p>
+<p>(8)&ensp;&lsqb;the cause of the riot&rsqb; is &lsqb;a picture of the wall&rsqb;</p>
+<p><i>A priori</i>, there is no reason to expect this sentence to be different from its associate in (4). In fact, (8) is superficially identical to (4), i.e. it is a &lsqb;DP V DP&rsqb;-type sentence.</p>
+<p>Agreement offers a first cross-linguistic contrast:</p>
+<p>(9)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10"/>
+<tbody>
+<row><entry>a.</entry>
+<entry namest="col2" nameend="col10">the cause of the riot is/*are some pictures of the wall</entry>
+</row>
+<row><entry morerows="1" valign="top">b.</entry>
+<entry>la</entry>
+<entry>causa</entry>
+<entry>della</entry>
+<entry>rivolta</entry>
+<entry>sono/*&egrave;</entry>
+<entry>alcune</entry>
+<entry>foto</entry>
+<entry>del</entry>
+<entry>muro</entry>
+</row>
+<row><entry>the</entry>
+<entry>cause</entry>
+<entry>of the</entry>
+<entry>riot</entry>
+<entry>are/is</entry>
+<entry>some</entry>
+<entry>pictures</entry>
+<entry>of the</entry>
+<entry>wall</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In Italian, the copula now agrees with the postverbal DP: notice that the sentence in (9b) is by no means to be considered as a typical case of rightward agreement with subject inversion, which is typical of pro-drop languages like Italian. Indeed such a case could exist, but it would correspond to the linear sequence &lsqb;V DP DP&rsqb; or to the one involving cliticization &lsqb;clitic V DP&rsqb;:</p>
+<p>(10)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10"/>
+<tbody>
+<row><entry morerows="1" valign="top">a.</entry>
+<entry>&lsqb;&lsqb;sono</entry>
+<entry>la</entry>
+<entry>causa</entry>
+<entry>della</entry>
+<entry>rivolta&rsqb;</entry>
+<entry>alcune</entry>
+<entry>foto</entry>
+<entry>del</entry>
+<entry>muro&rsqb;</entry>
+</row>
+<row><entry>are</entry>
+<entry>the</entry>
+<entry>cause</entry>
+<entry>of the</entry>
+<entry>riot</entry>
+<entry>some</entry>
+<entry>pictures</entry>
+<entry>of the</entry>
+<entry>wall</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="1" valign="top">b.</entry>
+<entry>&lsqb;&lsqb;lo</entry>
+<entry>sono t&rsqb;</entry>
+<entry>alcune</entry>
+<entry>foto</entry>
+<entry>del</entry>
+<entry>muro&rsqb;</entry>
+</row>
+<row><entry>it</entry>
+<entry>are</entry>
+<entry>some</entry>
+<entry>pictures</entry>
+<entry>of the</entry>
+<entry>wall</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Rather, the sequence here is DP V DP; thus rightward agreement is totally unexpected, even in a null-subject language like Italian.</p>
+<p>Let us now focus on the postverbal DP of the copular sentence of the type &lsqb;DP V DP&rsqb; in (8) and test movement from and of it in turn (cf. (6c)):</p>
+<p>(11)&ensp;*which wall do you think that the cause of the riot is &lsqb;a picture of t&rsqb;</p>
+<p>Movement from the postverbal DP now yields the same violation as movement from the preverbal DP. As for movement of the postverbal DP, we have the following result (cf. (6d) and (6e)):</p>
+<p>(12)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*which picture of the wall do you think that the cause of the riot is t</entry>
+</row>
+<row><entry>b.</entry>
+<entry>what do you think that the cause of the riot is t</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Movement involving a phrase headed by <i>which</i> gives an ungrammatical result whereas movement involving <i>what</i> does not. This contrast between <i>which</i> and <i>what</i> constitutes a sharp and apparently not immediately understandable departure from the general pattern concerning postverbal DPs. If we turn to cliticization in Italian we obtain similar unexpected results (cf. (7b&ndash;c)):</p>
+<p>(13)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="1" valign="top">a.</entry>
+<entry>*la</entry>
+<entry>causa</entry>
+<entry>della</entry>
+<entry>rivolta</entry>
+<entry>lo</entry>
+<entry>sono t</entry>
+</row>
+<row><entry>the</entry>
+<entry>cause</entry>
+<entry>of the</entry>
+<entry>riot</entry>
+<entry>it</entry>
+<entry>are</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="1" valign="top">b.</entry>
+<entry>*la</entry>
+<entry>causa</entry>
+<entry>della</entry>
+<entry>rivolta</entry>
+<entry>ne</entry>
+<entry>&egrave;</entry>
+<entry>&lsqb;una</entry>
+<entry>foto t&rsqb;</entry>
+</row>
+<row><entry>the</entry>
+<entry>cause</entry>
+<entry>of the</entry>
+<entry>riot</entry>
+<entry>of-it</entry>
+<entry>is</entry>
+<entry>a</entry>
+<entry>picture</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Cliticization of and from the postverbal DP is blocked here. There is no other sequence of the kind &lsqb;DP V DP&rsqb; in Italian that shows the same behavior (excluding, of course, those where the postverbal DP is an adverbial like <i>due volte</i> (twice), as in <i>Gianni ha letto il libro due volte</i> (Gianni has read the book twice)).</p>
+</subsection>
+<subsection id="ss6" level="2">
+<heading id="h5" level="2">2.3&ensp;Testing infinitival copular sentences of the type &lsqb;DP V DP&rsqb;</heading>
+<p>We have so far collected some surprising facts concerning copular sentences by considering finite contexts; let us briefly consider copular sentences in infinitival sentences. Another unexected asymmetry can be easily detected. As a first step, consider the following sentence:</p>
+<p>(14)&ensp;John considers &lsqb;a picture of the wall to be the cause of the riot&rsqb;</p>
+<p>It is a well-known fact that the copula can be omitted in these contexts:</p>
+<p>(15)&ensp;John considers &lsqb;a picture of the wall the cause of the riot&rsqb;</p>
+<p>If we test the same fact with respect to the associated copular construction we have the following sharp contrast:</p>
+<p>(16)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John considers &lsqb;the cause of the riot to be a picture of the wall&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*John considers &lsqb;the cause of the riot a picture of the wall&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Summarizing, we have isolated a cluster of surprising facts concerning copular sentences of the type &lsqb;DP V DP&rsqb;. In certain sentences of this type, but crucially not in all sentences of this type: (a) there can be no <i>wh</i>-movement of and from the postverbal DP, unlike for all other choices of V; (b) <i>wh</i>-movement of the postverbal DP is limited to <i>what</i> and impossible for phrases headed by <i>which</i>; (c) in Italian, agreement anomalously goes with the postverbal DP and (d) cliticization of and from the postverbal DP is banned; (e) omission of the infinitival copula is impossible in English. Again, one must crucially observe that these restrictions do not occur for all instances of sentence of the kind &lsqb;DP copula DP&rsqb;, but only for a subset of sentences. More specifically, referring to the pair we tested here, these restrictions occur for the sentence <i>the cause of the riot is a picture of the wall</i> but not for the associated sentence <i>a picture of the wall is the cause of the riot</i>. Since both sentences are &lsqb;DP V DP&rsqb; type, there can be hardly any doubt that the simple asymmetric representation in (3), i.e. &lsqb;DP &lsqb;V DP&rsqb;&rsqb;, cannot be maintained for both sentences.</p>
+</subsection>
+<subsection id="ss7" level="2">
+<heading id="h6" level="2">2.4&ensp;Further anomalies</heading>
+<p>In the final section we will present a sketchy illustration of a proposal that accounts for the observed anomalies within a principled framework. For now, let us proceed to illustrate the anomaly of copular sentences by considering some other challenging facts: let us focus first on Binding theoretical effects.</p>
+<subsection id="ss8" level="3">
+<heading id="h7" level="3">2.4.1&ensp;Binding theoretical effects and the unambiguous interpretation of the copula</heading>
+<p>It is a well-known fact that the Binding domain of an anaphor or a pronoun contained in a DP can be altered when it occurs with the copula. For example:</p>
+<p>(17)&ensp;<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John<sub>i</sub> met his<sub>i</sub> cook</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*John<sub>i</sub> is his<sub>i</sub> cook</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The pronoun cannot be bound by the subject of the sentence when the verb is the copula. These kinds of data have been observed by many authors as they challenged the definition of &lsquo;minimal binding domain&rsquo;, i.e. the domain where Binding principles must be satisfied. To account for data like (17), and many others, <link rid="b10">Giorgi and Longobardi (1991</link>), for example, proposed that <link rid="b8">Chomsky&apos;s (1986b</link>) definition of minimal domain as a Complete Functional Complex was to be refined in such a way that the predicative nature of the postverbal DP with copular sentences mattered. Accordingly, a domain is defined as complete with respect to a head whenever it exhausts either all theta-roles assigned by the head or all the grammatical functions pertaining to the same head. This could derive the cases in (17): <i>John</i> is within the functional complex of <i>cook</i> in (17b) only, since only in that case does <i>John</i> play the grammatical function of subject of <i>cook</i>; thus the minimal domain of Binding is the whole sentence in (17b), whereas it is the postverbal DP itself in (17a); this explains the observed contrast. However, other anomalous properties have been discovered which go uncaptured even within the more refined version of the definition of Complete Functional Complex. I will briefly illustrate them by relying again on <link rid="b1">Moro (1997</link>).</p>
+<p>Consider a case like the following:</p>
+<p>(18)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;John and Mary&rsqb;<sub>i</sub> considered &lsqb;these to be &lsqb;each other&apos;s<sub>i</sub> best performances&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;John&rsqb;<sub>i</sub> believes &lsqb;these to be &lsqb;the best pictures of himself<sub>i</sub>&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In both cases, the anaphors contained in the postverbal DP can be bound by the subject of the matrix clause. If the domain of binding were defined as proposed by <link rid="b8">Chomsky 1986b</link> (and refined by <link rid="b10">Giorgi and Longobardi 1991</link>) this should not be possible, since the minimal domain where all grammatical functions pertaining to a head are exhausted in (18a&ndash;b) is the embedded clause where <i>these</i> plays the role of subject of predication.</p>
+<p>Relying on observations of Binding theoretical effects, it is also possible to show that the nineteenth-century semantic view according to which the copula is ambiguous between identity and predication cannot be maintained in syntax. This view, which is traditionally attributed to <link rid="b11">Russell (1903</link>), is standardly exemplified in the following sentence (which in fact goes back at least to Frege&apos;s works):</p>
+<p>(19)&ensp;&lsqb;the morning star&rsqb; is &lsqb;the evening star&rsqb;</p>
+<p>Allegedly, the interpretation of this example has been considered as a sign that the copula is ambiguous: (19) is analyzed as though the copula was expressing identity between <i>the morning star</i> and <i>the evening star</i>, as opposed to cases like <i>Socrates is a man</i> where it is analyzed as a sign of predication. Empirical consideration involving Binding effects show that this conclusion cannot be maintained. Suppose we construct the following sentence, intending it to be an identity statement, that is, a sentence where both DPs are symmetrically referential:</p>
+<p>(20)&ensp;*&lsqb;the morning star&rsqb;<sub>i</sub> is &lsqb;its<sub>i</sub> source of energy&rsqb;</p>
+<p>Clearly, there is no way for the pronoun to be bound by the subject. On the other hand, if a predicate indicating identity, say <i>one and the same as</i>, is explicitly expressed in the sentence, the result is totally different:</p>
+<p>(21)&ensp;&lsqb;the morning star&rsqb;<sub>i</sub> is one and the same as &lsqb;its<sub>i</sub> source of energy&rsqb;</p>
+<p>Coreference is possible here on a par with pure transitive constructions which do not involve predicative nominals, such as:</p>
+<p>(22)&ensp;&lsqb;the morning star&rsqb;<sub>i</sub> lost &lsqb;its<sub>i</sub> source of energy&rsqb;</p>
+<p>In (21), indeed, we do have a genuine identity predicate (the AP <i>one and the same as</i>) as opposed to the case of the bare copula in (20): neither DP is the predicate of the other, given that the local domain for binding is limited to the DP itself in each case. Notice also that if (19) is analyzed as an identity statement, the same should be said for the embedded sentence in a case like the following:</p>
+<p>(23)&ensp;I consider &lsqb;&lsqb;the morning star&rsqb; &lsqb;the evening star&rsqb;&rsqb;</p>
+<p>Clearly, (23) does not contain any copula, but the relationship between the two DPs is the same as in (19), reinforcing the hypothesis that the copula is not a predicate (of identity).<link rid="fn3">
+<sup>3</sup></link> Finally, it is important to notice that Russell unambiguously considered the copula as a sign of identity when it is followed by a noun phrase, and a sign of predication when it is followed by an adjective (the original examples are <i>Socrates is a man</i> vs. <i>Socrates is human</i>). This passage has often been neglected or misquoted, it appears; otherwise linguists who refer to Russell&apos;s thought should always analyze nominal copular sentences as identity statements, and they clearly do not. All in all, I would like to emphasize that what must be affirmed here is that identity is not predicated <i>by the copula</i> or equivalently that one of the two noun phrases involved in a copular sentence always plays the role of a predicate. Whether or not the notion of &lsquo;identity&rsquo; is suitable to an understanding of the relation between the two noun phrases is a different matter that involve the semantics of DPs rather than the copula.</p>
+</subsection>
+<subsection id="ss9" level="3">
+<heading id="h8" level="3">2.4.2&ensp;Backward reflexivization: a recalcitrant case</heading>
+<p>Naturally, we have not exhausted all empirical issues concerning Binding effects in copular sentences. Many interesting facts still call for an explanation. I will simply refer here to two of them: so-called &lsquo;backward reflexivization&rsquo; and pseudo-extraction. Another interesting topic, namely specificational copular sentences and pseudocleft sentences, is treated separately in <related relationship="sibling" type="samework"><externallink id="chapter 61 - Specificational Copular Sentences and Pseudoclefts.xml" type="file">chapter 61</externallink></related>. The first phenomenon, discovered by <link rid="b12">Ruwet (1975</link>), can be simply illustrated via the following paradigm (reproduced from <link rid="b1">Moro 1997</link>):</p>
+<p>(24)&ensp;<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry morerows="1" valign="top">a.</entry>
+<entry>le</entry>
+<entry>sue<sub>i</sub>
+</entry>
+<entry>lettere</entry>
+<entry>sono</entry>
+<entry>l&rsquo;alibi</entry>
+<entry>di</entry>
+<entry>Gianni<sub>i</sub>
+</entry>
+</row>
+<row><entry>the</entry>
+<entry>his</entry>
+<entry>letters</entry>
+<entry>are</entry>
+<entry>the alibi</entry>
+<entry>of</entry>
+<entry>Gianni</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry morerows="1" valign="top">b.</entry>
+<entry>l&rsquo;alibi</entry>
+<entry>di</entry>
+<entry>Gianni<sub>i</sub>
+</entry>
+<entry>sono</entry>
+<entry>le</entry>
+<entry>sue<sub>i</sub>
+</entry>
+<entry>lettere</entry>
+</row>
+<row><entry>the alibi</entry>
+<entry>of</entry>
+<entry>Gianni</entry>
+<entry>are</entry>
+<entry>the</entry>
+<entry>his</entry>
+<entry>letters</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="1" valign="top">c.</entry>
+<entry>le</entry>
+<entry>lettere</entry>
+<entry>di</entry>
+<entry>Gianni<sub>i</sub>
+</entry>
+<entry>sono</entry>
+<entry>il</entry>
+<entry>suo<sub>i</sub>
+</entry>
+<entry>alibi</entry>
+</row>
+<row><entry>the</entry>
+<entry>letters</entry>
+<entry>of</entry>
+<entry>Gianni</entry>
+<entry>are</entry>
+<entry>the</entry>
+<entry>his</entry>
+<entry>alibi</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="1" valign="top">d.</entry>
+<entry>*il</entry>
+<entry>suo<sub>i</sub>
+</entry>
+<entry>alibi</entry>
+<entry>sono</entry>
+<entry>le</entry>
+<entry>lettere</entry>
+<entry>di</entry>
+<entry>Gianni<sub>i</sub>
+</entry>
+</row>
+<row><entry>the</entry>
+<entry>his</entry>
+<entry>alibi</entry>
+<entry>are</entry>
+<entry>the</entry>
+<entry>letters</entry>
+<entry>of</entry>
+<entry>Gianni</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Only in one case can the pronoun not be bound by <i>Gianni</i>. As far as I know, no reason has been given to explain this recalcitrant fact: any simple application of Binding theory does not give the correct output.<link rid="fn4">
+<sup>4</sup></link>
+</p>
+</subsection>
+<subsection id="ss10" level="3">
+<heading id="h9" level="3">2.4.3&ensp;Pseudo-extraction</heading>
+<p>Copular sentences are anomalous even for Theta theoretical considerations. Consider the following pair (cited from <link rid="b1">Moro 1997</link>: 79 ff):</p>
+<p>(25)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="1" valign="top">a.</entry>
+<entry>Beatrice</entry>
+<entry>&egrave;</entry>
+<entry>desiderata</entry>
+<entry>da</entry>
+<entry>Dante</entry>
+</row>
+<row><entry>Beatrix</entry>
+<entry>is</entry>
+<entry>desired</entry>
+<entry>by</entry>
+<entry>Dante</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="1" valign="top">b.</entry>
+<entry>Beatrice</entry>
+<entry>&egrave;</entry>
+<entry>il</entry>
+<entry>desiderio</entry>
+<entry>di</entry>
+<entry>Dante</entry>
+</row>
+<row><entry>Beatrice</entry>
+<entry>is</entry>
+<entry>the</entry>
+<entry>desire</entry>
+<entry>of</entry>
+<entry>Dante</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The first example is a simple case of a passive sentence: <i>Beatrice</i> is assigned its theta-role in the object position and promoted to the preverbal position, where it plays the role of a subject. <i>Prima facie</i>, the two sentences, which both involve <i>be</i>, should be analyzed in a parallel way. More specifically, the null hypothesis is that in both cases Beatrice is moved from a thematic position to the subject position. Although this simple solution is surely appealing, it cannot be maintained. The reason why this anaysis cannot be adopted lies in the fact that it involves extraction from a DP and would thus go against a rather well-established generalization, which owes its origin to an observation by <link rid="b13">Cinque (1980</link>). This generalization states that a constituent can be extracted from a DP only if it can be possessivized (see <link rid="b10">Giorgi and Longobardi 1991</link> for an updated discussion and a new derivation of this phenomenon). Unfortunately, if we apply this to the DP under discussion, we actually obtain the opposite of the result we need to support an analysis involving extraction. Consider the following fragment:</p>
+<p>(26)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>&lsqb;il</entry>
+<entry>suo</entry>
+<entry>desiderio&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;</entry>
+</row>
+<row><entry>the</entry>
+<entry>his</entry>
+<entry>desire</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The pronoun <i>suo</i> can only be interpreted as the experiencer as in <i>il suo desiderio per Beatrice</i> (the his desire for Beatrice). Thus, the hypothesis that <i>Beatrice</i>, which is interpreted as the patient, be extracted from the predicative nominal in the corresponding copular sentence in (25b) cannot be maintained. The phenomenon exemplified in (25b) has been labeled &lsquo;pseudo-extraction&rsquo;, a term which at least has the merit of emphasizing &ndash; at one and the same time &ndash; both the similarities and the differences between this construction and the passives.</p>
+<p>Although no solution has been offered to solve this puzzle concerning copular sentences, one can get some idea of the extension of such a phenomenon within the class of noun phrases occurring in copular sentences. Let us consider in particular a number of noun heads which are compatible with two arguments. It is easy to establish that like <i>desiderio</i>, other nouns such as <i>paura</i> (fear), <i>timore</i> (fear), <i>preoccupazione</i> (worry), <i>piacere</i> (pleasure) allow pseudo-extraction:</p>
+<p>(27)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="1" valign="top">a.</entry>
+<entry>l&rsquo;inferno</entry>
+<entry>&egrave;</entry>
+<entry>la</entry>
+<entry>paura</entry>
+<entry>di</entry>
+<entry>Dante</entry>
+</row>
+<row><entry>the inferno</entry>
+<entry>is</entry>
+<entry>the</entry>
+<entry>fear</entry>
+<entry>of</entry>
+<entry>Dante</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="1" valign="top">b.</entry>
+<entry>Virgilio</entry>
+<entry>conosce</entry>
+<entry>&lsqb;la</entry>
+<entry>paura</entry>
+<entry>di</entry>
+<entry>Dante</entry>
+<entry>per</entry>
+<entry>l&rsquo;inferno&rsqb;</entry>
+</row>
+<row><entry>Virgil</entry>
+<entry>knows</entry>
+<entry> the</entry>
+<entry>fear</entry>
+<entry>of</entry>
+<entry>Dante</entry>
+<entry>for</entry>
+<entry>the inferno</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10"/>
+<tbody>
+<row><entry morerows="1" valign="top">c.</entry>
+<entry>la</entry>
+<entry>citt&agrave;</entry>
+<entry>di</entry>
+<entry>Dite</entry>
+<entry>&egrave;</entry>
+<entry>il</entry>
+<entry>timore</entry>
+<entry>di</entry>
+<entry>Dante</entry>
+</row>
+<row><entry>the</entry>
+<entry>city</entry>
+<entry>of</entry>
+<entry>Dite</entry>
+<entry>is</entry>
+<entry>the</entry>
+<entry>fear</entry>
+<entry>of</entry>
+<entry>Dante</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="12">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12"/>
+<tbody>
+<row><entry morerows="1" valign="top">d.</entry>
+<entry>Beatrice</entry>
+<entry>conosce</entry>
+<entry>&lsqb;il</entry>
+<entry>timore</entry>
+<entry>di</entry>
+<entry>Dante</entry>
+<entry>per</entry>
+<entry>la</entry>
+<entry>citt&agrave;</entry>
+<entry>di</entry>
+<entry>Dite&rsqb;</entry>
+</row>
+<row><entry>Beatrice</entry>
+<entry>knows</entry>
+<entry> the</entry>
+<entry>fear</entry>
+<entry>of</entry>
+<entry>Dante</entry>
+<entry>for</entry>
+<entry>the</entry>
+<entry>city</entry>
+<entry>of</entry>
+<entry>Dite</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="1" valign="top">e.</entry>
+<entry>Cerbero</entry>
+<entry>&egrave;</entry>
+<entry>la</entry>
+<entry>preoccupazione</entry>
+<entry>di</entry>
+<entry>Dante</entry>
+</row>
+<row><entry>Cerbero</entry>
+<entry>is</entry>
+<entry>the</entry>
+<entry>worry</entry>
+<entry>of</entry>
+<entry>Dante</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="1" valign="top">f.</entry>
+<entry>Maria</entry>
+<entry>conosce</entry>
+<entry>la</entry>
+<entry>preoccupazione</entry>
+<entry>di</entry>
+<entry>Dante</entry>
+<entry>per</entry>
+<entry>Cerbero</entry>
+</row>
+<row><entry>Maria</entry>
+<entry>knows</entry>
+<entry>the</entry>
+<entry>worry</entry>
+<entry>of</entry>
+<entry>Dante</entry>
+<entry>for</entry>
+<entry>Cerbero</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry morerows="1" valign="top">g.</entry>
+<entry>la</entry>
+<entry>luce</entry>
+<entry>&egrave;</entry>
+<entry>il</entry>
+<entry>piacere</entry>
+<entry>di</entry>
+<entry>Dante</entry>
+</row>
+<row><entry>the</entry>
+<entry>light</entry>
+<entry>is</entry>
+<entry>the</entry>
+<entry>pleasure</entry>
+<entry>of</entry>
+<entry>Dante</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10"/>
+<tbody>
+<row><entry morerows="1" valign="top">h.</entry>
+<entry>Ulisse</entry>
+<entry>conosce</entry>
+<entry>il</entry>
+<entry>piacere</entry>
+<entry>di</entry>
+<entry>Dante</entry>
+<entry>per</entry>
+<entry>la</entry>
+<entry>luce</entry>
+</row>
+<row><entry>Ulisse</entry>
+<entry>knows</entry>
+<entry>the</entry>
+<entry>pleasure</entry>
+<entry>of</entry>
+<entry>Dante</entry>
+<entry>for</entry>
+<entry>light</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>On the other hand, by no means do all bi-argumental nouns allow pseudo-extraction: for example, <i>descrizione</i> (description), <i>racconto</i> (narration), <i>fotografia</i> (photograph), <i>apparizione</i> (apparition) yield ungrammatical sentences:</p>
+<p>(28)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="1" valign="top">a.</entry>
+<entry>*l&rsquo;inferno</entry>
+<entry>&egrave;</entry>
+<entry>la</entry>
+<entry>descrizione</entry>
+<entry>di</entry>
+<entry>Dante</entry>
+</row>
+<row><entry>the inferno</entry>
+<entry>is</entry>
+<entry>the</entry>
+<entry>description</entry>
+<entry>of</entry>
+<entry>Dante</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry morerows="1" valign="top">b.</entry>
+<entry>Virgilio</entry>
+<entry>conosce</entry>
+<entry>&lsqb;la</entry>
+<entry>descrizione</entry>
+<entry>di</entry>
+<entry>Dante</entry>
+<entry>dell&rsquo;inferno&rsqb;</entry>
+</row>
+<row><entry>Virgil</entry>
+<entry>knows</entry>
+<entry> the</entry>
+<entry>description</entry>
+<entry>of</entry>
+<entry>Dante</entry>
+<entry>of-the inferno</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10"/>
+<tbody>
+<row><entry morerows="1" valign="top">c.</entry>
+<entry>*la</entry>
+<entry>citt&agrave;</entry>
+<entry>di</entry>
+<entry>Dite</entry>
+<entry>&egrave;</entry>
+<entry>il</entry>
+<entry>racconto</entry>
+<entry>di</entry>
+<entry>Dante</entry>
+</row>
+<row><entry>the</entry>
+<entry>city</entry>
+<entry>of</entry>
+<entry>Dite</entry>
+<entry>is</entry>
+<entry>the</entry>
+<entry>narration</entry>
+<entry>of</entry>
+<entry>Dante</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11"/>
+<tbody>
+<row><entry morerows="1" valign="top">d.</entry>
+<entry>Beatrice</entry>
+<entry>conosce</entry>
+<entry>&lsqb;il</entry>
+<entry>racconto</entry>
+<entry>di</entry>
+<entry>Dante</entry>
+<entry>della</entry>
+<entry>citt&agrave;</entry>
+<entry>di</entry>
+<entry>Dite&rsqb;</entry>
+</row>
+<row><entry>Beatrice</entry>
+<entry>knows</entry>
+<entry> the</entry>
+<entry>narration</entry>
+<entry>of</entry>
+<entry>Dante</entry>
+<entry>of-the</entry>
+<entry>city</entry>
+<entry>of</entry>
+<entry>Dite</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="1" valign="top">e.</entry>
+<entry>*Cerbero</entry>
+<entry>&egrave;</entry>
+<entry>la</entry>
+<entry>foto</entry>
+<entry>di</entry>
+<entry>Dante</entry>
+</row>
+<row><entry>Cerbero</entry>
+<entry>is</entry>
+<entry>the</entry>
+<entry>photograph</entry>
+<entry>of</entry>
+<entry>Dante</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="1" valign="top">f.</entry>
+<entry>Ulisse</entry>
+<entry>conosce</entry>
+<entry>&lsqb;la</entry>
+<entry>foto</entry>
+<entry>di</entry>
+<entry>Dante</entry>
+<entry>di</entry>
+<entry>Cerbero&rsqb;</entry>
+</row>
+<row><entry>Ulisse</entry>
+<entry>knows</entry>
+<entry> the</entry>
+<entry>photograph</entry>
+<entry>of</entry>
+<entry>Dante</entry>
+<entry>of</entry>
+<entry>Cerbero</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="1" valign="top">g.</entry>
+<entry>*la</entry>
+<entry>luce</entry>
+<entry>&egrave;</entry>
+<entry>l&rsquo;apparizione</entry>
+<entry>di</entry>
+<entry>Dante</entry>
+</row>
+<row><entry>the</entry>
+<entry>light</entry>
+<entry>is</entry>
+<entry>the apparition</entry>
+<entry>of</entry>
+<entry>Dante</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry morerows="1" valign="top">h.</entry>
+<entry>Maria</entry>
+<entry>conosce</entry>
+<entry>&lsqb;l&rsquo;apparizione</entry>
+<entry>della</entry>
+<entry>luce</entry>
+<entry>a</entry>
+<entry>Dante&rsqb;</entry>
+</row>
+<row><entry>Maria</entry>
+<entry>knows</entry>
+<entry> the apparition</entry>
+<entry>of-the</entry>
+<entry>light</entry>
+<entry>to</entry>
+<entry>Dante</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A first rough generalization may now be formulated. It seems that pseudo-extraction is allowed only with those noun phrases which express psychological attitudes and not with those &lsquo;extensional&rsquo; verbs which denote activities like describing, narrating, etc. Thus, borrowing the terminology proposed for certain class of verbs by <link rid="b14">Belletti and Rizzi (1988</link>), it is tempting to call this class of noun phrases &lsquo;psych-nouns&rsquo;. Accordingly, the following provisional generalization can tentatively be formulated:</p>
+<p>(29)&ensp;Only psych-nouns allow pseudo-extraction</p>
+<p>Keeping the discussion on a descriptive level, we can push this generalization to the limit by asking whether it should be reformulated as an &lsquo;if-and-only-if&rsquo; clause. In other words, we can try to establish whether all (and only) psych-nouns allow pseudo-extraction. It seems that the answer to this is negative. For example, there are cases like <i>cruccio</i> (worry) that surely are psych-nouns from a semantic point of view, which show a different pattern when compared to elements like <i>desiderio</i> (desire):</p>
+<p>(30)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="1" valign="top">a.</entry>
+<entry>Beatrice</entry>
+<entry>&egrave;</entry>
+<entry>il</entry>
+<entry>cruccio</entry>
+<entry>di</entry>
+<entry>Dante</entry>
+</row>
+<row><entry>Beatrice</entry>
+<entry>is</entry>
+<entry>the</entry>
+<entry>worry</entry>
+<entry>of</entry>
+<entry>Dante</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="1" valign="top">b.</entry>
+<entry>Virgilio</entry>
+<entry>conosce</entry>
+<entry>&lsqb;il</entry>
+<entry>cruccio</entry>
+<entry>di</entry>
+<entry>Dante (*</entry>
+<entry>per</entry>
+<entry>Beatrice)&rsqb;</entry>
+</row>
+<row><entry>Virgil</entry>
+<entry>knows</entry>
+<entry> the</entry>
+<entry>worry</entry>
+<entry>of</entry>
+<entry>Dante</entry>
+<entry>for</entry>
+<entry>Beatrice</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>On the one hand, they allow constructions like (30a), namely <i>Beatrice &egrave; il cruccio di Dante</i> (Beatrice is the worry of Dante), which strongly resembles cases of pseudo-extraction (specifically, the theta-role assigned to <i>Beatrice</i> comes from the N<sup>0</sup>). On the other, they are clearly not bi-argumental, as (30b) shows, and so the very idea of extraction has to be excluded in principle. This (together with other possible cases) suggests that the generalization presented above calls for a further refinement.</p>
+<p>Summarizing, in this section we have highlighted some empirical reasons which make copular sentences anomalous. First, we observed that a subset of copular sentences of the kind &lsqb;DP V DP&rsqb; does not respect the usual subject&ndash;object asymmetry (specifically, in certain cases extraction of and from the postverbal DP cannot take place with both <i>wh</i>-phrases and clitics); second, some Binding theoretical anomalies have been presented which challenge the standard frameworks; third, theta-role assignment in copular sentences appears to run against a well-known generalization, suggesting that passivization in DPs is not well understood. Of course, this review does not exhaust all the facts that concern copular sentences; nevertheless, the cluster of facts considered here is indicative of how this field of research has had a deep impact on the general theory of grammar. In the next section, I will present a unified theory of copular sentences that has generated some debate in the field by solving some of the problems illustrated here and raising further questions.</p>
+</subsection>
+</subsection>
+</subsection>
+<subsection id="ss11" level="1">
+<heading id="h10" level="1">3&ensp;Inverse copular sentences</heading>
+<p>In the previous section, we observed a cluster of anomalies which concerned copular sentences and which involved movement. More specifically, we observed that in a subset of copular sentences of the kind &lsqb;DP V DP&rsqb;, the postverbal DP does not allow movement from it and at the same time it cannot be moved, with respect to both <i>wh</i>-movement and clitic movement. The postverbal DP, rather, behaves like the preverbal subject of embedded sentences with an overt complementizer. Clearly, the structure in (3), namely &lsqb;DP &lsqb;V DP&rsqb;&rsqb;, is not empirically adequate to explain the syntax of copular sentences exhaustively.</p>
+<subsection id="ss12" level="2">
+<heading id="h11" level="2">3.1&ensp;The raising of predicates</heading>
+<p>The first step toward a principle-based explanation of the anomalies of copular sentences came from <link rid="b15">Stowell&apos;s (1978</link>) proposal that <i>be</i> is a raising verb. On this proposal, the structure in (3), repeated here as (31a), must be extended as indicated in (31b):</p>
+<p>(31)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;DP &lsqb;V DP&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;DP &lsqb;V &lsqb;t DP&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>where the subject moves to preverbal position to be assigned case. Stowell&apos;s argument was crucially based on the assumption that the position held by the preverbal DP in a copular sentence can be occupied by a subject expletive such as English <i>there</i> or Italian <i>ci</i> (see existential sentences and <i>there</i> insertion, <related relationship="sibling" type="samework"><externallink id="chapter 24 - Existential Sentences and Expletive There.xml" type="file">chapter 24</externallink></related>, for a detailed illustration of these constructions). Clearly, taken on its own (31b) cannot solve the problems illustrated in the previous section concerning movement. Even if the structural &lsquo;space&rsquo; between the two DPs is augmented, one cannot see any reason why the postverbal DP should behave anomalously <i>only in certain cases</i>. The solution that I will present here, proposed in <link rid="b16 b17">Moro (1987, 1988</link>) (and refined in <link rid="b1">Moro 1997</link>), is based on a simple consideration. A traditional view stemming from Chomsky&apos;s work and further elaborated by <link rid="b18">Rothstein (1983</link>) maintains that the preverbal DP &lsquo;saturates&rsquo; the function expressed by the predicate, in &lsquo;roughly the Fregean sense&rsquo; (<link rid="b19">Chomsky 1981</link>: 116). This is generally true for verbal predicates, but what happens if the predicate is a noun phrase? The key step is to assume that in such a case the preverbal position is accessible to the predicate provided that it belongs to the proper lexical type, namely a noun phrase. More specifically, the proposal is to abandon the &lsquo;Fregean&rsquo; approach and assume that the only requirement for a preverbal position is that it hosts a DP. Accordingly, a structure like (31b) has the following &lsquo;mirror&rsquo; counterpart:</p>
+<p>(32)&ensp;&lsqb;DP &lsqb;V &lsqb;DP t&rsqb;&rsqb;</p>
+<p>Such a structure, which was labeled &lsquo;inverse copular sentence&rsquo; to contrast with the &lsquo;canonical copular sentence&rsquo; in (31b), offers the possibility of construing a unified theory of copular sentences, one which on the basis of a principled framework explains the whole cluster of anomalies with respect to movement. Again, the only difference with respect to the standard theory of clause structure is to abandon the idea that the preverbal DP &lsquo;saturates&rsquo; the function expressed by the predicate.<link rid="fn5">
+<sup>5</sup></link> In what follows, I will sketch the essentials of the unified of theory of copular sentences by highlighting some of its empirical consequences and the paths of research it opens.<link rid="fn6">
+<sup>6</sup></link>
+</p>
+<p>As a preliminary, let us assign the two sentences we tested in the previous section two distinct structures, indicating that the preverbal DP is respectively moving from either the subject or postverbal position, and call them &lsquo;canonical&rsquo; vs. &lsquo;inverse&rsquo; sentences, respectively:<link rid="fn7">
+<sup>7</sup></link>
+</p>
+<p>(33)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;a picture of the wall&rsqb; is &lsqb;t &lsqb;cause of the riot&rsqb;&rsqb;&ensp;(canonical sentence)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;the cause of the riot is &lsqb;&lsqb;a picture of the wall&rsqb; t&rsqb;&ensp;(inverse sentence)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In such a case the two postverbal DPs appear in different contexts and play different grammatical roles. In the canonical sentence (33a), the postverbal DP plays the role of the predicate, while the subject of predication has been raised to the preverbal position; in the inverse sentence (33b), by contrast, the postverbal DP plays the role of the subject of predication, while the predicate has been raised to the preverbal position. In other words, the two sentences have the same lexical underlying structures and are transformationally related.<link rid="fn8">
+<sup>8</sup></link> Before approaching the issue of locality of movement, let us immediately observe that this theory explains why the copula cannot be omitted in infinitival inverse copular sentences. Consider the relevant cases, reproduced here as (34):</p>
+<p>(34)&ensp;<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John considers &lsqb;a picture of the wall (to be) the cause of the riot&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John considers &lsqb;the cause of the riot *(to be) a picture of the wall&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>If there were no infinitival copula in (34b), there would be no landing site below the matrix verb for the predicative noun phrase, so there would be no way of forming an &lsquo;inverse copular sentence&rsquo;. On the other hand, the copula can be omitted in (34a), since the corresponding structure would simply be one where neither the subject nor the predicative DP has moved. Let us now briefly turn to the locality facts: relying on the unified theory of copular sentences presented here, we can reformulate the question in a more precise way by asking why extraction of and from the subject (i.e. the postverbal DP) of an inverse copular sentence is prohibited.</p>
+</subsection>
+<subsection id="ss13" level="2">
+<heading id="h12" level="2">3.2&ensp;Explaining locality restrictions on the subject of inverse copular sentences</heading>
+<p>Although we cannot go through a detailed analysis, I would like to suggest the major lines of reasoning.<link rid="fn9">
+<sup>9</sup></link> The crucial fact to notice is that the postverbal subject of an inverse copular sentence is in fact in the same kind of situation as the preverbal subject is in, as far as locality is concerned. For the sake of simplicity, let us represent the two fragments as follows:</p>
+<p>(35)&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>.&nbsp;.&nbsp;.&nbsp;V<sup>0</sup> &lsqb;DP . . .</entry>
+</row>
+<row><entry>b.</entry>
+<entry>.&nbsp;.&nbsp;.&nbsp;C<sup>0</sup> &lsqb;DP . . .</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In both cases, the subject is governed by a non-lexical head within a clause structure; the complementizer in (35a) and the copula in (35b). Taking the traditional view stemming from the Aristotelian tradition, we will consider the copula as a functional head expressing the inflectional feature of the clause. This allows us to understand the locality phenomena in a principled framework.</p>
+<p>Let me synthetically anticipate the lines of reasoning. The central idea is that the absence of movement of and from the postcopular DP of an inverse copular sentence is related to two independent locality conditions that have been recognized since the early models within the Principles and Parameters framework: first, movement of a phrase can originate only in a context that is &lsquo;rich&rsquo; enough to signal the origin of movement (ECP); second, movement cannot cross two arguments in a single step (Subjacency). These two notions have been variously implemented, although there is general agreement that they depend on two distinct grammatical features (although the two are not totally independent, of course): the ECP is related to agreement (cf. <link rid="b19">Chomsky 1981</link>: 251; <link rid="b20">Rizzi 1990b</link>) while the Subjacency condition is related to lexicality (cf. <link rid="b8">Chomsky 1986b</link>; <link rid="b21">Cinque 1990c</link>; <link rid="b22">Chomsky 2000</link>: 117). Adopting this view, we can explain the extraction asymmetries as follows. Any version of the Subjacency condition based on L-marking would immediately exclude extraction <i>from</i> the postverbal noun phrase of an inverse copular sentence (cf. (35a)). Why is this? L-marking is a local relation between a head and a full phrase: the head marks the full phrase according to the information specified in the lexicon. Prototypically, a head would L-mark its complement; hence, V<sup>0</sup> L-marks the object, P<sup>0</sup> L-marks the noun phrase it precedes, etc.<link rid="fn10">
+<sup>10</sup></link> In general, the local relation that counts for L-marking is the government relation.<link rid="fn11">
+<sup>11</sup></link> The fact is that neither C<sup>0</sup> nor V<sup>0</sup> is able to L-mark the lower DP. Although they govern it, they do not select it; hence the DP counts as a barrier and it blocks movement from the noun phrase.</p>
+<p>However, the absence of L-marking cannot be regarded as the reason why movement <i>of</i> the postverbal noun phrase of an inverse copular sentence is not possible. In fact, movement of the noun phrase from this position is fully grammatical in canonical copular sentences. To understand why movement of the noun phrase is blocked, we can rely again on the fact that the subject of inverse copular sentences is in the same syntactic environment as a preverbal subject, i.e. that (35a) and (35b) are essentially analogous as regards locality conditions. Consider the structural condition that permits extraction of the preverbal subject. Since <link rid="b20">Rizzi (1990b</link>), it has been assumed that such a movement can be performed by passing through the spec position of a governing head and activating agreement on it;<link rid="fn12">
+<sup>12</sup></link> if that position is already occupied, say by a <i>wh</i>-phrase, there can be no extraction from the preverbal position (cf. <i>who do you know t C</i><sup><i>0</i>
+</sup><i> t represented Heaven in this way t?</i> vs. *<i>who do you know how C</i><sup><i>0</i>
+</sup><i> t represented Heaven t?</i>). Thus, we can simply extend Rizzi&apos;s ECP-based analysis to the case of copular sentences: if the spec of the copula is hosting the raised predicate, the lower subject cannot be extracted from the small clause for ECP reasons. Thus, we can derive the facts of the previous section from principled reasons: the subject of an inverse sentence cannot be moved as a whole and there cannot be extraction from it, for ECP and Subjacency reasons respectively.<link rid="fn13">
+<sup>13</sup></link>
+</p>
+<p>The contrast between phrases headed by <i>which</i> and <i>what</i> in both canonical and inverse copular sentences is also explained. Consider again the relevant examples, reproduced here as (36):</p>
+<p>(36)&ensp;<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*which picture of the wall do you think that the cause of the riot is?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>what do you think that the cause of the riot is?</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*&lsqb;which cause of the riot&rsqb; do you think that a picture of the wall is t?</entry>
+</row>
+<row><entry>d.</entry>
+<entry>&lsqb;what&rsqb; do you think that a picture of the wall is t?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The fact that <i>which picture of the wall</i> cannot be extracted is explained regardless of the difference between canonical and inverse copular sentences, as we just said: the agreement features of the copula have already been activated by the chain of the predicate, witness the agreement on the verb: thus, movement of <i>which picture of the wall</i> yields an ECP violation in (36a). In fact, if <i>which picture of the wall</i> is to be extracted, this can only happen from a preverbal position such as <i>which picture of the wall do you think is the cause of the riot?</i> But why is it possible to move <i>what</i> in (36b)? If we maintain the theory presented here, the possibility of extracting <i>what</i> in (36b) forces us to assume that: first, (36b) is a canonical sentence where the extracted element is the predicate not the subject, i.e. (36b) is the interrogative counterpart of a sentence like <i>the cause of the riot is a very stupid event</i>; second, the trace of <i>what</i> is not governed by the agreement features contained in the copula &ndash; rather it is governed by an abstract head contained in the predicative DP it is extracted from. Notice that there is independent evidence that <i>what</i> is more embedded than <i>which</i> in the DP it is contained; witness contrasts like the following:</p>
+<p>(37)&ensp;<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*&lsqb;which a girl&rsqb; I met!</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;what a girl&rsqb; I met!</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This contrast suggests that the proper internal structure of the <i>wh</i>-phrase is one where <i>what</i> is generated in a lower position than <i>a</i>, as if it were the <i>wh</i>-counterpart of an expression like <i>a wonderful girl</i>, whereas <i>which</i> competes for the same position as <i>a</i> and thus is excluded:</p>
+<p>(38)&ensp;&lsqb;what &lsqb;<sub>D<sup>0</sup>
+</sub>a&rsqb; &lsqb; .&nbsp;.&nbsp;.&nbsp;t . . .</p>
+<p>Thus, the reason why (36b) and (36d) escape the ECP violation is that the trace has a different proper governor to rely on, arguably an abstract head belonging to the D<sup>0</sup> system which is not available to <i>which</i>.</p>
+</subsection>
+<subsection id="ss14" level="2">
+<heading id="h13" level="2">3.3&ensp;Rightward agreement in inverse copular sentences: pro as a null predicate</heading>
+<p>Let us now turn to the contrast between English and Italian concerning agreement. Recall the relevant examples, reproduced here as (39):</p>
+<p>(39)&ensp;<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>the cause of the riot is/*are some pictures of the wall</entry>
+</row>
+<row><entry>b.</entry>
+<entry>la causa della rivolta sono/*&egrave; alcune foto del muro</entry>
+</row>
+<row><entry>c.</entry>
+<entry>the cause of the riot are/is some pictures of the wall</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Two assumptions must hold in explaining these facts: first, agreement in Italian cannot be the result of a spec&ndash;head relation between the copula and the subject because we independently know that the subject of an inverse copular sentence can never move; second, it would be highly desirable from a theoretical point of view if such a cross-linguistic distinction could be traced back to the presence of pro in Italian, since this contrast could then be immediately traced back to an independently motivated parametric distinction between the two languages concerning verbal agreement, i.e. the pro-drop parameter. These considerations lead to the following partial representation in Italian:</p>
+<p>(40)&ensp;&lsqb;DP .&nbsp;.&nbsp;.&nbsp;pro copula &lsqb;DP . . .</p>
+<p>What triggers agreement on the copula in Italian is not the preverbal DP but rather pro, which indirectly agrees with the subject in situ: in other words, pro would play the role of a <i>null predicate</i> rather than of a <i>null subject</i>. Notice that the fact that pro can play the role of a null predicate along with that of a null subject is independently motivated by sentences like <i>sono io</i> &lsquo;am I&rsquo;, &lsquo;it&apos;s me&rsquo;, whose correct structure (41a) is the exact opposite of the one assigned by <link rid="b19">Chomsky (1981</link>: 88, 289fn 14) (41b), where <i>io</i> (I) was considered to be the predicate while <i>pro</i> was considered to be the null subject:</p>
+<p>(41)&ensp;<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>pro sono &lsqb;io t&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>pro sono &lsqb;t io&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>That (41) is an inverse copular sentence can be easily proved by noting that: first, <i>io</i> cannot be cliticized to yield <i>lo sono</i> (which incidentally is grammatical but corresponds to the cliticization of the predicate in a canonical sentence like <i>sono stanco</i> &lsquo;am tired&rsquo;);<link rid="fn14">
+<sup>14</sup></link> second, by no means can <i>sono io</i> be considered as similar to <i>telefono io</i> &lsquo;telephone I&rsquo;, namely as an instance of the inverted subject sentences typical of null-subject languages (cf. <link rid="b19">Chomsky 1981</link>; <link rid="b20">Rizzi 1990b</link>). In fact, <i>io telefono</i> is a well-formed sentence whereas *<i>io sono</i> is ungrammatical. The reason why the latter sentence is not well-formed is due to the conspiracy of two independent factors: on the one hand, the copula must co-occur with a subject and a predicate (unlike <i>telefonare</i>, which can occur with only one DP); on the other hand, pro cannot be licensed in situ in the small clause; it can be licensed only in sufficiently rich morphological environments, such as the preverbal position. Thus, *<i>io sono</i> is ungrammatical for the lack of a predicate and <i>sono io</i> is an inverse copular sentence.</p>
+<p>Second, in which structural position is the preverbal DP? There are two possibilities here. Either the DP is in a spec position of the split Comp field in the sense of <link rid="b23">Rizzi (1997</link>), or it is within the IP system higher than spec-AgrS (or any equivalent spec position which triggers agreement on the verb). That such a DP cannot be in the split CP field can be tested by activating the lower head position of such a split system, namely Fin<sup>0</sup>. One possibility is to occupy Fin<sup>0</sup> by a verb, as in Aux-to-Comp constructions, and see where the DP is:</p>
+<p>(42)&ensp;<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11"/>
+<tbody>
+<row><entry morerows="1" valign="top">a.</entry>
+<entry>.&nbsp;.&nbsp;.</entry>
+<entry>&lsqb;essendo&rsqb; &lsqb;<sub>IP</sub>
+</entry>
+<entry>la</entry>
+<entry>causa</entry>
+<entry>della</entry>
+<entry>rivolta t</entry>
+<entry>le</entry>
+<entry>foto</entry>
+<entry>del</entry>
+<entry>muro&nbsp;.&nbsp;.&nbsp;.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>being</entry>
+<entry>the</entry>
+<entry>cause</entry>
+<entry>of the</entry>
+<entry>riot</entry>
+<entry>the</entry>
+<entry>pictures</entry>
+<entry>of the</entry>
+<entry>wall</entry>
+</row>
+<row><entry morerows="1" valign="top">b.</entry>
+<entry namest="col2" nameend="col11">*.&nbsp;.&nbsp;.&nbsp;la causa della rivolta&nbsp;.&nbsp;.&nbsp;.&nbsp;&lsqb;essendo&rsqb; t le foto del muro&nbsp;.&nbsp;.&nbsp;.</entry>
+</row>
+<row><entry namest="col2" nameend="col11">&lsquo;being the cause of the riot the pictures of the wall&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The preferred sequence is the one where the DP follows the auxiliary raised to Fin<sup>0</sup>, offering a piece of evidence in favor of the idea that the preverbal DP in Italian inverse copular sentences is lower than the split Comp field. Interestingly, notice that if this analysis proves tenable, inverse copular sentences would offer a strong clue to children acquiring Italian, since they would be forced to assume that pro is obligatory in preverbal position with all verbs, unless one wants to assume the rather implausible hypothesis that pro is obligatory only with the copula and specifically only with inverse copular sentences.<link rid="fn15">
+<sup>15</sup></link>
+</p>
+<p>Third, why is pro coreferential with the overt DP? There is no explanation for this fact, but it must be observed that this is the very same phenomenon one observes in inverted subject constructions in a pro-drop language, as in <i>telefona Gianni</i> (pro <i>telephones Gianni</i>, &lsquo;Gianni telephones&rsquo;) where pro is forced to be coreferential with the postverbal DP <i>Gianni</i>.</p>
+</subsection>
+</subsection>
+<subsection id="ss15" level="1">
+<heading id="h14" level="1">4&ensp;Conclusion</heading>
+<p>Summarizing, the unified theory of copular sentences of the type &lsqb;DP V DP&rsqb; presented here crucially relies on the hypothesis that along with canonical copular sentences where the subject is raised to the preverbal position (&lsqb;DP V &lsqb;t DP&rsqb;&rsqb;), there also exist inverse copular sentences where the predicative noun phrase is raised to the preverbal position, leaving the subject in situ (&lsqb;DP V &lsqb;DP t&rsqb;). This allows us to derive the observed anomalies concerning movement in copular sentences. Specifically, it can be observed that the postverbal subject of an inverse copular sentence is in a local environment similar to that of the preverbal subject of an embedded sentence governed by an uninflected overt complementizer: there can be no movement of the subject (for ECP reasons) and there can be no movement from the subject (for Subjacency reasons). The distribution of the copula in infinitival copular sentences can be immediately interpreted, since it is only in inverse copular sentences that the copula cannot be omitted, i.e. it cannot be omitted when there would be no specifier position for the predicative DP to cross over the subject. As for the agreement facts, the unified theory allows us to assume a conservative analysis, suggesting that along with the role of the null subject, pro can also play the role of a null predicate, yielding non-trivial consequences for language acquisition.</p>
+<p>Clearly, this unified theory of copular sentences is not able to solve all problems and questions raised by this type of construction. Nevertheless, this theory has provided promising tools for a progressive unification of other fields. A first example is existential sentences of the type <i>there copula DP</i>: this particular type of copular sentence has played a central role in the development of formal syntax since at least <link rid="b24">Jespersen (1924</link>). I will simply refer here to <related relationship="sibling" type="samework"><externallink id="chapter 24 - Existential Sentences and Expletive There.xml" type="file">chapter 24</externallink></related>, where <i>there</i>-sentences are treated in detail. Another example is cleft and pseudocleft-sentences. Given that cleft and pseudo-cleft sentences are instances of copular sentences of the kind &lsqb;DP V DP&rsqb;, the obvious question has been raised whether clefts and pseudo-clefts are instances of canonical or inverse copular sentences and, more importantly, whether this unified theory is helpful in understanding their syntax (see <related relationship="sibling" type="samework"><externallink id="chapter 61 - Specificational Copular Sentences and Pseudoclefts.xml" type="file">chapter 61</externallink></related>).<link rid="fn16">
+<sup>16</sup></link> A further question is raised by sentences of the kind <i>it copula CP</i>, such as <i>it&apos;s that John will not come here today</i>, as the answer to <i>what is is that bothers you?</i>: clearly, assuming the unified theory proposed here it would be hard to say that they are instances of canonical copular sentences, because this would amount to saying that the CP following the copula plays the role of a predicate &ndash; hardly a plausible assumption. Rather, the residual option allowed by the unified theory of copular sentences is more promising, since sentences of the kind <i>it copula CP</i> (like <i>What is it that bothers you?</i>, <i>It&apos;s that John left</i>) can be considered inverse copular sentences, where the CP plays the role of a subject and the preverbal DP (<i>it</i>) plays the role of the propredicate; i.e. &lsqb;it is &lsqb;CP t&rsqb;&rsqb; is their structure. Interestingly, this analysis of sentences of the type <i>it copula CP</i> raises an obvious question as to the structure of the type <i>it seems CP</i> (like <i>it seems that John left</i>), where the so-called &lsquo;quasi-copula&rsquo; <i>seem</i> occurs. Indeed, in <link rid="b1">Moro (1997</link>) a theory of <i>seem</i>-sentences was proposed that analyses <i>it seems CP</i> sentences as involving raising of a propredicative <i>it</i> out of an embedded clausal structure whose subject is a CP (namely, &lsqb;it seems &lsqb;CP t&rsqb;&rsqb;), paralleling inverse copular sentences of the type &lsqb;it is &lsqb;CP t&rsqb;&rsqb;. Other questions raised by the unified theory presented here involve the plausibility of predicative DP raising in other domains. Indeed, an extension of the analysis based on predicative raising has been proposed by <link rid="b25">Kayne (1994</link>), <link rid="b26">Dikken (1995b</link>), <link rid="b27">Zamparelli (1995</link>) and <link rid="b28">Bennis et al. (1998</link>) in the field of noun phrases, interpreting, for example, cases like possessive constructions (<i>the car of John</i>) or epithets (<i>this idiot of (a) John</i>) as involving predicative raising across the subject, first proposed in the field of copular constructions.</p>
+<p>We end the discussion here, concluding much as we have started, observing that copular sentences still constitute an open field of discussion and one that has very intricate relations with many other domains of grammar.</p>
+</subsection>
+<subsection id="ss16" level="1">
+<heading id="h15" level="1">NOTES</heading>
+<p>
+<span id="fn1">
+<number>1&ensp;</number>For a quick list of references within generative grammar, one could see <link rid="b12">Ruwet (1975</link>); <link rid="b29">Higgins (1979</link>); <link rid="b16 b17 b1">Moro (1987, 1988, 1997</link>); <link rid="b15">Stowell (1978</link>); <link rid="b30">Longobardi (1985</link>); <link rid="b31">Heggie (1988</link>); <link rid="b32">Williams (1980</link>); <link rid="b33">Heycock (1994b</link>); <link rid="b34">Gu&eacute;ron (1992</link>); <link rid="b35">Dikken (1998b</link>); <link rid="b36">Heycock and Kroch (1999</link>). For a full list of references in the field since Aristotle, instead, see the appendix of <link rid="b1">Moro (1997</link>).</span>
+</p>
+<p>
+<span id="fn2">
+<number>2&ensp;</number>
+<link rid="b29">Higgins (1979</link>), quoting <link rid="b37">Geach (1962</link>), suggests that the impossibility of <i>wh</i>-moving a predicate headed by <i>which</i> is a semantic restriction called Buridan&apos;s Law: we will see that such an asymmetry can be traced back to the different syntactic nature of the two <i>wh</i>-words.</span>
+</p>
+<p>
+<span id="fn3">
+<number>3&ensp;</number>The fact that the two DPs in (23) can be inverted simply shows that in these cases there is no way to decide <i>a priori</i> which noun phrase is the subject and which one is the predicate, as was already clear in <link rid="b24">Jespersen (1924</link>: 153 ff).</span>
+</p>
+<p>
+<span id="fn4">
+<number>4&ensp;</number>Although this is not the place to expand working intuitions, it may be noticed that the postverbal subject of (24d) is focused: this could be a hint to construe an explanation for backward reflexivization. See also <link rid="b1">Moro (1997</link>: 274) for a critical discussion. For the role of Focus on Binding phenomena see also <link rid="b36">Heycock and Kroch (1999</link>).</span>
+</p>
+<p>
+<span id="fn5">
+<number>5&ensp;</number>This type of structure is to be kept carefully distinct from cases of &lsquo;locative inversion.&rsquo; <link rid="b38">Hoekstra and Mulder (1990</link>), for example, suggested that unaccusatives can be analyzed as &lsquo;locative inversion&rsquo; constructions where spec-IP is occupied by a PP (ia) on a par with copular constructions like those in (ib) (see <link rid="b38">Hoekstra and Mulder 1990</link>: 28 ff):</span>
+</p>
+<p>(i)&ensp;<object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;<sub>IP</sub> &lsqb;<sub>PP</sub> into the room&rsqb;<sub>i</sub> enters &lsqb;<sub>SC</sub> a man t<sub>i</sub>&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>IP</sub> &lsqb;<sub>PP</sub> in the room&rsqb;<sub>i</sub> is &lsqb;<sub>SC</sub> a man t<sub>i</sub>&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This analysis, which explicitly subsumes the theory of <i>there</i>-sentences as inverse sentences proposed in <link rid="b39">Moro (1991</link>) (cf. <link rid="b38">Hoekstra and Mulder 1990</link>: 33 ff), cannot be maintained, for empirical reasons. Consider the following examples:</p>
+<p>(ii)&ensp;<object id="tu28" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu28_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;<sub>DP</sub> the cause of the riot&rsqb;<sub>i</sub> is &lsqb;<sub>SC</sub> a man t<sub>i</sub>&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>DP</sub> the cause of the riot&rsqb;<sub>i</sub> is/*are &lsqb;<sub>SC</sub> John and Mary t<sub>i</sub>&rsqb;</entry>
+</row>
+<row><entry>c.</entry>
+<entry>&lsqb;<sub>PP</sub> in the room&rsqb;<sub>i</sub> is &lsqb;<sub>SC</sub> a man t<sub>i</sub>&rsqb;</entry>
+</row>
+<row><entry>d.</entry>
+<entry>&lsqb;<sub>PP</sub> in the room&rsqb;<sub>i</sub> are/*is &lsqb;<sub>SC</sub> John and Mary t<sub>i</sub>&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Assuming that agreement is invariantly established in spec-IP, it would be hard to assume that (ia) and (ib) instantiate the same type of structure. Rather, (ib), repeated as (iic), is an instance of the topic constructions that have been analyzed by <link rid="b21">Cinque (1990c</link>) and <link rid="b23">Rizzi (1997</link>) involving some portion of the scattered CP layer (and movement of the verb to a higher functional head). This would explain why the equivalent of (ib) in Italian involves a locative clitic <i>ci</i> (iiia) which is not allowed in an inverse copular constructions (iiib):</p>
+<p>(iii)&ensp;<object id="tu29" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu29_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;<sub>IP</sub> &lsqb;<sub>PP</sub> nella stanza&rsqb;<sub>i</sub> *(c&prime;) era &lsqb;<sub>SC</sub> un uomo t<sub>i</sub>&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>IP</sub> &lsqb;<sub>DP</sub> la causa della rivolta&rsqb;<sub>i</sub> (*c&prime;) era &lsqb;<sub>SC</sub> un uomo t<sub>i</sub>&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The status of <i>ci</i> with the copula is discussed in detail in a separate case study, <related relationship="sibling" type="samework"><externallink id="chapter 24 - Existential Sentences and Expletive There.xml" type="file">chapter 24</externallink></related>. As for the lack of <i>ci</i> in Italian unaccusatives (but not in many northern Italian dialects; see <link rid="b9">Burzio 1986</link> and <link rid="b40">Poletto 1993</link>), see <link rid="b1">Moro (1997</link>).</p>
+<p>
+<span id="fn6">
+<number>6&ensp;</number>It should be noted that the idea that copular sentences always occur with one predicative and one referential DP (hence the idea that the preverbal noun phrase can be a predicate when the postverbal one is a subject) was first proposed by <link rid="b24">Jespersen (1924</link>), and independently introduced in generative grammar by <link rid="b30">Longobardi (1985</link>). Moro&apos;s contribution (in <link rid="b16 b17">Moro 1987, 1988</link>, and subsequent works) was to propose a <i>transformational</i> analysis relating the two surface structures.</span>
+</p>
+<p>
+<span id="fn7">
+<number>7&ensp;</number>I will not discuss here the reasons that drive DP movement to preverbal position. Whether it is Case, as generally assumed, or Dynamic Antisymmetry (as proposed in <link rid="b41">Moro 2000</link>), is still under debate.</span>
+</p>
+<p>
+<span id="fn8">
+<number>8&ensp;</number>The fact that the two sentences share the same lexical structure does not imply that they are synonymous. In fact, in the inverse copular sentence the postverbal subject is inherently focused, as opposed to what occurs in canonical copular sentences. The nature of focus within VPs is quite an obscure issue; certainly one cannot simply assume that the focus-related position here is the same as the Focus position in the split-Comp field explored by <link rid="b23">Rizzi (1997</link>); see <link rid="b42">Belletti (1999a</link>) and <link rid="b43">Longobardi (1999</link>) for extensive discussion of postverbal focus positions.</span>
+</p>
+<p>
+<span id="fn9">
+<number>9&ensp;</number>See <link rid="b1">Moro (1997</link>) or the appendix of <link rid="b41">Moro (2000</link>) and references cited there for a detailed proposal on the locality conditions applying on the subject of inverse copular sentences.</span>
+</p>
+<p>
+<span id="fn10">
+<number>10&ensp;</number>There are various ways of implementing the notion of L-marking relying, for example, on theta-relations (<link rid="b44">Chomsky 1986a</link>) or selection (<link rid="b45">Cinque 1992</link>). The latter appears to be empirically more adequate; a head X<sup>0</sup> L-marks a phrase YP if and only if X<sup>0</sup> governs YP and X<sup>0</sup> selects YP. It is interesting to note that the notion of L-marking endures even in the Minimalist framework. &ldquo;Though varieties of govenment would be &lsquo;imperfections,&rsquo; to be avoided if possible, the closer-to-primitive notion of L-marking should pass muster, hence also the notions of barrier that are based on nothing more than L-marking&rdquo; (<link rid="b22">Chomsky 2000</link>: 117).</span>
+</p>
+<p>As for the class of phrases to which L-marking applies, notice that when the predicate is left in situ, extraction is fully grammatical even if there is no L-marking. Hence, we should regard L-marking (hence barrierhood) as a specific condition on argumental noun phrases, not on predicative ones, which behave like verbal phrases much as in the original definitions of the Subjacency conditions (see <link rid="b46">Roberts 1988a</link> for a critical discussion).</p>
+<p>
+<span id="fn11">
+<number>11&ensp;</number>For the sake of clarity, let us assume government to be a local c-command relation: a head governs its complement, the head of its complement, and the spec of its complement. For a critical discussion of government see <link rid="b10">Giorgi and Longobardi (1991</link>); <link rid="b20">Rizzi (1990b</link>).</span>
+</p>
+<p>
+<span id="fn12">
+<number>12&ensp;</number>Agreement then turns out to be the element which performs the &lsquo;action at a distance&rsquo; that the ECP is about, and it has been proposed that it can be generalized to virtually all cases in <link rid="b47">Moro (1993b</link>). In fact this appears to be one possible implementation of a universal requirement that has long been recognized within generative grammar: &ldquo;it is not unreasonable that Universal Grammar should require that the presence of an empty category be signalled in some manner by elements that are overtly present&rdquo; (<link rid="b19">Chomsky 1981</link>: 251).</span>
+</p>
+<p>
+<span id="fn13">
+<number>13&ensp;</number>For independent reasons for assuming a two-principle theory of locality, see <related relationship="sibling" type="samework"><externallink id="chapter 24 - Existential Sentences and Expletive There.xml" type="file">chapter 24</externallink></related>.</span>
+</p>
+<p>
+<span id="fn14">
+<number>14&ensp;</number>Notice that <i>chi sono</i> &lsquo;who am&rsquo; cannot be considered as the counterpart of <i>sono io</i> &lsquo;am I&rsquo;; first person pronouns can never be <i>wh</i>-moved (cf. <i>telefono io</i> &lsquo;telephone I&rsquo; vs. * <i>chi telefono?</i> &lsquo;who telephone-first sing.&rsquo;. This can be regarded as a further support to the idea that the subject of inverse sentences does not move.</span>
+</p>
+<p>
+<span id="fn15">
+<number>15&ensp;</number>Incidentally, notice that inverse copular sentences are not rare: they are extremely productive in Italian, even in child speech contexts.</span>
+</p>
+<p>
+<span id="fn16">
+<number>16&ensp;</number>Rightward agreement in Italian can be exploited as a diagnostic in these cases. In fact, in Italian cleft and pseudo-cleft sentences it is clearly the case that agreement goes to the right, as in <i>sono i libri che Gianni legge</i> &lsquo;it are books that Gianni reads&rsquo; or <i>ci&ograve; che Gianni non gradisce sono i libri</i> &lsquo;what John doesn&apos;t like are books&rsquo;. One can easily conclude that cleft and pseudo-cleft sentences are instances of inverse copular sentences.</span>
+</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss17" level="1" type="references">
+<heading id="h16" level="1">REFERENCES</heading>
+<reference id="b42" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Belletti</surname><x>, </x><forenames>Adriana</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999a</date><x>). </x><title type="document">Inversion as Focalization</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Subject Inversion in Romance and the Theory of Universal Grammar<x>.</x>
+</title>
+<miscellaneoustext> Aafke Hulke and Jean-Yves Pollock (eds.)</miscellaneoustext><x>. </x>
+<address>Oxford</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference id="b14" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Belletti</surname><x>, </x><forenames>Adriana</forenames>
+</name><x> and </x><name type="author">
+<forenames>Luigi</forenames><x> </x><surname>Rizzi</surname>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Psych Verbs and Theta Theory</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>6</volume><x>: </x><page type="first">291</page><x>&ndash;</x><page type="last">352</page><x>.</x>
+</reference>
+<reference id="b28" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bennis</surname><x>, </x><forenames>Hans,<x> </x>Norbert</forenames>
+</name><x> </x><corporatename type="author">Corver</corporatename>
+<x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>Marcel<x> </x>den</forenames><x> </x><surname>Dikken</surname>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">Predication in Nominal Phrases</title><x>. </x><title type="journal">Journal of Comparative Germanic Linguistics</title><x> </x><volume>1</volume><x>: </x><page type="first">85</page><x>&ndash;</x><page type="last">117</page><x>.</x>
+</reference>
+<reference id="b9" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Burzio</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="book">Italian Syntax: A Government-Binding Approach</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Reidel</publisher><x>.</x>
+</reference>
+<reference id="b19" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="book">Lectures on Government and Binding<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b44" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986a</date><x>). </x><title type="book">Barriers<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b8" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986b</date><x>). </x><title type="book">Knowledge of Language: Its Nature, Origin and Use</title><x>. </x><address>New York</address><x>: </x><publisher>Praeger</publisher><x>.</x>
+</reference>
+<reference id="b22" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">Minimalist Inquiries: The Framework</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Step by Step: Essays on Minimalist Syntax in Honor of Howard Lasnik</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Roger</forenames><x> </x><surname>Martin</surname>
+</name><x>, </x><name type="editor">
+<forenames>David</forenames><x> </x><surname>Michaels</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Juan</forenames><x> </x><surname>Uriagereka</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">89</page><x>&ndash;</x><page type="last">155</page><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b13" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="document">Extraction from NP in Italian</title><x>. </x><title type="journal">Journal of Italian Linguistics</title><x> </x><volume>5</volume><x>: </x><page type="first">47</page><x>&ndash;</x><page type="last">99</page><x>.</x>
+</reference>
+<reference id="b21" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990c</date><x>). </x><title type="book">Types of A&prime;-Dependencies</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b45" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Functional Projections and N-Movement within the DP</title><x>. </x><title type="journal">GLOW Newsletter</title><x> </x><volume>28</volume><x>: </x><page type="first">12</page><x>&ndash;</x><page type="last">13</page><x>.</x>
+</reference>
+<reference id="b26" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Dikken</surname><x>, </x><forenames>Marcel<x> </x>den</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995b</date>
+<miscellaneoustext>). Copulas. Unpublished manuscript, Amsterdam, Vrije Universiteit Amsterdam/HIL</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b35" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Dikken</surname><x>, </x><forenames>Marcel<x> </x>den</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998b</date><x>). </x><title type="document">Review of Moro (1997)</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="journal">Linguistische Berichte</title><x> </x><volume>174</volume><x>: </x><page type="first">246</page><x>&ndash;</x><page type="last">263</page><x>.</x>
+</reference>
+<reference id="b37" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Geach</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="1962">1962</date><x>). </x><title type="book">Reference and Generality<x>.</x>
+</title><x> </x><address>Ithaca</address><x>: </x><publisher>Cornell University Press</publisher><x>.</x>
+</reference>
+<reference id="b10" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Giorgi</surname><x>, </x><forenames>Alessandra</forenames>
+</name><x> and </x><name type="author">
+<forenames>Giuseppe</forenames><x> </x><surname>Longobardi</surname>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="book">The Syntax of Noun Phrases: Configuration, Parameters, and Empty Categories</title><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference id="b34" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Gu&eacute;ron</surname><x>, </x><forenames>Jacqueline</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Types Syntaxiques et Types S&eacute;mantiques: La Phrase Copulative Comme Palimpseste</title><x>. </x><title type="journal">Revue Qu&eacute;b&eacute;coise de Linguistique</title><x> </x><volume>22</volume><x>: </x><page type="first">77</page><x>&ndash;</x><page type="last">115</page><x>.</x>
+</reference>
+<reference id="b31" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Heggie</surname><x>, </x><forenames>L.</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date>
+<miscellaneoustext>). The Syntax of Copular Structures. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Los Angeles, University of Southern California</address><x>.</x>
+</reference>
+<reference id="b33" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Heycock</surname><x>, </x><forenames>Caroline</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994b</date><x>). </x><title type="book">Layers of Predication: The Non-Lexical Syntax of Clauses</title><x>. </x><address>New York</address><x>: </x><publisher>Garland</publisher><x>.</x>
+</reference>
+<reference id="b36" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Heycock</surname><x>, </x><forenames>Caroline</forenames>
+</name><x> and </x><name type="author">
+<forenames>Anthony</forenames><x> </x><surname>Kroch</surname>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">Pseudocleft Connectedness: Implications for the LF Interface Level</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>30</volume><x>: </x><page type="first">365</page><x>&ndash;</x><page type="last">398</page><x>.</x>
+</reference>
+<reference id="b29" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Higgins</surname><x>, </x><forenames>Francis<x> </x>Roger</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date><x>). </x><title type="book">The Pseudo-Cleft Construction in English</title><x>. </x><address>New York</address><x>: </x><publisher>Garland</publisher><x>.</x>
+</reference>
+<reference id="b38" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hoekstra</surname><x>, </x><forenames>Teun</forenames>
+</name><x> and </x><name type="author">
+<forenames>Ren&eacute;</forenames><x> </x><surname>Mulder</surname>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Unergatives as Copular Verbs</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>7</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">79</page><x>.</x>
+</reference>
+<reference id="b24" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Jespersen</surname><x>, </x><forenames>Otto</forenames>
+</name>
+</namegroup><x> (</x><date date="1924">1924</date><x>). </x><title type="book">The Philosophy of Grammar<x>.</x>
+</title><x> </x><address>London</address><x>: </x><publisher>Allen and Unwin</publisher><x>.</x>
+</reference>
+<reference id="b25" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">The Antisymmetry of Syntax</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b30" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Longobardi</surname><x>, </x><forenames>Giuseppe</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">Su Alcune Propriet&agrave; della Sintassi e Della Forma Logica delle Frasi Copulari</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Sintassi e Morfologia della Lingua Italiana d&rsquo;Uso: Teorie ed Applicazioni Descrittiv<x>.</x>
+</title><x> </x><namegroup type="editors">
+<name type="editor">
+<forenames>Annalisa</forenames><x> </x><surname>Franchi</surname>
+</name><x>
+</x><miscellaneoustext> De Bellis and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Leonardo<x> </x>M<x>.</x>
+</forenames><x> </x><surname>Savoia</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">211</page><x>&ndash;</x><page type="last">224</page><x>. </x><address>Rome</address><x>: </x><publisher>Bulzoni</publisher><x>.</x>
+</reference>
+<reference id="b43" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Longobardi</surname><x>, </x><forenames>Giuseppe</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date>
+<miscellaneoustext>). Different Types of Inverted Subjects. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>University of Trieste</address><x>.</x>
+</reference>
+<reference id="b16" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Moro</surname><x>, </x><forenames>Andrea</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date>
+<miscellaneoustext>). Tempo e Predicazione Nella Sintassi delle Frasi Copulari. PhD dissertation</miscellaneoustext><x>, </x>
+<address>University of Pavia</address><x>.</x>
+</reference>
+<reference id="b17" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Moro</surname><x>, </x><forenames>Andrea</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Per una Teoria Unificata delle Frasi Copulari</title><x>. </x><title type="journal">Rivista di Grammatica Generativa</title><x> </x><volume>13</volume><x>: </x><page type="first">81</page><x>&ndash;</x><page type="last">110</page><x>.</x>
+</reference>
+<reference id="b39" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Moro</surname><x>, </x><forenames>Andrea</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">The Raising of Predicates</title><x>. </x><title type="journal">MIT Working Papers in Linguistics</title><x> </x><volume>15</volume><x>: </x><page type="first">193</page><x>&ndash;</x><page type="last">218</page><x>.</x>
+</reference>
+<reference id="b47" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Moro</surname><x>, </x><forenames>Andrea</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993b</date><x>). </x><title type="document">Heads as Antecedents: A Brief History of the ECP</title><x>. </x><title type="journal">Lingua e Stile</title><x> </x><volume>28</volume><x>: </x><page type="first">31</page><x>&ndash;</x><page type="last">57</page><x>.</x>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Moro</surname><x>, </x><forenames>Andrea</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="book">The Raising of Predicates: Predicative Noun Phrases and the Theory of Clause Structure</title><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference id="b41" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Moro</surname><x>, </x><forenames>Andrea</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="book">Dynamic Antisymmetry<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b40" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Poletto</surname><x>, </x><forenames>Cecilia</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">La Sintassi del Soggetto nei Dialetti Italiani Settentrionali</title><x>. </x><title type="book">Quaderni Patavini di Linguistica</title>
+<miscellaneoustext> 12</miscellaneoustext><x>. </x>
+<address>Padua</address><x>: </x><publisher>Unipress</publisher><x>.</x>
+</reference>
+<reference id="b20" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rizzi</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990b</date><x>). </x><title type="book">Relativized Minimality<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b23" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rizzi</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">The Fine Structure of the Left Periphery</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Elements of Grammar: Handbook of Generative Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Liliane</forenames><x> </x><surname>Haegeman</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">281</page><x>&ndash;</x><page type="last">337</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b46" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Roberts</surname><x>, </x><forenames>Ian</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988a</date><x>). </x><title type="document">Predicative APs</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>19</volume><x>: </x><page type="first">703</page><x>&ndash;</x><page type="last">710</page><x>.</x>
+</reference>
+<reference id="b18" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Rothstein</surname><x>, </x><forenames>Susan</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date>
+<miscellaneoustext>). The Syntactic Forms of Predication. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b11" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Russell</surname><x>, </x><forenames>Bertrand</forenames>
+</name>
+</namegroup><x> (</x><date date="1903">1903</date><x>). </x><title type="book">The Principles of Mathematics<x>.</x>
+</title><x> </x><address>London</address><x>: </x><publisher>Allen and Unwin</publisher><x>.</x>
+</reference>
+<reference id="b12" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ruwet</surname><x>, </x><forenames>Nicolas</forenames>
+</name>
+</namegroup><x> (</x><date date="1975">1975</date><x>). </x><title type="document">Les Phrases Copulatives</title><x>. </x><title type="book">Recherches Linguistiques</title><x> 3: </x><page type="first">143</page><x>&ndash;</x><page type="last">191</page><x>. </x><address>Paris</address><x>: </x><publisher>University of Paris-Vincennes</publisher><x>.</x>
+</reference>
+<reference id="b15" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Stowell</surname><x>, </x><forenames>Tim</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978</date><x>). </x><title type="document">What Was There Before <i>There</i> Was There</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Fourteenth Regional Meeting of the Chicago Linguistic Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Donka</forenames><x> </x><surname>Farkas</surname>
+</name><x>, </x><name type="editor">
+<forenames>Wesley<x> </x>M<x>.</x>
+</forenames><x> </x><surname>Jacobsen</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Karol<x> </x>W<x>.</x>
+</forenames><x> </x><surname>Todrys</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">458</page><x>&ndash;</x><page type="last">471</page><x>. </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society</publisher><x>.</x>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Verhaar</surname><x>, </x><forenames>John<x> </x>W<x>. </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1967">1967</date><x>). </x><title type="book">The Verb <roman>Be</roman> and its Synonyms Part I: Classical Chinese, Athapaskan, Mundari</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Reidel</publisher><x>.</x>
+</reference>
+<reference id="b3" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Verhaar</surname><x>, </x><forenames>John<x> </x>W<x>. </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1968">1968a</date><x>). </x><title type="book">The Verb <roman>Be</roman> and its Synonyms Part II: Eskimo, Hindi, Zuni, Modern Greek, Malayalam, Kurukh</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Reidel</publisher><x>.</x>
+</reference>
+<reference id="b4" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Verhaar</surname><x>, </x><forenames>John<x> </x>W<x>. </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1968">1968b</date><x>). </x><title type="book">The Verb <roman>Be</roman> and its Synonyms Part III: Japanese, Kashmiri, Armenian, Hungarian, Sumerian, Shona</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Reidel</publisher><x>.</x>
+</reference>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Verhaar</surname><x>, </x><forenames>John<x> </x>W<x>. </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1969">1969</date><x>). </x><title type="book">The Verb <roman>Be</roman> and its Synonyms Part IV: Modern Chinese, Arabic</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Reidel</publisher><x>.</x>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Verhaar</surname><x>, </x><forenames>John<x> </x>W<x>. </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972</date><x>). </x><title type="book">The Verb <roman>Be</roman> and its Synonyms Part V: Urdu, Turkish, Bengali, Amharic, Indonesian, Telugu, Estonian</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Reidel</publisher><x>.</x>
+</reference>
+<reference id="b7" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Verhaar</surname><x>, </x><forenames>John<x> </x>W<x>. </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1973">1973</date><x>). </x><title type="book">The Verb <roman>Be</roman> and its Synonyms Part VI: The Verb Be in Ancient Greek</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Reidel</publisher><x>.</x>
+</reference>
+<reference id="b32" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Williams</surname><x>, </x><forenames>Edwin</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="document">Predication</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>11</volume><x>: </x><page type="first">203</page><x>&ndash;</x><page type="last">238</page><x>.</x>
+</reference>
+<reference id="b27" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Zamparelli</surname><x>, </x><forenames>Roberto</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date>
+<miscellaneoustext>). Layers in the Determiner Phrase. PhD dissertation</miscellaneoustext><x>, </x>
+<address>University of Rochester</address><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

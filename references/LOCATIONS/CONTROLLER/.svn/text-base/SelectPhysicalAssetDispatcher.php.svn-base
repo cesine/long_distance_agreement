@@ -1,0 +1,108 @@
+<?php
+
+// TBD1: Display is missing Furniture type, Equipment type, Equipment assigned user
+
+session_start();
+
+require_once ('../../DB/UUIDB.Class.php');
+require_once ('../../QUERY/SelQuery.php');
+
+if (isset($_GET['AssetID']) && isset($_GET['Category'])){
+	$assetID = $_GET['AssetID'];
+	$category = $_GET['Category'];
+	$CallingForm = 'SearchAssetResult';
+	echo 'Llego';
+	echo '<br/>'.$assetID;
+	echo '<br/>'.$category;
+	if($category== 'Furniture'){
+		header('Location: ../CONTROLLER/SelectFurnitureDispatcher.php?CallingForm=$CallingForm&AssetID=$AssetID');
+	}
+	elseif($category== 'Computer'){
+		header('Location: ../CONTROLLER/SelectComputerDispatcher.php?CallingForm=$CallingForm&AssetID=$AssetID');
+	}
+	elseif($category== 'Equipment'){
+		header('Location: ../CONTROLLER/SelectEquipmentDispatcher.php?CallingForm=$CallingForm&AssetID=$AssetID');
+	}
+	elseif($category== 'Storage Unit'){
+		header('Location: ../CONTROLLER/SelectStorageUnitDispatcher.php?CallingForm=$CallingForm&AssetID=$AssetID');
+	}
+}
+else{
+	$CallingForm	= $_POST['CallingForm'];
+	$AssetID		= $_POST['$AssetID'];
+	$assetType		= $_POST['$Category'];
+	
+	if ($CallingForm == 'SearchAsset'){
+		$db->connect();
+		$qr  = new selQuery(TABLE_PHYSICALASSET);
+		
+		$GroupID		= $_POST['$GroupID'];
+	    $BarCode		= $_POST['$BarCode'];
+	    $LegacyCode		= $_POST['$LegacyCode'];
+		$Category		= $_POST['$Category'];
+		
+		//needs change!!!!
+		$FacultyID		= "1";
+		$LocationID		= "2";
+		
+		$ReqNumber		= $_POST['$ReqNumber'];
+	    $PoNumber		= $_POST['$PoNumber'];
+	    $Manufacturer	= $_POST['$Manufacturer'];
+	    $Model			= $_POST['$Model'];
+	    $Status			= $_POST['$Status'];
+	
+		$result= $qr->selectall();
+	
+		$db->close();
+		
+		
+		if (!$result){
+			$message = 'ERROR:' . mysql_error();
+			echo $message;
+		}
+		else{
+			$i = 0;
+			while ($i < mysql_num_fields($result))
+			{
+				$meta = mysql_fetch_field($result, $i);
+				$arr_column_name [] =  $meta->name;
+				$i = $i + 1;
+			}
+		
+			$i = 0;
+			while ($row = mysql_fetch_row($result))
+			{
+				$count = count($row);
+				$y = 0;
+				while ($y < $count)
+				{
+					$c_row = current($row);
+					$arr_results[] = $c_row ;
+					next($row);
+					$y = $y + 1;
+				}
+				$i = $i + 1;
+			}
+			mysql_free_result($result);
+			$_SESSION['column_names'] = $arr_column_names;
+			$_SESSION['results'] = $arr_results;
+		
+			if($assetType== ''){	
+				header('Location: ../MAPPER/PhysicalAssetMapper.php');
+			}
+			elseif($assetType== 'Furniture'){
+				header('Location: ../CONTROLLER/SelectFurnitureDispatcher.php?CallingForm=$CallingForm');
+			}
+			elseif($assetType== 'Computer'){
+				header('Location: ../CONTROLLER/SelectComputerDispatcher.php?CallingForm=$CallingForm');
+			}
+			elseif($assetType== 'Equipment'){
+				header('Location: ../CONTROLLER/SelectEquipmentDispatcher.php?CallingForm=$CallingForm');
+			}
+			elseif($assetType== 'Storage Unit'){
+				header('Location: ../CONTROLLER/SelectStorageUnitDispatcher.php?CallingForm=$CallingForm');
+			}
+		}
+	}
+}
+?>

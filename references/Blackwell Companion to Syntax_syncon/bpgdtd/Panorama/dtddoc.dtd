@@ -1,0 +1,41 @@
+<!--  This is SoftQuad's internal DTD for DTD documentation. It matches
+	the output of our DTDocumenter "product". It may be useful
+	to others as well. The sample file shows what can be done with the
+	output.
+
+	It may be referred to using the following public identifier:
+	  "-//CDA/SQ//DTD DTDDOCDTD-1//EN"
+-->
+
+<!ELEMENT DTDDoc	(FM, Elem-Sec, Ent-Sec?, Nota-Sec?, Att-Sec?)  +(Emph) >
+
+<!ELEMENT FM		(Doctype, Publ-ID?, Sys-ID?, Date?, Desc?)	>
+<!ELEMENT (Doctype | Publ-ID | Sys-ID | Date)		(#PCDATA)  >
+
+<!ELEMENT Elem-Sec		(Element+)		>
+<!ELEMENT Element		(ElemName, ShrtDesc, Desc?, Minim?, 
+	 Inclus?, Contype?,
+				Parents, Contains?, Inclus?, Attribs?, Loc-Tree)		>
+<!ELEMENT (ElemName | ShrtDesc  | ConType | Contains | Parents | Inclus | Loc-Tree)		
+				(#PCDATA)		>
+<!ELEMENT Desc		(#PCDATA | EXAMPLE)*	>
+<!ELEMENT (Example | Default)	CDATA			>
+<!ELEMENT Minim		(Start?, End?)	>
+<!ELEMENT (Start | End)	(#PCDATA)		>
+<!ELEMENT Attribs		(Attrib*, Desc?)		>
+<!ATTLIST Attribs	elem	CDATA	#IMPLIED	>
+<!ELEMENT Attrib		(AttName, Content, Default, Appears?, Desc?)	>
+<!ELEMENT (AttName | Content)		(#PCDATA)	>
+
+<!ELEMENT Ent-Sec		(Entity+)		>
+<!ELEMENT Entity		(EntName, ReplText, Desc?)	>
+<!ELEMENT (EntName | ReplText)	(#PCDATA)	>
+
+<!ELEMENT Nota-Sec		(Notation+)		>
+<!ELEMENT Notation		(NotaName, Keyword,  Publ-ID?, Sys-ID?, Desc?)	>
+<!ELEMENT (NotaName | Keyword)	(#PCDATA)	>
+
+<!ELEMENT Att-Sec		(Attrib+)		>
+<!ELEMENT Appears		(#PCDATA)		>
+
+<!ELEMENT Emph			(#PCDATA)		>

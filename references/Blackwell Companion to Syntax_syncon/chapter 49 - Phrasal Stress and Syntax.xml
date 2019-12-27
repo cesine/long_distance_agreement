@@ -1,0 +1,2832 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo><contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="49"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 49 - Phrasal Stress and Syntax.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">522</page>
+<page type="last">568</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="39"/>
+<count type="table" count="56"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="53"/>
+<count type="page" count="47"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20050811"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 49&ensp;Zubizarreta and Vergnaud: Phrasal Stress</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 49&ensp;Zubizarreta and Vergnaud: Phrasal Stress</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">49 Phrasal Stress and Syntax</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>MAR&Iacute;A LUISA</forenames><x> </x><surname>ZUBIZARRETA</surname>
+</name><x> AND </x><name type="author">
+<forenames>JEAN-ROGER</forenames><x> </x><surname>VERGNAUD</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>The relation between phrasal prominence and the focus structure of the sentence</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>Phrasal prominence and informational focus (i-focus) in Germanic</p>
+</li>
+<li level="2">
+<number>3.1&ensp;</number>
+<p>The classic view: the Nuclear Stress Rule-based account (<link rid="b1">Chomsky 1971</link>; <link rid="b2">Jackendoff 1972</link>)</p>
+</li>
+<li level="2">
+<number>3.2&ensp;</number>
+<p>Some general remarks on the Nuclear Stress Rule (NSR)</p>
+</li>
+<li level="3">
+<number>3.2.1&ensp;</number>
+<p>The algorithm</p>
+</li>
+<li level="3">
+<number>3.2.2&ensp;</number>
+<p>Secondary stress and eurhythmicity</p>
+</li>
+<li level="2">
+<number>3.3&ensp;</number>
+<p>Cases not covered by the classical view: in search of a new generalization</p>
+</li>
+<li level="3">
+<number>3.3.1&ensp;</number>
+<p>Wide i-focus structures</p>
+</li>
+<li level="3">
+<number>3.3.2&ensp;</number>
+<p>Narrow i-focus structures</p>
+</li>
+<li level="2">
+<number>3.4&ensp;</number>
+<p>
+<link rid="b3">Cinque (1993</link>)</p>
+</li>
+<li level="2">
+<number>3.5&ensp;</number>
+<p>
+<link rid="b4">Zubizarreta (1998</link>)</p>
+</li>
+<li level="3">
+<number>3.5.1&ensp;</number>
+<p>Some assumptions and a revision of the NSR</p>
+</li>
+<li level="3">
+<number>3.5.2&ensp;</number>
+<p>The basic examples</p>
+</li>
+<li level="3">
+<number>3.5.3&ensp;</number>
+<p>Beyond the basic examples: the cases of narrow i-focus</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>A typologically different way of identifying the intonational nucleus: Bengali and Romance</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>Where does the NSR apply?</p>
+</li>
+<li level="1">
+<number>6&ensp;</number>
+<p>Conclusion: some final remarks</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1 Introduction</heading>
+<p>It has been observed that in many languages of the world there is a correlation between prosodic prominence and the informational structure of the sentence. Much current work attempts to determine the laws that govern this correlation. Although we have made some progress, a lot remains unknown factually and therefore our understanding of the phenomenon is still precarious.</p>
+<p>On the factual side, the difficulty lies in the nature of the data itself. Much of it is based on introspective judgments. Although this is common practice in linguistics, it is not without problems, especially in the area under discussion, which consists of native speakers&rsquo; intuitions about the contextual appropriateness of a sentence with a certain prominence pattern. The delicate nature of the judgments is twofold. On the one hand, within impressionistic phonetics, the level of stress of a vowel in a given utterance can be a rather elusive feature. It is certainly a difficult feature to identify in complex utterances. It has no unique correlate, such as pitch level, vowel duration, amplitude, or a combination of these.<link rid="fn1">
+<sup>1</sup></link> And while speakers are generally good at identifying the syllable with the highest pitch, they often lack linguistic awareness of the other acoustic properties. As it turns out, the perception of relative prominence is really bound to the perception of the groupings determined by the surface structure of the utterance.<link rid="fn2">
+<sup>2</sup></link> The particular difficulty in the case of the association of stress with focus is that the information structure of the utterance is only partially governed by the rules of syntax. Thus, the determination of stress as a function of the information structure of the utterance or vice versa does not have the automatic character that its determination as a function of constituent structure has (see n. 2).</p>
+<p>The second problem with judgments concerning the appropriateness of a certain prominence pattern is that it is very hard to control for context. Strictly speaking, there is no context-neutral sentence because speakers tend (un)consciously to add background information. In other words, speakers tend to provide a context for isolated sentences because this is the way that they are naturally used. Furthermore, we need to elucidate which aspect of the relation between prosodic prominence and informational structure is grammatically relevant. Numerous disparate notions and much terminology have been brought to bear on this issue (for a review, see <link rid="b5">Vallduv&iacute; and Engdahl 1996</link>), sometimes giving this area an aura of confusion.</p>
+<p>Despite the above shortcomings and while awaiting new experimental tools better to elucidate the facts and define the object of study,<link rid="fn3">
+<sup>3</sup></link> there are some preliminary core data which have given rise to interesting questions and theoretical debates. The present chapter intends to discuss some of these.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2 The relation between phrasal prominence and the focus structure of the sentence</heading>
+<p>Let us begin by briefly defining the notion of focus (on the notion of focus, see <link rid="b1">Chomsky 1971</link>; <link rid="b2">Jackendoff 1972</link>; <link rid="b6">Szabolsci 1981b</link>; <link rid="b7">Rooth 1985</link>; <link rid="b8">Rochemont 1986</link>; <link rid="b9">Kiss 1998</link>; among others). According to Chomsky and Jackendoff, the sentence is partitioned into two complementary parts, the presupposition and the focus. The focus is then understood to be the non-presupposed part of the sentence. The most reliable (although not infallible) test that we have at our disposal to determine the partitioning of the sentence into focus and presupposition is the question&ndash;answer pair.</p>
+<p>In a question like <i>What happened?</i>, the presupposition is that there is an <i>x</i>, <i>x an unspecified event</i>, <i>such that x happened</i>. Roughly speaking, the <i>wh</i>-phrase in the question stands for the focus variable and the corresponding answer provides a value for that variable.<link rid="fn4">
+<sup>4</sup></link> This is illustrated by the examples below, where the focus is the material contained within brackets. In (1), the focus is the TP, in (2), the focus is the VP, in (3), it is the DP object, and in (4), the DP subject. We use the term wide focus for the largest focus structure, namely (1) below, and narrow focus for all others, namely (2&ndash;4).</p>
+<p>(1)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>Q.</entry>
+<entry>What happened?</entry>
+</row>
+<row><entry>A.</entry>
+<entry>&lsqb;<sub>TP</sub> The cat in the blue hat has written a book about rats&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(2)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>Q.</entry>
+<entry>What did the cat in the blue hat do?</entry>
+</row>
+<row><entry>A.</entry>
+<entry>The cat in the blue hat &lsqb;<sub>VP</sub> has written a book about rats&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(3)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>Q.</entry>
+<entry>What has the cat in the blue hat written?</entry>
+</row>
+<row><entry>A.</entry>
+<entry>The cat in the blue hat has written &lsqb;<sub>DP</sub> a book about rats&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(4)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>Q.</entry>
+<entry>Who has written a book about rats?</entry>
+</row>
+<row><entry>A.</entry>
+<entry>&lsqb;<sub>DP</sub> The cat in the blue hat&rsqb; has written a book about rats.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In general, then, one can adopt the following operational definition:</p>
+<p>(5)&ensp;In a sentence <i>S</i> &equals; <i>&alpha; X &bgr;</i>, <i>X</i> is a possible focus just in case <i>S</i> would count as a felicitous answer to the question <i>Q &equals; wh-X &alpha;&bgr;</i>.</p>
+<p>One must distinguish two types of focus: informational focus (i-focus) and contrastive focus (c-focus). It is the property of exhaustivity that distinguishes the two: an i-focus is non-exhaustive, while a c-focus is exhaustive. The above <i>wh</i>-fronted questions allow for answers with i-focus interpretation, while the clefted questions in French give rise unambiguously to a c-focus type.</p>
+<p>(6)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">Q.</entry>
+<entry>C&rsquo;est qui qui a &eacute;crit un livre sur les rats?</entry>
+</row>
+<row><entry>&lsquo;It is who that wrote a book about rats?&rsquo;</entry>
+</row>
+<row><entry morerows="1">A.</entry>
+<entry>C&rsquo;est &lsqb;<sub>DP</sub> le chat&rsqb; qui a &eacute;crit un livre sur les rats.</entry>
+</row>
+<row><entry>&lsquo;It is the cat that wrote a book about rats.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(7)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">Q.</entry>
+<entry>C&rsquo;est quoi que le chat a &eacute;crit?</entry>
+</row>
+<row><entry>&lsquo;It is what that the cat wrote?&rsquo;</entry>
+</row>
+<row><entry morerows="1">A.</entry>
+<entry>C&rsquo;est &lsqb;<sub>DP</sub> un livre sur les rats&rsqb; que le chat a &eacute;crit.</entry>
+</row>
+<row><entry>&lsquo;It is a book about rats that the cat wrote.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The difference between the two types of focus with respect to exhaustivity can be seen in the following contrast:</p>
+<p>(8)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>Q.</entry>
+<entry>Who wrote a book about rats?</entry>
+</row>
+<row><entry>A.</entry>
+<entry>&lsqb;<sub>DP</sub> The cat&rsqb; wrote a book about rats, and &lsqb;<sub>DP</sub> the bat&rsqb; did too<i>.</i>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(9)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">Q.</entry>
+<entry>C&rsquo;est qui qui a &eacute;crit un livre sur les rats?</entry>
+</row>
+<row><entry>&lsquo;It is who that wrote a book about rats?&rsquo;</entry>
+</row>
+<row><entry morerows="1">A.</entry>
+<entry>*C&rsquo;est &lsqb;<sub>DP</sub> le chat&rsqb; qui a &eacute;crit un livre sur les rats, et c&rsquo;est aussi &lsqb;<sub>DP</sub> la chauve-souris&rsqb;.</entry>
+</row>
+<row><entry>&lsquo;It is the cat that wrote a book about rats, and also the bat.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b10">Vergnaud and Zubizarreta (forthcoming</link>) suggest that because contrastive focus is exhaustive in nature, it requires uniqueness of description. And it is precisely this requirement that is violated in the answer form in (9), since the focus value is given in two separate (conjoined) clauses (the second of which has under-gone conjunction reduction). On the logical structures of i-focus and c-focus, see <link rid="b10">Vergnaud and Zubizarreta (forthcoming</link>).</p>
+</subsection>
+<subsection id="ss4" level="1">
+<heading id="h3" level="1">3 Phrasal prominence and informational focus (i-focus) in Germanic</heading>
+<subsection id="ss5" level="2">
+<heading id="h4" level="2">3.1 The classic view: the Nuclear Stress Rule-based account (<link rid="b1">Chomsky 1971</link>; <link rid="b2">Jackendoff 1972</link>)</heading>
+<p>From the earliest work on focus, researchers have noticed that there is a correlation between the locus of main prosodic prominence and the focus structure of the sentence; cf. <link rid="b1">Chomsky (1971</link>); <link rid="b2">Jackendoff (1972</link>). Thus, a transitive sentence like (10a), with main prominence on the object, can have the DP object, the VP, or the TP as its focus, but not the DP subject. In other words, it is an appropriate prominence pattern in the discourse context (1&ndash;3), but not in context (4). The sentence in (10b), on the other hand, is only appropriate in the discourse context (4), i.e., the DP subject is unambiguously the focus in that sentence.</p>
+<p>(10)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The cat in the blue h&agrave;t has written a book about r&aacute;ts.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The cat in the blue h&aacute;t has written a book about r&agrave;ts.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>From such observations, <link rid="b1">Chomsky (1971</link>) and <link rid="b2">Jackendoff (1972</link>) concluded that a constraint like (11) was at work:<link rid="fn5">
+<sup>5</sup></link>
+</p>
+<p>(11)&ensp;The focused constituent must contain the intonational nucleus of the intonational phrase, where the intonational nucleus is identified as the syllable that bears main phrasal prominence.</p>
+<p>In the above-mentioned works, it was assumed that main phrasal stress is assigned by the Nuclear Stress Rule (NSR), as formulated by <link rid="b11">Chomsky and Halle (1968</link>). This version of the NSR basically states that:</p>
+<p>(12)&ensp;The rightmost word-level stress of a phrase bears main stress within that phrase.</p>
+<p>If a bottom up, cyclical application of the NSR is assumed, then the rule can account for both primary and secondary phrasal stress in examples like (10a). In this example, the NSR assigns phrasal stress to <i>hat</i> and <i>rats</i> at the DP cycle. It reapplies to the VP and TP cycles, assigning primary phrasal stress to <i>rats</i> and demoting the stress level on <i>hat</i> to secondary prominence (by convention). In the case of (10b), the constraint in (11) requires that the prosodic pattern be reinterpreted at the TP cycle, shifting main prominence to the DP subject and demoting NS on the DP object to secondary status.</p>
+<p>The formulation in (12) raises a number of questions, which we consider briefly in the next section before continuing the discussion of (11).</p>
+</subsection>
+<subsection id="ss6" level="2">
+<heading id="h5" level="2">3.2 Some general remarks on the Nuclear Stress Rule (NSR)</heading>
+<subsection id="ss7" level="3">
+<heading id="h6" level="3">3.2.1 The algorithm</heading>
+<p>For the purpose of analyzing the formulation in (12), it will be convenient to adopt the terminology in <link rid="b11">Chomsky and Halle (1968</link>). Accordingly, we shall call the main stress within some phrase <i>&alpha;</i> the primary stress within <i>&alpha;</i>. The next level of stress below the primary stress, we shall call secondary stress, etc. The formulation in (12) can be viewed as a rule applying to the surface structure of an expression and assigning relative prominence within all the phrases. Within the derivational framework assumed in <link rid="b11">Chomsky and Halle (1968</link>), this could be done in one of two ways. The prominence assignment could be a one-step process, with the rule (12) applying to all the phrases in a simultaneous fashion. Call this the one-step algorithm. Alternatively, rule (12) could be defined as a cyclical rule applying in a bottom-up fashion, first to the smallest phrases in the structure, then to the next bigger ones and so on and so forth (see <link rid="b11">Chomsky and Halle 1968</link>: ch. 2 and pp. 340&ndash;350 for discussion). Call this the cyclical algorithm. It is clear that the one-step algorithm will yield the right result for subordinate stresses only if, for each subordinate stress, it includes a device that registers the number of domains in which subordination takes place, some function of the depth of embedding. To illustrate, consider the structure in (13), where <i>t</i>, <i>u</i>, <i>v</i>, <i>w</i> are words and <i>&alpha;</i>, <i>&bgr;</i> and <i>&ggr;</i> phrases:<link rid="fn6">
+<sup>6</sup></link>
+</p>
+<p>(13)&ensp;(<sub>&alpha;</sub> (<sub>&bgr;</sub> (<sub>&ggr;</sub> t u) v) w)</p>
+<p>The neutral stress contour for (13) is the one in (14), where stress levels are indicated by numerals, with 1 representing primary stress, 2, secondary stress, etc. (following the convention adopted in <link rid="b11">Chomsky and Halle 1968</link>):</p>
+<p>(14)&ensp;t<sup>4</sup> u<sup>3</sup> v<sup>2</sup> w<sup>1</sup>
+</p>
+<p>To derive the contour in (14) by the one-step algorithm, it is necessary to have a counter that indicates the number of phrases containing each subordinate stress in (13). The formal difficulty arises from the conjunction of the two facts in (15):</p>
+<p>(15)&ensp;<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source"> <tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>(i)</entry>
+<entry>A &lsquo;level of stress&rsquo; is a feature (of words and, ultimately, of vowels or syllables).</entry>
+</row>
+<row><entry>(ii)</entry>
+<entry>A level of stress is relative to a phrasal domain. Thus, a given word-stress may at the same time be the main stress within a phrase <i>&bgr;</i> and a subordinate stress within another phrase <i>&alpha;</i>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The cyclical algorithm provides an elegant resolution of the tension between (15i) and (15ii). In (16&ndash;17) we give the formulation put forth in <link rid="b11">Chomsky and Halle 1968</link> (see <link rid="b11">Chomsky and Halle 1968</link>: 16&ndash;18):<link rid="fn7">
+<sup>7</sup></link>
+</p>
+<p>(16)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>Assign primary stress to a primary-stressed word <i>w</i><sup>1</sup> in the context w<sup>1</sup> .&nbsp;.&nbsp;.&nbsp;&mdash;&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;<sub>&alpha;</sub>
+</entry>
+</row>
+<row><entry>where <i>&alpha;</i> is a nonlexical category</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(17)&ensp;When primary stress is placed in a certain position, then all other stresses in the string under consideration at that point are automatically weakened by one.</p>
+<p>Rule (16) assigns primary stress to a primary-stressed vowel which is preceded by another primary-stressed vowel in a phrase <i>&alpha;</i>. Both rule (16) and convention (17) apply cyclically. The cyclical application of (16&ndash;17) to the structure in (13) yields a natural derivation of the contour in (14). Facts of this kind constitute empirical evidence in support of the principle of the transformational cycle, stated as follows in Chomsky and Halle:</p>
+<p>(18)&ensp;it is natural to suppose that in general the phonetic shape of a complex unit (a phrase) will be determined by the inherent properties of its parts and the manner in which these parts are combined, and that similar rules will apply to units of different levels of complexity. (<link rid="b11">Chomsky and Halle 1968</link>: 15)</p>
+<p>The conjunction of (16&ndash;17) and of the principle of the transformational cycle constitutes a particular formalization of rule (12). Recent work within the framework of the Minimalist Program suggests that the derivational history of a sentence and its constituent structure are really two alternative ways of analyzing the sentence; see <link rid="b12">Chomsky (1994</link>), <link rid="b13">Epstein (1999</link>). For concreteness, we shall postulate the following (see <link rid="b14">Freidin and Vergnaud 1999</link>):</p>
+<p>(19)&ensp;The structural description of a sentence <i>&ohgr;</i> is an abstract analysis <i>&OHgr;</i> which can be interpreted either as a derivational history or as a phrase marker.<link rid="fn8">
+<sup>8</sup></link>
+</p>
+<p>Assuming (19), we are led to conjecture that there should be a nonderivational correspondent to the cyclical derivational implementation of (12) above. In fact, the proposal in <link rid="b15">Liberman (1979</link>) appears to be just that. This proposal requires that the notion of stress be generalized so that not only words (and phonemes), but also every lexical or phrasal category, will be marked for stress:</p>
+<p>(20)&ensp;&lsquo;Level of stress&rsquo; is a feature of phonemes, words, and categories.</p>
+<p>Given the more abstract notion in (20), the formulation in (12) can be replaced by that in (21), which is essentially the formulation of the NSR in <link rid="b15">Liberman (1979</link>):</p>
+<p>(21)&ensp;The rightmost immediate constituent of a phrase bears main stress within that phrase.</p>
+<p>The formulation in (21) should be construed as a well-formedness condition on surface constituent structure. Quite obviously, that condition must be supplemented by a convention that relates the level of stress of a category to those of its constituents, since stress is ultimately realized on words and, as a phonetic feature, on vowels (or syllables). Such a convention is provided in <link rid="b16">Halle and Vergnaud (1987</link>), where it is defined in terms of the X-bar theoretic constructs &lsquo;head&rsquo; and &lsquo;projection&rsquo;. Specifically, one may postulate the following correspondence between the notion &lsquo;main stress&rsquo; and the X-bar notion of head:<link rid="fn9">
+<sup>9</sup></link>
+</p>
+<p>(22)&ensp;<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>Given a category <i>&alpha;</i>, let <i>H<sub>m</sub>
+</i>(<i>&alpha;</i>) be the category or word immediately dominated by <i>&alpha;</i> that has main stress within <i>&alpha;</i>. The interpretation of the abstract feature &lsquo;level of stress&rsquo; is governed by the following convention:</entry>
+</row>
+<row><entry>For any category <i>&bgr;</i> that dominates <i>&alpha;</i>, the levels of stress of <i>&alpha;</i> and of <i>H<sub>m</sub>
+</i>(<i>&alpha;</i>) within <i>&bgr;</i> are defined to be equal.</entry>
+</row>
+<row><entry>Correspondingly, <i>H<sub>m</sub>
+</i>(<i>&alpha;</i>) is defined as the <i>metrical head</i> of <i>&alpha;</i> and <i>&alpha;</i>, as the <i>metrical projection</i> of <i>H<sub>m</sub>
+</i>(<i>&alpha;</i>).</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The &lsquo;head-of&rsquo; and &lsquo;projection-of&rsquo; relations defined in (22) are transitive in the following sense:</p>
+<p>(23) Let <i>&alpha;</i> be a category with metrical head <i>H</i><sub><i>m</i>
+</sub>(<i>&alpha;</i>) &equals; <i>&delta;</i>. If <i>&delta;</i> is itself a category, then, by definition, the metrical head of <i>&delta;</i> <i>H</i><sub><i>m</i>
+</sub>(<i>&delta;</i>) &equals; <i>H</i><sub><i>m</i>
+</sub>(<i>H</i><sub><i>m</i>
+</sub>(<i>&alpha;</i>)) has the same level of stress as <i>&alpha;</i> in any category that dominates <i>&alpha;</i>.</p>
+<p>Accordingly, the definitions of metrical head and metrical projection can be generalized by transitivity as in (24):</p>
+<p>(24) Given a sequence <i>&alpha;</i><sub>1</sub>, <i>&alpha;</i><sub>2</sub>,&nbsp;.&nbsp;.&nbsp;.&nbsp;, <i>&alpha;</i><sub><i>i</i>
+</sub>, <i>&alpha;</i><sub><i>i</i>&plus;1</sub>,&nbsp;.&nbsp;.&nbsp;.&nbsp;, <i>&alpha;</i><sub><i>n</i>
+</sub> such that, for 1 &le; <i>i</i> &le; <i>n</i> &minus;1, <i>&alpha;</i><sub><i>i</i>&plus;1</sub> is the metrical head of <i>&alpha;</i><sub><i>i</i>
+</sub> in the sense of definition (22), <i>&alpha;</i><sub><i>i</i>&plus;1</sub> &equals; <i>H</i><sub><i>m</i>
+</sub>(<i>&alpha;</i><sub><i>i</i>
+</sub>), then <i>&alpha;</i><sub><i>n</i>
+</sub> is defined to be a metrical head of <i>&alpha;</i><sub>1</sub> and, correspondingly, <i>&alpha;</i><sub>1</sub> is defined to be a metrical projection of <i>&alpha;</i><sub><i>n</i>
+</sub>.</p>
+<p>The conventions in (21&ndash;23), which account for the location of the main stress in each constituent, will in general fail to determine the hierarchy of subordinate stresses in a direct or complete fashion. It is instructive, in that respect, to compare the way these conventions apply to a left-branching structure such as that in (13) with the way they apply to a right-branching structure such as that in (25):</p>
+<p>(25)&ensp;John liked ET.</p>
+<p>In the case of the structure in (13), the conventions in (21&ndash;23) fully determine the stress levels of all the words, yielding the contour in (14). But in the case of (25), these conventions, while assigning a subordinate stress to each of the two words <i>John</i> and <i>liked</i>, fail to define any relative ranking between them. Note that the transformational algorithm in <link rid="b11">Chomsky and Halle (1968</link>) (see (16&ndash;17)) generates the contour in (26) below for (25), assigning more stress to <i>John</i> than to <i>liked</i> (see, for example, <link rid="b11">Chomsky and Halle 1968</link>: 89&ndash;91 and <link rid="b16">Halle and Vergnaud 1987</link>: 265).</p>
+<p>(26)&ensp;John<sup>2</sup> liked<sup>3</sup> ET<sup>1</sup>
+</p>
+<p>It is of course an empirical issue whether a unique stress contour is manifested in the right-branching structure in (25) and, if so, whether that contour is the one in (26).<link rid="fn10">
+<sup>10</sup></link> Since this chapter is concerned with the location of main stress within the sentence, in particular in relation to the information structure of the sentence, we will not consider any further the question of stress subordination.<link rid="fn11">
+<sup>11</sup></link> But a few remarks on the nature of secondary stress are in order.</p>
+</subsection>
+<subsection id="ss8" level="3">
+<heading id="h7" level="3">3.2.2 Secondary stress and eurhythmicity</heading>
+<p>Secondary stress (with the exception of echo accent discussed below) is fundamentally different from primary stress in that it is sensitive to factors such as length, a phenomenon known as eurhythmicity, rather than to discourse-related factors such as focus.<link rid="fn12">
+<sup>12</sup></link> As an illustration of this phenomenon, see the examples below (due to Bruce Hayes, p.c.). There are two possible loci for the secondary stress: it may surface on the rightmost edge of the DP subject or specifier (as predicted by the classical NSR) or it may appear at the leftmost edge of the DP subject or specifier (contrary to what is predicted by the NSR). In the case of (27) the second option is preferred, while in the case of (28) the first option is preferred. It seems that the difference in preference between the two cases is due to the presence or absence of a break following the DP in question. More precisely, it is more natural to have secondary stress on the right edge of the DP if there is a bit of a break after it, but not otherwise. And it seems that it is more natural to have a bit of a break between the verb and its nominative subject than between the noun and its genitive specifier.</p>
+<p>(27)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>nineteen hundred l&igrave;nguists&rsquo; d&oacute;gs</entry>
+</row>
+<row><entry>b.</entry>
+<entry>n&igrave;neteen hundred linguists&rsquo; d&oacute;gs</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(28)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Nineteen hundred l&igrave;nguists s&aacute;ng.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>N&igrave;neteen hundred linguists s&aacute;ng.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Note furthermore that a heavier VP has the effect of blocking secondary stress on the right edge of the DP subject, as shown in (29a). Again this is probably due to the fact that a longer VP calls for an obligatory break immediately following the subject.</p>
+<p>(29)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*N&igrave;neteen thousand linguists sang the Marseill&aacute;ise.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Nineteen thousand l&igrave;nguists sang the Marseill&aacute;ise.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Main phrasal prominence, on the other hand, is never affected by factors such as length; it is only sensitive to discourse-related factors. If main phrasal stress falls within the DP subject (as is necessarily the case if the subject is the focus of the sentence), then phrasal stress within the DP is obligatory where the NSR predicts it should be, namely, at the rightmost edge of the phrase. In effect, while both options in (28) are possible as an answer to the question <i>what happened?</i>, only (30a) is possible as an answer to the question <i>who sang?</i>. Sentence (30b) is possible only if it is understood as introducing a contrast with some other number of linguists.</p>
+<p>(30)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Nineteen hundred l&iacute;nguists s&agrave;ng.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>N&iacute;neteen hundred linguists s&agrave;ng.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>For this reason, we will ignore secondary stress in this chapter, except when a secondary stress is of the echo-accent type.</p>
+<p>In certain cases, secondary stress is an echo of the most prominent pitch accented syllable in the context question, and for this reason it is referred to as echo accent by <link rid="b4">Zubizarreta (1998</link>). Secondary stress in (10b) as an answer to (4) (repeated in (31)) is a case in point. (We underline words with an echo accent, as well as their source in the context question.) The focus in the answer-statement in (31) is the DP subject; therefore main phrasal prominence falls within the subject. Secondary stress within the defocalized VP is in this case a remnant (or an echo) of primary stress in the context question.</p>
+<p>(31)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>Q.</entry>
+<entry>Who has written a book about <u>r&aacute;ts</u>?</entry>
+</row>
+<row><entry>A.</entry>
+<entry>&lsqb;The cat in the blue h&aacute;t&rsqb; has written a book about <u>r&agrave;ts</u>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Note furthermore that:</p>
+<p>(32)&ensp;A word that bears an echo stress within a phrase is rhythmically subordinate to the word that bears a non-echo stress within the same phrase.</p>
+<p>In fact, (32) follows from a more general intonational principle to be discussed below (see (49)). We can see that the echo accent in the answer part in (31) originates in the NS of the context question because its displacement does affect the focus structure of the sentence. Thus, secondary stress in the answer part in (33) signals the c-focus status of <i>book</i>, as it does in the context question where it originates.</p>
+<p>(33)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>Q.</entry>
+<entry>Who has written a <u>BOOK</u> about rats? (not a squib)</entry>
+</row>
+<row><entry>A.</entry>
+<entry>&lsqb;The cat with the blue h&aacute;t&rsqb; has written a <u>b&ograve;ok</u> about rats.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+</subsection>
+<subsection id="ss9" level="2">
+<heading id="h8" level="2">3.3 Cases not covered by the classical view: in search of a new generalization</heading>
+<p>While the classical formulation of the NSR accounts for the prominence patterns in (10), it fails to account for several others. As shown by <link rid="b17">Schmerling (1976</link>), <link rid="b18">Gussenhoven (1984</link>), <link rid="b19 b20">Selkirk (1984, 1995</link>), in Germanic (including English) not all cases of widest focus take a rightmost stress. We will review many of these cases in <link rid="ss9">section 3.3</link>. In fact, the version of the NSR in (12) even fails to account for some basic cases in German (and Dutch), namely, verb-final transitive structures where main stress falls on the direct object, rather than on the final verb:</p>
+<p>(34)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>Hans</entry>
+<entry>hat</entry>
+<entry>ein</entry>
+<entry>B&uacute;ch</entry>
+<entry>gelesen.</entry>
+</row>
+<row><entry>Hans</entry>
+<entry>has</entry>
+<entry>a</entry>
+<entry>book</entry>
+<entry>read</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Note that if we can come up with a successful version of that rule, then we should be able to deduce the scope of the i-focus solely from the locus of the primary nuclear stress. Consequently, we would not need to annotate the syntactic structure with a focus feature. This would indeed be a desirable result to the extent that such a feature does not have any independent justification in the grammar. We will return to this point in the last section.</p>
+<p>An NSR-based theory intends to account only for the relation between prominence and i-focus. Therefore, this theory must assume the existence of an independent phrasal stress rule that places main prominence on the c-focus constituent. This rule, generally referred to as emphatic or contrastive, not only serves to identify the c-focus, but also has metalinguistic functions such as correction; cf. <i>I said CONfirmation, not Affirmation</i>. The contention that c-focus is or can be identified by emphatic stress (generated by the emphatic stress rule rather than by the NSR) is justifiable on several grounds. Function words are invisible for the computation of the NSR (as we shall see in <link rid="ss9">section 3.3</link>) and NS never surfaces on a function word. On the other hand, contrastive stress can surface on a function word; cf. John <i>DID leave</i>. Furthermore, contrastive stress is always associated with an audibly higher pitch level than nuclear stress and it is strictly narrow in scope. Compare (4), with NS on <i>hat</i>, and (35), with contrastive stress on <i>blue</i> (as indicated by capitals).</p>
+<p>(35)&ensp;The cat in the &lsqb;<sub>ADJ</sub> BLUE&rsqb; hat wrote a book about r&agrave;ts (not the one in the RED hat).</p>
+<p>In what follows, we will center the discussion only on nuclear stress and its relation to the i-focus structure of the sentence.</p>
+<subsection id="ss10" level="3">
+<heading id="h9" level="3">3.3.1&ensp;Wide i-focus structures</heading>
+<p>
+<link rid="b17">Schmerling (1976</link>) noted that phrasal prominence in Germanic is sensitive to argument structure. This point was further reinforced in work by <link rid="b18">Gussenhoven (1984</link>) and <link rid="b19 b20">Selkirk (1984, 1995</link>). Typically, in non-V-final structures in German and in English, NS goes on the rightmost word irrespective of transitivity. See the examples below:</p>
+<p>(36)&ensp;<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Hans arbeitet an einem Pap&iacute;er.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Hans is working on a p&aacute;per.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(37)&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Hans arbeitet an einem kleinen T&iacute;sch.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Hans is working on a small t&aacute;ble.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(38)&ensp;<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Hans arbeitet an einem Papier in seinem Z&iacute;mmer.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Hans is working on a paper in his r&oacute;om.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(39)&ensp;<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Das Taxi kommt sp<formula id="mu1" format="inline">
+<file name="Graphics\chapter_49_mu1.gif" type="gif"/>
+</formula>t.</entry>
+</row>
+<row><entry>the taxi is-coming l&aacute;te</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The mail arrived l&aacute;te.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>On the other hand, in V-final structures, an approximate generalization that seems to emerge is that phrasal prominence is sensitive to the transitive&ndash;intransitive distinction and that within the intransitive class, the unaccusatives behave differently from unergatives. In German, in a transitive structure like the one in (34a), repeated below, NS goes on the direct object. (This form is non-existent in Modern English since this language is head initial.)</p>
+<p>(40)&ensp;<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>Hans</entry>
+<entry>hat</entry>
+<entry>ein</entry>
+<entry>B&uacute;ch</entry>
+<entry>gelesen.</entry>
+</row>
+<row><entry>Hans</entry>
+<entry>has</entry>
+<entry>a</entry>
+<entry>book</entry>
+<entry>read</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Within the class of intransitives, we find that unaccusatives behave differently from unergatives. In unaccusative structures, NS falls unambiguously on the subject. Compare (41) with (39a).</p>
+<p>(41)&ensp;<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>Das</entry>
+<entry>T&aacute;xi</entry>
+<entry>kommt.</entry>
+</row>
+<row><entry>the</entry>
+<entry>taxi</entry>
+<entry>is-coming</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Although there are German speakers that have a preference for the verb in V-final structures to be unstressed (see more on this below), it appears that in the case of unergatives NS may go either on the subject or on the verb (in wide focus structures):</p>
+<p>(42)&ensp;<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Es</entry>
+<entry>heisst,</entry>
+<entry>dass</entry>
+<entry>ein</entry>
+<entry>J&uacute;nge</entry>
+<entry>gelacht</entry>
+<entry>hat.</entry>
+</row>
+<row><entry>it</entry>
+<entry>is-said</entry>
+<entry>that</entry>
+<entry>a</entry>
+<entry>boy</entry>
+<entry>laughed</entry>
+<entry>has.</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col8">Es heisst, dass ein Junge gel&aacute;cht hat.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Compare (42) with the unaccusative example in (43), where NS falls unambiguously on the subject in wide focus contexts:</p>
+<p>(43)&ensp;<object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>Es</entry>
+<entry>heisst,</entry>
+<entry>dass</entry>
+<entry>ein</entry>
+<entry>J&uacute;nge</entry>
+<entry>kommt.</entry>
+</row>
+<row><entry>It</entry>
+<entry>is-said</entry>
+<entry>that</entry>
+<entry>a</entry>
+<entry>boy</entry>
+<entry>comes</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Similarly, in English, Schmerling notes that unergatives (in V-final contexts) allow NS on the subject. But as noted by Selkirk and Gussenhoven, NS may also fall on the verb. Of course, this does not mean that both prosodic patterns are used in the same context. In effect, it would appear that some speakers have a preference for using the pattern in (44) in a surprise context or in order to highlight a certain aspect of the information being conveyed, namely, the subject of the action. The point is that both options are possible as an answer to <i>What is the matter?</i>, indicating that both prominence patterns are compatible with a wide focus structure. This shows that prominence has multiple discourse and grammatical functions, one of which is to prosodically identify the scope of the focus.</p>
+<p>(44)&ensp;<object id="tu28" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu28_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The b&aacute;by is crying.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The b&aacute;by is laughing.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(45)&ensp;<object id="tu29" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu29_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The baby is cr&yacute;ing.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The baby is l&aacute;ughing. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>On the other hand, in comparable structures with an unaccusative verb, NS falls unambiguously on the subject:<link rid="fn13">
+<sup>13</sup></link>
+</p>
+<p>(46)&ensp;<object id="tu30" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu30_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The m&aacute;il arrived.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The s&uacute;n came out.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>My b&aacute;g has disappeared.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Suppose we were to put aside the pattern of unergatives with initial stress (as in (44)). To account for the unambiguous initial stress in (46), we might capitalize on the fact that the surface subject in unaccusative structures is an object at a deeper level of representation.<link rid="fn14">
+<sup>14</sup></link> But the data is in fact more complex, as noted in Gussenhoven. While NS is unambiguously on the subject in (46c), the presence of an adverb between the subject and the verb pulls the NS onto the verb:</p>
+<p>(47)&ensp;The dog mysteriously disapp&eacute;ared.</p>
+<p>Another grammatical distinction that is relevant with respect to the computation of the NSR is the complement&ndash;adjunct distinction in V-final structures; cf. Gussenhoven op.cit., Selkirk op.cit., and also <link rid="b21">Krifka (1984</link>). This is illustrated by the following examples (from <link rid="b21">Krifka 1984</link>, cited in <link rid="b22">Truckenbrodt 1993</link>), in which a complement left adjacent to the verb attracts NS (see (48a)), but not an adjunct in the same position (compare (48b) with (37b)):</p>
+<p>(48)&ensp;<object id="tu31" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu31_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Peter</entry>
+<entry>hat</entry>
+<entry>an</entry>
+<entry>einem</entry>
+<entry>Pap&iacute;er</entry>
+<entry>gearbeitet.</entry>
+</row>
+<row><entry>Peter</entry>
+<entry>has</entry>
+<entry>on</entry>
+<entry>a</entry>
+<entry>paper</entry>
+<entry>worked.</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;Peter worked on a paper.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Peter</entry>
+<entry>hat</entry>
+<entry>an</entry>
+<entry>einem</entry>
+<entry>kleinen</entry>
+<entry>Tisch</entry>
+<entry>ge&aacute;rbeitet.</entry>
+</row>
+<row><entry>Peter</entry>
+<entry>has</entry>
+<entry>on</entry>
+<entry>a</entry>
+<entry>small</entry>
+<entry>table</entry>
+<entry>worked</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;Peter has worked on a small table.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As can be easily appreciated, the NSR in (12) does not cover the distinctions discussed above. That formulation of the NSR wrongly predicts main phrasal stress on the verb across V-final structures. Another problematic case for the NSR is that of wide-focus structures that contain anaphoric material. Anaphoric material is generally pronounced with a reduced pitch range, an intonational property that is often referred to as &lsquo;de-accenting&rsquo;.<link rid="fn15">
+<sup>15</sup></link> Furthermore, we have the general intonational property in (49) (due to <link rid="b19 b18">Selkirk 1984, Gussenhoven 1984</link>).</p>
+<p>(49)&ensp;De-accented material is perceived as less prominent than accented material.</p>
+<p>It follows from (49) that main phrasal prominence cannot fall on anaphoric material in Germanic (unless it is contrastive). A few examples are given below, but see <link rid="b18">Gussenhoven (1984</link>) for many more (de-accented material is highlighted with italics):</p>
+<p>(50)&ensp;<object id="tu32" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu32_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>Q: Mary walked in. And then what happened?</entry>
+</row>
+<row><entry>A: John k&iacute;ssed <i>her.</i>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(51)&ensp;Remember John? Have you h&eacute;ard from <i>him</i>?</p>
+<p>(52)&ensp;A bill was sent to Congress today by President Carter which would require peanut butter sandwiches to be served at all government functions. At a press conference today, a group of Senators led by Republican Barry Goldwater of Arizona den&oacute;unced <i>the measure</i>. (<link rid="b23">Ladd 1980</link>)</p>
+<p>Like anaphoric elements, defocalized material is also de-accented in Germanic. Therefore (32) also follows from (49). In effect, since echo accents are contained within defocalized constituents and given that defocalized material is pronounced with a reduced pitch range (i.e., it is de-accented), then it follows from (49) that an echo accent will be perceived as subordinate to an accent contained within the focused phrase.</p>
+<p>In (50)&ndash;(52), as well as in (31), the NSR would have to appeal to an extra mechanism that shifts main phrasal stress to the left sister node. The problem is that this solution misses an important generalization. As we will see in the next section, patterns with de-accented material by and large fall under the same generalization as other patterns. Appending the NSR with a mechanism that shifts stress to the left fails to account for this observation.</p>
+</subsection>
+<subsection id="ss11" level="3">
+<heading id="h10" level="3">3.3.2 Narrow i-focus structures</heading>
+<p>The prosodic pattern of narrow i-focus structures follows the same generalization as the wide i-focus patterns. To illustrate this point, we will examine some examples from German (discussed by <link rid="b24">H&ouml;hle 1982</link>). In the answer in (53), the DP subject <i>Karl</i> is defocalized; it is therefore de-accented (as well as the auxiliary <i>hat</i>, given its status as a function word). This example with narrow focus on the fronted DP object and the verb (<i>den H&uacute;nd geschlagen</i>) follows the typical pattern for transitives discussed in the previous section: main phrasal stress falls on the DP object.</p>
+<p>(53)&ensp;<object id="tu33" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu33_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>Q:</entry>
+<entry namest="col2" nameend="col4">What did Karl do?</entry>
+</row>
+<row><entry morerows="1">A:</entry>
+<entry>Den H&uacute;nd</entry>
+<entry><i>hat Karl</i>
+</entry>
+<entry>geschlagen.</entry>
+</row>
+<row><entry>the dog (<smallcapitals>acc</smallcapitals>)</entry>
+<entry>has Karl (<smallcapitals>nom</smallcapitals>)</entry>
+<entry>beaten</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Of particular interest are the examples where the object is defocalized, as illustrated in (54). The pattern we see in the answer form A<sub>1</sub>, with main prominence on the subject, suggests that transitive structures with a defocalized object behave like intransitives (more precisely, like unergatives). In effect, for speakers that dislike main prominence on the verb when it is in final position, this is the only pattern available (these are the same speakers that dislike (42b)). Such speakers allow prominence on the final verb only if the subject is anaphoric (i.e., if it has been previously mentioned) and is therefore itself de-accented. But, interestingly, there are speakers that lack this restriction. These speakers allow the pattern in (42b) alongside (42a) and they also accept the prosodic pattern A<sub>2</sub> in (54). Thus, although there are idiolectal differences, the data seem to be coherent.</p>
+<p>(54)&ensp;<object id="tu34" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu34_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>Q:</entry>
+<entry>Why is Hans happy?</entry>
+</row>
+<row><entry>A<sub>1</sub>:</entry>
+<entry>Weil <i>ihn</i>/<i>Hans</i> ein Verw&aacute;ndter angerufen <i>hat.</i>
+</entry>
+</row>
+<row><entry>A<sub>2</sub>:</entry>
+<entry>Weil <i>ihn</i>/<i>Hans</i> ein Verwandter &aacute;ngerufen <i>hat</i>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The following empirical generalization seems to emerge:</p>
+<p>(55)&ensp;Transitive structures with a defocalized object behave like unergative structures and not like unaccusative structures.</p>
+<p>The above generalization is also supported by the following paradigm. Although some speakers strongly prefer for defocalized objects to undergo scrambling, others lack any strong preference. The latter allow the word order in (56), where the object is defocalized, and NS is either on the subject or on the verb:</p>
+<p>(56)&ensp;<object id="tu35" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu35_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry>Q:</entry>
+<entry namest="col2" nameend="col10">What happened to the book?</entry>
+</row>
+<row><entry morerows="1">A<sub>1</sub>:</entry>
+<entry>Ich</entry>
+<entry>glaube,</entry>
+<entry>dass</entry>
+<entry>ein</entry>
+<entry>J&uacute;nge</entry>
+<entry>das</entry>
+<entry>Buch</entry>
+<entry>genommen</entry>
+<entry>hat.</entry>
+</row>
+<row><entry>I</entry>
+<entry>believe</entry>
+<entry>that</entry>
+<entry>a</entry>
+<entry>boy</entry>
+<entry>the</entry>
+<entry>book</entry>
+<entry>taken</entry>
+<entry>has</entry>
+</row>
+<row><entry>A<sub>2</sub>:</entry>
+<entry namest="col2" nameend="col10">Ich glaube, dass ein Junge das Buch gen&oacute;mmen hat.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Note that the classical NSR (even if amended with a stress-shifting mechanism that moves NS to the left when it falls on de-accented material) cannot account for the difference in behavior between the different verb classes in wide focus contexts, nor can it account for the generalization in (55).</p>
+</subsection>
+</subsection>
+<subsection id="ss12" level="2">
+<heading id="h11" level="2">3.4 <link rid="b3">Cinque (1993</link>)</heading>
+<p>
+<link rid="b3">Cinque (1993</link>) puts forth a revised NSR that is both conceptually and empirically different from the classical NSR. Like the classical NSR, Cinque&apos;s theory assumes that the syntactic tree is the object on which the NS is computed. But his theory of phrasal stress is even more syntax-dependent than the original NSR. It is designed to capture the following basic generalization:</p>
+<p>(57)&ensp;NS falls on the most embedded element on the recursive side of the tree.</p>
+<p>Cinque builds upon the metrical version of the classical NSR put forth by <link rid="b16">Halle and Vergnaud (1987</link>). In a nutshell, like the classical NSR, the metrical NSR applies to the syntactic tree in a bottom-up, cyclical fashion and derives a metrical grid as output by assigning an asterisk to each syntactic node.</p>
+<p>(58)&ensp;<object id="fu1" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu1.jpg" type="jpg" id="fu1_source"/>
+</objectsource>
+</object>
+</p>
+<p>The most prominent word within a domain is the one that is dominated by the greatest number of asterisks. Like the classical NSR, <i>cat</i> is assigned NS within the DP subject domain and <i>rats</i> is assigned NS within the VP domain. We know that <i>rats</i> is more prominent than <i>cat</i> and that this is achieved by the classical NSR by assigning main prominence to the rightmost category (this time at the TP cycle).</p>
+<p>Cinque&apos;s theory, which is sensitive to depth of embedding (as encoded by the number of asterisks stacked up on a word), and not to linear order, needs yet another ingredient in order to account for the following generalization: irrespective of the degree of embeddedness within a specifier, main prominence is contained within the sister category of the specifier; cf. <i>The cat that chased the r&agrave;t won a pr&iacute;ze</i>. To address this issue, Cinque introduces a distinction between major and minor paths of embedding and proposes that the algorithm be sensitive to that distinction. Informally, the major path of embedding within some tree <i>U</i> is the tree obtained by stripping <i>U</i> off all the specifiers and adjuncts in it. Thus, the major path of embedding within <i>U</i> is the connected set of categories which includes the head of <i>U</i> and is such that, if it includes a head <i>H</i>, it also includes the projections of <i>H</i> and the categories governed by <i>H</i> (in the sense of GB theory) together with their heads, but excludes the non-governed categories. Formally, the notion major vs. minor path of embedding is defined relative to a given maximal projection <i>XP</i> (or, equivalently, relatively to a given head <i>X</i>). To make explicit the relative character of the notion, we reformulate the definition in <link rid="b3">Cinque (1993</link>) as in (59), where the clause in (i) defines the primitive notion and that in (ii) extends it by transitivity:<link rid="fn16">
+<sup>16</sup></link>
+</p>
+<p>(59)&ensp;<object id="tu36" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu36_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>(i)</entry>
+<entry>Given some head category <i>X</i>, the major path of embedding with respect to <i>X</i> is primitively constituted by <i>X</i> and the projections of <i>X</i> together with the head of the complement of <i>X</i> and the projections of that head. The minor path of embedding with respect to <i>X</i> is primitively constituted by the head of the specifier of <i>X&prime;</i> and the projections of that head.</entry>
+</row>
+<row><entry>(ii)</entry>
+<entry>Given heads <i>X</i>, <i>Y</i> and <i>Z</i> such that <i>X</i> belongs to the major path of embedding with respect to <i>Y</i>, whatever status <i>Y</i> has with respect to <i>Z</i> is extended to <i>X</i>: if <i>Y</i> belongs to the major (resp. minor) path of embedding with respect to <i>Z</i>, then, by extension, <i>X</i> is defined to belong to the major (resp. minor) path of embedding with respect to <i>Z</i>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>When there is no ambiguity, we shall refer to &ldquo;the major (resp. minor) path of embedding with respect to <i>XP</i>&rdquo; simply as &ldquo;the major (resp. minor) path of embedding.&rdquo; The convention that <link rid="b3">Cinque (1993</link>) postulates to account for the metrical asymmetry between the specifier and its sister is the following:</p>
+<p>(60)&ensp;<object id="tu37" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu37_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Convention:</b>
+</entry>
+</row>
+<row><entry>When the minor path joins the major path, the cycle corresponding to the minor path is visible in the form of one asterisk.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Cinque&apos;s algorithm delivers one very important result. Unlike the classical NSR, it is able to account for the presence of NS on the object in German V-final transitive structures. In effect, the head of the complement phrase is more deeply embedded than the head of the verb phrase and therefore it is dominated by a bigger number of asterisks. But as it stands, Cinque&apos;s theory, like the classical NSR, fails to account for the data discussed in <link rid="ss9">section 3.3</link>.</p>
+</subsection>
+<subsection id="ss13" level="2">
+<heading id="h12" level="2">3.5 <link rid="b4">Zubizarreta (1998</link>)</heading>
+<p>This work is an attempt to meet descriptive adequacy while keeping alive the basic insight in Cinque&apos;s theory: NS falls on the lowest element in the (visible part of the) syntactic tree. We begin by presenting some basic assumptions about this analysis.</p>
+<subsection id="ss14" level="3">
+<heading id="h13" level="3">3.5.1 Some assumptions and a revision of the NSR</heading>
+<p>In the spirit of <link rid="b15">Liberman (1979</link>), the NSR applies to sister nodes and it assigns relative strength to them (i.e., weak vs. strong); see (20&ndash;22) above.</p>
+<p>NSR applies to a metrical interpretation of the syntactic tree, rather than to the syntactic tree itself. In other words, metrical sisterhood and syntactic sisterhood do not always coincide. The reason is that anaphoric, defocalized, and functional categories are pronounced with a reduced pitch range, an intonational property, which, as mentioned earlier, is referred to as de-accented. And as stated in (49), it is a fact that de-accented material is always perceived as less prominent than any accented material. Consequently, the algorithm that determines which element is the most prominent in the string can only apply to accented material. It therefore follows that:</p>
+<p>(61)&ensp;A syntactic category that fully dominates anaphoric or defocalized material, a functional word, or an empty category is invisible to the application of the NSR.</p>
+<p>To illustrate, consider the following tree, where the parenthesized node (D) is metrically invisible because it dominates de-accented material. We then say that in this structure, C and F are metrically non-distinct. Therefore, B and F, as well as B and C, count as metrical sisters.</p>
+<p>(62)&ensp;<object id="fu2" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu2.jpg" type="jpg" id="fu2_source"/>
+</objectsource>
+</object>
+</p>
+<p>Based on the data discussed in <link rid="ss9">section 3.3</link>, the following approximate generalization is assumed. NS in V-final and non V-final structures in Germanic follow two distinct patterns (putting aside the cases of intransitives with NS on the verb, such as (45) and (47)):</p>
+<p>(63)&ensp;<object id="tu38" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu38_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>In V-final structures NS falls on the right-most selected visible element in the tree</entry>
+</row>
+<row><entry>In non-V final structures, NS falls on the right-most visible element in the tree.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Suppose we adopt the essential ideas on phrase structure proposed by <link rid="b25">Kayne (1994</link>). First, syntactic trees are universally right-branching, i.e., they conform to the X-bar form &lsqb;<sub>XP</sub> ZP &lsqb;<sub>X&prime;</sub> X<sup>0</sup> YP&rsqb;&rsqb;. Second, languages universally obey the Linear Correspondence Principle (LCA), a weaker version of which is given in <link rid="b26">Chomsky (1995c</link>) and reads as follows:</p>
+<p>(64)&ensp;<object id="tu39" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu39_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Given two constituents A and B, if A asymmetrically c-commands B, then every terminal node that A dominates precedes every terminal that B dominates.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>A asymmetrically c-commands B iff. A c-commands B and B does not c-command A.<link rid="fn17">
+<sup>17</sup></link>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>It then follows that the right-most (visible) element in the tree is also the lowest one. As mentioned at the beginning of this section, Zubizarreta&apos;s analysis preserves the basic insight of Cinque&apos;s algorithm, in that NS attaches to the lowest (metrically visible) element in the tree. Embeddedness and ordering coincide, and for present purposes they are indistinguishable.</p>
+<p>The ordering relevant for the notion &lsquo;lowest&rsquo; may be defined along two distinct dimensions of the tree: either with respect to the subpart that defines selectional relations (giving rise to selectional ordering) or with respect to the constituent structure irrespective of selectional considerations (giving rise to asymmetric c-command ordering). For ease of exposition, we depart with respect to a number of details from the analysis in <link rid="b4">Zubizarreta (1998</link>).<link rid="fn18">
+<sup>18</sup></link> The notion of asymmetric c-command-ordering is defined in (64). Selectional ordering relative to some head <i>H</i> is then defined as the restriction of the asymmetric c-command-ordering to the set of constituents directly or indirectly selected by <i>H</i>:</p>
+<p>(65)&ensp;Let <i>H</i> be a head and let <i>K</i><sub><i>H</i>
+</sub> be the set of constituents selected by <i>H</i> or a projection of <i>H</i>. Given two constituents <i>C</i><sub>i</sub> and <i>C</i><sub>j</sub> in <i>K</i><sub><i>H</i>
+</sub> such that <i>C</i><sub>i</sub> asymmetrically c-commands <i>C</i><sub>j</sub>, then <i>C</i><sub>j</sub> is lower than <i>C</i><sub>i</sub> in the selectional ordering.</p>
+<p>The NSR is then modularized in terms of these two types of orderings:</p>
+<p>(66)&ensp;<object id="tu40" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu40_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Revised NSR:</b>
+</entry>
+</row>
+<row><entry>S-NSR: Given two metrical sister-categories <i>C</i><sub>i</sub> and <i>C</i><sub>k</sub> in which one is selectionally dependent on the other, assign main prominence to the dependent category if it is the lowest in the selectional ordering.</entry>
+</row>
+<row><entry>C-NSR: Given two metrical sister-categories <i>C</i><sub>i</sub> and <i>C</i><sub>k</sub>, assign main prominence to the category that is lowest in the asymmetric c-command ordering.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Note that the context to which the S-NSR applies is a proper subset of the context to which the C-NSR applies. The S-NSR will then get a chance to apply only if it is ordered before the C-NSR (cf. the &lsquo;Elsewhere Condition&rsquo; on the application of phonological rules put forth by <link rid="b27">Kiparsky 1973</link>). It is therefore assumed that the order of application is as stated in (66).</p>
+<p>We have two tree structures: a metrical tree (which is the syntactic tree with the de-accented nodes omitted) and the full-fledged syntactic tree; see (62) above. When applying the NSR, one of the two structures, the metrical tree or the fully fledged syntactic tree, is selected and the ordering relations are assessed within the selected structure, and solely within that structure. It is suggested below that the cases of stress ambiguity (like (44&ndash;45)) are due precisely to this option.</p>
+<p>In the next section we illustrate how the rule works with some of the basic examples discussed in <link rid="ss9">section 3.3</link>. As we shall see, the analysis sketched here accounts not only for the cases that fall under the approximate generalization given in (63) above, but also those that fall outside of it (such as examples (45) and (47)).</p>
+</subsection>
+<subsection id="ss15" level="3">
+<heading id="h14" level="3">3.5.2 The basic examples</heading>
+<p>Recall that in non V-final structures, such as (36&ndash;39), NS falls systematically on the right-most element. Let us examine (39). As we have seen in <link rid="ss9">section 3.3</link>, the position of NS in unaccusative structures varies when other material such as adverbs is added on. The English example in (39) may be assumed to have roughly the structure below, where the parenthesized nodes are metrically invisible because they dominate de-accented or phonologically empty material. (The asterisks encode main prominence among metrical sisters, as assigned by the revised NSR. It is equivalent to the &lsquo;S&rsquo; label in <link rid="b15">Liberman 1979</link>.)</p>
+<p>(67)&ensp;<object id="fu3" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu3.jpg" type="jpg" id="fu3_source"/>
+</objectsource>
+</object>
+</p>
+<p>Consider a step-by-step (top-down) application of the rule (a bottom-up application would give the same result):</p>
+<listgroup id="l2" type="i">
+<li level="1">
+<number>(i)&ensp;</number>
+<p>D in line 1 and N in line 2 are metrically non-distinct. Therefore any rule application to D in line 1 extends to N in line 2. D and T are sisters but not selectionally related. Therefore, C-NSR applies, instead of the S-NSR. Since D asymmetrically c-commands T, T is assigned main prominence.</p>
+</li>
+<li level="1">
+<number>(ii)&ensp;</number>
+<p>T in line 1 and V in line 2 are metrically non-distinct. Consequently, D in line 1 and V in line 2 count as metrical sisters. There is no selectional relation between them; therefore S-NSR fails to apply to these metrical sisters. Instead C-NSR applies and assigns main prominence to V in line 2, given that D in line 1 asymmetrically c-commands V in line 2.</p>
+</li>
+<li level="1">
+<number>(iii)&ensp;</number>
+<p>V and Adv in line 3 are (metrical) sisters. There is no selectional relation, therefore S-NSR does not apply. Instead, C-NSR applies and assigns main prominence to the Adv since V asymmetrically c-commands Adv.</p>
+</li>
+<li level="1">
+<number>(iv)&ensp;</number>
+<p>Since the Adv node in line 3 is metrically non-distinct from the Adv node in lines 4 and 5, V in line 3 counts as metrical sisters to Advs 4 and 5. Again, S-NSR fails to apply in each of these cases; C-NSR applies instead to the lowest node in the asymmetric c-command ordering, namely to Adv in lines 4 and 5.</p>
+</li>
+</listgroup>
+<p>Consider next the unaccusative structures without the adverb in final position. In this V-final unaccusative structure, NS falls on the subject (cf. (41)). The structure is as follows:</p>
+<p>(68)&ensp;<object id="fu4" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu4.jpg" type="jpg" id="fu4_source"/>
+</objectsource>
+</object>
+</p>
+<p>As before, D in line 1 and N in line 2 are metrically non-distinct. T and D in line 1 (and therefore N) are (metrical) sisters. Since T in line 1 and the Vs in lines 2 and 3 are metrically non-distinct, D in line 1 (and the N it dominates) function as a metrical sister of the Vs as well. Since these are selectionally related, the S-NSR applies and assigns main prominence to D (and N).</p>
+<p>We now compare the above unaccusative structure with one which contains an adverb between the subject and the verb (cf. (47)):</p>
+<p>(69)&ensp;<object id="fu5" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu5.jpg" type="jpg" id="fu5_source"/>
+</objectsource>
+</object>
+</p>
+<p>This metrical structure differs with respect to the previous one in a crucial way. The D in line 1 and the Vs in lines 3 and 4 are not metrical sisters. In this structure, D in line 1 and V in line 2 are metrical sisters but they are not selectionally related. Therefore, the C-NSR applies and assigns main prominence to V in line 2. Adv in line 3 is a metrical sister of the Vs in line 3 and in line 4 (the two Vs being metrically non-distinct). Again, since there is no selectional relation between the Adv and the Vs, the C-NSR applies and assigns main prominence to V.</p>
+<p>The last two examples are very relevant to evaluate Cinque&apos;s system. The case of (68) is problematic because in that system we do not expect the minor path of embedding to receive NS. Recall that within that system the non-recursive side of the tree is visible only in the form of one asterisk. We could amend his system to account for this case by appealing to the presence of the subject&apos;s trace within the VP. In other words, we could say that the subject receives NS not by virtue of its surface position but by virtue of being a copy of the DP in object position, which is the most embedded node in the tree. But (69) shows that this cannot be the case. In effect, if the trace of the displaced object plays a role in determining the location of NS in (68), we would not expect the presence of a preverbal adverb to pull NS to the right, as is the case in (69). We conclude therefore that the notion of minor vs. major path of embedding is not the right notion to compute NS.</p>
+<p>We turn next to the unergative structures. These are particularly challenging because NS may appear either on the subject or on the verb with a wide focus interpretation (e.g., (44) and (45)). Let us assume, following <link rid="b28">Hale and Keyser (1991</link>), that unergatives are covert transitives. They have a cognate object which may be syntactically incorporated into the verb. Cf. <i>John slept</i> vs. <i>John slept a long sleep.</i> We show below that the NSR generates two distinct patterns in the case of unergatives depending on whether the full-fledged syntactic tree or the metrical tree (which is a subpart of the syntactic tree) is used to compute ordering.</p>
+<p>If ordering is computed on the basis of the fully fledged syntactic tree, the trace of the cognate object that has been incorporated into the verb counts for the computation, more specifically it counts for the computation of selectional ordering. In this case, the pattern in (45) is obtained: NS falls on the verb.</p>
+<p>(70)&ensp;<object id="fu6" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu6.jpg" type="jpg" id="fu6_source"/>
+</objectsource>
+</object>
+</p>
+<p>The computation in (70) proceeds as follows. As in the structures examined earlier, D and T in line 1 are sisters; C-NSR applies and assigns main prominence to T. T in line 1 is metrically non-distinct from the V nodes in lines 2 and 3. Therefore D in line 1 and the V nodes in lines 2 and 3 are metrical sisters. While D in line 1 and the Vs are selectionally related, D in line 1 is not the lowest element in the selectional ordering; D in line 3 is the lowest element in the selectional ordering. Therefore NSR fails to apply; C-NSR applies instead and assigns main prominence to the V nodes in lines 2 and 3, since these nodes are asymmetrically c-commanded by D in line 1.</p>
+<p>If ordering is computed solely on the basis of metrically visible nodes, then the trace of the incorporated object does not count for the computation. The pattern in (44) is obtained: NS falls on the subject (as in the unaccusative structure in (68)).</p>
+<p>(71)&ensp;<object id="fu7" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu7.jpg" type="jpg" id="fu7_source"/>
+</objectsource>
+</object>
+</p>
+<p>In (71), as in (70), T in line 1 and the Vs in lines 2 and 3 are metrically non-distinct; D in line 1 and the V nodes are therefore metrical sisters. The two sets of nodes are selectionally related. Given that the silent object is invisible to the computation, D in line 1 counts as the lowest selected node in the tree. The S-NSR therefore applies and assigns NS to it.</p>
+<p>The analysis sketched above for English readily extends to German V-final and non-V-final structures. Recall that not all German speakers accept the unergative structure with NS on the final V-node; see the discussion with respect to (42a) and (42b). Given the above analysis, we can account for this idiolect by assuming that for such speakers ordering relations is unambiguously determined in terms of the metrical tree.</p>
+<p>An interesting contrast that surfaces in German V-final structures and which is unavailable in English is the one in (48), repeated below.</p>
+<p>(72)&ensp;<object id="tu41" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu41_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Peter</entry>
+<entry>hat</entry>
+<entry>an</entry>
+<entry>einem</entry>
+<entry>Pap&iacute;er</entry>
+<entry>gearbeitet.</entry>
+</row>
+<row><entry>Peter</entry>
+<entry>has</entry>
+<entry>on</entry>
+<entry>a</entry>
+<entry>paper</entry>
+<entry>worked.</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;Peter worked on a paper.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Peter</entry>
+<entry>hat</entry>
+<entry>an</entry>
+<entry>einem</entry>
+<entry>kleinen</entry>
+<entry>Tisch</entry>
+<entry>ge&aacute;rbeitet.</entry>
+</row>
+<row><entry>Peter</entry>
+<entry>has</entry>
+<entry>on</entry>
+<entry>a</entry>
+<entry>small</entry>
+<entry>table</entry>
+<entry>worked</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;Peter has worked on a small table.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (72a) the PP immediately preceding the lexical verb is selected by the verb and therefore the S-NSR assigns it main prominence. On the other hand, in (72b) the PP that immediately precedes the lexical verb is an adverb which bears no selectional relation with the verb. Consequently, the S-NSR does not apply; the C-NSR applies instead assigning main prominence to the verb, the lowest node in the asymmetric c-command ordering.<link rid="fn19">
+<sup>19</sup></link>
+</p>
+</subsection>
+<subsection id="ss16" level="3">
+<heading id="h15" level="3">3.5.3 Beyond the basic examples: the cases of narrow i-focus</heading>
+<p>The case of (53), repeated below, is straightforward.</p>
+<p>(73)&ensp;<object id="tu42" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu42_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>Q:</entry>
+<entry namest="col2" nameend="col4">What did Karl do?</entry>
+</row>
+<row><entry morerows="1">A:</entry>
+<entry>Den H&uacute;nd</entry>
+<entry><i>hat Karl</i>
+</entry>
+<entry>geschlagen.</entry>
+</row>
+<row><entry>the dog (<smallcapitals>acc</smallcapitals>)</entry>
+<entry>has Karl (<smallcapitals>nom</smallcapitals>)</entry>
+<entry>beaten</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The subject that intervenes between the fronted object and the verb is metrically invisible. Therefore the fronted object and the verb are metrical sisters. The S-NSR applies and assigns main prominence to the object.</p>
+<p>The case of (54) and (56) are more challenging. We repeat (54) below.</p>
+<p>(74)&ensp;<object id="tu43" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu43_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>Q:</entry>
+<entry>Why is Hans happy?</entry>
+</row>
+<row><entry>A<sub>1</sub>:</entry>
+<entry>Weil <i>ihn</i>/<i>Hans</i> ein Verw&aacute;ndter angerufen <i>hat.</i>
+</entry>
+</row>
+<row><entry>A<sub>2</sub>:</entry>
+<entry>Weil <i>ihn</i>/<i>Hans</i> ein Verwandter &aacute;ngerufen <i>hat</i>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In transitive structures where the object is defocalized, NS falls either on the subject or on the verb, as in the unergative structures examined earlier. Why should this be the case? The analysis of unergatives suggested above provides a straightforward answer. Unergatives are covert transitive structures. And, as in the case of unergatives, if ordering is assessed on the fully fledged syntactic tree (including the defocalized object and its trace), then the S-NSR fails because the subject is not the lowest selected element in the tree. The C-NSR applies and assigns main prominence to the verb. Alternatively, if ordering is assessed with respect to the metrical nodes (which exclude the defocalized object and its trace), then the S-NSR applies. The subject is the lowest selected element in the metrical tree and is therefore assigned main prominence.</p>
+<p>Recall that there is an idiolect of German that dislikes NS on the verb in cases like (74). As mentioned earlier, these seem to be the same speakers that reject NS on the verb in unergative structures like (42b) (unless the subject itself is defocalized). The same explanation applies in both cases. These speakers compute ordering relations solely on metrically visible nodes; therefore the subject will inexorably be assigned main prominence by the C-NSR in such structures.</p>
+</subsection>
+</subsection>
+</subsection>
+<subsection id="ss17" level="1">
+<heading id="h16" level="1">4 A typologically different way of identifying the intonational nucleus: Bengali and Romance</heading>
+<p>We know that main phrasal stress plays a crucial role in identifying the intonational nucleus of the intonational phrase (or I-phrase) and that the intonational nucleus is the center around which the intonational contour is organized. The studies that assume the classical NSR, as well as some of those that have attempted to revise it (e.g., <link rid="b3 b4">Cinque 1993, Zubizarreta 1998</link>), have recognized that syntactic information plays a crucial role in the computation of main phrasal prominence (and therefore of the intonational nucleus) in the Germanic languages. But this does not seem to be universally true. A case in point is Bengali, described by <link rid="b29">Hayes and Lahiri (1991</link>).</p>
+<p>In Bengali, as in Germanic, the locus of NS plays a role in determining the possible scope of the focus. But the syntax does not play any direct role in the computation of NS (and therefore of the intonational nucleus). Instead, NS in Bengali is computed in terms of prosodic phrasing, which itself is constrained by the syntax (see further below).</p>
+<p>In Bengali, there are two types of prosodic phrases, as identified by <link rid="b30">Beckman and Pierrehumbert (1986</link>) for Japanese and English; the intermediate prosodic phrase (also referred to as phonological phrase or P-phrase) and the intonational phrase or I-phrase, mentioned earlier. The I-phrase is composed of one or more P-phrases. Hayes and Lahiri (p. 57) identify the following phrasal stress rules:</p>
+<p>(75) <object id="tu44" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu44_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Bengali P-phrase stress:</b>
+</entry>
+</row>
+<row><entry>Within the P-phrase, the leftmost non-clitic word is the strongest.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(76)&ensp;<object id="tu45" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu45_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry namest="col1" nameend="col2">
+<b>Bengali I-phrase stress:</b>
+</entry>
+</row>
+<row><entry>a.</entry>
+<entry>A P-phrase bearing narrow focus receives the strongest stress of its I-phrase.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Under wide focus, the rightmost P-phrase within the I-phrase is the strongest.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Furthermore, Hayes and Lahiri show that:</p>
+<p>(77)&ensp;In Bengali a P-phrase boundary must be inserted at the right edge of the focused constituent.</p>
+<p>Given (77), we may rephrase (76) as follows:</p>
+<p>(78)&ensp;Within the I-phrase, NS falls on the right-most P-phrase, the right edge of which must coincide with the right-edge of the focused constituent.</p>
+<p>In the case of wide-focus structures and in the case of a narrow focused constituent in final position, NS will fall within the last P-phrase of the I-phrase. In these cases, the last phrasal stress will be the strongest. In cases where the narrow focused constituent is internal within the I-phrase, the NS will not be rightmost.</p>
+<p>To repeat, in Bengali, the position of nuclear stress is not sensitive to syntactic structure; instead it is sensitive to prosodic phrasing. On the other hand, syntactic structure is relevant in constraining the formation of P-phrases. Hayes and Lahiri (p. 91) report that:</p>
+<p>(79)&ensp;<object id="tu46" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu46_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Two constituents X and Y may be grouped into a single P-phrase only if X c-commands Y.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The verb, which is in final position, is phrased separately.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>We may think of Romance languages as belonging to the same typological class as Bengali. But unlike Bengali, the P-phrase in Romance is not relevant for the computation of the NS. More precisely,</p>
+<p>(80)&ensp;In Romance, NS falls on the rightmost accented word within the I-phrase.</p>
+<p>
+<link rid="b4">Zubizarreta (1998)</link> shows that languages such as Spanish and Italian do not de-accent anaphoric and defocalized constituents. On the other hand, these languages (like Germanic and Bengali) comply with the focus&ndash;prosody correspondence principle in (11), which we repeat here:</p>
+<p>(81)&ensp;The focused constituent must contain the intonational nucleus of the intonational phrase, where the intonational nucleus is identified as the syllable that bears main phrasal prominence.</p>
+<p>
+<link rid="b4">Zubizarreta (1998)</link> argues that Spanish and Italian resolve cases in which (80) and (81) clash by movement (which she terms p-movement, meaning that it is a type of movement that is prosodically motivated). More precisely, when the last constituent in the I-phrase is defocalized, the defocalized constituent is fronted in order for NS to be able to fall on the right-most constituent within the I-phrase, while complying with the requirement in (81). An example is provided below (where the focused constituent is the direct object). The canonical word order SVOPP is not acceptable in this context, as shown in A1 and A2. The focused direct object must appear at the right-most edge of the I-phrase to receive NS. For this reason the defocalized PP must be fronted, as shown in A3. Alternatively, the PP may be right-dislocated, in which case it is outside of the I-phrase, as shown in A4.<link rid="fn20">
+<sup>20</sup></link>
+</p>
+<p>(82)&ensp;<object id="tu47" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu47_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">Q:</entry>
+<entry>Qu&eacute; puso Juan sobre la mesa?</entry>
+</row>
+<row><entry>what put Juan on the table</entry>
+</row>
+<row><entry>&lsquo;What did Juan put on the table?&rsquo;</entry>
+</row>
+<row><entry morerows="1">*A1:</entry>
+<entry>Juan puso el p&aacute;n sobre la mesa.</entry>
+</row>
+<row><entry>Juan put the bread on the table</entry>
+</row>
+<row><entry>*A2:</entry>
+<entry>Juan puso el pan sobre la m&eacute;sa.</entry>
+</row>
+<row><entry>A3:</entry>
+<entry>Juan puso sobre la mesa el p&aacute;n.</entry>
+</row>
+<row><entry>A4:</entry>
+<entry>Juan puso el p&aacute;n &num; sobre la mesa.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Note that the Germanic NS algorithm share something with the Bengali type system at a more abstract level. In Bengali and Romance it is the linear notion &lsquo;right-most&rsquo; within the I-phrase that counts. In Germanic, it is &lsquo;being the lowest&rsquo; within the syntactic tree or a subpart of it that counts. Interestingly, the LCA (stated in (64)) establishes that the phonological notion of right-most and the syntactic notion of lowest coincide. In fact, in Romance the rightmost node in the I-phrase and the lowest node in the asymmetric c-command ordering are indistinguishable. But why do Germanic and Bengali differ? Recall that in Bengali the focused constituent is obligatorily flanked by a P-phrase boundary. On the other hand, in English, as shown by <link rid="b30">Beckman and Pierrehumbert (1986</link>) the focused constituent is not systematically followed by a P-phrase boundary. If that turns out to be the case for German as well, then we could advance the hypothesis that that is the source for the divergence between the two language types. More precisely,</p>
+<p>(83)&ensp;A system in which a focused phrase is not systematically flanked by a prosodic boundary computes prominence in terms of the syntactic notion of &lsquo;lowest&rsquo;, rather than in terms of its phonological counterpart, namely the notion of &lsquo;rightmost&rsquo;.</p>
+<p>Future research on prosodic prominence, prosodic phrasing, and their relation to syntactic structure should say whether or not (83) is on the right track. If (83) turns out to be correct, it would lend support to the hypothesis that rightmost and &lsquo;lowest&rsquo; are the two sides of the same coin, as suggested by the LCA.</p>
+</subsection>
+<subsection id="ss18" level="1">
+<heading id="h17" level="1">5 Where does the NSR apply?</heading>
+<p>It has been suggested above that there are two typologically distinct classes of language: one (like Germanic) in which the metrical interpretation of the syntactic tree is relevant in computing NS and another one (like Bengali and Romance) in which NS is computed strictly in terms of prosodic phrases. What can we infer from this conclusion regarding the locus of application of the NSR? Does it mean that NS applies within the syntax in Germanic and within the phonological component (or PF) in Bengali and Romance? While tempting, this conclusion cannot be correct under the standard assumption that PF and Logical Form (LF) are systematically mediated by syntax. First, as we have seen, prominence plays a fundamental role in identifying the focus domain of a sentence in both language types (cf. the principle stated in (11), repeated in (81)). To the extent that focus is part of the logical representation of a sentence (see <link rid="b10">Vergnaud and Zubizarreta (forthcoming</link>)), it follows that information regarding prominence must be available at LF in both types of language (i.e., in Germanic as well as in Bengali and Romance).</p>
+<p>Second, <link rid="b4">Zubizarreta (1998</link>) has argued that the formulation of p-movement in Romance (see <link rid="ss17">section 4</link>) is intimately related to the NSR; therefore, they must both apply at the same point in the derivation. (For details on the formulation of p-movement, see Zubizarreta op. cit.: sec. 3.5.1.) Furthermore, <link rid="b31">Su&ntilde;er (2000</link>) has shown that p-movement in Romance affects binding relations. If binding relations are determined in the LF component of the grammar, then p-movement must feed LF, and so must the NSR.</p>
+<p>Third, it was shown above that NS in Bengali (and in Romance) is computed in terms of prosodic boundaries, while in English, NS is computed on the basis of metrically interpreted syntactic structures. Nevertheless, even in English, a sentence may be composed of more than one intonational phrase, with each intonational phrase containing a NS (as required by the principle in (11)). See, for example, the famous example from <link rid="b11">Chomsky and Halle (1968</link>):</p>
+<p>(84)&ensp;(This is the c&aacute;t) (that chased the r&aacute;t) (that stole the ch&eacute;ese).</p>
+<p>The implication is that information regarding prosodic boundaries must be available at the point where the NSR applies &ndash; even in English.</p>
+<p>Our conclusion is that prosodic information (such as prosodic boundaries and main phrasal prominence) must be present at the stage in the derivation where LF is constructed. That conclusion appears to be broadly in line with the standard derivational architecture. Within that architecture, PF interpretation (Spell-out) applies at the level of S-structure, from which LF is also derived (see <link rid="b32">Chomsky and Lasnik 1993</link>; <link rid="b4">Zubizarreta 1998</link>). <link rid="b4">Zubizarreta (1998</link>) develops a particular version of the standard model in which prosodic information is incorporated into S-structure. In particular, prosodic structure in Germanic-like languages is presented as an annotation of S-structure, which is produced by interpretive principles that apply to local configurations of the constituent structure (see <link rid="ss13">section 3.5</link>). But we saw earlier that a constituent structure is a derivation in a different guise (cf. (19) and n. 8 in <link rid="ss7">section 3.2.1</link>). So the account in <link rid="b4">Zubizarreta (1998</link>) can presumably be recast and be embedded in an architecture in which PF interpretation is cyclical (see <link rid="b33">Frampton and Gutmann 1999</link>; <link rid="b34">Uriagereka 1999</link>; <link rid="b35">Chomsky 2001b</link>). We sketch this alternative rendering below.</p>
+<p>Chomsky op. cit. outlines a particular cyclical architecture, in which the cycles are called <i>phases</i>. To illustrate the workings of a derivation by phase, let us consider the structure in (85):</p>
+<p>(85)&ensp;&lsqb;Jane saw John&rsqb;</p>
+<p>We assume that that structure has five primitive constituents, namely those given in (86), where <i>C</i> is a (silent) complementizer:</p>
+<p>(86)&ensp;&lcub;Jane, John, see, Past, C&rcub;</p>
+<p>This is an oversimplification but it will do for our purpose. The first cycle may be represented as the derivation-marker in (87):</p>
+<p>(87)&ensp;<object id="fu8" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu8.jpg" type="jpg" id="fu8_source"/>
+</objectsource>
+</object>
+</p>
+<p>That is, Merge first applies to the pair &lcub;<i>John</i>, <i>see</i>&rcub;, then to the pair &lcub;<i>Jane</i>, <i>W</i>&rcub;, where <i>W</i> is the product of the application of Merge to &lcub;<i>John</i>, <i>see</i>&rcub;. Constituents can be described as sets and Merge can be defined as set union, so that <i>W</i> is the set &lcub;<i>John</i>, <i>see</i>&rcub;, formed from the union of &lcub;<i>John</i>&rcub; and &lcub;<i>see</i>&rcub;. And the outcome of the complete derivation in (87) is the set &lcub;<i>Jane John</i>, <i>see</i>&rcub;. Of course, that set could also be generated by the derivation in (88), since set union is associative:</p>
+<p>(88)&ensp;<object id="fu9" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu9.jpg" type="jpg" id="fu9_source"/>
+</objectsource>
+</object>
+</p>
+<p>The derivations in (87) and (88) define different constituent analyses based on the same array of syntactic primitives.</p>
+<p>A syntactic set created by Merge has a very special feature: among its elements, it counts one which may be taken to stand for the whole set. That element is called the head of the set. In the particular derivation in (87), the head of the first constituent created by Merge is <i>see</i>, which is also the head of the final outcome. Then, the description of the derivation in (87) can be simplified as follows. Merge first applies to <i>John</i> and <i>see</i>, then it applies to <i>Jane</i> and <i>see</i>. This is represented in (89):</p>
+<p>(89)&ensp;<object id="fu10" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu10.jpg" type="jpg" id="fu10_source"/>
+</objectsource>
+</object>
+</p>
+<p>The derivation marker in (89) constitutes the first phase. Spell-out applies to that first cycle. Following <link rid="b35">Chomsky (2001b</link>), we assume that the interpretively relevant part of the phase does not include the highest specifier in it. In the case of (89), it is then the submarker in (90):</p>
+<p>(90)&ensp;<object id="fu11" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu11.jpg" type="jpg" id="fu11_source"/>
+</objectsource>
+</object>
+</p>
+<p>One may distinguish three functions or components of Spell-Out. The first component (SO<sup>I</sup>) defines the primitive domains of PF interpretation. These are the minimal syntactic collocations which can be translated into assemblages of morphosyntactic and, ultimately, PF features. Call these primitive domains morphosyntactic domains (MSDs). An MSD is a local object: it may be a syntactic head or a short continuous sequence thereof, but nothing bigger than that. The second component of Spell-Out (SO<sup>II</sup>) determines how the MSDs are strung together. In particular, SO<sup>II</sup> delimits the prosodic domains and assigns relative prominence to the various MSDs within these domains. The third component (SO<sup>III</sup>) actually effects the translation of MSDs into morphosyntactic and, ultimately, PF representations. The theory of SO<sup>III</sup>, we assume, is Distributed Morphology (DM) (see <link rid="b36">Halle and Marantz 1993</link>). SO<sup>III</sup> treats the MSDs created by SO<sup>I</sup> as independent domains and applies to these domains in an unordered fashion. From the point of view of the cyclical architecture, the critical parts of Spell-Out are then SO<sup>I</sup> and SO<sup>II</sup>.</p>
+<p>The output of SO<sup>I</sup> is not an independent &lsquo;PF derivation marker&rsquo;, but merely an annotated version of the syntactic derivation marker, in which MSDs are identified. SO<sup>I</sup> converts the derivation marker in (90) into the tree in (91), where &lt;&nbsp;.&nbsp;.&nbsp;.&nbsp;&gt; represents an MSD:</p>
+<p>(91)&ensp;<object id="fu12" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu12.jpg" type="jpg" id="fu12_source"/>
+</objectsource>
+</object>
+</p>
+<p>A verbal head can be identified as an MSD only in combination with the <i>T</i>(<i>ense</i>) head. This is why there is no MSD corresponding to <i>see</i> in (91). The SO<sup>I</sup> interpretation of the first phase in (89) then reduces to the marking of <i>John</i> as an MSD (the constituent <i>John</i> is assigned Case in the first phase in (89), so it is a complete MSD by the end of that phase).</p>
+<p>The array for the next phase includes the primitive element <i>Past</i> together with the elements at the &lsquo;margin&rsquo; of the previous phase, i.e., the phasal head and its specifier. The second phase has the structure in (92):</p>
+<p>(92)&ensp;<object id="fu13" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu13.jpg" type="jpg" id="fu13_source"/>
+</objectsource>
+</object>
+</p>
+<p>The interpretive domain in (92) is the marker in (93):</p>
+<p>(93)&ensp;<object id="fu14" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu14.jpg" type="jpg" id="fu14_source"/>
+</objectsource>
+</object>
+</p>
+<p>SO<sup>I</sup> transforms this marker into the tree in (94):</p>
+<p>(94)&ensp;<object id="fu15" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu15.jpg" type="jpg" id="fu15_source"/>
+</objectsource>
+</object>
+</p>
+<p>In isolation, each of the MSDs &lt;<i>Past</i>&gt; and &lt;<i>see</i>&gt; would surface as <i>did</i> and <i>see</i>, respectively &ndash; more exactly, as the PF representations corresponding to <i>did</i> and to <i>see</i>. On the other hand, since &lt;<i>Past</i>&gt; and &lt;<i>see</i>&gt; are adjacent in the structure in (94), a more economical interpretation is to fuse the two MSDs into a single one, ultimately giving rise to the PF corresponding to <i>saw</i>. So the image of (93) by SO<sup>I</sup> is the tree in (95):</p>
+<p>(95)&ensp;<object id="fu16" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu16.jpg" type="jpg" id="fu16_source"/>
+</objectsource>
+</object>
+</p>
+<p>The transformation of (94) into (95) is the rule of Affix-Hopping.</p>
+<p>The array for the third and final phase includes the primitive element <i>C</i> together with the head of the second phase and its specifier. The final phase has the structure in (96):</p>
+<p>(96)&ensp;<object id="fu17" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu17.jpg" type="jpg" id="fu17_source"/>
+</objectsource>
+</object>
+</p>
+<p>The interpretive domain in (96) is the whole marker. The application of SO<sup>I</sup> to (96) yields the tree in (97):</p>
+<p>(97)&ensp;<object id="fu18" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu18.jpg" type="jpg" id="fu18_source"/>
+</objectsource>
+</object>
+</p>
+<p>The complementizer <i>C</i> has no morphosyntactic translation. Furthermore, a functional head such as <i>Past</i> cannot be identified as an MSD unless it is combined with some verbal projection (this is the converse of the situation in (91)). The SO<sup>I</sup> interpretation of the final phase in (96) then reduces to the marking of <i>Jane</i> as an MSD.</p>
+<p>Note that we are assuming that the derivation of the stucture in (85) involves three phases, a departure from <link rid="b35">Chomsky (2001b</link>). The latter postulates two phases, a first phase associated with the verb domain and a second one, with the complementizer domain. The difference between the two analyses rests on the status of the functional category <i>T</i>. Implicit in our proposal is the assumption that <i>T</i> is a complementizer-like category and <i>C</i> a higher complementizer. Hence the additional phase. The question at this point is how the various phases are formally linked together. How does one know that, e.g., <i>see</i> in the phase in (89) is the same element as <i>see</i> in the phase in (92)? A natural approach is to try to incorporate all the phases into a single connected derivation marker. To that effect, we capitalize on the fact that a syntactic head may represent several levels of constituency at the same time. For example, <i>see</i> in (92) can represent the head in the phase in (89) or it can represent any projection of that head. The derivation markers in (89), (92), and (96) were defined with the first interpretation in mind. If, on the other hand, we assume the second interpretation, it becomes possible to join the three markers into a single one describing the whole derivation, as shown in (98) (note that the two overlapping markers in (96) and (92) have been unified in the sense that the common subtree is represented only once):</p>
+<p>(98)&ensp;<object id="fu19" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu19.jpg" type="jpg" id="fu19_source"/>
+</objectsource>
+</object>
+</p>
+<p>There remains a problem, though, common to the new integrated representation in (98) and to the disconnected one displayed in (89), (92), and (96). Both fail to identify the multiplicity of occurrences of <i>Jane</i> as a <i>chain</i>, i.e., as the same constituent partaking of separate phases. A chain is the association of a constituent <i>&alpha;</i> with a list of contexts <i>K</i><sub><i>&alpha;</i>
+</sub> for <i>&alpha;</i> (see <link rid="b26">Chomsky 1995c</link>). For any given <i>&alpha;</i>, the derivation may then be equated with the generation of <i>K</i><sub><i>&alpha;</i>
+</sub>. Under the simplest definition, a context for <i>&alpha;</i> identifies only one occurrence of <i>&alpha;</i> (thus, <i>X</i> &mdash; <i>U</i> &mdash; <i>W</i> is not a context in that restricted grammatical sense). The pair of derivation markers in (99), where &Delta; is a fixed dummy symbol, is a description that identifies the chain of occurrences of <i>Jane</i> so defined:</p>
+<p>(99)&ensp;<object id="tu48" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu48_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>(i)</entry>
+<entry>
+<object id="fu20" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu20.jpg" type="jpg" id="fu20_source"/>
+</objectsource>
+</object>
+</entry>
+</row>
+<row><entry>(ii)</entry>
+<entry>
+<object id="fu21" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu21.jpg" type="jpg" id="fu21_source"/>
+</objectsource>
+</object>
+</entry>
+</row>
+<row><entry>(iii)</entry>
+<entry>D &equals; <i>Jane</i>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>We note that there is a second constituent that shows up in two contexts, namely, the structure in (100):</p>
+<p>(100)&ensp;<object id="fu22" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu22.jpg" type="jpg" id="fu22_source"/>
+</objectsource>
+</object>
+</p>
+<p>The verbal structure in (100) has two distinct grammatical roles in the sentence in (85); predicate of the constituent <i>Jane</i> and complement of the functional head <i>Past</i>. The two occurrences of (100) in (99) then also constitute a chain. Accordingly, we revise (99) to (101), where &Delta; and &Delta;&prime; are two distinct dummy symbols:</p>
+<p>(101)&ensp;<object id="tu49" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu49_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>(i)</entry>
+<entry>
+<object id="fu23" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu23.jpg" type="jpg" id="fu23_source"/>
+</objectsource>
+</object>
+</entry>
+</row>
+<row><entry>(ii)</entry>
+<entry>
+<object id="fu24" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu24.jpg" type="jpg" id="fu24_source"/>
+</objectsource>
+</object>
+</entry>
+</row>
+<row><entry>(iii)</entry>
+<entry>D &equals; <i>Jane</i>
+</entry>
+</row>
+<row><entry>(iv)</entry>
+<entry>D&cent; &equals; (<i><sub>see</sub> see John</i>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The whole description in (101) can legitimately be identified as the LF of the sentence in (85). In some sense, we are back to the two phase theory in <link rid="b35">Chomsky (2001b</link>), with the diagram in (101i) representing the first phase and that in (101ii) the second phase. There are differences, though. The derivation described in (101) goes like this. First, a small clause is assembled, with a verb, a subject, and an object. The small clause is then separated into two parts, its subject (<i>Jane</i>) and the predicate cycle (<i>see John</i>). At this point, the derivation starts afresh, using the parts from the disassembled first phase as well as new material. The cycle &lsqb;<i>see John</i>&rsqb; from the first phase is plugged in the second phase at the stage where the functional category <i>T</i> is merged with its verbal complement. Following this, the subject <i>Jane</i> is merged as the specifier of <i>T</i>. In general, the LF of a sentence will have the following structure:</p>
+<p>(102)&ensp;<object id="tu50" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu50_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry namest="col1" nameend="col2">An LF representation is a partially ordered set of derivation markers, where the ordering is defined in (i):</entry>
+</row>
+<row><entry>(i)</entry>
+<entry>The derivation marker <i>p</i> precedes the derivation marker <i>q</i> &equals;<sub>def</sub> the lexical items in <i>p</i> form a subset of those in <i>q</i>. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Note that one effect of disassembling the first phase before starting the second one in an LF such as (101) is what has been called trace deletion (see <link rid="b26">Chomsky 1995c</link>, for example). Assuming this as a general mechanism, no phase will ever include any trace (at least, of A-movement).<link rid="fn21">
+<sup>21</sup></link> A trace is now viewed as a derived construct: a constituent in a phase <i>p</i><sub>i</sub> is a trace to the extent that it partakes of a more inclusive phase <i>p</i><sub>j</sub>.</p>
+<p>Within the above execution of phase theory, it is not necessary for Spell-Out to go by the same phasal &lsquo;clock&rsquo; as LF. In particular, a single LF phase might correspond to a multiplicity of PF phases (see <link rid="b37">Megerdoomian 2002</link> for a discussion of this issue). We will assume that this is indeed the case. For example, we will maintain the PF analysis of the structure in (101) (the description of the sentence in (85)) in three phases, displayed in (91), (95), and (97). Linking these SO<sup>I</sup> phases together yields the tree in (103):</p>
+<p>(103)&ensp;<object id="fu25" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu25.jpg" type="jpg" id="fu25_source"/>
+</objectsource>
+</object>
+</p>
+<p>The PF linear sequence of MSDs mirrors the derivational ordering.<link rid="fn22">
+<sup>22</sup></link> That is, the sequence of MSDs is that in (104), where ^ is the concatenation operator:</p>
+<p>(104)&ensp;&lt;Jane&gt; ^ &lt;Past&plus;see&gt; ^ &lt;John&gt;</p>
+<p>Determining the string of MSDs from the SO<sup>I</sup> derivation marker is one of the roles of SO<sup>II</sup>. In addition, SO<sup>II</sup> defines prosodic domains, assigning stress at the boundaries of these domains. Concretely, we shall assume the following rule:</p>
+<p>(105)&ensp;Let <i>&micro;</i> be a sequence of MSDs (possibly reduced to one) such that <i>&micro;</i> corresponds to an LF phase. A prosodic boundary (denoted by &num;) is inserted after <i>&micro;</i>, unless one already exists within or after <i>&micro;</i> (having been inserted in a prior phase).</p>
+<p>Furthermore, we assume that any DP is an LF phase by itself (on par with CP).<link rid="fn23">
+<sup>23</sup></link> In the derivation in (103), SO<sup>II</sup> will then insert <i>&num;</i> after the MSDs &lt;<i>John</i>&gt; and &lt;<i>Jane</i>&gt;:</p>
+<p>(106)&ensp;<object id="fu26" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu26.jpg" type="jpg" id="fu26_source"/>
+</objectsource>
+</object>
+</p>
+<p>The only other string in the representation in (106) that corresponds to an LF phase is the whole string itself (neither &lsqb;<i>see John</i>&rsqb;, nor &lsqb;<i>Past see John</i>&rsqb; are phases in the analysis in (101)). The string of MSDs is then parsed as in (107):</p>
+<p>(107)&ensp;&lt;Jane&gt; &num; ^ &lt;Past&plus;see&gt; ^ &lt;John&gt; &num;</p>
+<p>We assume that some principle subordinates <i>&lt;Jane&gt;&num;</i> to &lt;<i>John</i>&gt;<i>&num;</i>.<link rid="fn24">
+<sup>24</sup></link> Thus, main prominence is assigned at the last (rightmost) boundary within the sequence.</p>
+<p>Now consider the sentence in (108) (cf. the discussion of (68) above):</p>
+<p>(108)&ensp;J&oacute;hn disappeared</p>
+<p>The neutral stress contour is the one indicated, with main stress on <i>John</i>. The LF description of the sentence is given in (109):</p>
+<p>(109)&ensp;<object id="tu51" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu51_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>(i)</entry>
+<entry>(1st phase)</entry>
+<entry>&emsp;D</entry>
+</row>
+<row><entry>(ii)</entry>
+<entry>(2nd phase)</entry>
+<entry>
+<object id="fu27" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu27.jpg" type="jpg" id="fu27_source"/>
+</objectsource>
+</object>
+</entry>
+</row>
+<row><entry>(iii)</entry>
+<entry>(3rd phase)</entry>
+<entry>
+<object id="fu28" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu28.jpg" type="jpg" id="fu28_source"/>
+</objectsource>
+</object>
+</entry>
+</row>
+<row><entry morerows="1">(iv)</entry>
+<entry namest="col2" nameend="col3">(identification of the dummy symbols)</entry>
+</row>
+<row><entry namest="col2" nameend="col3">D &equals; <i>John</i>,&emsp;D&cent; &equals; <i>disappear</i>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>One difference between the structure in (109) and that in (101) is that, whereas the object of the verb in (101) gets Case in the second phase, the object in (109) does not get Case until the last phase. As a consequence, the object in (109) is not interpreted as an MSD by SO<sup>I</sup> until that final phase, once it has moved to subject position. The prosodic boundary <i>&num;</i> is then inserted after the subject. We display in (110) the image of (109) by SO<sup>I</sup>, together with the prosodic boundary inserted by SO<sup>II</sup>:</p>
+<p>(110)&ensp;<object id="fu29" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu29.jpg" type="jpg" id="fu29_source"/>
+</objectsource>
+</object>
+</p>
+<p>The corresponding string is that in (111):</p>
+<p>(111)&ensp;&lt;John&gt; &num; ^ &lt;Past&plus;disappear&gt;</p>
+<p>Compare next the sentence in (112) (cf. the discussion of (69)):</p>
+<p>(112)&ensp;John mysteriously disapp&eacute;ared.</p>
+<p>In the sentence in (112), the neutral intonation is with main stress on <i>disappear</i>. The essential difference between (112) and (108), of course, is the presence of an additional constituent in (112), namely the adverb adjoined to the verb phrase. We analyze the structure as in (113):</p>
+<p>(113)&ensp;<object id="tu52" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu52_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>(i)</entry>
+<entry>(1st phase)</entry>
+<entry>&emsp;&ensp;D</entry>
+</row>
+<row><entry>(ii)</entry>
+<entry>(2nd phase)</entry>
+<entry>
+<object id="fu30" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu30.jpg" type="jpg" id="fu30_source"/>
+</objectsource>
+</object>
+</entry>
+</row>
+<row><entry>(iii)</entry>
+<entry>(3rd phase)</entry>
+<entry>
+<object id="fu31" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu31.jpg" type="jpg" id="fu31_source"/>
+</objectsource>
+</object>
+</entry>
+</row>
+<row><entry morerows="1">(iv)</entry>
+<entry namest="col2" nameend="col3">(identification of the dummy symbols)</entry>
+</row>
+<row><entry namest="col2" nameend="col3">D &equals; <i>John</i>,&emsp;D&cent; &equals; <i>disappear</i>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The parentheses around the adverb <i>mysteriously</i> in (113ii) indicate that the second phase really is an abstract construct made up of two actual phases: one phase has the adverb <i>mysteriously</i> in it, the other lacks it. In other words, the second phase is a pair of &lsquo;parallel&rsquo; derivations, a short one, represented in (114), and a long one, represented in (115):</p>
+<p>(114)&ensp;Short derivation:<object id="fu32" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu32.jpg" type="jpg" id="fu32_source"/>
+</objectsource>
+</object>
+</p>
+<p>(115)&ensp;Long derivation:<object id="fu33" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu33.jpg" type="jpg" id="fu33_source"/>
+</objectsource>
+</object>
+</p>
+<p>The two derivations in (114) and (115) have different outcomes, the short one yielding the set &lcub;<i>disappear</i>, <i>John</i>&rcub; and the long one, the set &lcub;<i>disappear</i>, <i>John</i>, <i>mysteriously</i>&rcub;. That difference affects later cycles. For example, consider the stage at which <i>Past</i> is brought into each derivation. The two parallel cycles that constitute the second phase give rise to the two parallel derivations in (116) and (117):</p>
+<p>(116)&ensp;Short derivation:<object id="fu34" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu34.jpg" type="jpg" id="fu34_source"/>
+</objectsource>
+</object>
+</p>
+<p>(117)&ensp;Long derivation:<object id="fu35" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu35.jpg" type="jpg" id="fu35_source"/>
+</objectsource>
+</object>
+</p>
+<p>The two parallel derivations above may be combined into a single complex marker:</p>
+<p>(118)&ensp;<object id="fu36" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu36.jpg" type="jpg" id="fu36_source"/>
+</objectsource>
+</object>
+</p>
+<p>The double connection between <i>Past</i> and <i>disappear</i> in (118) reflects the constituent analysis distinction between <i>category</i> and <i>segment</i> introduced in <link rid="b38">May (1985</link>). We take this derivational ambiguity to be characteristic of adjunction.</p>
+<p>The diagram in (118) is the LF representation generated by the derivation up to the stage where <i>Past</i> is merged with the outcome of the second phase in (113ii). The SO<sup>I</sup> image of that stretch of the derivation is as in (119):</p>
+<p>(119)&ensp;<object id="fu37" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu37.jpg" type="jpg" id="fu37_source"/>
+</objectsource>
+</object>
+</p>
+<p>One issue is how the PF ordering of <i>&lt;mysteriously&gt;</i> and of &lt;<i>Past</i>&plus;<i>disappear</i>&gt; is determined. One may again appeal to the principle that the PF ordering mirrors the derivational one (cf. the structure in (103) and the comment that follows it). Specifically, we will assume that the PF ordering of the MSDs displayed in (119) is determined at the combined derivational stage represented in (120):</p>
+<p>(120)&ensp;<object id="fu38" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu38.jpg" type="jpg" id="fu38_source"/>
+</objectsource>
+</object>
+</p>
+<p>The diagram in (120) represents the combination of the following cycles from the two parallel derivations. The cycle in the long derivation in which the verb <i>disappear</i> is merged with <i>mysteriously</i>, and the cycle in the short derivation in which it is merged with <i>Past</i>. Each cycle immediately follows that in which <i>disappear</i> is merged for the first time in each derivation. At the combined stage depicted in (120), <i>disappear</i> both precedes <i>mysteriously</i> and <i>Past</i> in the derivational ordering, while <i>mysteriously</i> and <i>Past</i> are unordered with respect to each other. Since <i>Past</i> is incorporated with <i>disappear</i> into a single MSD, the unique PF ordering compatible with the derivational ordering defined by (120) is that in (121), where &lt;<i>mysteriously</i>&gt; precedes &lt;<i>Past</i>&plus;<i>dispappear</i>&gt;:</p>
+<p>(121)&ensp;&lt;mysteriously&gt; ^ &lt;Past&plus;disappear&gt;</p>
+<p>We see that using the complex cycle in (120) to determine the PF ordering of MSDs has the same effect as having Affix-hopping lower the inflection onto the verb. If we now assume that the combination of an adverb with the verb phrase it modifies constitutes an LF phase, a prosodic boundary will be inserted after <i>disappeared</i>. The result is the form in (122):</p>
+<p>(122)&ensp;&lt;John&gt; ^ &lt;mysteriously&gt; ^ &lt;Past&plus;disappear&gt; &num;</p>
+<p>We have illustrated the cyclical framework in some detail to show that, within such an architecture, PF interpretation raises issues which are conceptually analogous, or even identical, to those arising within the standard architecture. The solutions proposed in the literature can often be translated quite directly into the cyclical format. Obviously, there are differences. Indeed, the cyclical theory allows for a more felicitous definition of &lsquo;depth of embedding&rsquo; in the sense of <link rid="b3">Cinque (1993</link>) or the revised sense of <link rid="b4">Zubizarreta (1998</link>). A maximally embedded constituent within some structure <i>K</i> is one that constitutes a primordial LF phase in the cycle corresponding to <i>K</i>. As a consequence of the derivational approach, the interplay of structural and selectional ordering in <link rid="b4">Zubizarreta (1998</link>) may have to be revised, possibly to be replaced by some interplay of structural and linear ordering. This would leave the logic of the parametric account unaffected, though.</p>
+</subsection>
+<subsection id="ss19" level="1">
+<heading id="h18" level="1">6 Conclusion: some final remarks</heading>
+<p>While we have chosen to focus on a certain view of the world in this chapter, it is certainly not the only one around. The view assumed here and captured by the principle in (11) is that the possible scopes of the focus are determined by the location of the intonational nucleus. There is an alternative view, the pitch-accent-based theory of focus, put forth by <link rid="b18">Gussenhoven (1984</link>) and <link rid="b19 b20">Selkirk (1984, 1995</link>). These authors propose that in Germanic pitch-accent assignment and predicate&ndash;argument relations are mediated by focus-projection rules (or focus-domain formation rules). <link rid="b20">Selkirk (1995</link>) proposes the following rules, where the feature F is a diacritic for annotating syntactic structure (this is a non-technical rephrasing of her rules:)</p>
+<p>(123)&ensp;<object id="tu53" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu53_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry><b>F-marking rule:</b>
+</entry>
+</row>
+<row><entry>An accented word must be marked in the syntactic structure with the feature F.</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry><b>F-projection rule:</b>
+</entry>
+</row>
+<row><entry>F-marking may project upward within the syntactic structure from a head or its internal argument. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A late rhythmic rule ensures that the last accented word receives main prominence, but it plays no role in determining the possible F-structures of the sentence:</p>
+<p>(124)&ensp;<object id="tu54" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu54_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Nuclear Stress rule:</b>
+</entry>
+</row>
+<row><entry>The most prominent syllable of the rightmost constituent in a phrase P is the most prominent syllable of P.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The F-marked structures are related to the informational structure of the sentence by the following rules:</p>
+<p>(125)&ensp;<object id="tu55" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu55_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The Focus of a sentence (FOC) is defined as an F-marked constituent not dominated by any other F-marked constituent.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>F-marked constituents which are not a Focus are interpreted as new in the discourse, while a constituent without F-marking is interpreted as given. A Focus constituent, on the other hand, may be interpreted as either given or new in the discourse. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>We will not attempt to evaluate here the empirical success of the pitch-based theories of focus. (For some discussion, see <link rid="b4">Zubizarreta 1998</link>: <link rid="ss13">section 3.5</link> and <link rid="b39">Ladd 1996</link>.) We simply note here that this theory must make use of an ad hoc feature F to annotate the syntactic structure. This feature is undesirable because it lacks independent justification. It is only needed to establish the relation between pitch accent and the informational structure of the sentence. An NSR-based theory of focus does not require such a feature. In this theory, focus is directly identified by prosodic notions such as relative prominence. Other grammatical means for focus identification are also available. For example, contrastive focus may be associated with logical operators such as <i>only</i>. Some languages may make use of a bona fide syntactic position or it may make use of a particular morphological marking. But these are all independently justified notions. F-marking is not.</p>
+<p>While some progress has been made in our understanding of the relation between prosody, focus, and syntax, much remains to be done. In effect, we have only scratched the surface of it. More typologically different languages need to be studied. In particular, it would be useful to learn the exact correlation between focus and prosody in tone languages, in particular those in which pitch is distinctive. It has been claimed that certain African languages (such as Chadic; see <link rid="b40">Tuller 1992</link>) resort to morphology and syntactic position rather than to pitch to mark the focus of the sentence. It may be premature to draw such a conclusion before we have more in-depth studies of the phonology and phonetics of such languages. As we said in the introduction, prominence is a rather abstract notion for which there is no unique phonetic correlate. In fact, there may be relevant phonetic cues other than pitch accent (such as other aspects of the intonational contour). It is precisely this type of language that we need to investigate further in order better to understand the relation between prosody, focus, and syntax.</p>
+</subsection>
+<subsection id="ss20" level="1">
+<heading id="h19" level="1">NOTES</heading>
+<p>
+<span id="fn1">
+<number>1&emsp;</number>The most consistent acoustic correlate in a language like French or English may be the amplitude and sharpness of fundamental frequency (<i>F</i><sub>0</sub>) variation associated with a given syllable (see <link rid="b41 b42">Martin 1975, 1982</link>).</span>
+</p>
+<p>
+<span id="fn2">
+<number>2&emsp;</number>The following quotation from <link rid="b11">Chomsky and Halle (1968</link>) is relevant here:</span>
+</p>
+<quotation>
+<p>We do not doubt that the stress contours and other phonetic facts that are recorded by careful phoneticians and that we will study here constitute some sort of perceptual reality for those who know the language in question. In fact we are suggesting a principled explanation for this conclusion. A person who knows the language should &ldquo;hear&rdquo; the predicted phonetic shapes. In particular, the careful and sophisticated impressionistic phonetician who knows the language should be able to bring this perceptual reality to the level of awareness, and there is ample evidence that phoneticians are capable of doing this. We take for granted, then, that phonetic representations describe perceptual reality. Our problem is to provide an explanation for this fact. Note, however, that there is nothing to suggest that these phonetic representations also describe a physical or acoustic reality in any detail. For example, there is little reason to suppose that the perceived stress contour must represent some physical property of the utterance in a point-by-point fashion; a speaker who utilizes the principle of the transformational cycle and the Compound and Nuclear Stress Rules should &ldquo;hear&rdquo; the stress contour of the utterance that he perceives and understands, whether or not it is physically present in any detail. In fact, there is no evidence from experimental phonetics to suggest that these contours are actually present as physical properties of utterances in anything like the detail with which they are perceived. Accordingly, there seems to be no reason to suppose that a well-trained phonetician could detect such contours with any reliability or precision in a language that he does not know, a language for which he cannot determine the surface structure of utterances.</p>
+<p>Considerations of this sort lead us to suspect that the question of how highly differentiated the stress contours in a representation should be is of little significance. In a complex utterance with a rich surface structure, the rules outlined in the preceding section will lead to a stress contour of many levels. There may be no empirical sense to the question of whether the resulting representation is correct in full detail. Because of the completely impressionistic character of judgments of relative stress, decisions over a broad range are of little value. It is not at all surprising that there should be great difficulty, within impressionistic phonetics, in determining how many stress levels should be marked and how they are distributed in utterances that exceed a certain degree of complexity. The shape and the degree of differentiation of a stress contour are largely determined by obligatory rules and are therefore below the level of systematically significant representation. Once the speaker has selected a sentence with a particular syntactic structure and certain lexical items (largely or completely unmarked for stress, as we shall see), the choice of stress contour is not a matter subject to further independent decision. That is, he need not make a choice among various &ldquo;stress phonemes&rdquo; or select one or another &ldquo;superfix.&rdquo; With marginal exceptions, the choice of these is as completely determined as, for example, the degree of aspiration. Similarly, a hearer who has grasped the structure and morphemic constitution of an utterance from a rough sampling of the physical input need not attend to stress variation, to whatever extent this may actually be a physical property of utterances.</p>
+<p>It is to be expected that determined phonetic features should be quite difficult for the user of the language to learn to identify, whether they involve stress or degree of aspiration (where undoubtedly there are many levels, predictable, at least roughly, by general rules). The apparent ease with which phoneticians trained in the same conventions can, to a large extent, agree on the assignment of four or five stresses in utterances may very well be traceable to their ability, as speakers of the language, to grasp the syntactic structure of utterances and to assign to them an &ldquo;ideal&rdquo; stress contour by the rules of the transformational cycle. Such an achievement may have little to do with any physical fact. This is, incidentally, a matter which should be subject to experimental investigation. (<link rid="b11">Chomsky and Halle 1968</link>: 25&ndash;26)</p>
+</quotation>
+<p>
+<span id="fn3">
+<number>3&emsp;</number>There is promising work coming out of Laboratory Phonology that might pave the way toward remedying this state of affairs. See, for example, <link rid="b43">Godjevac (2000</link>) and references cited therein.</span>
+</p>
+<p>
+<span id="fn4">
+<number>4&emsp;</number>This test, of course, works only to the extent that the form of the answer respects the form of the question and the relation between the two is not mediated by any hidden inferences. It is precisely for this reason that the question&ndash;answer test is not an infallible one for determining the focus structure of a sentence. See <link rid="b4">Zubizarreta (1998</link>: 161, n. 6).</span>
+</p>
+<p>
+<span id="fn5">
+<number>5&emsp;</number>See also <link rid="b15">Liberman (1979</link>); <link rid="b23">Ladd (1980</link>); <link rid="b44">Pierrehumbert (1980</link>); <link rid="b45">Culicover and Rochemont (1983</link>); <link rid="b16">Halle and Vergnaud (1987)</link>; <link rid="b3">Cinque (1993)</link>; and <link rid="b4">Zubizarreta (1998</link>).</span>
+</p>
+<p>
+<span id="fn6">
+<number>6&emsp;</number>For example, this could be the structure for the sentence <i>John&apos;s son&apos;s baby cried</i>.</span>
+</p>
+<p>
+<span id="fn7">
+<number>7&emsp;</number>
+<link rid="b11">Chomsky and Halle (1968</link>) actually formulate the NSR as a rule assigning stress to vowels, with the structural description in (i):</span>
+</p>
+<p>(i)&ensp;V<sup>1</sup>&nbsp;.&nbsp;.&nbsp;.&nbsp;&mdash;&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;<sub><i>&alpha;</i>
+</sub>
+</p>
+<p>Thus, the text formulation is more abstract since it involves the notion of stress of a word relative to other words, while stress is perceived as a phonetic property of vowels. See the text below. Nothing in our development hinges on the particular choice of formulation in terms of word stress or of vowel stress.</p>
+<p>
+<span id="fn8">
+<number>8&emsp;</number>One may recall that in a constituent-analysis (i.e., context-free) grammar of the standard type, a phrase marker <i>is</i> a derivation (more exactly, a class of derivations); see <link rid="b46">Chomsky (1957</link>: 26&ndash;33). The equivalence postulated in (19) in the text can then be viewed as a generalization of this definition to derivations involving transformations. In a sense, the duality between constituent structure and derivation manifests the compositional nature of language. The duality would break down if language structure were to display properties of a global type. A full discussion of the duality would have to address the issue of cyclical interpretation. We briefly return to this question at the end of <link rid="ss18">section 5</link>. Note that compositionality holds even when the operation involved (say Merge, or Concatenate) is associative. That the operation is associative means that all constituent structures of a given string are equivalent.</span>
+</p>
+<p>
+<span id="fn9">
+<number>9&emsp;</number>The convention in (22) in the text is a partial reformulation of the mechanisms postulated in <link rid="b16">Halle and Vergnaud (1987</link>); see in particular <link rid="b16">Halle and Vergnaud (1987</link>: 263&ndash;266).</span>
+</p>
+<p>
+<span id="fn10">
+<number>10&emsp;</number>An account of the contour in (26) in the text could be given within the text formalization (20&ndash;23) by recording the depth of embedding. Thus, given a category <i>&alpha;</i> with immediate metrical head <i>H</i><sub><i>m</i>
+</sub>(<i>&alpha;</i>), a sister of <i>H</i><sub><i>m</i>
+</sub>(<i>&alpha;</i>) has secondary stress within <i>&alpha;</i>. A sister of the immediate metrical head of <i>H</i><sub><i>m</i>
+</sub>(<i>&alpha;</i>) has tertiary stress within <i>&alpha;</i>, as does a sister of the immediate metrical head of a sister of <i>H</i><sub><i>m</i>
+</sub>(<i>&alpha;</i>). And so on and so forth. We encounter here the same unwieldiness that was noted in the text for the case of the one-step derivational algorithm, and for an obvious reason. Indeed, one should view the natural implementation of a one-step procedure to be an interpretive system such as that in (20&ndash;23) in the text, and not a transformational algorithm. The question is then whether the interpretive algorithm just defined and the cyclical transformational algorithm in (16&ndash;17) in the text are empirically distinguishable.</span>
+</p>
+<p>
+<span id="fn11">
+<number>11&emsp;</number>The question of stress subordination has two distinct, but related, aspects. First, we have the question of the preservation of stress contours under embedding. To illustrate, consider the structure in (i):</span>
+</p>
+<p>(i)&ensp;John&apos;s baby liked ET.</p>
+<p>At issue here is whether the internal relations of stress in the phrases <i>John&apos;s baby</i> and <i>liked ET</i> are the same in the sentence <i>John&apos;s baby liked ET</i> as in isolation. We note that all three algorithms mentioned in this paper, the cyclical transformational algorithm of <link rid="b11">Chomsky and Halle (1968</link>), the algorithm in <link rid="b16">Halle and Vergnaud (1987</link>) and the interpretive algorithm discussed in note 8, assign the same stress contour to the structure in (i); namely, primary stress is assigned to <i>ET</i>, secondary stress to <i>baby</i>, and the same tertiary level of stress to <i>John</i> and <i>liked</i> (see <link rid="b11">Chomsky and Halle 1968</link>: 90). Thus, the three algorithms presented here all imply that the internal relations of stress in the phrase <i>John&apos;s baby</i> are the same in the sentence <i>John&apos;s baby liked ET</i> as in isolation, while those of <i>liked ET</i> differ. However as <link rid="b11">Chomsky and Halle (1968</link>) note (p. 90, n. 43), there is really no evidence bearing on the matter.</p>
+<p>This leads to the second general question concerning stress subordination, namely, the question whether there exists any perceptual relation at all between the stress level of <i>John</i> and that of <i>liked</i> in a structure like (i). It may very well be the case that stress levels are comparable only to the extent that they independently relate to the same main stress. This is the case in (25) in the text, where <i>liked</i> and <i>John</i> are directly subordinated to the same main stress in distinct phrases. The text discussion in <link rid="ss8">section 3.2.2</link>. provides some indirect support for that view, as it suggests that the distribution of secondary stresses may be ruled by a different set of principles. If this turned out to be true, it would constitute evidence in favor of the interpretive approach.</p>
+<p>
+<span id="fn12">
+<number>12&emsp;</number>For a detailed discussion of eurhythmicity in French, see <link rid="b47">Dell (1984</link>).</span>
+</p>
+<p>
+<span id="fn13">
+<number>13&emsp;</number>
+<link rid="b48">Tokizaki (2000</link>) argues that the stress pattern in (44) corresponds to a thetic-judgment interpretation, while the stress pattern in (45) corresponds to a categerical-judgment interpretation. While this may very well be the case, the point is that the unaccusatives in (46) give rise to an unambigous stress pattern. Main stress on the verb gives rise to a contrastive focus interpretation.</span>
+</p>
+<p>
+<span id="fn14">
+<number>14&emsp;</number>
+<link rid="b49">Bresnan (1971b</link>) attempts to do just this by proposing that the NSR applies cyclically. For a critique of Bresnan&apos;s data, see <link rid="b50">Bolinger (1972a</link>).</span>
+</p>
+<p>
+<span id="fn15">
+<number>15&ensp;</number>The term is a misnomer since de-accented words are in many cases associated with miniature but quite audible pitch accents.</span>
+</p>
+<p>
+<span id="fn16">
+<number>16&emsp;</number>The notion is defined as follows in <link rid="b3">Cinque (1993</link>):</span>
+</p>
+<p>
+<object id="tu56" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu56_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">(i)</entry>
+<entry>a.</entry>
+<entry>The major path of embedding is constituted by nodes on the X-bar axis (X, X&prime;, XP) and the nodes on the recursive side of the tree.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The minor path of embedding is constituted by nodes on the nonrecursive side of the tree.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>However, the notion &lsquo;recursive side&rsquo; used in that definition is somewhat infelicitous, since both the complement of <i>X</i> and the specifier of <i>X</i>&prime; are recursive nodes. Furthermore, the definition should make explicit the fact that the distinction major vs. minor path of embedding is relative to a maximal projection <i>XP</i> (or, equivalently, relative to a head <i>X</i>). This is why we have replaced Cinque&apos;s original formulation by the one in the text. Note that the notion of &lsquo;major path of embedding&rsquo; has a natural interpretation in the theory in <link rid="b25">Kayne (1994</link>), which assumes that specifiers are adjuncts.</p>
+<p>
+<span id="fn17">
+<number>17&emsp;</number>The definition of c-command proposed by Zubizarreta departs slightly from the standard one. It distinguishes direct and indirect c-command:</span>
+</p>
+<listgroup id="l3" type="i">
+<li>
+<number>(i)&ensp;</number>
+<p>A directly c-commands B iff A and B are heads or maximal projections (excluding segments) and (a) A and B are sisters or (b) there exists a node C such that A and C are sisters and C dominates B.</p>
+</li>
+<li>
+<number>(ii)&ensp;</number>
+<p>If A directly c-commands B, then A indirectly c-commands C, C a projection of B that does not contain A.</p>
+</li>
+</listgroup>
+<p>According to the definition in (i), the Specifier ZP in the structure in (iii) <i>directly c-commands</i> the head X and its complement YP (as in the standard definition of c-command), but it does not directly c-command its sister X&prime; (because X&prime;, being neither a head nor a maximal projection cannot be in a direct c-command relation with any category). According to the definition in (ii), ZP <i>indirectly c-commands</i> X&prime; by virtue of the fact that X&prime; is a projection of X and ZP directly c-commands X. It is this latter extension of the c-command relation that goes beyond the classical one.</p>
+<p>(iii)&ensp;<object id="fu39" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_49_fu39.jpg" type="jpg" id="fu39_source"/>
+</objectsource>
+</object>
+</p>
+<p>
+<span id="fn18">
+<number>18&emsp;</number>In <link rid="b4">Zubizarreta (1998</link>), selectional ordering was defined on a separate, more abstract, tree. Here we assume that the syntactic tree encodes both selectional ordering and constituent ordering in terms of asymmetric c-command.</span>
+</p>
+<p>
+<span id="fn19">
+<number>19&emsp;</number>We see that the interplay of C-NSR and S-NSR yields the effects of the English Compound Stress rule (cf. <link rid="b11">Chomsky and Halle 1968</link>), thus preserving an important result of <link rid="b3">Cinque (1993</link>). To illustrate, consider the compound &lsqb;<i>kitchen</i> &lsqb;<i>towel rack</i>&rsqb;&rsqb;, with the bracketing indicated. In the inner constituent &lsqb;<i>towel rack</i>&rsqb;, <i>rack</i> is analyzed as a head taking <i>towel</i> for argument (heads are always on the right in words). Relative prominence is then determined by S-NSR, which assigns main stress to <i>towel</i>. In the higher constituent, no argument relation holds and C-NSR applies, assigning main prominence to the constituent &lsqb;<i>towel rack</i>&rsqb;.</span>
+</p>
+<p>
+<span id="fn20">
+<number>20&emsp;</number>Arguably, a similar process is at play in the preposing of IP and VP with respect to selecting particle-type functional heads in Chinese. See <link rid="b51 b52">Simpson and Wu (1999, 2000</link>).</span>
+</p>
+<p>
+<span id="fn21">
+<number>21&emsp;</number>Obviously, this imposes a contraint on the relation between phases and movement; movement may never be internal to a phase.</span>
+</p>
+<p>
+<span id="fn22">
+<number>22&emsp;</number>Of course, the derivational ordering is a partial one. Suppose, for example, that the subject of the sentence contains more than one MSD. We will adopt the following rule:</span>
+</p>
+<p>(i)&ensp;Let&nbsp;.&nbsp;.&nbsp;.&nbsp;<i>C</i>&nbsp;.&nbsp;.&nbsp;.&nbsp;be some structure, where <i>C</i> is a constituent ultimately interpreted as the sequence of MSDs <i>&micro;</i> &equals; (<sub><i>C</i>
+</sub> <i>m</i><sub><i>1</i>
+</sub>^<i>m</i><sub><i>2</i>
+</sub>^&nbsp;.&nbsp;.&nbsp;.&nbsp;^<i>m</i><sub><i>s</i>
+</sub>), &lsquo;^&rsquo; the concatenation operator. Let <i>h</i> be the head of <i>C</i> and &lt;<i>h</i>&gt; be the MSD in <i>&micro;</i> associated with <i>h</i> (&lt;<i>h</i>&gt; is some <i>m</i><sub><i>i</i>
+</sub>). The PF ordering of <i>&micro;</i> with respect to the context&nbsp;.&nbsp;.&nbsp;.&nbsp;&mdash;&nbsp;.&nbsp;.&nbsp;.&nbsp;is the same as that of &lt;<i>h</i>&gt; in isolation.</p>
+<p>The complex formal issues which arise in connection with the projection of the partial ordering of constituent structure onto the total ordering of the time axis are discussed in great depth in <link rid="b25">Kayne (1994</link>).</p>
+<p>
+<span id="fn23">
+<number>23&ensp;</number>The LF description in (101) in the text will then have to be revised accordingly. Note that there must be some subordination principle that ensures that the boundaries introduced in previous phases do not interfere with current ones.</span>
+</p>
+<p>
+<span id="fn24">
+<number>24&ensp;</number>The principle might be formulated in terms of a <i>last</i> vs. <i>first</i> (<i>rightmost</i>/<i>leftmost</i>) parameter or, alternatively, in terms of depth of embedding (as in <link rid="b16">Halle and Vergnaud 1987</link>, <link rid="b3">Cinque 1993</link>, and <link rid="b4">Zubizarreta 1998</link>).</span>
+</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss21" level="1" type="references">
+<heading id="h20" level="1">REFERENCES</heading>
+<reference id="b30" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Beckman</surname><x>, </x><forenames>Mary</forenames>
+</name><x> and </x><name type="author">
+<forenames>Janet</forenames><x> </x><surname>Pierrehumbert</surname>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Intonational Structure in Japanese and English</title><x>. </x><title type="journal">Phonology Yearbook</title><x> </x><volume>3</volume><x>: </x><page type="first">255</page><x>&ndash;</x><page type="last">309</page><x>.</x>
+</reference>
+<reference id="b50" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bolinger</surname><x>, </x><forenames>Dwight</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972a</date><x>). </x><title type="document">Accent is Predictable (If You Are a Mind Reader)</title><x>. </x><title type="journal">Language</title><x> </x><volume>48</volume><x>: </x><page type="first">633</page><x>&ndash;</x><page type="last">644</page><x>.</x>
+</reference>
+<reference id="b49" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bresnan</surname><x>, </x><forenames>Joan</forenames>
+</name>
+</namegroup><x> (</x><date date="1971">1971b</date><x>). </x><title type="document">Sentence Stress and Syntactic Transformations</title><x>. </x><title type="journal">Language</title><x> </x><volume>47</volume><x>: </x><page type="first">257</page><x>&ndash;</x><page type="last">281</page><x>.</x>
+</reference>
+<reference id="b46" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1957">1957</date><x>). </x><title type="book">Syntactic Structures<x>.</x>
+</title><x> </x><address>The Hague</address><x>: </x><publisher>Mouton.</publisher>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1971">1971</date><x>). </x><title type="document">Deep Structure, Surface Structure, and Semantic Interpretation</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Semantics: An Interdisciplinary Reader in Philosophy, Linguistics, and Psychology</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Danny</forenames><x> </x><surname>Steinberg</surname>
+</name><x> and </x><name type="editor">
+<forenames>Leon</forenames><x> </x><surname>Jakobovits</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">183</page><x>&ndash;</x><page type="last">216</page><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b12" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">Language and Thought</title><x>. </x><address>Wakefield, RI</address><x>: </x><publisher>Moyer Bell.</publisher>
+</reference>
+<reference id="b26" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995c</date><x>). </x><title type="book">The Minimalist Program<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b35" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001b</date><x>). </x><title type="document">Derivation by Phase</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Ken Hale: A Life in Language</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Michael</forenames><x> </x><surname>Kenstowicz</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">1</page><x>&ndash;</x><page type="last">52</page><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b11" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name><x> and </x><name type="author">
+<forenames>Morris</forenames><x> </x><surname>Halle</surname>
+</name>
+</namegroup><x> (</x><date date="1968">1968</date><x>). </x><title type="book">The Sound Pattern of English<x>.</x>
+</title><x> </x><address>New York</address><x>: </x><publisher>Harper and Row.</publisher>
+</reference>
+<reference id="b32" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name><x> and </x><name type="author">
+<forenames>Howard</forenames><x> </x><surname>Lasnik</surname>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">The Theory of Principles and Parameters</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Syntax: An International Handbook of Contemporary Research</title>
+<x>. </x><miscellaneoustext>Vol. 1</miscellaneoustext><x>. </x>
+<namegroup type="editors">
+<name type="editor">
+<forenames>Joachim</forenames><x> </x><surname>Jacobs</surname>
+</name><x>, </x><name type="editor">
+<forenames>Arnim</forenames><x> </x><surnameprefix>von</surnameprefix><x> </x><surname>Stechow</surname>
+</name><x>, </x><name type="editor">
+<forenames>Wolfgang</forenames><x> </x><surname>Sternefeld</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Theo</forenames><x> </x><surname>Vennemann</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>Berlin</address><x>: </x><publisher>de Gruyter</publisher><x>.</x>
+</reference>
+<reference id="b3" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">A Null Theory of Phrase and Compound Stress</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>24</volume><x>: </x><page type="first">239</page><x>&ndash;</x><page type="last">298</page><x>.</x>
+</reference>
+<reference id="b45" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Culicover</surname><x>, </x><forenames>Peter</forenames>
+</name><x> and </x><name type="author">
+<forenames>Michael</forenames><x> </x><surname>Rochemont</surname>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">Stress and Focus in English</title><x>. </x><title type="journal">Language</title><x> </x><volume>59</volume><x>: </x><page type="first">123</page><x>&ndash;</x><page type="last">165</page><x>.</x>
+</reference>
+<reference id="b47" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Dell</surname><x>, </x><forenames>Fran&ccedil;ois</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">L&rsquo;Accentuation dans les Phrases en Fran&ccedil;ais</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">La Forme Sonore du Langage: Structure des Repr&eacute;sentations en Phonologie</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Fran&ccedil;ois</forenames><x> </x><surname>Dell</surname>
+</name><x>, </x><name type="editor">
+<forenames>Daniel</forenames><x> </x><surname>Hirst</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Jean-Roger</forenames><x> </x><surname>Vergnaud</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">65</page><x>&ndash;</x><page type="last">122</page><x>. </x><address>Paris</address><x>: </x><publisher>Hermann.</publisher>
+</reference>
+<reference id="b13" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Epstein</surname><x>, </x><forenames>Samuel</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">Un-Principled Syntax: The Derivation of Syntactic Relations</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Working Minimalism: The Derivation of Syntactic Relations</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Samuel</forenames><x> </x><surname>Epstein</surname>
+</name><x> and </x><name type="editor">
+<forenames>Norbert</forenames><x> </x><surname>Nornstein</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b33" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Frampton</surname><x>, </x><forenames>John</forenames>
+</name><x> and </x><name type="author">
+<forenames>Sam</forenames><x> </x><surname>Gutmann</surname>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">Cyclic Computation, a Computationally Efficient Minimalist Syntax</title><x>. </x><title type="journal">Syntax</title><x> </x><volume>2</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">27</page><x>.</x>
+</reference>
+<reference id="b14" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Freidin</surname><x>, </x><forenames>Robert</forenames>
+</name><x> and </x><name type="author">
+<forenames>Jean-Roger</forenames><x> </x><surname>Vergnaud</surname>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date>
+<miscellaneoustext>). A Presentation of Minimalism. Unpublished manuscript, CNRS/Princeton University</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b43" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Godjevac</surname><x>, </x><forenames>Svetlana</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date>
+<miscellaneoustext>). Intonation, Word Order, and Focus Projection in Serbo-Croatian. PhD dissertation, Ohio State University</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b18" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Gussenhoven</surname><x>, </x><forenames>Carlos</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="book">On the Grammar and Semantics of Sentence Accents<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b28" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Hale</surname><x>, </x><forenames>Ken</forenames>
+</name><x> and </x><name type="author">
+<forenames>Samuel<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Keyser</surname>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date>
+<miscellaneoustext>). On the Syntax of Argument Structure. Unpublished manuscript, Center for Cognitive Science, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b36" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Halle</surname><x>, </x><forenames>Morris</forenames>
+</name><x> and </x><name type="author">
+<forenames>Alec</forenames><x> </x><surname>Marantz</surname>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Distributed Morphology and the Pieces of Inflection</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The View from Building 20: Essays in Linguistics in Honor of Sylvain Bromberger</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ken</forenames><x> </x><surname>Hale</surname>
+</name><x> and </x><name type="editor">
+<forenames>Samuel<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Keyser</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">111</page><x>&ndash;</x><page type="last">176</page><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b16" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Halle</surname><x>, </x><forenames>Morris</forenames>
+</name><x> and </x><name type="author">
+<forenames>Jean-Roger</forenames><x> </x><surname>Vergnaud</surname>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="book">An Essay on Stress<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b29" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hayes</surname><x>, </x><forenames>Bruce</forenames>
+</name><x> and </x><name type="author">
+<forenames>Aditi</forenames><x> </x><surname>Lahiri</surname>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Bengali Intonational Phonology</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>9</volume><x>: </x><page type="first">47</page><x>&ndash;</x><page type="last">98</page><x>.</x>
+</reference>
+<reference id="b24" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>H&ouml;hle</surname><x>, </x><forenames>Tilman</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">Explikation f&uuml;r &lsquo;Normale Betonung&rsquo; und &lsquo;Normale Wortstellung&rsquo;</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Satzglieder im Deutschen: Vorschl&auml;ge zu Ihrer Syntaktischen, Semantischen und Pragmatischen Fundierung</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Werner</forenames><x> </x><surname>Abraham</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">75</page><x>&ndash;</x><page type="last">153</page><x>. </x><address>T&uuml;bingen</address><x>: </x><publisher>Narr.</publisher>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Jackendoff</surname><x>, </x><forenames>Ray</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972</date><x>). </x><title type="book">Semantic Interpretation in Generative Grammar</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b25" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">The Antisymmetry of Syntax<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b27" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kiparsky</surname><x>, </x><forenames>Paul</forenames>
+</name>
+</namegroup><x> (</x><date date="1973">1973</date><x>). </x><title type="document">
+<i>Elsewhere</i> in Phonology</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">A Festschrift for Morris Halle</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Stephen<x> </x>S<x>.</x>
+</forenames><x> </x><surname>Anderson</surname>
+</name><x> and </x><name type="editor">
+<forenames>Paul</forenames><x> </x><surname>Kiparsky</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">93</page><x>&ndash;</x><page type="last">106</page><x>. </x><address>New York</address><x>: </x><publisher>Holt, Rinehart and Winston</publisher><x>.</x>
+</reference>
+<reference id="b9" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kiss</surname><x>, </x><forenames>Katalin<x> </x>&Eacute;<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">Identificational Focus and Information Focus</title><x>. </x><title type="journal">Language</title><x> </x><volume>74</volume><x>: </x><page type="first">245</page><x>&ndash;</x><page type="last">273</page><x>.</x>
+</reference>
+<reference id="b21" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Krifka</surname><x>, </x><forenames>Manfred</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date>
+<miscellaneoustext>). Focus, Topic, Syntaktische Struktur und Semantische Interpretation. Unpublished manuscript, T&uuml;bingen, T&uuml;bingen University</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b23" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ladd</surname><x>, </x><forenames>D<x>. </x>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="book">The Structure of Intonational Meaning<x>.</x>
+</title><x> </x><address>Bloomington</address><x>: </x><publisher>Indiana University Press.</publisher>
+</reference>
+<reference id="b39" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ladd</surname><x>, </x><forenames>D<x>. </x>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="book">Intonational Phonology<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b15" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Liberman</surname><x>, </x><forenames>Mark</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date><x>). </x><title type="book">The Intonational System of English</title><x>. </x><address>New York</address><x>: </x><publisher>Garland.</publisher>
+</reference>
+<reference id="b41" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Martin</surname><x>, </x><forenames>Philippe</forenames>
+</name>
+</namegroup><x> (</x><date date="1975">1975</date><x>). </x><title type="document">Analyse Phonologique de la Phrase Fran&ccedil;aise</title><x>. </x><title type="journal">Linguistics</title><x> </x><volume>146</volume><x>: </x><page type="first">35</page><x>&ndash;</x><page type="last">68</page><x>.</x>
+</reference>
+<reference id="b42" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Martin</surname><x>, </x><forenames>Philippe</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">Phonetic Realisations of Prosodic Contours in French</title><x>. </x><title type="journal">Speech Communication</title><x> </x><volume>1</volume><x>: </x><page type="first">283</page><x>&ndash;</x><page type="last">294</page><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Martin</surname><x>, </x><forenames>Philippe</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Prosodic and Rhythmic Structures in French</title><x>. </x><title type="journal">Linguistics</title><x> </x><volume>25</volume><x>: </x><page type="first">925</page><x>&ndash;</x><page type="last">949</page><x>.</x>
+</reference>
+<reference id="b38" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>May</surname><x>, </x><forenames>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="book">Logical Form: Its Structure and Derivation</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b37" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Megerdoomian</surname><x>, </x><forenames>Karine</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date>
+<miscellaneoustext>). Beyond Words and Phrases: A Unified Theory of Predicate Composition. PhD dissertation, University of Southern California</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b44" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Pierrehumbert</surname><x>, </x><forenames>Janet</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date>
+<miscellaneoustext>). The Phonology and Phonetics of English Intonation. PhD dissertation, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b8" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rochemont</surname><x>, </x><forenames>Michael</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="book">Focus in Generative Grammar<x>.</x>
+</title><x> </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference id="b7" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Rooth</surname><x>, </x><forenames>Mats</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date>
+<miscellaneoustext>). Association with Focus. PhD dissertation, Amherst, University of Massachusetts</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Schmerling</surname><x>, </x><forenames>Susan</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="book">Aspects of English Sentence Stress<x>.</x>
+</title><x> </x><address>Austin</address><x>: </x><publisher>University of Texas Press</publisher><x>.</x>
+</reference>
+<reference id="b19" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Selkirk</surname><x>, </x><forenames>Elisabeth</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="book">Phonology and Syntax: The Relation between Sound and Structure</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b20" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Selkirk</surname><x>, </x><forenames>Elisabeth</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Sentence Prosody: Intonation, Stress and Phrasing</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Handbook of Phonological Theory</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>John<x> </x>A<x>.</x>
+</forenames><x> </x><surname>Goldsmith</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">550</page><x>&ndash;</x><page type="last">569</page><x>. </x><address>Oxford</address><x>: </x><publisher>Blackwell.</publisher>
+</reference>
+<reference id="b51" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Simpson</surname><x>, </x><forenames>Andrew</forenames>
+</name><x> and </x><name type="author">
+<forenames>Xiu-Zhi<x> </x>Zoe</forenames><x> </x><surname>Wu</surname>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date>
+<miscellaneoustext>). IP-Raising, Tone-Sandhi and the Creation of Particles: Evidence for PF Movement/Cyclic Spell-Out. Unpublished manuscript, School of Oriental and African Studies/University of Southern California</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b52" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Simpson</surname><x>, </x><forenames>Andrew</forenames>
+</name><x> and </x><name type="author">
+<forenames>Xiu-Zhi<x> </x>Zoe</forenames><x> </x><surname>Wu</surname>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date>
+<miscellaneoustext>). Agreement, Shells and Focus. Unpublished manuscript, School of Oriental and African Studies/University of Southern California</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b31" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Su&ntilde;er</surname><x>, </x><forenames>Margarita</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">Object-Shift: Comparing a Romance Language to Germanic</title><x>. </x><title type="journal">Probus</title><x> </x><volume>12</volume><x>: </x><page type="first">261</page><x>&ndash;</x><page type="last">289</page><x>.</x>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Szabolcsi</surname><x>, </x><forenames>Anna</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981b</date><x>). </x><title type="document">The Semantics of Focus&ndash;Topic Articulation</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Formal Methods in the Study of Language</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jeroen</forenames><x> </x><surname>Groenendijk</surname>
+</name><x>, </x><name type="editor">
+<forenames>Theo</forenames><x> </x><surname>Janssen</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Martin</forenames><x> </x><surname>Stokhof</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">513</page><x>&ndash;</x><page type="last">541</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>Mathematisch Centrum.</publisher>
+</reference>
+<reference id="b48" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Tokizaki</surname><x>, </x><forenames>Hisao</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">Prominence, Phrasing, and Movement</title><x>. </x><title type="journal">English Linguistics</title><x> </x><volume>17</volume><x>: </x><page type="first">469</page><x>&ndash;</x><page type="last">487</page><x>.</x>
+</reference>
+<reference id="b22" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Truckenbrodt</surname><x>, </x><forenames>Hubert</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date>
+<miscellaneoustext>). Syntax vs. Phonology: Which Gets the Stress Right?</miscellaneoustext><x> </x>
+<publisher>Unpublished manuscript, MIT.</publisher>
+</reference>
+<reference id="b40" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Tuller</surname><x>, </x><forenames>Laurice</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">The Syntax of Postverbal Focus Construction in Chadic</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>10</volume><x>: </x><page type="first">303</page><x>&ndash;</x><page type="last">334</page><x>.</x>
+</reference>
+<reference id="b34" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Uriagereka</surname><x>, </x><forenames>Juan</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">Multiple Spell-Out</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Working Minimalism</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Samuel</forenames><x> </x><surname>Epstein</surname>
+</name><x> and </x><name type="editor">
+<forenames>Norbert</forenames><x> </x><surname>Hornstein</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b5" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Vallduv&iacute;</surname><x>, </x><forenames>Enric</forenames>
+</name><x> and </x><name type="author">
+<forenames>Elisabet</forenames><x> </x><surname>Engdahl</surname>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="document">The Linguistic Realisation of Information Packaging</title><x>. </x><title type="journal">Linguistics</title><x> </x><volume>34</volume><x>: </x><page type="first">459</page><x>&ndash;</x><page type="last">519</page><x>.</x>
+</reference>
+<reference id="b10" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Vergnaud</surname><x>, </x><forenames>Jean-Roger</forenames>
+</name><x> and </x><name type="author">
+<forenames>Maria-Luisa</forenames><x> </x><surname>Zubizarreta</surname>
+</name>
+</namegroup><x> (</x><miscellaneoustext>forthcoming). The Logical Structure of Informational and Contrastive Focus. Department of Linguistics, University of Southern California</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b4" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Zubizarreta</surname><x>, </x><forenames>Mar&iacute;a<x> </x>Luisa</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="book">Prosody, Focus, and Word Order</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

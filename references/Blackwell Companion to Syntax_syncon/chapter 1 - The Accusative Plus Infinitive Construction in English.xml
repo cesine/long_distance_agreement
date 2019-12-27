@@ -1,0 +1,1059 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="1"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 1 - The Accusative Plus InfinitiveConstruction in English.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">1</page>
+<page type="last">15</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="0"/>
+<count type="table" count="20"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="28"/>
+<count type="page" count="15"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051103"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 1&ensp;Runner: Accusative Plus Infinitive</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 1&ensp;Runner: Accusative Plus Infinitive</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">1 The Accusative Plus Infinitive Construction in English</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>JEFFREY T.</forenames><x> </x><surname>RUNNER</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Two brands of analysis</p>
+</li>
+<li level="2">
+<number>2.1&ensp;</number>
+<p>Overview</p>
+</li>
+<li level="3">
+<number>2.1.1&ensp;</number>
+<p>Raising to object</p>
+</li>
+<li level="3">
+<number>2.1.2&ensp;</number>
+<p>Exceptional case-marking</p>
+</li>
+<li level="2">
+<number>2.2&ensp;</number>
+<p>Particular analyses</p>
+</li>
+<li level="3">
+<number>2.2.1&ensp;</number>
+<p>Raising to object</p>
+</li>
+<li level="3">
+<number>2.2.2&ensp;</number>
+<p>Exceptional case-marking</p>
+</li>
+<li level="3">
+<number>2.2.3&ensp;</number>
+<p>Raising revisited</p>
+</li>
+<li level="3">
+<number>2.2.4&ensp;</number>
+<p>The lexicalist approach</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>Evidence for the two brands</p>
+</li>
+<li level="2">
+<number>3.1&ensp;</number>
+<p>Evidence for raising to object</p>
+</li>
+<li level="2">
+<number>3.2&ensp;</number>
+<p>Evidence for the ECM approach</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>The categorial status of the complement clause</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1&ensp;Introduction</heading>
+<p>This chapter focuses on the English construction illustrated in (1). It has traditionally been called the accusative plus infinitive construction, and that term will be used pre-theoretically here; in the generative literature it has been called the raising to object construction and the exceptional case-marking construction.</p>
+<p>(1)&ensp;Cindy believes Marcia to be a genius.</p>
+<p>The accusative plus infinitive (A&plus;I) construction displays a number of properties. It involves a verb (here, <i>believe</i>) followed by a noun phrase (<i>Marcia</i>) and then an infinitival predicate (<i>to be a genius</i>). It can usually be paraphrased by a similar sentence containing a fully inflected complement clause:</p>
+<p>(2)&ensp;Cindy believes (that) Marcia is a genius.</p>
+<p>In (2) <i>Marcia</i> would uncontroversially be analyzed as the subject of the embedded predicate <i>is a genius</i>. Given the rough synonymy of (1) and (2) analyses of (1) have tried to account for the fact that at some level of analysis <i>Marcia</i> is the subject of <i>to be a genius</i>.</p>
+<p>Indeed a range of expressions typically thought to be associated with subjects can appear in the postverbal position in the A&plus;I construction. Some examples include existential <i>there</i>, weather <i>it</i> and idiom chunk subjects:</p>
+<p>(3)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Greg believes there to be no solution to this problem.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Peter believes it to be raining cats and dogs.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Alice believes the shit to have finally hit the fan.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Besides these subject properties, however, the postverbal NP in the A&plus;I construction in (1) displays several properties often associated with direct objects. First, if the full NP <i>Marcia</i> is replaced with a pronoun, it takes the objective or accusative form instead of the nominative form the subject of (2) would take:</p>
+<p>(4)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Cindy believes her/*she to be a genius.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Cindy believes (that) she/*her is a genius.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Second, if <i>Marcia</i> in (1) is replaced with an anaphoric element coreferential with the subject of <i>believe</i> then it takes the reflexive form, not the pronominal form the subject of (2) would take:</p>
+<p>(5)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Cindyi believe herself<sub>i</sub>/*her<sub>i</sub> to be a genius.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Cindyi believes (that) she<sub>i</sub>/*herselfi is a genius.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Third, if (1) is passivized <i>Marcia</i> can become the subject of the passive verb <i>believe</i>; this is not possible if (2) is passivized:</p>
+<p>(6)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Marcia is believed (by Cindy) to be a genius.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Marcia is believed by Cindy (that) is a genius.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The postverbal NP in the A&plus;I construction, then, has mixed properties, some subject-like and some object-like. This state of affairs has led to controversy in the generative literature: is the postverbal NP a subject or an object or both? To answer this question we will need a better understanding of the construction itself and of the factors that make an NP subject-like and/or object-like.</p>
+<p>Before turning to these issues, there is one other classic property of the A&plus;I construction that should be mentioned. One of the first properties noticed about this construction was how it is different from a superficially similar-looking construction, that of the object control or object equi construction, illustrated in (7), which can be compared to the A&plus;I construction in (8):</p>
+<p>(7)&ensp;Carol persuaded the doctor to examine Bobby.</p>
+<p>(8)&ensp;Carol expected the doctor to examine Bobby.</p>
+<p>
+<link rid="b1">Rosenbaum (1967</link>) observed that if the material following the main verb is passivized, the results for (7) and (8) are notably different:</p>
+<p>(9)&ensp;Carol persuaded Bobby to be examined by the doctor.</p>
+<p>(10)&ensp;Carol expected Bobby to be examined by the doctor.</p>
+<p>While (8) and (10) are paraphrases of each other, (7) and (9) are not. In (7) Carol is persuading the doctor to do something while in (9) Carol is persuading Bobby to do something. In other words, the &lsquo;persuadee&rsquo; differs in the two sentences. In (8) and (10), on the other hand, Carol has an expectation and in both it is about an examination that the doctor will perform on Bobby.</p>
+<p>Thus, semantically, the main verb in (7) <i>persuade</i> takes three arguments: the persuader (<i>Carol</i>), the persuadee (<i>the doctor</i>), and the event (the doctor&apos;s examination of Bobby); however, the main verb in (8) <i>expect</i> takes only two arguments: the expecter (<i>Carol</i>) and the expectation (the doctor&apos;s examination of Bobby). Indeed, this underlies the main distinction between the two constructions; while the A&plus;I construction&apos;s postverbal NP as in (8) superficially seems parallel to the postverbal NP in (9), there is one crucial difference: the NP in (8) is not semantically related to the main predicate, while the postverbal NP in (9) is.</p>
+<p>The rest of the chapter is laid out as follows. <link rid="ss3">Section 2</link> outlines the two major &lsquo;brands&rsquo; of analysis that have been pursued to explain the properties of the A&plus;I construction; this section also presents a roughly chronological discussion of the particular accounts that have been suggested. <link rid="ss12">Section 3</link> presents the main types of evidence that supporters of each brand have offered. <link rid="ss15">Section 4</link> briefly discusses the categorial status of the complement clause in the A&plus;I construction. and <link rid="ss16">section 5</link> mentions some general conclusions and suggestions for additional reading.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2&ensp;Two brands of analysis</heading>
+<subsection id="ss4" level="2">
+<heading id="h3" level="2">2.1&ensp;Overview</heading>
+<subsection id="ss5" level="3">
+<heading id="h4" level="3">2.1.1&ensp;Raising to object</heading>
+<p>One type of analysis given to the A&plus;I construction is often called the raising to object analysis. On this analysis the reason <i>Marcia</i> in (1) has object-like properties is that it is an object of <i>believes</i> at the relevant level of representation. Its subject properties follow from the claim that it is also a subject at some other level of representation.</p>
+<p>This analysis is the first one given to the A&plus;I construction in the generative literature, being endorsed by <link rid="b1">Rosenbaum (1967</link>), <link rid="b2">McCawley (1970</link>), <link rid="b3">Kiparsky and Kiparsky (1970</link>) and most notably <link rid="b4">Postal (1974</link>) in the early transformational literature. Its basic claim can be found in non-transformational approaches such as Relational Grammar (<link rid="b5">Perlmutter and Postal 1983a</link>), Lexical Functional Grammar (<link rid="b6">Bresnan 1982c</link>) and Head-driven Phrase Structure Grammar (<link rid="b7">Pollard and Sag 1994</link>). More recently an updated version of this proposal has been reintroduced into the transformational literature and can be found in <link rid="b8">Johnson (1991</link>), <link rid="b9">Lasnik and Saito (1991</link>), <link rid="b10">Koizumi (1993</link>) and <link rid="b11">Runner (1995</link>), among others. All of these analyses share the intuition that at the relevant level of representation <i>Marcia</i> in (1) is a direct object of <i>believes</i> and at some other level of representation it is a subject of <i>to be a genius</i>. What differs among these analyses is what the relevant levels of representation are and how they are related. Before discussing any of the details of the raising to object approach, the next section will outline the other main approach to the construction in (1), the exceptional case marking approach.</p>
+</subsection>
+<subsection id="ss6" level="3">
+<heading id="h5" level="3">2.1.2&ensp;Exceptional case-marking</heading>
+<p>A second type of analysis given to the A&plus;I construction is called the exceptional case-marking or ECM account. On this approach, the reason Marcia has subject properties is that it is in subject position at all levels of representation. The object-like properties follow from the claim that these properties do not target direct objects per se but rather target NPs that have a particular structural relationship to a nearby verb; it happens that this relationship holds of both a direct object (the verb&apos;s immediate sister) and of the embedded ECM subject, which is claimed to be &lsquo;closer&rsquo; to the verb in the relevant sense than a normal embedded subject like we find in, e.g., (2). One special characteristic of this construction, according to the ECM approach, is that the verb &lsquo;exceptionally&rsquo; assigns case to this NP which is not its thematic direct object.</p>
+<p>The seeds to this approach are first planted by <link rid="b12">Chomsky (1973</link>) and a version of it is developed by <link rid="b13">Bresnan (1972</link>). Much of the transformational work of the 1980s assumes the ECM approach, following <link rid="b14">Chomsky (1981</link>). Though the details vary somewhat, these analyses all agree on one crucial point that distinguishes them from the raising to object approach: the NP <i>Marcia</i> in (1) is not in direct object position at any level of representation.</p>
+<p>The sections that follow discuss in more detail further properties of the A&plus;I construction that analyses have attempted to explain; then they provide a roughly chronological presentation of versions of the two brands of analysis outlined above. The A&plus;I construction has received so much attention in the literature that it will be impossible to discuss its each and every property or do justice to all of the different analyses proposed. This chapter will outline the main issues and evaluate the success of the different accounts available in the literature.</p>
+</subsection>
+</subsection>
+<subsection id="ss7" level="2">
+<heading id="h6" level="2">2.2&ensp;Particular analyses</heading>
+<subsection id="ss8" level="3">
+<heading id="h7" level="3">2.2.1&ensp;Raising to object</heading>
+<p>The earliest transformational approach to the A&plus;I construction was the raising to object analysis. In its essentials it has the following characteristics. At an initial stage of the derivation of the sentence the postverbal NP is in the subject position of the embedded clause, as in (11a). As part of the syntactic derivation a transformation moves that embedded subject up to the direct object position of the main clause as in (11b), hence the name &lsquo;raising to object&rsquo;.</p>
+<p>(11)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Mike proved &lsqb;&lsqb;Sam the butcher&rsqb; to be innocent&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Mike proved &lsqb;Sam the butcher&rsqb; &lsqb;___ to be innocent&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>At deep structure &ndash; the initial stage of the derivation &ndash; <i>Sam the butcher</i> is the subject of the predicate <i>to be innocent</i>. At surface structure it is in the main clause as a direct object of the verb <i>proved</i>.</p>
+<p>How does this analysis handle the basic properties of the A&plus;I construction outlined above? Since <i>Sam the butcher</i> is in subject position at deep structure, and deep structure was considered the level of representation where semantic role assignment takes place, the fact that <i>Sam the butcher</i> is semantically the subject of <i>to be innocent</i> is accounted for. Since <i>Sam the butcher</i> raises to the main clause to become the direct object of <i>proved</i>, any rules sensitive to direct objects will be able to apply to this NP. One of these rules is passivization. Passivization was thought to be a grammatical function-changing operation that rearranged the subject and direct object arguments of a transitive verb, making the direct object the subject and making the subject a kind of oblique. Since raising to object creates a transitive predicate by providing the main clause verb with a direct object, passivization can then successfully apply. Consider the derivation sketched in (12):</p>
+<p>(12)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Cindy believes &lsqb;Marcia to be a genius&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Cindy believes Marcia &lsqb;___ to be a genius&rsqb;</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Marcia is believed (by Cindy) &lsqb;___ to be genius&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p><i>Marcia</i> is the embedded subject initially, as in (a). Then it raises to the object position of the main clause, as in (b). Finally, passivization applies and <i>Marcia</i> winds up as the subject of the passivized verb.</p>
+<p>The raising to object analysis also has a straightforward account of the case-marking facts. Since at surface structure, where case-marking is determined, the initially embedded subject is a direct object, it appears with accusative, not nominative, case:</p>
+<p>(13)&ensp;Cindy believes her/*she &lsqb;___ to be a genius&rsqb;</p>
+<p>Further, the reflexive facts also follow from the raising to object account. Though the actual analysis provided at the time differed in detail, the generalization is still correct: a reflexive NP is licensed if it has a more prominent (c-commanding) clause-mate antecedent. Since raising to object takes an embedded argument and makes it a clause-mate to the subject of the main verb, the conditions for licensing a reflexive are met:</p>
+<p>(14)&ensp;Cindy<sub>i</sub> believes herself<sub>i</sub>/her<sub>*i</sub> &lsqb;___ to be a genius&rsqb;</p>
+<p>The Relational Grammar (RG; <link rid="b5">Perlmutter and Postal 1983a</link>) approach to raising to object was in its essentials very similar to that just outlined. RG does not invoke transformations that rearrange pieces of phrase structure, but it does have rules that change the grammatical relations of the arguments of a clause. RG&apos;s view of raising to object is that the embedded subject at an earlier level (or stratum) ends up taking on the role of direct object in the main clause at a subsequent level. Once it is the direct object in the main clause it is available for rules targeting direct objects, as outlined above.</p>
+</subsection>
+<subsection id="ss9" level="3">
+<heading id="h8" level="3">2.2.2&ensp;Exceptional case-marking</heading>
+<p>The seeds of the exceptional case-marking (ECM) approach are found in <link rid="b12">Chomsky (1973</link>). This approach agrees with the raising to object account that the postverbal NP is an embedded subject initially. However, its claim is that at surface structure the postverbal NP is still in the embedded subject position. A sentence like (15) would have the bracketing indicated throughout the derivation.</p>
+<p>(15)&ensp;Cindy believes &lsqb;Marcia to be a genius&rsqb;</p>
+<p>This approach, then, straightforwardly explains the subject properties of <i>Marcia</i> since it is a subject throughout the derivation. How does it account for the &lsquo;object-like&rsquo; properties?</p>
+<p>In the earliest versions of this approach Chomsky argued that the passivization transformation affected whatever NP was directly following the verb. Since both direct objects and the embedded subject in (15) are NPs directly following the verb, both are available for passivization. A similar approach was assumed for reflexivization. What blocked passivization and reflexivization in structures like (16)?</p>
+<p>(16)&ensp;Cindy believes &lsqb;Marcia is a genius&rsqb;</p>
+<p>Chomsky notes that a crucial difference between (15) and (16) is the finiteness of the embedded clause. He proposes the Tensed-S condition, which blocks rules (like passivization and reflexivization) from relating elements within a tensed clause to elements outside of that clause.</p>
+<p>
+<link rid="b14">Chomsky (1981</link>) introduced the ECM approach to the A&plus;I construction. It had in common with his earlier analysis that the embedded subject is a subject throughout the derivation. Its account of the object-like properties of that post-verbal NP differs. The intuition behind the ECM account is that a verb bears a particular structural relationship to certain sufficiently &lsquo;close&rsquo; NPs. This relationship is called government. A verb governs its sister direct object; and it also governs the subject of its infinitival sister clause. It does not govern the embedded subject of its finite sister clause. The claim is that a finite clause node is a barrier to government. Additionally, the main verb in the A&plus;I construction can assign accusative case to the embedded infinitival subject, which is exceptional, in that a verb usually only assigns accusative case to its own thematic object.</p>
+<p>Then passivization, and the conditions on reflexives and case-assignment are also sensitive to the notion of government by the main verb. Since regular direct objects and the postverbal NP in the ECM construction are both governed by the main verb, they form a natural class and are treated as such by the syntax, reflected in their parallel behavior with respect to passive, reflexives, and case-marking. The fact that the main verb does not govern the subject of an embedded finite clause is part of the explanation for why that NP is not available for passivization, cannot be a reflexive bound in the main clause, or appear in the accusative case.</p>
+<p>It is probably worth noting here that the above description of the ECM account is slightly simplified. Indeed, it was assumed that both finite and non-finite complement clauses were dominated by the same syntactic nodes, namely S and S&prime; (what are now called IP or TP and CP). S&prime; was considered a barrier to government, thus the main verb could not govern into either the embedded finite or non-finite clause without some special or exceptional device:</p>
+<p>(17)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Cindy believes &lsqb;<sub>S&prime;</sub> &lsqb;<sub>S</sub> Marcia to be a genius&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Cindy believes &lsqb;<sub>S&prime;</sub> &lsqb;<sub>S</sub> Marcia is a genius&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The special device was the rule of S&prime;-deletion, which would delete the S&prime; node in the A&plus;I construction (17a), but not in (b), with finite complementation. Thus, at surface structure there is a difference between the two constructions:</p>
+<p>(18)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Cindy believes &lsqb;<sub>S</sub> Marcia to be a genius&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Cindy believes &lsqb;<sub>S&prime;</sub> &lsqb;<sub>S</sub> Marcia is a genius&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>S&prime;-deletion was considered an exceptional rule limited in its application to a handful of verbs.</p>
+<p>
+<link rid="ss15">Section 4</link> will take up the question of the categorial nature of the sentential complement of verbs like <i>believe</i> in the A&plus;I construction. This in itself is one of the important variables in analyses of the A&plus;I construction.</p>
+</subsection>
+<subsection id="ss10" level="3">
+<heading id="h9" level="3">2.2.3&ensp;Raising revisited</heading>
+<p>In 1991 Kyle Johnson published an article arguing that all direct object NPs in English move from their base-generated position, as sister of V, to a VP-peripheral position, Spec,VP. One of his concerns was that while argument PPs seem able to intermingle with adverbial and other non-nominal VP-internal material, argument NPs always appear directly to the right of the main verb in English:</p>
+<p>(19)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Bobby talked (quietly) to Bill (quietly).</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Bobby watched (*quietly) Bill (quietly).</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>He argued that the NP needed to move leftward to Spec,VP to have its case assigned. Since the main verb still precedes the direct object NP, Johnson provided several arguments that it too moved leftward; he claimed it landed in a VP-external functional head position:</p>
+<p>(20)&ensp;Bobby watched &lsqb;<sub>VP</sub> Bill t<sub>V</sub> t<sub>NP</sub> quietly&rsqb;</p>
+<p>Johnson went on to argue that the same range of facts is relevant in the A&plus;I construction. That is, the main verb and the postverbal NP are always adjacent. That and other facts led him to reintroduce a raising analysis for the A&plus;I construction.</p>
+<p>Johnson&apos;s analysis side-stepped one of the main road blocks that the raising to object analysis faced in the Government and Binding (GB) theory of the 1980s. Partly to constrain GB&apos;s main transformational rule, Move Alpha, and partly to rule out transformational analyses like raising to object, GB constraints were stated in such a way as to rule out a construction in which the sister of a lexical item is not that item&apos;s semantic/thematic argument. Since raising to object takes an NP thematically related to an embedded predicate and places it in the position of sister of V, this application of Move Alpha would violate these constraints. Since the raising in Johnson&apos;s analysis is to a specifier position and not to the sister of V position, this difficulty does not arise. Indeed, there is nothing in the theory to rule out Johnson&apos;s approach to the A&plus;I construction.</p>
+<p>Additionally, in the late 1980s (published as <related relationship="sibling" type="samework"><externallink id="chapter 2 - Adjectival Passives.xml" type="file">chapter 2</externallink></related> of <link rid="b15">Chomsky 1995c</link>) Chomsky suggested that accusative Case was assigned to a direct object NP, not in its surface position, which is sister to V, but rather in a VP-external functional specifier position, Spec,AGRoP. Since it was assumed that the direct object was a sister to V in the surface representation, the claim was that the NP would raise at the abstract level of Logical Form (LF) to the Spec,AGRoP. The main motivation for this was conceptual. Subject NPs were thought to be generated in Spec,VP and raise to Spec,IP overtly to have their nominative case assigned. Chomsky wanted to unify nominative and accusative case-assignment.</p>
+<p>
+<link rid="b9">Lasnik and Saito (1991</link>) extended Chomsky&apos;s approach to the A&plus;I construction. They tentatively suggest that the embedded subject NP moves overtly to the main clause Spec,AGRoP position in the A&plus;I construction. The verb would also move to a higher VP-external functional head position. This much of the analysis paralleled Johnson&apos;s proposal. Oddly, they proposed this overt account only for the A&plus;I construction, maintaining Chomsky&apos;s covert movement account for regular direct objects. Others have extended the overt movement analysis to direct objects, as well, making them fully parallel with the postverbal NP in the A&plus;I construction (e.g., <link rid="b10">Koizumi 1993</link>; <link rid="b11">Runner 1995</link>, and others).</p>
+<p>Both the ECM and the revised raising approaches potentially have the ingredients for an explanation of another property of the A&plus;I construction: it is associated with verbal complementation alone. No adjectives or nouns allow for the A&plus;I construction, as noted by <link rid="b16">Ross (1974a</link>) and <link rid="b17">Kayne (1983</link>). As only verbs, but not nouns and adjectives, are independently thought to be structural case-assigners, this favors an analysis that tries to relate the A&plus;I construction to structural case-assignment.</p>
+</subsection>
+<subsection id="ss11" level="3">
+<heading id="h10" level="3">2.2.4&ensp;The lexicalist approach</heading>
+<p>Another approach, which has its roots in the raising to object analysis, is found in the lexicalist frameworks, Lexical-Functional Grammar (LFG; see, e.g., <link rid="b6">Bresnan 1982c</link>) and Head-driven Phrase Structure Grammar (HPSG; see, e.g., <link rid="b7">Pollard and Sag 1994</link>). Like the raising approach, the lexicalist approach claims that in the surface syntactic structure the postverbal NP in the A&plus;I construction is a direct object of the main verb. This allows a straightforward account of the object-like properties of that NP. What about the subject properties? Both LFG and HPSG recognize that the postverbal NP must have the semantic properties associated with the subject of the embedded predicate. Thus, both frameworks provide a means for associating the syntactic direct object with the semantic features of the embedded subject. At the level of syntactic analysis, the NP is a direct object; at the level of semantic analysis, it is a subject.</p>
+</subsection>
+</subsection>
+</subsection>
+<subsection id="ss12" level="1">
+<heading id="h11" level="1">3&ensp;Evidence for the two brands</heading>
+<subsection id="ss13" level="2">
+<heading id="h12" level="2">3.1&ensp;Evidence for raising to object</heading>
+<p>Many arguments have been offered in favor of the raising to object account of the A&plus;I construction. Indeed, <link rid="b4">Postal (1974</link>) alone, outlines 14 or so such arguments. Many of these arguments have roughly the following form: NPs certain to be direct objects behave in manner X; the postverbal NP in the A&plus;I construction behaves in manner X; therefore, it is a direct object. Some of these arguments could be turned around and used to support in a similar way the ECM approach: NPs certain to be governed by the main verb behave in manner X; the postverbal NP in the A&plus;I construction behaves in manner X; therefore, it is governed by the main verb. See <link rid="b18">Bach (1977b</link>) and <link rid="b19">Bresnan (1976b</link>) for critical reviews of <link rid="b4">Postal (1974</link>).</p>
+<p>The crucial difference between the two approaches hinges on the treatment of the postverbal NP with respect to the surface syntax. Thus, arguments that show the NP to indeed be part of the main clause in the surface syntax are arguments in favor of the raising to object account.</p>
+<p>One simple argument of this type comes from adverb placement. If the postverbal NP were in the embedded clause one might expect a main clause adverb to be able to intervene between the main verb and the postverbal subject. This is not possible, as is well known:</p>
+<p>(21)&ensp;Alice believes (*strongly) Sam to be the best butcher in town.</p>
+<p>But see <link rid="ss14">section 3.2</link> for an argument against the raising to object approach based on a very similar example. Another more complicated argument is put forth in <link rid="b4">Postal (1974</link>). It involves the interpretation of adverbs. Consider these examples:</p>
+<p>(22)&ensp;<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Mike expected Greg incorrectly to take out the trash.</entry>
+</row>
+<row><entry>b.</entry>
+<entry><sup>&num;</sup>Mike expected Greg incorrectly would take out the trash.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In the A&plus;I example in (22a) the adverb <i>incorrectly</i> can have a reading in which it modifies the main verb <i>expect</i>. Indeed, that is probably the favored reading. In the full finite clause in (22b) the adverb sounds awkward. If it is inverted with the modal <i>would</i> it can be interpreted as modifying the embedded predicate. If the interpretation of an adverb is determined by its surface position then this contrast can be taken as an argument for raising to object. For the adverb <i>incorrectly</i> to be interpreted as modifying <i>expected</i> it must be in the same clause as <i>expected</i>. If it is in the same clause as the verb, then the NP between the verb and the adverb must also be in that clause. Therefore, the postverbal NP is in the main clause.</p>
+<p>Another, perhaps slightly more straightforward, piece of evidence in favor of the claim that the postverbal NP in the A&plus;I construction is indeed part of the main verb comes from the &lsquo;particle construction&rsquo;. <link rid="b20">Kayne (1985</link>) points out examples like the following and <link rid="b8">Johnson (1991</link>) argues that they show that the postverbal NP is within the surface string of the main clause:</p>
+<p>(23)&ensp;She made Jerry out to be famous.</p>
+<p>On the assumption that <i>made</i> and <i>out</i> are both uncontroversially in the main clause, then since <i>Jerry</i> appears between them, it too must be part of the main clause.</p>
+<p>A third kind of argument for the raising to object approach comes from testing how &lsquo;high&rsquo; the postverbal NP in the A&plus;I construction is compared to the subject of an embedded finite clause. Versions of these arguments are found in <link rid="b4">Postal (1974</link>) and are re-introduced in <link rid="b9">Lasnik and Saito (1991</link>). These may not actually tell us anything about where the postverbal NP is in the overt syntax since currently many frameworks do not assume these phenomena are sensitive to surface syntax, but rather to some more abstract representation (like Logical Form). Nonetheless, these arguments do seem to point toward a difference between the postverbal NP in the A&plus;I construction and a subject NP in an embedded finite clause.</p>
+<p>In each of the following the postverbal NP in the A&plus;I construction behaves like it is higher in the structure than a clearly embedded subject at some level of representation. It can take wider scope than an embedded subject; it triggers a Binding Theory Condition C effect in the main clause; it can bind a reciprocal in the main clause; and it can license a Negative Polarity Item (NPI) in the main clause.</p>
+<p>Scope:</p>
+<p>(24)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The FBI proved few students to be spies.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The FBI proved that few students were spies.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Condition C:</p>
+<p>(25)&ensp;<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>?*John believes him<sub>i</sub> to be a genius even more than Bob<sub>i</sub>&apos;s mother does.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John believes that he<sub>i</sub> is a genius even more than Bob<sub>i</sub>&apos;s mother does.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Reciprocals:</p>
+<p>(26)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>?The DA proved the defendantsi to be guilty during each other<sub>i</sub>&apos;s trials.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>?*The DA proved &lsqb;that the defendantsi were guilty&rsqb; during each other<sub>i</sub>&apos;s trials.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>NPI:</p>
+<p>(27)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>?The DA proved none of the defendants to be guilty during any of the trials.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>?*The DA proved &lsqb;that none of the defendants were guilty&rsqb; during any of the trials.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+<subsection id="ss14" level="2">
+<heading id="h13" level="2">3.2&ensp;Evidence for the ECM approach</heading>
+<p>Several arguments against the raising to object account have been proposed over the years. <link rid="b12">Chomsky (1973</link>) argues that if the post-verbal NP is indeed syntactically a direct object, then what explains the following type of contrast?</p>
+<p>(28)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Which famous singer does Marcia always believe &lsqb;gossip about ___&rsqb;?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Which famous singer does Marcia believe &lsqb;gossip about ___&rsqb; to have ruined his career?</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*Which famous singer does Marcia believe that &lsqb;gossip about ___&rsqb; has ruined his career?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>He suggests that examples like (27b, c) are simply examples of illicit extraction from subject position, while (27a), being extraction from object, is fine. Postal responded to this criticism by claiming that the condition which blocks extraction from subject is actually a condition on extraction from a phrase that has been a subject at some point in the derivation; even the raising to object analysis assumes that the postverbal NP is a subject underlyingly.</p>
+<p>Another argument against the raising to object approach also comes from adverb placement. This time the ECM approach seems to make the right prediction:</p>
+<p>(29)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Alice believes Sam (*strongly) to be the best butcher in town.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Alice believes strongly that Sam is the best butcher in town.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>If the postverbal NP is indeed part of the main clause, why is it not possible to place this main clause adverb after the supposed main clause direct object? <link rid="b11">Runner (1995</link>) attempts to explain this by comparing (29a) to (30b):</p>
+<p>(30)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Alice strongly believes Sam&prime;s story.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Alice believes Sam&prime;s story strongly.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The example in (30a) shows that <i>strongly</i> can modify <i>believe</i>, but (b) shows that it cannot appear postnominally. The adverbs that are often used to illustrate the contrast in (29) do not do well postnominally even when the postverbal NP is uncontroversially a direct object. and given that there are adverbs that do well in such a position, as illustrated in (22) above, the force of this argument is weakened.</p>
+<p>Another type of argument that <link rid="b12">Chomsky (1973</link>) makes against the raising to object approach involves <i>tough</i> movement. <i>Tough</i> movement is usually assumed to target various kinds of objects, but not subjects:</p>
+<p>(31)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Bobby is easy to please ___</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Bobby is easy to believe &lsqb;___ saw Big Foot&rsqb;</entry>
+</row>
+<row><entry>
+</entry>
+<entry>(cf. It is easy to believe Bobby saw Big Foot.)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>However, the postverbal NP in the A&plus;I construction cannot undergo <i>tough</i> movement. This is unexpected if it is a direct object, but is expected if it is a subject:</p>
+<p>(32)&ensp;*Bobby is easy to believe ___ to have seen Big Foot.</p>
+<p>(cf. It is easy to believe Bobby to have seen Big Foot.)</p>
+<p>Here the raising to object analysis has to explain why the derived object does not undergo certain phenomena usual direct objects undergo. The ECM analysis simply points out that these NPs are subjects, not objects, and hence the contrasts follow straightforwardly.</p>
+</subsection>
+</subsection>
+<subsection id="ss15" level="1">
+<heading id="h14" level="1">4&ensp;The categorial status of the complement clause</heading>
+<p>Somewhat independent of the choice of analysis, raising to object or ECM, is the question of the categorial status of the embedded clause. The original analyses usually claimed that it was a full sentence embedded within an S&prime; (or CP). However, other accounts are possible and have been proposed. One is that the full finite complement of a verb like <i>believe</i> is an S&prime; or CP, the infinitival complement found in the A&plus;I construction is simply an S or IP (or TP). This approach would capture the intuition that there is less syntactic material between the main verb and the embedded subject NP in the A&plus;I construction, without positing a rule of S&prime; deletion (see, e.g., <link rid="b21">Massam 1985</link> for an ECM-type analysis along these lines).</p>
+<p>
+<link rid="b22">Kayne&apos;s (1981b</link>) study of English and French complementation argued that the categorial status of the sentential complement mattered for a range of properties. There he showed that whereas French does not in general have the basic A&plus;I construction outlined above (see (33a, b)), it does have a similar construction, what is now called a small clause (33c). This construction, which does not appear to involve a full infinitival complement clause, looks superficially like the English A&plus;I construction. Interestingly, it is possible to extract the embedded subject of (33b) resulting in (33d).</p>
+<p>(33)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry>a.</entry>
+<entry namest="col2" nameend="col6">I believe Jean to have arrived.</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>*Je</entry>
+<entry>croyais</entry>
+<entry>Jean</entry>
+<entry>&ecirc;tre</entry>
+<entry>arriv&eacute;.</entry>
+</row>
+<row><entry>I</entry>
+<entry>believe</entry>
+<entry>Jean</entry>
+<entry>to-be</entry>
+<entry>arrived</entry>
+</row>
+<row><entry morerows="1">c.</entry>
+<entry>Je</entry>
+<entry>crois</entry>
+<entry>Jean</entry>
+<entry>intelligent.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>I</entry>
+<entry>believe</entry>
+<entry>Jean</entry>
+<entry>intelligent</entry>
+<entry>
+</entry>
+</row>
+<row><entry morerows="1">d.</entry>
+<entry>le garcon</entry>
+<entry>que</entry>
+<entry>je croyais</entry>
+<entry>&ecirc;tre</entry>
+<entry>arriv&eacute;</entry>
+</row>
+<row><entry>the boy</entry>
+<entry>that</entry>
+<entry>I believe</entry>
+<entry>to-be</entry>
+<entry>arrived</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Kayne (and see also <link rid="b23">Rizzi 1981</link>) argues that (33b, d), involve S&prime; (CP) complementation, whereas (33c) does not.</p>
+<p>A paradigm pointed out in <link rid="b4">Postal (1974</link>: 304&ndash;305) suggests that even within a single language the possibility of both the English-type and the French-type A&plus;I construction must co-exist. English, too, has predicates that pattern similarly to the French examples in (33b, d):</p>
+<p>(34)&ensp;<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*He alleged Melvin to be a pimp.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Melvin, he alleged to be a pimp.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Who did they allege to be a pimp?</entry>
+</row>
+<row><entry>d.</entry>
+<entry>They alleged to be pimps &ndash; all of the Parisians who the CIA had hired in Nice.</entry>
+</row>
+<row><entry>e.</entry>
+<entry>Melvin was alleged to be a pimp.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>On the other hand, such an account requires that a predicate be able to select particular categorial features of its complement (here, to be able to choose between S&prime; and S); categorial- or c-selection itself has been controversial with a number of researchers aiming to reduce it to semantic- or s-selection (<link rid="b24">Grimshaw 1979</link>; <link rid="b25">Pesetsky 1982</link>). Given the fact that the A&plus;I construction and its finite counterpart are roughly synonymous, it becomes difficult to see how to have the difference in the category of the complement clause follow from semantic characteristics alone (but see <link rid="b26">Pesetsky 1989</link> for such an attempt).</p>
+</subsection>
+<subsection id="ss16" level="1">
+<heading id="h15" level="1">5&ensp;Conclusion</heading>
+<p>The A&plus;I construction has had a long and illustrious history in generative syntax. Brand-loyalty ran very strong and it seems that complete subparts of theoretical frameworks were developed simply to account for this construction. However, over the past five years or so it seems that most analysts have converged on some version of the raising to object approach. With the decoupling of underlying semantic/thematic positions and surface (or LF) functional case positions being explored in recent minimalist versions of transformational grammar, the need for the ECM approach has declined and indeed the full raising to object analysis is the only one consistent with new architecture of the theory. The static representational notion of &lsquo;government&rsquo; no longer plays a role in the theory and its work has been taken over by a derivational feature-movement approach to local relations. Thus, modern transformational grammar joins current lexicalist approaches to grammar in endorsing the basic concepts embraced by the raising to object approach.</p>
+<p>This chapter has provided an outline of some of the relevant issues to the analysis of the A&plus;I construction in English. Those interested in reading more about it may want to consult some of the following additional sources and the sources cited therein: <link rid="b20">Kayne (1985</link>), <link rid="b21">Massam (1985</link>), <link rid="b27">Bo&scaron;kovi&#x0107; (1997c</link>) and <link rid="b28">Runner (1998</link>). This list is a tiny fragment of what is available as is clear by doing a Google search on &ldquo;&lsquo;raising to object&rsquo; OR &lsquo;exceptional case marking&rsquo;,&rdquo; which receives over 600 hits.</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss17" level="1" type="references">
+<heading id="h16" level="1">REFERENCES</heading>
+<reference id="b18" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bach</surname><x>, </x><forenames>Emmon</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977b</date><x>). </x><title type="document">Review Article on: On Raising: One Rule of English Grammar and Its Theoretical Implications</title><x>. </x><title type="journal">Language</title><x> </x><volume>53</volume><x>: </x><page type="first">621</page><x>&ndash;</x><page type="last">654</page><x>.</x>
+</reference>
+<reference id="b27" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Bo&scaron;kovi&#x0107;</surname><x>, </x><forenames>&#x017D;eljko</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997c</date><x>). </x><title type="book">The Syntax of Non-Finite Complementation<x>.</x>
+</title><x> </x><address>Cambridge</address>
+<x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b13" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Bresnan</surname><x>, </x><forenames>Joan</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972</date>
+<miscellaneoustext>). Theory of Complementation in English Syntax. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b19" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bresnan</surname><x>, </x><forenames>Joan</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976b</date><x>). </x><title type="document">Nonarguments for Raising</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>7</volume><x>: </x><page type="first">485</page><x>&ndash;</x><page type="last">501</page><x>.</x>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Bresnan</surname><x>, </x><forenames>Joan</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982c</date><x>). </x><title type="book">The Mental Representation of Grammatical Relations<x>.</x>
+</title><x> </x><address>Cambridge</address>
+<x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b12" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1973">1973</date><x>). </x><title type="document">Conditions on Transformations</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">A Festschrift for Morris Halle</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Stephen</forenames><x> </x><surname>Anderson</surname>
+</name><x> and </x><name type="editor">
+<forenames>Paul</forenames><x> </x><surname>Kiparsky</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">232</page><x>&ndash;</x><page type="last">286</page>
+<x>. </x><address>New York</address><x>: </x><publisher>Holt, Rinehart and Winston</publisher><x>.</x>
+</reference>
+<reference id="b14" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="book">Lectures on Government and Binding<x>.</x>
+</title><x> </x><address>Dordrecht</address>
+<x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b15" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995c</date><x>). </x><title type="book">The Minimalist Program<x>.</x>
+</title><x> </x><address>Cambridge</address>
+<x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b24" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Grimshaw</surname><x>, </x><forenames>Jane</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date><x>). </x><title type="document">Complement Selection and the Lexicon</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>10</volume><x>: </x><page type="first">279</page><x>&ndash;</x><page type="last">326</page><x>.</x>
+</reference>
+<reference id="b8" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Johnson</surname><x>, </x><forenames>Kyle</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Objects Positions</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>9</volume><x>: </x><page type="first">577</page><x>&ndash;</x><page type="last">636</page><x>.</x>
+</reference>
+<reference id="b22" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981b</date><x>). </x><title type="document">On Certain Differences Between French and English</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>12</volume><x>: </x><page type="first">349</page><x>&ndash;</x><page type="last">371</page><x>.</x>
+</reference>
+<reference id="b17" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">Connectedness and Binary Branching</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>14</volume><x>: </x><page type="first">223</page><x>&ndash;</x><page type="last">249</page><x>.</x>
+</reference>
+<reference id="b20" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">Principles of Particle Constructions</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Grammatical Representation</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jacqueline</forenames><x> </x><surname>Gu&eacute;ron</surname>
+</name><x>, </x><name type="editor">
+<forenames>Hans-Georg</forenames><x> </x><surname>Obenauer</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Jean-Yves</forenames><x> </x><surname>Pollock</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">111</page><x>&ndash;</x><page type="last">140</page>
+<x>. </x><address>Dordrecht</address>
+<x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b3" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kiparsky</surname><x>, </x><forenames>Paul</forenames>
+</name><x> and </x><name type="author">
+<forenames>Carol</forenames><x> </x><surname>Kiparsky</surname>
+</name>
+</namegroup><x> (</x><date date="1970">1970</date><x>). </x><title type="document">Fact</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Progress in Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Manfred</forenames><x> </x><surname>Bierwisch</surname>
+</name><x> and </x><name type="editor">
+<forenames>Karl</forenames><x> </x><surname>Heidolph</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">143</page><x>&ndash;</x><page type="last">173</page>
+<x>. </x><address>The Hague</address>
+<x>: </x><publisher>Mouton.</publisher>
+</reference>
+<reference id="b10" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Koizumi</surname><x>, </x><forenames>Masatoshi</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Object Agreement Phrases and the Split VP Hypothesis</title><x>. </x><title type="journal">MIT Working Papers in Linguistics</title><x> </x><volume>18</volume><x>: </x><page type="first">99</page><x>&ndash;</x><page type="last">148</page><x>.</x>
+</reference>
+<reference id="b9" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lasnik</surname><x>, </x><forenames>Howard</forenames>
+</name><x> and </x><name type="author">
+<forenames>Mamoru</forenames><x> </x><surname>Saito</surname>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">On the Subject of Infinitives</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Twenty-seventh Regional Meeting of the Chicago Linguistic Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Lise</forenames><x> </x><surname>Dobrin</surname>
+</name><x>, </x><name type="editor">
+<forenames>Lynn</forenames><x> </x><surname>Nichols</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Rosa</forenames><x> </x><surname>Rodriguez</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">324</page><x>&ndash;</x><page type="last">343</page>
+<x>. </x><address>Chicago</address>
+<x>: </x><publisher>Chicago Linguistic Society.</publisher>
+</reference>
+<reference id="b21" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Massam</surname><x>, </x><forenames>Diane</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date>
+<miscellaneoustext>). Case Theory and the Projection Principle<i>.</i> PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b2" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>McCawley</surname><x>, </x><forenames>James</forenames>
+</name>
+</namegroup><x> (</x><date date="1970">1970</date><x>). </x><title type="document">English as a VSO Language</title><x>. </x><title type="journal">Language</title><x> </x><volume>46</volume><x>: </x><page type="first">286</page><x>&ndash;</x><page type="last">299</page><x>.</x>
+</reference>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Perlmutter</surname><x>, </x><forenames>David</forenames>
+</name><x> and </x><name type="author">
+<forenames>Paul<x> </x>M<x>.</x>
+</forenames><x> </x><surname>Postal</surname>
+</name>
+</namegroup><x> (</x><date date="1983">1983a</date><x>). </x><title type="document">The Relational Succession Law</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Studies in Relational Grammar I</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>David</forenames><x> </x><surname>Perlmutter</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>. </x><address>Chicago</address>
+<x>: </x><publisher>University of Chicago Press.</publisher>
+</reference>
+<reference id="b25" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Pesetsky</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date>
+<miscellaneoustext>). Paths and Categories<i>.</i> PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b26" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Pesetsky</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date>
+<miscellaneoustext>). Language Particular Processes and the Earliness Principle. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b7" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Pollard</surname><x>, </x><forenames>Carl</forenames>
+</name><x> and </x><name type="author">
+<forenames>Ivan</forenames><x> </x><surname>Sag</surname>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">Head-Driven Phrase Structure Grammar<x>.</x>
+</title><x> </x><address>Stanford/Chicago</address>
+<x>: </x><publisher>CSLI Publications/University of Chicago Press.</publisher>
+</reference>
+<reference id="b4" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Postal</surname><x>, </x><forenames>Paul<x> </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date><x>). </x><title type="book">On Raising<x>.</x>
+</title><x> </x><address>Cambridge</address>
+<x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b23" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rizzi</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="document">Nominative Marking in Italian Infinitives and the Nominative Island Constraint</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Binding and Filtering</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Frank</forenames><x> </x><surname>Heny</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">129</page><x>&ndash;</x><page type="last">158</page>
+<x>. </x><address>Dordrecht</address>
+<x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rosenbaum</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="1967">1967</date><x>). </x><title type="book">The Grammar of English Predicate Complement Constructions<x>.</x>
+</title><x> </x><address>Cambridge</address>
+<x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b16" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ross</surname><x>, </x><forenames>John<x> </x>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974a</date><x>). </x><title type="document">Nouniness</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Three Dimensions of Linguistic Theory</title><x>. </x><page type="first">137</page><x>&ndash;</x><page type="last">257</page>
+<x>. </x><address>Tokyo</address>
+<x>: </x><publisher>TEC.</publisher>
+</reference>
+<reference id="b11" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Runner</surname><x>, </x><forenames>Jeffrey<x> </x>T<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date>
+<miscellaneoustext>). Noun Phrase Licensing and Interpretation<i>.</i> PhD dissertation</miscellaneoustext><x>, </x>
+<address>Amherst, University of Massachusetts</address><x>.</x>
+</reference>
+<reference id="b28" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Runner</surname><x>, </x><forenames>Jeffrey<x> </x>T<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="book">Noun Phrase Licensing<x>.</x>
+</title><x> </x><address>New York</address>
+<x>: </x><publisher>Garland.</publisher>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

@@ -1,0 +1,153 @@
+<?php
+
+// TBD1: Validate Faculty and Location which are mandatory
+// TBD2: Convert FacultyName and LocationName to FacultyID and LocationID before passing
+
+session_start();
+
+if ($_SESSION['results'])
+{
+	if ($_SESSION['results'][0])
+	{
+		$hit=1;
+		$AssetID			= $_SESSION['results'][0];
+		$BarCode			= $_SESSION['results'][1];
+		$FacultyID			= $_SESSION['results'][2];
+		$ReqNumber			= $_SESSION['results'][3];
+		$PoNumber			= $_SESSION['results'][4];
+		$LegacyCode			= $_SESSION['results'][5];
+		$DatePurchased		= $_SESSION['results'][6];
+		$WarrantyExpiration	= $_SESSION['results'][7];
+		$LocationID			= $_SESSION['results'][8];
+		$Manufacturer		= $_SESSION['results'][9];
+		$Model				= $_SESSION['results'][10];
+		$Category			= $_SESSION['results'][11];
+		$Status				= $_SESSION['results'][12];
+		$GroupID			= $_SESSION['results'][13];
+	}
+	else
+	{
+		$hit=0;
+	}
+}
+
+echo '<h1>Asset details page</h1>';
+
+//Display asset details
+if ($hit == 0)
+{
+    echo ('No asset record with this Asset ID exists.');
+    echo '<br>';
+}
+else
+{
+    echo '<table border="1" width="100%" cellpadding="1" cellspacing="1">';
+    echo '<tr>';
+        echo '<th colspan="7" bgcolor="cornflowerblue">REQUEST DETAILS</th>';
+    echo '</tr>';
+    echo '<tr>';
+        echo '<th bgcolor="lightgray">Asset ID</th>';
+        echo '<th bgcolor="lightgray">Bar code</th>';
+        echo '<th bgcolor="lightgray">FacultyID</th>';
+        echo '<th bgcolor="lightgray">P.Req.#</th>';
+		echo '<th bgcolor="lightgray">PO#</th>';
+        echo '<th bgcolor="lightgray">Legacy code</th>';
+        echo '<th bgcolor="lightgray">Date purchased</th>';
+    echo '</tr>';
+    echo '<tr>';
+        echo "<td>$AssetID</td>";
+        echo "<td>$BarCode</td>";
+        echo "<td>$FacultyID</td>";
+        if ($ReqNumber == "")     {echo "<td>&nbsp;</td>";} else {echo "<td>$ReqNumber</td>";}
+        if ($PoNumber == "")      {echo "<td>&nbsp;</td>";} else {echo "<td>$PoNumber</td>";}
+        if ($LegacyCode == "")    {echo "<td>&nbsp;</td>";} else {echo "<td>$LegacyCode</td>";}
+        if ($DatePurchased == "") {echo "<td>&nbsp;</td>";} else {echo "<td>$DatePurchased</td>";}
+    echo '</tr>';
+    echo '<tr>';
+        echo '<th bgcolor="lightgray">Warranty exp.</th>';
+        echo '<th bgcolor="lightgray">Location ID</th>';
+        echo '<th bgcolor="lightgray">Manufacturer</th>';
+        echo '<th bgcolor="lightgray">Model</th>';
+ 		echo '<th bgcolor="lightgray">Category</th>';
+        echo '<th bgcolor="lightgray">Status</th>';
+        echo '<th bgcolor="lightgray">Group ID</th>';
+     echo '</tr>';
+     echo '<tr>';
+        if ($WarrantyExpiration == "") {echo "<td>&nbsp;</td>";} else {echo "<td>$WarrantyExpiration</td>";}
+        echo "<td>$LocationID</td>";
+        if ($Manufacturer == "")       {echo "<td>&nbsp;</td>";} else {echo "<td>$Manufacturer</td>";}
+        if ($Model == "")              {echo "<td>&nbsp;</td>";} else {echo "<td>$Model</td>";}
+ 		echo "<td>$Category</td>";
+        echo "<td>$Status</td>";
+        if ($GroupID == "")            {echo "<td>&nbsp;</td>";} else {echo "<td>$GroupID</td>";}
+    echo '</tr>';
+
+    echo '</table>';
+}
+
+
+if ($hit == 1 && ($Status != 'Retired'))
+{
+    echo '<form action="../CONTROLLER/PhysicalAssetDispatcher.php" method="post">';
+    echo '<fieldset>';
+    echo '<legend> <font color=gray><b>Update record</b></font> </legend>';
+    echo '<input type="hidden" name="CallingForm" value="AssetDetailsPage"/>';
+    echo '<input type="hidden" name="AssetID"     value="'.$AssetID.'"/>';
+
+    echo 'Owner/Faculty - Mandatory: ';
+    echo '<select name="FacultyName">';
+    echo '<option></option>';
+    echo '<option value=Engineering and Computer Science>Engineering and Computer Science</option>';
+    echo '<option value=Arts and Science>Arts and Science</option>';
+    echo '</select>';
+    echo '<br><br>';
+
+    echo 'Legacy code: ';
+    echo '<input type="text" name="LegacyCode"         size ="32" maxlength="64"  class="inputtext">';
+    echo '<br><br>';
+
+    echo 'Warranty expiration date (mm/dd/yyyy): ';
+    echo '<input type="text" name="WarrantyExpiration" size ="10" maxlength="10"  class="inputtext">';
+    echo '<br><br>';
+
+    echo 'Location - Mandatory: ';
+    echo '<select name="LocationName">';
+    echo '<option></option>';
+    echo '<option value=EV3.Administration>EV3.Administration</option>';
+    echo '<option value=EV8.177>EV8.177</option>';
+    echo '<option value=EV8.107>EV8.107</option>';
+    echo '<option value=EV3.177>EV3.177</option>';
+    echo '<option value=EV9.104>EV9.104</option>';
+    echo '</select>';
+    echo '<br><br>';
+
+    echo 'Status: ';
+    echo '<select name="Status">';
+    echo '<option></option>';
+    echo '<option value=In-stock>In-stock</option>';
+    echo '<option value=Assigned>Assigned</option>';
+    echo '<option value=Damaged>Damaged</option>';
+    echo '<option value=In-repair>In-repair</option>';
+    echo '<option value=Lost>Lost</option>';
+    echo '<option value=Retired>Retired</option>';
+    echo '</select>';
+    echo '<br><br>';
+
+    echo '<input type="submit" name="submit" value="Update" />';
+    echo '</fieldset>';
+    echo '</form>';
+}
+
+
+?>
+
+
+<form action="SearchAsset.php" method="post">
+<fieldset>
+<legend> <font color=gray><b>Return</b></font> </legend>
+	<input type="submit" name="submit" value="Return to search assets" />
+</fieldset>
+
+</form>
+
+<br>

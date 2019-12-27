@@ -1,0 +1,2586 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="55"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 55 - Resumption.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">94</page>
+<page type="last">117</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="1"/>
+<count type="table" count="34"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="59"/>
+<count type="page" count="24"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20050811"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 55&ensp;McCloskey: Resumption</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 55&ensp;McCloskey: Resumption</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">55 Resumption</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>JAMES</forenames><x> </x><surname>MCCLOSKEY</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction: phenomena and issues</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Early treatments</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>Issues</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>Properties</p>
+</li>
+<li level="2">
+<number>4.1&ensp;</number>
+<p>Immunity from constraints on movement</p>
+</li>
+<li level="2">
+<number>4.2&ensp;</number>
+<p>Strong crossover</p>
+</li>
+<li level="2">
+<number>4.3&ensp;</number>
+<p>Weak crossover</p>
+</li>
+<li level="2">
+<number>4.4&ensp;</number>
+<p>Antilocality and the Highest Subject Restriction</p>
+</li>
+<li level="2">
+<number>4.5&ensp;</number>
+<p>An understanding</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>Open issues</p>
+</li>
+<li level="1">
+<number>6&ensp;</number>
+<p>The identity of the binding element</p>
+</li>
+<li level="1">
+<number>7&ensp;</number>
+<p>Parameterization</p>
+</li>
+<li level="1">
+<number>8&ensp;</number>
+<p>Movement and resumption</p>
+</li>
+<li level="2">
+<number>8.1&ensp;</number>
+<p>Swedish, Vata, and Gbadi</p>
+</li>
+<li level="2">
+<number>8.2&ensp;</number>
+<p>Reconstruction</p>
+</li>
+<li level="1">
+<number>9&ensp;</number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1 Introduction: phenomena and issues</heading>
+<p>The italicized pronouns in (1) (cited from <link rid="b1">Prince 1990</link>, and attributed there to Tony Kroch) are conventionally known as &lsquo;resumptive&rsquo; pronouns:</p>
+<p>(1)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>There are guests who I am curious about what <i>they</i> are going to say.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The only one we could see <i>her</i> figure was Number Two. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Compare the pronouns in (1) with those in (2):</p>
+<p>(2)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Sally said that <i>she</i> would resign.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Most people think that <i>they</i> have a right to a decent job.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Every kid in my class who has a VCR knows how to program <i>it</i>. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>What distinguishes the two cases? The pronouns in (1) appear in positions where one would, in a certain sense, have expected to find a gap. The expectation is reasonable because the variable position in a relative clause or question in English is normally defined by the presence of a gap, as in (3):</p>
+<p>(3)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>There are guests that everyone wants to invite ___.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The only one (who/that) we could see ___ was Number Two. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>For the cases in (2), on the other hand, there is no sense at all in which the possibility of a pronoun alternates with the possibility of a gap.</p>
+<p>This first contrast between (1) and (2) is closely linked with a second. The pronouns in (1) are obligatorily bound (as gaps, of course, would be in the same positions). The pronouns in (2), on the other hand, are free to find their antecedents in pragmatic or discourse context.</p>
+<p>Putting these observations together in an initial way, then, we can say that a resumptive pronoun is a pronominal element which is obligatorily bound and which appears in a position in which, under other circumstances, a gap would appear. The binder of the pronoun is the same, apparently, as the element which binds the gap in the corresponding filler-gap construction.</p>
+<p>I use the term &lsquo;pronominal element&rsquo; in this informal definition (rather than the simpler &lsquo;pronoun&rsquo;) because the range of elements which can serve the resumptive function is in fact quite broad. Besides including all categories of pronoun &ndash; tonic and clitic, overt and non-overt &ndash; it also includes epithets, which seem to be sufficiently pronominal that they can serve the resumptive function in certain languages and under certain conditions. This is shown, for example, by the informal English (4) (from <link rid="b2">Kroch 1981</link>; see also <link rid="b3">Sells 1984b</link>; <link rid="b4">Aoun and Choueiri 1996</link>; <link rid="b5">Safir 1996a</link>; <link rid="b6">Aoun et al. 2001</link>):<link rid="fn1">
+<sup>1</sup></link>
+</p>
+<p>(4)&ensp;There was one prisoner who we couldn&apos;t even figure out why <i>the poor guy</i> was in jail.</p>
+<p>Most discussion of resumption has centred on cases in which the pronoun appears in the variable position of an unbounded dependency construction &ndash; relative clauses, constituent questions, clefts, comparative clauses, infinitival null-operator constructions, and the like. The phenomenon is almost certainly broader than this would suggest, but this chapter will begin by following tradition in focusing on this set of cases.</p>
+<p>Characterized in this way, the phenomenon of resumption is very widespread, as is illustrated briefly in (5&ndash;8):<link rid="fn2">
+<sup>2</sup></link>
+</p>
+<p>(5)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry>an</entry>
+<entry>ghirseach</entry>
+<entry>ar</entry>
+<entry>ghoid</entry>
+<entry>na</entry>
+<entry>s&iacute;oga&iacute;</entry>
+<entry>&iacute;</entry>
+<entry>Irish</entry>
+</row>
+<row><entry>the</entry>
+<entry>girl</entry>
+<entry>C</entry>
+<entry>stole</entry>
+<entry>the</entry>
+<entry>fairies</entry>
+<entry>her</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col7">&lsquo;the girl who the fairies stole&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(6)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry>Es</entry>
+<entry>un</entry>
+<entry>pa&iacute;s</entry>
+<entry>que</entry>
+<entry>hablan</entry>
+<entry>tanto</entry>
+<entry>de</entry>
+<entry>&eacute;l.</entry>
+<entry>(Informal) Spanish</entry>
+</row>
+<row><entry>is</entry>
+<entry>a</entry>
+<entry>country</entry>
+<entry>C</entry>
+<entry>they-talk</entry>
+<entry>a-lot</entry>
+<entry>about</entry>
+<entry>it</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col8">&lsquo;It&apos;s a country that they talk a lot about.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(7)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>L-kteeb</entry>
+<entry>yalli</entry>
+<entry>&int;tarayto</entry>
+<entry>mbeeri<strike>i</strike>
+</entry>
+<entry>Daa<formula id="mu1" format="inline">
+<file name="Graphics\chapter_55_mu1.gif" type="gif"/>
+</formula>.</entry>
+<entry>Lebanese Arabic</entry>
+</row>
+<row><entry>the-book</entry>
+<entry>C</entry>
+<entry>bought &lsqb;S1&rsqb;-it</entry>
+<entry>yesterday</entry>
+<entry>is-lost</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col6">&lsquo;The book that I bought yesterday is lost.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(8)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>ha-<formula id="mu2" format="inline">
+<file name="Graphics\chapter_55_mu2.gif" type="gif"/>
+</formula>i&scaron;</entry>
+<entry>&scaron;e-</entry>
+<entry>ra<formula format="inline">
+<file name="Graphics\chapter_55_mu2.gif" type="gif"/>
+</formula>
+</entry>
+<entry>
+<formula format="inline">
+<file name="Graphics\chapter_55_mu2.gif" type="gif"/>
+</formula>oto</entry>
+<entry>Hebrew</entry>
+</row>
+<row><entry>the-man</entry>
+<entry>C</entry>
+<entry>saw &lsqb;S1&rsqb;</entry>
+<entry>him</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;the man that I saw&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Within the broad category of unbounded dependency constructions, attention has tended to focus on the case of relative clauses, but the phenomenon of resumption extends (at least in certain languages) to the entire range of unbounded dependency constructions. This is illustrated for constituent questions in two languages in (9) and (10), and for clefts in the Irish example in (11):</p>
+<p>(9)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>C&eacute;acu</entry>
+<entry>fear</entry>
+<entry>ar</entry>
+<entry>labhair</entry>
+<entry>t&uacute;</entry>
+<entry>leis?</entry>
+<entry>Irish</entry>
+</row>
+<row><entry>which-of-two</entry>
+<entry>man</entry>
+<entry>C</entry>
+<entry>spoke</entry>
+<entry>you</entry>
+<entry>with &lsqb;MS3&rsqb;</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col7">&lsquo;Which man did you talk to?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(10)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>
+<formula format="inline">
+<file name="Graphics\chapter_55_mu2.gif" type="gif"/>
+</formula>ayya</entry>
+<entry>r<formula id="mu3" format="inline">
+<file name="Graphics\chapter_55_mu3.gif" type="gif"/>
+</formula>
+<formula id="mu4" format="inline">
+<file name="Graphics\chapter_55_mu4.gif" type="gif"/>
+</formula>
+<formula format="inline">
+<file name="Graphics\chapter_55_mu4.gif" type="gif"/>
+</formula>eel</entry>
+<entry>&chi;abbartu-u</entry>
+<entry>
+<formula format="inline">
+<file name="Graphics\chapter_55_mu2.gif" type="gif"/>
+</formula>enno&nbsp;.&nbsp;.&nbsp;.&nbsp;</entry>
+<entry>Lebanese Arabic</entry>
+</row>
+<row><entry>which</entry>
+<entry>man</entry>
+<entry>told &lsqb;2P&rsqb;-him</entry>
+<entry>C</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;Which man did you tell that&nbsp;.&nbsp;.&nbsp;.&nbsp;?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(11)&ensp;<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>Tigh</entry>
+<entry>beag</entry>
+<entry>caol</entry>
+<entry>gur</entry>
+<entry>mhaireamar</entry>
+<entry>ann.</entry>
+<entry>Irish</entry>
+</row>
+<row><entry>house</entry>
+<entry>little</entry>
+<entry>narrow</entry>
+<entry>C</entry>
+<entry>we-lived</entry>
+<entry>in-it</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col7">&lsquo;It was a narrow little house that we lived in.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b7">McCloskey (1990</link>) provides a much more thorough discussion of the range of constructions in Irish in which resumptive pronouns may figure.</p>
+<p>These initial observations are enough to set the scene for the major questions which have shaped work on the phenomenon of resumption. Since resumptive pronouns are pronouns (at least in their apparent form), a series of questions can be asked about where they fit in the context of the general theory of pronominal anaphora. To what extent do they share the properties of other classes of pronouns (those in (2), for instance)? But since they simultaneously appear in positions which are canonically associated with the appearance of gaps, one can also ask a series of questions about how resumptive elements interact with the processes which create gaps. If we follow much recent work in assuming that gaps in relative clauses and questions are always created by movement operations, this second question then becomes the following: to what extent does the relation between a resumptive element and its binder exhibit the properties of movement?</p>
+<p>Most work on resumption attempts to answer these two questions and tries to understand the Janus-like nature of resumptive elements &ndash; one face toward the domain of pronouns and anaphoric elements, the other toward the theory of movement.</p>
+<p>A fundamental question, which has not often been explicitly addressed, but which lies behind much of the discussion, is why resumptive elements have the form that they do. That is, resumptive pronouns simply <i>are</i> (formally) pronouns. I know of no report of a language that uses a morphologically or lexically distinct series of pronouns in the resumptive function. If we take this observation to be revealing, there can be no syntactic feature which distinguishes resumptive pronouns from &lsquo;ordinary&rsquo; pronouns, and any appeal to such a feature must be construed as, at best, an indication of the limits of understanding.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2 Early treatments</heading>
+<p>Work of the 1970s (especially in the second half of the decade) addressed these fundamental questions by assuming that unbounded dependency constructions were frequently derived by way of a rule which deleted bound pronouns in certain contexts &ndash; when bound by the head of a relative clause construction, for instance (<link rid="b8">Morgan 1972</link>; <link rid="b9">Perlmutter 1972</link>; <link rid="b10">Bresnan and Grimshaw 1978</link>; <link rid="b11">McCloskey 1979</link>). An example like (12a), on this account, would derive by way of deletion of the pronoun from an underlying structure which more resembled (12b):</p>
+<p>(12)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>the guy that I talked to ___</entry>
+</row>
+<row><entry>b.</entry>
+<entry>the guy that I talked to <i>him</i>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Resumptive pronouns, on this account, are the surface manifestation of the failure of this rule to apply &ndash; either because the targeted pronoun occupies a position that was inaccessible for one reason or another (possessor position, say, in most languages, or prepositional object position, or within an island), or else because the rule is optional. The synonymous Irish pair in (13), for example, would be taken to reflect optional application of the rule of bound pronoun deletion:</p>
+<p>(13)&ensp;<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>an</entry>
+<entry>ghirseach</entry>
+<entry>a</entry>
+<entry>ghoid</entry>
+<entry>na</entry>
+<entry>s&iacute;oga&iacute;</entry>
+<entry>___</entry>
+</row>
+<row><entry>the</entry>
+<entry>girl</entry>
+<entry>C</entry>
+<entry>stole</entry>
+<entry>the</entry>
+<entry>fairies</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;the girl who the fairies stole&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>an</entry>
+<entry>ghirseach</entry>
+<entry>ar</entry>
+<entry>ghoid</entry>
+<entry>na</entry>
+<entry>s&iacute;oga&iacute;</entry>
+<entry>&iacute;</entry>
+</row>
+<row><entry>the</entry>
+<entry>girl</entry>
+<entry>C</entry>
+<entry>stole</entry>
+<entry>the</entry>
+<entry>fairies</entry>
+<entry>her</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;the girl who the fairies stole&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The larger framework of assumptions here is that:</p>
+<listgroup id="l2" type="i">
+<li level="1">
+<number>(i)&ensp;</number>
+<p>Unbounded dependency constructions need to contain a bound variable, to be semantically well-formed.</p>
+</li>
+<li level="1">
+<number>(ii)&ensp;</number>
+<p>Pronouns are the devices which natural language canonically makes available for the expression of bound variables.</p>
+</li>
+<li level="1">
+<number>(iii)&ensp;</number>
+<p>The gaps characteristic of unbounded dependency constructions can be produced either by movement or by deletion.</p>
+</li>
+</listgroup>
+<p>On this view, then, resumptive pronouns have the form of pronouns because they mark variable positions and pronouns are the canonical linguistic expression of variables (even when those pronouns are not apparent in the pronounced string). And the widely noted tendency for resumptive pronouns to appear in inaccessible positions (inside islands particularly) can be understood as reflecting the island-sensitivity of the bound pronoun deletion rule.</p>
+<p>A core assumption, of course, was that movement and deletion are equally available in unbounded dependency constructions. On this view, for instance, (14a) in English would be derived by way of <i>wh</i>-movement, while (14c) would reflect application of a rule deleting the pronoun of (14b):</p>
+<p>(14)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>the guy who I talked to ___</entry>
+</row>
+<row><entry>b.</entry>
+<entry>the guy that I talked to <i>him</i>
+</entry>
+</row>
+<row><entry>c.</entry>
+<entry>the guy that I talked to ___ </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Since it depended on the postulation of unbounded and island-sensitive deletion rules (as in <link rid="b12">Ross 1986</link>, from his 1967 dissertation), this set of ideas formed one part of the debate in the second half of the 1970s about the nature of islands and the typology of transformational operations. As a consequence, as that debate moved toward resolution and as the hypothesis of successive-cyclic rule application (<link rid="b13">Chomsky 1973</link>) came to be widely accepted, the foundation on which these ideas rested (assumption (iii) above in particular) came to seem untenable.</p>
+<p>In the new context, the relations among (14a, b, c) look rather different. (14a) and (14c) are both derived by movement of a relative pronoun. (14c) differs from (14a) only in that the fronted pronoun is subsequently deleted (or was phonologically null to begin with). Given this, the fundamental challenge becomes that of understanding how the presence of a pronoun (as in (14b)) can serve the same function as, or in some sense stand in for, a gap derived by movement. The relation between resumption and movement &ndash; what they share and how they differ &ndash; thus becomes central.</p>
+</subsection>
+<subsection id="ss4" level="1">
+<heading id="h3" level="1">3 Issues</heading>
+<p>Within that broad context, work on resumption can be seen as addressing the following sharper questions:</p>
+<listgroup id="l3" type="i">
+<li level="1">
+<number>(i)&ensp;</number>
+<p>What mechanisms license the appearance of resumptive pronouns, and what is the place of those mechanisms in the typology of anaphoric interactions?</p>
+</li>
+<li level="1">
+<number>(ii)&ensp;</number>
+<p>How do those mechanisms relate to, and interact with, the movement mechanism?</p>
+</li>
+<li level="1">
+<number>(iii)&ensp;</number>
+<p>What defines the difference between languages which make productive use of resumptive elements and those which do not? How can this difference be understood within the larger setting of work on the parameters that define differences among languages?</p>
+</li>
+<li level="1">
+<number>(iv)&ensp;</number>
+<p>Is the pre-theoretical category &lsquo;resumptive pronoun&rsquo; theoretically unitary? Or are there rather distinct types of elements and devices which are grouped under this rubric?</p>
+</li>
+<li level="1">
+<number>(v)&ensp;</number>
+<p>In what sense (if any) is resumption a last resort mechanism?</p>
+</li>
+</listgroup>
+<p>A way of broaching these issues is to look at what have been thought to be the core properties of resumptive pronoun constructions. Looking at those properties, and the attempts that have been made to understand them, will lead us to the kind of consensus that emerged in work of the middle and late 1980s &ndash; a consensus that embodied a set of answers to questions (i&ndash;v) above. We will at that point be in a position to look at the various theoretical and empirical challenges that have arisen to subvert that consensus, or at least to bring it into question.</p>
+</subsection>
+<subsection id="ss5" level="1">
+<heading id="h4" level="1">4 Properties</heading>
+<subsection id="ss6" level="2">
+<heading id="h5" level="2">4.1 Immunity from constraints on movement</heading>
+<p>The single most celebrated property of the binding relations that resumptive pronouns enter into is that they show no sensitivity to general constraints on movement. (We will consider exceptions and objections to this very general claim shortly.) This property has been familiar at least since the work of <link rid="b12">Ross (1986</link>), where it was discussed as a sensitivity to the difference between &lsquo;chopping&rsquo; rules (movement and deletion) and &lsquo;copying&rsquo; rules (those which leave a pronominal copy in the origin site).<link rid="fn3">
+<sup>3</sup></link> I will illustrate the effect here with (attested) examples from Irish (15&ndash;20). In all cases, the resumptive element is underlined.</p>
+<p>Examples (15) and (16) demonstrate immunity from the <i>wh</i>-island constraint:</p>
+<p>(15)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry>na</entry>
+<entry>hamhr&aacute;in</entry>
+<entry>sin</entry>
+<entry>nach</entry>
+<entry>bhfuil</entry>
+<entry>fhios</entry>
+<entry>c&eacute;</entry>
+<entry>a</entry>
+<entry>chum</entry>
+<entry><u>iad</u>
+</entry>
+</row>
+<row><entry>the</entry>
+<entry>songs</entry>
+<entry>DEMON</entry>
+<entry>NEG C</entry>
+<entry>is</entry>
+<entry>knowledge</entry>
+<entry>who</entry>
+<entry>C</entry>
+<entry>composed</entry>
+<entry>them</entry>
+</row>
+<row><entry namest="col1" nameend="col10">&lsquo;those songs that we don&apos;t know who composed them&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(16)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>teach</entry>
+<entry>nach</entry>
+<entry>n-aithneochth&aacute;</entry>
+<entry>c&aacute;</entry>
+<entry>rabh</entry>
+<entry><u>s&eacute;</u>
+</entry>
+</row>
+<row><entry>house</entry>
+<entry>NEG C</entry>
+<entry>recognize &lsqb;COND&rsqb; &lsqb;S2&rsqb;</entry>
+<entry>where</entry>
+<entry>was</entry>
+<entry>it</entry>
+</row>
+<row><entry namest="col1" nameend="col6">&lsquo;a house that you wouldn&apos;t recognize where it was&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Examples (17) and (18) illustrate immunity from the Complex Noun Phrase Constraint:</p>
+<p>(17)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="14">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13" align="char" char="."/>
+<colspec colnum="14" colname="col14" align="char" char="."/>
+<tbody>
+<row><entry>An</entry>
+<entry>f&aacute;naidhe</entry>
+<entry>a</entry>
+<entry>n-abradh</entry>
+<entry>daoine</entry>
+<entry>n&aacute;r</entry>
+<entry>thuig</entry>
+<entry><u>&eacute;</u>
+</entry>
+<entry>go</entry>
+<entry>rabh</entry>
+<entry><u>s&eacute;</u>
+</entry>
+<entry>&eacute;adtrom</entry>
+<entry>sa</entry>
+<entry>cheann.</entry>
+</row>
+<row><entry>the</entry>
+<entry>wanderer</entry>
+<entry>C</entry>
+<entry>would-say</entry>
+<entry>people</entry>
+<entry>NEG C</entry>
+<entry>understood</entry>
+<entry>him</entry>
+<entry>C</entry>
+<entry>was</entry>
+<entry>he</entry>
+<entry>light</entry>
+<entry>in-the</entry>
+<entry>head</entry>
+</row>
+<row><entry namest="col1" nameend="col14">&lsquo;The wanderer that people who didn&apos;t understand him would say that he was soft in the head.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(18)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="13">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13" align="char" char="."/>
+<tbody>
+<row><entry>seanchas&oacute;g</entry>
+<entry>ar</entry>
+<entry>d&oacute;cha</entry>
+<entry>go</entry>
+<entry>bhfuil</entry>
+<entry>an</entry>
+<entry>t&aacute;illi&uacute;ir</entry>
+<entry>a</entry>
+<entry>dhein</entry>
+<entry><u>&iacute;</u>
+</entry>
+<entry>sa</entry>
+<entry>chr&eacute;</entry>
+<entry>fad&oacute;</entry>
+</row>
+<row><entry>old-jacket</entry>
+<entry>C</entry>
+<entry>probable</entry>
+<entry>C</entry>
+<entry>is</entry>
+<entry>the</entry>
+<entry>tailor</entry>
+<entry>C</entry>
+<entry>made</entry>
+<entry>it</entry>
+<entry>in-the</entry>
+<entry>earth</entry>
+<entry>long-ago</entry>
+</row>
+<row><entry namest="col1" nameend="col13">&lsquo;an old jacket that the tailor who made it has probably been in the grave for ages&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (19) we have a case of the cleft subcase of the <i>wh</i>-island constraint:</p>
+<p>(19)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>cathracha</entry>
+<entry>nach</entry>
+<entry>sibh</entry>
+<entry>a</entry>
+<entry>chuir</entry>
+<entry>suas</entry>
+<entry><u>iad</u>
+</entry>
+</row>
+<row><entry>cities</entry>
+<entry>NEG C</entry>
+<entry>you</entry>
+<entry>C</entry>
+<entry>put</entry>
+<entry>up</entry>
+<entry>them</entry>
+</row>
+<row><entry namest="col1" nameend="col7">&lsquo;cities that it wasn&apos;t you that built them&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>And in (20) we have an instance in which a resumptive pronoun appears inside an adjunct island:</p>
+<p>(20)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="12">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<tbody>
+<row><entry>N&eacute;r&eacute;e Caron,</entry>
+<entry>nach</entry>
+<entry>bhfuil</entry>
+<entry>ann</entry>
+<entry>ach</entry>
+<entry>tamall</entry>
+<entry>beag</entry>
+<entry>&oacute;</entry>
+<entry>bh&iacute;</entry>
+<entry><u>s&iacute;</u>
+</entry>
+<entry>d&oacute;igheamhail</entry>
+<entry>feice&aacute;lach</entry>
+</row>
+<row><entry>N&eacute;r&eacute;e Caron,</entry>
+<entry>NEG C</entry>
+<entry>is</entry>
+<entry>in-it</entry>
+<entry>but</entry>
+<entry>time</entry>
+<entry>small</entry>
+<entry>since</entry>
+<entry>was</entry>
+<entry>she</entry>
+<entry>beautiful</entry>
+<entry>attractive</entry>
+</row>
+<row><entry namest="col1" nameend="col12">&lsquo;N&eacute;r&eacute;e Caron, who it is only a short time since she was beautiful and attractive&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The examples cited in (15&ndash;20) illustrate a lack of sensitivity to subjacency effects, but it is well known that resumptive pronouns also amnesty ungrammaticalities attributed to the Empty Category Principle (ECP), as can be seen in the (informal) English examples in (21):</p>
+<p>(21)&ensp;<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>He&apos;s the kind of guy that you never know what he&apos;s thinking.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*He&apos;s the kind of guy that you never know what ___ is thinking.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>They&rsquo;re the kind of people that you can never be sure whether or not they&rsquo;ll be on time.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>*They&rsquo;re the kind of people that you can never be sure whether or not ___ will be on time. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+<subsection id="ss7" level="2">
+<heading id="h6" level="2">4.2 Strong crossover</heading>
+<p>The relation between a resumptive pronoun and its binder, then, does not show sensitivity to the locality conditions thought to be diagnostic of the movement relation. It does, however, exhibit a number of properties characteristic of A-bar-binding. Specifically, the bound element itself behaves like a variable (understood for present purposes as being an element whose most local binder occupies an A-bar-position). There are at least two senses in which this is true.</p>
+<p>Most fundamentally, it is the resumptive element which is the syntactic correlative of the semantic variable which is found in every A-bar-binding construction.</p>
+<p>But there is also a more specific sense in which resumptive pronouns &ldquo;behave like variables.&rdquo; A property of the traces left by movement to A-bar-positions is that they are subject to the strong crossover effect (<link rid="b14">Postal 1971</link>; <link rid="b15">Wasow 1979</link>):</p>
+<p>(22)&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Strong crossover effect:</b>
+</entry>
+</row>
+<row><entry>The trace of movement to an A-bar-position may not be anaphorically linked with a c-commanding pronoun. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (23):</p>
+<p>(23)&ensp;*Who did she<sub><i>j</i>
+</sub> claim &lsqb;<i>t</i><sub><i>j</i>
+</sub> had arrived earliest&rsqb;?</p>
+<p>the trace in embedded subject position is c-commanded by, and co-indexed with, the pronoun <i>she</i>, resulting in ungrammaticality. A now widely accepted proposal by <link rid="b16">Chomsky (1981</link>) derives this effect from Condition C of the Binding Theory, which requires that a certain class of elements (non-pronominal DPs and <i>wh</i>-traces) not be bound by an element in an A-position. Whether or not this proposal is right (see <link rid="b17">Lasnik 1989b</link> for a proposed refinement and <link rid="b18">Postal 1997b</link> for an argument that the whole approach is misguided), the phenomenon itself provides us with a question to ask about resumptive pronouns &ndash; do they resemble <i>wh</i>-traces in giving rise to strong crossover effects?</p>
+<p>The question has been addressed for a number of languages (those languages for which the most complete descriptions of resumptive pronouns are available), and the answer so far seems to be that resumptive pronouns do trigger strong crossover effects. Demonstrating this requires some ingenuity. One cannot simply take (23) and replace the trace with a pronoun as in (24):</p>
+<p>(24)&ensp;Who<sub><i>j</i>
+</sub> did she<sub><i>j</i>
+</sub> claim &lsqb;that she<sub><i>j</i>
+</sub> had arrived earliest&rsqb;?</p>
+<p>This does not provide a test case for strong crossover because the possibility remains open that the higher of the two pronouns functions as the required variable, in which case the second (lower) pronoun has the same (unproblematic) status as the pronoun in (25):</p>
+<p>(25)&ensp;Who<sub><i>j</i>
+</sub> <i>t</i><sub><i>j</i>
+</sub> claimed &lsqb;that she<sub><i>j</i>
+</sub> had arrived earliest&rsqb;?</p>
+<p>To overcome this difficulty, one can use, instead of the higher pronoun in (23), some element which is known to give rise to robust strong crossover effects but which cannot itself be used as a resumptive element. Epithets may be used for this purpose in many languages. <link rid="b17">Lasnik (1989b</link>) has shown that they give rise to clear strong crossover effects (even in languages in which lexical DPs do not), and in many languages at least in which resumptive pronouns figure, epithets may not in general serve the resumptive function. <link rid="b7">McCloskey (1990</link>) conducts this test for Irish and demonstrates that the strong crossover effect does indeed emerge:</p>
+<p>(26)&ensp;<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="12">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<tbody>
+<row><entry>*Sin</entry>
+<entry>an</entry>
+<entry>fear</entry>
+<entry>ar</entry>
+<entry>dh&uacute;irt</entry>
+<entry>an</entry>
+<entry>bastard</entry>
+<entry>go</entry>
+<entry>mar&oacute;dh</entry>
+<entry>s&eacute;</entry>
+<entry>muid.</entry>
+<entry>Irish</entry>
+</row>
+<row><entry>that</entry>
+<entry>the</entry>
+<entry>man</entry>
+<entry>C</entry>
+<entry>said</entry>
+<entry>the</entry>
+<entry>bastard</entry>
+<entry>C</entry>
+<entry>kill &lsqb;COND&rsqb;</entry>
+<entry>he</entry>
+<entry>us</entry>
+</row>
+<row><entry namest="col1" nameend="col12">&lsquo;That&apos;s the man<sub><i>j</i>
+</sub> that the bastard<sub><i>j</i>
+</sub> said that he<sub><i>j</i>
+</sub> would kill us.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The experiment was subsequently replicated in a number of Semitic languages &ndash; see <link rid="b19">Shlonsky (1992</link>) on Hebrew and Palestinian Arabic, <link rid="b4">Aoun and Choueiri (1996</link>) and <link rid="b6">Aoun et al. (2001</link>) on Lebanese Arabic.</p>
+</subsection>
+<subsection id="ss8" level="2">
+<heading id="h7" level="2">4.3 Weak crossover</heading>
+<p>Although resumptive pronouns share with variables a sensitivity to strong crossover, it was established early (<link rid="b20 b3">Sells 1984a, 1984b</link>; <link rid="b7">McCloskey 1990</link>; <link rid="b19">Shlonsky 1992</link>) that they quite generally show no weak crossover effects. Weak crossover (<link rid="b15">Wasow 1979</link>) arises when a variable is coreferent with a pronoun which does not c-command it. The Irish example in (27), however, is fully grammatical (see also (17) above), in contrast with its English translation, which is degraded to some degree (<link rid="b21 b22 b5">Safir 1984, 1986, 1996a</link>):</p>
+<p>(27)&ensp;<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>an</entry>
+<entry>fear<sub><i>j</i>
+</sub>
+</entry>
+<entry>ar</entry>
+<entry>fh&aacute;g</entry>
+<entry>a<sub><i>j</i>
+</sub>
+</entry>
+<entry>bhean</entry>
+<entry>&eacute;<sub><i>j</i>
+</sub>
+</entry>
+</row>
+<row><entry>the</entry>
+<entry>man</entry>
+<entry>C</entry>
+<entry>left</entry>
+<entry>his</entry>
+<entry>wife</entry>
+<entry>him</entry>
+</row>
+<row><entry namest="col1" nameend="col7">&lsquo;the man<sub><i>j</i>
+</sub> that his<sub><i>j</i>
+</sub> wife left ___ <sub><i>j</i>
+</sub>&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+<subsection id="ss9" level="2">
+<heading id="h8" level="2">4.4 Antilocality and the Highest Subject Restriction</heading>
+<p>But if resumptive pronouns show some of the distinctive properties of variables, they also betray their origins by exhibiting at least one important pronominal property as well.</p>
+<p>One of the core properties of pronouns is that their binding is subject to an antilocality requirement &ndash; a pronoun and its antecedent cannot occupy the same local domain. In the area of A-binding, this requirement is encapsulated in Condition B of the Binding Theory (<link rid="b16">Chomsky 1981</link>), which renders ungrammatical an example like (28):</p>
+<p>(28)&ensp;<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Charles<sub><i>j</i>
+</sub> is proud of him<sub><i>j</i>
+</sub>.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Each actress<sub><i>j</i>
+</sub> nominated her<sub><i>j</i>
+</sub>. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Resumptive pronouns in a number of languages show what is arguably a similar kind of restriction. In these languages, a resumptive pronoun cannot occupy a subject-position immediately subjacent to its binder. This condition, known as the Highest Subject Restriction (<link rid="b7">McCloskey 1990</link>), is illustrated with the contrasting Irish examples in (29a, b):</p>
+<p>(29)&ensp;<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>*fear</entry>
+<entry>n&aacute;r</entry>
+<entry>fhan</entry>
+<entry>s&eacute;</entry>
+<entry>sa bhaile</entry>
+</row>
+<row><entry>man</entry>
+<entry>C NEG&ndash;PAST</entry>
+<entry>remained</entry>
+<entry>he</entry>
+<entry>at-home</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;a man that didn&apos;t stay at home&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>fear</entry>
+<entry>n&aacute;r</entry>
+<entry>fhan</entry>
+<entry>___</entry>
+<entry>sa bhaile</entry>
+</row>
+<row><entry>man</entry>
+<entry>C NEG&ndash;PAST</entry>
+<entry>remain</entry>
+<entry>
+</entry>
+<entry>at home</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;a man that didn&apos;t stay at home&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Similar facts have been documented for a variety of languages and language-types (<link rid="b23">Doron 1982</link>; <link rid="b24">Borer 1984b</link>; <link rid="b19">Shlonsky 1992</link>; <link rid="b25">Ouhalla 1993</link>; <link rid="b26">Schafer 1995</link>).</p>
+<p>Various approaches to the analysis of this phenomenon have been suggested. One thread that runs through many of them is that the ungrammaticality of local subject resumptives is best seen as an aspect of the kind of antilocality property typical of pronouns (<link rid="b24">Borer 1984b</link>; <link rid="b7">McCloskey 1990</link>; <link rid="b4">Aoun and Choueiri 1996</link>). One way of implementing the general idea is presented in <link rid="b7">McCloskey (1990</link>), drawing on earlier work by <link rid="b27">Aoun and Li (1989</link>). There it is proposed that the disjointness requirement defined by Principle B of the Binding Theory (which in its original formulation governs only binding by an element in an A-position) should be extended to the domain of A-bar-binding. A formulation like the one in (30) has the required consequences (<link rid="b27 b28 b29">Aoun and Li 1989, 1990, 1993a</link>; <link rid="b7">McCloskey 1990</link>; <link rid="b4">Aoun and Choueiri 1996</link>):</p>
+<p>(30)&ensp;<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>The A-bar-Disjointness Requirement:</b>
+</entry>
+</row>
+<row><entry>A pronoun must be A-bar-free in the least complete functional complex containing the pronoun and a subject distinct from the pronoun. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>To see how this will work, consider the schematic structure in (31):</p>
+<p>(31)&ensp;<object id="fu1" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_55_fu1.jpg" type="jpg" id="fu1_source"/>
+</objectsource>
+</object>
+</p>
+<p>Assume for present purposes that the specifier of XP in (31) is the &lsquo;subject position&rsquo; in the language in question. If the element in specifier of CP binds the occurrence of <i>pro</i><sub><i>j</i>
+</sub> within X&prime; (a non-subject), then the binding is not in violation of (30), since the relevant CFC in this case is IP, and the pronoun is in fact A-bar-free within IP. When the element in specifier of CP binds <i>pro</i><sub><i>j</i>
+</sub> in the specifier of XP, on the other hand, the structure stands in violation of (30), since here the least CFC containing the pronoun and a subject distinct from the pronoun is the higher IP (or the root), and the pronoun is not A-bar-free in this domain.</p>
+<p>There are numerous known difficulties for this approach,<link rid="fn4">
+<sup>4</sup></link> but it is not irrational to hope that those difficulties could be resolved without sacrificing the essence of the proposal.</p>
+<p>Summarizing, then, A-bar-bound resumptive elements show the following mix of properties in many languages:</p>
+<listgroup id="l4" type="i">
+<li level="1">
+<number>(i)&ensp;</number>
+<p>The binding relation they enter into shows no sensitivity to the locality constraints which characterize movement.</p>
+</li>
+<li level="1">
+<number>(ii)&ensp;</number>
+<p>They share with variables the property of triggering strong crossover effects.</p>
+</li>
+<li level="1">
+<number>(iii)&ensp;</number>
+<p>The binding relation they enter into does not show weak crossover effects.</p>
+</li>
+<li level="1">
+<number>(iv)&ensp;</number>
+<p>The binding relation they enter into is constrained by an antilocality requirement reminiscent of Principle B of the Binding Theory.</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss10" level="2">
+<heading id="h9" level="2">4.5 An understanding</heading>
+<p>If these general lines of thought could be sustained, a pleasingly consistent overall view could be seen to emerge:</p>
+<listgroup id="l5" type="i">
+<li level="1">
+<number>(i)&ensp;</number>
+<p>Transformational theories of the origin of pronouns have been thought to be deeply flawed,<link rid="fn5">
+<sup>5</sup></link>
+</p>
+</li>
+<li level="1">
+<number>(ii)&ensp;</number>
+<p>therefore pronouns have to be regarded as base-generated rather than as being derived by transformation.</p>
+</li>
+<li level="1">
+<number>(iii)&ensp;</number>
+<p>Resumptive pronouns look just like ordinary pronouns. Therefore the null hypothesis is that resumptive pronouns should also be taken to be base-generated.</p>
+</li>
+<li level="1">
+<number>(iv)&ensp;</number>
+<p>The binding relation between the resumptive pronoun and its binding operator is therefore not created by movement, so</p>
+</li>
+<li level="1">
+<number>(v)&ensp;</number>
+<p>no sensitivity to constraints on movement is expected in the binding of resumptive pronouns.</p>
+</li>
+<li level="1">
+<number>(vi)&ensp;</number>
+<p>But it has been independently argued by <link rid="b22">Safir (1986</link>) that the notion of &lsquo;variable&rsquo; should be defined contextually (a variable is an element whose most local binder occupies an A-bar-position).</p>
+</li>
+<li level="1">
+<number>(vii)&ensp;</number>
+<p>That being so, resumptive pronouns must be variables and should be subject to Condition C. We therefore expect strong crossover effects.</p>
+</li>
+<li level="1">
+<number>(viii)&ensp;</number>
+<p>But resumptive pronouns are also pronouns. Therefore it is natural that they should exhibit the antilocality requirement which is a fundamental constraint on the binding of pronouns; from this we derive the Highest Subject Restriction.</p>
+</li>
+<li level="1">
+<number>(ix)&ensp;</number>
+<p>The absence of weak crossover effects is also consistent with the overall conception. <link rid="b21 b22 b5">Safir (1984, 1986, 1996a</link>) argues that weak crossover is to be understood as a violation of a general parallelism constraint which requires that all the variables bound by a single operator be of the same type &ndash; all pronominal or all non-pronominal. This requirement is respected in the Irish example in (27) (since both variables are pronouns) but violated in its English translation.</p>
+</li>
+</listgroup>
+<p>Standing back from the specifics, the intuition here is that unbounded dependency constructions are characterized by the presence of a bound variable, and that natural language provides two distinct ways to realize variable binding relationships &ndash; either by way of a bound pronoun or by way of movement from the bound to the binding position. In the language of &lsquo;chains&rsquo;: the sense in which resumptive pronouns and traces can serve many of the same functions is that both can serve the function of being the bottom-most position in an A-bar-chain, an abstract theoretical notion which subsumes both certain movement relations and certain binding relations, both linking binding positions with bound positions.</p>
+</subsection>
+</subsection>
+<subsection id="ss11" level="1">
+<heading id="h10" level="1">5 Open issues</heading>
+<p>It would be an overstatement to call the understanding just sketched a &lsquo;consensus&rsquo;. But something like it guided a good deal of work on resumption in the middle and late 1980s and into the early 1990s, and generated a research agenda &ndash; one that grappled with the important issues that remained unresolved even within that consensus.</p>
+<p>One of those issues concerns the level of representation at which resumptive pronouns are defined as variables, the two candidates most often considered being S-structure and LF.<link rid="fn6">
+<sup>6</sup></link> A second issue is whether or not the use of resumptive pronouns represents a last resort mechanism. The conception of resumption just outlined provides no reason to expect that it might in any sense represent a reach for the last resort. Resumption simply represents (on this view) one of the ways in which an A-bar-binding relation can be established. But many theoreticians have had the intuition that resumption is in fact a last resort mechanism, and have striven to design theories in which it would follow that resumption would be available only if movement (the unmarked way, on this view, to establish an operator&ndash;variable binding) were unavailable.</p>
+<p>For anyone whose native language is English, the intuition is strong and clear that this is how things work. Resumptive pronouns in English appear &ndash; if not exclusively then at least in the general case &ndash; in positions from which movement would be impossible (see (21) above, for instance). But for many languages in which the resumptive strategy is more productively used, the situation seems to be very different.<link rid="fn7">
+<sup>7</sup></link> The apparent fact in Irish, for instance, is that resumptive pronouns and gaps are in free variation in all positions except those from which movement is impossible (in which resumption is the only option) and those affected by the Highest Subject Restriction (see (29a, b)), in which only a gap is possible. Similar facts appear to hold in Hebrew.<link rid="fn8">
+<sup>8</sup></link>
+</p>
+</subsection>
+<subsection id="ss12" level="1">
+<heading id="h11" level="1">6 The identity of the binding element</heading>
+<p>The issues considered so far have been the focus of a great deal of discussion. In this section I want to highlight an issue which is, in my view, of central importance, but which has been less discussed.</p>
+<p>There is strong evidence (as we have seen) that resumptive pronouns function as &lsquo;variables&rsquo; in the technical sense. Given the theoretical context in which we are working, this means that they must have a binder (a co-indexed element in a c-commanding A-bar-position). There has also seemed to be strong evidence that the local binder of the resumptive element cannot be the overt element with which it is ultimately linked &ndash; the head of a relative clause, the interrogative phrase of a question, the focused phrase of a cleft and so on (<link rid="b22">Safir 1986</link>; <link rid="b7">McCloskey 1990</link>). The evidence seems rather to suggest that that ultimate binding is mediated by a more local binding &ndash; between the resumptive pronoun and an element in CP. The Irish evidence, as we will see below, seems to be particularly clear on this point.</p>
+<p>But what then should the binder of the resumptive pronoun be taken to be? The answer that has usually been given is that the binding element must be a null operator base-generated in the specifier position of CP. The null operator is linked in turn with the ultimate binder by way of the relation called &lsquo;R-Binding&rsquo; by <link rid="b21">Safir (1984</link>). For the case of an interrogative structure, then, we will have the schematic structure in (32a), and for a relative clause the schematic structure in (32b):</p>
+<p>(32)&ensp;<object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;DP<sub>&lsqb;<i>Q</i>&rsqb;<i>j</i> </sub>&lsqb;<sub>CP</sub> Op<i><sub>j</sub>
+</i> C&lsqb;<sub>IP</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;<i>pro<sub>j</sub>
+</i>&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>DP</sub> NP<i><sub>j</sub>
+</i> &lsqb;<sub>CP</sub> Op<sub><i>j</i>
+</sub> C&lsqb;<sub>IP</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;<i>pro<sub>j</sub>
+</i>&rsqb;&rsqb;&rsqb; </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>There is a worry here, though &ndash; a worry that one might label &lsquo;the problem of eternal silence&rsquo;. I mean by this that there are no cases, as far as I have been able to determine, in which the postulated operator is other than null. No language, I believe, has an element <i>foo</i> such that one finds relative clauses analogous to (33):</p>
+<p>(33)&ensp;&lsqb;<sub>DP</sub> the guy &lsqb;<sub>CP</sub> <i>foo</i> that &lsqb;<sub>IP</sub> I spoke to him&rsqb;&rsqb;&rsqb;</p>
+<p>What one finds over and over again is some equivalent of (34), with no audible element occupying the specifier position of CP:</p>
+<p>(34)&ensp;&lsqb;<sub>DP</sub> the guy &lsqb;<sub>CP</sub> that &lsqb;<sub>IP</sub> I spoke to him&rsqb;&rsqb;&rsqb;</p>
+<p>The conception of resumption as we have outlined it so far has no explanation for the absence of (33) &ndash; an absence which can hardly be accidental. If invariant binding operators exist, it is not obvious what principle would force such operators to be phonologically null in <i>every</i> case.</p>
+<p>The only set of proposals in this general family, as far as I know, which is not subject to this objection is that developed by <link rid="b30">Demirdache (1991</link>), who argues that the specifier position of CP is empty until LF. In the derivation of LF representations, the resumptive pronoun itself is taken to move into the specifier of CP. As long as movement between S-structure and LF is not subject to the same locality requirements as overt movement (<link rid="b31">Huang 1982a</link> and much subsequent work), this analysis is tenable.</p>
+</subsection>
+<subsection id="ss13" level="1">
+<heading id="h12" level="1">7 Parameterization</heading>
+<p>A remaining open issue concerns how language-particular differences in this domain are to be characterized. For some languages (Hebrew, Lebanese Arabic, Irish), resumption is a fully integrated aspect of the grammatical system. For others (English, for instance), it is typically regarded as an auxiliary phenomenon, not part of the grammar proper, but rather a device that speakers resort to under certain performance conditions (increased processing load in particular &ndash; <link rid="b32">Erteschik-Shir 1992</link>; <link rid="b33">Dickey 1996</link>). <link rid="b34">Chao and Sells (1983</link>) and <link rid="b3">Sells (1984b</link>) present evidence from English that the distinction between the two language types is necessary, delineate some of the distinctive characteristics of the two types, and introduce the term &lsquo;intrusive resumption&rsquo; for the English type. They point out in particular that resumption in English relative clauses is degraded if the ultimate antecedent of the resumptive pronoun is quantificational:</p>
+<p>(35)&ensp;*I&apos;d like to meet every linguist that Mary wondered if she should invite <i>him</i> to the party.</p>
+<p>If this position is correct, as is widely assumed, then the theory of parameterization has to provide a way to draw a distinction between the two language types. One proposal within the larger framework just sketched is that the relevant property is a property of the functional head C. If resumptive pronouns are bound by null operators in the specifier of CP, then it is natural that the heads which host such binding operators in their specifiers should bear a distinctive morphosyntactic feature, a feature which has an overt morpho-phonological consequence in the Irish complementizer system, as seen in (13), repeated here as (36):</p>
+<p>(36)&ensp;<object id="tu28" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu28_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>an</entry>
+<entry>ghirseach</entry>
+<entry>a</entry>
+<entry>ghoid</entry>
+<entry>na</entry>
+<entry>s&iacute;oga&iacute;</entry>
+<entry>___</entry>
+</row>
+<row><entry>the</entry>
+<entry>girl</entry>
+<entry>C</entry>
+<entry>stole</entry>
+<entry>the</entry>
+<entry>fairies</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;the girl who the fairies stole&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>an</entry>
+<entry>ghirseach</entry>
+<entry>ar</entry>
+<entry>ghoid</entry>
+<entry>na</entry>
+<entry>s&iacute;oga&iacute;</entry>
+<entry>&iacute;</entry>
+</row>
+<row><entry>the</entry>
+<entry>girl</entry>
+<entry>C</entry>
+<entry>stole</entry>
+<entry>the</entry>
+<entry>fairies</entry>
+<entry>her</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;the girl who the fairies stole&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Here there are distinct complementizers (<i>a</i> versus <i>ar</i> in the case in point) depending on whether the clause contains a gap or a resumptive pronoun (see <link rid="b7 b35 b36">McCloskey 1990, 2001b, 2002</link> for discussion). If this position turns out to be defensible, then this instance of parameterization falls into line with the emerging consensus that parametric differences derive from featural properties of functional lexical items.</p>
+</subsection>
+<subsection id="ss14" level="1">
+<heading id="h13" level="1">8 Movement and resumption</heading>
+<p>The open issues just summarized are serious and substantial; some seem soluble, some seem deeper. Overall, though, the conception is reasonably attractive and could make some claim to cross-linguistic generality. But we must now look at a series of cases and issues which pose more fundamental problems for the conception just outlined and which ultimately threaten to subvert it completely, or at least to force radical revisons. Interestingly, all have to do with the interplay between resumption and movement. I want to look at these cases in order of ascending difficulty.</p>
+<subsection id="ss15" level="2">
+<heading id="h14" level="2">8.1 Swedish, Vata, and Gbadi</heading>
+<p>
+<link rid="b37">Engdahl (1985</link>) provides one of the earliest comprehensive studies of the resumptive pronoun phenomenon in a given language &ndash; Swedish in this case. A typical exa(mple is given in (36):</p>
+<p>(37)&ensp;<object id="tu29" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu29_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry>Vilket</entry>
+<entry>ord</entry>
+<entry>visste</entry>
+<entry>ingen</entry>
+<entry>hur</entry>
+<entry>det</entry>
+<entry>stavas</entry>
+<entry>___?</entry>
+</row>
+<row><entry>which</entry>
+<entry>word</entry>
+<entry>knew</entry>
+<entry>no one</entry>
+<entry>how</entry>
+<entry>it</entry>
+<entry>is-spelled</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col8">&lsquo;Which word did nobody know how it is spelled?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Engdahl demonstrates that resumptive pronouns in Swedish have the following range of properties:</p>
+<listgroup id="l6" type="i">
+<li level="1">
+<number>(i)&ensp;</number>
+<p>They license parasitic gaps; see (38).</p>
+</li>
+<li level="1">
+<number>(ii)&ensp;</number>
+<p>They give rise to weak crossover effects.</p>
+</li>
+<li level="1">
+<number>(iii)&ensp;</number>
+<p>They satisfy the ATB requirement on extraction from coordinate structures; see (39).</p>
+</li>
+<li level="1">
+<number>(iv)&ensp;</number>
+<p>They worsen, rather than improve, subjacency violations; see (40).</p>
+</li>
+<li level="1">
+<number>(v)&ensp;</number>
+<p>They &ldquo;are used systematically only in the subject position of tensed clauses&rdquo; &ndash; in fact, to void what would otherwise be &lsquo;COMP-trace&rsquo; violations (<link rid="b37">Engdahl 1985</link>: 11).</p>
+</li>
+</listgroup>
+<p>(38)&ensp;<object id="tu30" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu30_source">
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<tbody>
+<row><entry>Vilken</entry>
+<entry>f&aring;nge</entry>
+<entry>var</entry>
+<entry>det</entry>
+<entry>l&auml;karna</entry>
+<entry>inte</entry>
+<entry>kunde</entry>
+<entry>avg&ouml;ra</entry>
+<entry>om</entry>
+<entry>han</entry>
+<entry>verkligen</entry>
+</row>
+<row><entry>which</entry>
+<entry>prisoner</entry>
+<entry>was</entry>
+<entry>it</entry>
+<entry>the-doctors</entry>
+<entry>not</entry>
+<entry>could</entry>
+<entry>decide</entry>
+<entry>if</entry>
+<entry>he</entry>
+<entry>really</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>var</entry>
+<entry>sjuk</entry>
+<entry>utan</entry>
+<entry>att</entry>
+<entry>tala</entry>
+<entry>med ___</entry>
+<entry>personligen?</entry>
+</row>
+<row><entry>was</entry>
+<entry>ill</entry>
+<entry>without</entry>
+<entry>to</entry>
+<entry>talk</entry>
+<entry>with</entry>
+<entry>in-person</entry>
+</row>
+<row><entry namest="col1" nameend="col7">&lsquo;Which prisoner was it that the doctors couldn&apos;t decide if he really was ill without talking to in person?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(39)&ensp;<object id="tu31" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu31_source">
+<tbl frame="none">
+<tgroup cols="15">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13" align="char" char="."/>
+<colspec colnum="14" colname="col14" align="char" char="."/>
+<colspec colnum="15" colname="col15" align="char" char="."/>
+<tbody>
+<row><entry>Det</entry>
+<entry>finns</entry>
+<entry>vissa</entry>
+<entry>ord</entry>
+<entry>som</entry>
+<entry>jag</entry>
+<entry>ofta</entry>
+<entry>tr&auml;ffar p&aring;</entry>
+<entry>___</entry>
+<entry>men</entry>
+<entry>inte</entry>
+<entry>minns</entry>
+<entry>hur</entry>
+<entry>de</entry>
+<entry>stavas.</entry>
+</row>
+<row><entry>EXP</entry>
+<entry>are</entry>
+<entry>certain</entry>
+<entry>words</entry>
+<entry>that</entry>
+<entry>I</entry>
+<entry>often</entry>
+<entry>meet</entry>
+<entry>
+</entry>
+<entry>but</entry>
+<entry>not</entry>
+<entry>remember</entry>
+<entry>how</entry>
+<entry>they</entry>
+<entry>are-spelled</entry>
+</row>
+<row><entry namest="col1" nameend="col15">&lsquo;There are certain words that I often come across but never remember how they are spelled.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(40)&ensp;<object id="tu32" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu32_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry>?*Vilken</entry>
+<entry>bil</entry>
+<entry>&aring;t</entry>
+<entry>du</entry>
+<entry>lunch</entry>
+<entry>med</entry>
+<entry>n&aring;gon</entry>
+<entry>som</entry>
+<entry>k&ouml;rde</entry>
+<entry>den?</entry>
+</row>
+<row><entry>&ensp; &thinsp;which</entry>
+<entry>car</entry>
+<entry>ate</entry>
+<entry>you</entry>
+<entry>lunch</entry>
+<entry>with</entry>
+<entry>someone</entry>
+<entry>that</entry>
+<entry>drove</entry>
+<entry>it</entry>
+</row>
+<row><entry namest="col1" nameend="col10">&lsquo;Which car did you have lunch with someone that drove?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Engdahl concludes from these observations that resumptive pronouns in Swedish &ldquo;behave just like <i>wh</i>-traces&rdquo; and are &ldquo;phonetically realized traces.&rdquo; At about the same time, and I believe independently, Hilda <link rid="b38">Koopman (1982</link>) (see also <link rid="b39">Koopman 1984</link>: sections 2.3.3.2 and 6.2.4) made an almost identical set of observations and drew similar conclusions about the behavior of resumptive pronouns in two Kru languages of West Africa (Vata and Gbadi).</p>
+<p>In the face of these observations and proposals, it is impossible to maintain the simplest view of the relation between resumptive pronouns and gaps in A-bar-binding constructions. One cannot maintain, that is, that the presence of a gap indicates that movement has applied and that the presence of a pronoun indicates that movement has not applied. Simple inspection of a string will never be enough to establish whether a given instance of A-bar-binding is established by way of movement or by way of base-generation followed by binding.</p>
+<p>There is a sense, though, in which these results do not challenge what I have called here the consensus view in any very deep way. The two sets of properties (properties of movement-derived constructions and properties of non-movement-derived constructions) still line up in neat opposition. In Swedish, Vata, and Gbadi, those A-bar-binding relations which terminate in a pronoun show the complete constellation of properties associated with A-bar-movement. In Irish and similar languages, resumptive pronoun constructions show none of those properties. As long as we can make sense of the idea that a pronoun can be the &lsquo;spell-out&rsquo; of a trace (as in the former group of languages), the larger conceptual architecture is not severely threatened.</p>
+<p>Two points are worth making, however. The first is that, interpreted in this way, the observations imply that the phenonemon of resumption is not theoretically uniform ((iv) of p. 99 above). The second is that in the theoretical context in which such proposals were first made, it was not clear that the notion &lsquo;spell-out of a trace&rsquo; made much sense. Two strands of development, however, changed that. One has to do with our understanding of the movement operation, and the other has to do with our understanding of the category &lsquo;pronoun&rsquo;.</p>
+<p>One of the innovations of the Minimalist program (<link rid="b40 b41">Chomsky 1993, 1995c</link>) has been to reintroduce, or re-emphasize, a certain understanding of movement which was standard in work of the 1960s and 1970s &ndash; namely that the movement operation, rather than being a primitive, is in fact a composition of two more fundamental operations: copying and deletion. A copy of the moved element is first created; it is inserted in the target position; then the occurrence of the moved phrase in the origin site is deleted. Given this rediscovery or re-emphasis, it becomes easier to understand what it might mean to &lsquo;spell out&rsquo; a trace. A trace, on this general view, is simply the silence that remains after the lowest occurrence of a copied phrase is deleted. <link rid="b40">Chomsky (1993</link>) proposes that the deletion takes place on the &lsquo;phonological&rsquo; side of the derivation (that is, in a derivational sequence which follows SPELL OUT and is inaccessible to the operations which create and interpret logical forms). Given that overall conception, it is easy to imagine that deletion of the original copy of the phrase might be partial rather than complete. That is, for a <i>wh</i>-question like (<i>I wonder</i>) <i>which word they are not sure how it&apos;s spelled?</i>, we will have a sequence of representations like that illustrated schematically in (41):</p>
+<p>(41)&ensp;<object id="tu33" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu33_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;<sub>IP</sub> they are not sure &lsqb;<sub>CP</sub> how &lsqb;<sub>IP</sub> &lsqb;<sub>DP</sub> <i>which</i> &lsqb;<sub>NP</sub> <i>word</i>&rsqb;&rsqb; is spelled&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>CP</sub> &lsqb;<sub>DP</sub> which &lsqb;<sub>NP</sub> word&rsqb;&rsqb; &lsqb;<sub>IP</sub> they are not sure &lsqb;<sub>CP</sub> how &lsqb;<sub>IP</sub> &lsqb;<sub>DP</sub> <i>which</i> &lsqb;<sub>NP</sub> <i>word</i>&rsqb;&rsqb; is spelled&rsqb;&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>c.</entry>
+<entry>&lsqb;<sub>CP</sub> &lsqb;<sub>DP</sub> which word&rsqb; &lsqb;<sub>IP</sub> they are not sure &lsqb;<sub>CP</sub> how &lsqb;<sub>IP</sub> &lsqb;<sub>DP</sub> <i>which</i> &lsqb;<sub>NP</sub> &Oslash;&rsqb;&rsqb; is spelled&rsqb;&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>d.</entry>
+<entry>&lsqb;<sub>CP</sub> &lsqb;<sub>DP</sub> which word&rsqb; &lsqb;<sub>IP</sub> they are not sure &lsqb;<sub>CP</sub> how &lsqb;<sub>IP</sub> &lsqb;<sub>DP</sub> <i>it</i> &lsqb;<sub>NP</sub> &Oslash;&rsqb;&rsqb; is spelled&rsqb;&rsqb;&rsqb;&rsqb; </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (41b), we have the immediate aftermath of movement (copying of the <i>wh</i>-phrase and its merger into the specifier position of CP). In (41c), the NP-portion of the lower copy has been deleted. In (41d), the <i>wh</i>-feature on D has been eliminated, and D is as a consequence realized as the default third singular pronoun, namely <i>it</i>.</p>
+<p>Furthermore, given the view that pronouns are in fact determiners (<link rid="b42">Postal 1970b</link>; <link rid="b43">Abney 1987</link>; <link rid="b44">Koopman 1999b</link>), it becomes easy to imagine derivations in which the NP-part of a moved phrase would be deleted stranding a D &ndash; that is, a &lsquo;resumptive&rsquo; pronoun.</p>
+<p>Two theoretical developments combine to make this set of ideas as plausible as they now are. One is the (re)introduction of the copy-and-delete theory of movement. The second is the articulation of a complex internal structure for nominal phrases &ndash; a development which in turn opens the possiblity of viewing pronouns also as having complex internal structures. This last move (on which see especially <link rid="b44">Koopman 1999b</link>) opens up a range of new possibilities and options in debates about base-generation versus derivation by movement. The pronoun in (41d), for instance, can be said to be both base-generated <i>and</i> tranformationally derived.</p>
+<p>Numerous difficulties and puzzles remain, of course. What mechanism forces or permits partial deletion following movement? Why exactly is it that the results of partial deletion systematically resemble pronouns? How is the theory of islandhood and of ECP effects to be rethought in this context?</p>
+<p>However these questions are ultimately answered, the type of resumptive documented by Engdahl and Koopman (which exhibits all the properties of a trace but involves pronunciation of D) seems to demand an understanding along these lines.</p>
+<p>If this line of thought is roughly correct, then certain consequences follow which are unexpected within more traditional perspectives. Engdahl documents for Swedish, and Koopman documents for the Kru languages, that resumptive pronouns are found only in positions in which a trace would be in violation of the ECP. More exactly, resumptive pronouns are found in these languages only in subject positions immediately subjacent to a <i>wh</i>-phrase, much as in English examples such as (42):</p>
+<p>(42)&ensp;They&rsquo;re the kind of people that you never know who <i>they</i> might insult.</p>
+<p>The ungrammaticality of the corresponding examples with gaps rather than resumptive pronouns, such as (43):</p>
+<p>(43)&ensp;*They&rsquo;re the kind of people that you never know who <i>t</i> might insult.</p>
+<p>has generally been attributed to the Empty Category Principle, standardly taken to be a condition on representations at the level of Logical Form. But this interpretation cannot be right if the perspective just developed is on the right track. Given that perspective, the difference between the (Swedish equivalent of) (42) and (the Swedish equivalent of) (43) emerges only at the point where deletion applies, and the difference is a function only of whether that deletion is complete or partial. But when that conclusion is in turn embedded within the general framework of <link rid="b40">Chomsky (1993</link>) or <link rid="b41">Chomsky (1995c</link>: <related relationship="sibling" type="samework"><externallink id="chapter 4 - Adverb Classes and Adverb Placement.xml" type="file">chapter 4</externallink></related>), it follows in turn that whatever makes the difference between (42) and (43) cannot be an LF principle. Whatever it is, it must rather do its work on the &lsquo;phonological&rsquo; side of the derivation (where the deletion subcomponent of movement does its work). It is only on that side of the derivation that (42) and (43) are distinguishable at all, on this view of matters. Put more crudely, it follows that subject ECP effects must be &lsquo;phonological&rsquo; phenomena, in the broad sense. This conclusion in turn now makes contact with the strand of more recent work which suggests that many traditional island and ECP effects may find their explanation in the syntactic space between the syntax proper and the linearized prosodic and phonological string (<link rid="b45">Merchant 2001</link>; <link rid="b46">Boeckx 2003</link>).</p>
+</subsection>
+<subsection id="ss16" level="2">
+<heading id="h15" level="2">8.2 Reconstruction</heading>
+<p>A more complex set of facts has been documented for Lebanese Arabic in an important series of papers by Joseph Aoun, Lina Choueiri, and Norbert Hornstein (<link rid="b4 b47">Aoun and Choueiri 1996, 2000</link>; <link rid="b6">Aoun et al. 2001</link>).</p>
+<p>This pattern of facts is of importance because of the complex interplay it exhibits between resumption and reconstruction. This interaction is in turn crucial in assessing to what extent resumption shows the characteristics of movement. Reconstruction is the phenomenon whereby a moved phrase exhibits properties or interactions attributable to its occupying a syntactic position other than the one in which it is pronounced. A strong (but not universal) consensus in recent work attributes reconstruction effects in general to syntactic movement. A phrase &lsquo;acts as if&rsquo; it occupies a position other than that in which it is pronounced because it has been moved from that position. One of the virtues of the copy-and-delete understanding of movement is that it provides a particularly simple understanding of the phenomenon. A phrase &lsquo;acts as if&rsquo; it occupied a lower position than that in which it is pronounced because there is an occurrence of that phrase (deleted in the pronounced string but not in the representation submitted to interpretive mechanisms) in the lower position.</p>
+<p>This account makes a very tight connection between the phenomenon of reconstruction and the operation of movement. If it is correct, then reconstruction effects constitute as reliable a diagnostic as there can be that a movement operation has applied.</p>
+<p>The question of whether or not one gets reconstruction effects under resumption was asked early (<link rid="b48">Zaenen et al. 1981</link>) and answered positively. The investigation was fairly brief, however, and centered on a language (Swedish) for which the movement analysis of resumptive pronouns was already well supported. The work of Aoun, Choueiri, and Hornstein is important because the investigation went farther empirically, was embedded in a richer theoretical context, and centered on a language (Lebanese Arabic) for which the movement theory of resumption was initially much less plausible because resumptive pronouns in the language appear routinely inside islands.</p>
+<p>What emerges, briefly, from this body of work is the following. Resumptive elements (strong pronouns or epithets) which appear inside islands behave differently from resumptive elements which are not inside islands, even though the two are formally identical (<link rid="b4">Aoun and Choueiri 1996</link> suggest the terms &lsquo;true resumption&rsquo; and &lsquo;apparent resumption&rsquo; respectively for the two cases). In particular, resumptive elements which are not trapped within islands exhibit reconstruction effects, but resumptive elements inside islands show no reconstruction effects.<link rid="fn9">
+<sup>9</sup></link> In (44), for example, in the absence of an island boundary, the clitic pronoun inside the fronted nominal phrase may be bound by the negative quantifer:</p>
+<p>(44)&ensp;<object id="tu34" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu34_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry namest="col1" nameend="col10">
+<b>Lebanese Arabic:</b>
+</entry>
+</row>
+<row><entry>t<formula format="inline">
+<file name="Graphics\chapter_55_mu3.gif" type="gif"/>
+</formula>lmiiz-a</entry>
+<entry>l-k<formula format="inline">
+<file name="Graphics\chapter_55_mu3.gif" type="gif"/>
+</formula>sleen</entry>
+<entry>ma</entry>
+<entry>abbarna</entry>
+<entry>wala</entry>
+<entry>m allme</entry>
+<entry>
+<formula format="inline">
+<file name="Graphics\chapter_55_mu3.gif" type="gif"/>
+</formula>nno</entry>
+<entry>huwwe</entry>
+<entry>za bar</entry>
+<entry>b-l-fa S</entry>
+</row>
+<row><entry>student-her</entry>
+<entry>the-bad</entry>
+<entry>NEG</entry>
+<entry>told-1.PL</entry>
+<entry>no</entry>
+<entry>teacher</entry>
+<entry>that</entry>
+<entry>he</entry>
+<entry>cheated-3.SG.MASC</entry>
+<entry>in-the-exam</entry>
+</row>
+<row><entry namest="col1" nameend="col10">&lsquo;Her bad student, we didn&apos;t tell any teacher that <i>he</i> cheated on the exam.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>That is, the pronoun contained within the fronted phrase can apparently be reconstructed to the position of the resumptive pronoun, a position from which it can be bound by the negative quantifier <i>no teacher</i>. Such reconstruction, however, is systematically impossible if the resumptive element (pronoun or epithet) is contained within an island which excludes its ultimate binder.</p>
+<p>If reconstruction is a true diagnostic for movement, then it follows from these observations that (at least in Lebanese Arabic) resumptive pronouns outside islands are formed by movement, but those inside islands are not. It follows in turn that both mechanisms (movement and base-generation) must be available within the same language, and the fact that the two outcomes are formally indistinguishable becomes very puzzling.</p>
+<p>Further research on the interaction between resumption and reconstruction is urgently needed.</p>
+</subsection>
+</subsection>
+<subsection id="ss17" level="1">
+<heading id="h16" level="1">9 Conclusion</heading>
+<p>What we have called here (in a deliberate oversimplification) the &lsquo;consensus view&rsquo; of resumption found in work of the 1980s and early 1990s is, then, now difficult to maintain, at least in its entirety or in its simplest form. It has been subverted by a number of developments &ndash; the rethinking of what the movement operation is, the new centrality of reconstruction as a diagnostic tool, and the ongoing rethinking of islandhood and ECP phenomena (encouraged in part by study of cases in which ellipsis makes good what would otherwise have been an island violation &ndash; <link rid="b45">Merchant 2001</link> and much subsequent work). It is hard to predict how of all of this will be resolved, but the area is ripe for further work, and there is a rich base of observation and analysis upon which to build.</p>
+<p>There is also a deep mystery lying at the bottom of it all. It is known that resumptive elements may serve the purpose of marking variable positions in unbounded dependency constructions. It is known that resumptive elements may occur in positions from which movement is impossible (hence apparently allowing greater expressive power than is permitted by movement alone). It is also known that resumption imposes a considerably lighter burden on the human sentence processor than does the production and resolution of syntactic movement configurations. Why, then, is movement used at all in the creation of these structures?</p>
+</subsection>
+<subsection id="ss18" level="1">
+<heading id="h17" level="1">NOTES</heading>
+<p>
+<span id="fn1">
+<number>1&emsp;</number>There is a certain sense in which it is unsurprising that this possibility should exist. Epithets exhibit a number of other &lsquo;pronominal&rsquo; properties &ndash; they give rise to robust Condition C effects in languages (Thai and Vietnamese, for instance) in which only pronouns give rise to such effects (<link rid="b17">Lasnik 1989b</link>). In addition, as noted more than once, epithets may be bound by quantifiers:</span>
+</p>
+<listgroup id="l7" type="i">
+<li>
+<number>(i)&ensp;</number>
+<p>Each delegation&apos;s leader spoke on its behalf.</p>
+</li>
+<li>
+<number>(ii)&ensp;</number>
+<p>Each prisoner&apos;s lawyer had to witness the poor bugger&apos;s punishment.</p>
+</li>
+</listgroup>
+<p>The point can only be made with examples in which the quantifer does not command the epithet (as in (ii)), since one would otherwise have Condition C effects. However, when allowance is made for this, the effect seems clear enough. The examples in (i) and (ii) seem to be equivalent in acceptability.</p>
+<p>
+<span id="fn2">
+<number>2&emsp;</number>(5) is from <link rid="b7">McCloskey (1990</link>), (6) from <link rid="b49">Su&ntilde;er (1996</link>), (7) from <link rid="b4">Aoun and Choueiri (1996</link>), and (8) from <link rid="b24">Borer (1984b</link>).</span>
+</p>
+<p>
+<span id="fn3">
+<number>3&emsp;</number>This property of resumptive pronouns has played an important part in the investigation of weak island phenomena. Much work on the topic (see especially <link rid="b50">Cinque 1990c</link> and <link rid="b51">Postal 1998</link>, anticipated by <link rid="b9">Perlmutter 1972</link>) argues that under certain conditions the apparent trace of A-bar-movement is in fact a silent resumptive pronoun. Given the amnestying effect of resumption on island violations, one can in this way understand why certain cases of (apparent) extraction from island configurations are relatively well-formed.</span>
+</p>
+<p>
+<span id="fn4">
+<number>4&emsp;</number>For some difficulties internal to Irish, see <link rid="b7">McCloskey (1990</link>: fn 14). The difficulty here revolves around an equivocation in (30) concerning use of the term &lsquo;subject&rsquo; &ndash; which is not well-defined. An additional concern is that languages which have the Highest Subject Restriction (HSR) in some form seem to differ in how they treat embedded subjects. In Irish, subjects of embedded clauses may freely serve the resumptive function (<link rid="b7">McCloskey 1990</link>: 210, 240). But in Lebanese Arabic (<link rid="b4 b47">Aoun and Choueiri 1996, 2000</link>; <link rid="b6">Aoun et al. 2001</link>) they cannot. Certain languages (literary Welsh, Russian) require that neither subjects nor objects in the highest clause be resumptive (<link rid="b52">Harlow 1981</link>; <link rid="b3">Sells 1984b</link>; <link rid="b53">D&eacute;prez and Hale 1986</link>; <link rid="b54">Broihier 1995</link>; <link rid="b55">Pesetsky 1998b</link>). Finally, not all languages which exhibit resumptive pronouns exhibit the HSR effect. We will consider a suggestion about one such group of languages shortly, but that suggestion will leave a number of cases untouched (see <link rid="b49">Su&ntilde;er 1996</link>, for instance, on (informal) Spanish, and <link rid="b1">Prince 1990</link> on Yiddish). Perhaps in such cases, there is no A-bar-binder at all and the pronoun trivially satisfies the A-bar-Disjointness Requirement. For alternative approaches to the Highest Subject Restriction effect, see <link rid="b53">D&eacute;prez and Hale (1986</link>); <link rid="b19">Shlonsky (1992</link>); <link rid="b55">Pesetsky (1998b</link>).</span>
+</p>
+<p>
+<span id="fn5">
+<number>5&emsp;</number>But see <link rid="b56">Kayne (2002</link>) for an argument that this consensus view should be reconsidered.</span>
+</p>
+<p>
+<span id="fn6">
+<number>6&emsp;</number>
+<link rid="b57">Chomsky (1982</link>) argued that resumptive pronouns in English were identified as such (by being bound) only at the level of Logical Form. <link rid="b7">McCloskey (1990</link>) presented an argument from Irish that resumptive pronouns in that language must be distinguishable from other pronouns at the level of S-structure. <link rid="b19">Shlonsky (1992</link>) countered the argument and suggested a return to the position of <link rid="b57">Chomsky (1982</link>). One of the principal empirical issues at stake here is the question of whether or not resumptive pronouns license the appearance of parasitic gaps (an indicator of S-structure A-bar-binding). <link rid="b3">Sells (1984b</link>) argued that, at least in Hebrew, resumptive pronouns do license the appearance of parasitic gaps, and concluded that they must represent S-structure variables. <link rid="b19">Shlonsky (1992</link>) challenged both the empirical claim and the conclusion derived from it.</span>
+</p>
+<p>
+<span id="fn7">
+<number>7&emsp;</number>
+<link rid="b1">Prince (1990</link>) cites a great number of naturally occurring data which might suggest that the usual claim is not in fact correct for English either. <link rid="b58">McDaniel et al. (1997</link>) report experimental data suggesting that children learning English (unlike adults) accept resumptive pronouns in positions in which traces are also possible.</span>
+</p>
+<p>
+<span id="fn8">
+<number>8&emsp;</number>The qualifying &ldquo;appear&rdquo; is important here, because many of those who have argued for the last resort character of the resumption mechanism (<link rid="b19">Shlonsky 1992</link>; <link rid="b59">Fox 1994</link>; <link rid="b55">Pesetsky 1998b</link>) have argued for the existence of hidden factors which block movement (and hence force the appearance of resumptive pronouns) in all the cases in which resumptive pronouns appear. I know of no suggestion about what these hidden factors might be in the case of Irish. This issue is closely connected with the issue of how to understand the Highest Subject Restriction. If movement is freely available from subject position, and if resumption is possible only when movement is impossible, then it will follow that resumptive pronouns will never appear in subject position. See <link rid="b19">Shlonsky (1992</link>) in particular for a development of this line of thought.</span>
+</p>
+<p>
+<span id="fn9">
+<number>9&emsp;</number>There is in addition a set of correlated effects involving obviation and the possibility of having quantificational antecedents.</span>
+</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss19" level="1" type="references">
+<heading id="h18" level="1">REFERENCES</heading>
+<reference id="b43" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Abney</surname><x>, </x><forenames>Steven</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date>
+<miscellaneoustext>). The English Noun Phrase in its Sentential Aspect. PhD dissertation</miscellaneoustext><x>, </x>
+<address>MIT</address><x>.</x>
+</reference>
+<reference id="b4" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Aoun</surname><x>, </x><forenames>Joseph</forenames>
+</name><x> and </x><name type="author">
+<forenames>Lina</forenames><x> </x><surname>Choueiri</surname>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date>
+<miscellaneoustext>). Resumption and Last Resort. Unpublished manu-script</miscellaneoustext><x>, </x>
+<publisher>University of Southern California</publisher><x>.</x>
+</reference>
+<reference id="b47" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Aoun</surname><x>, </x><forenames>Joseph</forenames>
+</name><x> and </x><name type="author">
+<forenames>Lina</forenames><x> </x><surname>Choueiri</surname>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">Epithets</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x>, </x><volume>18</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">39</page><x>.</x>
+</reference>
+<reference id="b27" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Aoun</surname><x>, </x><forenames>Joseph</forenames>
+</name><x> and </x><name type="author">
+<forenames>Yen-Hui<x> </x>Audrey</forenames><x> </x><surname>Li</surname>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">Scope and Constituency</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>20</volume><x>: </x><page type="first">141</page><x>&ndash;</x><page type="last">172</page><x>.</x>
+</reference>
+<reference id="b28" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Aoun</surname><x>, </x><forenames>Joseph</forenames>
+</name><x> and </x><name type="author">
+<forenames>Yen-Hui<x> </x>Audrey</forenames><x> </x><surname>Li</surname>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Minimal Disjointness</title><x>. </x><title type="journal">Linguistics</title><x> </x><volume>28</volume><x>: </x><page type="first">189</page><x>&ndash;</x><page type="last">203</page><x>.</x>
+</reference>
+<reference id="b29" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Aoun</surname><x>, </x><forenames>Joseph</forenames>
+</name><x> and </x><name type="author">
+<forenames>Yen-Hui<x> </x>Audrey</forenames><x> </x><surname>Li</surname>
+</name>
+</namegroup><x> (</x><date date="1993">1993b</date><x>). </x><title type="book">The Syntax of Scope</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b6" type="journal">
+<namegroup type="author">
+<name type="author">
+<forenames>Aoun</forenames><x>, </x><surname>Joseph</surname>
+</name><x>, </x><name type="author">
+<forenames>Lina</forenames><x> </x><surname>Choueiri</surname>
+</name>
+<x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>Norbert</forenames><x> </x><surname>Hornstein</surname>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">Resumption, Movement and Derivational Economy</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>32</volume><x>: </x><page type="first">371</page><x>&ndash;</x><page type="last">403</page><x>.</x>
+</reference>
+<reference id="b46" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Boeckx</surname><x>, </x><forenames>Cedric</forenames>
+</name>
+</namegroup><x> (</x><date date="2003">2003</date><x>). </x><title type="book">Islands and Chains</title><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b24" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Borer</surname><x>, </x><forenames>Hagit</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984b</date><x>). </x><title type="document">Restrictive Relatives in Modern Hebrew</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>2</volume><x>: </x><page type="first">219</page><x>&ndash;</x><page type="last">260</page><x>.</x>
+</reference>
+<reference id="b10" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bresnan</surname><x>, </x><forenames>Joan</forenames>
+</name><x> and </x><name type="author">
+<forenames>Jane</forenames><x> </x><surname>Grimshaw</surname>
+</name>
+</namegroup><x> (</x><date date="1978">1978</date><x>). </x><title type="document">The Syntax of Free Relatives in English</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>9</volume><x>: </x><page type="first">331</page><x>&ndash;</x><page type="last">391</page><x>.</x>
+</reference>
+<reference id="b54" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Broihier</surname><x>, </x><forenames>Kevin</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date>
+<miscellaneoustext>). Slavic Relatives, Resumptive Pronouns and Learnability. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b34" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chao</surname><x>, </x><forenames>Wynn</forenames>
+</name><x> and </x><name type="author">
+<forenames>Peter</forenames><x> </x><surname>Sells</surname>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">On the Interpretation of Resumptive Pronouns</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistics Society 13</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Sells</surname>
+</name><x> and </x><name type="editor">
+<forenames>Charles</forenames><x> </x><surname>Jones</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">47</page><x>&ndash;</x><page type="last">61</page><x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association</publisher><x>.</x>
+</reference>
+<reference id="b13" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1973">1973</date><x>). </x><title type="document">Conditions on Transformations</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">A Festschrift for Morris Halle</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Stephen</forenames><x> </x><surname>Anderson</surname>
+</name><x> and </x><name type="editor">
+<forenames>Paul</forenames><x> </x><surname>Kiparsky</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">232</page><x>&ndash;</x><page type="last">286</page><x>. </x><address>New York</address><x>: </x><publisher>Holt, Rinehart, and Winston</publisher><x>.</x>
+</reference>
+<reference id="b16" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="book">Lectures on Government and Binding<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b57" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="book">Some Concepts and Consequences of the Theory of Government and Binding</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b40" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">A Minimalist Program for Linguistic Theory</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The View from Building 20: Essays in Linguistics in Honor of Sylvain Bromberger</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ken</forenames><x> </x><surname>Hale</surname>
+</name><x> and </x><name type="editor">
+<forenames>Samuel<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Keyser</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">1</page><x>&ndash;</x><page type="last">52</page><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b41" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995c</date><x>). </x><title type="book">The Minimalist Program<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b50" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990c</date><x>). </x><title type="book">Types of A&prime;-Dependencies<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b30" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Demirdache</surname><x>, </x><forenames>Hamida</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date>
+<miscellaneoustext>). Resumptive Chains in Restrictive Relatives, Appositives and Dislocation Structures. PhD dissertation</miscellaneoustext><x>, </x>
+<address>MIT</address><x>.</x>
+</reference>
+<reference id="b53" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>D&eacute;prez</surname><x>, </x><forenames>Viviane</forenames>
+</name><x> and </x><name type="author">
+<surname>Ken</surname><x> </x><forenames>Hale</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Resumptive Pronouns in Irish</title><x>. </x><title type="other">Proceedings of the Harvard Celtic Colloquium 5 (1985)</title><x> </x><page type="first">38</page><x>&ndash;</x><page type="last">47</page><x>.</x>
+</reference>
+<reference id="b33" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Dickey</surname><x>, </x><forenames>Michael<x> </x>Walsh</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="document">Constraints on the Sentence Processor and the Distribution of Resumptive Pronouns</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Linguistics in the Laboratory</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Michael<x> </x>Walsh</forenames><x> </x><surname>Dickey</surname>
+</name><x> and </x><name type="editor">
+<forenames>Susanne</forenames><x> </x><surname>Tunstall</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">157</page><x>&ndash;</x><page type="last">192</page><x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association</publisher><x>.</x>
+</reference>
+<reference id="b23" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Doron</surname><x>, </x><forenames>Edit</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">On the Syntax and Semantics of Resumptive Pronouns</title><x>. </x><title type="journal">Texas Linguistic Forum</title><x> </x><volume>19</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">48</page><x>.</x>
+</reference>
+<reference id="b37" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Engdahl</surname><x>, </x><forenames>Elisabet</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">Parasitic Gaps, Resumptive Pronouns, and Subject Extractions</title><x>. </x><title type="journal">Linguistics</title><x>, </x><volume>23</volume><x>: </x><page type="first">3</page><x>&ndash;</x><page type="last">44</page><x>.</x>
+</reference>
+<reference id="b32" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Erteschik-Shir</surname><x>, </x><forenames>Nomi</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Resumptive Pronouns in Islands</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x> </x>
+<title type="book">Island Constraints: Theory, Acquisition and Processing</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Helen</forenames><x> </x><surname>Goodluck</surname>
+</name><x> and </x><name type="editor">
+<forenames>Michael</forenames><x> </x><surname>Rochemont</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">89</page><x>&ndash;</x><page type="last">108</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b59" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Fox</surname><x>, </x><forenames>Danny</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date>
+<miscellaneoustext>). Relative Clauses and Resumptive Pronouns in Hebrew: An Optimality Theoretic Approach. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b52" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Harlow</surname><x>, </x><forenames>Steve</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="document">Government and Relativization in Celtic</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Binding and Filtering</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Frank</forenames><x> </x><surname>Heny</surname>
+</name>
+<miscellaneoustext> (ed.)</miscellaneoustext><x>.</x>
+</namegroup><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b31" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Huang</surname><x>, </x><forenames>C.-T<x>. </x>James</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982a</date>
+<miscellaneoustext>). Logical Relations in Chinese and the Theory of Grammar. PhD dissertation</miscellaneoustext><x>, </x>
+<address>MIT</address><x>.</x>
+</reference>
+<reference id="b56" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="document">Pronouns and their Antecedents</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x> </x>
+<title type="book">Derivation and Explanation in the Minimalist Program</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Samuel</forenames><x> </x><surname>Epstein</surname>
+</name><x> and </x><name type="editor">
+<forenames>T<x>. </x>Daniel</forenames><x> </x><surname>Seely</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">133</page><x>&ndash;</x><page type="last">166</page><x>. </x><address>Oxford</address><x>: </x><publisher>Blackwell</publisher><x>.</x>
+</reference>
+<reference id="b38" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Koopman</surname><x>, </x><forenames>Hilda</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">Control from COMP and Comparative Syntax</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>2</volume><x>: </x><page type="first">365</page><x>&ndash;</x><page type="last">391</page><x>.</x>
+</reference>
+<reference id="b39" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Koopman</surname><x>, </x><forenames>Hilda</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="book">The Syntax of Verbs: From Verb Movement in the Kru Languages to Universal Grammar</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b44" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Koopman</surname><x>, </x><forenames>Hilda</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999b</date><x>). </x><title type="document">The Internal and External Distribution of Pronominal DPs</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Beyond Principles and Parameters: Essays in Honor of Osvaldo Jaeggli</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Kyle</forenames><x> </x><surname>Johnson</surname>
+</name><x> and </x><name type="editor">
+<forenames>Ian</forenames><x> </x><surname>Roberts</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">91</page><x>&ndash;</x><page type="last">132</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kroch</surname><x>, </x><forenames>Anthony</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="document">On the Role of Resumptive Pronouns in Amnestying Island Violations</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Seventeenth Regional Meeting of the Chicago Linguistic Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Roberta</forenames><x> </x><surname>Hendrick</surname>
+</name><x>, </x><name type="editor">
+<forenames>Carrie</forenames><x> </x><surname>Masek</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Mary<x> </x>F<x>.</x>
+</forenames><x> </x><surname>Miller</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society</publisher><x>.</x>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lasnik</surname><x>, </x><forenames>Howard</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989b</date><x>). </x><title type="document">On the Necessity of Binding Conditions</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Principles and Para-meters in Comparative Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<surname>
+</surname>
+<forenames>Robert</forenames>
+</name>
+<miscellaneoustext> Freidin (ed.)</miscellaneoustext>
+</namegroup><x>, </x><page type="first">7</page><x>&ndash;</x><page type="last">28</page><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b11" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>McCloskey</surname><x>, </x><forenames>James</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date><x>). </x><title type="book">Transformational Grammar and Model Theoretical Semantics<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Reidel</publisher><x>.</x>
+</reference>
+<reference id="b7" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>McCloskey</surname><x>, </x><forenames>James</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Resumptive Pronouns, A-Bar Binding and Levels of Representation in Irish</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Syntax of the Modern Celtic Languages</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Randall</forenames><x> </x><surname>Hendrick</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">199</page><x>&ndash;</x><page type="last">248</page><x>. </x><address>San Diego</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b35" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>McCloskey</surname><x>, </x><forenames>James</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001b</date><x>). </x><title type="document">The Morphosyntax of <i>Wh</i>-Extraction in Irish</title><x>. </x><title type="journal">Journal of Linguistics</title><x> </x><volume>37</volume><x>: </x><page type="first">67</page><x>&ndash;</x><page type="last">100</page><x>.</x>
+</reference>
+<reference id="b36" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>McCloskey</surname><x>, </x><forenames>James</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="document">Resumption, Successive Cyclicity, and the Locality of Operations</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Derivation and Explanation</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Samuel</forenames><x> </x><surname>Epstein</surname>
+</name><x> and </x><name type="editor">
+<forenames>Daniel</forenames><x> </x><surname>Seeley</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">184</page><x>&ndash;</x><page type="last">226</page><x>. </x><address>Oxford</address><x>: </x><publisher>Blackwell</publisher><x>.</x>
+</reference>
+<reference id="b58" type="other">
+<namegroup type="author">
+<name type="author">
+<forenames>McDaniel</forenames><x>, </x><surname>Dana</surname>
+</name><x>, </x><name type="author">
+<forenames>Judy</forenames><x> </x><surname>Bernstein</surname>
+</name>
+<x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>Cecile</forenames><x> </x><surname>McKee</surname>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date>
+<miscellaneoustext>). Minimalist Perspectives on Resumptive Pronouns in Children&apos;s and Adults&rsquo; Relatives. Paper presented to the Twenty-second Annual Boston University Conference on Language Development, November 7</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b45" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Merchant</surname><x>, </x><forenames>Jason</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="book">The Syntax of Silence: Sluicing, Islands and the Theory of Ellipsis</title><x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference id="b8" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Morgan</surname><x>, </x><forenames>Jerry</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972</date><x>). </x><title type="document">Some Aspects of Relative Clauses in English and Albanian</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Chicago Which Hunt: Papers from the Relative Clause Festival</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Paul<x> </x>M<x>.</x>
+</forenames><x> </x><surname>Peranteau</surname>
+</name><x>, </x><name type="editor">
+<forenames>Judith<x> </x>N<x>.</x>
+</forenames><x> </x><surname>Levi</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Gloria<x> </x>C<x>.</x>
+</forenames><x> </x><surname>Phares</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society</publisher><x>.</x>
+</reference>
+<reference id="b25" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Ouhalla</surname><x>, </x><forenames>Jamal</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Subject Extraction, Negation and the Anti-Agreement Effect</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>11</volume><x>: </x><page type="first">477</page><x>&ndash;</x><page type="last">518</page><x>.</x>
+</reference>
+<reference id="b9" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Perlmutter</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972</date><x>). </x><title type="document">Evidence for Shadow Pronouns in French Relativization</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Chicago Which Hunt: Papers from the Relative Clause Festival</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Paul</forenames><x> </x><surname>Peranteau</surname>
+</name><x>, </x><name type="editor">
+<forenames>Judith<x> </x>N<x>.</x>
+</forenames><x> </x><surname>Levi</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Gloria<x> </x>C<x>.</x>
+</forenames><x> </x><surname>Phares</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">73</page><x>&ndash;</x><page type="last">105</page><x>. </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society</publisher><x>.</x>
+</reference>
+<reference id="b55" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Pesetsky</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">Some Optimality Principles of Sentence Pronunciation</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Is the Best Good Enough? Optimality and Competition in Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Pilar</forenames><x> </x><surname>Barbosa</surname>
+</name><x>, </x><name type="editor">
+<forenames>Danny</forenames><x> </x><surname>Fox</surname>
+</name><x>, </x><name type="editor">
+<forenames>Paul</forenames><x> </x><surname>Hagstrom</surname>
+</name><x>, </x><name type="editor">
+<forenames>Martha</forenames><x> </x><surname>McGinnis</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>David</forenames><x> </x><surname>Pesetsky</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">337</page><x>&ndash;</x><page type="last">387</page><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b42" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Postal</surname><x>, </x><forenames>Paul<x> </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1970">1970b</date><x>). </x><title type="document">On So-Called Pronouns in English</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Readings in English Transformational Grammar</title>
+<x>. </x><miscellaneoustext>Roderick Jacobs and Peter Rosenbaum (eds.)</miscellaneoustext><x>, </x>
+<page type="first">56</page><x>&ndash;</x><page type="last">82</page><x>. </x><address>Waltham, MA</address><x>: </x><publisher>Ginn</publisher><x>.</x>
+</reference>
+<reference id="b14" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Postal</surname><x>, </x><forenames>Paul<x> </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1971">1971</date><x>). </x><title type="book">Cross-Over Phenomena</title><x>. </x><address>New York</address><x>: </x><publisher>Holt, Rinehart and Winston</publisher><x>.</x>
+</reference>
+<reference id="b18" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Postal</surname><x>, </x><forenames>Paul<x> </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997b</date>
+<miscellaneoustext>). Strong Crossover Violations and Binding Principles. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>New York University</address><x>.</x>
+</reference>
+<reference id="b51" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Postal</surname><x>, </x><forenames>Paul<x> </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="book">Three Investigations of Extraction<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Prince</surname><x>, </x><forenames>Ellen<x> </x>F<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Syntax and Discourse: A Look at Resumptive Pronouns</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Sixteenth Annual Meeting of the Berkeley Linguistics Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Kira</forenames><x> </x><surname>Hall</surname>
+</name><x>, </x><name type="editor">
+<forenames>Mary</forenames><x> </x><surname>Bucholtz</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Birch</forenames><x> </x><surname>Moonwoman</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">482</page><x>&ndash;</x><page type="last">497</page><x>. </x><address>Berkeley</address><x>: </x><publisher>Berkeley Linguistics Society</publisher><x>.</x>
+</reference>
+<reference id="b12" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ross</surname><x>, </x><forenames>John<x> </x>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="book">Infinite Syntax!</title><x> </x><address>Norwood, NJ</address><x>: </x><publisher>Ablex</publisher><x>.</x>
+</reference>
+<reference id="b21" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Safir</surname><x>, </x><forenames>Kenneth</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">Multiple Variable Binding</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>15</volume><x>: </x><page type="first">603</page><x>&ndash;</x><page type="last">638</page><x>.</x>
+</reference>
+<reference id="b22" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Safir</surname><x>, </x><forenames>Kenneth</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Relative Clauses in a Theory of Binding and Levels</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>17</volume><x>: </x><page type="first">663</page><x>&ndash;</x><page type="last">690</page><x>.</x>
+</reference>
+<reference id="b5" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Safir</surname><x>, </x><forenames>Kenneth</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996a</date><x>). </x><title type="document">Derivation, Representation and Resumption: The Domain of Weak Crossover</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>27</volume><x>: </x><page type="first">313</page><x>&ndash;</x><page type="last">339</page><x>.</x>
+</reference>
+<reference id="b26" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Schafer</surname><x>, </x><forenames>Robin</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Negation and Verb Second in Breton</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>13</volume><x>: </x><page type="first">135</page><x>&ndash;</x><page type="last">172</page><x>.</x>
+</reference>
+<reference id="b20" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Sells</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984a</date><x>). </x><title type="document">Resumptive Pronouns and Weak Crossover</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Third West Coast Conference on Formal Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Mark</forenames><x> </x><surname>Cobler</surname>
+</name><x>, </x><name type="editor">
+<forenames>Susannah</forenames><x> </x><surname>Mackaye</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Michael</forenames><x> </x><surname>Westcoat</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">252</page><x>&ndash;</x><page type="last">262</page><x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications</publisher><x>.</x>
+</reference>
+<reference id="b3" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Sells</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984b</date>
+<miscellaneoustext>). Syntax and Semantics of Resumptive Pronouns. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Amherst, University of Massachusetts</address><x>.</x>
+</reference>
+<reference id="b19" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Shlonsky</surname><x>, </x><forenames>Ur</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Resumptive Pronouns as a Last Resort</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>23</volume><x>: </x><page type="first">443</page><x>&ndash;</x><page type="last">468</page><x>.</x>
+</reference>
+<reference id="b49" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Su&ntilde;er</surname><x>, </x><forenames>Margarita</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date>
+<miscellaneoustext>). Conventional and Resumptive Restrictive Relatives. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Cornell University</address><x>.</x>
+</reference>
+<reference id="b15" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Wasow</surname><x>, </x><forenames>Thomas</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date><x>). </x><title type="book">Anaphora in Generative Grammar</title><x> </x><address>Ghent</address><x>: </x><publisher>E. Story-Scientia. Ghent</publisher><x>.</x>
+</reference>
+<reference id="b48" type="journal">
+<namegroup type="author">
+<name type="author">
+<forenames>Zaenen</forenames><x>, </x><surname>Annie</surname>
+</name><x>, </x><name type="author">
+<forenames>Elisabet</forenames><x> </x><surname>Engdahl</surname>
+</name>
+<x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>Joan</forenames><x> </x><surname>Maling</surname>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="document">Resumptive Pronouns can be Syntactically Bound</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>12</volume><x>: </x><page type="first">679</page><x>&ndash;</x><page type="last">682</page><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

@@ -1,0 +1,2407 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="33"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 33 - Icelandic Logophoric Anaphora.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">544</page>
+<page type="last">557</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="0"/>
+<count type="table" count="19"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="71"/>
+<count type="page" count="14"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051110"/>
+<trackingdate type="markedup" date="0000" by="christine tsai"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 33&ensp;Reuland: Icelandic Logophoric Anaphora</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 33&ensp;Reuland: Icelandic Logophoric Anaphora</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">33 Icelandic Logophoric Anaphora</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>ERIC</forenames><x> </x><surname>REULAND</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Subjunctives</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>Infinitives</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>Summary of the facts</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>The interpretation of <i>sig</i>: binding vs. coreference</p>
+</li>
+<li level="1">
+<number>6&ensp;</number>
+<p>Conclusion: issues for further research</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1 Introduction</heading>
+<p>As outlined in <link rid="b1">Thr&aacute;insson (1976a</link>),<link rid="fn1">
+<sup>1</sup></link><i> sig</i> in Icelandic may take a long-distance antecedent, when the clause that contains <i>sig</i> is infinitive or subjunctive (i.e., the antecedent may be beyond the nearest c-commanding subject), in violation of Condition A of the Binding Theory. However, if <i>sig</i> is contained in an indicative clause, it can only refer to the local antecedent. This is exemplified in (1):<link rid="fn2">
+<sup>2</sup></link>
+</p>
+<p>(1)<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="1" valign="top">a.</entry>
+<entry>J&oacute;n<sub>j</sub>
+</entry>
+<entry>skipa&eth;i</entry>
+<entry>P&eacute;tri<sub>i</sub>
+</entry>
+<entry>&lsqb;a&eth; PRO<sub>i</sub>
+</entry>
+<entry>raka<sub>infinitive</sub>
+</entry>
+<entry>sig<sub>i, j,*k</sub>
+</entry>
+<entry>&aacute; hverjum</entry>
+<entry>degi&rsqb;.</entry>
+</row>
+<row><entry>John</entry>
+<entry>ordered</entry>
+<entry>Peter</entry>
+<entry> to</entry>
+<entry>shave</entry>
+<entry>SIG</entry>
+<entry>every</entry>
+<entry>day</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="1" valign="top">b.</entry>
+<entry>J&oacute;n<sub>j</sub>
+</entry>
+<entry>segir</entry>
+<entry>&lsqb;a&eth;</entry>
+<entry>P&eacute;tur<sub>i</sub>
+</entry>
+<entry>raki<sub>subjunctive</sub>
+</entry>
+<entry>sig<sub>i, j,*k</sub>
+</entry>
+<entry>&aacute; hverjum</entry>
+<entry>degi&rsqb;.</entry>
+</row>
+<row><entry>John</entry>
+<entry>says</entry>
+<entry> that</entry>
+<entry>Peter</entry>
+<entry>shaves</entry>
+<entry>SIG</entry>
+<entry>every</entry>
+<entry>day</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="1" valign="top">c.</entry>
+<entry>J&oacute;n<sub>j</sub>
+</entry>
+<entry>veit</entry>
+<entry>&lsqb;a&eth;</entry>
+<entry>P&eacute;tur<sub>i</sub>
+</entry>
+<entry>rakar<sub>indicative</sub>
+</entry>
+<entry>sig<sub>i,*j,*k</sub>
+</entry>
+<entry>&aacute; hverjum</entry>
+<entry>degi&rsqb;.</entry>
+</row>
+<row><entry>John</entry>
+<entry>knows</entry>
+<entry> that</entry>
+<entry>Peter</entry>
+<entry>shaves</entry>
+<entry>SIG</entry>
+<entry>every</entry>
+<entry>day</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The proposals in the literature to account for the long-distance use of <i>sig</i> in sentences like (1a) and (1b) can be divided into two groups. One group assumes a unified Binding analysis of long-distance <i>sig</i> in subjunctives and infinitives. One of these analyses is <link rid="b2">Anderson&apos;s (1986</link>) &lsquo;Tense-Agreement&rsquo; account of Icelandic anaphora. Anderson postulates an &lsquo;anaphoric domain&rsquo; in which <i>sig</i> has to be bound by a &lsquo;superordinate subject&rsquo;.<link rid="fn3">
+<sup>3</sup></link> Infinitive complements always constitute an anaphoric domain whereas in subjunctives an anaphoric domain is established when a rule of &lsquo;Tense-Agreement&rsquo;, which copies the tense of the matrix clause onto the subjunctive complement, has applied. It follows that <i>sig</i> can take a long-distance antecedent out of infinitives and subjunctives, given that an anaphoric domain has been established in subjunctives. Thus, the same account, stated in terms of an anaphoric domain, is given for long-distance <i>sig</i> in infinitives and subjunctives.<link rid="fn4">
+<sup>4</sup></link> Also, both the Parameterized Binding Theory, developed in <link rid="b3">Wexler and Manzini (1987</link>),<link rid="fn5">
+<sup>5</sup></link> and the head movement analysis of anaphors, proposed in <link rid="b4 b5">Pica (1985, 1987</link>),<link rid="fn6">
+<sup>6</sup></link> treat long-distance <i>sig</i> in subjunctives and infinitives in a parallel fashion. Within the <link rid="b3">Wexler and Manzini (1987</link>) Parameterized Binding Theory, the governing category for <i>sig</i> is determined by &lsqb;&plus;indicative mood&rsqb;, and thus the antecedent possibilities for <i>sig</i> should be the same out of infinitives and subjunctives. Similarly, <link rid="b5">Pica (1987</link>) proposes that <i>sig</i> undergoes head movement out of infinitives and subjunctives at the level of Logical Form, again predicting parallel antecedent possibilities on the two conditions.</p>
+<p>The other approach to long-distance anaphora in Icelandic maintains that the long-distance use of <i>sig</i> out of subjunctives is ruled by discourse factors rather than syntactic principles. <link rid="b1 b6 b7">Thr&aacute;insson (1976a, 1990, 1991</link>), <link rid="b8">Maling (1984</link>), <link rid="b9">Sells (1987</link>), <link rid="b10">Sigur&eth;sson (1990</link>), and <link rid="b11">Sigurj&oacute;nsd&oacute;ttir (1993</link>) observe that the antecedent possibilities of long-distance <i>sig</i> in subjunctives are not constrained by structural conditions such as c-command but rather by discourse factors such as perspective or point of view. Also, as pointed out by <link rid="b1 b6">Thr&aacute;insson (1976a, 1990</link>), the presence of a subjunctive complement is not enough to license long-distance use of <i>sig</i>. Thus, only a certain type of subjunctives allow <i>sig</i> to take a long-distance antecedent, in particular, subjunctives which imply &ldquo;a report from the higher subject&apos;s &lsquo;point of view.&rsquo;&rdquo; (<link rid="b1">Thr&aacute;insson 1976a</link>: 229). Subjunctives which state a fact about the matrix subject and do not convey the higher subject&apos;s perspective or point of view, on the other hand, do not allow <i>sig</i> to be co-indexed with the matrix subject. Thus, the long-distance use of <i>sig</i> is not uniquely determined by the presence of a subjunctive complement. Rather, it seems as if discourse information can only be accessed if there is a subjunctive. If it can, it still has to be of the &lsquo;right kind&rsquo;.</p>
+<p>
+<link rid="b12">Hag&egrave;ge (1974</link>) and <link rid="b13">Clements (1975</link>) subsume the use of long-distance <i>sig</i> in subjunctives under logophoricity (see <related relationship="sibling" type="samework"><externallink id="chapter 38 - Logophoricity.xml" type="file">chapter 38</externallink></related>). This idea was further pursued in <link rid="b8">Maling (1984</link>). A semantic characteristic of logophoric pronouns is that they are used in &lsquo;reportive contexts&rsquo; to refer back to an individual (other than the speaker-narrator) whose speech, thought, feeling, or point of view is reported on in the sentence (from <link rid="b8">Maling 1984</link>: 211, 231). As discussed most extensively by <link rid="b10">Sigur&eth;sson (1990</link>), this more or less sums up the semantic properties of <i>sig</i> when it takes a long-distance antecedent out of subjunctives.</p>
+<p>These two approaches to long-distance anaphora in Icelandic make different predictions regarding the antecedent possibilities of <i>sig</i>. According to the first approach, long-distance <i>sig</i> should be subject to the same constraints in subjunctive and infinitive clauses; i.e., structural conditions such as c-command and discourse factors should play the same role in both domains. The second approach predicts that long-distance <i>sig</i> in subjunctives and infinitives is governed by different factors. Whereas discourse factors should be relevant for the logophor <i>sig</i> in subjunctives, such factors should not play a role in the infinitive case, where the interpretation of <i>sig</i> should only be constrained by structural principles.</p>
+<p>Such a difference between infinitival and subjunctive domains does not by itself exclude the possibility that strictly grammatical factors play a role. For instance, it could be that some grammatical factor associated with subjunctives, but not with infinitives, entails that logophoric interpretation is in principle admissible, whereas discourse factors determine whether the ensuing interpretation is well-formed. This possibility will be discussed later. Until then the two approaches will be discussed at a more general level.</p>
+<p>In the literature, the focus of research has been the subjunctive domain and how it differs from the indicative. Much less attention has been paid to the infinitive case, and until now the different tests for discourse vs. syntactic principles have not been applied systematically to the two domains. This calls for a more detailed analysis of the mechanisms governing <i>sig</i> in subjunctives and infinitives, and an attempt will be made to give the relevant data for each case.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2 Subjunctives</heading>
+<p>It is a well-known fact that long-distance <i>sig</i> in subjunctives in Icelandic can take as its antecedent a non-c-commanding DP. Thus, as first observed by <link rid="b8">Maling (1984</link>), the DP <i>J&oacute;n</i> can serve as the antecedent for <i>sig</i> in sentences like (2), although it does not c-command the anaphor.</p>
+<p>(2)<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="2" valign="top">a.</entry>
+<entry>&lsqb;<sub>DP</sub>
+</entry>
+<entry>Sko&eth;un</entry>
+<entry>J&oacute;nsi&rsqb;</entry>
+<entry>er</entry>
+<entry>&lsqb;a&eth;</entry>
+<entry>sig<sub>i,acc</sub>
+</entry>
+<entry>vanti<sub>subj</sub>
+</entry>
+<entry>h&aelig;fileika&rsqb;.<link rid="fn7">
+<sup>7</sup></link>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>opinion</entry>
+<entry>John&apos;s</entry>
+<entry>is</entry>
+<entry> that</entry>
+<entry>SIG</entry>
+<entry>lacks</entry>
+<entry>talents</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;John&apos;s opinion is that SIG lacks talents.&rsquo;</entry>
+<entry>(cf. <link rid="b8">Maling 1984</link>: 222)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10"/>
+<tbody>
+<row><entry morerows="2" valign="top">b.</entry>
+<entry>&lsqb;<sub>DP</sub>
+</entry>
+<entry>&Aacute;lit</entry>
+<entry>J&oacute;ns<sub>i</sub>&rsqb;<sub>j</sub>
+</entry>
+<entry>vir&eth;ist &lsqb;t<sub>j</sub>
+</entry>
+<entry>vera</entry>
+<entry>&lsqb;a&eth;</entry>
+<entry>&eacute;g</entry>
+<entry>hati<sub>subj</sub>
+</entry>
+<entry>sig<sub>i</sub>&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>belief</entry>
+<entry>John&apos;s</entry>
+<entry>seems</entry>
+<entry>be</entry>
+<entry> that</entry>
+<entry>I</entry>
+<entry>hate</entry>
+<entry>SIG</entry>
+</row>
+<row><entry namest="col2" nameend="col10">&lsquo;John&apos;s belief seems to be that I hate SIG.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="13">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13"/>
+<tbody>
+<row><entry morerows="2" valign="top">c.</entry>
+<entry>Bj&ouml;rn</entry>
+<entry>sag&eth;i</entry>
+<entry>P&eacute;tri</entry>
+<entry>fr&aacute; &lsqb;<sub>DP</sub>
+</entry>
+<entry>&oacute;sk</entry>
+<entry>J&oacute;nsi&rsqb;</entry>
+<entry>um</entry>
+<entry>&lsqb;a&eth;</entry>
+<entry>Ari</entry>
+<entry>s&yacute;ndi<sub>subj</sub>
+</entry>
+<entry>s&eacute;ri</entry>
+<entry>virdingu&rsqb;.<link rid="fn8">
+<sup>8</sup></link>
+</entry>
+</row>
+<row><entry>Bj&ouml;rn</entry>
+<entry>told</entry>
+<entry>Peter</entry>
+<entry>about</entry>
+<entry>wish</entry>
+<entry>John&apos;s</entry>
+<entry>about</entry>
+<entry> that</entry>
+<entry>Ari</entry>
+<entry>showed</entry>
+<entry>SIG</entry>
+<entry>respect</entry>
+</row>
+<row><entry namest="col2" nameend="col13">&lsquo;Bj&ouml;rn told Peter about John&apos;s wish that Ari showed SIG respect.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Furthermore, <i>sig</i> in subjunctives can refer to a non-c-commanding matrix object, as illustrated in (3):</p>
+<p>(3)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry namest="col1" nameend="col2">?J&oacute;n<sub>i</sub> er mas&oacute;kisti. &thorn;ad gledur J&oacute;n<sub>i</sub> &lsqb;a&eth; &eacute;g muni<sub>(subj.)</sub> lemja sig<sub>i</sub> &iacute; hausinn med sp&yacute;tu &aacute; morgun&rsqb;.</entry>
+</row>
+<row><entry namest="col1" nameend="col2">&lsquo;John is a masochist. It pleases John that I will hit SIG in the head with a stick tomorrow.&rsquo;</entry>
+</row>
+<row><entry>
+</entry>
+<entry>(cf. <link rid="b11">Sigurj&oacute;nsd&oacute;ttir 1993</link>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>These sentences show that the antecedent possibilities of <i>sig</i> in the long-distance subjunctive case are not constrained by a c-command requirement. (There may some ill-understood variation among speakers. <link rid="b10">Sigur&eth;sson 1990</link> presents another case showing the same point.) By comparing these sentences to the ones in (4), we see that the antecedent&ndash;anaphor relations are discourse-dependent. The antecedent of <i>sig</i> must be the person (distinct from the speaker-narrator) whose perspective or point of view is reported in the sentence:</p>
+<p>(4)<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="13">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13"/>
+<tbody>
+<row><entry morerows="3" valign="top">a.</entry>
+<entry>*&lsqb;<sub>DP</sub>
+</entry>
+<entry>Sko&eth;un</entry>
+<entry>J&oacute;ns<sub>i</sub>&rsqb;</entry>
+<entry>f&aelig;r</entry>
+<entry>mig</entry>
+<entry>til</entry>
+<entry>a&eth;</entry>
+<entry>halda</entry>
+<entry>&lsqb;a&eth;</entry>
+<entry>sig<sub>i, acc</sub>
+</entry>
+<entry>vanti<sub>subj</sub>
+</entry>
+<entry>h&aelig;fileika&rsqb;.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>opinion</entry>
+<entry>John&apos;s</entry>
+<entry>leads</entry>
+<entry>me</entry>
+<entry>to</entry>
+<entry>to</entry>
+<entry>believe</entry>
+<entry> that</entry>
+<entry>SIG</entry>
+<entry>lacks</entry>
+<entry>talents</entry>
+</row>
+<row><entry namest="col2" nameend="col13">&lsquo;John&apos;s opinion leads me to believe that SIG lacks talents.&rsquo;</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry namest="col11" nameend="col13">(cf. <link rid="b8">Maling 1984</link>: 222)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="2" valign="top">b.</entry>
+<entry>*&lsqb;<sub>DP</sub>
+</entry>
+<entry>Vinur</entry>
+<entry>J&oacute;ns<sub>i</sub>&rsqb;</entry>
+<entry>telur</entry>
+<entry>&lsqb;a&eth;</entry>
+<entry>&eacute;g</entry>
+<entry>hati<sub>subj</sub>
+</entry>
+<entry>sig<sub>i</sub>&rsqb;.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>friend</entry>
+<entry>John&apos;s</entry>
+<entry>believes</entry>
+<entry> that</entry>
+<entry>I</entry>
+<entry>hate</entry>
+<entry>SIG</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;John&apos;s friend believes that I hate SIG.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11"/>
+<tbody>
+<row><entry morerows="3" valign="top">c.</entry>
+<entry>*&thorn;etta</entry>
+<entry>vandam&aacute;l<sub>i</sub>
+</entry>
+<entry>kraf&eth;ist</entry>
+<entry>&thorn;ess</entry>
+<entry>&lsqb;a&eth;</entry>
+<entry>vi&eth;</entry>
+<entry>hugsu&eth;um<sub>subj</sub>
+</entry>
+<entry>st&ouml;dugt</entry>
+<entry>um</entry>
+<entry>sig<sub>i</sub>&rsqb;.</entry>
+</row>
+<row><entry>this</entry>
+<entry>problem</entry>
+<entry>demanded</entry>
+<entry>it</entry>
+<entry> that</entry>
+<entry>we</entry>
+<entry>thought</entry>
+<entry>constantly</entry>
+<entry>about</entry>
+<entry>SIG</entry>
+</row>
+<row><entry namest="col2" nameend="col11">&lsquo;This problem demanded that we constantly thought about SIG.&rsquo;</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry namest="col8" nameend="col11">(cf. <link rid="b10">Sigur&eth;sson 1990</link>: 335)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In the ill-formed sentences in (4), the co-indexed DP bears the same structural relation to <i>sig</i> as in the well-formed sentences in (2). The difference between these two sets of sentences is that in (2), <i>J&oacute;n</i> is the person (distinct from the speaker) whose opinion, belief, or wish is reported in the sentences. In (4a, b), on the other hand, the sentences are not reported from <i>J&oacute;n</i>&apos;s point of view; rather it is the first person pronoun &lsquo;me&rsquo; in (4a) and the DP &lsquo;John&apos;s friend&rsquo; in (4b) which carry the perspective of these sentences. This analysis is further supported by the example in (4c), which shows that an inanimate DP, which cannot possibly be a perspective holder, cannot serve as the antecedent for <i>sig</i> in subjunctives.<link rid="fn9">
+<sup>9</sup></link>
+</p>
+<p>Also, it has been noted in the literature (<link rid="b8">Maling 1984</link>: 232; <link rid="b10">Sigur</link>&eth;sson 1990: 336) that passives in Icelandic do not in general allow their subject to serve as a long-distance antecedent for <i>sig</i> in the cases considered. If <i>sig</i> in embedded subjunctives is ruled by discourse factors, the derived subject of a passive should not be able to serve as an antecedent for <i>sig</i>, since a derived subject does not carry the perspective or point of view of the sentence. This is illustrated in (5):</p>
+<p>(5)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="1" valign="top">a.</entry>
+<entry>J&oacute;n<sub>i</sub> sag&eth;i P&eacute;tri<sub>j</sub> &lsqb;a&eth; &eacute;g elska&eth;i<sub>subj</sub> sig<sub>i,*j</sub>&rsqb;.</entry>
+</row>
+<row><entry>&lsquo;John told Peter that I loved SIG.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="1" valign="top">b.</entry>
+<entry>P&eacute;tri<sub>j</sub> var sagt (af J&oacute;ni<sub>i</sub>) &lsqb;a&eth; &eacute;g elska&eth;i<sub>subj</sub> sig<sub>*i,*j</sub>&rsqb;.</entry>
+</row>
+<row><entry>&lsquo;Peter was told (by John) that I loved SIG.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (5a) <i>sig</i> takes the perspective-holding subject <i>J&oacute;n</i> as its antecedent, but in the passive sentence in (5b), where neither <i>J&oacute;n</i> nor <i>P&eacute;tur</i> bears the perspective of the sentence, <i>sig</i> cannot refer to the c-commanding subject or to the object of the <i>by</i> phrase.<link rid="fn10">
+<sup>10</sup></link>
+</p>
+<p>The minimal pair in (6), reported in <link rid="b9">Sells (1987</link>: 451), is further evidence that the antecedent possibilities of <i>sig</i> in subjunctives are determined by discourse factors:</p>
+<p>(6)<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="14">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13" align="char" char="."/>
+<colspec colnum="14" colname="col14"/>
+<tbody>
+<row><entry morerows="2" valign="top">a.</entry>
+<entry>Barni&eth;<sub>i</sub>
+</entry>
+<entry>l&eacute;t</entry>
+<entry>ekki</entry>
+<entry>&iacute;</entry>
+<entry>lj&oacute;s</entry>
+<entry>&lsqb;a&eth;</entry>
+<entry>&thorn;a&eth;</entry>
+<entry>hef&eth;i<sub>subj</sub>
+</entry>
+<entry>veri&eth;</entry>
+<entry>hugsa&eth;</entry>
+<entry>vel</entry>
+<entry>um</entry>
+<entry>sig<sub>i</sub>&rsqb;.</entry>
+</row>
+<row><entry>the child</entry>
+<entry>put</entry>
+<entry>not</entry>
+<entry>in</entry>
+<entry>light</entry>
+<entry> that</entry>
+<entry>there</entry>
+<entry>had</entry>
+<entry>been</entry>
+<entry>thought</entry>
+<entry>well</entry>
+<entry>about</entry>
+<entry>SIG</entry>
+</row>
+<row><entry namest="col2" nameend="col14">&lsquo;The child didn&apos;t reveal that SIG had been taken good care of.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="14">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13" align="char" char="."/>
+<colspec colnum="14" colname="col14"/>
+<tbody>
+<row><entry morerows="2" valign="middle">b.</entry>
+<entry>*Barni&eth;<sub>i</sub>
+</entry>
+<entry>bar</entry>
+<entry>&thorn;ess</entry>
+<entry>ekki</entry>
+<entry>merki</entry>
+<entry>&lsqb;a&eth;</entry>
+<entry>&thorn;ad</entry>
+<entry>hef&eth;i<sub>subj</sub>
+</entry>
+<entry>veri&eth;</entry>
+<entry>hugsa&eth;</entry>
+<entry>vel</entry>
+<entry>um</entry>
+<entry>sig<sub>i</sub>&rsqb;.</entry>
+</row>
+<row><entry> the child</entry>
+<entry>bore</entry>
+<entry>it</entry>
+<entry>not</entry>
+<entry>signs</entry>
+<entry> that</entry>
+<entry>there</entry>
+<entry>had</entry>
+<entry>been</entry>
+<entry>thought</entry>
+<entry>well</entry>
+<entry>about</entry>
+<entry>SIG</entry>
+</row>
+<row><entry namest="col2" nameend="col13">&lsquo;The child didn&apos;t look as if SIG had been taken good care of.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The difference in grammaticality between (6a) and (6b) can be attributed to the fact that in the (a) sentence, the report is made from the child&apos;s point of view; i.e., it is the child, and not the speaker, who didn&apos;t reveal that he/she had been taken good care of, whereas in the (b) sentence, it is the speaker who reports that the child didn&apos;t look as if he/she had been taken good care of. Hence, <i>sig</i> in subjunctives demands an antecedent that bears the perspective or point of view of the sentence, and whether or not this DP c-commands the anaphor is irrelevant.</p>
+</subsection>
+<subsection id="ss4" level="1">
+<heading id="h3" level="1">3 Infinitives</heading>
+<p>In contrast, <i>sig</i> in infinitives can only take a matrix subject and not a matrix object as an antecedent (cf. <link rid="b14 b7">Thr&aacute;insson 1979, 1991</link>; <link rid="b11">Sigurj&oacute;nsd&oacute;ttir 1993</link>). This is illustrated in (7):</p>
+<p>(7)<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="1" valign="top">a.</entry>
+<entry>J&oacute;n<sub>i</sub>
+</entry>
+<entry>skipa&eth;i</entry>
+<entry>m&eacute;r<sub>j</sub>
+</entry>
+<entry>&lsqb;a&eth;PRO<sub>j</sub>
+</entry>
+<entry>lemja<sub>inf</sub>
+</entry>
+<entry>sig<sub>i</sub>&rsqb;.</entry>
+</row>
+<row><entry>John</entry>
+<entry>ordered</entry>
+<entry>me</entry>
+<entry> to</entry>
+<entry>hit</entry>
+<entry>SIG</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="1" valign="top">b.</entry>
+<entry>*Eg<sub>j</sub>
+</entry>
+<entry>h&oacute;ta&eth;i</entry>
+<entry>J&oacute;ni<sub>i</sub>
+</entry>
+<entry>&lsqb;a&eth;PRO<sub>j</sub>
+</entry>
+<entry>lemja<sub>inf</sub>
+</entry>
+<entry>sig<sub>i</sub>&rsqb;.</entry>
+</row>
+<row><entry> I</entry>
+<entry>threatened</entry>
+<entry>John</entry>
+<entry> to</entry>
+<entry>hit</entry>
+<entry>SIG</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Note that the contrast between (7a) and (7b) could follow from the difference in perspective these sentences show, but it could also follow from the difference in c-command. If <i>sig</i> in infinitives must be c-commanded by its antecedent, it follows that <i>sig</i> can take the c-commanding subject in (7a) as an antecedent but not the non-c-commanding object in (7b).<link rid="fn11">
+<sup>11</sup></link> (8), however, shows that in infinitives c-command is crucial. These sentences contain a constituent that is a possible perspective holder, but does not c-command <i>sig</i>. These sentences are ruled out:<link rid="fn12">
+<sup>12</sup></link>
+</p>
+<p>(8)<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="2" valign="top">a.</entry>
+<entry>*&lsqb;<sub>DP</sub>
+</entry>
+<entry>Sko&eth;un</entry>
+<entry>J&oacute;ns<sub>i</sub>&rsqb;<sub>j</sub>
+</entry>
+<entry>vir&eth;ist &lsqb;t<sub>j</sub>
+</entry>
+<entry>vera<sub>inf</sub>
+</entry>
+<entry>h&aelig;ttuleg</entry>
+<entry>fyrir</entry>
+<entry>sig<sub>i</sub>&rsqb;.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>opinion</entry>
+<entry>John&apos;s</entry>
+<entry>seems</entry>
+<entry>be</entry>
+<entry>dangerous</entry>
+<entry>for</entry>
+<entry>SIG</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;John&apos;s opinion seems to be dangerous for SIG.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="13">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13"/>
+<tbody>
+<row><entry morerows="2" valign="top">b.</entry>
+<entry>*&lsqb;<sub>DP</sub>
+</entry>
+<entry>&Oacute;sk</entry>
+<entry>J&oacute;ns<sub>i</sub>&rsqb;<sub>j</sub>
+</entry>
+<entry>er</entry>
+<entry>l&iacute;kleg</entry>
+<entry>til &lsqb;t<sub>j</sub>
+</entry>
+<entry>a&eth;</entry>
+<entry>hafa<sub>inf</sub>
+</entry>
+<entry>sl&aelig;mar</entry>
+<entry>afleidingar</entry>
+<entry>fyrir</entry>
+<entry>sig<sub>i</sub>&rsqb;.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>wish</entry>
+<entry>John&apos;s</entry>
+<entry>is</entry>
+<entry>likely</entry>
+<entry>to</entry>
+<entry>to</entry>
+<entry>have</entry>
+<entry>bad</entry>
+<entry>consequences</entry>
+<entry>for</entry>
+<entry>SIG</entry>
+</row>
+<row><entry namest="col2" nameend="col13">&lsquo;John&apos;s wish is likely to have bad consequences for SIG.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="2" valign="top">c.</entry>
+<entry>*&lsqb;<sub>DP</sub>
+</entry>
+<entry>&Aacute;lit</entry>
+<entry>J&oacute;ns<sub>i</sub>&rsqb;<sub>j</sub>
+</entry>
+<entry>er</entry>
+<entry>sagt &lsqb;t<sub>j</sub>
+</entry>
+<entry>h&aelig;fa<sub>inf</sub>
+</entry>
+<entry>s&eacute;r<sub>i</sub>
+</entry>
+<entry>vel&rsqb;.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>belief</entry>
+<entry>John&apos;s</entry>
+<entry>is</entry>
+<entry>said</entry>
+<entry>suit</entry>
+<entry>SIG</entry>
+<entry>well</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;John&apos;s belief is said to suit SIG well.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Thus, the sentences in (8) show that for <i>sig</i> in infinitival clauses, discourse factors are unable to compensate for the lack of c-command. This contrasts with the situation in subjunctives discussed earlier, where we saw the antecedent possibilities of <i>sig</i> are determined by discourse properties (cf. (2) and (3)). Moreover, if the antecedent of <i>sig</i> in infinitives is only constrained by structural conditions, one expects that the derived subject of a passive should be a possible antecedent for <i>sig</i>, since the subject c-commands <i>sig</i>, even if it is not a perspective holder. This is indeed the case, as witnessed by the examples in (9) and (10):</p>
+<p>(9)<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry>J&oacute;n<sub>i</sub>
+</entry>
+<entry>sag&eth;i</entry>
+<entry>&lsqb;Mar&iacute;u<sub>j</sub>
+</entry>
+<entry>hafa<sub>inf</sub>
+</entry>
+<entry>l&aacute;ti&eth;</entry>
+<entry>&lsqb;mig</entry>
+<entry>&thorn;vo<sub>inf</sub>
+</entry>
+<entry>s&eacute;r<sub>i,j</sub>&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>John</entry>
+<entry>said</entry>
+<entry> Mary</entry>
+<entry>have</entry>
+<entry>made</entry>
+<entry> me</entry>
+<entry>wash</entry>
+<entry>SIG</entry>
+</row>
+<row><entry namest="col1" nameend="col8">&lsquo;John said Mary to have made me wash SIG.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(10)<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10"/>
+<tbody>
+<row><entry>Mar&iacute;a<sub>j</sub>
+</entry>
+<entry>var</entry>
+<entry>s&ouml;g&eth;</entry>
+<entry>(af</entry>
+<entry>J&oacute;ni<sub>i</sub>) &lsqb;t<sub>j</sub>
+</entry>
+<entry>hafa<sub>inf</sub>
+</entry>
+<entry>l&aacute;ti&eth;</entry>
+<entry>&lsqb;mig</entry>
+<entry>&thorn;vo<sub>(inf.)</sub>
+</entry>
+<entry>s&eacute;r<sub>j,*i</sub>&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>Mary</entry>
+<entry>was</entry>
+<entry>said</entry>
+<entry>(by</entry>
+<entry>John)</entry>
+<entry>have</entry>
+<entry>made</entry>
+<entry> me</entry>
+<entry>wash</entry>
+<entry>SIG</entry>
+</row>
+<row><entry namest="col1" nameend="col10">&lsquo;Mary was said (by John) to have made me wash SIG.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As exemplified in (10), <i>sig</i> in an infinitive complement can take the subject of a passive sentence as an antecedent, although this subject does not carry the perspective or point of view of the sentence. This shows that only c-command determines the antecedent possibilities of <i>sig</i> in infinitives.<link rid="fn13">
+<sup>13</sup></link>
+</p>
+</subsection>
+<subsection id="ss5" level="1">
+<heading id="h4" level="1">4 Summary of the facts</heading>
+<p>There are consistent differences between the conditions on long-distance antecedents for <i>sig</i> in subjunctive and infinitive complement clauses. <i>Sig</i> in subjunctives is constrained by discourse factors; in particular, the antecedent of <i>sig</i> has to be the person (other than the speaker-narrator) whose perspective or point of view is presented in the sentence, and whether or not this antecedent c-commands <i>sig</i> is irrelevant (cf. examples (2), (3), and (4)). The antecedent possibilities of <i>sig</i> in infinitives, on the other hand, are uniquely governed by the structural condition of c-command, and discourse factors are not reflected in this domain (cf. example (8)). Thus, <i>sig</i> in subjunctives cannot refer to an inanimate DP (cf. example (4c)) or normally to the derived subject of a passive (cf. example (5b)), since these DPs cannot serve as perspective holders. Although non-local inanimate antecedents of <i>sig</i> are considered dubious (presumably since <i>sig</i> is marked for person), subjects of passive sentences (cf. example (10)) can serve as antecedents for <i>sig</i> in infinitives, just on the basis of c-command. Moreover, <i>sig</i> in infinitives cannot take a non-c-commanding matrix object as an antecedent (cf. example (7b)), whereas <i>sig</i> in subjunctives can, given that the object bears the perspective or point of view of the sentence (cf. example (3)).</p>
+<p>If the mechanisms governing <i>sig</i> in subjunctives and infinitives were of the same type, as proposed by <link rid="b2">Anderson (1986</link>), <link rid="b3">Wexler and Manzini (1987</link>), and <link rid="b4 b5">Pica (1985, 1987</link>), among others, these differences would be unexpected. Non-c-commanding antecedents should then be equally available in infinitives and in subjunctives, and non-perspective-holding DPs (such as inanimate and passive subjects) should be able to serve as antecedents for <i>sig</i> in subjunctives just as in the infinitive case. It appears that the Icelandic data are only consistent with analyses that differentiate between the mechanisms governing long-distance <i>sig</i> in subjunctives and infinitives.</p>
+</subsection>
+<subsection id="ss6" level="1">
+<heading id="h5" level="1">5 The interpretation of <i>sig</i>: binding vs. coreference</heading>
+<p>Since Reinhart&apos;s work on anaphoric relations, it has been established that syntactic binding requires c-command (see <link rid="b15">Reinhart 1983a</link> for detailed discussion of the properties of the c-command relation). One might, of course entertain the possibility that, nevertheless, syntactic binding of some sort is involved in cases such as (2), since certain types of binding, such as variable binding, appear to allow violations of c-command (as in <i>every boy&apos;s mother loves him</i>).<link rid="fn14">
+<sup>14</sup></link>
+</p>
+<p>However, as discussed in <link rid="b7">Thr&aacute;insson (1991</link>: 60), the strict/sloppy identity ambiguity typically associated with pronouns also shows up with <i>sig</i> in the long-distance subjunctive case and is sensitive to differences in c-command. (11) shows the strict/sloppy ambiguity:</p>
+<p>(11)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>J&oacute;n<sub>i</sub> telur &lsqb;a&eth; pr&oacute;fessorinn muni fella<sub>subj</sub> sig<sub>i</sub> &aacute; pr&oacute;finu&rsqb; og Ari<sub>j</sub> telur &thorn;;a&eth; l&iacute;ka.</entry>
+</row>
+<row><entry>&lsquo;John believes that the professor will fail SIG on the test and Ari believes so too.&rsquo;</entry>
+</row>
+<row><entry>a.&ensp;&equals; Ari believes that the professor will fail Ari on the test.</entry>
+</row>
+<row><entry>b.&ensp;&equals; Ari believes that the professor will fail John on the test.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Where <i>sig</i> in subjunctive contexts is not c-commanded by its long-distance antecedent, the sloppy reading is much harder to obtain. This is illustrated in (12):</p>
+<p>(12)<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="13">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13"/>
+<tbody>
+<row><entry>Sko&eth;un</entry>
+<entry>J&oacute;ns<sub>i</sub>
+</entry>
+<entry>er</entry>
+<entry>&lsqb;a&eth; </entry>
+<entry>sig<sub>i</sub>
+</entry>
+<entry>vanti</entry>
+<entry>h&aelig;fileika&rsqb;</entry>
+<entry>og</entry>
+<entry>&thorn;a&eth;</entry>
+<entry>er</entry>
+<entry>sko&eth;un</entry>
+<entry>P&eacute;turs<sub>j</sub>
+</entry>
+<entry>l&iacute;ka.</entry>
+</row>
+<row><entry>opinion</entry>
+<entry>John&apos;s</entry>
+<entry>is</entry>
+<entry> that</entry>
+<entry>SIG</entry>
+<entry>lacks</entry>
+<entry>talents</entry>
+<entry>and</entry>
+<entry>that</entry>
+<entry>is</entry>
+<entry>opinion</entry>
+<entry>Peter&apos;s</entry>
+<entry>too</entry>
+</row>
+<row><entry namest="col1" nameend="col13">&lsquo;John&apos;s opinion is that SIG lacks talents and that is Peter&apos;s opinion too.&rsquo;</entry>
+</row>
+<row><entry namest="col1" nameend="col13">a.&ensp;<sup>??</sup>Peter&apos;s opinion is that Peter lacks talents.</entry>
+</row>
+<row><entry namest="col1" nameend="col13">b.&ensp;&equals; Peter&apos;s opinion is that John lacks talents.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This is evidence that the relation between <i>J&oacute;n</i> and <i>sig</i> in a subjunctive context such as (12) must be one of co-reference, rather than syntactic binding.<link rid="fn15">
+<sup>15</sup></link>
+</p>
+<p>The conclusion is strengthened by the fact that <i>sig</i> may occur, and be interpreted, without any linguistic antecedent whatsoever:</p>
+<p>(13)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry namest="col1" nameend="col2">Mar&iacute;a var alltaf svo andstyggileg. &thorn;egar &Oacute;lafur<sub>j</sub> k&aelig;mi seg&eth;i h&uacute;n s&eacute;r<sub>i/*j</sub> &aacute;rei&eth;anlega a&eth; fara.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>(<link rid="b7">Thr&aacute;insson 1991</link>)</entry>
+</row>
+<row><entry namest="col1" nameend="col2">&lsquo;Mary was always so nasty. When Olaf would come, she would certainly tell himself &lsqb;the person whose thoughts are being presented &ndash; not Olaf&rsqb; to leave.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In such cases <i>sig</i> must be able to get its interpretation just as pronominals do. If in subjunctive contexts <i>sig</i> and its antecedent may be related not by binding, but by coreference, this is at variance with the canonical view of anaphors (<link rid="b16">Bouchard 1984</link>; <link rid="b17">Reinhart and Reuland 1991</link>), requiring the underspecified element to obtain its missing phi-features, directly or indirectly, from its antecedent in the syntax by chain formation of some sort.<link rid="fn16">
+<sup>16</sup></link> It would still be possible to develop a theory in which <i>sig</i> acquires its phi-features from a covert source, for instance a null-operator. If one allows <i>sig</i> is to pick up its phi-features from a discourse antecedent in (13) one must be careful not to make the theory of syntactic relations vacuous. Construing a contentful analysis along these lines is a non-trivial matter.</p>
+<p>Another, perhaps more straightforward, interpretation is that there is no intrinsic necessity for anaphors to be syntactically linked to their antecedent in order to be interpreted.</p>
+</subsection>
+<subsection id="ss7" level="1">
+<heading id="h6" level="1">6 Conclusion: issues for further research</heading>
+<p>Consistent differences are found between the conditions on long-distance antecedents for <i>sig</i> in subjunctive and infinitive complement clauses. The interpretation of <i>sig</i> in subjunctives is constrained by discourse factors; the interpretation of <i>sig</i> in infinitives involves a structural relation with its antecedent.</p>
+<p>Ideally, these differences should follow from a general theory about the interplay between structural conditions and discourse factors, and about the nature of logophoric interpretation. Developing such a theory is still one of the concerns of current Binding research.</p>
+<p>One of the starting points for such a theory is what is known about the nature of logophoric interpretation. Another starting point is what is known about other languages. <link rid="b18">Napoli (1979</link>) observes that Italian <i>se</i>/<i>si</i> can only have a long-distance antecedent in positions where it cannot cliticize. In <link rid="b19">Reuland (1990</link>) it is argued that cliticization leads to the syntactic encoding of an interpretive dependency. In English, <i>himself</i> can have a logophoric interpretation in positions where establishing a syntactic dependency by head movement of SELF to the verb would be blocked (<link rid="b17">Reinhart and Reuland 1991</link>). What is observed in these languages appears to be governed by a regularity: free reflexives are syntactically licensed not by what is the case, but by what is blocked. Insofar as Icelandic logophoric <i>sig</i> requires a subjunctive, ideally, Icelandic also should fall under this pattern. If so, the role of the subjunctive should be that of blocking a syntactic connection between <i>sig</i> and its antecedent. This possibility is pursued in <link rid="b20">Reuland (2001</link>). Yet this issue cannot be considered to be settled. As pointed out by Halldor Sigur&eth;sson, there are speakers who accept logophoric reflexives in indicative environments provided the indicative can be interpreted as having perspective semantics. This is reminiscent of the conditions on long-distance anaphors in Faroese (<link rid="b21">Barnes 1986</link>), discussed in <related relationship="sibling" type="samework"><externallink id="chapter 40 - Long-Distance Binding in Germanic Languages.xml" type="file">chapter 40</externallink></related>. A more extensive discussion would lead us beyond the scope of this chapter, though.<link rid="fn17">
+<sup>17</sup></link>
+</p>
+</subsection>
+<subsection id="ss8" level="1">
+<heading id="h7" level="1">NOTES</heading>
+<p>This chapter is based on work with Sigr&iacute;dur Sigurj&oacute;nsd&oacute;ttir. I am very grateful to Halldur Sigur&eth;sson, Sigr&iacute;dur Sigurj&oacute;nsd&oacute;ttir, and an anonymous reviewer for their helpful comments.</p>
+<p>
+<span id="fn1">
+<number>1&emsp;</number>See also <link rid="b14 b6 b7">Thr&aacute;insson (1979, 1990, 1991</link>); <link rid="b8 b22">Maling (1984, 1986</link>); <link rid="b2">Anderson (1986</link>); <link rid="b23">R&ouml;gnvaldsson (1986</link>); <link rid="b9">Sells (1987</link>); <link rid="b10">Sigur&eth;sson (1990</link>); <link rid="b11">Sigurj&oacute;nsd&oacute;ttir (1993</link>); among others.</span>
+</p>
+<p>
+<span id="fn2">
+<number>2&emsp;</number>One may abstract away from the two different verb classes which have different effects on the interpretation of <i>sig</i>. With one class of verbs, like the verb <i>raka</i> &lsquo;shave&rsquo; exemplified in (1), <i>sig</i> can take either a local or a long-distance antecedent in the infinitive and subjunctive domain, whereas with the other class of verbs, <i>sig</i> can only refer to the long-distance antecedent. These facts will not be discussed, since the class of verbs only affects the interpretation of <i>sig</i> in the local domain, which is not the domain that concerns us here. These lexical effects in Icelandic (first noted by Thr&aacute;insson) are described by <link rid="b24">Hyams and Sigurj&oacute;nsd&oacute;ttir (1990</link>); <link rid="b25">Sigurj&oacute;nsd&oacute;ttir and Hyams (1992</link>); and <link rid="b11">Sigurj&oacute;nsd&oacute;ttir (1993</link>). Similar lexical effects have been discussed by <link rid="b26">Everaert (1986b</link>) and <link rid="b27 b17 b28">Reinhart and Reuland (1989, 1991, 1993</link>) for Dutch and by <link rid="b29">Hellan (1988</link>) for Norwegian.</span>
+</p>
+<p>
+<span id="fn3">
+<number>3&emsp;</number>
+<link rid="b2">Anderson (1986</link>: 76) gives the following definition of an anaphoric domain: &ldquo;The ANAPHORIC DOMAIN of A is the minimal S or NP containing A, a governor of A, and a subject of either tensed S or NP which c-commands A.&rdquo;</span>
+</p>
+<p>
+<span id="fn4">
+<number>4&emsp;</number>Anderson&apos;s proposal accounts for the fact that in embedded infinitives in Icelandic, <i>sig</i>, but (normally) not the pronouns, can take the matrix subject as its antecedent, whereas both <i>sig</i> and the pronouns can refer to the matrix subject in subjunctives. The obligatoriness of <i>sig</i> in this domain in infinitives follows from Anderson&apos;s analysis, since an infinitive and its matrix clause always constitute an anaphoric domain. The rule of Tense-Agreement, on the other hand, optionally applies to the subjunctive clause, and hence either an anaphoric domain is established and <i>sig</i> refers to the matrix subject, or there is no anaphoric domain, in which case a pronoun is used to refer to the long-distance antecedent. An alternative analysis for these facts is proposed in <link rid="b11">Sigurj&oacute;nsd&oacute;ttir (1993</link>).</span>
+</p>
+<p>
+<span id="fn5">
+<number>5&emsp;</number>See also <link rid="b30">Manzini and Wexler (1987</link>); <link rid="b31">Koster (1984</link>); and <link rid="b32">Yang (1984</link>).</span>
+</p>
+<p>
+<span id="fn6">
+<number>6&emsp;</number>See also <link rid="b33 b34">Lebeaux (1983, 1985</link>) and <link rid="b35">Chomsky (1986b</link>).</span>
+</p>
+<p>
+<span id="fn7">
+<number>7&emsp;</number>Note that <i>sig</i> in Icelandic does not have a nominative form (see <link rid="b36">Everaert 1990a</link>). Hence, <i>sig</i> can occur in subject position only with those verbs that select a non-nominative subject, i.e., with the so-called &lsquo;quirky&rsquo; case verbs in Icelandic. The verb <i>vanta</i> &lsquo;to lack, need&rsquo;, which appears in example (2a), is one of these verbs and takes an accusative subject. Quirky subjects in Icelandic have been discussed by a number of authors: see, for example, <link rid="b37">Andrews (1976</link>); <link rid="b14">Thr&aacute;insson (1979</link>); <link rid="b38">Bern&oacute;dusson (1982</link>); <link rid="b39">Zaenen et al<i>.</i> (1985</link>); and <link rid="b40 b41">Sigur&eth;sson (1989, 1992</link>).</span>
+</p>
+<p>
+<span id="fn8">
+<number>8&emsp;</number>Note that there are two DPs in this sentence whose perspective or point of view are being reported, i.e., <i>J&oacute;n</i> and <i>Bj&ouml;rn</i>. Hence, <i>sig</i> could also take <i>Bj&ouml;rn</i> as its antecedent.</span>
+</p>
+<p>
+<span id="fn9">
+<number>9&emsp;</number>Objects are generally not the perspective-holding DP of a sentence, and hence rarely qualify as antecedents for the logophor <i>sig</i> (see <link rid="b10">Sigur&eth;sson 1990</link>: 334).</span>
+</p>
+<p>
+<span id="fn10">
+<number>10&emsp;</number>As observed by <link rid="b10">Sigur&eth;sson (1990</link>: n. 22), the exceptions to this generalization show that the passive as such does not block long-distance coreference of <i>sig</i>. Thus, as illustrated in (i), the derived subject of a passive (<i>honum</i> &lsquo;him&rsquo; in this case) can serve as an antecedent for <i>sig</i> in subjunctives, given that it carries the perspective or point of view of the sentence. As pointed out by Sigur&eth;sson: &ldquo;made x to believe&rdquo; implies &ldquo;x believes&rdquo;:</span>
+</p>
+<p>(i)<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry>Honum<sub>i (dat.)</sub>
+</entry>
+<entry>var</entry>
+<entry>talin</entry>
+<entry>tr&uacute;</entry>
+<entry>um</entry>
+<entry>&lsqb;ad</entry>
+<entry>sig<sub>i (acc.)</sub>
+</entry>
+<entry>vantadi<sub>(subj.)</sub>
+</entry>
+<entry>h&aelig;fileika&rsqb;.</entry>
+</row>
+<row><entry>Him</entry>
+<entry>was</entry>
+<entry>made</entry>
+<entry>belief</entry>
+<entry>about</entry>
+<entry> that</entry>
+<entry>SIG</entry>
+<entry>lacked</entry>
+<entry>talents</entry>
+</row>
+<row><entry namest="col1" nameend="col9">&lsquo;He was made to believe that SIG lacked talents.&rsquo;</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry namest="col8" nameend="col9">(cf. <link rid="b8">Maling 1984</link>: n. 28)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<span id="fn11">
+<number>11&emsp;</number>I am making the standard assumption here that in (7b) <i>h&oacute;ta&eth;i</i> is first merged with its theme object <i>J&oacute;ni</i>. Subsequently, the subordinate clause is merged.</span>
+</p>
+<p>
+<span id="fn12">
+<number>12&emsp;</number>These and other non-attributed examples are from <link rid="b42">Reuland and Sigurj&oacute;nsd&oacute;ttir (1997</link>).</span>
+</p>
+<p>
+<span id="fn13">
+<number>13&emsp;</number>As Halldor Sigur&eth;sson points out, under the copy theory of movement some of the infinitival cases discussed here fall under a clause-internal scenario. He also points out that to his ear (i) is only slightly less natural than (2a):</span>
+</p>
+<p>(i)<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="13">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13"/>
+<tbody>
+<row><entry>Krafa</entry>
+<entry>J&oacute;ns<sub>i</sub>
+</entry>
+<entry>til</entry>
+<entry>okkar<sub>j</sub>
+</entry>
+<entry>um</entry>
+<entry>&lsqb;a&eth; PRO<sub>j</sub>
+</entry>
+<entry>sty&eth;a</entry>
+<entry>sig<sub>i</sub>
+</entry>
+<entry>vi&eth;</entry>
+<entry>&thorn;essar</entry>
+<entry>a&eth;st&aelig;&eth;ur&rsqb;</entry>
+<entry>er</entry>
+<entry>skiljanleg.</entry>
+</row>
+<row><entry>demand</entry>
+<entry>John&apos;s</entry>
+<entry>to</entry>
+<entry>us</entry>
+<entry>about</entry>
+<entry> to</entry>
+<entry>support</entry>
+<entry>SIG</entry>
+<entry>under</entry>
+<entry>these</entry>
+<entry>circumstances</entry>
+<entry>is</entry>
+<entry>understandable</entry>
+</row>
+<row><entry namest="col1" nameend="col13">&lsquo;John&apos;s demand that we support him under these circumstances is understandable.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>If so, this indicates that perspective may play some role in non-subjunctive domains as well, under conditions that are so far ill-understood. Furthermore, in the case of long-distance binding <i>sig</i> appears also to favor an animate antecedent in infinitives. This is reflected in the fact that the sentences in (ii) are not as good as their counterparts in (9) and (10) (in contrast to what is reported in <link rid="b42">Reuland and Sigurj&oacute;nsd&oacute;ttir 1997</link>):</p>
+<p>(ii)<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="12">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12"/>
+<tbody>
+<row><entry morerows="2" valign="top">a.</entry>
+<entry>??J&oacute;n<sub>i</sub>
+</entry>
+<entry>sag&eth;i</entry>
+<entry>&lsqb;&thorn;etta</entry>
+<entry>vandam&aacute;l<sub>j</sub>
+</entry>
+<entry>hafa<sub>inf</sub>
+</entry>
+<entry>neytt</entry>
+<entry>okkur<sub>k</sub>
+</entry>
+<entry>til</entry>
+<entry>&lsqb;a&eth; PRO<sub>k</sub>
+</entry>
+<entry>leysa<sub>inf</sub>
+</entry>
+<entry>sig<sub>j</sub>&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>John</entry>
+<entry>said</entry>
+<entry> this</entry>
+<entry>problem</entry>
+<entry>have</entry>
+<entry>forced</entry>
+<entry>us</entry>
+<entry>to</entry>
+<entry> to</entry>
+<entry>solve</entry>
+<entry>SIG</entry>
+</row>
+<row><entry namest="col2" nameend="col12">&lsquo;John said this problem to have forced us to solve SIG.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11"/>
+<tbody>
+<row><entry morerows="2" valign="middle">b.</entry>
+<entry>??&thorn;etta</entry>
+<entry>vandam&aacute;l<sub>j</sub>
+</entry>
+<entry>var</entry>
+<entry>sagt &lsqb;t<sub>j</sub>
+</entry>
+<entry>hafa<sub>(inf.)</sub>
+</entry>
+<entry>neytt</entry>
+<entry>okkur<sub>k</sub>
+</entry>
+<entry>til &lsqb;a&eth; PRO<sub>k</sub>
+</entry>
+<entry>leysa<sub>inf</sub>
+</entry>
+<entry>sig<sub>j</sub>&rsqb;&rsqb;.</entry>
+</row>
+<row><entry> this</entry>
+<entry>problem</entry>
+<entry>was</entry>
+<entry>said</entry>
+<entry>have</entry>
+<entry>forced</entry>
+<entry>us</entry>
+<entry>to</entry>
+<entry>solve</entry>
+<entry>SIG</entry>
+</row>
+<row><entry namest="col2" nameend="col11">&lsquo;This problem was said to have forced us to solve SIG.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The sentences in (iii) are perfect, however:</p>
+<p>(iii)<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="1" valign="top">a.</entry>
+<entry>J&oacute;n</entry>
+<entry>sag&eth;i</entry>
+<entry>&lsqb;&thorn;etta</entry>
+<entry>vandam&aacute;l<sub>i</sub>
+</entry>
+<entry>hafa</entry>
+<entry>minnt</entry>
+<entry>&aacute;</entry>
+<entry>sig<sub>i</sub>&rsqb;.</entry>
+</row>
+<row><entry>John</entry>
+<entry>said</entry>
+<entry> this</entry>
+<entry>problem</entry>
+<entry>have</entry>
+<entry>reminded</entry>
+<entry>of</entry>
+<entry>SIG</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="1" valign="top">b.</entry>
+<entry>&thorn;etta</entry>
+<entry>vandam&aacute;l<sub>i</sub>
+</entry>
+<entry>var</entry>
+<entry>sagt &lsqb;t<sub>i</sub>
+</entry>
+<entry>hafa </entry>
+<entry>minnt</entry>
+<entry>&aacute;</entry>
+<entry>sig<sub>i</sub>&rsqb;.</entry>
+</row>
+<row><entry>this</entry>
+<entry>problem</entry>
+<entry>was</entry>
+<entry>said</entry>
+<entry>have</entry>
+<entry>reminded</entry>
+<entry>of</entry>
+<entry>SIG</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<span id="fn14">
+<number>14&emsp;</number>Note, that even in these cases appearances may be deceptive, since binding is only allowed under the reading where <i>every boy</i> also scopes over <i>mother</i>, which is compatible with an adjunction structure, such that under a definition of c-command that reflects the segment&ndash;category distinction <i>every boy</i> does c-command <i>him</i> (see <link rid="b43">Reuland 1998</link> for discussion).</span>
+</p>
+<p>
+<span id="fn15">
+<number>15&emsp;</number>Locally bound <i>sig</i> does not allow a strict reading. This is illustrated in (i):</span>
+</p>
+<p>(i)<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>J&oacute;n<sub>i</sub> raka&eth;i sig<sub>i</sub> og P&eacute;tur<sub>j</sub> ger&eth;i &thorn;ad l&iacute;ka.</entry>
+</row>
+<row><entry>&lsquo;John shaved SIG and Peter did so too.&rsquo;</entry>
+</row>
+<row><entry>&equals;/&equals; Peter shaved John.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Yet in the long-distance infinitive case both readings are possible:</p>
+<p>(ii)<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>J&oacute;n<sub>i</sub> skipa&eth;i pr&oacute;fessornum<sub>j</sub> &lsqb;a&eth; PRO<sub>j</sub> fella<sub>inf</sub> sig<sub>i</sub> &aacute; pr&oacute;finu&rsqb; og Ari ger&eth;i &thorn;ad l&iacute;ka.</entry>
+</row>
+<row><entry>&lsquo;John ordered the professor to fail SIG on the test and Ari did so too.&rsquo;</entry>
+</row>
+<row><entry>a.&ensp;&equals; Ari ordered the professor to fail Ari on the test.</entry>
+</row>
+<row><entry>b.&ensp;&equals; Ari ordered the professor to fail John on the test.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This may indicate that what forces the sloppy reading in (i) is not a property of the antecedent&ndash;anaphor relation, but a property of the predicate. In (i) the copied predicate is intrinsically reflexive, whereas (ii) has no reflexive predicate (see <link rid="b11">Sigurj&oacute;nsd&oacute;ttir 1993</link>) for discussion of intrinsic reflexives in Icelandic).</p>
+<p>
+<span id="fn16">
+<number>16&emsp;</number>According to <link rid="b17">Reinhart and Reuland (1991</link>) <i>sig</i> is, therefore, covertly moved to I/AgrS. In this position, it is proposed, it not only copies the phi-features from Agr, but also the index that Agr receives by agreement with the subject. Hence the subject orientation of this type of anaphor.</span>
+</p>
+<p>
+<span id="fn17">
+<number>17&emsp;</number>For relevant discussion see <link rid="b44">Sigur&eth;sson (2004</link>).</span>
+</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss9" level="1" type="references">
+<heading id="h8" level="1">REFERENCES</heading>
+<reference type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Aikawa</surname><x>, </x><forenames>Takako</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date>
+<miscellaneoustext>). Reflexivity in Japanese and LF-Analysis of Zibun-Binding. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Ohio State University</address><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Anagnostopoulou</surname><x>, </x><forenames>Elena</forenames>
+</name><x> and </x><name type="author">
+<forenames>Martin</forenames><x> </x><surname>Everaert</surname>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">Towards a More Complete Typology of Anaphoric Expressions</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>30</volume><x>: </x><page type="first">97</page><x>&ndash;</x><page type="last">118</page><x>.</x>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Anderson</surname><x>, </x><forenames>Stephen</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">The Typology of Anaphoric Dependencies: Icelandic (and other) Reflexives</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Topics in Scandinavian Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Lars</forenames><x> </x><surname>Hellan</surname>
+</name><x> and </x><name type="editor">
+<forenames>Kirsti<x> </x>Koch</forenames><x> </x><surname>Christensen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">65</page><x>&ndash;</x><page type="last">88</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Reidel</publisher><x>.</x>
+</reference>
+<reference id="b37" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Andrews</surname><x>, </x><forenames>Avery</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="document">The VP Complement Analysis in Modern Icelandic</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society 6</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Alan</forenames><x> </x><surname>Ford</surname>
+</name><x>, </x><name type="editor">
+<forenames>John</forenames><x> </x><surname>Reighard</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Rajendra</forenames><x> </x><surname>Singh</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">1</page><x>&ndash;</x><page type="last">21</page><x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association</publisher><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ariel</surname><x>, </x><forenames>Mira</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="book">Accessing Noun-Phrase Antecedents<x>.</x>
+</title><x> </x><address>London</address><x>: </x><publisher>Croom Helm</publisher><x>.</x>
+</reference>
+<reference id="b21" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Barnes</surname><x>, </x><forenames>Michael</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Reflexivisation in Faroese</title><x>. </x><title type="journal">Arkiv f&ouml;r Nordisk Filologi</title><x> </x><volume>101</volume><x>: </x><page type="first">95</page><x>&ndash;</x><page type="last">126</page><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Battistella</surname><x>, </x><forenames>Edwin</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Chinese Reflexivization</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Second Harbin Conference on Generative Grammar</title><x>. </x><address>Harbin</address><x>: </x><publisher>Heilongjiang University</publisher><x>.</x>
+</reference>
+<reference id="b38" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Bern&oacute;dusson</surname><x>, </x><forenames>Helgi</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date>
+<miscellaneoustext>). Opers&oacute;nulegar Setningar. PhD dissertation</miscellaneoustext><x>, </x>
+<address>University of Iceland</address><x>.</x>
+</reference>
+<reference id="b16" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Bouchard</surname><x>, </x><forenames>Denis</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="book">On the Content of Empty Categories<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="book">Lectures on Government and Binding<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b35" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986b</date><x>). </x><title type="book">Knowledge of Language: Its Nature, Origin and Use</title><x>. </x><address>New York</address><x>: </x><publisher>Praeger</publisher><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995c</date><x>). </x><title type="book">The Minimalist Program<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b13" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Clements</surname><x>, </x><forenames>George</forenames>
+</name>
+</namegroup><x> (</x><date date="1975">1975</date><x>). </x><title type="document">The Logophoric Pronoun in Ewe: Its Role in Discourse</title><x>. </x><title type="journal">Journal of West African Languages</title><x> </x><volume>10</volume><x>: </x><page type="first">141</page><x>&ndash;</x><page type="last">177</page><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<forenames>Cole</forenames><x>, </x><surname>Peter</surname>
+</name><x>, </x><name type="author">
+<forenames>Gabriella</forenames><x> </x><surname>Hermon</surname>
+</name>
+<x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>C.-T<x>. </x>James</forenames><x> </x><surname>Huang</surname>
+</name>
+</namegroup><x> (</x><date date="2001">2001a</date><x>). </x><title type="book">Long Distance Reflexives</title><x>. </x><address>San Diego</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<forenames>Cole</forenames><x>, </x><surname>Peter</surname>
+</name><x>, </x><name type="author">
+<forenames>Gabriella</forenames><x> </x><surname>Hermon</surname>
+</name>
+<x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>L.-M<x>.</x>
+</forenames><x> </x><surname>Sung</surname>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Principles and Parameters of Long Distance Reflexives</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>21</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">23</page><x>.</x>
+</reference>
+<reference id="b26" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Everaert</surname><x>, </x><forenames>Martin</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986b</date><x>). </x><title type="book">The Syntax of Reflexivization<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b36" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Everaert</surname><x>, </x><forenames>Martin</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990a</date><x>). </x><title type="document">Case Theory and Binding Theory</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="journal">Edinburgh Working Papers in Cognitive Science</title><x> </x><volume>6</volume><x>: </x><page type="first">87</page><x>&ndash;</x><page type="last">108</page><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Everaert</surname><x>, </x><forenames>Martin</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Contextual Determination of the Anaphor/Pronominal Distinction</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Long-Distance Anaphora</title><x>.</x><namegroup type="editors">
+<name type="editor">
+<x> </x><forenames>Jan</forenames><x> </x><surname>Koster</surname>
+</name><x> and </x><name type="editor">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">77</page><x>&ndash;</x><page type="last">118</page><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Giorgi</surname><x>, </x><forenames>Alessandra</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">Towards a Theory of Long Distance Anaphors: A GB Approach</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>3</volume><x>: </x><page type="first">307</page><x>&ndash;</x><page type="last">359</page><x>.</x>
+</reference>
+<reference id="b12" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hag&egrave;ge</surname><x>, </x><forenames>Claude</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date><x>). </x><title type="document">Les Pronoms Logophoriques</title><x>. </x><title type="journal">Bulletin de la Soci&eacute;t&eacute; de Linguistique de Paris</title><x> </x><volume>69</volume><x>: </x><page type="first">287</page><x>&ndash;</x><page type="last">310</page><x>.</x>
+</reference>
+<reference type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Hara</surname><x>, </x><forenames>Takaaki</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date>
+<miscellaneoustext>). Reflexive Interpretation in Japanese. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Utrecht, UIL OTS</address><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<forenames>Heim</forenames><x>, </x><surname>Irene</surname>
+</name><x>, </x><name type="author">
+<forenames>Howard</forenames><x> </x><surname>Lasnik</surname>
+</name>
+<x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>Robert</forenames><x> </x><surname>May</surname>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Reciprocity and Plurality</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>22</volume><x>: </x><page type="first">63</page><x>&ndash;</x><page type="last">103</page><x>.</x>
+</reference>
+<reference id="b29" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hellan</surname><x>, </x><forenames>Lars</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="book">Anaphora in Norwegian and the Theory of Grammar<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Huang</surname><x>, </x><forenames>C.-T<x>. </x>James</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982a</date>
+<miscellaneoustext>). Logical Relations in Chinese and the Theory of Grammar. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Huang</surname><x>, </x><forenames>C.-T<x>. </x>James</forenames>
+</name><x> and </x><name type="author">
+<forenames>C.-C<x>. </x>Jane</forenames><x> </x><surname>Tang</surname>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">On the Local Nature of the Long-Distance Reflexive in Chinese</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Long Distance Anaphora</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jan</forenames><x> </x><surname>Koster</surname>
+</name><x> and </x><name type="editor">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">263</page><x>&ndash;</x><page type="last">282</page><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference id="b24" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hyams</surname><x>, </x><forenames>Nina</forenames>
+</name><x> and </x><name type="author">
+<forenames>Sigr&iacute;dur</forenames><x> </x><surname>Sigurj&oacute;nsd&oacute;ttir</surname>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">The Development of Long Distance Anaphora: Cross-Linguistic Comparison with Special Reference to Icelandic</title><x>. </x><title type="journal">Language Acquisition</title><x> </x><volume>1</volume><x>: </x><page type="first">57</page><x>&ndash;</x><page type="last">93</page><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Jayaseelan</surname><x>, </x><forenames>K.A.</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Anaphors as Pronouns</title><x>. </x><title type="journal">Studia Linguistica</title><x> </x><volume>51</volume><x>: </x><page type="first">186</page><x>&ndash;</x><page type="last">234</page><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Johnson</surname><x>, </x><forenames>Kyle</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">Some Notes on Subjunctive Clauses and Binding in Icelandic</title><x>. </x><title type="journal">MIT Working Papers in Linguistics</title><x> </x><volume>6</volume><x>: </x><page type="first">102</page><x>&ndash;</x><page type="last">137</page><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Katada</surname><x>, </x><forenames>Fusa</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">The LF Representation of Anaphors</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>22</volume><x>: </x><page type="first">287</page><x>&ndash;</x><page type="last">313</page><x>.</x>
+</reference>
+<reference id="b31" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Koster</surname><x>, </x><forenames>Jan</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">On Binding and Control</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>15</volume><x>: </x><page type="first">417</page><x>&ndash;</x><page type="last">459</page><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Koster</surname><x>, </x><forenames>Jan</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">Reflexives in Dutch</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Grammatical Representation</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jacqueline</forenames><x> </x><surname>Gu&eacute;ron</surname>
+</name><x>, </x><name type="editor">
+<forenames>Hans</forenames><x> </x><surname>Obenauer</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Jean-Yves</forenames><x> </x><surname>Pollock</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">141</page><x>&ndash;</x><page type="last">168</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b33" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Lebeaux</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">A Distributional Difference between Reciprocals and Reflexives</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>14</volume><x>: </x><page type="first">723</page><x>&ndash;</x><page type="last">730</page><x>.</x>
+</reference>
+<reference id="b34" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Lebeaux</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">Locality and Anaphoric Binding</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>4</volume><x>: </x><page type="first">343</page><x>&ndash;</x><page type="last">363</page><x>.</x>
+</reference>
+<reference id="b8" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Maling</surname><x>, </x><forenames>Joan</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">Non-Clause-Bounded Reflexives in Modern Icelandic</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>7</volume><x>: </x><page type="first">211</page><x>&ndash;</x><page type="last">241</page><x>.</x>
+</reference>
+<reference id="b22" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Maling</surname><x>, </x><forenames>Joan</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Clause-Bounded Reflexives in Modern Icelandic</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Topics in Scandinavian Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<surname>Lars</surname><x> </x><forenames>Hellan</forenames>
+</name><x> and </x><name type="editor">
+<forenames>Kirsti<x> </x>Koch</forenames><x> </x><surname>Christensen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">53</page><x>&ndash;</x><page type="last">63</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Reidel</publisher><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Manzini</surname><x>, </x><forenames>Maria<x> </x>Rita</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">The Subjunctive</title><x>. </x><title type="journal">Paris 8 Working Papers</title><x> </x><volume>1</volume>
+<page type="first">
+</page><x>.</x>
+</reference>
+<reference id="b30" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Manzini</surname><x>, </x><forenames>Maria<x> </x>Rita</forenames>
+</name><x> and </x><name type="author">
+<forenames>Kenneth</forenames><x> </x><surname>Wexler</surname>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Parameters, Binding Theory, and Learnability</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>18</volume><x>: </x><page type="first">413</page><x>&ndash;</x><page type="last">444</page><x>.</x>
+</reference>
+<reference id="b18" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Napoli</surname><x>, </x><forenames>Donna-Jo</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date><x>). </x><title type="document">Reflexivization across Clause Boundaries in Italian</title><x>. </x><title type="journal">Journal of Linguistics</title><x> </x><volume>15</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">28</page><x>.</x>
+</reference>
+<reference id="b4" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Pica</surname><x>, </x><forenames>Pierre</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">Subject, Tense and Truth: Towards a Modular Approach to Binding</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Grammatical Representation</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jaqueline</forenames><x> </x><surname>Gu&eacute;ron</surname>
+</name><x>, </x><name type="editor">
+<forenames>Hans-Georg</forenames><x> </x><surname>Obenauer</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Jean-Yves</forenames><x> </x><surname>Pollock</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">259</page><x>&ndash;</x><page type="last">291</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Pica</surname><x>, </x><forenames>Pierre</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">On the Nature of the Reflexivization Cycle</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society 17</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Joyce</forenames><x> </x><surname>McDonough</surname>
+</name><x> and </x><name type="editor">
+<forenames>Bernadette</forenames><x> </x><surname>Plunkett</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">483</page><x>&ndash;</x><page type="last">499</page><x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association</publisher><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Pollard</surname><x>, </x><forenames>Carl</forenames>
+</name><x> and </x><name type="author">
+<forenames>Ivan</forenames><x> </x><surname>Sag</surname>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Anaphors in English and the Scope of the Binding Theory</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>23</volume><x>: </x><page type="first">261</page><x>&ndash;</x><page type="last">305</page><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Postal</surname><x>, </x><forenames>Paul<x> </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1971">1971</date><x>). </x><title type="book">Cross-Over Phenomena<x>.</x>
+</title><x> </x><address>New York</address><x>: </x><publisher>Holt, Rinehart and Winston</publisher><x>.</x>
+</reference>
+<reference id="b15" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983a</date><x>). </x><title type="book">Anaphora and Semantic Interpretation<x>.</x>
+</title><x> </x><address>London/Chicago</address><x>: </x><publisher>Croom Helm/Chicago University Press</publisher><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000a</date><x>). </x><title type="document">Strategies of Anaphora Resolution</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Interface Strategies</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Hans</forenames><x> </x><surname>Bennis</surname>
+</name><x>, </x><name type="editor">
+<forenames>Martin</forenames><x> </x><surname>Everaert</surname>
+</name>
+<x>, </x><miscellaneoustext>and Eric Reuland (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">295</page><x>&ndash;</x><page type="last">324</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>Royal Netherlands Academy of Arts and Sciences</publisher><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="document">The Theta System: An Overview</title><x>. </x><title type="journal">Theoretical Linguistics</title><x> </x><volume>28</volume><x>: </x><page type="first">229</page><x>&ndash;</x><page type="last">290</page><x>.</x>
+</reference>
+<reference id="b27" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name><x> and </x><name type="author">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date>
+<miscellaneoustext>). Anaphoric Territories. Unpublished manuscript, Tel Aviv University and Groningen University</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name><x> and </x><name type="author">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Anaphors and Logophors: An Argument Structure Perspective</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Long Distance Anaphora</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jan</forenames><x> </x><surname>Koster</surname>
+</name><x> and </x><name type="editor">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">283</page><x>&ndash;</x><page type="last">321</page><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference id="b28" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name><x> and </x><name type="author">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Reflexivity</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>24</volume><x>: </x><page type="first">595</page><x>&ndash;</x><page type="last">652</page><x>.</x>
+</reference>
+<reference id="b19" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Reuland</surname><x>, </x><forenames>Eric</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Reflexives and Beyond: Non-Local Anaphora in Italian Revisited</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Grammar in Progress</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Juan</forenames><x> </x><surname>Mascar&oacute;</surname>
+</name><x> and </x><name type="editor">
+<forenames>Marina</forenames><x> </x><surname>Nespor</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">351</page><x>&ndash;</x><page type="last">362</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Reuland</surname><x>, </x><forenames>Eric</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="document">Pronouns and Features</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society 26</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Kiyomi</forenames><x> </x><surname>Kusumoto</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">319</page><x>&ndash;</x><page type="last">333</page><x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association</publisher><x>.</x>
+</reference>
+<reference id="b43" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Reuland</surname><x>, </x><forenames>Eric</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">Structural Conditions on Chains and Binding</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society 28</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Pius</forenames><x> </x><surname>Tamanji and</surname>
+</name><x> </x><name type="editor">
+<forenames>Kiyomi</forenames><x> </x><surname>Kusumoto</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">341</page><x>&ndash;</x><page type="last">35</page><x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association</publisher><x>.</x>
+</reference>
+<reference id="b20" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Reuland</surname><x>, </x><forenames>Eric</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">Primitives of Binding</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>32</volume><x>: </x><page type="first">439</page><x>&ndash;</x><page type="last">492</page><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Reuland</surname><x>, </x><forenames>Eric</forenames>
+</name><x> and </x><name type="author">
+<forenames>Tanya</forenames><x> </x><surname>Reinhart</surname>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Pronouns, Anaphors and Case</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Studies in Comparative Germanic Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Hubert</forenames><x> </x><surname>Haider</surname>
+</name><x>, </x><name type="editor">
+<forenames>Susan</forenames><x> </x><surname>Olsen</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Sten</forenames><x> </x><surname>Vikner</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">241</page><x>&ndash;</x><page type="last">269</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b42" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Reuland</surname><x>, </x><forenames>Eric</forenames>
+</name><x> and </x><name type="author">
+<forenames>Sigr&iacute;dur</forenames><x> </x><surname>Sigurj&oacute;nsd&oacute;ttir</surname>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Long Distance &lsquo;Binding&rsquo; in Icelandic: Syntax or Discourse?</title>
+<miscellaneoustext> In</miscellaneoustext><x>: </x>
+<title type="book">Atomism and Binding</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Hans</forenames><x> </x><surname>Bennis</surname>
+</name><x>, </x><name type="editor">
+<forenames>Pierre</forenames><x> </x><surname>Pica</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Johan</forenames><x> </x><surname>Rooryck</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">323</page><x>&ndash;</x><page type="last">340</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b23" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>R&ouml;gnvaldsson</surname><x>, </x><forenames>Eir&iacute;kur</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Some Comments on Reflexivization in Icelandic</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Topics in Scandinavian Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Lars</forenames><x> </x><surname>Hellan</surname>
+</name><x> and </x><name type="editor">
+<forenames>Kirsti<x> </x>Koch</forenames><x> </x><surname>Christensen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">89</page><x>&ndash;</x><page type="last">102</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Reidel</publisher><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Safir</surname><x>, </x><forenames>Kenneth</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996b</date><x>). </x><title type="document">Semantic Atoms of Anaphora</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>14</volume><x>: </x><page type="first">545</page><x>&ndash;</x><page type="last">589</page><x>.</x>
+</reference>
+<reference id="b9" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Sells</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Aspects of Logophoricity</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>18</volume><x>: </x><page type="first">445</page><x>&ndash;</x><page type="last">479</page><x>.</x>
+</reference>
+<reference id="b40" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Sigur&eth;sson</surname><x>, </x><forenames>Halld&oacute;r<x> </x>&Aacute;rmann</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date>
+<miscellaneoustext>). Verbal Syntax and Case in Icelandic. PhD dissertation</miscellaneoustext><x>, </x>
+<address>University of Lund</address><x>.</x>
+</reference>
+<reference id="b10" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Sigur&eth;sson</surname><x>, </x><forenames>Halld&oacute;r<x> </x>&Aacute;rmann</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Long Distance Reflexives and Moods in Icelandic</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Modern Icelandic Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Joan</forenames><x> </x><surname>Maling</surname>
+</name><x> and </x><name type="editor">
+<forenames>Annie</forenames><x> </x><surname>Zaenen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">309</page><x>&ndash;</x><page type="last">346</page><x>. </x><address>New York</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b41" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Sigur&eth;sson</surname><x>, </x><forenames>Halld&oacute;r<x> </x>&Aacute;rmann</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">The Case of Quirky Subjects</title><x>. </x><title type="journal">Working Papers in Scandinavian Syntax</title><x> </x><volume>49</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">26</page><x>.</x>
+</reference>
+<reference id="b44" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Sigur&eth;sson</surname><x>, </x><forenames>Halld&oacute;r<x> </x>&Aacute;rmann</forenames>
+</name>
+</namegroup><x> (</x><date date="2004">2004</date><x>). </x><title type="document">The Syntax of Person, Tense, and Speech Features</title><x>. </x><title type="journal">Rivista di Linguistica</title><x> </x><volume>16</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">36</page><x>.</x>
+</reference>
+<reference id="b11" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Sigurj&oacute;nsd&oacute;ttir</surname><x>, </x><forenames>Sigr&iacute;dur</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Binding in Icelandic: Evidence from Language Acquisition</title><x>. </x><title type="journal">UCLA Working Papers in Psycholinguistics</title><x> </x><volume>2</volume>
+<page type="first">
+</page><x>.</x><volume>1</volume><x>.</x>
+</reference>
+<reference id="b25" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Sigurj&oacute;nsd&oacute;ttir</surname><x>, </x><forenames>Sigr&iacute;dur</forenames>
+</name><x> and </x><name type="author">
+<forenames>Nina</forenames><x> </x><surname>Hyams</surname>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Reflexivization and Logophoricity: Evidence from the Acquisition of Icelandic</title><x>. </x><title type="journal">Language Acquisition</title><x> </x><volume>2</volume><x>: </x><page type="first">359</page><x>&ndash;</x><page type="last">413</page><x>.</x>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Thr&aacute;insson</surname><x>, </x><forenames>H&ouml;skuldur</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976a</date><x>). </x><title type="document">Reflexives and Subjunctives in Icelandic</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society 6</title><x>.</x><namegroup type="editors">
+<name type="editor">
+<x> </x><forenames>Alan</forenames><x> </x><surname>Ford</surname>
+</name><x>, </x><name type="editor">
+<forenames>John</forenames><x> </x><surname>Reighard</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Rajendra</forenames><x> </x><surname>Singh</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">225</page><x>&ndash;</x><page type="last">239</page><x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association</publisher><x>.</x>
+</reference>
+<reference id="b14" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Thr&aacute;insson</surname><x>, </x><forenames>H&ouml;skuldur</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date><x>). </x><title type="book">On Complementation in Icelandic<x>.</x>
+</title><x> </x><address>New York</address><x>: </x><publisher>Garland</publisher><x>.</x>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Thr&aacute;insson</surname><x>, </x><forenames>H&ouml;skuldur</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">A Semantic Reflexive in Icelandic</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Modern Icelandic Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Joan</forenames><x> </x><surname>Maling</surname>
+</name><x> and </x><name type="editor">
+<forenames>Annie</forenames><x> </x><surname>Zaenen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">289</page><x>&ndash;</x><page type="last">307</page><x>. </x><address>New York</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b7" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Thr&aacute;insson</surname><x>, </x><forenames>H&ouml;skuldur</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Long Distance Reflexives and the Typology of NPs</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Long-Distance Anaphora</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jan</forenames><x> </x><surname>Koster</surname>
+</name><x> and </x><name type="editor">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">49</page><x>&ndash;</x><page type="last">75</page><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Vikner</surname><x>, </x><forenames>Sten</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date>
+<miscellaneoustext>). Anaphors in Danish as Compared to English Seen from the Point of View of the Government-Binding Theory</miscellaneoustext><x>. </x>
+<address>MA dissertation, University of London</address><x>.</x>
+</reference>
+<reference id="b3" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Wexler</surname><x>, </x><forenames>Ken</forenames>
+</name><x> and </x><name type="author">
+<forenames>Maria<x> </x>Rita</forenames><x> </x><surname>Manzini</surname>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Parameters and Learnability in Binding Theory</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Parameter Setting</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Thomas</forenames><x> </x><surname>Roeper</surname>
+</name><x> and </x><name type="editor">
+<forenames>Edwin</forenames><x> </x><surname>Williams</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">41</page><x>&ndash;</x><page type="last">76</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Reidel</publisher><x>.</x>
+</reference>
+<reference id="b32" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Yang</surname><x>, </x><forenames>Dong-Wee</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">The Extended Binding Theory of Anaphors</title><x>. </x><title type="journal">Theoretical Linguistic Research</title><x> </x><volume>1</volume><x>: </x><page type="first">195</page><x>&ndash;</x><page type="last">218</page><x>.</x>
+</reference>
+<reference id="b39" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Zaenen</surname><x>, </x><forenames>Annie</forenames>
+</name><x>, </x><name type="author">
+<forenames>Joan</forenames><x> </x><surname>Maling</surname>
+</name>
+<x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>H&ouml;skuldur</forenames><x> </x><surname>Thr&aacute;insson</surname>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">Case and Grammatical Functions: The Icelandic Passive</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>3</volume><x>: </x><page type="first">441</page><x>&ndash;</x><page type="last">483</page><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

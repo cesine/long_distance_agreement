@@ -1,0 +1,1242 @@
+<!--<!DOCTYPE doc [-->
+
+<!-- Identifiers:
+     PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 3.0//EN"
+     SYSTEM "BPG3-0.DTD" -->
+
+<!-- Blackwell Publishing Group DTD ver. 3.0 27 August 1998 
+      [based on Blackwell Publishing Group DTD ver. 2.2.]
+
+             (c) 1998 Blackwell Publishing Group
+
+		** see end of document for change list **
+
+       Anders Geertsen      Munksgaard Int. Publishers Ltd., Copenhagen
+       Martin Clutterbuck }
+       Liz Willis         } Blackwell Science Ltd., Oxford
+       Richard O'Beirne   }
+
+
+
+     TABLE OF CONTENTS
+
+     1.  NOTATION & ENTITY LISTS
+     2.  PARAMETER ENTITIES
+     3.  ELEMENTS AND ATTRIBUTES: TOP LEVEL ELEMENT=<DOC>
+     4.  MAIN ARTICLE TYPES
+     5.  ALPHABETICAL LIST OF ALL ELEMENTS
+     6.  FORMATTING ELEMENTS
+     7.  REFERENCE ELEMENTS
+     8.  EXTERNAL OBJECTS
+     9.  TABLE ELEMENTS (CALS-based)
+     10. MATHS ELEMENTS (MathML 1.0-based)
+     11. LIST OF ELEMENTS
+     12. CHANGES SINCE FIRST 3.0 DRAFT
+-->
+
+<!-- ==============================================================
+          1. NOTATION & ENTITY LISTS
+     ============================================================== -->
+
+<!NOTATION BMP SYSTEM>
+<!NOTATION GIF SYSTEM>
+<!NOTATION TIFF SYSTEM>
+<!NOTATION PDF SYSTEM>
+<!NOTATION JPEG SYSTEM>
+<!NOTATION EPS SYSTEM>
+<!NOTATION WMF SYSTEM>
+<!NOTATION PICT SYSTEM>
+<!NOTATION DOC SYSTEM>
+<!NOTATION OLE SYSTEM>
+
+
+<!-- ==================================================
+      symbols.ent: entity list for figure legend symbols 
+      etc. not found in ISO entity lists. BSL- or supplier-specific and 
+      Unicode where possible. See symbols.ent file for how to add entities.
+      ===================================================-->
+<!ENTITY % symbols PUBLIC "Blackwell Publishing Group//ENTITIES Symbols//EN">
+%symbols;
+<!ENTITY % ISOlat1 PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN" --"../entities/isolat1.ent"-- >
+%ISOlat1;
+<!ENTITY % ISOlat2 PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN" --"../entities/isolat2.ent"-- >
+%ISOlat2;
+<!ENTITY % ISOnum PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN" --"../entities/isonum.ent"-- >
+%ISOnum;
+<!ENTITY % ISOpub PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN" --"../entities/isopub.ent"-- >
+%ISOpub;
+<!ENTITY % ISOtech PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN" --"../entities/isotech.ent"-- >
+%ISOtech; 
+<!ENTITY % ISOgrk1 PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN" --"../entities/isogrk1.ent"-- >
+%ISOgrk1;
+<!ENTITY % ISOgrk2 PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN" --"../entities/isogrk2.ent"-- >
+%ISOgrk2;
+<!ENTITY % ISOgrk3 PUBLIC "ISO 8879-1986//ENTITIES Greek Symbols//EN" --"../entities/isogrk3.ent"-- >
+%ISOgrk3; 
+<!ENTITY % ISOamsr PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Relations //EN" --"../entities/isoamsr.ent"-- >
+%ISOamsr;
+<!ENTITY % ISOgrk4 PUBLIC "ISO 9573-13:1991//ENTITIES Alternative Greek Symbols //EN" --"../entities/isogrk4.ent"-- >
+%ISOgrk4;
+<!ENTITY % ISOcyr1 PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN" --"../entities/isocyr1.ent"-- >
+%ISOcyr1;
+<!ENTITY % ISOcyr2 PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN" --"../entities/isocyr2.ent"-- >
+%ISOcyr2;
+<!ENTITY % ISOamsa PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Arrow Relations //EN" --"../entities/isoamsa.ent"-- >
+%ISOamsa;
+<!ENTITY % ISOamsb PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Binary Operators //EN"  --"../entities/isoamsb.ent"-- >
+%ISOamsb;
+<!ENTITY % ISOamsc PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Delimiters //EN" --"../entities/isoamsc.ent"-- >
+%ISOamsc;
+<!ENTITY % ISOamsn PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Negated Relations //EN" --"../entities/isoamsn.ent"-- >
+%ISOamsn;
+<!ENTITY % ISOamso PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Ordinary //EN" --"../entities/isoamso.ent"-- >
+%ISOamso;
+<!ENTITY % ISObox PUBLIC "ISO 8879-1986//ENTITIES Box and Line Drawing//EN" --"../entities/isobox.ent"-- >
+%ISObox;
+<!ENTITY % ISOdia PUBLIC "ISO 8879-1986//ENTITIES Diacritical Marks//EN" --"../entities/isodia.ent"-- >
+%ISOdia;
+<!ENTITY % ISOmscr PUBLIC "ISO 9573-13:1991//ENTITIES Math Alphabets: Script //EN" --"../entities/isomscr.ent"-- >
+%ISOmscr;
+<!ENTITY % ISOMOPF  PUBLIC "ISO 9573-13:1991//ENTITIES Math Alphabets: Open Face //EN">
+%ISOMOPF;
+
+<!-- =========================================================
+               2. PARAMETER ENTITIES
+     ========================================================== -->
+<!ENTITY % bodytxt "(head | p | qt | list | table | formula | defg | objg)+">
+
+<!ENTITY % BPG   "(#PCDATA | b | i | u | scaps | up | sl | uu | ol | ss | strike | sup | sub | tt | of | scr | rm | num | linkr | extlink | doi | br)+">
+
+<!ENTITY % data   "(#PCDATA | b | i | u | scaps | up | sl | uu | ol | ss | strike | sup | sub | tt | of | scr | rm | num | linkr | extlink | doi | br | formula | math | mover | munder | bb)+">
+
+<!ENTITY % MathML  "(mtext | mprescr | mrow | mfrac | msqrt | mroot | mfenced | msubsup | mundrovr | mmultscr | mtable | mtr | mover | munder | mtd)+">
+
+<!ENTITY % maths   "(%MathML; | %BPG;)+"><!--maths param. ent. made up of BPG and MathML elements-->
+
+<!ENTITY % isolang "(da | de | el | en | es | fi | fr | it | nl | pl | pt | ru | sv | un) en">
+<!--da=danish; de=german; el=Greek; en=English; es=Spanish; fi=Finnish; fr=French; it=Italian; nl=Dutch; pl=Polish; pt=Portuguese; ru=Russian; sv=Swedish; un=Unknown-->
+
+<!ENTITY % yesorno "NUMBER"><!-- used in tables -->
+
+
+
+<!-- ==============================================================
+          3. ELEMENTS AND ATTRIBUTES: TOP LEVEL ELEMENT=<DOC>
+     ============================================================== -->
+
+<!ELEMENT doc     - - (artgrp) +(linkr)>
+<!ATTLIST doc     docfmt (sgml | html | xml) sgml
+          dtdver       (3.0)         3.0
+          beesver      CDATA         #IMPLIED
+          wordver      CDATA         #IMPLIED
+          editor       CDATA         #IMPLIED>
+
+<!ELEMENT artgrp    - - (pinfo, jinfo, grptl?, (article+ | bookrev+ | letter+ | ancmnt+ | calendar+ | abstract+))>
+
+
+<!-- ========================================================
+          4. MAIN ARTICLE TYPES                
+=========================================================== -->
+
+
+<!ELEMENT article   - - (header, body?, bm?)>
+<!ATTLIST article       sequence  NUMBER #REQUIRED>
+
+
+<!ELEMENT bookrev   - - (header, (bookdtl, body)+, bm?)>
+<!ATTLIST bookrev       sequence  NUMBER #REQUIRED>
+
+
+<!ELEMENT letter   - - (header, body, bm?, reply*)>
+<!ATTLIST letter       sequence  NUMBER #REQUIRED>
+
+
+<!ELEMENT ancmnt    - - (header, body)>
+<!ATTLIST ancmnt        sequence  NUMBER #REQUIRED>
+
+
+<!ELEMENT calendar    - - (header, body)>
+<!ATTLIST calendar        sequence  NUMBER #REQUIRED>
+
+
+<!ELEMENT abstract   - - (header)>
+<!ATTLIST abstract       sequence  NUMBER #REQUIRED>
+
+
+<!-- =====================================================
+          5. ALPHABETICAL LIST OF ALL ELEMENTS
+     ====================================================== -->
+
+<!ELEMENT abs     - - (absinfo? & tltrans* & %bodytxt; & dispchg?)+>
+<!ATTLIST abs         language %isolang;>
+
+
+<!ELEMENT absinfo   - - (%data; | p)*>
+<!ATTLIST absinfo       format (inline | display) display>
+
+
+<!--ELEMENT absref SEE REFERENCE TAGS BELOW [#7]-->
+
+
+<!--ELEMENT abstract SEE MAIN ARTICLE TYPES ABOVE [#4]-->
+
+<!ELEMENT acc     - o   EMPTY>
+<!ATTLIST acc           year   NUMBER #REQUIRED
+                     month  NUMBER #REQUIRED
+                        day    NUMBER #IMPLIED>
+
+
+<!ELEMENT ack     - - (%bodytxt;)>      
+
+
+<!ELEMENT aff     - - (roles?, p)+> 
+<!ATTLIST aff         format (inline | display) display>
+
+
+<!ELEMENT aid     - - (pubaid, supaid?)>
+
+
+<!--ELEMENT ancmnt SEE MAIN ARTICLE TYPES ABOVE [#4]-->
+
+
+<!ELEMENT app     - - (%bodytxt; | dispchg | bibl)+>
+<!ATTLIST app         id  ID  #IMPLIED>
+
+
+<!--ELEMENT artgrp SEE MAIN ARTICLE TYPES ABOVE [#4]-->
+
+
+<!--ELEMENT article SEE MAIN ARTICLE TYPES ABOVE [#4]-->
+
+
+<!ELEMENT artinfo   - - (vid, iid, supp?, cd, aid, rheads?, subg?, doi?, urlabs?, urlfull?, medline?, artty, categ?, figct?, tabct?, eqnct?, refct?, ppct?, wrdct?, ppf, ppl, crn?, hst?, typenm)>
+<!ATTLIST artinfo       language %isolang;>
+
+
+<!ELEMENT artty    - o   EMPTY>
+<!ATTLIST artty          artty (AB | AN | BR | CA | CO | CR | DI | ED | ER | IN | LE | ME | MR | NE | OA | OR | RA | RP | SC | TN | XX) #REQUIRED>
+
+<!--AB = Abstract(s); AN = Announcement (Notice); BR = Book Review; CA = Calendar of Events; CO = Commentary (Opinion Article, Viewpoint, Personal View); CR = Case Report (Case Study, Patient Report); DI = Dissertation; ED = Editorial; ER = Erratum (Corrigendum); IN = Introduction; LE = Letter to the Editor (Correspondence, Forum); ME = In Memoriam (Obituary); MR = Meeting Report; NE = News; OA = Original Article (Full Paper, Research Paper, Research Article); OR = Oration (Lecture, Presidential Address); RA = Review Article (Review, Review Paper, Essay Review); RP = Rapid Publication (Rapid Communication); SC = Short Communication (Short Report, Brief Note, Brief Report, Research in Brief); TN = Technical Note (Clinical Note, Primer Note); XX = Miscellaneous (to include: Methodology, Historical Note, Theoretical Article, Company Profile)-->
+
+
+<!ELEMENT au      - - (title? & fnms? & snmprefx? & snm & degs? & ped? & roles? & linkr*)>
+<!ATTLIST au          format (inline | display) display>
+
+
+<!ELEMENT aug     - - (x* & head?  & (au | collab)+ & aff*)+ +(x | br)>
+
+
+<!--ELEMENT b SEE FORMATTING TAGS BELOW [#6]-->
+
+
+<!--ELEMENT bb SEE REFERENCE TAGS BELOW [#7]-->
+
+
+<!--ELEMENT bibl SEE REFERENCE TAGS BELOW [#7]-->
+
+
+<!ELEMENT bm      - - (ack? & app* & bibl* & res* & notes? & objg? & aug? & cau? & head* & defg? & hst? & kwdg? & bmisc* & dispchg* & sponsor? & commentg?)>
+
+
+<!ELEMENT bmisc    - - (%bodytxt; | dispchg)+>
+
+
+<!ELEMENT body     - - (%bodytxt; | dispchg)+>
+
+
+<!ELEMENT bookdtl     - - (bookref)+ +(x | br)>
+
+
+<!--ELEMENT bookref SEE REFERENCE TAGS BELOW [#7]-->
+
+
+<!--ELEMENT bookrev SEE MAIN ARTICLE TYPES ABOVE [#4]-->
+
+
+<!ELEMENT br     - o EMPTY>
+
+
+<!--ELEMENT calendar SEE MAIN ARTICLE TYPES ABOVE [#4]-->
+
+
+<!ELEMENT categ    - - (%data;)>
+
+
+<!ELEMENT cau     - - (%data; | au | aff | head)+> 
+<!ATTLIST cau         id  ID  #REQUIRED>
+
+
+<!ELEMENT cd      - - (%data;)>
+<!ATTLIST cd          year  NUMBER #REQUIRED
+                      month NUMBER #IMPLIED
+                      day   NUMBER #IMPLIED>
+
+
+<!ELEMENT cdn     - - (#PCDATA)>
+
+
+<!ELEMENT chptno    - - (%data;)>
+
+
+<!ELEMENT collab    - - (%data;)>
+<!ATTLIST collab        format (inline | display) display>
+
+
+<!--ELEMENT colspec SEE TABLES BELOW [#9]-->
+
+
+<!ELEMENT comment   - - (%data;)>
+<!ATTLIST comment       id  ID  #REQUIRED
+                        type (auquery | trequest) #REQUIRED>
+
+<!ELEMENT commentg   - - (comment)+>
+
+<!ELEMENT conf     - - (p+)>      
+<!ATTLIST conf         id  ID  #IMPLIED>
+
+
+<!ELEMENT crn     - - (%data;)>
+
+
+<!ELEMENT def     - - (term | defn)+>
+<!ATTLIST def         id  ID  #IMPLIED>
+
+
+<!ELEMENT defg     - - (head?, def+) +(x | br)>
+<!ATTLIST defg         type (abbr | drug | nom) #REQUIRED>
+
+
+<!ELEMENT defn      - -  (%data;)>
+
+
+<!ELEMENT degs     - - (%data;)>
+
+
+<!ELEMENT dispchg   - - (%bodytxt;)+>
+<!ATTLIST dispchg       type (large | small) #REQUIRED>
+
+
+<!--ELEMENT doc SEE TOP LEVEL ELEMENT ABOVE [#3]-->
+
+
+<!ELEMENT docid     - - (%data;)>
+
+
+<!ELEMENT doi     - - (#PCDATA)>
+
+
+<!ELEMENT editors     - - (%data; | au)+>
+
+
+<!ELEMENT edn     - - (%data;)>
+
+
+<!ELEMENT eissn    - - (#PCDATA)>
+
+
+<!--ELEMENT entry SEE TABLES BELOW [#9]-->
+
+
+<!ELEMENT eqnct    - o   EMPTY>
+<!ATTLIST eqnct          count NUMBER #REQUIRED>
+
+
+<!--ELEMENT eref SEE REFERENCE TAGS BELOW [#7]-->
+
+
+<!ELEMENT etal   - - (%data;)>
+
+
+<!ELEMENT extlink   - - (%data;)>
+<!ATTLIST extlink       type (company | genbank | DNA | email | url | misc) #IMPLIED
+                        link CDATA #IMPLIED
+                        linktype CDATA #IMPLIED
+                        linkid CDATA #IMPLIED>  
+
+
+<!ELEMENT figct    - o   EMPTY>
+<!ATTLIST figct          count NUMBER #REQUIRED>
+
+
+<!--ELEMENT file SEE EXTERNAL OBJECTS TAGS BELOW [#8]-->
+
+
+<!--ELEMENT filegrp SEE EXTERNAL OBJECTS TAGS BELOW [#8]-->
+
+
+<!ELEMENT fngroup      - - (kwdg | defg | cau | hst | footnote | conf | sponsor)+>
+
+
+<!ELEMENT fnms     - - (%data;)>
+
+
+<!ELEMENT footnote      - - (p+)>     
+<!ATTLIST footnote    id ID #IMPLIED
+                      type (reprint | presaddr | corrau | presentd) #IMPLIED>
+
+
+<!ELEMENT formula   - - (num?, (math | file), num?)>
+<!ATTLIST formula       format (inline | display) display>
+
+
+<!ELEMENT grptl    - - (%data;)>
+
+
+<!ELEMENT head     - - (%data;) +(x)>     
+<!ATTLIST head         id  ID #REQUIRED
+                       level (1 | 2 | 3 | 4 | 5 | 6) #REQUIRED
+                       format (inline | display) display>
+
+
+<!ELEMENT header    - - (artinfo, (tig & aug? & abs* & kwdg* & defg*  & cau? & fngroup? & conf? & ack? & hst? & absinfo? & sponsor?))>
+
+
+<!ELEMENT heading   - - (%data;)>
+
+
+<!ELEMENT hst     - - (%data;)+ +(re | acc | rv | misc)>
+
+
+<!--ELEMENT i SEE FORMATTING TAGS BELOW [#6]-->
+
+
+<!ELEMENT iid     - - (%data;)>
+<!ATTLIST iid         num  NUMBER #IMPLIED>
+
+
+<!ELEMENT inpress   - - (%data;)>
+
+
+<!ELEMENT isbn     - - (%data;)>
+
+
+<!ELEMENT issn     - - (#PCDATA)>
+
+
+<!ELEMENT jabt     - - (%data;)>
+
+
+<!ELEMENT jalt     - - (%data;)>
+
+
+<!ELEMENT jid     - - (#PCDATA)>
+
+
+<!ELEMENT jinfo    - - (jid, pubtl, jsbt?, jalt?, jabt?, issn, eissn?, cdn?, crn)>
+
+
+<!--ELEMENT jnlref SEE REFERENCE TAGS BELOW-->
+
+
+<!ELEMENT jsbt     - - (%data;)>
+
+
+<!ELEMENT kwd     - - (%data;)>     
+
+
+<!ELEMENT kwdg     - - (head?, kwd+) +(x | br)>
+<!ATTLIST kwdg         class   CDATA #IMPLIED 
+                       language %isolang;
+                       format (inline | display) inline>
+
+
+<!--ELEMENT legend SEE EXTERNAL OBJECTS TAGS BELOW [#8]-->
+
+
+<!--ELEMENT letter SEE MAIN ARTICLE TYPES ABOVE [#4]-->
+
+
+<!ELEMENT li      - - (num?, (p | li)+)>
+<!ATTLIST li          level (1 | 2 | 3 | 4 | 5 | 6) 1>
+
+
+<!ELEMENT linkr    - - (%data;)>
+<!ATTLIST linkr        rid IDREFS #REQUIRED>
+
+
+<!ELEMENT list     - - (li)+>     
+<!ATTLIST list         id  ID  #IMPLIED
+                       type CDATA #IMPLIED>
+
+
+<!ELEMENT loc     - - (%data;)>
+
+
+<!--ELEMENT math SEE MATHS ELEMENTS BELOW [#10]-->
+
+
+<!ELEMENT medline   - - (#PCDATA)>
+
+
+<!ELEMENT meet   - - (%data;)>
+
+
+<!--ELEMENT mfenced SEE MATHS ELEMENTS BELOW [#10]-->
+
+
+<!--ELEMENT mfrac SEE MATHS ELEMENTS BELOW [#10]-->
+
+
+<!ELEMENT misc     - - (%data;)>
+<!ATTLIST misc         year  NUMBER #REQUIRED
+                       month NUMBER #REQUIRED
+                       day  NUMBER #IMPLIED>
+
+
+<!--ELEMENT mmultscr SEE MATHS ELEMENTS BELOW [#10]-->
+
+
+<!--ELEMENT mover SEE MATHS ELEMENTS BELOW [#10]-->
+
+
+<!--ELEMENT mprescr SEE MATHS ELEMENTS BELOW [#10]-->
+
+
+<!--ELEMENT mroot SEE MATHS ELEMENTS BELOW [#10]-->
+
+
+<!--ELEMENT mrow SEE MATHS ELEMENTS BELOW [#10]-->
+
+
+<!--ELEMENT msqrt SEE MATHS ELEMENTS BELOW [#10]-->
+
+
+<!--ELEMENT msubsup SEE MATHS ELEMENTS BELOW [#10]-->
+
+
+<!--ELEMENT mtable SEE MATHS ELEMENTS BELOW [#10]-->
+
+
+<!--ELEMENT mtd SEE MATHS ELEMENTS BELOW [#10]-->
+
+
+<!--ELEMENT mtext SEE MATHS ELEMENTS BELOW [#10]-->
+
+
+<!--ELEMENT mtr SEE MATHS ELEMENTS BELOW [#10]-->
+
+
+<!--ELEMENT munder SEE MATHS ELEMENTS BELOW [#10]-->
+
+
+<!--ELEMENT mundrovr SEE MATHS ELEMENTS BELOW [#10]-->
+
+
+<!ELEMENT notes    - - (footnote+)>
+
+
+<!ELEMENT num     - - (%data;)>
+<!ATTLIST num         id  ID #IMPLIED
+                      rid IDREFS #IMPLIED>
+
+<!--ELEMENT object SEE EXTERNAL OBJECTS BELOW [#8]-->
+
+
+<!--ELEMENT objg SEE EXTERNAL OBJECTS BELOW [#8]-->
+
+
+<!--ELEMENT objnote SEE EXTERNAL OBJECTS BELOW [#8]-->
+
+
+<!--ELEMENT of SEE FORMATTING TAGS BELOW [#6]-->
+
+
+<!--ELEMENT ol SEE FORMATTING TAGS BELOW [#6]-->
+
+
+<!--ELEMENT otherref SEE REFERENCE TAGS BELOW [#7]-->
+
+
+<!ELEMENT p      - - (%data;)>
+<!ATTLIST p          id  ID  #IMPLIED>
+
+
+<!ELEMENT ped     - - (%data;)>
+
+
+<!ELEMENT pinfo    - - (pnm, loc)+>
+
+
+<!ELEMENT pnm     - - (%data;)>
+
+
+<!ELEMENT ppct     - o   EMPTY>
+<!ATTLIST ppct           count NUMBER #REQUIRED>
+
+
+<!ELEMENT ppf     - - (%data;)>
+
+
+<!ELEMENT ppl     - - (%data;)>
+
+
+<!ELEMENT price    - - (%data;)>
+
+
+<!ELEMENT proc     - - (%data;)>
+
+
+<!ELEMENT pubaid    - - (#PCDATA)>
+
+
+<!ELEMENT pubtl    - - (%data;)>
+
+
+<!ELEMENT qt      - - (head | p | source)+>
+
+
+<!ELEMENT re      - o   EMPTY>
+<!ATTLIST re            year  NUMBER #REQUIRED
+                        month NUMBER #REQUIRED
+                        day   NUMBER #IMPLIED>
+
+
+<!ELEMENT refct    - o   EMPTY>
+<!ATTLIST refct          count NUMBER #REQUIRED>
+
+
+<!ELEMENT refmisc         - - (%data;)>
+
+
+<!ELEMENT reply    - - (letter)>
+
+
+<!ELEMENT res     - - (head?, tltrans, p+)>
+<!ATTLIST res         language %isolang;>
+
+
+<!ELEMENT rhatl    - - (%data;)>
+
+
+<!ELEMENT rhau     - - (%data;)>
+
+
+<!ELEMENT rheads    - - (rhatl?, rhau?)>
+
+
+<!--ELEMENT rm SEE FORMATTING TAGS BELOW [#6]-->
+
+
+<!ELEMENT roles    - - (%data;)>
+
+
+<!--ELEMENT row SEE TABLES BELOW [#9]-->
+
+
+<!ELEMENT rv      - o   EMPTY>
+<!ATTLIST rv            year  NUMBER #REQUIRED
+                        month NUMBER #REQUIRED
+                        day   NUMBER #IMPLIED>
+
+
+<!ELEMENT sbt     - - (%data;)>     
+
+
+<!--ELEMENT scaps SEE FORMATTING TAGS BELOW [#6]-->
+
+
+<!--ELEMENT scr SEE FORMATTING TAGS BELOW [#6]-->
+
+
+<!--ELEMENT sl SEE FORMATTING TAGS BELOW [#6]-->
+
+
+<!ELEMENT snm     - - (snmprefx?, %data;)>
+
+
+<!ELEMENT snmprefx     - - (%data;)>
+
+
+<!ELEMENT source    - - (%data;)>
+
+
+<!ELEMENT sponsor    - - (p)+>
+
+
+<!--ELEMENT strike SEE FORMATTING TAGS BELOW [#6]-->
+
+
+<!--ELEMENT ss SEE FORMATTING TAGS BELOW [#6]-->
+
+
+<!--ELEMENT sub SEE FORMATTING TAGS BELOW [#6]-->
+
+
+<!ELEMENT subc     - - (#PCDATA)>
+
+
+<!ELEMENT subg     - - (subc+)>
+
+
+<!--ELEMENT sup SEE FORMATTING TAGS BELOW [#6]-->
+
+
+<!ELEMENT supaid    - - (#PCDATA)>
+
+
+<!ELEMENT supp     - - (%data;)>
+<!ATTLIST supp         num  NUMBER #IMPLIED>
+
+
+<!ELEMENT tabct    - o   EMPTY>
+<!ATTLIST tabct          count NUMBER #REQUIRED>
+
+
+<!--ELEMENT table SEE TABLES BELOW [#9]-->
+
+<!--ELEMENT tbl SEE TABLES BELOW [#9]-->
+
+
+<!--ELEMENT tbltl SEE TABLES BELOW [#9]-->
+
+
+<!--ELEMENT tbody SEE TABLES BELOW [#9]-->
+
+
+<!ELEMENT term     - -  (%data;)>
+
+
+<!--ELEMENT tex SEE MATHS ELEMENTS BELOW [#10]-->
+
+
+<!--ELEMENT tfoot SEE TABLES BELOW [#9]-->
+
+
+<!--ELEMENT tgroup SEE TABLES BELOW [#9]-->
+
+
+<!--ELEMENT thead SEE TABLES BELOW [#9]-->
+
+
+<!ELEMENT thesis    - - (%data;)>
+
+
+<!--ELEMENT thesref SEE REFERENCE TAGS BELOW [#7]-->
+
+
+<!ELEMENT tig     - - (heading?, tl, sbt*)>
+
+
+<!ELEMENT title    - - (%data;)>
+
+
+<!ELEMENT tl      - - (%data;)> 
+
+
+<!ELEMENT tltrans   - - (%data;)>     
+
+
+<!ELEMENT trans    - - (%data;)>
+
+
+<!--ELEMENT tt SEE FORMATTING TAGS BELOW [#6]-->
+
+
+<!ELEMENT typenm    - - (%data;)>
+<!ATTLIST typenm        beesver     NUTOKEN     #IMPLIED
+                        wordver     NUTOKEN     #IMPLIED
+                        software    NMTOKEN     #IMPLIED
+                        system      NMTOKEN     #IMPLIED>
+
+
+<!--ELEMENT u SEE FORMATTING TAGS BELOW [#6]-->
+
+
+<!--ELEMENT up SEE FORMATTING TAGS BELOW [#6]-->
+
+
+<!ELEMENT urlabs     - - (#PCDATA)>
+
+
+<!ELEMENT urlfull     - - (#PCDATA)>
+
+
+<!--ELEMENT uu SEE FORMATTING TAGS BELOW [#6]-->
+
+
+<!ELEMENT vid     - - (%data;)>
+<!ATTLIST vid         num  NUMBER #IMPLIED>
+
+
+<!ELEMENT voltl     - - (%data;)>
+
+
+<!ELEMENT wrdct    - o   EMPTY>
+<!ATTLIST wrdct          count NUMBER #REQUIRED>
+
+
+<!ELEMENT x     - -  (#PCDATA)>
+
+
+
+
+<!-- ==========================================
+          6. FORMATTING ELEMENTS
+     ========================================== -->
+
+<!ELEMENT b      - - (%maths;)> 
+
+<!ELEMENT i      - - (%maths;)>
+
+<!ELEMENT of      - - (%maths;)> 
+
+<!ELEMENT ol      - - (%maths;)> 
+
+<!ELEMENT rm      - - (%maths;)> 
+
+<!ELEMENT scaps    - - (%maths;)> 
+
+<!ELEMENT scr     - - (%maths;)> 
+
+<!ELEMENT sl      - - (%maths;)> 
+
+<!ELEMENT ss      - - (%maths;)> 
+
+<!ELEMENT strike      - - (%maths;)> 
+
+<!ELEMENT sub     - - (%maths;)> 
+
+<!ELEMENT sup     - - (%maths;)> 
+
+<!ELEMENT tt      - - (%maths;)> 
+
+<!ELEMENT u      - - (%maths;)> 
+
+<!ELEMENT up      - - (%maths;)> 
+
+<!ELEMENT uu      - - (%maths;)> 
+
+
+<!-- ==========================================
+             END FORMATTING ELEMENTS
+     ========================================== -->
+
+
+
+<!-- ==============================================================
+              7. REFERENCE ELEMENTS
+     ============================================================== -->
+
+<!ELEMENT bibl     - - (head?, bb+) >
+
+<!ELEMENT bb       - - (num?,(jnlref | bookref | thesref | absref | eref | otherref))  +(x | refmisc)>
+<!ATTLIST bb           id  ID #IMPLIED>
+
+<!ELEMENT jnlref    - - ((au | collab)+ & etal? & cd & tl & pubtl & vid & iid? & supp? & ppf & ppl? & medline? & doi? & inpress? & trans? & extlink*)>
+
+<!ELEMENT absref    - - ((au | collab)+ & etal? & cd & tl & pubtl & vid & iid? & supp? & ppf & ppl? & medline? & doi? & inpress? & num? & trans? & extlink*)>
+
+<!ELEMENT bookref     - - ((au | collab)+ & etal? & cd & tl? & pubtl & voltl? & vid? & chptno? & ppf? & ppl? & pnm & loc? & edn? & editors? & proc? & inpress? & trans? & price? & isbn? & doi? & extlink*)>
+
+<!ELEMENT thesref   - - (au & cd & tl & loc & inpress? & trans? & thesis? & extlink*)>
+
+<!ELEMENT eref     - - (au | collab | etal | cd | inpress | trans  | extlink)+>
+
+<!ELEMENT otherref    - - (au | collab | etal | cd | tl | pubtl | voltl | vid | iid | chptno | supp | ppf | ppl | pnm | loc | edn | editors | proc | medline | doi | inpress | num | trans | thesis | meet | docid | extlink)*>
+<!ATTLIST otherref        type (software | patent | pres | report | other | jnl | book) other>
+
+<!-- ==============================================================
+          END OF REFERENCE ELEMENTS
+     ============================================================== -->
+
+
+
+<!-- ==============================================================
+          8. EXTERNAL OBJECTS
+     ============================================================== -->
+
+<!ELEMENT objg     - - (object | table)+>           
+
+<!ELEMENT object    - - ((filegrp | file+), head?, legend?, objnote?)>
+<!ATTLIST object        objtype (table | figure | formula) #REQUIRED>
+
+<!ELEMENT legend   - - (p+)>
+
+<!ELEMENT objnote   - - (p+)>
+
+<!ELEMENT file - o EMPTY>
+<!ATTLIST file     entname ENTITY #REQUIRED
+               id ID #REQUIRED>
+
+<!ELEMENT filegrp - - (file+)>
+<!ATTLIST filegrp id ID #REQUIRED>
+
+
+<!-- ==============================================================
+          END OF EXTERNAL OBJECTS
+     ============================================================== -->
+
+
+
+<!-- ==============================================================
+          9. TABLE ELEMENTS (CALS-based)
+     ============================================================== -->
+<!ELEMENT table   - -  (legend?, tbl+)>
+<!ATTLIST table   id   ID                #IMPLIED>
+<!ELEMENT tbl   - -  (tbltl?, tgroup+)>
+<!ATTLIST tbl   id   ID                  #IMPLIED
+               frame  (top|bottom|topbot|sides|all|none)#IMPLIED
+               colsep %yesorno;       #IMPLIED
+               rowsep %yesorno;       #IMPLIED
+               orient (port |land)    #IMPLIED
+               pgwide %yesorno;       #IMPLIED
+               type   (inline |icon |hscroll) "inline" >
+
+<!ELEMENT tbltl  - -  (p+) >
+
+<!ELEMENT tgroup  - -  (colspec*, thead?, tfoot?, tbody+, tfoot?)>
+<!ATTLIST tgroup  id     ID              #IMPLIED
+               cols   NUMBER          #REQUIRED
+               tabstyle NAME          #IMPLIED
+               colsep  %yesorno;      #IMPLIED
+               rowsep  %yesorno;      #IMPLIED
+               align   (left |right|center|justify|char) "left"
+               charoff NUTOKEN             "50"
+               char    CDATA               "" >
+
+<!ELEMENT thead   - -  (colspec*, row+) >
+<!ATTLIST thead   valign  (top |middle|bottom) "bottom" >
+
+<!ELEMENT tbody   - -  (row+) >
+<!ATTLIST tbody   valign  (top |middle|bottom)"top" >
+
+<!ELEMENT tfoot   - -  (colspec*, row+) +(num)>
+<!ATTLIST tfoot   valign  (top |middle|bottom)"bottom" >
+
+<!ELEMENT colspec - o  EMPTY >
+<!ATTLIST colspec colnum  NUMBER      #IMPLIED
+               colname   NMTOKEN   #IMPLIED
+               colsep  %yesorno;   #IMPLIED
+               rowsep  %yesorno;   #IMPLIED
+               align   (left|right|center|justify|char)#IMPLIED
+               charoff  NUTOKEN    #IMPLIED
+               char     CDATA      #IMPLIED
+               colwidth CDATA      #IMPLIED >
+
+
+
+<!ELEMENT row     - -  (entry+) >
+<!ATTLIST row     rowsep   %yesorno;         #IMPLIED >
+
+<!ELEMENT entry   - -  (%data;)+ >
+<!ATTLIST entry   colname   NMTOKEN          #IMPLIED
+               namest    NMTOKEN          #IMPLIED
+               nameend   NMTOKEN          #IMPLIED
+               morerows  NUMBER           "0"
+               colsep    %yesorno;        #IMPLIED
+               rowsep    %yesorno;        #IMPLIED
+               rotate    NUMBER           "0"
+               valign    (top |middle |bottom) #IMPLIED
+               align     (left |right |center |justify |char)#IMPLIED
+               charoff   NUTOKEN          #IMPLIED
+               char      CDATA            #IMPLIED >
+
+<!-- ===================================================
+          END OF TABLE
+     ==================================================== -->
+
+
+
+<!-- ===================================================
+               10. MATHS ELEMENTS 
+                    based on 
+               Mathematical Markup Language, (MathML), 
+          1.0 Specification, W3C Recommendation 07-April-1998)
+     ==================================================== -->
+
+
+<!--MathML parameter entities for attributes-->
+<!ENTITY % a-globl      'class CDATA #IMPLIED
+                         style CDATA #IMPLIED
+                         id    ID    #IMPLIED
+                         other CDATA #IMPLIED'>
+<!ENTITY % a-open       'open CDATA #IMPLIED'>
+<!ENTITY % a-close      'close CDATA #IMPLIED'>
+<!ENTITY % a-separ      'separat CDATA #IMPLIED'>
+<!ELEMENT tex      - -  CDATA>
+
+
+<!ELEMENT math      - -  (%maths; | tex)+   -(math)>
+<!ELEMENT mrow      - -  (%maths;)>
+<!ATTLIST mrow      %a-globl;>
+
+<!ELEMENT mfrac          - -  (mrow, mrow)>
+<!--mfrac: 1st mrow is numerator; 2nd is denominator-->
+
+<!ELEMENT msqrt          - -  (%maths;)>
+<!ELEMENT mroot          - -  (mrow, mrow)>
+<!--mroot: 1st mrow is base; 2nd is index-->
+
+<!ELEMENT msubsup        - -  (mrow, mrow, mrow)>
+<!--msubsup: 1st mrow is base; 2nd is subscript; 3rd is superscript-->
+
+<!ELEMENT mmultscr  - -  (mrow, (mrow, mrow)+, (mprescr, (mrow, mrow)+)?)>
+<!--msubsup: 1st mrow is base; (2nd is subscript; 3rd is superscript). 
+    (mrow, mrow) following mprescr are (subscript, superscript)-->
+
+<!ELEMENT munder         - -  (%maths;)>
+<!ELEMENT mover          - -  (%maths;)>
+<!ELEMENT mundrovr     - -  (mrow, mrow, mrow)>
+<!--mundrovr: 1st mrow is base; 2nd is underscript; 3rd is overscript-->
+
+<!ELEMENT mtable         - -  (mtr+)>
+<!ELEMENT mtext         - -  (%maths;)>
+<!ELEMENT mtr            - -  (mtd+)>
+<!ELEMENT mtd            - -  (%maths;)>
+<!ELEMENT mfenced        - -  (%maths;)>
+<!ATTLIST mfenced   %a-open;
+                    %a-close;
+                    %a-separ;
+                    %a-globl;>
+<!ELEMENT mprescr   - o EMPTY>
+<!ATTLIST mprescr   %a-globl;>
+
+<!-- ===================================================
+               END OF MATHS ELEMENTS
+     =================================================== -->
+
+
+
+
+
+<!-- ==============================================================
+     11. LIST OF ELEMENTS (can be used as Author/Editor RulesBuilder .tag file)
+     ============================================================== -->
+<!--
+abs     "abstract"
+absinfo     "abstracting information before/after abstract"
+absref     "bibliographic reference to an abstract"
+abstract     "abstract document type"
+acc     "accepted for publication"
+ack     "acknowledgement"
+aff     "affiliation"
+aid     "unique article identification number"
+ancmnt     "announcement article type"
+app     "appendix"
+artgrp     "article group"
+article     "article document type"
+artinfo     "article information"
+artty     "article type"
+au     "author"
+aug     "author group"
+b     "bold"
+bb     "bibliographic reference"
+bibl     "bibliographic reference group"
+bkdetail     "holds bookrefs for details of books reviewed"
+bm     "back matter"
+bmisc     "back matter miscellaneous material"
+body     "body"
+bookref     "book reference in bibliography"
+bookrev     "book review article type"
+br     "line break"
+calendar     "calendar document type"
+categ     "category"
+cau     "correspondence author"
+cd     "cover date"
+cdn     "Coden"
+chptno     "chapter number"
+collab     "collaboration"
+colspec     "column specification in table"
+comment     "comment for author queries etc. (SGML-in)"
+conf     "conference"
+crn     "copyright notice"
+def     "definition within defg"
+defg     "definition group (e.g. abbreviations, nomenclature, drug names)"
+defn     "definition of the term within def"
+degs     "degrees"
+dispchg     "display change (for sections displayed in e.g. smaller type: SGML-in)"
+doc     "top-level element"
+docid     "document identifier in references e.g. 'Working paper SAC94/WP14'"
+doi     "Digital Object Identifier number"
+editors     "book editors"
+edn     "book edition"
+eissn     "electronic ISSN"
+entry     "table entry"
+eqnct     "equation count"
+eref     "electronic bibliographic reference item (e.g. paper on WWW)"
+etal     "words 'et al.'"
+extlink     "link outside the document"
+figct     "figure count"
+file     "holds entname of external object"
+filegrp     "holds group of files for e.g. figure parts a,b,c etc."
+fngroup     "first page footnote group"
+fnms     "first name(s)"
+footnote     "foot note"
+formula     "formula"
+grptl     "title of group of articles e.g. Letters to the Editors"
+head     "head"
+header     "header section"
+heading     "heading in article title group"
+hst     "history"
+i     "italic"
+iid     "issue number"
+inpress     "text indicating 'in press'"
+isbn     "ISBN number"
+issn     "ISSN number"
+jabt     "journal abbreviated title"
+jalt     "journal altenate title"
+jid     "publishers journal identification code"
+jinfo     "journal information"
+jnlref     "journal reference in bibliography"
+jsbt     "journal sub-title"
+kwd     "keyword"
+kwdg     "keyword group"
+legend     "object legend"
+letter     "letter document type"
+li     "list item"
+linkr     "link within a document to an ID (e.g. links to refs, figs, tables, footnotes and affiliations)"
+list     "list"
+loc     "location"
+math     "contains tagged math"
+medline     "Medline article number"
+meet     "details of meetings, workshops, conferences etc. in refs"
+mfenced      "surround content with a pair of fences"
+mfrac      "form a fraction from two subexpressions"
+misc     "miscellaneous date in article history"
+mmultscr      "attach prescripts and tensor indices to a base"
+mover      "attach an overscript to a base"
+mprescr       "add prescripts to mmultscr"
+mroot      "form a radical with an index"
+mrow      "horizontal group of math subexpressions"
+msqrt      "square root construction"
+msubsup      "attach a subscript-superscript pair to a base"
+mtable      "table or matrix"
+mtd      "table or matrix cell"
+mtext      "text in math"
+mtr      "table or matrix row"
+munder      "attach an underscript to a base"
+mundrovr      "attach an underscript-overscript pair to a base"
+notes     "contains footnotes"
+num     "number (e.g. in a Vancouver style reference list, an equation or numbered list"
+object     "external object e.g. a figure"
+objg     "object group"
+objnote     "note to an object"
+of     "open face font"
+ol     "overline (i.e. a line over characters)"
+otherref     "undefined reference item"
+p     "paragraph"
+ped     "pedigree e.g. Jr or III in author name"
+pinfo     "information about publisher"
+pnm     "publisher's name"
+ppct     "page count"
+ppf     "first page"
+ppl     "last page"
+price     "price of book in book review"
+proc     "text indicating proceedings in book reference"
+pubaid     "publisher's id number for article"
+pubtl     "title of publication in references"
+qt     "displayed quote"
+re     "received date"
+refct     "bibliographic reference count"
+refmisc     "misc. material in a bibl. reference"
+reply     "reply to a letter"
+res     "resume: translated abstract"
+rhatl     "running head, short title"
+rhau     "running head, authors"
+rheads     "running heads"
+rm     "roman text"
+roles     "roles of author"
+row     "table row"
+rv     "revised date"
+sbt     "sub-title"
+scaps     "small caps"
+scr     "script font"
+sl     "sloping font"
+snm     "surname of author"
+snmprefx     "e.g. 'von', 'de', 'ter' etc."
+source     "source of displayed quotation"
+sponsor     "information on article/supplement/issue sponsors"
+ss     "sans serif"
+strike     "strikethrough"
+sub     "subscript"
+subc     "subject code"
+subg     "subject code group"
+sup     "superscript"
+supaid     "supplier id number of article"
+supp     "supplement indicator"
+tabct     "table count"
+table     "holds legend and tbl"
+tbl     "table"
+tbltl     "table title"
+tbody     "table body"
+term     "followed or preceded by definition within def"
+tex     "TeX version of equations"
+tfoot     "footnote/footer to table"
+tgroup     "table group"
+thead     "table head"
+thesis     "words indicating thesis"
+thesref     "thesis reference item"
+tig     "title group"
+title     "title of author"
+tl     "title of article or reference item"
+tltrans     "translated article title"
+trans     "note of translator/translation in reference"
+tt     "typewriter-type font"
+typenm     "name of typesetting company"
+u     "single underline"
+up     "upright font"
+urlabs     "url for access to the abstract of this article (free access)"
+urlfull     "url for access to the full text of this article (subscriber access)"
+uu     "double underline"
+vid     "volume number"
+voltl     "book volume title"
+wrdct     "word count"
+x     "start of punctuation or untagged pcdata"
+-----
+180  elements
+-->
+
+<!-- ==============================================================
+          12. CHANGES SINCE FIRST 3.0 DRAFT
+     ============================================================== -->
+<!--
+
+27 Aug 1998
+1. 'voltl' added to bookref for subtitles in book series.
+
+15 Sept 1998
+1. Erroneous o o  in jid model changed to - -
+
+23 Sept MC 1998
+1. 'p' allowed more than once in 'aff' - -
+
+25 Sept MC 1998
+1. 'br' allowed in 'kwdg' - -
+
+Jan 1999
+1. Contents of tex changed to 'CDATA'
+
+24 Mar 1999
+1. 'Open face' entity list added.
+
+22 April 1999
+1. X element changed to make end tag mandatory. ROB
+
+16 December 1999
+1. IID made mandatory.
+
+15 March 1999
+1. LINKTYPE and LINKID added to EXTLINK attribute list for DTD 4-0 forward compatibility etc. TYPE attribute changed to #IMPLIED.
+2. EXTLINK added to reference content models.
+
+20 March 2001
+1. strike added to formatting elements to allow tagging of strikethrough text.
+
+
+2 August 2001
+1. objg added to %bodytxt;
+2. bibl added to app
+-->
+
+<!-- ========================================================
+          END OF CHANGES SINCE FIRST 3.0 DRAFT
+     ======================================================== -->
+<!-- ========================================================
+                    END OF DTD
+     ======================================================== -->
+
+
+
+<!--]>-->
+
+

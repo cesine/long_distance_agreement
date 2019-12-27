@@ -1,0 +1,2215 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="28"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 28 - Freezing Effects.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">383</page>
+<page type="last">406</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="2"/>
+<count type="table" count="49"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="48"/>
+<count type="page" count="24"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20050811"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 28&ensp;Corver: Freezing Effects</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 28&ensp;Corver: Freezing Effects</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">28 Freezing Effects</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>NORBERT</forenames><x> </x><surname>CORVER</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction.&nbsp;.&nbsp;.&nbsp;</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Ross&apos;s ISP and Wexler and Culicover&apos;s Freezing Principle</p>
+</li>
+<li level="2">
+<number>2.1&ensp;</number>
+<p>The Immediate Self-Domination Principle</p>
+</li>
+<li level="2">
+<number>2.2&ensp;</number>
+<p>The Freezing Principle and the Raising Principle</p>
+</li>
+<li level="2">
+<number>2.3&ensp;</number>
+<p>Freezing and the Cycle</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>The frozenness of raised constituents</p>
+</li>
+<li level="2">
+<number>3.1&ensp;</number>
+<p>The frozenness of rightward-moved constituents</p>
+</li>
+<li level="2">
+<number>3.2&ensp;</number>
+<p>The frozenness of leftward-moved constituents</p>
+</li>
+<li level="2">
+<number>3.3&ensp;</number>
+<p>Freezing and substitution</p>
+</li>
+<li level="2">
+<number>3.4&ensp;</number>
+<p>Analyses of the frozenness of moved constituents</p>
+</li>
+<li level="3">
+<number>3.4.1&ensp;</number>
+<p>Locality</p>
+</li>
+<li level="3">
+<number>3.4.2&ensp;</number>
+<p>Incomplete antecedents</p>
+</li>
+<li level="2">
+<number>3.5&ensp;</number>
+<p>Thawing effects</p>
+</li>
+<li level="2">
+<number>3.6&ensp;</number>
+<p>(Apparent) counter-examples to Freezing</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>The frozenness of adjunction sites</p>
+</li>
+<li level="2">
+<number>4.1&ensp;</number>
+<p>The frozenness of right-adjunction configurations</p>
+</li>
+<li level="2">
+<number>4.2&ensp;</number>
+<p>The frozenness of left-adjunction configurations</p>
+</li>
+<li level="2">
+<number>4.3&ensp;</number>
+<p>Analyses of the frozenness of adjunction sites</p>
+</li>
+<li level="2">
+<number>4.4&ensp;</number>
+<p>Absence of Freezing</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1 Introduction</heading>
+<p>This chapter discusses the phenomenon of Freezing. Freezing is an island effect that is associated with certain movement-derived structures. The general idea is that a phrase from which, in principle, an element can be extracted turns into an island for extraction when that phrase has been involved in some movement process, either as the moved item or as the site to which the moved phrase gets attached. Thus, phrases that have been moved become islands for extraction; they get frozen, so to speak. And phrases to which an element has been attached via some movement operation also turn into islands (i.e., frozen domains).</p>
+<p>The organization of this chapter is as follows. In <link rid="ss3">section 2</link>, two early generative studies will be presented that discuss the phenomenon of Freezing, namely <link rid="b1">Ross (1974b</link>) and <link rid="b2">Wexler and Culicover (1980</link>). <link rid="ss7">Section 3</link> discusses the frozenness of moved constituents and <link rid="ss16">section 4</link> deals with the frozenness of certain movement-derived configurations (involving adjunction).</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2 Ross&apos;s ISP and Wexler and Culicover&apos;s Freezing Principle</heading>
+<subsection id="ss4" level="2">
+<heading id="h3" level="2">2.1&ensp;The Immediate Self-Domination Principle</heading>
+<p>As Ross pointed out in his seminal dissertation (1986, dissertation 1967), certain phrase structure configurations are inaccessible to transformational rules. These island effects led to the formulation of a number of constraints in linguistic theory, such as the Complex NP Constraint, the Sentential Subject Constraint, and the Coordinate Structure Constraint. In <link rid="b1">Ross (1974b</link>), the question was raised whether (some of) the island constraints could be subsumed under a more general island constraint. He argued that the Complex NP-configuration (CNPC) and the Coordinate Structure configuration (CSC) shared one phrase structural property: the containing node out of which an element is removed is a self-dominating node, i.e., a node which immediately dominates another node of the same type. This is illustrated in (1):</p>
+<p>(1)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;<sub>NP</sub> &lsqb;<sub>NP</sub> the fact&rsqb; &lsqb;<sub>S</sub> which they uncovered&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>ConjP</sub> &lsqb;<sub>ConjP</sub> his socks&rsqb; or &lsqb;<sub>ConjP</sub> his gloves&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The CNPC and the CSC were unified under what Ross called the Immediate Self-Domination Principle:<link rid="fn1">
+<sup>1</sup></link>
+</p>
+<p>(2)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>The Immediate Self-Domination Principle (ISP):</b>
+</entry>
+</row>
+<row><entry>No element may be Chopped out of a node which immediately dominates another node of the same type.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Given the fact that self-dominating nodes represent Chomsky-adjunction configurations, the ISP states that extraction of a constituent out of an adjoined structure is prohibited. Schematically:</p>
+<p>(3)&ensp;<object id="fu1" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_28_fu1.jpg" type="jpg" id="fu1_source"/>
+</objectsource>
+</object>
+</p>
+<p>As implied by the ISP, islandhood holds not only for base-generated adjunction configurations, but also for movement-derived adjunction configurations. Ross illustrates this with the island-creating effect of the transformational rule Complex NP-Shift, which moves a constituent to the right of the clause:<link rid="fn2">
+<sup>2</sup></link>
+</p>
+<p>(4)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>She will send &lsqb;a picture of the Waco Post Office&rsqb; &lsqb;to Inspector Smithers&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>She will send t<sub>i</sub> &lsqb;to Inspector Smithers&rsqb; &lsqb;a picture of the Waco Post Office&rsqb;<sub>i</sub>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(5)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;The Waco Post Office&rsqb;<sub>j</sub> she will send &lsqb;a picture of t<sub>j</sub>&rsqb; &lsqb;to Inspector Smithers&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry><sup>??</sup>&lsqb;The Waco Post Office&rsqb;<sub>j</sub> she will send t<sub>i</sub> &lsqb;to Inspector Smithers&rsqb; &lsqb;a picture of t<sub>j</sub>&rsqb;<sub>i</sub>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As <link rid="b1">Ross (1974b</link>: 103) observes, &ldquo;it is more difficult to chop constituents from the shifted constituent than it is to chop them from an unshifted one.&rdquo;<link rid="fn3">
+<sup>3</sup></link> Compare (5a) and (5b). The ISP accounts for this contrast: After NP-shift, we get a phrasal S-node which immediately dominates another S-node; removal of a constituent out of this (S-)adjunction configuration is blocked.</p>
+<subsection id="ss5" level="3">
+<heading id="h4" level="3">2.2 The Freezing Principle and the Raising Principle</heading>
+<p>The island-creating effect of certain movement operations was independently observed by <link rid="b3 b2">Wexler and Culicover (1977, 1980</link>), who proposed a theory of locality on the basis of learnability considerations. They discern two types of &lsquo;frozen&rsquo; nodes:</p>
+<listgroup id="l2" type="symbol">
+<li level="1">
+<number>&bull;&ensp;</number>
+<p>nodes that are frozen because they are non-structure preserving (i.e., having a non-base-immediate structure) (frozenness because of the so-called Freezing Principle (see (7));</p>
+</li>
+<li level="1">
+<number>&bull;&ensp;</number>
+<p>nodes that are frozen because they are moved/raised (frozenness because of the Raising Principle (see (9)).</p>
+</li>
+</listgroup>
+<p>The first type of frozen node is the result of the application of a non-structure-preserving adjunction operation: a syntactic node gets frozen if a transformation changes the structure of that node so that it is no longer a base structure. Thus, those nodes that represent derived structures that are not base generable form islands for transformational rules. Such rules which derive a non-base-generable node A are dubbed rules which are &lsquo;non-structure-preserving at a node A&rsquo;. This notion is the opposite of &lsquo;structure-preserving at a node A&rsquo;, which is defined as follows (definition taken from <link rid="b4">Culicover 1982</link>):<link rid="fn4">
+<sup>4</sup></link>
+</p>
+<quotation>
+<p>A transformation is structure-preserving at a node A just in case the structure immediately dominated by A after the transformation has applied to A is a structure that could have been generated immediately below A as a base expansion by the phrase structure rules.</p>
+</quotation>
+<p>Given this definition, we could say that the derived structure represented by node A in (6) forms an island for extraction, if there is no Phrase Structure rule A &rarr; B C D which can base generate this order in the base component of the grammar. That is, the output B C D is non-base generable, but is the result of some transformational rule which is non-structure preserving at node A.<link rid="fn5">
+<sup>5</sup></link> Such nodes to which a non-structure-preserving transformation has applied are frozen nodes. The principle of grammar which blocks extraction out of frozen nodes can now be stated as in (7):</p>
+<p>(6)&ensp;<object id="fu2" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_28_fu2.jpg" type="jpg" id="fu2_source"/>
+</objectsource>
+</object>
+</p>
+<p>(7)&ensp;<b>Freezing Principle (FP) (</b>
+<link rid="b2">
+<b>Wexler and Culicover 1980</b></link><b>: 119):</b>
+</p>
+<p>If a node A of a Phrase-marker is frozen, no node dominated by A may be analyzed by a transformation.</p>
+<p>Consider now the following examples:</p>
+<p>(8)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Who<sub>j</sub> did John &lsqb;<sub>VP</sub> send an expensive book about horned frogs &lsqb;to t<sub>j</sub>&rsqb;&rsqb;?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Who<sub>j</sub> did John &lsqb;<sub>VP</sub> send t<sub>i</sub> &lsqb;to t<sub>j</sub>&rsqb; &lsqb;an expensive book about horned frogs&rsqb;<sub>i</sub>&rsqb;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>If the base structure of the VP consists of the sequence V NP PP (i.e., VP &rarr; V NP PP in terms of phrase structure rules) and if the structural change of Heavy NP-Shift corresponds to the structure &lsqb;<sub>VP</sub> V PP NP&rsqb; &ndash; a non-base-generable order &ndash; it follows by the definition of &lsquo;non-structure preserving&rsquo; that the VP in which Heavy NP-Shift has applied is frozen. The Freezing Principle in (7) states that it is impossible to analyze this frozen VP. This is illustrated in (8): even though <i>wh</i>-fronting may apply to the object of the preposition <i>to</i> in (8a), it is impossible to strand the preposition in (8b), a structure in which Heavy NP-Shift has applied. The node to which the adjunction is made, i.e., VP, is frozen.</p>
+<p>Let us next turn to the second type of frozen node: that is, a node that is frozen because it has undergone Raising, i.e., (structure-preserving) movement of a constituent from one cyclic domain to another (S and NP being the traditional cyclic domains; cf. <link rid="b5">Chomsky 1973</link>). More specifically, Wexler and Culicover formulate the locality principle as follows:</p>
+<p>(9)&ensp;<b>Raising Principle (RP) (</b>
+<link rid="b2">
+<b>Wexler and Culicover 1980</b></link><b>: 143):</b>
+</p>
+<p>If a node A is raised, then no node that A dominates may be used to fit a transformation.</p>
+<p>Wexler and Culicover illustrate the application of the Raising Principle with the following example (among others):</p>
+<p>(10)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;<sub>S</sub> &lsqb;<sub>NP</sub> Some people <i>from Philadelphia</i>&rsqb; greeted me&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>S</sub> &lsqb;<sub>NP</sub> Some people t<sub>i</sub>&rsqb; greeted me &lsqb;<i>from Philadelphia</i>&rsqb;<sub>i</sub>&rsqb;.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*&lsqb;What city&rsqb;<sub>j</sub> did you expect &lsqb;<sub>S</sub> &lsqb;<sub>NP</sub> some people t<sub>i</sub>&rsqb; to greet you &lsqb;<sub>PP</sub> from t<sub>j</sub>&rsqb;<sub>i</sub>&rsqb;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (10b), a PP has been extraposed from the cyclic node NP to a sentence-final position within the dominating cyclic node S. As shown by (10c), this PP cannot be analyzed by a transformation like <i>wh</i>-fronting. In this respect, it differs from an example like (11), in which the NP has been extracted from a (non-extraposed) PP which is part of an NP occupying a VP-final object position:</p>
+<p>(11)&ensp;This is the only city &lsqb;<i>WH</i><sub>j</sub> that &lsqb;you have to provide &lsqb;an analysis &lsqb;<sub>PP</sub> of t<sub>j</sub>&rsqb;&rsqb;&rsqb;&rsqb;.</p>
+<p>Importantly, the derived structure in (10b) (displaying the linear sequence V NP PP) is a possible base structure. Compare, for example, (10b) with example (12):</p>
+<p>(12)&ensp;&lsqb;<sub>S</sub> Some people &lsqb;<sub>VP</sub> &lsqb;<sub>V</sub> greeted&rsqb; &lsqb;<sub>NP</sub> me&rsqb; &lsqb;<sub>PP</sub> with enthusiasm&rsqb;&rsqb;&rsqb;.</p>
+<p>Given the fact that the derived order V NP PP is also a base-generable one, the frozenness of the extraposed PP cannot be explained, then, in terms of the Freezing Principle, which holds for non-structure-preserving contexts. It is the Raising Principle, as stated in (9), which blocks extraction of the complement of P. More particularly, the moved PP is the frozen node.</p>
+<p>Since in both cases, frozenness of A implies non-analyzability by transformational rules, the two subcases of freezing may be subsumed as subcases of a generalized Freezing Principle stating (cf. <link rid="b2">Wexler and Culicover (1980</link>: 542; note 6)):<link rid="fn6">
+<sup>6</sup></link>
+</p>
+<p>(13)&ensp;<b>The generalized Freezing Principle:</b>
+</p>
+<p>A node is frozen if (i) its immediate structure is non-base, or (ii) it has been raised.</p>
+<p>The essential characteristic of the Freezing Principle is clear from the following quotation from <link rid="b2">Wexler and Culicover (1980</link>: 120): &ldquo;In line with the Freezing Principle, we may think of the base grammar as providing <i>characteristic structures</i> of the language. Transformations sometimes distort these structures, but only these characteristic structures may be affected by transformations.&rdquo;</p>
+</subsection>
+</subsection>
+<subsection id="ss6" level="2">
+<heading id="h5" level="2">2.3&ensp;Freezing and the Cycle</heading>
+<p>Some further illustrations of the frozenness of moved constituents will be given in <link rid="ss7">section 3</link>. First, it is important to note the role of ordering of transformations in a derivation. The frozenness of moved constituents presupposes an ordering on the application of transformational rules. If no ordering were imposed, one might simply propose an alternative potential derivation of a sentence like (8b) according to which extraction of the complement to P applies before the heavy object NP is shifted rightward. In that case, P-stranding takes place prior to Heavy NP-Shift.</p>
+<p>Although originally, ordering was defined at the level of specific transformational rules (rule A applying before rule B, etc.), it was captured by the more general principle of the Cycle as introduced in <link rid="b6">Chomsky (1964a</link>).<link rid="fn7">
+<sup>7</sup></link> In line with this principle, the rule shifting the heavy NP to a position adjoined to VP must apply first, because it involves the smallest domain, viz. VP. The rule which fronts the NP-complement to P must follow PP-extraposition, since it involves a larger cyclic domain, viz. CP. Thus, the Principle of the Cycle will require that rightward movement takes place first in those structural contexts. In the rest of this chapter, the principle of the Cycle is supposed to regulate the transformations in the derivation of the various constructions that will be discussed; the application of this principle of grammar in the derivation of a given construction will not always be explicitly mentioned.</p>
+</subsection>
+</subsection>
+<subsection id="ss7" level="1">
+<heading id="h6" level="1">3 The frozenness of raised constituents</heading>
+<subsection id="ss8" level="2">
+<heading id="h7" level="2">3.1 The frozenness of rightward-moved constituents</heading>
+<p>Consider the following structures that have been argued to involve rightward movement of the phrase in italics. In (14), the phrase <i>a book about linguistics</i> has undergone Heavy/Complex NP-Shift. The examples in (15) illustrate PP-extraposition (see <related relationship="sibling" type="samework"><externallink id="chapter 25 - Extraposition.xml" type="file">chapter 25</externallink></related>). (16), finally, exemplifies the phenomenon of CP-extraposition; in these examples, extraposition from within a noun phrase has taken place:</p>
+<p>(14)&ensp;I gave &ndash; to John <i>a book about linguistics.</i>
+</p>
+<p>(15)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>I saw &lsqb;a book &ndash;&rsqb; yesterday <i>about lazy pronouns</i>.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John put his finger &ndash; yesterday <i>into his sister&apos;s throat</i>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(16)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John announced &lsqb;a plan &ndash;&rsqb; yesterday <i>PRO to fix Mary&apos;s car</i>.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John met &lsqb;a child&rsqb; yesterday <i>who read Syntactic Structures</i>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The examples in (17) show that after Heavy/Complex NP-Shift, the noun phrase has become an island for extraction. Thus, a rightward-moved noun phrase is frozen:<link rid="fn8">
+<sup>8</sup></link>
+</p>
+<p>(17)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*What<sub>j</sub> did you give t<sub>i</sub> to John &lsqb;a book about t<sub>j</sub>&rsqb;<sub>i</sub>?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Who<sub>j</sub> did you see t<sub>i</sub> yesterday &lsqb;some beautiful pictures of t<sub>j</sub>&rsqb;<sub>i</sub>?</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*Horned frogs<sub>j</sub>, John sent t<sub>i</sub> to Horace &lsqb;an expensive book about t<sub>j</sub>&rsqb;<sub>i</sub>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The frozenness of extraposed PPs is shown by the ill-formedness of the following examples:<link rid="fn9 fn10">
+<sup>9,10</sup></link>
+</p>
+<p>(18)&ensp;<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*&lsqb;What kind of pronouns&rsqb;<sub>j</sub> did you read &lsqb;a book t<sub>i</sub>&rsqb; yesterday &lsqb;about t<sub>j</sub>&rsqb;<sub>i</sub>?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*&lsqb;Whose throat&rsqb;<sub>j</sub> did John put his finger t<sub>i</sub> yesterday &lsqb;into t<sub>j</sub>&rsqb;<sub>i</sub>?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Thus, after extraposition of PP, preposition stranding is blocked. As shown in (19), preposition stranding is generally permitted if the PP occupies its base position:</p>
+<p>(19)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;What kind of pronouns&rsqb;<sub>i</sub> did you read &lsqb;a book about t<sub>i</sub>&rsqb; yesterday?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;Whose throat&rsqb;<sub>i</sub> did John put his finger &lsqb;into t<sub>i</sub>&rsqb; yesterday?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As shown in (16), a clause can be extraposed out of a noun phrase. It is well known that a non-extraposed clause constitutes an island for extraction (cf. <link rid="b7">Ross&apos;s 1986</link> CNPC). As <link rid="b2">Wexler and Culicover (1980</link>) observe, there is no complex NP after extraposition of the clause; however, removal of an element from within the clause is still impossible. This is exemplified in (20). This opacity of the extraposed clause follows if moved phrases are frozen, i.e., non-analyzable for subextraction operations (i.e., Wexler and Culicover&apos;s RP):<link rid="fn11">
+<sup>11</sup></link>
+</p>
+<p>(20)&ensp;<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*&lsqb;Whose car&rsqb;<sub>j</sub> did John announce &lsqb;a plan t<sub>i</sub>&rsqb; yesterday &lsqb;PRO to fix t<sub>j</sub>&rsqb;<sub>i</sub>?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*&lsqb;Which book&rsqb;<sub>j</sub> did you meet &lsqb;a child t<sub>i</sub>&rsqb; yesterday &lsqb;who read t<sub>j</sub>&rsqb;<sub>i</sub>?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In short, the above phenomena show that rightward-moved constituents are frozen, i.e., constituents contained within the moved phrase cannot be moved to a position external to it.</p>
+</subsection>
+<subsection id="ss9" level="2">
+<heading id="h8" level="2">3.2 The frozenness of leftward-moved constituents</heading>
+<p>Let us next turn to those Freezing effects in which the frozen constituent is one which has undergone leftward movement and ends up left-adjoined to some higher phrase. In English, the following examples of embedded topicalization have been analyzed as instances of leftward adjunction to IP (S) (cf. <link rid="b8 b9">Baltin 1978b, 1982</link>; <link rid="b10">Johnson 1986</link>; <link rid="b11">Lasnik and Saito 1992</link>):</p>
+<p>(21)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>I think that &lsqb;reviews of his books&rsqb;<sub>i</sub> John never reads t<sub>i</sub>.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>I think that &lsqb;articles about vowel harmony&rsqb;<sub>i</sub> you should read t<sub>i</sub> carefully.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Under the assumption that the topicalized phrase is adjoined to IP, we get the following structure:</p>
+<p>(22)&ensp;.&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>CP</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>IP</sub> NP<sub>i</sub> &lsqb;<sub>IP</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;t<sub>i</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;&rsqb;&rsqb;</p>
+<p>This structure would be unanalyzable for further transformations both under Ross&apos;s ISP and under Wexler and Culicover&apos;s Freezing Principle (or generalized Freezing Principle). Under the ISP, the node IP would be a frozen node, since it is a self-dominating node. Under the Freezing Principle, as defined by Wexler and Culicover, IP would be a frozen node if the adjunction is non-structure preserving.</p>
+<p>As shown by the following examples from <link rid="b11">Lasnik and Saito (1992</link>: 101), extraction out of the clause-internally topicalized noun phrase yields a very marginal sentence (see <related relationship="sibling" type="samework"><externallink id="chapter 23 - Embedded Root Phenomena.xml" type="file">chapter 23</externallink></related>):<link rid="fn12">
+<sup>12</sup></link>
+</p>
+<p>(23)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry><sup>??</sup>Vowel harmony<sub>j</sub>, I think that &lsqb;articles about t<sub>j</sub>&rsqb;<sub>i</sub> &lsqb;<sub>IP</sub> you should read t<sub>i</sub> carefully&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry><sup>??</sup>Who<sub>j</sub> do you think that &lsqb;pictures of t<sub>j</sub>&rsqb;<sub>i</sub> &lsqb;<sub>IP</sub> John wanted t<sub>i</sub>&rsqb;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Embedded topicalization also applies to PPs:</p>
+<p>(24)&ensp; I think that &lsqb;to Mary&rsqb;<sub>i</sub> John gave a book t<sub>i</sub>.</p>
+<p>As <link rid="b12">Postal (1972</link>) observed, extraction of the complement to P is impossible (cf. (25a)) in a derived structure like (24). In other words, P-stranding is blocked after the PP has been topicalized within the embedded clause. The islandhood of the moved PP in (24) could also be characterized as a Freezing effect. Of course, extraction is permitted from the base position (cf. (25b)):</p>
+<p>(25)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry><sup>?</sup>*Who<sub>j</sub> do you think that &lsqb;<sub>PP</sub> to t<sub>j</sub>&rsqb;<sub>i</sub>, John gave a book t<sub>i</sub>?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Who<sub>i</sub> do you think that John gave a book &lsqb;<sub>PP</sub> to t<sub>i</sub>&rsqb;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Other ill-formed extraction patterns given in the literature as illustrations of the freezing effect involve (leftward) scrambling. In languages like Dutch and German, it is impossible to remove an element out of a phrase that has been scrambled leftward in the so-called Middle Field of the clause (cf. <link rid="b13">Webelhuth 1989</link>; <link rid="b14">M&uuml;ller 1998</link>). Consider, for example, the contrast between (26) and (27) from Dutch. In (26), the PP-complement to V is in its base position (i.e., the position following the adverbial phrase); extraction of the R-pronoun <i>daar</i> from within the PP is permitted (cf. (26b)). In (27), on the contrary, the PP has been scrambled and does not occupy its base position any more. As a consequence, extraction of the R-pronoun out of the PP is impossible:<link rid="fn13">
+<sup>13</sup></link>
+</p>
+<p>(26)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Jan</entry>
+<entry>had</entry>
+<entry>nog</entry>
+<entry>nooit</entry>
+<entry>daarvan</entry>
+<entry>gehoord.</entry>
+</row>
+<row><entry>Jan</entry>
+<entry>had</entry>
+<entry>yet</entry>
+<entry>never</entry>
+<entry>there-of</entry>
+<entry>heard</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;Jan had never heard of it.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Daar<sub>i</sub>
+</entry>
+<entry>had</entry>
+<entry>Jan</entry>
+<entry>nog</entry>
+<entry>nooit</entry>
+<entry>&lsqb;t<sub>i</sub> van&rsqb;</entry>
+<entry>gehoord.</entry>
+</row>
+<row><entry>There</entry>
+<entry>had</entry>
+<entry>Jan</entry>
+<entry>yet</entry>
+<entry>never</entry>
+<entry>&ndash; of</entry>
+<entry>heard</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;Jan had never heard of it.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(27)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Jan</entry>
+<entry>had</entry>
+<entry>&lsqb;daarvan&rsqb;<sub>i</sub>
+</entry>
+<entry>nog nooit</entry>
+<entry>t<sub>i</sub> gehoord.</entry>
+</row>
+<row><entry>Jan</entry>
+<entry>had</entry>
+<entry>there-of</entry>
+<entry>not yet</entry>
+<entry>&ndash; heard</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;Jan had never heard of it.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Daar<sub>i</sub>
+</entry>
+<entry>had</entry>
+<entry>Jan</entry>
+<entry>&lsqb;t<sub>i</sub> van&rsqb;</entry>
+<entry>nog nooit</entry>
+<entry>gehoord.</entry>
+</row>
+<row><entry>There</entry>
+<entry>had</entry>
+<entry>Jan</entry>
+<entry>&ndash; of</entry>
+<entry>yet never</entry>
+<entry>heard</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;Jan had never heard of it.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Adopting an analysis in which the scrambled PP is left-adjoined to the VP, we get a structure like (28):</p>
+<p>(28)&ensp;.&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>IP</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>VP</sub> PP<sub>i</sub> &lsqb;<sub>VP</sub> ADVP&nbsp;.&nbsp;.&nbsp;.&nbsp;t<sub>i</sub> V&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;&rsqb;&rsqb;</p>
+<p>Ross&apos;s ISP would analyze the VP node as a frozen node, since it is a self-dominating node. Given the frozen status of VP, this structure would be unanalyzable for further transformations. According to Wexler and Culicover&apos;s theory, the frozenness of the VP would be attributable to the Freezing Principle. If the VP containing the leftward scrambled PP is non-structure preserving (i.e., having a non-base-immediate structure), it is frozen and therefore unanalyzable for further transformations.</p>
+</subsection>
+<subsection id="ss10" level="2">
+<heading id="h9" level="2">3.3 Freezing and substitution</heading>
+<p>The Freezing phenomena discussed thus far involve an adjunction configuration (i.e., if one follows the standard approach to these phenomena): a moved phrase XP that has been (left- or right-)adjoined to another phrase YP forms an island for extraction. Of course, one could propose to generalize the frozenness of moved phrases to all moved constituents, i.e., not only phrases that are input to an adjunction operation but also those that are input to a substitution operation. In that case, A-movement of a noun phrase to &lsqb;Spec, IP&rsqb; and A&prime;-movement of a phrase to &lsqb;Spec, CP&rsqb; would result in frozenness of the moved constituent.<link rid="fn14">
+<sup>14</sup></link>
+</p>
+<p>Freezing as a result of A-movement can be illustrated by means of the following examples from German (taken from <link rid="b15">M&uuml;ller 1995</link>):</p>
+<p>(29)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Wor&uuml;ber<sub>j</sub>
+</entry>
+<entry>ist von keinem</entry>
+<entry>&lsqb;ein Buch t<sub>j</sub>&rsqb;</entry>
+<entry>gelesen worden?</entry>
+</row>
+<row><entry>About-what</entry>
+<entry>is by no-one</entry>
+<entry>a book-NOM</entry>
+<entry>read been</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;No one has read a book about what?&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col5">*Wor&uuml;ber<sub>j</sub> ist &lsqb;ein Buch t<sub>j</sub>&rsqb;<sub>i</sub> von keinem t<sub>i</sub> gelesen worden?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>These examples represent passive constructions. In German, the nominative NP can remain in its base (i.e., direct object) position. As shown by (29a), <i>wh</i>-extraction of <i>wor&uuml;ber</i> from within the nominative NP that occupies its base position is possible. The ill-formedness of (29b) shows that A-movement of the noun phrase to &lsqb;Spec, IP&rsqb; turns the raised NP into a frozen constituent; subextraction of <i>wor&uuml;ber</i> is not allowed.</p>
+<p>As shown by (30), A-movement also induces a Freezing effect in English (cf. <link rid="b16">Huybregts 1976</link>; <link rid="b11">Lasnik and Saito 1992</link>; <link rid="b17">Collins 1994a</link>). Unlike German, English does not permit VP-internal nominative subjects in passive constructions; A-movement to &lsqb;Spec, IP&rsqb; is obligatory:<link rid="fn15">
+<sup>15</sup></link>
+</p>
+<p>(30)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Who<sub>j</sub> do you think that &lsqb;<sub>IP</sub> &lsqb;pictures of t<sub>j</sub>&rsqb;<sub>i</sub> were painted t<sub>i</sub>&rsqb;?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Which cars<sub>j</sub> were &lsqb;<sub>IP</sub> &lsqb;the hoods of t<sub>j</sub>&rsqb;<sub>i</sub> damaged t<sub>i</sub>&rsqb;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Freezing as a result of A&prime;-movement to &lsqb;Spec, CP&rsqb; is exemplified in (31) (cf. <link rid="b10">Johnson 1986</link>):<link rid="fn16">
+<sup>16</sup></link>
+</p>
+<p>(31)&ensp;<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry><sup>??</sup>&lsqb;Which guy&rsqb;<sub>j</sub> did you ask &lsqb;which picture of t<sub>j</sub>&rsqb;<sub>i</sub> she bought t<sub>i</sub>?</entry>
+</row>
+<row><entry>b.</entry>
+<entry><sup>??</sup>&lsqb;Which guy&rsqb;<sub>j</sub> did you wonder &lsqb;which story about t<sub>j</sub>&rsqb;<sub>i</sub> I had told t<sub>i</sub>?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Observe that <i>wh</i>-movement out of an in situ <i>wh</i>-phrase yields a better result:</p>
+<p>(32)&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry><sup>?</sup>&lsqb;Which guy&rsqb;<sub>j</sub> did you buy &lsqb;which picture of t<sub>j</sub>&rsqb;?</entry>
+</row>
+<row><entry>b.</entry>
+<entry><sup>?</sup>&lsqb;Which guy&rsqb;<sub>j</sub> did you tell me &lsqb;which story about t<sub>j</sub>&rsqb;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Given the ungrammaticality of the examples in (29b), (30), and (31), one might want to generalize the Freezing effect to all types of phrasal movement (i.e., A-movement, A&prime;-movement involving adjunction, and A&prime;-movement involving substitution); see <link rid="b14">M&uuml;ller (1998</link>) for such a proposal.</p>
+</subsection>
+<subsection id="ss11" level="2">
+<heading id="h10" level="2">3.4 Analyses of the frozenness of moved constituents</heading>
+<subsection id="ss12" level="3">
+<heading id="h11" level="3">3.4.1 Locality</heading>
+<p>The islandhood of moved constituents has never had a very prominent place in general theories of locality. Other island effects, such as the complex NP-island and the <i>wh</i>-island, have received much more attention in attempts to come to a more general, unified theory of locality. Neither <link rid="b18">Chomsky (1977b</link>) nor <link rid="b19">Chomsky (1986a</link>) contains a discussion of the phenomenon of freezing. <link rid="b10">Johnson (1986</link>: 3.2.2) shows, however, that the islandhood of moved constituents follows quite straightforwardly from Chomsky&apos;s Barriers theory.<link rid="fn17">
+<sup>17</sup></link> After having been moved, a phrase occupies a non-L-marked position (say, non-theta-governed). As a result of this, the phrase forms a Blocking Category (BC) and a Barrier for constituents that are dominated by it. Because the moved phrase is a BC, the maximal projection immediately dominating it (e.g., VP or IP) is also a Barrier. Movement out of constituent that has itself been moved thus crosses two Barriers, and hence violates the Subjacency Condition.</p>
+<p>Let us take as an illustration the examples in (17b) and (23b). The derived structures of these sentences is the following:</p>
+<p>(33)&ensp;*&lsqb;<sub>CP</sub> Who<sub>j</sub> did &lsqb;<sub>IP</sub> you &lsqb;<sub>VP</sub> &lsqb;<sub>VP</sub> see t<sub>i</sub> yesterday&rsqb; &lsqb;some beautiful pictures of t<sub>j</sub>&rsqb;<sub>i</sub>&rsqb;&rsqb;&rsqb;?</p>
+<p>(34)&ensp;*&lsqb;<sub>CP</sub> Who<sub>j</sub> do &lsqb;<sub>IP</sub> you think &lsqb;<sub>CP</sub> t&prime;<sub>j</sub> that &lsqb;<sub>IP</sub> &lsqb;pictures of t<sub>j</sub>&rsqb;<sub>i</sub> &lsqb;<sub>IP</sub> John wanted t<sub>i</sub>&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;?</p>
+<p>In the derivation of (33), the NP <i>some beautiful pictures of who</i> undergoes Heavy NP-Shift and gets adjoined to the VP. Since the shifted NP does not occupy its base position (i.e., sister to V), the NP is not L-marked and hence forms a BC and a Barrier for extraction. When the <i>wh</i>-phrase <i>who</i> is moved out of the shifted NP to the specifier of the embedded CP, it crosses three Barriers: the shifted NP, the higher VP, and IP.</p>
+<p>In (34), the noun phrase <i>pictures of who</i> has been topicalized within the embedded clause. It ends up in a position left-adjoined to the IP-node. Extraction out of the topicalized NP to the &lsqb;Spec, CP&rsqb; of the embedded clause violates the Subjacency Condition. Two Barriers are crossed: the moved NP is a blocking category and a barrier, since it is not L-marked; the IP to which the moved phrase is adjoined is a barrier by inheritance.</p>
+</subsection>
+<subsection id="ss13" level="3">
+<heading id="h12" level="3">3.4.2 Incomplete antecedents</heading>
+<p>In <link rid="b16">Huybregts (1976</link>), the Freezing phenomenon is explained in terms of a restriction on antecedents. He points out that by adopting Trace theory (cf. <link rid="b5 b20">Chomsky 1973, 1976</link>) it is possible to give a unified explanation of certain ill-formed relationships between an antecedent-phrase and an element that is linked to it. His starting point is the observation made by George <link rid="b21">Williams (1971</link>) that incomplete antecedents (i.e., antecedents from which an element has been removed) are bad as antecedents for pronominal elements. Consider for this the following pair (taken from <link rid="b16">Huybregts 1976</link>):</p>
+<p>(35)&ensp;<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The man who spoke to &lsqb;the mother of the boy&rsqb;<sub>i</sub> said she<sub>i</sub> was ill.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*The boy who<sub>j</sub> I saw &lsqb;the mother of t<sub>j</sub>&rsqb;<sub>i</sub> said she<sub>i</sub> was ill.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (35a), the (complete) noun phrase <i>the mother of the boy</i> can function as the antecedent of the pronoun <i>she</i>. As shown by the ill-formedness of (35b), an antecedent&ndash;anaphor relationship is impossible when the antecedent (<i>&lsqb;the mother of t</i><sub><i>j</i>
+</sub><i>&rsqb;</i>) is incomplete. Thus, schematically, the following configuration is impossible:</p>
+<p>(36)&ensp;<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>.&nbsp;.&nbsp;.&nbsp;Z&nbsp;.&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>X</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;t<sub>z</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;<sub>i</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;pron<sub>i</sub>
+</entry>
+</row>
+<row><entry>where t<sub>z</sub> is a trace of the moved element Z</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Huybregts points out that the Freezing-effect configuration correponds to the configuration in (36), the only difference being that instead of a lexical pronoun we have an empty element, more specifically &ldquo;a trace&rdquo;:</p>
+<p>(37)&ensp;<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>.&nbsp;.&nbsp;.&nbsp;Z&nbsp;.&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>X</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;t<sub>z</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;<sub>i</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;t<sub>i</sub>
+</entry>
+</row>
+<row><entry>where t<sub>z</sub> is a trace of the moved element Z and t<sub>i</sub> the trace of the moved element X</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In short, the Freezing effect is explained in terms of a restriction on antecedents: phrases from which an element has been removed are not proper antecedents for a dependency relation (e.g., antecedent&ndash;pronoun, antecedent&ndash;trace). This is stated more formally as follows (<link rid="b16">Huybregts 1976</link>: 346):</p>
+<p>(38)&ensp;<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Antecedent condition:</b>
+</entry>
+</row>
+<row><entry>No rule can refer to X, Y in the structure:</entry>
+</row>
+<row><entry>.&nbsp;.&nbsp;.&nbsp;X&nbsp;.&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>&alpha;</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;Y&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;&nbsp;.&nbsp;.&nbsp;.&nbsp;Z&nbsp;.&nbsp;.&nbsp;.</entry>
+</row>
+<row><entry>where Z is linked to &alpha;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Consider now how (39) is ruled out by this constraint:</p>
+<p>(39)&ensp;<sup>??</sup>&lsqb;<sub>CP</sub> Who<sub>j</sub> do &lsqb;<sub>IP</sub> you think &lsqb;<sub>CP</sub> t&prime;<sub>j</sub> that &lsqb;<sub>IP</sub> &lsqb;pictures of t<sub>j</sub>&rsqb;<sub>i</sub> &lsqb;<sub>IP</sub> John wanted t<sub>i</sub>&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;?</p>
+<p>The syntactic structure in (39) violates the Antecedent Condition: t<sub>i</sub> is the trace of the incomplete antecedent noun phrase <i>&lsqb;pictures of t</i><sub><i>j</i>
+</sub><i>&rsqb;</i>.</p>
+</subsection>
+</subsection>
+<subsection id="ss14" level="2">
+<heading id="h13" level="2">3.5 Thawing effects</heading>
+<p>The generalization formulated thus far is that a moved phrase forms an island for extraction. It was shown that a phrase XP that allows subextraction of an element when it occupies its base position turns into an island when it is in a derived position. Movement, in other words, has a Freezing effect.</p>
+<p>Although in general it seems true that a node gets inaccessible for subextraction after movement, it has been observed that sometimes movement has a thawing effect. That is, sometimes extraction out of a phrase XP gets better after XP has been moved to some position. In other words, movement of XP makes it (more) transparent for extraction.</p>
+<p>
+<link rid="b11">Lasnik and Saito (1992</link>: 100ff.), for example, observe such a thawing effect in the case of A&prime;-moved subject NPs. They agree with the observation that extraction is better from a direct object NP in its base position than from one in a derived position (e.g., &lsqb;Spec, CP&rsqb; (cf. (31)) or adjoined to IP (cf. (23)). They point out, however, that for subject-NPs we have the opposite effect: extraction from a subject-NP in &lsqb;Spec, IP&rsqb; (cf. (40)) is worse than removal from a subject-NP that has been moved to &lsqb;Spec, CP&rsqb; (cf. (41a)) or to a position adjoined to IP (cf. (41b)). In other words, movement of a subject NP to &lsqb;Spec, CP&rsqb; or a position adjoined to IP has a thawing effect; extraction from the subject NP is better when it is in a derived position (examples drawn from <link rid="b11">Lasnik and Saito 1992</link>: 101, 102):<link rid="fn18">
+<sup>18</sup></link>
+</p>
+<p>(40)&ensp;<sup>?</sup>*Who<sub>j</sub> do you think that &lsqb;pictures of t<sub>j</sub>&rsqb; are on sale?</p>
+<p>(41)&ensp;<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry><sup>??</sup>Who<sub>j</sub> do you wonder &lsqb;<sub>CP</sub> &lsqb;which picture of t<sub>j</sub>&rsqb;<sub>i</sub> &lsqb;<sub>IP</sub> t<sub>i</sub> is on sale&rsqb;&rsqb;?</entry>
+</row>
+<row><entry>b.</entry>
+<entry><sup>??</sup>Who<sub>j</sub> do you think that &lsqb;<sub>IP</sub> &lsqb;pictures of t<sub>j</sub>&rsqb;<sub>i</sub> &lsqb;<sub>IP</sub> Mary believes t<sub>i</sub> are on sale&rsqb;&rsqb;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The question, of course, arises how to account for the Freezing effect with moved object NPs and the thawing effect with moved subject NPs. Or if one puts it in terms of Subjacency, why does extraction out of a moved object NP yield a Subjacency violation and movement out of a moved subject weaken the Subjacency effect?</p>
+<p>Lasnik and Saito account for the observed asymmetry in the following way. On the basis of the thawing effect in sentences like (41), they conclude that A&prime;-moved constituents (i.e., A&prime;-binders) are non-barriers. Formally, this is achieved by adopting the following definition of barrier:</p>
+<p>(42)&ensp;<object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry namest="col1" nameend="col2">G is a barrier for b if:</entry>
+</row>
+<row><entry>a.</entry>
+<entry>G is a maximal projection;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>G is not an A&prime;-binder;</entry>
+</row>
+<row><entry>c.</entry>
+<entry>G is not L-marked; and</entry>
+</row>
+<row><entry>d.</entry>
+<entry>G dominates b.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Thus, the moved object NPs in (23) and (31), the topicalized subject NP in (41b), and the <i>wh</i>-moved subject in (41a) do not constitute Barriers for extraction; they are A&prime;-binders and therefore transparent for extraction.</p>
+<p>The subject NP in (40), on the other hand, does not occupy an A&prime;-position. Not being an A&prime;-binder, the subject NP forms a Barrier for extraction; extraction out of the non-moved subject NP yields a Subjacency violation.</p>
+<p>If A&prime;-binders do not constitute Barriers for Subjacency, the question arises what accounts for the marginality (i.e., &ldquo;??&rdquo;) of the examples in (23), (31), and (41). Lasnik and Saito argue that their marginality is due to <link rid="b22">Kuno&apos;s (1973a</link>) Internal Constituent Constraint (ICC). This constraint roughly states that extraction cannot take place from clause-internal constituents. Extraction is only possible from phrases that are in a clause-external (i.e., right-peripheral) position. This is exemplified by the following contrastive pair:</p>
+<p>(43)&ensp;<sup>??</sup>Who<sub>j</sub> did you give &lsqb;pictures of t<sub>j</sub>&rsqb; to Bill?</p>
+<p>(44)&ensp;Who<sub>j</sub> did you see &lsqb;several pictures of t<sub>j</sub>&rsqb;?</p>
+<p>Clearly, the moved phrases in (23), (31), and (41) are not in right-peripheral position within the embedded clause. Extraction out of these phrases violates Kuno&apos;s ICC constraint. Notice that extraction out of the subject NP in (40) violates both Subjacency and the ICC.</p>
+<p>Summarizing, Lasnik and Saito interpret the &lsquo;frozenness&rsquo; of A&prime;-moved constituents in terms of Kuno&apos;s ICC, rather than in terms of Subjacency. Clearly, the frozenness of rightward moved constituents (see <link rid="ss8">section 3.1</link>) cannot be subsumed under the ICC, since after rightward shift has applied to some phrase, this phrase is in a clause-external (i.e., peripheral) position. Furthermore, the ill-formedness of these rightward movement constructions cannot be explained in terms of Subjacency, if movement is really involved; this for the reason that under such a movement analysis, the rightward-moved phrase is an A&prime;-binder, which, following the definition in (42), does not count as a barrier. <link rid="b11">Lasnik and Saito (1992</link>: 104) are aware of the impossibility of explaining the islandhood of &ldquo;rightward moved phrases&rdquo; in terms of Subjacency. They point out this problem for their analysis on the basis of relative clauses that have been extraposed from a noun phrase (cf. (20)). They conclude that the problem can be solved if it is assumed that &ldquo;extraposed&rdquo; relative clauses are simply base generated in a right-peripheral position (see <related relationship="sibling" type="samework"><externallink id="chapter 25 - Extraposition.xml" type="file">chapter 25</externallink></related>). Being not in a derived A&prime;-position, the relative clause counts as a Barrier for extraction.</p>
+</subsection>
+<subsection id="ss15" level="2">
+<heading id="h14" level="2">3.6 (Apparent) counter-examples to Freezing</heading>
+<p>Thus far we have seen that when a phrase has been dislocated, it functions as an island for elements that are contained within the moved phrase. Extraction from within the displaced phrase is impossible. When a PP has been extraposed, or when an NP undergoes Heavy NP-Shift, movement from these phrases is barred. There are structures, however, where extraction from a moved phrase appears to be possible. One such case, which was already noted in <link rid="b2">Wexler and Culicover (1980</link>: 342), is given in (45) (see also <link rid="b10">Johnson 1986</link>):</p>
+<p>(45)&ensp;<object id="tu28" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu28_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Who<sub>j</sub> is it obvious &lsqb;that Mary met t<sub>j</sub>&rsqb;?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>What<sub>j</sub> was it clear &lsqb;that Mary had bought t<sub>j</sub>&rsqb;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Under a traditional analysis of these constructions, the postverbal clause has been moved from subject position.<link rid="fn19">
+<sup>19</sup></link> The expletive element <i>it</i> is inserted in the vacated subject position, and forms a chain with the extraposed clause.</p>
+<p>If movement is involved, the question, of course, arises why extraction out of the clause is not blocked. That is, why doesn&apos;t the extraposed clause constitute a frozen domain? <link rid="b2">Wexler and Culicover (1980</link>) point out that one way out of this difficulty is to adopt the view that such &lsquo;extraposition&rsquo; structures as in (45) are not transformationally derived. Rather, the right-peripheral subject clause is base generated in a right peripheral position (cf. <link rid="b23">Koster 1978d</link>). Since the argument clause is base generated, no Freezing effect is invoked.</p>
+<p>Absence of Freezing has also been noted for SOV-languages like Dutch and German, which have their clausal complement to V in extraposed position at &lsquo;surface structure&rsquo;. While the direct object NP occurs in a preverbal position (cf. (46)), its clausal counterpart must occur in a postverbal position (cf. (47)). Consider, for example, the following examples from Dutch:</p>
+<p>(46)&ensp;<object id="tu29" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu29_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Jan</entry>
+<entry>heeft</entry>
+<entry>nooit</entry>
+<entry>zulke dingen gezegd.</entry>
+</row>
+<row><entry>Jan</entry>
+<entry>has</entry>
+<entry>never</entry>
+<entry>such things said</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Jan has never said such things.&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col5">*Jan heeft nooit gezegd <i>zulke dingen</i>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(47)&ensp;<object id="tu30" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu30_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry><sup>?</sup>*Jan</entry>
+<entry>heeft nooit</entry>
+<entry>&lsqb;dat hij Marie aardig vond&rsqb;</entry>
+<entry>gezegd.</entry>
+</row>
+<row><entry>Jan</entry>
+<entry>has never</entry>
+<entry>that he Marie nice considered</entry>
+<entry>said</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Jan has never said that he liked Marie.&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col5">Jan heeft nooit &ndash; gezegd &lsqb;dat hij Marie aardig vond&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>According to the traditional analysis (cf. <link rid="b24">Koster 1975</link>), the base position of the direct object is the preverbal position, i.e., the position where the direct object noun phrase can occur in &lsquo;surface structure&rsquo;. This means that the postverbal direct object clause occupies a derived position. Hence, a Freezing effect is expected. As shown by the following example, however, extraction out of the extraposed clause is possible:</p>
+<p>(48)&ensp;<object id="tu31" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu31_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry>Wie<sub>i</sub>
+</entry>
+<entry>heeft</entry>
+<entry>Jan</entry>
+<entry>t<sub>j</sub> gezegd</entry>
+<entry>&lsqb;dat hij t<sub>i</sub> aardig vond&rsqb;<sub>j</sub>?</entry>
+</row>
+<row><entry>Who</entry>
+<entry>has</entry>
+<entry>Jan</entry>
+<entry>&ndash; said</entry>
+<entry>that he &ndash; nice considered</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;Who did John say that he liked?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Given the transparency of the clause in (48), it has been argued that the right-peripheral clause in fact occupies its base position (cf. de <link rid="b25">Haan 1979</link>; <link rid="b26">Hoekstra 1983</link>). There are various ways of implementing this, depending on one&apos;s theoretical assumptions. If one adopts directionality of case assignment (cf. <link rid="b27">Koopman 1984</link>; <link rid="b28">Travis 1984</link>), one could say that the direct object NP in (46a) is base generated to the left of the verb in Dutch, since V assigns case to the left in Dutch. Since the clause does not permit case, it is base generated to the right of the verb (as in (47b)). Under this analysis, both the preverbal direct object and the postverbal direct object clause are sisters to V, if it is assumed that theta-role assignment is not subject to a directionality requirement.</p>
+<p>Another way to go would be to adopt <link rid="b29">Kayne&apos;s (1994</link>) Antisymmetry theory and assume that all languages are underlyingly SVO. This means that the direct object clause in (47b) (and (48)) simply occupies its base position in Dutch (see <link rid="b30">Zwart 1993</link> for discussion). Consequently, no Freezing effect is expected to be invoked. Notice, however, that under this analysis, the surface position of the direct object noun phrase in (46a) is a derived position; the DO-NP is generally taken to be moved to the specifier of some functional head, e.g., AgrO. If one adopts the view that movement induces Freezing, one would expect extraction out of the preverbal direct object to be impossible. It turns out, however, that extraction out of the direct object NP is allowed. Consider, for example, the following Dutch sentence, where the <i>wh</i>-element <i>wat</i> has been moved out of the direct object noun phrase (see <related relationship="sibling" type="samework"><externallink id="chapter 66 - Subextraction.xml" type="file">chapter 66</externallink></related>):</p>
+<p>(49)&ensp;<object id="tu32" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu32_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry>Wat<sub>i</sub>
+</entry>
+<entry>heb</entry>
+<entry>jij</entry>
+<entry>nog nooit</entry>
+<entry>&lsqb;t<sub>i</sub> voor dingen&rsqb;</entry>
+<entry>gezegd?</entry>
+</row>
+<row><entry>What</entry>
+<entry>has</entry>
+<entry>you</entry>
+<entry>yet never</entry>
+<entry>&ndash; for things</entry>
+<entry>said</entry>
+</row>
+<row><entry namest="col1" nameend="col6">&lsquo;What kind of things haven&apos;t you ever said?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Of course, one could stipulate that movement never induces any Freezing effect. Scambled constituents, however, typically display a Freezing effect in a language like Dutch (see, e.g., (27), where a PP-complement has been scrambled). Possibly, the absence of Freezing should be related to certain types of movement (e.g., movement to &lsqb;Spec, AgroP&rsqb;) but not to others. This, obviously, is something which needs further investigation.</p>
+</subsection>
+</subsection>
+<subsection id="ss16" level="1">
+<heading id="h15" level="1">4 The frozenness of adjunction sites</heading>
+<p>As already mentioned in <link rid="ss5">section 2.2</link>, <link rid="b2">Wexler and Culicover (1980</link>) observed that it is not only the raised node which gets frozen, but also the syntactic domain within which the transformation has applied. That is, a phrase is frozen for further movement rules once it has been the site of adjunction. Or to put it differently again, transformations cannot apply to derived structures that are not also base-generable structures.</p>
+<p>Two Freezing configurations can be distinguished, then: (i) a configuration in which a moved phrase ZP has been right-adjoined (cf. (50a)), and (ii) a configuration in which a moved phrase has been left-adjoined (cf. (50b)):</p>
+<p>(50)&ensp;<object id="tu33" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu33_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*&lsqb;YP<sub>j</sub> &lsqb;<sub>XP</sub> &lsqb;<sub>XP</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;t<sub>j</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;t<sub>i</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb; ZP<sub>i</sub>&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*&lsqb;YP<sub>j</sub> &lsqb;<sub>XP</sub> ZP<sub>i</sub> &lsqb;<sub>XP</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;t<sub>j</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;t<sub>i</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In <link rid="ss17">section 4.1</link>, I will consider constructions instantiating (50a). In <link rid="ss18">section 4.2</link>, the frozenness of left-adjunction configurations (50b) will be discussed.</p>
+<subsection id="ss17" level="2">
+<heading id="h16" level="2">4.1 The frozenness of right-adjunction configurations</heading>
+<p>
+<link rid="b2">Wexler and Culicover (1980</link>) observed the following contrast:</p>
+<p>(51)&ensp;<object id="tu34" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu34_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Who<sub>j</sub> did John &lsqb;<sub>VP</sub> send &lsqb;<sub>NP</sub> an expensive book about horned frogs&rsqb; &lsqb;<sub>PP</sub> to t<sub>j</sub>&rsqb;&rsqb;&rsqb;?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Who<sub>j</sub> did John &lsqb;<sub>VP</sub> send t<sub>i</sub> &lsqb;<sub>PP</sub> to t<sub>j</sub>&rsqb; &lsqb;an expensive book about horned frogs&rsqb;<sub>i</sub>&rsqb;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (51a), the direct object noun phrase is in its base position and extraction of the NP out of the prepositional indirect object is possible. In (51b), on the contrary, extraction out of the PP is no longer possible. This islandhood, they argue, does not reside in the PP, since the PP has not been moved; it is simply in its base position. The islandhood, however, relates to the Heavy NP-Shift operation that moves the direct object to the right periphery of the clause and attaches it to VP. This Heavy NP-Shift operation derives a string that is non-base generable; that is, it is a non-structure-preserving rule. As a consequence, the VP to which the shifted NP has been adjoined gets frozen. Extraction out of this frozen domain is not allowed. Schematically:<link rid="fn20">
+<sup>20</sup></link>
+</p>
+<p>(52)&ensp;.&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>VP</sub> &lsqb;<sub>VP</sub> send t<sub>j</sub> to who&rsqb; <i>an expensive book about horned frogs</i><sub>j</sub>&rsqb;&rsqb;</p>
+<p>Some additional examples that illustrate this Freezing effect are given in (53&ndash;54) (examples taken from <link rid="b2">Wexler and Culicover 1980</link>: 279 and <link rid="b4">Culicover 1982</link>):</p>
+<p>(53)&ensp;<object id="tu35" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu35_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Who<sub>j</sub> did John give &lsqb;a book about amphibians&rsqb; &lsqb;to t<sub>j</sub>&rsqb;?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Who<sub>j</sub> did you &lsqb;<sub>VP</sub> &lsqb;<sub>VP</sub> give t<sub>i</sub> &lsqb;to t<sub>j</sub>&rsqb;&rsqb; &lsqb;a book about amphibians&rsqb;<sub>i</sub>&rsqb;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(54)&ensp;<object id="tu36" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu36_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;Which country&rsqb;<sub>j</sub> did they elect &lsqb;the colonel who had engineered the recent coup&rsqb; &lsqb;President of t<sub>j</sub>&rsqb;?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*&lsqb;Which country&rsqb;<sub>j</sub> did they &lsqb;<sub>VP</sub> &lsqb;<sub>VP</sub> elect t<sub>i</sub> &lsqb;President of t<sub>j</sub>&rsqb;&rsqb; &lsqb;the colonel who had engineered the recent coup&rsqb;<sub>i</sub>&rsqb;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<subsection id="ss18" level="3">
+<heading id="h17" level="3">4.2 The frozenness of left-adjunction configurations</heading>
+<p>Freezing effects with left-adjunction configurations have also been noted in the literature. <link rid="b2">Wexler and Culicover (1980</link>: 271ff.), for example, interpret the ungrammaticality of the following examples in which an indirect object NP undergoes <i>wh</i>-movement as a Freezing effect:</p>
+<p>(55)&ensp;<object id="tu37" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu37_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Who did John give a book about astronomy?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Mary, I gave a book about astronomy.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Their reasoning goes as follows: the double object construction in (56b) derives from (56a) (see <related relationship="sibling" type="samework"><externallink id="chapter 21 - Double Object Constructions.xml" type="file">chapter 21</externallink></related>). In their analysis, the direct object NP and the indirect object PP are sisters to V:</p>
+<p>(56)&ensp;<object id="tu38" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu38_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John &lsqb;gave &lsqb;a book about astronomy&rsqb; &lsqb;to Mary&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John &lsqb;gave &lsqb;Mary&rsqb; &lsqb;a book about astronomy&rsqb;&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>They argue that the string in (56b) is derived by (right-)adjunction of the indirect object NP to the verb:<link rid="fn21">
+<sup>21</sup></link>
+</p>
+<p>(57)&ensp;&lsqb;<sub>VP</sub> &lsqb;<sub>V*</sub> V <i>NP2</i>&rsqb; NP1 &ndash;&rsqb;</p>
+<p>Since the phrase structure rule V &rarr; V NP is not a rule of the base, Dative Shift is a non-structure-preserving rule. NP2 is dominated by a frozen node (V*) after Dative Shift and therefore cannot be moved by later transformations.</p>
+<p>Another left-adjunction configuration that invokes a Freezing effect is the embedded topicalization environment. As shown by the following examples from <link rid="b10">Johnson (1986</link>), a <i>wh</i>-phrase cannot be moved out of an embedded clause in which embedded topicalization has applied:<link rid="fn22">
+<sup>22</sup></link>
+</p>
+<p>(58)&ensp;<object id="tu39" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu39_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*What<sub>j</sub> did you say &lsqb;that &lsqb;<sub>IP</sub> &lsqb;<sub>NP</sub> on the porch&rsqb;<sub>i</sub> &lsqb;<sub>IP</sub> you put t<sub>j</sub> t<sub>i</sub>&rsqb;&rsqb;&rsqb;?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*&lsqb;To whom&rsqb;<sub>j</sub> did you believe &lsqb;that &lsqb;<sub>IP</sub> &lsqb;<sub>NP</sub> my book&rsqb;<sub>i</sub> &lsqb;<sub>IP</sub> you gave t<sub>i</sub> t<sub>j</sub>&rsqb;&rsqb;&rsqb;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Of course, extraction of <i>what</i> and <i>to whom</i> is permitted when no embedded topicalization has taken place:</p>
+<p>(59)&ensp;<object id="tu40" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu40_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>What<sub>j</sub> did you say that you put t<sub>j</sub> on the porch?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;To whom&rsqb;<sub>j</sub> did you believe that you gave my book t<sub>j</sub>?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+</subsection>
+<subsection id="ss19" level="2">
+<heading id="h18" level="2">4.3 Analyses of the frozenness of adjunction sites</heading>
+<p>The intuitive content of the Freezing Principle is that a phrase is frozen for further movement rules once it has been the site of adjunction. The question arises whether this principle can be subsumed under another, more general condition. <link rid="b10">Johnson (1986</link>) proposes that the Freezing effect can be explained in terms of the Subjacency Condition. Adopting a <i>Barriers</i>-style approach toward island phenomena, he reinterprets the frozenness of adjunction sites in terms of the notions Blocking Category (BC) and Barrier (cf. <link rid="b19">Chomsky 1986a</link>). More specifically, he argues that adjunction of a phrase ZP (e.g., a rightward-moved NP) to a node XP (e.g., VP) turns XP into a BC and a Barrier. It is further assumed that the node created by adjunction is a Barrier by inheritance. So the ill-formed configurations in (50) can now be ruled out as follows: after (left- or right-)adjunction, XP is a BC and a Barrier. Because XP is a BC, the dominating XP* is a Barrier by inheritance. Hence movement of YP out of this adjunction configuration will violate Subjacency, since it must cross two Barriers: XP and XP*:</p>
+<p>(50)&ensp;<object id="tu41" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu41_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*&lsqb;YP<sub>j</sub> &lsqb;<sub>XP*</sub> &lsqb;<sub>XP</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;t<sub>j</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;t<sub>i</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb; ZP<sub>i</sub>&rsqb;&rsqb;</entry>
+<entry>(extraction out of a right-adunction configuration)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*&lsqb;YP<sub>j</sub> &lsqb;<sub>XP*</sub> ZP<sub>i</sub> &lsqb;<sub>XP</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;t<sub>j</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;t<sub>i</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;&rsqb;&rsqb;</entry>
+<entry>(extraction out of a left-adjunction configuration)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A crucial assumption in Johnson&apos;s Subjacency account of the Freezing effect is that the two nodes of the adjunction structure (i.e., XP and XP*) count as separate maximal projections. So adjunction creates an additional category. The adjoined item (ZP) is dominated by this &lsquo;new&rsquo; node (XP*), but is not dominated by the original node to which it is adjoined (XP). Being separate maximal categories, both XP and XP* form Barriers for extraction.<link rid="fn23">
+<sup>23</sup></link> Another assumption made by Johnson is that double adjunction to one phrase is barred. If this assumption were not made, movement of YP could circumvent a Subjacency violation by first adjoining to XP or XP*.</p>
+<p>The ill-formedness of examples like (53b), where Heavy NP-Shift has applied within VP, can now be explained as follows: after adjunction of the shifted NP to VP, the lower VP is a BC and a Barrier. Because VP is a BC, the dominating VP* is a Barrier by inheritance. Movement of the <i>wh</i>-phrase to &lsqb;Spec, CP&rsqb; will violate Subjacency, since it must cross two Barriers, viz. VP and VP*.</p>
+<p>The ungrammaticality of the examples in (58) featuring embedded topicalization is derived as follows: in accordance with the principle of the Cycle, topicalization within the embedded clause applies before <i>wh</i>-movement of the <i>wh</i>-phrase to &lsqb;Spec, CP&rsqb; (where <i>wh</i>-movement applies successive-cyclically). After the topicalized phrase has been adjoined to IP, IP is a BC. The dominating IP is a barrier by inheritance. Hence movement of the <i>wh</i>-phrase to &lsqb;Spec, CP&rsqb; will violate Subjacency, since it must cross two Barriers: IP and IP*.</p>
+</subsection>
+<subsection id="ss20" level="2">
+<heading id="h19" level="2">4.4 Absence of Freezing</heading>
+<p>In sections <link rid="ss17">4.1</link> and <link rid="ss18">4.2</link>, several adjunction configurations were discussed that induce islandhood. Rightward Heavy NP-Shift turns the VP-node into a frozen structure, and embedded topicalization invokes freezing at the IP-level. As <link rid="b2">Wexler and Culicover (1980</link>) have already pointed out, there are structural environments where apparently an adjunction operation has applied but no freezing is invoked. They observe, for example, that extraposition of a PP out of a direct object NP (cf. (60)) or a subject NP (cf. (61)) does not invoke freezing of the VP and the IP, respectively, to which the PP arguably has been adjoined:</p>
+<p>(60)&ensp;<object id="tu42" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu42_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Mary is the person &lsqb;<sub>CP</sub> <i>OP</i><sub>j</sub> that &lsqb;IP I gave <i>a book</i> &lsqb;<sub>PP</sub> to t<sub>j</sub>&rsqb; <i>about Fred</i>&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>What<sub>j</sub> did you &lsqb;<sub>VP</sub> put <i>a folio</i> &lsqb;<sub>PP</sub> on t<sub>j</sub>&rsqb; <i>about decorative arts in the sixteenth century</i>&rsqb;?</entry>
+</row>
+<row><entry>c.</entry>
+<entry><sup>?</sup>Who<sub>j</sub> did you buy <i>a picture</i> &lsqb;<sub>PP</sub> for t<sub>j</sub>&rsqb; <i>of my great aunt Florrie</i>?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(61)&ensp;<object id="tu43" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu43_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;Which newspaper&rsqb;<sub>j</sub> did <i>a review</i> appear &lsqb;<sub>PP</sub> in t<sub>j</sub>&rsqb; <i>of that new book by Fred</i>?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Who<sub>j</sub> did <i>the editor</i> talk &lsqb;<sub>PP</sub> to t<sub>j</sub>&rsqb; <i>from the New York Times</i>?</entry>
+</row>
+<row><entry>c.</entry>
+<entry>&lsqb;How necessary&rsqb;<sub>j</sub> will <i>an analysis</i> be t<sub>j</sub> <i>of these samples</i>?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Wexler and Culicover interpret the absence of Freezing by stating that extraposition of PP is in fact a structure-preserving operation, i.e., an operation that does not give rise to an adjoined structure. That is, extraposition of PP yields an output which is independently generable by PS-rules. Thus, they interpret it in terms of the structure-preserving nature of the movement rule.</p>
+<p>
+<link rid="b10">Johnson (1986</link>) argues that the absence of the Freezing effect in such examples directly follows if Extraposition of PP is not syntactic movement but rather a Stylistic (i.e., PF-movement) operation, along the lines of <link rid="b31 b32">Rochemont (1978, 1982</link>). Under such an analysis, <i>wh</i>-movement (a syntactic operation) would take place before PP-extraposition (a PF-operation). Thus, when <i>wh</i>-movement takes place, an adjunction configuration has not yet been created.</p>
+<p>The absence of Freezing in such examples as (62), where CP-extraposition has applied, may be explained along the same lines:</p>
+<p>(62)&ensp;<object id="tu44" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu44_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Who<sub>j</sub> was it obvious &lsqb;<sub>PP</sub> to t<sub>j</sub>&rsqb; &lsqb;that Mary had left&rsqb;?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Who<sub>j</sub> was it clear &lsqb;<sub>PP</sub> to t<sub>j</sub>&rsqb; &lsqb;that Mary had left&rsqb;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>One may explain the absence of Freezing by saying that the extraposed clause is simply base generated in a right-peripheral position. Alternatively, one could reason along the lines of Johnson and say that CP-extraposition applies at PF. Consequently, at the point in the derivation where P-stranding applies, no adjunction configuration has yet been created.<link rid="fn24">
+<sup>24</sup></link>
+</p>
+</subsection>
+</subsection>
+<subsection id="ss21" level="1">
+<heading id="h20" level="1">5 Conclusion</heading>
+<p>The Freezing phenomenon is an intriguing island phenomenon that has received relatively little attention in studies on locality effects on movement, certainly compared to such island phenomena as the Complex NP-Constraint, the <i>Wh</i>-Island Constraint, and the Subject condition. The major purpose of this chapter was to give an overview of (i) the various ill-formed movement patterns that fall under the Freezing effect and (ii) the types of explanations that have been given in the generative literature for this island phenomenon. Two major types of frozen phrases were discussed: (i) moved/displaced phrases, on the one hand, and (ii) phrases representing adjunction configurations, on the other hand. Of course, the explanation of the Freezing phenomenon depends on one&apos;s assumptions about movement (e.g., is movement really involved in construction Y?) and about derived structures (e.g., is the derived structure really an adjunction configuration?).</p>
+</subsection>
+<subsection id="ss22" level="1">
+<heading id="h21" level="1">NOTES</heading>
+<p>I would like to thank Peter Culicover and an anonymous reviewer for helpful comments and suggestions. All errors are mine, of course.</p>
+<p>
+<span id="fn1">
+<number>1&emsp;</number>The ISP is counter-exemplified by sentences like (i), in which an element is removed from one conjunct. See <link rid="b7">Ross (1986</link>) and <link rid="b33">Lakoff (1986</link>) for discussion of such extractions from coordinate structures:</span>
+</p>
+<p>(i)&ensp;a movie WH<sub>i</sub> that we &lsqb;&lsqb;<sub>VP</sub> sat around all day&rsqb; and &lsqb;<sub>VP</sub> watched t<sub>i</sub>&rsqb;&rsqb;</p>
+<p>
+<span id="fn2">
+<number>2&emsp;</number>The judgment in (5b), i.e., &ldquo;??,&rdquo; is the one given in <link rid="b1">Ross (1974b</link>). <link rid="b2">Wexler and Culicover (1980</link>) assign a &ldquo;*&rdquo; to sentences in which a constituent is extracted from a phrase that has undergone Heavy/Complex NP-Shift.</span>
+</p>
+<p>
+<span id="fn3">
+<number>3&emsp;</number>The island-creating effect of movement was already hinted at in <link rid="b7">Ross (1986</link>: 172ff.). He observes that no element of an extraposed relative clause may be relativized or questioned:</span>
+</p>
+<p>(i)&ensp;*&lsqb;The coat &lsqb;which<sub>j</sub> &lsqb;a girl t<sub>i</sub>&rsqb; came in &lsqb;who had worn t<sub>j</sub>&rsqb;<sub>i</sub>&rsqb;&rsqb; was torn.</p>
+<p>As a first suggestion for the explanation of this ill-formed sentence, he proposes the following constraint:</p>
+<p>(ii)&ensp;<object id="tu45" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu45_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>The Frozen Structure Constraint:</b>
+</entry>
+</row>
+<row><entry>If a clause has been extraposed from a noun phrase whose head noun is lexical, this noun phrase may not be moved, nor may any element of the clause be moved out of that clause.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Ross points out that the ungrammaticality of (i) can be reduced to his CNPC if the rule of Extraposition from NP (see <related relationship="sibling" type="samework"><externallink id="chapter 25 - Extraposition.xml" type="file">chapter 25</externallink></related>) follows such movement rules as Question formation and Relative Clause formation. In other words, rule ordering makes it possible to account for the ill-formedness of example (i) in terms of the CNPC. So extraction of <i>which</i> takes place before the relative clause modifying <i>a girl</i> has been extraposed.</p>
+<p>
+<span id="fn4">
+<number>4&emsp;</number>The notion of structure preservation was first incorporated into the theory of transformations by <link rid="b34">Emonds (1970</link>). See also <link rid="b35">Emonds (1976</link>).</span>
+</p>
+<p>
+<span id="fn5">
+<number>5&emsp;</number>The non-base-generable structure does not necessarily have to be a Chomsky-adjunction configuration. That is, structures containing a moved constituent that is attached via daughter-adjunction also form islands for extraction. See <link rid="b2">Wexler and Culicover (1980</link>: 571, note 15).</span>
+</p>
+<p>
+<span id="fn6">
+<number>6&emsp;</number>Although in the literature, the Freezing effect is typically asscoiated with the phenomenon of movement (i.e., a constituent cannot be moved out of a dominating node that is frozen), we should point out that in <link rid="b2">Wexler and Culicover (1980</link>) Freezing has a broader coverage. They argue, for example, that the rule of Gapping (a deletion rule) is sensitive to the Freezing effect (see <related relationship="sibling" type="samework"><externallink id="chapter 29 - Gapping.xml" type="file">chapter 29</externallink></related>). While Gapping is allowed in a (prepositional) double object construction like (i), it is blocked after the Dative shift transformation has applied (cf. (ii)):</span>
+<object id="tu46" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu46_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>(i)</entry>
+<entry>John <i>gave</i> a book to Mary, and Bill &ndash; a magazine to Fred.</entry>
+</row>
+<row><entry>(ii)</entry>
+<entry>*John <i>gave</i> Mary a book, and Bill &ndash; Fred a magazine.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The VP in (ii) is a derived environment in which the non-structure-preserving operation Dative Shift has applied. As a consequence of this, the VP-node is frozen; Gapping is not permitted in such an environment. See <link rid="b2">Wexler and Culicover (1980</link>: 276) for further discussion.</p>
+<p>
+<span id="fn7">
+<number>7&emsp;</number>Chomsky and others initially assumed that only a subset of nodes, primarily S, S&prime;, and NP, were cyclic. It was Edwin <link rid="b36">Williams who, in his (1974</link>) doctoral dissertation, proposed that all nodes were cyclic.</span>
+</p>
+<p>
+<span id="fn8">
+<number>8&emsp;</number>The examples (17a, b, c) are taken, respectively, from <link rid="b11">Lasnik and Saito (1992</link>), <link rid="b10">Johnson (1986</link>), and <link rid="b2">Wexler and Culicover (1980</link>).</span>
+</p>
+<p>
+<span id="fn9">
+<number>9&emsp;</number>See, among others, <link rid="b16">Huybregts (1976</link>), <link rid="b37">Koster (1978a</link>), <link rid="b2">Wexler and Culicover (1980</link>), and <link rid="b10">Johnson (1986</link>).</span>
+</p>
+<p>
+<span id="fn10">
+<number>10&emsp;</number>PPs that have been extraposed from a subject noun phrase are also frozen domains for extraction:</span>
+</p>
+<p>(i)&ensp;*What<sub>j</sub> did &lsqb;a review t<sub>i</sub>&rsqb; came out yesterday &lsqb;of t<sub>j</sub>&rsqb;<sub>i</sub>?</p>
+<p>
+<span id="fn11">
+<number>11&emsp;</number>
+<link rid="b7">Ross (1986</link>) also observes the islandhood of clauses that have been extraposed out of a noun phrase. See note 3 for discussion.</span>
+</p>
+<p>
+<span id="fn12">
+<number>12&emsp;</number>The given judgments &ldquo;??&rdquo; are from <link rid="b11">Lasnik and Saito (1992</link>).</span>
+</p>
+<p>
+<span id="fn13">
+<number>13&emsp;</number>See also <link rid="b38">Corver (1997a</link>) for freezing effects within the AP-domain that are due to scrambling.</span>
+</p>
+<p>
+<span id="fn14">
+<number>14&emsp;</number>
+<link rid="b2">Wexler and Culicover (1980</link>) did not treat the islandhood of A-moved NPs in terms of a (generalized) Freezing Constraint, since A-movement operations (like Passive formation) are structure preserving.</span>
+</p>
+<p>
+<span id="fn15">
+<number>15&emsp;</number>
+<link rid="b16">Huybregts (1976</link>) observes that Freezing is also found in structures like (i), where Directional Adverb Preposing (i.e., Locative Inversion) has applied. If these locative inversion patterns are derived by movement to &lsqb;Spec, IP&rsqb; (see <link rid="b39">Hoekstra and Mulder 1990</link>), we have another instance of Freezing induced by A-movement:</span>
+</p>
+<p>(i)&ensp;<object id="tu47" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu47_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Peter claimed &lsqb;<sub>IP</sub> &lsqb;<sub>PP</sub> near that town&rsqb;<sub>i</sub> is situated &lsqb;an old ruin&rsqb; t<sub>i</sub>&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*&lsqb;That town&rsqb;<sub>j</sub> he said &lsqb;<sub>IP</sub> &lsqb;<sub>PP</sub> near t<sub>j</sub>&rsqb;<sub>i</sub> is situated &lsqb;an old ruin&rsqb; t<sub>i</sub>&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<span id="fn16">
+<number>16&emsp;</number>
+<link rid="b40">Torrego (1985</link>) observes that in Spanish an NP can be extracted from a fronted <i>wh</i>-phrase in Comp (i.e., &lsqb;Spec, CP&rsqb;):</span>
+<object id="tu48" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu48_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="1">(i)</entry>
+<entry>este es el autor &lsqb;del que&rsqb;<sub>i</sub> no sabemos &lsqb;<sub>CP</sub> qu&eacute; libros t<sub>i</sub>&rsqb; leer (Spanish)</entry>
+</row>
+<row><entry>this is the author &lsqb;by whom&rsqb; we don&apos;t know &lsqb;what books &ndash;&rsqb; to read</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Torrego further shows that the impossibility of extraction from a subject-NP is overcome by <i>wh</i>-movement of the subject to &lsqb;Spec, CP&rsqb;:<object id="tu49" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu49_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="1">(ii)</entry>
+<entry>*esta es la autora &lsqb;de la que&rsqb;<sub>i</sub> &lsqb;<sub>IP</sub> &lsqb;varias traducciones t<sub>i</sub>&rsqb; han ganado premios internacionales&rsqb;</entry>
+</row>
+<row><entry>this is the author by whom several translations have won international awards</entry>
+</row>
+<row><entry morerows="1">(iii)</entry>
+<entry>&lsqb;de la que autora&rsqb;<sub>i</sub> no sabes &lsqb;<sub>CP</sub> &lsqb;qu&eacute; traducciones t<sub>i</sub>&rsqb; han ganado premios internacionales&rsqb;</entry>
+</row>
+<row><entry>by what author don&apos;t you know what translations have won international awards</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<span id="fn17">
+<number>17&emsp;</number>
+<link rid="b41">Baltin (1984</link>) discusses the impossibility of extracting out of an extraposed PP in terms of <link rid="b42">Huang&apos;s (1982a</link>) Condition on Extraction Domains. See <link rid="b17">Collins (1994a</link>) and <link rid="b14">M&uuml;ller (1998</link>) for a Barriers-type account of various Freezing effects. It should further be noted that in some marginal cases it appears that a verb L-marks a constituent moved to Spec, CP of its complement; see, for example, the Spanish examples from <link rid="b40">Torrego (1985</link>), which are also referred to in note 16.</span>
+</p>
+<p>
+<span id="fn18">
+<number>18&emsp;</number>
+<link rid="b11">Lasnik and Saito (1992</link>) do not adopt the VP-internal subject hypothesis. So the subject noun phrase is base generated in &lsqb;Spec, IP&rsqb;. As pointed out by an anonymous reviewer, it should be noted that the judgments in (40&ndash;41) are very subtle and not at all certain. For certain speakers, (41b) turns out to be as bad as (40).</span>
+</p>
+<p>
+<span id="fn19">
+<number>19&emsp;</number>See, e.g., <link rid="b43">Rosenbaum (1967</link>); <link rid="b35">Emonds (1976</link>); <link rid="b44">Stowell (1981</link>); <link rid="b45">Safir (1982</link>).</span>
+</p>
+<p>
+<span id="fn20">
+<number>20&emsp;</number>In (52), the moved element is Chomsky-adjoined. In the representation given by <link rid="b2">Wexler and Culicover (1980</link>), daughter-adjunction is used.</span>
+</p>
+<p>
+<span id="fn21">
+<number>21&emsp;</number>The Dative Shift operation depicted in (57), obviously, involves lowering; i.e., the moved indirect object is placed in a landing position that is lower in the tree than its original extraction site. Lowering operations are ruled out in current theories on movement. For discussion of more recent analyses of the double object construction, see <related relationship="sibling" type="samework"><externallink id="chapter 21 - Double Object Constructions.xml" type="file">chapter 21</externallink></related>.</span>
+</p>
+<p>
+<span id="fn22">
+<number>22&emsp;</number>As shown in <link rid="b8">Baltin (1978b</link>), embedded topicalization does not always create islands:</span>
+</p>
+<p>(i)&ensp;He&apos;s a man &lsqb;&lsqb;to whom&rsqb;<sub>j</sub> &lsqb;&lsqb;liberty&rsqb;<sub>i</sub> we could never grant t<sub>i</sub> t<sub>j</sub>&rsqb;&rsqb;.</p>
+<p>
+<span id="fn23">
+<number>23&emsp;</number>See also <link rid="b11">Lasnik and Saito (1992</link>: 84ff.) for this. In Chomsky&apos;s Barriers theory (1986a), a different interpretation is given to adjunction structures: following <link rid="b46">May (1985</link>), he assumes that the adjunction site (XP) and the node created by adjunction (XP*) form one maximal projection together. That is, XP and XP* are segments of one maximal projection.</span>
+</p>
+<p>
+<span id="fn24">
+<number>24&emsp;</number>If the position is taken that CP-extraposition applies at PF, the question obviously arises why it is impossible to extract from non-extraposed sentential subjects, while it is possible from extraposed ones.</span>
+</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss23" level="1" type="references">
+<heading id="h22" level="1">REFERENCES</heading>
+<reference id="b8" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Baltin</surname><x>, </x><forenames>Mark</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978b</date>
+<miscellaneoustext>). Toward A Theory of Movement Rules. PhD dissertation</miscellaneoustext><x>, </x>
+<address>MIT</address><x>.</x>
+</reference>
+<reference id="b9" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Baltin</surname><x>, </x><forenames>Mark</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">A Landing Site Theory of Movement Rules</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>13</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">38</page><x>.</x>
+</reference>
+<reference id="b41" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Baltin</surname><x>, </x><forenames>Mark</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">Extraposition Rules and Discontinuous Constituents</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>15</volume><x>: </x><page type="first">157</page><x>&ndash;</x><page type="last">163</page><x>.</x>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1964">1964a</date><x>). </x><title type="book">Current Issues in Linguistic Theory<x>.</x>
+</title><x> </x><address>The Hague</address><x>: </x><publisher>Mouton.</publisher>
+</reference>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1973">1973</date><x>). </x><title type="document">Conditions on Transformations</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">A Festschrift for Morris Halle</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Stephen</forenames><x> </x><surname>Anderson</surname>
+</name><x> and </x><name type="editor">
+<forenames>Paul</forenames><x> </x><surname>Kiparsky</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">232</page><x>&ndash;</x><page type="last">286</page>
+<x>. </x><address>New York</address><x>: </x><publisher>Holt, Rinehart, and Winston.</publisher>
+</reference>
+<reference id="b20" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="document">Conditions on Rules of Grammar</title><x>. </x><title type="journal">Linguistic Analysis</title><x> </x><volume>2</volume><x>: </x><page type="first">303</page><x>&ndash;</x><page type="last">351</page><x>.</x>
+</reference>
+<reference id="b18" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977b</date><x>). </x><title type="document">On <i>Wh-</i>Movement</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Formal Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Culicover</surname>
+</name><x>, </x><name type="editor">
+<forenames>Thomas</forenames><x> </x><surname>Wasow</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Adrian</forenames><x> </x><surname>Akmajian</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">71</page><x>&ndash;</x><page type="last">132</page>
+<x>. </x><address>New York</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference id="b19" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986a</date><x>). </x><title type="book">Barriers<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b17" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Collins</surname><x>, </x><forenames>Chris</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994a</date><x>). </x><title type="document">Economy of Derivation and the Generalized Proper Binding Condition</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>25</volume><x>: </x><page type="first">45</page><x>&ndash;</x><page type="last">61</page><x>.</x>
+</reference>
+<reference id="b38" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Corver</surname><x>, </x><forenames>Norbert</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997a</date><x>). </x><title type="document">The Internal Syntax of the Dutch Extended Adjectival Projection</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>15</volume><x>: </x><page type="first">289</page><x>&ndash;</x><page type="last">368</page><x>.</x>
+</reference>
+<reference id="b4" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Culicover</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="book">Syntax<x>.</x>
+</title><x> </x><address>New York/London</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference id="b34" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Emonds</surname><x>, </x><forenames>Joseph</forenames>
+</name>
+</namegroup><x> (</x><date date="1970">1970</date>
+<miscellaneoustext>). Root and Structure-Preserving Transformations. PhD dissertation</miscellaneoustext><x>, </x>
+<address>MIT</address><x>.</x>
+</reference>
+<reference id="b35" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Emonds</surname><x>, </x><forenames>Joseph</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="book">A Transformational Approach to English Syntax: Root, Structure-Preserving and Local Transformations</title>
+<x>. </x><address>New York</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference id="b25" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Haan</surname><x>, </x><forenames>Germen<x> </x>de</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date><x>). </x><title type="book">Conditions on Rules<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b26" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hoekstra</surname><x>, </x><forenames>Teun</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">The Distribution of Sentential Complements</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Linguistics in the Netherlands 1983</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Hans</forenames><x> </x><surname>Bennis</surname>
+</name><x> and </x><name type="editor">
+<forenames>W<x>. </x>U<x>. </x>S<x>.</x>
+</forenames><x> </x><surnameprefix>van</surnameprefix><x> </x><surname>Lessen Kloeke</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">93</page><x>&ndash;</x><page type="last">103</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hoekstra</surname><x>, </x><forenames>Teun</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984a</date><x>). </x><title type="document">Government and the Distribution of Sentential Complements in Dutch</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Sentential Complementation</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Wim</forenames><x> </x><surnameprefix>de</surnameprefix><x> </x><surname>Geest</surname>
+</name><x> and </x><name type="editor">
+<forenames>Yvan</forenames><x> </x><surname>Putsey</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">105</page><x>&ndash;</x><page type="last">116</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b39" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hoekstra</surname><x>, </x><forenames>Teun</forenames>
+</name><x> and </x><name type="author">
+<forenames>Ren&eacute;</forenames><x> </x><surname>Mulder</surname>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Unergatives as Copular Verbs</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>7</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">79</page><x>.</x>
+</reference>
+<reference id="b42" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Huang</surname><x>, </x><forenames>C.-T<x>. </x>James</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982a</date>
+<miscellaneoustext>). Logical Relations in Chinese and the Theory of Grammar. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b16" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Huybregts</surname><x>, </x><forenames>Riny</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="document">Vragende(r)wijs: Progressieve Taalkunde. (Questions: Progressive Linguistics)</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Lijnen van Taaltheoretisch Onderzoek</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Geert</forenames><x> </x><surname>Koefoed</surname>
+</name><x> and </x><name type="editor">
+<forenames>Arnold</forenames><x> </x><surname>Evers</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">303</page><x>&ndash;</x><page type="last">366</page>
+<x>. </x><address>Groningen</address><x>: </x><publisher>H. D. Tjeenk Willink</publisher><x>.</x>
+</reference>
+<reference id="b10" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Johnson</surname><x>, </x><forenames>Kyle</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date>
+<miscellaneoustext>). A Case for Movement. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b29" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">The Antisymmetry of Syntax<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b27" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Koopman</surname><x>, </x><forenames>Hilda</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="book">The Syntax of Verbs: From Verb Movement in the Kru Languages to Universal Grammar</title>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b24" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Koster</surname><x>, </x><forenames>Jan</forenames>
+</name>
+</namegroup><x> (</x><date date="1975">1975</date><x>). </x><title type="document">Dutch as an SOV Language</title><x>. </x><title type="journal">Linguistic Analysis</title><x> </x><volume>1</volume><x>: </x><page type="first">111</page><x>&ndash;</x><page type="last">136</page><x>.</x>
+</reference>
+<reference id="b37" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Koster</surname><x>, </x><forenames>Jan</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978a</date><x>). </x><title type="document">Conditions, Empty Nodes and Markedness</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>9</volume><x>: </x><page type="first">551</page><x>&ndash;</x><page type="last">593</page><x>.</x>
+</reference>
+<reference id="b23" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Koster</surname><x>, </x><forenames>Jan</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978d</date><x>). </x><title type="document">Why Subject Sentences Don&apos;t Exist</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Recent Transformational Studies in European Languages</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Samuel<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Keyser</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b22" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kuno</surname><x>, </x><forenames>Susumu</forenames>
+</name>
+</namegroup><x> (</x><date date="1973">1973a</date><x>). </x><title type="document">Constraints on Internal Clauses and Sentential Subjects</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>4</volume><x>: </x><page type="first">363</page><x>&ndash;</x><page type="last">385</page><x>.</x>
+</reference>
+<reference id="b33" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lakoff</surname><x>, </x><forenames>George</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Frame Semantic Control of the Coordinate Structure Constraint</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Twenty-second Regional Meeting of the Chicago Linguistic Society<x>.</x>
+</title><x> </x><namegroup type="editors">
+<name type="editor">
+<forenames>Anne</forenames><x> </x><surname>Farley</surname>
+</name><x>, </x><name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Farley</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Karl-Erik</forenames><x> </x><surname>McCullough</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">152</page><x>&ndash;</x><page type="last">167</page>
+<x>. </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society.</publisher>
+</reference>
+<reference id="b11" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lasnik</surname><x>, </x><forenames>Howard</forenames>
+</name><x> and </x><name type="author">
+<forenames>Mamoru</forenames><x> </x><surname>Saito</surname>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="book">Move &alpha;: Conditions on its Application and Output</title>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b46" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>May</surname><x>, </x><forenames>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="book">Logical Form: Its Structure and Derivation</title>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b15" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>M&uuml;ller</surname><x>, </x><forenames>Gereon</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="book">A-Bar Syntax: A Study in Movement Types</title><x>. </x><address>Berlin</address><x>: </x><publisher>Mouton de Gruyter</publisher><x>.</x>
+</reference>
+<reference id="b14" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>M&uuml;ller</surname><x>, </x><forenames>Gereon</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="book">Incomplete Category Fronting: A Derivational Approach to Remnant Movement in German</title>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer.</publisher>
+</reference>
+<reference type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Pesetsky</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date>
+<miscellaneoustext>). Paths and Categories. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b12" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Postal</surname><x>, </x><forenames>Paul<x> </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972</date><x>). </x><title type="document">On Some Rules That Are Not Successive Cyclic</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>3</volume><x>: </x><page type="first">211</page><x>&ndash;</x><page type="last">222</page><x>.</x>
+</reference>
+<reference id="b31" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Rochemont</surname><x>, </x><forenames>Michael</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978</date>
+<miscellaneoustext>). A Theory of Stylistic Rules in English. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Amherst, University of Massachusetts</address><x>.</x>
+</reference>
+<reference id="b32" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Rochemont</surname><x>, </x><forenames>Michael</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">On the Empirical Motivation of the Raising Principle</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>13</volume><x>: </x><page type="first">150</page><x>&ndash;</x><page type="last">154</page><x>.</x>
+</reference>
+<reference id="b43" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rosenbaum</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="1967">1967</date><x>). </x><title type="book">The Grammar of English Predicate Complement Constructions<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ross</surname><x>, </x><forenames>John<x> </x>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974b</date><x>). </x><title type="document">Three Batons for Cognitive Psychology</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Cognition and the Symbolic Processes</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Walter<x> </x>B<x>.</x>
+</forenames><x> </x><surname>Weimer</surname>
+</name><x> and </x><name type="editor">
+<forenames>David</forenames><x> </x><surname>Palermo</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Hillsdale, NJ</address><x>: </x><publisher>Lawrence Erlbaum.</publisher>
+</reference>
+<reference id="b7" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ross</surname><x>, </x><forenames>John<x> </x>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="book">Infinite Syntax!</title><x> </x><address>Norwood, NJ</address><x>: </x><publisher>Ablex.</publisher>
+</reference>
+<reference id="b45" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Safir</surname><x>, </x><forenames>Kenneth</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date>
+<miscellaneoustext>). Syntactic Chains and the Definiteness Effect. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b44" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Stowell</surname><x>, </x><forenames>Tim</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date>
+<miscellaneoustext>). Origins of Phrase Structure. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b40" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Torrego</surname><x>, </x><forenames>Esther</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date>
+<miscellaneoustext>). On Empty Categories in Nominals. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Boston, University of Massachusetts</address><x>.</x>
+</reference>
+<reference id="b28" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Travis</surname><x>, </x><forenames>Lisa</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date>
+<miscellaneoustext>). Parameters and Effects of Word Order Variation. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b13" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Webelhuth</surname><x>, </x><forenames>Gert</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date>
+<miscellaneoustext>). Syntactic Saturation Phenomena and the Modern Germanic Languages. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Amherst, University of Massachusetts</address><x>.</x>
+</reference>
+<reference id="b3" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Wexler</surname><x>, </x><forenames>Ken</forenames>
+</name>
+</namegroup><x> and</x><miscellaneoustext> Peter Culicover (</miscellaneoustext>
+<date date="1977">1977</date><x>). </x><title type="document">Some Syntactic Implications of a Theory of Language Learnability</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Formal Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Culicover</surname>
+</name><x>, </x><name type="editor">
+<forenames>Thomas</forenames><x> </x><surname>Wasow</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Adrian</forenames><x> </x><surname>Akmajian</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>New York</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Wexler</surname><x>, </x><forenames>Ken</forenames>
+</name><x> and </x><name type="author">
+<forenames>Peter</forenames><x> </x><surname>Culicover</surname>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="book">Formal Principles of Language Acquisition<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b36" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Williams</surname><x>, </x><forenames>Edwin</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date>
+<miscellaneoustext>). Rule Ordering in Syntax</miscellaneoustext><x>. </x>
+<address>PhD dissertation, Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b21" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Williams</surname><x>, </x><forenames>George<x> </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1971">1971</date>
+<miscellaneoustext>). Networks of Anaphora: An Essay in the Syntax of Pronominalization. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b30" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Zwart</surname><x>, </x><forenames>C<x>. </x>Jan-Wouter</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date>
+<miscellaneoustext>). Dutch Syntax: A Minimalist View. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Groningen University</address><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

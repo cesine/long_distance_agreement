@@ -1,0 +1,1214 @@
+-- NOTATION BMP SYSTEM --
+
+FontSpec Symbol         "Symbol"
+FontSpec Terminal       "Terminal"
+FontSpec ZapfDingbats   "ZapfDingbats"
+FontSpec Wingdings   "Wingdings"
+FontSpec tci1   "tci1"
+FontSpec tci2   "tci2"
+FontSpec tci3   "tci3"
+FontSpec tci4   "tci4"
+
+FontSpec F1         "[//size 10//weight bold//slant italic//color black"
+FontSpec F2         "times new roman//weight bold"
+FontSpec F3         "new century scholbook//color red"
+--
+
+Example of how an external notation could be defined:
+
+SDATA Foo PUBLIC "-//Foo//TEXT Foo text//XX" NDATA BMP [WIDTH="7" HEIGHT="9"]
+
+--
+
+
+NOTATION WMF SYSTEM
+
+SDATA "[Sfinx]" SYSTEM "C:\SOFTQUAD\PANOPRO\PANODEMO\SFINX.WMF" NDATA WMF
+
+
+NOTATION GIF SYSTEM
+-- unicode and bsl symbols --
+SDATA "[U2261]" "&#186;" FDATA Symbol
+
+
+
+-- ISOlat1 "ISO 8879-1986//ENTITIES Added Latin 1//EN" --
+
+SDATA "[aacute]" "&#225;"
+SDATA "[auml]" "&#228;"
+SDATA "[Ucirc]" "&#219;"
+SDATA "[eacute]" "&#233;"
+SDATA "[euml]" "&#235;"
+SDATA "[Aacute]" "&#193;"
+SDATA "[Auml]" "&#196;"
+SDATA "[THORN]" "&#222;"
+SDATA "[agrave]" "&#224;"
+SDATA "[iacute]" "&#237;"
+SDATA "[iuml]" "&#239;"
+SDATA "[atilde]" "&#227;"
+SDATA "[Eacute]" "&#201;"
+SDATA "[Euml]" "&#203;"
+SDATA "[egrave]" "&#232;"
+SDATA "[thorn]" "&#254;"
+SDATA "[Agrave]" "&#192;"
+SDATA "[Iacute]" "&#205;"
+SDATA "[Iuml]" "&#207;"
+SDATA "[Atilde]" "&#195;"
+SDATA "[igrave]" "&#236;"
+SDATA "[szlig]" "&#223;"
+SDATA "[acirc]" "&#226;"
+SDATA "[Egrave]" "&#200;"
+SDATA "[ouml]" "&#246;"
+SDATA "[oacute]" "&#243;"
+SDATA "[aelig]" "&#230;"
+SDATA "[ecirc]" "&#234;"
+SDATA "[Igrave]" "&#204;"
+SDATA "[Acirc]" "&#194;"
+SDATA "[Ouml]" "&#214;"
+SDATA "[Oacute]" "&#211;"
+SDATA "[ograve]" "&#242;"
+SDATA "[uacute]" "&#250;"
+SDATA "[uuml]" "&#252;"
+SDATA "[ETH]" "&#208;"
+SDATA "[ntilde]" "&#241;"
+SDATA "[icirc]" "&#238;"
+SDATA "[Ecirc]" "&#202;"
+SDATA "[otilde]" "&#245;"
+SDATA "[Ograve]" "&#210;"
+SDATA "[yacute]" "&#253;"
+SDATA "[yuml]" "&#255;"
+SDATA "[Uacute]" "&#218;"
+SDATA "[Uuml]" "&#220;"
+SDATA "[oslash]" "&#248;"
+SDATA "[ugrave]" "&#249;"
+SDATA "[aring]" "&#229;"
+SDATA "[Ntilde]" "&#209;"
+SDATA "[Icirc]" "&#206;"
+SDATA "[Otilde]" "&#213;"
+SDATA "[ocirc]" "&#244;"
+SDATA "[AElig]" "&#198;"
+SDATA "[Yacute]" "&#221;"
+SDATA "[ccedil]" "&#231;"
+SDATA "[eth]" "&#240;"
+SDATA "[Oslash]" "&#216;"
+SDATA "[Ugrave]" "&#217;"
+SDATA "[Aring]" "&#197;"
+SDATA "[Ocirc]" "&#212;"
+SDATA "[Ccedil]" "&#199;"
+SDATA "[ucirc]" "&#251;"
+
+
+-- ISOlat2 "ISO 8879-1986//ENTITIES Added Latin 2//EN" --
+--original--
+--SDATA "[abreve]" "[small a, breve]"--
+--SDATA "[Abreve]" "[capital A, breve]"--
+--SDATA "[amacr]" "[small a, macron]"--
+--SDATA "[Amacr]" "[capital A, macron]"--
+--SDATA "[aogon]" "[small a, ogonek]"--
+--SDATA "[Aogon]" "[capital A, ogonek]"--
+--SDATA "[cacute]" "[small c, acute accent]"--
+--SDATA "[Cacute]" "[capital C, acute accent]"--
+--SDATA "[ccaron]" "[small c, caron]"--
+--SDATA "[Ccaron]" "[capital C, caron]"--
+--SDATA "[ccirc]" "[small c, circumflex accent]"--
+--SDATA "[Ccirc]" "[capital C, circumflex accent]"--
+--SDATA "[cdot]" "[small c, dot above]"--
+--SDATA "[Cdot]" "[capital C, dot above]"--
+--SDATA "[dcaron]" "[small d, caron]"--
+--SDATA "[Dcaron]" "[capital D, caron]"--
+--SDATA "[dstrok]" "[small d, stroke]"--
+--SDATA "[Dstrok]" "[capital D, stroke]"--
+--SDATA "[ecaron]" "[small e, caron]"--
+--SDATA "[Ecaron]" "[capital E, caron]"--
+--SDATA "[edot]" "[small e, dot above]"--
+--SDATA "[Edot]" "[capital E, dot above]"--
+--SDATA "[emacr]" "[small e, macron]"--
+--SDATA "[Emacr]" "[capital E, macron]"--
+--SDATA "[eogon]" "[small e, ogonek]"--
+--SDATA "[Eogon]" "[capital E, ogonek]"--
+--SDATA "[gacute]" "[small g, acute accent]"--
+--SDATA "[gbreve]" "[small g, breve]"--
+--SDATA "[Gbreve]" "[capital G, breve]"--
+--SDATA "[Gcedil]" "[capital G, cedilla]"--
+--SDATA "[gcirc]" "[small g, circumflex accent]"--
+--SDATA "[Gcirc]" "[capital G, circumflex accent]"--
+--SDATA "[gdot]" "[small g, dot above]"--
+--SDATA "[Gdot]" "[capital G, dot above]"--
+--SDATA "[hcirc]" "[small h, circumflex accent]"--
+--SDATA "[Hcirc]" "[capital H, circumflex accent]"--
+--SDATA "[hstrok]" "[small h, stroke]"--
+--SDATA "[Hstrok]" "[capital H, stroke]"--
+--SDATA "[Idot]" "[capital I, dot above]"--
+--SDATA "[Imacr]" "[capital I, macron]"--
+--SDATA "[imacr]" "[small i, macron]"--
+--SDATA "[ijlig]" "[small ij ligature]"--
+--SDATA "[IJlig]" "[capital IJ ligature]"--
+--SDATA "[inodot]" "[small i without dot]"--
+--SDATA "[iogon]" "[small i, ogonek]"--
+--SDATA "[Iogon]" "[capital I, ogonek]"--
+--SDATA "[itilde]" "[small i, tilde]"--
+--SDATA "[Itilde]" "[capital I, tilde]"--
+--SDATA "[jcirc]" "[small j, circumflex accent]"--
+--SDATA "[Jcirc]" "[capital J, circumflex accent]"--
+--SDATA "[kcedil]" "[small k, cedilla]"--
+--SDATA "[Kcedil]" "[capital K, cedilla]"--
+--SDATA "[kgreen]" "[small k, Greenlandic]"--
+--SDATA "[lacute]" "[small l, acute accent]"--
+--SDATA "[Lacute]" "[capital L, acute accent]"--
+--SDATA "[lcaron]" "[small l, caron]"--
+--SDATA "[Lcaron]" "[capital L, caron]"--
+--SDATA "[lcedil]" "[small l, cedilla]"--
+--SDATA "[Lcedil]" "[capital L, cedilla]"--
+--SDATA "[lmidot]" "[small l, middle dot]"--
+--SDATA "[Lmidot]" "[capital L, middle dot]"--
+--SDATA "[lstrok]" "[small l, stroke]"--
+--SDATA "[Lstrok]" "[capital L, stroke]"--
+--SDATA "[nacute]" "[small n, acute accent]"--
+--SDATA "[Nacute]" "[capital N, acute accent]"--
+--SDATA "[eng]" "[small eng, Lapp]"--
+--SDATA "[ENG]" "[capital ENG, Lapp]"--
+--SDATA "[napos]" "[small n, apostrophe]"--
+--SDATA "[ncaron]" "[small n, caron]"--
+--SDATA "[Ncaron]" "[capital N, caron]"--
+--SDATA "[ncedil]" "[small n, cedilla]"--
+--SDATA "[Ncedil]" "[capital N, cedilla]"--
+--SDATA "[odblac]" "[small o, double acute accent]"--
+--SDATA "[Odblac]" "[capital O, double acute accent]"--
+--SDATA "[Omacr]" "[capital O, macron]"--
+--SDATA "[omacr]" "[small o, macron]"--
+--SDATA "[oelig]" "[small oe ligature]"--
+--SDATA "[OElig]" "[capital OE ligature]"--
+--SDATA "[racute]" "[small r, acute accent]"--
+--SDATA "[Racute]" "[capital R, acute accent]"--
+--SDATA "[rcaron]" "[small r, caron]"--
+--SDATA "[Rcaron]" "[capital R, caron]"--
+--SDATA "[rcedil]" "[small r, cedilla]"--
+--SDATA "[Rcedil]" "[capital R, cedilla]"--
+--SDATA "[sacute]" "[small s, acute accent]"--
+--SDATA "[Sacute]" "[capital S, acute accent]"--
+--SDATA "[scaron]" "[small s, caron]"--
+--SDATA "[Scaron]" "[S, caron]"--
+--SDATA "[scedil]" "[small s, cedilla]"--
+--SDATA "[Scedil]" "[capital S, cedilla]"--
+--SDATA "[scirc]" "[small s, circumflex accent]"--
+--SDATA "[Scirc]" "[capital S, circumflex accent]"--
+--SDATA "[tcaron]" "[small t, caron]"--
+--SDATA "[Tcaron]" "[capital T, caron]"--
+--SDATA "[tcedil]" "[small t, cedilla]"--
+--SDATA "[Tcedil]" "[capital T, cedilla]"--
+--SDATA "[tstrok]" "[small t, stroke]"--
+--SDATA "[Tstrok]" "[capital T, stroke]"--
+--SDATA "[ubreve]" "[small u, breve]"--
+--SDATA "[Ubreve]" "[capital U, breve]"--
+--SDATA "[udblac]" "[small u, double acute accent]"--
+--SDATA "[Udblac]" "[capital U, double acute accent]"--
+--SDATA "[umacr]" "[small u, macron]"--
+--SDATA "[Umacr]" "[capital U, macron]"--
+--SDATA "[uogon]" "[small u, ogonek]"--
+--SDATA "[Uogon]" "[capital U, ogonek]"--
+--SDATA "[uring]" "[small u, ring]"--
+--SDATA "[Uring]" "[capital U, ring]"--
+--SDATA "[utilde]" "[small u, tilde]"--
+--SDATA "[Utilde]" "[capital U, tilde]"--
+--SDATA "[wcirc]" "[small w, circumflex accent]"--
+--SDATA "[Wcirc]" "[capital W, circumflex accent]"--
+--SDATA "[ycirc]" "[small y, circumflex accent]"--
+--SDATA "[Ycirc]" "[capital Y, circumflex accent]"--
+--SDATA "[Yuml]" "[capital Y, dieresis or umlaut mark]"--
+--SDATA "[zacute]" "[small z, acute accent]"--
+--SDATA "[Zacute]" "[capital Z, acute accent]"--
+--SDATA "[zcaron]" "[small z, caron]"--
+--SDATA "[Zcaron]" "[capital Z, caron]"--
+--SDATA "[zdot]" "[small z, dot above]"--
+--SDATA "[Zdot]" "[capital Z, dot above]"--
+
+-- modified by rob --
+SDATA "[abreve]" "a"
+SDATA "[Abreve]" "A"
+SDATA "[amacr]" "a"
+SDATA "[Amacr]" "A"
+SDATA "[aogon]" "a"
+SDATA "[Aogon]" "A"
+SDATA "[cacute]" "c"
+SDATA "[Cacute]" "C"
+SDATA "[ccaron]" "c"
+SDATA "[Ccaron]" "C"
+SDATA "[ccirc]" "c"
+SDATA "[Ccirc]" "C"
+SDATA "[cdot]" "c"
+SDATA "[Cdot]" "C"
+SDATA "[dcaron]" "d"
+SDATA "[Dcaron]" "D"
+SDATA "[dstrok]" "d"
+SDATA "[Dstrok]" "D"
+SDATA "[ecaron]" "e"
+SDATA "[Ecaron]" "E"
+SDATA "[edot]" "e"
+SDATA "[Edot]" "E"
+SDATA "[emacr]" "e"
+SDATA "[Emacr]" "E"
+SDATA "[eogon]" "e"
+SDATA "[Eogon]" "E"
+SDATA "[gacute]" "g"
+SDATA "[gbreve]" "g"
+SDATA "[Gbreve]" "G"
+SDATA "[Gcedil]" "G"
+SDATA "[gcirc]" "g"
+SDATA "[Gcirc]" "G"
+SDATA "[gdot]" "g"
+SDATA "[Gdot]" "G"
+SDATA "[hcirc]" "h"
+SDATA "[Hcirc]" "H"
+SDATA "[hstrok]" "h"
+SDATA "[Hstrok]" "H"
+SDATA "[Idot]" "I"
+SDATA "[Imacr]" "I"
+SDATA "[imacr]" "i"
+SDATA "[ijlig]" "ij"
+SDATA "[IJlig]" "IJ"
+SDATA "[inodot]" "i"
+SDATA "[iogon]" "i"
+SDATA "[Iogon]" "I"
+SDATA "[itilde]" "i"
+SDATA "[Itilde]" "I"
+SDATA "[jcirc]" "j"
+SDATA "[Jcirc]" "J"
+SDATA "[kcedil]" "k"
+SDATA "[Kcedil]" "K"
+SDATA "[kgreen]" "k"
+SDATA "[lacute]" "l"
+SDATA "[Lacute]" "L"
+SDATA "[lcaron]" "l"
+SDATA "[Lcaron]" "L"
+SDATA "[lcedil]" "l"
+SDATA "[Lcedil]" "L"
+SDATA "[lmidot]" "l"
+SDATA "[Lmidot]" "L"
+SDATA "[lstrok]" "l"
+SDATA "[Lstrok]" "L"
+SDATA "[nacute]" "n"
+SDATA "[Nacute]" "N"
+SDATA "[eng]" "eng"
+SDATA "[ENG]" "ENG"
+SDATA "[napos]" "n"
+SDATA "[ncaron]" "n"
+SDATA "[Ncaron]" "N"
+SDATA "[ncedil]" "n"
+SDATA "[Ncedil]" "N"
+SDATA "[odblac]" "o"
+SDATA "[Odblac]" "O"
+SDATA "[Omacr]" "O"
+SDATA "[omacr]" "o"
+SDATA "[oelig]" "oe"
+SDATA "[OElig]" "OE"
+SDATA "[racute]" "r"
+SDATA "[Racute]" "R"
+SDATA "[rcaron]" "r"
+SDATA "[Rcaron]" "R"
+SDATA "[rcedil]" "r"
+SDATA "[Rcedil]" "R"
+SDATA "[sacute]" "s"
+SDATA "[Sacute]" "S"
+SDATA "[scaron]" "s"
+SDATA "[Scaron]" "S"
+SDATA "[scedil]" "s"
+SDATA "[Scedil]" "S"
+SDATA "[scirc]" "s"
+SDATA "[Scirc]" "S"
+SDATA "[tcaron]" "t"
+SDATA "[Tcaron]" "T"
+SDATA "[tcedil]" "t"
+SDATA "[Tcedil]" "T"
+SDATA "[tstrok]" "t"
+SDATA "[Tstrok]" "T"
+SDATA "[ubreve]" "u"
+SDATA "[Ubreve]" "U"
+SDATA "[udblac]" "u"
+SDATA "[Udblac]" "U"
+SDATA "[umacr]" "u"
+SDATA "[Umacr]" "U"
+SDATA "[uogon]" "u"
+SDATA "[Uogon]" "U"
+SDATA "[uring]" "u"
+SDATA "[Uring]" "U"
+SDATA "[utilde]" "u"
+SDATA "[Utilde]" "U"
+SDATA "[wcirc]" "w"
+SDATA "[Wcirc]" "W"
+SDATA "[ycirc]" "y"
+SDATA "[Ycirc]" "Y"
+SDATA "[Yuml]" "Y"
+SDATA "[zacute]" "z"
+SDATA "[Zacute]" "Z"
+SDATA "[zcaron]" "z"
+SDATA "[Zcaron]" "Z"
+SDATA "[zdot]" "z"
+SDATA "[Zdot]" "Z"
+
+
+
+-- ISOgrk1 "ISO 8879-1986//ENTITIES Greek Letters//EN" --
+
+SDATA "[agr]" "a" FDATA Symbol
+SDATA "[Agr]" "A" FDATA Symbol
+SDATA "[bgr]" "b" FDATA Symbol
+SDATA "[Bgr]" "B" FDATA Symbol
+SDATA "[ggr]" "g" FDATA Symbol
+SDATA "[Ggr]" "G" FDATA Symbol
+SDATA "[dgr]" "d" FDATA Symbol
+SDATA "[Dgr]" "D" FDATA Symbol
+SDATA "[egr]" "e" FDATA Symbol
+SDATA "[Egr]" "E" FDATA Symbol
+SDATA "[zgr]" "z" FDATA Symbol
+SDATA "[Zgr]" "Z" FDATA Symbol
+SDATA "[eegr]" "h" FDATA Symbol
+SDATA "[EEgr]" "H" FDATA Symbol
+SDATA "[thgr]" "q" FDATA Symbol
+SDATA "[THgr]" "Q" FDATA Symbol
+SDATA "[igr]" "i" FDATA Symbol
+SDATA "[Igr]" "I" FDATA Symbol
+SDATA "[kgr]" "k" FDATA Symbol
+SDATA "[Kgr]" "K" FDATA Symbol
+SDATA "[lgr]" "l" FDATA Symbol
+SDATA "[Lgr]" "L" FDATA Symbol
+SDATA "[mgr]" "m" FDATA Symbol
+SDATA "[Mgr]" "M" FDATA Symbol
+SDATA "[ngr]" "n" FDATA Symbol
+SDATA "[Ngr]" "N" FDATA Symbol
+SDATA "[xgr]" "x" FDATA Symbol
+SDATA "[Xgr]" "X" FDATA Symbol
+SDATA "[ogr]" "o" FDATA Symbol
+SDATA "[Ogr]" "O" FDATA Symbol
+SDATA "[pgr]" "p" FDATA Symbol
+SDATA "[Pgr]" "P" FDATA Symbol
+SDATA "[rgr]" "r" FDATA Symbol
+SDATA "[Rgr]" "R" FDATA Symbol
+SDATA "[sgr]" "s" FDATA Symbol
+SDATA "[Sgr]" "S" FDATA Symbol
+SDATA "[sfgr]" "[final small sigma, Greek]"
+SDATA "[tgr]" "t" FDATA Symbol
+SDATA "[Tgr]" "T" FDATA Symbol
+SDATA "[ugr]" "u" FDATA Symbol
+SDATA "[Ugr]" "U" FDATA Symbol
+SDATA "[phgr]" "f" FDATA Symbol
+SDATA "[PHgr]" "F" FDATA Symbol
+SDATA "[khgr]" "c" FDATA Symbol
+SDATA "[KHgr]" "C" FDATA Symbol
+SDATA "[psgr]" "y" FDATA Symbol
+SDATA "[PSgr]" "Y" FDATA Symbol
+SDATA "[ohgr]" "w" FDATA Symbol
+SDATA "[OHgr]" "W" FDATA Symbol
+
+
+-- ISOgrk2 "ISO 8879-1986//ENTITIES Monotoniko Greek//EN" --
+
+SDATA "[aacgr]" "[small alpha, accent, Greek]"
+SDATA "[Aacgr]" "[capital Alpha, accent, Greek]"
+SDATA "[eacgr]" "[small epsilon, accent, Greek]"
+SDATA "[Eacgr]" "[capital Epsilon, accent, Greek]"
+SDATA "[eeacgr]" "[small eta, accent, Greek]"
+SDATA "[EEacgr]" "[capital Eta, accent, Greek]"
+SDATA "[idigr]" "[small iota, dieresis, Greek]"
+SDATA "[Idigr]" "[capital Iota, dieresis, Greek]"
+SDATA "[iacgr]" "[small iota, accent, Greek]"
+SDATA "[Iacgr]" "[capital Iota, accent, Greek]"
+SDATA "[idiagr]" "[small iota, dieresis, accent, Greek]"
+SDATA "[oacgr]" "[small omicron, accent, Greek]"
+SDATA "[Oacgr]" "[capital Omicron, accent, Greek]"
+SDATA "[udigr]" "[small upsilon, dieresis, Greek]"
+SDATA "[Udigr]" "[capital Upsilon, dieresis, Greek]"
+SDATA "[uacgr]" "[small upsilon, accent, Greek]"
+SDATA "[Uacgr]" "[capital Upsilon, accent, Greek]"
+SDATA "[udiagr]" "[small upsilon, dieresis, accent, Greek]"
+SDATA "[ohacgr]" "[small omega, accent, Greek]"
+SDATA "[OHacgr]" "[capital Omega, accent, Greek]"
+
+
+-- ISOcyr1 "ISO 8879-1986//ENTITIES Russian Cyrillic//EN" --
+
+SDATA "[acy]" "[small a, Cyrillic]"
+SDATA "[Acy]" "[capital A, Cyrillic]"
+SDATA "[bcy]" "[small be, Cyrillic]"
+SDATA "[Bcy]" "[capital BE, Cyrillic]"
+SDATA "[vcy]" "[small ve, Cyrillic]"
+SDATA "[Vcy]" "[capital VE, Cyrillic]"
+SDATA "[gcy]" "[small ghe, Cyrillic]"
+SDATA "[Gcy]" "[capital GHE, Cyrillic]"
+SDATA "[dcy]" "[small de, Cyrillic]"
+SDATA "[Dcy]" "[capital DE, Cyrillic]"
+SDATA "[iecy]" "[small ie, Cyrillic]"
+SDATA "[IEcy]" "[capital IE, Cyrillic]"
+SDATA "[iocy]" "[small io, Russian]"
+SDATA "[IOcy]" "[capital IO, Russian]"
+SDATA "[zhcy]" "[small zhe, Cyrillic]"
+SDATA "[ZHcy]" "[capital ZHE, Cyrillic]"
+SDATA "[zcy]" "[small ze, Cyrillic]"
+SDATA "[Zcy]" "[capital ZE, Cyrillic]"
+SDATA "[icy]" "[small i, Cyrillic]"
+SDATA "[Icy]" "[capital I, Cyrillic]"
+SDATA "[jcy]" "[small short i, Cyrillic]"
+SDATA "[Jcy]" "[capital short I, Cyrillic]"
+SDATA "[kcy]" "[small ka, Cyrillic]"
+SDATA "[Kcy]" "[capital KA, Cyrillic]"
+SDATA "[lcy]" "[small el, Cyrillic]"
+SDATA "[Lcy]" "[capital EL, Cyrillic]"
+SDATA "[mcy]" "[small em, Cyrillic]"
+SDATA "[Mcy]" "[capital EM, Cyrillic]"
+SDATA "[ncy]" "[small en, Cyrillic]"
+SDATA "[Ncy]" "[capital EN, Cyrillic]"
+SDATA "[ocy]" "[small o, Cyrillic]"
+SDATA "[Ocy]" "[capital O, Cyrillic]"
+SDATA "[pcy]" "[small pe, Cyrillic]"
+SDATA "[Pcy]" "[capital PE, Cyrillic]"
+SDATA "[rcy]" "[small er, Cyrillic]"
+SDATA "[Rcy]" "[capital ER, Cyrillic]"
+SDATA "[scy]" "[small es, Cyrillic]"
+SDATA "[Scy]" "[capital ES, Cyrillic]"
+SDATA "[tcy]" "[small te, Cyrillic]"
+SDATA "[Tcy]" "[capital TE, Cyrillic]"
+SDATA "[ucy]" "[small u, Cyrillic]"
+SDATA "[Ucy]" "[capital U, Cyrillic]"
+SDATA "[fcy]" "[small ef, Cyrillic]"
+SDATA "[Fcy]" "[capital EF, Cyrillic]"
+SDATA "[khcy]" "[small ha, Cyrillic]"
+SDATA "[KHcy]" "[capital HA, Cyrillic]"
+SDATA "[tscy]" "[small tse, Cyrillic]"
+SDATA "[TScy]" "[capital TSE, Cyrillic]"
+SDATA "[chcy]" "[small che, Cyrillic]"
+SDATA "[CHcy]" "[capital CHE, Cyrillic]"
+SDATA "[shcy]" "[small sha, Cyrillic]"
+SDATA "[SHcy]" "[capital SHA, Cyrillic]"
+SDATA "[shchcy]" "[small shcha, Cyrillic]"
+SDATA "[SHCHcy]" "[capital SHCHA, Cyrillic]"
+SDATA "[hardcy]" "[small hard sign, Cyrillic]"
+SDATA "[HARDcy]" "[capital HARD sign, Cyrillic]"
+SDATA "[ycy]" "[small yeru, Cyrillic]"
+SDATA "[Ycy]" "[capital YERU, Cyrillic]"
+SDATA "[softcy]" "[small soft sign, Cyrillic]"
+SDATA "[SOFTcy]" "[capital SOFT sign, Cyrillic]"
+SDATA "[ecy]" "[small e, Cyrillic]"
+SDATA "[Ecy]" "[capital E, Cyrillic]"
+SDATA "[yucy]" "[small yu, Cyrillic]"
+SDATA "[YUcy]" "[capital YU, Cyrillic]"
+SDATA "[yacy]" "[small ya, Cyrillic]"
+SDATA "[YAcy]" "[capital YA, Cyrillic]"
+SDATA "[numero]" "[numero sign]"
+
+
+-- ISOcyr2 "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN" --
+
+SDATA "[djcy]" "[small dje, Serbian]"
+SDATA "[DJcy]" "[capital DJE, Serbian]"
+SDATA "[gjcy]" "[small gje, Macedonian]"
+SDATA "[GJcy]" "[capital GJE Macedonian]"
+SDATA "[jukcy]" "[small je, Ukrainian]"
+SDATA "[Jukcy]" "[capital JE, Ukrainian]"
+SDATA "[dscy]" "[small dse, Macedonian]"
+SDATA "[DScy]" "[capital DSE, Macedonian]"
+SDATA "[iukcy]" "[small i, Ukrainian]"
+SDATA "[Iukcy]" "[capital I, Ukrainian]"
+SDATA "[yicy]" "[small yi, Ukrainian]"
+SDATA "[YIcy]" "[capital YI, Ukrainian]"
+SDATA "[jsercy]" "[small je, Serbian]"
+SDATA "[Jsercy]" "[capital JE, Serbian]"
+SDATA "[ljcy]" "[small lje, Serbian]"
+SDATA "[LJcy]" "[capital LJE, Serbian]"
+SDATA "[njcy]" "[small nje, Serbian]"
+SDATA "[NJcy]" "[capital NJE, Serbian]"
+SDATA "[tshcy]" "[small tshe, Serbian]"
+SDATA "[TSHcy]" "[capital TSHE, Serbian]"
+SDATA "[kjcy]" "[small kje Macedonian]"
+SDATA "[KJcy]" "[capital KJE, Macedonian]"
+SDATA "[ubrcy]" "[small u, Byelorussian]"
+SDATA "[Ubrcy]" "[capital U, Byelorussian]"
+SDATA "[dzcy]" "[small dze, Serbian]"
+SDATA "[DZcy]" "[capital dze, Serbian]"
+
+
+-- ISOnum "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN" --
+
+SDATA "[half]" "&#189;"
+SDATA "[frac12]" "&#189;"
+SDATA "[frac14]" "&#188;"
+SDATA "[frac34]" "&#190;"
+SDATA "[frac18]" "[fraction one-eighth]"
+SDATA "[frac38]" "[fraction three-eighths]"
+SDATA "[frac58]" "[fraction five-eighths]"
+SDATA "[frac78]" "[fraction seven-eighths]"
+SDATA "[sup1]" "&#185;"
+SDATA "[sup2]" "&#178;"
+SDATA "[sup3]" "&#179;"
+SDATA "[plus]" "+"
+SDATA "[plusmn]" "&#177;"
+SDATA "[lt]" "<"
+SDATA "[equals]" "="
+SDATA "[gt]" ">"
+SDATA "[divide]" "&#247;"
+SDATA "[times]" "&#215;"
+SDATA "[curren]" "&#164;"
+SDATA "[pound]" "&#163;"
+SDATA "[dollar]" "$"
+SDATA "[cent]" "&#162;"
+SDATA "[yen]" "&#165;"
+SDATA "[num]" "#"
+SDATA "[percnt]" "%"
+SDATA "[amp]" "&"
+SDATA "[ast]" "*"
+SDATA "[commat]" "@"
+SDATA "[lsqb]" "["
+SDATA "[bsol]" "\"
+SDATA "[rsqb]" "]"
+SDATA "[lcub]" "{"
+SDATA "[horbar]" "-"
+SDATA "[verbar]" "|"
+SDATA "[rcub]" "}"
+SDATA "[micro]" "m" FDATA Symbol
+SDATA "[ohm]" "W" FDATA Symbol
+SDATA "[deg]" "&#176;"
+SDATA "[ordm]" "&#186;"
+SDATA "[ordf]" "&#170;"
+SDATA "[sect]" "&#167;"
+SDATA "[para]" "&#182;"
+SDATA "[middot]" "&#183;"
+SDATA "[larr]" "&#172;" FDATA Symbol
+SDATA "[rarr]" "&#174;" FDATA Symbol
+SDATA "[uarr]" "&#173;" FDATA Symbol
+SDATA "[darr]" "&#175;" FDATA Symbol
+SDATA "[copy]" "&#169;"
+SDATA "[reg]" "&#174;"
+SDATA "[trade]" "&#153;"
+SDATA "[brvbar]" "&#166;"
+SDATA "[not]" "&#172"
+SDATA "[sung]" "[music note (sung text sign)]"
+SDATA "[excl]" "!"
+SDATA "[iexcl]" "&#161;"
+SDATA "[quot]" "'"
+SDATA "[apos]" "&#180;"
+SDATA "[lpar]" "("
+SDATA "[rpar]" ")"
+SDATA "[comma]" ","
+SDATA "[lowbar]" "_"
+SDATA "[hyphen]" "-"
+SDATA "[period]" "."
+SDATA "[sol]" "/"
+SDATA "[colon]" ":"
+SDATA "[semi]" ";"
+SDATA "[quest]" "?"
+SDATA "[iquest]" "&#191;"
+SDATA "[laquo]" "&#171;"
+SDATA "[raquo]" "&#187;"
+SDATA "[lsquo]" "&#145"
+SDATA "[rsquo]" "&#146;"
+SDATA "[ldquo]" "&#147;"
+SDATA "[rdquo]" "&#148;"
+SDATA "[nbsp]" "&#160;"
+SDATA "[shy]" "&#173;"
+
+
+-- % ISOdia "ISO 8879-1986//ENTITIES Diacritical Marks//EN" --
+
+SDATA "[acute]" "&#180;"
+SDATA "[breve]" "[breve]"
+SDATA "[caron]" "[caron]"
+SDATA "[cedil]" "[cedilla]"
+SDATA "[circ]" "^"
+SDATA "[dblac]" "[double acute accent]"
+SDATA "[die]" "[dieresis]"
+SDATA "[dot]" "&#037;" FDATA tci1
+SDATA "[grave]" "`"
+SDATA "[macr]" "¯"
+SDATA "[ogon]" "[ogonek]"
+SDATA "[ring]" "[ring]"
+SDATA "[tilde]" "~"
+SDATA "[uml]" "&#168;"
+
+
+-- ISOpub "ISO 8879-1986//ENTITIES Publishing//EN" --
+
+SDATA "[emsp]" "  "
+SDATA "[ensp]" " "
+SDATA "[emsp3]" " "
+SDATA "[emsp4]" " "
+SDATA "[numsp]" " "
+SDATA "[puncsp]" " "
+SDATA "[thinsp]" " "
+SDATA "[hairsp]" " "
+SDATA "[mdash]" "&#151;"
+SDATA "[ndash]" "&#150;"
+SDATA "[dash]" "-"
+SDATA "[blank]" " "
+SDATA "[hellip]" "&#133;"
+SDATA "[nldr]" "[double baseline dot (en leader)]"
+SDATA "[frac13]" "[fraction one-third]"
+SDATA "[frac23]" "[fraction two-thirds]"
+SDATA "[frac15]" "[fraction one-fifth]"
+SDATA "[frac25]" "[fraction two-fifths]"
+SDATA "[frac35]" "[fraction three-fifths]"
+SDATA "[frac45]" "[fraction four-fifths]"
+SDATA "[frac16]" "[fraction one-sixth]"
+SDATA "[frac56]" "[fraction five-sixths]"
+SDATA "[incare]" "[in-care-of symbol]"
+SDATA "[block]" "&#219;" FDATA Terminal
+SDATA "[uhblk]" "&#223;" FDATA Terminal
+SDATA "[lhblk]" "&#220;" FDATA Terminal
+SDATA "[blk14]" "&#176;" FDATA Terminal
+SDATA "[blk12]" "&#177;" FDATA Terminal
+SDATA "[blk34]" "&#178;" FDATA Terminal
+SDATA "[marker]" "[histogram marker]"
+SDATA "[cir]" "&#161;" FDATA Wingdings
+SDATA "[squ]" "o" FDATA tci3
+SDATA "[rect]" "[rectangle, open]"
+SDATA "[utri]" "¢" FDATA tci3
+SDATA "[dtri]" "¬" FDATA tci3
+SDATA "[star]" "[star, open]"
+SDATA "[bull]" "l" FDATA Wingdings
+SDATA "[squf]" "n" FDATA Wingdings
+SDATA "[utrif]" "¡" FDATA tci3
+SDATA "[dtrif]" "«" FDATA tci3
+SDATA "[ltrif]" "¯" FDATA tci3
+SDATA "[rtrif]" "¥" FDATA tci3
+SDATA "[clubs]" "&#167;" FDATA Symbol
+SDATA "[diams]" "&#168;" FDATA Symbol
+SDATA "[hearts]" "&#169;" FDATA Symbol
+SDATA "[spades]" "&#170;" FDATA Symbol
+SDATA "[malt]" "@" FDATA ZapfDingbats
+SDATA "[dagger]" "&#134;"
+SDATA "[Dagger]" "&#135;"
+SDATA "[check]" "4" FDATA ZapfDingbats
+SDATA "[ballot]" "7" FDATA ZapfDingbats
+SDATA "[cross]" "7" FDATA ZapfDingbats
+SDATA "[sharp]" "[/sharp =musical sharp]"
+SDATA "[flat]" "[/flat =musical flat]"
+SDATA "[male]" "[male symbol]"
+SDATA "[female]" "[female symbol]"
+SDATA "[phone]" "%" FDATA ZapfDingbats
+SDATA "[telrec]" "[telephone recorder symbol]"
+SDATA "[copysr]" "[sound recording copyright sign]"
+SDATA "[caret]" "[caret (insertion mark)]"
+SDATA "[lsquor]" "[rising single quote, left (low)]"
+SDATA "[ldquor]" "[rising dbl quote, left (low)]"
+SDATA "[fflig]" "[small ff ligature]"
+SDATA "[filig]" "[small fi ligature]"
+SDATA "[fjlig]" "[small fj ligature]"
+SDATA "[ffilig]" "[small ffi ligature]"
+SDATA "[ffllig]" "[small ffl ligature]"
+SDATA "[fllig]" "[small fl ligature]"
+SDATA "[mldr]" "[em leader]"
+SDATA "[rdquor]" "[rising dbl quote, right (high)]"
+SDATA "[rsquor]" "[rising single quote, right (high)]"
+SDATA "[vellip]" "_" FDATA tci3
+SDATA "[hybull]" "z" FDATA tci3
+SDATA "[loz]" "¶" FDATA tci3
+SDATA "[lozf]" "µ" FDATA tci3
+SDATA "[ltri]" "°" FDATA tci3
+SDATA "[rtri]" "¦" FDATA tci3
+SDATA "[starf]" "[/bigstar - star, filled]"
+SDATA "[natur]" "[/natural - music natural]"
+SDATA "[rx]" "[pharmaceutical prescription (Rx)]"
+SDATA "[sext]" "[sextile (6-pointed star)]"
+SDATA "[target]" "[register mark or target]"
+SDATA "[dlcrop]" "[downward left crop mark]"
+SDATA "[drcrop]" "[downward right crop mark]"
+SDATA "[ulcrop]" "[upward left crop mark]"
+SDATA "[urcrop]" "[upward right crop mark]"
+
+SDATA "[boxDL]" "&#187;" FDATA Terminal
+SDATA "[boxDl]" "&#183;" FDATA Terminal
+SDATA "[boxdL]" "&#184;" FDATA Terminal
+SDATA "[boxdl]" "&#191;" FDATA Terminal
+SDATA "[boxDR]" "&#201;" FDATA Terminal
+SDATA "[boxDr]" "&#214;" FDATA Terminal
+SDATA "[boxdR]" "&#213;" FDATA Terminal
+SDATA "[boxdr]" "&#218;" FDATA Terminal
+SDATA "[boxH]" "&#205;" FDATA Terminal
+SDATA "[boxh]" "&#196;" FDATA Terminal
+SDATA "[boxHD]" "&#203;" FDATA Terminal
+SDATA "[boxHd]" "&#209;" FDATA Terminal
+SDATA "[boxhD]" "&#210;" FDATA Terminal
+SDATA "[boxhd]" "&#194;" FDATA Terminal
+SDATA "[boxHU]" "&#202;" FDATA Terminal
+SDATA "[boxHu]" "&#207;" FDATA Terminal
+SDATA "[boxhU]" "&#208;" FDATA Terminal
+SDATA "[boxhu]" "&#193;" FDATA Terminal
+SDATA "[boxUL]" "&#188;" FDATA Terminal
+SDATA "[boxUl]" "&#189;" FDATA Terminal
+SDATA "[boxuL]" "&#190;" FDATA Terminal
+SDATA "[boxul]" "&#217;" FDATA Terminal
+SDATA "[boxUR]" "&#200;" FDATA Terminal
+SDATA "[boxUr]" "&#211;" FDATA Terminal
+SDATA "[boxuR]" "&#212;" FDATA Terminal
+SDATA "[boxur]" "&#192;" FDATA Terminal
+SDATA "[boxV]" "&#186;" FDATA Terminal
+SDATA "[boxv]" "&#179;" FDATA Terminal
+SDATA "[boxVH]" "&#206;" FDATA Terminal
+SDATA "[boxVh]" "&#215;" FDATA Terminal
+SDATA "[boxvH]" "&#216;" FDATA Terminal
+SDATA "[boxvh]" "&#197;" FDATA Terminal
+SDATA "[boxVL]" "&#185;" FDATA Terminal
+SDATA "[boxVl]" "&#182;" FDATA Terminal
+SDATA "[boxvL]" "&#181;" FDATA Terminal
+SDATA "[boxvl]" "&#180;" FDATA Terminal
+SDATA "[boxVR]" "&#204;" FDATA Terminal
+SDATA "[boxVr]" "&#199;" FDATA Terminal
+SDATA "[boxvR]" "&#198;" FDATA Terminal
+SDATA "[boxvr]" "&#195;" FDATA Terminal
+
+
+-- ISOtech "ISO 8879-1986//ENTITIES General Technical//EN" --
+
+SDATA "[aleph]" "&#192;" FDATA Symbol
+SDATA "[and]" "&#217;" FDATA Symbol
+SDATA "[ang90]" "&#235;" FDATA Symbol
+SDATA "[angsph]" "[/sphericalangle =angle-spherical]"
+SDATA "[ap]" "&#187;" FDATA Symbol
+SDATA "[becaus]" "[/because R: =because]"
+SDATA "[bottom]" "&#94;" FDATA Symbol
+SDATA "[cap]" "&#194;" FDATA Symbol
+SDATA "[cong]" "@" FDATA Symbol
+SDATA "[conint]" "[/oint L: =contour integral operator]"
+SDATA "[cup]" "&#200;" FDATA Symbol
+SDATA "[equiv]" "&#186;" FDATA Symbol
+SDATA "[exist]" "$" FDATA Symbol
+SDATA "[forall]" '"' FDATA Symbol
+SDATA "[fnof]" "&#166;" FDATA Symbol
+SDATA "[ge]" "&#179;" FDATA Symbol
+SDATA "[iff]" "&#219;" FDATA Symbol
+SDATA "[infin]" "&#165;" FDATA Symbol
+SDATA "[int]" "&#242;" FDATA Symbol
+SDATA "[isin]" "&#206;" FDATA Symbol
+SDATA "[lang]" "&#225;" FDATA Symbol
+SDATA "[lArr]" "&#220;" FDATA Symbol
+SDATA "[le]" "&#163;" FDATA Symbol
+SDATA "[minus]" "-" FDATA Symbol
+SDATA "[mnplus]" "[/mp B: =minus-or-plus sign]"
+SDATA "[nabla]" "&#209;" FDATA Symbol
+SDATA "[ne]" "&#185;" FDATA Symbol
+SDATA "[ni]" "'" FDATA Symbol
+SDATA "[or]" "&#218;" FDATA Symbol
+SDATA "[par]" "&#239&#239" FDATA Symbol
+SDATA "[part]" "&#182;" FDATA Symbol
+SDATA "[permil]" "[per thousand]"
+SDATA "[perp]" "&#94;" FDATA Symbol
+SDATA "[prime]" "&#162;" FDATA Symbol
+SDATA "[Prime]" "&#178;" FDATA Symbol
+SDATA "[prop]" "&#181;" FDATA Symbol
+SDATA "[radic]" "&#214;" FDATA Symbol
+SDATA "[rang]" "&#241;" FDATA Symbol
+SDATA "[rArr]" "&#222;" FDATA Symbol
+SDATA "[sim]" "&#126;" FDATA Symbol
+SDATA "[sime]" "&#112;" FDATA tci2
+SDATA "[square]" "[/square B: =square]"
+SDATA "[sub]" "&#204;" FDATA Symbol
+SDATA "[sube]" "&#205;" FDATA Symbol
+SDATA "[sup]" "&#201;" FDATA Symbol
+SDATA "[supe]" "&#202;" FDATA Symbol
+SDATA "[there4]" "&#92;" FDATA Symbol
+SDATA "[Verbar]" "[/Vert =dbl vertical bar]"
+SDATA "[angst]" "&#197;" FDATA Symbol
+SDATA "[bernou]" "Bernoulli function (script capital B)]"
+SDATA "[compfn]" "B: composite function (small circle)]"
+SDATA "[Dot]" "[dieresis or umlaut mark]"
+SDATA "[DotDot]" "four dots above]"
+SDATA "[hamilt]" "Hamiltonian (script capital H)]"
+SDATA "[lagran]" "Lagrangian (script capital L)]"
+SDATA "[lowast]" "low asterisk]"
+SDATA "[notin]" "&#207;" FDATA Symbol
+SDATA "[order]" "order of (script small o)]"
+SDATA "[phmmat]" "physics M-matrix (script capital M)]"
+SDATA "[tdot]" "three dots above]"
+SDATA "[tprime]" "triple prime]"
+SDATA "[wedgeq]" "R: corresponds to (wedge, equals)]"
+
+
+-- ISOgrk3 "ISO 8879-1986//ENTITIES Greek Symbols//EN" --
+
+SDATA "[alpha]" "a" FDATA Symbol
+SDATA "[beta]" "b" FDATA Symbol
+SDATA "[gamma]" "g" FDATA Symbol
+SDATA "[Gamma]" "G" FDATA Symbol
+SDATA "[gammad]" "[/digamma]"
+SDATA "[delta]" "d" FDATA Symbol
+SDATA "[Delta]" "D" FDATA Symbol
+SDATA "[epsi]" "e" FDATA Symbol
+SDATA "[epsiv]" "&#206;" FDATA Symbol
+SDATA "[epsis]" "e" FDATA Symbol
+SDATA "[zeta]" "z" FDATA Symbol
+SDATA "[eta]" "h" FDATA Symbol
+SDATA "[thetas]" "q" FDATA Symbol
+SDATA "[Theta]" "Q" FDATA Symbol
+SDATA "[thetav]" "J" FDATA Symbol
+SDATA "[iota]" "i" FDATA Symbol
+SDATA "[kappa]" "k" FDATA Symbol
+SDATA "[kappav]" "[/varkappa]"
+SDATA "[lambda]" "l" FDATA Symbol
+SDATA "[Lambda]" "L" FDATA Symbol
+SDATA "[mu]" "m" FDATA Symbol
+SDATA "[nu]" "n" FDATA Symbol
+SDATA "[xi]" "x" FDATA Symbol
+SDATA "[Xi]" "X" FDATA Symbol
+SDATA "[pi]" "p" FDATA Symbol
+SDATA "[piv]" "[/varpi]"
+SDATA "[Pi]" "P" FDATA Symbol
+SDATA "[rho]" "r" FDATA Symbol
+SDATA "[rhov]" "[/varrho]"
+SDATA "[sigma]" "s" FDATA Symbol
+SDATA "[Sigma]" "S" FDATA Symbol
+SDATA "[sigmav]" "v" FDATA Symbol
+SDATA "[tau]" "t" FDATA Symbol
+SDATA "[upsi]" "u" FDATA Symbol
+SDATA "[Upsi]" "&#161;" FDATA Symbol
+SDATA "[phis]" "f" FDATA Symbol
+SDATA "[Phi]" "F" FDATA Symbol
+SDATA "[phiv]" "j" FDATA tci1
+SDATA "[chi]" "c" FDATA Symbol
+SDATA "[psi]" "y" FDATA Symbol
+SDATA "[Psi]" "Y" FDATA Symbol
+SDATA "[omega]" "w" FDATA Symbol
+SDATA "[Omega]" "W" FDATA Symbol
+
+
+-- ISOamso "ISO 8879-1986//ENTITIES Added Math Symbols: Ordinary//EN" --
+
+SDATA "[ang]" "[/angle - angle]"
+SDATA "[angmsd]" "[/measuredangle - angle-measured]"
+SDATA "[beth]" "[/beth - beth, Hebrew]"
+SDATA "[bprime]" "[/backprime - reverse prime]"
+SDATA "[comp]" "[/complement - complement sign]"
+SDATA "[daleth]" "[/daleth - daleth, Hebrew]"
+SDATA "[ell]" ""
+SDATA "[empty]" "[/emptyset /varnothing =small o, slash]"
+SDATA "[gimel]" "[/gimel - gimel, Hebrew]"
+SDATA "[image]" "[/Im - imaginary]"
+-- SDATA "[inodot]" "[/imath =small i, no dot]" (defined above) --
+SDATA "[jnodot]" "[/jmath - small j, no dot]"
+SDATA "[nexist]" "[/nexists - negated exists]"
+SDATA "[oS]" "[/circledS - capital S in circle]"
+SDATA "[planck]" "[/hbar /hslash - Planck's over 2pi]"
+SDATA "[real]" "[/Re - real]"
+SDATA "[sbsol]" "[/sbs - short reverse solidus]"
+SDATA "[vprime]" "[/varprime - prime, variant]"
+SDATA "[weierp]" "[/wp - Weierstrass p]"
+
+
+-- ISOamsb "ISO 8879-1986//ENTITIES Added Math Symbols: Binary Operators//EN" --
+
+SDATA "[amalg]" "[/amalg B: amalgamation or coproduct]"
+SDATA "[Barwed]" "[/doublebarwedge B: log and, dbl bar]"
+SDATA "[barwed]" "[/barwedge B: logical and, bar above]"
+SDATA "[Cap]" "[/Cap /doublecap B: dbl intersection]"
+SDATA "[Cup]" "[/Cup /doublecup B: dbl union]"
+SDATA "[cuvee]" "[/curlyvee B: curly logical or]"
+SDATA "[cuwed]" "[/curlywedge B: curly logical and]"
+SDATA "[diam]" "&#182;" FDATA tci3
+SDATA "[divonx]" "[/divideontimes B: division on times]"
+SDATA "[intcal]" "[/intercal B: intercal]"
+SDATA "[lthree]" "[/leftthreetimes B:]"
+SDATA "[ltimes]" "[/ltimes B: times sign, left closed]"
+SDATA "[minusb]" "[/boxminus B: minus sign in box]"
+SDATA "[oast]" "[/circledast B: asterisk in circle]"
+SDATA "[ocir]" "[/circledcirc B: open dot in circle]"
+SDATA "[odash]" "[/circleddash B: hyphen in circle]"
+SDATA "[odot]" "p" FDATA tci4
+SDATA "[ominus]" "[/ominus B: minus sign in circle]"
+SDATA "[oplus]" "&#0197;" FDATA Symbol
+SDATA "[osol]" "[/oslash B: solidus in circle]"
+SDATA "[otimes]" "[/otimes B: multiply sign in circle]"
+SDATA "[plusb]" "[/boxplus B: plus sign in box]"
+SDATA "[plusdo]" "[/dotplus B: plus sign, dot above]"
+SDATA "[rthree]" "[/rightthreetimes B:]"
+SDATA "[rtimes]" "[/rtimes B: times sign, right closed]"
+SDATA "[sdot]" "[/cdot B: small middle dot]"
+SDATA "[sdotb]" "[/dotsquare /boxdot B: small dot in box]"
+SDATA "[setmn]" "[/setminus B: reverse solidus]"
+SDATA "[sqcap]" "[/sqcap B: square intersection]"
+SDATA "[sqcup]" "[/sqcup B: square union]"
+SDATA "[ssetmn]" "[/smallsetminus B: sm reverse solidus]"
+SDATA "[sstarf]" "[/star B: small star, filled]"
+SDATA "[timesb]" "[/boxtimes B: multiply sign in box]"
+SDATA "[top]" "[/top B: inverted perpendicular]"
+SDATA "[uplus]" "[/uplus B: plus sign in union]"
+SDATA "[wreath]" "[/wr B: wreath product]"
+SDATA "[xcirc]" "[/bigcirc B: large circle]"
+SDATA "[xdtri]" "[/bigtriangledown B: big dn tri, open]"
+SDATA "[xutri]" "[/bigtriangleup B: big up tri, open]"
+SDATA "[coprod]" "[/coprod L: coproduct operator]"
+SDATA "[prod]" "[/prod L: product operator]"
+SDATA "[sum]" "&#229;" FDATA Symbol
+
+
+
+-- ISOamsr "ISO 8879-1986//ENTITIES Added Math Symbols: Relations//EN" --
+
+SDATA "[ape]" "[/approxeq R: approximate, equals]"
+SDATA "[asymp]" "[/asymp R: asymptotically equal to]"
+SDATA "[bcong]" "[/backcong R: reverse congruent]"
+SDATA "[bepsi]" "[/backepsilon R: such that]"
+SDATA "[bowtie]" "[/bowtie R:]"
+SDATA "[bsim]" "[/backsim R: reverse similar]"
+SDATA "[bsime]" "[/backsimeq R: reverse similar, eq]"
+SDATA "[bump]" "[/Bumpeq R: bumpy equals]"
+SDATA "[bumpe]" "[/bumpeq R: bumpy equals, equals]"
+SDATA "[cire]" "[/circeq R: circle, equals]"
+SDATA "[colone]" "[/coloneq R: colon, equals]"
+SDATA "[cuepr]" "[/curlyeqprec R: curly eq, precedes]"
+SDATA "[cuesc]" "[/curlyeqsucc R: curly eq, succeeds]"
+SDATA "[cupre]" "[/curlypreceq R: curly precedes, eq]"
+SDATA "[dashv]" "[/dashv R: dash, vertical]"
+SDATA "[ecir]" "[/eqcirc R: circle on equals sign]"
+SDATA "[ecolon]" "[/eqcolon R: equals, colon]"
+SDATA "[eDot]" "[/doteqdot /Doteq R: eq, even dots]"
+SDATA "[esdot]" "[/doteq R: equals, single dot above]"
+SDATA "[efDot]" "[/fallingdotseq R: eq, falling dots]"
+SDATA "[egs]" "[/eqslantgtr R: equal-or-gtr, slanted]"
+SDATA "[els]" "[/eqslantless R: eq-or-less, slanted]"
+SDATA "[erDot]" "[/risingdotseq R: eq, rising dots]"
+SDATA "[fork]" "[/pitchfork R: pitchfork]"
+SDATA "[frown]" "[/frown R: down curve]"
+SDATA "[gap]" "[/gtrapprox R: greater, approximate]"
+SDATA "[gsdot]" "[/gtrdot R: greater than, single dot]"
+SDATA "[gE]" "[/geqq R: greater, double equals]"
+SDATA "[gel]" "[/gtreqless R: greater, equals, less]"
+SDATA "[gEl]" "[/gtreqqless R: gt, dbl equals, less]"
+SDATA "[ges]" "/" FDATA tci4
+SDATA "[Gg]" "[/ggg /Gg /gggtr R: triple gtr-than]"
+SDATA "[gl]" "[/gtrless R: greater, less]"
+SDATA "[gsim]" "[/gtrsim R: greater, similar]"
+SDATA "[Gt]" ">>"
+SDATA "[lap]" "[/lessapprox R: less, approximate]"
+SDATA "[ldot]" "[/lessdot R: less than, with dot]"
+SDATA "[lE]" "[/leqq R: less, double equals]"
+SDATA "[lEg]" "[/lesseqqgtr R: less, dbl eq, greater]"
+SDATA "[leg]" "[/lesseqgtr R: less, eq, greater]"
+SDATA "[les]" "." FDATA tci4
+SDATA "[lg]" "[/lessgtr R: less, greater]"
+SDATA "[Ll]" "[/Ll /lll /llless R: triple less-than]"
+SDATA "[lsim]" "[/lesssim R: less, similar]"
+SDATA "[Lt]" "<<"
+SDATA "[ltrie]" "[/trianglelefteq R: left triangle, eq]"
+SDATA "[mid]" "[/mid R:]"
+SDATA "[models]" "[/models R:]"
+SDATA "[pr]" "[/prec R: precedes]"
+SDATA "[prap]" "[/precapprox R: precedes, approximate]"
+SDATA "[pre]" "[/preceq R: precedes, equals]"
+SDATA "[prsim]" "[/precsim R: precedes, similar]"
+SDATA "[rtrie]" "[/trianglerighteq R: right tri, eq]"
+SDATA "[samalg]" "[/smallamalg R: small amalg]"
+SDATA "[sc]" "[/succ R: succeeds]"
+SDATA "[scap]" "[/succapprox R: succeeds, approximate]"
+SDATA "[sccue]" "[/succcurlyeq R: succeeds, curly eq]"
+SDATA "[sce]" "[/succeq R: succeeds, equals]"
+SDATA "[scsim]" "[/succsim R: succeeds, similar]"
+SDATA "[sfrown]" "[/smallfrown R: small down curve]"
+SDATA "[smid]" "[/shortmid R:]"
+SDATA "[smile]" "[/smile R: up curve]"
+SDATA "[spar]" "[/shortparallel R: short parallel]"
+SDATA "[sqsub]" "[/sqsubset R: square subset]"
+SDATA "[sqsube]" "[/sqsubseteq R: square subset, equals]"
+SDATA "[sqsup]" "[/sqsupset R: square superset]"
+SDATA "[sqsupe]" "[/sqsupseteq R: square superset, eq]"
+SDATA "[ssmile]" "[/smallsmile R: small up curve]"
+SDATA "[Sub]" "[/Subset R: double subset]"
+SDATA "[subE]" "[/subseteqq R: subset, dbl equals]"
+SDATA "[Sup]" "[/Supset R: dbl superset]"
+SDATA "[supE]" "[/supseteqq R: superset, dbl equals]"
+SDATA "[thkap]" "[/thickapprox R: thick approximate]"
+SDATA "[thksim]" "[/thicksim R: thick similar]"
+SDATA "[trie]" "[/triangleq R: triangle, equals]"
+SDATA "[twixt]" "[/between R: between]"
+SDATA "[vdash]" "[/vdash R: vertical, dash]"
+SDATA "[Vdash]" "[/Vdash R: dbl vertical, dash]"
+SDATA "[vDash]" "[/vDash R: vertical, dbl dash]"
+SDATA "[Vdashl]" "|"
+SDATA "[veebar]" "[/veebar R: logical or, bar below]"
+SDATA "[vltri]" "[/vartriangleleft R: l tri, open, var]"
+SDATA "[vprop]" "[/varpropto R: proportional, variant]"
+SDATA "[vrtri]" "[/vartriangleright R: r tri, open, var]"
+SDATA "[Vvdash]" "[/Vvdash R: triple vertical, dash]"
+
+
+-- ISOamsn "ISO 8879-1986//ENTITIES Added Math Symbols: Negated Relations//EN" --
+
+SDATA "[gnap]" "[/gnapprox N: greater, not approximate]"
+SDATA "[gne]" "[/gneq N: greater, not equals]"
+SDATA "[gnE]" "[/gneqq N: greater, not dbl equals]"
+SDATA "[gnsim]" "[/gnsim N: greater, not similar]"
+SDATA "[gvnE]" "[/gvertneqq N: gt, vert, not dbl eq]"
+SDATA "[lnap]" "[/lnapprox N: less, not approximate]"
+SDATA "[lnE]" "[/lneqq N: less, not double equals]"
+SDATA "[lne]" "[/lneq N: less, not equals]"
+SDATA "[lnsim]" "[/lnsim N: less, not similar]"
+SDATA "[lvnE]" "[/lvertneqq N: less, vert, not dbl eq]"
+SDATA "[nap]" "[/napprox N: not approximate]"
+SDATA "[ncong]" "[/ncong N: not congruent with]"
+SDATA "[nequiv]" "[/nequiv N: not identical with]"
+SDATA "[ngE]" "[/ngeqq N: not greater, dbl equals]"
+SDATA "[nge]" "[/ngeq N: not greater-than-or-equal]"
+SDATA "[nges]" "[/ngeqslant N: not gt-or-eq, slanted]"
+SDATA "[ngt]" "[/ngtr N: not greater-than]"
+SDATA "[nle]" "[/nleq N: not less-than-or-equal]"
+SDATA "[nlE]" "[/nleqq N: not less, dbl equals]"
+SDATA "[nles]" "[/nleqslant N: not less-or-eq, slant]"
+SDATA "[nlt]" "[/nless N: not less-than]"
+SDATA "[nltri]" "[/ntriangleleft N: not left triangle]"
+SDATA "[nltrie]" "[/ntrianglelefteq N: not l tri, eq]"
+SDATA "[nmid]" "[/nmid]"
+SDATA "[npar]" "[/nparallel N: not parallel]"
+SDATA "[npr]" "[/nprec N: not precedes]"
+SDATA "[npre]" "[/npreceq N: not precedes, equals]"
+SDATA "[nrtri]" "[/ntriangleright N: not rt triangle]"
+SDATA "[nrtrie]" "[/ntrianglerighteq N: not r tri, eq]"
+SDATA "[nsc]" "[/nsucc N: not succeeds]"
+SDATA "[nsce]" "[/nsucceq N: not succeeds, equals]"
+SDATA "[nsim]" "[/nsim N: not similar]"
+SDATA "[nsime]" "[/nsimeq N: not similar, equals]"
+SDATA "[nsmid]" "[/nshortmid]"
+SDATA "[nspar]" "[/nshortparallel N: not short par]"
+SDATA "[nsub]" "[/nsubset N: not subset]"
+SDATA "[nsube]" "[/nsubseteq N: not subset, equals]"
+SDATA "[nsubE]" "[/nsubseteqq N: not subset, dbl eq]"
+SDATA "[nsup]" "[/nsupset N: not superset]"
+SDATA "[nsupE]" "[/nsupseteqq N: not superset, dbl eq]"
+SDATA "[nsupe]" "[/nsupseteq N: not superset, equals]"
+SDATA "[nvdash]" "[/nvdash N: not vertical, dash]"
+SDATA "[nvDash]" "[/nvDash N: not vertical, dbl dash]"
+SDATA "[nVDash]" "[/nVDash N: not dbl vert, dbl dash]"
+SDATA "[nVdash]" "[/nVdash N: not dbl vertical, dash]"
+SDATA "[prnap]" "[/precnapprox N: precedes, not approx]"
+SDATA "[prnE]" "[/precneqq N: precedes, not dbl eq]"
+SDATA "[prnsim]" "[/precnsim N: precedes, not similar]"
+SDATA "[scnap]" "[/succnapprox N: succeeds, not approx]"
+SDATA "[scnE]" "[/succneqq N: succeeds, not dbl eq]"
+SDATA "[scnsim]" "[/succnsim N: succeeds, not similar]"
+SDATA "[subne]" "[/subsetneq N: subset, not equals]"
+SDATA "[subnE]" "[/subsetneqq N: subset, not dbl eq]"
+SDATA "[supne]" "[/supsetneq N: superset, not equals]"
+SDATA "[supnE]" "[/supsetneqq N: superset, not dbl eq]"
+SDATA "[vsubnE]" "[/subsetneqq N: subset not dbl eq, var]"
+SDATA "[vsubne]" "[/subsetneq N: subset, not eq, var]"
+SDATA "[vsupne]" "[/supsetneq N: superset, not eq, var]"
+SDATA "[vsupnE]" "[/supsetneqq N: super not dbl eq, var]"
+
+
+-- ISOamsa "ISO 8879-1986//ENTITIES Added Math Symbols: Arrow Relations//EN" --
+
+-- added by rob --
+SDATA "[rlhar]" "&#240;" FDATA tci1
+
+
+SDATA "[cularr]" "[/curvearrowleft A: left curved arrow]"
+SDATA "[curarr]" "[/curvearrowright A: rt curved arrow]"
+SDATA "[dArr]" "[/Downarrow A: down dbl arrow]"
+SDATA "[darr2]" "[/downdownarrows A: two down arrows]"
+SDATA "[dharl]" "[/downleftharpoon A: dn harpoon-left]"
+SDATA "[dharr]" "[/downrightharpoon A: down harpoon-rt]"
+SDATA "[lAarr]" "[/Lleftarrow A: left triple arrow]"
+SDATA "[Larr]" "[/twoheadleftarrow A:]"
+SDATA "[larr2]" "[/leftleftarrows A: two left arrows]"
+SDATA "[larrhk]" "[/hookleftarrow A: left arrow-hooked]"
+SDATA "[larrlp]" "[/looparrowleft A: left arrow-looped]"
+SDATA "[larrtl]" "[/leftarrowtail A: left arrow-tailed]"
+SDATA "[lhard]" "[/leftharpoondown A: l harpoon-down]"
+SDATA "[lharu]" "[/leftharpoonup A: left harpoon-up]"
+SDATA "[hArr]" "[/Leftrightarrow A: l & r dbl arrow]"
+SDATA "[harr]" "&#234;" FDATA tci3
+SDATA "[lrarr2]" "[/leftrightarrows A: l arr over r arr]"
+SDATA "[rlarr2]" "[/rightleftarrows A: r arr over l arr]"
+SDATA "[harrw]" "[/leftrightsquigarrow A: l & r arr-wavy]"
+SDATA "[rlhar2]" "[/rightleftharpoons A: r harp over l]"
+SDATA "[lrhar2]" "[/leftrightharpoons A: l harp over r]"
+SDATA "[lsh]" "[/Lsh A:]"
+SDATA "[map]" "[/mapsto A:]"
+SDATA "[mumap]" "[/multimap A:]"
+SDATA "[nearr]" "[/nearrow A: NE pointing arrow]"
+SDATA "[nlArr]" "[/nLeftarrow A: not implied by]"
+SDATA "[nlarr]" "[/nleftarrow A: not left arrow]"
+SDATA "[nhArr]" "[/nLeftrightarrow A: not l & r dbl arr]"
+SDATA "[nharr]" "[/nleftrightarrow A: not l & r arrow]"
+SDATA "[nrarr]" "[/nrightarrow A: not right arrow]"
+SDATA "[nrArr]" "[/nRightarrow A: not implies]"
+SDATA "[nwarr]" "&#188;" FDATA tci1
+SDATA "[olarr]" "[/circlearrowleft A: l arr in circle]"
+SDATA "[orarr]" "[/circlearrowright A: r arr in circle]"
+SDATA "[rAarr]" "[/Rrightarrow A: right triple arrow]"
+SDATA "[Rarr]" "[/twoheadrightarrow A:]"
+SDATA "[rarr2]" "[/rightrightarrows A: two rt arrows]"
+SDATA "[rarrhk]" "[/hookrightarrow A: rt arrow-hooked]"
+SDATA "[rarrlp]" "[/looparrowright A: rt arrow-looped]"
+SDATA "[rarrtl]" "[/rightarrowtail A: rt arrow-tailed]"
+SDATA "[rarrw]" "[/squigarrowright A: rt arrow-wavy]"
+SDATA "[rhard]" "[/rightharpoondown A: rt harpoon-down]"
+SDATA "[rharu]" "[/rightharpoonup A: rt harpoon-up]"
+SDATA "[rsh]" "[/Rsh A:]"
+SDATA "[drarr]" "[/searrow A: downward rt arrow]"
+SDATA "[dlarr]" "[/swarrow A: downward l arrow]"
+SDATA "[uArr]" "[/Uparrow A: up dbl arrow]"
+SDATA "[uarr2]" "[/upuparrows A: two up arrows]"
+SDATA "[vArr]" "[/Updownarrow A: up & down dbl arrow]"
+SDATA "[varr]" "[/updownarrow A: up & down arrow]"
+SDATA "[uharl]" "[/upleftharpoon A: up harpoon-left]"
+SDATA "[uharr]" "[/uprightharpoon A: up harp-r]"
+SDATA "[xlArr]" "[/Longleftarrow A: long l dbl arrow]"
+SDATA "[xhArr]" "[/Longleftrightarrow A: long l & r dbl arr]"
+SDATA "[xharr]" "[/longleftrightarrow A: long l & r arr]"
+SDATA "[xrArr]" "[/Longrightarrow A: long rt dbl arr]"
+
+
+-- ISOamsc "ISO 8879-1986//ENTITIES Added Math Symbols: Delimiters//EN" --
+
+SDATA "[rceil]" "[/rceil C: right ceiling]"
+SDATA "[rfloor]" "[/rfloor C: right floor]"
+SDATA "[rpargt]" "[/rightparengtr C: right paren, gt]"
+SDATA "[urcorn]" "[/urcorner C: upper right corner]"
+SDATA "[drcorn]" "[/lrcorner C: downward right corner]"
+SDATA "[lceil]" "[/lceil O: left ceiling]"
+SDATA "[lfloor]" "[/lfloor O: left floor]"
+SDATA "[lpargt]" "[/leftparengtr O: left parenthesis, gt]"
+SDATA "[ulcorn]" "[/ulcorner O: upper left corner]"
+SDATA "[dlcorn]" "[/llcorner O: downward left corner]"
+
+
+-- ISOgrk4 "ISO 8879-1986//ENTITIES  Alternative  Greek Symbols//EN" --
+
+SDATA "[b.alpha]" "[/small alpha, Greek]"
+SDATA "[b.beta]" "[/small beta, Greek]"
+SDATA "[b.gamma]" "[/small gamma, Greek]"
+SDATA "[b.Gamma]" "[/capital Gamma, Greek]"
+SDATA "[b.gammad]" "[/digamma]"
+SDATA "[b.delta]" "[/small delta, Greek]"
+SDATA "[b.Delta]" "[/capital Delta, Greek]"
+SDATA "[b.epsi]" "[/small epsilon, Greek]"
+SDATA "[b.epsiv]" "[/varepsilon]"
+SDATA "[b.epsis]" "[/straightepsilon]"
+SDATA "[b.zeta]" "[/small zeta, Greek]"
+SDATA "[b.eta]" "[/small eta, Greek]"
+SDATA "[b.thetas]" "[/straight theta]"
+SDATA "[b.Theta]" "[/capital Theta, Greek]"
+SDATA "[b.thetav]" "[/vartheta - curly or open theta]"
+SDATA "[b.iota]" "[/small iota, Greek]"
+SDATA "[b.kappa]" "[/small kappa, Greek]"
+SDATA "[b.kappav]" "[/varkappa]"
+SDATA "[b.lambda]" "[/small lambda, Greek]"
+SDATA "[b.Lambda]" "[/capital Lambda, Greek]"
+SDATA "[b.mu]" "[/small mu, Greek]"
+SDATA "[b.nu]" "[/small nu, Greek]"
+SDATA "[b.xi]" "[/small xi, Greek]"
+SDATA "[b.Xi]" "[/capital Xi, Greek]"
+SDATA "[b.pi]" "[/small pi, Greek]"
+SDATA "[b.Pi]" "[/capital Pi, Greek]"
+SDATA "[b.piv]" "[/varpi]"
+SDATA "[b.rho]" "[/small rho, Greek]"
+SDATA "[b.rhov]" "[/varrho]"
+SDATA "[b.sigma]" "[/small sigma, Greek]"
+SDATA "[b.Sigma]" "[/capital Sigma, Greek]"
+SDATA "[b.sigmav]" "[/varsigma]"
+SDATA "[b.tau]" "[/small tau, Greek]"
+SDATA "[b.upsi]" "[/small upsilon, Greek]"
+SDATA "[b.Upsi]" "[/capital Upsilon, Greek]"
+SDATA "[b.phis]" "[/straightphi - straight phi]"
+SDATA "[b.Phi]" "[/capital Phi, Greek]"
+SDATA "[b.phiv]" "[/varphi - curly or open phi]"
+SDATA "[b.chi]" "[/small chi, Greek]"
+SDATA "[b.psi]" "[/small psi, Greek]"
+SDATA "[b.Psi]" "[/capital Psi, Greek]"
+SDATA "[b.omega]" "[/small omega, Greek]"
+SDATA "[b.Omega]" "[/capital Omega, Greek]"

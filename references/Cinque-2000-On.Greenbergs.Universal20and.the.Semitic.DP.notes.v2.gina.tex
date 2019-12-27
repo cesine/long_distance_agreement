@@ -1,0 +1,78 @@
+\documentclass[landscape]{article}
+\usepackage{covington}
+\usepackage{fullpage}
+%\usepackage{tree-dvips}
+%\usepackage{qtree}
+\usepackage{xyling}
+\usepackage{tipa}
+%\usepackage{ulem}
+
+\let\ipa\textipa %to use \ipa rather than \textipa
+
+\author{Gina}
+\title {On Greenberg's Universal 20 and the Semitic DP\\Guglielmo Cinque}
+\date{Septmber 27 2006}
+\begin{document}
+\pagenumbering{arabic}
+\maketitle
+\begin{example}Greenberg's Universal 20 \label{Greenbergs}\\
+``When any or all of the items (demonstrative, numeral, and descriptive adjective) precede the noun they are always found in that order. If they follow, the order is either the same or its exact opposite."\\
+\begin{enumerate}
+\item [(a)] Order 1: [ Demonstrative Numeral Adjective ] Noun (Cinque:2)\\
+~[These three brown] dogs
+\item [(b)] Order 2: Noun [ Demonstrative Numeral Adjective ] (Cinque:3a)\\
+~Dogs [these three brown]
+\item [(c)] Order 3: Noun [ Adjective Numeral Demonstrative ] (Cinque:3b)\\
+~Dogs [brown three these]
+\end{enumerate}
+Heirarchy:\\
+\Treek[-.5]{1}{Demonstrative\B{d} \\
+Numeral\B{d} \\
+Descriptive~Adj(s)\B{d}\\
+ Noun}
+\end{example}
+
+\begin{example}Cinque's Specifier order (Cinque:4)\\
+(Like the Hierarchy above, differs in leaving space between projections)\\
+~[$_{XP} X [_{YP} Dem [_{YP} Y [.\ldots~ [_{WP} Num [_{WP} W [.\ldots~ [_{ZP} AdjP [_{ZP} Z [_{NP} N ] ] ] ] ] ] ] ] ] ]$ \\
+
+\Treek[-.5]{1}{
+Y && \dots \\
+Num && WP\\
+W && \ldots \\
+&& ZP\\
+AdjP &&ZP\\
+&Z &&NP \\
+&&&&N\\
+}
+\end{example}
+
+\begin{example}Greenberg's ordering derived in Kayne's framework:\\
+\begin{enumerate}
+\item [(a)] Order 1: In situ\\
+\item [(b)] Order 2: Noun [ Demonstrative Numeral Adjective ] t \\
+~Dogs [these three brown] \\
+\Treek[-.5]{1}{3b.&``roll-up''&&&&&&&XP\B{dllll}\B{drrrr}&&&&&&&&&&&&&&&&&\\
+&&&JP\OO\B{dll}\B{drr}&&&&&&&&&XP\B{dl}\B{dr}&&&&&&&&&&&&&\\
+&KP\B{dl}\B{dr}&&&&JP\B{dl}\B{dr}&&&&&&X&&YP\B{dl}\B{dr}&&&&&&&&&&&&\\
+NP\B{d}&&KP\B{dl}\B{dr}&&J&&WP\B{dl}\B{dr}&&&&&&Dem\B{d}&&YP\B{dl}\B{dr}&&&&&&&&&&&\\
+N\B{d}&K&&ZP\B{dl}\B{dr}&&Num\B{d}&&WP\B{dl}\B{dr}&&&&&{\bf these}&Y&&JP\UpLink{-3,-12}^{3}\OO\B{dll}\B{drr}&&&&&&&&&&\\
+{\bf dogs}&&AdjP\B{d}&&ZP\B{dl}\B{dr}&{\bf three}&W&&KP\B{dl}\B{dr}&&&&&KP\OO\B{dl}\B{dr}&&&&JP\B{dl}\B{dr}&&&&&&&&\\
+&&Adj\B{d}&Z&&NP\B{d}&&NP\B{d}&&KP\B{dl}\B{dr}&&&NP\B{d}&&KP\B{dl}\B{dr}&&J&&WP\B{dl}\B{dr}&&&&&&&\\
+&&{\bf brown}&&&N\B{d}&&N\B{d}&K&&ZP\B{dl}\B{dr}&&N\B{d}&K&&ZP\B{dl}\B{dr}&&Num\B{d}&&WP\B{dl}\B{dr}&&&&&&\\
+&&&&&dogs&&dogs&&AdjP\B{d}&&ZP\B{dl}\B{dr}&dogs&&AdjP\B{d}&&ZP\B{dl}\B{dr}&three&W&&KP\UpLink{-3,-7}^{2}\OO\B{dl}\B{dr}&&&&&\\
+&&&&&&&&&Adj\B{d}&Z&&NP\B{d}&&Adj\B{d}&Z&&NP\B{d}&&NP\OO\B{d}&&KP\B{dl}\B{dr}&&&&\\
+&&&&&&&&&brown&&&N\B{d}&&brown&&&N\B{d}&&N\B{d}&K&&ZP\B{dl}\B{dr}&&&\\
+&&&&&&&&&&&&dogs&&&&&dogs&&dogs&&AdjP\B{d}&&ZP\B{dl}\B{dr}&&\\
+&&&&&&&&&&&&&&&&&&&&&Adj\B{d}&Z&&NP\UpLink{-3,-5}^{1}\OO\B{d}&\\
+&&&&&&&&&&&&&&&&&&&&&brown&&&N\B{d}&\\
+&&&&&&&&&&&&&&&&&&&&&&&&dogs&\\
+~}
+\end{enumerate}
+\end{example}
+
+\section*{References}
+\begin{reflist}
+
+\end{reflist}
+\end{document}

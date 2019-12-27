@@ -1,0 +1,256 @@
+<!-- 
+
+     -//Synex Information AB//DTD Stylesheet Explorer//EN
+
+-->
+<!ENTITY % ISOLatin1 PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN">
+%ISOLatin1;
+
+<!ENTITY q        "'" >
+<!ENTITY Q        '"' >
+
+<!ELEMENT stylesheet  (style*) >
+
+<!ATTLIST stylesheet
+          dtd      CDATA    #IMPLIED
+          name     CDATA    #IMPLIED
+>
+
+<!ELEMENT style    ANY >               
+
+<!ATTLIST style
+          tag      CDATA    #REQUIRED
+          occur (all|first|middle|last|non-first|non-middle|non-Last) all >
+
+<!ELEMENT inside   ANY >
+
+<!-- NOT USED IN VP -->
+
+<!ELEMENT attr-style ANY >
+<!ATTLIST attr-style
+          attr     CDATA    #REQUIRED
+          val      CDATA    #REQUIRED >
+
+
+<!-- Qualified extension -->
+
+<!ELEMENT qual-style ANY >
+<!ATTLIST qual-style
+          qual     CDATA    #REQUIRED >
+
+
+<!-- New Style -->
+<!ELEMENT (before | after) ANY >
+<!ATTLIST (before | after)
+          v        CDATA    #IMPLIED >
+
+
+<!ELEMENT font-family EMPTY >
+<!ATTLIST font-family 
+          v        CDATA    #REQUIRED >
+
+<!ELEMENT font-size   EMPTY >
+<!ATTLIST font-size 
+          v        NUMBER   #REQUIRED >
+
+<!ELEMENT font-slant  EMPTY >
+<!ATTLIST font-slant 
+          v (roman|italic|emphas) #REQUIRED >
+
+<!ELEMENT font-weight EMPTY >
+<!ATTLIST font-weight 
+          v (medium|bold)   #REQUIRED >
+
+<!ELEMENT font-color EMPTY >
+<!ATTLIST font-color 
+          v        CDATA    #REQUIRED >
+
+<!ELEMENT font-scale EMPTY >
+<!ATTLIST font-scale 
+          v        CDATA    #REQUIRED >
+
+<!ELEMENT page-color EMPTY >
+<!ATTLIST page-color
+          v        CDATA    #REQUIRED >
+
+<!ELEMENT font-offs EMPTY >
+<!ATTLIST font-offs 
+          v        NUMBER   #REQUIRED >
+
+
+<!ELEMENT justify EMPTY >
+<!ATTLIST justify
+          v (left|center|right|justify) #REQUIRED >
+
+<!ELEMENT leading EMPTY >
+<!ATTLIST leading
+          v        NUMBER   #REQUIRED >
+
+<!ELEMENT spc-above EMPTY >
+<!ATTLIST spc-above
+          v        CDATA    #REQUIRED >
+
+<!ELEMENT spc-left EMPTY >
+<!ATTLIST spc-left 
+          v        CDATA    #REQUIRED >
+
+<!ELEMENT spc-indent EMPTY >
+<!ATTLIST spc-indent
+          v        CDATA    #REQUIRED >
+
+<!ELEMENT spc-right EMPTY >
+<!ATTLIST spc-right
+          v        CDATA    #REQUIRED >
+
+<!ELEMENT spc-below EMPTY >
+<!ATTLIST spc-below
+          v        NUMBER   #REQUIRED >
+
+<!--Old Style-->
+<!ELEMENT (break-before|break-after) EMPTY >
+
+<!--New Style-->
+<!ELEMENT break EMPTY >
+<!ATTLIST break
+          v (block|before|after|inline) block >
+
+<!ELEMENT icon EMPTY >
+<!ATTLIST icon
+          v        CDATA    #REQUIRED >
+
+<!ELEMENT visible EMPTY >
+<!ATTLIST visible
+          v (show|hide) #REQUIRED >
+
+<!ELEMENT table EMPTY >
+<!ATTLIST table
+          v (tbl|tbl-nr|row|cell|cell-1|cell-2|cell-3|cell-4|cell-5|cell-6|cell-7|sq-tblcell) #REQUIRED >
+
+<!ELEMENT math EMPTY >
+<!ATTLIST math
+          v (fraction|radical|radix|superior|inferior|above|below) #REQUIRED >
+
+<!ELEMENT auto-numb EMPTY >
+<!ATTLIST auto-numb
+          v (Linear|HZero|HBlock|HItem) #REQUIRED >
+
+<!ELEMENT anumb-type EMPTY >
+<!ATTLIST anumb-type
+          v (arabic | alpha-up | alpa-lw | roman-up | roman-lw) #REQUIRED >
+
+
+<!ELEMENT (linksrc | linkdst) EMPTY >
+<!ATTLIST (linksrc | linkdst)
+          v (inherit|show|suppress) #REQUIRED >
+
+<!ELEMENT line EMPTY >
+<!ATTLIST line
+          v (none | over | through | below) none >
+
+<!ELEMENT changebar EMPTY >
+
+<!ELEMENT prn-ff EMPTY >
+<!ATTLIST prn-ff
+          v        NUMBER   #REQUIRED >
+
+<!ELEMENT prn-type EMPTY >
+<!ATTLIST prn-type
+          v (lhead|mhead|rhead|head|lfoot|mfoot|rfoot|foot) #REQUIRED >
+
+<!ELEMENT widget EMPTY >
+<!ATTLIST widget
+          v cdata #IMPLIED >
+
+<!-- BEFORE -->
+
+<!ELEMENT a-font-family EMPTY >
+<!ATTLIST a-font-family v cdata #REQUIRED>
+
+<!ELEMENT a-font-size EMPTY >
+<!ATTLIST a-font-size v number #REQUIRED>
+
+<!ELEMENT a-font-slant EMPTY >
+<!ATTLIST a-font-slant v (roman|italic|emphas) #REQUIRED>
+
+<!ELEMENT a-font-weight EMPTY >
+<!ATTLIST a-font-weight v (medium|bold) #REQUIRED>
+
+<!ELEMENT a-font-color EMPTY >
+<!ATTLIST a-font-color v cdata #REQUIRED>
+
+<!ELEMENT a-font-scale EMPTY >
+<!ATTLIST a-font-scale v number -- in percentage -- #REQUIRED>
+
+<!ELEMENT a-font-offs EMPTY >
+<!ATTLIST a-font-offs v number #REQUIRED>
+
+<!ELEMENT a-icon EMPTY >
+<!ATTLIST a-icon v entity #REQUIRED>
+
+<!ELEMENT a-text EMPTY >
+<!ATTLIST a-text v cdata #REQUIRED>
+
+<!ELEMENT a-ruler EMPTY >
+<!ATTLIST a-ruler v number #REQUIRED>
+
+<!-- AFTER -->
+
+<!ELEMENT z-font-family EMPTY >
+<!ATTLIST z-font-family v cdata #REQUIRED>
+
+<!ELEMENT z-font-size EMPTY >
+<!ATTLIST z-font-size v number #REQUIRED>
+
+<!ELEMENT z-font-slant EMPTY >
+<!ATTLIST z-font-slant v (roman|italic|emphas) #REQUIRED>
+
+<!ELEMENT z-font-weight EMPTY >
+<!ATTLIST z-font-weight v (medium|bold) #REQUIRED>
+
+<!ELEMENT z-font-color EMPTY >
+<!ATTLIST z-font-color v cdata #REQUIRED>
+
+<!ELEMENT z-font-scale EMPTY >
+<!ATTLIST z-font-scale v number -- in percentage -- #REQUIRED>
+
+<!ELEMENT z-font-offs EMPTY >
+<!ATTLIST z-font-offs v number #REQUIRED>
+
+<!ELEMENT z-icon EMPTY >
+<!ATTLIST z-icon v entity #REQUIRED>
+
+<!ELEMENT z-text EMPTY >
+<!ATTLIST z-text v cdata #REQUIRED>
+
+<!ELEMENT z-ruler EMPTY >
+<!ATTLIST z-ruler v number #REQUIRED>
+
+
+<!-- Icons -->
+
+<!NOTATION bmp public "+//ISBN 0-7923-9432-1::Graphic Notation//NOTATION
+                       Microsoft Windows bitmap//EN">
+<!NOTATION wmf public "+//ISBN 0-7923-9432-1::Graphic Notation//NOTATION
+                       Microsoft Windows metafile//EN">
+
+<!ATTLIST #notation (bmp | wmf)
+          sshtype   name       "icon"
+          descent   number     #IMPLIED -- pixels --
+          mask      entity     #IMPLIED -- possible mask --
+          valign   (top | center | bottom) bottom
+>
+
+<!ENTITY video SYSTEM "icon\video.bmp" ndata bmp>
+<!ENTITY footnote-mask SYSTEM "icon\FOOTNOTE.msk">
+<!ENTITY footnote SYSTEM "icon\FOOTNOTE.bmp" ndata bmp [descent="2" mask=footnote-mask]>
+<!ENTITY document-mask SYSTEM "icon\DOCUMENT.msk">
+<!ENTITY document SYSTEM "icon\DOCUMENT.bmp" ndata bmp [mask=document-mask]>
+<!ENTITY sound-mask SYSTEM "icon\SOUND.msk">
+<!ENTITY sound SYSTEM "icon\SOUND.bmp" ndata bmp [mask=sound-mask]>
+<!ENTITY table-mask SYSTEM "icon\TABLE.msk">
+<!ENTITY table SYSTEM "icon\TABLE.bmp" ndata bmp [mask=table-mask]>
+<!ENTITY copyr-mask SYSTEM "icon\COPYR.msk">
+<!ENTITY copyr SYSTEM "icon\COPYR.bmp" ndata bmp [mask=copyr-mask]>
+<!entity blank-mask system "ICON/BLANK.MSK">
+<!entity blank      system "ICON/BLANK.BMP" ndata bmp [mask=blank-mask]>
+

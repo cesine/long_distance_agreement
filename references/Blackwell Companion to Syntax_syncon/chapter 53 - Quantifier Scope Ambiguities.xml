@@ -1,0 +1,3212 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="53"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 53 - Quantifier Scope Ambiguities.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">1</page>
+<page type="last">34</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="4"/>
+<count type="table" count="91"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="30"/>
+<count type="page" count="34"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051122"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 53&ensp;Kiss: Quantifier Scope Ambiguities</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 53&ensp;Kiss: Quantifier Scope Ambiguities</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">53&ensp;Quantifier Scope Ambiguities</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>KATALIN &Eacute;.</forenames><x> </x><surname>KISS</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>The treatment of scope ambiguities in early generative grammar</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>Logical Form in Government and Binding Theory</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>Scope ambiguity or lexical ambiguity?</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>Visible LF in Hungarian</p>
+</li>
+<li level="1">
+<number>6&ensp;</number>
+<p>A chain binding theory of quantifier scope</p>
+</li>
+<li level="1">
+<number>7&ensp;</number>
+<p>A Minimalist approach to scope ambiguities</p>
+</li>
+<li level="1">
+<number>8&ensp;</number>
+<p>Scope interpretation constrained by economy</p>
+</li>
+<li level="1">
+<number>9&ensp;</number>
+<p>The theory of relativized scope</p>
+</li>
+<li level="1">
+<number>10&ensp;</number>
+<p>The theory of overt quantifier movement</p>
+</li>
+<li level="1">
+<number>11&ensp;</number>
+<p>Scope determined by f-structure</p>
+</li>
+<li level="1">
+<number>12&ensp;</number>
+<p>Scope and lexical semantics</p>
+</li>
+<li level="1">
+<number>13&ensp;</number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1&ensp;Introduction</heading>
+<p>Sentences containing quantifiers, especially those containing two or more of them, like (1), are often ambiguous:</p>
+<p>(1)&ensp;Every man danced with some woman.</p>
+<p>(1) has the two readings paraphrased under (2a) and (2b), among others:</p>
+<p>(2)<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsquo;For every man in a given domain, there is at least one (possibly different) woman with whom he danced.&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsquo;There is at least one woman among the women in a given domain with whom every man danced.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The meaning difference between (2a) and (2b) can be characterized in different terms. In (2a), in which the interpretation of the prepositional object quantifier is dependent on the interpretation of the subject quantifier, the subject quantifier is said to have scope over the object quantifier (or to have wider/broader scope than the object quantifier). The fact that the interpretation of the object may co-vary with the different individuals in the domain of the subject quantifier is a consequence of the fact that the object is distributed over the subject. In the case of (2b), the relative scope of the quantifiers is the opposite of that in (2a): the object quantifier has the wider/broader scope; the subject quantifier is in the scope of the object.</p>
+<p>A further way of interpreting (1) is to interpret the two quantifiers independently of each other, i.e., to assume that the value of neither quantifier is a function of the other.</p>
+<p>Quantifiers enter into &ndash; possibly ambiguous &ndash; scope relations not only with quantifiers but also with other types of sentential operators, among them <i>wh-</i>operators (3a), negation (3b), and intensional predicates (3c). A quantifier can sometimes take either embedded scope or matrix scope &ndash; as happens both in (3c) and in (3d):</p>
+<p>(3)<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="2" valign="top">a.</entry>
+<entry>Who did everybody meet?</entry>
+</row>
+<row><entry>&lsquo;Which is the person that everybody met?&rsquo;</entry>
+</row>
+<row><entry>&lsquo;(Tell me) for everybody, which (possibly different) person he met.&rsquo;</entry>
+</row>
+<row><entry morerows="2" valign="top">b.</entry>
+<entry>John didn&apos;t meet two celebrities.</entry>
+</row>
+<row><entry>&lsquo;It is not the case that John met two celebrities.&rsquo;</entry>
+</row>
+<row><entry>&lsquo;There are two celebrities who John did not meet.&rsquo;</entry>
+</row>
+<row><entry morerows="2" valign="top">c.</entry>
+<entry>John wanted to meet two celebrities.</entry>
+</row>
+<row><entry>&lsquo;It was John&apos;s desire that he meet two celebrities.&rsquo;</entry>
+</row>
+<row><entry>&lsquo;There were two celebrities that John wanted to meet.&rsquo;</entry>
+</row>
+<row><entry morerows="2" valign="top">d.</entry>
+<entry>Someone seems to deserve credit for that.</entry>
+</row>
+<row><entry>&lsquo;There is someone who seems to deserve credit for that.&rsquo;</entry>
+</row>
+<row><entry>&lsquo;It seems that someone deserves credit for that.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In the framework of generative grammar, where semantic interpretation is basically determined by syntactic structure, sentences displaying scopal ambiguity are believed to be structurally ambiguous. Unlike in other cases of ambiguity, however, intuition gives no clue as to how sentences like those in (1), (3a), or (3b) can be mapped on two alternative structures; at which level of representation the two alternative structures should be constructed and by what means.</p>
+<p>Furthermore, the ambiguity expected in the case of sentences containing two scope-bearing operators is not always present. Thus the following set of examples, though parallel with those in (3a&ndash;d) in several respects, lack one of the two readings that their counterparts in (3a&ndash;d) have:</p>
+<p>(4)<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Who met everybody?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Two celebrities didn&apos;t meet John.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>John wanted to meet more than two celebrities.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>Someone seems to himself to deserve credit for that.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(4a, b) do not have the inverse scope readings that (3a, b) have (i.e., the scope order of the two quantifiers cannot be the opposite of their surface order). In (4c) the quantifier can only have embedded scope, whereas in (4d) it can only have matrix scope. An adequate analysis of scope ambiguities should be able to predict two readings for (3a&ndash;d), and should block one of them in the case of (4a&ndash;d) in a principled way.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2&ensp;The treatment of scope ambiguities in early generative grammar</heading>
+<p>The Standard Theory of Generative Grammar, in which the deep structure of the sentence was subject to semantic interpretation, provided limited means of assigning two deep structures to a quantified sentence. What it could handle was the scopal ambiguity of sentences with negative quantifiers like <i>no one</i> (cf. <link rid="b1">Klima 1964</link>). <i>No one</i>, e.g., that in (5a), was claimed to be the output of a <i>neg</i>-transportation transformation merging <i>not</i> with <i>anyone</i>. It was assumed that the negative particle was adjoined as a modifier to the constituent that it had scope over; hence the ambiguity in (5a) was derived from whether in deep structure the negative particle was adjoined to the matrix VP, as in (5b), or to the embedded VP, as in (5c):</p>
+<p>(5)<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>I demand that you marry no one.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>I not demand that you marry anyone.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>I demand that you not marry anyone.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As pointed out by <link rid="b2">Kayne (1998</link>: 128), this approach cannot predict the subject&ndash;object asymmetry attested in <i>neg</i>-transportation. It remains unclear why (6a) is not ambiguous, i.e., what prevents <i>neg</i>-transportation from deriving (6a) from (6b):</p>
+<p>(6)<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>I demand that no one marry you.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>I not demand that anyone marry you.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In the Extended Standard Theory, and then in its Revised version, scope interpretation was referred to surface structure, which led to a theory in which the relative scope of quantifiers was determined by surface c-command (see <link rid="b3">Reinhart 1976</link>). This approach predicted a scope ambiguity only among quantifiers mutually c-commanding each other; hence it could not handle such obvious cases of scope ambiguity as transitive clauses with a subject quantifier and an object quantifier, e.g.:</p>
+<p>(7)&ensp;In this office somebody speaks every official language of the UNO.</p>
+<p>Reinhart&apos;s theory also wrongly predicts the scope interpretation of NPs containing a quantified head and a quantified PP, such as the subject of (8):</p>
+<p>(8)&ensp;Many children in every city are waiting for Santa Claus.</p>
+<p>In the case of (8) the predicted scope order is the opposite of the attested scope order: the quantifier embedded in the PP adjunct has wider scope than the matrix quantifier c-commanding it.</p>
+<p>Fundamental problems of these types have led to the conclusion that quantifier scope cannot be disambiguated either in D-structure or in S-structure. Logical operators should be assigned scope on a further level of representation, called Logical Form, which is to be derived from S-structure by rules not affecting phonological interpretation &ndash; see <link rid="b4">Chomsky (1975c</link>) and <link rid="b5">May (1977</link>). In the so-called T-model of grammar there is no direct mapping between LF and PF; their relation is mediated by S-structure, as follows:</p>
+<p>(9)<object id="fu1" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_53_fu1.jpg" type="jpg" id="fu1_source"/>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b5">May (1977</link>) claims that the rule deriving quantifier scope, called Quantifier Raising (Q-Raising), applied in the course of mapping SS on LF, adjoins a quantifier to S (IP). Q-Raising is subject to the same conditions, particularly to the same island constraints, as the rules mapping DS on SS. It leaves a trace which acts as a variable. Q-Raising is triggered by the Condition on Quantifier Binding in (10), and its output is subject to the Condition on Proper Binding in (11):</p>
+<p>(10)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Condition on Quantifier Binding:</b>
+</entry>
+</row>
+<row><entry>Every quantified phrase must properly bind a variable.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(11)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Condition on Proper Binding:</b>
+</entry>
+</row>
+<row><entry>Every variable in an argument position must be properly bound &lsqb;c-commanded by a binding phrase&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The scope of a quantifier is everything which it c-commands at LF.</p>
+<p>In sentences with multiple quantifiers, adjunction to S is iterated, and the adjunction operations are allowed to cross. Scope ambiguity arises from the fact that the quantifiers of a sentence can be subject to Q-Raising in any order, as a consequence of which an S-structure can be mapped on more than one LF. Consider the two LFs derivable from (12a):</p>
+<p>(12)<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Some man loves every woman.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>S</sub> &lsqb;some man&rsqb;<sub>i</sub> &lsqb;<sub>S</sub> &lsqb;every woman&rsqb;<sub>j</sub> &lsqb;<sub>S</sub> t<sub>i</sub> loves t<sub>j</sub>&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>c.</entry>
+<entry>&lsqb;<sub>S</sub> &lsqb;every woman&rsqb;<sub>j</sub> &lsqb;<sub>S</sub> &lsqb;some man&rsqb;<sub>i</sub> &lsqb;<sub>S</sub> t<sub>i</sub> loves t<sub>j</sub>&rsqb;&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>May&apos;s framework correctly predicts that in complex NPs containing a quantified head and a quantified NP embedded in a PP, the scope order of quantifiers is the opposite of their surface order. Consider an instance of this construction, and the LF derived from it, displaying &lsquo;inverse linking&rsquo;. (May calls pairs of quantifiers linked if one of the quantified NPs includes the other. Quantifiers binding sister variables are non-linked.)</p>
+<p>(13)<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Everybody in an Italian city met John.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>S</sub> an Italian city<sub>i</sub> &lsqb;<sub>S</sub> &lsqb;everybody in t<sub>i</sub>&rsqb;<sub>j</sub> &lsqb;<sub>S</sub> t<sub>j</sub> met John&rsqb;&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>If the quantifiers were adjoined to S in the opposite order, as in (14), then the trace of the PP-internal NP, t<sub>i</sub>, would not be properly bound, in violation of the Condition on Proper Binding:</p>
+<p>(14)&ensp;*&lsqb;<sub>S</sub> &lsqb;everybody in t<sub>i</sub>&rsqb;<sub>j</sub> &lsqb;<sub>S</sub> &lsqb;an Italian city&rsqb;<sub>i</sub> &lsqb;<sub>S</sub> t<sub>j</sub> . . .</p>
+<p>If the quantified NP containing the PP adjunct is in object position, then, naturally, we also obtain two non-linked readings, because the PP can also be interpreted as an immediate constituent of the matrix VP:</p>
+<p>(15)&ensp;John &lsqb;<sub>VP</sub> &lsqb;<sub>VP</sub> met &lsqb;<sub>NP</sub> everybody&rsqb;&rsqb; &lsqb;<sub>PP</sub> in some Italian city&rsqb;&rsqb;</p>
+<p>This S-structure is predicted to be ambiguous: the two quantifiers can undergo Q-Raising in any order.</p>
+<p>Interestingly, the inverse scope attested in the case of quantified NPs containing a quantified PP is missing if the noun phrase has a <i>wh-</i>feature; such NPs are ungrammatical:</p>
+<p>(16)<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>
+</entry>
+<entry>a.</entry>
+<entry>*Which man in some city did you meet?</entry>
+</row>
+<row><entry>cf.</entry>
+<entry>b.</entry>
+<entry>Which man in Cleveland did you meet?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The ungrammaticality of (16a) is derived from the assumption that, with the <i>wh-</i>phrase moved to S&prime;, and the quantifier adjoined to S, the Condition on Proper Binding is not satisfied (the trace of <i>some city</i> is not bound):</p>
+<p>(17)&ensp;&lsqb;<sub>S&prime;</sub> &lsqb;Which man in t<sub>i</sub>&rsqb;<sub>j</sub> &lsqb;<sub>S</sub> &lsqb;some city&rsqb;<sub>i</sub> &lsqb;<sub>S</sub> did you meet t<sub>j</sub>&rsqb;&rsqb;&rsqb;</p>
+<p>In some idiosyncratic cases, quantified NPs with a quantified PP adjunct are scopally ambiguous: they can be understood to involve inverse linking, or they can be assigned direct (or natural) scope, interpreted from left to right. E.g.:</p>
+<p>(18)&ensp;Every senator on a key congressional committee voted for the amendment.</p>
+<p>(19)<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Inverse linking:</entry>
+</row>
+<row><entry>&lsqb;<sub>S</sub> a key congressional committee<sub>i</sub> &lsqb;<sub>S</sub> &lsqb;every senator on t<sub>i</sub>&rsqb;<sub>j</sub> &lsqb;<sub>S</sub> t<sub>j</sub> voted for the amendment&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>Natural scope:</entry>
+</row>
+<row><entry>every senator &gt; on a key congressional committee</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Whether or not the natural scope reading also exists in addition to the regular inverse scope depends on several factors, among them the lexical selection of the preposition. For instance, a quantifier complementing the preposition <i>in</i> only allows inverse linking. The lexical selection of the quantifier also plays a role. Compare (18), which is ambiguous, with (20a, b), which only have an inversely linked reading:</p>
+<p>(20)<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Each (of the) senator(s) on a key congressional committee voted for the amendment.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>All senators on a key congressional committee voted for the amendment.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The depth of embedding of PPs also affects the scope reading. Thus, whereas (21a) is ambiguous, (21b) is disambiguated by the embedding of an additional PP under the lower quantifier:</p>
+<p>(21)<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Every exit from a freeway is badly constructed.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Every exit from a freeway to some California city is badly constructed.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The idiosyncrasy of these factors is regarded by <link rid="b5">May (1977</link>) as evidence indicating that the natural, non-inversely linked reading is not derived by the rules of sentence grammar.</p>
+<p>In possessive constructions with a quantified genitive and a quantified complement or adjunct, e.g., in those under (22&ndash;23), the two quantifiers are not linked. They undergo Q-Raising, i.e., adjunction to S, separately, in an optional order, which yields two readings:</p>
+<p>(22)&ensp;Some company&apos;s refusal of every merger offer began a panic.</p>
+<p>(23)&ensp;Every city&apos;s destruction by some pestilence was assured by their misdeeds.</p>
+<p>A <i>wh-</i>phrase, moved to S&prime;, on the other hand, necessarily has wider scope than a clause-mate quantifier. Thus, whereas (24), containing two clause-mate quantifiers, is ambiguous, (25a, b), containing a quantifier and a <i>wh-</i>phrase, are not:</p>
+<p>(24)&ensp;John recorded one song on every album.</p>
+<p>(25)<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Which song did John record on every album?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Which album did John record one song on?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In some cases the <i>wh-</i>operator can also have narrow scope with respect to a clause-mate quantifier, e.g.:</p>
+<p>(26)<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>What did everyone order?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Where did everybody go?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b5">May (1977</link>) dismissed the unpredicted wide-scope reading of the quantifier in (26a, b) as a marked, idiosyncratic case which need not be accounted for in sentence grammar. However, it soon became clear that the phenomenon is not idiosyncratic but displays a subject&ndash;object asymmetry characteristic of sentence grammar; namely, whereas object quantifiers can have wide scope with respect to a <i>wh-</i>phrase, subject quantifiers, e.g., those in (27a, b), cannot:</p>
+<p>(27)<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Who ordered everything?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Who went everywhere?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Q-Raising is a clause-bound process (as predicted by Subjacency); hence embedded quantifiers have clause-bounded scope &ndash; in the unmarked case. In certain instances, however, the quantifier can scope out of the embedded clause. For example, in (28a) <i>someone</i> can have scope over the verb <i>believe</i>, and in (28b) <i>too many people</i> can have scope over the verb <i>want</i>, as is clear from the paraphrases of the relevant readings:</p>
+<p>(28)<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Ralph believes that someone is a spy.</entry>
+</row>
+<row><entry>&lsquo;There is someone who Ralph believes to be a spy.&rsquo;</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>Harry wanted us to invite too many people.</entry>
+</row>
+<row><entry>&lsquo;It was too many people that Harry wanted us to invite.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The marked readings are, again, excluded from the realm of sentence grammar by <link rid="b5">May (1977</link>).</p>
+<p>Raising subjects (e.g., that in (29a)) &ndash; as opposed to control subjects (e.g., that in (29b)) &ndash; can have narrow scope with respect to the matrix predicate, and even with respect to the embedded object:</p>
+<p>(29)<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Some politician is likely to address every rally in John&apos;s district.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Some politician wants to address every rally in John&apos;s district.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>May&apos;s theory accounts for the additional narrow scope of the subject in (29a) by allowing Q-Lowering in Raising constructions.</p>
+</subsection>
+<subsection id="ss4" level="1">
+<heading id="h3" level="1">3&ensp;Logical Form in Government and Binding Theory</heading>
+<p>The emergence of the Empty Category Principle made <link rid="b5">May&apos;s (1977</link>) explanation of the scope ambiguity of sentences containing both a subject quantifier and an object quantifier obsolete. It was no longer possible to Q-Raise the subject and the object quantifiers in any order. The subject trace needed a local antecedent, hence the Q-Raising of the subject had to precede the Q-Raising of the object. Furthermore, the asymmetry noticed between the scope possibilities of subject and object quantifiers (cf. (26&ndash;27) above) also required an explanation. These problems lead to the formulation of a more sophisticated theory of Logical Form in <link rid="b6">May (1985</link>).</p>
+<p>In <link rid="b6">May (1985</link>) the scope of a constituent is still identical with its c-command domain; however, the definition of c-command is modified, as follows:</p>
+<p>(30)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>C-command:</b>
+</entry>
+</row>
+<row><entry><i>a</i> c-commands <i>b</i> iff every maximal projection dominating <i>a</i> dominates <i>b</i>, and <i>a</i> does not dominate <i>b</i>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In the LF under (31b), derived from (31a), the quantifiers mutually c-command each other (the first maximal projection dominating each one is S&prime;), so they have identical scopes, i.e., they can be interpreted in either scope order. (31c), on the other hand, is ruled out by the ECP:</p>
+<p>(31)<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Every student admires some professor.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>S</sub> some professor<sub>i</sub> &lsqb;<sub>S</sub> every student<sub>j</sub> &lsqb;<sub>S</sub> t<sub>j</sub> admires t<sub>i</sub>&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*&lsqb;<sub>S</sub> every student<sub>j</sub> &lsqb;<sub>S</sub> some professor<sub>i</sub> &lsqb;<sub>S</sub> t<sub>j</sub> admires t<sub>i</sub>&rsqb;&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The subject&ndash;object asymmetry attested in the scope relation of <i>wh-</i>phrases and quantifiers also falls out in the framework of <link rid="b6">May (1985</link>). Consider again the relevant cases:</p>
+<p>(32)<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>What did everyone buy for Max?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Who t bought everything for Max?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The ambiguity of (32a) is unproblematic, as the Q-Raising of the subject and the <i>wh-</i>movement of the object result in an LF in which the quantifier and the <i>wh-</i>phrase mutually c-command each other:</p>
+<p>(33)&ensp;&lsqb;<sub>S&prime;</sub> What<sub>i</sub> &lsqb;<sub>S</sub> everyone<sub>j</sub> &lsqb;<sub>S</sub> t<sub>j</sub> buy t<sub>i</sub> for Max&rsqb;&rsqb;&rsqb;</p>
+<p>Owing to a technical innovation of <link rid="b6">May (1985</link>), the explanation also carries over to the post-<i>Barriers</i> (<link rid="b7">Chomsky 1986a</link>) framework of generative syntax, in which S is also analyzed as a maximal projection (IP); namely, a node created by adjunction to a maximal projection is not a maximal projection, but merely a segment of a maximal projection. The phrase providing the adjunction site, and the node created by adjunction to it, make up a maximal projection together. Hence the quantifier and the <i>wh-</i>phrase in (32a) will continue to c-command each other, given that the first maximal projection dominating each of them is CP.</p>
+<p>As for (32b), neither quantifier adjunction to S nor quantifier adjunction to S&prime; yields a grammatical output. Cf.:</p>
+<p>(34)<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Who<sub>j</sub> &lsqb;<sub>S</sub> everything<sub>i</sub> &lsqb;<sub>S</sub> t<sub>j</sub> buy t<sub>i</sub> for Max&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*everything<sub>i</sub> &lsqb;<sub>S&prime;</sub> who<sub>j</sub> &lsqb;<sub>S</sub> t<sub>j</sub> buy t<sub>i</sub> for Max&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(34a) is out because it violates the (standard version of the) ECP, whereas (34b) is illegitimate because S&prime; is not a possible adjunction site. However, adjunction to other maximal projections, among them the VP, is possible; hence (32b) can be assigned the following LF:</p>
+<p>(35)&ensp;Who<sub>j</sub> &lsqb;<sub>S</sub> t<sub>j</sub> &lsqb;<sub>VP</sub> everything<sub>i</sub> &lsqb;<sub>VP</sub> buy t<sub>i</sub> for Max&rsqb;&rsqb;&rsqb;</p>
+<p>Assuming that S &equals; IP is maximal, <i>who</i> in (35) asymmetrically c-commands <i>everything</i> (S, the first maximal projection dominating <i>everything</i>, does not also dominate <i>who</i>); hence (35) is not ambiguous.</p>
+<p>Evidence for the possibility of the VP-adjunction of object quantifiers is provided by the pair of examples in (36) (cf. <link rid="b8">Sag 1980</link>). Whereas (36a) is ambiguous, the ambiguity disappears in (36b), in which the sentence is followed by a parallel sentence involving ellipsis. In (36a) the object quantifier is bound to have narrow scope:</p>
+<p>(36)<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Some student admires every professor.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Some student admires every professor, but John doesn&apos;t.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The narrow scope of the object quantifier in (36b) falls out if we assume that the elided VP is reconstructed at LF, and a reconstructed VP must not contain a free variable. Then the reconstructed VP must have the <i>every</i> phrase adjoined to it, as in (37); that is why it will necessarily have narrower scope than the subject quantifier, adjoined to S:</p>
+<p>(37)&ensp;&lsqb;<sub>S</sub> some student<sub>2</sub> &lsqb;<sub>S</sub> e<sub>2</sub> &lsqb;<sub>VP</sub> every professor<sub>3</sub> &lsqb;<sub>VP</sub> admires e<sub>3</sub>&rsqb;&rsqb;&rsqb;&rsqb;, but John doesn&apos;t &lsqb;<sub>VP</sub> every professor<sub>3</sub> &lsqb;<sub>VP</sub> admire e<sub>3</sub>&rsqb;&rsqb;</p>
+<p>The way <link rid="b6">May (1985</link>) defines c-command enables a quantifier adjoined to a subject or object NP to have sentential scope (given that the quantifier adjoined to the NP will only be dominated by a segment of NP). Observe how the two readings of a quantified NP containing a quantified PP are derived. The matrix quantified NP (NP3) is adjoined to S, whereas the embedded quantified NP (NP2) is adjoined to the matrix NP. Hence both have sentential scope, and the sentence is ambiguous:</p>
+<p>(38)<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Every exit from a freeway is badly constructed.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>S</sub> &lsqb;<sub>NP3</sub> &lsqb;<sub>NP2</sub> a freeway&rsqb; &lsqb;<sub>NP3</sub> every exit from e<sub>2</sub>&rsqb;&rsqb; &lsqb;<sub>S</sub> e<sub>3</sub> is badly constructed&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+<subsection id="ss5" level="1">
+<heading id="h4" level="1">4&ensp;Scope ambiguity or lexical ambiguity? </heading>
+<p>As discussed in detail in <related relationship="sibling" type="samework"><externallink id="chapter 74 - Unexpected Wide-Scope Phenomena.xml" type="file">chapter 74</externallink></related>, <link rid="b9">Fodor and Sag (1982</link>) raised the possibility that the ambiguity attested in the case of indefinites like that in (39) is not scopal in nature but is a lexical ambiguity:</p>
+<p>(39)&ensp;Every professor met a student in the syntax class.</p>
+<p>That is, the indefinite has both a quantifier interpretation, meaning that the set of students meeting every professor is not empty, and a referential interpretation. Under its quantifier interpretation the indefinite enters into a scopal relation with its clause-mate quantifiers. Thus the indefinite of (39) as a quantifier can either have narrow scope with respect to the universal quantifier (&lsquo;Each professor met a possibly different student . . .&rsquo;), or it can have a wide-scope interpretation (&lsquo;The set of students in the syntax class that every professor met is not empty&rsquo;). However, the sentence also has a third meaning, with the indefinite understood as referential: &lsquo;There was a particular student in the syntax class who every professor met.&rsquo;</p>
+<p>Fodor and Sag have the following evidence for the referential reading of indefinites:</p>
+<p>(i)&ensp;An indefinite can scope out of an island. Thus the indefinite in the complex NP in (40) and that in the <i>if-</i>clause in (41) can both refer to an individual that does not merely exist in the hypothetical world of the complex NP or the <i>if</i>-clause:</p>
+<p>(40)&ensp;John overheard the rumor that a student of mine had been called before the dean.</p>
+<p>(41)&ensp;If a friend of mine from Texas had died in the fire, I would have inherited a fortune.</p>
+<p>If the scope of the indefinite transgresses an island, the indefinite is claimed by Fodor and Sag always to have maximal scope (a claim not generally accepted). Thus, if the indefinite in (42) has matrix scope, it is also claimed to have scope over the universal quantifier &ndash; which is only possible if it is a referential expression with a maximally wide scope existential quantifier:</p>
+<p>(42)&ensp;Each teacher overheard the rumor that a student of mine had been called before the dean.</p>
+<p>(ii)&ensp;As was discussed in connection with (36), VP deletion is blocked if the deleted VP contains a quantifier whose scope is larger than the VP. Whichever quantifier is assigned wider scope in (43a), neither quantifier will scope out of the deleted VP, hence both readings are licensed. (43b), on the other hand, has only one reading: the universal quantifier has narrow scope &ndash; or else it would have a scope wider than the deleted VP:</p>
+<p>(43)<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Sandy thinks that someone loves each of my friends.</entry>
+</row>
+<row><entry>Chris does, too.</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>Sandy thinks that someone loves each of my friends.</entry>
+</row>
+<row><entry>Chris thinks that someone does, too.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This constraint apparently does not hold in the case of a deleted indefinite:</p>
+<p>(44)<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Sandy thinks that every student in our class plays chess better than a guy I beat this morning.</entry>
+</row>
+<row><entry>Chris does, too.</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>Sandy thinks that every student in our class plays chess better than a guy I beat this morning.</entry>
+</row>
+<row><entry>Chris thinks that every student does, too.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The elliptical sentence (44b) is just as ambiguous as that in (44a), also meaning &lsquo;There is a guy I beat this morning such that Sandy thinks that every student in our class plays chess better than he.&rsquo; This is only possible if <i>a guy</i> is a referring expression.</p>
+<p>
+<link rid="b9">Fodor and Sag (1982</link>) conclude that indefinites are lexically ambiguous. They are either quantifiers, binding a variable, entering into a scope relation with other quantifiers; or they are referring expressions which have no scope, but which presuppose, or infer, existential quantification of maximal scope. Under the latter interpretation they refer to an unidentified but identifiable individual. The initial sentences of the following dialogues illustrate this ambiguity. Whereas that in (45a) involves a referential indefinite, that in (45b) is an instance of a wide-scope existential quantifier:</p>
+<p>(45)<object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>A student in syntax 1 cheated on the exam. His name is John.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>A student in syntax 1 cheated on the exam. We are all trying to figure out who it was.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+<subsection id="ss6" level="1">
+<heading id="h5" level="1">5&ensp;Visible LF in Hungarian </heading>
+<p>In Hungarian (see <link rid="b10">Kiss 1991</link>) &ndash; as well as in the Bantu KiLega (<link rid="b11">Kinyalolo 1990</link>), Palestinian Arabic (<link rid="b12">Khalaily 1995</link>), and Chinese (<link rid="b13">Bartos 2000</link>) &ndash; quantifiers occupy a designated A-bar position in the left periphery of the sentence, after the topic but before the focus and the VP. That is, Quantifier-Raising is a visible operation: it is adjunction to the left edge of the predicate phrase. Here is a Hungarian example containing two quantifiers, and a slightly updated version of the structure assigned to it in <link rid="b10">Kiss (1991</link>):</p>
+<p>(46)<object id="tu28" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu28_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>J&aacute;nos</entry>
+<entry>mindk&eacute;t</entry>
+<entry>fi&uacute;t</entry>
+<entry>minden</entry>
+<entry>l&aacute;nynak</entry>
+<entry>bemutatta.</entry>
+</row>
+<row><entry>John</entry>
+<entry>both</entry>
+<entry>boy.acc</entry>
+<entry>every</entry>
+<entry>girl.dat</entry>
+<entry>introduced</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;John introduced both boys to every girl.&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col7">
+<object id="fu2" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_53_fu2.jpg" type="jpg" id="fu2_source"/>
+</objectsource>
+</object>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>If the sentence also contains a focus, Q-Raising is adjunction to the Focus Phrase:</p>
+<p>(47)<object id="fu3" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_53_fu3.jpg" type="jpg" id="fu3_source"/>
+</objectsource>
+</object>
+</p>
+<p>Quantifiers and the focus are analyzed differently, the former adjoined to the predicate phrase (VP or FP), the latter substituted into Spec, FP so as to account for an empirical difference between their syntactic behaviors: whereas Focus Movement triggers V-to-F movement across the verbal prefix, Quantifier-Raising does not do so.</p>
+<p>Owing to the fact that quantifiers are moved to scope positions at S-structure, Hungarian sentences with two or more quantifiers are not ambiguous; surface c-command relations, and surface order even, disambiguate them. Compare the word order and the meaning difference of the following pair of sentences:</p>
+<p>(48)<object id="tu29" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu29_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>J&aacute;nost</entry>
+<entry>mindenk&eacute;t</entry>
+<entry>l&aacute;ny</entry>
+<entry>t&ouml;bbsz&ouml;r is</entry>
+<entry>megh&iacute;vta.</entry>
+</row>
+<row><entry>John.acc</entry>
+<entry>both</entry>
+<entry>girls</entry>
+<entry>several times</entry>
+<entry>invited</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;It is stated about John that each of the two girls invited him on several occasions.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>J&aacute;nost</entry>
+<entry>t&ouml;bbsz&ouml;r is</entry>
+<entry>mindk&eacute;t</entry>
+<entry>l&aacute;ny</entry>
+<entry>megh&iacute;vta.</entry>
+</row>
+<row><entry>John.acc</entry>
+<entry>several times</entry>
+<entry>both</entry>
+<entry>girls</entry>
+<entry>invited</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;It is stated about John that on several occasions, both girls invited him.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In both sentences the first quantifier, asymmetrically c-commanding the second one, has scope over it, but not vice versa.</p>
+<p>In a language like Hungarian, where scope relations are determined by surface c-command and surface precedence, the following generalizations are expected to hold: (i) a QP in the specifier position of a noun phrase cannot have narrower scope than the quantifier associated with the head; and (ii) a QP in the complement position of a noun phrase cannot have wider scope than the quantifier associated with the head. Both predictions are borne out. The first one will be demonstrated by the examples in (49) and (50):</p>
+<p>(49)<object id="tu30" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu30_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>&lsqb;Minden</entry>
+<entry>csal&aacute;dtag</entry>
+<entry>&lsqb;k&eacute;t</entry>
+<entry>f&eacute;nyk&eacute;pe&rsqb;&rsqb;</entry>
+<entry>j&oacute;l</entry>
+<entry>siker&uuml;lt.</entry>
+</row>
+<row><entry>every</entry>
+<entry>family-member&apos;s</entry>
+<entry>two</entry>
+<entry>photos</entry>
+<entry>well</entry>
+<entry>came-out</entry>
+</row>
+<row><entry namest="col1" nameend="col6">&lsquo;Two photos of each family-member came out well.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As predicted, (49) cannot mean that &lsquo;two photos showing all the family members came out well&rsquo;. The slightly marginal (49) also has a fully grammatical version, in which the possessor is case marked and extraposed, and then undergoes Q-Raising on its own. The remnant noun phrase occupies the focus slot in Spec, FP:</p>
+<p>(50)<object id="tu31" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu31_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>&lsqb;<sub>FP</sub> Minden</entry>
+<entry>csal&aacute;dtagnak</entry>
+<entry>&lsqb;<sub>FP</sub> k&eacute;t</entry>
+<entry>f&eacute;nyk&eacute;pe</entry>
+<entry>siker&uuml;lt</entry>
+<entry>j&oacute;l&rsqb;&rsqb;</entry>
+</row>
+<row><entry>every</entry>
+<entry>family-member.dat</entry>
+<entry>two</entry>
+<entry>photos</entry>
+<entry>came-out</entry>
+<entry>well</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The second generalization is illustrated under (51a). The pragmatically possible scope reading, with the complement taking scope over the quantified head, cannot be derived because the complement does not c-command the quantifier of the head. The intended reading can only be achieved if the complement is realized as a genitive specifier (see (51b)), or, still better, if it is realized as a case-marked possessor extraposed and then Q-raised (see (51c)). To demonstrate that the possessor has undergone Q-Raising independently, I will supply it with the (usually optional) formative appearing on the right-hand side of distributive quantifiers:</p>
+<p>(51)<object id="tu32" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu32_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>*&lsqb;Minden</entry>
+<entry>&lsqb;bej&aacute;rat</entry>
+<entry>&lsqb;t&ouml;bb</entry>
+<entry>boltba&rsqb;&rsqb;&rsqb;</entry>
+<entry>megrong&aacute;l&oacute;dott.</entry>
+</row>
+<row><entry>every</entry>
+<entry>entrance</entry>
+<entry>several</entry>
+<entry>store-to</entry>
+<entry>was-damaged</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;Every entrance to several stores was damaged.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>&lsqb;T&ouml;bb</entry>
+<entry>bolt</entry>
+<entry>&lsqb;minden</entry>
+<entry>bej&aacute;rata&rsqb;&rsqb;</entry>
+<entry>megrong&aacute;l&oacute;dott.</entry>
+</row>
+<row><entry>several</entry>
+<entry>store&apos;s</entry>
+<entry>every</entry>
+<entry>entrance</entry>
+<entry>was-damaged</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">c.</entry>
+<entry>&lsqb;<sub>VP</sub> T&ouml;bb</entry>
+<entry>boltnak</entry>
+<entry>is</entry>
+<entry>&lsqb;<sub>VP</sub> minden</entry>
+<entry>bej&aacute;rata</entry>
+<entry>&lsqb;<sub>VP</sub> megrong&aacute;l&oacute;dott&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>several</entry>
+<entry>store.dat</entry>
+<entry>even</entry>
+<entry>every</entry>
+<entry>entrance</entry>
+<entry>was-damaged</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Hungarian facts have been used as evidence in arguing for LF Q-Raising (if Q-Raising is visible in some languages, it must be covertly present in other languages, as well). At the same time, they have also been regarded as evidence for a grammatical model without LF, in which scope relations can be read off S-structure &ndash; as in <link rid="b14">Williams (1986</link>).</p>
+</subsection>
+<subsection id="ss7" level="1">
+<heading id="h6" level="1">6&ensp;A chain binding theory of quantifier scope</heading>
+<p>It had already been observed in <link rid="b5">May (1977</link>), and particularly in <link rid="b6">May (1985</link>), that the movement of a quantifier, or the movement of another operator across a quantifier, may result in ambiguity. Thus a raised quantified subject may have either embedded or matrix scope:</p>
+<p>(52)<object id="tu33" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu33_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>A hippogryph is likely to be apprehended.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsquo;There is a hippogryph which is likely . . .&rsquo;</entry>
+</row>
+<row><entry>c.</entry>
+<entry>&lsquo;It is likely that a hippogryph . . .&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b6">May (1985</link>) could only account for the narrow-scope reading of the raised quantifier by assuming Q-lowering at LF, with the output in (53):</p>
+<p>(53)&ensp;e<sub>i</sub> is likely a hippogryph<sub>i</sub> &lsqb;e<sub>i</sub> to be apprehended&rsqb;</p>
+<p>A <i>wh-</i>phrase raised across a quantifier into a higher clause may also have either wide scope or narrow scope with respect to the quantifier:</p>
+<p>(54)&ensp;Who do you think that everyone saw at the rally?</p>
+<p>It appeared that the wide-scope reading of the subject quantifier in (54) can only be derived at the cost of giving up the assumption that Q-Raising observes the ECP. At the same time, the ECP did not prove to be completely irrelevant; e.g., the embedded subject quantifier, capable of taking scope over the matrix <i>wh-</i>phrase in (54), cannot take scope over a matrix subject quantifier. Cf.:</p>
+<p>(55)&ensp;Some men think that everyone saw Mary at the rally.</p>
+<p>
+<link rid="b15">Aoun and Li (1989</link>) approached these problems by replacing the notion of variable binding by the notion of chain binding in quantifier scope interpretation. They sought to account for a complex set of English and Chinese data which display some unexpected differences; namely, whereas an English transitive sentence containing two quantifiers is ambiguous, its Chinese counterpart is not (as was observed by <link rid="b16">Huang 1982a</link>) &ndash; see (56a&ndash;b). On the other hand, a Chinese passive sentence with two quantifiers is ambiguous, whereas an English double object construction is not &ndash; cf. (57a, b):</p>
+<p>(56)<object id="tu34" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu34_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry namest="col2" nameend="col7">Someone tried every dish.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Yaoshi</entry>
+<entry>liangge</entry>
+<entry>ren</entry>
+<entry>zhaodao</entry>
+<entry>meige</entry>
+<entry>xiansuo</entry>
+</row>
+<row><entry>
+</entry>
+<entry>if</entry>
+<entry>two</entry>
+<entry>men</entry>
+<entry>found</entry>
+<entry>every</entry>
+<entry>clue</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(57)<object id="tu35" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu35_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Yaoshi</entry>
+<entry>liangge</entry>
+<entry>xiansuo</entry>
+<entry>bei</entry>
+<entry>meigeren</entry>
+<entry>zhaodao</entry>
+</row>
+<row><entry>
+</entry>
+<entry>if</entry>
+<entry>two</entry>
+<entry>clues</entry>
+<entry>by</entry>
+<entry>everyone</entry>
+<entry>found</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col7">John assigned someone every problem.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Aoun and Li propose the following scope principle:</p>
+<p>(58)&ensp;<object id="tu36" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu36_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Scope Principle:</b>
+</entry>
+</row>
+<row><entry>A quantifier A has scope over a quantifier B if A c-commands a member of the chain containing B.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Q-Raising is claimed to be constrained by the Minimal Binding Requirement, which forbids stacked quantifiers, i.e., structures of the type Q<sub>i</sub> Q<sub>j</sub> &lsqb;t .&nbsp;.&nbsp;.&nbsp;t&rsqb;, whether the quantifier-variable relations are nested or crossing:</p>
+<p>(59)&ensp;<object id="tu37" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu37_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Minimal Binding Requirement:</b>
+</entry>
+</row>
+<row><entry>Variables must be bound by the most local potential A&prime; binder.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As a consequence of (58) and (59), LF representations of multiple quantifier constructions can be of two basic types:</p>
+<p>(60)<object id="tu38" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu38_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Q<sub>i</sub> &lsqb; .&nbsp;.&nbsp;.&nbsp;t<sub>i</sub> .&nbsp;.&nbsp;.&nbsp;Q<sub>j</sub> &lsqb; .&nbsp;.&nbsp;.&nbsp;t<sub>j</sub> .&nbsp;.&nbsp;.&nbsp;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Q<sub>i</sub> &lsqb; .&nbsp;.&nbsp;.&nbsp;t<sub>i</sub> .&nbsp;.&nbsp;.&nbsp;Q<sub>j</sub> &lsqb; .&nbsp;.&nbsp;.&nbsp;t<sub>i</sub> .&nbsp;.&nbsp;.&nbsp;t<sub>j</sub> .&nbsp;.&nbsp;.&nbsp;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The lower t<sub>i</sub> in (60b) does not violate the Minimal Binding Requirement because it is an NP trace, not a variable. Whereas (60a) is disambiguated, (60b) is ambiguous: both Q<sub>i</sub> and Q<sub>j</sub> have scope over the other, because each c-commands a trace of the chain containing the other. According to <link rid="b15">Aoun and Li (1989</link>), a Chinese transitive sentence with a subject and an object quantifier has structure (60a). In English, on the other hand, the subject is generated inside the VP; hence an English sentence like (56a) is to be mapped on the LF in (60b). (Chinese Infl, unlike English Infl, is not lexical, and the non-L-marked VP blocks subject raising to Spec, IP.) In a Chinese passive sentence, however, the subject quantifier does bind a VP-internal trace; that is why it is scopally ambiguous. (As <link rid="b17">Hornstein 1995</link>: 39 notes, it is unclear, though, why the non-L-marked Chinese VP does not block NP-movement in this case.) The English double object construction is claimed to be similar to the Chinese active transitive sentence in the respect that the indirect object and the direct object are claimed to form a small clause, in which the VP-external constituent has no trace in the VP.</p>
+<p>This is the relevant section of the LF that <link rid="b15">Aoun and Li (1989</link>) would assign to (54), given again as (61a):</p>
+<p>(61)<object id="tu39" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu39_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Who do you think that everyone saw at the rally?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Q<sub>i</sub> &lsqb; .&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>CP</sub> t<sub>i</sub> &lsqb;<sub>IP</sub> Q<sub>j</sub> &lsqb;t<sub>j</sub> &lsqb;<sub>VP</sub> t<sub>j</sub> t<sub>i</sub>&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The sentence is correctly predicted to be ambiguous: Q<sub>i</sub>, the <i>wh-</i>operator, c-commands every member of the chain headed by Q<sub>j</sub>, and Q<sub>j</sub>, the embedded subject operator, also c-commands the root of the chain headed by Q<sub>i</sub>.</p>
+<p>(55), given again as (62a), on the other hand, is correctly predicted to be non-ambiguous, given that the lower quantifier does not c-command a member of the chain headed by the higher quantifier:</p>
+<p>(62)<object id="tu40" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu40_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Some men think that everyone saw Mary at the rally.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Q<sub>i</sub> &lsqb;<sub>VP</sub> t<sub>i</sub> .&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>CP</sub> &lsqb;<sub>IP</sub> Q<sub>j</sub> &lsqb;<sub>IP</sub> t<sub>j</sub> &lsqb;<sub>VP</sub> t<sub>j</sub>&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(32a, b) appear, at first sight, to violate the Minimal Binding Requirement. These are the chains they involve:</p>
+<p>(63)<object id="tu41" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu41_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>What did everyone buy for Max?</entry>
+</row>
+<row><entry>Q<sub>j</sub> Q<sub>i</sub> &lsqb;<sub>IP</sub> t<sub>i</sub> &lsqb;<sub>VP</sub> t<sub>i</sub> t<sub>j</sub>&rsqb;&rsqb;</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>Who bought everything for Max?</entry>
+</row>
+<row><entry>Q<sub>j</sub> &lsqb;<sub>IP</sub> t<sub>j</sub> Q<sub>i</sub> &lsqb;<sub>VP</sub> t<sub>j</sub> t<sub>i</sub>&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Actually, the problem with the Minimal Binding Requirement is eliminated by a qualification added to the requirement, according to which <i>a</i> only qualifies as a potential A-bar binder for <i>b</i> iff <i>a</i> c-commands <i>b</i>, <i>a</i> is in an A-bar position, and co-indexing of (<i>a</i>, <i>b</i>) would not violate any grammatical principle. Auon and Li argue that the co-indexing of the <i>wh-</i>phrase (Q<sub>j</sub>) with t<sub>i</sub> would be a Principle C violation, hence Q<sub>j</sub> is not a potential binder for t<sub>i</sub>. The real problem, pointed out by <link rid="b18">Ruys (1992</link>), is that (63b), with Q<sub>i</sub> binding both t<sub>j</sub> and t<sub>i</sub>, is predicted to be just as ambiguous as (63a), contrary to fact.</p>
+<p>In this framework, the scopal ambiguity attested in Raising structures can be accounted for without lowering. Observe the LF assigned to an English Raising structure:</p>
+<p>(64)<object id="tu42" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu42_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Someone seems to have attended every rally.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>someone<sub>i</sub> &lsqb;t<sub>i</sub> seems &lsqb;every rally<sub>j</sub> &lsqb;t<sub>i</sub> to have attended t<sub>j</sub>&rsqb;&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p><i>Every rally</i> can have scope over <i>someone</i> because it c-commands a trace of the chain containing <i>someone</i>. This approach, however, cannot solve a problem first noticed by <link rid="b19">Aoun (1981</link>); namely, in (65a) the matrix reflexive forces the existential quantifier binding it to have matrix scope. Nevertheless, the LF assigned to (65a) by Aoun and Li, represented in (65b), is as ambiguous as any Raising structure:</p>
+<p>(65)<object id="tu43" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu43_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Someone seems to himself to have attended every rally.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>someone<sub>i</sub> &lsqb;t<sub>i</sub> seems to himself &lsqb;every rally<sub>j</sub> &lsqb;t<sub>i</sub> to have attended t<sub>j</sub>&rsqb;&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A further problem is that Chinese Raising structures, e.g., that in (66), are not ambiguous:</p>
+<p>(66)<object id="tu44" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu44_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>Yaoshi</entry>
+<entry>liangge</entry>
+<entry>ren</entry>
+<entry>keneng</entry>
+<entry>kandao</entry>
+<entry>meigeren</entry>
+</row>
+<row><entry>if</entry>
+<entry>two</entry>
+<entry>men</entry>
+<entry>likely</entry>
+<entry>see</entry>
+<entry>everyone</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Aoun and Li explain the lack of narrow scope of the raised subject in (66) by claiming that in Chinese the raising predicate and the embedded predicate are restructured to form a single complex predicate (because otherwise the non-L-marked matrix VP, a barrier, would not let the embedded subject through).</p>
+<p>In a revised version of the scope interpretation theory of <link rid="b20">Aoun and Li (1993b</link>), only the bare quantifiers are Q-raised out of the quantified NPs. Hence the new theory does not refer to NP-traces any longer; the Scope Principle interprets only non-NP links of chains. That is:</p>
+<p>(67)&ensp;<object id="tu45" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu45_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>The Scope Principle:</b>
+</entry>
+</row>
+<row><entry>X takes scope over Y just in case some part of X&apos;s A&prime;-chain c-commands some part of Y&apos;s A&prime;-chain.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Aoun and Li assume the following Generalized Binding Condition:</p>
+<p>(68)&ensp;An A&prime;-binder B is a potential antecedent for a variable V iff indexing B and V does not violate any grammatical principle, e.g., principle C, the theta-criterion, etc.</p>
+<p>Adopting the adjunction theory of <i>Barriers</i> (<link rid="b7">Chomsky 1986a</link>), Aoun and Li only allow adjunction to XPs in non-theta-positions. That is, whereas the subject NP is a potential adjunction site, the object NP is not. A subject quantifier assumes wide scope by being adjoined to IP, and it assumes narrow scope by being adjoined to the subject NP, which dominated it originally. (In Aoun and Li&apos;s framework, a Q adjoined to NP does not c-command outside the NP; hence the Minimal Binding Requirement is not violated.) An object quantifier, on the other hand, takes wide scope by being adjoined to IP, and narrow scope by being adjoined to VP. Cf.:</p>
+<p>(69)<object id="tu46" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu46_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Some student attended every class.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>IP</sub> Every<sub>i</sub> &lsqb;<sub>IP</sub> &lsqb;<sub>NP</sub> some<sub>j</sub> &lsqb;<sub>NP</sub> t<sub>j</sub> student&rsqb;&rsqb; attended &lsqb;<sub>NP</sub> t<sub>i</sub> class&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>c.</entry>
+<entry>&lsqb;<sub>IP</sub> Some<sub>j</sub> &lsqb;<sub>IP</sub> &lsqb;<sub>NP</sub> t<sub>j</sub> student&rsqb; &lsqb;<sub>VP</sub> every<sub>i</sub> &lsqb;<sub>VP</sub> attended &lsqb;<sub>NP</sub> t<sub>i</sub> class&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In Chinese active sentences Spec, IP is a theta-position, hence structure (69b), in which the subject has narrow scope with respect to the object, is illicit. In Chinese passive sentences, on the other hand, Spec, IP is not a theta-position, allowing adjunction.</p>
+<p>In Raising constructions the subject can be lowered into the embedded subject position in both languages. In English, the lowered subject can have its quantifier adjoined locally to the subject NP, which is a non-theta-position &ndash; see (70). In Chinese, where the embedded subject position is a theta-position, this move is impossible; hence the lowered subject cannot assume narrow scope with respect to the embedded object:</p>
+<p>(70)&ensp;&lsqb;<sub>IP</sub> t<sub>i</sub> .&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>IP</sub> Q<sub>j</sub> &lsqb;<sub>IP</sub> &lsqb;<sub>NP</sub> Q<sub>i</sub> &lsqb;<sub>NP</sub> t<sub>i</sub> N&prime;&rsqb;&rsqb; .&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>NP</sub> t<sub>j</sub> N&prime;&rsqb;&rsqb;&rsqb;&rsqb;</p>
+<p>The optional lowering does not take place in (71) because it would leave an unbound anaphor:</p>
+<p>(71)&ensp;Someone seemed to himself to have attended every rally.</p>
+<p>The appeal of this approach is somewhat diminished by the fact that the Q-Raising rule it assumes is not identical any more with the visible Q-Raising of, e.g., Hungarian, which involves quantified NPs.</p>
+</subsection>
+<subsection id="ss8" level="1">
+<heading id="h7" level="1">7&ensp;A Minimalist approach to scope ambiguities</heading>
+<p>In the Minimalist framework, the Q-Raising transformation is problematic for at least two reasons. Phrasal adjunction, in general, is an atypical operation in Minimalism. Phrasal movement should be substitution, and, furthermore, it should be motivated by the need of morphological feature checking. Quantifiers actually do bear morphological markers; so if they had an invariant landing site, it would not be inconceivable to analyze their landing site as the specifier of an abstract quantifier head with a quantifier feature to check. However, <link rid="b6">May (1985</link>), Aoun and Li (1993), and others have convincingly shown that the English scope facts cannot be accounted for unless Q-Raising is allowed a variable landing site.</p>
+<p>These considerations have led to new approaches to quantifier scope interpretation. Hornstein&apos;s solution is the simplest (cf. <link rid="b17">Hornstein 1995</link>: ch. 8); he eliminates Q-Raising, and derives its effects from regular A-movement to Spec, AgrS and Spec, AgrO. His theory is based on the standard Minimalist premises that the subject moves to Spec, AgrS, whereas the object moves to Spec, AgrO, and movement is copying and deletion. He also makes the following specific assumptions:</p>
+<listgroup id="l2" type="i">
+<li level="1">
+<number>(i)&ensp;</number>
+<p>At the CI interface an A-chain has at most one and at least one lexical link (the rest of them are deleted).</p>
+</li>
+<li level="1">
+<number>(ii)&ensp;</number>
+<p>A definite argument must be outside the VP shell at the CI interface (as required, e.g., by the Mapping Principle of <link rid="b21">Diesing 1992b</link>).</p>
+</li>
+</listgroup>
+<p>In Hornstein&apos;s theory, quantifiers are moved via A-movement &ndash; which explains why quantifier scope normally cannot transgress a sentence boundary. Wide-scope quantifiers are interpreted in the head positions of their chains, whereas narrow-scope quantifiers are interpreted in the root positions of their chains. A transitive sentence with two quantifiers, like that in (72a), can be associated with four possible CI interface representations, spelled out in (72b&ndash;e). The chain links to be deleted are put into brackets:</p>
+<p>(72)<object id="tu47" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu47_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Someone attended every seminar.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>AgrS</sub> Someone &lsqb;<sub>TP</sub> Tns &lsqb;<sub>AgrO</sub> every seminar &lsqb;<sub>VP</sub> (someone) &lsqb;<sub>VP</sub> attended (every seminar)&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*&lsqb;<sub>AgrS</sub> Someone &lsqb;<sub>TP</sub> Tns &lsqb;<sub>AgrO</sub> (every seminar) &lsqb;<sub>VP</sub> (someone) &lsqb;<sub>VP</sub> attended every seminar&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>d.</entry>
+<entry>*&lsqb;<sub>AgrS</sub> (Someone) &lsqb;<sub>TP</sub> Tns &lsqb;<sub>AgrO</sub> (every seminar) &lsqb;<sub>VP</sub> someone &lsqb;<sub>VP</sub> attended every seminar&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>e.</entry>
+<entry>&lsqb;<sub>AgrS</sub> (Someone) &lsqb;<sub>TP</sub> Tns &lsqb;<sub>AgrO</sub> every seminar &lsqb;<sub>VP</sub> someone &lsqb;<sub>VP</sub> attended (every seminar)&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(72c, d) are illegitimate representations, because they contain a definite argument (the <i>every</i> phrase) in the VP, and thereby violate the Mapping Principle of <link rid="b21">Diesing (1992b</link>). (72b) is the representation yielding direct scope, whereas (72e) is the representation yielding inverse scope.</p>
+<p>In this model, a subject universal quantifier, e.g., that in (73), is bound to have wide scope, as the Mapping Principle does not allow it to be interpreted inside the VP:</p>
+<p>(73)&ensp;Every man kissed a woman.</p>
+<p>The women kissed may be different for each man or may be the same, which looks like a difference in relative scope. Hornstein, however, is forced to deny the ambiguity, and to call the sentence vague instead.</p>
+<p>Hornstein&apos;s theory correctly predicts the ambiguity of raising structures of the following type:</p>
+<p>(74)<object id="tu48" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu48_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Someone seemed to attend every class.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>AgrS</sub> Someone seemed &lsqb;<sub>AgrS</sub> someone to &lsqb;<sub>AgrO</sub> every class &lsqb;<sub>VP</sub> someone attend (every class)&rsqb;&rsqb;&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Since the chain headed by <i>someone</i> has members both above and below the universal quantifier in Spec, AgrO, any of which is legitimate at the CI interface, <i>someone</i> can have either wide scope or narrow scope with respect to the universal quantifier.</p>
+<p>Hornstein&apos;s theory is successful in treating cases in which one of the scope possibilities is excluded because it does not meet some independent binding requirement. For example, the usual ambiguity of transitive sentences with two quantifiers disappears in (75a) because only the higher subject chain link, c-commanding Spec, AgrO, binds the pronoun embedded under the object:</p>
+<p>(75)<object id="tu49" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu49_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Someone<sub>i</sub> played every piece of music he<sub>i</sub> knew.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>AgrS</sub> Someone &lsqb;<sub>Tns</sub> &lsqb;<sub>AgrO</sub> every piece of music he knew &lsqb;<sub>VP</sub> (someone) &lsqb;<sub>VP</sub> played (every piece of music he knew)&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Raising structures in which only one of the scope possibilities meets a binding requirement are analyzed similarly:</p>
+<p>(76)<object id="tu50" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu50_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Every picture of his<sub>i</sub> dog seemed to someone<sub>i</sub> to be out of focus.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>AgrS</sub> (every picture of his dog) &lsqb;<sub>VP</sub> seemed to someone<sub>i</sub> &lsqb;<sub>AgrS</sub> every picture of his<sub>i</sub> dog to be out of focus&rsqb;&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(77)<object id="tu51" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu51_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Someone<sub>i</sub> seemed to himself<sub>i</sub> to be reviewing every report.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>AgrS</sub> someone<sub>i</sub> &lsqb;<sub>VP</sub> seemed to himself<sub>i</sub> &lsqb;<sub>AgrS</sub> (someone) to be &lsqb;<sub>AgrO</sub> every report &lsqb;<sub>VP</sub> (someone) &lsqb;reviewing (every report)&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (76) the matrix prepositional object can bind the pronoun only in the subject link occupying the embedded AgrS. The link in the higher Spec, AgrS is not in its c-command domain. The link in the lower VP, on the other hand, is ruled out by Diesing&apos;s Mapping Principle (it is a definite NP, which must leave the VP). Hence the raised subject has narrow scope with respect to the matrix prepositional object. In (77), on the other hand, the matrix subject can only have wide scope because only the highest chain link c-commands the matrix anaphor.</p>
+<p>The Chinese facts also fall out if we assume that in Chinese the subject chain has no VP-internal chain link except in passive sentences.</p>
+</subsection>
+<subsection id="ss9" level="1">
+<heading id="h8" level="1">8&ensp;Scope interpretation constrained by economy</heading>
+<p>The approach of <link rid="b22">Fox (1995b</link>) maintains the Quantifier Raising and Quantifier Lowering rules of <link rid="b6">May (1985</link>), and argues that they are restricted by economy considerations. This theory is built on the insight that shorter derivations are less costly; hence, among derivations with the same semantic interpretation, that involving the least moving is the optimal one. In other words, a quantifier moves only to establish a semantically significant scopal relation. Compare the possible derivations of (78a) and (79a):</p>
+<p>(78)<object id="tu52" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu52_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>A boy loves every girl.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>IP</sub> a boy<sub>1</sub> .&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>VP</sub> every girl<sub>2</sub> &lsqb;<sub>VP</sub> t<sub>1</sub> loves t<sub>2</sub>&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>c.</entry>
+<entry>&lsqb;<sub>IP</sub> every girl<sub>2</sub> &lsqb;<sub>IP</sub> a boy<sub>1</sub> .&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>VP</sub> t<sub>1</sub> loves t<sub>2</sub>&rsqb;&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(79)<object id="tu53" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu53_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John loves every girl.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>IP</sub> John<sub>1</sub> .&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>VP</sub> every girl<sub>2</sub> &lsqb;<sub>VP</sub> t<sub>1</sub> loves t<sub>2</sub>&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*&lsqb;<sub>IP</sub> every girl<sub>2</sub> &lsqb;<sub>IP</sub> John<sub>1</sub> .&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>VP</sub> t<sub>1</sub> loves t<sub>2</sub>&rsqb;&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Although the derivation in (78c) is longer than that in (78b), the two derivations have different interpretations; hence they do not belong to the same reference set, and need not be compared with respect to economy. In the case of (79), on the other hand, the additional layer in (c) does not yield a further interpretation; hence the (c) variant is less optimal than the shorter (79b).</p>
+<p>Fox&apos;s theory provides a natural account of a wide range of problematic scope interactions. Consider first the interaction of scope and VP ellipsis, discussed above in connection with (36). Recall that the problem is represented by the lack of ambiguity in (80b), as opposed to (80a):</p>
+<p>(80)<object id="tu54" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu54_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Some boy admires every teacher.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Some boy admires every teacher and Mary does too. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The explanation quoted in connection with (36) is based on the assumption that VP reconstruction at LF requires the elided VP to contain the operator binding the VP-internal variable. This explanation, however, only works if VP reconstruction is ordered after QR in LF. What is worse, VP ellipsis does not always eliminate ambiguity. In (81) the elided object quantifier can have scope over the subject:</p>
+<p>(81)&ensp;Some boy admires every teacher and some girl does too.</p>
+<p>That is, whereas (82a) is an impossible LF for (80b), (82b) is a possible LF for (81):</p>
+<p>(82)<object id="tu55" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu55_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*every teacher<sub>1</sub> &lsqb;some boy admires t<sub>1</sub>&rsqb; and every teacher<sub>2</sub> &lsqb;Mary admires t<sub>2</sub>&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>every teacher<sub>1</sub> &lsqb;some boy admires t<sub>1</sub>&rsqb; and every teacher<sub>2</sub> &lsqb;some girl admires t<sub>2</sub>&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In the case of (80a)/(82) the derivation is interpretively identical with the derivation involving no adjunction to IP; hence, as the less econominal variant, it is discarded. In the case of (80b)/(82b) adjunction to IP elicits a meaning which is otherwise not available; hence economy considerations are irrelevant. The requirement of parallelism between elided material and its antecedent coupled with the economy principle in question yields the following generalization:</p>
+<p>(83)&ensp;<object id="tu56" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu56_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Ellipsis scope generalization:</b>
+</entry>
+</row>
+<row><entry>The relative scope of two quantifiers, one of which is in an antecedent VP of an ellipsis construction, may differ from the surface c-command relation only if the parallel difference will have semantic effects in the elided VP.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Extraction out of coordinate structures is also known to limit scope interpretation possibilities. Compare the ambiguous (84a) with (84b), in which across-the-board quantifier lowering eliminates one of the scope readings: the object quantifier within the coordinated VP cannot take scope over the subject:</p>
+<p>(84)<object id="tu57" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu57_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>A different student likes every professor.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>A different student &lsqb;&lsqb;likes every professor&rsqb; and &lsqb;hates the dean&rsqb;&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This fact has led <link rid="b6">May (1985</link>) and <link rid="b18">Ruys (1992</link>) to the conclusion that QR obeys the Coordinate Structure Constraint. However, this explanation cannot be extended to cases like (85):</p>
+<p>(85)&ensp;A guard is standing in front of every church and sitting at the side of every mosque.</p>
+<p>This sentence is understood to describe a situation in which the guard varies with the churches and the mosques. This reading can be represented by an LF involving VP-level QR in both conjunctions, and across-the-board lowering of the subject to the two coordinate VPs, as follows:</p>
+<p>(86)<object id="tu58" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu58_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>&ndash; is</entry>
+<entry>&lsqb;<sub>VP</sub> every church<sub>1</sub> &lsqb;<sub>VP</sub> &lsqb;a guard&rsqb; standing in front of t<sub>1</sub>&rsqb;&rsqb;</entry>
+<entry>and</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsqb;<sub>VP</sub> every mosque<sub>1</sub> &lsqb;<sub>VP</sub> &lsqb;a guard&rsqb; standing at the side of t<sub>1</sub>&rsqb;&rsqb;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The question is why the proposed derivation, i.e., across-the-board lowering, is not allowed in the case of (84b). The answer is provided by the economy principle in question, together with the following independently motivated assumptions:</p>
+<p>(87)<object id="tu59" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu59_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Extraction is possible out of a coordinate structure only if there are two independent structures, each composed of one of the coordinates together with material above it up to the antecedent.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Grammatical constraints are checked independently in the two derivative structures.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>It follows from (87) that lowering is only possible if it is across the board. Furthermore, as required by economy, lowering must yield a distinct interpretation in both derivative structure. This is satisfied in (86a, b), but would not be satisfied in (84b). Consider its LF:</p>
+<p>(88)&ensp;&lsqb;<sub>VP</sub> every professor &lsqb;<sub>VP</sub> a different student likes&rsqb;&rsqb; and</p>
+<p>&lsqb;<sub>VP</sub> the dean &lsqb;<sub>VP</sub> a different student likes&rsqb;&rsqb;</p>
+<p>Fox&apos;s approach can also explain why Quantifier Raising is clause-bounded in most cases: because QR takes place successive-cyclically, and each step must be motivated by a shift in semantic interpretation. Compare the following minimal pair:</p>
+<p>(89)<object id="tu60" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu60_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>One girl knows that every boy bought a present for Mary.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>One girl knows what every boy bought for Mary.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (89a) the universal quantifier cannot take scope over the matrix existential quantifier. The reason is that there is no motivation for the first step of successive-cyclic Q-Raising to take place. Movement in one swoop across the clausal boundary, on the other hand, would violate regular constraints of A-bar movement &ndash; hence the quantifier is stuck. In (89b), on the other hand, the movement of the universal quantifier over the <i>wh-</i>operator is semantically motivated (it provides a pair-list reading). The quantifier raised that high is available for Q-Raising into the matrix sentence.</p>
+</subsection>
+<subsection id="ss10" level="1">
+<heading id="h9" level="1">9&ensp;The theory of relativized scope</heading>
+<p>
+<link rid="b23">Liu&apos;s dissertation (1990</link>) initiated an important new line of research in the area of scope ambiguities, which has culminated so far in a volume of papers edited by <link rid="b24">Anna Szabolcsi (1997c</link>), among them <link rid="b25">Beghelli and Stowell (1997</link>).</p>
+<p>
+<link rid="b23">Liu (1990</link>) was among the first to point out that the scope possibilities of a quantifier also depend on its type (see also <link rid="b26">Ioup 1975a</link>). She divided quantified NPs into two types (generalized-specific (g-specific) and non-specific NPs), but <link rid="b25">Beghelli and Stowell (1997</link>) have argued for the necessity of a more sophisticated classification. They distinguish five types of quantified phrases:</p>
+<p>(90)<object id="tu61" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu61_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Interrogative QPs: <i>what</i>, <i>which man</i>.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Negative QPs: <i>nobody</i>, <i>no man</i>.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Distributive-universal QPs: <i>every/each man</i>.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>Counting QPs: <i>few girls</i>, <i>at most three students</i>.</entry>
+</row>
+<row><entry>e.</entry>
+<entry>Group-denoting QPs: <i>one man</i>, <i>three men</i>, <i>a man</i>, <i>the men</i>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>They claim that these types of quantified phrases have their own designated landing sites in sentence structure, where they participate in feature checking. Their scope extends over the domain they c-command at LF; hence the fact that they can occupy only certain positions imposes indirectly constraints on their scope possibilities, and on their relative scope, as well.</p>
+<p>Beghelli and Stowell argue for a much more articulated left periphery for the English sentence than was previously assumed. Although they base their claim on evidence internal to English, facts from languages with visible quantifier movement, primarily Hungarian, also support their proposal.</p>
+<p>The structure they assign to the English sentence is represented under (91). Different types of quantifiers move to the specifiers of different projections in order to have their particular feature checked. The diagram indicates what type of quantifier each position can be filled with:</p>
+<p>(91)<object id="fu4" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_53_fu4.jpg" type="jpg" id="fu4_source"/>
+</objectsource>
+</object>
+</p>
+<p>Simple indefinites of the type <i>a man</i>, <i>men</i>, can also remain in the VP as bound variables. Beghelli and Stowell are forced to analyze also <i>every</i> phrases that are in the scope of, e.g., negation (see (92)) as VP-internal bound variables:</p>
+<p>(92)&ensp;The students could not answer every question.</p>
+<p>The proposed structure leaves room only for a few types of scope ambiguity. Thus a group-denoting QP, e.g., <i>two books</i> in (93), can have either wider or narrower scope than a distributive QP &ndash; given that it can occupy either Spec, RefP above DistP, or Spec, ShareP below DistP at LF:</p>
+<p>(93)&ensp;Each student read two books.</p>
+<p>The system correctly predicts the lack of scope ambiguity in a wide range of cases, which remained a mystery for all previous approaches. For example, it falls out that a counting QP of object function, e.g., that in (94a, b), can never take inverse scope over a group denoting QP or distributive QP in subject position:</p>
+<p>(94)<object id="tu62" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu62_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Some/one of the students visited more than two girls.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Every student visited fewer than three girls.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>An interrogative QP is predicted to take wide scope with respect to any other QP in its clause, other than a group denoting QP in Spec, RefP &ndash; which is borne out in most cases, though it is not borne out in the type illustrated in (32a) above.</p>
+<p>Beghelli and Stowell claim that they can predict that of the seemingly similar constructions in (95a, b) and (96a, b), only the former have inverse scope:</p>
+<p>(95)<object id="tu63" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu63_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>An American flag was hanging in front of two buildings.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Blossoms sprang out of two rosebushes.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(96)<object id="tu64" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu64_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Five guards stood in front of two buildings.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Three blossoms sprang out of two rosebushes.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Simple indefinites (those supplied with <i>a/an</i>, and bare plurals), like <i>an American flag</i>, and <i>blossoms</i> in (95), have the possibility of a VP-internal bound variable interpretation; hence they can have narrow scope with respect to a group-denoting QP occupying ShareP. In (96a, b), however, the group-denoting subject QP will stand in Spec, RefP and the other one in Spec, ShareP; therefore inverse scope is impossible. (It is not quite clear, though, why it could not be the other way round, with the locative taking scope in Spec, RefP and the subject in Spec, ShareP.)</p>
+<p>It also falls out from structure (91) that negation can have scope only over an object-counting QP, occupying Spec, AgrOP &ndash; see (97a) &ndash; but not over a subject-counting QP, occupying Spec, AgrSP &ndash; see (97b):</p>
+<p>(97)<object id="tu65" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu65_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The students didn&apos;t read two books.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Two students didn&apos;t read this book.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The scope of negation cannot extend over a group-denoting QP, either, unless it is a bare indefinite or an <i>every</i> phrase acting as a VP-internal bound variable, as in (98a, b):</p>
+<p>(98)<object id="tu66" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu66_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>A student didn&apos;t write this book.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Every student didn&apos;t write an essay.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(91) also accounts for why an <i>each</i> QP more often takes wide scope than, e.g., an <i>every</i> QP: an <i>each</i> QP can only sit in Spec, DistP. That is why an <i>each</i> QP in the scope of negation is marginal, at best &ndash; cf.:</p>
+<p>(99)<object id="tu67" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu67_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John didn&apos;t read every book.</entry>
+</row>
+<row><entry>b.</entry>
+<entry><sup>??</sup>John didn&apos;t read each book.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Compare also the minimal pair in (100):</p>
+<p>(100)<object id="tu68" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu68_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>One boy didn&apos;t read every book.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>One boy didn&apos;t read each book.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In the case of (100a) the scope order <i>one&gt;not&gt;every</i> is perfectly possible, with <i>every</i> interpreted as a VP-internal bound variable. In (100b), on the other hand, the <i>each</i> QP must be raised to Spec, DistP; hence only the opposite scope order (<i>each&gt;one&gt;not</i>) exists.</p>
+<p>It still remains a question why (101) is marginal:</p>
+<p>(101)&ensp;<sup>??</sup>Every boy didn&apos;t leave.</p>
+<p>Beghelli and Stowell claim that only <i>each</i> QPs are endowed with a &lsqb;&plus;Distributive&rsqb; feature that must be checked in Spec, DistP; <i>every</i> QPs are underspecified for &lsqb;Distributive&rsqb;. Accordingly, <i>every</i> QPs only move to Spec, DistP if they are not bound as variables by a closer binder such as negation.</p>
+<p>
+<link rid="b27">Szabolcsi (1997b</link>) argues against semantically blind scope-assigning rules like that in (102) on a semantic basis:</p>
+<p>(102)&ensp;a &lsqb;<sub>D</sub> .&nbsp;.&nbsp;.&nbsp;b .&nbsp;.&nbsp;.&nbsp;&rsqb; &rarr; (a scopes over b)</p>
+<p>She provides further minimal pairs in the case of which a semantically blind rule would yield a wrong result. E.g., not all direct-object QPs can scope over the subject (cf. 103a, b), and not all direct-object QPs can scope over negation (cf. 104a, b):</p>
+<p>(103)<object id="tu69" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu69_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Three referees read every abstract.</entry>
+</row>
+<row><entry>every N &gt; three N</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>Three referees read few abstracts.</entry>
+</row>
+<row><entry>*few N &gt; three N</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(104)<object id="tu70" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu70_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>John didn&apos;t read many abstracts.</entry>
+</row>
+<row><entry>many N &gt; not</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>John didn&apos;t read few abstracts.</entry>
+</row>
+<row><entry>*few N &gt; not</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As she points out, it is not the case that the missing readings are incoherent &ndash; because they can be expressed by different constructions, such as those in (105):</p>
+<p>(105)<object id="tu71" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu71_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Few abstracts were read by three referees.</entry>
+</row>
+<row><entry>few N &gt; three N</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>Few abstracts were not read by John.</entry>
+</row>
+<row><entry>few N &gt; not</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Szabolcsi claims that quantification involves a variety of distinct, semantically conditioned processes. She distinguishes two basic types of scope-taking mechanisms:</p>
+<listgroup id="l3" type="i">
+<li level="1">
+<number>(i)&ensp;</number>
+<p>The noun phrase introduces a logical subject of predication (i.e., basically a discourse referent).</p>
+</li>
+<li level="1">
+<number>(ii)&ensp;</number>
+<p>The noun phrase performs a counting operation on an independently defined predicate denotation.</p>
+</li>
+</listgroup>
+<p>The two mechanisms, associated with different left-peripheral positions, result in different interpretations. These can be observed particularly clearly in Hungarian, where the left-peripheral positions in question (those identified by <link rid="b25">Beghelli and Stowell 1997</link>) are filled visibly, at S-structure. Compare, for example, the following Hungarian examples:</p>
+<p>(106)<object id="tu72" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu72_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Tegnap</entry>
+<entry>sok</entry>
+<entry>di&aacute;kunk</entry>
+<entry>meg</entry>
+<entry>betegedett.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>yesterday</entry>
+<entry>many</entry>
+<entry>student-our</entry>
+<entry>PREFIX</entry>
+<entry>got-sick</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Tegnap</entry>
+<entry>sok</entry>
+<entry>di&aacute;kunk</entry>
+<entry>betegedett</entry>
+<entry>meg.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>yesterday</entry>
+<entry>many</entry>
+<entry>student-our</entry>
+<entry>got-sick</entry>
+<entry>PREFIX</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(106a), with the quantified phrase in Spec, DistP, involves a &lsquo;subject of predication&rsquo; mode of operation, i.e., we take a set of students and claim that each of them fell ill. (106b), with the quantified phrase in Spec, AgrP, on the other hand, involves a counting operation: we take those who fell ill, and count our students among them.</p>
+</subsection>
+<subsection id="ss11" level="1">
+<heading id="h10" level="1">10 The theory of overt quantifier movement</heading>
+<p>
+<link rid="b2">Kayne (1998</link>) adopts Beghelli and Stowell&apos;s claim that quantified phrases occupy various designated landing sites in the left periphery of the sentence. What is new in his approach is the claim that movement to scope position invariably takes place in visible syntax; i.e., it always means the movement of phonologically realized phrases. Constructions in which an operator nevertheless does not c-command its scope at S-structure involve the subsequent movement of the phrase c-commanded by the operator into a position above the operator.</p>
+<p>Kayne&apos;s starting point is the Norwegian construction in (107a, b), in which the negative object is assumed to occupy the specifier of NegP, a projection above VP and below CP. As shown by (107c, d), the preposing of a negative object into Spec, NegP is obligatory, and movement to Spec, NegP is restricted to negative objects:</p>
+<p>(107)<object id="tu73" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu73_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>&lsqb;<sub>CP</sub> Jon</entry>
+<entry>&lsqb;<sub>C&prime;</sub> leser</entry>
+<entry>&lsqb;<sub>NegP</sub> ingen</entry>
+<entry>romaner&rsqb;&rsqb;&rsqb;</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry>John</entry>
+<entry>reads</entry>
+<entry>no</entry>
+<entry>novels</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>&lsqb;<sub>CP </sub>Jon</entry>
+<entry>&lsqb;<sub>C&prime;</sub> har</entry>
+<entry>&lsqb;<sub>NegP</sub> ingen</entry>
+<entry>romaner</entry>
+<entry>lest&rsqb;&rsqb;&rsqb;</entry>
+<entry>
+</entry>
+</row>
+<row><entry>John</entry>
+<entry>has</entry>
+<entry>no</entry>
+<entry>novels</entry>
+<entry>read.</entry>
+<entry>
+</entry>
+</row>
+<row><entry morerows="1">c.</entry>
+<entry>*Jon</entry>
+<entry>har</entry>
+<entry>lest</entry>
+<entry>inger</entry>
+<entry>romaner.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>John</entry>
+<entry>has</entry>
+<entry>read</entry>
+<entry>no</entry>
+<entry>novels.</entry>
+<entry>
+</entry>
+</row>
+<row><entry morerows="1">d.</entry>
+<entry>&lsqb;<sub>CP</sub> Jon</entry>
+<entry>har</entry>
+<entry>&lsqb;<sub>NegP</sub> ikke</entry>
+<entry>&lsqb;<sub>VP</sub> lest</entry>
+<entry>noen</entry>
+<entry>romaner&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>John</entry>
+<entry>has</entry>
+<entry>not</entry>
+<entry>read</entry>
+<entry>any</entry>
+<entry>novels.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Kayne claims that the movement of <i>no</i>-phrases to Spec, NegP takes place in English, as well &ndash; see (108); however, in sentences containing a lexical verb its effect is covered by subsequent VP movement into a higher specifier position &ndash; see the derivation in (109):</p>
+<p>(108)<object id="tu74" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu74_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;<sub>CP</sub> John &lsqb;<sub>C&prime;</sub> is &lsqb;<sub>NegP</sub> no Einstein&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>CP</sub> John &lsqb;<sub>C&prime;</sub> has &lsqb;<sub>NegP</sub> no car&rsqb;&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(109)<object id="tu75" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu75_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>John reads no novels &rarr; (neg phrase preposing)</entry>
+</row>
+<row><entry>John no novels<sub>i</sub> reads t<sub>i</sub> &rarr; (VP preposing)</entry>
+</row>
+<row><entry>John &lsqb;reads t<sub>i</sub>&rsqb;<sub>j</sub> no novels<sub>i</sub> t<sub>j</sub>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p><i>Nobody</i> and <i>somebody</i> do not occupy the same positions in this framework, which is also clear from the following minimal pair:</p>
+<p>(110)<object id="tu76" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu76_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Nobody is bound to be there.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Somebody is bound to be there.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Whereas (110a) cannot be assigned the interpretation in (111a), with <i>nobody</i> having narrow scope, (110b) can be assigned the interpretation in (111b), with <i>somebody</i> having wide scope:</p>
+<p>(111)<object id="tu77" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu77_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*&lsquo;There is bound to be nobody there.&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsquo;There is bound to be somebody there.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p><i>Nobody</i> could only assume narrow scope in the Spec, NegP of the embedded clause. Its movement from there to the matrix subject position, however, would be improper (A&prime;-to-A) movement; that is why its narrow-scope reading is impossible.</p>
+<p>The asymmetrical scope possibilities of subjects and objects fall out in this theory for free. Consider again the minimal pair quoted above under (5a) and (6a), repeated here as (112):</p>
+<p>(112)<object id="tu78" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu78_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>I demand that you marry no one.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>I demand that no one marry you.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The negative object of (112a) assumes wide scope through the following series of movements:</p>
+<p>(113)<object id="tu79" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu79_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>I demand that you marry no one &rarr; (neg preposing)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>I no one<sub>i</sub> demand that you marry t<sub>i</sub> &rarr; (VP preposing)</entry>
+</row>
+<row><entry>c.</entry>
+<entry>I &lsqb;demand that you marry t<sub>i</sub>&rsqb;<sub>j</sub> no one<sub>i</sub> t<sub>j</sub>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The subject of (112b) cannot assume wide scope simply because a subject cannot be moved across a filled complementizer into a matrix A&prime;-position (a constraint traditionally derived from the ECP).</p>
+<p>A similar analysis is applied to <i>only</i> and <i>even</i> phrases, as well. The fact that these phrases follow their operator head <i>only</i> or <i>even</i> instead of appearing in its specifier position is derived by the further movement of the head to a higher W position, where it has its &plus;w &lsqb;word order&rsqb; feature checked. That is:</p>
+<p>(114)<object id="tu80" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu80_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>.&nbsp;.&nbsp;.&nbsp;only criticized Bill &rarr; (movement to Spec, only)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>.&nbsp;.&nbsp;.&nbsp;Bill<sub>i</sub> only criticized t<sub>i</sub> &rarr; (raising of <i>only</i> to W)</entry>
+</row>
+<row><entry>c.</entry>
+<entry>.&nbsp;.&nbsp;.&nbsp;only<sub>j</sub> Bill<sub>i</sub> t<sub>j</sub> criticized t<sub>i</sub> &rarr; (VP preposing)</entry>
+</row>
+<row><entry>d.</entry>
+<entry>.&nbsp;.&nbsp;.&nbsp;&lsqb;criticized t<sub>i</sub>&rsqb;<sub>k</sub> only<sub>j</sub> Bill<sub>i</sub> t<sub>j</sub> t<sub>k</sub>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The theory does not appear to be particularly suitable for the handling of scope ambiguity; Kayne has to assume &ndash; in a way contradicting his program &ndash; that scope ambiguity arises from the possibility of reconstruction. Consider the following German example:</p>
+<p>(115)<object id="tu81" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu81_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>weil</entry>
+<entry>irgendjemand</entry>
+<entry>auf</entry>
+<entry>jeden</entry>
+<entry>gespannt</entry>
+<entry>ist</entry>
+</row>
+<row><entry>because</entry>
+<entry>someone</entry>
+<entry>for</entry>
+<entry>everyone</entry>
+<entry>anxious</entry>
+<entry>is</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p><i>Irgendjemand</i> originates in a position below <i>auf jeden</i>, into which it can be reconstructed. (As suggested in <link rid="b2">Kayne 1998</link>: fn. 110, the verb-final order may be the result of V movement to I, and the preposing of the verbless VP to Spec, IP. <i>Auf jeden</i> is in the specifier of a Distributive Phrase.) In (116) below, in which the universal quantifier is in an infinitival object presumably left in situ, on the other hand, <i>jemand</i>, the matrix subject, does not originate in a position below that of <i>jeden</i> &ndash; that is why <i>jeden</i> cannot have wide scope:</p>
+<p>(116)<object id="tu82" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu82_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>weil</entry>
+<entry>jemand</entry>
+<entry>versucht</entry>
+<entry>hat</entry>
+<entry>jeden</entry>
+<entry>reinzulegen</entry>
+</row>
+<row><entry>because</entry>
+<entry>someone</entry>
+<entry>tried</entry>
+<entry>has</entry>
+<entry>everyone</entry>
+<entry>to-cheat</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The question remains why the English equivalent of (116) is ambiguous:</p>
+<p>(117)&ensp;(since) someone has tried to cheat everyone</p>
+<p>Cf. also:</p>
+<p>(118)&ensp;At least one student has tried to fool every professor.</p>
+<p>In these English examples the <i>every</i> phrase is claimed to have been raised overtly into the matrix clause, followed by VP preposing. Cf.:</p>
+<p>(119)<object id="tu83" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu83_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Someone has tried to cheat everyone. &rarr; (distributive phrase preposing into Spec, DistP)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Someone everyone<sub>i</sub> has tried to cheat t<sub>i</sub> &rarr; (VP movement to Spec, W)</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Someone &lsqb;has tried to cheat t<sub>i</sub>&rsqb;<sub>j</sub> everyone<sub>i</sub> t<sub>j</sub>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Kayne claims that in German, VP movement is systematically absent.</p>
+<p>Kayne&apos;s theory of scope interpretation, eliminating post-Spell-Out A&prime;-movement, simplifies grammar at the cost of deriving extremely complex sentence structures with projections of no independent motivation (e.g., WPs). <link rid="b28">Erteschik-Shir (1997</link>) pursues the opposite strategy: her theory enriches grammar by introducing a level of representation marking topic-focus structure, but employs no empirically unmotivated transformations (whether quantifier movement or remnant movement).</p>
+</subsection>
+<subsection id="ss12" level="1">
+<heading id="h11" level="1">11 Scope determined by f-structure</heading>
+<p>In Erteschik-Shir&apos;s theory of f(ocus) structure, scope is determined &ndash; and disambiguated &ndash; in the so-called f(ocus)-structure of sentences, which is an annotated S-structure with the topic and focus constituents marked (cf. <link rid="b28">Erteschik-Shir 1997</link>: ch. 5). Topic and focus are discourse notions interpreted in the framework of a dynamic semantic model employing the file metafor. The TOPIC rule instructs the hearer to locate on the top of this file an existing card, whereas the FOCUS rule instructs the hearer either to open a new card (in the case of an indefinite) or to locate an existing card (in the case of a definite), and to put it on the top of the file.</p>
+<p>Erteschik-Shir&apos;s premises for the derivation of scope are extremely simple. First, the topic by definition takes scope over the rest of the sentence. Sentences with an implicit stage topic (an invisible spatio-temporal argument referring to a particular location in space and time) have &lsquo;unscoped&rsquo; interpretations (i.e., interpretations without any scope dependencies), in which the quantifiers are interpreted independently of each other, neither quantifier being a function of the other.</p>
+<p>The topic of a sentence is selected from among the constituents identifying a discourse referent (i.e., basically from among the specific/generic noun phrases) by means of the following constraints:</p>
+<p>(120)<object id="tu84" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu84_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry namest="col1" nameend="col2">
+<b>Topic Constraints:</b>
+</entry>
+</row>
+<row><entry>a.</entry>
+<entry>If both the subject and another argument qualify as topics, the subject is picked as the main topic (unless discourse pushes heavily for the other f-structure).</entry>
+</row>
+<row><entry>b.</entry>
+<entry>A stage topic (represented by an explicit or implicit locative or temporal expression) or a subject topic is less marked than an object topic.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Sentences with two quantifiers such as (121) have two unmarked readings and a marked one. One of the unmarked options is to analyze the subject quantifier (Q1) as the topic (as in 122a); the other one is to assume a stage topic, with both quantifiers in focus (as in 122c). The marked solution is to pick the VP-internal quantifier as the topic (see 122b):</p>
+<p>(121)&ensp;Two girls arrested three boys.</p>
+<p>(122)<object id="tu85" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu85_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;Q<sub>1</sub>&rsqb;<sub>TOP</sub> &lsqb;V Q<sub>2</sub>&rsqb;<sub>FOC</sub> &rarr; (Q<sub>1</sub> &gt; Q<sub>2</sub>)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>TOP<sub>2</sub> &lsqb;Q<sub>1</sub> V Q<sub>2</sub>&rsqb;<sub>FOC</sub> &rarr; (Q<sub>2</sub> &gt; Q<sub>1</sub>)</entry>
+</row>
+<row><entry>c.</entry>
+<entry>sTOP<sub>t</sub> &lsqb;Q<sub>1</sub> V Q<sub>2</sub>&rsqb;<sub>FOC</sub> &rarr; (non-scoped reading)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Under any scope relation, both <i>two girls</i> and <i>three boys</i> allow both a D(istributive) reading and a C(ollective)/sum reading, i.e., they can be taken to denote either a set of individuals, or a single multitude: the sum (marked by the symbol &plus;) of its members.</p>
+<p>In the case of a stage topic, the truth of the predicate is evaluated with respect to a given time and place &ndash; that is, a single event is involved, which yields unscoped readings. (122c) actually has four unscoped readings, depending on whether the two quantifiers are assigned a D(istributive) set reading or a C(ollective) (sum) reading. The four possibilities are represented by Erteschik-Shir as follows (the symbols <i>s</i> and <i>o</i> mean &lsquo;subject&rsquo; and &lsquo;object&rsquo;):</p>
+<p>(123)<object id="tu86" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu86_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Cs Co &lcub;&plus;(a, b)&rcub;</entry>
+<entry>&rarr; &lcub;&plus;(1, 2, 3)&rcub;</entry>
+</row>
+<row><entry morerows="2">b.</entry>
+<entry>Cs Do &lcub;&plus;(a, b)&rcub;</entry>
+<entry>&rarr; 1</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&rarr; 2</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&rarr; 3</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">c.</entry>
+<entry>Ds Co a</entry>
+<entry>&rarr;</entry>
+<entry morerows="1">&lcub;&plus;(1, 2, 3)&rcub;</entry>
+</row>
+<row><entry>&emsp;&emsp; &thinsp;&thinsp;b</entry>
+<entry>&rarr;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">d.</entry>
+<entry>Ds Do a</entry>
+<entry>&rarr; 1</entry>
+</row>
+<row><entry>&thinsp;b</entry>
+<entry>&rarr; 2</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&rarr; 3</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In the reading under (123a) both the girls (a, b) and the boys (1, 2, 3) are looked upon collectively, as groups/sums. (123b) says that a group of two girls arrested three individual boys; (123c) says that two individual girls arrested a group of three boys; in (123d) both the boys and the girls are taken to be individuals.</p>
+<p>The scoped readings are represented under (124):</p>
+<p>(124)<object id="tu87" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu87_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Ds (Co) a</entry>
+<entry>&rarr; &lsqb;1, 2, 3&rsqb;</entry>
+</row>
+<row><entry>b</entry>
+<entry>&rarr; &lsqb;4, 5, 6&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Ds (Do) a</entry>
+<entry>&rarr; 1 b</entry>
+<entry>&rarr; 4</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&rarr; 2</entry>
+<entry>&rarr; 5</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&rarr; 3</entry>
+<entry>&rarr; 6</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>Do (Cs)</entry>
+<entry>&lsqb;a, b&rsqb;</entry>
+<entry>&rarr; 1</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsqb;c, d&rsqb;</entry>
+<entry>&rarr; 2</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsqb;e, f&rsqb;</entry>
+<entry>&rarr; 3</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">e.</entry>
+<entry>Do (Ds) a &rarr; 1</entry>
+<entry>c &rarr; 2 e &rarr; 3</entry>
+</row>
+<row><entry>
+</entry>
+<entry>b &rarr; d &rarr; f &rarr;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In the two unmarked cases (corresponding to (120a)) the subject quantifier functions as topic, and has wide scope. Depending on whether the object cardinal is looked upon collectively or distributively, the sentence means (124a) or (124b). In the case of (124a) the two girls each arrested a group of three boys, whereas in the case of (124b) the two girls each arrested three individual boys.</p>
+<p>(124c, d), with the object quantifiers having wide scope, represent two marked readings. In the case of (124c) a possibly different group of two girls arrested each of the three boys, whereas in the case of (124d) a possibly different set of two individual girls arrested each of them.</p>
+<p>Stage topics are ruled out for individual-level predicates; hence sentences with individual-level predicates such as (125) are predicted to have no unscoped readings:</p>
+<p>(125)&ensp;Two students speak three languages.</p>
+<p>Indeed, (125) does not express that a group or set of two students speaks a group or set of three languages. Either each of the students speaks three languages (irrespective of whether their languages are the same or different), or each of the languages is spoken by two students (irrespective of whether the speakers of the different languages coincide or not).</p>
+<p>Certain individual-level predicates block a reading in which the object is interpreted as the topic. E.g.:</p>
+<p>(126)<object id="tu88" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu88_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Two boxes contain three books.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Two lakes are close to three houses.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Two women have three husbands.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>Two dogs require three caretakers.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Such sentences are predicted not to allow their object to take wide scope, and, as their predicates are individual-level, they cannot have a stage topic, either. Indeed, they can only be assigned the following readings:</p>
+<p>(127)<object id="tu89" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu89_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Ds (Co) a</entry>
+<entry>&rarr; &lsqb;1, 2, 3&rsqb;</entry>
+</row>
+<row><entry>b</entry>
+<entry>&rarr; &lsqb;4, 5, 6&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Ds (Do) a</entry>
+<entry>&rarr; 1 b &rarr; 4</entry>
+</row>
+<row><entry>
+</entry>
+<entry> &thinsp;&thinsp;&thinsp;&rarr; 2 &rarr; 5</entry>
+</row>
+<row><entry>
+</entry>
+<entry> &thinsp;&thinsp;&thinsp;&rarr; 3 &rarr; 6</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Consider also the relative scope possibilities of <i>some</i> and <i>every</i>, e.g., in (128):</p>
+<p>(128)&ensp;Everyone arrested someone.</p>
+<p><i>Someone</i> cannot be the main topic; furthermore, it is singular, hence the distributive/collective distinction is irrelevant. This leaves three readings, namely:</p>
+<p>(129)<object id="tu90" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu90_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>sTOP<sub>i</sub> &lsqb;everyone<sub>D</sub> arrested someone&rsqb;<sub>FOC</sub>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>sTOP<sub>i</sub> &lsqb;everyone<sub>C</sub> arrested someone&rsqb;<sub>FOC</sub>
+</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Everyone<sub>TOP</sub> &lsqb;arrested someone&rsqb;<sub>FOC</sub>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The unmarked reading that can be derived from (128a) is that in (129c). <i>Everyone</i> is nearly always understood to denote a specific set already present in the domain of discourse, and hence to bear a topic role. In this case, represented in (129c), the predicate is assessed for each individual member of this set, with the denotation of <i>someone</i> co-varying with them. In the unlikely interpretation under (129a) the sentence is assigned a stage topic; hence it describes a single event in which one person gets arrested by each member of the set defined by <i>everyone</i>. (129b) means the same except that <i>everyone</i> is viewed collectively. In Erteschik-Shir&apos;s theory the focus of a sentence can be further divided into a subordinate topic and focus, which allows for the topic to distribute over the object also in the case of a stage topic.</p>
+<p><i>Each</i> differs from <i>every</i> in that it has only a distributive reading; no collective reading is available in its case.</p>
+<p>A scope theory based on a somewhat similar insight is that of <link rid="b29">Hunyady (2002</link>), who argues that relative scope is universally expressed by sentence prosody. In the type of language represented by, e.g., Hungarian, an operator has scope over the intonational phrase that it is the head of. The head of an intonational phrase is the constituent bearing primary stress; hence a stressed quantifier has scope over the unstressed quantifiers of the same intonational phrase. Operators heading separate intonational phrases are ambiguous scopally (unless they are inherently ranked, occupying different positions in a stipulated hierarchy of operators, in which the focus is preceded by quantifiers, and quantifiers are preceded by so-called sentence operators).</p>
+</subsection>
+<subsection id="ss13" level="1">
+<heading id="h12" level="1">12 Scope and lexical semantics</heading>
+<p>
+<link rid="b30">Farkas (1997</link>) claims that structural considerations underdetermine scope; they determine a necessary condition of an expression taking scope over another one, which, however, is not a sufficient condition.</p>
+<p>Here is a case illustrating Farkas&apos;s point. The scope of universal quantifiers is usually-clause bound (unlike the scope of existentials, which is unbounded). E.g.:</p>
+<p>(130)<object id="tu91" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu91_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>A politician said that every city should be the capital.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>A politician said that the President lives in every city. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl> </insitu>
+</objectsource>
+</object>
+</p>
+<p>In these sentences, the universal cannot have &lsquo;extra-wide scope&rsquo;, extending over the existential in the main clause, by any means. On the other hand, its extra-wide scope is perfectly possible in the following sentences:</p>
+<p>(131)&ensp;A student made sure that every invited speaker had a ride.</p>
+<p>The structural conditions are identical in (130) and (131); what is different is the lexical semantics of the main predicates. This is the generalization that accounts for the possibility of the wide-scope reading of the universal in (131):</p>
+<p>(132)&ensp;Extra-wide scope of a distributive universal over an indefinite is possible iff the two arguments are co-participants in some eventuality <i>e</i> in virtue of the lexical semantics of the predicates involved. In this case the two arguments are related in some relation <i>R</i>.</p>
+</subsection>
+<subsection id="ss14" level="1">
+<heading id="h13" level="1">13 Conclusion</heading>
+<p>Questions of operator scope have been in the focus of interest in generative linguistics for at least 25 years; still, presumably not even the English facts to be accounted for are fully known yet (as recent papers such as <link rid="b25">Beghelli and Stowell 1997</link> and <link rid="b27">Szabolcsi 1997b</link> revealed important new constraints on possible scope relations). Analyses of the quantifier scope phenomena of languages other than English hardly exist at all, and cross-linguistic studies are also very rare; hence very little is known of the parametric variation licensed in Universal Grammar. Hungarian, as well as Palestinian Arabic and Kinyarwanda, have been reported to display transparent, disambiguated quantifier scope relations; but it is not known how wide-spread this type of language is. In the case of languages like English the disambiguation of scope &ndash; i.e., the mapping of the non-bi-unique relation between form and interpretation on bi-unique relations &ndash; requires creative technical solutions. These are particularly sensitive to changes of linguistic theory and hence to obsolescence &ndash; so the problem of scope ambiguities is likely to stay with us also in the years to come.</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss15" level="1" type="references">
+<heading id="h14" level="1">REFERENCES</heading>
+<reference id="b19" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Aoun</surname><x>, </x><forenames>Joseph</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date>
+<miscellaneoustext>). The Formal Nature of Anaphoric Relations. PhD dissertation, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b15" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Aoun</surname><x>, </x><forenames>Joseph</forenames>
+</name><x> and </x><name type="author">
+<forenames>Yen-Hui<x> </x>Audrey</forenames><x> </x><surname>Li</surname>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">Scope and Constituency</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>20</volume><x>: </x><page type="first">141&ndash;172</page><x>.</x>
+</reference>
+<reference id="b20" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Aoun</surname><x>, </x><forenames>Joseph</forenames>
+</name><x> and </x><name type="author">
+<forenames>Yen-Hui<x> </x>Audrey</forenames><x> </x><surname>Li</surname>
+</name>
+</namegroup><x> (</x><date date="1993">1993b</date><x>). </x><title type="book">The Syntax of Scope<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b13" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Bartos</surname><x>, </x><forenames>Huba</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date>
+<miscellaneoustext>). Topics, Quantifiers, Subjects. Paper presented at the International Symposium on Topic and Focus in Chinese, Hong Kong</miscellaneoustext><x>, </x>
+<page type="first">June</page><x> </x><miscellaneoustext>21&ndash;22</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b25" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Beghelli</surname><x>, </x><forenames>Filippo</forenames>
+</name><x> and </x><name type="author">
+<forenames>Tim</forenames><x> </x><surname>Stowell</surname>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Distributivity and Negation: The Syntax of <i>Each</i> and <i>Every</i>
+</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Ways of Scope Taking</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Anna</forenames><x> </x><surname>Szabolcsi</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">71&ndash;107</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer.</publisher>
+</reference>
+<reference id="b4" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1975">1975c</date><x>). </x><title type="book">Reflections on Language<x>.</x>
+</title><x> </x><address>New York</address><x>: </x><publisher>Pantheon.</publisher>
+</reference>
+<reference id="b7" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986a</date><x>). </x><title type="book">Barriers<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b21" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Diesing</surname><x>, </x><forenames>Molly</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992b</date><x>). </x><title type="book">Indefinites<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b28" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Erteschik-Shir</surname><x>, </x><forenames>Nomi</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="book">The Dynamics of Focus Structure<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b30" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Farkas</surname><x>, </x><forenames>Donka</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Evaluation Indices and Scope</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Ways of Scope Taking</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Anna</forenames><x> </x><surname>Szabolcsi</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">183&ndash;215</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer.</publisher>
+</reference>
+<reference id="b9" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Fodor</surname><x>, </x><forenames>Janet<x> </x>Dean</forenames>
+</name><x> and </x><name type="author">
+<forenames>Ivan</forenames><x> </x><surname>Sag</surname>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">Referential and Quantificational Indefinites</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>5</volume><x>: </x><page type="first">355&ndash;398</page><x>.</x>
+</reference>
+<reference id="b22" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Fox</surname><x>, </x><forenames>Danny</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995b</date><x>). </x><title type="document">Economy and Scope</title><x>. </x><title type="journal">Natural Language Semantics</title><x> </x><volume>3</volume><x>: </x><page type="first">283&ndash;341</page><x>.</x>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hornstein</surname><x>, </x><forenames>Norbert</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="book">Logical Form: From GB to Minimalism</title><x>. </x><address>Oxford</address><x>: </x><publisher>Blackwell.</publisher>
+</reference>
+<reference id="b16" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Huang</surname><x>, </x><forenames>C.-T<x>. </x>James</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982a</date>
+<miscellaneoustext>). Logical Relations in Chinese and the Theory of Grammar. PhD dissertation, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b29" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hunyady</surname><x>, </x><forenames>L&aacute;szl&oacute;</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="book">Hungarian Sentence Prosody and Universal Grammar<x>.</x>
+</title><x> </x><address>Frankfurt</address><x>: </x><publisher>Peter Lang.</publisher>
+</reference>
+<reference id="b26" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ioup</surname><x>, </x><forenames>Georgette</forenames>
+</name>
+</namegroup><x> (</x><date date="1975">1975a</date><x>). </x><title type="document">Some Universals for Quantifier Scope</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Syntax and Semantics 4</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>John</forenames><x> </x><surname>Kimball</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">37&ndash;58</page><x>. </x><address>New York</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference id="b2" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">Overt vs. Covert Movement</title><x>. </x><title type="journal">Syntax</title><x> </x><volume>1</volume><x>: </x><page type="first">128&ndash;191</page><x>.</x>
+</reference>
+<reference id="b12" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Khalaily</surname><x>, </x><forenames>Samir</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date>
+<miscellaneoustext>). QR and the Minimalist Theory of Syntax: The Case of Universally and Negative Quantified Expressions in Palestinian Arabic. Unpublished manuscript, Leiden University</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b11" type="other">
+<corporatename type="author">Kinyalolo</corporatename><x>, </x><page type="first">Kasangati</page><x> </x><miscellaneoustext>K</miscellaneoustext><x>. (</x><date date="1990">1990</date>
+<miscellaneoustext>). Syntactic Dependencies and the Spec-Head Agreement Hypothesis in KiLega. PhD dissertation, UCLA</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b10" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kiss</surname><x>, </x><forenames>Katalin<x> </x>&Eacute;<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Logical Structure in Syntactic Structure: The Case of Hungarian</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Logical Structure and Linguistic Structure: Cross-Linguistic Perspectives</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>C.-T<x>. </x>James</forenames><x> </x><surname>Huang</surname>
+</name><x> and </x><name type="editor">
+<forenames>Robert</forenames><x> </x><surname>May</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">123&ndash;148</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Reidel.</publisher>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Klima</surname><x>, </x><forenames>Edward</forenames>
+</name>
+</namegroup><x> (</x><date date="1964">1964</date><x>). </x><title type="document">Negation in English</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Structure of Language</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jerry</forenames><x> </x><surname>Fodor</surname>
+</name><x> and </x><name type="editor">
+<forenames>Jerrold<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Katz</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">246&ndash;323</page><x>. </x><address>Englewood Cliffs, NJ</address><x>: </x><publisher>Prentice-Hall.</publisher>
+</reference>
+<reference id="b23" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Liu</surname><x>, </x><forenames>Feng-Hsi</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date>
+<miscellaneoustext>). Scope Dependency in English and Chinese. PhD dissertation, UCLA</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b5" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>May</surname><x>, </x><forenames>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date>
+<miscellaneoustext>). The Grammar of Quantification. PhD dissertation, Cambridge, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>May</surname><x>, </x><forenames>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="book">Logical Form: Its Structure and Derivation</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b3" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date>
+<miscellaneoustext>). The Syntactic Domain of Anaphora. PhD dissertation, Cambridge, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b18" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Ruys</surname><x>, </x><forenames>E<x>. </x>G<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date>
+<miscellaneoustext>). The Scope of Indefinites. PhD dissertation, Utrecht University</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b8" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Sag</surname><x>, </x><forenames>Ivan</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="book">Deletion and Logical Form</title><x>. </x><address>New York</address><x>: </x><publisher>Garland.</publisher>
+</reference>
+<reference id="b27" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Szabolcsi</surname><x>, </x><forenames>Anna</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997b</date><x>). </x><title type="document">Strategies for Scope Taking</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Ways of Scope Taking</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Anna</forenames><x> </x><surname>Szabolcsi</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">109&ndash;154</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer.</publisher>
+</reference>
+<reference id="b24" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Szabolcsi</surname><x>, </x><forenames>Anna</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997c</date><x>). </x><title type="book">Ways of Scope Taking<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Kluwer.</publisher>
+</reference>
+<reference id="b14" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Williams</surname><x>, </x><forenames>Edwin</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">A Reassignment of the Functions of LF</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>17/2</volume><x>: </x><page type="first">265&ndash;299</page><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

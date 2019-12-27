@@ -1,0 +1,77 @@
+PUBLIC "-//NCBI//PubMed DTD 1.5//EN"                                          "\\www3\edlivery\!medline\donotdel.ete\medline.dtd"
+PUBLIC "-//Medline//DTD 1.5//EN"                                          "\\www3\edlivery\!medline\donotdel.ete\medline.dtd"
+PUBLIC "-//BLACKWELL SCIENCE//DTD 2.1//EN"                                    "c:\sp\2-1\bpg2-1.dtd"
+PUBLIC "-//BLACKWELL SCIENCE//DTD 2.2//EN"                                    "c:\sp\2-2\bpg2-2.dtd"
+PUBLIC "-//BLACKWELL SCIENCE//DTD 2.3//EN"                                    "c:\sp\2-3\bpg2-3.dtd"
+PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 3.0//EN"                           "c:\sp\3-0\bpg3-0.dtd"
+PUBLIC "-//JID ABSTRACTS//DTD 1.0//EN"                                        "c:\sp\3-0\otherdtd\jidabs.dtd"
+
+
+
+PUBLIC "Blackwell Publishing Group//ENTITIES Symbols//EN"                      "c:\sp\entities\symbols.ent"
+PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN"                             "c:\sp\entities\isolat1.ent"
+PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN"                             "c:\sp\entities\isolat2.ent"
+PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN"               "c:\sp\entities\isonum.ent"
+PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN"                                "c:\sp\entities\isopub.ent"
+PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN"                         "c:\sp\entities\isotech.ent"
+PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN"                             "c:\sp\entities\isogrk1.ent"
+PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN"                          "c:\sp\entities\isogrk2.ent"
+PUBLIC "ISO 8879-1986//ENTITIES Greek Symbols//EN"                             "c:\sp\entities\isogrk3.ent"
+PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Relations //EN"         "c:\sp\entities\isoamsr.ent"
+PUBLIC "ISO 9573-13:1991//ENTITIES Alternative Greek Symbols //EN"             "c:\sp\entities\isogrk4.ent"
+PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN"                          "c:\sp\entities\isocyr1.ent"
+PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN"                      "c:\sp\entities\isocyr2.ent"
+PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Arrow Relations //EN"   "c:\sp\entities\isoamsa.ent"
+PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Binary Operators //EN"  "c:\sp\entities\isoamsb.ent"
+PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Delimiters //EN"        "c:\sp\entities\isoamsc.ent"
+PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Negated Relations //EN" "c:\sp\entities\isoamsn.ent"
+PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Ordinary //EN"          "c:\sp\entities\isoamso.ent"
+PUBLIC "ISO 8879-1986//ENTITIES Box and Line Drawing//EN"                      "c:\sp\entities\isobox.ent"
+PUBLIC "ISO 8879-1986//ENTITIES Diacritical Marks//EN"                         "c:\sp\entities\isodia.ent"
+PUBLIC "ISO 9573-13:1991//ENTITIES Math Alphabets: Script //EN"                "c:\sp\entities\isomscr.ent"
+PUBLIC "ISO 9573-13:1991//ENTITIES Math Alphabets: Open Face //EN"         "c:\sp\entities\isomopf.ent"
+
+
+
+
+-- Explorer Style Sheet --
+PUBLIC "-//Synex Information AB//DTD Stylesheet Explorer//EN"       "sheet.ent"
+ENTITY "STYLESHEET"       "sheet.ent"
+
+-- Explorer Navigator --
+
+PUBLIC "-//Synex Information AB//DTD Navigator Explorer//EN"       "nav.ent"
+ENTITY "TOC-DEF"       "nav.ent"
+
+-- General Entity Sets --
+
+PUBLIC "-//USA-DOD//ELEMENTS CALS Table//EN"       "calstbl.ent"
+PUBLIC "-//USA-DOD//DTD SUP MIL-M-28001 MATHPACK 900102//EN"       "calsmath.ent"
+
+
+-- Document Type Definitions --
+PUBLIC "-//USA/AAP//DTD BK-1//EN"        "aaptbl.dtd"
+PUBLIC "ISO 12083:1993//DTD Book//EN"       "isobook.dtd"
+
+PUBLIC "ISO 12083:1993//DTD Mathematics//EN" "imath.dtd"
+
+PUBLIC "-//USA/OSF//OSF BOOK//EN"       "osf.dtd"
+PUBLIC "-//USA-DOD//DTD MIL-M-38784B//EN"       "cals.dtd"
+PUBLIC "-//Synex Information AB//DTD Web//EN"       "web.ent"
+PUBLIC "-//SWE/KTH//DTD DARC//EN"       "darc.ent"
+PUBLIC "-//HaL and O'Reilly//DTD DocBook//EN"       "docbook.dtd"
+PUBLIC "+//ISBN 0-933186::IBM//DTD IBMIDDOC//EN"       "ibmiddoc.dtd"
+PUBLIC "-//Synex Information AB//DTD Manual Version 1.0//EN"       "isobook.dtd"
+PUBLIC "-//CDA/SQ//DTD DTDDOCDTD-1//EN" "dtddoc.dtd"
+
+PUBLIC "plaintxt.dtd" "plaintxt.dtd"
+
+PUBLIC "-//TEI//DTD TEI Lite 1.0//EN"       "teilite.dtd"
+PUBLIC "-//TEI U5 - 1995//DTD TEI Lite//EN" "teilite.dtd"
+
+PUBLIC "-//CDA/SQ//DTD SLIDESET-1//EN" "slideset.dtd"
+PUBLIC "-//CDA/SQ//DTD MINUTES-1//EN"  "minutes.dtd" 
+
+PUBLIC "-//W3C//DTD HTML 3.2 Draft 19960821//EN" "html32.dtd"
+PUBLIC "-//SQ//DTD HTML 2.0 + all extensions//EN" "html32.dtd"
+

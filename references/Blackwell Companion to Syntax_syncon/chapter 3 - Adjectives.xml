@@ -1,0 +1,2326 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="3"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 3 - Adjectives.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">61</page>
+<page type="last">82</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="2"/>
+<count type="table" count="42"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="61"/>
+<count type="page" count="22"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051103"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 3&ensp;Valois: Adjectives</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 3&ensp;Valois: Adjectives</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">3 &ensp;Adjectives: Order within DP and Attributive APs</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>DANIEL</forenames><x> </x><surname>VALOIS</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Predication and attribution</p>
+</li>
+<li>
+<number>3&ensp;</number>
+<p>Ordering</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>Adjective placement as an argument for N-movement (<link rid="b1 b2">Cinque 1990a, 1992</link>; <link rid="b3 b4 b5">Valois 1991a, 1991b, 1996</link>)</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>DP and clausal structures: adjectives in event nominals</p>
+</li>
+<li level="1">
+<number>6&ensp;</number>
+<p>Serialization and partial N-movement (<link rid="b6">Cinque 1994</link>)</p>
+</li>
+<li level="2">
+<number>6.1&ensp;</number>
+<p>Attributive APs</p>
+</li>
+<li level="2">
+<number>6.2&ensp;</number>
+<p>Predicative APs</p>
+</li>
+<li level="2">
+<number>6.3&ensp;</number>
+<p>Adjunction vs. specifiers and serialization of adjectives</p>
+</li>
+<li level="1">
+<number>7&ensp;</number>
+<p>Challenges for the derivational analysis and semantics-based approach</p>
+</li>
+<li level="1">
+<number>8&ensp;</number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1&ensp;Introduction</heading>
+<p>Not unlike adverbs (see <related relationship="sibling" type="samework"><externallink id="chapter 4 - Adverb Classes and Adverb Placement.xml" type="file">chapter 4</externallink></related>), the study of adjectives and adjective ordering is a difficult and complex one. Aside from interpretation considerations of the various adjective types, two different problems have been the object of much research in the field: the ordering of adjectival strings per se, and the relative ordering of adjectives and the noun they modify in various languages (see also <related relationship="sibling" type="samework"><externallink id="chapter 2 - Adjectival Passives.xml" type="file">chapter 2</externallink></related>).</p>
+<p>These two main areas of research have been developed substantially over the last few years in large part due to our improved understanding of the structure of Determiner Phrases (DP) and their various components. This has enabled researchers to tackle the adjective ordering problem in a systematic and principled way.</p>
+<p>Here, we first look at some of the earlier work with respect to adjective ordering, then move on to discuss some of the more influential proposals concerning the aforementioned problems.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2&ensp;Predication and attribution</heading>
+<p>Variation in terminology and classification notwithstanding, adjectives are usually divided into two categories: predicative and non-predicative (for detailed discussions of adjective types, see <link rid="b7">Bolinger 1967</link>; <link rid="b8">Kamp 1975</link>; <link rid="b9">Siegel 1980</link>; <link rid="b10">Higginbotham 1985</link>; <link rid="b11">Keenan and Faltz 1985</link>; <link rid="b12">Giorgi and Longobardi 1991</link>). Generally, predicative adjectives describe a property that is predicated of the set of individuals denoted by the noun, while non-predicative adjectives do not. This distinction usually correlates with the adjective&apos;s capacity to appear with a copula (null or not) or with a verb in a reduced relative construction; predicative adjectives do, while non-predicative adjectives establish a relation with a noun without an intermediate copula (see <link rid="b7">Bolinger 1967</link>; <link rid="b6">Cinque 1994</link>).<link rid="fn1">
+<sup>1</sup></link>
+</p>
+<p>This differentiates, for instance, <i>round</i> from <i>alleged</i> in (1):</p>
+<p>(1)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The round table. (round &equals; property of the set of tables)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The table is round.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>The alleged communist. (alleged &ne; property of the set of communists)</entry>
+</row>
+<row><entry>d.</entry>
+<entry>*The communist is alleged.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Predicative adjectives can be further divided into intersective and non-intersective adjectives. The adjective <i>round</i> in (1) is intersective because it denotes the sets of objects that are both round and tables. This is not the case for <i>careful</i> in (2).</p>
+<p>(2)&ensp;A careful cook.</p>
+<p>Here the adjective may either restrict the reference denoted by the set of cooks to only those who are careful (internal scale) or determines the set of cooks being characterized (denoting cooks that are careful as individuals, not just as cooks &ndash; external scale &ndash; see <link rid="b13">Bouchard 1998</link>, from whom the above discussion is taken, for a more detailed discussion, and how these distinctions sometimes correlate with the pre- or postnominal position of adjectives in French).</p>
+</subsection>
+<subsection id="ss4" level="1">
+<heading id="h3" level="1">3&ensp;Ordering</heading>
+<p>One major concern in the study of adjectives is ordering. <link rid="b14">Hetzron (1978</link>) observes that, for a good number of natural languages, adjectives seem to be ordered according to semantic criteria.<link rid="fn2">
+<sup>2</sup></link> The major rule calls for the more objective and undisputable qualifications to be closer to the noun, and the more subjective, opinion-like ones to be farther away. At one extremity of the continuum we find subjective and individual denoting adjectives, at the other objective and collective denoting adjectives. In between, there is a whole spectrum of semantic features.<link rid="fn3">
+<sup>3</sup></link>
+</p>
+<p>According to Hetzron, the general cross-linguistic tendency is that adjectives that usually appear closest to the noun&nbsp;are those denoting <i>purpose</i> or <i>destination</i>. In prenominal position, for instance, these are preceded by adjectives denoting <i>composition</i>, <i>origin</i>, <i>color</i>, <i>physical defect</i>, <i>shape</i>, and finally, <i>age</i>.</p>
+<p>This ordering of adjectives seems to apply independently of the position of adjectives with respect to the noun they modify, i.e., it is somewhat general. Indeed, in languages with A(djective)-N(oun) word order the ordering is exactly the mirror image of what is found in consistent NA word order. There are also &lsquo;mixed&rsquo; languages, e.g., French, in which adjectives may appear either in pre- or postnominal position (this particular case is examined in detail in the sections below). The paradigm in (3) illustrates the distribution of a subclass of adjectives in each language type.</p>
+<p>(3)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry><b>AN languages</b>
+</entry>
+<entry><i>Evaluating</i>
+</entry>
+<entry><i>Size</i>
+</entry>
+<entry><i>Color</i>
+</entry>
+<entry><i>N</i>
+</entry>
+</row>
+<row><entry>English</entry>
+<entry>beautiful</entry>
+<entry>big</entry>
+<entry>red</entry>
+<entry>ball</entry>
+</row>
+<row><entry>German</entry>
+<entry>sch&ouml;ner</entry>
+<entry>gro&szlig;er</entry>
+<entry>roter</entry>
+<entry>Ball</entry>
+</row>
+<row><entry>Hungarian</entry>
+<entry>sz&eacute;p</entry>
+<entry>nagy</entry>
+<entry>piros</entry>
+<entry>labda</entry>
+</row>
+<row><entry><b>NA languages</b>
+</entry>
+<entry><i>N</i>
+</entry>
+<entry><i>Color</i>
+</entry>
+<entry><i>Size</i>
+</entry>
+<entry><i>Evaluating</i>
+</entry>
+</row>
+<row><entry>Indonesian</entry>
+<entry>bola</entry>
+<entry>merah</entry>
+<entry>besar</entry>
+<entry>tjantik</entry>
+</row>
+<row><entry>Persian</entry>
+<entry>tupe</entry>
+<entry>qermeze</entry>
+<entry>bozorge</entry>
+<entry>qasangi</entry>
+</row>
+<row><entry>
+</entry>
+<entry>ball</entry>
+<entry>red</entry>
+<entry>big</entry>
+<entry>beautiful</entry>
+</row>
+<row><entry><b>ANA languages</b>
+</entry>
+<entry><i>Evaluating</i>
+</entry>
+<entry><i>Size</i>
+</entry>
+<entry><i>N</i>
+</entry>
+<entry><i>Color</i>
+</entry>
+</row>
+<row><entry>French</entry>
+<entry>joli</entry>
+<entry>gros</entry>
+<entry>ballon</entry>
+<entry>rouge</entry>
+</row>
+<row><entry>Italian</entry>
+<entry>bella</entry>
+<entry>grossa</entry>
+<entry>palla</entry>
+<entry>rossa</entry>
+</row>
+<row><entry>
+</entry>
+<entry>beautiful</entry>
+<entry>big</entry>
+<entry>ball</entry>
+<entry>red</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>When two adjectives of the same class co-occur, it seems that the order is interchangeable across languages. Thus, both (4a, b) (which involve two adjectives of the <i>human propensity</i> class in Dixon&apos;s classification) are acceptable in English:</p>
+<p>(4)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>a clever brave man</entry>
+</row>
+<row><entry>b.</entry>
+<entry>a brave clever man</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>There are exceptions to the general pattern. For one, it seems that in some of the languages Hetzron examined certain adjectival categories are either interchangeable or take ordering precedence over others. For instance, some languages allow <i>color</i> and <i>evaluation</i> adjectives to interchange. One example is Polish. According to Hetzron&apos;s informants both (5a) and (5b) are acceptable &ldquo;with relative ease:&rdquo;</p>
+<p>(5)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>p <!-- ent &iogon; -->ekna</entry>
+<entry>du&#x017C;a</entry>
+<entry>pi <!-- ent &#x0142; -->ka</entry>
+</row>
+<row><entry>beautiful</entry>
+<entry>big</entry>
+<entry>ball</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col4">du&#x017C;a p <!-- ent &iogon;-->ekna pi&#x0142;ka</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In other languages, certain types of adjectives must occur first in the line of adjectives. This is the case for <i>size</i> adjectives (arguably because size qualifications are obligatorily treated as emphatic in these languages) in Japanese (also Amharic) and Romanian (as well as Spanish). As a comparison between these two language types shows, this ordering precedence is at play whether adjectives precede or follow the noun:</p>
+<p>(6)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry morerows="1">a.&ensp;</entry>
+<entry morerows="1">Japanese:</entry>
+<entry>&#x014D;ki kirei</entry>
+<entry>na</entry>
+<entry>akay</entry>
+<entry>b&#x014D;ru</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col3" nameend="col4">big pretty</entry>
+<entry>red</entry>
+<entry>ball</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry morerows="1">Romanian:</entry>
+<entry>o</entry>
+<entry>minge</entry>
+<entry>mare</entry>
+<entry>ro&sdot;&#x01CE;</entry>
+<entry>(&sdot;i)</entry>
+<entry>frumoas&#x01CE;</entry>
+</row>
+<row><entry>a</entry>
+<entry>ball</entry>
+<entry>big</entry>
+<entry>red</entry>
+<entry>(and)</entry>
+<entry>pretty</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Finally, some languages are rather free with respect to adjective ordering, which in this case depends on external factors such as context, relative emphasis, euphony, etc. Two examples are Somali (which has relatively few basic adjectives) and Kurdish, which allow all six permutations of the strings in (7a, b):</p>
+<p>(7)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="4">a.</entry>
+<entry>Somali:</entry>
+<entry>gabadh</entry>
+<entry>fiican</entry>
+<entry>dheer</entry>
+<entry>madow</entry>
+</row>
+<row><entry>girl</entry>
+<entry>good</entry>
+<entry>tall</entry>
+<entry>dark-skinned</entry>
+<entry>
+</entry>
+</row>
+<row><entry>gabadh</entry>
+<entry>fiican</entry>
+<entry namest="col4" nameend="col6">oo madow oo dheer</entry>
+</row>
+<row><entry>gabadh</entry>
+<entry>dheer</entry>
+<entry namest="col4" nameend="col6">oo madow oo fiican</entry>
+</row>
+<row><entry namest="col2" nameend="col6">etc.</entry>
+</row>
+<row><entry morerows="3">b.</entry>
+<entry>Kurdish:</entry>
+<entry>top-a</entry>
+<entry>jwan-a</entry>
+<entry>gawr-a</entry>
+<entry>sur-a-ka</entry>
+</row>
+<row><entry>ball</entry>
+<entry>beautiful</entry>
+<entry>big</entry>
+<entry>red</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col6">top-a sur-a gawr-a jwan-a-ka</entry>
+</row>
+<row><entry namest="col2" nameend="col6">etc.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Having said this, Hetzron points out that the languages that exhibit the more general ordering (i.e. (3)) have the most elaborate systems, and he goes on to suggest that &ldquo;it is the properties of adjective ordering in these languages, such as English and Hungarian, that need thorough investigation in view of establishing a general theory, while the other language types will be described as a simplification of the more complicated system, or&nbsp;.&nbsp;.&nbsp;.&nbsp;a statement has to be made to the effect that they are EXEMPT from the generalizations established for the first group&rdquo; (1978: 175).</p>
+<p>
+<link rid="b15">Sproat and Shi (1988</link>) also look at adjective ordering in some detail. Their analysis aims at providing some justification for a cognitive-based account of adjective ordering. Looking at English and Mandarin Chinese, they distinguish between <i>apparent</i> and <i>non-apparent</i> adjectives. More apparent adjectives are those that denote an intrinsic property of a noun, while less apparent adjectives denote a property in relation to other objects. For instance, the adjective <i>red</i> describes an intrinsic property of an object since being red does not require comparing the object with other non-red objects in order to determine its color. On the other hand, <i>large</i> is less apparent in the sense that for an object to be considered large it needs to be compared with non-large objects: a butterfly may be large compared to other butterflies but is still smaller in real size than a large (or even a small) car. Hence, adjectives that require less comparison are more apparent, while those that require more comparison are less apparent.</p>
+<p>With prenominal adjectives, Sproat and Shi&apos;s proposal is that the less apparent the adjective is, the further to the left in the adjective string it appears. This is exemplified by the following pairings of adjectives in English:</p>
+<p>(8)&ensp;The large red car. <i>Size</i> (less apparent) to the left of <i>color</i> (more apparent)</p>
+<p>(9)&ensp;A nice small dog. <i>Quality</i> to the left of <i>size</i>
+</p>
+<p>(10)&ensp;A nice green table. <i>Quality</i> to the left of <i>color</i>
+</p>
+<p>Aside from the ordering problem, which they also touch upon, recent studies on adjectives have sought to give a principled analysis of the relative position of adjectives with respect to the noun in various languages. As we saw above, in some languages adjectives appear before the noun, in others they appear after the noun, yet in others they may appear in either position. The problem can be looked at either from a derivational or a representational point of view. We begin in the next section with an approach that has spawned much research in recent years: the derivational analysis.</p>
+</subsection>
+<subsection id="ss5" level="1">
+<heading id="h4" level="1">4&ensp;Adjective placement as an argument for N-movement (<link rid="b1">Cinque 1990a</link>, <link rid="b2">1992</link>; <link rid="b3 b4 b5">Valois 1991a, 1991b, 1996</link>)</heading>
+<p>In early work in generative grammar, adjectives were generally considered to be adjoined to the intermediate N&prime; projection of the noun, with no real attempt at accounting in a principled way for cross-linguistic variation with respect to the relative order of adjectives and the noun they modify. Recent work has looked at this very problem. Much progress made in this area is in large part due to other important developments in syntactic theory, such as recent research on the structure of Determiner Phrases, and head-movement within the DP. These studies on adjectives are thus inseparable from these developments, and will be presented in that context here, as we provide a general overview of some of the more detailed and influential research on adjective placement.</p>
+<p>Research in generative grammar on the structure of DP and its similarities with the structure of clauses (an idea originally put forth by <link rid="b16 b17">Szabolcsi 1987, 1994</link>; see also <link rid="b18">Abney 1987</link>) has provided in the late 1980s and the 1990s a new way of looking at the distribution of adjective phrases (AP) within the DP. One important development is the proposal by <link rid="b1">Cinque (1990a</link>) that the distribution of APs provide an argument in favor of N-movement within the DP.</p>
+<p>It has been argued that the relative position of adverbs in English and French is a consequence of the different ways that inflectional morphology attaches to the verb in the two languages: via verb movement to an inflectional node located higher than the adverb in French, but through affix-hopping of the morphological features onto the verb in English (<link rid="b19">Emonds 1976</link>; <link rid="b20">Pollock 1989</link>; <link rid="b21">Chomsky 1995c</link>) (see <related relationship="sibling" type="samework"><externallink id="chapter 75 - Verb Clusters, Verb Raising, and Restructuring.xml" type="file">chapter 75</externallink></related>). Typical examples are given below:</p>
+<p>(11)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Marc often eats apples.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Marc mange<sub>i</sub> souvent t<sub>i</sub> des pommes.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Looking at thematic (external argument) adjectives in event (deverbal or derived) nominals (see <related relationship="sibling" type="samework"><externallink id="chapter 19 - Derived Nominals.xml" type="file">chapter 19</externallink></related>), <link rid="b1 b2">Cinque (1990a, 1992</link>) points out that their relative position with respect to the noun differs in Romance and Germanic languages in a way that is reminiscent of what can be observed with verbs and adverbs. The proposed analysis is thus similar to that for adverbs: The noun moves over the thematic adjective in Italian (or French), but not in English. This is illustrated in (12), where the thematic adjective occupies the basic position of the external argument (SpecNP) in both languages:</p>
+<p>(12)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>*L&rsquo;&lsqb;<sub>NP</sub>
+</entry>
+<entry>italiana</entry>
+<entry>invasione</entry>
+<entry>dell&rsquo;Albania&rsqb;</entry>
+</row>
+<row><entry>the</entry>
+<entry>Italian</entry>
+<entry>invasion</entry>
+<entry>of Albania</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col5">L&rsquo;invasione &lsqb;<sub>NP</sub> italiana ___ &rsqb; dell&rsquo;Albania</entry>
+</row>
+<row><entry morerows="1">c.</entry>
+<entry>L&rsquo;invasion</entry>
+<entry>italienne</entry>
+<entry>de l&rsquo;Albanie</entry>
+<entry>
+</entry>
+</row>
+<row><entry>the invasion</entry>
+<entry>Italian</entry>
+<entry>of Albania</entry>
+<entry>
+</entry>
+</row>
+<row><entry>d.</entry>
+<entry namest="col2" nameend="col5">*The invasion &lsqb;<sub>NP</sub> Italian ___of Albania&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Crucially, (13) below shows that APs (with normal intonation; see the discussion concerning (35) below) cannot be rightward-moved, as they cannot appear on the right of the noun and its complement, meaning that the string in (13) cannot be the result of adjunction of the adjective to the right of the head noun (from prenominal position):</p>
+<p>(13)&ensp;*L&rsquo;invasione dell&rsquo;Albania italiana</p>
+<p>Motivation for N-movement, just like V-movement, is morphological: it takes place in Romance (to a functional Num(ber) category &ndash; more details below) in order for the noun to attach to its number features. It is worth noting that, aside from accounting for the contrasts in (12), the proposal that the noun may undergo head-movement has been the source of substantial research in recent years, and has been shown to have a wide range of consequences concerning the syntax of DP. For instance, with respect to Romance and Germanic languages, <link rid="b3 b4 b5">Valois (1991a, 1991b, 1996</link>) outlined certain differences between the two language types that can be ascribed to a parameterization of N-movement. Among these are (i) the relative distribution of DP-internal arguments; and (ii) the relative distribution of adjectives in event nominals. Concerning the former, French and English differ with respect to the relative position of the noun and its external argument. In English, the external argument precedes the noun (14a), whereas it follows it in French (14b).</p>
+<p>(14)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Rembrandt&apos;s (agent) portrait of Aristotle (theme)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Le portrait de Rembrandt (agent) d&rsquo;Aristote (theme)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Both English and French having basic S-N-O (and S-V-O) word order, N-movement past the external argument in French derives (14b) while the absence of movement in English derives (14a). In <link rid="b3 b4 b5">Valois (1991a, 1991b, 1996</link>), movement is to an intermediate Num(ber) Phrase (see <link rid="b22">Ritter 1991</link> for arguments in favor of NumP). The (partial) structure of DP is thus as in (15):<link rid="fn4">
+<sup>4</sup></link>
+</p>
+<p>(15)&ensp;<object id="fu1" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_3_fu1.jpg" type="jpg" id="fu1_source"/>
+</objectsource>
+</object>
+</p>
+<p>The second difference between the two language types has to do more directly with the topic at hand, i.e., adjectives, more precisely adjectives in event nominals. This is the topic of the next section.</p>
+</subsection>
+<subsection id="ss6" level="1">
+<heading id="h5" level="1">5&ensp;DP and clausal structures: adjectives in event nominals</heading>
+<p>The study of the distribution of adjectives in French and English event nominals <link rid="b3 b4 b5">Valois 1991a, 1991b, 1996</link>) was conducted in the spirit of drawing parallels between the syntax of clauses and the syntax of DP. Indeed, event (deverbal) nominals form a class of nouns that is very closely connected to verbs. One obvious parallel between clauses and event nominals is the semantic connection between some of their modifiers, e.g., adverbs and adjectives.</p>
+<p>For his purpose Valois adopted <link rid="b23">Travis&apos;s (1988</link>) and <link rid="b24">Rochette&apos;s (1990b</link>) position that the first four classes of adverbs discussed by <link rid="b25">Jackendoff (1972</link>) are reducible to three classes indicating the level of adjunction of the adverb within IP. This is shown in the classification below (labeling is Valois&rsquo;):</p>
+<p>
+<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry namest="col1" nameend="col2">
+<i>Adverb classification (by level of adjunction)</i>
+</entry>
+</row>
+<row><entry>Adverbs of the <i>probably</i> class: Jackendoff&apos;s Class III</entry>
+<entry>Highest</entry>
+</row>
+<row><entry>Adverbs of the <i>frequently</i> class: Jackendoff&apos;s Classes I and II</entry>
+<entry>Higher</entry>
+</row>
+<row><entry>Adverbs of the <i>completely</i> class: Jackendoff&apos;s Classes I and II</entry>
+<entry>Lower</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The underlying assumption here is that the positional distribution of adverbs in English is predictable on the basis of their meaning. For instance, manner adverbs (those belonging to the <i>completely</i> class), which modify the VP, are adjoined lower than sentential adverbs (those belonging to the <i>frequently</i> class and those belonging to the <i>probably</i> class). Setting other independent factors (such as transportability) aside, and provided that only one adverb may adjoin to a given projection (<link rid="b25">Jackendoff 1972</link>), co-occurrences of adverbs generally follow the structural hierarchy imposed by their meaning; that is, adverbs of the <i>probably</i> class, which modify propositions (mapped onto CP according to <link rid="b24">Rochette 1990b</link>), precede those of the <i>frequently</i> class, which modify events (mapped onto IP or VP), which in turn precede those of the <i>completely</i> class, which modify actions (mapped onto VP). This can be seen in the pairings in (16&ndash;18):</p>
+<p>(16)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>They &lsqb;<sub>IP</sub> probably &lsqb;<sub>VP</sub> completely invaded China&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*They completely probably invaded China.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(17)&ensp;<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>They &lsqb;<sub>IP</sub> frequently &lsqb;<sub>VP</sub> completely invaded China&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*They completely frequently invaded China.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(18)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>They &lsqb;<sub>IP</sub> probably &lsqb;<sub>VP</sub> frequently invaded China&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*They frequently probably invaded China.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Turning now to adjectives, the assumption is that the classification assumed for adverbs also applies to the corresponding adjectives, as given in the classification below:</p>
+<p>
+<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry><i>Classification of adjectives in event nominals (by level of adjunction)</i>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry><i>probable</i> class: probable, unfortunate, etc.</entry>
+<entry>Highest</entry>
+</row>
+<row><entry><i>frequent</i> class: clever, clumsy, careful, careless, frequent, etc.</entry>
+<entry>Higher</entry>
+</row>
+<row><entry><i>complete</i> class: complete, easy, total, bad, mortal, brutal, etc.</entry>
+<entry>Lower</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>According to the stand concerning the parallel syntax of DP and CP, the expectation is for the distribution of the adjectives in the above list to parallel that of the corresponding adverbs; that is, pairings of adjectives belonging to different classes should yield word orders in which adjectives belonging to, say, the <i>complete</i> class follow adjectives of the <i>frequent</i> class, or in which adjectives of the <i>frequent</i> class follow members of the <i>probable</i> class. Looking at English first, we see that this prediction is borne out:</p>
+<p>(19)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The probable complete invasion of China</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*The complete probable invasion of China</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(20)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The frequent complete invasion of China</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*The complete frequent invasion of China</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(21)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The probable frequent invasion of China</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*The frequent probable invasion of China</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This follows if, like adverbs, adjectives are adjoined hierarchically according to the class to which they belong, as shown in (22) (see <link rid="b26">Crisma 1989</link> on Italian).</p>
+<p>(22)&ensp;&lsqb;<sub>DP</sub> <i>probable</i> class &lsqb;<i>frequent</i> class &lsqb;<i>complete</i> class &lsqb;<sub>NP</sub> invasion of China&rsqb;&rsqb;&rsqb;&rsqb;</p>
+<p>In French, when preceding the head noun, the same distributional constraints operating for adverb ordering can be observed for adjectives, as shown in (23&ndash;25).</p>
+<p>(23)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>La</entry>
+<entry>probable</entry>
+<entry>compl&egrave;te</entry>
+<entry>invasion</entry>
+<entry>de la</entry>
+<entry>Chine</entry>
+</row>
+<row><entry>the</entry>
+<entry>probable</entry>
+<entry>complete</entry>
+<entry>invasion of</entry>
+<entry>China</entry>
+<entry>
+</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>*La</entry>
+<entry>compl&egrave;te</entry>
+<entry>probable</entry>
+<entry>invasion</entry>
+<entry>de la</entry>
+<entry>Chine</entry>
+</row>
+<row><entry>the</entry>
+<entry>complete</entry>
+<entry>probable</entry>
+<entry>invasion</entry>
+<entry>of</entry>
+<entry>China</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(24)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>La</entry>
+<entry>fr&eacute;quente</entry>
+<entry>compl&egrave;te</entry>
+<entry>invasion</entry>
+<entry>de la</entry>
+<entry>Chine</entry>
+</row>
+<row><entry>the</entry>
+<entry>frequent</entry>
+<entry>complete</entry>
+<entry>invasion</entry>
+<entry>of</entry>
+<entry>China</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>*La</entry>
+<entry>compl&egrave;te</entry>
+<entry>fr&eacute;quente</entry>
+<entry>invasion</entry>
+<entry>de la</entry>
+<entry>Chine</entry>
+</row>
+<row><entry>the</entry>
+<entry>complete</entry>
+<entry>frequent</entry>
+<entry>invasion</entry>
+<entry>of</entry>
+<entry>China</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(25)&ensp;<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Les</entry>
+<entry>probables</entry>
+<entry>fr&eacute;quentes</entry>
+<entry>invasions</entry>
+<entry>de la</entry>
+<entry>Chine</entry>
+</row>
+<row><entry>the</entry>
+<entry>probable</entry>
+<entry>frequent</entry>
+<entry>invasions</entry>
+<entry>of</entry>
+<entry>China</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>*Les</entry>
+<entry>fr&eacute;quentes</entry>
+<entry>probables</entry>
+<entry>invasions</entry>
+<entry>de la</entry>
+<entry>Chine</entry>
+</row>
+<row><entry>the</entry>
+<entry>frequent</entry>
+<entry>probable</entry>
+<entry>invasions</entry>
+<entry>of</entry>
+<entry>China</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>However, as in Italian, French adjectives may also appear in postnominal position (thematic adjectives being one case, cf. (12c)), as can be seen in the event nominal constructions in (26):<link rid="fn5">
+<sup>5</sup></link>
+</p>
+<p>(26)&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>L&rsquo;invasion</entry>
+<entry>probable</entry>
+<entry>de la</entry>
+<entry>Chine</entry>
+</row>
+<row><entry>the invasion</entry>
+<entry>probable</entry>
+<entry>of</entry>
+<entry>China</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>L&rsquo;invasion</entry>
+<entry>fr&eacute;qu&egrave;nte</entry>
+<entry>de la</entry>
+<entry>Chine</entry>
+</row>
+<row><entry>the invasion</entry>
+<entry>frequent</entry>
+<entry>of</entry>
+<entry>China</entry>
+</row>
+<row><entry morerows="1">c.</entry>
+<entry>L&rsquo;invasion</entry>
+<entry>compl&egrave;te</entry>
+<entry>de la</entry>
+<entry>Chine</entry>
+</row>
+<row><entry>the invasion</entry>
+<entry>complete</entry>
+<entry>of</entry>
+<entry>China</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This is the unmarked case if, as concluded with respect to (12c), the noun moves past the adjective in French. This in turn begs the question as to the formal mechanisms responsible for the presence of adjectives in prenominal position.</p>
+<p>Valois&rsquo; answer (which differs from <link rid="b6">Cinque&apos;s 1994</link> approach, as we discuss in <link rid="ss7">section 6</link>) is that prenominal adjectives are derived via the application of an additional rule that adjoins the adjective to the left (by head-movement), as (27) illustrates:<link rid="fn6">
+<sup>6</sup></link>
+</p>
+<p>(27)&ensp;<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>L&rsquo;invasion probable de la Chine</entry>
+</row>
+<row><entry>b.</entry>
+<entry>La &lsqb;probable<sub>i</sub> &lsqb;invasion&rsqb;&rsqb; t<sub>i</sub> de la Chine</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (23&ndash;25), the presence of two prenominal adjectives indicate that two instances of left-adjunction have taken place.<link rid="fn7">
+<sup>7</sup></link>
+</p>
+<p>This process is reminiscent of cases of syntactic incorporation (<link rid="b27">Baker 1988a</link>). One indication that this view might be on the right track is that liaison is (slightly) more acceptable when the adjective is in prenominal position than when it is in postnominal position, presumably because incorporation involves the formation of a &lsquo;tighter&rsquo; morphophonological complex (see also Bernstein 1993, who claims that liaison is obligatory with prenominal adjectives but optional in postnominal position, an observation disputed by <link rid="b13">Bouchard 1998</link>):</p>
+<p>(28)&ensp;<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Les</entry>
+<entry>improbables</entry>
+<entry>&lsqb;z&rsqb;</entry>
+<entry>invasions</entry>
+<entry>de la</entry>
+<entry>Chine</entry>
+</row>
+<row><entry>the</entry>
+<entry>improbable</entry>
+<entry>
+</entry>
+<entry>invasions</entry>
+<entry>of</entry>
+<entry>China</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Les</entry>
+<entry>invasions</entry>
+<entry>(<sup>?</sup>&lsqb;z&rsqb;)</entry>
+<entry>improbables</entry>
+<entry>de la</entry>
+<entry>Chine</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The alternate pre- and postnominal position, as well as co-occurrence restrictions of adjectives, is given a substantially different analysis by <link rid="b6">Cinque (1994</link>). The next section presents Cinque&apos;s approach on this and other aspects of the syntax of adjectives.</p>
+</subsection>
+<subsection id="ss7" level="1">
+<heading id="h6" level="1">6&ensp;Serialization and partial N-movement (<link rid="b6">Cinque 1994</link>)</heading>
+<subsection id="ss8" level="2">
+<heading id="h7" level="2">6.1&ensp;Attributive APs</heading>
+<p>
+<link rid="b6">Cinque (1994</link>) proposes an analysis that differs from Valois&rsquo; proposal in two important ways. He proposes that (i) Adjective Phrases (APs) are generated in specifier positions of functional categories; (ii) nouns can undergo <i>partial</i> N-movement, a mechanism responsible for the possibility for an attributive adjective to appear in pre- or postverbal position.</p>
+<p>Before moving on to the analysis proper, it should be noted that Cinque revises his initial stand that thematic adjectives are generated in SpecNP. This is motivated by the observed prohibition on the co-occurrence of both manner and thematic adjectives in prenominal position, as in (29a), combined with the fact that the noun moves past a manner adjective, as in (29b):</p>
+<p>(29)&ensp;<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>*<sup>?</sup>L&rsquo;aggressione</entry>
+<entry>brutale (manner)</entry>
+<entry>italiana (thematic)&nbsp;___</entry>
+<entry>all&rsquo;Albania</entry>
+</row>
+<row><entry>the agression</entry>
+<entry>brutal</entry>
+<entry>Italian</entry>
+<entry>against Albania</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col5">L&rsquo;aggressione brutale (manner) all&rsquo;Albania</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>If thematic adjectives were generated in SpecNP and the noun could move past a manner adjective, as (29b) shows, (29a) ought to be possible. Cinque&apos;s conclusion concerning the ungrammaticality of (29a) is that both manner and thematic adjectives compete for the same position outside NP.</p>
+<p>We saw in the previous section that in French some adjectives may appear either pre- or postnominally. This is the case in Italian as well. Compare (29b) with (30):</p>
+<p>(30)&ensp;<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>La brutale aggressione all&rsquo;Albania</entry>
+</row>
+<row><entry>The brutal aggression of Albania</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Cinque&apos;s account of the pair of examples differs markedly from Valois&rsquo;. Rather that assuming incorporation to account for the prenominal position of the adjective in (30), he proposes to base-generate <i>brutale</i> in two different positions in the DP. The motivation behind this is based on Cinque&apos;s observation that, although the difference is subtle, (29b) and (30) yield slightly different interpretations: While the adjective in (29b) has a &lsquo;pure&rsquo; manner interpretation, it has a subject-oriented interpretation in (30), a result that can clearly not be attributed to the sole application of N-movement. In other words, <i>brutale</i> in (29b) and (30) are two different homophonous adjectives, one (the subject-oriented adjective) being base-generated higher than the position to which the noun moves.</p>
+<p>The relationship between the position and interpretation of <i>brutale</i> can be seen by the fact that, in constructions that force the manner interpretation of the AP, the subject-oriented interpretation is unavailable, as shown in (31):</p>
+<p>(31)&ensp;<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Le aggressioni brutali (<i>manner</i>)</entry>
+<entry>vanno</entry>
+<entry>severamente</entry>
+<entry>condannate.</entry>
+</row>
+<row><entry>the aggressions brutal</entry>
+<entry>are</entry>
+<entry>strongly</entry>
+<entry>condemned</entry>
+</row>
+<row><entry namest="col1" nameend="col5">b.&ensp;*Le brutali (<i>subject-oriented</i>) aggressioni vanno severamente condannate.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Subject-oriented APs followed by manner or thematic APs are impossible between N and its complements, suggesting that N does not move past a subject-oriented AP:</p>
+<p>(32)&ensp;*<sup>?</sup>L&rsquo;aggressione stupida&nbsp;(<i>subject-oriented</i>) brutale (<i>manner</i>/<i>thematic</i>) all&rsquo;Albania</p>
+<p>the aggression stupid brutal/Italian of Albania</p>
+<p>Since subject-oriented adjectives may be preceded by speaker-oriented APs, as in (33), Cinque arrives at the partial structure in (34)&nbsp;(the&nbsp;___&nbsp;symbol indicating possible landing sites for N):</p>
+<p>(33)&ensp;<sup>?</sup>La probabile (<i>speaker-oriented</i>) stupida (<i>subject-oriented</i>) aggressione dell&rsquo;Albania</p>
+<p>the probable stupid aggression against Albania</p>
+<p>(34)&ensp;&lsqb;<sub>XP</sub> speaker-oriented&nbsp;___&nbsp;&lsqb;<sub>YP</sub> subject-oriented&nbsp;___&nbsp;&lsqb;<sub>ZP</sub> manner/thematic &lsqb;<sub>NP</sub> N&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;&rsqb;&rsqb;&rsqb;</p>
+</subsection>
+<subsection id="ss9" level="2">
+<heading id="h8" level="2">6.2&ensp;Predicative APs</heading>
+<p>While the word order N-complement-AP is generally not possible (see (13) above), it becomes possible under certain specific conditions. In (35), the sentence is grammatical if there is a sharp intonational break between the complement and the AP:</p>
+<p>(35)&ensp;<object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry>La</entry>
+<entry>loro</entry>
+<entry>aggressione</entry>
+<entry>all&rsquo;Albania</entry>
+<entry>BRUTALE</entry>
+</row>
+<row><entry>the</entry>
+<entry>their</entry>
+<entry>aggression</entry>
+<entry>of Albania</entry>
+<entry>brutal</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>According to Cinque, the adjective in (35) is a predicative AP, i.e., an AP that is predicated of a maximal projection (here NP; see also <link rid="b28">Bernstein 1993b</link>; <link rid="b29">Sleeman 1996</link>). Such APs generally appear after the noun and its complements.</p>
+<p>A good test to support the assumption that predication is at play when adjectives follow a noun complement would be to try to insert to the right periphery of the DP an adjective that is not suitable for predication. This is the case for thematic adjectives, which cannot be predicative, as the ungrammaticality of (36a) shows. Indeed the result is not felicitous when the AP appears after the noun complement (36b):</p>
+<p>(36)&ensp;<object id="tu28" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu28_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>*L&rsquo;invasion</entry>
+<entry>de</entry>
+<entry>Jupiter</entry>
+<entry>fut martienne.</entry>
+</row>
+<row><entry>the invasion</entry>
+<entry>of</entry>
+<entry>Jupiter</entry>
+<entry>was Martian</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>*L&rsquo;invasion</entry>
+<entry>brutale</entry>
+<entry>de</entry>
+<entry>Jupiter</entry>
+<entry>MARTIENNE</entry>
+</row>
+<row><entry>the invasion</entry>
+<entry>brutal</entry>
+<entry>of</entry>
+<entry>Jupiter</entry>
+<entry>Martian</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>That post-complement APs are predicative is further supported by the fact that APs that cannot be used predicatively, as evidenced by (37a), cannot appear after N and its complements (37b), although they can appear pre- or postnominally (37c, d):</p>
+<p>(37)&ensp;<object id="tu29" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu29_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>*Questo</entry>
+<entry>motivo</entry>
+<entry>&egrave;</entry>
+<entry>principale.</entry>
+</row>
+<row><entry>this</entry>
+<entry>reason</entry>
+<entry>is</entry>
+<entry>main</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>*Questo</entry>
+<entry>&egrave;</entry>
+<entry>il</entry>
+<entry>motivo</entry>
+<entry>della sua</entry>
+<entry>partenza,</entry>
+<entry>PRINCIPALE.</entry>
+</row>
+<row><entry>this</entry>
+<entry>is</entry>
+<entry>the</entry>
+<entry>reason</entry>
+<entry>of his</entry>
+<entry>departure,</entry>
+<entry>main</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10"/>
+<tbody>
+<row><entry morerows="1">c.</entry>
+<entry>Questo &egrave;</entry>
+<entry>
+</entry>
+<entry>il</entry>
+<entry>principale</entry>
+<entry>motivo</entry>
+<entry>della</entry>
+<entry>sua</entry>
+<entry>partenza,</entry>
+<entry>PRINCIPALE.</entry>
+</row>
+<row><entry>this</entry>
+<entry>is</entry>
+<entry>the</entry>
+<entry>main</entry>
+<entry>reason</entry>
+<entry>of</entry>
+<entry>his</entry>
+<entry>departure,</entry>
+<entry>main</entry>
+</row>
+<row><entry>d.</entry>
+<entry namest="col2" nameend="col10">Questo &egrave; il motivo principale della sua partenza.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Note in passing that the fact that when two adjectives appear in postnominal position the second one is predicative might explain the restriction in Romance on the number of (intonation-free) postnominal adjectives, which seem to be limited to two (this is not discussed in Cinque&apos;s article):</p>
+<p>(38)&ensp;<object id="tu30" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu30_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Une</entry>
+<entry>&eacute;mission</entry>
+<entry>charg&eacute;e</entry>
+<entry>int&eacute;ressante</entry>
+<entry>
+</entry>
+</row>
+<row><entry>a</entry>
+<entry>program</entry>
+<entry>contentful</entry>
+<entry>interesting</entry>
+<entry>
+</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>Une</entry>
+<entry>&eacute;mission</entry>
+<entry>tardive</entry>
+<entry>int&eacute;ressante</entry>
+<entry>
+</entry>
+</row>
+<row><entry>a</entry>
+<entry>program</entry>
+<entry>late</entry>
+<entry>interesting</entry>
+<entry>
+</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Une</entry>
+<entry>&eacute;mission</entry>
+<entry>tardive</entry>
+<entry>charg&eacute;e</entry>
+<entry>
+</entry>
+</row>
+<row><entry>d.</entry>
+<entry>*Une</entry>
+<entry>&eacute;mission</entry>
+<entry>tardive</entry>
+<entry>charg&eacute;e</entry>
+<entry>int&eacute;ressante</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The ungrammaticality of (38d) would follow if adjectival predication, as is the case for the subject-verbal predicate relation, were a &lsquo;one-time&rsquo; process.</p>
+</subsection>
+<subsection id="ss10" level="2">
+<heading id="h9" level="2">6.3&ensp;Adjunction vs. specifiers and serialization of adjectives</heading>
+<p>While <link rid="b3 b4 b5">Valois (1991a, 1991b, 1996</link>) proposes that APs are adjoined to X<sup>max</sup> projections within DP, Cinque argues that they should rather appear in specifiers of some DP-internal functional projection, as illustrated in (39) (omitting other potential functional categories, such as NumP):</p>
+<p>(39)&ensp;<object id="fu2" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_3_fu2.jpg" type="jpg" id="fu2_source"/>
+</objectsource>
+</object>
+</p>
+<p>According to Cinque, there are both conceptual and empirical reasons to prefer this approach to the adjunction analysis. On the conceptual side:</p>
+<p>(i)&ensp;There is an unmarked <i>serialization</i> of the different classes of APs:</p>
+<p><i>poss</i> &gt; <i>cardinal</i> &gt; <i>ordinal</i> &gt; <i>speaker-oriented</i> &gt; <i>subject-oriented</i> &gt; <i>manner</i>/<i>thematic</i>
+</p>
+<p><i>Example (partial):</i>
+<object id="tu31" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu31_source">
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11"/>
+<tbody>
+<row><entry morerows="1">Le</entry>
+<entry><i>sue</i>
+</entry>
+<entry><i>due</i>
+</entry>
+<entry><i>altre</i>
+</entry>
+<entry><i>probabili</i>
+</entry>
+<entry><i>goffe</i>
+</entry>
+<entry>reazioni</entry>
+<entry><i>immediate</i>
+</entry>
+<entry>alla</entry>
+<entry>tua</entry>
+<entry>lettera</entry>
+</row>
+<row><entry>his</entry>
+<entry>two</entry>
+<entry>other</entry>
+<entry>probable</entry>
+<entry>awkward</entry>
+<entry>reactions</entry>
+<entry>immediate</entry>
+<entry>to</entry>
+<entry>your</entry>
+<entry>letter</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p><i>poss</i> &gt; <i>cardinal</i> &gt; <i>ordinal</i> &gt; <i>quality</i> &gt; <i>size</i> &gt; <i>shape</i> &gt; <i>color</i> &gt; <i>nationality</i>
+</p>
+<p><i>Example (partial):</i>
+<object id="tu32" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu32_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="1">(I)</entry>
+<entry><i>suoi</i>
+</entry>
+<entry><i>due</i>
+</entry>
+<entry><i>altri</i>
+</entry>
+<entry><i>bei</i>
+</entry>
+<entry><i>grandi</i>
+</entry>
+<entry><i>quadri</i>
+</entry>
+<entry><i>tondi</i>
+</entry>
+<entry><i>grigi</i>
+</entry>
+</row>
+<row><entry>his</entry>
+<entry>two</entry>
+<entry>other</entry>
+<entry>beautiful</entry>
+<entry>big</entry>
+<entry>pictures</entry>
+<entry>round</entry>
+<entry>gray</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Adjunction being generally free, Cinque contends that the strict ordering is better rendered if encoded into the tree structure.<link rid="fn8">
+<sup>8</sup></link>
+</p>
+<p>(ii)&ensp;There is a clear limit on the number of uncoordinated attributive APs, a fact that is better rendered by imposing a limit on the number of functional projections available in DP rather than limiting the number of adjunctions (although Cinque does not present an analysis of this).</p>
+<p>(iii)&ensp;The specifier analysis does not need to stipulate that APs are base-generated to the left of N, since this follows from the fact that specifiers are always on the left in Romance and Germanic.</p>
+<p>Two empirical arguments for this approach are presented: First, APs with complements cannot appear on the left of N (a fact that was attributed to Heavy-AP Shift by <link rid="b3">Valois (1991a</link>)), as is generally the case for XPs on a left branch:</p>
+<p>(40)&ensp;<object id="tu33" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu33_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Il</entry>
+<entry>suoi</entry>
+<entry>fedeli</entry>
+<entry>(*alla causa)</entry>
+<entry>sostenitori.</entry>
+</row>
+<row><entry>the</entry>
+<entry>their</entry>
+<entry>faithful</entry>
+<entry>(to the cause)</entry>
+<entry>supporters</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col6">Il suoi sostenitori fedeli alla causa.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Second, as we saw in <link rid="ss3">section 2</link>, there is a cross-linguistic regularity in adjective ordering, whether adjectives precede or follow the noun. Again, this would follow from encoding serialization into the tree structure.</p>
+</subsection>
+</subsection>
+<subsection id="ss11" level="1">
+<heading id="h10" level="1">7&ensp;Challenges for the derivational analysis and semantics-based approach</heading>
+<p>There are outstanding issues that the derivational approaches must address. <link rid="b13">Bouchard (1998</link>) points out a few in relation to the distribution and the scope of right-adjoined adjectives, as well as to interpretation differences between pre-nominal and postnominal adjectives in French. The main points are discussed below.</p>
+<p>Possibly the most important issue that the derivational approaches raise is the mirror image distribution of adjectives one finds when comparing two languages like French and English. Indeed, when looking at classes of adjectives other than those found in event nominals, English adjectives are on the surface ordered in a way that mirrors the ordering found in French: whereas French postnominal adjectives exhibit the order N-ADJ1-ADJ2, English has ADJ2-ADJ1-N. If N-movement were the only factor responsible for the relative distribution of N and ADJ in these two languages, this is unexpected (French, for instance, should be N-ADJ<sub>2</sub>-ADJ<sub>1</sub>). In this connection, <link rid="b30">Lamarche (1991</link>; see also <link rid="b13">Bouchard 1998</link>) provides the following contrasts:</p>
+<p>(41)&ensp;<object id="tu34" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu34_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>A huge orange fruit</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Un fruit orange &eacute;norme</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(42)&ensp;<object id="tu35" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu35_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>A delicious cold chicken</entry>
+</row>
+<row><entry>b</entry>
+<entry>Un poulet froid d&eacute;licieux</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Lamarche&apos;s objection is that, if adjectives were generated prenominally in the same fashion in both French and English, with N-movement in French accounting for word order differences between the two languages, we should obtain: <i>*Un fruit &eacute;norme orange</i> instead of (41b). On the basis of such examples, his conclusion is that free adjunction to the right of N in French is a more appropriate analysis than the derivational account (but recall Cinque&apos;s objections to free adjunction). If correct, this constitutes a serious problem for the derivational analysis. However, Cinque objects that (41b) is nonetheless compatible with the derivational analysis if the second AP (<i>&eacute;norme</i>) is interpreted predicatively, and as such is adjoined to the right periphery of NP. In fact, in their attributive interpretation, the same two French adjectives are ordered exactly as in English (partial N-movement being responsible for the ADJ<sub>2</sub>-N-ADJ<sub>1</sub> order):</p>
+<p>(43) &ensp;Un &eacute;norme fruit orange</p>
+<p>
+<link rid="b13">Bouchard (1998</link>) objects to Cinque&apos;s analysis on the basis of two types of examples. Consider first (44):</p>
+<p>(44)&ensp;<object id="tu36" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu36_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Le</entry>
+<entry>ministre</entry>
+<entry>de la</entry>
+<entry>d&eacute;fense</entry>
+<entry><i>fran&ccedil;ais</i>
+</entry>
+</row>
+<row><entry>the</entry>
+<entry>Minister</entry>
+<entry>of</entry>
+<entry>defense</entry>
+<entry>French</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;The French Minister of Defense&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col6">Le ministre de la d&eacute;fense est <i>fran&ccedil;ais</i>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In this example Bouchard claims that the postnominal (post-complement) adjective appears to receive an interpretation that seems to differ from the one it receives in the predicative construction (44b) (44b refers to the person&apos;s nationality more specifically).</p>
+<p>The second type of example concerns the relative scope of adjectives. Bouchard&apos;s analysis (see below) predicts that, in French, when two adjectives appear postnominally, the rightmost adjective has scope over the other one. This is the case in (41b, 42b) for instance.</p>
+<p>In the derivational approach, this is attained by allowing adjectives to be adjoined to the right periphery of the DP and be interpreted predicatively (<link rid="b6">Cinque 1994</link>; <link rid="b28">Bernstein 1993b</link>; <link rid="b29">Sleeman 1996</link>).</p>
+<p>Bouchard&apos;s objection to this option is based on the following examples:</p>
+<p>(45)&ensp;<object id="tu37" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu37_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>La distribution de p&eacute;trole am&eacute;ricaine</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*La distribution fut am&eacute;ricaine.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>While in (45a) the adjective can appear on the right periphery of the DP, (45b) shows that it cannot receive a predicative reading.</p>
+<p>Although this issue may require further investigation, there seems to be a way to look at the two sets of examples that is till compatible with the derivational approach. The idea is that in both (44a) and (45a), the noun and its complement can be interpreted as a compound.<link rid="fn9">
+<sup>9</sup></link> If this is correct, both examples simply represent cases of N-movement past an attributive adjective.</p>
+<p>That the noun and its complement form a compound is probably more evident given the absence of a determiner before the noun <i>p&eacute;trole</i> in (45a). In fact, addition of a determiner results in ungrammaticality:</p>
+<p>(46)&ensp;*La distribution du (&equals; de le) p&eacute;trole am&eacute;ricaine</p>
+<p>Returning to the mirror image issue, one last remark is in order. There have been additional claims that the mirror image in (41&ndash;42) is only apparent. For instance, in <link rid="b31">Laenzlinger&apos;s (2000</link>) analysis of adjective ordering in French, (41b) could be derived from (43) through XP-movement of the string <i>fruit orange</i> to the left of the adjective <i>&eacute;norme</i> (much like <link rid="b32">Cinque&apos;s 1999</link> account of adverb ordering VP-fronting).<link rid="fn10">
+<sup>10</sup></link>
+</p>
+<p>Turning to <link rid="b13">Bouchard&apos;s (1998</link>) account in more detail, which will lead us to discuss one last apparent challenge to the derivational analysis, his goal is to propose an analysis of the differences between French and English illustrated in the previous sections without recourse to N-movement. His approach is repres-entational and relies on semantic rather than syntactic factors. The analysis is couched in <link rid="b21">Chomsky&apos;s (1995c</link>) Minimalist Program. Here we briefly outline Bouchard&apos;s proposal and look at and discuss some of the empirical arguments behind it.</p>
+<p>The main aspects of Bouchard&apos;s analysis are the following (it should be noted these premises play a role in other syntactic differences between French and English):</p>
+<listgroup id="l3" type="symbol">
+<li>
+<number>&bull;&ensp;</number>
+<p>in French, number is in D and has scope over all ADJ;</p>
+</li>
+<li>
+<number>&bull;&ensp;</number>
+<p>in English, number is a morphological morpheme on N and has scope over elements on its left;</p>
+</li>
+<li>
+<number>&bull;&ensp;</number>
+<p><i>Number Scope Condition</i>: the element that codes Number in a nominal expression must have scope over the elements that determine the extensity of the expression (complementless adjectives are such elements).</p>
+</li>
+</listgroup>
+<p>Since number in D governs everything to the right within DP in French, adjectives may be adjoined higher than N, allowing them to be right adjoined to NP in postnominal position. In English however, adjectives are forced to appear in prenominal position attached to N since Number is on N and governs to the left.</p>
+<p>Adjectives in French may also appear in prenominal position, some may even appear in either pre- or postnominal position. According to Bouchard, the relative position of the noun and the adjective is semantically based: prenominal adjectives have a non-intersective reading while postnominal adjectives are intersective. The following example illustrates this:</p>
+<p>(47)&ensp;<object id="tu38" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu38_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Une</entry>
+<entry>ancienne</entry>
+<entry>&eacute;glise</entry>
+</row>
+<row><entry>an</entry>
+<entry>old</entry>
+<entry>church</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>Une</entry>
+<entry>&eacute;glise</entry>
+<entry>ancienne</entry>
+</row>
+<row><entry>a</entry>
+<entry>church</entry>
+<entry>old</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (47a), the denotation is that of a former church while in (47b) it is that of an old church. In other words, the adjective may only be non-restrictive in (47a), while it may only be restrictive in (47b). <link rid="b13">Bouchard (1998</link>) accounts for this difference in meaning by positing two different base-generated adjunction sites for adjectives (a consequence of his Internal Merging condition): prenominal adjectives are adjoined to N, while postnominal adjectives are adjoined to NP. As such, prenominal adjectives modify components internal to N, while postnominal adjectives modify all components. In other words, in (47b) a property is assigned to the set of individuals determined by the noun, while in (47a) it is not.</p>
+<p>According to Bouchard, the contrast in (47) constitutes another challenge to the derivational analysis given the impossibility for N-movement by itself to account for the difference in meaning between the (a) and (b) examples. In fact, there clearly is no plausible reason why N-movement should have an impact on the meaning of the adjective in (47). <link rid="b28">Bernstein&apos;s (1993b</link>) response to cases such as (47) is to posit two homophonous adjectives that are base-generated in different positions within the DP. In (47a) <i>ancienne</i> is an attributive adjective past which the head-noun has moved, while in (47b) the homophonous adjective is base-generated in a position that is higher than the target of N-movement.</p>
+<p>It is worth observing that adjectives in event nominals, the analysis of which constitutes one of the main arguments for N-movement, do not exhibit the same meaning differences based on their surface position. Consider (48):</p>
+<p>(48)&ensp;<object id="tu39" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu39_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>L&rsquo;invasion brutale de l&rsquo;Albanie</entry>
+</row>
+<row><entry>b.</entry>
+<entry>La brutale invasion de l&rsquo;Albanie</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Although <link rid="b6">Cinque (1994</link>) observed that the interpretation of the adjective in (48a) is that of a manner adjective while (48b) is that of a subject-oriented adjective, to us the difference in interpretation is minimal and certainly not nearly as sharp or along the lines of (47a, b), i.e., that of a non-restrictive vs. a restrictive interpretation.</p>
+<p>Bouchard&apos;s analysis is presented in reaction to other objections of a conceptual nature to Cinque&apos;s (and the general derivational) analysis. Among others, Bouchard questions the nature of the functional categories whose specifiers contain the AP, as well as the mechanisms regulating partial N-movement, i.e., how far can the noun move, and how does it &lsquo;know&rsquo; when to stop so that the correct word order is derived? We refer the reader to Bouchard&apos;s article for a more detailed discussion of the relative merits of the derivational and the representational analyses.</p>
+</subsection>
+<subsection id="ss12" level="1">
+<heading id="h11" level="1">8&ensp;Conclusion</heading>
+<p>After discussing briefly the two main adjective types, i.e., predicative and attributive adjectives, the former further splitting into the intersective and non-intersective type, we looked at some early accounts of the ordering of adjectives problem. We then examined in detail two areas of research that have been developed recently concerning the syntax of adjectives: the ordering of adjectival strings per se, and the relative order of the adjective and the noun it modifies. Attempts at providing a principled account of adjective ordering have taken two different approaches: a derivational account, and a representational account. The derivational analysis derives the various positions of the noun and the adjective via N-movement (partial in the case of <link rid="b6">Cinque 1994</link>), while the representational analysis is based on semantic features. There is a longer discussion than that presented here of the relative merits of the two analyses in <link rid="b13">Bouchard&apos;s (1998</link>) paper. For instance, Bouchard&apos;s objections concerning the nature of the functional categories in Cinque&apos;s analysis, as well as the nature and constraints of partial movement, are valid points that must be addressed in further research. But we think that it is important to point this out: It seems that the debate might involve two independent considerations, i.e., (i) the assumptions behind the analyses of adjective distribution per se, and (ii) the arguments for N-movement. To reframe the problem, we might formulate the following questions: (i) Is the derivational account sufficient to account for <i>all</i> aspects of the syntactic distribution of adjectives? (ii) Are the arguments for N-movement (especially those based on the distribution of adjectives in event nominals, which extends to the distribution on DP-internal arguments) still valid?</p>
+</subsection>
+<subsection id="ss13" level="1">
+<heading id="h12" level="1">NOTES</heading>
+<p>Thanks to two anonymous reviewers for useful suggestions.</p>
+<p>
+<span id="fn1">
+<number>1&emsp;</number>According to <link rid="b8">Kamp (1975</link>), predicativeness is described (informally) by the following syllogism:</span>
+</p>
+<p>(i)&ensp;<object id="tu40" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu40_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>All Xs are Ys.</entry>
+</row>
+<row><entry>Z is a member of X.</entry>
+</row>
+<row><entry>Therefore Z is a member of Y.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Regarding adjectives, those for which the conclusion of (i) is true are predicative, others are not (they are attributive). According to this assumption, <i>white</i> in (ii) is predicative, but <i>large</i> is not:</p>
+<p>(ii)&ensp;<object id="tu41" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu41_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>All mice are mammals.</entry>
+</row>
+<row><entry>Freddy is a white mouse.</entry>
+</row>
+<row><entry>Therefore Freddy is a white mammal (true).</entry>
+</row>
+<row><entry>All mice are mammals.</entry>
+</row>
+<row><entry>Freddy is a large mouse.</entry>
+</row>
+<row><entry>Therefore Freddy is a large mammal (false).</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<span id="fn2">
+<number>2&emsp;</number>This, of course, refers to stringed adjectives, that is, it exludes adjectives linked together by coordinate (e.g., and) or logical (e.g., but) conjunctions, adjectives enumerated with comma intonation, or adjectives that appear in sequences where one of them carries contrastive stress. It also only refers to &lsquo;morphological adjectives&rsquo;, as some languages, e.g., French, in some cases use different devices to qualify an object (e.g., <i>a wooden chair</i>, <i>une chaise &lsqb;</i><sub><i>PP</i>
+</sub> <i>en bois&rsqb;</i>).</span>
+</p>
+<p>
+<span id="fn3">
+<number>3&emsp;</number>Previous surveys had already established some semantics-based ordering of adjectives. <link rid="b33">Crystal (1971</link>) reports that the order <i>size-age-color-nationality-material</i> is the norm in English, as exemplified in (i):</span>
+</p>
+<p>(i)&ensp;Those large new red English wooden chairs.</p>
+<p>However, he observes some cases where adjectives are interchangeable, as in (ii):</p>
+<p>(ii)&ensp;<object id="tu42" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu42_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>the cheap comfortable chairs</entry>
+</row>
+<row><entry>b.</entry>
+<entry>the comfortable cheap chairs</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b34">Seiler (1976</link>) has a slightly different view: He claims that anaphoric adjectives precede all others and are followed by <i>affective-evaluating-color-material</i> adjectives. This is illustrated in (iii):</p>
+<p>(iii)&ensp;The aforementioned marvelous beautiful red wooden statue.</p>
+<p>Other studies mentioned by Hetzron include <link rid="b35">Quirk and Greenbaum&nbsp;(1973</link>), <link rid="b36">Sussex (1974</link>), and <link rid="b37">Dixon (1977</link>). However, Hetzron points out that these are either not systematic or limited to English.</p>
+<p>
+<span id="fn4">
+<number>4&emsp;</number>The structure is actually more elaborate than (15). For instance, on top of the theme and agent arguments French DPs also allow the presence of a possessor argument (see <link rid="b3 b4 b5">Valois 1991a, 1991b, 1996</link> for details). In addition, <link rid="b3 b4">Valois (1991a, b</link>) advocates a &lsquo;layered&rsquo; structure similar to that proposed by <link rid="b38">Sportiche (1990</link>) which was shown to have some consequences with respect to the syntax of French sentence negation, <i>wh</i>-pied-piping (<link rid="b39">Moritz and Valois 1994</link>) (see <related relationship="sibling" type="samework"><externallink id="chapter 50 - Pied-Piping.xml" type="file">chapter 50</externallink></related>), and extraction out of DP.</span>
+</p>
+<p>
+<span id="fn5">
+<number>5&emsp;</number>There seems to be a limitation on the number of postnominal adjectives. We return to this in <link rid="ss9">section 6.2</link>.</span>
+</p>
+<p>
+<span id="fn6">
+<number>6&emsp;</number>
+<link rid="b28">Bernstein (1993b</link>) argues on the other hand that the pre- and postnominal position of an adjective results from the capacity of some adjectives to adjoin to different DP-internal position.</span>
+</p>
+<p>
+<span id="fn7">
+<number>7&emsp;</number>The right order of prenominal adjectives (e.g., <i>la probable compl&egrave;te invasion de Jupiter</i> versus *<i>la compl&egrave;te probable invasion de Jupiter</i>) is achieved in <link rid="b5">Valois (1996</link>) through a more elaborate structure of DP (as proposed in <link rid="b38">Sportiche 1990</link>). For instance, <i>invasion</i> here is an event nominal which may select both an internal (here Jupiter) and an external (not realized) argument. Each requires its own maximal projection layer, as in (i):</span>
+</p>
+<p>(i)&ensp;&lsqb;<sub>DP</sub> &lsqb;<sub>NumP</sub> &lsqb;<sub>NP*</sub> &lsqb;<sub>NP</sub> invasion de Jupiter&rsqb;&rsqb;&rsqb;&rsqb;</p>
+<p>The adjectives <i>compl&egrave;te</i> and <i>probable</i> are adjoined to NP and NP* respectively.</p>
+<p>(ii)&ensp;&lsqb;<sub>DP</sub> &lsqb;<sub>NumP</sub> &lsqb;<sub>NP*</sub> probable &lsqb;<sub>NP*</sub> &lsqb;<sub>NP</sub> compl&egrave;te &lsqb;<sub>NP</sub> invasion de Jupiter&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;</p>
+<p>On its way to Num, the noun first moves to the head on NP*, N*. <i>Compl&egrave;te</i> adjoins to the left of the noun at this point, forming the complex <i>&lsqb;compl&egrave;te-invasion&rsqb;</i>. This newly formed complex then moves to Num, followed by adjunction of <i>probable</i> to its left, yielding the right order of prenominal adjectives: <i>&lsqb;probable &lsqb;compl&egrave;te-invasion&rsqb;&rsqb;</i>.</p>
+<p>One residual problem with the analysis is mentioned by Valois but no solution is offered at that point: The N-movement analysis he presents predicts that two or more postnominal adjectives should be possible, whereas they are not:</p>
+<p>(iii)&ensp;*L&rsquo;invasion probable compl&egrave;te de Jupiter</p>
+<p>
+<link rid="b6">Cinque&apos;s (1994</link>) analysis (presented in <link rid="ss7">section 6</link>) offers a solution to this problem.</p>
+<p>
+<span id="fn8">
+<number>8&emsp;</number>Although one might object that adjunction could be regulated by some (semantic) principles which would generate the right ordering, for example in a Montague-style grammar.</span>
+</p>
+<p>
+<span id="fn9">
+<number>9&emsp;</number>Thanks to an anonymous reviewer for the suggestion.</span>
+</p>
+<p>
+<span id="fn10">
+<number>10&emsp;</number>See also <link rid="b40">Duffield (1999</link>), <link rid="b41">Cinque (2000</link>), <link rid="b42">Shlonsky (2000a</link>).</span>
+</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss14" level="1" type="references">
+<heading id="h13" level="1">REFERENCES</heading>
+<reference id="b18" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Abney</surname><x>, </x><forenames>Steven<x> </x>Paul</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date>
+<miscellaneoustext>). The English Noun Phrase in its Sentential Aspect<i>.</i> PhD dissertation, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b27" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Baker</surname><x>, </x><forenames>Mark</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988a</date><x>). </x><title type="book">Incorporation: A Theory of Grammatical Function Changing</title><x>. </x><address>Chicago</address><x>: </x><publisher>University of Chicago Press.</publisher>
+</reference>
+<reference id="b28" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Bernstein</surname><x>, </x><forenames>Judy</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993b</date>
+<miscellaneoustext>). Topics in the Syntax of Nominal Structure across Romance<i>.</i> PhD dissertation, CUNY</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b7" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bolinger</surname><x>, </x><forenames>Dwight</forenames>
+</name>
+</namegroup><x> (</x><date date="1967">1967</date><x>). </x><title type="document">Adjectives in English: Attribution and Predication</title><x>. </x><title type="journal">Lingua</title><x> </x><volume>18</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">34</page><x>.</x>
+</reference>
+<reference id="b13" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bouchard</surname><x>, </x><forenames>Denis</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">The Distribution and Interpretation of Adjectives in French</title><x>. </x><title type="journal">Probus</title><x> </x><volume>10</volume><x>: </x><page type="first">139</page><x>&ndash;</x><page type="last">183</page><x>.</x>
+</reference>
+<reference id="b21" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995c</date><x>). </x><title type="book">The Minimalist Program</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b1" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990a</date>
+<miscellaneoustext>). Agreement and Head-to-Head Movement in the Romance Noun Phrase. Paper presented at the Twentieth Linguistic Symposium on Romance Languages. University of Ottawa, April</miscellaneoustext><x> </x>
+<page type="first">10</page><x>&ndash;</x><page type="last">14</page><x>.</x>
+</reference>
+<reference id="b2" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Functional Projections and N-Movement within the DP</title><x>. </x><title type="journal">GLOW Newsletter</title><x> </x><volume>28</volume><x>: </x><page type="first">12</page><x>&ndash;</x><page type="last">13</page><x>.</x>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">Evidence for Partial N-Movement in the Romance DP</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Paths Towards Universal Grammar: Studies in Honor of Richard S<x>. </x>Kayne</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Guglielmo</forenames><x> </x><surname>Cinque</surname>
+</name><x>, </x><name type="editor">
+<forenames>Jan</forenames><x> </x><surname>Koster</surname>
+</name><x>, </x><name type="editor">
+<forenames>Jean-Yves</forenames><x> </x><surname>Pollock</surname>
+</name><x>, </x><name type="editor">
+<forenames>Luigi</forenames><x> </x><surname>Rizzi</surname>
+</name><x>
+</x><x>, and </x><name type="editor">
+<forenames>Raffaella</forenames><x> </x><surname>Zanuttini</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">85</page><x>&ndash;</x><page type="last">110</page>
+<x>. </x><address>Washington DC</address><x>: </x><publisher>Georgetown University Press.</publisher>
+</reference>
+<reference id="b32" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="book">Adverbs and Functional Heads: A Cross-Linguistic Perspective</title>
+<x>. </x><address>New York</address><x>: </x><publisher>Oxford University Press.</publisher>
+</reference>
+<reference id="b41" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">On Greenberg&apos;s Universal 20 and the Semitic DP</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="journal">University of Venice Working Papers in Linguistics</title><x> </x><volume>10</volume>
+<page type="first">
+</page><x>.</x>
+</reference>
+<reference id="b26" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Crisma</surname><x>, </x><forenames>Paola</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date>
+<miscellaneoustext>). Functional Categories Inside The Noun Phrase: A Study of the Distribution of Nominal Modifiers. Unpublished manuscript, University of Venice</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b33" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Crystal</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1971">1971</date><x>). </x><title type="book">Linguistics<x>.</x>
+</title><x> </x><address>Harmondsworth</address><x>: </x><publisher>Penguin.</publisher>
+</reference>
+<reference id="b37" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Dixon</surname><x>, </x><forenames>Robert<x> </x>M<x>. </x>W<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date><x>). </x><title type="document">Where Have all the Adjectives Gone?</title><x> </x><title type="journal">Studies in Language</title><x> </x><volume>1</volume><x>: </x><page type="first">19</page><x>&ndash;</x><page type="last">80</page><x>.</x>
+</reference>
+<reference id="b40" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Duffield</surname><x>, </x><forenames>Nigel</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">Adjectival Modifiers and the Specifier&ndash;Adjunct Distinction</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Specifiers: Minimalist Approaches</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>David</forenames><x> </x><surname>Adger</surname>
+</name><x>, </x><name type="editor">
+<forenames>Susan</forenames><x> </x><surname>Pintzuk</surname>
+</name><x>, </x><name type="editor">
+<forenames>Bernadette</forenames><x> </x><surname>Plankett</surname>
+</name><x>
+</x><x>, and </x><name type="editor">
+<forenames>George</forenames><x> </x><surname>Tsoulas</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">126</page><x>&ndash;</x><page type="last">145</page>
+<x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press.</publisher>
+</reference>
+<reference id="b19" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Emonds</surname><x>, </x><forenames>Joseph</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="book">A Transformational Approach to English Syntax: Root, Structure-Preserving and Local Transformations</title>
+<x>. </x><address>New York</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference id="b12" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Giorgi</surname><x>, </x><forenames>Alessandra</forenames>
+</name><x> and </x><name type="author">
+<forenames>Giuseppe</forenames><x> </x><surname>Longobardi</surname>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="book">The Syntax of Noun Phrases: Configuration, Parameters, and Empty Categories</title><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b14" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hetzron</surname><x>, </x><forenames>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978</date><x>). </x><title type="document">On the Relative Ordering of Adjectives</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Language Universals</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Hansjakob</forenames><x> </x><surname>Seiler</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">165</page><x>&ndash;</x><page type="last">184</page>
+<x>. </x><address>T&uuml;bingen</address><x>: </x><publisher>Narr.</publisher>
+</reference>
+<reference id="b10" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Higginbotham</surname><x>, </x><forenames>James</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">On Semantics</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>16</volume><x>: </x><page type="first">547</page><x>&ndash;</x><page type="last">593</page><x>.</x>
+</reference>
+<reference id="b25" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Jackendoff</surname><x>, </x><forenames>Ray</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972</date><x>). </x><title type="book">Semantic Interpretation in Generative Grammar<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b8" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kamp</surname><x>, </x><forenames>Hans</forenames>
+</name>
+</namegroup><x> (</x><date date="1975">1975</date><x>). </x><title type="document">Two Theories about Adjectives</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Formal Semantics of Natural Language</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Edward</forenames><x> </x><surname>Keenan</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">123</page><x>&ndash;</x><page type="last">155</page>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b11" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Keenan</surname><x>, </x><forenames>Edward</forenames>
+</name><x> and </x><name type="author">
+<forenames>Leonard<x> </x>M<x>.</x>
+</forenames><x> </x><surname>Faltz</surname>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="book">Boolean Semantics for Natural Language<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Reidel.</publisher>
+</reference>
+<reference id="b31" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Laenzlinger</surname><x>, </x><forenames>Christopher</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">French Adjective Ordering: Perspectives on DP-internal Movement Types</title><x>. </x><title type="journal">Generative Grammar in Geneva</title><x> </x><volume>1</volume><x>: </x><page type="first">55</page><x>&ndash;</x><page type="last">104</page><x>.</x>
+</reference>
+<reference id="b30" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Lamarche</surname><x>, </x><forenames>Jacques</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Problems for N<sup>0</sup>-movement to NumP</title><x>. </x><title type="journal">Probus</title><x> </x><volume>3/2</volume><x>: </x><page type="first">15</page><x>&ndash;</x><page type="last">236</page><x>.</x>
+</reference>
+<reference id="b39" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Moritz</surname><x>, </x><forenames>Luc</forenames>
+</name><x> and </x><name type="author">
+<forenames>Daniel</forenames><x> </x><surname>Valois</surname>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">Pied-Piping and Specifier&ndash;Head Agreement</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>25</volume><x>: </x><page type="first">667</page><x>&ndash;</x><page type="last">707</page><x>.</x>
+</reference>
+<reference id="b20" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Pollock</surname><x>, </x><forenames>Jean-Yves</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">Verb Movement, Universal Grammar and the Structure of IP</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>20</volume><x>: </x><page type="first">365</page><x>&ndash;</x><page type="last">424</page><x>.</x>
+</reference>
+<reference id="b35" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Quirk</surname><x>, </x><forenames>Randolph</forenames>
+</name><x> and </x><name type="author">
+<forenames>Sydney</forenames><x> </x><surname>Greenbaum</surname>
+</name>
+</namegroup><x> (</x><date date="1973">1973</date><x>). </x><title type="book">A University Grammar of English</title><x>. </x><address>London</address><x>: </x><publisher>Longman.</publisher>
+</reference>
+<reference id="b22" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ritter</surname><x>, </x><forenames>Elizabeth</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Two Functional Categories in Noun Phrases: Evidence from Modern Hebrew</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Perspectives on Phrase Structure: Heads and Licensing</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Susan</forenames><x> </x><surname>Rothstein</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">37</page><x>&ndash;</x><page type="last">62</page>
+<x>. </x><address>San Diego</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference id="b24" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rochette</surname><x>, </x><forenames>Anne</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990b</date><x>). </x><title type="document">The Selectional Properties of Adverbs</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Twenty-sixth Regional Meeting of the Chicago Linguistics Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Michael</forenames><x> </x><surname>Zioekowsky</surname>
+</name><x>, </x><name type="editor">
+<forenames>Manuala</forenames><x> </x><surname>Noske</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Karen</forenames><x> </x><surname>Deaton</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">379</page><x>&ndash;</x><page type="last">391</page>
+<x>. </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society.</publisher>
+</reference>
+<reference id="b34" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Seiler</surname><x>, </x><forenames>Hansjakob</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="document">Determination: A Universal Dimension for Interlanguage Comparison</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="journal">Arbeiten des K&ouml;lner Universalien-Projekts</title><x>, </x><volume>23</volume>
+<page type="first">
+</page><x>.</x>
+</reference>
+<reference id="b42" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Shlonsky</surname><x>, </x><forenames>Ur</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date>
+<miscellaneoustext>). An Antisymmetric, Non-N-movement Account. Unpublished manuscript, University of Geneva</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b9" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Siegel</surname><x>, </x><forenames>Muffy</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="book">Capturing the Adjective<x>.</x>
+</title><x> </x><address>New York</address><x>: </x><publisher>Garland.</publisher>
+</reference>
+<reference id="b29" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Sleeman</surname><x>, </x><forenames>Petra</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date>
+<miscellaneoustext>). Licensing Empty Nouns in French<i>.</i> PhD dissertation, University of Amsterdam</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b38" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Sportiche</surname><x>, </x><forenames>Dominique</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Movement, Agreement and Case</title><x>. </x><publisher>Unpublished manuscript</publisher><x>.</x>
+</reference>
+<reference id="b15" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Sproat</surname><x>, </x><forenames>Richard</forenames>
+</name><x> and </x><name type="author">
+<forenames>Chilin</forenames><x> </x><surname>Shi</surname>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Prenominal Adjective Ordering in English and Mandarin</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society 18</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>James</forenames><x> </x><surname>Blevins</surname>
+</name><x> and </x><name type="editor">
+<forenames>Julie</forenames><x> </x><surname>Carter</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">465</page><x>&ndash;</x><page type="last">489</page>
+<x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association.</publisher>
+</reference>
+<reference id="b36" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Sussex</surname><x>, </x><forenames>Roland</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date><x>). </x><title type="document">The Deep Structure of Adjectives in Noun Phrases</title><x>. </x><title type="journal">Journal of Linguistics</title><x> </x><volume>10</volume><x>: </x><page type="first">111</page><x>&ndash;</x><page type="last">131</page><x>.</x>
+</reference>
+<reference id="b16" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Szabolcsi</surname><x>, </x><forenames>Anna</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Functional Categories in the Noun Phrase</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Approaches to Hungarian: Vol. 2</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Istv&aacute;n</forenames><x> </x><surname>Kenesei</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">167</page><x>&ndash;</x><page type="last">189</page>
+<x>. </x><address>Szeged</address><x>: </x><publisher>Joseph Attila University.</publisher>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Szabolcsi</surname><x>, </x><forenames>Anna</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">The Noun Phrase</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Syntax and Semantics 27</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ferenc</forenames><x> </x><surname>Kiefer</surname>
+</name><x> and </x><name type="editor">
+<forenames>Katalin<x> </x>&Eacute;<x>.</x>
+</forenames><x> </x><surname>Kiss</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">197</page><x>&ndash;</x><page type="last">274</page>
+<x>. </x><address>San Diego</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference id="b23" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Travis</surname><x>, </x><forenames>Lisa</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">The Syntax of Adverbs</title><x>. </x><title type="other">McGill Working Papers in Linguistics<x>. </x>Special Issue on Comparative Germanic Syntax</title><x> </x><page type="first">280</page><x>&ndash;</x><page type="last">310</page><x>.</x>
+</reference>
+<reference id="b3" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Valois</surname><x>, </x><forenames>Daniel</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991a</date><x>). </x><title type="document">The Internal Structure of DP and Adjective Placement in French and English</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Liguistics Society 21</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Tim</forenames><x> </x><surname>Sherer</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">367</page><x>&ndash;</x><page type="last">381</page>
+<x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association.</publisher>
+</reference>
+<reference id="b4" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Valois</surname><x>, </x><forenames>Daniel</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991b</date>
+<miscellaneoustext>). The Internal Syntax of DP<i>.</i> PhD dissertation, UCLA</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b5" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Valois</surname><x>, </x><forenames>Daniel</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="document">On the Structure of French DPs</title><x>. </x><title type="journal">Canadian Journal of Linguistics</title><x> </x><volume>41</volume><x>: </x><page type="first">349</page><x>&ndash;</x><page type="last">375</page><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

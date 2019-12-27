@@ -1,0 +1,44 @@
+
+**********************************************************
+
+World Atlas of Language Structure
+
+   the Interactive Reference Tool
+  
+**********************************************************
+
+
+Installation:
+----------------
+
+ hard disk space required: about 110 MB
+ memory requirement (RAM): 256 MB (recommended)
+
+ Windows 98, 2000, XP:
+
+  - copy the whole folder WALSwin to your hard disk
+  
+ Macintosh OS X 10.2 and up:
+ 
+  - copy the whole folder WALSosx to your hard disk
+  
+ Macintosh Mac OS 9.2:
+ 
+  - copy the whole folder WALSos9 to your hard disk
+  
+  
+Getting started:
+----------------------
+
+ To start the program double click the application file WALS for Mac or WALS.exe for PC.
+ 
+ For more information open the file 'index.html' within the subfolder 'manual' or use the help function
+ within the program.
+ 
+ Note: Please do not start the program from the CD-ROM. It will not run!
+ 
+Contact:
+-------------
+
+ If you have problems or questions please contact Hans-Joerg Bibiko (bibiko@eva.mpg.de)
+ or visit the internet page www.wals.info.

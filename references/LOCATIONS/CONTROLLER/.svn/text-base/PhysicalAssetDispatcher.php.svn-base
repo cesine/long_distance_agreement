@@ -1,0 +1,69 @@
+<?php
+
+// TBD1: IMPORTANT: Need successive insert (retrieve AssetID and populate foreign tables)
+// TBD2: Only physicalasset table is implemented
+// TBD3: FacultyID and LocationID are hard coded - Change when conversion is added to AdditionalAssetInformation.php and AssetDetailsPage.php
+// TBD4: DatePurchased and WarrantyExpiration are varchar(10) rather than timestamp
+// TBD5: Implement return to appropriate page
+
+
+require_once ('../../DB/UUIDB.Class.php');
+require_once ('../../QUERY/SqlQuery.php');
+
+
+$CallingForm	= $_POST["CallingForm"];
+
+$data['BarCode']			= $_POST["BarCode"];
+$data['FacultyID']			= "1";
+$data['ReqNumber']			= $_POST["ReqNumber"];
+$data['PoNumber']			= $_POST["PoNumber"];
+$data['LegacyCode']			= $_POST["LegacyCode"];
+$data['DatePurchased']		= $_POST["DatePurchased"];
+$data['WarrantyExpiration']	= $_POST["WarrantyExpiration"];
+$data['LocationID']			= "2";
+$data['Manufacturer']		= $_POST["Manufacturer"];
+$data['Model']				= $_POST["Model"];
+$data['Status']				= "In-stock";
+
+$db->connect();
+
+$qr = new SQL(TABLE_PHYSICALASSET);
+
+if ($CallingForm == "AdditionalAssetInformationEquipment")
+{
+	$data['Category']	= "Equipment";
+
+	$result = $qr -> query_insert($data);
+}
+elseif ($CallingForm == "AdditionalAssetInformationFurniture")
+{
+	$data['Category']	= "Furniture";
+
+	$result = $qr -> query_insert($data);
+}
+elseif ($CallingForm == "AssetDetailsPage")
+{
+	$data['FacultyID']			= "2";
+	$data['LegacyCode']			= $_POST["LegacyCode"];
+	$data['WarrantyExpiration']	= $_POST["WarrantyExpiration"];
+	$data['LocationID']			= "4";
+	$data['Status']				= $_POST["Status"];
+
+	$where = 'AssetID = '.$_POST["AssetID"];
+	$result = $qr -> query_update($data,$where);
+}
+
+$db->close();
+
+
+if ($CallingForm == 'AdditionalAssetInformationEquipment' || $CallingForm == 'AdditionalAssetInformationFurniture')
+{
+	header('Location: ../VIEW/AddAsset.php');
+}
+elseif ($CallingForm == 'AssetDetailsPage')
+{
+	header('Location: ../VIEW/SearchAsset.php');
+}
+
+
+?>

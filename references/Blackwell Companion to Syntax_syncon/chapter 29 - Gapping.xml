@@ -1,0 +1,2472 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="29"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 29 - Gapping.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">407</page>
+<page type="last">435</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="5"/>
+<count type="table" count="52"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="61"/>
+<count type="page" count="29"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20050811"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 29&ensp;Johnson: Gapping</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 29&ensp;Johnson: Gapping</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">29 Gapping</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>KYLE</forenames><x> </x><surname>JOHNSON</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Ellipsis in coordinations</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>The No Embedding Constraint</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>Gapping and constituency</p>
+</li>
+<li level="2">
+<number>4.1&ensp;</number>
+<p>Conditions on remnants</p>
+</li>
+<li level="2">
+<number>4.2&ensp;</number>
+<p>Constraints on the Gapped string</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>Parallelism and scope</p>
+</li>
+<li level="1">
+<number>6&ensp;</number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1 Introduction</heading>
+<p>Gapping is an ellipsis in which a verb is removed in one, or more, of a series of coordinations. (1) is emblematic:</p>
+<p>(1)&ensp;Some ate beans and others, rice.</p>
+<p>The name comes from <link rid="b1">Ross (1970a</link>), who appears to be the first to have systematically studied the process. The set of cases for which Gapping is responsible remains controversial, though there is consensus on a certain range of them. A more-or-less standard criterion is that Gapping occurs only in coordinate structures. The two main candidates that don&apos;t meet this requirement, but which nonetheless superficially appear to be instances of Gapping, are list-like answers to questions, like those in (2), and comparative constructions, like those in (3):<link rid="fn1">
+<sup>1</sup></link>
+</p>
+<p>(2)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>Q: Who met who?</entry>
+</row>
+<row><entry>A: Jerry, Sarah; Sally, Mark; Trish, Betsy</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(3)&ensp;Sally met more parents than Tom, kids.</p>
+<p>Many treatments of Gapping &ndash; most modern ones &ndash; leave these cases out, and so shall I in what follows.</p>
+<p>If Gapping is restricted to coordinations, then one task is to determine whether Gapping is a special instance of one of the many forms of ellipsis found in coordinations, or, if it isn&apos;t, how to distinguish it from the others. This problem looms large because Gapping is commonly credited with being able to elide more than just the finite verb. Ross, for example, gave it the ability to elide the quite remarkable set of strings in (4):</p>
+<p>(4)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>I want to try to begin to write a novel and Mary <strike>wants to try to begin to write</strike> a play.</entry>
+</row>
+<row><entry>b.</entry>
+<entry><sup>?</sup>I want to try to begin to write a novel, and Mary <strike>wants to try to begin</strike> to write a play.</entry>
+</row>
+<row><entry>c.</entry>
+<entry><sup>?</sup>I want to try to begin to write a novel, and Mary <strike>wants to try</strike> to begin to write a play.</entry>
+</row>
+<row><entry>d.</entry>
+<entry><sup>?</sup>I want to try to begin to write a novel, and Mary <strike>wants</strike> to try to begin to write a play.&emsp;&emsp;&emsp;&emsp;&emsp;(<link rid="b1">Ross 1970a</link>: 250, (2c))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(Strike-outs will indicate elided material, from here out.) In fact, however, there is a sharp degradation in these particular examples that favors (4a) over the others. I suspect this is because in (4b&ndash;c) material left behind by Gapping matches that in the antecedent clause; in general, these &lsquo;remnants&rsquo; must contrast with parallel terms in the antecedent clause, as we shall see below. If this property of (4b&ndash;c) is remedied, the result is improved:</p>
+<p>(5)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>I want to try to begin to write a novel, and Mary <strike>wants to try to begin</strike> to review a play.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>I want to try to begin to write a novel, and Mary <strike>wants to try</strike> to set out to review a play.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>I want to try to begin to write a novel, and Mary <strike>wants</strike> to get ready to set out to review a play.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>There remains some awkwardness, especially in (5b) and (5c), perhaps because of the strain involved in contrasting so many terms.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2 Ellipsis in coordinations</heading>
+<p>Nonetheless, in principle the strings in (5) are Gappable, and this raises the possibility that Gapping could figure in a wide range of coordinations. It might be responsible for creating (6a) or (6b):</p>
+<p>(6)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Jerry met <strike>the kids from OshKosh</strike> and Sally scrutinized the kids from OshKosh.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Sam ate and <strike>Sam</strike> was put to bed.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(6a) is an example of what <link rid="b2">Postal (1974</link>) called &lsquo;Right Node Raising&rsquo;, which here removes the object of the first conjunct. There are two potential, non-gapping, sources for (6b). It could be that there is an elision process, as indicated, distinct from Gapping which removes material at the edges of a coordinate. That such a process &ndash; what <link rid="b3">Ross (1986</link>) calls &lsquo;Forward Conjunction Reduction&rsquo; &ndash; exists has been widely speculated. The other potential source would deny that there is any ellipsis at all, and instead let the VPs <i>ate</i> and <i>was put to bed</i> conjoin to jointly take <i>Sam</i> as subject. Both treatments have their problems, and evidence distinguishing them is difficult to find.<link rid="fn2">
+<sup>2</sup></link>
+</p>
+<p>One feature that distinguishes (1), (4), and (5) from (6) is that the clause holding the Gapped material in (1), (4), and (5) contains remnant material at the left and right edges, but this isn&apos;t so in (6). <link rid="b4">Jackendoff (1971</link>) suggests that this should be taken as a defining trait of Gapping.</p>
+<p>Restricting Gapping in this way, however, is not how <link rid="b1">Ross (1970a</link>) would have done it. The goal of his paper, in fact, is to defend the thesis that the conjunct in which a verb is Gapped is determined by the linear position that that verb would have had to other terms in its sentence if it hadn&apos;t elided. Ross suggests that if the verb would have preceded its complements, then it will Gap from the second, or subsequent, conjuncts, and the first conjunct will hold the antecedent. If the verb would have followed its complements, on the other hand, then it will Gap from the initial conjuncts, and the antecedent will be found in the final one. So, for instance, he suggests that in languages like Japanese and Russian, where a complement may precede its verb, Gapping is responsible for producing sentences such as (7):</p>
+<p>(7)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Watakusi-wa.</entry>
+<entry>sakana-o</entry>
+<entry><strike>tabe</strike>
+</entry>
+<entry>Biru-wa</entry>
+<entry>gohan-o</entry>
+<entry>tabeta.</entry>
+<entry>&emsp;Japanese</entry>
+</row>
+<row><entry>I-Top</entry>
+<entry>fish-ACC</entry>
+<entry>eat</entry>
+<entry>beer-TOP</entry>
+<entry>rice-ACC</entry>
+<entry>ate</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;I ate fish and Bill rice.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Ja</entry>
+<entry>vodu</entry>
+<entry><strike>pila</strike>
+</entry>
+<entry>i</entry>
+<entry>Anna</entry>
+<entry>vodku</entry>
+<entry>pila.</entry>
+<entry>&emsp;&emsp;Russian</entry>
+</row>
+<row><entry>I</entry>
+<entry>water</entry>
+<entry>drank</entry>
+<entry>and</entry>
+<entry>Anna</entry>
+<entry>vodka</entry>
+<entry>drank</entry>
+<entry>&nbsp;</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;I drank water and Anna vodka.&rsquo;</entry>
+<entry>&emsp;(<link rid="b1">Ross 1970a</link>: 251, (5b), (10b))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In such cases, of course, the Gapped verb makes up the right edge of the clause it has been elided from, and this violates Jackendoff&apos;s criterion.</p>
+<p>Further, if Jackendoff&apos;s criterion is relaxed, then examples like (8) could also be seen as instances of Gapping:</p>
+<p>(8)&ensp;Mary left early, and Sally <strike>left early</strike> too.</p>
+<p>In this case, the finite verb of the second conjunct would have Gapped along with the adverb <i>early</i>, and removed all of the second conjunct except its subject. Gapping might also be credited with (9), which could be seen as a special instance of the forward conjunct reduction case in (6b):</p>
+<p>(9)&ensp;Jill ate rice yesterday and <strike>Jill ate</strike> porridge today.</p>
+<p>Note that unlike (6b), however, the analysis which denies any ellipsis in (9) is less plausible. Such an account would have to treat <i>rice yesterday</i> and <i>porridge today</i> as constituents.</p>
+<p>In fact, Jackendoff&apos;s criterion is not generally adopted, and some of these cases are reasonably classed as Gapping. But for examples like (6a), the consensus appears to be that they are not, in fact, Gapping. Some superficial differences between cases of Right Node Raising, and canonical instances of Gapping, like those in (1), are the following.</p>
+<p>Gapping allows a mismatch in inflectional class between the Gapped verb and its antecedent; but Right Node Raising resists this:</p>
+<p>(10)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>He likes beans and you <strike>like</strike> rice.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*He always <strike>complains</strike> and you sometimes complain.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Right Node Raising is able to remove part of a word, as in (11b), but Gapping isn&apos;t:</p>
+<p>(11)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Carly is overpaid and Will under<strike>paid</strike>.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Carly is over<strike>paid</strike>, and Will underpaid.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Right Node Raising needs the material it elides to make up a contiguous string, but Gapping can (apparently) elide discontinuous strings, as the contrast in (12) illustrates:</p>
+<p>(12)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Carrie gave a set of directions to me, and Will <strike>gave</strike> a map <strike>to me</strike>.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Carrie <strike>gave</strike> a set of directions <strike>to me</strike>, and Will gave a map to me.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>And Right Node Raising can strand prepositions, but Gapping can&apos;t (a point made in <link rid="b5">Neijt 1979</link>):</p>
+<p>(13)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry namest="col2" nameend="col3">*John is confident of a successful outing and Peter <strike>is</strike> dependent on <strike>a successful outing</strike>.</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col3">John is confident of <strike>a successful outing</strike> and Peter is dependent on a successful outing.</entry>
+</row>
+<row><entry namest="col1" nameend="col2">
+</entry>
+<entry>(<link rid="b5">Neijt 1979</link>: 40, (85a), (86a))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Hankamer (1979: <related relationship="sibling" type="samework"><externallink id="chapter 1 - The Accusative Plus Infinitive Construction in English.xml" type="file">chapter 1</externallink></related>) and <link rid="b7">Maling (1972</link>) argue that finite verb ellipsis in verb-final languages, like Turkish, is actually Right Node Raising. The jury is still out on languages like Japanese; but in general, there appears to be no uniformly agreed-upon instance of Gapping applying to delete material in the first conjunct, in the way that Ross suggested.</p>
+<p>The cases in (8) and (9), on the other hand, are better candidates for Gapping. The case in (9) can be put together with examples like (14), in which various kinds of phrases follow the left conjunct:<link rid="fn3">
+<sup>3</sup></link>
+</p>
+<p>(14)&ensp;<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Did you tell John about our plans or Peter?</entry>
+<entry>(<link rid="b3">Ross 1986</link>)</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col3">Sally talked about the meeting passionately and about its consequences too.</entry>
+</row>
+<row><entry>c.</entry>
+<entry namest="col2" nameend="col3">James left unhappy today and unappreciated too.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b3">Ross (1986)</link> analyzed these as involving extraposition of a phrase consisting of and or <i>or</i> and the string that follows it. (14b), for instance, would have a source like <i>Sally talked about the meeting <u>and about its consequences too</u> passionately</i>, and would be formed by moving the underlined phrase to the end of the sentence.<link rid="fn4">
+<sup>4</sup></link> But <link rid="b5">Neijt (1979</link>) argues that they derive instead from Gapping; so (14b) would come from something like (15):</p>
+<p>(15)&ensp;Sally talked about the meeting passionately, and <strike>Sally talked</strike> about its consequences too.</p>
+<p>One of her arguments on behalf of the Gapping interpretation is that it could make sense of the fact that examples like (16) are blocked:</p>
+<p>(16)&ensp;*That dress has been designed by my grandma and made.</p>
+<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(<link rid="b5">Neijt 1979</link>: 64, (141a))</p>
+<p>There is no obvious reason why this shouldn&apos;t be derived from <i>That dress has been designed and made by my grandma</i>, under Ross&apos;s analysis. But if Gapping must always include the verb, and we shall see evidence for this shortly, then the ungrammaticality of (16) would be explained if its source is Gapping.</p>
+<p>Another reason for believing that some form of ellipsis produces examples such as (9) and (14) is that it could also create examples such as (17):</p>
+<p>(17)&ensp;Betsy wanted to read a book or a magazine.</p>
+<p>In fact, (17) has a meaning which is suggestive of such a source.<link rid="fn5">
+<sup>5</sup></link> On one reading, (17) describes a particular desire that Betsy has: she desires to read something that is either a book or a magazine. But on another of its readings, (17) is synonymous with (18), which claims that Betsy has one or the other of two desires:</p>
+<p>(18)&ensp;Betsy wanted to read a book or Betsy wanted to read a magazine.</p>
+<p>This second reading for (17) would be a straightforward consequence of deleting from the second disjunct of (18) <i>Betsy wanted to read</i>. <link rid="b8">Schwarz (1999</link>) argues for this conclusion, and notes that it makes sense of the fact that (19) gets only this latter reading:</p>
+<p>(19)&ensp;Either Betsy wanted to read a book or a magazine.</p>
+<p>This follows from the plausible thesis that <i>either</i> marks the left edge of a disjunction, which would force (19) to be a disjunction of clauses from which all but the object has Gapped in the second clause.</p>
+<p>These are reasons, then, for believing that ellipsis can produce examples like (9), (14), and (17); and given Neijt&apos;s argument from (16), Gapping is probably the form of ellipsis responsible.<link rid="fn6">
+<sup>6</sup></link> But note that for cases like (17), it is not necessary that Gapping be the only source. It is consistent with standard views of coordination that (17) could arise by disjoining <i>a book</i> and <i>a magazine</i> in the embedded clause. And this, or something like it, could be the appropriate representation for this sentence when it gets the first of the interpretations described (i.e., Betsy has a desire to read a book or a magazine).</p>
+</subsection>
+<subsection id="ss4" level="1">
+<heading id="h3" level="1">3 The No Embedding Constraint</heading>
+<p>To see the reason for classifying (8) as a Gapping construction, it is necessary first to appreciate one of the constraints that controls which strings can Gap. <link rid="b6">Hankamer (1979</link>) discovered that Gapping cannot affect a verb that is in an embedded clause, as in (20):<link rid="fn7">
+<sup>7</sup></link>
+</p>
+<p>(20)&ensp;*Alfonse stole the emeralds, and I think that Mugsy <strike>stole</strike> the pearls.</p>
+<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(<link rid="b6">Hankamer 1979</link>: 19, (23))</p>
+<p>He noted also that the antecedent to a Gap cannot be in an embedded clause. (21) illustrates:</p>
+<p>(21)&ensp;*I think that Alfonse stole the emeralds, and Mugsy <strike>stole</strike> the pearls.</p>
+<p>If (21) is understood as a (somewhat awkward) conjunction of two clauses, rather than as a single clause with an embedded coordination, it is ungrammatical. Now, when Ross&apos;s examples in (4) are considered, we can see that there is nothing wrong with a verb in an embedded clause being part of the Gapped material or its antecedent. Rather, what the contrast between (20) and (21) shows is that the Gapped material, and its antecedent, must include the verb of the conjoined clauses. In fact, it is likely that this constraint is even stronger, preventing a Gap or its antecedent from excluding the highest verb of the conjuncts, so I will formulate it as in (22):</p>
+<p>(22)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>The No Embedding Constraint:</b>
+</entry>
+</row>
+<row><entry>Let A and B be conjoined or disjoined phrases, and &bgr; be the string elided in B whose antecedent is &alpha; in A. Then &alpha; and &bgr; must contain the highest verb in A and B.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>It&apos;s this constraint that forms the foundation for Neijt&apos;s argument from the ungrammaticality of (16) that (9) and (14) are created by Gapping. Because the No Embedding Constraint requires Gapping to elide at least the verb, it&rsquo;ll block (16). And note too that the No Embedding Constraint would also prevent Gapping from being able to create (6b), since the verbs of the second conjunct remain in this example.</p>
+<p>The validity of the No Embedding Constraint turns then on whether (6b) should be classed as a Gapping construction, and also on whether examples such as (23) are instances of Gapping:</p>
+<p>(23)&ensp;Some have eaten chocolate, and others might <strike>eat</strike> fruit.</p>
+<p>
+<link rid="b9">Levin (1986)</link> argued that cases like (23) are produced by an ellipsis process distinct from Gapping, dubbing it &lsquo;Pseudogapping&rsquo;, to enforce her conclusion. Pseudogapping differs from Gapping in being able to apply in contexts other than coordinations, as in (24):</p>
+<p>(24)&ensp;Sally should eat legumes because she won&apos;t <strike>eat</strike> broccoli.</p>
+<p>Furthermore, there are languages which have Gapping, but which don&apos;t allow Pseudogapping. German is such a language, as the contrast between (25a) and (25b) indicates:</p>
+<p>(25)&ensp;<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Sally</entry>
+<entry>hat</entry>
+<entry>Kumquats</entry>
+<entry>gegessen</entry>
+<entry>und</entry>
+<entry>Dieter</entry>
+<entry>Bier</entry>
+<entry>getrunken.</entry>
+</row>
+<row><entry>Sally</entry>
+<entry>has</entry>
+<entry>kumquats</entry>
+<entry>eaten</entry>
+<entry>and</entry>
+<entry>Dieter</entry>
+<entry>beer</entry>
+<entry>drank</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;Sally ate kumquats and Dieter drank beer.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>*Sally</entry>
+<entry>hat</entry>
+<entry>Kumquats</entry>
+<entry>gegessen</entry>
+<entry>weil</entry>
+<entry>Dieter</entry>
+<entry>Natto</entry>
+<entry>hat.</entry>
+</row>
+<row><entry>Sally</entry>
+<entry>has</entry>
+<entry>kumquats</entry>
+<entry>eaten</entry>
+<entry>since</entry>
+<entry>Dieter</entry>
+<entry>natto</entry>
+<entry>has</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;Sally ate kumquats because Dieter natto.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>And German examples parallel to (23) are ungrammatical, again suggesting that these cases cannot be produced by Gapping:</p>
+<p>(26)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry>*Sally</entry>
+<entry>hat</entry>
+<entry>Kumquats</entry>
+<entry>gegessen</entry>
+<entry>und</entry>
+<entry>Dieter</entry>
+<entry>hat</entry>
+<entry>Natto.</entry>
+</row>
+<row><entry>Sally</entry>
+<entry>has</entry>
+<entry>kumquats</entry>
+<entry>eaten</entry>
+<entry>and</entry>
+<entry>Dieter</entry>
+<entry>has</entry>
+<entry>natto</entry>
+</row>
+<row><entry namest="col1" nameend="col8">&lsquo;Sally ate kumquats and Dieter natto.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>For this reason, then, I&rsquo;ll adopt a formulation of Hankamer&apos;s constraint like that in (22), and assume that neither (6b) nor (23) arises through Gapping.</p>
+<p>So far as is known, Gapping is the only ellipsis process constrained by the No Embedding Constraint. To the extent that the No Embedding Constraint is unique to Gapping, then, it can be used as a diagnostic for it. And, according to this diagnostic, examples such as (8) are produced from Gapping. When the second conjunct in (8) is embedded under a verb, as in (27), the result is ungrammatical:</p>
+<p>(27)&ensp;*Mary left early, and I think Sally too.</p>
+<p>Putting together these various observations, we can formulate a preliminary definition of Gapping as follows:</p>
+<p>(28)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Gapping:</b>
+</entry>
+</row>
+<row><entry>In a structure A <i>c</i> B, where <i>c</i> is <i>and</i> or <i>or</i>, Gapping deletes a string in B that is identical to a string in A and satisfies the No Embedding Constraint (i.e., (22)).</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This captures the fact that Gapping is restricted to coordinations (with the caveat about (2) and (3)), removes material from the second of two conjuncts, and is subject to Hankamer&apos;s No Embedding Constraint. It also entails, because of the requirements in the No Embedding Constraint, that Gapping can only elide verbs. <link rid="b5">Neijt (1979</link>) argues that this outcome is correct as well, citing examples such as those in (29) to illustrate that Gapping is prevented from applying to Prepositions, Adjectives, and Quantifiers:<link rid="fn8">
+<sup>8</sup></link>
+</p>
+<p>(29)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry namest="col2" nameend="col3">*Several inches above the ground and several feet <strike>above</strike> sea level.</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col3">*A five year younger or 10 year <strike>younger</strike> sister.</entry>
+</row>
+<row><entry>c.</entry>
+<entry namest="col2" nameend="col3">*He ran a few seconds faster or a few minutes <strike>faster</strike> to his house.</entry>
+</row>
+<row><entry>d.</entry>
+<entry namest="col2" nameend="col3">*Bill drank much too much or a little bit <strike>too much</strike> wine.</entry>
+</row>
+<row><entry>e.</entry>
+<entry>*John bought a little bit more or a lot <strike>more</strike>.</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col2">
+</entry>
+<entry>(<link rid="b5">Neijt 1979</link>: 27, (54c, &ensp;e&ndash;h))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>And though there are cases, like (30), which look as though they could be achieved if Gapping applies to Nouns, she suggests that these are the products of another ellipsis process, &lsquo;Deletion&rsquo;, exemplified by examples such as (31):<link rid="fn9">
+<sup>9</sup></link>
+</p>
+<p>(30)&ensp;One dog with five legs, another <strike>dog</strike> with a cow&apos;s liver, and a third <strike>dog</strike> with no head.&emsp;&emsp;&emsp;(<link rid="b5">Neijt 1979</link>: 27, (54a))</p>
+<p>(31)&ensp;One dog with five legs walked in after another <strike>dog</strike> with no head left.</p>
+<p>Setting aside the issue of Nouns, it should be noted, however, that there are contexts in which Adjectives would appear to be able to Gap:</p>
+<p>(32)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Malfoy made Snape happy about his potions and Hagrid <strike>happy</strike> about his Griffons.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Hermoine considered Voldemort frightened of Dumbledore and Malfoy <strike>frightened</strike> of Harry.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>So far as I have been able to determine, other categories are not susceptible to Gapping in these contexts, however:</p>
+<p>(33)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Ron let Harry in the dungeon and Filtch <strike>in</strike> the common room.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Dudley considers some witches friends of mine and others <strike>friends</strike> of yours.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Let us continue to restrict Gapping to strings with verbs in them, then, pending an explanation for the exceptional cases in (32).<link rid="fn10">
+<sup>10</sup></link>
+</p>
+<p>There is another, somewhat subtler, consequence of defining Gapping as (28) does. Because (28) requires that the antecedent to a Gapped string be found in the conjunct or disjunct immediately preceding, it will prevent a Gap from finding a more distant antecedent in situations in which there are more than two coordinates. It will correctly prevent examples such as (34), for instance:</p>
+<p>(34)&ensp;*John invited Sue, Peter kissed Mary, and Max <strike>invited</strike> Betsy.</p>
+<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(<link rid="b5">Neijt 1979</link>: 71, note 7 (iv))</p>
+<p>Because the antecedent to <i>invited</i> is not found in the immediately preceding conjunct, it cannot Gap in the final conjunct. On the other hand, an example such as (35) is permitted, as Gapping can apply from right to left, taking the conjuncts pair-wise:</p>
+<p>(35)&ensp;John invited Sue, Peter <strike>invited</strike> Mary, and Max <strike>invited</strike> Betsy.</p>
+<p>So the Gapped <i>invited</i> in the final conjunct finds its antecedent in the immediately preceding conjunct, and this middle <i>invited</i> in turn Gaps under identity with the antecedent in the first conjunct.</p>
+</subsection>
+<subsection id="ss5" level="1">
+<heading id="h4" level="1">4 Gapping and constituency</heading>
+<p>Let&apos;s turn next to the question of how to characterize the set of strings that Gapping can elide. As we have seen in (5a) and (12a) &ndash; repeated below as (36) &ndash; Gapping can delete strings of terms that are not typically thought to make up constituents in English:</p>
+<p>(36)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>I want to try to begin to write a novel and Mary <strike>wants to try to begin</strike> to review a play.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Carrie gave a set of directions to me, and Will <strike>gave</strike> a map <strike>to me</strike>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Standard parses of English sentences do not form a constituent of <i>want to try to begin</i> that excludes <i>to review a play</i>; nor do they allow discontinuous strings, like the <i>gave to me</i> sequence in (36b), to form a constituent that excludes intervening material. Because syntactic processes are very typically restricted to affecting just constituents, these cases are surprising. If we think of Gapping as a rule that targets strings in a clause and deletes them, then this would be a counter-example to this otherwise valid generalization about such rules.</p>
+<p>But it&apos;s not that Gapping can delete just any string. <link rid="b6">Hankamer (1979</link>), for example, observes that there are contrasts like (37):</p>
+<p>(37)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry namest="col2" nameend="col3">Charley writes with a pencil and John <strike>writes</strike> with a pen.</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col3">*Charley writes with a pencil and John <strike>writes with</strike> a pen.</entry>
+</row>
+<row><entry>c.</entry>
+<entry namest="col2" nameend="col3">*Charley writes with a pencil and John <strike>writes with a</strike> pen.</entry>
+</row>
+<row><entry namest="col1" nameend="col2">
+</entry>
+<entry>(<link rid="b6">Hankamer 1979</link>: 18)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>It appears that Gapping is prevented from taking part of a preposition phrase and leaving the rest. And, similarly, Gapping cannot elide a portion of an object noun phrase either, as in (38):</p>
+<p>(38)&ensp;<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Charley wrote several books on syntax and Jill <strike>wrote</strike> several books on semantics.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Charley wrote several books on syntax and Jill <strike>wrote several</strike> books on semantics.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*Charley wrote several books on syntax and Jill <strike>wrote several books on</strike> semantics.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>There have been two broad approaches to capturing constraints such as these. In one, generalizations about the shape that the remnants may have are sought; and in the other, generalizations about the elided strings themselves are formulated.</p>
+<subsection id="ss6" level="2">
+<heading id="h5" level="2">4.1 Conditions on remnants</heading>
+<p>Hankamer&apos;s own approach was of the first kind. He described the constraint responsible for (37) and (38) in terms of a restriction that requires the remnants of Gapping to be &lsquo;Major Constituents&rsquo;, which he defined as phrases which are immediate daughters of S (or IP, in modern parlance). Because he held a skeptical view about the existence of VP, this meant that subjects, adverbs, PPs, and objects qualified as Major Constituents, but nothing else. If we admit the existence of VP, we might formulate this along the lines he resorts to in <link rid="b10">Hankamer (1973a</link>: 18): &ldquo;A &lsquo;major constituent&rsquo; of a given sentence S<sub>0</sub> is a constituent either immediately dominated by S<sub>0</sub>, or immediately dominated by VP which is immediately dominated by S<sub>0</sub>.&rdquo; That we should allow Gapping to see VPs, and therefore adopt this formulation, is indicated by cases such as (39), in which an auxiliary verb has elided:</p>
+<p>(39)&ensp;Some have prepared kumquats and others <strike>have</strike> baked pies.</p>
+<p>While the status of examples such as (39) is somewhat controversial &ndash; <link rid="b1">Ross (1970a</link>) classed them as ungrammatical, and <link rid="b11">Siegel (1987</link>), where they are marked grammatical, assumes that they are not produced by Gapping &ndash; the present consensus appears to be that they are both grammatical and Gapping. That they are Gapping is suggested by the fact that they appear to meet the criteria (28) uses to define Gapping. For example, auxiliary verbs may delete like this only in co-ordinations (compare (40a)), the antecedent must be in the first coordinate (witness (40b)), and it is subject to the No Embedding Constraint (as (40c) suggests):</p>
+<p>(40)&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Some have prepared kumquats while others <strike>have</strike> baked pies.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Some <strike>have</strike> prepared kumquats and others have baked pies.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*Some wanted to have prepared kumquats, and others wanted to <strike>have</strike> baked pies.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>To the extent that (39) is grammatical, then, it shows that Gapping can leave the verb&plus;NP string as a remnant. We have already seen, however, that the auxiliary verb&plus;NP string in (41) does not constitute a legitimate Gapping remnant (this sentence, to the extent that it is grammatical, comes about by way of pseudogapping):</p>
+<p>(41)&ensp;Some have prepared kumquats and others have <strike>prepared</strike> pies.</p>
+<p>Thus, we seek a way of distinguishing these two cases. That is, in a string <i>have</i>&plus;participle&plus;NP, we want to allow participle&plus;NP to be able to survive as a remnant from Gapping, but prevent <i>have</i>&plus;NP from being a remnant. While it may not be utterly necessary, it seems reasonable to adopt the commonplace view that the participle&plus;NP string is embedded within the <i>have</i>&plus;participle&plus;NP string, and distinguish them that way. (This is just what the No Embedding Constraint, in fact, does.) But this will require the existence of VPs. Thus we should adopt the definition of major constituent that recognizes the existence of VPs.</p>
+<p>Hankamer&apos;s constraint hasn&apos;t been widely adopted. One straightforward difficulty is that the notion &lsquo;major constituent&rsquo; has not been grounded in anything more general. That is, so far as other syntactic processes are concerned, major constituents don&apos;t appear to behave as a class, making their use in constraining Gapping somewhat dubious. Moreover, there seem to be counter-examples to Hankamer&apos;s constraint. Sag points out,<link rid="fn11">
+<sup>11</sup></link> for instance, that it would not permit instances of Gapping like those in (36a), repeated in (42a), and it&apos;s hard to see how to modify the constraint so that it could distinguish (42a) from (42b):</p>
+<p>(42)&ensp;<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>I want to try to begin to write a novel and Mary <strike>wants to try to begin</strike> to review a play.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*I want to try to begin to write a novel and Mary <strike>wants to try to begin to</strike> review a play.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>There is, however, evidence that the remnants to Gapping must be able to be factored into constituents. And, indeed, it is likely that they must be partitionable into maximal projections. This would explain the contrast between (38a) and (38b), as well as that between (37b) and (37c). And it would extend to account for the badness of examples such as (43):</p>
+<p>(43)&ensp;<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Some read angry letters and others <strike>read angry</strike> reports.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Some bought books about themselves and others <strike>bought</strike> reports <strike>about themselves</strike>.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*Some remember your mother and others <strike>remember your</strike> father.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>*Some brought every package and others <strike>brought every</strike> wrapper.</entry>
+</row>
+<row><entry>e.</entry>
+<entry>*Some appeared almost happy and others <strike>appear almost</strike> rich.</entry>
+</row>
+<row><entry>f.</entry>
+<entry>*Some talked only to Smith and others <strike>talked only</strike> to Jones.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In each of the examples in (43), a subconstituent of the noun phrase, adjective phrase, or prepositional phrase has survived Gapping. If the material that would make these subconstituents full NPs, APs, or PPs is restored, the examples become grammatical. Let&apos;s adopt, then, this rather watered-down version of Hankamer&apos;s condition on remnants:</p>
+<p>(44)&ensp;<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>The Constituency Condition of Remnants:</b>
+</entry>
+</row>
+<row><entry>Let P(x) be a parse for a string x. If A is a string of words in a coordinate, from which the substring B has Gapped leaving the string C, then there must be a way of factoring C into a series of maximal projections found in P(A).</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This leaves the ungrammaticality of (37b) and (38b, c) to be explained; and also fails to shed light on the contrast between (42a) and (42b). We will review below a way of deriving the Constituency Condition that extends to these cases.</p>
+<p>Another proposed constraint on remnants is that there may be no more than two of them.<link rid="fn12">
+<sup>12</sup></link> <link rid="b4">Jackendoff (1971</link>) points to contrasts like the following, as evidence:</p>
+<p>(45)&ensp;<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Arizona elected Goldwater Senator, and Massachusetts McCormack Congressman.</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>*Millie will send the President an obscene telegram, Paul the Queen a pregnant duck.</entry>
+</row>
+<row><entry>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(<link rid="b4">Jackendoff 1971</link>: 25, (23))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>But this effect is probably related to the fact that the remnants in Gapping constructions are used to introduce &lsquo;new&rsquo; information into the discourse, a point that <link rid="b12">Kuno (1976</link>) draws attention to. One way this can express itself is for the remnants, and the parallel terms in the first conjunct &ndash; I will call them &lsquo;correlates&rsquo; from now on &ndash; to be focused. Gapping constructions can therefore be thought of as appropriate in contexts in which there is an implicit question that the remnants and correlates serve as answers to. (46), for example, might be thought of as addressing a topic that is expressed by the question: &lsquo;Who likes what?&rsquo;:</p>
+<p>(46)&ensp;<u>Jerry</u> likes <u>beans</u> and <u>Sally kumquats</u>.</p>
+<p>When sentences with Gaps in them are explicitly offered as answers to questions, it is much easier to have more than two remnants:</p>
+<p>(47)&ensp;Who will send who what?</p>
+<p>Sally will send Ron pickles, and Martha Hermione kumquats.</p>
+<p>Or when the remnants have more descriptive content to them than names do, and are therefore more suitable for introducing new information, the results also improve:</p>
+<p>(48)&ensp;Arizona elected a right-wing bastard to the Senate and Massachusetts a moderate wank to the Congress.</p>
+<p>This property of the construction probably also plays a role in examples that <link rid="b10">Hankamer (1973a</link>) judged unacceptable and credited to what he called the No Ambiguity Constraint. Some of his examples are in (49):</p>
+<p>(49)&ensp;<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Jack calls Joe Mike and Sam <strike>calls Joe</strike> Harry.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Jack told Harry that Nixon was a fairy, and Alex <strike>told Harry</strike> that Agnew had warts.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Max wanted to put the eggplant on the table, and Harvey <strike>wanted to put the eggplant</strike> in the sink.&emsp;&emsp;&emsp;&emsp;&emsp;(<link rid="b10">Hankamer 1973a</link>: 3, (57&ndash;9))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Hankamer argued that these do not get the interpretation that would result from the pattern of Gapping shown because there is another interpretation available that blocks these. This other interpretation, which might be produced by Conjunction Reduction or Gapping or both, is indicated by the ellipses shown in (50):</p>
+<p>(50)&ensp;<object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Jack calls Joe Mike and <strike>Jack calls</strike> Sam Harry.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Jack told Harry that Nixon was a fairy, and <strike>Jack told</strike> Alex that Agnew had warts.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Max wanted to put the eggplant on the table, and <strike>Max wanted to put</strike> Alex in the sink.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Hankamer suggested that when Gapping produces ambiguous results, as in these cases, those interpretations which would place the Gap at the leftmost edge are favored, hence the interpretation in (50) but not (49). But <link rid="b12">Kuno (1976</link>) argues that these contrasts too are an artifact of the requirement that Gapping remnants introduce new material.<link rid="fn13">
+<sup>13</sup></link> He points out that when names are used, the tendency already present to treat the material within VP as new information will be strengthened. This will, by itself, favor the interpretation in (49) over that in (50), since in neutral contexts the subjects of the first conjunct will not be taken to introduce new material and will, as a consequence, not be suitable correlates for remnants in the second conjunct. This tendency can be overcome, however, if the correlate status of the subject is signaled lexically, as in (51):</p>
+<p>(51)&ensp;<object id="tu28" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu28_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Some call Joe Mike and others <strike>call Joe</strike> Harry.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Some told Harry that Nixon was a fairy, and others <strike>told Harry</strike> that Agnew had warts.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Some wanted to put the eggplant on the table, and others <strike>wanted to put the eggplant</strike> in the sink.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Or if the sentences are uttered with appropriate stress, placed on the subjects but not the objects; or if they are uttered in a context that makes it clear which arguments are furnishing new information.<link rid="fn14">
+<sup>14</sup></link>
+</p>
+<p>Here, then, is our second condition on the remnants:</p>
+<p>(52)&ensp;<object id="tu29" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu29_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Kuno&apos;s Novelty Condition on Remnants:</b>
+</entry>
+</row>
+<row><entry>The phrases in the coordinate that are left over from Gapping introduce new information.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This and the Constituency Condition on Remnants in (44) are the best candidates for constraints on what Gapping leaves behind. The remainder of the conditions on Gapping tend to be found in constraints on the strings that can Gap.</p>
+</subsection>
+<subsection id="ss7" level="2">
+<heading id="h6" level="2">4.2 Constraints on the Gapped string</heading>
+<p>Ross and Hankamer took ellipsis rules in general, and Gapping in particular, to be a phenomenon which deletes a &lsquo;variable&rsquo; in the structural description of a transformational rule. On this conception, the remnants could be thought of as &lsquo;targets&rsquo; in the transformational rule, and the variable that corresponds to the string surrounding these targets would be subject to the ellipsis process. Thus, the structural description could select maximal projections, accounting for the Constituency Condition on Remnants, and Gapping would delete the rest of the clause.<link rid="fn15">
+<sup>15</sup></link> Now this predicts that the constraints which <link rid="b3">Ross (1986</link>), for example, identifies as holding of these variables should play a role in defining which strings Gapping can affect. <link rid="b5">Neijt (1979</link>) is the fullest systematic study of this prediction, and she concludes that it is largely confirmed. Ross&apos;s constraints, later incorporated into more general constraints such as Subjacency, are now typically held to govern the distance that things can move. So one way of judging this thesis is to see if there is a match between the strings past which things can move and the strings that can Gap. This is essentially what Neijt sought. Some of her examples are in (53&ndash;55):</p>
+<p>(53)&ensp;<object id="tu30" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu30_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>*John came home to find his wife sick, and Bill <strike>came home to find</strike> his child <strike>sick</strike>.</entry>
+</row>
+<row><entry>*My wife, who I came home to find sick, was in a lousy mood.</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>*John must be a fool to have married Jane, and Bill <strike>must be a fool to have married</strike> Martha.</entry>
+</row>
+<row><entry>*The woman who John was a fool to have married was Jane.</entry>
+</row>
+<row><entry morerows="1">c.</entry>
+<entry>*Tom went to Florida to learn to play tennis and Bill <strike>went to Florida to learn to play</strike> squash.</entry>
+</row>
+<row><entry>*What did Tom go to India to become?</entry>
+</row>
+<row><entry morerows="2">d.</entry>
+<entry><sup>??</sup>John was upset having received A&minus; for the course, and Bill <strike>was upset having received</strike> B&minus; <strike>for the course</strike>.</entry>
+</row>
+<row><entry><sup>??</sup>What grade was John upset having received for the course?</entry>
+</row>
+<row><entry>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(<link rid="b5">Neijt 1979</link>: 131&ndash;2, (53))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(54)&ensp;<object id="tu31" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu31_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry namest="col2" nameend="col3">*John wondered what to cook today and Peter <strike>wondered what to cook</strike> tomorrow.</entry>
+</row>
+<row><entry namest="col2" nameend="col3">*When did John wonder what to cook?<link rid="fn16">
+<sup>16</sup></link>
+</entry>
+</row>
+<row><entry morerows="2">b.</entry>
+<entry namest="col2" nameend="col3">*John asked which candidates to interview this morning and Peter <strike>asked which candidates to interview</strike> this afternoon.</entry>
+</row>
+<row><entry namest="col2" nameend="col3">*When did John ask which candidates to interview?</entry>
+</row>
+<row><entry>
+</entry>
+<entry>(<link rid="b5">Neijt 1979</link>: 138, (73))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(55)&ensp;<object id="tu32" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu32_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry namest="col1" nameend="col2">*John discussed my question of which flowers they saw and Bill <strike>discussed my question</strike> (of) which animals <strike>they saw</strike>.</entry>
+</row>
+<row><entry namest="col1" nameend="col2">*Which flowers did John believe the claim that Peter saw?</entry>
+</row>
+<row><entry>
+</entry>
+<entry>(<link rid="b5">Neijt 1979</link>: 134, (56), and 136, (64))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (53) we see instances of the Adjunct condition which prohibits movement out of an adjunct clause and will have the consequence of preventing Gapping from including part of an adjunct. In (54) are instances of the <i>Wh</i>-Island Constraint, which prohibits movement out of indirect questions and here blocks Gaps from including part of an indirect question. And in (55) is an instance of the Complex Noun Phrase Constraint, which prevents movement out of clauses embedded within NPs, and would therefore prevent Gaps from similarly reaching into an NP.</p>
+<p>Neijt also notes some differences between constraints on movement and those on Gapping. She notes, for instance, that Gapping cannot affect a string that reaches into a finite clause. There is a difference, then, between examples like (56) and those that Ross described (such as Ross&apos;s (57), in which Gapping reaches into a non-finite clause):</p>
+<p>(56)&ensp;<object id="tu33" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu33_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry namest="col2" nameend="col3">*Charles decided that 20 boys are coming along and Harrie <strike>decided that</strike> 30 girls <strike>are coming along</strike>.</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry namest="col2" nameend="col3">*The first letter says that you should pay tax and the second letter <strike>says that you should pay</strike> V.A.T.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>(<link rid="b5">Neijt 1979</link>: 142&ndash;3, (86))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(57)&ensp;I want to try to begin to write a novel, and Mary <strike>want to try to begin to write</strike> a play.</p>
+<p>There is no visible corresponding constraint on movement in English; certainly <i>wh</i>-movement is not prevented from coming out of finite clauses:</p>
+<p>(58)&ensp;<object id="tu34" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu34_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>How many girls did Charles decide are coming along?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>What did the first letter say that you should pay?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Neijt suggests that Gapping is subject to <link rid="b13">Chomsky&apos;s (1977a</link>) Tensed S Condition, which prohibits extraction from finite clauses. When this constraint applies to movement operations, as in (58), Chomsky argued that it can be satisfied if the moved phrase moves first into the Comp (or Specifier of CP) position of the finite clause it is going to escape. He formulated the Tensed S Condition so that it could move things out of finite clauses only if they are in Comp: descriptively, at the left edge of the clause. That this particular formulation of the Tensed S Condition is at play in the Gapping construction, Neijt argues, is indicated by the fact that when the remnant is in the Comp position of the finite clause, the result is improved. Thus, she contrasts (56) with the relatively grammatical (59):</p>
+<p>(59)&ensp;<object id="tu35" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu35_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry namest="col2" nameend="col3">Charles may decided which boys are coming along and Max <strike>may decide</strike> which girls <strike>are coming along</strike>.</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry namest="col2" nameend="col3">The first letter says how much tax you should pay and the second letter <strike>says</strike> how much V.A.T. <strike>you should pay</strike>.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>(<link rid="b5">Neijt 1979</link>: 142, (85))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>But there are problems with this way of characterizing such examples. The contrast between (56) and (59) is conceivably traced back to the availability of another ellipsis process restricted to questions. This process &ndash; also first systematically studied by John Ross<link rid="fn17">
+<sup>17</sup></link> &ndash; is known as Sluicing and exemplified by (60):</p>
+<p>(60)&ensp;I can remember which women Mary knows, but I can&apos;t recall which men <strike>Mary knows</strike>.</p>
+<p>In general, Sluicing elides the sentence that follows a <i>wh</i>-phrase, when that elided sentence has an antecedent previous to it, and when certain conditions on contrastiveness are met.<link rid="fn18">
+<sup>18</sup></link> If Sluicing is capable of eliding just a portion of the sentence it affects, then examples like those in (59) could conceivably be produced through a combination of Gapping (eliding the main highest verbs of the conjunct) and Sluicing (eliding the material in the embedded interrogative).</p>
+<p>Nonetheless, even if the examples in (59) are not produced by Gapping alone, Neijt&apos;s conjecture that Gapping obeys the Tensed S Condition remains consistent with the data. In general, then, her catalogue of facts supports the hypothesis that Gapping targets the class of strings that are allowed to lie between the target and landing site of a movement operation. In current syntactic theory, these strings are no longer characterized in terms of variables in the structural description of a transformational rule. Movement transformations are instead processes whose parts are partitioned out to independent modules of the grammar, and the constraints on the distances that movement operations may traverse are thought to emerge as a consequence of how these modules play out. A natural way of interpreting the match between what can Gap and what can be traversed by movement is that Gapping can act on the constituents that are formed by movement. This presently seems to be the consensus view: Gapping is capable of acting on the output of a movement operation that relocates remnants. <link rid="b14">Sag (1980</link>) may have been the first to propose something along these lines. He suggests<link rid="fn19">
+<sup>19</sup></link> that the variable which Gapping deletes on the surface must correspond to a constituent formed at Logical Form by moving the remnants. He relates the movement of the remnants at Logical Form to their bearing focus, which he followed <link rid="b15">Chomsky (1980b</link>) in supposing induced a kind of Focus Movement.</p>
+<p>
+<link rid="b16">Pesetsky (1982)</link>, who similarly concludes that the strings which Gap are formed by movement,<link rid="fn20">
+<sup>20</sup></link> brings forward additional data that fit this interpretation of the island effects in (53&ndash;55). He notes that not only are islands obeyed by the Gapped string, but the strength of island violations is reproduced as well. For instance, there is a strong difference in violations of the <i>wh</i>-island condition that depends on the position from which the term escaping the island originates. Extraction of objects from <i>wh</i>-islands is considerably better than extraction of subjects, as the pair in (61) illustrates:</p>
+<p>(61)&ensp;<object id="tu36" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu36_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry><sup>??</sup>Which food does this man know why you ate?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Which food does this man know why makes you sick?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This contrast is preserved in Gapping contexts:</p>
+<p>(62)&ensp;<object id="tu37" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu37_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry namest="col2" nameend="col3">
+<sup>??</sup>This man knows why you eat spaghetti, and that man, macaroni.</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry namest="col2" nameend="col3">*This man knows why spaghetti makes you sick, and that man, macaroni.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>(<link rid="b16">Pesetsky 1982</link>: 644, (120b), and 645, (121))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Further, Pesetsky argues that other constraints on multiple questions are found in Gapping. One of those constraints, Superiority, prevents <i>wh</i>-movement from moving a term past a c-commanding interrogative phrase. This is what is responsible for the contrast in grammaticality in (63):</p>
+<p>(63)&ensp;<object id="tu38" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu38_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Who gave what to Mary?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*What did who give to Mary?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Pesetsky reports a similar contrast for the remnants in Gapping. If one of those remnants is a <i>wh</i>-phrase, then it cannot have been moved past a c-commanding remnant; the contrast in (64) mirrors that in (63):<link rid="fn21">
+<sup>21</sup></link>
+</p>
+<p>(64)&ensp;<object id="tu39" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu39_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry namest="col2" nameend="col3">Bill asked which books I gave to Mary, and which records, to John.</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry namest="col2" nameend="col3">*Bill asked which books Mary likes, and which records, John.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>(<link rid="b16">Pesetsky 1982</link>: 646, (126), (127))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>It&apos;s unclear how to formulate Superiority so that it will cover both cases; but in general, the match between (63) and (64) suggests that a similar process is involved in creating both constructions. If the in situ <i>wh</i>-phrases in (63) move &ndash; a popular approach to these sorts of multiple questions &ndash; then the hypothesis that Gapping remnants move as well makes sense of the match.</p>
+<p>Moreover, this thesis has the interesting side-effect that it explains the Constituency Condition on Remnants. To the extent that movement operations can only target constituents, they will pick out just those strings as remnants which parse as constituents. Moreover, it goes beyond the Constituency Condition and offers a method for blocking the bad examples in (37) and (38) as well. If remnants are just phrases that move, then the cases in (37b) and (38b) would have to arise by moving an NP away from its determiner, and this is not possible. To produce the ungrammatical (37c) and (38c), it would be necessary to move a DP out of a prepositional phrase, and though this is normally quite possible in English, there are movement operations which are constrained in this way. &lsquo;Scrambling&rsquo; in the Germanic languages, for instance, is incapable of stranding prepositions; indeed, Scrambling in the Germanic languages is blocked from moving constituents out of embedded finite clauses as well, matching in this respect the constraint on Gapping that (56) illustrates. Finally, Scrambling in the Germanic languages is plausibly able to move infinitival clauses (the evidence is unclear), but probably cannot move VPs out of embedded clauses. This would explain why embedded infinitival clauses can be remnants (as in (42a)) but embedded VPs cannot (as (42b) shows).</p>
+<p>Thus, many of the constraints on remnants and on the strings that can Gap are accounted for if the thesis that Gapping can be fed by movement is given the more specific form in (65):</p>
+<p>(65)&ensp;Gapping elides an XP from which the remnants have scrambled.</p>
+<p>Under this interpretation of the facts, examples such as (66) or (68) would have representations like (67) and (69):</p>
+<p>(66)&ensp;Some have drunk whiskey and others <strike>have drunk</strike> bourbon.</p>
+<p>(67)&ensp;<object id="fu1" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_29_fu1.jpg" type="jpg" id="fu1_source"/>
+</objectsource>
+</object>
+</p>
+<p>(68)&ensp;Some want to drink whiskey and others <strike>want to drink</strike> bourbon.</p>
+<p>(69)&ensp;<object id="fu2" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_29_fu2.jpg" type="jpg" id="fu2_source"/>
+</objectsource>
+</object>
+</p>
+<p>To produce examples like (8), repeated here as (70), we let Gapping elide the VP without accompanying scrambling, as in (71):</p>
+<p>(70)&ensp;Mary left early, and Sally <strike>left early</strike> too.</p>
+<p>(71)&ensp;<object id="fu3" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_29_fu3.jpg" type="jpg" id="fu3_source"/>
+</objectsource>
+</object>
+</p>
+<p>And to manufacture examples like (9), repeated below as (72), we should adopt the thesis that subjects can be generated within the VP, and let (9) arise when the subject remains in this position, as in shown in (73):</p>
+<p>(72)&ensp;Jill ate rice yesterday and <strike>Jill ate</strike> porridge today.</p>
+<p>(72)&ensp;<object id="fu4" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_29_fu4.jpg" type="jpg" id="fu4_source"/>
+</objectsource>
+</object>
+</p>
+<p>By and large, then, if Gapping can elide VPs, and can do so after terms within that VP have scrambled out, a certain range of central cases can be accounted for.</p>
+</subsection>
+</subsection>
+<subsection id="ss8" level="1">
+<heading id="h7" level="1">5 Parallelism and scope</heading>
+<p>The odd property of this thesis is that it requires English surface forms to be able to be produced by the Scrambling process that is so transparently a part of, say, German or Dutch word order. English surface forms, however, do not otherwise appear to have been created by Scrambling. One of the unsolved problems of Gapping, then, is to fit the thesis in (65) to the more general syntax of English sentences, or to find a replacement for (65).</p>
+<p>If such a fit can be found, however, the technique (65) allows can also be extended to cases such as (74), in which Gapping has elided the subject along with the verb:</p>
+<p>(74)&ensp;On Monday, I bought a car and on Tuesday <strike>I bought</strike> a motorcycle.</p>
+<p>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(<link rid="b17">Oirsouw 1987</link>: 146, (158))</p>
+<p>(Cases such as these are also found in <link rid="b12">Kuno 1976</link>: 307, (31a) and <link rid="b14">Sag 1980</link>: 266, (3.4.16).) If we assume that the topicalized PPs in this example are adjoined to IP, then we can combine the techniques used to manufacture (71) and (72) to give the Gap in (74) the representation in (75):</p>
+<p>(75)&ensp;<object id="fu5" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_29_fu5.jpg" type="jpg" id="fu5_source"/>
+</objectsource>
+</object>
+</p>
+<p>Through this case, another fact about Gapping can be observed: there is a matching requirement on the word order found in the antecedent clause and the clause with the Gap.<link rid="fn22">
+<sup>22</sup></link> (76) is relatively ungrammatical when compared to (74):</p>
+<p>(76)&ensp;*I bought a car on Monday, and on Tuesday, a motorcycle.</p>
+<p>This fact might be related to another requirement on Gapping: the scope of quantifiers in the antecedent clause must be parallel to those in the clause with the Gap. In (77), for example, if <i>some girl</i> has narrower scope than <i>every book</i> then <i>some boy</i> must also have scope narrower than <i>every pamphlet</i>:</p>
+<p>(77)&ensp;Some girl read every book and some boy every pamphlet.</p>
+<p>If <i>some boy</i> has scope wider than <i>every pamphlet</i>, then <i>some girl</i> is going to have wider scope than <i>every book</i>. In other words, (77) does not support interpretations paraphrased in (78):</p>
+<p>(78)&ensp;<object id="tu40" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu40_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>There is some girl who read every book, and for each pamphlet, there is some boy or other who read it.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>For each book, there is some girl or other who read it, and there is some boy who read every pamphlet.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The same parallelism can be demonstrated for quantificational arguments which are included in the ellipsis, as in (79):</p>
+<p>(79)&ensp;Some read a story by Grimm to every child and others a story by Seuss.</p>
+<p>Just as in (77), the relative scopes of <i>every child</i> and <i>a story by Grimm</i> must match the relative scopes of <i>every child</i> and <i>a story by Seuss</i>. A similar parallelism is found in other forms of ellipsis &ndash; VP ellipsis, pseudogapping, and sluicing &ndash; and it is presently thought that the close relationship between ellipsis and de-accenting is responsible (see <link rid="b18">Fox 1999</link>; <link rid="b19">Merchant 2001</link>). To the extent that word order expresses information structure, including the focus semantics of a clause, it may be possible to relate the matching requirement that (76) illustrates with the parallelism effect found in cases such as (77) and (79).</p>
+<p>If the parallelism constraint on the scope of arguments that (77) and (79) illustrate is something that Gapping shares with other ellipsis processes, it also displays some unique scopal properties. <link rid="b20">Oehrle (1987</link>), <link rid="b11">Siegel (1987</link>), and <link rid="b21">McCawley (1993</link>) note that modals and negation in the antecedent clause sometimes behave as if they scope over the entire conjunction. For example, in (80a), <i>must</i> is understood to scope over the coordination, producing the interpretation paraphrased by (80b):</p>
+<p>(80)&ensp;<object id="tu41" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu41_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry namest="col2" nameend="col3">I tried it in both positions, one of which must have been the locked position and the other one the unlocked position, but it wouldn&apos;t work either way.</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry namest="col2" nameend="col3">I tried it in both positions, for which it must have been that one was locked and the other unlocked, but it wouldn&apos;t work either way.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>(<link rid="b21">McCawley 1993</link>: 249, (20g))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The same is found for <i>didn&apos;t</i> in (81a), which favors an interpretation in which it has the entire conjunction in its scope, yielding the meaning (81b) indicates:</p>
+<p>(81)&ensp;<object id="tu42" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu42_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry namest="col2" nameend="col3">Kim didn&apos;t play bingo and Sandy <strike>didn&apos;t</strike> sit at home all evening.</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry namest="col2" nameend="col3">not ((Kim played bingo) and (Sandy sat at home all evening))</entry>
+</row>
+<row><entry>
+</entry>
+<entry>(<link rid="b20">Oehrle 1987</link>: based on 205, (28))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Siegel suggests that this fact emerges only when Gapping has affected just the modal or negation and nothing else. Thus, she points to a contrast between (80a) and (82), in which Gapping has removed <i>can&apos;t</i> along with the verb that follows:<link rid="fn23">
+<sup>23</sup></link>
+</p>
+<p>(82)&ensp;Ward can&apos;t eat caviar and his guest <strike>can&apos;t eat</strike> beans.&emsp;(<link rid="b11">Siegel 1987</link>: 53, (3))</p>
+<p>Indeed, unlike (80a), this sentence can be understood as synonymous with <i>Ward can&apos;t eat caviar and his guests can&apos;t eat beans</i>, in which <i>can&apos;t</i> is within each conjunct. It is also possible, however, to understand (82) so that <i>can&apos;t</i> has scope over the conjunction, that is, to be synonymous with &lsquo;It&apos;s not possible for Ward to eat caviar and his guest eat beans&rsquo;.</p>
+<p>Perhaps related to these instances of surprising wide scope are cases in which the subject of the antecedent clause takes an unexpectedly wide scope, as McCawley discovered by way of the example in (83); other examples, from <link rid="b22">Johnson (2000b</link>), are in (84):</p>
+<p>(83)&ensp;No one&apos;s<sub>1</sub> duck was moist enough or his<sub>1</sub> mussels tender enough.</p>
+<p>&emsp;&emsp;&emsp;&emsp;(<link rid="b21">McCawley 1993</link>: 248, (15a))</p>
+<p>(84)&ensp;<object id="tu43" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu43_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Not every girl<sub>1</sub> ate a GREEN banana and her<sub>1</sub> mother, a RIPE one.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>No boy<sub>1</sub> joined the navy and his<sub>1</sub> mother, the army.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In each of these cases, the quantificational subject of the first conjunct can, as indicated by the indices, bind the pronoun found in the second conjunct. This is normally not possible, as (85) shows, presumably because the contents of the second conjunct do not normally fall within the scope of the material in the first:</p>
+<p>(85)&ensp;<object id="tu44" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu44_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Not every girl<sub>1</sub> ate a GREEN banana and her<sub>1</sub> mother ate a RIPE one.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*No boy<sub>1</sub> joined the navy and his<sub>1</sub> mother joined the army.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>There is something about Gapping, then, that allows the material in the antecedent clause to have scope over the clause with the gap, and therefore over the conjunction housing both clauses.</p>
+<p>McCawley relates these latter examples of exceptional scope to another exotic property of Gapping. It is sometimes possible, he shows, for Gapping to elide a part of the subject along with the verb. Some of his examples are (86):</p>
+<p>(86)&ensp;<object id="tu45" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu45_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry namest="col2" nameend="col3">Too many Irish setters are named Kelly and German shepherds, Fritz.</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col3">The duck is dry and mussels, tough.</entry>
+</row>
+<row><entry>c.</entry>
+<entry namest="col2" nameend="col3">Your daughter is 16 and son, 17<sup>1</sup>/<sub>2</sub>.</entry>
+</row>
+<row><entry morerows="1">d.</entry>
+<entry namest="col2" nameend="col3">How many states have a veterinary school or cities a zoo?</entry>
+</row>
+<row><entry>
+</entry>
+<entry>(<link rid="b21">McCawley 1993</link>: 245, (1a, c, d), and 246, (6a))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>McCawley argues that it&apos;s only terms in &lsquo;determiner position&rsquo; which are able to Gap in this way, pointing to the ungrammaticality of examples such as (87):</p>
+<p>(87)&ensp;<object id="tu46" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu46_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry namest="col2" nameend="col3">Italian red wines are outstanding and white wines excellent.</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col3">Red wines from Italy are outstanding and white wines excellent.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>(<link rid="b21">McCawley 1993</link>: 246, (10a&prime;, a&Prime;))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The reason that McCawley connects these startling instances of Gapping with the puzzling wide scope of the determiners in (83) and (84) is that, in some of these cases, the scope of the Gapped determiner also appears to be required to have wide scope. For example, he points to (88a) and notes that it has a paraphrase something like (88b) rather than (88c):</p>
+<p>(88)&ensp;<object id="tu47" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu47_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry namest="col2" nameend="col3">Not enough linguists study Russian, literary scholars French, or engineers Japanese.</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col3">Not enough linguists, literary scholars and engineers study Russian, French and Japanese respectively.</entry>
+</row>
+<row><entry morerows="1">c.</entry>
+<entry namest="col2" nameend="col3">Not enough linguists study Russian or not enough literary scholars study French or not enough engineers study Japanese.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>(<link rid="b21">McCawley 1993</link>: 247, (12a))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The fact that the paraphrase involves conjunctions rather than the disjunctions the sentence actually uses indicates that the negation built into <i>not enough</i> has wide scope. The same thing can be seen in (89a), whose paraphrase in (89b) perhaps makes clearer the wide scope aspect of these cases:</p>
+<p>(89)&ensp;<object id="tu48" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu48_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>No cat should eat Puppy Chow or dog, Whiskers.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>It&apos;s not the case that any cat should eat Puppy Chow or that any dog should eat Whiskers.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>It would seem, then, that the fact that quantificational determiners are capable of escaping the scope of the disjunction, or conjunction, in a Gapping context is a precondition for these instances of Gapping. This, perhaps, is why the determiner <i>a</i> seems unable to Gap in these contexts &ndash; another discovery in McCawley &ndash; since when <i>a</i> takes wide scope it does so by means quite different from other quantifiers:</p>
+<p>(90)&ensp;*A soup was too salty and pie too sweet, but otherwise the food was outstanding.</p>
+<p>&emsp;&emsp;&emsp;&emsp;(<link rid="b21">McCawley 1993</link>: 245, (5a))</p>
+<p>To fit these instances of determiner Gapping into the framework in (65) for understanding the constituency of gaps is quite a challenge. It would seem to require moving all of the subject, except its determiner, along with whatever other remnants there are, out of the VP, and then Gapping that VP. For some recent attempts at just that, see <link rid="b23">Lin (2001</link>) and <link rid="b24 b22">Johnson (2000a, 2000b</link>).</p>
+<p>McCawley&apos;s paraphrase of (88a) in (88b) brings out another aspect of the Gapping construction: it has a superficial similarity to the use of <i>respectively</i> in coordinations. Not only does a Gapping sentence like (91a) mean something very like what (91b) means, they both involve focus on the related, compared, terms in a similar fashion:</p>
+<p>(91)&ensp;<object id="tu49" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu49_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Jill ate beans and Jerry <strike>ate</strike> rice.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Jill and Jerry ate beans and rice respectively.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Moreover, the constraints on the strings that may Gap roughly match the constraints that the <i>respectively</i> construction places on the distance between the coordinated phrases that are being related. So, for instance, just as a string that includes a part of an adjunct clause cannot be Gapped (witness (92a)), so also is it impossible to relate two coordinates with <i>respectively</i> across an adjunct (as in (92b)):</p>
+<p>(92)&ensp;<object id="tu50" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu50_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Tom went to Florida to learn to play tennis and Bill <strike>went to Florida to learn to play</strike> squash.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Tom and Bill went to Florida to learn to play tennis and squash respectively.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Similarly, <i>respectively</i> seems unable to relate coordinates that are separated by a finite clause in the same way as (56a) (repeated here as (93a)) indicates that Gapping cannot reach into a finite clause:</p>
+<p>(93)&ensp;<object id="tu51" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu51_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Charles decided that 20 boys are coming along and Harrie <strike>decided that</strike> 30 girls <strike>are coming along</strike>.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Charles and Harrie decided that 20 boys and 30 girls are coming along respectively.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The match isn&apos;t perfect: <i>respectively</i> can apply to a coordinated argument within a prepositional phrase, as in (94a) and, as we&apos;ve seen, Gapping cannot target a remnant in this position (compare (94b)):</p>
+<p>(94)&ensp;<object id="tu52" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu52_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John and Jill stood beside Jim and Mary respectively.</entry>
+</row>
+<row><entry>b.</entry>
+<entry><sup>?</sup>*John stood beside Jim and Jill <strike>stood beside</strike> Mary.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Still, to a large degree, the constraints on these two constructions are the same. This has led some to attempt to derive one construction directly from the other (see <link rid="b25">Hudson 1976</link> and <link rid="b26">Moltmann 1992</link> for extended analyses along these lines, and <link rid="b27 b28 b29">Dougherty 1970, 1971, Goodall 1987b</link>, and <link rid="b30">Muadz 1991</link> for some relevant discussion). Another coherent approach, however, would be to give to both Gapping and <i>respectively</i> a syntax that triggers the same family of constraints.<link rid="fn24">
+<sup>24</sup></link>
+</p>
+</subsection>
+<subsection id="ss9" level="1">
+<heading id="h8" level="1">6 Conclusion</heading>
+<p>An important open question is how Gapping fits into the larger typology of ellipsis. As sketched above, it is possible to distinguish Gapping from Right Node Raising and other coordination-specific ellipses processes.<link rid="fn25">
+<sup>25</sup></link> To the extent, however, that Gapping is restricted to coordinations, there is some reason for finding a common underlying licensing environment for all these phenomena. This is the direction that <link rid="b29">Goodall (1987b</link>), <link rid="b31 b32">Steedman (1990, 1996</link>), <link rid="b30">Muadz (1991</link>), <link rid="b26">Moltmann (1992</link>), <link rid="b33">Munn (1993</link>), <link rid="b34">Zoerner (1995</link>), and many others take. <link rid="b24 b22">Johnson (2000a, 2000b</link>) expresses a variant of this school that attempts a reduction of Gapping to across-the-board movement. But Gapping also has similarities with the sorts of ellipses that are found in Sluicing and VP Deletion, and this has animated an attempt to overcome the difficulties sketched above for equating these phenomena; see <link rid="b35">Hartmann (1998</link>), <link rid="b36">Coppock (2001</link>), and especially <link rid="b37">Lin (2002</link>).</p>
+<p>In summary, Gapping is a process that elides VPs from which remnants have moved, sometimes by Scrambling. Unlike other ellipses processes, Gapping is found only in coordinations and is uniquely subject to the No Embedding Constraint.</p>
+</subsection>
+<subsection id="ss10" level="1">
+<heading id="h9" level="1">Notes</heading>
+<p>
+<span id="fn1">
+<number>1&emsp;</number>To see Gapping playing a role in (3), one must imagine the VP <i>met kids</i> following <i>than</i> out of which <i>met</i> has Gapped.</span>
+</p>
+<p>
+<span id="fn2">
+<number>2&emsp;</number>See <link rid="b27 b28">Dougherty (1970, 1971</link>) and <link rid="b38">Burton and Grimshaw (1992</link>) among others.</span>
+</p>
+<p>
+<span id="fn3">
+<number>3&emsp;</number>See <link rid="b39">Rooth and Partee (1982</link>) for a description of this ambiguity and an analysis that stands as an alternative to the one based on Gapping described here.</span>
+</p>
+<p>
+<span id="fn4">
+<number>4&emsp;</number>Chinese has the interesting property of favoring instances of Gapping like these over the more familiar ones in (1), suggesting that these two cases are not completely identical. See <link rid="b40">Paul (1999</link>) for discussion.</span>
+</p>
+<p>
+<span id="fn5">
+<number>5&emsp;</number>And see <link rid="b33">Munn (1993</link>) for a more recent treatment along these lines.</span>
+</p>
+<p>
+<span id="fn6">
+<number>6&emsp;</number>Though, see <link rid="b14">Sag 1980</link> for reasons for thinking that an independent ellipsis process is responsible (and <link rid="b5">Neijt 1979</link>: 57ff. for counter-arguments).</span>
+</p>
+<p>
+<span id="fn7">
+<number>7&emsp;</number>A point also made by <link rid="b15">Chomsky (1980b</link>: 190).</span>
+</p>
+<p>
+<span id="fn8">
+<number>8&emsp;</number>An anonymous reviewer points out that the <i>either/or</i> diagnostic of Gapping described above, examples like &lsquo;either in the house or the barn&rsquo; would suggest that prepositions can Gap. For some indication that the placement of <i>either</i> cannot be reliably taken to mark the left edge of a disjunct, and therefore that Schwarz&apos;s analysis will have to be modified, see <link rid="b41 b42">Johannessen (1993, 1998</link>).</span>
+</p>
+<p>
+<span id="fn9">
+<number>9&emsp;</number>This issue concerning the distinction between Deletion and N Gapping is discussed in <link rid="b4">Jackendoff (1971</link>).</span>
+</p>
+<p>
+<span id="fn10">
+<number>10&emsp;</number>To find contexts in which Adverbs or Complementizers (such as <i>whether</i> or <i>that</i>) Gap is not possible (because no material within an Adverbial Phrase or Complementizer Phrase can stand to the left of an Adverb or Complementizer), so whether these categories can Gap is undeterminable.</span>
+</p>
+<p>
+<span id="fn11">
+<number>11&emsp;</number>His examples are slightly different than mine, but not meaningfully. See <link rid="b14">Sag (1980</link>: 273).</span>
+</p>
+<p>
+<span id="fn12">
+<number>12&emsp;</number>This is how the constraint is commonly framed, but <link rid="b4">Jackendoff (1971</link>: 26) expresses it as follows: &ldquo;In by far the most acceptable examples of Gapping, then, there is only one unlike constituent in the second verb phrase, and all the rest must delete.&rdquo;</span>
+</p>
+<p>
+<span id="fn13">
+<number>13&emsp;</number>In combination with various processing pressures.</span>
+</p>
+<p>
+<span id="fn14">
+<number>14&emsp;</number>For other problems with the No Ambiguity Constraint, see <link rid="b43">Quirk et al. (1972</link>: 580ff.); <link rid="b44">Stillings (1975</link>); <link rid="b45">Langendoen (1976</link>); <link rid="b14">Sag (1980</link>: 211ff.).</span>
+</p>
+<p>
+<span id="fn15">
+<number>15&emsp;</number>This is essentially how <link rid="b14">Sag (1980</link>) formulates the process, which he then couples with a version of <link rid="b46">Bresnan&apos;s (1976c</link>) Relativized A-over-A Condition to capture some of the cases that Hankamer&apos;s Major Constituent requirement was aimed at.</span>
+</p>
+<p>
+<span id="fn16">
+<number>16&emsp;</number>This, and the question corresponding to (54b), are ungrammatical on the construal in which <i>when</i> comes from the embedded clause.</span>
+</p>
+<p>
+<span id="fn17">
+<number>17&emsp;</number>See <link rid="b47">Ross (1969b</link>).</span>
+</p>
+<p>
+<span id="fn18">
+<number>18&emsp;</number>For a recent analysis of Sluicing, see <link rid="b48">Chung et al. (1995</link>) and <link rid="b19">Merchant (2001</link>).</span>
+</p>
+<p>
+<span id="fn19">
+<number>19&emsp;</number>See <link rid="b14">Sag (1980</link>: 288).</span>
+</p>
+<p>
+<span id="fn20">
+<number>20&emsp;</number>He conjectured that the movement operation occurred on the surface, not at Logical Form as in Sag&apos;s work, and that the remnants were moved into Comp position (what would in present terminology be the Specifier of CP).</span>
+</p>
+<p>
+<span id="fn21">
+<number>21&emsp;</number>I don&apos;t find the contrast in (64) as strong as that in (63).</span>
+</p>
+<p>
+<span id="fn22">
+<number>22&emsp;</number>A constraint pointed out in <link rid="b6">Hankamer (1979</link>) and <link rid="b16">Pesetsky (1982</link>: 658).</span>
+</p>
+<p>
+<span id="fn23">
+<number>23&emsp;</number>It should be noted that Gapping is not always successfully able to affect strings with negation in them. <link rid="b1">Ross (1970a</link>), for instance, points to cases like (i) and suggests that Gapping is generally incapable of eliding <i>not</i>:</span>
+</p>
+<p>(i)&ensp;*I didn&apos;t eat fish, Bill <strike>didn&apos;t eat</strike> rice, and Harry <strike>didn&apos;t eat</strike> roast beef.</p>
+<p>See also <link rid="b4">Jackendoff (1971</link>); <link rid="b44">Stillings (1975</link>); <link rid="b14">Sag (1980</link>: 195).</p>
+<p>
+<span id="fn24">
+<number>24&emsp;</number>See <link rid="b49">Beck (2000</link>) for an approach along these lines.</span>
+</p>
+<p>
+<span id="fn25">
+<number>25&emsp;</number>See <link rid="b50">McCawley (1998</link>: <related relationship="sibling" type="samework"><externallink id="chapter 9 - Binding Theory.xml" type="file">chapter 9</externallink></related>) for a useful canvass.</span>
+</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss11" level="1" type="references">
+<heading id="h10" level="1">REFERENCES</heading>
+<reference id="b49" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Beck</surname><x>, </x><forenames>Sigrid</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">Star Operators Episode 1: Defense of the Double Star</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Issues in Semantics: University of Massachusetts Occasional Papers in Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Kiyomi</forenames><x> </x><surname>Kusumoto</surname>
+</name><x> and </x><name type="editor">
+<forenames>Elisabeth</forenames><x> </x><surname>Villalta</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">1</page><x>&ndash;</x><page type="last">23</page><x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association</publisher><x>.</x>
+</reference>
+<reference id="b46" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bresnan</surname><x>, </x><forenames>Joan</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976c</date><x>). </x><title type="document">On the Form and Functioning of Transformations</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>7</volume><x>: </x><page type="first">3</page><x>&ndash;</x><page type="last">40</page><x>.</x>
+</reference>
+<reference id="b38" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Burton</surname><x>, </x><forenames>Strang</forenames>
+</name><x> and </x><name type="author">
+<forenames>Jane</forenames><x> </x><surname>Grimshaw</surname>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Coordination and VP-Internal Subjects</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>23</volume><x>: </x><page type="first">305</page><x>&ndash;</x><page type="last">312</page><x>.</x>
+</reference>
+<reference id="b13" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977a</date><x>). </x><title type="book">Essays on Form and Interpretation<x>.</x>
+</title><x> </x><address>New York</address><x>: </x><publisher>North-Holland</publisher><x>.</x>
+</reference>
+<reference id="b15" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980b</date><x>). </x><title type="book">Rules and Representations</title><x>. </x><address>New York</address><x>: </x><publisher>Columbia University Press</publisher><x>.</x>
+</reference>
+<reference id="b48" type="journal">
+<namegroup type="author">
+<name type="author">
+<forenames>Chung</forenames><x>, </x><surname>Sandra</surname>
+</name><x>, </x><name type="author">
+<forenames>William</forenames><x> </x><surname>Ladusaw</surname>
+</name>
+<x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>James</forenames><x> </x><surname>McCloskey</surname>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Sluicing and Logical Form</title><x>. </x><title type="journal">Natural Language Semantics</title><x> </x><volume>3</volume><x>: </x><page type="first">239</page><x>&ndash;</x><page type="last">282</page><x>.</x>
+</reference>
+<reference id="b36" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Coppock</surname><x>, </x><forenames>Elizabeth</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">Gapping: In Defense of Deletion</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Thirty-seventh Regional Meeting of the Chicago Linguistic Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>M.</forenames><x> </x><surname>Andronis</surname>
+</name><x>, </x><name type="editor">
+<forenames>C.</forenames><x> </x><surname>Ball</surname>
+</name><x>, </x><name type="editor">
+<forenames>H.</forenames><x> </x><surname>Helston</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>S.</forenames><x> </x><surname>Neuvel</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">133</page><x>&ndash;</x><page type="last">148</page><x>. </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society</publisher><x>.</x>
+</reference>
+<reference id="b27" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Dougherty</surname><x>, </x><forenames>Ray<x> </x>C<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1970">1970</date><x>). </x><title type="document">A Grammar of Coordinate Conjoined Structures I</title><x>. </x><title type="journal">Language</title><x> </x><volume>46</volume><x>: </x><page type="first">850</page><x>&ndash;</x><page type="last">898</page><x>.</x>
+</reference>
+<reference id="b28" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Dougherty</surname><x>, </x><forenames>Ray<x> </x>C<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1971">1971</date><x>). </x><title type="document">A Grammar of Coordinate Conjoined Structures II</title><x>. </x><title type="journal">Language</title><x> </x><volume>47</volume><x>: </x><page type="first">298</page><x>&ndash;</x><page type="last">339</page><x>.</x>
+</reference>
+<reference id="b18" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Fox</surname><x>, </x><forenames>Danny</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="book">Economy and Semantic Interpretation<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b29" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Goodall</surname><x>, </x><forenames>Grant</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987b</date><x>). </x><title type="book">Parallel Structures in Syntax: Coordination, Causatives and Restructuring</title><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference id="b10" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hankamer</surname><x>, </x><forenames>Jorge</forenames>
+</name>
+</namegroup><x> (</x><date date="1973">1973a</date><x>). </x><title type="document">Unacceptable Ambiguity</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>4</volume><x>: </x><page type="first">17</page><x>&ndash;</x><page type="last">68</page><x>.</x>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hankamer</surname><x>, </x><forenames>Jorge</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date><x>). </x><title type="book">Deletion in Coordinate Structures<x>.</x>
+</title><x> </x><address>New York</address><x>: </x><publisher>Garland</publisher><x>.</x>
+</reference>
+<reference id="b35" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Hartmann</surname><x>, </x><forenames>Katharina</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date>
+<miscellaneoustext>). Right Node Raising and Gapping. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Frankfurt University</address><x>.</x>
+</reference>
+<reference id="b25" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hudson</surname><x>, </x><forenames>Richard<x> </x>A<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="document">Conjunction Reduction, Gapping and Right-Node Raising</title><x>. </x><title type="journal">Language</title><x> </x><volume>52</volume><x>: </x><page type="first">535</page><x>&ndash;</x><page type="last">562</page><x>.</x>
+</reference>
+<reference id="b4" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Jackendoff</surname><x>, </x><forenames>Ray</forenames>
+</name>
+</namegroup><x> (</x><date date="1971">1971</date><x>). </x><title type="document">Gapping and Related Rules</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>2</volume><x>: </x><page type="first">21</page><x>&ndash;</x><page type="last">35</page><x>.</x>
+</reference>
+<reference id="b41" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Johannessen</surname><x>, </x><forenames>Janne<x> </x>Bondi</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Coordinate-Alpha and Unbalanced Coordination</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Eastern States Conference on Linguistics &rsquo;93</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Andreas</forenames><x> </x><surname>Kathol and</surname>
+</name>
+<miscellaneoustext> Michael Bernstein (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>Ithaca</address><x>: </x><publisher>CLC Publications</publisher><x>.</x>
+</reference>
+<reference id="b42" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Johannessen</surname><x>, </x><forenames>Janne<x> </x>Bondi</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="book">Coordination<x>.</x>
+</title><x> </x><address>Oxford</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference id="b24" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Johnson</surname><x>, </x><forenames>Kyle</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000a</date><x>). </x><title type="document">Few Dogs eat Whiskas or Cats Alpo</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x><title type="book">Issues in Semantics</title><x>:. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Kiyomi</forenames><x> </x><surname>Kusumoto</surname>
+</name><x> and </x><name type="editor">
+<forenames>Elisabeth</forenames><x> </x><surname>Villalta</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">47</page><x>&ndash;</x><page type="last">60</page><x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association</publisher><x>.</x>
+</reference>
+<reference id="b22" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Johnson</surname><x>, </x><forenames>Kyle</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000b</date><x>). </x><title type="document">Gapping Determiners</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Ellipsis in Conjunction</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Kerstin</forenames><x> </x><surname>Schwabe</surname>
+</name><x> and </x><name type="editor">
+<forenames>Ning</forenames><x> </x><surname>Zhang</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">95</page><x>&ndash;</x><page type="last">115</page><x>. </x><address>T&uuml;bingen</address><x>: </x><publisher>Max Niemeyer</publisher><x>.</x>
+</reference>
+<reference id="b12" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kuno</surname><x>, </x><forenames>Susumu</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="document">Gapping: A Functional Analysis</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>7</volume><x>: </x><page type="first">300</page><x>&ndash;</x><page type="last">318</page><x>.</x>
+</reference>
+<reference id="b45" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Langendoen</surname><x>, </x><forenames>D<x>. </x>Terence</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="document">Acceptable Conclusions from Unacceptable Ambiguity</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">An Integrated Theory of Linguistic Ability</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Thomas<x> </x>G<x>.</x>
+</forenames><x> </x><surname>Bever</surname>
+</name><x>, </x><name type="editor">
+<forenames>Jerrold<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Katz</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>D<x>. </x>Terence</forenames><x> </x><surname>Langendoen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">225</page><x>&ndash;</x><page type="last">238</page><x>. </x><address>New York/Brighton</address><x>: </x><publisher>Thomas Y</publisher>
+<x>. </x><miscellaneoustext>Crowell/Harvester Press</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b9" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Levin</surname><x>, </x><forenames>Nancy</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="book">Main-Verb Ellipsis in Spoken English<x>.</x>
+</title><x> </x><address>New York</address><x>: </x><publisher>Garland</publisher><x>.</x>
+</reference>
+<reference id="b23" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lin</surname><x>, </x><forenames>Vivian</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">A Way to Undo A-Movement</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Twentieth West Coast Conference on Formal Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Karine</forenames><x> </x><surname>Megerdoomian</surname>
+</name><x> and </x><name type="editor">
+<forenames>Leora<x> </x>Anne</forenames><x> </x><surname>Bar-el</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">358</page><x>&ndash;</x><page type="last">371</page><x>. </x><address>Somerville</address><x>: </x><publisher>Cascadilla Press</publisher><x>.</x>
+</reference>
+<reference id="b37" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Lin</surname><x>, </x><forenames>Vivian</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date>
+<miscellaneoustext>). Coordination and Sharing at the Interfaces. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Boston, MIT</address><x>.</x>
+</reference>
+<reference id="b7" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Maling</surname><x>, </x><forenames>Joan</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972</date><x>). </x><title type="document">On Gapping and the Order of Constituents</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>3</volume><x>: </x><page type="first">101</page><x>&ndash;</x><page type="last">108</page><x>.</x>
+</reference>
+<reference id="b21" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>McCawley</surname><x>, </x><forenames>James</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Gapping with Shared Operators</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Nineteenth Annual Meeting of the Berkeley Linguistics Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Joshua</forenames><x> </x><surname>Guenter</surname>
+</name><x>, </x><name type="editor">
+<forenames>Barbara</forenames><x> </x><surname>Kaier</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Cheryl</forenames><x> </x><surname>Zoll</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">245</page><x>&ndash;</x><page type="last">253</page><x>. </x><address>Berkeley</address><x>: </x><publisher>Berkeley Linguistics Society</publisher><x>.</x>
+</reference>
+<reference id="b50" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>McCawley</surname><x>, </x><forenames>James</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="book">The Syntactic Phenomena of English<x>.</x>
+</title><x> </x><address>Chicago</address><x>: </x><publisher>University of Chicago Press</publisher><x>.</x>
+</reference>
+<reference id="b19" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Merchant</surname><x>, </x><forenames>Jason</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="book">The Syntax of Silence: Sluicing, Islands and the Theory of Ellipsis</title><x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference id="b26" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Moltmann</surname><x>, </x><forenames>Friederike</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date>
+<miscellaneoustext>). Coordination and Comparatives. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b30" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Muadz</surname><x>, </x><forenames>Husni</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date>
+<miscellaneoustext>). Coordinate Structures: A Planar Representation. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Tucson, University of Arizona</address><x>.</x>
+</reference>
+<reference id="b33" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Munn</surname><x>, </x><forenames>Alan<x> </x>Boag</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date>
+<miscellaneoustext>). Topics in the Syntax and Semantics of Coordinate Structures. PhD dissertation</miscellaneoustext><x>, </x>
+<address>University of Maryland</address><x>.</x>
+</reference>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Neijt</surname><x>, </x><forenames>Anneke</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date><x>). </x><title type="book">Gapping: A Contribution to Sentence Grammar</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b20" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Oehrle</surname><x>, </x><forenames>Richard<x> </x>T<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Boolean Properties in the Analysis of Gapping</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Syntax and Semantics. Vol. 20: Discontinuous Constituency.</title>
+<namegroup type="editors">
+<name type="editor">
+<x> </x><forenames>Geoffrey<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Huck</surname>
+</name><x> and </x><name type="editor">
+<forenames>Almerindo<x> </x>E<x>.</x>
+</forenames><x> </x><surname>Ojeda</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>Orlando</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Oirsouw</surname><x>, </x><forenames>Robert<x> </x>R<x>. </x>van</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="book">The Syntax of Coordination</title><x>. </x><address>New York</address><x>: </x><publisher>Croom Helm</publisher><x>.</x>
+</reference>
+<reference id="b40" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Paul</surname><x>, </x><forenames>Waltraud</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">Verb Gapping in Chinese: A Case of Verb Raising</title><x>. </x><title type="journal">Lingua</title><x> </x><volume>107</volume><x>: </x><page type="first">207</page><x>&ndash;</x><page type="last">226</page><x>.</x>
+</reference>
+<reference id="b16" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Pesetsky</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date>
+<miscellaneoustext>). Paths and Categories. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Pollock</surname><x>, </x><forenames>Jean-Yves</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">Verb Movement, Universal Grammar and the Structure of IP</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>20</volume><x>: </x><page type="first">365</page><x>&ndash;</x><page type="last">424</page><x>.</x>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Postal</surname><x>, </x><forenames>Paul<x> </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date><x>). </x><title type="book">On Raising<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b43" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Quirk</surname><x>, </x><forenames>Randolph</forenames>
+</name><x>, </x><name type="author">
+<forenames>Sidney</forenames><x> </x><surname>Greenbaum</surname>
+</name><x>, and </x><name type="author">
+<surname>
+</surname>
+<forenames>Geoffrey</forenames>
+</name>
+</namegroup><x> </x><title type="document">Leech (</title>
+<date date="1972">1972</date><x>). </x><title type="book">A Grammar of Contemporary English<x>.</x>
+</title><x> </x><address>London</address><x>: </x><publisher>Longman</publisher><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Reed</surname><x>, </x><forenames>Lisa</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Remarks on Word Order in Causative Constructions</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>23</volume><x>: </x><page type="first">164</page><x>&ndash;</x><page type="last">172</page><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Rizzi</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986a</date><x>). </x><title type="document">Null Objects in Italian and the Theory of Pro</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>17</volume><x>: </x><page type="first">501</page><x>&ndash;</x><page type="last">557</page><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rizzi</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990b</date><x>). </x><title type="book">Relativized Minimality<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Roberts</surname><x>, </x><forenames>Ian</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991a</date><x>). </x><title type="document">Excorporation and Minimality</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>22</volume><x>: </x><page type="first">209</page><x>&ndash;</x><page type="last">218</page><x>.</x>
+</reference>
+<reference id="b39" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rooth</surname><x>, </x><forenames>Mats</forenames>
+</name><x> and </x><name type="author">
+<forenames>Barbara<x> </x>H<x>.</x>
+</forenames><x> </x><surname>Partee</surname>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">Conjunction, Type Ambiguity, and Wide Scope <i>Or</i>
+</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the First West Coast Conference on Formal Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Daniel<x> </x>P<x>.</x>
+</forenames><x> </x><surname>Flickinger</surname>
+</name><x>, </x><name type="editor">
+<forenames>Marlys</forenames><x> </x><surname>Macken</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Nancy</forenames><x> </x><surname>Wiegand</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">353</page><x>&ndash;</x><page type="last">362</page><x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications</publisher><x>.</x>
+</reference>
+<reference type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Rosen</surname><x>, </x><forenames>Sara<x> </x>Thomas</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date>
+<miscellaneoustext>). Argument Structure and Complex Predicates. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Brandeis University</address><x>.</x>
+</reference>
+<reference id="b47" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ross</surname><x>, </x><forenames>John<x> </x>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1969">1969b</date><x>). </x><title type="document">Guess Who?</title>
+<miscellaneoustext> In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Fifth Regional Meeting of the Chicago Linguistic Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Robert</forenames><x> </x><surname>Binnick</surname>
+</name><x>, </x><name type="editor">
+<forenames>Alice</forenames><x> </x><surname>Davison</surname>
+</name><x>, </x><name type="editor">
+<forenames>Georgia</forenames><x> </x><surname>Green</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Jerry</forenames><x> </x><surname>Morgan</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">252</page><x>&ndash;</x><page type="last">286</page><x>. </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society</publisher><x>.</x>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ross</surname><x>, </x><forenames>John<x> </x>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1970">1970a</date><x>). </x><title type="document">Gapping and the Order of Constituents</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Progress in Linguistics</title><x>.</x><namegroup type="editors">
+<name type="editor">
+<x> </x><forenames>Manfred</forenames><x> </x><surname>Bierwisch</surname>
+</name><x> and </x><name type="editor">
+<forenames>Karl</forenames><x> </x><surname>Heidolph</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">249</page><x>&ndash;</x><page type="last">259</page><x>. </x><address>The Hague</address><x>: </x><publisher>Mouton</publisher><x>.</x>
+</reference>
+<reference id="b3" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ross</surname><x>, </x><forenames>John<x> </x>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="book">Infinite Syntax</title><x>! </x><address>Norwood, NJ</address><x>: </x><publisher>Ablex</publisher><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Rouveret</surname><x>, </x><forenames>Alain</forenames>
+</name><x> and </x><name type="author">
+<forenames>Jean-Roger</forenames><x> </x><surname>Vergnaud</surname>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="document">Specifying Reference to the Subject: French Causatives and Conditions on Representations</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>11</volume><x>: </x><page type="first">97</page><x>&ndash;</x><page type="last">202</page><x>.</x>
+</reference>
+<reference id="b14" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Sag</surname><x>, </x><forenames>Ivan</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="book">Deletion and Logical Form</title><x>. </x><address>New York</address><x>: </x><publisher>Garland</publisher>
+<x>. </x><miscellaneoustext>Saksena, A. (1982)</miscellaneoustext><x>. </x>
+<title type="book">Topics in the Analysis of Causatives with an Account of the Hindi Paradigms</title><x>. </x><address>Berkeley</address><x>: </x><publisher>University of California Press</publisher><x>.</x>
+</reference>
+<reference id="b8" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Schwarz</surname><x>, </x><forenames>Bernhard</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">On the Syntax of</title><x> </x><title type="journal">Either <x>.&nbsp;.&nbsp;.&nbsp;</x>Or<x>. </x>Natural Language and Linguistic Theory</title><x> </x><volume>17</volume><x>: </x><page type="first">339</page><x>&ndash;</x><page type="last">370</page><x>.</x>
+</reference>
+<reference id="b11" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Siegel</surname><x>, </x><forenames>Muffy</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Compositionality, Case and the Scope of Auxiliaries</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>10</volume><x>: </x><page type="first">53</page><x>&ndash;</x><page type="last">76</page><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Sportiche</surname><x>, </x><forenames>Dominique</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">A Theory of Floating Quantifiers and its Corollaries for Constituent Structure</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>19</volume><x>: </x><page type="first">425</page><x>&ndash;</x><page type="last">449</page><x>.</x>
+</reference>
+<reference id="b31" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Steedman</surname><x>, </x><forenames>Mark</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Gapping as Constituent Coordination</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>13</volume><x>: </x><page type="first">207</page><x>&ndash;</x><page type="last">264</page><x>.</x>
+</reference>
+<reference id="b32" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Steedman</surname><x>, </x><forenames>Mark</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="book">Surface Structure and Interpretation<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b44" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Stillings</surname><x>, </x><forenames>Justine</forenames>
+</name>
+</namegroup><x> (</x><date date="1975">1975</date><x>). </x><title type="document">Gapping in English and Variable Types</title><x>. </x><title type="journal">Linguistic Analysis</title><x> </x><volume>1</volume><x>: </x><page type="first">247</page><x>&ndash;</x><page type="last">274</page><x>.</x>
+</reference>
+<reference type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Trevi&ntilde;o</surname><x>, </x><forenames>Esthela</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date>
+<miscellaneoustext>). Non-Canonical Subjects in Spanish: Evidence from Causatives and Psych Verbs. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>University of Ottawa</address><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Zagona</surname><x>, </x><forenames>Karen</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988b</date><x>). </x><title type="book">Verb Phrase Syntax: A Parametric Study of English and Spanish</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b34" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Zoerner</surname><x>, </x><forenames>Cyril</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date>
+<miscellaneoustext>). Coordination: The Syntax of andP. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Irvine, University of California</address><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Zubizarreta</surname><x>, </x><forenames>Mar&iacute;a<x> </x>Luisa</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Verbes Causatives</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">La Grammaire Modulaire</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Mitsou</forenames><x> </x><surname>Ronat</surname>
+</name><x> and </x><name type="editor">
+<forenames>Daniel</forenames><x> </x><surname>Couquaux</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">279</page><x>&ndash;</x><page type="last">311</page><x>. </x><address>Paris</address><x>: </x><publisher>Minuit</publisher><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

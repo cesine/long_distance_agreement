@@ -1,0 +1,2124 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="5"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 5 - Affectedness.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">121</page>
+<page type="last">141</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="0"/>
+<count type="table" count="40"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="27"/>
+<count type="page" count="21"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051104"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 5&ensp;Anderson: Affectedness</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 5&ensp;Anderson: Affectedness</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">5 &ensp;Affectedness</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>MONA</forenames><x> </x><surname>ANDERSON</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Other formulations of affectedness</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>Extending affectedness to verbs</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>Affectedness in middles</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>Affectedness in dative constructions</p>
+</li>
+<li level="1">
+<number>6&ensp;</number>
+<p>Other forms constrained by affectedness</p>
+</li>
+<li level="1">
+<number>7&ensp;</number>
+<p>Experimental work</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1&ensp;Introduction</heading>
+<p>The notion of affectedness was used in <link rid="b1 b2">Anderson (1977a, 1979</link>) to describe the relation between a preposable object and its head in noun phrases. In (1a) the logical object of the noun can appear as the possessive but in (1b) it cannot. The mechanism by which this generalization is captured is that only nouns which affect their complements can take bare NP complements. The structure of a noun phrase like (1a) would have <i>the city</i> as the direct complement of destruction. The surface structure would be derived by NP preposing. The structure of a noun phrase like (1b) would have <i>history</i> as the object of a true preposition <i>of</i> and (1b) could not be derived by NP preposing because a preposition would be stranded. There is no legitimate source for (1b) because the noun <i>knowledge</i> cannot take a bare complement but only a prepositional phrase complement. Only those nouns which affect their complements can take bare complements. A necessary assumption is that a stranded preposition within the NP marks it as ungrammatical. Only nouns which affect their complements can allow those complements as possessives. In essence the notion of affectedness determines the categories of complements that nouns can select. Those which affect their complements can select bare NPs but those which do not affect their complements must select prepositional phrases. The notion of affectedness is extended to nouns of creation such as <i>the production of the play</i>.</p>
+<p>(1)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>the city&apos;s destruction</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*history&apos;s knowledge</entry>
+</row>
+<row><entry>c.</entry>
+<entry>the destruction of the city by the barbarians</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Since that claim, others have used this notion for other constructions or modified it or tried to derive it from other principles. Others used the notion in describing language acquisition or patterns of verb usage in adults. The modifications of how the constraint operates are of several types.</p>
+<p>For <link rid="b3">Fiengo (1980</link>) there is a sort of filter on noun phrases which requires arguments within noun phrases to be either agents or affected objects if they are structurally possessive but semantically not subjects or structurally in a prepositional phrase and semantically subjects. This information is expressed as features on these nouns. <link rid="b4">Jaeggli&apos;s (1986a</link>) version of the constraint applies to both nouns and verbs and he makes an attempt at an explanation. He claims that the relation between a noun or verb and an unaffected complement is not as clear as when the complement is affected and so the external theta-role must be expressed when the complement is unaffected. This indirectly constrains the kinds of objects that can occur with a certain class of nouns and verbs by constraining the external theta-role position rather than the object position. <link rid="b5">Grimshaw (1990</link>) has another set of mechanisms to deal with the data. She argues that passive nominals like (1a) are fundamentally different from their active counterparts (1c). In (1c) the noun <i>destruction</i> takes arguments, has event structure, and assigns a theta-role through the preposition <i>of</i>, but in (1a) the noun <i>destruction</i> neither takes an argument, has event structure, nor assigns theta-roles. The relation between the noun <i>destruction</i> and <i>city</i> is expressed not at the syntactic level but at the lexical semantic level. (1b) is ungrammatical because it is stipulated that complements cannot be unaffected at the lexical semantic level.</p>
+<p>
+<link rid="b6">Rozwadowska (1988</link>) and <link rid="b7">Amritivalli (1980</link>) present data from English and Polish, a new theta-role, and several language specific constraints to account for affectedness but it appears that their data are better described in terms of lexical gaps rather than by this extra machinery.</p>
+<p>
+<link rid="b8">Giorgi and Longobardi (1991</link>) extend <link rid="b1 b2">Anderson&apos;s (1977a, 1979</link>) analysis to Italian nouns which allow preposed pronominal objects even though these objects are not affected. They follow Jaeggli in assuming that nouns of this class must have the external theta-role expressed and they assume that Italian nouns have a position which allows the pronominal object to prepose, a position not available in English. <link rid="b9">Rizzi (1986a</link>) uses affectedness as a constraint on possible theta-grids to predict the availability of null objects in Italian.</p>
+<p>
+<link rid="b10 b11">Tenny (1992, 1994</link>) revises the semantic description of affectedness to include verbs of creation, concealment, and exposure which seemed not to fit into the original formulation. She claims the correct description is that the object delimits the event of the noun or verb. She uses data from middles in English and the <i>ba</i> construction in Mandarin to illustrate her point. <link rid="b12">Egerland (1998</link>) discusses this version in terms of middles in English and claims that the event is delimited if it must take place over a fixed period of time.</p>
+<p>
+<link rid="b13">Ackema and Schoorlemmer (1994</link>) try to derive the affectedness constraint from other principles using data from middles in Dutch and English. They claim that some middles are formed in which the object is not affected and that these and other middles are predicted by the presence of an action tier for the verb or noun and a suppressed arbitrary actor and a thematic hierarchy. However, their Dutch examples fall under Tenny&apos;s revision of affectedness, a more economical way of accounting for them.</p>
+<p>It appears that affectedness may play a part in some dative constructions. <link rid="b14">Janda (1988</link>) claims that the dative of possession in Czech implies the possessor is affected and that it can be used pragmatically to create a feeling of intimacy. <link rid="b15">Landau (1999</link>) argues that the possessive dative construction in Hebrew, French, and Spanish is not constrained by affectedness but rather by independent constraints on movement. <link rid="b16">Collins (1995</link>) argues that interpretation of datives in English is not constrained by affectedness. <link rid="b17">Sadakani and Koizumi (1995</link>) however, argue that children learn the distinction between the case marker <i>ni</i> and the postposition <i>ni</i> in Japanese on the basis of affectedness. They relate this to a hierarchy proposed by Koizumi in which more affected arguments are attached closest to the verb. Koizumi uses depictive predicates and secondary resultative predicates in Japanese to provide evidence for this claim. <link rid="b18">Miyagawa (1988</link>) uses floating numeral quantifiers in Japanese to make a similar point.</p>
+<p>This connection between the semantic notion of affectedness and the closeness of the connection between the complement and the head seems to be the most salient feature of the work on affectedness. In <link rid="b1 b2">Anderson (1977a, 1979</link>) this is expressed as a constraint on the syntactic frames that nouns affecting their objects can appear in. This constraint seems to extend to verbs as well. It seems reasonable to suggest that this semantic notion has an effect on syntactic structure at the level of subcategorization. The use of affectedness in experimental and acquisition studies seems to support the idea that this is some kind of semantic primitive that constrains syntactic frames.</p>
+<p>In an experimental study <link rid="b19">Gropen et al. (1991</link>) found that when asked to use novel verbs children more often made the goal in the illustrated activity the direct object of the verb when the goal was affected. The moving entity was more often made the direct object when the goal was unaffected. <link rid="b20">Lebeaux (1988a</link>) claims that children use affectedness in acquiring passives with affected objects being more readily passivized. <link rid="b21">Gordon and Chafetz (1990</link>), however, claim that the difference in comprehension by children is due to the fact that they hear the passives with non-affected objects less often. The data on affectedness in acquisition provides some support for the notion being a semantic primitive.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2&ensp;Other formulations of affectedness</heading>
+<p>
+<link rid="b3">Fiengo (1980</link>) uses a feature system involving the notion affected to describe the same data but claims the features allow him to include the generalization that the objects of <i>by</i> must be affectors. He combines the generalization in <link rid="b1 b2">Anderson (1977a, 1979</link>) with another generalization. In his system the possessives in (1a) and (1b) must be interpreted as affected because there is a rule forcing arguments within nominals to be marked as &lsqb;&plus;affect&rsqb; whenever the case and the semantic notion of subject match in value. The example in (1b) is ungrammatical because it cannot be interpreted as affected contrary to the rule (2).</p>
+<p>(2)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>&thgr; &rarr;</entry>
+<entry>&plus; affect</entry>
+<entry>/_________</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>&alpha; Oblique</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>&alpha; Subject</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Nouns are semantically classed as requiring affected objects and/or affector subjects. Fiengo claims that the possessive case is &lsqb;&minus;oblique&rsqb; and the case of the object of the preposition is &lsqb;&plus;oblique&rsqb;. In the semantics of the NPs in (1) both <i>the city</i> and <i>history</i> are &lsqb;&minus;subject&rsqb; and the NPs in the <i>by</i> phrases if they were present would be &lsqb;&plus;subject&rsqb;. The feature &lsqb;&plus;affect&rsqb; belongs to both the affected NP and the affecting NP. The possessives in (3a) and (3b) are both &lsqb;&minus;subject&rsqb; in a semantic sense and &lsqb;&minus;oblique&rsqb; in a case sense. They match, being both &lsqb;&minus;&rsqb; and therefore must be interpreted as affected. However <i>expresssion</i> is in the class of nouns which does not affect its objects and so there is a clash between the syntactic feature and the necessary interpretation.</p>
+<p>(3)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Carthage&apos;s destruction by Rome</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*great relief&apos;s expression by John</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*the definition of a term by a dictionary</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(3c) is out because <i>the dictionary</i> is &lsqb;&plus;oblique&rsqb; being the object of a preposition, and &lsqb;&plus;subject&rsqb; being the semantic subject, so it must be &lsqb;&plus;affect&rsqb; but it is not capable of being an affector.</p>
+<p>It is not entirely clear why a dictionary cannot affect something. Fiengo is relating the notion of affector to the notion agent.</p>
+<p>Technically, the notions of affected patient and affecting agent are brought together in this analysis but the system as a whole does not seem to be an improvement over the original formulation in <link rid="b1 b2">Anderson (1977a, 1979</link>).</p>
+<p>
+<link rid="b4">Jaeggli (1986a</link>) suggests another way of expressing affectedness in an attempt to unify it with constraints on passive in general. His Affectedness Constraint specifies that if a complement of a category is unaffected, it is impossible to eliminate the external theta-role of that category.</p>
+<p>In an example like (3b) <i>expression</i> does not affect its complement and therefore the external theta-role cannot be absorbed and expressed in the prepositional phrase because of the Affectedness Constraint. An example like (1b) is out because the external theta-role is not expressed. An example like (4) is allowed because there is a PRO expressing the external theta-role of <i>expression</i>.</p>
+<p>(4)&ensp;the expression of great relief</p>
+<p>Jaeggli has an explanation of sorts for this generalization. He claims that when the complement is affected the thematic relation between the predicate and the complement is well defined. When the complement is unaffected the relation is not clear and depends on the external theta-role for clarification. The external role cannot be eliminated because then the relation will not be clear. Jaeggli sees this as a possible way to derive the Affectedness Constraint from more general principles. As it stands it seems to be a constraint on the theta-roles occurring in a class of nouns. Nouns which do not affect their complements have an obligatory external theta-role. This is more indirect than the formulation in <link rid="b1 b2">Anderson (1977a, 1979</link>) in that the lack of preposing is attributed to the unavailability of the specifier position in these nouns but the unavailability is directly linked to the ability of the noun to affect its object. Both rely on the semantic characterization of these nouns constraining the frames they can appear in.</p>
+<p>
+<link rid="b5">Grimshaw (1990</link>) has another version of the way the constraint operates. Grimshaw argues that nouns do not assign theta-roles unless they have prepositions mediating between the noun and the complement. This means that a system like <link rid="b1 b2">Anderson (1977a, 1979</link>) will not work because there the noun assigns the theta-role to the bare NP complement before it moves. For Grimshaw the affectedness constraint works at the level of lexical semantic representation. At this level, the objects of nouns are complements but not grammatical arguments. Complex event nominals such as <i>destruction</i> have a representation like verbs in that they take arguments and assign theta-roles. They must have prepositions to actually assign the roles. However, for her the example in (1a) has no event structure and does not have arguments or assign roles. Result nominals such as <i>knowledge</i> have no arguments and do not assign theta-roles. The relation to their complements as in <i>knowledge of history</i> is represented at the lexical semantic level and not at the syntactic level. There is no movement in nominals and the ungrammaticality of nominals like (1b) results from the stipulation that at the lexical semantic representation complements cannot be unaffected. In other words &ldquo;unaffected &lsqb;lexical conceptual structure&rsqb; arguments are not subject to complement interpretation&rdquo; (<link rid="b5">Grimshaw 1990</link>: 94). The effects of the affectedness constraint are achieved by restricting arguments to those nouns which are process nouns and by a stipulation at the semantic level that unaffected DPs cannot be complements. In a phrase like <i>knowledge of history</i> presumably the phrase <i>history</i> is interpreted as a complement so there must be a more specific constraint. Nominal passives are not parallel to verbal passives in syntax but only at the lexical semantic level. The possessive in a passive nominal like <i>the city&apos;s destruction by the enemy</i> is interpreted as the patient because it is an argument at the lexical semantic level. The <i>by</i> phrase should not be interpreted as agent because there is no syntactic argument structure so Grimshaw must deny that <i>the enemy</i> is interpreted as an agent. Within her analysis passive nominals cannot be interpreted as processes with event structure though their counterparts such as <i>the enemy&apos;s destruction of the city</i> have event structure and theta-roles. This discrepancy between the interpretation of nominals which appear to be similar in meaning is a weakness of this analysis.</p>
+<p>
+<link rid="b6">Rozwadowska (1988</link>) claims that the affectedness constraint should be replaced by a new grammatical relation, Neutral, and the constraint that Neutral can not be in the specifier of an NP. The examples which provide evidence for this are in (5).</p>
+<p>(5)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>the public&apos;s delight in the book</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*the book&apos;s delight of the public</entry>
+</row>
+<row><entry>c.</entry>
+<entry>The book delights the public.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>The public delights in the book.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The assumption seems to be that because (5c) is a good sentence the nominal <i>delight</i> should result in the NP in (5b). However there is another sentence (5d) which could have the verb which is related to the nominal in (5a). In <link rid="b1 b2">Anderson&apos;s (1977a, 1979</link>) analysis the affectedness constraint limits the nouns which take bare NP objects. If one assumes that the noun <i>delight</i> corresponds to only one of the possible categorical frames of the verb <i>delight</i> the prediction is straightforward. The noun <i>delight</i> never appears with an <i>of</i> preposition so there is no reason to believe that it takes a bare NP and the lexical preposition <i>in</i> in both the NP form (5a) and the verb form (5d) indicates that there is no bare NP involved here. <link rid="b22">Chomsky (1970</link>) in his original proposal of the lexicalist hypothesis cautioned that not all verbs will have related nominals and there seems to be no good evidence that the verb in (5c) has a related nominal. Rozwadowska goes on to use the notion affected to define a new thematic relation, Neutral, in which the entity holding that relation to a predicate is not affected by the predicate and does not have control over the predicate. She formulates a principle that Neutral can never appear in a specifier position of a nominal. This principle and the new relation will rule out the example in (5b) which in Anderson would be accounted for by the lexical gap, no nominal <i>delight</i> corresponding to the verb in (5c).</p>
+<p>
+<link rid="b6">Rozwadowska (1988</link>) goes on to bring in data from Polish to show that only affected arguments can be expressed as genitive complements of Polish nominals. She accounts for these with an additional principle applying to Polish nominals.</p>
+<p>(6)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Jan</entry>
+<entry>podziwia</entry>
+<entry>Mari&#x0119;.</entry>
+<entry>(Polish)</entry>
+</row>
+<row><entry>John-nom</entry>
+<entry>admires</entry>
+<entry>Mary-acc</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;John admires Mary.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Podziw</entry>
+<entry>Jana</entry>
+<entry>dla</entry>
+<entry>Marii</entry>
+</row>
+<row><entry>admiration-nom</entry>
+<entry>John-gen</entry>
+<entry>for</entry>
+<entry>Mary-gen</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;John&apos;s admiration for Mary&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>*Podziw</entry>
+<entry>Marii</entry>
+<entry>przez</entry>
+<entry>Jana</entry>
+</row>
+<row><entry>admiration-nom</entry>
+<entry>Mary-gen</entry>
+<entry>by</entry>
+<entry>John-gen</entry>
+</row>
+<row><entry namest="col2" nameend="col5">*&lsquo;Mary&apos;s admiration by John&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b7">Amritivalli (1980</link>) presents a class of noun/verb pairs which Rozwadowska claims cause a problem for the affectedness constraint.</p>
+<p>(7)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Gamma rays excited the protons.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>the excitation of the protons by gamma rays</entry>
+</row>
+<row><entry>c.</entry>
+<entry>The news excited Mary.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>*the excitation of Mary by the news</entry>
+</row>
+<row><entry>e.</entry>
+<entry>*the excitement of Mary by the news</entry>
+</row>
+<row><entry>f.</entry>
+<entry>Mary was excited at the news.</entry>
+</row>
+<row><entry>g.</entry>
+<entry>Mary&apos;s excitement at the news</entry>
+</row>
+<row><entry>h.</entry>
+<entry>*Mary&apos;s excitation by the news</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The question raised is if <i>excitation</i> is a nominal that allows preposing as in (8a) why does the animate noun not appear in the genitive in (8b)?</p>
+<p>(8)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>the proton&apos;s excitation by gamma rays</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Mary&apos;s excitation by gamma rays</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The answer seems clear when you look at the whole range of examples. The noun <i>excitement</i> is related to the adjective/past participle in (7f) not to the verb in (7b). This is shown by the fact that (7e) is ungrammatical. (7d) is bad because <i>the news</i> cannot cause the kind of physical event that is meant by the noun <i>excitation</i>. For the same reason (7h) is out. (7b) is actually grammatical if the physical sense of <i>excitation</i> is used. Other nouns which show this same pattern are <i>depression</i> and <i>agitation.</i> Although they do not have two different forms of the nominal they have the two senses. The crucial factor is the difference in the two senses of the nominals, not in whether the object is animate or not. This set of data can be more easily explained by a lexical gap rather than by a new thematic role and several independent principles.</p>
+<p>
+<link rid="b8">Giorgi and Longobardi (1991</link>) look at affectedness in Italian and English but suggest that the generalizations probably hold for Germanic and Romance languages in general. They accept <link rid="b1 b2">Anderson&apos;s (1977a, 1979</link>) analysis in which those nouns which do not affect their objects take true prepositions which prevent preposing because of preposition stranding. However they point out some nouns in Italian which allow preposed objects which are not affected.</p>
+<p>(9)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>la</entry>
+<entry>sua</entry>
+<entry>conoscenza (Italian)</entry>
+</row>
+<row><entry>the</entry>
+<entry>its</entry>
+<entry>knowledge</entry>
+</row>
+<row><entry namest="col1" nameend="col3">&lsquo;its knowledge&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>They claim that examples like this are possible in Italian because there is a pronominal empty category which serves as the external theta-role. English and other Germanic languages do not have this empty pronominal as a possibility. They claim that this class of nouns requires an external theta-role. Others in the class are derived from verbs translated as <i>know</i>, <i>see</i>, <i>recollect</i>, <i>perceive</i>, <i>observe</i>. In English, because there is no empty pronominal to take the external theta-role, preposing the object fills the external theta-role position and this violates the condition that these nouns must have an external theta-role. Their version of the affectedness condition says that if the complement of a noun is unaffected the external theta position cannot be de-thematized. This would distinguish between the two phrases in (10) because the technical definition of dethematized applies to the <i>by</i> phrase in (10b) but not to the <i>by</i> phrase in (10a).</p>
+<p>(10)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>the knowledge of algebra by the students</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*algebra&apos;s knowledge by the students</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In order to make this analysis work they include the condition from <link rid="b1 b2">Anderson (1977a, 1979</link>) that only nouns that affect their objects can take bare NPs and a condition which says that certain nouns must have an external theta-role and that the theta position cannot be dethematized if the complement is unaffected. This extra condition is needed to account for the Italian examples like (9a) which appear to violate the condition from <link rid="b1 b2">Anderson (1977a, 1979</link>). They are allowed because Italian allows for an extra position where the pronoun <i>sua</i> can be before the noun but not in the thematic subject position.</p>
+<p>They provide additional evidence to support the class of nouns which require an external theta-role. They show that these nouns do not allow backward control by a non c-commanding controller. In (11a) <i>lui</i> and <i>Mario</i> cannot be coreferent.</p>
+<p>(11)&ensp;<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="17">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13" align="char" char="."/>
+<colspec colnum="14" colname="col14" align="char" char="."/>
+<colspec colnum="15" colname="col15" align="char" char="."/>
+<colspec colnum="16" colname="col16" align="char" char="."/>
+<colspec colnum="17" colname="col17"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Una</entry>
+<entry>migliore</entry>
+<entry>conoszensa</entry>
+<entry>di</entry>
+<entry>lui</entry>
+<entry>e</entry>
+<entry>della</entry>
+<entry>natura</entry>
+<entry>del</entry>
+<entry>problema</entry>
+<entry>avrebbe</entry>
+<entry>giovato</entry>
+<entry>alle</entry>
+<entry>decisioni</entry>
+<entry>di</entry>
+<entry>Mario.</entry>
+</row>
+<row><entry>a</entry>
+<entry>better</entry>
+<entry>knowledge</entry>
+<entry>of</entry>
+<entry>him</entry>
+<entry>and</entry>
+<entry>of the</entry>
+<entry>nature</entry>
+<entry>of the</entry>
+<entry>problem</entry>
+<entry>would have</entry>
+<entry>helped</entry>
+<entry>the</entry>
+<entry>decisions</entry>
+<entry>of </entry>
+<entry>Mario</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11"/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>Quella</entry>
+<entry>fotografia</entry>
+<entry>di lui</entry>
+<entry>in divisa</entry>
+<entry>ha giovato</entry>
+<entry>molto</entry>
+<entry>alla</entry>
+<entry>carriera</entry>
+<entry>di</entry>
+<entry>Gianni.</entry>
+</row>
+<row><entry>that</entry>
+<entry>picture</entry>
+<entry>of him</entry>
+<entry>in uniform</entry>
+<entry>has helped</entry>
+<entry>much</entry>
+<entry>the</entry>
+<entry>career</entry>
+<entry>of</entry>
+<entry>Gianni</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Nouns like <i>fotografia</i> in (11b) do allow control because they are not in that class. In (11b) <i>lui</i> and <i>Gianni</i> can be coreferent. Nouns like <i>fotografia</i> have an agent as the external argument.</p>
+</subsection>
+<subsection id="ss4" level="1">
+<heading id="h3" level="1">3&ensp;Extending affectedness to verbs</heading>
+<p>
+<link rid="b9">Rizzi (1986a</link>) also uses nouns like <i>fotografia</i> to support a generalization based on the affectedness distinction from <link rid="b2">Anderson (1979</link>). He suggests that affectedness operates on theta grids. Some verbs take unaffected objects. He claims that theta-roles other than theme, such as experiencer, benefactive, source, goal, are always affected but that there are two kinds of theme: theme 1, which is affected and theme 2, which is unaffected. He argues that an empty pronominal cannot be interpreted as arbitrary if it is unaffected and this predicts that verbs which take theme 2 will not allow null objects whereas those which take theme 1 will. The contrast is shown in (12):</p>
+<p>(12)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>*Gianni</entry>
+<entry>incontra/trova/vede/sente/</entry>
+<entry>arrabiati (Italian)</entry>
+</row>
+<row><entry>Gianni</entry>
+<entry>meets/finds/sees/hears</entry>
+<entry>angry</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>Gianni</entry>
+<entry>fotografa/ritrae/visita</entry>
+<entry>nudi</entry>
+</row>
+<row><entry>Gianni</entry>
+<entry>photographs/portrays/visits</entry>
+<entry>nude</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (12a) the null object is not allowed because these verbs take unaffected objects. In (12b) the null object is allowed because these verbs take affected objects. Rizzi agrees with <link rid="b1 b2">Anderson (1977a, 1979</link>) in claiming that reproduction of an object as in <i>fotografia</i> counts as affected.</p>
+<p>Rizzi notes that the same kind of distinction shows up in middles as described by <link rid="b3">Fiengo (1980</link>) and <link rid="b23">Keyser and Roeper (1984</link>).</p>
+<p>(13)&ensp;<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John portrays easily.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*John sees easily.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Rizzi notes that the affectedness effect becomes less clear-cut if the context indicates the object is affected even when the verb is one that takes an unaffected object.</p>
+<p>(14)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11"/>
+<tbody>
+<row><entry>In</entry>
+<entry>questo</entry>
+<entry>paese,</entry>
+<entry>talvolta</entry>
+<entry>la</entry>
+<entry>polizia</entry>
+<entry>trova</entry>
+<entry>___</entry>
+<entry> nudi</entry>
+<entry>sulla</entry>
+<entry>spiaggia. (Italian)</entry>
+</row>
+<row><entry>In</entry>
+<entry>this</entry>
+<entry>country,</entry>
+<entry>sometimes</entry>
+<entry>the</entry>
+<entry>police</entry>
+<entry>find</entry>
+<entry>___</entry>
+<entry> nude</entry>
+<entry>at the</entry>
+<entry>beach</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (14) the null object should not be allowed because the verb <i>trova</i> does not affect its object but the context indicates that those found nude by the police will be affected. Rizzi also notes that &ldquo;the affected&ndash;unaffected distinction appears to be of higher syntactic relevance than most distinctions offered by &thgr; theory&rdquo; (1986a: 540). These attempts to use affectedness to cover other languages essentially accept the definition of affectedness in <link rid="b1 b2">Anderson (1977a, 1979</link>) though they modify the mechanism, but <link rid="b10">Tenny (1992</link>) modifies the description itself.</p>
+<p>
+<link rid="b10 b11">Tenny (1992, 1994</link>) argues that the affected argument of a verb is better described as &ldquo;an argument which measures out and delimits the event described by the verb&rdquo; (1992: 8). This quality of delimiting the event is supported by the fact that these verbs take temporal adverbs:</p>
+<p>(15)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The missionaries converted the natives in a day/*for a day.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John avoided Bill *in a day/for a day.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (15a) <i>the natives</i> delimits the act of conversion and does not allow the temporal adverb with <i>for</i> which modifies an event taking place over a period of time. In (15b) <i>Bill</i> does not delimit the act of avoiding and allows the adverbial with <i>for</i> but not the adverbial with <i>in</i> which applies to events with an end point. Tenny claims that this brings together the other nominals allowing preposing, those of creation, concealment, or exposure. <link rid="b1 b2">Anderson (1977a, 1979</link>) had to extend the notion of affected to include these nominals. Tenny claims that describing this class of predicates in terms of aspect allows a more unified description of the whole class. She claims they have a measure aspectual role which gives a temporal limit associated with the event being measured out. She seems to mean by delimited that the endpoint is indicated.</p>
+</subsection>
+<subsection id="ss5" level="1">
+<heading id="h4" level="1">4&ensp;Affectedness in middles</heading>
+<p>
+<link rid="b10 b11">Tenny (1992, 1994</link>) extends this analysis to middles and here again argues that the notion affected is not as accurate as the notion of delimited. In (16) neither <i>cross</i> nor <i>wander</i> affects the object, <i>desert</i>, but <i>the desert</i> delimits crossing and not wandering. Thus (16a) is predicted to be grammatical and (16b) is not.</p>
+<p>(16)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>This desert crosses easily.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*This desert wanders easily.</entry>
+</row>
+</tbody>
+</tgroup>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Tenny agrees with <link rid="b1 b2">Anderson (1977a, 1979</link>) that the affected object is a direct internal object of the verb or noun when the object is affected or in Tenny&apos;s terms, when the object delimits the event of the verb or noun.</p>
+<p>In support of the measure aspect Tenny gives examples from the <i>ba</i> construction in Mandarin. In this construction the object preceded by a preposition can move to a position before the verb only if it is affected:</p>
+<p>(17)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Ta</entry>
+<entry>ba</entry>
+<entry>Zhangsan</entry>
+<entry>sha-le. (Mandarin)</entry>
+</row>
+<row><entry>he</entry>
+<entry>BA</entry>
+<entry>Zhangsan</entry>
+<entry>kill-ASP</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;He killed Zhangsan.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>*Lisi</entry>
+<entry>ba</entry>
+<entry>Xiaoming</entry>
+<entry>kanjian-le.</entry>
+</row>
+<row><entry>Lisi</entry>
+<entry>BA</entry>
+<entry>Xiaoming</entry>
+<entry>help-ASP</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Lisi saw Xiaoming.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The object can appear with <i>ba</i> before the verb if the object is affected as in (17a) but not otherwise as in (17b). Tenny cites <link rid="b24">Cheng and Ritter (1987</link>) for these examples and claims that verbs with change of state or resultatives also allow this construction. She claims that all of these involve a measure aspectual role.</p>
+<p>It is not clear how the aspectual role actually limits the operation of these movement rules. Tenny claims that some syntactic processes such as passivization are sensitive to the measure aspect but others such as <i>wh</i>-movement are not. However, it appears that taking the affected object as delimiting the event unifies the kinds of predicates that are involved in affectedness for both nouns and verbs.</p>
+<p>Going back to the noun preposing examples, one could claim that those nouns which are delimited by their objects take those objects as bare NPs and when the event is not delimited the complement is a prepositional phrase. A prohibition against preposition stranding then prevents preposing such objects.</p>
+<p>
+<link rid="b12">Egerland (1998</link>) follows Tenny in assuming that the affectedeness constraint is better described in terms of the object delimiting the event. For Egerland an event is delimited if it must take place over a fixed period of time. Egerland uses middles to illustrate his point:</p>
+<p>(18)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John read the book.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The book reads easily.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (18a) <i>the book</i> delimits the act of reading even though it is not affected by the event. As predicted, <i>read</i> is good as a middle and middles are assumed to work only with affected objects.</p>
+<p>
+<link rid="b13">Ackema and Schoorlemmer (1994</link>) suggest that the affectedness constraint can be derived from other conditions. They claim that there are middles in Dutch and English in which the subject is not affected:</p>
+<p>(19)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>De</entry>
+<entry>Matterhorn</entry>
+<entry>beklimt</entry>
+<entry>gemakkelijker</entry>
+<entry>dan</entry>
+<entry>de</entry>
+<entry>Mt. Everest. (Dutch)</entry>
+</row>
+<row><entry>the</entry>
+<entry>Matterhorn</entry>
+<entry>climbs</entry>
+<entry>more easily</entry>
+<entry>than</entry>
+<entry>the</entry>
+<entry>Mt. Everest</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col8">Greek translates easily.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In their analysis these are predicted because they claim that middles are formed in the lexicon whenever there is an action tier and a suppressed arbitrary actor. When this occurs the affected patient can be projected as the external argument. Both the Dutch and English examples have action tiers but no patients and so the only remaining arguments become the external arguments. They claim that these kinds of examples are rare because usually verbs with action tiers have patients. This means that middles tend to have affected objects but not always. Additional evidence comes from Dutch impersonal middles. The subject is not affected so the affectedness constraint fails to predict the grammaticality of (20):</p>
+<p>(20)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry>Het</entry>
+<entry>loopt</entry>
+<entry>lekker</entry>
+<entry>op</entry>
+<entry>deze</entry>
+<entry>schoenen. (Dutch)</entry>
+</row>
+<row><entry>it</entry>
+<entry>walks</entry>
+<entry>comfortably</entry>
+<entry>on</entry>
+<entry>these</entry>
+<entry>shoes</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This is grammatical because there is an action tier and a suppressed arbitrary actor so the impersonal pronoun is projected in the external argument position. (21) is predicted to be bad because there is no action tier or actor for a state verb:</p>
+<p>(21)&ensp;<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry>*Het</entry>
+<entry>lijdt</entry>
+<entry>even</entry>
+<entry>makkelijk</entry>
+<entry>met</entry>
+<entry>veel</entry>
+<entry>geld. (Dutch)</entry>
+</row>
+<row><entry>it</entry>
+<entry>suffers</entry>
+<entry>as</entry>
+<entry>easily</entry>
+<entry>with</entry>
+<entry>much</entry>
+<entry>money</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The authors suggest that a similar explanation may underlie the claim that the affectedness constraint controls passive nominals and null objects. They suggest that the logical subject argument is suppressed and the external argument chosen by the thematic hierarchy and that such a derivation will be possible only with nouns that have an action tier.</p>
+<p>For Ackema and Schoorlemmer the work of the affectedness constraint is done by the thematic hierarchy which dictates that the affected patient will be the external argument, if there is one, instead of the arguments lower on the hierarchy. Examples like those in (22) show that this analysis does not cover all of the data because both <i>avoid</i> and <i>avoidance</i> surely have action tiers and suppressed actors but they do not allow a middle (22) or preposing (22a):</p>
+<p>(22)&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*the avoidance of the hole by John</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*That hole avoids easily.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>It appears that Tenny&apos;s version of the affectedness constraint covers their examples. In (19) the <i>climbing</i> and the <i>translating</i> are both delimited by the syntactic subjects. The impersonal middles are not obviously predicted by Tenny&apos;s version of affectedness. It is not clear what mechanism prevents middles from forming with verbs which don&apos;t affect or delimit their objects but there seems to be agreement that some constraint operates here.</p>
+</subsection>
+<subsection id="ss6" level="1">
+<heading id="h5" level="1">5&ensp;Affectedness in dative constructions</heading>
+<p>
+<link rid="b14">Janda (1988</link>) relates affectedness to the dative of possession in Czech. The dative of possession as contrasted to the regular possessive implies that the possessor is affected. So for example in (23b) the possessor is considered to be affected, but not necessarily in (23a):</p>
+<p>(23)&ensp;<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Jeho</entry>
+<entry>matha</entry>
+<entry>zem&amp;rcaron;ela. (Czech)</entry>
+</row>
+<row><entry>his -possessive</entry>
+<entry>mother-nom</entry>
+<entry>died</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;His mother died.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Zem&amp;rcaron;ela</entry>
+<entry>mu</entry>
+<entry>matha.</entry>
+</row>
+<row><entry>died</entry>
+<entry>him-DAT</entry>
+<entry>mother-NOM</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;His mother died.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Further, the regular genitive (24a) cannot be used for inalienably possessed body parts but the dative of possession (24b) can be:</p>
+<p>(24)&ensp;<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>*Litost</entry>
+<entry>sev&amp;rcaron;ela</entry>
+<entry>hrdlo</entry>
+<entry>Petra. (Czech)</entry>
+</row>
+<row><entry>regret-NOM</entry>
+<entry>tightened</entry>
+<entry>throat-ACC</entry>
+<entry>Peter-GEN</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Regret tightened Peter&apos;s throat.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Litost</entry>
+<entry>sev&amp;rcaron;ela</entry>
+<entry>Petrovi</entry>
+<entry>hrdlo.</entry>
+</row>
+<row><entry>regret-NOM</entry>
+<entry>tightened</entry>
+<entry>Peter-DAT</entry>
+<entry>throat-ACC</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Regret tightened Peter&apos;s throat.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Both the dative of possession and the regular possessive can be used together. As in (25):</p>
+<p>(25)&ensp;<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry>Kdy&amp;zcaron;</entry>
+<entry>sevr&aacute;tit</entry>
+<entry>vid&amp;ecaron;&aacute;l</entry>
+<entry>&amp;zcaron;e</entry>
+<entry>mu</entry>
+<entry>sho&amp;rcaron;el</entry>
+<entry>jeho</entry>
+<entry>d&amp;uring;m. (Czech)</entry>
+</row>
+<row><entry>When</entry>
+<entry>refl-ACC returned</entry>
+<entry>saw</entry>
+<entry>that</entry>
+<entry>him-DAT</entry>
+<entry>burned down</entry>
+<entry>his-POSS</entry>
+<entry>house-NOM</entry>
+</row>
+<row><entry namest="col1" nameend="col8">&lsquo;When he returned he saw that his house had burned down (and he was affected).&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Janda claims that this dative can then be used to pragmatically create intimacy, solidarity, and authority because it can create the feeling that the speaker or the listener is affected by the action when it is not obvious that this is so. For example in (26), the mother includes herself as affected by the teething pain of the child and creates a feeling of solidarity:</p>
+<p>(26)&ensp;<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry morerows="1">
+</entry>
+<entry>Rostou</entry>
+<entry>n&aacute;m</entry>
+<entry>zoubky</entry>
+</row>
+<row><entry>grow</entry>
+<entry>us-DAT</entry>
+<entry>teeth-Nom</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Janda relates this pragmatic use to Lakoff&apos;s cognitive grammar (<link rid="b25">Lakoff 1987</link>).</p>
+<p>
+<link rid="b15">Landau (1999</link>) argues that in Hebrew, French, and Spanish the possessive dative construction is limited by independently motivated constraints on movement and that affectedness does not make the correct predictions. The contrast in (27a) and (27b), he claims, does not support the importance of affectedness because even though the affected dative in (27a) is good and the unaffected dative in (27b) is out there are other examples in both Hebrew and French in which the dative is unaffected, as in (28a) and (28b):</p>
+<p>(27)&ensp;<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Je</entry>
+<entry>lui</entry>
+<entry>ai</entry>
+<entry>arrach&eacute;</entry>
+<entry>la</entry>
+<entry>dent. (French)</entry>
+</row>
+<row><entry>I</entry>
+<entry>him</entry>
+<entry>have</entry>
+<entry>pulled</entry>
+<entry>the</entry>
+<entry>tooth</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;I pulled his tooth.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>*Je</entry>
+<entry>lui</entry>
+<entry>ai</entry>
+<entry>admir&eacute;</entry>
+<entry>le</entry>
+<entry>bras</entry>
+</row>
+<row><entry>I</entry>
+<entry>him</entry>
+<entry>have</entry>
+<entry>admired</entry>
+<entry>the</entry>
+<entry>arm</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;I admired his arm.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(28)&ensp;<object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Gil</entry>
+<entry>xipes</entry>
+<entry>le-Rina</entry>
+<entry>et</entry>
+<entry>ha-taba&rsquo;at. (Hebrew)</entry>
+</row>
+<row><entry>Gil</entry>
+<entry>searched</entry>
+<entry>to-Rina</entry>
+<entry>ACC</entry>
+<entry>the-ring</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;Gil searched for Rina&apos;s ring.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Je</entry>
+<entry>lui</entry>
+<entry>ai</entry>
+<entry>photographi&eacute;</entry>
+<entry>les</entry>
+<entry>pieds. (French)</entry>
+</row>
+<row><entry>I</entry>
+<entry>to- her</entry>
+<entry>have</entry>
+<entry>photographed</entry>
+<entry>the</entry>
+<entry>feet</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;I photographed her feet.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Landau claims that the dative of possession in these languages originates in the specifier of the DP which is possessed, <i>les pieds</i> in (28b), and raises from there to the specifier of the VP. His analysis predicts that you will not get dative of possession when there is no specifier of the VP and he claims this is true when the verb is a subject experiencer verb. In these verbs the experiencer is an internal argument so there is no position to which the possessive can raise. He argues that verbs with agents require a higher verb shell and the possessive can raise to the specifier of that shell. In experiencer verbs like those in (27) the experiencer, <i>je</i>, occupies the specifier of VP position and the dative cannot raise. His analysis also predicts that the dative of possession will not be possible if the possessed DP is not present as in (29):</p>
+<p>(29)&ensp;<object id="tu28" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu28_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry>Gil</entry>
+<entry>axal</entry>
+<entry>le-Rina</entry>
+<entry>*(et ha sendvich). (Hebrew)</entry>
+</row>
+<row><entry>Gil</entry>
+<entry>ate</entry>
+<entry>to-Rina</entry>
+<entry>Acc the sandwich</entry>
+</row>
+<row><entry namest="col1" nameend="col4">&lsquo;Gil ate Rina&apos;s sandwich.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>These data from French and Hebrew cast doubt on the claim that dative of possession in general allows only affected objects. However there does seem to be a connection between the closeness of the object to the verb in datives and the notion of affectedness. <link rid="b26">Shopen (1986</link>) claims that &ldquo;in any construction the position immediately following the verb draws more attention to affectedness than a position farther removed from the verb&rdquo; (1986: 153). Thus in <i>threw John out</i> there is more interest in the effect on <i>John</i> than there is in <i>threw out John</i>.</p>
+<p>
+<link rid="b16">Collins (1995</link>) argues on the basis of alternations extracted from the Australian Corpus Project that affectedness is not the only factor in the interpretation of datives. He claims that whether the NPs are definite, accessible, pronouns, or at the end of the VP are all factors. He claims that in examples like (30) the (30a) version occurs more often when <i>the flowers</i> is new information and (30b) more often when the identity of the recipient is new information. These are not distinguished by affectedness.</p>
+<p>(30)&ensp;<object id="tu29" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu29_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Tom gave his aunt the flowers.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Tom gave the flowers to his aunt.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Another claim about the relevance of affectedness to datives is made in <link rid="b17">Sadakani and Koizumi (1995</link>). They claim that children distinguish between the dative case marker <i>ni</i> and the postposition <i>ni</i> on the basis of the affectedness of the NP. The case marker <i>ni</i> is attached to more affected objects and the postposition is attached to less affected objects.</p>
+<p>(31)&ensp;<object id="tu30" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu30_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="2" valign="top">a.</entry>
+<entry>Emi-wa</entry>
+<entry>Mika-ni</entry>
+<entry>bara-no</entry>
+<entry>hanataba-O</entry>
+<entry>ageta.</entry>
+</row>
+<row><entry>Emi-Top</entry>
+<entry>Mika-ni</entry>
+<entry>rose-Gen</entry>
+<entry>bouquet-Acc</entry>
+<entry>gave</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;Emi gave Mika a bouquet of roses.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2" valign="top">b.</entry>
+<entry>Kanta-wa</entry>
+<entry>yuuenti-de</entry>
+<entry>uma-ni</entry>
+<entry>notta.</entry>
+</row>
+<row><entry>Kanta-Top</entry>
+<entry>amusement park-at</entry>
+<entry>horse-NI</entry>
+<entry>rode</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Kanta rode a horse at the amusement park.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2" valign="top">c.</entry>
+<entry>Mika-wa</entry>
+<entry>Tanaka</entry>
+<entry>sensee-ni</entry>
+<entry>inu-o.</entry>
+</row>
+<row><entry>Mika-Top</entry>
+<entry>Tanaka</entry>
+<entry>prof.-NI</entry>
+<entry>dog-Acc</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Mika was affected by Professor Tanaka&apos;s complimenting her dog.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry morerows="2" valign="top">d.</entry>
+<entry>Kanta-no</entry>
+<entry>ronbun-wa</entry>
+<entry>GB riron-ni.</entry>
+</row>
+<row><entry>Kanta-Gen</entry>
+<entry>paper-Top</entry>
+<entry>GB theory-NI</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;Kanta&apos;s paper is based on GB theory.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (31a) and (31b), where <i>Mika</i> and <i>the horse</i> are more affected, the case marker is used and in (31c) and (31d), where <i>Professor Tanaka</i> and <i>GB theory</i> are not affected, the postposition is used. This difference in affectedness is implicated in the process by which children learn the distinction between the postposition and the case marker. Children give a case marker structure to NPs which are more affected and a postposition to those which are less affected. The dative case marker is acquired first by children. This corresponds to a hierarchy suggested by <link rid="b27">Koizumi (1994</link>) in which more affected arguments are attached closest to the verb.</p>
+</subsection>
+<subsection id="ss7" level="1">
+<heading id="h6" level="1">6&ensp;Other forms constrained by affectedness</heading>
+<p>
+<link rid="b27">Koizumi (1994</link>) argues that depictive predicates in Japanese are not grammatical when the antecedent of the depictive is a non-affected theme. The contrast is shown in (32).</p>
+<p>(32)&ensp;<object id="tu31" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu31_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2" valign="top">a.</entry>
+<entry>Taroo-ga</entry>
+<entry>aizin-o</entry>
+<entry>hadaka-de</entry>
+<entry>korosita. (Japanese)</entry>
+</row>
+<row><entry>Taroo-Nom</entry>
+<entry>lover-Acc</entry>
+<entry>naked</entry>
+<entry>killed</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Taro killed his lover naked.&rsquo;</entry>
+</row>
+<row><entry morerows="2" valign="top">b.</entry>
+<entry>Sinko-ga</entry>
+<entry>manekin-o</entry>
+<entry>hadaka-de</entry>
+<entry>korosita.</entry>
+</row>
+<row><entry>Shinko-Nom</entry>
+<entry>mannekin-Acc</entry>
+<entry>naked</entry>
+<entry>displayed</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Shinko displayed the mannequins naked.&rsquo;</entry>
+</row>
+<row><entry morerows="2" valign="top">c.</entry>
+<entry>*Taroo-ga</entry>
+<entry>Ziroo-o</entry>
+<entry>hadaka-de</entry>
+<entry>hometa.</entry>
+</row>
+<row><entry>Taroo-Nom</entry>
+<entry>Ziroo-Acc</entry>
+<entry>naked</entry>
+<entry>praised</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Taro praised Jiro naked.&rsquo;</entry>
+</row>
+<row><entry morerows="2" valign="top">d.</entry>
+<entry>*Taroo-ga</entry>
+<entry>Ziroo-o</entry>
+<entry>hadaka-de</entry>
+<entry>oikaketa.</entry>
+</row>
+<row><entry>Taroo-Nom</entry>
+<entry>Ziroo-Acc</entry>
+<entry>naked</entry>
+<entry>chased</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Taro chased Jiro naked.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (32a) and (32b) the antecedents of the depictive <i>naked</i>, <i>his lover</i>, and <i>the mannekin</i>, are affected by the verbs, <i>killed</i> and <i>displayed</i>. In (32c) and (32d) the antecedent, <i>Jiro</i>, is not affected by the verbs <i>praised</i> and <i>chased</i>. Koizumi claims that the affected theme illustrated in (32a) and (32b) is a sister to the lowest verb and thus available to the depictive predicate whereas the unaffected theme illustrated in (32c) and (32d) is a sister to the higher verb phrase and thus not available to the predicate. Koizumi&apos;s principle of predication requires that the predicate be c-governed by the antecedent and c-governed by an x zero category. C-government is defined in terms of c-command with the requirement that there be no barrier between the two elements.</p>
+<p>(33)&ensp;<object id="tu32" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu32_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;<sub>VP</sub> NP-o ODP &lsqb;<sub>V&prime;</sub> v&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>VP</sub> NP-o &lsqb;<sub>V&prime;</sub> ODP v&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (33a) the object depictive phrase (ODP) is not c-governed by the verb, the only available zero level category, and in (33b) the V&prime; is a barrier to c-government by the unaffected object theme. In (32c) and (32d) the non-affected theme <i>Jiro</i> will not c-command a depictive predicate that is c-commanded by the zero level verb. Only the affected theme which is sister of the zero level verb will do so. These non-affected themes can however be antecedents of depictives if they undergo passive:</p>
+<p>(34)&ensp;<object id="tu33" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu33_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>*Taroo-ga</entry>
+<entry>Ziroo-o</entry>
+<entry>hadaka-de</entry>
+<entry>nagutta. (Japanese)</entry>
+</row>
+<row><entry>Taro-Nom</entry>
+<entry>Jiro-Acc</entry>
+<entry>naked</entry>
+<entry>hit</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Taro hit Jiro naked.&rsquo;</entry>
+</row>
+<row><entry morerows="2">b.</entry>
+<entry><sup>?</sup> Ziroo-ga</entry>
+<entry>hadaka-de</entry>
+<entry>Taroo-ni</entry>
+<entry>nagurareta.</entry>
+</row>
+<row><entry>Jiro-Nom</entry>
+<entry>naked</entry>
+<entry>Taro-by</entry>
+<entry>was hit</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Jiro was hit by Taro naked.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Koizumi says this is because the subject position allows the depictive because the depictive can be a sister of Infl and be c-governed then by both an x zero category and the antecedent in subject position.</p>
+<p>Koizumi points out that the thematic roles assigned in (34) are the same and thus it is not directly the thematic role which restricts the interpretation. Rather it is the base structure associated with the semantic role. The affected theme is a sister of the lowest verb and the non-affected theme is not.</p>
+<p>Koizumi claims that secondary resultative predicates are also sensitive to the affected/non-affected distinction as illustrated in (35):</p>
+<p>(35)&ensp;<object id="tu34" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu34_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Taroo-ga</entry>
+<entry>garasu-o</entry>
+<entry>3-tu-ni</entry>
+<entry>kitta. (Japanese)</entry>
+</row>
+<row><entry>Taro-Nom</entry>
+<entry>glass-Acc</entry>
+<entry>3-CL-into</entry>
+<entry>cut</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Taro cut the glass into three pieces.&rsquo;</entry>
+</row>
+<row><entry morerows="2">b.</entry>
+<entry>*Taroo-ga</entry>
+<entry>garasu-o</entry>
+<entry>3-tu-ni</entry>
+<entry>tataita.</entry>
+</row>
+<row><entry>Taro-Nom</entry>
+<entry>glass-Acc</entry>
+<entry>3-CL-into</entry>
+<entry>hit</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Taro hit the glass into three pieces.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>He concludes that secondary resultative predicates like <i>into three pieces</i> are generated as sisters of the lowest verb, v, and thus can be predicated of affected themes which are also sisters of v as in (35a) but they cannot be predicated of non-affected themes like <i>the glass</i> in (35b) because such themes are sisters of the higher verb complex. In other words, these themes are attached higher in the structure. Locative phrases are claimed to behave in the same way:</p>
+<p>(36)&ensp;<object id="tu35" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu35_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Taroo-ga</entry>
+<entry>Ziroo-o</entry>
+<entry>betto-no</entry>
+<entry>ue-de</entry>
+<entry>korosita.</entry>
+</row>
+<row><entry>Taro-Nom</entry>
+<entry>Jiro-Acc</entry>
+<entry>bed-Gen</entry>
+<entry>on</entry>
+<entry>killed</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;Taro killed Jiro on the bed.&rsquo;</entry>
+</row>
+<row><entry morerows="2">b.</entry>
+<entry>Taroo-ga</entry>
+<entry>Ziroo-o</entry>
+<entry>betto-no</entry>
+<entry>ue-de</entry>
+<entry>hometa.</entry>
+</row>
+<row><entry>Taro-Nom</entry>
+<entry>Jiro-Acc</entry>
+<entry>bed-Gen</entry>
+<entry>on</entry>
+<entry>praised</entry>
+</row>
+<row><entry namest="col2" nameend="col6">*&lsquo;Taro praised Jiro on the bed.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Koizumi claims that (36b) is ungrammatical if just <i>Jiro</i> is on the bed but that (36a) is grammatical if just <i>Jiro</i> is on the bed. In the reading where both people are on the bed it is assumed that the locative is higher in the structure. If locatives are considered to be secondary predicates they fit the pattern of Koizumi&apos;s principle of predication.</p>
+<p>The notion of affected versus non-affected theme is different for Koizumi than for Anderson. In example (35b) the verb <i>hit</i> seems to carry the connotation of affecting the object yet these examples are classified by Koizumi as non-affected themes. Koizumi claims that affected themes are selected by verbs which &ldquo;cannot repeatedly act upon the same object while a non-affected theme transitive can&rdquo; (1994: 74). Thus one can kill someone only once but one can hit or praise them a number of times. This seems compatible with Tenny&apos;s revision of affectedness, that the affected theme delimits the action of the verb.</p>
+<p>Koizumi claims that a similar analysis of secondary predicates works in English and that in English secondary predicates cannot be predicated of non-affected themes as shown in (37):</p>
+<p>(37)&ensp;<object id="tu36" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu36_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry><sup>?</sup>*John hit Tom naked.</entry>
+</row>
+<row><entry>b.</entry>
+<entry><sup>?</sup>*Mary praised the professor drunk.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>He claims that the objects of the verbs as non-affected themes are generated in the spec of VP and the adjectives <i>drink</i> and <i>naked</i> are generated as sisters of v. The judgments here are not very clear. <i>John killed Tom naked</i> seems no better than (37a) or <i>chased Tom naked</i>. Further, (38) seems perfect though <i>see</i> does not affect its object:</p>
+<p>(38)&ensp;Mary saw the professor drunk</p>
+<p>
+<link rid="b18">Miyagawa (1988</link>) makes a similar point about floating numeral quantifiers in Japanese. He claims that only affected themes allow numeral quantifiers to float. In (39) the floated quantifier is grammatical with <i>okutta</i>, &lsquo;sent&rsquo;, but ungrammatical with <i>matte</i>, &lsquo;wait for&rsquo;.</p>
+<p>(39)&ensp;<object id="tu37" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu37_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>futa-tsu</entry>
+<entry>John-ga</entry>
+<entry>kozutsumi-o</entry>
+<entry>t</entry>
+<entry>okutta</entry>
+<entry>(koto) (Japanese)</entry>
+</row>
+<row><entry>2-CL</entry>
+<entry>John-Nom</entry>
+<entry>package-Acc</entry>
+<entry>t</entry>
+<entry>sent</entry>
+<entry>fact</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;(the fact that) John sent two packages&rsquo;</entry>
+</row>
+<row><entry morerows="2">b.</entry>
+<entry>*futa-ri</entry>
+<entry>Mary-ga</entry>
+<entry>gakusei-o</entry>
+<entry>t</entry>
+<entry>matte iru</entry>
+<entry>(koto)</entry>
+</row>
+<row><entry>2-CL</entry>
+<entry>Mary-Nom</entry>
+<entry>students-Acc</entry>
+<entry>t</entry>
+<entry>wait</entry>
+<entry>fact</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;(the fact that) Mary is waiting for two students&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This he claims is because the type of verb he calls a theme transitive directly governs the numeral quantifier, a predicate in his terms. He further stipulates that a predicate leaves a trace only if it is in a virtual A position. He claims that affected themes can involve exchange, creation, conversion, destruction, or consumption. As a test he uses the intransitivizing resultative, <i>-te aru</i>:</p>
+<p>(40)&ensp;<object id="tu38" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu38_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>ringo-ga</entry>
+<entry>katte</entry>
+<entry>aru. (Japanese)</entry>
+</row>
+<row><entry>apples-Nom</entry>
+<entry>buy-Gerund</entry>
+<entry>exist</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;Apples are bought &equals; Apples have been bought.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>*Hanako-ga</entry>
+<entry>aishite</entry>
+<entry>aru.</entry>
+</row>
+<row><entry>Hanako-Nom</entry>
+<entry>love-Gerund</entry>
+<entry>exist</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;Hanako is loved.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(40a) is grammatical but (40b) is not. Using this test verbs translated as <i>open</i>, <i>write</i>, <i>collect</i>, <i>break</i> are theme transitives and <i>wait</i>, <i>praise</i>, <i>like</i>, <i>shout at</i>, and <i>hit</i> are non-theme transitives. He claims that <i>hit</i> does not affect its object or take an affected theme role and that the same is true in English as shown by the impossibility of the predicate <i>flat</i> in (41b):</p>
+<p>(41)&ensp;<object id="tu39" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu39_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John smashed the can flat.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*John hit the can flat.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Numeral quantifiers cannot move out of the positions in which they modify non-themes as in (27b) because they cannot leave traces. The assumption here is that if they cannot leave traces they cannot move.</p>
+<p>Miyagawa claims that the distinction between affected and unaffected themes is similar to the distinction between resultative and depictive predicates in English.</p>
+<p>(42)&ensp;<object id="tu40" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu40_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>How clean did the dog pick the bone?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*How raw did you eat the meat?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (42a) <i>clean</i> is the state that results from the event. In (42b) <i>raw</i> depicts the state of <i>the meat</i> not the result of the event. Miyagawa argues that a result can only occur when an entity is affected. This connects the resultative predicates to affected themes. He claims that the resultative predicate, like the numeral quantifier, is governed directly by the verb because of the relation to the affected theme. The distinction he makes seems similar to Tenny&apos;s distinction between accomplishment vs. ongoing action.</p>
+</subsection>
+<subsection id="ss8" level="1">
+<heading id="h7" level="1">7&ensp;Experimental work</heading>
+<p>
+<link rid="b19">Gropen et al. (1991</link>) show that affectedness may be a semantic primitive that enters into the assignment of argument structure to verbs. The authors&rsquo; experimental data provide evidence that children use a rich semantic structure with linking rules rather than a fixed list of thematic roles.</p>
+<p>The linking rule they discuss is one that links the direct object of a verb to the entity affected by the verb. Children aged 3 to 9 and adults were introduced to novel verbs by showing them the action described by the verb. Entities, such as a piece of cotton, were moved to a goal which was either affected by that movement or not affected. For example, a piece of wet cotton soaked the goal which changed color, or a piece of dry cotton had no effect on the goal. When the goal was not affected the motion was in a particular manner, such as zig-zagging. Sentences using the novel verbs were elicited and it was found that when the goal was affected the children more often made the goal the direct object rather than making the moving entity the direct object. They would more often use a structure like &lsquo;keated the paper with the cotton&rsquo; than &lsquo;keated the cotton on the paper&rsquo;. This was taken to show that the children were using a rich semantic structure including the notion of affected and that they linked affected entities to the direct object position. If children had a set list of thematic roles and assigned the moving object to one of these roles and the goal to another, one would not expect there to be a difference in syntactic structure when the goal was affected.</p>
+<p>The authors also found that the ground or goal was made the direct object only when it was completely filled or covered. In &lsquo;keated the board with the ball&rsquo; the board would be covered by the ball. However the figure, the moving entity, could usually be the object whether the ground was completely covered or filled or not. In &lsquo;keated the ball on the board&rsquo; the board could be completely covered or not. In terms of affectedness this may mean that a ground will not be considered affected unless it is substantially covered or filled. Having a few apples does not affect a cart. However, a figure is affected just by changing position.</p>
+<p>The authors assert that those verbs which alternate between figure and ground are those in which both the figure and the ground could be construed as affected. Verbs like <i>brush</i> and <i>dab</i> have force applied simultaneously to figure and ground and alternate between &lsquo;brush the board with paint&rsquo; and &lsquo;brush paint on the board&rsquo;.</p>
+<p>
+<link rid="b20">Lebeaux (1988a</link>) claims that children use the semantics of affectedness when acquiring passives. Children learn non-action passives like &lsquo;was liked&rsquo; later than action passives like &lsquo;was hit&rsquo; and Lebeaux claims this is because they have a constraint that affected entities are objects. When the child hears passives like &lsquo;John was hit&rsquo; the child assumes that <i>John</i> is affected and so must have been the object and posits a trace after <i>hit</i>. The child does not make the same assumption for sentences like &lsquo;John was liked&rsquo; and so can&apos;t process them. Later the child notices that there is a productive passive morphology and so extends passive to verbs like <i>like</i> on the basis of the morphology not the semantics. For noun phrases like &lsquo;the city&apos;s destruction&rsquo; the child assumes that there is a trace and that <i>the city</i> is the object, but because there is no passive morphology for passives in noun phrases the child does not extend this structure to other nouns. Passive is assumed only for those which fit the thematic generalization that affected nouns must be internal arguments. In the adult grammar the NPs with nouns like <i>destruction</i> will have a trace but they will not be real passives because it is not a productive process and the nominal passive ends up being thematically restricted.</p>
+<p>
+<link rid="b21">Gordon and Chafetz (1990</link>) claim that at least in the acquisition of passives children are not influenced by whether or not the object is affected by the action of the verb. Children do not seem to comprehend non-action passives as early as action passives but Gordon and Chafetz claim this is because they hear fewer non-action passives. In their studies the verbs with affected objects were no more likely to be understood in passive than those which had non-affected objects.</p>
+<p>Affectedness seems to be a factor in a number of different constructions, NP preposing, middles, datives, depictive predicates. The effects are found in English, French, Dutch, Hebrew, Polish, Japanese. The most straightforward mechanism for describing the effect is that it is a semantic primitive which constrains the subcategorization frames of verbs and nouns. The actual way in which this mechanism operates is not worked out for most of the constructions described here. Experimental work adds weight to the idea that affectedness is a semantic primitive.</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss9" level="1" type="references">
+<heading id="h8" level="1">REFERENCES</heading>
+<reference id="b13" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Ackema</surname><x>, </x><forenames>Peter</forenames>
+</name><x> and </x><name type="author">
+<forenames>Maaike</forenames><x> </x><surname>Schoorlemmer</surname>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">The Middle Construction and the Syntax&ndash;Semantics Interface</title><x>. </x><title type="journal">Lingua</title><x> </x><volume>93</volume><x>: </x><page type="first">59</page><x>&ndash;</x><page type="last">90</page><x>.</x>
+</reference>
+<reference id="b7" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Amritivalli</surname><x>, </x><forenames>Raghavachari</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="document">Expressing Cross-Categorial Selectional Correspondences: An Alternative to the X&rsquo; Syntax Approach</title><x>. </x><title type="journal">Linguistic Analysis</title><x> </x><volume>6</volume><x>: </x><page type="first">305</page><x>&ndash;</x><page type="last">343</page><x>.</x>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Anderson</surname><x>, </x><forenames>Mona</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977a</date><x>). </x><title type="document">NP Pre-Posing in Noun Phrases</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Lingusitic Society 8</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Mark</forenames><x> </x><surname>Stein</surname>
+</name>
+<miscellaneoustext> (ed.)</miscellaneoustext><x>.</x>
+</namegroup><x> </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association</publisher><x>.</x>
+</reference>
+<reference id="b2" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Anderson</surname><x>, </x><forenames>Mona</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date>
+<miscellaneoustext>). Noun Phrase Structure. PhD dissertation</miscellaneoustext><x>, </x>
+<address>University of Connecticut</address><x>.</x>
+</reference>
+<reference id="b24" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cheng</surname><x>, </x><forenames>Lisa</forenames>
+</name><x> and </x><name type="author">
+<forenames>Elizabeth</forenames><x> </x><surname>Ritter</surname>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">A Small Clause Analysis of Inalienable Possession in Mandarin and French</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society 18</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>James</forenames><x> </x><surname>Blevins</surname>
+</name><x> and </x><name type="editor">
+<forenames>Julie</forenames><x> </x><surname>Carter</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">65</page><x>&ndash;</x><page type="last">78</page><x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association</publisher><x>.</x>
+</reference>
+<reference id="b22" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1970">1970</date><x>). </x><title type="document">Remarks on Nominalization</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Readings in English Transformational Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Roderick</forenames><x> </x><surname>Jacobs</surname>
+</name><x> and </x><name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Rosenbaum</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">184</page><x>&ndash;</x><page type="last">221</page><x>. </x><address>Boston</address><x>: </x><publisher>Ginn</publisher><x>.</x>
+</reference>
+<reference id="b16" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Collins</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">The Indirect Object Construction in English: An Informational Approach</title><x>. </x><title type="journal">Lingua</title><x> </x><volume>33</volume><x>: </x><page type="first">35</page><x>&ndash;</x><page type="last">49</page><x>.</x>
+</reference>
+<reference id="b12" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Egerland</surname><x>, </x><forenames>Verner</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">The Affectedness Constraint and AspP</title><x>. </x><title type="journal">Studia Linguistica</title><x> </x><volume>52</volume><x>: </x><page type="first">19</page><x>&ndash;</x><page type="last">47</page><x>.</x>
+</reference>
+<reference id="b3" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Fiengo</surname><x>, </x><forenames>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="book">Surface Structure<x>.</x>
+</title><x> </x><address>Boston</address><x>: </x><publisher>Harvard University Press</publisher><x>.</x>
+</reference>
+<reference id="b8" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Giorgi</surname><x>, </x><forenames>Alessandra</forenames>
+</name><x> and </x><name type="author">
+<forenames>Giuseppe</forenames><x> </x><surname>Longobardi</surname>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="book">The Syntax of Noun Phrases: Configuration, Parameters, and Empty Categories</title><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference id="b21" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Gordon</surname><x>, </x><forenames>Peter</forenames>
+</name><x> and </x><name type="author">
+<forenames>Jill</forenames><x> </x><surname>Chafetz</surname>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Verb-Based versus Class-Based Accounts of Actionality Effects in Children&apos;s Comprehension of Passives</title><x>. </x><title type="journal">Cognition</title><x> </x><volume>36</volume><x>: </x><page type="first">227</page><x>&ndash;</x><page type="last">254</page><x>.</x>
+</reference>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Grimshaw</surname><x>, </x><forenames>Jane</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="book">Argument Structure<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b19" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Gropen</surname><x>, </x><forenames>Jess,<x> </x>Steven</forenames>
+</name><x> </x><name type="author">
+<surname>Pinker</surname><x>, </x><forenames>Michelle</forenames>
+</name><x> </x><corporatename type="author">Hollander</corporatename>
+<x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>Richard</forenames><x> </x><surname>Goldberg</surname>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><address>Affectedness and Direct Objects</address><x>: </x><publisher>The Role of Lexical Semantics in the Acquisition of Verb Argument Structure</publisher><x>. </x><title type="book">Cognition</title>
+<miscellaneoustext> 41</miscellaneoustext><x>: </x>
+<page type="first">153</page><x>&ndash;</x><page type="last">195</page><x>.</x>
+</reference>
+<reference id="b4" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Jaeggli</surname><x>, </x><forenames>Osvaldo</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986a</date><x>). </x><title type="document">Passive</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>17</volume><x>: </x><page type="first">587</page><x>&ndash;</x><page type="last">622</page><x>.</x>
+</reference>
+<reference id="b14" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Janda</surname><x>, </x><forenames>Laura</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Pragmatic vs. Semantic Uses of Case</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Twenty-fourth Regional Meeting</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Lynn</forenames><x> </x><surname>MacLeod</surname>
+</name><x>, </x><name type="editor">
+<forenames>Gary</forenames><x> </x><surname>Larson</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Diane</forenames><x> </x><surname>Brentari</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">189</page><x>&ndash;</x><page type="last">202</page><x>. </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society</publisher><x>.</x>
+</reference>
+<reference id="b23" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Keyser</surname><x>, </x><forenames>Samuel<x> </x>J</forenames>
+</name>
+<x>. </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>Thomas</forenames><x> </x><surname>Roeper</surname>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">On the Middle and Ergative Constructions in English</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>15</volume><x>: </x><page type="first">381</page><x>&ndash;</x><page type="last">416</page><x>.</x>
+</reference>
+<reference id="b27" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Koizumi</surname><x>, </x><forenames>Masatoshi</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">Secondary Predicates</title><x>. </x><title type="journal">Journal of East Asian Linguistics</title><x> </x><volume>3</volume><x>: </x><page type="first">25</page><x>&ndash;</x><page type="last">79</page><x>.</x>
+</reference>
+<reference id="b25" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lakoff</surname><x>, </x><forenames>George</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="book">Women, Fire, and Dangerous Things: What Categories Reveal about the Mind</title><x>. </x><address>Chicago</address><x>: </x><publisher>University of Chicago Press</publisher><x>.</x>
+</reference>
+<reference id="b15" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Landau</surname><x>, </x><forenames>Idan</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">Possessor Raising and the Structure of VP</title><x>. </x><title type="journal">Lingua</title><x> </x><volume>107</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">37</page><x>.</x>
+</reference>
+<reference id="b20" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lebeaux</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988a</date><x>). </x><title type="document">The Feature &plus;Affected and the Formation of the Passive</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Syntax and Semantics: Thematic Relations</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Wendy</forenames><x> </x><surname>Wilkins</surname>
+</name>
+<miscellaneoustext> (ed.)</miscellaneoustext><x>.</x>
+</namegroup><x> </x><address>New York</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b18" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Miyagawa</surname><x>, </x><forenames>Shigeru</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Theme Subjects and Numeral Quantifiers</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Issues on Empty Categories: Proceedings of Japanese Syntax Workshop</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Wako</forenames><x> </x><surname>Tawa</surname>
+</name><x> and </x><name type="editor">
+<forenames>Mineharu</forenames><x> </x><surname>Nakayama</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>New London, CT</address><x>: </x><publisher>Connecticut College</publisher><x>.</x>
+</reference>
+<reference id="b9" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Rizzi</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986a</date><x>). </x><title type="document">Null Objects in Italian and the Theory of Pro</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>17</volume><x>: </x><page type="first">501</page><x>&ndash;</x><page type="last">557</page><x>.</x>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rozwadowska</surname><x>, </x><forenames>Bo&#x017C;ena</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Thematic Restrictions on Derived Nominals</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Syntax and Semantics: Thematic Relations</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Wendy</forenames><x> </x><surname>Wilkins</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">147</page><x>&ndash;</x><page type="last">165</page><x>. </x><address>New York</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b17" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Sadakani</surname><x>, </x><forenames>Kumi</forenames>
+</name><x> and </x><name type="author">
+<forenames>Masatoshi</forenames><x> </x><surname>Koizumi</surname>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">On the Nature of the Dative Particle</title><x> </x><title type="journal">Ni</title>
+<miscellaneoustext> in Japanese</miscellaneoustext><x>. </x>
+<title type="journal">Linguistics</title><x> </x><volume>33</volume><x>: </x><page type="first">5</page><x>&ndash;</x><page type="last">33</page><x>.</x>
+</reference>
+<reference id="b26" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Shopen</surname><x>, </x><forenames>Tim</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Comments on <i>The Semantics of &ldquo;Internal Dative&rdquo;</i> by Anna Wierzbicka</title><x>. </x><title type="journal">Quaderni di Semantica</title><x> </x><volume>7</volume><x>: </x><page type="first">151</page><x>&ndash;</x><page type="last">154</page><x>.</x>
+</reference>
+<reference id="b10" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Tenny</surname><x>, </x><forenames>Carol</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">The Aspectual Interface Hypothesis</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Lexical Matters</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ivan</forenames><x> </x><surname>Sag</surname>
+</name><x> and </x><name type="editor">
+<forenames>Anna</forenames><x> </x><surname>Szabolcsi</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">1</page><x>&ndash;</x><page type="last">28</page><x>. </x><address>Stanford</address><x>: </x><publisher>CLSI Publications</publisher><x>.</x>
+</reference>
+<reference id="b11" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Tenny</surname><x>, </x><forenames>Carol</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">Aspectual Roles and the Syntax&ndash;Semantics Interface<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

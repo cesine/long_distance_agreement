@@ -1,0 +1,74 @@
+<?php
+
+// TBD1: Display is missing Furniture type, Equipment type, Equipment assigned user
+
+session_start();
+
+
+include_once('../MODEL/Computer.Class.php');
+include_once('../MODEL/Equipment.Class.php');
+include_once('../MODEL/Furniture.Class.php');
+include_once('../MODEL/Computer.Class.php');
+include_once('../MODEL/PhysicalAssets.Class.php');
+
+
+if ($_SESSION['physicalAssetsArray'])
+{
+	if ($_SESSION['physicalAssetsArray'][0])
+	{
+		$resultsArray = unserialize($_SESSION['physicalAssetsArray']);
+		$hit= count($resultsArray);
+	}
+	else
+	{
+		$hit=0;
+	}
+}
+
+echo '<h1>Physical Asset Search - Results</h1>';
+
+// Display search results
+// For each hit - Display Asset ID, Barcode, Category, Location, Status
+
+if ($hit == 0)
+{
+    echo ('No results found.');
+    echo '<br>';
+}
+else
+{
+    for ($i = 0; $i < $hit; $i++)
+    {
+        // Display search results
+		$resultsArray[$i]->displayAsset();
+    }
+}
+
+
+/*if ($hit >= 1)
+{
+    echo '<form action="../CONTROLLER/SelectPhysicalAssetDispatcher.php" method="post">';
+    echo '<input type="hidden" name="CallingForm" value="SearchAssetResults"/>';
+    echo '<fieldset>';
+    echo '<legend> <font color=cornflowerblue><b>View asset details</b></font> </legend>';
+    echo 'Asset ID: <input type="text" name="$AssetID" size="5" maxlength="10" class="inputtext">';
+    echo '<br><br>';
+    echo '<input type="submit" value="View">';
+    echo '<input type="reset"  value="Reset">';
+    echo '<br>';
+    echo '</fieldset>';
+    echo '<br>';
+    echo '</form>';
+}*/
+
+?>
+
+<form action="SearchAsset.php" method="post">
+<fieldset>
+<legend> <font color=gray><b>New Search</b></font> </legend>
+	<input type="submit" name="submit" value="Return" />
+</fieldset>
+
+</form>
+
+<br>

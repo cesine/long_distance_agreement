@@ -1,0 +1,1987 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="24"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 24 - Existential Sentences and Expletive There.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">210</page>
+<page type="last">236</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="0"/>
+<count type="table" count="29"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="55"/>
+<count type="page" count="27"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051111"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 24&ensp;Moro: Existential Sentences</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 24&ensp;Moro: Existential Sentences</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">24 Existential Sentences and Expletive <i>There</i>
+</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>ANDREA</forenames><x> </x><surname>MORO</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction: what is an existential sentence?</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Basic properties of existential sentences</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>Deriving the basic properties of existential sentences</p>
+</li>
+<li level="2">
+<number>3.1&ensp;</number>
+<p>The standard theory: <i>there</i> as a place holder for the subject</p>
+</li>
+<li level="2">
+<number>3.2&ensp;</number>
+<p>An alternative theory: <i>there</i> as a place holder for the predicate</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>On the Definiteness Effect in existential sentences: are there parameters in semantics?</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1&ensp;Introduction: what is an existential sentence?</heading>
+<p>The label &lsquo;existential sentence&rsquo; can be misleading. On the one hand, it explicitly refers to a semantic property, i.e., to a sentence whose meaning is to predicate the (non-)existence of something; on the other, it really points to a specific syntactic structure: in fact, just to limit the observation to English, although one can express the existence of something by using a predicate of existence like &lsquo;to exist&rsquo; as in <i>unicorns exist</i>, the standard terminology would not refer to this sentence as an existential sentence; an existential sentence would rather be a sentence like <i>there are unicorns</i> or <i>there exist unicorns</i>. Establishing the defining structure of an existential sentence, thus, has become a major goal of syntactic theory (and a logical preliminary step toward a semantic theory of them). In this chapter, I will try to illustrate some basic aspects of the syntax of existential sentences and the problems related to the current treatments for them.<link rid="fn1">
+<sup>1</sup></link>
+</p>
+<p>In his <i>Philosophy of Grammar</i>, by relying on the comparison of many different languages, Otto Jespersen arrived at a major generalization which one can consider as a good starting point in this field of research:</p>
+<p>(1)&ensp;<b>Jespersen&apos;s generalization:</b>
+</p>
+<p>&ldquo;whether or not a word like <i>there</i> is used to introduce them &lsqb;i.e. existential sentences&rsqb; the verb precedes the subject and the latter is hardly treated as a real subject&rdquo; (<link rid="b1">Jespersen 1924</link>: 155).</p>
+<p>Of course, such a generalization does not exhaustively answer the questions raised by existential sentences; thus, for example one must still understand in which sense a subject of an existential sentence is &ldquo;hardly treated as a real subject.&rdquo; Nevertheless, a first non-trivial syntactic property is singled out here: namely, that existential sentences involve (some kind of) subject&ndash;verb inversion. For example, we have the following cases in English, French, German, and Italian respectively:</p>
+<p>(2)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>There are many girls.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Il-y-a beaucoup des filles.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Es gibt viele M&auml;dchen.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>Ci sono molte ragazze.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Moreover, it must be highlighted that the distribution of elements like English <i>there</i> or Italian <i>ci</i> has become a central issue of modern syntactic theory since at least the nineteenth century (cf. <link rid="b2">Graffi 2001</link> for comprehensive reference and extensive critical discussion). In particular, within transformational grammar the distribution of such an element has played a central role in the transition from rule-based grammars to principle-based grammars which characterized the field in the late 1970s, leading to <link rid="b3">Chomsky&apos;s (1981</link>) landmark work. We will come back to these theoretical issues in <link rid="ss5">section 3.1</link>. As a preliminary, let us review some basic properties of existential sentences by referring to English.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2&ensp;Basic properties of existential sentences</heading>
+<p>As we just noted in the introduction, an existential sentence in English is a <i>there</i>-sentence with <i>be</i> (or <i>exist</i>) as a main verb:</p>
+<p>(3)&ensp;There are many girls.</p>
+<p>In fact, existential sentences of this type are rare. Generally, existential sentences involve the so called &lsquo;coda&rsquo;, i.e., a PP/AP specifying the domain of existence of the individual or set of individuals whose existence is predicated, such as <i>in the garden</i> in the following sentence:</p>
+<p>(4)&ensp;There are many girls in the garden.</p>
+<p>This more complex structure involving the coda has become the real test case upon which most theories have been shaped. In fact, the idea is that in a sentence like (4) <i>many girls in the garden</i> is an uninflected clausal constituent, i.e., a small clause, of the kind that one can find in sentences like the one in (5):<link rid="fn2">
+<sup>2</sup></link>
+</p>
+<p>(5)&ensp;John saw &lsqb;<sub>SC</sub> many girls in the garden&rsqb;.</p>
+<p>In other words, the idea is that the PP in the coda is the real predicate of a <i>there</i>-sentence while <i>there</i> plays the role of a dummy place holder for the structural subject position, technically an &lsquo;expletive&rsquo;. By relying on similar considerations, practically all syntactic frameworks agree on this analysis. Moreover, the existence of copular sentences of the type in (6a) has been considered as an independent piece of evidence in favor of the small-clause analysis, since there are analogous cases involving subject raising from the lower uninflected clausal constituent in (5) yielding (6b):</p>
+<p>(6)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Many girls are &lsqb;<sub>SC</sub> t in the garden&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Many girls are seen &lsqb;<sub>SC</sub> t in the garden&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In other words, a <i>there</i>-sentence has been considered as the counterpart of a copular sentence (cf. <related relationship="sibling" type="samework"><externallink id="chapter 18 - Copular Sentences.xml" type="file">chapter 18</externallink></related>) with the occurrence of expletive <i>there</i> in the higher subject position as opposed to the raising of the subject of predication. Formally, the following simplified structures are standardly accepted:</p>
+<p>(7)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>There are &lsqb;<sub>SC</sub> many girls in the garden&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Many girls are &lsqb;<sub>SC</sub> t in the garden&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Let us now take the standard structural representation in (7a&ndash;b) as correct and focus on some major properties of existential sentences. For the sake of simplicity, consider the following paradigm:</p>
+<p>(8)<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Which girls do you think that there are &lsqb;t in the garden&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>What do you think that there is &lsqb;t in the garden&rsqb;.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Which girls do you think that there are &lsqb;pictures of t&rsqb; in the garden.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>There aren&apos;t &lsqb;many girls&rsqb; in the garden.</entry>
+</row>
+<row><entry>e.</entry>
+<entry>There aren&apos;t &lsqb;pictures of &lsqb;many girls&rsqb;&rsqb; in the garden.</entry>
+</row>
+<row><entry>f.</entry>
+<entry>Ci sono &lsqb;molte foto &lsqb;delle ragazze&rsqb;&rsqb; nel giardino.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>there are many pictures of the girls in the garden</entry>
+</row>
+<row><entry>g.</entry>
+<entry>*Ce le sono nel giardino.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>there them are in garden</entry>
+</row>
+<row><entry>h.</entry>
+<entry>Ce ne sono &lsqb;molte foto t&rsqb; in giardino. </entry>
+</row>
+<row><entry>
+</entry>
+<entry>there of-them are many pictures in garden</entry>
+</row>
+<row><entry>i.</entry>
+<entry>To whom do you think that many girls are &lsqb;indebted t&rsqb;?</entry>
+</row>
+<row><entry>j.</entry>
+<entry>*To whom do you think that there are many girls &lsqb;indebted t&rsqb;?</entry>
+</row>
+<row><entry>k.</entry>
+<entry>There are many girls (in the garden).</entry>
+</row>
+<row><entry>l.</entry>
+<entry>Many girls are *(in the garden).</entry>
+</row>
+<row><entry>m.</entry>
+<entry>There are many girls angry with John/in the garden/* the cause of the riot.</entry>
+</row>
+<row><entry>n.</entry>
+<entry>Many girls are angry with John/in the garden/the cause of the riot.</entry>
+</row>
+<row><entry>o.</entry>
+<entry>There are &lsqb;many girls impressed t by this theory&rsqb;.</entry>
+</row>
+<row><entry>p.</entry>
+<entry>*There are &lsqb;impressed many girls by this theory&rsqb;.</entry>
+</row>
+<row><entry>q.</entry>
+<entry>John considers &lsqb;there to be many girls&rsqb;.</entry>
+</row>
+<row><entry>r.</entry>
+<entry>*John considers &lsqb;there many girls&rsqb;.</entry>
+</row>
+<row><entry>s.</entry>
+<entry>John considers &lsqb;Mary to be the culprit&rsqb;.</entry>
+</row>
+<row><entry>t.</entry>
+<entry>John considers &lsqb;Mary the culprit&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The facts illustrated here constitute a core cluster of empirical facts specific to existential sentences. We can briefly review them here referring the reader to <link rid="b4">Moro (1997</link>: chapters 2, 3, appendix on the history of the notion of copula) and <link rid="b5">Moro (2000</link>: appendix) for a detailed discussion and references to the original sources for each case.</p>
+<p>Let us start by considering movement of and from the subject of an existential sentence: (8a) shows that there can be no <i>wh</i>-movement of the subject if the subject is headed by <i>which</i>, while (8b) shows that there can be <i>wh</i>-movement of the subject if the <i>wh</i>-phrase occurring is <i>what</i>; (8c) shows that in fact a phrase headed by <i>which</i> can be moved out of a <i>there</i>-sentence provided that it is extracted from within the subject (as opposed to extraction from within the coda, as in *<i>which girls do you think that there are signatures in many pictures of t</i>); (8d) and (8e) show the very similar contrast concerning extraction with respect to Quantifier Raising (cf. (8a) vs. (8c)): a quantifier can be extracted across there only if it is moved from within the subject; equivalently the quantified subject cannot take scope over negation in (8d); (8f) and (8d) confirm the very same pattern observed in <i>wh</i>-movement and Quantifier Raising in the case of clitic movement in Italian: taking a sentence like (8f) as a baseline, one concludes that cliticization of the whole subject is impossible in (8g) while cliticization of a subpart of the subject is perfectly grammatical in (8h); (8i) and (8j) show that extraction from the XP (here an AP) constituting the coda of a <i>there</i>-sentence yields a degraded sentence if compared with extraction from an XP (here an AP) predicate of a copular sentence;<link rid="fn3">
+<sup>3</sup></link> (8k) and (8l) let us conclude that while the PP in the copular sentence cannot be suppressed, the one in the coda of a <i>there</i>-sentence can; (8m) and (8n) constitute a further contrast between copular and <i>there</i>-sentences: (8m) shows that, unlike PPs and APs, DPs cannot play the role of a predicate in the coda of a <i>there</i>-sentence, while they can play such a role with copular sentences as in (8n);<link rid="fn4">
+<sup>4</sup></link> (8o) and (8p) show that <i>there</i> cannot occur with passives, even if they also involve <i>be</i>; (8q) and (8r), finally, show that <i>there</i> cannot occur in infinitival contexts if <i>to be</i> is suppressed, unlike those cases of infinitival predication such as (8u) and (8v).</p>
+<p>Before moving to the search for the derivation of these properties of existential sentences, we must also consider the type of subject that can occur in these constructions. In such a case, the situation becomes rather murky, especially since it involves semantic considerations which are presently under debate (for a general illustration and a source of references see <link rid="b6">Chierchia and McConnell-Ginet 2001</link>). Consider now the following cases:</p>
+<p>(9)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>There are &lsqb;many girls&rsqb; in the garden.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>There are &lsqb;three girls&rsqb; in the garden.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>There are &lsqb;no girls&rsqb; in the garden.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>There are &lsqb;girls&rsqb; in the garden.</entry>
+</row>
+<row><entry>e.</entry>
+<entry>*There are &lsqb;the girls&rsqb; in the garden.</entry>
+</row>
+<row><entry>f.</entry>
+<entry>*There are &lsqb;most girls&rsqb; in the garden.</entry>
+</row>
+<row><entry>g.</entry>
+<entry>*There is &lsqb;every girl&rsqb; in the garden.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As far as I am aware, there is no undisputed theory which can exhaustively derive the types of determiner which can occur in the subject position of a <i>there</i>-sentence from a principled theory.<link rid="fn5">
+<sup>5</sup></link> Superficially, however, one can capture the basic intuitive property emerging from (9) by adopting <link rid="b7">Higginbotham&apos;s (1987</link>) terminology and say that only &lsquo;adjectival&rsquo; determiners can head the subject of an existential sentence.<link rid="fn6">
+<sup>6</sup></link> Although, as noted, we cannot go through this issue in detail, it could be useful to reproduce here the semantic interpretation of <i>there</i>-sentences developed in <link rid="b4">Moro (1997</link>: <related relationship="sibling" type="samework"><externallink id="chapter 3 - Adjectives.xml" type="file">chapter 3</externallink></related>), which relies on Higginbotham&apos;s terminology. Maintaining the discussion at a rather informal level, one can consider a <i>there</i>-sentence as the minimal syntactic structure which can &lsquo;turn&rsquo; a DP into a sentence. More explicitly, a noun phrase like <i>many girls</i> cannot per se be considered as a sentence; witness the ungrammaticality of *<i>John says that many girls</i>; nevertheless, a sentence like <i>there are many girls</i> is in fact interpreted as if it were a sentence like <i>girls are many</i>. In other words, a <i>there</i>-sentence takes a DP and forces us to interpret it as equivalent to a copular sentence predicating D<sup>0</sup> of the NP contained in it. From this perspective, the reason why only certain D<sup>0</sup>s, namely the adjectival D<sup>0</sup>s, can occur in the subject of a <i>there</i>-sentence should be less mysterious. The role of <i>there</i> is to ensure the proper syntactic condition to force such a &lsquo;splitting&rsquo; process of the DP (and to anticipate the restriction expressed in the coda as a pronoun, if there is any). To give a simple example, the sententence <i>there are many girls</i> is interpreted as <i>girls are many</i>: this <i>is</i> the existential meaning in a syntactic sense.<link rid="fn7">
+<sup>7</sup></link> On the other hand, a sentence including a coda like <i>there are many girls in the room</i> is a simple extension of the first, i.e., it is interpreted as <i>girls in the room are many</i>. The reason why there is this double possibility is most arguably due to the independent reason that when the subject is postverbal it is necessarily focused (see <link rid="b8">Belletti 1999a</link> and <link rid="b9">Longobardi 1999</link> for extensive discussion on postverbal focus in general; see also <link rid="b10">Quirk et al. 1985</link> for a discussion of focus as related to <i>there</i>-sentences). A simple example should clarify this hypothesis: a sentence like <i>there aren&apos;t many girls but boys</i> is grammatical whereas *<i>girls aren&apos;t many but boys</i> is not, showing that <i>girls</i> is focused only in the <i>there</i>-sentence (unless of course preverbal <i>girls</i> is emphasized and moved to the proper slot in the left periphery, as in GIRLS <i>t are many, not boys</i>). We will leave the semantic issue aside here, referring the reader once again to the cited bibliography for references and tentative proposals, and assuming that the existential meaning is the simplest way to &lsquo;make a sentence out of a DP&rsquo;.<link rid="fn8">
+<sup>8</sup></link>
+</p>
+<p>All in all, we can go back to Jespersen&apos;s generalization in (1) and give a (partial) explicit characterization of it. Let us factorize the defining properties of existential sentences that we have empirically discovered:</p>
+<listgroup id="l2" type="1">
+<li level="1">
+<number>(10)&ensp;</number>
+<p><b>The defining properties of existential sentences:</b>
+</p>
+</li>
+<li level="2">
+<number>(i)&ensp;</number>
+<p>Movement of the subject is impossible.</p>
+</li>
+<li level="2">
+<number>(ii)&ensp;</number>
+<p>Movement from within the subject is possible.<link rid="fn9">
+<sup>9</sup></link>
+</p>
+</li>
+<li level="2">
+<number>(iii)&ensp;</number>
+<p>The determiner of the subject has an adjectival character.</p>
+</li>
+</listgroup>
+<p>Each property has an independent life, and it is only when the defining properties in (10) are <i>simultaneously</i> present in a given minimal structure that the output qualifies as an &lsquo;existential sentence&rsquo;. For example, in English, the preverbal subject of an embedded clause displays the first property in (10) when a <i>wh</i>-phrase occupies the intermediate SPEC-CP position (see <link rid="b11">Rizzi 1990b</link> for a principled explanation):</p>
+<p>(11)&ensp;*Which student do you know &lsqb;which book C<sup>0</sup>&lsqb;t read t&rsqb;&rsqb;?</p>
+<p>Turning now to the second property in (10), it is well known that in Italian, clitic extraction is possible from the subject position of a small-clause complement of a verb like <i>ritenere</i> (believe), as noted by <link rid="b12">Burzio (1986</link>), among others:</p>
+<p>(12)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry>Gianni</entry>
+<entry>ne</entry>
+<entry>ritiene</entry>
+<entry>&lsqb;&lsqb;molti t&rsqb;</entry>
+<entry>intelligenti&rsqb;.</entry>
+</row>
+<row><entry>Gianni</entry>
+<entry>of-them</entry>
+<entry>believes</entry>
+<entry> many</entry>
+<entry>intelligent</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The third property in (10), instead, is manifested in constructions like the following:</p>
+<p>(13)&ensp;John hasn&apos;t met &lsqb;many &lsqb;girls&rsqb;&rsqb;.</p>
+<p>Simplifying somewhat, let us just focus on the interpretation of the determiner <i>many</i>. Here the adjectival character of the D<sup>0</sup> (in the sense of <link rid="b7">Higginbotham 1987</link>) can be captured by means of the following paraphrase: &lsquo;It is not the case that the girls John met are numerous (i.e. many in number)&rsquo;. Now, note that in a sentence like <i>There aren&apos;t many girls</i>, the same kind of interpretation of <i>many</i> occurs (i.e., &ldquo;It is not the case that the girls are numerous&rdquo;). There is therefore a sense in which (13) is not a minimal structure in which <i>many</i> functions as an adjectival predicate: in (13), there is at least one other predicate, namely <i>meet</i> occurring in the same sentence. Again, the conjecture defended here is that it is only when the defining properties in (10) are simultaneously present in a given minimal structure that the output qualifies as an &lsquo;existential sentence&rsquo;. In such a case, they interact with each other, yielding the only possible interpretation where the D<sup>0</sup> is predicated of the NP. This is the explicit, i.e., formal correlate of Jespersen&apos;s generalization.<link rid="fn10">
+<sup>10</sup></link>
+</p>
+</subsection>
+<subsection id="ss4" level="1">
+<heading id="h3" level="1">3&ensp;Deriving the basic properties of existential sentences</heading>
+<p>The cluster of facts reproduced in (8) raises a pointed question: what principles of Universal Grammar generate these apparently unrelated facts and let children acquire them without specific instructions?<link rid="fn11">
+<sup>11</sup></link> As noted in the introduction, the theory of the distribution of <i>there</i> played a crucial role in shaping the Principles and Parameters framework from its early stage in <link rid="b3">Chomsky (1981</link>). In this section I will sketch the major lines of reasoning that directed the development of this field and compare two radically alternative proposals that are presently under debate.</p>
+<subsection id="ss5" level="2">
+<heading id="h4" level="2">3.1&ensp;The standard theory: <roman>there</roman> as a place holder for the subject</heading>
+<p>The first point to be observed is that ever since <link rid="b13">Milsark (1974</link>; see also <link rid="b14">Milsark 1977</link>), the two following sentences have been considered as generated from the same underlying structure:</p>
+<p>(14)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>There are girls in the garden.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Girls are in the garden.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In the analysis proposed by Milsark, the two sentences were roughly considered as synonymous: in both cases, it is said that girls have the property of being in the garden. In other words, according to these analyses, the element <i>there</i>, always regarded as a noun phrase, had no semantic role in a sentence like <i>there is a man in the room</i>. This intuition was strongly supported by the fact that this special noun phrase cannot discharge the function of argument (say, subject or object) in cases like the following:</p>
+<p>(15)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John likes books.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*There likes books.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*John likes there.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The conclusion was clear enough: although <i>there</i> can occur where argumental DPs generally occur, namely in the subject position, it has no semantic content. The ungrammaticality of the above examples was then immediately explained as a violation of the reasonable assumption that semantically null elements are incompatible with theta-roles. From this, an important question naturally arose: what forces <i>there</i> to show up in a sentence like <i>there is a man in the room</i>? In other words, what principle of grammar rules out a sentence like the following?</p>
+<p>(16)&ensp;*Is a man in the room.</p>
+<p>The standard treatment of this puzzle came in the shape of what was called the &lsquo;Projection Principle&rsquo;, that is to say, a principle requiring lexical entries to be respected (at all levels of representation). A simple case like the following illustrates this principle:</p>
+<p>(17)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John likes books.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Likes books.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*John likes.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Only the first sentence is grammatical because only in the first sentence is the lexical entry of <i>like</i> respected. This verb, in fact, requires two arguments: in this case <i>John</i> and <i>books</i>. In the ungrammatical cases one of the two arguments is missing, and so the Projection Principle is violated. Clearly, the same principle could not immediately be applied to a sentence like *<i>is a man in the room</i>. In this case, there are no missing arguments; rather they are misplaced. Immediate confirmation of this comes from the fact that a sentence containing exactly the same lexical elements arranged in a different way, like <i>a man is in the room</i>, is perfectly grammatical: what this means is that the ungrammaticality of *<i>is a man in the room</i> cannot be a question of the incomplete realization of the arguments of a lexical head. Although the Projection Principle was clearly not sufficient to account for such cases, there was little readiness to acknowledge the fact that it was simply irrelevant to the phenomenon in question; thus the issue became one of refining the Projection Principle so that it would encompass the offending data. The crucial step was to extend it by exploiting an essential postulate of the theory of clause structure, namely that grammatical functions are defined on the basis of configuration. Thus, the Extended Projection Principle was formulated by <link rid="b15">Chomsky (1982</link>: 10; see also <link rid="b3">Chomsky 1981</link>: 28ff.); it required that all sentences have a subject of the predication (at least) at LF. Thus, to the question of why <i>there</i> is required in a sentence like <i>there is a man in the room</i> an immediate answer was now available: because <i>there</i> satisfies the Extended Projection Principle. The function of this semantically null element was then considered to be that of holding the place of the subject of the predication; consequently, it was termed &lsquo;expletive of the subject position&rsquo; or, more simply, &lsquo;subject expletive&rsquo;.<link rid="fn12">
+<sup>12</sup></link>
+</p>
+<p>
+<link rid="b16">Stowell&apos;s (1978</link>) seminal analysis of <i>be</i> as a raising verb allowed the formalization of such a relation in the following way:</p>
+<p>(18)&ensp;There<sub>i</sub> is &lsqb;<sub>SC</sub> a man<sub>i</sub> in the room&rsqb;.</p>
+<p>The basic relation of predication is contained in the small clause where the subject <i>a man</i> is linked to the predicate <i>in the room</i>. <i>There</i> is inserted (at s-structure) as an alternative to subject DP raising. Coindexing was introduced as a device for indicating that <i>there</i> and <i>a man</i> have no independent referential properties.</p>
+<p>This analysis of the distribution of <i>there</i> based on the assumption that the copula selects a small clause has met with general acceptance and has established itself as the standard analysis. It is nevertheless important to notice that an alternative theory has been discussed in the literature since its original formulation in <link rid="b17">Williams (1984</link>) (see for example <link rid="b7">Higginbotham 1987</link>; <link rid="b18">Reuland and Ter Meulen 1987</link>). This alternative is based on the idea that in a <i>there</i>-sentence, the complement of the copula is a noun phrase, not a small clause, while <i>there</i> is still regarded as a semantically null place holder of the subject position:</p>
+<p>(19)&ensp;There &lsqb;is &lsqb;a man&rsqb;&rsqb;.</p>
+<p>Crucially, in this analysis the idea that <i>there</i> plays the role of a subject is pushed to the limit. According to this analysis, <i>there</i> is not holding the place of a displaced subject: rather, <i>there</i> indeed is the subject, and correspondingly the DP following the copula is analyzed as a predicate. In other words, in a <i>there</i>-sentence like <i>there is a prime number</i>, the grammatical function of <i>a prime number</i> would be exactly the same as the one it has in <i>seven is a prime number</i>: in both cases <i>a prime number</i> is analyzed as predicate.</p>
+<p>As noted before, the analysis of the distribution of <i>there</i> has played a central role in the development of generative grammar, although regarding it as an expletive has not been without cost. Let us briefly review the major stages in this development, which all share the fundamental hypothesis that <i>there</i> be the expletive of the subject of predication. Perhaps the most dramatic illustration of the shift from constructive rule system to selective principles comes from <link rid="b3">Chomsky&apos;s (1981</link>) analysis of the distribution of <i>there</i>. Chomsky proposed that <i>there</i>-insertion should be regarded as totally free in noun phrase positions and that ungrammatical cases could be ruled out by the interaction of independent principles. This proposal was highlighted as one of the first and most notable examples of modular interaction:</p>
+<p>(20)&ensp;&ldquo;insert <i>there</i> anywhere&rdquo; (<link rid="b3">Chomsky 1981</link>: 88)</p>
+<p>Chomsky&apos;s idea was that the following examples are just freely generated under (20) and must be ruled out on the base of independent principles:</p>
+<p>(21)&ensp;<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*John likes there.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*There is raining.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>What are the independent principles ruling out these sentences? The first sentence is essentially a violation of the lexical entry of <i>like</i>, which requires it to have two arguments. As for the second case, it could be ruled out by assuming that the lexical entry of <i>there</i> requires it to inherit number from an associated DP; since there is no DP at all, the sentence has to be ruled out. Notice that the assumption that <i>there</i> has number appears to be independently necessary in view of cases like the following, where the verb agrees with <i>there</i> (if, of course, one wants to maintain that agreement takes place under some form of SPEC-HEAD relation):<link rid="fn13">
+<sup>13</sup></link>
+</p>
+<p>(22)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>There is a girl in the room.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>There are girls in the room.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A very different proposal to rule out the ungrammatical occurrences of expletive <i>there</i> was suggested by <link rid="b19">Chomsky (1986b</link>), who pushed to the limit the idea that <i>there</i> is a semantically vacuous element. His central argument concerns the interaction of <i>there</i> with the Principle of Full Interpretation, which requires that at a certain level only legitimate objects be visible. Since by definition expletives do not have semantic content, they are not legitimate at LF, where grammatical structures undergo interpretation. For this reason, it was proposed that <i>there</i> is wiped out at LF and replaced by the DP it is coindexed with. Thus, at LF a <i>there</i>-sentence such as (22a) would end up being identical to its raising counterpart:</p>
+<p>(23)&ensp;A girl is &lsqb;t in the room&rsqb;.</p>
+<p>This analysis, generally referred to as the &lsquo;expletive replacement hypothesis&rsquo;, had at least three major consequences. We will briefly deal with each of them. The most important consequence is that the distribution of <i>there</i> is seen to be determined by the independent principles governing chain formation. The associated DP must move to substitute <i>there</i>, thus creating a chain: if locality is not respected in each step of the chain, then the sentence will be ruled out. We can now consider once again the following cases (taken from <link rid="b20">Chomsky 1991</link>) from the new perspective:</p>
+<p>(24)&ensp;<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>There is a man in the room.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>There are men in the room.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>There seems t to be a man in the room.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>According to <link rid="b20">Chomsky (1991</link>) they are grammatical because <i>a man</i> and <i>men</i> can move to the subject position replacing <i>there</i>; witness the grammaticality of cases like:</p>
+<p>(25)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;A man&rsqb; is t in the room.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;Men&rsqb; are t in the room.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>&lsqb;A man&rsqb; seems t to be t in the room.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>On the other hand, cases like the following are to be ruled out as instantiating illicit movements:</p>
+<p>(26)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*There seems that a man is in the room.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*There seems that John saw a man.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*There was thought that pictures of a man were on sale.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In other words, the process of LF replacement of the associated elements yields either ECP (26a&ndash;b) or Subjacency violations (26c), as indicated by independent cases such as the following:</p>
+<p>(27)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*&lsqb;A man&rsqb; seems that t is in the room.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*&lsqb;A man&rsqb; seems that John saw t.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*&lsqb;A man&rsqb; was thought that &lsqb;&lsqb;pictures of t&rsqb; were on sale.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Of course, <i>there</i> would still need to inherit number from a DP, but otherwise it was claimed that its distribution can simply be regarded as the result of a more general phenomenon, i.e., chain formation. This was undoubtedly a considerable advance, but, as Chomsky himself explicitly noticed, a major exception survived (see also <link rid="b21">Borer 1984a</link>) which challenged the system. Consider a pair like the following:</p>
+<p>(28)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*There seems a man to be t in the room.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;A man&rsqb; seems t to be in the room.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Apparently, there is no way to account for the ungrammaticality of (28a) in terms of illicit movement, since movement of <i>a man</i> from this position to the matrix clause subject position is fully licensed, as (28b) clearly shows.</p>
+<p>A second advantage implied by the expletive replacement analysis concerned Binding Theory. It was soon realized that the hypothesis of <i>there</i>-insertion yields a violation of Condition C of Binding Theory, which requires referential expressions not to be bound by an element in an A-position. If we assume that expletives are to be replaced by their associated elements, the question concerning the violation of Binding Theory Condition C by <i>there</i>-insertion is solved. The trace counts as an anaphor, and so at LF (where Binding Theory checks the structure) there is no violation of Condition C; rather Condition A, which requires anaphors to be bound (in a local domain), is satisfied.</p>
+<p>A third major consequence of this analysis became apparent later, within the so-called &lsquo;Minimalist&rsquo; approach (see <link rid="b22">Chomsky 1995c</link> and earlier unpublished references cited there). Indeed, expletive replacement has become a fundamental support to this model, as it illustrates the effect of the &lsquo;Principle of Greed&rsquo;, which is central to the new system based on &lsquo;economy principles&rsquo;. We will briefly reproduce the essential intuition by considering a sentence like the following (see <link rid="b23">Chomsky 1993</link>: 32ff., among many other possible sources of citation of the very same case):</p>
+<p>(29)&ensp;There seems to &lsqb;<sub>a</sub> a strange man&rsqb; that it is raining outside.</p>
+<p>In this sentence, the replacement of <i>there</i> by <i>a man</i> &ldquo;would yield an intelligible interpretation (something like &lsquo;There is a strange man to whom it seems that it is raining outside&rsquo;).&rdquo; However, &ldquo;derivations are driven by the narrow mechanical requirement of feature checking only, not by a &lsquo;search for intelligibility&rsquo; or the like .&nbsp;.&nbsp;.&nbsp;benefiting other elements is not allowed&rdquo; (<link rid="b23">Chomsky 1993</link>: 33). Thus, this process is not permitted and &ldquo;the derivation converges with an unintelligible interpretation.&rdquo;</p>
+<p>The original hypothesis of &lsquo;expletive replacement&rsquo; has been slightly refined in the Minimalist models (see again references in <link rid="b22">Chomsky 1995c</link> and many more recent works since then). Following <link rid="b17">Williams&apos;s (1984</link>) original observation, it was realized that <i>there</i> could not simply be wiped out at LF. Consider the following contrast:</p>
+<p>(30)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>There aren&apos;t many men in the room.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Many men aren&apos;t in the room.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p><i>There</i> appears to play the role of a scope marker blocking the wide scope reading of <i>many men</i> which is available in the other sentence. The <i>there</i>-sentence cannot mean the same as the raising counterpart: in particular, it cannot mean that many men are not in the room. Thus, since scope is assigned at LF, <i>there</i> cannot be wiped out and the <i>there</i>-sentence cannot be exactly like the raising counterpart. Chomsky then proposed to reduce the replacement of <i>there</i> by its associate DP to a process of <i>there</i>-affixation which does not eliminate <i>there</i> from LF:<link rid="fn14">
+<sup>14</sup></link>
+</p>
+<p>(31)&ensp;&lsqb;There&lsqb;a man&rsqb;&rsqb; is &lsqb;t in the room&rsqb;&rsqb;.</p>
+<p>This analysis was considered to solve the problem posed by <link rid="b17">Williams (1984</link>), and the proposed structure has subsequently met with general acceptance. Even so, certain data remained unexplained, including the ungrammatical *<i>there seems a man to be in the room</i>, but these have generally been dismissed as &lsquo;exceptions&rsquo;. As a further puzzle, <link rid="b20">Chomsky (1991</link>) reports an original observation by Kenneth Safir, who discovered the following contrast:<link rid="fn15">
+<sup>15</sup></link>
+</p>
+<p>(32)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;How many men&rsqb; do you think that there were t in the room?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*&lsqb;How many men&rsqb; do you think that t were in the room?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The second clause shows a typical <i>that</i>-trace effect: the subject of an embedded sentence cannot be extracted across an overt complementizer. The obvious question is why the presence of <i>there</i> makes any difference, especially since in this view it is affixed to the subject at LF.</p>
+<p>The analysis presented here, based on the idea that <i>there</i> is a place holder for the subject of predication, has been adopted as the standard one in modern syntax. Moreover, it has been adopted for many other languages, such as Italian. This extension goes back at least to the pioneering work of <link rid="b12">Burzio (1986</link>) on the distribution of the equivalent of English <i>there</i>, namely <i>ci</i>, which seemed to confirm and refine the central intuition that <i>there</i>/<i>ci</i> is a subject expletive. For example, the following pair in Italian is also generally analyzed as stemming from the same underlying structure, paralleling the case of English <i>there</i>:</p>
+<p>(33)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Molte</entry>
+<entry>copie</entry>
+<entry>del</entry>
+<entry>libro</entry>
+<entry>sono &lsqb;t</entry>
+<entry>nello</entry>
+<entry>studio&rsqb;.</entry>
+</row>
+<row><entry>many</entry>
+<entry>copies</entry>
+<entry>of the</entry>
+<entry>book</entry>
+<entry>are</entry>
+<entry>in the</entry>
+<entry>studio</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>Ci</entry>
+<entry>sono</entry>
+<entry>&lsqb;molte</entry>
+<entry>copie</entry>
+<entry>del</entry>
+<entry>libro</entry>
+<entry>nello</entry>
+<entry>studio&rsqb;.</entry>
+</row>
+<row><entry>there</entry>
+<entry>are</entry>
+<entry> many</entry>
+<entry>copies</entry>
+<entry>of the</entry>
+<entry>book</entry>
+<entry>in the</entry>
+<entry>studio</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The major difference between the two languages is that <i>ci</i> is a clitic while <i>there</i> was standardly analyzed as a full phrase.<link rid="fn16">
+<sup>16</sup></link> All in all, we have seen that the standard theory rests on three crucial assumptions: first, the topmost position of the clause structure (SPEC-IP) is where the logical role of subject of predication is defined; second, <i>there</i> is a semantically null element; third, any <i>there</i>-sentence is associated with a copular sentence where the subject is raised from the lower position.</p>
+<p>If one maintains such a standard theory, which in fact is shared by most syntactic theories of the twentieth century, including <link rid="b1">Jespersen (1924</link>) and Bloomfieldian linguists (cf. <link rid="b2">Graffi 2001</link> and references cited there), it would be an easy exercise to conclude that the cluster of facts illustrated in (8) would go uncaptured, or at least would not be captured in a unitary way.<link rid="fn17">
+<sup>17</sup></link> In the remainder of this section, an alternative theory will be briefly illustrated which aims at deriving the major syntactic properties of existential sentences from a principled framework, and in a unitary fashion. An important caveat should be made explicit here: the alternative theory I am going to introduce is not widely accepted; in fact it reflects only a minority view: nevertheless, it has been referred to in quite a number of works. Omitting it would make this chapter less exhaustive.<link rid="fn18">
+<sup>18</sup></link>
+</p>
+</subsection>
+<subsection id="ss6" level="2">
+<heading id="h5" level="2">3.2&ensp;An alternative theory: <roman>there</roman> as a place holder for the predicate</heading>
+<p>The alternative theory presented here relies heavily on the discovery of so-called &lsquo;inverse copular sentences&rsquo; within the unified theory of copular sentences. Since there is a dedicated chapter on this topic in this collection (<related relationship="sibling" type="samework"><externallink id="chapter 18 - Copular Sentences.xml" type="file">chapter 18</externallink></related>), I will not present this theory in detail, and recommend the interested reader to refer to that chapter or to the original sources.<link rid="fn19">
+<sup>19</sup></link> Here I will simply sketch out the essentials of the unified theory of copular sentences, focusing on those aspects which are conceptually strictly related to the alternative treatment of <i>there</i>-sentences. The core hypothesis of the unified theory of copular sentences is that, contrary to the standard &lsquo;Fregean&rsquo; assumptions (which go back at least to <link rid="b3 b19">Chomsky 1981, 1986b</link>, and according to which SPEC-IP can only host the subject of predication), SPEC-IP can also host predicates, provided that they are realized as DPs, a case that can only occur in copular constructions. To illustrate this idea with a simple example, consider the following two sentences:</p>
+<p>(34)&ensp;<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Some pictures of the wall are &lsqb;t the cause of the riot&rsqb;. (canonical)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The cause of the riot is &lsqb;some pictures of the wall t&rsqb;. (inverse)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>These sentences are generated by the same underlying structure by raising either the subject or the predicative DP to the preverbal position, yielding a canonical and an inverse copular sentence respectively. Despite the fact that superficially the two sentences are identical, i.e., they are both sequences of the type &lsqb;DP V DP&rsqb;, it can be shown that they have very different syntactic properties. I will not go through an illustration of these here (see again <related relationship="sibling" type="samework"><externallink id="chapter 18 - Copular Sentences.xml" type="file">chapter 18</externallink></related>). The important fact is that inverse copular sentences provide us with the key empirical argument for a reconsideration of <i>there</i>-sentences. This is because inverse copular sentences imply that there is no longer need for us to consider <i>there</i> as a place holder of the subject of predication: rather, there is a second logical possibility available now, namely that <i>there</i>-sentences belong to the more general class of inverse copular sentences. Formally, the following structure holds, where, contrary to the standard analyses previously reviewed here, <i>there</i> is analyzed as a raised place holder of the predicate and not as a place holder for the subject inserted in the position where it surfaces:<link rid="fn20">
+<sup>20</sup></link>
+</p>
+<p>(35)&ensp;There are &lsqb;many girls t&rsqb;.</p>
+<p>Before briefly commenting on the advantages of this proposal with respect to the challenge posed by the facts in (8), a residual question remains concerning the coda. If one adopts the proposal that <i>there</i>-sentences are inverse copular sentences, there is only one option available, namely that a PP in the coda is an adjunct (since <i>there</i> is the place holder of the predicate). In fact, since a PP can be an adjunct of a clausal structure or of a nominal structure, there are two structures available. Taking, for example, a PP like <i>in the garden</i>, in a sentence like <i>there are many girls in the garden</i>, we have the following two options:<link rid="fn21">
+<sup>21</sup></link>
+</p>
+<p>(36)&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;There are &lsqb;many girls t&rsqb;&rsqb;&nbsp;.&nbsp;.&nbsp;.&nbsp;&lsqb;in the garden&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;There are &lsqb;&lsqb;many girls &lsqb;in the garden&rsqb;&rsqb; t&rsqb;&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>How can this alternative theory explain the facts in (8)? We will briefly review them and, once more, refer to the more general source in <link rid="b4">Moro (1997</link>). As a guideline, recall that the central proposal here is that <i>there</i> is a place holder of the predicate, not of the subject of predication. Let us start from the more complex facts, namely movement restrictions on the subject of existential sentences. Consider the examples from (8a) through (8h): movement of the subject is impossible, movement from within the subject is possible.</p>
+<p>That movement of the subject is impossible (with <i>wh</i>-movement, Quantifier Raising, and clitics, as in (8a) (*<i>which girls do you think that there are &lsqb;t in the garden&rsqb;</i>), (8d) (<i>there aren&apos;t &lsqb;many girls&rsqb; in the garden</i>), and (8g) (*<i>ce le sono nel giardino</i> &ndash; there them are in garden)) is not surprising if one adopts the idea that <i>there</i>-sentences are inverse copular sentences. Indeed, this is a property characterizing the subject of all inverse sentences (cf. *<i>which pictures of the wall do you think that the cause of the riot is</i> stemming from the inverse copular sentence <i>you think that the cause of the riot is some pictures of the wall</i>, where the predicate <i>the cause of the riot</i> is moved out of the small clause to SPEC-IP, leaving the subject <i>some pictures of the wall</i> in situ). Essentially, the prohibition on extracting the subject of an inverse copular sentence can be explained by a theory that regards activation of the agreement features on a governing head to be a way of meeting locality conditions on movement, much in the sense that the so-called &lsquo;<i>que-qui</i> rule&rsquo; is explained as a way of satisfying the ECP in French in sentences like <i>l&rsquo;homme que je pense t que/*qui Jean croit t qui/*que t viendra</i> (the man that I think that John believes that will come; see <link rid="b11">Rizzi&apos;s 1990b</link> version of the ECP; see also <link rid="b24">Moro 1993b</link> for some further refinements of the original proposal, and <related relationship="sibling" type="samework"><externallink id="chapter 18 - Copular Sentences.xml" type="file">chapter 18</externallink></related> for a defense of a two-principle theory of locality). Since the copula already agrees with the raised predicative noun phrase (<i>the cause of the riot</i>), movement of the subject (<i>which pictures of the wall</i>) as a whole would violate the ECP. Similarly, the impossibility of moving the whole subject of a <i>there</i>-sentence can be explained in the same way. Movement is blocked since the copula already agrees with the raised predicate, namely <i>there</i>.</p>
+<p>The fact that movement from within the subject is possible is indeed less direct to explain. The relevant examples are (8c) (<i>which girls do you think that there are &lsqb;pictures of t&rsqb; in the garden</i>), (8e) (<i>there aren&apos;t &lsqb;pictures of &lsqb;many girls&rsqb;&rsqb; in the garden</i>), and (8h) (<i>ce ne sono &lsqb;molte foto t&rsqb; in giardino</i> &ndash; there of-them are many pictures in garden). Why is movement from within the subject of a <i>there</i>-sentence allowed? After all, extraction from the subject position is banned in inverse copular sentences (cf. *<i>which wall do you think that the cause of the riot was a picture of</i>): if <i>there</i>-sentences are indeed inverse copular sentences, why should it be possible? The crucial step to remember is that while extraction of the subject is prohibited by the ECP, movement from within the subject is banned by (some version of) the Subjacency condition (cf. <related relationship="sibling" type="samework"><externallink id="chapter 18 - Copular Sentences.xml" type="file">chapter 18</externallink></related> for a detailed discussion). This suggests that raising <i>there</i> or <i>ci</i>, as opposed to a full phrase like, say, <i>the cause of the riot</i>, affects the relations to which Subjacency is sensitive in inverse copular constructions. Although I cannot go through the proposal in a detailed fashion, I would like to illustrate the major lines of reasoning that can be followed to solve this puzzle. Subjacency violations essentially amount to moving across a(n argumental) constituent which is not selected by a head in the proper configuration. The classic examples are extraction from an adjunct (cf. *<i>who do you think that John screamed &lsqb;while seeing a picture of t&rsqb;</i>) or a preverbal subject (*<i>who do you think that &lsqb;a picture of t&rsqb; frightened John</i>): in both cases, the constituent is not selected by a governing head and Subjacency is violated. Why should raising of <i>there</i> or <i>ci</i>, as opposed to a full phrase like, say, <i>the cause of the riot</i>, change the situation? There are two crucial observations to single out: first, predicates have selective capacities; second, the copula is not a predicate, but rather the expression of aspectual and modal aspects of clause structure in the traditional Aristotelian sense. Now, consider <i>there</i> or <i>ci</i> as opposed to a full phrase like, say, <i>the cause of the riot</i>. In the first case, we are assuming them to be predicates, while in the second case the predicate is rather the head <i>cause</i>, which is embedded in the larger determiner phrase. Thus, it is not unreasonable to assume that when <i>there</i> or <i>ci</i> is raised to the preverbal position, the lower subject is c-commanded by the predicate, whereas it is not when <i>the cause of the riot</i> is raised. Although the technical details have not been presented here, this should suggest why the theory that regards <i>there</i>-sentences as inverse copular sentences is more promising than the standard theory. Let us move on and consider the other empirical facts observed in (8): it will be clear that these further cases can be derived directly from the alternative theory.</p>
+<p>The fact that extraction from the PP in the coda of a <i>there</i>-sentence is degraded as in (8i), as opposed to a copular sentence in (8j), follows immediately, since the PP is an adjunct rather than the predicate of the small clause as in the corresponding copular sentence. The fact that the PP can be omitted in a <i>there</i>-sentence such as (8k), while it must be present in a copular sentence such as (81), follows immediately if we take <i>there</i> to be a place holder of the predicate: the PP can be omitted simply because it is not a predicate as opposed to the case of the copular sentence; rather, it is an adjunct and thus it can be omitted by definition. The fact that a DP (as opposed to APs and PPs) cannot be in the coda of a <i>there</i>-sentence such as (8m), while it can occur as a predicate in a copular construction such as (8n), follows, since the DP in the coda is not a predicate but an adjunct and we independently know that DPs cannot occur as adjuncts unless marked by a predicative marker such as <i>as</i> (cf. <i>John phoned *(as) a doctor</i>). The fact that <i>there</i> cannot be inserted in passives unless the subject is raised to the lower preverbal head position, as in (8o) vs. (8p), is a misinterpretation of the facts: the reason why (8o) is grammatical is that the phrase <i>impressed by this theory</i> can be interpreted as an adjunct in the coda of the <i>there</i>-sentence or as a part of a complex noun phrase containing a reduced relative clause; in fact, the subject of the <i>there</i>-sentence itself can be <i>many girls impressed by this theory</i> (cf. <i>many girls impressed by this theory can be easily found in this country</i>). The fact that the copula cannot be omitted in infinitival <i>there</i>-sentences, as in (8r) as opposed to (8q), is a general property of inverse copular sentences: for the predicate to cross over the subject, a landing site must be provided by the copula as in all inverse copular sentences (cf. <i>John believes the culprit *(to be) Mary</i> and many more examples discussed in <related relationship="sibling" type="samework"><externallink id="chapter 18 - Copular Sentences.xml" type="file">chapter 18</externallink></related>); note that the copula must not be present when the predicate is in situ, as in (8s&ndash;t). Finally, also note that the major challenging fact for the standard theory noticed in (28a) (*<i>there seems a man to be t in the room</i>) is also solved. The reason why this sentence is ungrammatical is that the subject and the predicate cannot simultaneously raise out of a small clause (whether or not an adjunct PP occurs):</p>
+<p>(37)&ensp;*There seems &lsqb;a man to be &lsqb;t t&rsqb;&rsqb; .&nbsp;.&nbsp;.&nbsp;&lsqb;in the room&rsqb;.</p>
+<p>This is not a peculiarity of <i>there</i>-sentences, as indicated by the totally symmetric example with full predicative noun phrases:</p>
+<p>(38)&ensp;*The cause of the riot seems &lsqb;some pictures of the wall to be &lsqb;t t&rsqb;&rsqb;.</p>
+<p>If the predicative noun phrase <i>the cause of the riot</i> is raised, the subject <i>some pictures of the wall</i> must stay in situ: they cannot simultaneously be moved for locality reasons (again for the ECP reasons just mentioned). Note that the fact that <i>there</i> agrees with the subject can be considered as a reflex of number (and Case) agreement between subject and (certain types of) predicative nominals, as in <i>John is the culprit</i>(*<i>s</i>)/<i>the culprit</i>(*<i>s</i>) <i>is John</i> (see <link rid="b4">Moro 1997</link> and references cited there for critical discussion of this issue).<link rid="fn22">
+<sup>22</sup></link>
+</p>
+<p>All in all, this alternative theory regarding <i>there</i>-sentences as instances of inverse copular sentences appears to solve some questions in a rather natural way.<link rid="fn23">
+<sup>23</sup></link> Of course, this approach generates some new questions that the standard theory did not raise, such as why the canonical associate of the inverse <i>there</i>-sentence does not have an existential meaning. In other words, if <i>there are girls</i> is the inverse counterpart of the canonical <i>girls are there</i>, exactly as <i>the cause of the riot is a picture of the wall</i> is the counterpart of <i>a picture of the wall is the cause of the riot</i>, why doesn&apos;t the canonical sentence containing <i>there</i> have an existential reading?<link rid="fn24">
+<sup>24</sup></link> I will not go through the proposal for such a phenomenon: for our limited purpose here, it will be sufficient to note that clearly the syntactic structure of the canonical counterpart of a <i>there</i>-sentence does not instantiate the &lsquo;conspiracy&rsquo; of factors that constitute the defining properties of an existential sentences (cf. (10)). However, since a full treatment will involve the preliminary discussion of many semantic aspects of existential sentences, I will simply recommend the willing reader to the various bibliographical sources and discussions in <link rid="b13 b14">Milsark (1974, 1977</link>); <link rid="b25">Safir (1985b</link>); <link rid="b26">Lumsden (1988</link>); <link rid="b4">Moro (1997</link>), among others. We can simply conclude our quite limited discussion here by observing that, from a semantic point of view, a <i>there</i>-sentence is nothing but the minimal syntactic device that is able to turn a DP into a clausal structure where the NP is predicated of the D<sup>0</sup> (of course, when the latter has an adjectival character in the intended sense).</p>
+<p>Summarizing, in this section we have seen some major steps toward the reduction of the complex syntax of existential sentences to a principled framework. We have seen that there are at least three different proposals. A first proposal, stemming from <link rid="b13">Milsark&apos;s (1974</link>) original analysis and further developed by Chomsky in many phases of his work up to the Minimalist approach, has undoubtedly become the standard one: according to this, <i>there</i>-sentences are the non-raising counterparts of copular sentences. A second proposal, originally made by <link rid="b17">Williams (1984</link>) and supported by <link rid="b7">Higginbotham (1987</link>), among others, considers <i>there</i>-sentences to be &lsquo;transitive sentences&rsquo; in that the copula is followed by an argumental noun phrase rather than a clausal constituent. A third proposal, originally elaborated in <link rid="b27 b4">Moro (1991, 1997</link>), proposes that <i>there</i>-sentences are instances of the much broader class of inverse copular sentences. The first two proposals can be considered similar and akin to the Structuralist tradition in that in both cases <i>there</i> is regarded as the expletive of the subject of predication, whereas in the third proposal <i>there</i> is regarded as a raised predicate. Of course, none of the theories exhaustively explains all problems and issues concerning <i>there</i>-sentences: nevertheless, they constitute a step toward a better understanding of these issues, and more generally they illustrate some central topics of syntactic theory. In the next two sections, I will concentrate on a specific comparative problem raised by existential sentences and indicate some further possible extensions related to the exploration of the syntax of <i>there</i> and <i>ci</i>.</p>
+</subsection>
+</subsection>
+<subsection id="ss7" level="1">
+<heading id="h6" level="1">4&ensp;On the Definiteness Effect in existential sentences: are there parameters in semantics?</heading>
+<p>A cursory survey across languages shows that existential sentences raise a sharp comparative issue. Let us focus on the following well-known contrast, which is a word-by-word correspondence between English and Italian:</p>
+<p>(39)&ensp;<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*There is John in this garden.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>C&rsquo;&egrave; Gianni in questo giardino.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>More generally, a DP headed by a definite article or by a universal quantifier or by a proper name cannot be the subject of a <i>there</i>-sentence, whereas it may be one in <i>ci</i>-sentences. Why are existential sentences different across languages? Traditionally, the restriction which rules out the offending case in English has been formulated by appealing to semantics:</p>
+<p>(40)&ensp;&ldquo;sentences of the form <i>there is definite noun phrase</i> .&nbsp;.&nbsp;.&nbsp;are violations of the surface rules of semantic interpretation rather than of syntactic rules, it appears&rdquo; (<link rid="b28">Chomsky 1973</link>; reproduced from <link rid="b29">Chomsky 1977a</link>: 52).</p>
+<p>Since the notion of &lsquo;definiteness&rsquo; plays the crucial role here, this restriction has been called the &lsquo;Definiteness Restriction&rsquo; and the corresponding phenomenon the &lsquo;Definiteness Effect&rsquo;.<link rid="fn25">
+<sup>25</sup></link>
+</p>
+<p>Why does the Definiteness Restriction fail to hold in Italian existential sentences? In <link rid="b30">Moro (1993a</link>) I tentatively asked whether one could sensibly talk of comparative semantics along with comparative syntax and correspondingly of a semantic parameter. Is such a notion plausible? Of course, this is not the place to approach such a fundamental question; nevertheless the specific problem posed by the contrast between English and Italian, and the citation from Chomsky, bring out the importance of this issue. Before attempting any explanation, let us begin by considering the issue from an abstract point of view and asking what kind of answer modern linguistics might in principle allow. Comparative grammar shows that cross-linguistic variations are to be traced back to the interaction of a few independent parameters set by the child on the sole basis of overt evidence. The following citation from <link rid="b19">Chomsky (1986b</link>) illustrates the current theory:</p>
+<quotation>
+<p>There may be general principles that determine how the switches &lsqb;of a parameter&rsqb; are set, for example, the subset principle discussed by <link rid="b31">Berwick 1982</link>, which states that if a parameter has two values &plus; and &minus;, and the value &minus; generates a proper subset of the grammatical sentences generated with the choice of value &plus;, then &minus; is the &ldquo;unmarked value&rdquo; selected in absence of evidence; this is a necessary and sufficient condition for learning from positive evidence only, insofar as parameters are independent. (<link rid="b19">Chomsky 1986b</link>: 146)</p>
+</quotation>
+<p>So for example, the pro-drop parameter is set by the occurrence of sentences which do not have a phonologically realized subject, by the presence of inverted subjects, etc. It may also be that in the last resort, the proper value of the parameter is decided by the presence of some overt (string of) elements.</p>
+<p>If we maintain that the restriction ruling out definite subjects in English is semantic, what kind of evidence should we expect to find that might overtly differentiate the two languages? In other words, how does the child know that definite noun phrases are prohibited in English and allowed in Italian in the context under discussion? Suppose we assume that the application of the Definiteness Restriction is parametric. The subset principle leaves only one option: the unmarked value is that this restriction does apply, for a grammar containing it would generate a proper subset of sentences of a grammar not containing it. Universal Grammar provides the child with the positive value of the parameter. The English child will never have to change it. The Italian child, instead, would eventually shift to the negative value (i.e., the restriction does not apply), since that child hears sentences violating it.</p>
+<p>It seems then that we are obliged by this type of reasoning to conclude that natural languages do contain parametric variation concerning semantic restrictions, that is, &lsquo;semantic parameters&rsquo;. Whether or not this conclusion is tenable is hard to decide and definitely an empirical matter. More generally, the possibility of semantic parametrization has not been exhaustively investigated yet, as far as I know, and the issue is still entirely open. Indeed, there may well be a priori reasons for not adopting this view. For example, in the recent Minimalist framework stemming from <link rid="b22">Chomsky (1995c</link>), it has been proposed that, apart from Saussurean arbitrariness, the field of language variation is &ldquo;limited to lexical differences, specifically, to differences in the features of the lexical elements that occupy the functional category nodes&rdquo; (<link rid="b32">Marantz 1995b</link>: 372; see also <link rid="b21">Borer 1984a</link>; <link rid="b33">Manzini and Wexler 1987</link>). On the other hand, other theories have been put forward which purport to show that parametric variations take place in semantics (see, for example, <link rid="b34">Chierchia 1995c</link> and references cited there).<link rid="fn26">
+<sup>26</sup></link>
+</p>
+<p>All in all, to conclude this section, whose major aim is just to highlight the theoretical impact of a simple empirical fact &ndash; the contrast in (39) &ndash; I would like to observe that the theory of <i>there</i>-sentences that considers them as instances of inverse copular sentences suggests a possible treatment of the lack of the Definiteness Effect in Italian: it can be regarded as a consequence of an independent syntactic parameter, avoiding recourse to the notion of a semantic parameter. Let us illustrate the major lines of reasoning. From this new perspective a sentence like <i>c&rsquo;&egrave; Gianni in giardino</i> turns out to be similar to <i>lo legge Gianni un libro</i>, which is arguably generated as a clitic left dislocation structure in the sense of <link rid="b35">Cinque (1990c</link>), involving a specifier of a Top<sup>0</sup> position in the left periphery of the clause structure (see <link rid="b36">Rizzi 1997</link>):</p>
+<p>(41)&ensp;<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Un</entry>
+<entry>libro,</entry>
+<entry>Gianni</entry>
+<entry>lo</entry>
+<entry>legge.</entry>
+</row>
+<row><entry>a</entry>
+<entry>book</entry>
+<entry>Gianni</entry>
+<entry>it</entry>
+<entry>reads</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>In</entry>
+<entry>giardino,</entry>
+<entry>Gianni</entry>
+<entry>c&rsquo;</entry>
+<entry>&egrave;.</entry>
+</row>
+<row><entry>in</entry>
+<entry>garden,</entry>
+<entry>Gianni</entry>
+<entry>there</entry>
+<entry>is</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The surface order is obtained by subject&ndash;verb inversion (42a&ndash;b) involving pro (cf. <i>pro telefona Gianni</i> (pro telephones Gianni)) followed by further remnant movement of the lower IP constituent across the topic phrase (42c&ndash;d):</p>
+<p>(42)&ensp;<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Un</entry>
+<entry>libro,</entry>
+<entry>pro</entry>
+<entry>lo</entry>
+<entry>legge</entry>
+<entry>Gianni.</entry>
+</row>
+<row><entry>a</entry>
+<entry>book</entry>
+<entry>
+</entry>
+<entry>it</entry>
+<entry>reads</entry>
+<entry>Gianni</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>In</entry>
+<entry>giardino,</entry>
+<entry>pro</entry>
+<entry>c&rsquo;</entry>
+<entry>&egrave;</entry>
+<entry>Gianni.</entry>
+</row>
+<row><entry>in</entry>
+<entry>garden,</entry>
+<entry>
+</entry>
+<entry>there</entry>
+<entry>is</entry>
+<entry>Gianni</entry>
+</row>
+<row><entry morerows="1">c.</entry>
+<entry namest="col2" nameend="col7">pro lo legge Gianni&nbsp;.&nbsp;.&nbsp;.&nbsp;un libro t.</entry>
+</row>
+<row><entry namest="col2" nameend="col7">it Gianni reads a book</entry>
+</row>
+<row><entry morerows="1">d.</entry>
+<entry namest="col2" nameend="col7">pro c&rsquo;&egrave; Gianni&nbsp;.&nbsp;.&nbsp;.&nbsp;in giardino t.</entry>
+</row>
+<row><entry namest="col2" nameend="col7">in garden, Gianni there is</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Note that extraction from the postverbal constituent in a clitic left dislocation yields the Subjacency violations we observed in <link rid="ss3">section 2</link> (cf. (8j)), supporting the analogy proposed here:</p>
+<p>(43)&ensp;<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Di</entry>
+<entry>quale autore</entry>
+<entry>dici</entry>
+<entry>che</entry>
+<entry>Gianni</entry>
+<entry>legge</entry>
+<entry namest="col8" nameend="col9">&lsqb;un libro t&rsqb;?</entry>
+</row>
+<row><entry>of</entry>
+<entry>which author</entry>
+<entry>do you say</entry>
+<entry>that</entry>
+<entry>Gianni</entry>
+<entry>reads</entry>
+<entry namest="col8" nameend="col9"> a book</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>*Di</entry>
+<entry>quale autore</entry>
+<entry>dici</entry>
+<entry>che</entry>
+<entry>Gianni</entry>
+<entry>lo</entry>
+<entry>legge,</entry>
+<entry>&lsqb;un libro t&rsqb;?</entry>
+</row>
+<row><entry>of</entry>
+<entry>which author</entry>
+<entry>do you say</entry>
+<entry>that</entry>
+<entry>Gianni</entry>
+<entry>it</entry>
+<entry>reads</entry>
+<entry> a book</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In summary, the reason why Italian appears to escape the Definiteness Restriction can be traced back to the convergence of two independent, purely syntactic conditions: first, that <i>ci</i>, as opposed to <i>there</i>, is a clitic; second, that Italian is a pro-drop language. The first condition allows the subject to raise to the preverbal position; the second one allows subject&ndash;verb inversion: the result is an apparent violation of the Definiteness Effect. In the end, we don&apos;t need recourse to any semantic parameter, contra the implication of Chomksy&apos;s citation in (40).</p>
+<p>Of course, since in the postverbal position the defining properties of the existential sentences illustrated in (10) are not all met (in particular there can be no extraction from the subject of an inverted subject, as in *<i>ne hanno telefonati molti t</i> &ndash; of-them have phoned many), the sentence does not have an existential interpretation. Rather, the interpretation of a sentence like <i>c&rsquo;&egrave; Gianni in giardino</i> can only be purely locative, as in the canonical counterpart <i>Gianni c&rsquo;&egrave;</i>. Once more, as suggested by the formal interpretation of Jespersen&apos;s generalization, we must recall that &lsquo;existential sentences&rsquo; are nothing but a conspiracy of independent syntactic factors that force the &lsquo;clausal interpretation&rsquo; of a DP. See the discussion of the examples in (9) here: whenever one factor is missing the interpretation changes. Moreover, it is important to notice that both structural conditions must be realized for a certain language to escape the Definiteness Effect: in French, for example, the propredicative element that occurs in existential sentences is indeed a clitic, namely <i>y</i>, but this is not sufficient for that language to escape the Definiteness Effect: since it is not a pro-drop language, subject&ndash;verb inversion is not allowed and the sentence is ruled out if the subject&apos;s determiner is not adjectival in the technical sense adopted here.</p>
+<p>Interestingly, this explanation for the lack of the Definiteness Effect in Italian has as a consequence an independent issue concerning agreement. Since at least <link rid="b12">Burzio (1986</link>), it has been noted that in Italian, agreement may fail in existential sentences (this is also true in many other languages, as observed at least since <link rid="b1">Jespersen 1924</link>):</p>
+<p>(44)&ensp;<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Ci</entry>
+<entry>sono</entry>
+<entry>molte</entry>
+<entry>ragazze</entry>
+<entry>in</entry>
+<entry>questo</entry>
+<entry>giardino.</entry>
+</row>
+<row><entry>there</entry>
+<entry>are</entry>
+<entry>many</entry>
+<entry>girls</entry>
+<entry>in</entry>
+<entry>this</entry>
+<entry>garden</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>C&rsquo;</entry>
+<entry>&egrave;</entry>
+<entry>molte</entry>
+<entry>ragazze</entry>
+<entry>in</entry>
+<entry>questo</entry>
+<entry>giardino.</entry>
+</row>
+<row><entry>there</entry>
+<entry>is</entry>
+<entry>many</entry>
+<entry>girls</entry>
+<entry>in</entry>
+<entry>this</entry>
+<entry>garden</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>However, when the subject of the existential sentence is definite, agreement, as in the case of a pronoun, is obligatory:</p>
+<p>(45)&ensp;<object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Ci</entry>
+<entry>sono</entry>
+<entry>loro</entry>
+<entry>in</entry>
+<entry>questo</entry>
+<entry>giardino.</entry>
+</row>
+<row><entry>there</entry>
+<entry>are</entry>
+<entry>they</entry>
+<entry>in</entry>
+<entry>this</entry>
+<entry>garden</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>*C&rsquo;</entry>
+<entry>&egrave;</entry>
+<entry>loro</entry>
+<entry>in</entry>
+<entry>questo</entry>
+<entry>giardino.</entry>
+</row>
+<row><entry>there</entry>
+<entry>is</entry>
+<entry>they</entry>
+<entry>in</entry>
+<entry>this</entry>
+<entry>garden</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>If verbal agreement is obligatory when a phrase is raised to SPEC-IP position, as commonly assumed, then the contrast in (35) independently supports the hypothesis that the Definiteness Restriction is circumvented in Italian via movement through preverbal position and subsequent subject&ndash;verb inversion, and it explains why the sentence in (45a) can only receive a purely locative interpretation.</p>
+</subsection>
+<subsection id="ss8" level="1">
+<heading id="h7" level="1">5&ensp;Conclusion</heading>
+<p>After a short introduction in <link rid="ss2">section 1</link> aiming at emphasizing the difficulties of separating semantic and syntactic aspects of existential sentences, in <link rid="ss3">section 2</link> we explored the defining properties of existential sentences. There it was shown that an existential sentence is the output of a conspiracy of independent factors, in a way originally envisaged by <link rid="b1">Jespersen (1924</link>) and now formally synthesized in (10). More explicitly, we saw that an existential sentence is the minimal syntactic structure that &lsquo;turns a DP into a clause&rsquo;, i.e., that allows the determiner to play the role of the predicate of the NP. In <link rid="ss4">section 3</link>, we took some major steps toward a derivation of a core cluster of specific properties of existential sentences, exemplified in (8), on principled grounds. Moreover, the development of the standard theory stemming from <link rid="b13">Milsark (1974</link>) and Chomsky&apos;s own first works in the field (notably <link rid="b3">Chomsky 1981</link>) up to the Minimalist program (cf. <link rid="b22">Chomsky 1995c</link> and many subsequent works) was illustrated. Along with this standard theory, which regards <i>there</i> as a place holder for the subject of predication (an idea that goes back at least to <link rid="b1">Jespersen 1924</link> and more generally to Structuralist linguistics), an alternative theory was presented based on <link rid="b37 b4">Moro&apos;s (1987, 1997</link>) unified theory of copular sentences, according to which <i>there</i> is rather to be regarded as a raised place holder for the predicate. In <link rid="ss7">section 4</link> we concentrated on a simple cross-linguistic contrast showing the far-reaching and intricate questions that this raises on general comparative grounds: it was proposed that an apparent semantic contrast (the absence of the Definiteness Effect in the Italian equivalent of English <i>there</i>-sentences) should be traced back to purely syntactic conditions.</p>
+<p>In this chapter, we have limited our attention to cases where <i>there</i> and <i>ci</i> occur with the copula (and a few cases involving the so-called &lsquo;quasi-copula&rsquo; <i>seem</i>) and illustrated some of the major empirical and theoretical aspects of this field. In fact, it is well known that such elements can also co-occur with other verbs. In English for example, we have already observed that <i>there</i> can co-occur with <i>exist</i>; in fact, it is well known that <i>there</i> can also co-occur with other verbs such as <i>arrive</i>, <i>sink</i>, etc, namely with a subset of those verbs which give rise to the so-called &lsquo;unaccusative or ergative constructions&rsquo; expressing motion (see <link rid="b38">Hale and Keyser 2002</link> for a critical and detailed discussion of <i>there</i>-sententeces with verbs other than the copula and the quasi-copula). In Italian, moreover, the equivalent of <i>there</i>, i.e., <i>ci</i>, can also occur in possessive constructions with <i>avere</i> (have), as in <i>Gianni c&rsquo;ha un gatto</i> (Gianni there-has a cat), providing some alternative ideas toward the unified analysis of <i>have</i> and <i>be</i> across languages that has been pursued at least since <link rid="b39">Benveniste (1966a</link>). Whether or not the predicative raising analysis offered here as an alternative theory can be extended to those constructions (unaccusative, quasi-copular, and possessive constructions) is a matter that cannot be discussed here. I will simply refer to <link rid="b4">Moro (1997</link>: chapters 3, 4) for the extension of such a proposal to the empirical cases touched on here, and for a discussion of the consequences it has for the overall design of grammar and language acquisition.</p>
+</subsection>
+<subsection id="ss9" level="1">
+<heading id="h8" level="1">NOTES</heading>
+<p>
+<span id="fn1">
+<number>1&emsp;</number>This chapter touches issues that lie across the rigid boundaries of syntax and semantics as established by didactic needs. Even the label &lsquo;existential sentences&rsquo; itself suggests that crucial semantic facts must be known to approach the field. I have tried to stay away from intricate semantic aspects. The result is that the discussion is necessarily simplistic in many points: I do hope that the references I put in the text will help the reader who wants to master this field in a more detailed fashion. Moreover, since <i>there</i>-sentences in the existential reading involve the copula, reading <related relationship="sibling" type="samework"><externallink id="chapter 18 - Copular Sentences.xml" type="file">chapter 18</externallink></related> is also highly recommended. I am grateful to the reviewers and to Orin Percus for many helpful suggestions.</span>
+</p>
+<p>
+<span id="fn2">
+<number>2&emsp;</number>For the analogy between the complement of the copula in <i>there</i>-sentences, perceptual verb constructions, and <i>averci</i> (<i>have</i>-<i>there</i>) constructions in Italian, see <link rid="b4">Moro (1997</link>: 236ff.) and references cited there.</span>
+</p>
+<p>
+<span id="fn3">
+<number>3&emsp;</number>Of course the AP/PP can also be adjunct to the noun phrases, like the PP in the subject of the following sentence: <i>many pictures in this book show how big Rome was by the first century <smallcapitals>ad</smallcapitals>.</i>
+</span>
+</p>
+<p>
+<span id="fn4">
+<number>4&emsp;</number>It is important to note that the distinction between &lsquo;stage level&rsquo; and &lsquo;individual level&rsquo; predicates (as stemming from the seminal work by <link rid="b40">Carlson 1977b</link>) appears to be relevant to describing the type of AP that can be in the coda of an existential sentence. I will not further develop the very interesting semantic aspect of this issue here.</span>
+</p>
+<p>
+<span id="fn5">
+<number>5&emsp;</number>See for example <link rid="b18">Reuland and Ter Meulen (1987</link>).</span>
+</p>
+<p>
+<span id="fn6">
+<number>6&emsp;</number>In Higginbotham&apos;s words, &ldquo;by adopting the standard algebraic picture in which restricted quantifiers over a domain D are interpreted as functions from ordered pairs of subsets of D to truth values, we can say that a quantifier q over D is of adjectival character if, for some function f from the subset of D to truth values, q (X, Y) &equals; f (X &Ccedil; Y), for every pair X and Y of subsets of D&rdquo; (<link rid="b7">Higginbotham 1987</link>: 48).</span>
+</p>
+<p>
+<span id="fn7">
+<number>7&emsp;</number>Strictly speaking one should also exclude the possibility that <i>be</i> is a predicate of existence: I am assuming here the traditional Aristotelian view that the copula is not a predicate but rather the expression of aspectual and inflectional features of the sentence when they cannot be expressed syncretically on the verb (see <related relationship="sibling" type="samework"><externallink id="chapter 18 - Copular Sentences.xml" type="file">chapter 18</externallink></related> and the appendix of <link rid="b4">Moro 1997</link> for historical references). Interestingly, the idea that &lsquo;existence&rsquo; cannot be a predicate is explicitly stated by Immanuel Kant in his <i>Critique of Pure Reason</i> (for an English citation see <link rid="b41">Kant 1965</link>: 504&ndash;505).</span>
+</p>
+<p>
+<span id="fn8">
+<number>8&emsp;</number>For this reason, when the splitting process is not available, the only way to &lsquo;rescue&rsquo; the sentence is to give it a locative meaning (sometimes referred to as &lsquo;list reading&rsquo;). In other words, if <i>there is John, Mary, and Peter</i> does not allow any &lsquo;splitting&rsquo; process, the only possible interpretation is to say that the subject (<i>John, Mary, and Peter</i>) is predicated the property of being in a certain place (<i>there</i>). See also <link rid="ss7">section 4</link> in this chapter. As for the so-called list interpretation, see <link rid="b42">Abbott (1992</link>) and references cited there, among others.</span>
+</p>
+<p>
+<span id="fn9">
+<number>9&emsp;</number><i>Pace</i> independent restrictions on movement related to the internal structure of the subject itself, of course.</span>
+</p>
+<p>
+<span id="fn10">
+<number>10&emsp;</number>Notice that, as with the original insight by Jespersen, there is no reference to a &lsquo;word&rsquo; like <i>there</i>, i.e., to a locative element, in (10). Of course, the fact that a locative element frequently occurs in existential sentences is not accidental, since &lsquo;location&rsquo; is indeed a metaphoric way to express existence. Nevertheless, location is per se not obligatory; witness expressions like Chinese <i>you</i> (have) to express existence, German <i>es gibt</i> (it gives), and the literary Italian <i>si da</i>/<i>si danno</i> (one gives/give). Interestingly, note also that the word <i>existence</i> itself is etymologically related to location, since it is made of the Ancient Greek prefix <i>ek</i>- (from) and the verbal root <i>sist</i>- (stay).</span>
+</p>
+<p>
+<span id="fn11">
+<number>11&emsp;</number>For the role of <i>there</i> in language acquisition see the pioneer work by <link rid="b43">Hyams (1986</link>).</span>
+</p>
+<p>
+<span id="fn12">
+<number>12&emsp;</number>The debt of Chomsky&apos;s theory to Fregean thought is indeed explicit: &ldquo;<link rid="b44">Rothstein 1983</link> proposes that the two clauses of the EPP are in fact closely related. We may think of a lexical head as a &lsquo;lexical function&rsquo; that is &lsquo;unsaturated&rsquo; (in roughly the Fregean sense) if it is not provided with appropriate arguments fulfilling the theta-roles it assigns, and we may correspondingly regard a maximal projection (apart from those that are quasi-referential: NP and clause) as a &lsquo;syntactic function&rsquo; that is unsaturated if not provided with a subject of which it is predicated. Then, the EPP is a particular way of expressing the general principle that all functions must be saturated&rdquo; (<link rid="b19">Chomsky 1986b</link>: 116).</span>
+</p>
+<p>
+<span id="fn13">
+<number>13&emsp;</number>There is an intriguing issue that I am disregarding here, i.e., what exactly is the subject position in which <i>there</i> shows up, given the fine-grained taxonomy suggested by many authors (see for example <link rid="b45">Cinque 1979</link>; <link rid="b46">Cardinaletti and Roberts 1990</link>; <link rid="b47">Poletto 1993</link>; <link rid="b4">Moro 1997</link>). Arguably, <i>there</i> must occupy a lower position than the subject; witness the very well-known fact that no adverbs seem to intervene between the copula and <i>there</i>, as opposed to a full DP:</span>
+</p>
+<p>(i)&ensp;<object id="tu28" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu28_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>the cause of the riot arguably is a picture of the wall</entry>
+</row>
+<row><entry>b.</entry>
+<entry>there ?*arguably is/arguably&apos;s a picture of the wall</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Since the debate on this issue is still developing, I will not discuss this issue further here, and simply assume that <i>there</i> occurs in the canonical preverbal DP position.</p>
+<p>
+<span id="fn14">
+<number>14&emsp;</number>The representation given here essentially reproduces the original one given by <link rid="b20">Chomsky (1991</link>). Later (<link rid="b23">Chomsky 1993</link>), the DP was placed on the left of <i>there</i>, i.e., &lsqb;<sub>DP</sub> a man &lsqb;<sub>DP</sub> there&rsqb;&rsqb;, on a par with all other instances of syntactic movement. See also <link rid="b22">Chomsky (1995c</link>: 273) for a further slight refinement.</span>
+</p>
+<p>
+<span id="fn15">
+<number>15&emsp;</number>Safir&apos;s own theory of the distribution of <i>there</i> relied on the notion of &lsquo;unbalanced chain&rsquo;, which I will not introduce here; see <link rid="b25">Safir (1985b</link>) for a detailed discussion of this issue and many related issues.</span>
+</p>
+<p>
+<span id="fn16">
+<number>16&emsp;</number>For a different approach to the categorial status of <i>there</i> see <link rid="b4 b5">Moro (1997, 2000</link>), where it is claimed that it has an intermediate status: it is generated where XPs are, but it behaves like a head, i.e., like a clitic. See also fn. 13 here.</span>
+</p>
+<p>
+<span id="fn17">
+<number>17&emsp;</number>For a synthetic review of the general literature on this &ldquo;standard&rdquo; view of <i>there</i> as a place holder for the subject of predications see <link rid="b13 b14">Milsark (1974, 1977</link>); <link rid="b48">Jenkins (1975</link>); <link rid="b3 b22">Chomsky (1981, 1995c</link>: <related relationship="sibling" type="samework"><externallink id="chapter 1 - The Accusative Plus Infinitive Construction in English.xml" type="file">chapter 1</externallink></related>); <link rid="b25">Safir (1985b</link>); <link rid="b26">Lumsden (1988</link>); <link rid="b49">Lasnik (1995a</link>), among others. The literature in the field is indeed vast; for some other bibliographical indications see also the references to <link rid="b4">Moro (1997</link>: chapters 2, 3, and the appendix on a brief history of the notion of copula).</span>
+</p>
+<p>
+<span id="fn18">
+<number>18&emsp;</number>See for example <link rid="b50">Zwart (1991</link>); <link rid="b22">Chomsky (1995c</link>: 392); <link rid="b51">Den Dikken (2002</link>); <link rid="b52">Koopman (2002</link>).</span>
+</p>
+<p>
+<span id="fn19">
+<number>19&emsp;</number>For the original sources see <link rid="b37 b53">Moro (1987, 1988</link>). For extensive discussion see <link rid="b4">Moro (1997</link>) or the appendix to <link rid="b5">Moro (2000</link>).</span>
+</p>
+<p>
+<span id="fn20">
+<number>20&emsp;</number>Note that the existence of place holders for predicates is independently assumed across languages: for example, Italian <i>lo</i>, French <i>le</i>, or English <i>so</i> are clear candidates. That a noun phrase can play the role of a propredicate as well as a prosubject should not be surprising: this is because, more generally, the fact that a noun phrase plays the role of the subject or that of a predicate is not an inherent lexical piece of information; rather it is a function of the position in the structure where the noun phrase occurs (cf. <i>a man killed John</i> vs. <i>John is a man</i>).</span>
+</p>
+<p>
+<span id="fn21">
+<number>21&emsp;</number>The second option becomes plausible when one considers examples like <i>girls in the garden can be very attractive</i> or <i>there are girls in the garden in the fresco</i>. As for the position of the PP in the first sentence, it can be argued that it is in a topic position with successive remnant IP movement. See <link rid="b5">Moro (2000</link>: 130, fn. 12).</span>
+</p>
+<p>
+<span id="fn22">
+<number>22&emsp;</number>I say &ldquo;certain types&rdquo; because obviously not all predicative noun phrases must agree in number (and gender) with their subjects, as for example in the following Italian cases:</span>
+</p>
+<p>(i)&ensp;<object id="tu29" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu29_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Gianni</entry>
+<entry>&egrave;</entry>
+<entry>un</entry>
+<entry>maestro/*una</entry>
+<entry>maestra</entry>
+</row>
+<row><entry>Gianni</entry>
+<entry>is</entry>
+<entry>a-mas.</entry>
+<entry>teacher.mas./a-fem.</entry>
+<entry>teacher.fem</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>I</entry>
+<entry>ragazzi</entry>
+<entry>sono</entry>
+<entry>la</entry>
+<entry>causa</entry>
+</row>
+<row><entry>the-mas.</entry>
+<entry>boys-mas.-</entry>
+<entry>are</entry>
+<entry>the-fem.</entry>
+<entry>cause-fem.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>I will not further explore a possible generalization for this phenomenon. See <link rid="b4">Moro (1997</link>) and references cited there for this rather murky issue.</p>
+<p>
+<span id="fn23">
+<number>23&emsp;</number>As for the case involving <i>how many</i> illustrated in (22), we are led to conclude that <i>how many</i> is extracted from the subject and that <i>men</i> is pied-piped for locality reasons. For a detailed discussion see <link rid="b4">Moro (1997</link>).</span>
+</p>
+<p>
+<span id="fn24">
+<number>24&emsp;</number>Of course, one could always say that there are two (or even more) different <i>there</i>s (cf., for example, <link rid="b1">Jespersen 1924</link> or <link rid="b44">Rothstein 1983</link> and references cited there): a <i>there</i> of existence and a <i>there</i> of location, relying on the different phonological status of the two <i>there</i>s. However, even disregarding the fact that this seems an ad hoc explanation, the problem is that in languages like Italian, the same problem would be reproduced with exactly the same element, i.e., the clitic <i>ci</i>, which does not have two phonological variants. We will approach this issue directly in the next section.</span>
+</p>
+<p>
+<span id="fn25">
+<number>25&emsp;</number>For a general survey of the issue see <link rid="b18">Reuland and Ter Meulen (1987</link>) and references cited there, and the seminal works by <link rid="b13">Milsark (1974</link>) and <link rid="b54">Barwise and Cooper (1981</link>).</span>
+</p>
+<p>
+<span id="fn26">
+<number>26&emsp;</number>Chierchia&apos;s work leads to interesting discussions in the field of noun phrases, stemming from <link rid="b40">Carlson&apos;s (1977b</link>) seminal work; but see <link rid="b55">Delfitto (2002</link>: 106ff.) for an extensive discussion of this issue and a critical approach to the notion of &lsquo;semantic parameter&rsquo; proposed by Chierchia.</span>
+</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss10" level="1" type="references">
+<heading id="h9" level="1">REFERENCES</heading>
+<reference id="b42" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Abbott</surname><x>, </x><forenames>Barbara</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Definiteness, Existentials, and the &lsquo;List&rsquo; Interpretation</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of SALT II</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Chris</forenames><x> </x><surname>Baker</surname>
+</name><x> and </x><name type="editor">
+<forenames>David</forenames><x> </x><surname>Dowty</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">1&ndash;16</page><x>. </x><address>Columbus, OH</address><x>: </x><publisher>Ohio State University Press.</publisher>
+</reference>
+<reference id="b54" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Barwise</surname><x>, </x><forenames>Jon</forenames>
+</name><x> and </x><name type="author">
+<forenames>Robin</forenames><x> </x><surname>Cooper</surname>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="document">Generalized Quantifiers and Natural Language</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>4</volume><x>: </x><page type="first">159&ndash;219</page><x>.</x>
+</reference>
+<reference id="b8" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Belletti</surname><x>, </x><forenames>Adriana</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999a</date><x>). </x><title type="document">Inversion as Focalization</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Subject Inversion in Romance and the Theory of Universal Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Aafke</forenames><x> </x><surname>Hulke</surname>
+</name><x> and </x><name type="editor">
+<forenames>Jean-Yves</forenames><x> </x><surname>Pollock</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>Oxford</address><x>: </x><publisher>Oxford University Press.</publisher>
+</reference>
+<reference id="b39" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Benveniste</surname><x>, </x><forenames>&Eacute;mile</forenames>
+</name>
+</namegroup><x> (</x><date date="1966">1966a</date><x>). </x><title type="document">
+<i>&Ecirc;tre</i> et <i>Avoir</i> dans leurs Fonctions Linguistiques</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Probl&egrave;mes de Linguistique G&eacute;n&eacute;rale</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>&Eacute;mile</forenames><x> </x><surname>Benveniste</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">187&ndash;207</page><x>. </x><address>Paris</address><x>: </x><publisher>Gallimard.</publisher>
+</reference>
+<reference id="b31" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Berwick</surname><x>, </x><forenames>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date>
+<miscellaneoustext>). Locality Principles and the Acquisition of Syntactic Knowledge. PhD dissertation, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b21" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Borer</surname><x>, </x><forenames>Hagit</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984a</date><x>). </x><title type="book">Parametric Syntax: Case Studies in Semitic and Romance Languages</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b12" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Burzio</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="book">Italian Syntax: A Government-Binding Approach</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Reidel.</publisher>
+</reference>
+<reference id="b46" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Cardinaletti</surname><x>, </x><forenames>Anna</forenames>
+</name><x> and </x><name type="author">
+<forenames>Ian</forenames><x> </x><surname>Roberts</surname>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date>
+<miscellaneoustext>). Levels of Representation of Agreement. Paper presented at The Thirteenth GLOW Colloquium</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b40" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Carlson</surname><x>, </x><forenames>Gregory<x> </x>N<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977b</date><x>). </x><title type="document">A Unified Analysis of English Bare Plural</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>1</volume><x>: </x><page type="first">413&ndash;457</page><x>.</x>
+</reference>
+<reference id="b34" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chierchia</surname><x>, </x><forenames>Gennaro</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995c</date><x>). </x><title type="document">Syntactic Bootstrapping and the Acquisition of Noun Meanings: The Mass&ndash;Count Issue</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Syntactic Theory and First Language Acquisition. Vol. 1</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Barbara</forenames><x> </x><surname>Lust</surname>
+</name><x>, </x><name type="editor">
+<forenames>Gabriella</forenames><x> </x><surname>Hermon</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Jaklin</forenames><x> </x><surname>Kornfilt</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">301&ndash;318</page><x>. </x><address>New York</address><x>: </x><publisher>Laurence Erlbaum.</publisher>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chierchia</surname><x>, </x><forenames>Gennaro</forenames>
+</name><x> and </x><name type="author">
+<forenames>Sally</forenames><x> </x><surname>McConell-Ginet</surname>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="book">Meaning and Grammar<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b28" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1973">1973</date><x>). </x><title type="document">Conditions on Transformations</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">A Festschrift for Morris Halle</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Stephen</forenames><x> </x><surname>Anderson</surname>
+</name><x> and </x><name type="editor">
+<forenames>Paul</forenames><x> </x><surname>Kiparsky</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">232&ndash;286</page><x>. </x><address>New York</address><x>: </x><publisher>Holt, Rinehart, and Winston.</publisher>
+</reference>
+<reference id="b29" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977a</date><x>). </x><title type="book">Essays on Form and Interpretation<x>.</x>
+</title><x> </x><address>New York</address><x>: </x><publisher>North-Holland.</publisher>
+</reference>
+<reference id="b3" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="book">Lectures on Government and Binding<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b15" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="book">Some Concepts and Consequences of the Theory of Government and Binding<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b19" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986b</date><x>). </x><title type="book">Knowledge of Language: Its Nature, Origin and Use</title><x>. </x><address>New York</address><x>: </x><publisher>Praeger.</publisher>
+</reference>
+<reference id="b20" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Some Notes on Economy of Derivation and Representation</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Principles and Parameters in Comparative Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Robert</forenames><x> </x><surname>Freidin</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">417&ndash;454</page><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b23" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">A Minimalist Program for Linguistic Theory</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The View from Building 20: Essays in Linguistics in Honor of Sylvain Bromberger</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ken</forenames><x> </x><surname>Hale</surname>
+</name><x> and </x><name type="editor">
+<forenames>Samuel<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Keyser</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">1&ndash;52</page><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b22" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995c</date><x>). </x><title type="book">The Minimalist Program<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b45" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date>
+<miscellaneoustext>). Left Dislocation: A Syntactic and Pragmatic Analysis. Unpublished manuscript, Padua, CLESP</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b35" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990c</date><x>). </x><title type="book">Types of A&prime;-Dependencies</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b55" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Delfitto</surname><x>, </x><forenames>Denis</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="book">Genericity in Language</title><x>. </x><address>Alessandria</address><x>: </x><publisher>Edizioni Dell&rsquo;Orso.</publisher>
+</reference>
+<reference id="b51" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Dikken</surname><x>, </x><forenames>Marcel<x> </x>den</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date>
+<miscellaneoustext>). The Structure of the Noun Phrase in Rotuman. Unpublished manuscript, New York, CUNY</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Graffi</surname><x>, </x><forenames>Giorgio</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="book">200 Years of Syntax<x>.</x>
+</title><x> </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference id="b38" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hale</surname><x>, </x><forenames>Ken</forenames>
+</name><x> and </x><name type="author">
+<forenames>Samuel<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Keyser</surname>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="book">Prolegomena to a Theory of Argument Structure</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b7" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Higginbotham</surname><x>, </x><forenames>James</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Indefiniteness and Predication</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Representation of (In)definiteness</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name><x> and </x><name type="editor">
+<forenames>Alice<x> </x>ter</forenames><x> </x><surname>Meulen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">43&ndash;70</page><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b43" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hyams</surname><x>, </x><forenames>Nina</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="book">Language Acquisition and the Theory of Parameters<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Reidel.</publisher>
+</reference>
+<reference id="b48" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Jenkins</surname><x>, </x><forenames>Lyle</forenames>
+</name>
+</namegroup><x> (</x><date date="1975">1975</date><x>). </x><title type="book">The English Existential<x>.</x>
+</title><x> </x><address>T&uuml;bingen</address><x>: </x><publisher>Max Niemeyer.</publisher>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Jespersen</surname><x>, </x><forenames>Otto</forenames>
+</name>
+</namegroup><x> (</x><date date="1924">1924</date><x>). </x><title type="book">The Philosophy of Grammar<x>.</x>
+</title><x> </x><address>London</address><x>: </x><publisher>Allen and Unwin.</publisher>
+</reference>
+<reference id="b41" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kant</surname><x>, </x><forenames>Immanuel</forenames>
+</name>
+</namegroup><x> (</x><date date="1965">1965</date><x>). </x><title type="book">Critique of Pure Reason<x>.</x>
+</title><x> </x><address>New York</address><x>: </x><publisher>St Martin&apos;s.</publisher>
+</reference>
+<reference id="b52" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Koopman</surname><x>, </x><forenames>Hilda</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date>
+<miscellaneoustext>). Inside the &lsquo;Noun&rsquo; in Maasai. Unpublished manuscript, Los Angeles, UCLA</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b49" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Lasnik</surname><x>, </x><forenames>Howard</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995a</date><x>). </x><title type="document">Case and Expletives Revisited: On Greed and Other Human Failings</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>26</volume><x>: </x><page type="first">615&ndash;633</page><x>.</x>
+</reference>
+<reference id="b9" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Longobardi</surname><x>, </x><forenames>Giuseppe</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date>
+<miscellaneoustext>). Different Types of Inverted Subjects. Unpublished manuscript, University of Trieste</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b26" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lumsden</surname><x>, </x><forenames>M.</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="book">Existential Sentences: Their Structure and Meaning</title><x>. </x><address>London</address><x>: </x><publisher>Croom Helm.</publisher>
+</reference>
+<reference id="b33" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Manzini</surname><x>, </x><forenames>Maria<x> </x>Rita</forenames>
+</name><x> and </x><name type="author">
+<forenames>Kenneth</forenames><x> </x><surname>Wexler</surname>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Parameters, Binding Theory, and Learnability</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>18</volume><x>: </x><page type="first">413&ndash;444</page><x>.</x>
+</reference>
+<reference id="b32" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Marantz</surname><x>, </x><forenames>Alec</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995b</date><x>). </x><title type="document">A Reader&apos;s Guide to a Minimalist Program for Linguistic Theory</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Principles and Parameters Approach to Syntactic Theory: A Synopsis</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Gert</forenames><x> </x><surname>Webelhuth</surname>
+</name>
+<x>, </x><miscellaneoustext>(ed.)</miscellaneoustext><x>.</x>
+</namegroup><x> </x><address>Oxford</address><x>: </x><publisher>Blackwell.</publisher>
+</reference>
+<reference id="b13" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Milsark</surname><x>, </x><forenames>Gary</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date>
+<miscellaneoustext>). Existential Sentences in English. PhD dissertation, Cambridge, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b14" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Milsark</surname><x>, </x><forenames>Gary</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date><x>). </x><title type="document">Towards an Explanation of Certain Peculiarities in the Existential Construction in English</title><x>. </x><title type="journal">Linguistic Analysis</title><x> </x><volume>3</volume><x>: </x><page type="first">1&ndash;30</page><x>.</x>
+</reference>
+<reference id="b37" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Moro</surname><x>, </x><forenames>Andrea</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date>
+<miscellaneoustext>). Tempo e Predicazione Nella Sintassi delle Frasi Copulari. PhD dissertation, University of Pavia</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b53" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Moro</surname><x>, </x><forenames>Andrea</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Per una Teoria Unificata delle Frasi Copulari</title><x>. </x><title type="journal">Revista di Grammatica Generativa</title><x> </x><volume>13</volume><x>: </x><page type="first">81&ndash;110</page><x>.</x>
+</reference>
+<reference id="b27" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Moro</surname><x>, </x><forenames>Andrea</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">The Raising of Predicates</title><x>. </x><title type="journal">MIT Working Papers in Linguistics</title><x> </x><volume>15</volume><x>: </x><page type="first">193</page><x>&ndash;</x><page type="last">218</page><x>.</x>
+</reference>
+<reference id="b30" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Moro</surname><x>, </x><forenames>Andrea</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993a</date><x>). </x><title type="document">A Case Study in Linguistic Variation: The Semantics of Existential Sentences</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the XVII Meeting of Generative Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Elisabetta</forenames><x> </x><surname>Fava</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">265&ndash;287</page><x>. </x><address>Turin</address><x>: </x><publisher>Rosenberg and Sellier</publisher><x>.</x>
+</reference>
+<reference id="b24" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Moro</surname><x>, </x><forenames>Andrea</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993b</date><x>). </x><title type="document">Heads as Antecedents: A Brief History of the ECP</title><x>. </x><title type="journal">Lingua e Stile</title><x> </x><volume>28</volume><x>: </x><page type="first">31&ndash;57</page><x>.</x>
+</reference>
+<reference id="b4" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Moro</surname><x>, </x><forenames>Andrea</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="book">The Raising of Predicates: Predicative Noun Phrases and the Theory of Clause Structure</title><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Moro</surname><x>, </x><forenames>Andrea</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="book">Dynamic Antisymmetry<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b47" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Poletto</surname><x>, </x><forenames>Cecilia</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">La Sintassi del Soggetto nei Dialetti Italiani Settentrionali</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Quaderni Patavini di Linguistica <roman>12</roman>
+</title><x>. </x><address>Padua</address><x>: </x><publisher>Unipress.</publisher>
+</reference>
+<reference id="b10" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Quirk</surname><x>, </x><forenames>Randolph,<x> </x>Sidney</forenames>
+</name><x> </x><name type="author">
+<surname>Greenbaum</surname><x>, </x><forenames>Geoffrey</forenames>
+</name><x> </x><corporatename type="author">Leech</corporatename>
+<x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>Jan</forenames><x> </x><surname>Svartvik</surname>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="book">A Comprehensive Grammar of the English Language<x>.</x>
+</title><x> </x><address>London/New York</address><x>: </x><publisher>Longman.</publisher>
+</reference>
+<reference id="b18" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Reuland</surname><x>, </x><forenames>Eric</forenames>
+</name><x> and </x><name type="author">
+<forenames>Alice<x> </x>ter</forenames><x> </x><surname>Meulen</surname>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="book">The Representation of (In)definiteness<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b11" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rizzi</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990b</date><x>). </x><title type="book">Relativized Minimality<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b36" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rizzi</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">The Fine Structure of the Left Periphery</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Elements of Grammar: Handbook of Generative Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Liliane</forenames><x> </x><surname>Haegeman</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">281&ndash;337</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer.</publisher>
+</reference>
+<reference id="b44" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Rothstein</surname><x>, </x><forenames>Susan</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date>
+<miscellaneoustext>). The Syntactic Forms of Predication. PhD dissertation, Cambridge, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b25" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Safir</surname><x>, </x><forenames>Kenneth</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985b</date><x>). </x><title type="book">Syntactic Chains<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b16" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Stowell</surname><x>, </x><forenames>Tim</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978</date><x>). </x><title type="document">What Was There Before <i>There</i> Was There</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Fourteenth Regional Meeting of the Chicago Linguistic Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Donka</forenames><x> </x><surname>Farkas</surname>
+</name><x>, </x><name type="editor">
+<forenames>Wesley<x> </x>M<x>.</x>
+</forenames><x> </x><surname>Jacobsen</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Karol<x> </x>W<x>.</x>
+</forenames><x> </x><surname>Todrys</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">475&ndash;471</page><x>. </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society.</publisher>
+</reference>
+<reference id="b17" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Williams</surname><x>, </x><forenames>Edwin</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">
+<i>There-</i>Insertion</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>15</volume><x>: </x><page type="first">131&ndash;153</page><x>.</x>
+</reference>
+<reference id="b50" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Zwart</surname><x>, </x><forenames>C<x>. </x>Jan-Wouter</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Expletive Raising and Expletive Replacement in Dutch</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Eastern States Conference on Linguistics &rsquo;91</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>German</forenames><x> </x><surname>Westphal</surname>
+</name><x>, </x><name type="editor">
+<forenames>Benjamin</forenames><x> </x><surname>Ao</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Hee-Rahk</forenames><x> </x><surname>Chae</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">393&ndash;404</page><x>. </x><address>Columbus, OH</address><x>: </x><publisher>Ohio State University.</publisher>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

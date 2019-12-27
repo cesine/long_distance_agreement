@@ -1,0 +1,333 @@
+<html>
+<head>
+
+<title>Additional asset information</title>
+
+<?php
+
+// TBD1: Populate equipment assigned user with list from DB
+// TBD2: Accept compartment and users
+// TBD3: Debug javascript validation
+// TBD4: Hidden parameters: Convert FacultyName and LocationName to FacultyID and LocationID before passing
+
+
+/* Parameters from AddAsset.php */
+
+$BarCode			= $_POST['$BarCode'];
+$FacultyName		= $_POST['$FacultyName'];
+$ReqNumber			= $_POST['$ReqNumber'];
+$PoNumber			= $_POST['$PoNumber'];
+$LegacyCode			= $_POST['$LegacyCode'];
+$DatePurchased		= $_POST['$DatePurchased'];
+$WarrantyExpiration	= $_POST['$WarrantyExpiration'];
+$LocationName       = $_POST['$LocationName'];
+$Manufacturer		= $_POST['$Manufacturer'];
+$Model				= $_POST['$Model'];
+
+$Equipment			= $_POST['$Equipment'];
+$Furniture			= $_POST['$Furniture'];
+
+
+/* Validation (javascript) based on submit button */
+/* Requires debugging */
+
+
+/*
+echo '<script language="Javascript1.2">';
+
+if ($Equipment)
+{
+	echo 'function verifyNotComputer(EType,CType) {';
+	echo 'var error = "";';
+	echo 'if ((EType != "Computer") && (CType != null)) {';
+	echo 'error = "Equipment is not a computer - No computer type should be provided.\n";}';
+	echo 'return error;}';
+
+	echo 'function verifyComputer(EType,CType) {';
+	echo 'var error = "";';
+	echo 'if ((EType == "Computer") && (CType == null)) {';
+	echo 'error = "Equipment is a computer - Computer type must be provided.\n";}';
+	echo 'return error;}';
+
+	echo 'function check_valid(form) {';
+	echo 'var error = "";';
+	echo 'error += verifyNotComputer(form.$EquipmentType.value, form.$ComputerType.value);';
+	echo 'error += verifyComputer(form.$EquipmentType.value, form.$ComputerType.value);';
+	echo 'if (error != "") {';
+	echo 'alert(error);';
+	echo 'return false;}';
+	echo 'return true;}';
+}
+else if ($Furniture)
+{
+	echo 'function verifyFurnitureType(FType) {';
+	echo 'var error = "";';
+	echo 'if ((FType == null) {';
+	echo 'error = "Furniture type must be provided.\n";}';
+	echo 'return error;}';
+
+	echo 'function verifyNotStorage(FType,SType) {';
+	echo 'var error = "";';
+	echo 'if ((FType != "Storage unit") && (SType != null)) {';
+	echo 'error = "Furniture is not a storage unit - No storage unit type should be provided.\n";}';
+	echo 'return error;}';
+
+	echo 'function verifyStorage(FType,SType) {';
+	echo 'var error = "";';
+	echo 'if ((FType == "Storage unit") && (SType == null)) {';
+	echo 'error = "Furniture is a storage unit - Storage unit type must be provided.\n";}';
+	echo 'return error;}';
+
+	echo 'function check_valid(form) {';
+	echo 'var error = "";';
+	echo 'error += verifyFurnitureType(form.$FurnitureType.value);';
+	echo 'error += verifyNotStorage(form.$FurnitureType.value, form.$StorageUnitType.value);';
+	echo 'error += verifyStorage(form.$FurnitureType.value, form.$StorageUnitType.value);';
+	echo 'if (error != "") {';
+	echo 'alert(error);';
+	echo 'return false;}';
+	echo 'return true;}';
+}
+echo '</script>';
+*/
+
+
+echo '</head>';
+
+echo '<body>';
+
+
+/* Display page title based on submit button */
+
+if ($Equipment)
+{
+    echo '<h1>Equipment additional information</h1>';
+}
+else if ($Furniture)
+{
+    echo '<h1>Furniture additional information</h1>';
+}
+
+
+/* Display generic asset information */
+
+echo '<table border="1" width="80%" cellpadding="1" cellspacing="1">';
+echo '<tr>';
+	echo '<th colspan="5" bgcolor="cornflowerblue">GENERIC ASSET INFORMATION</th>';
+echo '</tr>';
+echo '<tr>';
+	echo '<th bgcolor="lightgray">Barcode</th>';
+	echo '<th bgcolor="lightgray">Owner</th>';
+	echo '<th bgcolor="lightgray">Purchase Req.#</th>';
+	echo '<th bgcolor="lightgray">P.O.#</th>';
+	echo '<th bgcolor="lightgray">Legacy code</th>';
+echo '</tr>';
+echo '<tr>';
+	echo "<td>$BarCode</td>";
+	echo "<td>$FacultyName</td>";
+	if ($ReqNumber == "")  {echo "<td>&nbsp;</td>";} else {echo "<td>$ReqNumber</td>";}
+	if ($PoNumber == "")   {echo "<td>&nbsp;</td>";} else {echo "<td>$PoNumber</td>";}
+	if ($LegacyCode == "") {echo "<td>&nbsp;</td>";} else {echo "<td>$LegacyCode</td>";}
+echo '</tr>';
+echo '<tr>';
+	echo '<th bgcolor="lightgray">Purchase date</th>';
+	echo '<th bgcolor="lightgray">Warranty exp.date</th>';
+	echo '<th bgcolor="lightgray">Location</th>';
+	echo '<th bgcolor="lightgray">Manufacturer</th>';
+	echo '<th bgcolor="lightgray">Model</th>';
+echo '</tr>';
+echo '<tr>';
+	if ($DatePurchased == "")      {echo "<td>&nbsp;</td>";} else {echo "<td>$DatePurchased</td>";}
+	if ($WarrantyExpiration == "") {echo "<td>&nbsp;</td>";} else {echo "<td>$WarrantyExpiration</td>";}
+	echo "<td>$LocationName</td>";
+	if ($Manufacturer == "")       {echo "<td>&nbsp;</td>";} else {echo "<td>$Manufacturer</td>";}
+	if ($Model == "")              {echo "<td>&nbsp;</td>";} else {echo "<td>$Model</td>";}
+echo '</tr>';
+echo '</table>';
+
+
+/* Display form based on submit button */
+
+if ($Equipment)
+{
+    echo '<form action="../CONTROLLER/PhysicalAssetDispatcher.php" onsubmit="return check_valid(this)" method="post">';
+    echo '<input type="hidden" name="CallingForm"        value="AdditionalAssetInformationEquipment"/>';
+    echo '<input type="hidden" name="BarCode"            value="'.$BarCode.'"/>';
+    echo '<input type="hidden" name="FacultyName"        value="'.$FacultyName.'"/>';
+    echo '<input type="hidden" name="ReqNumber"          value="'.$ReqNumber.'"/>';
+    echo '<input type="hidden" name="PoNumber"           value="'.$PoNumber.'"/>';
+    echo '<input type="hidden" name="LegacyCode"         value="'.$LegacyCode.'"/>';
+    echo '<input type="hidden" name="DatePurchased"      value="'.$DatePurchased.'"/>';
+    echo '<input type="hidden" name="WarrantyExpiration" value="'.$WarrantyExpiration.'"/>';
+    echo '<input type="hidden" name="LocationName"       value="'.$LocationName.'"/>';
+    echo '<input type="hidden" name="Manufacturer"       value="'.$Manufacturer.'"/>';
+    echo '<input type="hidden" name="Model"              value="'.$Model.'"/>';
+
+    echo '<fieldset>';
+    echo '<legend><font color=cornflowerblue><b>Equipment - Additional information</b></font></legend>';
+
+    echo 'Equipment type: ';
+    echo '<br>';
+    echo '<label>Computer    <input type="radio" name="$EquipmentType" value="Computer" checked="checked"/> </label>';
+    echo '<label>Screen      <input type="radio" name="$EquipmentType" value="Screen"/>      </label>';
+    echo '<label>Keyboard    <input type="radio" name="$EquipmentType" value="Keyboard"/>    </label>';
+    echo '<label>Mouse       <input type="radio" name="$EquipmentType" value="Mouse"/>       </label>';
+    echo '<label>Printer     <input type="radio" name="$EquipmentType" value="Printer"/>     </label>';
+    echo '<label>Telephone   <input type="radio" name="$EquipmentType" value="Telephone"/>   </label>';
+    echo '<label>Photocopier <input type="radio" name="$EquipmentType" value="Photocopier"/> </label>';
+    echo '<label>Projector   <input type="radio" name="$EquipmentType" value="Projector"/>   </label>';
+    echo '<label>Amplifier   <input type="radio" name="$EquipmentType" value="Amplifier"/>   </label>';
+    echo '<label>Microphone  <input type="radio" name="$EquipmentType" value="Microphone"/>  </label>';
+    echo '<label>Speaker     <input type="radio" name="$EquipmentType" value="Speaker"/>     </label>';
+    echo '<br><br>';
+
+    echo 'Equipment serial number: ';
+    echo '<input type="text" name="$SerialNo" size ="32" maxlength="64" class="inputtext">';
+    echo '<br><br>';
+
+    echo 'Equipment assigned user (int): ';
+    echo '<input type="text" name="$UserID"   size ="8"  maxlength="8"  class="inputtext">';
+    echo '<br>';
+
+    echo '</fieldset>';
+    echo '<br>';
+
+    echo '<fieldset>';
+    echo '<legend><font color=cornflowerblue><b>Computer - Additional information</b></font></legend>';
+
+    echo 'Computer type: ';
+	echo '<select name="$ComputerType">';
+	echo '<option></option>';
+	echo '<option value=Tower>Tower</option>';
+	echo '<option value=Laptop>Laptop</option>';
+	echo '<option value=Server>Server</option>';
+	echo '</select>';
+    echo '<br><br>';
+
+    echo 'Processor: ';
+    echo '<input type="text" name="$Processor"    size ="32" maxlength="64" class="inputtext">';
+    echo '<br><br>';
+
+    echo 'MAC address: ';
+    echo '<input type="text" name="$MACAddress"   size ="32" maxlength="64" class="inputtext">';
+    echo '<br><br>';
+
+    echo 'Hard drive capacity (in GB): ';
+    echo '<input type="text" name="$HardDriveCap" size ="32" maxlength="64" class="inputtext">';
+    echo '<br><br>';
+
+    echo 'Non-volatile memory (in MB): ';
+    echo '<input type="text" name="$ROM"          size ="32" maxlength="64" class="inputtext">';
+    echo '<br><br>';
+
+    echo 'Volatile memory (in MB): ';
+    echo '<input type="text" name="$RAM"          size ="32" maxlength="64" class="inputtext">';
+    echo '<br>';
+
+    echo '</fieldset>';
+    echo '<br>';
+
+    echo '<fieldset>';
+    echo '<legend> <font color=gray><b>Commit / Clear</b></font> </legend>';
+    echo '<input type="submit" name="$Submit" value="Commit equipment record" />';
+    echo '<input type="reset"  name="$Reset"  value="Clear entry" />';
+    echo '</fieldset>';
+
+    echo '</form>';
+}
+else if ($Furniture)
+{
+    echo '<form action="../CONTROLLER/PhysicalAssetDispatcher.php" onsubmit="return check_valid(this)" method="post">';
+    echo '<input type="hidden" name="CallingForm"        value="AdditionalAssetInformationFurniture"/>';
+    echo '<input type="hidden" name="BarCode"            value="'.$BarCode.'"/>';
+    echo '<input type="hidden" name="FacultyName"        value="'.$FacultyName.'"/>';
+    echo '<input type="hidden" name="ReqNumber"          value="'.$ReqNumber.'"/>';
+    echo '<input type="hidden" name="PoNumber"           value="'.$PoNumber.'"/>';
+    echo '<input type="hidden" name="LegacyCode"         value="'.$LegacyCode.'"/>';
+    echo '<input type="hidden" name="DatePurchased"      value="'.$DatePurchased.'"/>';
+    echo '<input type="hidden" name="WarrantyExpiration" value="'.$WarrantyExpiration.'"/>';
+    echo '<input type="hidden" name="LocationName"       value="'.$LocationName.'"/>';
+    echo '<input type="hidden" name="Manufacturer"       value="'.$Manufacturer.'"/>';
+    echo '<input type="hidden" name="Model"              value="'.$Model.'"/>';
+
+    echo '<fieldset>';
+    echo '<legend><font color=cornflowerblue><b>Furniture - Additional information</b></font></legend>';
+
+    echo 'Furniture type: ';
+	echo '<select name="$FurnitureType">';
+	echo '<option></option>';
+	echo '<option value=Classroom front desk>Classroom front desk</option>';
+	echo '<option value=Classroom desk>Classroom desk</option>';
+	echo '<option value=Classroom chair>Classroom chair</option>';
+	echo '<option value=Classroom desk/chair unit>Classroom desk/chair unit</option>';
+	echo '<option value=Lab bench>Lab bench</option>';
+	echo '<option value=Lab stool>Lab stool</option>';
+	echo '<option value=Lab chair>Lab chair</option>';
+	echo '<option value=Office desk>Office desk</option>';
+	echo '<option value=Office chair>Office chair</option>';
+	echo '<option value=Office bookshelf>Office bookshelf</option>';
+	echo '<option value=Table>Table</option>';
+	echo '<option value=Storage unit>Storage unit</option>';
+	echo '</select>';
+    echo '<br><br>';
+
+    echo 'Height (inches): ';
+    echo '<input type="text" name="$Height" size ="8" maxlength="8" class="inputtext">';
+    echo '<br><br>';
+
+    echo 'Depth (inches): ';
+    echo '<input type="text" name="$Depth"  size ="8" maxlength="8" class="inputtext">';
+    echo '<br><br>';
+
+    echo 'Width (inches): ';
+	echo '<input type="text" name="$Width"  size ="8" maxlength="8" class="inputtext">';
+    echo '<br><br>';
+
+    echo 'Color: ';
+    echo '<input type="text" name="$Color"  size ="32" maxlength="64" class="inputtext">';
+    echo '<br><br>';
+
+    echo 'Finish: ';
+    echo '<input type="text" name="$Finish" size ="32" maxlength="64"  class="inputtext">';
+    echo '<br>';
+
+    echo '</fieldset>';
+    echo '<br>';
+
+    echo '<fieldset>';
+    echo '<legend><font color=cornflowerblue><b>Storage unit - Additional information</b></font></legend>';
+
+    echo 'Storage unit type: ';
+	echo '<select name="$StorageUnitType">';
+	echo '<option></option>';
+	echo '<option value=Locker>Locker</option>';
+	echo '<option value=Filing cabinet>Filing cabinet</option>';
+	echo '<option value=Shelving unit>Shelving unit</option>';
+	echo '</select>';
+    echo '<br><br>';
+
+    echo 'Number of compartments: ';
+    echo '<input type="text" name="$NumberOfCompartment" size ="8" maxlength="8" class="inputtext">';
+    echo '<br>';
+
+    echo '</fieldset>';
+    echo '<br>';
+
+    echo '<fieldset>';
+    echo '<legend> <font color=gray><b>Commit / Clear</b></font> </legend>';
+    echo '<input type="submit" name="$Submit" value="Commit furniture record" />';
+    echo '<input type="reset"  name="$Reset"  value="Clear entry" />';
+    echo '</fieldset>';
+
+    echo '</form>';
+}
+
+
+?>
+
+<!-- Return link -->
+
+<a href="javascript:history.back();">Return</>
+
+</body>
+</html>

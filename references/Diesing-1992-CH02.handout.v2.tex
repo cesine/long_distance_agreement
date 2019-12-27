@@ -1,0 +1,655 @@
+\documentclass[landscape]{article}
+\usepackage{covington}
+\usepackage{fullpage}
+%\usepackage{tree-dvips}
+%\usepackage{qtree}
+\usepackage{xyling}
+\usepackage{tipa}
+%\usepackage{ulem}
+
+\newcommand{\doublebr}[1]{[\hspace{-.02in}[{\bf #1}]\hspace{-.02in}]}
+\newcommand{\doublebrexpand}[1]{$\left[\hspace{-.06in}\left[#1\hspace{-.5in}\right]\hspace{-.06in}\right]$}
+
+
+\let\ipa\textipa %to use \ipa rather than \textipa
+
+\author{notes}
+\title {Indefinites - CH2 \\Initial Evidence in Favor of the Mapping Hypothesis\\Molly Diesing 1992}
+\date{November 01 2006}
+\begin{document}
+\maketitle
+
+\section*{Summary Preview}
+Chapter 2 uses English and German bare plural subjects of  stage-level (temporary) predicates and individual-level (permanent) predicates to motivate 2 subject positions which correspond to the Retrictive Clause and Nuclear Scope in Kamp/Heim semantic representations.
+
+
+
+\begin{example}The Syntax-Semantics Mapping\\
+\begin{tabular}{|l|ll|}\hline
+Semantics & Restrictive Clause  & Nuclear Scope\\\hline\hline
+& Generic,Quantifiers  & Existential\\
+%Denotation &  & has the property x\\
+& Non-Focus   & Focused\\
+& Presupposed  & New\\\hline
+Syntax & IP and Above  & VP and Below\\\hline\hline
+Bare Plurals & Generic Closure & Existential Closure\\\hline
+\end{tabular}
+\end{example}
+
+\begin{example}Where the mapping takes place:\\
+\begin{tabular}{|l||l|l|}\hline
+& German & English\\\hline\hline
+Primary Focus Method& Scrambling  & Intonation\\
+Syntax-Semantics Mapping & at S-Structure& at LF \\\hline
+\end{tabular}
+\end{example}
+
+\begin{example}The Syntatic parameters that give rise to stage vs individual predicates
+\begin{tabular}{|r||c|c|c|c|}\hline
+& Stage & Indv-Unacc & Individual-level& (another?)\\\hline\hline
+Davidsonian Event Arg & + & - & - & (+)\\\hline
+$\theta$ Role to Spec IP & - & - & + & (+)\\
+Test: There Insertion & + & + & - & (-)\\ 
+Test: Extraction from Spec VP & + & + & -& (-)\\\hline
+\end{tabular}
+\end{example}
+
+\section{Background (from Chapter 1)}
+Goal of the book: to develop an interface between GB syntax (Chomsky 1981) and semantics of NP interpretation (Kamp 1981 \& Heim 1982)
+
+\begin{example}
+Research Question: How does the sentence get divided into semantic partitions of restrictive clause and nuclear scope?
+\end{example}
+
+\begin{itemize}
+
+
+\item Diesing uses Heim's 1982 division of the clause into the restrictive clause, and the nuclear scope partition
+%\end{itemize}
+
+
+\begin{example}Box Splitting the Semantic Representation into the Restricted Clause and Nuclear Scope\label{boxsplitting}\\
+
+\doublebr{llama} = llama(x)\\
+\doublebr{banana} = banana(y)\\
+\doublebr{ate} = x ate y\\
+``Every llama [ate a banana]."\\
+\fbox{
+\fbox{ $\forall $ x . llama(x) } \fbox{  $\exists$ y . banana(y) \& x ate y}}
+
+\end{example}
+
+\item Indefinites introduce variables, which are bound by other elements (overt or abstract) in the sentence. In Chapter 2 we will be using bare plurals.
+
+\begin{example}Variable Binders in the Restricted Clause and Nuclear Scope\\
+\begin{tabular}{|l||c|c|}\hline
+ &Restrictive Clause & Nuclear Scope\\\hline \hline
+Overt Operators & Adverbial Quantifiers &  \\
+& (usually/seldom/often) & \\\hline
+& Determiner Quantifiers & \\
+& (every $\forall (x)$, most, some, no) & \\\hline\hline
+Abstract Operators & Generic & Existential\\
+& $Gen(x)$ & $\exists (x)$\\\hline
+
+\end{tabular}
+\end{example}
+
+
+\item Diesing makes crucial use of 2 subjet positions (Spec IP, VP internal subject).
+
+
+\begin{example}The Mapping Hypothesis (Diesing 1-13\&1-14)\\
+Splits the syntactic structure into the  Restrictive Clause and Nuclear Scope.\\
+\Tree{& \ldots\Bo{dl}\Bo{dr} & & & Restrictive \\
+\ldots & & \IP \\
+& Spec && \Ibar \\
+& & \Izero && \VP \QS{1,1}{4,4} \QS[.]{4,4}{6,7}&& & Nuclear\\
+& && Spec && \Vbar & \\
+& & && \Vzero && \ldots & 
+}
+\end{example}
+
+\item To get the third part of the semantic form, with the quantifier separate,  Diesing points to Heim's 1982 Quantifier Construal which adjoins quantifiers to S or IP after the QP is raised.
+
+\end{itemize}
+
+\section{Chapter 2 - Initial Evidence in Favor of the Mapping Hypothesis}
+
+\subsection*{Section 2.2- The Readings of Bare Plurals }
+
+% This section summarizes the readings available for bare plural subjects in Stage-level and Individual-level predicates.
+
+
+
+\begin{example}Basic data:\\
+\begin{tabular}{|ll||l|ll|}\hline
+&& Restrictive Clause & \multicolumn{2}{c|}{Nuclear Scope} \\
+&& LF Subject in [Spec, IP]& LF Subject in [Spec, VP] & Predicate\\\hline\hline
+%  Individual-level&Brussels sprouts &  &are unsuitable for eating.  \\
+% (Diesing 2-2a)&Gen$_x$ && \\\hline
+% Stage-level&&Carpenter ants & destroyed my viola da gamba  \\
+% (Diesing 2-2b)&& $\exists_x$ & \\\hline\hline
+a. &Stage-level && {\bf Firemen}  & are available.\\
+&(Diesing 2-4b)&& $\exists_{x,t}$ [fireman(x) \& time(t)  &  x is available at time t] \\
+&Context: & \multicolumn{3}{l|}{There are firemen available at some point in time. (Episodic) }\\\hline
+b. &Stage-level & {\bf Firemen} &  & are available.\\
+&(Diesing 2-4c) & Gen$_{x,t}$ [fireman(x) \& time(t)&& x is available at time t]\\
+&Context: & \multicolumn{3}{l|}{It is a necessary property of firemen that they be generally available for fighting fires.}\\\hline
+c. &Stage-level & & {\bf Firemen}   & are available.\\
+&(Diesing 2-4d) & Gen$_t$ [time(t)& $\exists_x$ [fireman(x) & x is available at time t]]\\
+&Context: & \multicolumn{3}{l|}{{\bf Firemen} work short shifts, but there are always some firemen on call.}\\\hline\hline
+d. & Individual-level&{\bf Firemen} &  & are altruistic.\\
+&&Gen$_{x,t}$ [fireman(x) \& time(t)&& x is altruistic at time t]\\
+&Context:& \multicolumn{3}{l|}{It is a necessary property of firemen that they be generally altruistic.}\\\hline
+\end{tabular}\\
+Stage-level predicates can have either high or low subjects.\\
+Individual-level predicates have only high subjects, ie never existential interpreation.
+\end{example}
+
+
+Ramifications: we need both subject positions.
+
+\subsection*{Section 2.3 - The Syntactic Connection: Deriving the Two Readings }
+This section discusses the syntactic items the Mapping Hypothesis operates over.
+
+\begin{example}Synatic Structures:
+\Tree{&Stage & Level& = & Raising  \\
+ & \IP \\
+ NP\B{dr}^{-\theta} && \Ibar \\
+ & I^o_r  && \VP \QS{2,1}{4,3} \QS[.]{4,3}{6,6}&& &\\
+ && NP-trace\Linkk[-->]{4.5}{lluu}\B{dr}^{\theta} && \Vbar & \\
+ & && \Vzero && \ldots & 
+}\Tree{&Individual & Level& = & Control  \\
+ & \IP \\
+ NP\B{dr}^{\theta} && \Ibar \\
+ & I^o_c  && \VP \QS{2,1}{4,3} \QS[.]{4,3}{6,6}&& &\\
+ && PRO\B{dr}^{\theta} && \Vbar & \\
+ & && \Vzero && \ldots & 
+}
+\end{example}
+
+
+How the argument proceeds:
+\begin{itemize}
+\item English subjects are always in Spec IP at S-Structure.
+\item English subjects can be lowered at LF to  Spec VP: \\
+~~ May (1977, 1985) justified quantifier lowering to account for scope ambiguities in raising constructions.\\
+The upper trace (result of lowering) is an empty expletive so it doesn't need to be bound at LF.
+\item How can we get the subjects of individual-level predicates to be only high, and the subjects of stage-level to be both?
+\item Kratzer (1989) proposes that the stage-level predicates have an external argument,  the Davidsonian event argument which introduces a variable. 
+\item Williams (1981) argument-linking: If a predicate has an event argument it will be the external argument, if it doesn't then an agent will be.
+\item The external argument will appear outside, in the external argument position (Spec IP), if its is not implicit. (Implicit meaning a PP for the event argument (On friday) or a PP for the agent (by John)?)\\
+\end{itemize}
+
+\subsubsection*{Problem:}
+Bonet (1989) identifies floating quantifiers in Individual-level predicates in Catalan. She claims this as is evidence that all subjects start in [Spec VP] contra Kratzer's proposal for individual level subjects to be in Spec IP.
+
+There should never be floating quantifiers in Individual-Level predicates if there is never a subject in Spec VP. (Floating quantifiers are taken to indicate droplets where the subject has passed through.)
+
+\subsubsection*{Solution Preview:}
+Kratzer is still right, they are not base generated in [Spec VP] and then raise, the solution instead will be the same as that which Sportiche uses for floating quantifiers in control sentences.
+
+
+How the argument procedes:
+\begin{itemize}
+\item If the stage-level has an raising Infl, then the subject will get its theta role from VP in the internal subject position and then ``raise" (NP-Move) to the external subject, which doesn't assign a theta role. 
+\item Empirical support for Lowering, therefore NP-movement (Multiple Raising \& Co-referent Pronouns): 
+\begin{examples}
+\item Can get Existential Reading (ie. lowered subject, all the way down to available) \\
+\TExt{\TXT{Firemen$_1$} & \Txt{seem {\bf to the mayor} [t$_1$ to be} & 
+\Txt{[t$_1$}\COnr{ll}{LF-lowering} & \Txt{available]] (Diesing 2-15a)}}
+\item But No Existential Reading (if lowering below co-referent pronoun ``their" would unbind it.) \\
+~\#\TExt{\TXT{Firemen$_1$} & \Txt{seem {\bf to their$_1$ employers} [t$_1$ to be} & 
+\Txt{[t$_1$}\COnr{ll}{no~LF-lowering} & \Txt{available]] (Diesing 2-13a)}}
+\end{examples}
+
+\item Individual-level predicates have a ``control" Infl which assigns a theta role to the base-generated subject in Spec IP, and the subject in VP is a co-referent PRO with its own theta role assigned by V.\\
+(Theta roles assigned to specifiers? not Complements?)
+
+
+\subsubsection*{Problem:}
+\item PRO is theta marked by V, and empirical evidence that Spec VP is governed will come later.
+\begin{example}PRO Theorem:  (Chomsky 1981)\\
+PRO must be ungoverned\\
+\end{example}
+
+\subsubsection*{Pick Your Favorite Solution:}
+
+\item  Either PRO \textit{can} be governed, or PRO moves into Pesetksy's (1989) escape hatch Spec ($\mu$P), used for:
+\begin{example} Control into Passives\\
+Hector$_1$ tried PRO$_1$ to be killed t$_1$ (Diesing 2.17)\\
+Control: subjects of "be anxious to" don't lower at LF\\
+Individual-Level: subjects of "are altruistic" don't lower at LF
+\end{example}
+\item So both Control subjects and Individual-level subjects don't under go NP-movement thats why they can't be lowered. (What would Hornstein, ``Control-is-Raising-Analysis," say?)
+
+
+\subsubsection*{Problem:}
+\item Adjectival predicates don't have INFL? (I'm not sure what the problem is exactly?)
+
+\subsubsection*{Solution:}
+\item There are two ``be" (Stump 1985)\\
+\begin{tabular}{lllllll}
+individual-level Infl& be1/ser &individual-level adjective\\
+stage-level Infl & be2/estar&  stage-level adjective\\
+\end{tabular}\\
+(Diesing returns to classifying adjectives between stage and individual level later.)
+
+\item Thus with different types of Infl (stage=raising, individual=control) Diesing shares with Kratzer that subjects of Individual level predicates are base generated in the Spec IP, but differs from Kratzer in that the subject bears a control relationship to the Spec VP.
+
+\item Solution for the floating quantifiers: The floating quantifiers are handled by the same method Sportiche uses for floating quantifiers ``originating" from PRO.
+
+\begin{example}Comparison with Raisng \& Control\\
+\begin{tabular}{lllll}
+& Raising & Control\\\hline
+Lexical Verbs& Raising verbs & Control verbs\\
+Modals & Epistemic modals & Root modals\\
+Infl& Stage-level Infl & Individual-level Infl\\
+$\theta$ Assigner& no theta role  & yes theta role\\
+Denotation &(vacous,equal?) & `has the property x'\\
+Relationship/Chain&Spec IP,NP-trace & Spec IP,PRO\\
+\end{tabular}
+\end{example}
+
+\item What ties these parameters together? 
+
+\subsubsection*{Suggestion Preview:}
+\item An insight comes from the situations where the subject comes all the way from the internal object:    Kratzer's "individual-level unaccusatives."
+
+\item Diesing says Kratzer's "individual-level unaccusatives" are in fact bound by the generic operator, and will discuss their apparent lack of an event argument (why Kratzer identified them as non-stage-level) later.
+
+\subsubsection*{Predictions:}
+\item There should be no generic readings for bare plural objects since they are stuck in the nuclear scope.
+
+\item Diesing notes two exceptions, required generic objects for experiencer predicates and possible generic objects in habitual contexts.
+
+\begin{enumerate}
+\item Experiencer predicates like "hate/love/like/fear/loathe" (Carlson 1977) require bare plurals to get generic readings, parallel with the German cases where indefinites can scramble out of the VP. 
+\item Habitual contexts like "Whenever Mary sees a book she reads it" allow a generic reading for book.
+\end{enumerate}
+
+\item These cases will be discussed in later chapters which handle DPs in non subject position using presupposition stuff.
+\end{itemize}
+\subsection*{Section 2.4 - Two Subject Positions in German: An IP/VP Contrast }
+Fact: Subextraction out of Generic/Quantified subjects is impossible (double check)\\
+Goal: Prove that Subextraction is impossible for SpecIP, and fine for Spec VP\\
+Later Goal: From this, show that while English box splitting happens at LF, German box splitting happens at the S-structure.
+\begin{itemize}
+\item Subject in Spec IP vs Spec VP in German might be diagnosed by being right or left of \textit{ja doch/denn} `indeed/then'. \\
+ But reference points might move, so Diesing looks for additional evidence.
+
+
+\item Diesing uses two types of A-bar movement (extraction) in German as additional evidence for the two subject positions being Spec IP and Spec VP. 
+
+\begin{examples}
+\item Was-fur split \\
+All or part of an NP is subextracted by A-bar movement out of an NP to the topic position (Den Besten (1985) says its movement since it is only possible from governed positions).\\
+\TExt{\TXT{What$_1$} & \Txt{have indeed} & 
+\Txt{[t$_1$}\COnl{ll}{A-bar movement} & \Txt{for N DPobj bitten]?}}
+
+\TExt{\TXT{[What for N]$_1$} & \Txt{have indeed} & 
+\Txt{[t$_1$}\COnl{ll}{A-bar movement} & \Txt{bitten DPobj]?}}
+
+\item Topic-split construction, 
+Part of an NP is subextracted by A-bar movement out of an NP to the topic position, stranding a determiner (Argued to show movement by Van Riemsdijk 1989).
+
+\end{examples}
+
+(Diesing shows ungrammatical examples where the stranded stuff is higher than "ja" but also lower than Infl, why does she assume this could be an external subject position?)
+
+\item Diesing uses Barriers (modified) to get Spec VP to always be extractable, and Spec IP to not be.
+\begin{example}Barriers (Chomksy 1986b):\\
+~Barrier \\
+$\gamma$ is a barrier for $\beta$ iff (a) or (b):\\
+a. $\gamma$ immediately dominates $\delta$, a blocking category (BC) for $\beta$;\\
+b. $\gamma$ is a BC, $\gamma \neq$ IP.\\
+~Blocking Category\\
+$\gamma$ is a BC for $\beta$ iff $\gamma$ is not L-marked and $\gamma$ dominates $\beta$\\
+~L-marking\\
+$\alpha$ L-marks $\beta$ iff $\alpha$ is a lexical category that $\theta$-governs\footnote{ I'm confused about theta government since Diesing is using theta assignment to Specs instead of Complements...} $\beta$. ($\alpha~\theta$-marks $\beta$ and is a sister to $\beta$\\
+~Chomsky 1986a -"lexicalized Infl" (V+Infl) $\theta$-governs thus L-marks VP (to account for raising)
+\end{example}
+\begin{example}Spec-head agreement:\\
+~Chomsky 1986a - Used to get IP L-marked (to get a case Uassigning relationship between Agr and SpecIP account for ECM) \\
+~Chomsky 1986a - and to have CP share some phi-features with its head.
+ \end{example}
+
+\begin{example}Diesing's two revisions: \\
+1. L-marking: (also made by Tappe 1989, Bhatt 1990)\\ 
+Aspectual verbs (have/haben) assign a theta role  to Spec AspP thus L-mark \\
+2. Spec-head Agreement: (also made by Koopman \& Sportiche 1988)\\
+ applies to ALL Spec-heads 
+\end{example}
+
+\item Diesing relies on Spec-head agreement to get the Spec L-marked, If you extract out of it it will count in  the dominance. (Is spec head agreement equivalent to/derives the \textit{i~within~i} being a barrier?  (which was introduced later I assume?) Is Spec-head agreement  crucial in her account?)
+
+\begin{example}Implementation: \label{specextraction}\\
+
+Representation Unacc/Raising Infl (Stage-level predicates):\\
+\begin{tabular}{|lllll|}\hline
+IP[       & [NP x]           & AspP[   & VP[ & NP[t\\
+Barrier[ & Barrier[NP x] &  Barrier[ & +L[ & +L[ t\\\hline
+\end{tabular}
+
+Representation Control Infl (Individual-level predicates):\\
+\begin{tabular}{|lllll|}\hline
+IP[       & [NP x]           & AspP[   & VP[ & NP[t\\
+Barrier[ & Barrier[NP x] &  +L[     & +L[ & +L[ PRO\\\hline
+\end{tabular}
+
+1. Derive Spec VPs are extractable:\\
+-all VPs are L-marked\\
+-so VPs are not Barriers\\
+2. Derive Spec IPs are not extractable:\\
+
+-IP is not L-marked\\
+-so by Spec-Head agreement, Spec IP is not L-marked\\
+-so its a BC\\
+-its not equal to IP\\
+-so its a Barrier\\
+\end{example}
+
+Derived: Individual level predicates don't have Spec VP available (since PRO is there) and they can't extract from Spec IP, since by (\ref{specextraction}) nothing can, so subjects of Individual-level predicates  should never be extractable.
+
+
+%\subsection*{German S-structure subjects have two meanings (Diesing Section 2.4.2)}
+
+\item Now show that the two syntactic positions in German S-structure correspond in meaning with the two positions posited for the English LF structure.
+
+\begin{example}Stage-Level Predicates: (Diesing 2-32)\\
+\begin{tabular}{|l|l|l|l|l|}\hline
+Spec IP & & Spec VP&& \\\hline\hline
+subjet & ja doch & &  object &play\\
+Generic reading&&&&\\\hline
+& ja doch & subjet & object & play\\
+&  & Existential reading &&\\\hline
+
+\end{tabular}
+\end{example}
+
+\begin{example}Individual-Level Predicates: (Diesing 2-37)\\
+\begin{tabular}{|l|l|l|l|}\hline
+Spec IP & & Spec VP& \\\hline\hline
+subjet & ja doch & &  intellegent are\\
+Generic reading&&&\\\hline
+& ja doch & subjet & INTELEGENT are\\
+&  & \#Existential reading &\\
+& & Possible only if:&\\
+&& Deaccented, Predicate is focused&\\
+&& Still gets Generic reading&\\\hline
+
+\end{tabular}
+\end{example}
+
+\item A preview about Focus:\\
+The subject can be lower than the ``ja doch," but only with an awkward focus, it still has the Generic reading.
+
+% \item Summary Section 2.4.3, 
+
+\item Thus tree-splitting can yield the meaning for German NPs at S-structure
+
+
+%German extraction facts match predictions (Diesing Section 2.4.4)
+
+\item In Individual-level predicates (subject are only generic and in Spec IP)
+"intellegent/deaf/waterproof/know french" was fur and split topic are bad, as Spec IP doesn't allow extraction.
+
+\item In Stage-level predicates (subjects are  either generic in Spec IP or existential in Spec VP) "available/visible/in the fridge" was fur and split topic are good, only in the generic reading.
+
+\end{itemize}
+\subsection*{Section 2.5 - Delineating the Limits of Predicate Classification}
+
+\begin{itemize}
+\item So far we have focused on semantic pro	perties of the two types and a bit about the syntactic properties (primarily extraction). Now we will look at predicates that arent so clear between stage- and individual-level predicates as the ones presented earlier.
+
+\item Psychological predicates are intuitively stage-level because they are transitory, but syntactically they act like they are individual level
+
+\begin{example}Psychological predicates, syntactically like individual-level\\
+a. The bare plural subjects only have generic reading (so only Spec IP).\\
+b. German  subextraction not possible (so only Spec IP)\\
+c. Cant appear in There insertion (where they would be existential)
+\end{example}
+
+\item However in context with modifiers (ie slicensed by the event argument) they become stage-level again, this is not possible for typical individual-level.
+
+\subsubsection*{Psychological States (Diesing Section 2.5.1)}
+
+\item With progressive be they are clearly stage-level with the interpretation that there are x that are in f psychological state.
+\begin{example}Psychological state seems to be a stage-level\\
+ Contrabassonists are being cheerful. (Diesing 2-56a)
+\end{example}
+
+\item These are even fine with there insertion.
+
+\item What is progessive be?
+
+\item Might be an indicator of a stage level infl (spanish estar)
+
+\item Progressive be isn't allowed in all contexts. It needs an agentive subject. (60a) is grammatical while (60c) is not. (Partee's 1977 ``active" be)
+
+\item The main verb is act/do and the adjective is more like an adverb. 
+
+\item The transiency in the adverbial is different from that in the stage-level predicates.
+
+\begin{example}What is progressive be...\\
+\begin{tabular}{|l|}\hline
+Individual-level+progressive: \\\hline\hline
+~+Agent + act + adverbial modifier\\
+Hector is being intelligent. (adverbially transient) (Diesing 2-60a)\\
+cf: Hector is acting intelligent\\\hline
+~-Agent + act + adverbial modifier\\
+~*Hilda is being overweight. (no agent and act are incompatible) (Diesing 2-60c)\\
+cf: *Hilda is acting overweight.\\\hline\hline
+Stage-level+progressive:\\\hline\hline
+~+Agent + act + stage-level\\
+~*Plumbers are being available. (stage-level and act are incompatible) (Diesing 2-61a)\\
+cf: *Plumbers are acting available.\\\hline
+\end{tabular}
+\end{example}
+
+
+\item In order to distinguish adverbially transient from stage-level transient you need a science fiction context. This is clearly different from (60a).
+
+
+\begin{example}
+\begin{tabular}{|l|}\hline
+Science Fiction:
+\\\hline\hline
+Stage-level\\
++Agent + Stage-level
+\\
+Galrpthk is intelligent from 9 to 11 (stage-level transient) (Diesing p.45)\\\hline
+\end{tabular}
+\end{example}
+
+\item Thus in some cases states of emotion predicates are individual-level, and in other cases they are adverbial modifiers of progressive be, which is a stage-level predicate.
+
+\item Individual-Level Unaccusatives show that properties distinguishing Stage- and Individual level predicates can vary independently (Diesing Section 2.5.2)
+
+\item Individual-Level unaccusatives have no event argument, they can't have locative modifiers on the predicate, only the noun.
+
+\item But they also allow extraction from their subjects (an indication of a Spec VP subject, ie stage-level predicate) and they allow there insertion (an indication of an existential reading, so a Spec VP  subject)
+
+\item So what are they?
+
+\item We need to distinguish between having an event argument, assigning a theta role/there insertion/extraction.
+
+\begin{example}Summary of Stage- and Individual- Predicate Types
+\begin{tabular}{|r||c|c|c|c|}\hline
+Spec IP& Stage & Indv-Unacc & Individual-level& (another?)\\\hline\hline
+Davidsonian Event Arg & + & - & - & (+)\\\hline
+$\theta$ Role & - & - & + & (+)\\
+There Insertion & + & + & - & (-)\\ 
+Extraction & + & + & -& (-)\\\hline
+\end{tabular}
+\end{example}
+
+\item 
+Contextual Effects, the more the description, the more individual-level/generic (Diesing Section 2.5.4)
+
+\item
+Adding description can make the subject of a Stage-level predicate act unlike an existential Stage-level and more like a Individual-level generic, taking the restricted clause and generic scope. This will be discussed further in chapter 3.
+
+\item
+(Never taking the existential reading, but this might be due to the specificity condition Enc, that specificity presupposes existence and is incompatible with existential "there is" which asserts existance)
+
+\end{itemize}
+\subsection*{ Section 2.6 - Focus and bare plurals}
+
+\begin{itemize}
+\item German scrambles so the focus structure seems to delineate the sentence nicely. 
+
+\item However with neutral focus any one of the readings is possible, so focus is  not the only determinant, syntax plays a role, ie the Mapping Hypothesis.
+
+\begin{example}English primarily uses intonation rather than scrambling.\\
+ The ``focus part" corresponds to the nuclear scope:\\
+
+(2-73a) FIREMEN are available. (existential)\\
+~  ~ ~ $\exists$ [FIREMAN are available]\\
+(2-73b) Firemen are AVAILABLE. (generic)\\
+~  ~ ~ Gen firemen [are AVAILABLE]\\
+\end{example}
+
+\item Ceratin focus phenomena may  be in the syntax. 
+
+\item Focus is percolated upward from the word that receives the pitch accent resulting in focus domains of varying size.
+
+\begin{examples}
+\item Focus percolated to the NP gives a contrastive reading:\\
+"The only thing I ate was cabbage."\\
+(2-74a) I only ate [CABBAGE]\\
+\item Focus percolated to the VP gives:\\ 
+"The only thing I did today was eat cabbage."\\
+(2-74b) I only [age CABBAGE]\\
+\end{examples}
+
+\item  Focus beyond a subject NP is impossible.
+\item Some exceptions are subjects of unaccusatives.
+
+\subsubsection*{Hypothesis: }
+
+The focus domain must be in the nuclear scope. So we expect it to not go higher than that.
+
+\begin{example} Subject outside the VP, only contrastive interpretation, in this case we are concerend where the focus domain can expand to include the subject.\\
+(2-75a) I only said that [BERT] likes Brussels sprouts.\\
+(2-76a) The chicken only said that [the SKY] is falling.\\
+\end{example}
+
+\begin{example}Focus domain should be able to extend up to Subjects which are generated in the VP:\\
+Unaccusative:\\
+(2-76b) The chicken only said that [the SKY is falling].\\
+Stage-Level Predicate:\\
+(2-77a) Betty only said that [EGGPLANTS are available]. (stage)\\
+Transitive:\\
+(2-75b) *I only said that [BERT likes Brussels sprouts].\\
+Individual-Level Predicate:\\
+(2-77b) *Betty only said that [EGGPLANTS are poisonous]. (individual)\\
+\end{example}
+
+\subsubsection*{Problem:}
+Returning to a German example mentioned earlier, low individual-level subjects are not very acceptable but better if:\\
+-The subject is de-accented and the predicate is stressed. \\
+-They still receive a generic interpretation. \\
+\subsubsection*{Solution:}
+1. The generic reading indicates they aren't in the nuclear scope\\
+2. The intonation indicates they aren't in the nuclear scope\\
+3. German allows scrambling (even of adverbial particles "ja doch" so thats why the subject appears low)
+
+\item There are questions remaining on how to derive sentences where the focused part doesn't include the entire VP. 
+
+\item Diesing will employ quantifier raising to bring presupposed/non-focal material up to the restrictive clause in Chapter 3. 
+
+
+
+\end{itemize}
+\subsection*{Section 2.7 - Conclusion}
+
+In Chapter 2 Diesing discussed data from English and German for two syntactic subject positions which contrast semantically due to the Mapping Hypothesis. One subject  position is in the restrictive clause (Spec IP) and can receive Generic interpretation, and the other is in the nuclear scope (Spec VP) and can receive Existential interpretation.
+
+\begin{example}There are two parameters are discussed which distinguish predicates:\\
++/- Davidsonian event argument\\
++/- Theta Role to Spec IP\\
+\end{example}
+
+
+\section*{Summary Review}
+\begin{example}The Syntax-Semantics Mapping\\
+\begin{tabular}{|l|ll|}\hline
+Semantics & Restrictive Clause  & Nuclear Scope\\\hline\hline
+& Generic,Quantifiers  & Existential\\
+%Denotation &  & has the property x\\
+& Non-Focus   & Focused\\
+& Presupposed  & New\\\hline
+Syntax & IP and Above  & VP and Below\\\hline\hline
+Bare Plurals & Generic Closure & Existential Closure\\\hline
+\end{tabular}
+\end{example}
+
+\begin{example}Where the mapping takes place:\\
+\begin{tabular}{|l||l|l|}\hline
+& German & English\\\hline\hline
+Primary Focus Method& Scrambling  & Intonation\\
+Syntax-Semantics Mapping & at S-Structure& at LF \\\hline
+\end{tabular}
+\end{example}
+
+\begin{example}The Syntatic parameters that give rise to stage vs individual predicates
+\begin{tabular}{|r||c|c|c|c|}\hline
+& Stage & Indv-Unacc & Individual-level& (another?)\\\hline\hline
+Davidsonian Event Arg & + & - & - & (+)\\\hline
+$\theta$ Role to Spec IP & - & - & + & (+)\\
+There Insertion & + & + & - & (-)\\ 
+Extraction from Spec VP & + & + & -& (-)\\\hline
+\end{tabular}
+\end{example}
+
+
+\section*{References}
+\begin{reflist}
+
+Diesing, M. (1992). Indefinites. Cambridge, MA, MIT Press.
+
+Kratzer, A. (1995). Stage-Level and Individual-Level Predicates. In G. N. Carlson and F. J. Pelletier, eds., The Generic Book , 125--175. University of Chicago Press, Chicago.
+
+\end{reflist}
+
+\section{Appendix}
+
+\subsection{Book Overview for Further reading}
+\subsubsection{Chapter 2 - Subjects}
+\begin{itemize}
+\item Chapter 2 motivates the Mapping Hypothesis using bare plurals in the subject position of  stage-level (temporary) predicates and individual-level   (permanent) predicates. 
+
+\item Diesing claims that the stage/individual distinction is syntactic but results in a semantic distinction due to the Mapping Hypothesis, which splits the IP from the VP. 
+
+\item German has both SpecIP and SpecVP subjects in the surface structure, English has only the SpecIP surface subject, but has both at LF due to lowering/reconstruction to the NP trace.
+\end{itemize}
+\subsubsection{Chapter 3 - Presuppositional NPs move to the top}
+In Chapter 3 Diesing uses May's (1977 \& 1985) analysis that presuppositional NPs require Quantifier Raising into the area above the VP, and are therefore predicted to induce box splitting, due to the Mapping Hypothesis.
+\begin{example}
+Bare plural nouns as a test case (given Partee's 1988 distinction between two types of indefinites).
+\begin{enumerate}
+\item Presuppositional (QR) reading which induces box splitting because the quantifier raises above the IP-VP split.
+\item Non-presuppositional NPs which don't raise, therefore don't induce box splitting.
+\end{enumerate}
+\end{example}
+\begin{example}Diesing uses the following tests for presuppositional NPs:
+\begin{enumerate}
+\item Antecedent Contained Deletion (ACD)\\
+VP deletion which is only compatible a presuppositional object NP reading
+\item Indefinites in Dutch \& Turkish which are  specific and therefore presuppositional.
+\end{enumerate}
+\end{example}
+
+\subsubsection{Chapter 4 - Object (picture) NPs and A-bar Subextraction}
+
+Chapter 4 focuses on NPs in object position by using the two types of indefinites in picture NPs. Diesing builds on the presuppositional  discussion in Chapter 3 by discussing different verb types which yield presuppositional and non-presuppositional readings for the same NPs.\\
+
+Diesing suggests that the link between presuppositionality and in-extractability maybe just as/more useful in accounting for object extraction out of islands than bounding notes/subjacency/barriers or government (Huang's 1982  Condition on Extraction Domain CED). \\
+
+Presuppositional object NPs in English must raise out of the VP by QR at LF. German shows this in scrambling at S-structure.
+	
+\subsubsection{Conclusion - The traditional semantic divisions remain, added a syntactic one}
+In the conclusion Diesing discusses the syntactic division the Mapping Hypothesis provides and notes that its not meant to supplant traditional semantic/pragmatic divisions such as topic/comment, theme/rheme subject/predicate.
+
+\end{document}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ins:stylesheet xmlns:ins="http://www.blacksci.co.uk/xsl-subs" xml:space="preserve">
+	<!-- Name: MainPanes.xml -->
+	<!-- LastUpdate: 2000-09-13 -->
+	<!-- Version: 2000-09-13.1 -->
+	<!-- Dependancies: Common Utils -->
+	<!-- Description: Main Page Layout 
+	-->
+	<!-- Update: 2000-09-13.1 By:acb
+	     Moved Citation to bottom of right pane
+	-->
+	<!-- Update: 2000-11-06.1 By:acb
+	     Added comment-group
+	-->
+	<!-- Update: 2000-11-06.2 By:acb
+	     Removed full-image-sorce now in Header
+	-->
+	<!-- Update: 2001-03-27 By:ptw
+	     added inlineFootnotegroup & inlineAffiliations 
+	-->
+	<HeaderPaneLeft>
+		<ins:DocumentReference/>
+		<br/>
+		<font size="-2">
+		<ins:CopyrightMessage/>
+		</font>
+		<ins:document-surtitle/>
+	</HeaderPaneLeft>
+	<HeaderPaneRight>
+		<a href="http://www.blackwell-synergy.com/">
+			<img alt="Synergy" border="0" height="48" width="153" src="{ins:ImagePath}/synlog1.gif" />
+		</a>
+	</HeaderPaneRight>
+	<LeftPane>
+		<font face="Arial" size="5">
+			<ins:DocumentTitle/>
+			<ins:DocumentSubtitle/>
+		</font>
+		<p/>
+		<p/>
+		<font face="Arial" size="3">
+			<ins:DocumentAuthorList/>
+		</font>
+		<p/>
+		<ins:inlineAffiliations/>
+		<ins:DocumentSummary/>
+		<ins:inlineFootnotegroup/>
+		<ins:DocumentContent/>
+		<ins:comment-group/>
+		<p/>
+	</LeftPane>
+	<RightPane>
+		<ins:site-menu/>
+		<ins:author-menu/>
+		<ins:keywords-menu/>
+		<ins:definitions-menu/>
+		<ins:document-history/>
+		<ins:affiliations-menu/>
+		<ins:correspondents-menu/>
+		<ins:misc-footnote-menu/>
+		<ins:image-previews-menu/>
+		<ins:citation/>
+	</RightPane>
+	<FooterPaneLeft>
+		<img height="1" src="{ins:ImagePath}/unitx.gif" width="396"/> 
+		<p></p>
+		<hr align="left" width="100%"/>
+		<ins:footnote-group/>
+		<!-- <a href="http://www.crossref.org/">
+			<img alt="CrossRef" border="0" src="{ins:ImagePath}/CRMemberLogo.gif"/>
+		</a> -->
+		<p align="left">
+		<font size="1">
+			&amp;copy; Blackwell Science and Munksgaard. All rights reserved. Some contents contained herein may be owned by third parties and use is prohibited without express written permission.
+		</font>
+		</p>
+	</FooterPaneLeft>
+	<FooterPaneRight/>
+</ins:stylesheet>

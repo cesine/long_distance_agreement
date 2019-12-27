@@ -1,0 +1,3139 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="57"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 57 - Secondary Predicates in Australian Languages.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">180</page>
+<page type="last">208</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="0"/>
+<count type="table" count="32"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="93"/>
+<count type="page" count="29"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051126"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 57&ensp;Schultze-Berndt: Secondary Predicates (Australian)</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 57&ensp;Schultze-Berndt: Secondary Predicates (Australian)</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">57 Secondary Predicates in Australian Languages</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>EVA</forenames><x> </x><surname>SCHULTZE-BERNDT</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="2">
+<number>1.1&ensp;</number>
+<p>Overview</p>
+</li>
+<li level="2">
+<number>1.2&ensp;</number>
+<p>A brief introduction to Australian languages</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Morphological and syntactic properties of depictive secondary predicates in Australian languages</p>
+</li>
+<li level="2">
+<number>2.1&ensp;</number>
+<p>Syntactic position</p>
+</li>
+<li level="2">
+<number>2.2&ensp;</number>
+<p>Agreement</p>
+</li>
+<li level="2">
+<number>2.3&ensp;</number>
+<p>Secondary predication and switch-reference</p>
+</li>
+<li level="2">
+<number>2.4&ensp;</number>
+<p>The syntactic function of the controller</p>
+</li>
+<li level="2">
+<number>2.5&ensp;</number>
+<p>Word class and internal structure of depictive secondary predicates</p>
+</li>
+<li level="3">
+<number>2.5.1&ensp;</number>
+<p>Nominal and adjectival secondary predicates</p>
+</li>
+<li level="3">
+<number>2.5.2&ensp;</number>
+<p>Deverbal secondary predicates</p>
+</li>
+<li level="3">
+<number>2.5.3&ensp;</number>
+<p>Secondary predicates from other word classes</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>What counts as secondary predication?</p>
+</li>
+<li level="2">
+<number>3.1&ensp;</number>
+<p>Secondary predication and non-configurationality</p>
+</li>
+<li level="3">
+<number>3.1.1&ensp;</number>
+<p>The status of nominal expressions in non-configurational languages</p>
+</li>
+<li level="3">
+<number>3.1.2&ensp;</number>
+<p>Depictives vs. attributes in a discontinuous noun phrase</p>
+</li>
+<li level="2">
+<number>3.2&ensp;</number>
+<p>Part&ndash;whole expressions</p>
+</li>
+<li level="2">
+<number>3.3&ensp;</number>
+<p>Depictives vs. adverbials</p>
+</li>
+<li level="3">
+<number>3.3.1&ensp;</number>
+<p>Manner expressions</p>
+</li>
+<li level="3">
+<number>3.3.2&ensp;</number>
+<p>Comitative expressions</p>
+</li>
+<li level="3">
+<number>3.3.3&ensp;</number>
+<p>Locative and directional expressions</p>
+</li>
+<li level="3">
+<number>3.3.4&ensp;</number>
+<p>Temporal expressions</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1&ensp;Introduction</heading>
+<subsection id="ss3" level="2">
+<heading id="h2" level="2">1.1&ensp;Overview</heading>
+<p>Secondary predicates pose a challenge for syntactic theories because they partake in two (potentially syntactic) relationships. The first relationship is generally considered to be an instance of adjunction to a projection of V. The second relationship holds between the secondary predicate and one of the arguments of the main predicate, the controller. This relationship is usually held to be an instance of predication: the secondary predicate ascribes a condition or state to the controller. Consider the secondary predicates <i>alive</i> in (1) and <i>wanka</i> in (2), the near-equivalent of (1) in the Australian language Martuthunira. In both examples, the controller is the object, and the secondary predicate expresses a state which holds of the controller at the time of the event expressed by the main predicate (i.e., the mouse was alive when the snake ate it):</p>
+<listgroup id="l2" type="1">
+<li>
+<number>(1)&ensp;</number>
+<p>The snake ate the mouse alive.</p>
+</li>
+<li>
+<number>(2)&ensp;</number>
+<p>Martuthunira (Ngayarda, Pama-Nyungan):</p>
+<p>
+<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>Nhula</entry>
+<entry>miyu</entry>
+<entry>mungka-rnuru</entry>
+<entry>wajupi-i</entry>
+<entry>wanka-a-l.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>DEM</entry>
+<entry>cat(NOM)</entry>
+<entry>eat-PRS</entry>
+<entry>grasshopper-ACC</entry>
+<entry>alive-ACC-THEN</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;That cat eats grasshoppers alive.&rsquo;</entry>
+<entry>(<link rid="b1">Dench 1995</link>: 182)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>While both the adjunct status and the argument-oriented nature of <i>alive</i> in examples such as (1) and (2) seem obvious, no generally accepted definition of secondary predicates exists to this day. Consequently, both the range of constructions that are considered secondary predicates and their analysis vary considerably, even in the literature devoted to secondary predicates in a single language, English. For example, following <link rid="b2">Halliday (1967</link>), both depictives (such as <i>alive</i> in (1) and (2)) and resultatives (such as <i>dead</i> in <i>Joy shot the bird dead</i>) are generally regarded as secondary predicates. However, the question of whether resultatives really fall under the same construction type as depictives has been the matter of some debate in the literature (see <related relationship="sibling" type="samework"><externallink id="chapter 58 - Secondary Predication.xml" type="file">chapter 58</externallink></related>). Cross-linguistically, resultative notions are often expressed by complex predicates, not adjunct constructions. This is true for the Australian language Warlpiri (<link rid="b3">Simpson 2005</link>), and also for English and German &ndash; at least this has been argued by <link rid="b4">Dowty (1979</link>), and is the central claim in <link rid="b5">Winkler (1997</link>). Since the input of Australian languages into the discussion on secondary predication has mainly been in the domain of depictive secondary predicates, only this construction type will be considered here.</p>
+<p>Controversial issues also include the level of adjunction of secondary predicates, and the grammatical and semantic restrictions on both the main predicate and the secondary predicate. Furthermore, it has been a matter of debate whether the relationship between the secondary predicate and its controller is truly a relationship of predication, and if it is, how it is to be represented (see <related relationship="sibling" type="samework"><externallink id="chapter 58 - Secondary Predication.xml" type="file">chapter 58</externallink></related>). Moreover, while most authors consider secondary predicates to be adjuncts, it is often difficult to distinguish (obligatory) predicative complements &ndash; often analyzed as small clauses &ndash; from (optional) depictives (cf. <link rid="b2">Halliday 1967</link>; <link rid="b6">Plank 1985</link>; <link rid="b7">Aarts 1995</link>; <link rid="b8">Schultze-Berndt and Himmelmann 2004</link>: 65).</p>
+<p>Another problem in the definition of depictives, which is discussed more rarely, is the word class and the internal structure of the secondary predicate. Most discussions of depictive secondary predicates in English focus on adjectival secondary predicates such as <i>alive</i> in (1). But a number of authors, including <link rid="b7">Aarts (1995</link>: 79&ndash;80) and <link rid="b9">Nichols (1978</link>: 124), also consider prepositional phrases such as <i>in tears</i> in (3) as depictives:</p>
+<p>(3)&ensp;We found him in tears.&ensp;(<link rid="b7">Aarts 1995</link>: 80)</p>
+<p>Example (3) also illustrates the notorious difficulty of distinguishing depictives and adverbials. Many adjuncts, e.g., adjuncts of manner or quantification, can be given both an event-oriented and an argument-oriented interpretation, as has been pointed out by many authors including <link rid="b10">Jackendoff (1972</link>), <link rid="b11">McConnell-Ginet (1982</link>), <link rid="b12">Geuder (2000</link>), and <link rid="b13">Maienborn (2001</link>) (see also <related relationship="sibling" type="samework"><externallink id="chapter 4 - Adverb Classes and Adverb Placement.xml" type="file">chapter 4</externallink></related>). Consider <i>reluctantly</i> in <i>Joy ate the meat reluctantly</i>, which semantically is argument-oriented (it is Joy who is reluctant). While in English, <i>reluctantly</i> is formally marked as an adverbial by the suffix <i>-ly</i>, no corresponding formal difference exists between depictives and simple adjectival adverbs in a language like German, and in many languages, including some Australian languages, corresponding manner expressions are formally marked in the same way as depictives (see <link rid="ss13 ss19">sections 2.5.3 and 3.3</link>).</p>
+<p>The problem of establishing a universally valid definition of secondary predicates is thus aggravated when languages with a very different grammatical and lexical structure are considered. For example, <link rid="b14">Larson (1991</link>) proposes a unified analysis for secondary predicate constructions and serial verbs (see <related relationship="sibling" type="samework"><externallink id="chapter 59 - Serial Verbs.xml" type="file">chapter 59</externallink></related>). On the other hand, some authors subsume under secondary predicates noun phrases which are coreferential with pronominal arguments in head-marking languages, and therefore have a very different pragmatic function from secondary predicates in a language like English (see <link rid="ss15">section 3.1</link>). If these proposals are taken together, the range of expressions that could be identified as secondary predicates goes far beyond the clear cases that are comparable to example (1) in English.</p>
+<p>Studies of Australian languages have made important contributions to the theory of secondary predication, but these languages also pose a number of problems which still remain to be solved, and raise the question of how secondary predicates can be delimited from other construction types. Australian languages are interesting for the theory of secondary predication in a number of ways. First, many of them have a rich case system, with secondary predicates obligatorily agreeing in case. The range of agreeing adjuncts, however, often goes far beyond the range of expressions that are generally regarded as secondary predicates in a language like English (see <link rid="ss10 ss19">sections 2.5 and 3.3</link>).</p>
+<p>Second, some Australian languages have a lexical structure which is rather different from that of the better-known European languages, and this also has consequences for the analysis of secondary predicates in these languages. For example, it has been claimed for some Australian languages that the restriction of secondary predicates to stage-level predicates does not hold (see <link rid="ss11">section 2.5.1</link>). It has further been reported that some languages have word classes restricted to depictive function, or a special word class of predicative elements which may be used as parts of complex predicates or secondary predicates, but not as main predicates (see <link rid="ss13">section 2.5.3</link>).</p>
+<p>Third, many Australian languages belong to the so-called non-configurational type, and secondary predication has figured prominently in attempts to propose unified phrase structure representations for configurational and non-configurational languages (see <link rid="ss16">section 3.1.1</link>). In non-configurational languages which allow discontinuous noun phrases, the additional problem arises of whether and how these should be distinguished from secondary predicate constructions (see <link rid="ss17">section 3.1.2</link>). Australian languages often also exhibit a certain type of external possession construction involving body parts and other part expressions, for which likewise analyses in terms of secondary predication structures have been proposed (see <link rid="ss18">section 3.2</link>).</p>
+</subsection>
+<subsection id="ss4" level="2">
+<heading id="h3" level="2">1.2&ensp;A brief introduction to Australian languages</heading>
+<p>It is important to note that Australian languages do not form a homogeneous group either in terms of their genetic relationship or in terms of their typological characteristics. Research on the genetic subgrouping of Australian languages is still in progress; it is made more difficult by the complete lack of records dating before the invasion of Europeans, and the scarcity of documentation of the languages in some areas. Of the estimated 200&ndash;250 Australian languages at the time of first European contact (<link rid="b15 b16">Walsh 1991, 1997</link>), more than half are no longer spoken, and most of the remaining languages are severely endangered, especially if they are no longer acquired by children. The number of speakers rarely exceeds a few hundred people, and often only a dozen or fewer fluent speakers remain.</p>
+<p>The by now widely accepted genetic division (cf. <link rid="b17">Blake 1988</link>; <link rid="b18">Evans 1988</link> &ndash; but see <link rid="b19 b20">Dixon 1997, 2002</link>) is between the relatively coherent genetic group of Pama-Nyungan (henceforth PN) languages, covering most of the continent, and around 25 other language families &ndash; each comprising only a few languages &ndash; which are subsumed under the label Non-Pama-Nyungan (henceforth NPN) languages.</p>
+<p>With regard to their morphological structure, most Australian languages are agglutinating with varying degrees of fusional characteristics, but some NPN languages, like Mayali (see example (4)), are strongly polysynthetic. Most languages are &lsquo;non-configurational&rsquo; in the sense that the order of phrases is conditioned by pragmatic rather than syntactic factors. Word order within phrases may be restricted to varying degrees (see <link rid="ss15">section 3.1</link>). Most NPN languages have bound pronominals which are prefixed to the verb. Prefixing is only attested for very few PN languages; usually, these either lack bound pronominals altogether, or feature pronominal suffixes or enclitics (see <link rid="ss16">section 3.1.1</link>).</p>
+<p>Australian languages have played a prominent role in the debate on ergativity &ndash; cf. <link rid="b21 b22">Dixon (1979, 1994</link>), <link rid="b23">Silverstein (1976</link>), <link rid="b24 b25">Bittner and Hale (1996a, 1996b</link>), among many others. The majority of languages are indeed morphologically (but not necessarily syntactically) ergative. However, there are also languages of the accusative type, and in polysynthetic languages like Nunggubuyu (<link rid="b26">Heath 1984</link>), core arguments are often unmarked for case (cf. also <link rid="b27">Baker 1996</link>: 130&ndash;131).</p>
+<p>The discussion in the remaining sections draws on a sample of languages from several language families with varying typological characteristics. <link rid="ss5">Section 2</link> presents an overview of the morphological and syntactic properties of depictive secondary predicates in Australian languages. <link rid="ss14">Section 3</link> reviews the contrasting ways in which the term &lsquo;secondary predication&rsquo; has been applied in the analysis of Australian languages, and outlines some of the problems of delimiting secondary predicates from other construction types.</p>
+</subsection>
+</subsection>
+<subsection id="ss5" level="1">
+<heading id="h4" level="1">2&ensp;Morphological and syntactic properties of depictive secondary predicates in Australian languages</heading>
+<p>In the following subsections, only depictives that are adjuncts (in the traditional sense, not in the wider sense introduced in <link rid="ss16">section 3.1.1</link>) will be considered. Note, however, that in some of the polysynthetic NPN languages of northern Australia, such as Mayali, argument-oriented elements may be incorporated into the main predicate and in this case are constituents of a complex predicate rather than adjuncts. In (4a), the predicate <i>nga-rrarrkid-ma-ng</i> is a single phonological and grammatical word consisting of the verb stem and the incorporated predicate nominal <i>-rrarrkid &lsquo;</i>alive&rsquo;, which semantically predicates on the object. In (4b), the nominal <i>yau &lsquo;</i>child&rsquo; is incorporated and may be interpreted as a secondary predicate (&lsquo;as a child&rsquo;):</p>
+<listgroup id="l3" type="1">
+<li>
+<number>(4)&ensp;</number>
+<p>Mayali (Gunwinyguan, NPN):</p>
+<p>
+<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Ka-rrarrkid</entry>
+<entry>kaluk</entry>
+<entry>nga-rrarrkid-ma-ng.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>3-alive</entry>
+<entry>FUT</entry>
+<entry>1.SBJ/3.OBJ-alive-pick.up-NPAST</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;It&apos;s alive, I&rsquo;ll pick it up alive.&rsquo;</entry>
+<entry>(<link rid="b90">Evans 1997</link>: 400)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>an-yau-bawo-ng</entry>
+<entry>kure</entry>
+<entry>bedda</entry>
+<entry>
+</entry>
+</row>
+<row><entry>3.SBJ/1.OBJ-child-leave-PAST.PERF</entry>
+<entry>LOC</entry>
+<entry>3PL</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;My mother left me with them as a child.&rsquo;</entry>
+<entry>(<link rid="b90">Evans 1997</link>: 422)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<subsection id="ss6" level="2">
+<heading id="h5" level="2">2.1&ensp;Syntactic position</heading>
+<p>Little is known about the precise syntactic properties of depictive secondary predicates in Australian languages. While in English, depictives are usually analyzed as constituents of the VP and there is some controversy regarding the level of adjunction, e.g., of subject and object depictives (see <related relationship="sibling" type="samework"><externallink id="chapter 58 - Secondary Predication.xml" type="file">chapter 58</externallink></related>), many Australian languages lack evidence for the existence of a phrasal category verb phrase, and the word order of both arguments and adjuncts is rather variable. These properties have been subsumed under the label &lsquo;non-configurationality&rsquo; (see <link rid="ss15">section 3.1</link>). The lack of a fixed position of the secondary predicate is in many Australian languages compensated for by extensive agreement; that is, the depictive indicates the relationship to its controller by agreement rather than position (see <link rid="ss7">section 2.2</link>).</p>
+<p>In any case, an analysis in terms of syntactic position can only capture the status of the secondary predicate as an adjunct, but does not directly capture the relation between the secondary predicate and its controller (although it has been claimed for English that the position varies depending on whether the controller is a subject or an object). This second relation has sometimes been described in terms of dependency, e.g., by <link rid="b28">Mel&rsquo;cuk (1988</link>), <link rid="b9">Nichols (1978</link>), and, with reference to Australian languages, by <link rid="b29">McGregor (1997</link>: 54&ndash;56, <link rid="b30">2005</link>), who regards it as an attributive relationship. The nowadays more widely accepted analysis of depictives is that developed within the framework of predication theory. Here, the relationship between controller and depictive is analyzed as an instance of predication, which is considered to be an irreducible syntactic relationship (see <related relationship="sibling" type="samework"><externallink id="chapter 58 - Secondary Predication.xml" type="file">chapter 58</externallink></related>).</p>
+</subsection>
+<subsection id="ss7" level="2">
+<heading id="h6" level="2">2.2&ensp;Agreement</heading>
+<p>Because of their argument-oriented nature, depictive secondary predicates are reminiscent of attributive modifiers in an NP. Therefore, in many languages a marking device that is typically used to establish coherence between the constituents of a noun phrase &ndash; agreement &ndash; is used to link a depictive to its controller (which does not have to be overtly expressed; see <link rid="ss9">section 2.4</link>). This phenomenon is well known from Ancient Greek and the Slavic and Romance languages (cf., e.g., <link rid="b31">Napoli 1975</link>; <link rid="b9">Nichols 1978</link>; <link rid="b32">Legendre 1990</link>).</p>
+<p>Many Australian languages also show extensive agreement of depictives with their controllers (this type of agreement has been termed &lsquo;referential agreement&rsquo; by <link rid="b75">Dench and Evans 1988</link>: 14&ndash;16). In ergative languages like Warlpiri, the depictive takes ergative marking if the controller is an actor in a transitive clause (5a), and absolutive marking (usually zero) if the controller is an undergoer in a transitive clause (5b), or the sole argument of an intransitive clause (cf. <link rid="b33">Simpson 1991</link>: 199&ndash;214; <link rid="b34">Hale et al. 1995</link>):</p>
+<listgroup id="l4" type="1">
+<li>
+<number>(5)&ensp;</number>
+<p>Warlpiri (Ngumpin-Yapa, PN):</p>
+<p>
+<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Maliki-rli<sub>i</sub>
+</entry>
+<entry>ka</entry>
+<entry>marlu</entry>
+<entry>wajilipi-nyi</entry>
+<entry>mata-ngku<sub>i</sub>.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>dog-ERG</entry>
+<entry>PRS</entry>
+<entry>kangaroo(ABS)</entry>
+<entry>chase-NPAST</entry>
+<entry>tired-ERG</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;The dog is chasing the kangaroo tired.&rsquo;</entry>
+<entry>(<link rid="b46">Hale 1994</link>: 192)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Maliki-rli</entry>
+<entry>ka</entry>
+<entry>marlu<sub>i</sub>
+</entry>
+<entry>wajilipi-nyi</entry>
+<entry>mata<sub>i</sub>.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>dog-ERG</entry>
+<entry>PRS</entry>
+<entry>kangaroo(ABS)</entry>
+<entry>chase-NPAST</entry>
+<entry>tired(ABS)</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;The dog is chasing the kangaroo (and the latter is) tired.&rsquo;</entry>
+<entry>(<link rid="b46">Hale 1994</link>: 192)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>In accusative languages like Martuthunira, agreement distinguishes depictives controlled by the (unmarked) nominative subject, as in (6), from those controlled by the accusative object, as in (2). Agreement is also attested for depictives with controllers in oblique cases (see <link rid="ss9">section 2.4</link>):</p>
+<listgroup id="l5" type="1">
+<li>
+<number>(6)&ensp;</number>
+<p>Martuthunira (Ngayarda, PN):</p>
+<p>
+<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>Manku-marni</entry>
+<entry>ngunhaa<sub>i</sub>
+</entry>
+<entry>pungka-lha-rru</entry>
+<entry>nhurnti-rru<sub>i</sub>.</entry>
+</row>
+<row><entry>grab-CONTR</entry>
+<entry>that.NOM</entry>
+<entry>fall-PAST-NOW</entry>
+<entry>dead(NOM)-now</entry>
+</row>
+<row><entry namest="col1" nameend="col3">&lsquo;I would have grabbed &lsqb;it&rsqb; but it fell down dead.&rsquo;</entry>
+<entry>(<link rid="b1">Dench 1995</link>: 264)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>Since many Australian languages allow double case marking (<link rid="b75">Dench and Evans 1988</link>; <link rid="b36">Plank 1995</link>), case agreement is possible even if an adjunct already takes a case marker indicating its thematic role, such as the similative marker in (7). Here the phrase <i>dimana-marraj &lsquo;</i>like a horse&rsquo; is marked as a depictive secondary predicate through agreement; in other words, it is construed as a predication on the man. A paraphrase that captures this relationship is &lsquo;the man eats as if he was a horse (at the time of eating)&rsquo;:</p>
+<listgroup id="l6" type="1">
+<li>
+<number>(7)&ensp;</number>
+<p>Jaru (Ngumpin-Yapa, PN):</p>
+<p>
+<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>Jalu</entry>
+<entry>mawun-du</entry>
+<entry>mangarri</entry>
+<entry>ngany-an</entry>
+<entry>dimana-marraj-ju.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>that</entry>
+<entry>man-ERG</entry>
+<entry>plant.food</entry>
+<entry>eat-PRS</entry>
+<entry>horse-SIMIL-ERG</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;That man eats food like a horse.&rsquo;</entry>
+<entry>(<link rid="b64">Tsunoda 1981</link>: 231)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>Double case marking resulting from agreement is also found on constituents which one might be inclined to analyze as adverbials, not as secondary predicates, on semantic grounds; for example, <i>manyi-nhingi-ngga</i> &lsquo;after food&rsquo; in (8):</p>
+<listgroup id="l7" type="1">
+<li>
+<number>(8)&ensp;</number>
+<p>Gooniyandi (Bunuban, NPN):</p>
+<p>
+<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>Yiganyi</entry>
+<entry>wardjawinbirra</entry>
+<entry>manyi-nhingi-ngga.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>uncertain</entry>
+<entry>they:might:take:you</entry>
+<entry>food-ABL-ERG</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col3">&lsquo;They could take you after (they have eaten) food.&rsquo; (lit.: &lsquo;from food&rsquo;)</entry>
+<entry>(<link rid="b92">McGregor 1990</link>: 342)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>Languages with extensive agreement on adjuncts thus raise the question whether agreement should be regarded as the major criterion for the status of an adjunct as a secondary predicate. In this case, even adjuncts like the one in (8) have to be regarded as secondary predicates. Alternatively, it may be possible to distinguish secondary predicates and adverbials on the basis of other formal properties (see <link rid="ss19">section 3.3</link>). A further problem arises in languages which allow discontinuous noun phrases, since depictive secondary predicates exhibiting agreement can no longer be distinguished from modifiers in a discontinuous noun phrase by word order alone (see <link rid="ss17">section 3.1.2</link>).</p>
+</subsection>
+<subsection id="ss8" level="2">
+<heading id="h7" level="2">2.3&ensp;Secondary predication and switch-reference</heading>
+<p>Warlpiri and several other Australian languages exhibit a particular type of argument-oriented subordinate clause which has received some attention in the literature (cf. <link rid="b37">Austin 1981b</link>; and for Warlpiri: <link rid="b38">Hale 1982</link>: 290&ndash;294, <link rid="b39">1986</link>: 245&ndash;247; <link rid="b40">Simpson and Bresnan 1983</link>; <link rid="b41 b33">Simpson 1988, 1991</link>: 314ff.; <link rid="b34">Hale et al. 1995</link>). It is headed by a non-finite verb form (see also <link rid="ss12">section 2.5.2</link>) or (more rarely) by a nominal, followed by a suffix which simultaneously encodes relative tense (e.g., a simultaneous, anterior, or subsequent/purpose clause) and serves to identify the controller of the subordinate clause. Example (9) illustrates subordinate clauses interpreted as simultaneous (SIM) to the matrix clause in Warlpiri. In (9a), the subject complementizer (SCOMP) <i>-karra</i> indicates that the controller is a subject; in addition, the complementizer is here followed by the ergative case in agreement with a transitive subject. In both (9b) and (9c) the subordinate clause is controlled by the object of the matrix clause. The subordinate clause in (9b) does not take an overt agreement suffix because the controller is an unmarked absolutive object, but in (9c), it takes dative case in agreement with the dative object. Note that the &lsquo;object complementizer (OCOMP)&rsquo; suffix <i>-kurra</i> in Warlpiri is identical to the allative case. This is not an accidental coincidence, because the use of the allative as a marker of object control is an areal feature which is also found in other northern Australian languages which are not necessarily related to each other, including Wardaman (<link rid="b42">Merlan 1994</link>: 287&ndash;289; see example (23)), Jaminjung (<link rid="b43">Schultze-Berndt 2000</link>: 112&ndash;113), Kaititj (<link rid="b37">Austin 1981b</link>: 326), and Bilinarra (<link rid="b44">Nordlinger 1998</link>: 165):</p>
+<listgroup id="l8" type="1">
+<li>
+<number>(9)&ensp;</number>
+<p>Warlpiri (Ngumpin-Yapa, PN): </p>
+<p>
+<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Wati-ngki<sub>i</sub>
+</entry>
+<entry>marlu</entry>
+<entry>nya-ngu</entry>
+<entry>parnka-nja-karra-rlu<sub>i</sub>.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>man-ERG</entry>
+<entry>kangaroo(ABS)</entry>
+<entry>see-PAST</entry>
+<entry>run-INF-SCOMP.SIM-ERG</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;The man saw the kangaroo (while the man was) running.&rsquo;</entry>
+<entry>(<link rid="b34">Hale et al. 1995</link>: 1442)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Wati-ngki</entry>
+<entry>marlu<sub>i</sub>
+</entry>
+<entry>nya-ngu</entry>
+<entry>nguna-nja-kurra<sub>i</sub>.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>man-ERG</entry>
+<entry>kangaroo(ABS)</entry>
+<entry>see-PAST</entry>
+<entry>lie-INF-OCOMP.SIM</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;The man saw the kangaroo lying.&rsquo;</entry>
+<entry>(<link rid="b34">Hale et al. 1995</link>: 1442)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>Punta-rni</entry>
+<entry>ka-rla</entry>
+<entry>tala-patu</entry>
+<entry>&lsqb;jaja-nyanu-ku</entry>
+<entry>wiyarrpa-ku&rsqb;<sub>i</sub>
+</entry>
+<entry>&lsqb;jarda-nguna-nja-kurra-ku&rsqb;<sub>i</sub>.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>take.away-NPAST</entry>
+<entry>PRS-3.IO</entry>
+<entry>money-PL</entry>
+<entry>grandmother-self-DAT</entry>
+<entry>poor-DAT</entry>
+<entry>sleep-lie-INF-OCOMP.SIM-DAT</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;He takes money from his poor grandmother (while she is) asleep.&rsquo;</entry>
+<entry>(<link rid="b33">Simpson 1991</link>: 394)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>Since these constructions are restricted to controllers in a specific function, they have been used as evidence of grammatical relations (subject and object) in languages like Warlpiri (see <link rid="ss9">section 2.4</link>). Moreover, the additional agreement marking suggests that subordinate clauses of the type illustrated in (9) function as depictive secondary predicates. This is indeed the analysis proposed by <link rid="b41 b33">Simpson (1988, 1991</link>), <link rid="b45">Laughren (1992</link>), <link rid="b46">Hale (1994</link>), and <link rid="b34">Hale et al. (1995</link>). They choose the term &lsquo;eventive&rsquo; secondary predicate (as opposed to stative secondary predicate) for this construction because of the additional component of relative tense (in this case, simultaneity). This component is clearly contributed by the suffix, not by the fact that the predicate is a deverbal form, as shown in (10), where the subordinate clause is headed by a nominal. Only (10a), where the secondary predicate is unmarked in agreement with the absolutive controller, and not (10b) can be interpreted as stating that the controller (the woman) is in a sick state. The object complementizer suffix <i>-kurra</i> in (10b) enforces an &lsquo;eventive&rsquo; reading, captured in the translation as &lsquo;involved with the sick one&rsquo;:</p>
+<listgroup id="l9" type="1">
+<li>
+<number>(10)&ensp;</number>
+<p>Warlpiri (Ngumpin-Yapa, PN):</p>
+<p>
+<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Wati-ngki</entry>
+<entry>karnta<sub>i</sub>
+</entry>
+<entry>nya-ngu</entry>
+<entry>nyurnu<sub>i</sub>.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>man-ERG</entry>
+<entry>woman(ABS)</entry>
+<entry>see-PAST</entry>
+<entry>sick</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;The man saw (that) the woman (was) sick.&rsquo;</entry>
+<entry>(<link rid="b34">Hale et al. 1995</link>: 1442)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Wati-ngki</entry>
+<entry>karnta<sub>i</sub>
+</entry>
+<entry>nya-ngu</entry>
+<entry>nyurnu-kurra<sub>i</sub>.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>man-ERG</entry>
+<entry>woman(ABS)</entry>
+<entry>see-PAST</entry>
+<entry>sick-OCOMP.SIM</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;The man saw the woman involved with the sick one.&rsquo;</entry>
+<entry>(<link rid="b34">Hale et al. 1995</link>: 1442)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>A number of authors, including <link rid="b37">Austin (1981b</link>), <link rid="b38 b46">Hale (1982, 1994</link>) and <link rid="b40">Simpson and Bresnan (1983</link>), on the other hand, have analyzed the same set of constructions as a same-subject construction and a different-subject construction (also termed &lsquo;obviative&rsquo;) in a switch-reference system. The subordinate clause marked by <i>-karra</i> indicates that its controller is the main clause subject, i.e., the two clauses have the same subject, whereas the subordinate clause marked by <i>-kurra</i> has a subject which is different from the main clause subject (i.e., a main clause object). In addition, Warlpiri also has two further contrasting markers of simultaneous subordinate clauses (<link rid="b39">Hale 1986</link>). The first (<i>-ngkarni</i>/<i>-rlarni</i>, here simply glossed as SIM) allows a free choice of controller, although usually the controller is not a subject or object (11a). The second (<i>-rlajinta</i>, identical to the comitative case) may have the same subject (as in (11b)) or a different subject compared with the matrix clause, but encodes a simultaneous event which is, as it were, &lsquo;accidentally&rsquo; simultaneous, and not ascribed to an argument in the main clause event (<link rid="b40">Simpson and Bresnan 1983</link>: 60). Consequently, the first but not the second construction shows (optional) case agreement with the controller (compare (11b), with no ergative agreement, with (9a) above):</p>
+<listgroup id="l10" type="1">
+<li>
+<number>(11)&ensp;</number>
+<p>Warlpiri (Ngumpin-Yapa, PN):</p>
+<p>
+<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Ngarrka-ngku</entry>
+<entry>ka-rla</entry>
+<entry>kurdu-ku<sub>i</sub>
+</entry>
+<entry>karli</entry>
+<entry>kaji-jarnti-rni</entry>
+<entry>manyu-ngkarni(-ki)<sub>i</sub>.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>man-ERG</entry>
+<entry>PRS-3.IO</entry>
+<entry>child-DAT</entry>
+<entry>boomerang(ABS)</entry>
+<entry>BEN-trim-NPAST</entry>
+<entry>play-SIM-(DAT)</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;The man is trimming the boomerang for the child (while it is) at play.&rsquo;</entry>
+<entry>(<link rid="b38">Hale 1982</link>: 299)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Ngarrka-ngku-nyanu</entry>
+<entry>ramparl-paju-rnu</entry>
+<entry>karli</entry>
+<entry>jarnti-rninja-rlajinta.</entry>
+</row>
+<row><entry>man-ERG-REFL</entry>
+<entry>mistake-cut-PAST</entry>
+<entry>boomerang(ABS)</entry>
+<entry>trim-INF-COMIT</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;The man accidentally cut himself while trimming the boomerang.&rsquo;</entry>
+<entry>(<link rid="b38">Hale 1982</link>: 292)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>In functional terms, we are therefore dealing with a switch-reference system which does not just show a binary contrast between &lsquo;same-subject&rsquo; and &lsquo;different-subject&rsquo;, but distinguishes between same-subject (-<i>karra</i>), subject &equals; object (-<i>kurra</i>), and free-subject (<i>-ngkarni</i>/-<i>rlarni)</i> categories. In addition, these are in opposition to a non-controlled simultaneous clause (<i>-rlajinta)</i>. Formally, the first three categories can also be analyzed as depictive secondary predicates controlled by the subject, the object, and a free controller, respectively, while the fourth type of subordinate clause, which does not exhibit a necessary relationship to a controller, is an adverbial. Thus, the analyses of Warlpiri non-finite subordinate clauses as switch-reference constructions and depictive constructions are complementary rather than contradictory. A similar system, where a switch-reference system can be seen as emerging from the contrast of various subordinate clause types with different control properties, is described for Martuthunira by <link rid="b35 b1">Dench (1988, 1995</link>: 240&ndash;262).</p>
+<p>The secondary predicate analysis of a subordinate clause of this type is only warranted, however, when it is obligatorily controlled, i.e., when it cannot have its own subject. A true same-subject construction which is not a secondary predicate but an adverbial clause is found in the central Australian language Arrernte, although arguably the same-subject marker <i>-le</i> (which is identical to the ergative marker) represents a generalized former agreement marker (<link rid="b47">Wilkins 1988</link>). Considering only (12a), one might be tempted to analyze the subordinate predicate as a true depictive secondary predicate which is followed by the ergative marker <i>-le</i> in agreement with the subject of the clause, just as in the Warlpiri example in (9a). However, (12b) shows that the subordinate predicate is not obligatorily controlled, since in the first line of (12b) it appears with its own subject:</p>
+<listgroup id="l11" type="1">
+<li>
+<number>(12)&ensp;</number>
+<p>Mparntwe Arrernte (Arandic, PN):</p>
+<p>
+<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Artwe-le</entry>
+<entry>&lsqb;alye-lhe-me-le&rsqb;</entry>
+<entry>kere</entry>
+<entry>ite-ke.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>man-ERG</entry>
+<entry>sing-DETRANS-SIM-SS</entry>
+<entry>meat(ABS)</entry>
+<entry>cook-PAST.PERF</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;The man cooked the meat while singing.&rsquo;</entry>
+<entry>(<link rid="b47">Wilkins 1988</link>: 147)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry morerows="4">b.</entry>
+<entry>&lsqb;Ayenge</entry>
+<entry>urrkape-tyekenhe</entry>
+<entry>ne-me-le&rsqb;,</entry>
+<entry>the</entry>
+<entry>&lsqb;pmere-le</entry>
+<entry>
+</entry>
+</row>
+<row><entry>1SG.NOM</entry>
+<entry>work-NEG</entry>
+<entry>be-SIM-SS</entry>
+<entry>1SG.ERG</entry>
+<entry>camp-LOC</entry>
+<entry>
+</entry>
+</row>
+<row><entry>ne-rlane-me-le&rsqb;</entry>
+<entry>ampe</entry>
+<entry>kweke</entry>
+<entry namest="col5" nameend="col6">arntarntare-tyerte.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>be-CONTIN-SIM-SS</entry>
+<entry>child(ABS)</entry>
+<entry>small(ABS)</entry>
+<entry namest="col5" nameend="col6">look.after-PAST.HABIT</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;When I wasn&apos;t working, I used to stay at home and look after the baby.&rsquo;</entry>
+<entry>(<link rid="b47">Wilkins 1988</link>: 153)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss9" level="2">
+<heading id="h8" level="2">2.4&ensp;The syntactic function of the controller</heading>
+<p>In English, depictives can be controlled by the subject of an intransitive or transitive predicate and by the object of a transitive predicate (cf., e.g., <link rid="b7">Aarts 1995</link>: 76). This has sometimes been claimed to reflect a universal syntactic restriction, or alternatively, a restriction on the thematic role of potential controllers (e.g., to theme, agent, and patient; see <related relationship="sibling" type="samework"><externallink id="chapter 58 - Secondary Predication.xml" type="file">chapter 58</externallink></related>). However, languages differ considerably with regard to which arguments are easily accessible as controllers. For example, Finnish regularly allows oblique controllers (<link rid="b9">Nichols 1978</link>: 120&ndash;121). Some variation in the restrictions on potential controllers is also found in Australian languages (cf. <link rid="b75">Dench and Evans 1988</link>: 15), although it has to be said that in-depth research on these issues has been carried out only for very few languages. A number of Australian languages with a rich case system and obligatory agreement of secondary predicates also allow datives and other oblique arguments as controllers. In the Warlpiri example in (13), the controller is a dative object; agreement unambiguously signals that the locative phrase encodes the location of the baby, not the food (for locative phrases as secondary predicates, see also <link rid="ss19">section 3.3</link>):</p>
+<listgroup id="l12" type="1">
+<li>
+<number>(13)&ensp;</number>
+<p>Warlpiri (Ngumpin-Yapa, PN):</p>
+<p>
+<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>Karnta-ngku</entry>
+<entry>ka-rla</entry>
+<entry>kurdu-ku<sub>i</sub>
+</entry>
+<entry>miyi</entry>
+<entry>yi-nyi</entry>
+<entry>parraja-rla-ku<sub>i</sub>.</entry>
+</row>
+<row><entry>woman-ERG</entry>
+<entry>PRS-3.IO</entry>
+<entry>baby-DAT</entry>
+<entry>food(ABS)</entry>
+<entry>give-NPAST</entry>
+<entry>coolamon-LOC-DAT</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;The woman gives food to the baby in the coolamon (carrier dish).&rsquo;</entry>
+<entry>(<link rid="b33">Simpson 1991</link>: 206)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>Similarly, example (14) shows that in Diyari, a locative-marked oblique argument can be the controller of a depictive: it is the child spoken to, not the speaker, that is described as having no clothes on:</p>
+<listgroup id="l13" type="1">
+<li>
+<number>(14)&ensp;</number>
+<p>Diyari (PN):</p>
+<p>
+<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>Kupa-nhi<sub>i</sub>
+</entry>
+<entry>nganhi</entry>
+<entry>yatha-na</entry>
+<entry>warra-yi</entry>
+<entry>&lsqb;kathi</entry>
+<entry>pani-nhi&rsqb;<sub>i</sub>.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>child-LOC</entry>
+<entry>1SG.SBJ</entry>
+<entry>speak-PART</entry>
+<entry>AUX-PRS</entry>
+<entry>clothes</entry>
+<entry>none-LOC</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col6">&lsquo;I spoke to the child with no clothes on.&rsquo;</entry>
+<entry>(<link rid="b62">Austin 1981a</link>: 44)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>In (15a), from Martuthunira, the controller is a directional adjunct marked with the allative case. Here the presence of the temporal clitic <i>-l</i> enforces a predicative reading of the phrase <i>kupuyu-mulyarra</i>; in other words, (15a) cannot just mean &lsquo;I used to go to the little town&rsquo;. The controller of the manner depictive in (15b) is the demoted agent in a passive construction, as indicated by the &lsquo;effector&rsquo; case which in Martuthunira marks passive agents:</p>
+<listgroup id="l14" type="1">
+<li>
+<number>(15)&ensp;</number>
+<p>Martuthunira (Ngayarda, PN):</p>
+<p>
+<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Ngayu</entry>
+<entry>puni-wayara</entry>
+<entry>thawun-mulyarra<sub>i</sub>
+</entry>
+<entry>kupuyu-mulyarra-l<sub>i</sub>.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>1SG.NOM</entry>
+<entry>go-HABIT</entry>
+<entry>town-ALL</entry>
+<entry>little-ALL-THEN</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;I used to go to town (when it was a) small (place).&rsquo;</entry>
+<entry>(<link rid="b1">Dench 1995</link>: 59)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Nhiyu</entry>
+<entry>thuur.ta</entry>
+<entry>kanyja-rnu</entry>
+<entry>juwayu-la</entry>
+<entry>kartarr-u</entry>
+<entry>paju.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>this.NOM</entry>
+<entry>fruit(NOM)</entry>
+<entry>hold-PASS.PART</entry>
+<entry>hand-LOC</entry>
+<entry>tight-EFF</entry>
+<entry>really</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;This fruit has been held in hand really tightly.&rsquo;</entry>
+<entry>(<link rid="b1">Dench 1995</link>: 234)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>Data from Australian languages thus raise problems for the claim that restrictions on the controllers of secondary predicates are universal. It seems more likely that the potential for functioning as a controller follows the accessibility hierarchy for grammatical relations (<link rid="b48">Keenan and Comrie 1977</link>), as has been suggested by <link rid="b9">Nichols (1978</link>: 120). The conditions under which oblique arguments and adjuncts can function as controllers remain a matter for further investigation.</p>
+<p>Example (15b) also shows that the controller &ndash; in this case, the demoted agent &ndash; does not have to be overtly expressed. On the basis of comparable Warlpiri data, <link rid="b45">Laughren (1992</link>) argues that the secondary predicate does not enter a predicative relation to a surface constituent of the clause, but rather to an argument in Lexical Conceptual Structure. Note that this observation is not restricted to Australian languages; in languages like German and English, likewise, depictives without overt controllers can be found, for example when the controller is an argument in an infinitival construction (e.g., in <i>not to be eaten raw</i>).</p>
+<p>The conclusion that the controller is a semantic rather than a syntactic argument is further supported by the observation that agreement of secondary predicates, even in the case of overtly expressed controllers, is not simply a surface phenomenon resulting in identical case marking of two surface constituents. The case marking on the depictive reflects the semantic role of the controller rather than the marking of the corresponding NP constituent. For example, since ergative marking of agents in a transitive clause is optional in Gooniyandi (<link rid="b49 b50">McGregor 1992b, 1998</link>), the subject NP <i>goornboo &lsquo;</i>woman&rsquo; in (16) is unmarked, whereas the depictive controlled by the subject takes ergative case:</p>
+<listgroup id="l15" type="1">
+<li>
+<number>(16)&ensp;</number>
+<p>Gooniyandi (Bunuban, NPN):</p>
+<p>
+<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>Goornboo<sub>i</sub>
+</entry>
+<entry>thirri</entry>
+<entry>gardboowoona</entry>
+<entry>yoowooloo-jangi-ngga<sub>i</sub>.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>woman</entry>
+<entry>fight</entry>
+<entry>she:belts:them</entry>
+<entry>man-SIMIL-ERG</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col4">&lsquo;The woman fights like a man.&rsquo;</entry>
+<entry>(<link rid="b92">McGregor 1990</link>: 346)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>Secondary predicates &ndash; more precisely non-finite subordinate clauses of the type discussed in <link rid="ss8">section 2.3</link> &ndash; have also been used as one of the tests for the existence of grammatical relations like subject and object in the languages in question (in particular Warlpiri), including dative objects as in (9c). First, the non-finite subordinate clause is marked differently according to whether the controller is a subject, an object, or neither; and second, the non-overt, controlled argument always has to be the subject of the subordinate clause (cf. <link rid="b38">Hale 1982</link>: 294, <link rid="b46">1994</link>; <link rid="b40">Simpson and Bresnan 1983</link>; <link rid="b41 b33">Simpson 1988, 1991</link>: 314; <link rid="b51">Laughren 1989</link>: 330&ndash;336, <link rid="b45">1992</link>: 202; <link rid="b52">Speas 1990</link>: 160&ndash;162). Having clear syntactic tests for grammatical relations is, of course, important in languages where subject and object are identified neither by their syntactic position (because of the &lsquo;non-configurational&rsquo; nature of the language in question) nor directly by case marking (because the language is, like Warlpiri, morphologically ergative).</p>
+</subsection>
+<subsection id="ss10" level="2">
+<heading id="h9" level="2">2.5&ensp;Word class and internal structure of depictive secondary predicates</heading>
+<p>Depictive secondary predicates can be classified according to their marking (e.g., agreement &ndash; see <link rid="ss7">section 2.2</link> &ndash; or marking for control and relative tense &ndash; see <link rid="ss8">section 2.3</link>), but they can also be subdivided according to their word class and internal structure. In this respect, too, one is forced by data from Australian languages to reconsider the range of constructions to be analyzed as secondary predicates.</p>
+<subsection id="ss11" level="3">
+<heading id="h10" level="3">2.5.1&ensp;Nominal and adjectival secondary predicates</heading>
+<p>In the standard examples found in the literature, e.g. (1), depictives are simple adjectives, and occasionally adjectival phrases. Not surprisingly, in Australian languages we also find corresponding examples where the secondary predicate is adjectival in that it encodes a temporary state or condition; examples are (2), (5), and (6).</p>
+<p>It has often been claimed that only (adjectival) predicates encoding a temporary state, not predicates encoding a permanent quality or property, may function as depictives. Following <link rid="b53">Carlson (1977a</link>), <link rid="b54">Stump (1985</link>), and <link rid="b55">Kratzer (1995</link>), the two types of predicates are also known as <i>stage-level</i> vs. <i>individual-level predicates</i> (see <related relationship="sibling" type="samework"><externallink id="chapter 58 - Secondary Predication.xml" type="file">chapter 58</externallink></related>). Compare (17a) and (17b):</p>
+<p>(17)<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry namest="col2" nameend="col5">The snake ate the mouse alive. (stage-level predicate)</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col5">
+<sup>??</sup>The snake ate the mouse bony. (individual-level predicate)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In many Australian languages, though, there is no clear morphosyntactic distinction between adjectives, nouns, and adverbs, which are just subclasses of nominals. Consequently, both stage-level predicates and individual-level predicates, e.g., common nouns, can be used as depictives (cf. <link rid="b56">Hale 1983</link>; <link rid="b3">Simpson 2005</link>). In (18), the nominal <i>ngarrka &lsquo;</i>man&rsquo; predicates on the object of a perception verb. As <link rid="b56">Hale (1983</link>: 32) states, this interpretation &ldquo;is perfectly natural in a variety of situations, including, for example, that in which the speaker sees a male person (formerly &lsquo;a boy&rsquo;) after his initiation (now &lsquo;a man&rsquo;.&nbsp;.&nbsp;.&nbsp;)&rdquo;:</p>
+<listgroup id="l16" type="1">
+<li>
+<number>(18)&ensp;</number>
+<p>Warlpiri (Ngumpin-Yapa, PN):</p>
+<p>
+<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>Ngarrka</entry>
+<entry>ka-rna</entry>
+<entry>nya-nyi.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>man(ABS)</entry>
+<entry>PRS-1SG.SBJ</entry>
+<entry>see-NPAST</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col3">&lsquo;I see him as a man.&rsquo;</entry>
+<entry>(<link rid="b56">Hale 1983</link>: 31&ndash;32)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>In English, as the translation of (18) shows, an NP has to be marked with <i>as</i> in order to serve as a secondary predicate. According to <link rid="b54">Stump (1985</link>: 272&ndash;277), the predicative marker <i>as</i> is an explicit device turning individual-level predicates into stage-level predicates. Warlpiri, however, appears to lack this strict stage-level/individual-level distinction. (Note that the restriction of depictives to stage-level predicates has to be given up in any case if the version of the pronominal argument hypothesis is adopted according to which all lexical expressions are secondary predicates, or if &lsquo;part&rsquo; expressions are also analyzed as depictives; see <link rid="ss16 ss18">sections 3.1.1 and 3.2</link>).</p>
+<p>In addition to simple nominals and adjectivals, there are good reasons for also analyzing many types of case-marked noun phrases and adpositional phrases as secondary predicates; these are discussed in <link rid="ss19">section 3.3</link>.</p>
+</subsection>
+<subsection id="ss12" level="3">
+<heading id="h11" level="3">2.5.2&ensp;Deverbal secondary predicates</heading>
+<p>In many languages, not only nominals but also non-finite verb forms can serve as depictive secondary predicates. This is well known for the so-called participles of English and many other European languages, which function just like adjectives in that they can be used as attributes, as main predicates, and as adjuncts (consider <i>Joy arrived drunk</i>, with a past participle functioning as secondary predicate). For non-finite verb forms which are restricted to adjunct function (but which cannot be used as attributes), the term <i>converb</i> has been suggested in the literature (cf. <link rid="b57">Haspelmath and K&ouml;nig 1995</link>).</p>
+<p>Some Australian languages have a wide range of converb constructions. (Other languages do not have non-finite verb forms at all.) These converb constructions include not only simple deverbal predicates, but also more complex constructions, i.e., subordinate clauses. A subset of these can be identified as secondary predicates: first, by the fact that they are obligatorily controlled, i.e., they do not allow their subject to be overtly expressed; and second, by case agreement with their controller. However, in grammatical descriptions and theoretical accounts of these deverbal constructions, they are variously analyzed as adverbials, depictive secondary predicates, or subordinate clauses with switch-reference marking (see also <link rid="ss8">section 2.3</link>).</p>
+<p>A possible objection to the analysis of obligatorily controlled converbs and converb clauses as secondary predicates is based on the fact that these deverbal forms typically express &lsquo;relative tense&rsquo;, e.g., simultaneity or anteriority. Standard depictives, on the other hand, express a temporary condition or state. In order to analyze converb constructions &ndash; especially when they show agreement with a controller &ndash; as depictive secondary predicates, one therefore either has to show that they encode a state despite the relative tense marking, or extend the notion of secondary predication.</p>
+<p>Some authors recognize certain converb clauses as secondary predicates and use the term &lsquo;eventive&rsquo; secondary predicate, e.g., for subordinate clauses in simultaneous interpretation (see <link rid="ss8">section 2.3</link>). A simultaneous converb, just like the present participle <i>laughing</i> in <i>Joy left the party laughing</i>, can be interpreted as encoding a state &ndash; the state of being in the process of (simultaneously) performing an event.</p>
+<p>Similarly, an anterior deverbal predicate (such as the English past participle <i>drunk</i>) or a clause headed by an anterior form can be regarded as encoding a post-state of the event which is denoted by the lexeme from which it derives. This post-state holds simultaneously to the event encoded by the main predicate, and it is ascribed to the controller. In many Australian languages, anterior deverbal forms (just as in Latin and other Romance languages) agree in case with a controller. For example, in Kayardild, anterior deverbal predicates are formed by adding both a resultative suffix and a nominalizer (&lsquo;NR&rsquo;) to the verb stem. The resulting forms can be used as simple depictives, as in (19a), and as heads of non-finite clauses functioning as depictives, as in (19b) (<link rid="b58">Evans 1995</link>: 476&ndash;480):</p>
+<listgroup id="l17" type="1">
+<li>
+<number>(19)&ensp;</number>
+<p>Kayardild (Tangkic, NPN):</p>
+<p>
+<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Nga-l-da</entry>
+<entry>wara-tha</entry>
+<entry>niwan-ji</entry>
+<entry>dara-thirri-n-ji.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>1-PL-NOM</entry>
+<entry>send-ACTUAL</entry>
+<entry>3SG.OBJ</entry>
+<entry>break-RESULT-NR-OBJ</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;We sent him away circumcised.&rsquo;</entry>
+<entry>(<link rid="b58">Evans 1995</link>: 333)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Dathin-a</entry>
+<entry>dulk-a</entry>
+<entry>mirra-a</entry>
+<entry>&lsqb;kajakaja-na</entry>
+<entry namest="col6" nameend="col7">wukuwa-thirri-n-d&rsqb;.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>that-NOM</entry>
+<entry>place-NOM</entry>
+<entry>good-NOM</entry>
+<entry>daddy-ABL</entry>
+<entry namest="col6" nameend="col7">work-RESULT-NR-NOM</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;That place (garden) is lovely (having been) worked on by daddy.&rsquo;</entry>
+<entry>(<link rid="b58">Evans 1995</link>: 479)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>Subordinate (converb) clauses encoding subsequent or intended events which show case agreement are also found in some Australian languages, including Kayardild (<link rid="b58">Evans 1995</link>: 419&ndash;420), Yukulta (<link rid="b59">Keen 1983</link>: 247), Warlpiri (<link rid="b38">Hale 1982</link>: 281&ndash;289; <link rid="b60">Nash 1986</link>: 261), and Yankunytjatjara (<link rid="b61">Goddard 1985</link>). Most of these languages distinguish a purposive form marking personal intent (with agreement) from a general purposive (without agreement), which is used to indicate conventional, socially recognized purposes, and which is also found in &lsquo;different subject&rsquo; expressions. The difference is illustrated in (20) for Yankunytjatjara. The general purposive marker <i>-ku</i> is shown in (20a) in &lsquo;different subject&rsquo; function (the people who pour the petrol are not identical with the people who intend to return). In contrast to the general purposive, the &lsquo;intentive&rsquo; marker <i>-kitja</i> always triggers agreement marking with the subject in absolutive or ergative case, respectively. It is used when the purpose of an activity is ascribed to the subject, and when, at the same time, this purpose is not obvious, i.e., when it is not conventionally recognized, but rather ascribed to the personal motivation of the agent. Thus, the &lsquo;intentive&rsquo; indicates that getting firewood in (20b) and taking off the water pump in (20c) are the agent&apos;s personal intentions, non-obvious for others:</p>
+<listgroup id="l18" type="1">
+<li>
+<number>(20)&ensp;</number>
+<p>Yankunytjatjara (Western Desert, PN):</p>
+<p>
+<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Munu</entry>
+<entry>tjuti-ra</entry>
+<entry>yunga-nyi</entry>
+<entry>kurlpa-nytja-ku.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>and</entry>
+<entry>pour-SERIAL</entry>
+<entry>give-PRS</entry>
+<entry>return-INF-PURP</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;And he will pour (us) some (petrol) for returning (i.e., so that we can go home).&rsquo;</entry>
+<entry>(<link rid="b61">Goddard 1985</link>: 164)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Wati</entry>
+<entry>ya-nu</entry>
+<entry>waru</entry>
+<entry>urra-ntji-kitja.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>man(ABS)</entry>
+<entry>go-PAST</entry>
+<entry>fire(ABS)</entry>
+<entry>get-INF-INTENT</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;The man went off (because he wanted) to get firewood.&rsquo;</entry>
+<entry>(<link rid="b61">Goddard 1985</link>: 159)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>Carburettor-rna</entry>
+<entry>arra-rnu</entry>
+<entry>water pump-kitja-ngku.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>carburettor(ABS)-1SG</entry>
+<entry>take.off-PAST</entry>
+<entry>water pump-INTENT-ERG</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;I took off the carburettor wanting the water pump (e.g., mistakenly removed the carburettor, or removed the carburettor to get at the water pump).&rsquo;</entry>
+<entry>(<link rid="b61">Goddard 1985</link>: 131)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>The semantic contrasts involved suggest that the constituents marked by the specific &lsquo;intention&rsquo; markers in Yankunytjatjara and other languages, but not those marked by the general purposive markers, are depictive secondary predicates. Semantically, it is the intention to bring about an event that is predicated on the controller, as indicated by agreement. Thus, while the event represented by the noun phrase or subordinate clause is in a sense subsequent to the event represented by the main predicate, the intention clearly holds simultaneously with the event expressed by the main predicate. The parallel behavior of nominalized verbs (20b) and underived nominals (20c) lends further support to a parallel analysis of nominal and deverbal depictives. (Note that intentive expressions of this type are analyzed as &lsquo;subject-oriented NPs&rsquo; rather than as secondary predicates by <link rid="b75">Dench and Evans 1988</link>: 17&ndash;18; however, the authors do not give clear reasons for the distinction, nor do they indicate which other expression types should be analyzed as subject-oriented NPs.)</p>
+</subsection>
+<subsection id="ss13" level="3">
+<heading id="h12" level="3">2.5.3&ensp;Secondary predicates from other word classes</heading>
+<p>Australian languages also feature secondary predicates that are neither nominal nor (de)verbal. For some languages &ndash; e.g., Kayardild (<link rid="b58">Evans 1995</link>: 231), Martuthunira (<link rid="b1">Dench 1995</link>: 53), and Yankunytjatjara (<link rid="b61">Goddard 1985</link>: 57&ndash;58) &ndash; a non-verbal word class restricted to predicative function has been described. Because its members take nominal inflections in agreement with a controller, these are sometimes subsumed under the class of nominals or adjectives. However, if nominals and adjectives are defined as a class of words that may be used in referential and attributive function, respectively, this term does not apply to the category in question, which is restricted to predicative use without showing the formal characteristics of verbs. Most of these predicates express a condition or a posture. An example from Kayardild is <i>mibulka</i> &lsquo;asleep&rsquo;, used as a depictive in (21) (the second depictive in this clause, <i>malangarrba &lsquo;</i>drunk&rsquo;, is a true adjective which may also be used attributively):</p>
+<listgroup id="l19" type="1">
+<li>
+<number>(21)&ensp;</number>
+<p>Kayardild (Tangkic, NPN):</p>
+<p>
+<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>Mibulk-i</entry>
+<entry>kurdala-tha</entry>
+<entry>kajakaja-y</entry>
+<entry>malangarrba-y.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>asleep-OBJ</entry>
+<entry>spear-ACTUAL</entry>
+<entry>daddy-OBJ</entry>
+<entry>drunk-OBJ</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col4">&lsquo;He speared your daddy (who was) asleep and drunk.&rsquo;</entry>
+<entry>(<link rid="b58">Evans 1995</link>: 333)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>In addition, Kayardild has a small class of lexemes which are not only inherently predicative, but restricted to depictive function. That is, words from this class are always used as adjuncts, and in this respect resemble adverbs, but they also obligatorily agree in case with one argument of the clause (<link rid="b58">Evans 1995</link>: 227&ndash;229). Lexical items with similar properties have been described for Warlpiri (<link rid="b38">Hale 1982</link>: 279&ndash;280) and Diyari (<link rid="b62">Austin 1981a</link>: 107&ndash;108), although they are simply considered a subset of nominals by some authors (e.g., <link rid="b56">Hale 1983</link>; <link rid="b33">Simpson 1991</link>: 125&ndash;129). Semantically, they mainly comprise notions of manner. An example is <i>parraparra &lsquo;</i>loud, energetic&rsquo; in Diyari, illustrated in (22):</p>
+<listgroup id="l20" type="1">
+<li>
+<number>(22)&ensp;</number>
+<p>Diyari (PN):</p>
+<p>
+<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Wata</entry>
+<entry>yini</entry>
+<entry>parraparra</entry>
+<entry>pithi-ya.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>not</entry>
+<entry>2SG.SBJ</entry>
+<entry>energetic(ABS)</entry>
+<entry>fart-IMP</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Don&apos;t fart loudly!&rsquo;</entry>
+<entry>(<link rid="b62">Austin 1981a</link>: 107)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Nhulu</entry>
+<entry>karna-li</entry>
+<entry>kirra</entry>
+<entry>parraparra-li</entry>
+<entry>warra-yi.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>3SG.NONF</entry>
+<entry>person-ERG</entry>
+<entry>boomerang(ABS)</entry>
+<entry>energetic-ERG</entry>
+<entry>throw-PRS</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;The man throws the boomerang energetically.&rsquo;</entry>
+<entry>(<link rid="b62">Austin 1981a</link>: 107)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>A second type of nonverbal predicate constituting a distinct part of speech is also found in (mainly northern) Australian languages, including Warlpiri (<link rid="b63">Nash 1982</link>; <link rid="b33">Simpson 1991</link>), Jaru (<link rid="b64">Tsunoda 1981</link>), Gija (<link rid="b65">Kofod 1996</link>), Jaminjung (<link rid="b43">Schultze-Berndt 2000</link>), Wardaman (<link rid="b42">Merlan 1994</link>), and Wagiman (<link rid="b66">Wilson 1999</link>). Predicates of this type, termed &lsquo;coverbs&rsquo;, &lsquo;preverbs&rsquo;, or <i>&lsquo;</i>verbal particles&rsquo; in the literature, form an open class with possibly thousands of members. These differ in morphology and distribution from inflecting verbs (the latter form a closed class in most of these languages). They cannot form the main predicate of an independent main clause, and they only occur as part of a complex predicate together with an inflecting verb, or as the main predicate in a subordinate clause. Some of these subordinate clauses, in turn, can be analyzed as depictive secondary predicates. An example from Wardaman is given in (23). In (23a), the unmarked positional verbal particle <i>mugurn &lsquo;</i>lie, sleep&rsquo; forms a complex predicate with an inflecting verb (which happens to be roughly synonymous). In (23b), the same verbal particle takes the allative case, which here, as in Warlpiri (see <link rid="ss8">section 2.3</link>), has an object complementizer function. The resulting expression is a subordinate clause functioning as an object-controlled depictive:</p>
+<listgroup id="l21" type="1">
+<li>
+<number>(23)&ensp;</number>
+<p>Wardaman (NPN):</p>
+<p>
+<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Mugurn</entry>
+<entry>ya-gurrgba</entry>
+<entry>nana</entry>
+<entry>bangbun.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>lie/sleep</entry>
+<entry>3SG-sleep.PRS</entry>
+<entry>that(ABS)</entry>
+<entry>woman(ABS)</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;The woman is sleeping.&rsquo;</entry>
+<entry>(<link rid="b42">Merlan 1994</link>: 441)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Ngon-mowojba-rri</entry>
+<entry>mugurn-garr.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>3SG.SBJ:1SG.OBJ-sneak.away-PAST</entry>
+<entry>lie/sleep-ALL/OCOMP.SIM</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col3">&lsquo;He left me sneakingly (while I was) asleep.&rsquo;</entry>
+<entry>(<link rid="b42">Merlan 1994</link>: 287)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>To summarize: in Australian languages, parts of speech found in secondary predicate function include not only nominals and adjectivals, but also deverbal predicates, the verbal particles (or preverbs/coverbs) found in the northern area, and, in some languages, a class of &lsquo;manner nominals&rsquo; which show obligatory case agreement but only appear in adjunct position and can therefore be analyzed as a distinct part of speech restricted to depictive function. Likewise, the internal complexity of the secondary predicate may vary; there is some evidence that case-marked NPs or adpositional phrases and subordinate clauses should be considered depictives.</p>
+</subsection>
+</subsection>
+</subsection>
+<subsection id="ss14" level="1">
+<heading id="h13" level="1">3&ensp;What counts as secondary predication?</heading>
+<subsection id="ss15" level="2">
+<heading id="h14" level="2">3.1&ensp;Secondary predication and non-configurationality</heading>
+<p>Australian languages, and in particular Warlpiri, have played a prominent role in discussions of non-configurationality, e.g., <link rid="b67">Blake (1983</link>), <link rid="b56 b68 b69 b46">Hale (1983, 1989, 1992, 1994</link>), <link rid="b70">Jelinek (1984</link>), <link rid="b71">Heath (1986</link>), <link rid="b60">Nash (1986</link>), <link rid="b51">Laughren (1989</link>), <link rid="b52">Speas (1990</link>), <link rid="b33">Simpson (1991</link>), <link rid="b72">Austin and Bresnan (1996</link>), <link rid="b27 b73">Baker (1996, 2001</link>), and <link rid="b74">Austin (2001</link>). Many Australian languages have properties which contrast sharply with the properties of configurational languages such as English: they have free word order, they freely allow zero anaphora (i.e., omission of lexical arguments), and clauses have a &lsquo;flat&rsquo; syntactic structure (i.e., there is no evidence for a category verb phrase). While it has recently been recognized that non-configurationality is not a unified phenomenon (cf. <link rid="b72">Austin and Bresnan 1996</link>; <link rid="b73">Baker 2001</link>), these features were originally conceived of as being in correlation. The formulation of a Configurationality Parameter (<link rid="b56">Hale 1983</link>) was based on languages like Warlpiri where these features do in fact coincide.</p>
+<p>
+<link rid="b70">Jelinek (1984</link>) proposes to link free word order and zero anaphora, as well as a number of other phenomena such as split case marking, to the presence of clitic pronominals in Warlpiri. According to Jelinek&apos;s proposal, known as the pronominal argument hypothesis, bound or clitic pronominals have argument status in non-configurational languages, while the corresponding noun phrases are analyzed as adjuncts which are licensed by the pronominal arguments but which do not have argument status themselves. Building on this analysis, it has occasionally been argued that the adjunct noun phrases are in fact secondary predicates (<link rid="ss16">section 3.1.1</link>).</p>
+<p>Languages which exhibit another feature often associated with non-configurationality &ndash; the possibility of discontinuous expressions &ndash; pose a further problem for the theory of secondary predication. This is the problem of distinguishing between attributes in a discontinuous noun phrase and depictive secondary predicates (<link rid="ss17">section 3.1.2</link>).</p>
+<subsection id="ss16" level="3">
+<heading id="h15" level="3">3.1.1&ensp;The status of nominal expressions in non-configurational languages</heading>
+<p>
+<link rid="b70">Jelinek (1984</link>) suggests that in head-marking non-configurational languages like Warlpiri, only the clitic pronominals &ndash; which in (24) are attached to the tensed auxiliary &ndash; have argument status, not the nominal expressions (e.g., <i>maliki ngaju-nyangu</i> &lsquo;my dog&rsquo; and <i>kuyu</i> &lsquo;meat&rsquo; in (24)). Under this analysis, a configurational structure for a clause like (24) can be maintained:</p>
+<listgroup id="l22" type="1">
+<li>
+<number>(24)&ensp;</number>
+<p>Warlpiri (Ngumpin-Yapa, PN):</p>
+<p>
+<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>&lsqb;Maliki</entry>
+<entry>ngaju-nyangu-ku&rsqb;</entry>
+<entry>ka-rna-rla</entry>
+<entry>kuyu</entry>
+<entry>yi-nyi.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>dog</entry>
+<entry>1SG-GEN-DAT</entry>
+<entry>PRS-1SG.SBJ-3SG.IO</entry>
+<entry>meat(ABS)</entry>
+<entry>give-NPAST</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;I am giving meat to my dog.&rsquo;</entry>
+<entry>(<link rid="b46">Hale 1994</link>: 189)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>Jelinek&apos;s proposal has later been modified (e.g., by <link rid="b27">Baker 1996</link>) to the effect that the real arguments are empty categories (<i>pro</i>) which license agreement of the bound or clitic pronominals. Under both versions of the pronominal argument hypothesis, various solutions have been proposed for the status of the overt nominal expressions. <link rid="b70">Jelinek (1984</link>) originally analyzed them as adjuncts which are &lsquo;ad-argumental&rsquo; because they are co-indexed with a (pronominal) argument. <link rid="b52">Speas (1990</link>: 165&ndash;170) then suggests &ndash; again, with reference to Warlpiri &ndash; that they could be analyzed as secondary predicates, conceived of as modifiers undergoing theta-merger of their argument with one of the arguments in the verbal grid. This analysis relies on the presence of case markers &ndash; considered as argument-taking predicates &ndash; in Warlpiri and related languages.</p>
+<p>
+<link rid="b73">Baker (2001</link>) defends the secondary predicate analysis of overt nominal expressions in non-configurational languages, at least for languages of the Warlpiri type, which he distinguishes from languages whose non-configurational properties result from scrambling or dislocation. One of Speas&apos;s and Baker&apos;s main arguments in support of the secondary predicate analysis is that this type of structure is needed, in any case, in order to account for the use of nominals as secondary predicates in Warlpiri in examples like (18). <link rid="b73">Baker (2001</link>: 428&ndash;433) further claims that because of the lack of a distinction between nouns and adjectives in Warlpiri (see <link rid="ss11">section 2.5.1</link>), all nominals are really adjectival, i.e., &ldquo;good predicates&rdquo; and &ldquo;bad arguments.&rdquo; He explicitly recognizes that this proposal extends the notion of secondary predication far beyond the traditional notion (note that in this approach, <i>maliki ngaju-nyangu</i> &lsquo;my dog&rsquo; and <i>kuyu</i> &lsquo;meat&rsquo; in (24) are assigned the same status as <i>alive</i> in <i>the snake ate the mouse alive</i>). Consequently, the restriction that only stage-level predicates can function as depictive secondary predicates (see <link rid="ss11">section 2.5.1</link>) has to be given up. Baker also recognizes that in this account depictive secondary predicates in English and in Warlpiri differ strikingly in their pragmatic function and communicative effect.</p>
+<p>Speas&apos;s and Baker&apos;s analysis therefore deviates from Hale&apos;s. <link rid="b56">Hale (1983</link>) explicitly distinguishes the predicative and the referential or &ldquo;argumental&rdquo; use of nominal expressions (thus, he states that (18) also has a second reading &lsquo;I see a man&rsquo;). He also states that the class of nominals/adjectives spans a continuum from items that are more likely to be used referentially (such as determiners or free pronominals) to items that are more likely to be used predicatively, even though he also remarks that the predicative use is much more pervasive in Warlpiri than in English. <link rid="b44">Nordlinger (1998</link>: 40&ndash;41) also cites the existence of &ldquo;nominals&rdquo; restricted to secondary predicate function (see <link rid="ss13">section 2.5.3</link>) as evidence against the secondary predicate analysis of all nominal expressions.</p>
+<p>
+<link rid="b72">Austin and Bresnan (1996</link>), <link rid="b44">Nordlinger (1998</link>: 34&ndash;43), and <link rid="b74">Austin (2001</link>) raise several other objections to the adjunct analysis of overt nominal expressions. One is that in some languages at least, some types of overt nominals are obligatory (and hence cannot be adjuncts), e.g., dative indirect objects of verbs like <i>ayani &lsquo;</i>search&rsquo; in Wambaya, which, as (25) shows, are not cross-referenced by a bound pronominal:</p>
+<listgroup id="l23" type="1">
+<li>
+<number>(25)&ensp;</number>
+<p>Wambaya (West Barkly, Mirndi, NPN):</p>
+<p>
+<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>Ayani</entry>
+<entry>gi-n</entry>
+<entry>babanya</entry>
+<entry>juwa-nka.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>search</entry>
+<entry>3SG.SBJ.PRS-PROG</entry>
+<entry>sister(ABS)</entry>
+<entry>man-DAT</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col4">&lsquo;(My) sister is looking for a man.&rsquo;</entry>
+<entry>(<link rid="b44">Nordlinger 1998</link>: 35)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>It seems that despite the advantages of the secondary predicate analysis of nominal expressions in non-configurational languages, the ramifications of this proposal for the theory of secondary predication have to be given more careful consideration.</p>
+</subsection>
+<subsection id="ss17" level="3">
+<heading id="h16" level="3">3.1.2&ensp;Depictives vs. attributes in a discontinuous noun phrase</heading>
+<p>Under one definition of non-configurationality, the phenomenon of discontinuous noun phrases is considered an important characteristic of non-configurational languages (cf. <link rid="b56">Hale 1983</link>). As <link rid="b72">Austin and Bresnan (1996</link>) have shown, though, not all Australian languages that allow free order of phrases also allow discontinuous noun phrases. In those that do, this raises a problem for the distinction between depictive secondary predicates and attributive modifiers, since it can no longer be drawn in terms of word order alone (<link rid="b75">Dench and Evans 1988</link>: 14; <link rid="b8">Schultze-Berndt and Himmelmann 2004</link>: 81&ndash;84).</p>
+<p>A widely accepted proposal, at least in the Australianist literature, was pioneered by <link rid="b76">Hale (1981a</link>). This is that attributes in discontinuous noun phrases may have either a &lsquo;merged&rsquo; (i.e., restrictive) or an &lsquo;unmerged&rsquo; (i.e., non-restrictive) reading. Both are illustrated in (26):</p>
+<listgroup id="l24" type="1">
+<li>
+<number>(26)&ensp;</number>
+<p>Warlpiri (Ngumpin-Yapa, PN):</p>
+<p>
+<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>Maliki-rli</entry>
+<entry>0-ji</entry>
+<entry>yarlku-rnu</entry>
+<entry>wiri-ngki.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>dog-ERG</entry>
+<entry>PERF-1.OBJ</entry>
+<entry>bite-PAST</entry>
+<entry>big-ERG</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col4">a.&lsquo;The/a big dog bit me.&rsquo; (merged interpretation)</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col4">b.&lsquo;The/a dog bit me and it was big.&rsquo; (unmerged interpretation)</entry>
+<entry>(<link rid="b56">Hale 1983</link>: 38)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>A number of authors, including <link rid="b60">Nash (1986</link>), <link rid="b33">Simpson (1991</link>), and <link rid="b44">Nordlinger (1998</link>), have proposed that non-restrictive attributes should be analyzed just like secondary predicates. It is, however, also possible that the two types of constructions can be distinguished by prosodic means. <link rid="b62">Austin (1981a</link>: 108) claims that the Diyari clause in (27) with sentence stress on <i>nganhthi</i> has the attributive reading, but with a slight intonation break after <i>nganhthi</i> and stress on <i>thungka</i>, it has the secondary predicate reading. Similar suggestions have been made by <link rid="b77">McGregor (1992a</link>: 316) and <link rid="b46">Hale (1994</link>: 193):</p>
+<listgroup id="l25" type="1">
+<li>
+<number>(27)&ensp;</number>
+<p>Diyari (PN):</p>
+<p>
+<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>Nhawuya</entry>
+<entry>nganhthi</entry>
+<entry>thungka</entry>
+<entry>parni-yi.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>DEM.3SG.NONF</entry>
+<entry>meat(ABS)</entry>
+<entry>rotten(ABS)</entry>
+<entry>smell-PRS</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col3">a.&ensp;&lsquo;This rotten meat smells.&rsquo; (attribute)</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col4">b.&ensp;&lsquo;This meat smells rotten.&rsquo; (secondary predicate)</entry>
+<entry>(<link rid="b62">Austin 1981a</link>: 108)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>The prosodic properties of discontinuous modifiers in comparison with depictives, and the distinction between non-restrictive modifiers and depictive secondary predicates, remain a matter for further investigation.</p>
+</subsection>
+</subsection>
+<subsection id="ss18" level="2">
+<heading id="h17" level="2">3.2&ensp;Part&ndash;whole expressions</heading>
+<p>There exists a further construction type that has been analyzed as an instance of secondary predication by some authors. In many Australian languages, the preferred way to express the idea that a body part is involved in an event is to treat its &lsquo;possessor&rsquo; as a core argument, i.e., as an external possessor (cf. <link rid="b78">Dixon 1980</link>: 293; <link rid="b79 b80">McGregor 1985, 1999</link>; <link rid="b81">Blake 1987</link>: 94ff.; and several contributions in <link rid="b82">Chappell and McGregor 1996</link>). The body part (understood in a wide sense, i.e., including other inalienable part&ndash;whole relations like names, shadows, etc.) is represented as an additional noun phrase which shows case agreement with the possessor expression. In languages with bound pronominals or pronominal clitics, the possessor can be identified as the core argument or &lsquo;syntactically active&rsquo; argument in that it triggers pronominal agreement. The phenomenon is illustrated in (28) with data from Warrwa for a transitive and an intransitive verb, respectively:</p>
+<listgroup id="l26" type="1">
+<li>
+<number>(28)&ensp;</number>
+<p>Warrwa (Nyulnyulan, NPN):</p>
+<p>
+<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Dab</entry>
+<entry>nandiny-ngayu</entry>
+<entry>nimala.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>touch</entry>
+<entry>3SG.SBJ:caught-1SG.OBJ</entry>
+<entry>hand(ABS)</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;He touched me on the hand.&rsquo; (lit.: &lsquo;he touched me hand&rsquo;)</entry>
+<entry>(<link rid="b80">McGregor 1999</link>: 433)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Ngayu</entry>
+<entry>nga-lma</entry>
+<entry>bingbal</entry>
+<entry>nga-nyjan.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>1SG(ABS)</entry>
+<entry>1SG.POSS-head(ABS)</entry>
+<entry>sore</entry>
+<entry>1SG.SBJ-say/do</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;I&apos;ve got a sore head.&rsquo; (lit.: &lsquo;I do/am sore my-head&rsquo;)</entry>
+<entry>(<link rid="b80">McGregor 1999</link>: 434)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>The grammatical status of the &lsquo;part&rsquo; expression in constructions like these (e.g., <i>nimala</i> &lsquo;hand&rsquo; in (28a) and <i>nga-lma &lsquo;</i>my head&rsquo; in (28b)) has been a matter of debate in the literature. It has been described both as part of the same noun phrase as the &lsquo;whole&rsquo; expression, and as a separate constituent (cf. <link rid="b81">Blake 1987</link>: 95ff.). Of those authors who consider the &lsquo;part&rsquo; expression a separate constituent, some follow <link rid="b83">Hale (1981b</link>) in the view that it functions as a secondary predicate (e.g., <link rid="b56">Hale 1983</link>: 39&ndash;40; <link rid="b45">Laughren 1992</link>; <link rid="b84">Ogawa 2001</link>). Indeed, a property that &lsquo;part&rsquo; expressions in this type of construction share with secondary predicates in the narrow sense is the existence of a semantic relationship between an argument of the main predicate and the additional constituent. In the Australian languages under discussion, this semantic relationship is also formally reflected by case agreement.</p>
+<p>However, there are also good reasons for distinguishing &lsquo;part&rsquo; expressions and secondary predicates. The secondary predicate analysis has been most explicitly criticized by <link rid="b79">McGregor (1985</link>), who raises the objection that a &lsquo;part&rsquo; expression can never serve as a main predicate, and is thus not, intuitively, a predicate (the paraphrase &lsquo;he touched me and I am a hand&rsquo; is as semantically deviant in the Australian languages in question as it is in English). Moreover, what is true of the part is not necessarily true of the whole; in other words, the &lsquo;part&rsquo; expression is not optional, as in the case of true secondary predication. Rather, according to <link rid="b79">McGregor (1985</link>: 210), the &lsquo;part&rsquo; expression &ldquo;specifies the EXTENT or LOCUS of the argument&apos;s involvement in the action.&rdquo; <link rid="b85">Harvey (1996</link>) and <link rid="b43">Schultze-Berndt (2000</link>: 184&ndash;186) also reject the secondary predicate analysis of &lsquo;part&rsquo; expressions. <link rid="b75">Dench and Evans (1988</link>: 13&ndash;18), likewise, distinguish the two construction types, although both are subsumed under constructions showing &ldquo;referential agreement.&rdquo;</p>
+</subsection>
+<subsection id="ss19" level="2">
+<heading id="h18" level="2">3.3&ensp;Depictives vs. adverbials</heading>
+<subsection id="ss20" level="3">
+<heading id="h19" level="3">3.3.1&ensp;Manner expressions</heading>
+<p>As shown in <link rid="ss6 ss7">sections 2.1 and 2.2</link>, the traditional notion of secondary predication has been extended in a number of ways in order to account for phenomena in Australian languages. Another problem encountered in the analysis of Australian languages is the difficulty of drawing a borderline between adverbials and secondary predicates. For example, in a number of languages expressions which would normally be classified as manner adverbials on semantic grounds belong to a word class restricted to predicative function or even secondary predicate function and show obligatory case agreement (see <link rid="ss13">section 2.5.3</link>). An example of a manner secondary predicate from Diyari is given in (22); another example, from Yankunytjatjara, is given in (29):</p>
+<listgroup id="l27" type="1">
+<li>
+<number>(29)&ensp;</number>
+<p>Yankunytjatjara (Western Desert, PN):</p>
+<p>
+<object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>Wati-ngku</entry>
+<entry>wala-ngku /</entry>
+<entry>puriny-tju</entry>
+<entry>kati-nyi.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>man-ERG</entry>
+<entry>quickly-ERG/</entry>
+<entry>slowly-ERG</entry>
+<entry>take-PRS</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col4">&lsquo;The man is taking it quickly/slowly.&rsquo;</entry>
+<entry>(<link rid="b61">Goddard 1985</link>: 57)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>
+<link rid="b75">Dench and Evans (1988</link>: 14&ndash;15) distinguish &ldquo;ascriptive&rdquo; and &ldquo;adverbial&rdquo; secondary predicates, on the basis of the semantic type of adjunct expression and whether it can, in principle, serve as the main predicate in a non-verbal clause. <link rid="b8">Schultze-Berndt and Himmelmann (2004</link>) and <link rid="b86">Himmelmann and Schultze-Berndt (2005</link>) present a cross-linguistic survey of adjunct types which have the properties of depictives at least in some languages. On the basis of agreement phenomena in Australian and other languages, they conclude that many expression types may be construed as either argument-oriented (and consequently encoded as secondary predicates) or event-oriented (and consequently encoded as adverbials). In addition to manner expressions and also those types of subordinate &lsquo;adverbial&rsquo; clauses discussed in <link rid="ss8">section 2.3</link>, there are several other expression types that are encoded as secondary predicates in at least some Australian languages. These include quantifiers (<link rid="b30">McGregor 2005</link>), comitative phrases, (30&ndash;31), similative phrases, (7) and (16), locative and directional phrases, (32&ndash;33), and even temporal phrases, (34). All examples illustrate agreement of the adjunct constituent in question with one argument of the main predicate, usually the subject.</p>
+</subsection>
+<subsection id="ss21" level="3">
+<heading id="h20" level="3">3.3.2&ensp;Comitative expressions</heading>
+<p>Comitative expressions, when construed as secondary predicates, e.g., by agreement marking, make explicit the relationship between the comitative argument and the argument of the clause that is said to be accompanied (usually, but not necessarily the subject). An example is (30) from Warlpiri:</p>
+<listgroup id="l28" type="1">
+<li>
+<number>(30)&ensp;</number>
+<p>Warlpiri (Ngumpin-Yapa, PN):</p>
+<p>
+<object id="tu28" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu28_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>Kurdu-ngku</entry>
+<entry>ka</entry>
+<entry>ngurlu</entry>
+<entry>kipi-rni</entry>
+<entry>karnta-ngkajinta-rlu.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>child-ERG</entry>
+<entry>PRS</entry>
+<entry>mulga.seed(ABS)</entry>
+<entry>winnow-NPAST</entry>
+<entry>woman-COMIT-ERG</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;The child, with the woman, is winnowing mulga seed.&rsquo;</entry>
+<entry>(<link rid="b38">Hale 1982</link>: 272)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>For Kayardild (<link rid="b58">Evans 1995</link>: 420) and the related language Yukulta (<link rid="b59">Keen 1983</link>: 247&ndash;248; <link rid="b58">Evans 1995</link>: 421), agreement even extends to the &lsquo;theme&rsquo; participant of verbs of transfer (i.e., the transferred entity) in some cases. The verbs of giving and deprivation in these languages allow for a number of case frames, among them one where the &lsquo;theme&rsquo; takes proprietive case (a marker of concomitance). As shown in (31), this is followed by ergative marking in agreement with the transitive subject. According to <link rid="b58">Evans (1995</link>: 420), this case frame &ldquo;stresses the ownership by SUBJ of the thing transferred, either before (&lsquo;give&rsquo;) or after (&lsquo;deprive&rsquo;) the transfer&rdquo;:</p>
+<listgroup id="l29" type="1">
+<li>
+<number>(31)&ensp;</number>
+<p>Yukulta (Tangkic, NPN):<object id="tu29" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu29_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>Kunawuna-nganda</entry>
+<entry>wuu-ja</entry>
+<entry>kulthangarr-urlu-ya.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>child.ACC-1SG.SBJ:PAST</entry>
+<entry>give-ACTUAL</entry>
+<entry>flying.fox-PROP-ERG</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col3">&lsquo;I gave the child a flying fox.&rsquo; (lit.: &lsquo;I presented the child with a flying fox&rsquo;)</entry>
+<entry>(<link rid="b59">Keen 1983</link>: 248)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss22" level="3">
+<heading id="h21" level="3">3.3.3&ensp;Locative and directional expressions</heading>
+<p>The fact that locative expressions are not necessarily event-oriented (in that they indicate the location of an event as a whole), but can also have an argument-oriented reading (in that they indicate the location of only one of the arguments in an event), has occasionally been noted in the literature, e.g. by <link rid="b87">M&uuml;ller-Bardey (1990</link>), <link rid="b88">Takezawa (1993</link>: 55), and <link rid="b13">Maienborn (2001</link>). In Warlpiri, a locative expression may (optionally) show case agreement with a controller, as illustrated in (13) and (32). In (32), the man and the boomerang are in the same place, but the location is ascribed to the man, probably because he corresponds to the more prominent argument:</p>
+<listgroup id="l30" type="1">
+<li>
+<number>(32)&ensp;</number>
+<p>Warlpiri (Ngumpin-Yapa, PN):</p>
+<p>
+<object id="tu30" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu30_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>Ngarrka-ngku</entry>
+<entry>ka</entry>
+<entry>jarnti-rni</entry>
+<entry>karli</entry>
+<entry>ngurra-ngka-rlu.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>man-ERG</entry>
+<entry>PRS</entry>
+<entry>trim-NPAST</entry>
+<entry>boomerang(ABS)</entry>
+<entry>camp-LOC-ERG</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;The/a man is trimming the boomerang in the/a camp.&rsquo;</entry>
+<entry>(<link rid="b40">Simpson and Bresnan 1983</link>: 57)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>Not only locative expressions but also directional expressions can be understood as predicating on one of the arguments of the main predicate. In (33), the interpretation is that the man is in the state of being oriented in the direction of the sandhill:</p>
+<listgroup id="l31" type="1">
+<li>
+<number>(33)&ensp;</number>
+<p>Walmatjarri (Ngumpin-Yapa, PN):</p>
+<p>
+<object id="tu31" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu31_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>Jilji-karti-rlu</entry>
+<entry>ma-nya</entry>
+<entry>wanyjani</entry>
+<entry>yapa-warnti</entry>
+<entry>nganpayi-rlu.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>sandhill-ALL-ERG</entry>
+<entry>AUX-3PL.OBJ</entry>
+<entry>leave:PAST</entry>
+<entry>child(ABS)-PL</entry>
+<entry>man-ERG</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;The man left the children on his way to the sandhill.&rsquo;</entry>
+<entry>(<link rid="b91">Hudson 1978</link>: 35&ndash;36)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss23" level="3">
+<heading id="h22" level="3">3.3.4&ensp;Temporal expressions</heading>
+<p>Temporal expressions constitute the perhaps most puzzling case of expressions whose formal make-up, in at least some languages, suggests an analysis as depictive secondary predicates. Temporal expressions are generally considered a paradigm case of event-oriented adverbials. Still, it is well known that they may agree with an argument of the main predicate in Ancient Greek and in Latin. Some Australian languages, too, have a class of temporal nominals which, at least optionally, agree with the subject in (ergative or absolutive) case. In Warlpiri, this class contains, among others, the terms <i>jalangu</i> &lsquo;today&rsquo; and <i>pirrarni</i> &lsquo;yesterday&rsquo; (cf. <link rid="b38">Hale 1982</link>: 281). The latter is illustrated in (34):</p>
+<listgroup id="l32" type="1">
+<li>
+<number>(34)&ensp;</number>
+<p>Warlpiri (Ngumpin-Yapa, PN):</p>
+<p>
+<object id="tu32" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu32_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>Ngayi</entry>
+<entry>luwa-rnu</entry>
+<entry>marlu</entry>
+<entry>pirrarni-rli.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>just</entry>
+<entry>shoot-PAST</entry>
+<entry>kangaroo(ABS)</entry>
+<entry>yesterday-ERG</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col4">&lsquo;He just shot a kangaroo yesterday.&rsquo;</entry>
+<entry>(<link rid="b46">Hale 1994</link>: 204)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>With regard to Warlpiri examples such as (34), <link rid="b33">Simpson (1991</link>: 208&ndash;209) and also <link rid="b44">Nordlinger (1998</link>: 118&ndash;121) maintain that the temporal expressions are adjuncts which modify the whole clause and do not stand in a depictive relation to the subject. These authors claim that the ergative case on these expressions merely indicates that the clause as a whole contains an ergative subject. <link rid="b38">Hale (1982</link>: 281), on the other hand, suggests that temporal expressions of this type could be analyzed as depictives, considering that &ldquo;an entity can be located in a time as well as in a place.&rdquo;</p>
+</subsection>
+</subsection>
+</subsection>
+<subsection id="ss24" level="1">
+<heading id="h23" level="1">4&ensp;Conclusion</heading>
+<p>If one considers all models and proposals that have been put forward in the analysis of Australian languages, the label &lsquo;secondary predicate&rsquo; has been used for a wide range of construction types, including lexical nominal expressions coreferential with the &lsquo;pronominal arguments&rsquo; in non-configurational languages, &lsquo;part&rsquo; expressions in external possession constructions, and many types of adjuncts (including subordinate clauses) which exhibit case agreement with one of the arguments of the main predicate. These include a number of expressions that are traditionally analyzed as adverbials on semantic grounds. Australian languages, thus, provide a good test case for any theory of secondary predication, and show particularly clearly that despite the considerable research efforts in recent years, we still lack a universally applicable definition of secondary predicates.</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss25" level="1" type="references">
+<heading id="h24" level="1">REFERENCES</heading>
+<reference id="b7" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Aarts</surname><x>, </x><forenames>Bas</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Secondary Predicates in English</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Verb in Contemporary English: Theory and Description</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Bas</forenames><x> </x><surname>Aarts</surname>
+</name><x> and </x><name type="editor">
+<forenames>Charles F.</forenames><x> </x><surname>Meyer</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">75</page><x>&ndash;</x><page type="last">101</page><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference id="b62" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Austin</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981a</date><x>). </x><title type="book">A Grammar of Diyari, South Australia<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference id="b37" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Austin</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981b</date><x>). </x><title type="document">Switch-Reference in Australia</title><x>. </x><title type="journal">Language</title><x> </x><volume>57</volume><x>: </x><page type="first">309</page><x>&ndash;</x><page type="last">334</page><x>.</x>
+</reference>
+<reference id="b74" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Austin</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><address>Word Order in a Free Word Order Language</address><x>: </x><publisher>The Case of Jiwarli</publisher>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Forty Years On: Ken Hale and Australian Languages</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jane</forenames><x> </x><surname>Simpson</surname>
+</name><x>, </x><name type="editor">
+<forenames>David</forenames><x> </x><surname>Nash</surname>
+</name><x>, </x><name type="editor">
+<forenames>Mary</forenames><x> </x><surname>Laughren</surname>
+</name><x>, </x><name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Austin</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Barry</forenames><x> </x><surname>Alpher</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">305</page><x>&ndash;</x><page type="last">323</page><x>. </x><address>Canberra</address><x>: </x><publisher>Australian National University</publisher><x>.</x>
+</reference>
+<reference id="b72" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Austin</surname><x>, </x><forenames>Peter</forenames>
+</name><x> and </x><name type="author">
+<forenames>Joan</forenames><x> </x><surname>Bresnan</surname>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="document">Non-Configurationality in Australian Aboriginal Languages</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>14</volume><x>: </x><page type="first">215</page><x>&ndash;</x><page type="last">268</page><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Baker</surname><x>, </x><forenames>Mark</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991a</date><x>). </x><title type="document">On Some Subject/Object Non-Asymmetries in Mohawk</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>9</volume><x>: </x><page type="first">537</page><x>&ndash;</x><page type="last">576</page><x>.</x>
+</reference>
+<reference id="b27" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Baker</surname><x>, </x><forenames>Mark</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="book">The Polysynthesis Parameter<x>.</x>
+</title><x> </x><address>Oxford/New York</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference id="b73" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Baker</surname><x>, </x><forenames>Mark</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">The Natures of Nonconfigurationality</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Handbook of Contemporary Syntactic Theory</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<surname>Mark</surname><x> </x><forenames>Baltin</forenames>
+</name><x> and </x><name type="editor">
+<surname>Chris</surname><x> </x><forenames>Collins</forenames>
+</name>
+<miscellaneoustext> (eds.)</miscellaneoustext><x>, </x>
+</namegroup>
+<page type="first">407</page><x>&ndash;</x><page type="last">438</page><x>. </x><address>Oxford</address><x>: </x><publisher>Blackwell</publisher><x>.</x>
+</reference>
+<reference id="b24" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bittner</surname><x>, </x><forenames>Maria</forenames>
+</name><x> and </x><name type="author">
+<forenames>Ken</forenames><x> </x><surname>Hale</surname>
+</name>
+</namegroup><x> (</x><date date="1996">1996a</date><x>). </x><title type="document">Ergativity: Toward a Theory of a Heterogeneous Class</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>27</volume><x>: </x><page type="first">531</page><x>&ndash;</x><page type="last">604</page><x>.</x>
+</reference>
+<reference id="b25" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bittner</surname><x>, </x><forenames>Maria</forenames>
+</name><x> and </x><name type="author">
+<forenames>Ken</forenames><x> </x><surname>Hale</surname>
+</name>
+</namegroup><x> (</x><date date="1996">1996b</date><x>). </x><title type="document">The Structural Determination of Case and Agreement</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>27</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">68</page><x>.</x>
+</reference>
+<reference id="b67" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Blake</surname><x>, </x><forenames>Barry<x> </x>J<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">Structure and Word Order in Kalkatungu: The Anatomy of a Flat Language</title><x>. </x><title type="journal">Australian Journal of Linguistics</title><x> </x><volume>3</volume><x>: </x><page type="first">143</page><x>&ndash;</x><page type="last">176</page><x>.</x>
+</reference>
+<reference id="b81" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Blake</surname><x>, </x><forenames>Barry<x> </x>J<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="book">Australian Aboriginal Grammar<x>.</x>
+</title><x> </x><address>London</address><x>: </x><publisher>Croom Helm</publisher><x>.</x>
+</reference>
+<reference id="b17" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Blake</surname><x>, </x><forenames>Barry<x> </x>J<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Redefining Pama-Nyungan: Towards the Prehistory of Australian Languages</title><x>. </x><title type="journal">Aboriginal Linguistics</title><x> </x><volume>1</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">90</page><x>.</x>
+</reference>
+<reference id="b53" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Carlson</surname><x>, </x><forenames>Gregory<x> </x>N<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977a</date>
+<miscellaneoustext>). Reference to Kinds in English. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Amherst, University of Massachusetts</address><x>.</x>
+</reference>
+<reference id="b82" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chappell</surname><x>, </x><forenames>Hilary</forenames>
+</name><x> and </x><name type="author">
+<forenames>William</forenames><x> </x><surname>McGregor</surname>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="book">The Grammar of Inalienability: A Typological Perspective on Body Part Terms and the Part&ndash;Whole Relation</title><x>. </x><address>Berlin</address><x>: </x><publisher>Mouton de Gruyter</publisher><x>.</x>
+</reference>
+<reference id="b35" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Dench</surname><x>, </x><forenames>Alan<x> </x>C<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Complex Sentences in Martuthunira</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Complex Sentence Constructions in Australian Languages</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Austin</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">97</page><x>&ndash;</x><page type="last">138</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Dench</surname><x>, </x><forenames>Alan<x> </x>C<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="book">Martuthunira: A Language of the Pilbara Region of Western Australia</title><x>. </x><address>Canberra</address><x>: </x><publisher>Australian National University</publisher><x>.</x>
+</reference>
+<reference id="b75" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Dench</surname><x>, </x><forenames>Alan<x> </x>C<x>.</x>
+</forenames>
+</name><x> and </x><name type="author">
+<forenames>Nicholas</forenames><x> </x><surname>Evans</surname>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Multiple Case-Marking in Australian Languages</title><x>. </x><title type="journal">Australian Journal of Linguistics</title><x> </x><volume>8</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">47</page><x>.</x>
+</reference>
+<reference id="b21" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Dixon</surname><x>, </x><forenames>Robert<x> </x>M<x>. </x>W<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date><x>). </x><title type="document">Ergativity</title><x>. </x><title type="journal">Language</title><x> </x><volume>55</volume><x>: </x><page type="first">59</page><x>&ndash;</x><page type="last">138</page><x>.</x>
+</reference>
+<reference id="b78" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Dixon</surname><x>, </x><forenames>Robert<x> </x>M<x>. </x>W<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="book">The Languages of Australia<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference id="b22" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Dixon</surname><x>, </x><forenames>Robert<x> </x>M<x>. </x>W<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">Ergativity<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference id="b19" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Dixon</surname><x>, </x><forenames>Robert<x> </x>M<x>. </x>W<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="book">The Rise and Fall of Languages<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference id="b20" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Dixon</surname><x>, </x><forenames>Robert<x> </x>M<x>. </x>W<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="book">Australian Languages: Their Nature and Development</title><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference id="b4" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Dowty</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date><x>). </x><title type="book">Word Meaning and Montague Grammar: The Semantics of Verbs and Times in Generative Semantics and Montague&apos;s PTQ</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Reidel</publisher><x>.</x>
+</reference>
+<reference id="b18" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Evans</surname><x>, </x><forenames>Nicholas</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Arguments for Pama-Nyungan as a Genetic Subgroup, with Particular Reference to Initial Laminalization</title><x>. </x><title type="journal">Aboriginal Linguistics</title><x> </x><volume>1</volume><x>: </x><page type="first">91</page><x>&ndash;</x><page type="last">110</page><x>.</x>
+</reference>
+<reference id="b58" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Evans</surname><x>, </x><forenames>Nicholas</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="book">A Grammar of Kayardild<x>.</x>
+</title><x> </x><address>Berlin</address><x>: </x><publisher>Mouton de Gruyter</publisher><x>.</x>
+</reference>
+<reference id="b90" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Evans</surname><x>, </x><forenames>Nicholas</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Role or Cast? Noun Incorporation and Complex Predicates in Mayali</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Complex Predicates</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Alex</forenames><x> </x><surname>Alsina</surname>
+</name><x>, </x><name type="editor">
+<forenames>Joan</forenames><x> </x><surname>Bresnan</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Sells</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">397</page><x>&ndash;</x><page type="last">430</page><x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications</publisher><x>.</x>
+</reference>
+<reference id="b12" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Geuder</surname><x>, </x><forenames>Wilhelm</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date>
+<miscellaneoustext>). Oriented Adverbs: Issues in the Lexical Semantics of Event Adverbs. PhD dissertation</miscellaneoustext><x>, </x>
+<address>University of Konstanz</address><x>.</x>
+</reference>
+<reference id="b61" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Goddard</surname><x>, </x><forenames>Cliff</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="book">A Grammar of Yankunytjatjara<x>.</x>
+</title><x> </x><address>Alice Springs</address><x>: </x><publisher>Institute for Aboriginal Development</publisher><x>.</x>
+</reference>
+<reference id="b76" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hale</surname><x>, </x><forenames>Ken</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981a</date><x>). </x><title type="book">On the Position of Walbiri in a Typology of the Base<x>.</x>
+</title><x> </x><address>Bloomington</address><x>: </x><publisher>Indiana University Linguistics Club</publisher><x>.</x>
+</reference>
+<reference id="b83" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hale</surname><x>, </x><forenames>Ken</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981b</date><x>). </x><title type="document">Preliminary Remarks on the Grammar of Part&ndash;Whole Relations in Warlpiri</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Studies in Pacific Languages and Cultures in Honor of Bruce Biggs</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jim</forenames><x> </x><surname>Hollyman</surname>
+</name><x> and </x><name type="editor">
+<forenames>Andrew</forenames><x> </x><surname>Pawley</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">333</page><x>&ndash;</x><page type="last">344</page><x>. </x><address>Auckland</address><x>: </x><publisher>Linguistic Society of New Zealand</publisher><x>.</x>
+</reference>
+<reference id="b38" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hale</surname><x>, </x><forenames>Ken</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">Some Essential Features of Warlpiri Verbal Clauses</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers in Warlpiri Grammar: In Memory of Lothar Jagst</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Stephen</forenames><x> </x><surname>Swartz</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">217</page><x>&ndash;</x><page type="last">315</page><x>. </x><address>Berrimah, NT</address><x>: </x><publisher>SIL-AAB</publisher><x>.</x>
+</reference>
+<reference id="b56" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hale</surname><x>, </x><forenames>Ken</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">Warlpiri and the Grammar of Non-Configurational Languages</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>1</volume><x>: </x><page type="first">5</page><x>&ndash;</x><page type="last">47</page><x>.</x>
+</reference>
+<reference id="b39" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hale</surname><x>, </x><forenames>Ken</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Notes on World View and Semantic Categories: Some Warlpiri Examples</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Features and Projections</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Pieter</forenames><x> </x><surname>Muysken</surname>
+</name><x> and </x><name type="editor">
+<forenames>Henk C.</forenames><x> </x><surnameprefix>van</surnameprefix><x> </x><surname>Riemsdijk</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">233</page><x>&ndash;</x><page type="last">254</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b68" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hale</surname><x>, </x><forenames>Ken</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">On Nonconfigurational Structures</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Configurationality: The Typology of Asymmetries</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>L&aacute;szl&oacute;</forenames><x> </x><surname>Mar&aacute;cz</surname>
+</name><x> and </x><name type="editor">
+<surname>
+</surname>
+<forenames>Pieter</forenames>
+</name>
+<miscellaneoustext> Muysken (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">293</page><x>&ndash;</x><page type="last">300</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b69" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hale</surname><x>, </x><forenames>Ken</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Basic Word Order in Two &lsquo;Free Word Order&rsquo; Languages</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Pragmatics of Word Order Flexibility</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Doris</forenames><x> </x><surname>Payne</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">63</page><x>&ndash;</x><page type="last">82</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b46" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hale</surname><x>, </x><forenames>Ken</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">Core Structures and Adjuncts in Walpiri Syntax</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Studies on Scrambling</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Norbert</forenames><x> </x><surname>Corver</surname>
+</name><x> and </x><name type="editor">
+<forenames>Henk C.</forenames><x> </x><surnameprefix>van</surnameprefix><x> </x><surname>Riemsdijk</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">185</page><x>&ndash;</x><page type="last">219</page><x>. </x><address>Berlin</address><x>: </x><publisher>Mouton de Gruyter</publisher><x>.</x>
+</reference>
+<reference id="b34" type="book">
+<namegroup type="author">
+<name type="author">
+<forenames>Hale</forenames><x>, </x><surname>Ken</surname>
+</name><x>, </x><name type="author">
+<forenames>Mary</forenames><x> </x><surname>Laughren</surname>
+</name>
+<x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>Jane</forenames><x> </x><surname>Simpson</surname>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Warlpiri</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Syntax: An International Handbook of Contemporary Research Vol. 2</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Joachim</forenames><x> </x><surname>Jacobs</surname>
+</name><x>, </x><name type="editor">
+<forenames>Arnim<x> </x>von</forenames><x> </x><surname>Stechow</surname>
+</name><x>, </x><name type="editor">
+<forenames>Wolfgang</forenames><x> </x><surname>Sternefeld</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Theo</forenames><x> </x><surname>Vennemann</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">1430</page><x>&ndash;</x><page type="last">1451</page><x>. </x><address>Berlin/New York</address><x>: </x><publisher>Walter de Gruyter</publisher><x>.</x>
+</reference>
+<reference id="b2" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Halliday</surname><x>, </x><forenames>Michael</forenames>
+</name>
+</namegroup><x> (</x><date date="1967">1967</date><x>). </x><title type="document">Notes on Transitivity, Part I</title><x>. </x><title type="journal">Journal of Linguistics</title><x> </x><volume>3</volume><x>: </x><page type="first">37</page><x>&ndash;</x><page type="last">81</page><x>.</x>
+</reference>
+<reference id="b85" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Harvey</surname><x>, </x><forenames>Mark</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="document">Body Parts in Warray</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Grammar of Inalienability: A Typological Perspective on Body Part Terms and the Part&ndash;Whole Relation</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Hilary</forenames><x> </x><surname>Chappell</surname>
+</name><x> and </x><name type="editor">
+<forenames>William</forenames><x> </x><surname>McGregor</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">111</page><x>&ndash;</x><page type="last">153</page><x>. </x><address>Berlin</address><x>: </x><publisher>Mouton de Gruyter</publisher><x>.</x>
+</reference>
+<reference id="b57" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Haspelmath</surname><x>, </x><forenames>Martin</forenames>
+</name><x> and </x><name type="author">
+<forenames>Ekkehard</forenames><x> </x><surname>K&ouml;nig</surname>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="book">Converbs in Cross-Linguistic Perspective: Structure and Meaning of Adverbial Verb Forms</title><x>. </x><address>Berlin</address><x>: </x><publisher>Mouton de Gruyter</publisher><x>.</x>
+</reference>
+<reference id="b26" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Heath</surname><x>, </x><forenames>Jeffrey</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="book">Functional Grammar of Nunggubuyu<x>.</x>
+</title><x> </x><address>Canberra</address><x>: </x><publisher>Australian Institute of Aboriginal Studies</publisher><x>.</x>
+</reference>
+<reference id="b71" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Heath</surname><x>, </x><forenames>Jeffrey</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Syntactic and Lexical Aspects of Nonconfigurationality in Nunggubuyu (Australia)</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>4</volume><x>: </x><page type="first">375</page><x>&ndash;</x><page type="last">408</page><x>.</x>
+</reference>
+<reference id="b86" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Himmelmann</surname><x>, </x><forenames>Nikolaus<x> </x>P<x>.</x>
+</forenames>
+</name><x> and </x><name type="author">
+<forenames>Eva</forenames><x> </x><surname>Schultze-Berndt</surname>
+</name>
+</namegroup><x> (</x><date date="2005">2005</date><x>). </x><title type="document">Issues in the Syntax and Semantics of Participant-Oriented Adjuncts: An Introduction</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Secondary Predication and Adverbial Modification: The Typology of Depictives</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Nikolaus P.</forenames><x> </x><surname>Himmelmann</surname>
+</name><x> and </x><name type="editor">
+<forenames>Eva</forenames><x> </x><surname>Schultze-Berndt</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">1</page><x>&ndash;</x><page type="last">67</page><x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference id="b91" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hudson</surname><x>, </x><forenames>Joyce</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978</date><x>). </x><title type="book">The Core of Walmatjari Grammar<x>.</x>
+</title><x> </x><address>Canberra</address><x>: </x><publisher>Australian Institute of Aboriginal Studies</publisher><x>.</x>
+</reference>
+<reference id="b10" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Jackendoff</surname><x>, </x><forenames>Ray</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972</date><x>). </x><title type="book">Semantic Interpretation in Generative Grammar<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b70" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Jelinek</surname><x>, </x><forenames>Eloise</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">Empty Categories and Non-Configurational Languages</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>2</volume><x>: </x><page type="first">39</page><x>&ndash;</x><page type="last">76</page><x>.</x>
+</reference>
+<reference id="b59" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Keen</surname><x>, </x><forenames>Sandra</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">Yukulta</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Handbook of Australian Languages. Vol. 3</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Robert M. W.</forenames><x> </x><surname>Dixon</surname>
+</name><x> and </x><name type="editor">
+<forenames>Barry</forenames><x> </x><surname>Blake</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">191</page><x>&ndash;</x><page type="last">304</page><x>. </x><address>Canberra</address><x>: </x><publisher>Australian National University Press</publisher><x>.</x>
+</reference>
+<reference id="b48" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Keenan</surname><x>, </x><forenames>Edward</forenames>
+</name><x> and </x><name type="author">
+<forenames>Bernard</forenames><x> </x><surname>Comrie</surname>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date><x>). </x><title type="document">Noun Phrase Accessibility and Universal Grammar</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>8</volume><x>: </x><page type="first">63</page><x>&ndash;</x><page type="last">99</page><x>.</x>
+</reference>
+<reference id="b65" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Kofod</surname><x>, </x><forenames>Frances<x> </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date>
+<miscellaneoustext>). Kija Learner&apos;s Grammar. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Halls Creek, WA, Kimberley Language Resource Centre</address><x>.</x>
+</reference>
+<reference id="b55" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kratzer</surname><x>, </x><forenames>Angelika</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Stage-Level and Individual-Level Predicates</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Generic Book</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Gregory<x> </x>N<x>.</x>
+</forenames><x> </x><surname>Carlson</surname>
+</name><x> and </x><name type="editor">
+<forenames>Francis<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Pelletier</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">125</page><x>&ndash;</x><page type="last">175</page><x>. </x><address>Chicago</address><x>: </x><publisher>University of Chicago Press</publisher><x>.</x>
+</reference>
+<reference id="b14" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Larson</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Some Issues in Verb Serialization</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Serial Verbs: Grammatical, Comparative and Cognitive Approaches</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Claire</forenames><x> </x><surname>Lefebvre</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">185</page><x>&ndash;</x><page type="last">210</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b51" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Laughren</surname><x>, </x><forenames>Mary</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">The Configurationality Parameter and Warlpiri</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Configurationality: The Typology of Asymmetries</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>L&aacute;szl&oacute;</forenames><x> </x><surname>Mar&aacute;cz</surname>
+</name><x> and </x><name type="editor">
+<forenames>Pieter</forenames><x> </x><surname>Muysken</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">319</page><x>&ndash;</x><page type="last">354</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b45" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Laughren</surname><x>, </x><forenames>Mary</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Secondary Predication as a Diagnostic of Underlying Structure in Pama-Nyungan Languages</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Thematic Structure: Its Role in Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Iggy</forenames><x> </x><surname>Roca</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">199</page><x>&ndash;</x><page type="last">246</page><x>. </x><address>Berlin</address><x>: </x><publisher>Mouton de Gruyter</publisher><x>.</x>
+</reference>
+<reference id="b32" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Legendre</surname><x>, </x><forenames>G&eacute;raldine</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">French Impersonal Constructions</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>8</volume><x>: </x><page type="first">81</page><x>&ndash;</x><page type="last">128</page><x>.</x>
+</reference>
+<reference id="b13" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Maienborn</surname><x>, </x><forenames>Claudia</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">On the Position and Interpretation of Locative Modifiers</title><x>. </x><title type="journal">Natural Language Semantics</title><x> </x><volume>9</volume><x>: </x><page type="first">191</page><x>&ndash;</x><page type="last">240</page><x>.</x>
+</reference>
+<reference id="b11" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>McConnell-Ginet</surname><x>, </x><forenames>Sally</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">Adverbs and Logical Form</title><x>. </x><title type="journal">Language</title><x> </x><volume>58</volume><x>: </x><page type="first">144</page><x>&ndash;</x><page type="last">184</page><x>.</x>
+</reference>
+<reference id="b79" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>McGregor</surname><x>, </x><forenames>William</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">Body Parts in Kuniyanti Clause Grammar</title><x>. </x><title type="journal">Australian Journal of Linguistics</title><x> </x><volume>5</volume><x>: </x><page type="first">209</page><x>&ndash;</x><page type="last">232</page><x>.</x>
+</reference>
+<reference id="b92" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>McGregor</surname><x>, </x><forenames>William</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="book">A Functional Grammar of Gooniyandi<x>.</x>
+</title><x> </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b77" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>McGregor</surname><x>, </x><forenames>William</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992a</date><x>). </x><title type="document">The Noun Phrase in (Some) Australian Languages: A Reply to Mark Harvey</title><x>. </x><title type="journal">Australian Journal of Linguistics</title><x> </x><volume>12</volume><x>: </x><page type="first">315</page><x>&ndash;</x><page type="last">319</page><x>.</x>
+</reference>
+<reference id="b49" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>McGregor</surname><x>, </x><forenames>William</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992b</date><x>). </x><title type="document">The Semantics of Ergative Marking in Gooniyandi</title><x>. </x><title type="journal">Linguistics</title><x> </x><volume>30</volume><x>: </x><page type="first">275</page><x>&ndash;</x><page type="last">318</page><x>.</x>
+</reference>
+<reference id="b29" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>McGregor</surname><x>, </x><forenames>William</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="book">Semiotic Grammar<x>.</x>
+</title><x> </x><address>Oxford</address><x>: </x><publisher>Clarendon Press</publisher><x>.</x>
+</reference>
+<reference id="b50" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>McGregor</surname><x>, </x><forenames>William</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">&lsquo;Optional&rsquo; Ergative Marking in Gooniyandi Revisited: Implications to the Theory of Marking</title><x>. </x><title type="journal">Leuvense Bijdragen</title><x> </x><volume>87</volume><x>: </x><page type="first">491</page><x>&ndash;</x><page type="last">534</page><x>.</x>
+</reference>
+<reference id="b80" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>McGregor</surname><x>, </x><forenames>William</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">External Possession Constructions in Nyulnyulan</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">External Possession</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Doris</forenames><x> </x><surname>Payne</surname>
+</name><x> and </x><name type="editor">
+<forenames>Immanuel</forenames><x> </x><surname>Barshi</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">429</page><x>&ndash;</x><page type="last">448</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b30" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>McGregor</surname><x>, </x><forenames>William</forenames>
+</name>
+</namegroup><x> (</x><date date="2005">2005</date><x>). </x><title type="document">Quantifying Depictive Secondary Predicates in Australian Languages</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Secondary Predication and Adverbial Modification: The Typology of Depictives</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Nikolaus<x> </x>P<x>.</x>
+</forenames><x> </x><surname>Himmelmann</surname>
+</name><x> and </x><name type="editor">
+<forenames>Eva</forenames><x> </x><surname>Schultze-Berndt</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">173</page><x>&ndash;</x><page type="last">200</page><x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference id="b28" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Mel&rsquo;&#x010D;uk</surname><x>, </x><forenames>Igor<x> </x>A<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="book">Dependency Syntax: Theory and Practice</title><x>. </x><address>Albany</address><x>: </x><publisher>State University of New York Press</publisher><x>.</x>
+</reference>
+<reference id="b42" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Merlan</surname><x>, </x><forenames>Francesca<x> </x>C<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">A Grammar of Wardaman: A Language of the Northern Territory of Australia</title><x>. </x><address>Berlin</address><x>: </x><publisher>Mouton</publisher><x>.</x>
+</reference>
+<reference id="b87" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>M&uuml;ller-Bardey</surname><x>, </x><forenames>Thomas</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Kopr&auml;dikation als Grundlegende Syntaktische Operation</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Internationales Interdisziplin&auml;res Kolloquium &ldquo;Sprache und Denken: Variation und Invarianz in Linguistik und Nachbardisziplinen,&rdquo; Lenzburg/Schweiz, 16.&minus;19. Mai 1989. Vol. I</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Hansjakob</forenames><x> </x><surname>Seiler</surname>
+</name><x>, </x><name type="editor">
+<forenames>Elfie</forenames><x> </x><surname>Konrad</surname>
+</name><x>, and </x><name type="editor">
+<surname>Birgit</surname><x> </x><forenames>Schwarze</forenames>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">1</page><x>&ndash;</x><page type="last">20</page><x>. </x><address>Cologne</address><x>: </x><publisher>University of Cologne</publisher><x>.</x>
+</reference>
+<reference id="b31" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Napoli</surname><x>, </x><forenames>Donna-Jo</forenames>
+</name>
+</namegroup><x> (</x><date date="1975">1975</date><x>). </x><title type="document">A Global Agreement Phenomenon</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>3</volume><x>: </x><page type="first">413</page><x>&ndash;</x><page type="last">435</page><x>.</x>
+</reference>
+<reference id="b63" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Nash</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">Warlpiri Preverbs and Verb Roots</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers in Warlpiri Grammar: In Memory of Lothar Jagst</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Stephen</forenames><x> </x><surname>Swartz</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">165</page><x>&ndash;</x><page type="last">216</page><x>. </x><address>Berrimah, NT</address><x>: </x><publisher>SIL-AAB</publisher><x>.</x>
+</reference>
+<reference id="b60" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Nash</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="book">Topics in Warlpiri Grammar</title><x>. </x><address>New York</address><x>: </x><publisher>Garland</publisher><x>.</x>
+</reference>
+<reference id="b9" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Nichols</surname><x>, </x><forenames>Johanna</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978</date><x>). </x><title type="document">Secondary Predicates</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the the Fourth Annual Meeting of the Berkeley Linguistics Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jeri<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Jaeger</surname>
+</name><x>, </x><name type="editor">
+<forenames>Anthony<x> </x>C<x>.</x>
+</forenames><x> </x><surname>Woodbury</surname>
+</name><x>, </x><name type="editor">
+<forenames>Farrell</forenames><x> </x><surname>Ackerman</surname>
+</name><x>, </x><etal>et al.</etal>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">114</page><x>&ndash;</x><page type="last">127</page><x>. </x><address>Berkeley</address><x>: </x><publisher>Berkeley Linguistics Society</publisher><x>.</x>
+</reference>
+<reference id="b44" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Nordlinger</surname><x>, </x><forenames>Rachel</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="book">Constructive Case: Evidence from Australian Languages</title><x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications</publisher><x>.</x>
+</reference>
+<reference id="b84" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Ogawa</surname><x>, </x><forenames>Yoshiki</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">The Stage/Individual Distinction and (In)alienable Possession</title><x>. </x><title type="journal">Language</title><x> </x><volume>77</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">25</page><x>.</x>
+</reference>
+<reference id="b6" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Plank</surname><x>, </x><forenames>Frans</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">Pr&auml;dikativ und Kopr&auml;dikativ</title><x>. </x><title type="journal">Zeitschrift f&uuml;r Germanistische Linguistik</title><x> </x><volume>13</volume><x>: </x><page type="first">154</page><x>&ndash;</x><page type="last">185</page><x>.</x>
+</reference>
+<reference id="b36" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Plank</surname><x>, </x><forenames>Frans</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="book">Double Case: Agreement by Suffixaufnahme</title><x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference id="b43" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Schultze-Berndt</surname><x>, </x><forenames>Eva</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date>
+<miscellaneoustext>). Simple and Complex Verbs in Jaminjung: A Study of Event Categorisation in an Australian Language. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Nijmegen</address><x>.</x>
+</reference>
+<reference id="b8" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Schultze-Berndt</surname><x>, </x><forenames>Eva</forenames>
+</name><x> and </x><name type="author">
+<forenames>Nikolaus<x> </x>P<x>.</x>
+</forenames><x> </x><surname>Himmelmann</surname>
+</name>
+</namegroup><x> (</x><date date="2004">2004</date><x>). </x><title type="document">Depictive Secondary Predicates in Cross-Linguistic Perspective</title><x>. </x><title type="journal">Linguistic Typology</title><x> </x><volume>8</volume><x>: </x><page type="first">59</page><x>&ndash;</x><page type="last">131</page><x>.</x>
+</reference>
+<reference id="b23" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Silverstein</surname><x>, </x><forenames>Michael</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="document">Hierarchy of Features and Ergativity</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Grammatical Categories in Australian Languages</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Robert<x> </x>M<x>. </x>W<x>.</x>
+</forenames><x> </x><surname>Dixon</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">112</page><x>&ndash;</x><page type="last">171</page><x>. </x><address>Canberra</address><x>: </x><publisher>Australian Institute of Aboriginal Studies</publisher><x>.</x>
+</reference>
+<reference id="b41" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Simpson</surname><x>, </x><forenames>Jane</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Case and Complementiser Suffixes in Warlpiri</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Complex Sentence Constructions in Australian Languages</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Austin</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">205</page><x>&ndash;</x><page type="last">218</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b33" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Simpson</surname><x>, </x><forenames>Jane</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="book">Warlpiri Morpho-Syntax: A Lexicalist Approach</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b3" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Simpson</surname><x>, </x><forenames>Jane</forenames>
+</name>
+</namegroup><x> (</x><date date="2005">2005</date><x>). </x><title type="document">Depictives in English and Warlpiri</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Secondary Predication and Adverbial Modification: Crosslinguistic Explorations in the Syntax and Semantics of Depictives</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Nikolaus<x> </x>P<x>.</x>
+</forenames><x> </x><surname>Himmelmann</surname>
+</name><x> and </x><name type="editor">
+<forenames>Eva</forenames><x> </x><surname>Schultze-Berndt</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>Oxford</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference id="b40" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Simpson</surname><x>, </x><forenames>Jane</forenames>
+</name><x> and </x><name type="author">
+<forenames>Joan</forenames><x> </x><surname>Bresnan</surname>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">Control and Obviation in Warlpiri</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>1</volume><x>: </x><page type="first">49</page><x>&ndash;</x><page type="last">64</page><x>.</x>
+</reference>
+<reference id="b52" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Speas</surname><x>, </x><forenames>Margaret</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="book">Phrase Structure in Natural Language<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b54" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Stump</surname><x>, </x><forenames>Gregory</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="book">The Semantic Variability of Absolute Constructions<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Reidel</publisher><x>.</x>
+</reference>
+<reference id="b88" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Takezawa</surname><x>, </x><forenames>Koichi</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Secondary Predication and Locative/Goal Phrases</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Japanese Syntax in Comparative Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Nobuko</forenames><x> </x><surname>Hasegawa</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">45</page><x>&ndash;</x><page type="last">77</page><x>. </x><address>Tokyo</address><x>: </x><publisher>Kurosio</publisher><x>.</x>
+</reference>
+<reference id="b64" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Tsunoda</surname><x>, </x><forenames>Tasaku</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="book">The Djaru Language of Kimberley, W<x>.</x>A<x>.</x>
+</title><x> </x><address>Canberra</address><x>: </x><publisher>Australian National University</publisher><x>.</x>
+</reference>
+<reference id="b15" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Walsh</surname><x>, </x><forenames>Michael</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Overview of Indigenous Languages</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Language in Australia</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Suzanne</forenames><x> </x><surname>Romaine</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">27</page><x>&ndash;</x><page type="last">48</page><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference id="b16" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Walsh</surname><x>, </x><forenames>Michael</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">How Many Australian Languages Were There?</title>
+<miscellaneoustext> In</miscellaneoustext><x>: </x>
+<title type="book">Boundary Rider: Studies in the Lexicology and Comparative Linguistics of Australian Languages</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Darrell<x> </x>T<x>.</x>
+</forenames><x> </x><surname>Tryon</surname>
+</name><x> and </x><name type="editor">
+<forenames>Michael</forenames><x> </x><surname>Walsh</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">393</page><x>&ndash;</x><page type="last">412</page><x>. </x><address>Canberra</address><x>: </x><publisher>Australian National University</publisher><x>.</x>
+</reference>
+<reference id="b47" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Wilkins</surname><x>, </x><forenames>David<x> </x>P<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Switch Reference in Mparntwe Arrernte (Aranda): Form, Function and Problems of Identity</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Complex Sentence Constructions in Australian Languages</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Austin</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">141</page><x>&ndash;</x><page type="last">176</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Williams</surname><x>, </x><forenames>Edwin</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="document">Predication</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>11</volume><x>: </x><page type="first">203</page><x>&ndash;</x><page type="last">238</page><x>.</x>
+</reference>
+<reference id="b66" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Wilson</surname><x>, </x><forenames>Stephen</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="book">Coverbs and Complex Predicates in Wagiman<x>.</x>
+</title><x> </x><address>Stanford</address><x>: </x><publisher>CSLI Publications</publisher><x>.</x>
+</reference>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Winkler</surname><x>, </x><forenames>Susanne</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="book">Focus and Secondary Predication<x>.</x>
+</title><x> </x><address>Berlin</address><x>: </x><publisher>Mouton de Gruyter</publisher><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

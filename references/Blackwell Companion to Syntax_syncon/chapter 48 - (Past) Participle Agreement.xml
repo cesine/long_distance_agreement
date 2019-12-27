@@ -1,0 +1,3780 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo><contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="48"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 48 - (Past) Participle Agreement.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">493</page>
+<page type="last">521</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="2"/>
+<count type="table" count="43"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="64"/>
+<count type="page" count="29"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051123"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 48&ensp;Belletti: (Past) Participle Agreement</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 48&ensp;Belletti: (Past) Participle Agreement</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">48&ensp;(Past) Participle Agreement</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>ADRIANA</forenames><x> </x><surname>BELLETTI</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction: past participle agreement as Spec&ndash;Head agreement and clause structure</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Past participle agreement in Romance: basic data</p>
+</li>
+<li level="2">
+<number>2.1&ensp;</number>
+<p>Standard Italian</p>
+</li>
+<li level="2">
+<number>2.2&ensp;</number>
+<p>Standard French</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>Past participle agreement as Spec&ndash;Head agreement</p>
+</li>
+<li level="2">
+<number>3.1&ensp;</number>
+<p>Cliticization</p>
+</li>
+<li level="2">
+<number>3.2&ensp;</number>
+<p><i>Wh</i>-movement</p>
+</li>
+<li level="2">
+<number>3.3&ensp;</number>
+<p>Object agreement</p>
+</li>
+<li level="2">
+<number>3.4&ensp;</number>
+<p>On auxiliaries and past participle agreement</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>On some cases of past participle agreement in French and the comparison with Italian</p>
+</li>
+<li level="2">
+<number>4.1&ensp;</number>
+<p>On the A- vs. A&prime;-status of the specifier of the past participle projection</p>
+</li>
+<li level="2">
+<number>4.2&ensp;</number>
+<p>Past participle agreement and inherent Case</p>
+</li>
+<li level="2">
+<number>4.3&ensp;</number>
+<p>Past participle agreement and effects on the interpretation</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1 Introduction: past participle agreement as Spec&ndash;Head agreement and clause structure</heading>
+<p>One of the most influential developments of recent syntactic theory is the articulated and abstract conception of clause structure first inspired by <link rid="b1">Pollock&apos;s (1989</link>) article. Functional categories constitute the skeleton upon which clause structure is built up. Although abstract in a certain way, this conception can in fact be seen as very &lsquo;concrete&rsquo; as it explicitly translates into syntactic positions features which can be overtly realized in the inflectional morphology (or are indirectly signaled by the (fixed) position of different classes of adverbs; <link rid="b2">Cinque 1999</link>). The Infl node of <link rid="b3">Chomsky (1981</link>) has been internally analyzed in several distinct syntactic (morpho) heads. Typical labels for these heads directly mirror their morphological feature content: Agr(eement), T(ense), Asp(ect), M(ode), Voice, and Fin(itness) for those related to verbal morphology, and Neg(ation), Foc(us), Top(ic), and Force for those related to the informational content of the clause (cf. <link rid="b4 b5 b6">Belletti 1990, Zanuttini 1997, Rizzi 1997</link>, among many others of a quite extensive literature, according to the different aspects treated; and see <related relationship="sibling" type="samework"><externallink id="chapter 26 - Focus Movement (with Special Reference to Hungarian).xml" type="file">chapters 26</externallink></related> and <related relationship="sibling" type="samework"><externallink id="chapter 45 - N-Words and Negative Concord.xml" type="file">45</externallink></related>). A central role is played in the clause structure by Agr nodes and their projections, which constitute a kind of bridge between the purely lexical content of verbs and the nominal content of the arguments: they are the reflection of nominal features in the verbal morphology (on the role and status of Agreement projections, see <link rid="b7">Belletti 2001</link>).</p>
+<p>Although in the most recent developments of the Minimalist Program (MP) the status of Agr nodes in the functional (minimal) clause structure has been questioned as their feature content is not &lsquo;interpretable&rsquo; in the relevant minimalist sense (<link rid="b8 b9 b10">Chomsky 1995c, 2000, 2001b</link>), positions that (preminimalist) Agr nodes designate, although possibly differently labeled, should be preserved in order to account for the morphosyntactic interaction which agreement processes display. With this qualification in mind, we can continue to use the label Agr in the traditional way to refer to the syntactic position(s) where agreement relations are established between a nominal element projection and heads connected to verbal inflectional morphology.<link rid="fn1">
+<sup>1</sup></link>
+</p>
+<p>Between the late 1980s and mid 1990s, especially under the impulse of <link rid="b11">Kayne&apos;s (1989a</link>) article on Romance past participle agreement and Chomsky&apos;s first formulations of the Minimalist Program, the idea was put forth that clause structure should contain not only Agr-type projections related to the preverbal (high) subject position, but also other positions of this type in the lower part of the clause, closer to the VP area (see <link rid="b12 b7">Belletti 1994, 2001</link>; <link rid="b13">Cardinaletti 1997</link>; <link rid="b14">Cardinaletti and Roberts 2002</link>; for the proposal that the upper part of the clause could contain more than one single Agr-type position hosting the preverbal subject in its Spec). One of these positions, initially identified with the so-called object Case/agreement projection (AgrOP), later distinguished from it and sometimes labeled AgrPstPrtP, is the one where past participle agreement obtains (<link rid="b7">Belletti 2001</link>; <link rid="b15">Friedeman and Siloni 1997</link>).</p>
+<p>Under the view that agreement processes can be taken to be the reflex of an established Spec&ndash;Head relation inside an Agr projection, as revealed by (preverbal) subject agreement, <link rid="b11">Kayne (1989a</link>) has proposed that past participle agreement is no exception to this general characterization. As a first illustration, take the case of past participle agreement in structures containing an object clitic in Italian:</p>
+<p>(1)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>L&prime;</entry>
+<entry>ho</entry>
+<entry>conosciut<b>a</b>
+</entry>
+<entry>ieri.</entry>
+</row>
+<row><entry>her (CL)</entry>
+<entry>(I) have</entry>
+<entry>known (Fem, Sing)</entry>
+<entry>yesterday</entry>
+</row>
+<row><entry namest="col1" nameend="col4">&lsquo;I knew her yesterday.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Here, the past participle agrees with the moved object clitic. This agreement can be assumed to be obtained through the Spec&ndash;Head relation in the relevant low Agreement projection related to the past participial morphology, labeled AgrPstPrtP. The relation is established in the course of movement of the clitic to its final landing site in some (functional) head in the upper part of the clause. So, past participle agreement is a reflex of the displacement of the nominal projection determining agreement. Note, incidentally, that past participle agreement gives an interesting hint as to the way the process of cliticization takes place. The process must involve a first part of movement as a maximal projection of the projection containing the clitic, passing through the Spec of the relevant agreement projection. It is only toward the end of the process, and anyway after the passage through the Spec of the projection responsible for past participle agreement that the clitic can accomplish its movement as a head, ultimately incorporating into the (finite) verb (<link rid="b11">Kayne 1989a</link>; <link rid="b16">Rouveret 1989</link>; <link rid="b17">Sportiche 1996b</link>; <link rid="b18">Belletti 1999b</link>; <link rid="b19">Rizzi 2000b</link>; see <link rid="ss9">section 3.3</link>, for a discussion of the cases of object agreement which constitute apparent exceptions to this general pattern).</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2 Past participle agreement in Romance: basic data</heading>
+<p>Past participle agreement phenomena are widespread in Romance, with differences among the various languages and dialects. Some of these will be mentioned in the course of the discussion. The Romance languages most widely discussed in the literature in this connection are standard Italian and standard French. These two languages will also constitute the central focus of the following discussion.</p>
+<subsection id="ss4" level="2">
+<heading id="h3" level="2">2.1 Standard Italian</heading>
+<p>Past participle agreement holds in the following syntactic contexts:<link rid="fn2">
+<sup>2</sup></link>
+</p>
+<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>(a)</entry>
+<entry namest="col2" nameend="col7">With unaccusative verbs:</entry>
+</row>
+<row><entry>
+</entry>
+<entry>(2)</entry>
+<entry>Maria</entry>
+<entry>&egrave;</entry>
+<entry namest="col5" nameend="col7">partit<b>a</b>.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>Maria</entry>
+<entry>is</entry>
+<entry namest="col5" nameend="col7">left (Fem, Sing)</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry namest="col3" nameend="col7">&lsquo;Mary has left.&rsquo;</entry>
+</row>
+<row><entry>(b)</entry>
+<entry namest="col2" nameend="col7">With passive morphology, both on the passive auxiliary and on the lexical verb:</entry>
+</row>
+<row><entry>
+</entry>
+<entry>(3)</entry>
+<entry>Maria</entry>
+<entry>&egrave;</entry>
+<entry>stat<b>a</b>
+</entry>
+<entry namest="col6" nameend="col7">assunt<b>a</b>.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>Maria</entry>
+<entry>is</entry>
+<entry>been (Fem, Sing)</entry>
+<entry namest="col6" nameend="col7">hired (Fem, Sing)</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry namest="col3" nameend="col7">&lsquo;Mary has been hired.&rsquo;</entry>
+</row>
+<row><entry>(c)</entry>
+<entry namest="col2" nameend="col7">Under direct object cliticization:<link rid="fn3">
+<sup>3</sup></link>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>(i)</entry>
+<entry namest="col3" nameend="col7">obligatorily for the third person:</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>(4)</entry>
+<entry>a.</entry>
+<entry>L&prime;</entry>
+<entry>ho</entry>
+<entry>vist<b>a</b>/*o</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>her (CL)</entry>
+<entry>(I) have</entry>
+<entry>seen (Fem, Sing/*NonAgr<link rid="fn4">
+<sup>4</sup></link>)</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>b.</entry>
+<entry>Le</entry>
+<entry>ho</entry>
+<entry>vist<b>e</b>/*o</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>them (Fem, Pl)</entry>
+<entry>(I) have</entry>
+<entry>seen (Fem, Pl/*NonAgr)</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>c.</entry>
+<entry>Li</entry>
+<entry>ho</entry>
+<entry>vist<b>i</b>/*o</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>them (Fem, Pl)</entry>
+<entry>(I) have</entry>
+<entry>seen (Masc, Pl/*NonAgr)</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry namest="col5" nameend="col7">&lsquo;I have seen her/him/them.&rsquo;</entry>
+</row>
+<row><entry>
+</entry>
+<entry>(ii)</entry>
+<entry namest="col3" nameend="col7">optionally with the other persons:</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>(5)</entry>
+<entry>a.</entry>
+<entry>Mi/ti</entry>
+<entry>ha</entry>
+<entry>vist<b>a/o/o</b>.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>me/you (CL)</entry>
+<entry>(he) has</entry>
+<entry>seen (Fem, Sing/Masc Sing/NonAgr)</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>b.</entry>
+<entry>Ci/vi</entry>
+<entry>ha</entry>
+<entry>vist<b>e/i/o</b>.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>us/you</entry>
+<entry>(he) has</entry>
+<entry>seen (Fem Pl/Masc Pl/NonAgr)</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry namest="col5" nameend="col7">&lsquo;He has seen me/you/us/you.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tbltl>
+<p>(d)&emsp;With reflexive/reciprocal clitics (including the inherent reflexive/ergative <i>si</i>-constructions of Burzio (1986)):</p>
+</tbltl>
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>(6)</entry>
+<entry>a.</entry>
+<entry>Mi</entry>
+<entry>sono</entry>
+<entry>guardat<b>a</b>
+</entry>
+<entry>allo</entry>
+<entry>specchio.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>me (Refl, CL)</entry>
+<entry>(I) am</entry>
+<entry>watched</entry>
+<entry>to</entry>
+<entry>the mirror</entry>
+</row>
+<row><entry>
+</entry>
+<entry>b</entry>
+<entry>Ci</entry>
+<entry>siamo</entry>
+<entry>guardat<b>e</b>
+</entry>
+<entry>allo</entry>
+<entry>specchio.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>us (Refl, CL)</entry>
+<entry>are</entry>
+<entry>watched</entry>
+<entry>to</entry>
+<entry>the mirror</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry namest="col3" nameend="col7">&lsquo;I/we have watched myself/ourselves in the mirror.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tbltl>
+<p>(e)&emsp;With impersonal (passive) <i>si</i>:</p>
+</tbltl>
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>(7)</entry>
+<entry>Ultimamente</entry>
+<entry>si</entry>
+<entry>sono</entry>
+<entry>costruite/*o</entry>
+<entry>molte</entry>
+<entry>case.</entry>
+</row>
+<row><entry></entry>
+<entry>lately</entry>
+<entry>SI</entry>
+<entry>have been</entry>
+<entry>built</entry>
+<entry>many</entry>
+<entry>houses</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col7">&lsquo;Lately, many houses have been built.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</subsection>
+<subsection id="ss5" level="2">
+<heading id="h4" level="2">2.2 Standard French</heading>
+<p>Past participle agreement holds in similar contexts in French, with the following qualifications distinguishing it from the Italian paradigm:</p>
+<listgroup id="l2" type="a">
+<li level="1">
+<number>(a) </number>
+<p>With unaccusative verbs taking <i>&ecirc;tre</i> as aspectual auxiliary (hearable in some regional varieties; same constraint as in standard Italian except that <i>&ecirc;tre</i> is not the only auxiliary taken by unaccusative verbs in French; see <link rid="ss10">section 3.4</link>):</p>
+<p>
+<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>(8)</entry>
+<entry>Elles</entry>
+<entry>sont</entry>
+<entry>venu<b>es</b>.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>they (Fem, Pl)</entry>
+<entry>are</entry>
+<entry>come</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col4">&lsquo;They have come.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li level="1">
+<number>(b)&ensp; </number>
+<p>With passive morphology on the lexical verb only:</p>
+<p>
+<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<tbody>
+<row><entry>(9)</entry>
+<entry>Ces</entry>
+<entry>sottises</entry>
+<entry>ont</entry>
+<entry>&eacute;t&eacute;</entry>
+<entry>fait<b>es</b>
+</entry>
+<entry>par</entry>
+<entry>les</entry>
+<entry>&eacute;l&egrave;ves</entry>
+<entry>de</entry>
+<entry>cinqui&egrave;me.</entry>
+</row>
+<row><entry></entry>
+<entry>these</entry>
+<entry>stupid things (Fem, Pl)</entry>
+<entry>have</entry>
+<entry>been</entry>
+<entry>done (Fem, Pl)</entry>
+<entry>by</entry>
+<entry>the</entry>
+<entry>students</entry>
+<entry>from</entry>
+<entry>5th grade</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li level="1">
+<number>(c) </number>
+<p>Under direct object movement, via cliticization and <i>wh</i>-movement, optionally in both cases:<link rid="fn5">
+<sup>5</sup></link>
+</p>
+<p>
+<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry>(10)</entry>
+<entry>Ces</entry>
+<entry>sottises,</entry>
+<entry>Jean</entry>
+<entry>ne</entry>
+<entry>les</entry>
+<entry>a</entry>
+<entry>jamais</entry>
+<entry>fait<b>es/-</b>.</entry>
+</row>
+<row><entry></entry>
+<entry>these</entry>
+<entry>stupid things (Fem, Pl)</entry>
+<entry>Jean</entry>
+<entry>not</entry>
+<entry>them (CL)</entry>
+<entry>has</entry>
+<entry>ever</entry>
+<entry>done (Fem, Pl)</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col9">&lsquo;These stupid things, John has never done them.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry>(11)</entry>
+<entry>Voil&agrave;</entry>
+<entry>les</entry>
+<entry>sottises</entry>
+<entry>que</entry>
+<entry>Jean</entry>
+<entry>n&rsquo;aurait</entry>
+<entry>jamais</entry>
+<entry>fait<b>es/-</b>.</entry>
+</row>
+<row><entry></entry>
+<entry>here are</entry>
+<entry>the</entry>
+<entry>stupid things (Fem, Pl)</entry>
+<entry>that</entry>
+<entry>Jean</entry>
+<entry>wouldn&apos;t have</entry>
+<entry>ever</entry>
+<entry>done (Fem, Pl)</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col9">&lsquo;These are the stupid things that John would never have done.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li level="1">
+<number>(d)&ensp; </number>
+<p>With reflexive/reciprocal clitics (including the inherent reflexive/ergative <i>si</i>/<i>se</i>-constructions of <link rid="b20">Burzio (1986</link>), the so-called pronominal verbs of normative descriptions, both requiring <i>&ecirc;tre</i> as aspectual auxiliary, hence falling under case (a):</p>
+<p>
+<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>(12)</entry>
+<entry>Elles</entry>
+<entry>se</entry>
+<entry>sont</entry>
+<entry>repris<b>es</b>.</entry>
+</row>
+<row><entry></entry>
+<entry>they</entry>
+<entry>themselves</entry>
+<entry>have</entry>
+<entry>recovered</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col5">&lsquo;They have recovered.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>Beside these basic data there are other domains where past participle agreement gives rise to various complications. Let us consider standard Italian, where the phenomenon is clear as it always has a phonetic correlate. In transitive structures containing an overt direct object and a reflexive clitic corresponding to an indirect object (benefactive/dative), the past participle obligatorily agrees with the indirect reflexive clitic, hence with the subject:</p>
+<p>(13)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Maria</entry>
+<entry>si</entry>
+<entry>&egrave;</entry>
+<entry>lavat<b>a</b>/*o</entry>
+<entry>i</entry>
+<entry>capelli.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>Maria</entry>
+<entry>(to) herself</entry>
+<entry>is</entry>
+<entry>washed</entry>
+<entry>the</entry>
+<entry>hair</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col7">&lsquo;Maria washed her hair.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry>b.</entry>
+<entry>Gianni</entry>
+<entry>e</entry>
+<entry>Mario</entry>
+<entry>si</entry>
+<entry>sono</entry>
+<entry>strett<b>i</b>
+</entry>
+<entry>la</entry>
+<entry>mano.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>Gianni</entry>
+<entry>and</entry>
+<entry>Mario</entry>
+<entry>(to) themselves</entry>
+<entry>are</entry>
+<entry>shaken</entry>
+<entry>the</entry>
+<entry>hand</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col9">&lsquo;Gianni and Mario have shaken hands.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>However, if the direct object of sentences like (13) is cliticized, past participle agreement is with the direct object clitic:</p>
+<p>(14)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Maria</entry>
+<entry>se</entry>
+<entry>li</entry>
+<entry>&egrave;</entry>
+<entry>lavat<b>i</b>.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>Maria</entry>
+<entry>(to) herself</entry>
+<entry>them (CL, Masc, Pl)</entry>
+<entry>is</entry>
+<entry>washed (Masc, Pl)</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col6">&lsquo;Maria washed it.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry>b.</entry>
+<entry>Gianni</entry>
+<entry>e</entry>
+<entry>Mario</entry>
+<entry>se</entry>
+<entry>la</entry>
+<entry>sono</entry>
+<entry>strett<b>a</b>.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>Gianni</entry>
+<entry>and</entry>
+<entry>Mario</entry>
+<entry>(to) themselves</entry>
+<entry>her (Fem, CL, Sing)</entry>
+<entry>are</entry>
+<entry>shaken (Fem, Sing)</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col8">&lsquo;Gianni and Mario have shaken it.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A hierarchy seems operative according to which past participle agreement with the direct object clitic necessarily takes priority over agreement with the indirect object (reflexive) clitic. The same paradigm is preserved if the reflexive clitic corresponds to a benefactive:</p>
+<p>(15)&ensp;<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Maria/io</entry>
+<entry>si/mi</entry>
+<entry>&egrave;/sono</entry>
+<entry>lett<b>a</b>
+</entry>
+<entry>questi</entry>
+<entry>libri</entry>
+<entry>volentieri.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>Maria/I</entry>
+<entry>(to) herself/myself</entry>
+<entry>is/are</entry>
+<entry>read (Fem, Sing)</entry>
+<entry>these</entry>
+<entry>books</entry>
+<entry>gladly</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col8">&lsquo;Maria/I has/have read these books gladly for herself/myself.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>b.</entry>
+<entry>Maria/io</entry>
+<entry>se/me</entry>
+<entry>li</entry>
+<entry>&egrave;/sono</entry>
+<entry>lett<b>i</b>
+</entry>
+<entry>volentieri.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>Maria/I</entry>
+<entry>(to) herself/myself</entry>
+<entry>them(CL, Masc, Pl)</entry>
+<entry>is/are</entry>
+<entry>read (Masc, Pl)</entry>
+<entry>gladly</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col7">&lsquo;Maria/I have read them gladly for herself/myself.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b20">Burzio (1986</link>) states the operation of a hierarchy of this sort leaving the reasons for its existence as an open question. See <link rid="ss15">section 5</link> for further discussion and a proposal.</p>
+<p>Finally, past participle agreement with a direct object clitic is preserved and obligatory in standard Italian, also in so-called A(bsolute) S(mall) C(lauses):</p>
+<p>(16)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Conosciut<b>a</b>la, . . .</entry>
+</row>
+<row><entry>known (Fem, Sing) her (CL) . . .</entry>
+</row>
+<row><entry>&lsquo;Having known her . . .&rsquo;</entry>
+</row>
+<row><entry morerows="2">b.</entry>
+<entry>Incontrat<b>a</b>la, . . .</entry>
+</row>
+<row><entry>met (Fem, Sing) her (CL) . . .</entry>
+</row>
+<row><entry>&lsquo;Having met her . . .&rsquo;</entry>
+</row>
+<row><entry morerows="1">c.</entry>
+<entry>*<sup>?</sup>Conosciut<b>o</b>la, . . .</entry>
+</row>
+<row><entry>known her (CL)</entry>
+</row>
+<row><entry morerows="1">d.</entry>
+<entry>*<sup>?</sup>Incontrat<b>o</b>la, . . .</entry>
+</row>
+<row><entry>met her (CL) </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl> </insitu>
+</objectsource>
+</object>
+</p>
+<p>Note that here the clitic is an enclitic on the past participle.<link rid="fn6">
+<sup>6</sup></link>
+</p>
+</subsection>
+</subsection>
+<subsection id="ss6" level="1">
+<heading id="h5" level="1">3 Past participle agreement as Spec&ndash;Head agreement</heading>
+<p>As mentioned earlier, a partial reformulation of Kayne&apos;s influential approach to past participle agreement (PPA), originally formulated in terms of the relation government, interprets the occurrence of PPA as a consequence of passing through the Spec of the past participle projection of an element, typically the direct object, moving to some other position in the clause: the preverbal subject position in the case of unaccusatives and passives;<link rid="fn7">
+<sup>7</sup></link> the clitic landing site in the case of cliticization; the (left) periphery of the clause in the case of <i>wh</i>-movement. Clearly, the most salient and interesting feature of this approach is its unifying character which drastically simplifies the understanding of a complex pattern. Let us concentrate more closely on the agreement occurring under cliticization and <i>wh</i>-movement, leaving for <link rid="ss9">section 3.3</link> the discussion of some (apparent) cases of object agreement. <link rid="ss10">Section 3.4</link> addresses the issue of the (apparent) correlation between auxiliary selection and past participle agreement.</p>
+<subsection id="ss7" level="2">
+<heading id="h6" level="2">3.1 Cliticization</heading>
+<p>The described approach to past participle agreement requires a movement analysis of cliticization.<link rid="fn8">
+<sup>8</sup></link> The clitic projection in its movement to its final landing site in the upper part of the clause, passes through Spec of AgrPstPrt and triggers agreement in a way parallel to the one assumed for the case of preverbal subject&ndash;verb agreement in finite clauses. The only difference between the two cases is related to the nature of the past participial morphology which only manifests gender and number features and no feature person. Kayne&apos;s original account, as well as the subsequent literature on the topic, has typically left unexplained why such agreement process should be obligatory in some cases and optional in other cases which would otherwise meet the relevant configuration. Consider the difference in Italian, presented in <link rid="ss3">section 2</link>, between third-person clitics on the one side, obligatorily triggering past participle agreement, and first- and second-person clitics, doing so only optionally on the other. This pattern seems to identify an area of genuine optionality, also systematically manifested in the French paradigm of cliticization with clitics of all persons and numbers.</p>
+<p>The question is a complex one. Occurrence vs. non-occurrence of past participle agreement could in fact be a sign of different types of derivation: one involving passage through the Spec of the past participial projection, one not involving it (see <link rid="b21">Sportiche 1998</link>: ch. 3). Alternatively, the different agreement pattern could be related to other independent differences, internal to Italian and between Italian and French. The system elaborated in <link rid="b22">Guasti and Rizzi (2002</link>) can provide a way of making the relevant distinction. In that work, the proposal is put forth that overt manifestation of agreement should in general be correlated to morphological checking taking place in the syntax; in particular, as far as verbal agreement is concerned, to syntactic Verb movement. Suppose that the hypothesis is made that the internal structure of the Agr past participial projection is more articulated than hypothesized so far in that it could involve different designated positions for clitics of different persons, with first and second person higher than third person. A way of accounting for the way the optionality is manifested in Italian suggests itself. If syntactic V movement implementing morphological checking takes place obligatorily in the first Agr head, but only optionally in the others, past participle agreement is expected to be obligatory with third-person clitics only. The difference internal to Italian could thus find a reasonable account.<link rid="fn9">
+<sup>9</sup></link> As discussed in <link rid="b22">Guasti and Rizzi (2002</link>), this approach can also provide a way of accounting for the difference between Italian and French in this connection. As has been known since <link rid="b1">Pollock (1989</link>) and <link rid="b4">Belletti (1990</link>), the verb only moves optionally with non-finite morphology in French, while Verb movement is generalized in Italian. The optionality of past participle agreement with object clitics of all persons in French could then be reduced to a further manifestation of the optionality of non-finite Verb movement in this language.</p>
+</subsection>
+<subsection id="ss8" level="2">
+<heading id="h7" level="2">3.2 <roman>Wh-</roman>movement</heading>
+<p>As illustrated in <link rid="ss3">section 2</link>, a similar issue arises in the case of <i>wh</i>-movement. Taking into consideration standard French, this language optionally manifests past participle agreement under <i>wh</i>-movement ((10), (11)). In standard Italian, this type of agreement is never manifested, as the following contrasts indicate:</p>
+<p>(17)&ensp;<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*I</entry>
+<entry>libri</entry>
+<entry>che</entry>
+<entry>ho</entry>
+<entry>letti.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>the</entry>
+<entry>books (Masc, Pl)</entry>
+<entry>that</entry>
+<entry>(I) have</entry>
+<entry>read (Masc, Pl)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>I</entry>
+<entry>libri</entry>
+<entry>che</entry>
+<entry>ho</entry>
+<entry>letto.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>the</entry>
+<entry>books</entry>
+<entry>that</entry>
+<entry>(I) have</entry>
+<entry>read</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>c.</entry>
+<entry>*Quanti</entry>
+<entry>libri</entry>
+<entry>hai</entry>
+<entry>letti?</entry>
+</row>
+<row><entry>
+</entry>
+<entry>how many</entry>
+<entry>books</entry>
+<entry>have you</entry>
+<entry>read (Masc, Pl)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>d.</entry>
+<entry>Quanti</entry>
+<entry>libri</entry>
+<entry>hai</entry>
+<entry>letto?</entry>
+</row>
+<row><entry>
+</entry>
+<entry>how many</entry>
+<entry>books</entry>
+<entry>have you</entry>
+<entry>read</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The contrast between French and Italian does not go in the usual direction in this case in that Italian does not manifest agreement in cases where French does. French does not seem to make any distinction between cliticization and <i>wh</i>-movement, past participle agreement being optional in both cases. Indeed, this could ultimately be viewed as an indirect consequence of the relative poverty of French (past participial) morphology whose structural correlate could be a (relatively) flat projection for the past participle. In the spirit of the discussion in <link rid="ss7">section 3.1</link>, optionality of past participle agreement should then be expected across the board in French as a function of the optionality of non-finite V movement, independently of the kind of movement involved.<link rid="fn10">
+<sup>10</sup></link> For Italian, the proposal should be that the verb never reaches the (by hypothesis) high(est) head in the richly articulated past participle projection, whose specifier hosts the passage of the <i>wh</i>-phrase. Lack of agreement with <i>wh</i>-movement would then follow in the way discussed in <link rid="ss7">section 3.1</link>.</p>
+<p>Contrasts arising in standard French in the domain of <i>wh</i>-movement are particularly interesting in this connection. As past participle agreement is normally optionally admitted in this language, cases where it is impossible must reveal the operation of some principled source of their ungrammaticality. The relevant contrasts are those in (18), discussed in <link rid="b23">Rizzi (1990b</link>) and <link rid="b24">Obenauer (1994</link>).</p>
+<p>(18)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Combien</entry>
+<entry>de</entry>
+<entry>voitures</entry>
+<entry>a-t-il</entry>
+<entry>conduit<b>es</b>?</entry>
+</row>
+<row><entry>
+</entry>
+<entry>how many</entry>
+<entry>of</entry>
+<entry>cars</entry>
+<entry>has he</entry>
+<entry>driven (Fem, Pl)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>b.</entry>
+<entry>*Combien</entry>
+<entry>a-t-il</entry>
+<entry>conduit<b>es</b>
+</entry>
+<entry>de</entry>
+<entry>voitures?</entry>
+</row>
+<row><entry>
+</entry>
+<entry>how many</entry>
+<entry>has he</entry>
+<entry>driven (Fem, Pl)</entry>
+<entry>of</entry>
+<entry>cars</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (18a) the whole direct object is <i>wh</i>-moved (into CP), while only the quantifier is moved in the ungrammatical (18b). The possibility in French of moving only the <i>wh</i>-quantifier, leaving the rest of the phrase containing the nominal projection behind, is shown by the grammaticality of sentences like (19) which in fact differ from (18b) only in that they do not display past participle agreement:</p>
+<p>(19)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>Combien</entry>
+<entry>a-t-il</entry>
+<entry>conduit</entry>
+<entry>de</entry>
+<entry>voitures?</entry>
+</row>
+<row><entry>how many</entry>
+<entry>has he</entry>
+<entry>driven</entry>
+<entry>of</entry>
+<entry>cars</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This is a straightforward indication that the source of the ungrammaticality of (18b) is solely to be found in the illegitimate past participle agreement.</p>
+<p>Adapting Rizzi&apos;s discussion, the impossibility of (18b) can be interpreted as a case of improper movement ultimately induced by Relativized Minimality (RM). Assume that, due to RM, the derivation of sentences like (19) involves movement of the <i>wh</i>-quantifier to and from the same syntactic position in the VP area also available for the adverbial modifier <i>beaucoup</i>, illustrated by sentences like (20):</p>
+<p>(20)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>Il</entry>
+<entry>a</entry>
+<entry>beaucoup</entry>
+<entry>consult&eacute;</entry>
+<entry>ces</entry>
+<entry>livres.</entry>
+</row>
+<row><entry>he</entry>
+<entry>has</entry>
+<entry>much</entry>
+<entry>consulted</entry>
+<entry>these</entry>
+<entry>books</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The same position is also used as landing site for movement of the QP in sentences like (21b), related to (21a):</p>
+<p>(21)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Il</entry>
+<entry>a</entry>
+<entry>consult&eacute;</entry>
+<entry>beaucoup</entry>
+<entry>de</entry>
+<entry>livres.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>he</entry>
+<entry>has</entry>
+<entry>consulted</entry>
+<entry>many</entry>
+<entry>of</entry>
+<entry>books</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Il</entry>
+<entry>a</entry>
+<entry>beaucoup</entry>
+<entry>consult&eacute;</entry>
+<entry>de</entry>
+<entry>livres.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>he</entry>
+<entry>has</entry>
+<entry>much</entry>
+<entry>consulted</entry>
+<entry>of</entry>
+<entry>books</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Il</entry>
+<entry>a</entry>
+<entry>beaucoup</entry>
+<entry>conduit<b>es</b>
+</entry>
+<entry>de</entry>
+<entry>voitures.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>he</entry>
+<entry>has</entry>
+<entry>much</entry>
+<entry>driven (Fem, Pl)</entry>
+<entry>of</entry>
+<entry>cars</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The relation of sentences like (21b) and (20) is pointed out in <link rid="b24">Obenauer (1994</link>) and discussed in <link rid="b23">Rizzi (1990b</link>). This adverbial position is considered an A&prime;-position, as adverbial positions in general. The impossibility of (18b) can then be attributed to the fact that, in order for past participle agreement to obtain, passage to the Spec of the past participial morphology should be necessary. It seems natural to consider this position an A-position, as specifiers of agreement projections are in general.<link rid="fn11">
+<sup>11</sup></link> If the adverbial position is located lower than the past participle projection, the resulting derivation would constitute a case of improper movement involving the illegitimate step A&prime; &gt; A, crucial in order for past participle agreement to be triggered. Note that interaction between <i>combien</i> extraction and the adverb <i>beaucoup</i> in the pre-VP position of (20) is confirmed by the following paradigm, first discussed in <link rid="b25">Obenauer (1976</link>) and interpreted by <link rid="b23">Rizzi (1990b</link>) as a typical instance of the operation of the RM principle:</p>
+<p>(22)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Combien</entry>
+<entry>de</entry>
+<entry>livres</entry>
+<entry>a-t-il</entry>
+<entry>beaucoup</entry>
+<entry>consult&eacute;s?</entry>
+</row>
+<row><entry>
+</entry>
+<entry>how many</entry>
+<entry>of</entry>
+<entry>books</entry>
+<entry>has he</entry>
+<entry>much</entry>
+<entry>consulted</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>b.</entry>
+<entry>*Combien</entry>
+<entry>a-t-il</entry>
+<entry>beaucoup</entry>
+<entry>consult&eacute;</entry>
+<entry>de</entry>
+<entry>livres?</entry>
+</row>
+<row><entry>
+</entry>
+<entry>how many</entry>
+<entry>has he</entry>
+<entry>much</entry>
+<entry>consulted</entry>
+<entry>of</entry>
+<entry>books</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>If, contrary to the hypothesis just explored, we were to assume that the past particle projection is lower in the clause structure than the adverbial position (the speculative proposal of <link rid="ss15">section 5</link> would probably lead to this conclusion), agreement could take place and <i>combien</i> could subsequently move into the adverbial position with no improper movement step being created. The alternative explanation suggested in <link rid="b23">Rizzi (1990b</link>) could then be accepted. According to this interpretation, movement of <i>combien</i> to the Spec of the past participial projection should be excluded in principle under structure preservation, as this position should be reserved to noun phrases, hence excluding QPs.</p>
+</subsection>
+<subsection id="ss9" level="2">
+<heading id="h8" level="2">3.3 Object agreement</heading>
+<p>As seen in the previous sections, past participle agreement is possible and/or obligatory with direct objects under the particular structural conditions created by DP movement, clitic movement, and <i>wh</i>-movement, with the described asymmetries. It appears to be the case that past participle agreement can sometimes occur with a direct object which, at least apparently, fills the regular direct object position, linearly following the verb. This is neither true in standard Italian nor in standard French. However, it is true in some dialect varieties of (southern) Italian, in some other Romance languages (e.g., Occitan), and also in a somewhat more literary Italian.<link rid="fn12">
+<sup>12</sup></link> The question then arises as to how the Kaynean approach can account for these cases, which correspond to sentences like (23), using an Italian example (marginally possible at the relevant stylistic level):</p>
+<p>(23)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>Maria</entry>
+<entry>ha</entry>
+<entry>conosciut<b>e</b>
+</entry>
+<entry>le</entry>
+<entry>ragazze.</entry>
+</row>
+<row><entry>Maria</entry>
+<entry>has</entry>
+<entry>known (Fem, Pl)</entry>
+<entry>the</entry>
+<entry>girls (Fem, Pl)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>There seem to be two solutions to this pattern. The first is to assume that the direct object is only apparently a regular direct object in (23); in these cases it actually fills a position different from the canonical position of direct objects (e.g., it could be dislocated, see below). The second solution is to assume that there is more structure defining the past participle area with at least one further position higher than the projection of the past participle; the past participle has to move into the head of this higher projection, while the direct object moves to and remains in Spec of AgrPstPrt. Under the first approach, tentatively adopted in <link rid="b11">Kayne (1989a</link>), the kind of position the direct object fills should be made clear. Kayne suggests that it fills the right-dislocated position. Presence of a silent clitic is assumed as the real trigger of agreement. A proposal along these lines does not seem adequate to account for those varieties where agreement appears to be obligatory: after all, why should a direct object systematically be right dislocated? Moreover, how could the presence of the silent clitic be independently justified? Under the second approach, one should clarify what kind of further functional projection would dominate the past participle agreement projection as well as what would force the verb to move into its head.<link rid="fn13">
+<sup>13</sup></link> Hence, both approaches are tentative and leave a number of open questions. This second approach would probably provide a more natural way to account for the difference among languages. Presence vs. absence or optional presence of object agreement could be viewed as a function of object movement and syntactic verb movement (both allowing for an amount of optionality which may vary along the lines reviewed in <link rid="ss7">section 3.1</link> for the case of non-finite V movement). Agreement would result from the combination of both object movement and syntactic verb movement. The difference among the various languages could be phrased in terms of whether movement of the object goes further than the VP area, as in the case of DP movement (in passives and unaccusatives), cliticization and <i>wh</i>-movement, or not. Some languages (standard Italian, French) would allow object movement only in the former case, others would extend the process to all cases.<link rid="fn14">
+<sup>14</sup></link>
+</p>
+<p>As discussed in <link rid="b4 b26">Belletti (1990, 1992</link>), standard Italian has past-participial small clauses, referred to as absolute small clauses (ASC). These display a special agreement pattern. The past participle is the first constituent of the small clause, followed by the subject in the case of unaccusative verbs, and by the direct object in the case of transitive verbs.<link rid="fn15">
+<sup>15</sup></link> In both cases, past participle agreement is obligatory:</p>
+<p>(24)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Arrivat<b>a</b>
+</entry>
+<entry>Maria,&nbsp;.&nbsp;.&nbsp;.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>arrived (Fem, Sg)</entry>
+<entry>Maria,&nbsp;.&nbsp;.&nbsp;.</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col3">&lsquo;Having Maria arrived,&nbsp;.&nbsp;.&nbsp;.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>b.</entry>
+<entry>Conosciut<b>a</b>
+</entry>
+<entry>Maria,&nbsp;.&nbsp;.&nbsp;.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>known (Fem, Sg)</entry>
+<entry>Maria,&nbsp;.&nbsp;.&nbsp;.</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col3">&lsquo;Having known Maria,&nbsp;.&nbsp;.&nbsp;.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>If the agreement in (24a) appears to be a standard case &ndash; as the past participle always agrees with the postverbal subject in unaccusative structures &ndash; the same is not true for (24b); as discussed earlier, transitive past participles do not normally agree with the direct object in standard Italian. The idea of analyzing (24b) as a passive past participle, thus reducing this kind of agreement to the standard case of past participle agreement under passive morphology, ultimately equivalent to the unaccusative structures, does not appear to be empirically correct, as discussed in detail in the references quoted. The most direct indication is provided by the fact that the nominal following the past participle is marked with accusative case, visible when it is a (first- or second-person) personal pronoun (cf. <i>Conosciuta me</i>/<i>*io</i>). ASCs like (24b) are better dealt with as transitive structures with a control PRO filling the subject position. Past participle agreement in (24b) is then a genuine case of agreement with the direct object. Various ideas come to mind to express this pattern. Notice that the second analysis hinted at above for cases like (23) can provide a fairly straightforward account: the direct object moves to Spec of the past participle agreement projection and the past participle moves higher (maybe to C; see the references quoted). Word order is obtained. The necessity of agreement in this case, contrary to regular full transitive clauses of standard Italian, should be due to special properties characterizing ASC, possibly crucially related to Case requirements. As proposed in the works quoted, agreement here provides a device to assign Case to the direct object.<link rid="fn16">
+<sup>16</sup></link>
+</p>
+</subsection>
+<subsection id="ss10" level="2">
+<heading id="h9" level="2">3.4 On auxiliaries and past participle agreement</heading>
+<p>The widespread co-occurrence of past participle agreement and presence of auxiliary <i>essere</i> might lead one to think that the two processes are strictly dependent on one another. In particular, selection of <i>essere</i> as aspectual auxiliary could be taken to be the crucial factor forcing agreement. However, the simple correlation between auxiliary selection and presence or absence of agreement is empirically incorrect in both directions. There are cases where <i>avere</i> is selected, e.g., with transitive verbs, and agreement is manifested (see the discussion in connection with (23)); furthermore, there are Romance varieties where <i>avere</i> is selected with unaccusatives and still agreement is manifested.<link rid="fn17">
+<sup>17</sup></link> On the other hand, there are cases where <i>essere</i> is selected in standard Italian and yet agreement is impossible. Compare the impersonal SI construction with intransitives and transitives, also pointed out in <link rid="b20">Burzio (1986</link>) in this connection:</p>
+<p>(25)&ensp;<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Si</entry>
+<entry>&egrave;</entry>
+<entry>telefonato/*i.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>one</entry>
+<entry>is</entry>
+<entry>called (*Masc, Pl)</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col4">&lsquo;Someone rang.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>b.</entry>
+<entry>Si</entry>
+<entry>&egrave;</entry>
+<entry>mangiato/*i</entry>
+<entry>due</entry>
+<entry>castagne.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>one</entry>
+<entry>is</entry>
+<entry>eaten (*Masc, Pl)</entry>
+<entry>two</entry>
+<entry>chestnuts</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col6">&lsquo;Two chestnuts were eaten.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>It can be suggested that selection of <i>essere</i> is due to the presence of the impersonal SI in these cases, but as no movement is involved here from the VP-internal/object position, contrary to, e.g., the impersonal passive of examples like (7), no past participle agreement is produced. This indicates that movement from the VP-internal (object) position, and not the kind of auxiliary selection, is the crucial step triggering agreement.</p>
+<p>Lack of past participle agreement in (25) is also interesting in comparison with (26), where the adjective agrees in gender and number with the arbitrary plural impersonal SI &ndash; third person singular on the verb is often interpreted as the unmarked person agreement, the only one compatible with the impersonal subject (cf. <link rid="b27 b20">Belletti 1982, Burzio 1986</link>):</p>
+<p>(26)&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>Si</entry>
+<entry>&egrave;</entry>
+<entry>felic<b>i</b>/*e.</entry>
+</row>
+<row><entry>one</entry>
+<entry>is</entry>
+<entry>happy (Masc, Pl/*Sing)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This contrast may indicate that the AP involves a different internal representation than the intransitive or transitive past participle. Its representation is possibly, closer to the one of the past participle of unaccusatives which systematically manifest agreement (cf. <i>Si &egrave; partit</i><b><i>i</i>
+</b> &lsquo;someone left&rsquo;). See <link rid="ss15">section 5</link> for a proposal concerning unaccusatives which could extend to this case.</p>
+</subsection>
+</subsection>
+<subsection id="ss11" level="1">
+<heading id="h10" level="1">4 On some cases of past participle agreement in French and the comparison with Italian</heading>
+<subsection id="ss12" level="2">
+<heading id="h11" level="2">4.1 On the A- vs. A&prime;-status of the specifier of the past participle projection</heading>
+<p>
+<link rid="b11">Kayne (1989a</link>) discusses impossible cases of past participle agreement in <i>wh</i>-constructions involving an expletive </p>
+<p>(27)&ensp;<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Quelle</entry>
+<entry>chaleur</entry>
+<entry>atroce</entry>
+<entry>il</entry>
+<entry>a</entry>
+<entry>fait/*e.</entry>
+</row>
+<row><entry>what</entry>
+<entry>heat</entry>
+<entry>terrible</entry>
+<entry>it</entry>
+<entry>has</entry>
+<entry>done</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;What a terrible heat!&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="12">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Je</entry>
+<entry>me</entry>
+<entry>demande</entry>
+<entry>combien</entry>
+<entry>de</entry>
+<entry>chaises</entry>
+<entry>il</entry>
+<entry>sera</entry>
+<entry>repeint/*<b>es</b>
+</entry>
+<entry>cette</entry>
+<entry>ann&eacute;e.</entry>
+</row>
+<row><entry>I</entry>
+<entry>to me</entry>
+<entry>wonder</entry>
+<entry>how many</entry>
+<entry>of</entry>
+<entry>chairs (Fem, Pl)</entry>
+<entry>it</entry>
+<entry>will be</entry>
+<entry>repainted (*Fem, Pl)</entry>
+<entry>this</entry>
+<entry>year</entry>
+</row>
+<row><entry namest="col2" nameend="col12">&lsquo;I wonder how many chairs will be repainted this year.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">c.</entry>
+<entry>Les chaises qu&rsquo;il m&rsquo;aurait fallu/*<b>es</b>.</entry>
+</row>
+<row><entry>&lsquo;The chairs which I would need.&rsquo; </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The account proposed by <link rid="b11">Kayne (1989a</link>) crucially relies on the assumption that the Spec position of the past participle projection is an A&prime;-position. Assuming that at LF the expletive must be eliminated through substitution from the associate (<link rid="b28">Chomsky 1986b</link>), the impossibility would follow from the fact that the LF movement at work for substituting the expletive would imply an illegitimate A&prime; &gt; A step, from Spec of the past participle projection to the subject position in Spec of IP. However, the hypothesis that the Spec of the past participle projection is an A&prime;-position does not look plausible, both on theoretical and empirical grounds.<link rid="fn18">
+<sup>18</sup></link> From the theoretical point of view, the specifier of the past participle projection would constitute an isolated exception to the general A status of the specifiers of agreement projections. This is an implausible conclusion which is not independently justified. On the empirical side, consider the following pair (presented in <link rid="b29 b30">Ruwet 1982, Grevisse 1986</link>, and <link rid="b11">Kayne 1989a</link>):</p>
+<p>(28)&ensp;<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>*Une femme qu&rsquo;on aurait dit<b>e</b> ne pas &ecirc;tre belle.</entry>
+</row>
+<row><entry>&lsquo;A woman that one would have said (Fem, Sing) not to be beautiful.&rsquo;</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>Une femme qu&rsquo;on aurait dit<b>e</b> belle.</entry>
+</row>
+<row><entry>&lsquo;A woman that one would have said (Fem, Sing) beautiful.&rsquo; </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>If <i>wh</i>-extraction in (28a) requires passage through the CP of the subordinate infinitival clause (<link rid="b31">Kayne 1984a</link>), the impossibility of past participle agreement here can directly follow from the assumption that the specifier of the past participle projection is an A-position in the following way. The derivation would imply an improper movement in one of its steps: the step from &lsqb;Spec, CP&rsqb;, an A&prime;-position, to &lsqb;Spec, AgrPstPrt&rsqb;, an A-position. On the other hand, if the small clause in (28b) is not a CP projection, no passage through this position is ever at work, hence the <i>wh</i>-phrase can directly move to the specifier of the past participle projection and from there into the CP position of the relative clause. No improper movement is involved in any step of the derivation. This is the interpretation proposed for contrasts of this type in <link rid="b32">Belletti and Rizzi (1996b</link>), which crucially requires that the specifier of the past participle projection be an A-position.</p>
+</subsection>
+<subsection id="ss13" level="2">
+<heading id="h12" level="2">4.2&ensp;Past participle agreement and inherent Case</heading>
+<p>In the same work the impossibility of past participle agreement in expletive constructions like (27) is interpreted as due to the unavailability in French of (past participle) agreement with indefinite postverbal subjects, under the hypothesis that they be marked with inherent Case in these constructions (<link rid="b33">Belletti 1988</link>; see also <link rid="b21">Sportiche 1998</link>: ch. 3). These examples would then fall under the often observed lack of agreement triggered by nominal expressions marked with inherent Case.<link rid="fn19">
+<sup>19</sup></link> Indeed, if the assumption is made that agreement with inherently Case-marked noun phrases is systematically excluded in French, three apparently unrelated cases of impossible agreement &ndash; some having passed unnoticed in the theoretical literature &ndash; are attributed a unified interpretation (cf. <link rid="b32">Belletti and Rizzi 1996b</link>, where it is also pointed out that the data on psych verbs are implicitly noted in <link rid="b30">Grevisse 1986</link>).</p>
+<listgroup id="l3" type="a">
+<li level="1">
+<number>(a)&ensp;</number>
+<p>The impossibility of agreement under <i>en</i> cliticization (where <i>en</i> realizes partitive case, possibly assigned by the indefinite quantifier here: cf. Cardinaletti and Giusti 1992):<link rid="fn20">
+<sup>20</sup></link>
+</p>
+<p>
+<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>(29)</entry>
+<entry>Il</entry>
+<entry>en</entry>
+<entry>a</entry>
+<entry>repeint</entry>
+<entry>/<b>*es</b>
+</entry>
+<entry>deux.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>he</entry>
+<entry>of them (CL)</entry>
+<entry>has</entry>
+<entry>repainted</entry>
+<entry>/*(Fem, Pl)</entry>
+<entry>two</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col7">&lsquo;He has repainted two of them.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li level="1">
+<number>(b)&ensp;</number>
+<p>The impossibility of agreement with psych verbs of the <i>worry</i> class:<link rid="fn21">
+<sup>21</sup></link>
+</p>
+<p>(30)&ensp;<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Cela</entry>
+<entry>l&rsquo;</entry>
+<entry>a</entry>
+<entry>surpris</entry>
+<entry>/<b>*e</b>.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>this</entry>
+<entry>her (CL)</entry>
+<entry>a</entry>
+<entry>suprised</entry>
+<entry>/*Fem, Sing</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col6">&lsquo;This has surprised her.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<tbody>
+<row><entry>b.</entry>
+<entry>La</entry>
+<entry>fille</entry>
+<entry>que</entry>
+<entry>ton</entry>
+<entry>d&eacute;part</entry>
+<entry>/ce spectacle</entry>
+<entry>a</entry>
+<entry>profondement</entry>
+<entry>supris</entry>
+<entry>/<b>*e</b>.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>the</entry>
+<entry>girl</entry>
+<entry>that</entry>
+<entry>your</entry>
+<entry>departure</entry>
+<entry>/this show</entry>
+<entry>has</entry>
+<entry>deeply</entry>
+<entry>surprised</entry>
+<entry>/*Fem, Sing</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li level="1">
+<number>(c)&ensp;</number>
+<p>The impossibility of agreement with the postverbal subject in subject inversion structures:</p>
+<p>
+<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry>(31)</entry>
+<entry>Il</entry>
+<entry>a</entry>
+<entry>&eacute;t&eacute;</entry>
+<entry>repeint</entry>
+<entry>/<b>*es</b>
+</entry>
+<entry>trois</entry>
+<entry>voitures.</entry>
+</row>
+<row><entry></entry>
+<entry>it</entry>
+<entry>has</entry>
+<entry>been</entry>
+<entry>repainted</entry>
+<entry>/*Fem, Pl</entry>
+<entry>three</entry>
+<entry>cars</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>This case of impossible agreement can be seen as the same lack of agreement systematically manifested in this type of structure, independent of the presence of a past participle:</p>
+<p>(32)&ensp;<object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>Il</entry>
+<entry>arrivera</entry>
+<entry>/*arriveront</entry>
+<entry>trois</entry>
+<entry>filles.</entry>
+</row>
+<row><entry>there</entry>
+<entry>will arrive</entry>
+<entry>/*Pl</entry>
+<entry>three</entry>
+<entry>girls</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Note that lack of agreement in (31) and (32) cannot be related to presence of the expletive. The same impossibility is preserved in Stylistic-Inversion structures containing a semi-idiomatic expression V&plus;N where the expletive can be absent, as first pointed out in <link rid="b34">Kayne and Pollock (1978</link>):<link rid="fn22">
+<sup>22</sup></link>
+</p>
+<p>(33)&ensp;<object id="tu28" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu28_source">
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Le</entry>
+<entry>jour</entry>
+<entry>o&ugrave;</entry>
+<entry>a</entry>
+<entry>&eacute;t&eacute;</entry>
+<entry>mis</entry>
+<entry>/*mise</entry>
+<entry>fin</entry>
+<entry>au</entry>
+<entry>conflit.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>the</entry>
+<entry>day</entry>
+<entry>where</entry>
+<entry>has</entry>
+<entry>been</entry>
+<entry>put</entry>
+<entry>/*Fem, Sing</entry>
+<entry>end</entry>
+<entry>to the</entry>
+<entry>conflict</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col11">&lsquo;The day when the conflict was ended.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry>b.</entry>
+<entry>J&rsquo;exige</entry>
+<entry>que</entry>
+<entry>soit</entry>
+<entry>mis</entry>
+<entry>/*mise</entry>
+<entry>fin</entry>
+<entry>au</entry>
+<entry>conflit.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>I pretend</entry>
+<entry>that</entry>
+<entry>be</entry>
+<entry>put</entry>
+<entry>/*Fem, Sing</entry>
+<entry>end</entry>
+<entry>to the</entry>
+<entry>conflict</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col9">&lsquo;I pretend that the conflict has ended.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The comparison with standard Italian is interesting in that all the data where a comparison is directly possible have an opposite shape: past participle agreement is possible and obligatory under <i>ne</i> cliticization, with psych verbs of the <i>worry</i> class, and in subject inversion structures, including those containing a semi-idiomatic V&plus;N expression:</p>
+<p>(34)&ensp;<object id="tu29" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu29_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Ne</entry>
+<entry>ho</entry>
+<entry>comprat<b>e</b>
+</entry>
+<entry>/*comprato</entry>
+<entry>molte.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>of them (CL)</entry>
+<entry>have</entry>
+<entry>bought (Fem, Pl)</entry>
+<entry>/*bought</entry>
+<entry>many</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col6">&lsquo;I have bought many of them.&rsquo; (cf. (29))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>b.</entry>
+<entry>Questo</entry>
+<entry>l&rsquo;ha</entry>
+<entry>sorpres<b>a</b>
+</entry>
+<entry>/*sorpreso.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>this</entry>
+<entry>her (CL, Fem, Sing) has</entry>
+<entry>suprised (Fem, Sing)</entry>
+<entry>/*suprised</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col5">&lsquo;This has surprised her.&rsquo; (cf. (30))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry>c.</entry>
+<entry>Sono</entry>
+<entry>entrat<b>i</b>
+</entry>
+<entry>/*entrato</entry>
+<entry>due</entry>
+<entry>ladri</entry>
+<entry>dalla</entry>
+<entry>finestra.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>are</entry>
+<entry>entered (Masc, Pl)</entry>
+<entry>/*entered</entry>
+<entry>two</entry>
+<entry>robbers</entry>
+<entry>from the</entry>
+<entry>window</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col8">&lsquo;Two robbers have entered through the window&rsquo; (cf. (31))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry>d.</entry>
+<entry>Esigo</entry>
+<entry>che</entry>
+<entry>sia</entry>
+<entry>mess<b>a</b>/</entry>
+<entry>*?messo</entry>
+<entry>fine</entry>
+<entry>al</entry>
+<entry>conflitto.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>(I) pretend</entry>
+<entry>that</entry>
+<entry>be</entry>
+<entry>put (Fem, Sing)</entry>
+<entry>*?put</entry>
+<entry>end</entry>
+<entry>to the</entry>
+<entry>conflict</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col9">&lsquo;I pretend that the conflict was ended.&rsquo; (cf. (32))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(The last example is slightly more acceptable than the other impossible cases. The marginal possibility of lack of agreement here could reflect the fact that the expression is analyzed as fully non-compositional.) The proposal sketched in <link rid="b32">Belletti and Rizzi (1996b</link>) to deal with the French&ndash;Italian contrast is that a parameterization is possible for the availability of agreement with inherent Case. Italian admits (and requires) it, French does not (cf. also <link rid="b35">Mahajan (1990</link>) for a similar proposal in the context of a comparison between Hindi and closely related languages).</p>
+<p>It should be pointed out that (past participle) agreement is systematically excluded with dative case, a general fact in Romance, illustrated here for Italian in the context of cliticization:</p>
+<p>(35)&ensp;<object id="tu30" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu30_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>*Le</entry>
+<entry>ho</entry>
+<entry>parlat<b>a</b>.</entry>
+</row>
+<row><entry>to her</entry>
+<entry>(I) have</entry>
+<entry>spoken (Fem, Sing)</entry>
+</row>
+<row><entry namest="col1" nameend="col3">&lsquo;I have spoken to her.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>One possibility to capture the difference between dative and inherent case is that, as witnessed by the presence of a preposition, datives imply a further level of structure, namely, a PP level. P being incompatible with phi-features, agreement is excluded in principle when this level is activated. The hypothesis should then be that inherent Case is not prepositional.<link rid="fn23">
+<sup>23</sup></link>
+</p>
+<p>In those cases where <i>ne</i> corresponds to an adnominal complement, past participle agreement is optional (see also <link rid="b36">Lepschy and Lepschy 1977</link>):</p>
+<p>(36)&ensp;<object id="tu31" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu31_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Ne</entry>
+<entry>ho</entry>
+<entry>lett<b>a</b>
+</entry>
+<entry>/?letto</entry>
+<entry>la</entry>
+<entry>met&agrave;.</entry>
+</row>
+<row><entry>of it (CL)</entry>
+<entry>(I) have</entry>
+<entry>read (Fem, Sing)</entry>
+<entry>/?read</entry>
+<entry>the</entry>
+<entry>half</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;I have read half of it.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Ne</entry>
+<entry>ho</entry>
+<entry>consultat<b>a</b>
+</entry>
+<entry>/consultato</entry>
+<entry>l&rsquo;opera.</entry>
+</row>
+<row><entry>of it (CL)</entry>
+<entry>(I) have</entry>
+<entry>consulted (Fem, Sing)</entry>
+<entry>consulted</entry>
+<entry>the work</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;I have consulted his work.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A possible interpretation here is that <i>ne</i> is ambiguous here between being inherently case-marked and as a PP.</p>
+</subsection>
+<subsection id="ss14" level="2">
+<heading id="h13" level="2">4.3 Past participle agreement and effects on the interpretation</heading>
+<p>As first pointed out in <link rid="b37 b24">Obenauer (1992, 1994</link>) and discussed in <link rid="b38">D&eacute;prez (1998</link>), the optionality of past participle agreement in <i>wh</i>-structures in French is not without consequences from the point of view of the interpretation. The distinction is particularly clear in <i>wh</i>-structures involving <i>combien</i>. Consider (37).</p>
+<p>(37)&ensp;<object id="tu32" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu32_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Combien</entry>
+<entry>de</entry>
+<entry>fautes</entry>
+<entry>a-t-</entry>
+<entry>elle</entry>
+<entry>fait<b>es</b>?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Combien</entry>
+<entry>de</entry>
+<entry>fautes</entry>
+<entry>a-t-</entry>
+<entry>elle</entry>
+<entry>fait?</entry>
+</row>
+<row><entry>
+</entry>
+<entry>how many</entry>
+<entry>
+</entry>
+<entry>mistakes</entry>
+<entry>has</entry>
+<entry>she</entry>
+<entry>made? (Fem, Pl) /-</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In the agreeing case a set of specific typical mistakes is presupposed, while there is no such presupposition in the non-agreeing case, at least not necessarily. The two interpretations can be linked to different syntactic positions: the presuppositional (D-linked) interpretation to a VP-external one, the non presuppositional (non-D-linked) one to a VP-internal one.<link rid="fn24">
+<sup>24</sup></link> In the spirit of the discussion in <link rid="ss13">section 4.2</link>, a possible interpretation of the contrast could then be the following. Assume that the <i>wh</i>-moved direct object is marked with structural accusative case in (37a) and with inherent case in (37b). Assume furthermore that the inherent case, which is available VP internally by assumption, is only compatible with weak, non-presuppositional, indefinite objects, while no such limitation constrains structural accusative case, which is assigned and checked in some functional projection outside the VP projection. The contrast in (37) is then directly accounted for. In the derivation of (37b) the inherently case-marked object does not trigger agreement in its passage through the Spec of the past participle agreement projection on its way to the CP area, as is generally the case with inherently case-marked phrases in French; in (37a) the direct object does not carry inherent case, but structural accusative case, hence in its passage through the same Spec position it does trigger agreement.</p>
+<p>As discussed in <link rid="ss3">section 2</link>, agreement is usually optional in <i>wh</i>-constructions in French. This also implies that a structurally case marked <i>wh</i>-object can avoid triggering agreement. Hence, lack of agreement can derive from two distinct factors: either from inherent case marking or from optional agreement with an accusative case marked indefinite object. This in turn implies that the presup-positional interpretation, only compatible with accusative case, can also be available in the non-agreeing form. Obenauer&apos;s data confirm this prediction. As noted above, the presuppositional reading is not impossible also in the non-agreeing form.</p>
+</subsection>
+</subsection>
+<subsection id="ss15" level="1">
+<heading id="h14" level="1">5 Conclusion</heading>
+<p>A crucial observation concerning the phenomenon of past participle agreement in Romance is that no variety allows the past participle to agree with the subject of intransitive/unergative and transitive verbs. This fact is illustrated in (38) with Italian examples.</p>
+<p>(38)&ensp;<object id="tu33" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu33_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Maria</entry>
+<entry>ha</entry>
+<entry>parlata.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>Maria</entry>
+<entry>has</entry>
+<entry>spoken (Fem, Sing)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>b.</entry>
+<entry>*Maria</entry>
+<entry>ha</entry>
+<entry>letta</entry>
+<entry>un</entry>
+<entry>bel</entry>
+<entry>romanzo.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>Maria</entry>
+<entry>has</entry>
+<entry>read (Fem, Sing)</entry>
+<entry>a</entry>
+<entry>nice</entry>
+<entry>novel</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Any treatment of the computation involved in past participle agreement must account for this fact. In particular, any account should explain the difference between the impossible cases in (38) and all the possible cases discussed so far.</p>
+<p>Following Burzio&apos;s original fundamental insight, the appropriate generalization seems to be that past participle agreement involves arguments belonging to the lowest level of the VP projection, typically the direct object (on the agreement cases involving indirect object reflexive clitics as in (13), see below). It does not involve external arguments (in <link rid="b39">Williams&apos;s original 1981a</link> terminology which, taken literally, is not appropriate once all arguments are projected VP internally, given the VP internal subject hypothesis of <link rid="b40">Koopman and Sportiche 1991b</link>). The external argument is in fact the argument which is merged as the highest one within the VP (<link rid="b9 b10">Chomsky 2000, 2001b</link>). In what follows, a possible line of explanation of this fundamental pattern is suggested.</p>
+<p>A straightforward way of excluding the highest VP argument (S) of intransitive/unergative and transitive verbs from triggering past participle agreement consists in assuming that this argument cannot pass through the Spec position of the past participle projection (on its way to the preverbal subject position). The most direct way of excluding this possibility, in turn, is to assume that this is so because the relevant agreement projection is located in a position lower than the base position of S. This amounts to claiming that the relevant agreement projection is in fact VP-internal. According to this hypothesis, past participles always correspond to unaccusative and passive structures: they are VPs with no external argument (not including the argument which is merged last). The idea is schematized in (39) (where the label O stands for the typical internal argument, i.e., the direct object).</p>
+<p>(39)&ensp;<object id="fu1" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_48_fu1.jpg" type="jpg" id="fu1_source"/>
+</objectsource>
+</object>
+</p>
+<p>The internal structure of an intransitive/unergative or of a transitive VP should correspond to a projection along the lines of (40).</p>
+<p>(40)&ensp;<object id="fu2" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_48_fu2.jpg" type="jpg" id="fu2_source"/>
+</objectsource>
+</object>
+</p>
+<p>Only O, the argument merged first filling a low position within the VP, has access to the specifier of the past participle projection in its movement(s). The hypothesis schematized in (40) directly derives the basic data presented in <link rid="ss3">section 2</link> as well as the impossibility of (38), with the supplementary assumption that, systematically in standard Italian and less so in other Romance languages, the auxiliary <i>essere</i> selects projections like (39), <i>avere</i>, those illustrated by (40) (on sentences involving impersonal SI, see below).<link rid="fn25">
+<sup>25</sup></link>
+</p>
+<p>Some of the data in <link rid="ss3">section 2</link> require more discussion. Consider structures involving a reflexive clitic like (6), repeated in (41).</p>
+<p>(41)&ensp;<object id="tu34" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu34_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>Mi</entry>
+<entry>sono</entry>
+<entry>guardat<b>a</b>
+</entry>
+<entry>allo</entry>
+<entry>specchio.</entry>
+</row>
+<row><entry>myself (Refl, CL)</entry>
+<entry>(I) am</entry>
+<entry>watched (Fem, Sing)</entry>
+<entry>to the</entry>
+<entry>mirror</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;I have watched myself in the mirror.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Here, agreement is obligatory. The idea of relating this agreement to movement of the direct object reflexive clitic as in standard clitic constructions leaves its obligatoriness unexplained. It contrasts with the general optionality of past participle agreement with first- and second-person clitics in Italian, noted in <link rid="ss3">section 2</link> and discussed in <link rid="ss8">section 3.2</link>. Hence, past participle agreement in (41) must be due to the reflexive nature of the construction. Following the spirit of one of Kayne&apos;s original proposals, it can be assumed that reflexive clitics are generated outside the VP projection (possibly as a kind of agreement marker within the clause functional structure). Structures like (41) can then be considered on a par with unaccusative structures: what actually moves here is not the clitic, but the internal argument of the unaccusative construction (in this case a silent first-person singular pronoun with feminine reference). The same analysis would be used for unaccusative structures involving an inherent reflexive.</p>
+<p>Now consider structures containing a reflexive (indirect object, benefactive) clitic and a full direct object, like those in (13), repeated here in (42):</p>
+<p>(42)&ensp;<object id="tu35" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu35_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Maria</entry>
+<entry>si</entry>
+<entry>&egrave;</entry>
+<entry>lavat<b>a</b>
+</entry>
+<entry>i</entry>
+<entry>capelli.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>Maria</entry>
+<entry>(to) herself</entry>
+<entry>is</entry>
+<entry>washed (Fem, Sing)</entry>
+<entry>the</entry>
+<entry>hair</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col7">&lsquo;Maria has washed her hair.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>b.</entry>
+<entry>Maria</entry>
+<entry>si</entry>
+<entry>&egrave;</entry>
+<entry>lett<b>a</b>
+</entry>
+<entry>questo</entry>
+<entry>libro.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>Maria</entry>
+<entry>(to) herself</entry>
+<entry>is</entry>
+<entry>read</entry>
+<entry>this</entry>
+<entry>book</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col7">&lsquo;Maria has read this book.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The VP in (42) is transitive, projected as in (40). The reflexive clitic (indirect object, benefactive) is generated outside the VP as in the preceding discussion. But suppose that a further Agr projection above the transitive VP is selected in these cases.<link rid="fn26">
+<sup>26</sup></link> Now, when the subject <i>Maria</i> moves out of the VP to reach the preverbal subject position in the high portion of the clause structure, it passes through the specifier of the further, higher (past participle) Agr projection and triggers past participle agreement. According to this proposal, past participle agreement is triggered here by movement of the subject, not of the reflexive clitic (a necessary conclusion, given the assumed line of analysis for reflexive clitics). The object does not move in this case. When the object moves, e.g., to cliticize, past participle agreement is triggered in the lower agreement projection:<link rid="fn27">
+<sup>27</sup></link>
+</p>
+<p>(43)&ensp;<object id="tu36" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu36_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Maria</entry>
+<entry>se</entry>
+<entry>li</entry>
+<entry>&egrave;</entry>
+<entry>lavat<b>i</b>.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>Maria</entry>
+<entry>(to) herself</entry>
+<entry>them (Masc, Pl, CL)</entry>
+<entry>is</entry>
+<entry>washed (Masc, Pl)</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col6">&lsquo;Maria washed them.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>b.</entry>
+<entry>Maria</entry>
+<entry>se</entry>
+<entry>lo</entry>
+<entry>&egrave;</entry>
+<entry>lett<b>o</b>.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>Maria</entry>
+<entry>(to) herself</entry>
+<entry>it (Masc, Sing, CL)</entry>
+<entry>is</entry>
+<entry>read (Masc, Sing)</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col6">&lsquo;Maria has read it.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Note that in order to exclude the impossible examples of (25) of <link rid="ss10">section 3.4</link>, projection of the further past participle agreement projection above VP should not be allowed with impersonal (non-passive) SI, even if <i>essere</i> is the selected auxiliary. If movement of a null subject (linked to SI) from the highest merged VP-internal position to the preverbal subject position is at work, as seems natural to assume, if the further higher agreement position were made available, past participle agreement would be expected, contrary to fact. Consider now that impersonal (non-passive) constructions corresponding to (25) involve the subject clitic <i>on</i> in French which does not require selection of auxiliary <i>&ecirc;tre</i>, contrary to the various instances of <i>se</i> (<i>se moyen</i>, reflexive; see <related relationship="sibling" type="samework"><externallink id="chapter 42 - Middles.xml" type="file">chapters 42</externallink></related> and <related relationship="sibling" type="samework"><externallink id="chapter 56 - The SE-Anaphor and its Role in Argument Realization.xml" type="file">56</externallink></related>). This may be relevant for the Italian paradigm. It suggests that <i>essere</i> with impersonal (non-passive) SI in standard Italian is more akin to <i>avere</i> than to <i>essere</i> of structures involving true reflexives as those in (41) and (42).<link rid="fn28">
+<sup>28</sup></link> Hence, only in the latter case should the further higher past participle projection be activated. On the strict relation between auxiliaries <i>avere</i> and <i>essere</i>, see <link rid="b64">Kayne (1993a)</link>; see also <link rid="b41">Cocchi (1995</link>), <link rid="b42">Vikner and Sprouse (1988</link>).</p>
+<p>The (tentative) proposal sketched here has a feature which deserves some closer discussion. In current treatments of past participles, the agreement projection related to the past participial morphology is generally assumed to be (immediately) outside the VP projection. In the proposal outlined here, it may be located in the lexical projection of V.<link rid="fn29">
+<sup>29</sup></link> This allows a simple account of a complex pattern. Is the assumption plausible and well grounded? At this stage we can only speculate. Let us assume that the plausibility of such a low location of the past participle agreement projection could come from the consideration that the past participle typically constitutes part of the periphrastic passive morphology in Romance. Keeping the focus on standard Italian and French, passive morphology involves auxiliary <i>essere/&ecirc;tre</i> &plus; past participle. It is not unreasonable to identify the passive past participle projection with (or at least strictly to link it to) the projection of a Voice head (cf. <link rid="b17">Sportiche 1996b</link> and <link rid="b2">Cinque 1999</link> in particular). <link rid="b2">Cinque (1999</link>) proposed that the Voice projection is located in a very low position in the clause structure; it may be the lowest functional projection in the functional architecture of the clause, possibly VP-internal. Interesting empirical evidence indicating the low location of the passive voice/past participle is provided by contrasts like the one in (44), presented in <link rid="b2">Cinque (1999</link>) (see also <related relationship="sibling" type="samework"><externallink id="chapter 4 - Adverb Classes and Adverb Placement.xml" type="file">chapter 4</externallink></related>).</p>
+<p>(44)&ensp;<object id="tu37" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu37_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Hanno</entry>
+<entry><b>accolto</b>
+</entry>
+<entry><b>bene</b>
+</entry>
+<entry>il</entry>
+<entry>suo</entry>
+<entry>spettacolo</entry>
+<entry>solo</entry>
+<entry>loro.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>(they) have</entry>
+<entry>received</entry>
+<entry>well</entry>
+<entry>(the)</entry>
+<entry>his</entry>
+<entry>show</entry>
+<entry>only</entry>
+<entry>they</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col9">&lsquo;Only they received his show well.&rsquo;</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry namest="col5" nameend="col9">(Cinque (1999, (79a), (102))</entry>
+</row>
+</tbody>
+</tgroup>
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry>b.</entry>
+<entry>*Hanno</entry>
+<entry><b>bene</b>
+</entry>
+<entry><b>accolto</b>
+</entry>
+<entry>il</entry>
+<entry>suo</entry>
+<entry>spettacolo</entry>
+<entry>solo</entry>
+<entry>loro.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>(they) have</entry>
+<entry>well</entry>
+<entry>received</entry>
+<entry>(the)</entry>
+<entry>his</entry>
+<entry>show</entry>
+<entry>only</entry>
+<entry>they</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry namest="col5" nameend="col9">(Cinque (1999, (79b), (102))</entry>
+</row>
+</tbody>
+</tgroup>
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry>c.</entry>
+<entry>Questo</entry>
+<entry>genere</entry>
+<entry>di</entry>
+<entry>spettacoli</entry>
+<entry>&egrave;</entry>
+<entry>sempre</entry>
+<entry>stato</entry>
+<entry><b>bene</b>
+</entry>
+<entry><b>accolto</b>.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>this</entry>
+<entry>kind</entry>
+<entry>of</entry>
+<entry>show</entry>
+<entry>is</entry>
+<entry>always</entry>
+<entry>been</entry>
+<entry>well</entry>
+<entry>received</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col10">&lsquo;This kind of show has always been well received.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Following Cinque&apos;s insight, the contrast in the relative order of the past participle and the low adverb <i>bene</i> in (44a) (active) and (44c) (passive) indicates that the passive past participle can remain low in the structure, lower than the active one.<link rid="fn30">
+<sup>30</sup></link> The reason for that could be that the passive past participle does not (have to) move higher than the low Voice head. The proposal outlined in this section identifies the passive voice/past participle with the structure in (39). No further landing sites are available for the lexical verb. Active past participles necessarily involve more structure, at least as much as in (40); hence the verb moves higher in an active past participle anyway.</p>
+</subsection>
+<subsection id="ss16" level="1">
+<heading id="h15" level="1">Notes</heading>
+<p>
+<span id="fn1">
+<number>1&emsp;</number>To the extent that agreement is also seen as possibly a long-distance process (<link rid="b10">Chomsky 2001b</link>), the relevant Agr positions should be identified with (some of) those filled by V&plus;agr features. In this chapter I will not attempt to translate the more traditional, Kaynean, approach into the long-distance procedure.</span>
+</p>
+<p>
+<span id="fn2">
+<number>2&emsp;</number>See <link rid="b20">Burzio (1986</link>) for the first systematic presentation and account in GB terms of the Italian and French paradigms, linking the presence of past participle agreement to the geometry of the tree requiring and/or allowing it in the presence of an antecedent&ndash;trace relation between the moved agreeing argument and its original position within the VP. Part of more recent accounts inspired by Kayne&apos;s approach, summarized in <link rid="ss2">section 1</link>, preserves Burzio&apos;s intuition, which was phrased within a functionally impoverished clause structure. See in particular <link rid="b21">Sportiche (1998</link>: ch. 3) for a thorough development of Kayne&apos;s approach; see also <link rid="b43">Perlmutter (1989</link>) and <link rid="b44">La Fauci (1994</link>) for treatments of the phenomenon of past participle agreement pursued in Relational Grammar terms, and, for a fine-grained typology in the same perspective, taking into account different Romance languages, <link rid="b45">Loporcaro (1998</link>).</span>
+</p>
+<p>
+<span id="fn3">
+<number>3&emsp;</number>Both under cliticization and under passive morphology, past participle agreement is preserved with complex predicates as those arising from causativization and restructuring (<link rid="b46 b20 b47">Rizzi 1982a, Burzio 1986, Guasti 1993</link> among others, and <related relationship="sibling" type="samework"><externallink id="chapter 13 - Clitic Climbing.xml" type="file">chapter 13</externallink></related>).</span>
+</p>
+<listgroup id="l4" type="i">
+<li level="1">
+<number>(i)&ensp;</number>
+<p>Maria &egrave; stat<b>a</b> fatt<b>a</b> assumere.</p>
+<p>Maria has been made(Fem, Sing) to assume</p>
+</li>
+<li level="1">
+<number>(ii)&ensp;</number>
+<p>Mario li ha volut<b>i</b> conoscere.</p>
+<p>Mario them (cl) has wanted (Masc, Pl) to know</p>
+</li>
+</listgroup>
+<p>As for the interaction of agreement and unaccusatives in restructuring contexts, consider the following contrast, discussed in <link rid="b20">Burzio (1986</link>):</p>
+<p>(iii)&ensp;<object id="tu38" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu38_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Noi avremmo volut<b>o/*i</b> andare.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>we would have wanted/*Masc, Pl) to go</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Noi saremmo volut<b>i/*o</b> andare.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>we would be wanted(Masc, Pl)/*- to go</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (iiib) restructuring has taken place, as signalled by use of <i>essere</i> as an aspectual auxiliary with the matrix verb <i>volere</i> (taking <i>avere</i> otherwise), conditioned by the presence of the unaccusative <i>andare</i> in the embedded infinitival. Past participle agreement is consequently obligatory as it usually is with unaccusatives.</p>
+<p>
+<span id="fn4">
+<number>4&emsp;</number>The gloss &lsquo;nonagr&rsquo; here stands for non-agreeing. The non-agreeing form of the past participle also corresponds to the masculine singular ending. Thus, a sentence like (4a) is grammatical if the clitic is a masculine singular third-person pronoun. The past participle ending is then interpreted as masculine singular.</span>
+</p>
+<p>
+<span id="fn5">
+<number>5&emsp;</number>Normative grammars indicate agreement as obligatory in both cases, which in fact appears to be optional in colloquial French (with some possible consequences in the interpretation to be discussed in <link rid="ss14">section 4.3</link>).</span>
+</p>
+<p>
+<span id="fn6">
+<number>6&emsp;</number>On ASC, see <link rid="b4 b26">Belletti (1990, 1992</link>), <link rid="b11">Kayne (1989a</link>), and <link rid="b18">Belletti (1999b</link>) in the context of the discussion of cliticization and enclisis. See also <link rid="b48">Egerland (1996</link>), who studies the construction in old Italian, where it was more widespread with partially different properties, probably due to presence of a richer functional structure, as in Egerland&apos;s account.</span>
+</p>
+<p>
+<span id="fn7">
+<number>7&emsp;</number>With the difference between Italian and French according to whether the relation is established in every single past participle projection including those of the auxiliaries (Italian) or not (French) (cf. (3) and (9)). The difference could stem from an impoverished functional structure of the French past participle projection for auxiliaries. The question would then be whether this difference relates to other differences between the two languages. See <link rid="b20">Burzio (1986</link>), who relates it to the differences in the selection of the aspectual auxiliary, and, more recently, <link rid="b49">Richards (1998</link>).</span>
+</p>
+<p>
+<span id="fn8">
+<number>8&emsp;</number>This is compatible with <link rid="b17">Sportiche&apos;s (1996b</link>) indirect-movement analysis of cliticization, where the moving element is not the clitic projection generated in the final clitic position, but a silent <i>pro</i> agreeing with it originating in the argument position inside the VP.</span>
+</p>
+<p>
+<span id="fn9">
+<number>9&emsp;</number>Hence, Italian would also manifest an amount of optionality in verb movement, normally obscured and undetectable in other domains. Given the proposed account, one might expect to find different distributions in the location of some adverbs according to whether past participle agreement occurs or not with first- and second-person clitics. However, differences do not appear to be detectable. It seems likely that agreement projections in general should not contain adverbial modifiers internal to the projection, as they should not count as possible modification domains. The idea that first- and second-person clitics could be higher in the Agr past participle internal structure can be supported indirectly by the observation that they are usually more external (hence, higher) than third-person clitics in clitic clusters. Compare the examples in (i) and (ii).</span>
+</p>
+<p>
+<object id="tu39" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu39_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>(i)</entry>
+<entry>Mi/ti</entry>
+<entry>ci</entry>
+<entry>manda.</entry>
+</row>
+<row><entry></entry>
+<entry>to me/you (CL)</entry>
+<entry>there (CL)</entry>
+<entry>(he) sends</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>(ii)</entry>
+<entry>Ce</entry>
+<entry>lo</entry>
+<entry>manda.</entry>
+</row>
+<row><entry></entry>
+<entry>there (CL)</entry>
+<entry>him (CL)</entry>
+<entry>(he) sends</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>See also <link rid="b5">Zanuttini (1997</link>) for converging evidence from Italian dialects showing the different distribution of negation and first- and second-person clitics, on one hand, displaying the order Cl&plus;<smallcapitals>neg</smallcapitals>, and third person clitics, on the other, displaying the order <smallcapitals>neg</smallcapitals>&plus;Cl.</p>
+<p>
+<span id="fn10">
+<number>10&emsp;</number>DP movement with passives and unaccusatives gives rise to obligatory past participle agreement in French. Possibly, there is a low DP-related position internal to the past participial projection that DPs pass through (but not necessarily clitics); the verb should be taken to move to the head of this position obligatorily in French as well. This position could be the same that quantified noun phrases must pass, given the obligatory nature of past participle agreement under quantifier floating combined with cliticization, detected by some speakers of French:</span>
+</p>
+<p>
+<object id="tu40" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu40_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>(i)</entry>
+<entry>Il</entry>
+<entry>les</entry>
+<entry>a</entry>
+<entry>tout<b>es</b>
+</entry>
+<entry>pris<b>es</b>/*-.</entry>
+</row>
+<row><entry></entry>
+<entry>he</entry>
+<entry>them (Fem, Pl, Cl)</entry>
+<entry>has</entry>
+<entry>all (Fem, Pl)</entry>
+<entry>taken (Fem, Pl)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In this case, the usual optionality of past participle agreement under cliticization would otherwise (surprisingly) be suspended. Hence, there seems to be a portion of obligatory V-movement with the non-finite past participle in French as well. This portion concerns a very low area, possibly the lowest in the past participial projection.</p>
+<p>
+<span id="fn11">
+<number>11&emsp;</number>
+<link rid="b38">D&eacute;prez (1998</link>); <link rid="b21">Sportiche (1998</link>: ch. 3), <link rid="b19">Rizzi (2000b</link>). In <link rid="b11">Kayne (1989a</link>) a different assumption is made which will be partly reviewed in <link rid="ss12">section 4.1</link>.</span>
+</p>
+<p>
+<span id="fn12">
+<number>12&emsp;</number>See the discussion in <link rid="b36">Lepschy and Lepschy (1977</link>), <link rid="b11">Kayne (1989a</link>), and the overview in <link rid="b45">Loporcaro (1998</link>). Past participle agreement with (apparently) unmoved direct objects is also attested in early stages in the acquisition of standard Italian (cf., in particular, <link rid="b50 b51 b52 b53">Antinucci and Miller 1976, Borer and Wexler 1992, McKee and Emiliani 1992, Schaeffer 1996</link>).</span>
+</p>
+<p>
+<span id="fn13">
+<number>13&emsp;</number>It could be a perfective aspectual head with enough morphological attracting capacity. See <link rid="ss15">section 5</link> on that and the presentation of <link rid="b2">Cinque&apos;s (1999</link>) evidence, possibly relevant in this respect.</span>
+</p>
+<p>
+<span id="fn14">
+<number>14&emsp;</number>Cf. <link rid="b49">Richards (1998</link>) for a suggestion on past participle agreement which seems to exclude the possibility of languages of the latter kind in principle, possibly not a desirable conclusion. The picture could also be more complex in that object agreement does not necessarily seem to correlate with agreement under overt syntactic movement, e.g., wh-movement. See <link rid="b11">Kayne (1989a</link>) and his reference to Calabrese&apos;s judgments on Salentino, and <link rid="b54">Miremont (1976</link>) on Occitan. <link rid="b55">Kayne (2000</link>: ch. 8) observes that optionality of agreement with first- and second-person clitics becomes almost impossibile under restructuring. In the spirit of the hypothesis suggested in the text, this could indicate that modals have a less richly articulated past participle functional structure. See <link rid="b55">Kayne (2000</link>) for a different proposal.</span>
+</p>
+<p>
+<span id="fn15">
+<number>15&emsp;</number>The construction has several peculiarities which are not all relevant here. See the references quoted, and also the discussion in <link rid="b11">Kayne (1989a</link>) and the observations in <link rid="b56">Cinque (1990b</link>).</span>
+</p>
+<p>
+<span id="fn16">
+<number>16&emsp;</number>See <link rid="b26">Belletti (1992</link>) for an implementation of this idea according to which accusative case would here be assigned through agreement. The hypothesis can be phrased in the following terms. The past participle morphology blocks the case assignment ability of V; the direct object is then case-licensed through agreement. In full clauses containing a (transitive) auxiliary and a past participle, a crucial role in the assignment of accusative case should then be attributed to the auxiliary, which accounts for lack of obligatory past participle agreement. When the direct object is a clitic, past participle agreement in ASC takes place as it always does in full clauses. However, the clitic is an enclitic on the past participle in ASC (cf. (16)), contrary to full clauses, where it is a proclitic on the auxiliary. This indicates that further processes are at work in ASC; see <link rid="b18">Belletti (1999b</link>) for discussion on enclisis and proclisis in this area.</span>
+</p>
+<p>
+<span id="fn17">
+<number>17&emsp;</number>Compare <link rid="ss9">section 3.3</link> for object agreement and the cases of agreement under cliticization and <i>wh</i>-movement discussed in <link rid="ss7">section 3.1</link> and <link rid="ss8">section 3.2</link> for cases of the former type. Compare the Altamura dialect, described in <link rid="b45">Loporcaro (1998</link>), for cases of the latter type.</span>
+</p>
+<p>
+<span id="fn18">
+<number>18&emsp;</number>See <link rid="b32">Belletti and Rizzi (1996b</link>), <link rid="b38">D&eacute;prez (1998</link>) <link rid="b21">Sportiche (1998</link>: ch. 3); <link rid="ss8">section 3.2</link>, n. 11.</span>
+</p>
+<p>
+<span id="fn19">
+<number>19&emsp;</number>Compare Icelandic, where agreement never arises with quirky subjects. But see the parameterization hypothesis below.</span>
+</p>
+<p>
+<span id="fn20">
+<number>20&emsp;</number>There seems to be some variation among speakers as to the impossibility of past participle agreement in (29). Some speakers allow agreement here. This might suggest that <i>en</i> is not necessarily taken to realize (partitive) inherent case by these French speakers. It could be analyzed as a possible realization of (structural) accusative as well. Note that no variation is ever found among Italian speakers in this domain.</span>
+</p>
+<p>
+<span id="fn21">
+<number>21&emsp;</number>Under <link rid="b57">Belletti and Rizzi&apos;s (1988</link>) analysis the object of this class of psych verb is inherently case marked with accusative case. Interestingly, when the verb <i>surprendre</i> is used in its non-psych interpretation but as a regular transitive verb with the object marked with structural accusative, past participle agreement becomes possible again:</span>
+</p>
+<p>
+<object id="tu41" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu41_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>(i)</entry>
+<entry>Cette fille, le proviseur l&rsquo;a surpris<b>e</b>
+</entry>
+<entry>en train de</entry>
+<entry>fumer.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>this girl, the director her (cl) has surprised (Fem, Sing)</entry>
+<entry>while</entry>
+<entry>smoking</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col4">&lsquo;The director surprised the girl while she was having a smoke.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As for the impossibility of agreement with <i>falloir</i> (cf. (27c)), the account implies that the accusative available with this verb is an inherent accusative (cf. <i>Il me</i> le <i>faut</i>). A plausible assumption, since <i>falloir</i> would otherwise constitute an isolated exception to Burzio&apos;s generalization.</p>
+<p>
+<span id="fn22">
+<number>22&emsp;</number>See <link rid="b58">Kayne and Pollock (2001</link>) for a new analysis of this type of structure, where <i>au conflit</i> is taken to fill the subject position (as a quirky subject) and no (covert) expletive is assumed to be present. The proposal is framed within the general analysis of Stylistic Inversion (SI) as involving Remnant IP movement across the (here quirky) subject. As J. Y. Pollock has pointed out (p.c.), past participle agreement becomes possible in SI sentences similar to (33) if the postverbal subject is made heavier:</span>
+</p>
+<listgroup id="l5" type="i">
+<li level="1">
+<number>(i)&ensp;</number>
+<p>Le jour o&ugrave; a &egrave;t&eacute; mise au conflit la fin que tout le monde esperait.</p>
+<p>the day where has been put to the conflict the end that everybody hoped</p>
+</li>
+</listgroup>
+<p>Note that the postverbal subject <i>la fin</i> contains an overt definite determiner. I take this to suggest that it should not be analyzed as being inherently case-marked. Agreement here could follow from the familiar mechanisms discussed, that is, the heavy DP moves from the original object position to the preverbal subject position where it is assigned nominative case, as in regular passive structures. The processes at work yielding SI structures would then take place (e.g., Remnant IP movement across the subject as in <link rid="b58">Kayne and Pollock 2001</link>; but note that here <i>au conflit</i> would not be treated as a quirky subject). As the noun <i>fin</i> is inherently case marked in the idiomatic reading, no past participle agreement should take place anyway in (33) (regardless of the adopted analysis of SI). Note that no improvement is brought about by heaviness in subject inversion structures containing expletive <i>il</i>. Compare (32) with the equally bad (ii):</p>
+<listgroup id="l6" type="i">
+<li level="1">
+<number>(ii)&ensp;</number>
+<p>*Il arriveront trois des plus belles filles que j&rsquo;ai jamais rencontr&eacute;es.</p>
+<p>it will arrive (Pl) three of the most beautiful girls I have ever met</p>
+</li>
+</listgroup>
+<p>In the analysis adopted here, this is due to the fact that the postverbal subject has access only to inherent (partitive) case marking in these structures.</p>
+<p>
+<span id="fn23">
+<number>23&emsp;</number>It could realize a KP level; see, e.g., <link rid="b59">Giusti (1993</link>). A possible partially different implementation of the parameterization proposal could focus on the way in which inherent case is realized in Italian and French. It could systematically be a PP in French (with an empty P) and a NP or DP in Italian, explaining lack of agreement in French. This implementation could receive support from the fact that partitive case involves the presence of the preposition <i>de</i> with the indefinite quantifier <i>beaucoup</i>, which could be the overt trace of a general PP realization. This alternative is left as an open option here.</span>
+</p>
+<p>
+<span id="fn24">
+<number>24&emsp;</number>This adapts part of the spirit of <link rid="b38">D&eacute;prez&apos;s (1998</link>) discussion, formulated in terms of different sites of reconstruction for the two <i>wh</i>-phrases, with the agreeing one being reconstructed outside the VP and the non-agreeing one inside it, assuming <link rid="b60">Diesing&apos;s (1992b</link>) Mapping Hypothesis.</span>
+</p>
+<p>
+<span id="fn25">
+<number>25&emsp;</number>In the dialect referred to in n. 17, <i>avere</i> too should be allowed to select a past participle like (39). A possible characterization of French, where <i>avoir</i> is often the auxiliary with unaccusatives, and past participle agreement is nevertheless never realized in these cases, could be that a whole VP projection is always selected by <i>avoir</i> and that the nominal argument fills the highest (Spec) position of the VP projection. Hence, in its move to the preverbal subject position it does not pass through the specifier of the past participle projection. The difference with respect to intransitive VPs should stem from the fact that the argument in this case must be assumed to fill this highest position derivatively, after moving from the VP internal (object) position. This is the source of the unaccusativity of the VP. Crucially, the assumption should be that this movement be presyntactic or lexical (<link rid="b61">Hale and Keyser 1993a</link>). As for Spanish, which lacks past participle agreement under cliticization, <i>wh</i>-movement, and with unaccusatives, and which does not have auxiliary alternation (<link rid="b62">Lois 1990</link>) it could be assumed that the AgrPstPrt projection is altogether absent VP-internally. Interestingly, past participle agreement is manifested in Spanish only with the passive auxiliary <i>ser</i>, which, in the spirit of the proposal sketched out here, should select a past participle analyzed as in (39).</span>
+</p>
+<p>
+<span id="fn26">
+<number>26&emsp;</number>This could be linked to the presence of <i>essere</i>, which is always the designated auxiliary in structures involving a reflexive clitic.</span>
+</p>
+<p>
+<span id="fn27">
+<number>27&emsp;</number>Note that the ungrammaticality of (i), also pointed out in <link rid="b20">Burzio (1986</link>), could be due to a violation of strict cyclicity under the proposed account:</span>
+</p>
+<p>
+<object id="tu42" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu42_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>(i)</entry>
+<entry>a.</entry>
+<entry>*Maria se li &egrave; lavat<b>a</b>.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>(Maria (to) herself them (CL) is washed (Fem, Sing)</entry>
+</row>
+<row><entry>
+</entry>
+<entry>b.</entry>
+<entry>*Maria se lo &egrave; lett<b>a</b>.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>(Maria (to) herself it (CL) is read (Fem, Sing)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Movement of the subject (activating the upper agreement projection) should be completed before object cliticization (which activates the lower agreement projection). This could provide a reason for the hierarchy of past participle agreement suggested and left unexplained by <link rid="b20">Burzio (1986</link>). Furthermore, some principle of morphological well-formedness should be assumed to rule out the possibility of activating the higher Agr projection with different phi-features than the lower one, when the latter is activated (i.e., through object movement). Thus, a derivation not violating strict cyclicity would be ruled out by the principle of morphological wellformedness as well. The principle should be restricted to operate within the set of Agr heads belonging to the same morphological checking domain, here the domain of AgrPstPrt heads.</p>
+<p>
+<span id="fn28">
+<number>28&emsp;</number>This amounts to assuming that both the impersonal and reflexive constructions determine the selection of <i>essere</i> in Italian, independently of the shape of the past participial projection.</span>
+</p>
+<p>
+<span id="fn29">
+<number>29&emsp;</number>This idea shares some similarities with the proposal in <link rid="b63">Collins and Thr&aacute;insson (1993</link>), which also assumes an Agr-type projection generated VP-internally. However, the kind of Agr projection is different in the two cases. In Collins and Thr&aacute;insson it is crucially related to case assignment/checking; in the proposal in the text it is assimilated to Voice, see further the main text.</span>
+</p>
+<p>
+<span id="fn30">
+<number>30&emsp;</number>According to Cinque&apos;s proposal this must be related to a perfect head, located higher in the clause functional structure. This is compatible with the hypothesis in the text, although not necessary. A movement of the same sort should be allowed, without it being obligatory, also for the passive past participle if the also possible order in (i) is to be derived through V-movement:</span>
+</p>
+<p>
+<object id="tu43" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu43_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry>(i)</entry>
+<entry>Questo</entry>
+<entry>genere</entry>
+<entry>di</entry>
+<entry>spettacoli</entry>
+<entry>&egrave;</entry>
+<entry>sempre</entry>
+<entry>stato</entry>
+<entry><b>accolto</b>
+</entry>
+<entry><b>bene</b>.</entry>
+</row>
+<row><entry></entry>
+<entry>this</entry>
+<entry>kind</entry>
+<entry>of</entry>
+<entry>show</entry>
+<entry>is</entry>
+<entry>always</entry>
+<entry>been</entry>
+<entry>received</entry>
+<entry>well</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss17" level="1" type="references">
+<heading id="h16" level="1">REFERENCES</heading>
+<reference id="b50" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Antinucci</surname><x>, </x><forenames>Francesco</forenames>
+</name><x> and </x><name type="author">
+<forenames>Ruth</forenames><x> </x><surname>Miller</surname>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="document">How Children Talk About What Happened</title><x>. </x><title type="journal">Journal of Child Language</title><x> </x><volume>3</volume><x>: </x><page type="first">167</page><x>&ndash;</x><page type="last">189</page><x>.</x>
+</reference>
+<reference id="b27" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Belletti</surname><x>, </x><forenames>Adriana</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">Morphological Passive and Pro-Drop: The Impersonal Construction in Italian</title><x>. </x><title type="journal">Journal of Linguistic Research</title><x> </x><volume>2/4</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">34</page><x>.</x>
+</reference>
+<reference id="b33" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Belletti</surname><x>, </x><forenames>Adriana</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">The Case of Unaccusatives</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>19</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">34</page><x>.</x>
+</reference>
+<reference id="b4" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Belletti</surname><x>, </x><forenames>Adriana</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="book">Generalized Verb Movement: Aspects of Verb Syntax</title><x>. </x><address>Turin</address><x>: </x><publisher>Rosenberg and Sellier</publisher><x>.</x>
+</reference>
+<reference id="b26" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Belletti</surname><x>, </x><forenames>Adriana</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Agreement and Case in Past Participial Clauses in Italian</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Syntax and the Lexicon</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Tim</forenames><x> </x><surname>Stowell</surname>
+</name><x> and </x><name type="editor">
+<forenames>Eric</forenames><x> </x><surname>Wehrli</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">21</page><x>&ndash;</x><page type="last">44</page><x>. </x><address>New York</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference id="b12" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Belletti</surname><x>, </x><forenames>Adriana</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">Verb Positions: Evidence from Italian</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Verb Movement</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Norbert</forenames><x> </x><surname>Hornstein</surname>
+</name><x> and </x><name type="editor">
+<forenames>David</forenames><x> </x><surname>Lightfoot</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">19</page><x>&ndash;</x><page type="last">40</page><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b18" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Belletti</surname><x>, </x><forenames>Adriana</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999b</date><x>). </x><title type="document">Italian/Romance Clitics: Structure and Derivation</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Clitics in the Languages of Europe</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Henk<x> </x>C<x>.</x>
+</forenames><x> </x><surnameprefix>van</surnameprefix><x> </x><surname>Riemsdijk</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">543</page><x>&ndash;</x><page type="last">579</page><x>. </x><address>Berlin</address><x>: </x><publisher>de Gruyter</publisher><x>.</x>
+</reference>
+<reference id="b7" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Belletti</surname><x>, </x><forenames>Adriana</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">Agreement Projections</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Handbook of Contemporary Syntactic Theory</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Mark</forenames><x> </x><surname>Baltin</surname>
+</name><x> and </x><name type="editor">
+<forenames>Chris</forenames><x> </x><surname>Collins</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><page type="first">453</page><x>&ndash;</x><page type="last">510</page><x>. </x><address>Oxford</address><x>: </x><publisher>Blackwell.</publisher>
+</reference>
+<reference id="b57" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Belletti</surname><x>, </x><forenames>Adriana</forenames>
+</name><x> and </x><name type="author">
+<forenames>Luigi</forenames><x> </x><surname>Rizzi</surname>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Psych Verbs and Theta Theory</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>6</volume><x>: </x><page type="first">291</page><x>&ndash;</x><page type="last">352</page><x>.</x>
+</reference>
+<reference id="b32" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Belletti</surname><x>, </x><forenames>Adriana</forenames>
+</name><x> and </x><name type="author">
+<forenames>Luigi</forenames><x> </x><surname>Rizzi</surname>
+</name>
+</namegroup><x> (</x><date date="1996">1996b</date><x>). </x><title type="document">Su Alcuni Casi di Accordo del Participio Passato in Francese e in Italiano</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Italiano e Dialetti nel Tempo: Saggi di Grammatica per Giulio Lepschy</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Paola</forenames><x> </x><surname>Beninc&agrave;</surname>
+</name><x>, </x><name type="editor">
+<forenames>Guglielmo</forenames><x> </x><surname>Cinque</surname>
+</name><x>, </x><name type="editor">
+<forenames>Tullio</forenames><x> </x><surnameprefix>De</surnameprefix><x> </x><surname>Mauro</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Nigel</forenames><x> </x><surname>Vincent</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">7</page><x>&ndash;</x><page type="last">22</page><x>. </x><address>Rome</address><x>: </x><publisher>Bulzoni.</publisher>
+</reference>
+<reference id="b51" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Borer</surname><x>, </x><forenames>Hagit</forenames>
+</name><x> and </x><name type="author">
+<forenames>Kenneth</forenames><x> </x><surname>Wexler</surname>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Bi-Unique Relations and the Maturation of Grammatical Principles</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>10</volume><x>: </x><page type="first">147</page><x>&ndash;</x><page type="last">189</page><x>.</x>
+</reference>
+<reference id="b20" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Burzio</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="book">Italian Syntax: A Government-Binding Approach</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Reidel.</publisher>
+</reference>
+<reference id="b13" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cardinaletti</surname><x>, </x><forenames>Anna</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Subjects and Clause Structure</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The New Comparative Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Liliane</forenames><x> </x><surname>Haegeman</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">33</page><x>&ndash;</x><page type="last">63</page><x>. </x><address>London</address><x>: </x><publisher>Longman.</publisher>
+</reference>
+<reference id="b14" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cardinaletti</surname><x>, </x><forenames>Anna</forenames>
+</name><x> and </x><name type="author">
+<forenames>Ian</forenames><x> </x><surname>Roberts</surname>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>) </x><title type="document">Clause Structure and X-Second</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Functional Structure in DP and IP: The Cartography of Syntactic Structures 1</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Guglielmo</forenames><x> </x><surname>Cinque</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">123</page><x>&ndash;</x><page type="last">166</page><x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press.</publisher>
+</reference>
+<reference id="b3" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="book">Lectures on Government and Binding</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b28" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986b</date><x>). </x><title type="book">Knowledge of Language: Its Nature, Origin and Use</title><x>. </x><address>New York</address><x>: </x><publisher>Praeger.</publisher>
+</reference>
+<reference id="b8" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995c</date><x>). </x><title type="book">The Minimalist Program</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b9" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><address>Minimalist Inquiries</address><x>: </x><publisher>The Framework.</publisher>
+<miscellaneoustext> In</miscellaneoustext><x>: </x>
+<title type="book">Step by Step: Essays on Minimalist Syntax in Honor of Howard Lasnik</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Roger</forenames><x> </x><surname>Martin</surname>
+</name><x>, </x><name type="editor">
+<forenames>David</forenames><x> </x><surname>Michaels</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Juan</forenames><x> </x><surname>Uriagereka</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">89</page><x>&ndash;</x><page type="last">155</page><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b10" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001b</date><x>). </x><title type="document">Derivation by Phase</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Ken Hale: A Life in Language</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Michael</forenames><x> </x><surname>Kenstowicz</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">1</page><x>&ndash;</x><page type="last">52</page><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b56" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990b</date><x>). </x><title type="document">Ergative Adjectives and the Lexicalist Hypothesis</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>8</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">40</page><x>.</x>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="book">Adverbs and Functional Heads: A Cross-Linguistic Perspective</title><x>. </x><address>New York</address><x>: </x><publisher>Oxford University Press.</publisher>
+</reference>
+<reference id="b41" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cocchi</surname><x>, </x><forenames>Gloria</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="book">La Selezione dell&rsquo;Ausiliare</title><x>. </x><address>Padua</address><x>: </x><publisher>Unipress.</publisher>
+</reference>
+<reference id="b63" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Collins</surname><x>, </x><forenames>Chris</forenames>
+</name><x> and </x><name type="author">
+<forenames>H&ouml;skuldur</forenames><x> </x><surname>Thr&aacute;insson</surname>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Object Shift in Double Object Constructions and the Theory of Case</title><x>. </x><title type="journal">MIT Working Papers in Linguistics</title><x> </x><volume>19</volume><x>: </x><page type="first">131</page><x>&ndash;</x><page type="last">147</page><x>.</x>
+</reference>
+<reference id="b38" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>D&eacute;prez</surname><x>, </x><forenames>Viviane</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">Semantic Effects of Agreement: The Case of French Past Participle Agreement</title><x>. </x><title type="journal">Probus</title><x> </x><volume>10</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">65</page><x>.</x>
+</reference>
+<reference id="b60" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Diesing</surname><x>, </x><forenames>Molly</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992b</date><x>). </x><title type="book">Indefinites</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b48" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Egerland</surname><x>, </x><forenames>Verner</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="book">The Syntax of Past Participles: A Generative Study of Nonfinite Constructions in Ancient and Modern Italian</title><x>. </x><address>Lund</address><x>: </x><publisher>Lund University Press.</publisher>
+</reference>
+<reference id="b15" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Friedeman</surname><x>, </x><forenames>Marc-Ariel</forenames>
+</name><x> and </x><name type="author">
+<forenames>Tal</forenames><x> </x><surname>Siloni</surname>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Agr<sub>obj</sub> is not Agr<sub>participle</sub>
+</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>14/1</volume><x>: </x><page type="first">69</page><x>&ndash;</x><page type="last">96</page><x>.</x>
+</reference>
+<reference id="b59" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Giusti</surname><x>, </x><forenames>Giuliana</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="book">La Sintassi dei Determinanti</title><x>. </x><address>Padua</address><x>: </x><publisher>Unipress.</publisher>
+</reference>
+<reference id="b30" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Grevisse</surname><x>, </x><forenames>Maurice</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="book">Le Bon Usage</title><x>. </x><address>Paris/Gembloux</address><x>: </x><publisher>Ducolot.</publisher>
+</reference>
+<reference id="b47" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Guasti</surname><x>, </x><forenames>Maria<x> </x>Teresa</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="book">Causative and Perception Verbs: A Comparative Study</title><x>. </x><address>Turin</address><x>: </x><publisher>Rosenberg and Sellier</publisher><x>.</x>
+</reference>
+<reference id="b22" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Guasti</surname><x>, </x><forenames>Maria<x> </x>Teresa</forenames>
+</name><x> and </x><name type="author">
+<forenames>Rizzi</forenames><x> </x><surname>Luigi</surname>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="document">Agreement and Tense as Distinct Syntactic Positions: Evidence from Acquisition</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Functional Structure in DP and IP: The Cartography of Syntactic Structures 1</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Guglielmo</forenames><x> </x><surname>Cinque</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">167</page><x>&ndash;</x><page type="last">194</page><x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press.</publisher>
+</reference>
+<reference id="b61" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hale</surname><x>, </x><forenames>Ken</forenames>
+</name><x> and </x><name type="author">
+<forenames>Samuel<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Keyser</surname>
+</name>
+</namegroup><x> (</x><date date="1993">1993a</date><x>). </x><title type="document">On Argument Structure and the Lexical Expression of Syntactic Relations</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The View from Building 20: Essays in Linguistics in Honor of Sylvian Bromberger</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ken</forenames><x> </x><surname>Hale</surname>
+</name><x> and </x><name type="editor">
+<forenames>Samuel<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Keyser</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">53</page><x>&ndash;</x><page type="last">109</page><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b31" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984a</date><x>). </x><title type="book">Connectedness and Binary Branching</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b11" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989a</date><x>). </x><title type="document">Facets of Romance Past Participle Agreement</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Dialect Variation on the Theory of Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Paola</forenames><x> </x><surname>Beninc&agrave;</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">85</page><x>&ndash;</x><page type="last">104</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b64" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Toward a Modular Theory of Auxiliary Selection</title><x>. </x><title type="journal">Studia Linguistica</title><x> </x><volume>47</volume><x>: </x><page type="first">3</page><x>&ndash;</x><page type="last">31</page><x>.</x>
+</reference>
+<reference id="b55" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="book">Parameters and Universals</title><x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press.</publisher>
+</reference>
+<reference id="b34" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name><x> and </x><name type="author">
+<forenames>Jean-Yves</forenames><x> </x><surname>Pollock</surname>
+</name>
+</namegroup><x> (</x><date date="1978">1978</date><x>). </x><title type="document">Stylistic Inversion, Successive Cyclicity and Move NP in French</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>9</volume><x>: </x><page type="first">595</page><x>&ndash;</x><page type="last">621</page><x>.</x>
+</reference>
+<reference id="b58" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name><x> and </x><name type="author">
+<forenames>Jean-Yves</forenames><x> </x><surname>Pollock</surname>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">New Thoughts on Stylistic Inversion</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Inversion in Romance</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Aafke</forenames><x> </x><surname>Hulk</surname>
+</name><x> and </x><name type="editor">
+<forenames>Jean-Yves</forenames><x> </x><surname>Pollock</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">107</page><x>&ndash;</x><page type="last">162</page><x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press.</publisher>
+</reference>
+<reference id="b40" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Koopman</surname><x>, </x><forenames>Hilda</forenames>
+</name><x> and </x><name type="author">
+<forenames>Dominique</forenames><x> </x><surname>Sportiche</surname>
+</name>
+</namegroup><x> (</x><date date="1991">1991b</date><x>). </x><title type="document">The Position of Subjects</title><x>. </x><title type="journal">Lingua</title><x> </x><volume>85</volume><x>: </x><page type="first">211</page><x>&ndash;</x><page type="last">258</page><x>.</x>
+</reference>
+<reference id="b44" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>La Fauci</surname><x>, </x><forenames>Nunzio</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">Objects and Subjects in the Formation of Romance Morphosyntax</title><x>. </x><address>Bloomington</address><x>: </x><publisher>Indiana University Linguistics.</publisher>
+</reference>
+<reference id="b36" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lepschy</surname><x>, </x><forenames>Anna<x> </x>L<x>.</x>
+</forenames>
+</name><x> and </x><name type="author">
+<forenames>Giulio<x> </x>C<x>.</x>
+</forenames><x> </x><surname>Lepschy</surname>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date><x>). </x><title type="book">The Italian Language Today</title><x>. </x><address>London</address><x>: </x><publisher>Hutchinson.</publisher>
+</reference>
+<reference id="b62" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Lois</surname><x>, </x><forenames>Ximena</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Auxiliary Selection and Past Participle Agreement in Romance</title><x>. </x><title type="journal">Probus</title><x> </x><volume>2</volume><x>: </x><page type="first">233</page><x>&ndash;</x><page type="last">255</page><x>.</x>
+</reference>
+<reference id="b45" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Loporcaro</surname><x>, </x><forenames>Michele</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="book">Sintassi Comparata dell&rsquo;Accordo Participiale Romanzo</title><x>. </x><address>Turin</address><x>: </x><publisher>Rosenberg and Sellier</publisher><x>.</x>
+</reference>
+<reference id="b35" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Mahajan</surname><x>, </x><forenames>Anoop</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date>
+<miscellaneoustext>). The A/A-Bar Distinction and Movement Theory. PhD dissertation, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b52" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>McKee</surname><x>, </x><forenames>Cecile</forenames>
+</name><x> and </x><name type="author">
+<forenames>Maria</forenames><x> </x><surname>Emiliani</surname>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Il Clitico: C&rsquo;&egrave; ma non si Vede</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>10</volume><x>: </x><page type="first">415</page><x>&ndash;</x><page type="last">437</page><x>.</x>
+</reference>
+<reference id="b54" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Miremont</surname><x>, </x><forenames>Pierre</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="book">La Syntaxe Occitane</title><x>. </x><publisher>Gerbert</publisher><x>.</x>
+</reference>
+<reference id="b25" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Obenauer</surname><x>, </x><forenames>Hans-Georg</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="book">&Eacute;tudes de Syntaxe Interrogative du Fran&ccedil;ais</title><x>. </x><address>T&uuml;bingen</address><x>: </x><publisher>Max Niemeyer.</publisher>
+</reference>
+<reference id="b37" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Obenauer</surname><x>, </x><forenames>Hans-Georg</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">L&rsquo;Interpr&eacute;tation des Structures <i>Wh</i> et l&rsquo;Accord du Participe Pass&eacute;</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Structure de la Phrase et Th&eacute;orie du Liage</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Hans-Georg</forenames><x> </x><surname>Obenauer</surname>
+</name><x> and </x><name type="editor">
+<forenames>Anne</forenames><x> </x><surname>Zibri-Hertz</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">169</page><x>&ndash;</x><page type="last">193</page><x>. </x><address>Paris</address><x>: </x><publisher>Presses Universitaires de Vincennes.</publisher>
+</reference>
+<reference id="b24" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Obenauer</surname><x>, </x><forenames>Hans-Georg</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date>
+<miscellaneoustext>). Aspects de la Syntaxe A&prime;. PhD thesis, University of Paris 8</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b43" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Perlmutter</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">Multiattachment and the Unaccusative Hypothesis: The Perfect Auxiliary in Italian</title><x>. </x><title type="journal">Probus</title><x> </x><volume>1</volume><x>: </x><page type="first">63</page><x>&ndash;</x><page type="last">119</page><x>.</x>
+</reference>
+<reference id="b1" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Pollock</surname><x>, </x><forenames>Jean-Yves</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">Verb Movement, Universal Grammar and the Structure of IP</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>20</volume><x>: </x><page type="first">365</page><x>&ndash;</x><page type="last">424</page><x>.</x>
+</reference>
+<reference id="b49" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Richards</surname><x>, </x><forenames>Norvin</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">The Principle of Minimal Compliance</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>29</volume><x>: </x><page type="first">599</page><x>&ndash;</x><page type="last">629</page><x>.</x>
+</reference>
+<reference id="b46" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rizzi</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> </x><namegroup type="editors">
+<miscellaneoustext>(ed.)</miscellaneoustext>
+</namegroup><x> (</x><date date="1982">1982a</date><x>). </x><title type="book">Issues in Italian Syntax</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b23" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rizzi</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990b</date><x>). </x><title type="book">Relativized Minimality</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rizzi</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">The Fine Structure of the Left Periphery</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Elements of Grammar: Handbook of Generative Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Liliane</forenames><x> </x><surname>Haegeman</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">281</page><x>&ndash;</x><page type="last">337</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer.</publisher>
+</reference>
+<reference id="b19" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rizzi</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000b</date><x>). </x><title type="document">Some Notes on Romance Cliticization</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Comparative Syntax and Language Acquisition</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Luigi</forenames><x> </x><surname>Rizzi</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">96</page><x>&ndash;</x><page type="last">121</page><x>. </x><address>London</address><x>: </x><publisher>Routledge.</publisher>
+</reference>
+<reference id="b16" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Rouveret</surname><x>, </x><forenames>Alain</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">Cliticisation et Temps en Portugais Europ&eacute;en</title><x>. </x><title type="journal">Revue des Langues Romanes</title><x> </x><volume>2</volume><x>: </x><page type="first">337</page><x>&ndash;</x><page type="last">371</page><x>.</x>
+</reference>
+<reference id="b29" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ruwet</surname><x>, </x><forenames>Nicolas</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="book">Grammaire des Insultes et Autres &Eacute;tudes</title><x>. </x><address>Paris</address><x>: </x><publisher>Seuil.</publisher>
+</reference>
+<reference id="b53" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Schaeffer</surname><x>, </x><forenames>Jeanette<x> </x>C<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="document">Clitic Omission and Participle Agreement in Italian Child Language</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Grammatical Theory and Romance Languages</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Karen</forenames><x> </x><surname>Zagona</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">219</page><x>&ndash;</x><page type="last">228</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Sportiche</surname><x>, </x><forenames>Dominique</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996b</date><x>). </x><title type="document">Clitic Constructions</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Phrase Structure and the Lexicon</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Johan</forenames><x> </x><surname>Rooryck</surname>
+</name><x> and </x><name type="editor">
+<forenames>Laurie</forenames><x> </x><surname>Zaring</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">213</page><x>&ndash;</x><page type="last">276</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer.</publisher>
+</reference>
+<reference id="b21" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Sportiche</surname><x>, </x><forenames>Dominique</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="book">Partitions and Atoms of Clause Structure</title><x>. </x><address>London/New York</address><x>: </x><publisher>Routledge.</publisher>
+</reference>
+<reference id="b42" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Vikner</surname><x>, </x><forenames>Sten</forenames>
+</name><x> and </x><name type="author">
+<forenames>Rex<x> </x>A<x>.</x>
+</forenames><x> </x><surname>Sprouse</surname>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">
+<i>Have</i>/<i>Be</i>-Selection as an A-Chain Membership Requirement</title><x>. </x><title type="journal">Working Papers in Scandinavian Syntax</title><x> </x><volume>38</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">48</page><x>.</x>
+</reference>
+<reference id="b39" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Williams</surname><x>, </x><forenames>Edwin</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981a</date><x>). </x><title type="document">Argument Structure and Morphology</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>1</volume><x>: </x><page type="first">81</page><x>&ndash;</x><page type="last">114</page><x>.</x>
+</reference>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Zanuttini</surname><x>, </x><forenames>Raffaella</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="book">Negation and Clausal Structure</title><x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press.</publisher>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

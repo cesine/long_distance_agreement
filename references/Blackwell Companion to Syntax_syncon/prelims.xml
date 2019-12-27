@@ -1,0 +1,717 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="prelim">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="prelims"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="prelim">
+<file name="prelims.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">
+</page>
+<page type="last">
+</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="0"/>
+<count type="table" count="1"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="5"/>
+<count type="page" count="0"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051103"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+</documentinfo>
+<titlegroup>
+<title type="document">
+</title>
+</titlegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<heading id="h1" level="1">Contents</heading>
+<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry namest="col1" nameend="col2">Chapters Grouped by Author</entry>
+<entry>xiii</entry>
+</row>
+<row><entry namest="col1" nameend="col2">List of Contributors</entry>
+<entry>xvi</entry>
+</row>
+<row><entry namest="col1" nameend="col2">Preface</entry>
+<entry>xix</entry>
+</row>
+<row><entry namest="col1" nameend="col2">Acknowledgments</entry>
+<entry>xxv</entry>
+</row>
+<row><entry namest="col1" nameend="col3">
+<b>Volume I</b>
+</entry>
+</row>
+<row><entry>1</entry>
+<entry>The Accusative Plus Infinitive Construction in English: Jeffrey T. Runner</entry>
+<entry>1</entry>
+</row>
+<row><entry>2</entry>
+<entry>Adjectival Passives: Joseph Emonds</entry>
+<entry>16</entry>
+</row>
+<row><entry>3</entry>
+<entry>Adjectives: Order within DP and Attributive APs: Daniel Valois</entry>
+<entry>61</entry>
+</row>
+<row><entry>4</entry>
+<entry>Adverb Classes and Adverb Placement: Denis Delfitto</entry>
+<entry>83</entry>
+</row>
+<row><entry>5</entry>
+<entry>Affectedness: Mona Anderson</entry>
+<entry>121</entry>
+</row>
+<row><entry>6</entry>
+<entry>Analytic Causatives: Maria Teresa Guasti</entry>
+<entry>142</entry>
+</row>
+<row><entry>7</entry>
+<entry>A-not-A Questions: Paul Hagstrom</entry>
+<entry>173</entry>
+</row>
+<row><entry>8</entry>
+<entry>Bare Plurals: Denis Delfitto</entry>
+<entry>214</entry>
+</row>
+<row><entry>9</entry>
+<entry>Binding Theory: Terms and Concepts: Eric Reuland</entry>
+<entry>260</entry>
+</row>
+<row><entry>10</entry>
+<entry>Bridge Phenomena: Nomi Erteschik-Shir</entry>
+<entry>284</entry>
+</row>
+<row><entry>11</entry>
+<entry>Case (with Special Reference to Japanese): Kazuko Inoue</entry>
+<entry>295</entry>
+</row>
+<row><entry>12</entry>
+<entry>Chinese <i>Ba</i>: Yen-Hui Audrey Li</entry>
+<entry>374</entry>
+</row>
+<row><entry>13</entry>
+<entry>Clitic Climbing: Reineke Bok-Bennema</entry>
+<entry>469</entry>
+</row>
+<row><entry>14</entry>
+<entry>Clitic Doubling: Elena Anagnostopoulou</entry>
+<entry>519</entry>
+</row>
+<row><entry>15</entry>
+<entry>Comparative Deletion and Subdeletion: Norbert Corver</entry>
+<entry>582</entry>
+</row>
+<row><entry>16</entry>
+<entry>Conditionals: Rajesh Bhatt and Roumyana Pancheva</entry>
+<entry>638</entry>
+</row>
+<row><entry>17</entry>
+<entry>Contraction: Grant Goodall</entry>
+<entry>688</entry>
+</row>
+<row><entry namest="col1" nameend="col2">Index to all Volumes</entry>
+<entry>705</entry>
+</row>
+<row><entry namest="col1" nameend="col3">
+<b>Volume II</b>
+</entry>
+</row>
+<row><entry>18</entry>
+<entry>Copular Sentences: Andrea Moro</entry>
+<entry>1</entry>
+</row>
+<row><entry>19</entry>
+<entry>Derived Nominals: Bo&#x017C;ena Rozwadowska</entry>
+<entry>24</entry>
+</row>
+<row><entry>20</entry>
+<entry>Double Nominatives in Japanese: Koichi Tateishi</entry>
+<entry>56</entry>
+</row>
+<row><entry>21</entry>
+<entry>Double Object Constructions: Joseph Emonds and Rosemarie Whitney </entry>
+<entry>73</entry>
+</row>
+<row><entry>22</entry>
+<entry>Ellipsis in DP: Anne Lobeck</entry>
+<entry>145</entry>
+</row>
+<row><entry>23</entry>
+<entry>Embedded Root Phenomena: Caroline Heycock</entry>
+<entry>174</entry>
+</row>
+<row><entry>24</entry>
+<entry>Existential Sentences and Expletive <i>There</i>: Andrea Moro</entry>
+<entry>210</entry>
+</row>
+<row><entry>25</entry>
+<entry>Extraposition: Mark Baltin</entry>
+<entry>237</entry>
+</row>
+<row><entry>26</entry>
+<entry>Focus Movement (with Special Reference to Hungarian): Kriszta Szendr&#x0151;i </entry>
+<entry>272</entry>
+</row>
+<row><entry>27</entry>
+<entry>Free Relatives: Henk van Riemsdijk</entry>
+<entry>338</entry>
+</row>
+<row><entry>28</entry>
+<entry>Freezing Effects: Norbert Corver</entry>
+<entry>383</entry>
+</row>
+<row><entry>29</entry>
+<entry>Gapping: Kyle Johnson</entry>
+<entry>407</entry>
+</row>
+<row><entry>30</entry>
+<entry>Gerundive Nominalizations: Gary Milsark</entry>
+<entry>436</entry>
+</row>
+<row><entry>31</entry>
+<entry>Grammatical Verbs (with Special Reference to Light Verbs): Tara Mohanan </entry>
+<entry>459</entry>
+</row>
+<row><entry>32</entry>
+<entry>Honorifics: Nobuko Hasegawa</entry>
+<entry>493</entry>
+</row>
+<row><entry>33</entry>
+<entry>Icelandic Logophoric Anaphora: Eric Reuland</entry>
+<entry>544</entry>
+</row>
+<row><entry>34</entry>
+<entry>Implicit Arguments: Rajesh Bhatt and Roumyana Pancheva</entry>
+<entry>558</entry>
+</row>
+<row><entry>35</entry>
+<entry>Inalienable Possession: Jacqueline Gu&eacute;ron</entry>
+<entry>589</entry>
+</row>
+<row><entry>36</entry>
+<entry>Inverse Linking: Robert May and Alan Bale</entry>
+<entry>639</entry>
+</row>
+<row><entry>37</entry>
+<entry>Left Dislocation (including CLLD): Artemis Alexiadou</entry>
+<entry>668</entry>
+</row>
+<row><entry namest="col1" nameend="col2">Index to all Volumes</entry>
+<entry>701</entry>
+</row>
+<row><entry namest="col1" nameend="col3">
+<b>Volume III</b>
+</entry>
+</row>
+<row><entry>38</entry>
+<entry>Logophoricity: Eric Reuland</entry>
+<entry>1</entry>
+</row>
+<row><entry>39</entry>
+<entry>Long-Distance Binding in Asian Languages: Peter Cole, Gabriella Hermon, and C.-T. James Huang</entry>
+<entry>21</entry>
+</row>
+<row><entry>40</entry>
+<entry>Long-Distance Binding in Germanic Languages: Eric Reuland</entry>
+<entry>85</entry>
+</row>
+<row><entry>41</entry>
+<entry>Long NP-Movement: Howard Lasnik and Cedric Boeckx</entry>
+<entry>109</entry>
+</row>
+<row><entry>42</entry>
+<entry>Middles: Peter Ackema and Maaike Schoorlemmer</entry>
+<entry>131</entry>
+</row>
+<row><entry>43</entry>
+<entry>Mittelfeld Phenomena (Scrambling in Germanic): Hubert Haider</entry>
+<entry>204</entry>
+</row>
+<row><entry>44</entry>
+<entry>Multiple-<i>Wh</i>-Questions: Veneeta Dayal</entry>
+<entry>275</entry>
+</row>
+<row><entry>45</entry>
+<entry><i>N</i>-Words and Negative Concord: Anastasia Giannakidou</entry>
+<entry>327</entry>
+</row>
+<row><entry>46</entry>
+<entry>Object Shift: Sten Vikner</entry>
+<entry>392</entry>
+</row>
+<row><entry>47</entry>
+<entry>Partial <i>Wh</i>-Movement: Gisbert Fanselow</entry>
+<entry>437</entry>
+</row>
+<row><entry>48</entry>
+<entry>(Past) Participle Agreement: Adriana Belletti</entry>
+<entry>493</entry>
+</row>
+<row><entry>49</entry>
+<entry>Phrasal Stress and Syntax: Mar&iacute;a Luisa Zubizarreta and Jean-Roger Vergnaud </entry>
+<entry>522</entry>
+</row>
+<row><entry>50</entry>
+<entry>Pied-Piping: Julia Horvath</entry>
+<entry>569</entry>
+</row>
+<row><entry>51</entry>
+<entry>Preposition Stranding: Paul Law</entry>
+<entry>631</entry>
+</row>
+<row><entry>52</entry>
+<entry>Properties of VOS Languages: Sandra Chung</entry>
+<entry>685</entry>
+</row>
+<row><entry namest="col1" nameend="col2">Index to all Volumes</entry>
+<entry>721</entry>
+</row>
+<row><entry namest="col1" nameend="col3">
+<b>Volume IV</b>
+</entry>
+</row>
+<row><entry>53</entry>
+<entry>Quantifier Scope Ambiguities: Katalin &Eacute;. Kiss</entry>
+<entry>1</entry>
+</row>
+<row><entry>54</entry>
+<entry>Reconstruction, Binding, and Scope: Dominique Sportiche</entry>
+<entry>35</entry>
+</row>
+<row><entry>55</entry>
+<entry>Resumption: James McCloskey</entry>
+<entry>94</entry>
+</row>
+<row><entry>56</entry>
+<entry>The SE-Anaphor and its Role in Argument Realization: Carmen Dobrovie-Sorin </entry>
+<entry>118</entry>
+</row>
+<row><entry>57</entry>
+<entry>Secondary Predicates in Australian Languages: Eva Schultze-Berndt </entry>
+<entry>180</entry>
+</row>
+<row><entry>58</entry>
+<entry>Secondary Predication: Susan Rothstein</entry>
+<entry>209</entry>
+</row>
+<row><entry>59</entry>
+<entry>Serial Verbs: Pieter Muysken and Tonjes Veenstra</entry>
+<entry>234</entry>
+</row>
+<row><entry>60</entry>
+<entry>Sluicing: Jason Merchant</entry>
+<entry>271</entry>
+</row>
+<row><entry>61</entry>
+<entry>Specificational Copular Sentences and Pseudoclefts: Marcel den Dikken </entry>
+<entry>292</entry>
+</row>
+<row><entry>62</entry>
+<entry>Split Topicalization: Hanneke van Hoof</entry>
+<entry>410</entry>
+</row>
+<row><entry>63</entry>
+<entry>The Spray-Load Alternation: Maya Arad</entry>
+<entry>466</entry>
+</row>
+<row><entry>64</entry>
+<entry>Strong vs. Weak Islands: Anna Szabolcsi</entry>
+<entry>479</entry>
+</row>
+<row><entry>65</entry>
+<entry>Stylistic Fronting: Anders Holmberg</entry>
+<entry>532</entry>
+</row>
+<row><entry>66</entry>
+<entry>Subextraction: Norbert Corver</entry>
+<entry>566</entry>
+</row>
+<row><entry>67</entry>
+<entry>Subject Clitics and Complex Inversion: Jean-Yves Pollock</entry>
+<entry>601</entry>
+</row>
+<row><entry>68</entry>
+<entry>Subjunctives: Josep Quer</entry>
+<entry>660</entry>
+</row>
+<row><entry>69</entry>
+<entry>Syntactic Haplology: Ad Neeleman and Hans van de Koot</entry>
+<entry>685</entry>
+</row>
+<row><entry namest="col1" nameend="col2">Index to all Volumes</entry>
+<entry>711</entry>
+</row>
+<row><entry namest="col1" nameend="col3">
+<b>Volume V</b>
+</entry>
+</row>
+<row><entry>70</entry>
+<entry>The Syntax of Modal Auxiliaries: Sjef Barbiers</entry>
+<entry>1</entry>
+</row>
+<row><entry>71</entry>
+<entry>The Syntax of Quantified Phrases and Quantitative Clitics: Anna Cardinaletti and Giuliana Giusti</entry>
+<entry>23</entry>
+</row>
+<row><entry>72</entry>
+<entry>Temporal Reference: Fabio Pianesi</entry>
+<entry>94</entry>
+</row>
+<row><entry>73</entry>
+<entry>Topicalization in Asian Languages: Liejiong Xu</entry>
+<entry>137</entry>
+</row>
+<row><entry>74</entry>
+<entry>Unexpected Wide-Scope Phenomena: E. G. Ruys</entry>
+<entry>175</entry>
+</row>
+<row><entry>75</entry>
+<entry>Verb Clusters, Verb Raising, and Restructuring: Susi Wurmbrand</entry>
+<entry>229</entry>
+</row>
+<row><entry>76</entry>
+<entry>Verb Particle Constructions: Martin Haiden</entry>
+<entry>344</entry>
+</row>
+<row><entry>77</entry>
+<entry><i>Wh</i>-in-Situ: Josef Bayer</entry>
+<entry>376</entry>
+</row>
+<row><entry namest="col1" nameend="col2">Consolidated References</entry>
+<entry>439</entry>
+</row>
+<row><entry namest="col1" nameend="col2">Index to all Volumes</entry>
+<entry>601</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h2" level="1">Chapters Grouped by Author</heading>
+<p><b>Ackema, Peter</b> (and Maaike Schoorlemmer) Middles &lsqb;III.42&rsqb;</p>
+<p><b>Alexiadou, Artemis</b> Left Dislocation (including CLLD) &lsqb;II.37&rsqb;</p>
+<p><b>Anagnostopoulou, Elena</b> Clitic Doubling &lsqb;I.14&rsqb;</p>
+<p><b>Anderson, Mona</b> Affectedness &lsqb;I.5&rsqb;</p>
+<p><b>Arad, Maya</b> The Spray-Load Alternation &lsqb;IV.63&rsqb;</p>
+<p><b>Bale, Alan</b> (and Robert May) Inverse Linking &lsqb;II.36&rsqb;</p>
+<p><b>Baltin, Mark</b> Extraposition &lsqb;II.25&rsqb;</p>
+<p><b>Barbiers, Sjef</b> The Syntax of Modal Auxiliaries &lsqb;V.70&rsqb;</p>
+<p><b>Bayer, Josef</b> <i>Wh</i>-in-Situ &lsqb;V.77&rsqb;</p>
+<p><b>Belletti, Adriana</b> (Past) Participle Agreement &lsqb;III.48&rsqb;</p>
+<p><b>Bhatt, Rajesh</b> (and Roumyana Pancheva) Conditionals &lsqb;I.16&rsqb;, Implicit Arguments &lsqb;II.34&rsqb;</p>
+<p><b>Boeckx, Cedric</b> (and Howard Lasnik) Long NP-Movement &lsqb;III.41&rsqb;</p>
+<p><b>Bok-Bennema, Reineke</b> Clitic Climbing &lsqb;I.13&rsqb;</p>
+<p><b>Cardinaletti, Anna</b> (and Giuliana Giusti) The Syntax of Quantified Phrases and Quantitative Clitics &lsqb;V.71&rsqb;</p>
+<p><b>Chung, Sandra</b> Properties of VOS Languages &lsqb;III.52&rsqb;</p>
+<p><b>Cole, Peter</b> (and Gabriella Hermon and C.-T. James Huang) Long-Distance Binding in Asian Languages &lsqb;III.39&rsqb;</p>
+<p><b>Corver, Norbert</b> Comparative Deletion and Subdeletion &lsqb;I.15&rsqb;, Freezing Effects &lsqb;II.28&rsqb;, Subextraction &lsqb;IV.66&rsqb;</p>
+<p><b>Dayal, Veneeta</b> Multiple-<i>Wh</i>-Questions &lsqb;III.44&rsqb;</p>
+<p><b>Delfitto, Denis</b> Adverb Classes and Adverb Placement &lsqb;I.4&rsqb;, Bare Plurals &lsqb;I.8&rsqb;</p>
+<p><b>Dikken, Marcel den</b> Specificational Copular Sentences and Pseudoclefts &lsqb;IV.61&rsqb;</p>
+<p><b>Dobrovie-Sorin, Carmen</b> The SE-Anaphor and its Role in Argument Realization &lsqb;IV.56&rsqb;</p>
+<p><b>Emonds, Joseph</b> Adjectival Passives &lsqb;I.2&rsqb; (and Rosemarie Whitney) Double Object Constructions &lsqb;II.21&rsqb;</p>
+<p><b>Erteschik-Shir, Nomi</b> Bridge Phenomena &lsqb;I.10&rsqb;</p>
+<p><b>Fanselow, Gisbert</b> Partial <i>Wh</i>-Movement &lsqb;III.47&rsqb;</p>
+<p><b>Giannakidou, Anastasia</b> <i>N</i>-Words and Negative Concord &lsqb;III.45&rsqb;</p>
+<p><b>Giusti, Giuliana (</b>and Anna Cardinaletti) The Syntax of Quantified Phrases and Quantitative Clitics &lsqb;V.71&rsqb;</p>
+<p><b>Goodall, Grant</b> Contraction &lsqb;I.17&rsqb;</p>
+<p><b>Guasti, Maria Teresa</b> Analytic Causatives &lsqb;I.6&rsqb;</p>
+<p><b>Gu&eacute;ron, Jacqueline</b> Inalienable Possession &lsqb;II.35&rsqb;</p>
+<p><b>Hagstrom, Paul</b> A-not-A Questions &lsqb;I.7&rsqb;</p>
+<p><b>Haiden, Martin</b> Verb Particle Constructions &lsqb;V.76&rsqb;</p>
+<p><b>Haider, Hubert</b> Mittelfeld Phenomena (Scrambling in Germanic) &lsqb;III.43&rsqb;</p>
+<p><b>Hasegawa, Nobuko</b> Honorifics &lsqb;II.32&rsqb;</p>
+<p><b>Hermon, Gabriella</b> (and Peter Cole and C.-T. James Huang) Long-Distance Binding in Asian Languages &lsqb;III.39&rsqb;</p>
+<p><b>Heycock, Caroline</b> Embedded Root Phenomena &lsqb;II.23&rsqb;</p>
+<p><b>Holmberg, Anders</b> Stylistic Fronting &lsqb;IV.65&rsqb;</p>
+<p><b>Hoof, Hanneke van</b> Split Topicalization &lsqb;IV.62&rsqb;</p>
+<p><b>Horvath, Julia</b> Pied-Piping &lsqb;III.50&rsqb;</p>
+<p><b>Huang, C.-T. James</b> (and Peter Cole and Gabriella Hermon) Long-Distance Binding in Asian Languages &lsqb;III.39&rsqb;</p>
+<p><b>Inoue, Kazuko</b> Case (with Special Reference to Japanese) &lsqb;I.11&rsqb;</p>
+<p><b>Johnson, Kyle</b> Gapping &lsqb;II.29&rsqb;</p>
+<p><b>Kiss, Katalin &Eacute;.</b> Quantifier Scope Ambiguities &lsqb;IV.53&rsqb;</p>
+<p><b>Koot, Hans van de</b> (and Ad Neeleman) Syntactic Haplology &lsqb;IV.69&rsqb;</p>
+<p><b>Lasnik, Howard</b> (and Cedric Boeckx) Long NP-Movement &lsqb;III.41&rsqb;</p>
+<p><b>Law, Paul</b> Preposition Stranding &lsqb;III.51&rsqb;</p>
+<p><b>Li, Yen-Hui Audrey</b> Chinese <i>Ba</i> &lsqb;I.12&rsqb;</p>
+<p><b>Lobeck, Anne</b> Ellipsis in DP &lsqb;II.22&rsqb;</p>
+<p><b>May, Robert</b> (and Alan Bale) Inverse Linking &lsqb;II.36&rsqb;</p>
+<p><b>McCloskey, James</b> Resumption &lsqb;IV.55&rsqb;</p>
+<p><b>Merchant, Jason</b> Sluicing &lsqb;IV.60&rsqb;</p>
+<p><b>Milsark, Gary</b> Gerundive Nominalizations &lsqb;II.30&rsqb;</p>
+<p><b>Mohanan, Tara</b> Grammatical Verbs (with Special Reference to Light Verbs) &lsqb;II.31&rsqb;</p>
+<p><b>Moro, Andrea</b> Copular Sentences &lsqb;I.18&rsqb;, Existential Sentences and Expletive <i>There</i> &lsqb;II.24&rsqb;</p>
+<p><b>Muysken, Pieter</b> (and Tonjes Veenstra) Serial Verbs &lsqb;IV.59&rsqb;</p>
+<p><b>Neeleman, Ad</b> (and Hans van de Koot) Syntactic Haplology &lsqb;IV.69&rsqb;</p>
+<p><b>Pancheva, Roumyana</b> (and Rajesh Bhatt) Conditionals &lsqb;I.16&rsqb;, Implicit Arguments &lsqb;II.34&rsqb;</p>
+<p><b>Pianesi, Fabio</b> Temporal Reference &lsqb;V.72&rsqb;</p>
+<p><b>Pollock, Jean-Yves</b> Subject Clitics and Complex Inversion &lsqb;IV.67&rsqb;</p>
+<p><b>Quer, Josep</b> Subjunctives &lsqb;IV.68&rsqb;</p>
+<p><b>Reuland, Eric</b> Binding Theory: Terms and Concepts &lsqb;I.9&rsqb;, Icelandic Logophoric Anaphora &lsqb;II.33&rsqb;, Logophoricity &lsqb;II.38&rsqb;, Long-Distance Binding in Germanic Languages &lsqb;III.40&rsqb;</p>
+<p><b>Riemsdijk, Henk van</b> Free Relatives &lsqb;II.27&rsqb;</p>
+<p><b>Rothstein, Susan</b> Secondary Predication &lsqb;IV.58&rsqb;</p>
+<p><b>Rozwadowska, Bo&#x017C;ena</b> Derived Nominals &lsqb;II.19&rsqb;</p>
+<p><b>Runner, Jeffrey T.</b> The Accusative Plus Infinitive Construction in English &lsqb;I.1&rsqb;</p>
+<p><b>Ruys, E. G.</b> Unexpected Wide Scope Phenomena &lsqb;V.74&rsqb;</p>
+<p><b>Schoorlemmer, Maaike</b> (and Peter Ackema) Middles &lsqb;III.42&rsqb;</p>
+<p><b>Schultze-Berndt, Eva</b> Secondary Predicates in Australian Languages &lsqb;IV.57&rsqb;</p>
+<p><b>Sportiche, Dominique</b> Reconstruction, Binding, and Scope &lsqb;IV.54&rsqb;</p>
+<p><b>Szabolcsi, Anna</b> Strong vs. Weak Islands &lsqb;IV.64&rsqb;</p>
+<p><b>Szendr&#x0151;i, Kriszta</b> Focus Movement (with Special Reference to Hungarian) &lsqb;II.26&rsqb;</p>
+<p><b>Tateishi, Koichi</b> Double Nominatives in Japanese &lsqb;II.20&rsqb;</p>
+<p><b>Valois, Daniel</b> Adjectives: Order within DP and Attributive APs &lsqb;I.3&rsqb;</p>
+<p><b>Veenstra, Tonjes</b> (and Pieter Muysken) Serial Verbs &lsqb;IV.59&rsqb;</p>
+<p><b>Vergnaud, Jean-Roger</b> (and Mar&iacute;a Luisa Zubizarreta) Phrasal Stress and Syntax &lsqb;III.49&rsqb;</p>
+<p><b>Vikner, Sten</b> Object Shift &lsqb;III.46&rsqb;</p>
+<p><b>Whitney, Rosemarie</b> (and Joseph Emonds) Double Object Constructions &lsqb;II.21&rsqb;</p>
+<p><b>Wurmbrand, Susi</b> Verb Clusters, Verb Raising, and Restructuring &lsqb;V.75&rsqb;</p>
+<p><b>Xu, Liejiong</b> Topicalization in Asian Languages &lsqb;V.73&rsqb;</p>
+<p><b>Zubizarreta, Mar&iacute;a Luisa</b> (and Jean-Roger Vergnaud) Phrasal Stress and Syntax &lsqb;III.49&rsqb;</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h3" level="1">List of Contributors</heading>
+<p><b>Peter Ackema</b> (University of Edinburgh)</p>
+<p><b>Artemis Alexiadou</b> (Universit&auml;t Stuttgart)</p>
+<p><b>Elena Anagnostopoulou</b> (University of Crete)</p>
+<p><b>Mona Anderson</b> (University of Connecticut, Storrs)</p>
+<p><b>Maya Arad</b> (Stanford University)</p>
+<p><b>Alan Bale</b> (McGill University)</p>
+<p><b>Mark Baltin</b> (New York University)</p>
+<p><b>Sjef Barbiers</b> (Meertens Instituut, Amsterdam and Universiteit Utrecht)</p>
+<p><b>Josef Bayer</b> (Universit&auml;t Konstanz)</p>
+<p><b>Adriana Belletti</b> (Universit&agrave; di Siena)</p>
+<p><b>Rajesh Bhatt</b> (University of Massachusetts, Amherst)</p>
+<p><b>Cedric Boeckx</b> (Harvard University)</p>
+<p><b>Reineke Bok-Bennema</b> (Rijksuniversiteit Groningen)</p>
+<p><b>Anna Cardinaletti</b> (Universit&agrave; Ca&rsquo; Foscari Venezia)</p>
+<p><b>Sandra Chung</b> (University of California, Santa Cruz)</p>
+<p><b>Peter Cole</b> (University of Delaware and Max Plank Institut f&uuml;r evolution&auml;re Anthropologie)</p>
+<p><b>Norbert Corver</b> (Universiteit Utrecht)</p>
+<p><b>Veneeta Dayal</b> (Rutgers, The State University of New Jersey)</p>
+<p><b>Denis Delfitto</b> (Universit&agrave; degli Studi di Verona)</p>
+<p><b>Marcel den Dikken</b> (The City University of New York)</p>
+<p><b>Carmen Dobrovie-Sorin</b> (L&rsquo;Universit&eacute; Paris 7 Denis Diderot)</p>
+<p><b>Joseph Emonds</b> (Shoin Women&apos;s University, Kobe)</p>
+<p><b>Nomi Erteschik-Shi</b>r (Ben-Gurion University of the Negev)</p>
+<p><b>Gisbert Fanselow</b> (Universit&auml;t Potsdam)</p>
+<p><b>Anastasia Giannakidou</b> (University of Chicago)</p>
+<p><b>Giuliana Giusti</b> (Universit&agrave; Ca&rsquo; Foscari Venezia)</p>
+<p><b>Grant Goodall</b> (University of California, San Diego)</p>
+<p><b>Maria Teresa Guasti</b> (Universit&agrave; di Milano-Bicocca)</p>
+<p><b>Jacqueline Gu&eacute;ron</b> (Universit&eacute; de la Sorbonne Nouvelle, Paris III)</p>
+<p><b>Paul Hagstrom</b> (Boston University)</p>
+<p><b>Martin Haiden</b> (L&rsquo;Universit&eacute; Charles-de-Gaulle &ndash; Lille 3)</p>
+<p><b>Hubert Haider</b> (Universit&auml;t Salzburg)</p>
+<p><b>Nobuko Hasegawa</b> (Kanda University of International Studies)</p>
+<p><b>Gabriella Hermon</b> (University of Delaware)</p>
+<p><b>Caroline Heycock</b> (University of Edinburgh)</p>
+<p><b>Anders Holmberg</b> (University of Newcastle upon Tyne)</p>
+<p><b>Hanneke van Hoof</b> (Rijswijk, The Netherlands)</p>
+<p><b>Julia Horvath</b> (Tel Aviv University)</p>
+<p><b>C.-T. James Huang</b> (Harvard University)</p>
+<p><b>Kazuko Inoue</b> (Kanda University of International Studies)</p>
+<p><b>Kyle Johnson</b> (University of Massachusetts, Amherst)</p>
+<p><b>Katalin &Eacute;. Kiss</b> (Magyar Tudom&aacute;nyos Akad&eacute;mia)</p>
+<p><b>Hans van de Koot</b> (University College London)</p>
+<p><b>Howard Lasnik</b> (University of Maryland)</p>
+<p><b>Paul Law</b> (Zentrum f&uuml;r Allgemeine Sprachwissenschaft, Berlin)</p>
+<p><b>Yen-Hui Audrey Li</b> (University of Southern California)</p>
+<p><b>Anne Lobeck</b> (Western Washington University)</p>
+<p><b>Robert May</b> (University of California, Irvine)</p>
+<p><b>James McCloskey</b> (University of California, Santa Cruz)</p>
+<p><b>Jason Merchant</b> (University of Chicago)</p>
+<p><b>Gary Milsark</b> (Temple University)</p>
+<p><b>Tara Mohanan</b> (National University of Singapore)</p>
+<p><b>Andrea Moro</b> (Universit&agrave; Vita-Salute San Raffaele, Milano)</p>
+<p><b>Pieter Muysken</b> (Radboud Universiteit Nijmegen)</p>
+<p><b>Ad Neeleman</b> (University College London)</p>
+<p><b>Roumyana Pancheva</b> (University of Southern California)</p>
+<p><b>Fabio Pianesi</b> (Istituto Trentino di Cultura-IRST)</p>
+<p><b>Jean-Yves Pollock</b> (Universit&eacute; de Marne-la-Vall&eacute;e)</p>
+<p><b>Josep Quer</b> (Instituci&oacute; Catalana de Recerca i Estudis Avan&ccedil;ats and Universitat Aut&ograve;noma de Barcelona)</p>
+<p><b>Eric Reuland</b> (Universiteit Utrecht)</p>
+<p><b>Henk van Riemsdijk</b> (Universiteit van Tilburg)</p>
+<p><b>Susan Rothstein</b> (Bar-Ilan University)</p>
+<p><b>Bo</b>&#x017C;<b>ena Rozwadowska</b> (Uniwersytet Wroc&#x0142;awski)</p>
+<p><b>Jeffrey T. Runner</b> (University of Rochester)</p>
+<p><b>E. G. Ruys</b> (Universiteit Utrecht)</p>
+<p><b>Maaike Schoorlemmer</b> (Universiteit Utrecht)</p>
+<p><b>Eva Schultze-Berndt</b> (Karl-Franzens-Universit&auml;t Graz)</p>
+<p><b>Dominique Sportiche</b> (University of California, Los Angeles)</p>
+<p><b>Anna Szabolcsi</b> (New York University)</p>
+<p><b>Kriszta Szendr&#x0151;i</b> (Universiteit Utrecht)</p>
+<p><b>Koichi Tateishi</b> (Kobe College)</p>
+<p><b>Daniel Valois</b> (Universit&eacute; de Montr&eacute;al)</p>
+<p><b>Tonjes Veenstra</b> (Freie Universit&auml;t Berlin)</p>
+<p><b>Jean-Roger Vergnaud</b> (University of Southern California)</p>
+<p><b>Sten Vikner</b> (Aarhus Universitet)</p>
+<p><b>Rosemarie Whitney</b> (Eugene, Oregon)</p>
+<p><b>Susi Wurmbrand</b> (University of Connecticut, Storrs)</p>
+<p><b>Liejiong Xu</b> (University of Toronto)</p>
+<p><b>Mar&iacute;a Luisa Zubizarreta</b> (University of Southern California)</p>
+</subsection>
+<subsection id="ss4" level="1">
+<heading id="h4" level="1">Preface</heading>
+<p>Generative grammar has always set its aims high. From its inception in the 1950s, the ambition has been to go beyond observational and descriptive adequacy to reach explanatory bliss. Important work would be about &lsquo;conditions on transformations&rsquo; rather than on &lsquo;some properties of <i>wh</i>-movement in English&rsquo;, about the &lsquo;transformational cycle&rsquo; rather than on verb clusters.<link rid="fn1">
+<sup>1</sup></link> This is what science should be like. And while earlier attempts at achieving a semblance of an explanatory theory were often clumsy and inadequate, these past forty or so years have shown that truly fundamental questions can now be asked and addressed.<link rid="fn2">
+<sup>2</sup></link> This emphasis on theory has not, of course, altered the fact that linguistics is a thoroughly empirical science, but data and analyses are seen as what they are: tools to help us understand the structure and properties of the human language faculty. It is the fate of tools that when the product is finished they are put away. When some (as it turns out controversial) data from Italian had suggested that the notion of bounding node should be parameterized, we then forgot about the Italian data and happily proceeded with the idea of parameters.<link rid="fn3">
+<sup>3</sup></link> Numerous other examples could be added.</p>
+<p>More generally, the data and analyses that at some point in the history of generative grammar played an important, sometimes even a crucial, role have a tendency to fade into the background rather quickly.<link rid="fn4">
+<sup>4</sup></link> This effect is particularly strong when the piece of theorizing they helped to establish becomes obsolete, but it is even true when the theoretical insight persists over time. As time went on, and as generative grammar (using the term in the broad sense, including all its theoretical diversity), in its explosive success, expanded to dozens of countries, hundreds of universities and colleges, and many hundreds of researchers, the muckheap of once useful but then discarded empirical material continued to grow. Old hands in the field may still be served by a good memory, helping them to dig out some of these rejects if they seem useful at some later stage, but successive new generations of young linguists simply don&apos;t have access to the wealth of data, generalizations, and analyses that might be terribly important to their research if only they knew about them.</p>
+<p>But it is not only a problem for younger generations. Researchers who like to keep track of developments, particularly (but not only) in those subfields that are not directly related to their own research, or who work in closely related disciplines such as, for instance, psycholinguistics or sociolinguistics, find it increasingly difficult to keep track. Current handbooks are often concerned with current theorizing, but only marginally with the history of the various versions of the theory and even less with the empirical generalizations underlying those theories. As a consequence, an ever smaller percentage of the potentially useful empirical material is treated in standard textbooks, and hence the rest is not part of the knowledge that researchers and students in the field may be expected to possess.</p>
+<p>It might be objected that the articles in which all this wisdom is stored are, after all, still around in the journals, in the books, in the libraries. But given their theoretical focus, the titles are often unrevealing as far as the empirical domain is concerned, keywords are notoriously absent or unreliable, relevant data are scattered over several articles, and, most importantly, the presentation of the data in these articles is subservient to the theoretical claims that are made and hence not presented in succinct, didactically useful ways.<link rid="fn5">
+<sup>5</sup></link> So searching for the relevant materials, even if you know what to look for, is often hard. For young researchers, such a search task is doubly difficult because very often the descriptive generalizations are presented in a jargon and formalism that were characteristic of the theoretical framework at the time, sometimes decades ago. Who thinks to look up the term &lsquo;backward equi&rsquo; when looking for data relevant to what we now call exceptional case marking (ECM)?<link rid="fn6">
+<sup>6</sup></link>
+</p>
+<p>Having a good, theoretically oriented mind is not enough. You cannot gain an understanding of the abstract properties of Universal Grammar without having any ideas about interesting empirical areas that might provide the crucial evidence (or counter-evidence) for your claims. But these flashes of empirical insight can only come if you have enough knowledge in your head to start the neurons firing away. And you can only have that knowledge if you have been taught about a certain range of phenomena in a variety of languages, or if you have had access to a repository of such materials to work through by yourself. The problem is that such courses are rarely taught, the reason being more often than not that the relevant data are not available in a form that is didactically usable.</p>
+<p>This is the lacuna that we are hoping to fill with <i>The Blackwell Companion to Syntax</i>. In these five volumes, we offer you 77 case studies of syntactic phenomena that should, at least partly, fill the gap and constitute an important research tool for the working linguist and for teachers and students of syntax (and its interfaces). In bringing these chapters together, we were guided by a working definition of what a syntactic case study was supposed to be. The following properties were thought to be central: <i>a well-delimited empirical area (both as to the construction(s) involved and as to the languages in which the phenomena are found) whose analysis has, at one time or another in the history of generative grammar, played an important role in the theoretical debates at that time</i>. More often than not, we will find that such results are relatively robust in the sense that they will stand and be interpretable regardless of various innovations or adaptations of the version of the theory in which they first saw the light.</p>
+<p>The so-called &lsquo;verb-raising&rsquo; construction in Continental-West Germanic languages (chapter 75) will serve as an example. Much has been published on this subject, a reasonable degree of consensus exists about the most important properties of the construction, its analyses have been frequently used to support theoretical proposals, etc. Nevertheless, the existence of this complex of facts is hardly known outside the small group of specialists in this field, the main properties cannot be presupposed as common knowledge, and no one in the field can be properly held responsible for ignoring the verb-raising construction. In a situation like that, the chapter&apos;s presentation will be oriented toward combining views and formulating them in such a way that they will be accessible to researchers from various approaches to the theory of grammar.</p>
+<p>In addition, of course, the delimitation had to be such that the empirical subdomain in question could be treated in manageable chapters. It would have been unthinkable to include a case about relative clauses: even a thick monograph would not do such a topic justice. But the subtopic of free (headless) relative clauses (chapter 27), a topic that in the late 1970s and the 1980s generated a considerable literature, is a typical example of what we had in mind.</p>
+<p>What about the theory? We wanted to make the empirical generalizations, the insights into the properties of constructions, the main focus of each chapter. But wherever useful and possible, of course, reference can be and is made to the theoretical issues that the phenomena in question were or even are relevant to. This introduces a certain bandwidth, and indeed some of our authors stress the empirical side more strongly while others swerve more easily into theoretical discussions. With a project this size it has been impractical to impose more uniformity than we have achieved here. It was, frankly, not always easy to convince our authors to take time away from their primary theoretical research to write the chapters we asked them to. And it was also on occasion hard to curb the attention that they tended to give to theoretical issues and their own role in those theoretical developments. More generally, wherever possible we suggested that theoretical issues be addressed in robust, sustainable ways, not in terms that would reflect the fads and the terminological peculiarities typical of a specific brief period in the short history of generative grammar.</p>
+<p>It does not take a great deal of knowledge of the field to realize that an enterprise such as the present one is a highly open-ended affair. Even if we had achieved complete coverage at the time of appearance, new cases would soon present themselves. But complete coverage is unattainable in the first place. It is always possible to come up with other potential cases, not represented in the present work. Even now we already have a number of ideas about cases that might be added and which may at some point be added to the present collection. Nevertheless, we believe that the coverage that the present collection achieves is very considerable. So much ground is covered that already it seems doubtful that future graduate students of linguistics could be expected to work through all of this material. If a student manages part of it and has the rest at his or her disposal as an encyclopedia of linguistic phenomena, we feel certain that his or her research will greatly benefit. As teachers we are frequently confronted by a big question mark in the faces of students or even fellow faculty members when we use terms like &lsquo;contraction&rsquo;, &lsquo;subdeletion&rsquo;, or &lsquo;freezing effect&rsquo;. And when asked &ldquo;Where can I read up on this?&rdquo; we are often faced with our own bad memory and the virtual impossibility of pointing toward one representative text that will concisely and competently explain what kind of phenomena are hiding behind these terms. This, we feel sure, is now a problem of the past.</p>
+<p>If, as we are convinced, this <i>Companion</i> will become an important research tool in linguistics, a pressing need will also be felt for additional case studies to be added. While it may well be possible to project further volumes in the future, or an updated or extended version of the present publication, it has been clear to us from the start that the best way to make this an incremental enterprise is to publish these cases electronically. This would allow the possibility of reviewing cases now published, adding new cases relatively easily, and allowing discussion fora, etc. When that happens, the way to expanded coverage of the field will be paved. For the moment we refer you to <externallink type="url">http://www.syntaxcompanion.org</externallink> to keep you informed on developments in this area.</p>
+<p>One point to make about the references: every individual chapter has a reference section; the consolidated reference list is in volume V, and in the XML CD version the links are to the consolidated list rather than to the end-of-chapter lists. So in the chapter references you may find entries with a, b, etc. after the date even if there is only entry with that author and date in that chapter, because there is more than one entry in the whole five volumes with the same author and date. For example, even if there&apos;s only one Chomsky 1995 cited in any one chapter, it will appear as Chomsky 1995a or 1995b or 1995c, because there are three Chomsky 1995 entries in the consolidated references for the whole five volumes, identified as a, b, and c.</p>
+<p>As editors of this encyclopedia of case studies, we have had to make many choices. In doing so we were greatly helped by the project group at NIAS, the Netherlands Institute for Advanced Study in the Humanities and Social Sciences, at Wassenaar, in the dunes lining the Dutch coast, in 1996/1997. The definition of what we would consider a typical case study was intensively discussed and ultimately fixed by that group: Reineke Bok-Bennema, Norbert Corver, Denis Delfitto, Joe Emonds, Martin Haiden, Itziar Laka, Eric Reuland, Tim Stowell, Sten Vikner, and, to some extent, Ian Roberts. We were also fortunate to have good input and feedback from Hagit Borer, Jan Koster, and Edwin Williams, our special outside consultants. The original list of cases was also compiled by that group. First sample chapters were produced during that year. And we brainstormed a lot about who would be the ideal author for which chapter. Nevertheless, we accept full responsibility for all the choices that were made.</p>
+<p>We do wish to emphasize, however, that it has never been our intention to suggest that the present collection could be interpreted as a kind of canon, in the literary sense of the word (to the extent that literary scholars are still prepared to advocate such a notion). What we say above about the open-ended character of an enterprise such as this should underline the fact that nobody could pretend that it is at all possible to establish such a canon, even if one tried to.</p>
+<p>The first plans for this project were made in 1993. That is when we decided to apply to NIAS to see if we could get together a team of colleagues with whom to discuss the scope, the objectives, and the realization of the present work. The application was approved. We gratefully acknowledge the generous support, financial, logistic, and otherwise, of NIAS and, in particular, Dick van de Kaa and Wouter Hugenholtz, respectively the rector and the director of the institute. The group convened in the splendid isolation of NIAS in the academic year 1996/1997. There, we were happy to be able to work together with the colleagues mentioned above. Ilke van den Ende joined us as a student trainee. We were also happy to be able to organize two workshops at NIAS during that year. A third was held in Los Angeles at USC with the help and support of Hagit Borer and Tim Stowell in 2001. We wish to thank the participants at these workshops for their contributions, and LOT (the Dutch National Graduate School of Linguistics) as well as NWO and KNAW (the Netherlands Organization for Scientific Research and the Dutch Royal Academy of Sciences respectively) for financial support for these workshops. We also wish to thank the BSGM Foundation for an additional grant to the NIAS group. Last but not least we wish to thank those who have assisted us with the administration and correspondence, with the copy-editing and the HTML-conversion and the maintenance of the website: Jenny Doetjes, Bart Hollebrandse, Rob Goedemans, and Hannah de Mulder. Without them we literally and figuratively could not have managed. Thanks are due to NWO and the Utrecht Institute of Linguistics OTS (Language in Use project) for grants that made this assistance possible.</p>
+<p>Finally we would like to thank all those at Blackwell who, over the years, have helped us realize this project &ndash; Ada Brunstein, Philip Carpenter, Sarah Coleman, Tami Kaplan &ndash; and the copy-editing team &ndash; Fiona Sewell, Anna Oxbury, Peter Kahrel &ndash; for doing such a wonderful job.</p>
+<p>Utrecht and Tilburg</p>
+<p>Martin Everaert and Henk van Riemsdijk</p>
+</subsection>
+<subsection id="ss5" level="1">
+<heading id="h5" level="1">NOTES</heading>
+<p>
+<span id="fn1">
+<number>1&emsp;</number>Cf. <link rid="b1">Chomsky (1973</link>); <link rid="b2">Evers (1975b</link>).</span>
+</p>
+<p>
+<span id="fn2">
+<number>2&emsp;</number>See, for example, <link rid="b3">Chomsky (2004</link>).</span>
+</p>
+<p>
+<span id="fn3">
+<number>3&emsp;</number>Cf. <link rid="b4">Rizzi (1982b</link>).</span>
+</p>
+<p>
+<span id="fn4">
+<number>4&emsp;</number>The reverse also holds true. Certain empirical domains have never figured prominently in theoretical debates, and remain, thus, uncharted territory from a descriptive point of view.</span>
+</p>
+<p>
+<span id="fn5">
+<number>5&emsp;</number>We should add that publications like <i>Linguistics Abstracts Online</i> will, in future, solve part of the problem we note.</span>
+</p>
+<p>
+<span id="fn6">
+<number>6&emsp;</number>Cf. <link rid="b5">Postal (1974</link>).</span>
+</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss6" level="1" type="references">
+<heading id="h6" level="1">REFERENCES</heading>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1973">1973</date><x>). </x><title type="document">Conditions on Transformations</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">A Festschrift for Morris Halle</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Stephen</forenames><x> </x><surname>Anderson</surname>
+</name><x> and </x><name type="editor">
+<forenames>Paul</forenames><x> </x><surname>Kiparsky</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">232</page><x>&ndash;</x><page type="last">286</page>
+<x>. </x><address>New York</address><x>: </x><publisher>Holt, Rinehart, and Winston.</publisher>
+</reference>
+<reference id="b3" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="2004">2004</date><x>). </x><title type="book">The Generative Enterprise Revisited: Discussions with Riny Huijbregts, Henk van Riemsdijk, Naoki Fukui and Mihoko Zushi</title><x>. </x><address>Berlin</address><x>: </x><publisher>Mouton de Gruyter</publisher><x>.</x>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Evers</surname><x>, </x><forenames>Arnold</forenames>
+</name>
+</namegroup><x> (</x><date date="1975">1975b</date><x>). </x><title type="book">The Transformational Cycle in German and Dutch<x>.</x>
+</title><x> </x><address>Bloomington</address><x>: </x><publisher>Indiana University Linguistics Club.</publisher>
+</reference>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Postal</surname><x>, </x><forenames>Paul<x> </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date><x>). </x><title type="book">On Raising<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b4" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rizzi</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982b</date><x>). </x><title type="document">Violations of the <i>Wh-</i>Island Constraint in Italian and the Subjacency Condition</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Issues in Italian Syntax<x>.</x>
+</title><x> </x><namegroup type="editors">
+<name type="editor">
+<forenames>Luigi</forenames><x> </x><surname>Rizzi</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">49</page><x>&ndash;</x><page type="last">76</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+</subsection>
+<subsection id="ss7" level="1" type="acknowledgement">
+<heading id="h7" level="1">Acknowledgments</heading>
+<p>The editors would like to thank the following for their help in reviewing drafts of the chapters:</p>
+<p>Ash Aduseh, Tor &Aring;farli, Artemis Alexiadou, Sergio Baauw, Mark Baltin, Janneke ter Beek, Adriana Belletti, Hans Bennis, Tonia Bleam, Reineke Bok-Bennema, Eulalia Bonet, &#x017D;eljko Bo&scaron;kovi&#x0107;, Hans Broekhuis, Josep Brucart, Benjamin Bruening, Anna Cardinaletti, Greg Carlson, Jean Castillo, Sandra Chung, Guglielmo Cinque, Jocelyn Cohan, Chris Collins, Jo&atilde;o Costa, Peter Culicover, Chris Culy, William Davies, Veneeta Dayal, Mike Dickey, Marcel den Dikken, Jenny Doetjes, Frank Drijkoningen, Joe Emonds, Nick Evans, Gisbert Fanselow, Astrid Ferdinand, Jacqueline Gu&eacute;ron, Lutz Gunkel, Ger de Haan, Holden Haertl, Pan Haihua, Taka Hara, Heidi Harley, Marco Haverkort, Lars Hellan, Petra Hendriks, Caroline Heycock, Anders Holmberg, Hanneke van Hoof, Angeliek van Hout, Kyle Johnson, Brigitte Kampers, Ellen-Petra Kester, Olaf Koeneman, Paul Law, Winfried Lechner, Anik&oacute; Lipt&aacute;k, Victor Manfredi, Diane Massam, Robert May, Jason Merchant, Gary Milsark, Shiguru Miyagawa, Alan Munn, Kimiko Nakanishi, Ad Neeleman, Anneke Neijt, Martina Nespor, Orin Percus, Jean-Yves Pollock, Anne Reboul, Georges Rebuschi, Johan Rooryck, Jeff Runner, Eddy Ruys, Joachim Sabel, Uli Sauerland, Philippe Schlenker, Maaike Schoorlemmer, Eva Schulze-Berndt, Bernhard Schwarz, Peter Sells, Laurie Siegel, Halldor Sigurdsson, Tal Siloni, Petra Sleeman, Barbara Stiebels, Tim Stowell, Thomas Stroik, Rynt Sybesma, Anna Szabolcsi, Satoshi Tamioka, Christopher Tancredi, Sten Vikner, Ton van der Wouden, James Yoon.</p>
+</subsection>
+</section>
+</document>
+</content> 

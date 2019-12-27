@@ -1,0 +1,988 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="63"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 63 - The Spray-Load Alternation.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">466</page>
+<page type="last">478</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="0"/>
+<count type="table" count="18"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="18"/>
+<count type="page" count="13"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051129"/>
+<trackingdate type="markedup" date="0000" by="christine tsai"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 63&ensp;Arad: The Spray-Load Alternation</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 63&ensp;Arad: The Spray-Load Alternation</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">63 The Spray-Load Alternation</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>MAYA</forenames><x> </x><surname>ARAD</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction: spray-load verbs &ndash; the data and the problem</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Accounting for the spray-load alternation</p>
+</li>
+<li level="2">
+<number>2.1&ensp;</number>
+<p>Thematic roles (Levin and <link rid="b1">Rappaport 1988</link>)</p>
+</li>
+<li level="2">
+<number>2.2&ensp;</number>
+<p>The Aspectual Interface Hypothesis</p>
+</li>
+<li level="2">
+<number>2.3&ensp;</number>
+<p>The role of syntax</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>The semantic properties of spray-load verbs</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1&ensp;Introduction: spray-load verbs &ndash; the data and the problem</heading>
+<p>The spray-load alternation, better known in the literature as the locative alternation, is exemplified in the sentences (1&ndash;5):</p>
+<p>(1)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Lucy sprayed the paint on the wall.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Lucy sprayed the wall with paint. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(2)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Ben loaded hay on the truck.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Ben loaded his truck with hay. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(3)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Jan</entry>
+<entry>plant</entry>
+<entry>bomen</entry>
+<entry>in</entry>
+<entry>de</entry>
+<entry>tuin.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>John</entry>
+<entry>plants</entry>
+<entry>trees</entry>
+<entry>in</entry>
+<entry>the</entry>
+<entry>Garden.</entry>
+<entry>
+</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>Jan</entry>
+<entry>beplant</entry>
+<entry>de</entry>
+<entry>tuin</entry>
+<entry>met</entry>
+<entry>bomen.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>John</entry>
+<entry>be-plants</entry>
+<entry>the</entry>
+<entry>garden</entry>
+<entry>with</entry>
+<entry>trees.</entry>
+<entry>(Dutch; <link rid="b17">Dik 1980</link>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(4)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>kabe</entry>
+<entry>ni</entry>
+<entry>penki</entry>
+<entry>o</entry>
+<entry>nuru</entry>
+</row>
+<row><entry>wall</entry>
+<entry>on</entry>
+<entry>paint</entry>
+<entry>ACC</entry>
+<entry>Paint (VERB)</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;smear paint on the wall&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>kabe</entry>
+<entry>o</entry>
+<entry>penki</entry>
+<entry>de</entry>
+<entry>nuru</entry>
+<entry>
+</entry>
+</row>
+<row><entry>wall</entry>
+<entry>ACC</entry>
+<entry>paint</entry>
+<entry>with</entry>
+<entry>Paint (VERB)</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;smear the wall with paint&rsquo;</entry>
+<entry>(Japanese; <link rid="b18">Fukui et al. 1985</link>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(5)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>J&aacute;nos</entry>
+<entry>r&aacute;m&aacute;zolta</entry>
+<entry>a</entry>
+<entry>fest&eacute;ket</entry>
+<entry>a</entry>
+<entry>falra.</entry>
+</row>
+<row><entry>John</entry>
+<entry>onto-smeared-he-it</entry>
+<entry>ACC</entry>
+<entry>Paint-ACC</entry>
+<entry>the</entry>
+<entry>wall-onto</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;John smeared paint on the wall.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>J&aacute;nos</entry>
+<entry>bem&aacute;zolta</entry>
+<entry>a</entry>
+<entry>falat</entry>
+<entry>fest&eacute;kkel.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>John</entry>
+<entry>in-smeared-he-it</entry>
+<entry>ACC</entry>
+<entry>The wall</entry>
+<entry>Paint-with</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;John smeared the wall with paint.&rsquo;</entry>
+<entry>(Hungarian; <link rid="b16">Moravcsik 1978</link>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Verbs such as <i>spray</i> and <i>load</i> appear in two different syntactic structures: each of their internal arguments may be realized as a direct object. The other argument is then realized as a goal (the truck in 2a) or a locatum (the entity that is being applied or located, like the hay in 2b). In this, they differ from other verbs that have two internal arguments, but which do not participate in that alternation:</p>
+<p>(6)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Lucy covered the towel with sand.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Lucy covered sand on the towel. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(7)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Ben poured water into the glass.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Ben poured the glass with water. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Even from this limited set of data in (1&ndash;5), two characteristic properties of the alternation are evident. First, this alternation exists in a number of unrelated languages. Second, it is roughly the same types of verbs that participate in that alternation. The two facts combined suggest that there may be something about the lexical properties of certain verbs which enables them to be realized in two different ways.</p>
+<p>The existence of such cases as (1&ndash;5) raises several related questions. First, noting that only a particular group of verbs undergo the locative alternation, the question arises:</p>
+<listgroup id="l2" type="symbol">
+<li level="1">
+<number>&bull;&ensp;</number>
+<p>What are the lexical properties of the verbs that participate in that alternation?</p>
+</li>
+</listgroup>
+<p>Second, it has been noted by many that there exists also a difference in the interpretation of the two variants in (1a, b) (cf. <link rid="b1">Rappaport and Levin 1988</link> and references therein). It is always the argument that is realized as a direct object, which is interpreted as wholly affected by the action of the verb. In (1a) it is understood that the whole amount of paint involved has been sprayed on the wall (although it is not specified whether the wall is now entirely covered with paint). In (1b) it is understood that the wall is completely covered with paint (but nothing is specified as for whether the whole amount of spray has been used). This difference in interpretation raises the following question:</p>
+<listgroup id="l3" type="symbol">
+<li level="1">
+<number>&bull;&ensp;</number>
+<p>How can the difference in interpretation between the two variants be accounted for?</p>
+</li>
+</listgroup>
+<p>In addition to these empirical questions, the locative alternation also raises a theoretical challenge to any theory of the syntax&ndash;lexicon interface:</p>
+<listgroup id="l4" type="symbol">
+<li level="1">
+<number>&bull;&ensp;</number>
+<p>How can the two argument structures associated with spray-load verbs be accounted for?</p>
+</li>
+</listgroup>
+<p>It is worth explaining, perhaps, why this is a problem at all. Work on the syntax&ndash;lexicon interface has established a robust correlation between verbs&rsquo; lexical properties and verbs&rsquo; argument structure. Within generative grammar, specifically within the GB framework, this correlation is captured by the Projection Principle, which ensures that all of verbs&rsquo; lexical properties are encoded at the beginning of the derivation (i.e., at D-structure). The projection of verbs is mediated via the thematic roles that each verb specifies: agent, theme, benefactor, etc. Each case of alternation poses a challenge to projection: does the verb have two lexical entries, each specifying different thematic roles, and associated with a different syntactic structure? Or is there a single lexical entry, associated with one structure only, and the other syntactic structure is derived from it?</p>
+<p>Argument structure alternations are not a homogeneous group. Consequently, the analyses that have been suggested for different alternations vary from one class to another. Cases of the causative-inchoative alternation (e.g. <i>Lucy broke the glass</i> vs. <i>The glass broke</i>) are standardly analyzed as an instance of unaccusativity (in the case of the inchoative verb), involving a single lexical entry. (<link rid="b2">Levin and Rappaport Hovav 1995</link>; <link rid="b3">Reinhart 1996</link>.)</p>
+<p>Cases such as the dative alternation (e.g., <i>Lucy gave a book to Ben</i> vs. <i>Lucy gave Ben a book</i>) have been argued by many to be a <i>syntactic</i> alternation, in which one structure is derivationally related to the other (<link rid="b4">Larson 1988b</link>).</p>
+<p>The locative alternation is thus an intriguing case, which does not lend itself easily to any of the above accounts (lexical operations or syntactic derivation). This question crosses theoretical boundaries: no matter what your theoretical assumptions are, there has to be a way to allow for such verbs to appear in two syntactic structures.</p>
+<p>Cases such as the spray-load alternation can be used, therefore, as a probe into the relation between the syntax and the lexical semantics of verbs. It is precisely by looking at such phenomena that we gain insight regarding the syntax&ndash;lexicon interface.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2&ensp;Accounting for the spray-load alternation</heading>
+<p>While all accounts of the locative alternation aim to answer the three questions posed above, theories differ with regard to their theoretical focus. We shall review here three types of theories based on: thematic roles; the role of aspect in mediating between syntax and semantics; and the role of the syntactic construction itself.</p>
+<subsection id="ss4" level="2">
+<heading id="h3" level="2">2.1&ensp;Thematic roles (Levin and <link rid="b1">Rappaport 1988</link>)</heading>
+<p>Working within the theory of thematic roles, <link rid="b1">Rappaport and Levin (1988</link>) concentrate on the challenge that spray-load verbs pose for the theory of thematic roles. Thematic roles, under their view, do not interface directly with the syntax. Rather, they are specified at an initial level of representation called Lexical Conceptual Structure (LCS). Part of the lexical information verbs include at that level is the thematic roles they take:</p>
+<p>(8)&ensp;LOAD: &lt;Agent, Locatum, Goal&gt;</p>
+<p>Thematic roles are then associated with another level of representation, which is syntactically relevant &ndash; Predicate Argument Structure (PAS). This level specifies argument <i>slots</i>, distinguishing between internal and external arguments, but is blind to specific thematic representation such as Agent, Theme etc. The linking rules from LCS to PAS ensure that the Agent argument ends up at the position of the external argument, and never as an internal argument (and, similarly, that the Theme argument is associated with the direct internal argument). Projection from PAS to the level of D-structure then proceeds according to the well-known projection rules (external argument realized as a subject, direct internal argument realized as an object, other arguments realized as indirect objects or objects of prepositions). Levin and Rappaport assume that from the single entry of <i>load</i> type verbs at LCS, there arise two different argument structures at PAS (in the following example the external argument, <i>x</i>, is marked as being outside the scope of the internal arguments. The direct internal argument, <i>y</i>, is underlined, and the preposition present in each alternant is specified at the level of PAS):</p>
+<p>(9)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>LOAD: <i>x</i> &lt;<i><u>y</u>
+</i>, P<sub>loc</sub><i>z</i>&gt;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>LOAD: <i>x</i> &lt;<i><u>y</u>
+</i>, P<sub>with</sub><i>z</i>&gt; </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>From these two argument structures, the two syntactic structures associated with <i>load</i> are projected. The problem is how to get from the single LCS entry in (8) to the two structures in (9).</p>
+<p>Rappaport and Levin note that the locative variant (2a) is easy to account for, if we allow the Locatum argument to be interpreted as a Theme. This ensures that the argument bearing this role ends up in the direct object position. The problem starts when we try to account for the other alternant, the &lsquo;<i>with</i>-variant&rsquo; (2b). Here, it is the Goal argument that is linked with the position of the direct internal argument. Goals generally tend to be linked with the position of indirect internal argument. To account for this alternation, it is necessary to postulate a linking rule specific to these cases &ndash; an undesirable thing to do. In addition, to account for the difference in interpretation between the two variants, an ad hoc rule assigning a holistic interpretation to a direct internal argument bearing a Goal role would be required. Another possibility to associate <i>load</i>-type verbs with two argument structures would simply be to assume that they include two LCS entries, each specifying different thematic roles:</p>
+<p>(10)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>LOAD<sub>a</sub>:</entry>
+<entry>&lt;Agent, Locatum, Goal&gt;</entry>
+<entry>(locative variant)</entry>
+</row>
+<row><entry>LOAD<sub>b</sub>:</entry>
+<entry>&lt;Agent, Theme, Locatum&gt;</entry>
+<entry>(<i>with</i>-variant)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A Theme is an entity that undergoes change of state, while a Locatum undergoes a change of location. Each of these verbs is then uniquely associated with an argument structure of its own.</p>
+<p>However, Rappaport and Levin point out that associating <i>load</i>-type verbs with two different thematic roles raises three serious problems. First, without a definition of a Theme, labeling arguments as &lsquo;Locatum&rsquo; and &lsquo;Theme&rsquo; seems like a restatement of the fact that either the goal or the locatum may be associated with the direct internal argument. The question is, how do we get two different argument structures from a single lexical entry? In addition, this approach does not explain the interpretative difference between the two variants. More importantly, it also masks the connection between <i>load</i>-type verbs and another group of verbs, <i>clear</i>-type verbs, that seems like their mirror image:</p>
+<p>(11)&ensp;<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Lucy cleared dishes from the table.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Lucy cleared the table of dishes. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Such verbs seem to share the thematic structure of <i>load</i>-type verbs, except for their second internal argument, which bears the role of a Source rather than a Goal:</p>
+<p>(12)&ensp;CLEAR<sub>a</sub>: &lt;Agent, Theme, Source&gt;</p>
+<p>In the <i>of</i>-variant, the list of thematic roles is identical to that of the <i>load</i>-type verbs:</p>
+<p>(13)&ensp;CLEAR<sub>b</sub>: &lt;Agent, Theme, Locatum&gt;</p>
+<p>Such an approach does not distinguish between <i>clear</i>-type verbs and <i>load</i>-type verbs at the level of LCS. To summarize, the single-thematic-structure approach fails to provide linking rules and account for the affected interpretation. The double-thematic-structure approach fails to account for the near-paraphrase interpretation of the two alternants.</p>
+<p>Cases such as the spray-load alternation clearly indicate the problems with the standard view of thematic roles (which successfully accounts for other types of alternations, such as the causative-inchoative alternation). Based on this case, Rappaport and Levin propose a finer-grained semantic representation of verbs. This view makes use of a decomposition of the meaning of load into argument variables and a number of primitive meaning components. The verb <i>load</i> has two LCSs:</p>
+<p>(14)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>LOAD: &lsqb;<i>x</i> cause &lsqb;<i>y</i> to come to be at <i>z</i>&rsqb; / LOAD&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>LOAD: &lsqb;&lsqb;<i>x</i> cause &lsqb;<i>z</i> to come to be in a STATE&rsqb;&rsqb; BY MEANS OF &lsqb;<i>x</i> cause &lsqb;<i>y</i> to come to be at <i>z</i>&rsqb;&rsqb; / LOAD&rsqb; </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(14a) is associated with the locative variant (load hay on the cart), and (14b) &ndash; with the <i>with</i>-variant (load the cart with hay). Note that the same variables occur in the main clause and in the subordinate MEANS clause in (14b) &ndash; ensuring identification of the participants in both events. Such an analysis captures the fact that the <i>z</i> variable has both undergone a change of state, and served as a goal for a change of location of the <i>y</i> variable. As Levin and Rappaport point out, this would not have been possible to capture in an approach that is based solely on thematic roles. Such an approach also captures the fact that <i>load</i> verbs make it possible for both their internal arguments to be understood as affected (by virtue of undergoing a change of state). The fact that verbs&rsquo; meaning may be semantically decomposed also captures the similarity between <i>load</i> verbs and <i>clear</i> verbs. The directionality of causation is different &ndash; <i>load</i> specifies causing to come to a certain location, while <i>clear</i> specifies causing to go away from a location, but the two verbs involve the same variables and the same matrix of event structure. This, again, is impossible to capture in a thematic-roles-based approach.</p>
+<p>Note that on this view the locative alternation is not an &lsquo;alternation&rsquo; in the syntactic sense &ndash; involving a derivation of one structure from the other, as in the case of the dative alternation. Rather, the relation between the two variants occurs at an initial lexical level, where the same verb, <i>load</i>, is associated with two different, but related, LCSs.</p>
+<p>While the model proposed by Rappaport and Levin elegantly accounts for the empirical facts related to the locative alternation, other accounts question the theoretical mechanism behind that analysis. The two types of theories that will be reviewed question the rich lexical representation that Levin and Rappaport associate with verbs. The first approach suggests that a coarser-grained criterion, based on aspect, mediates between lexical semantics and syntax. The second approach questions the very idea that the meaning of verbs resides in fully specified lexical entries.</p>
+</subsection>
+<subsection id="ss5" level="2">
+<heading id="h4" level="2">2.2&ensp;The Aspectual Interface Hypothesis</heading>
+<p>Over the past 15 years, a number of linguists have emphasized the role of aspect in determining the correlation between the syntax and the lexicon (see <link rid="b5 b6 b7">Tenny 1987, 1992, 1994</link>; <link rid="b8">Borer 1994</link>; <link rid="b9">Van Hout 1996</link>; <link rid="b10">Arad 1998</link>). The Aspectual Interface Hypothesis (originating with <link rid="b5">Tenny 1987</link>) argues that aspect mediates the mapping from thematic structure (or any level of lexical semantic representation) and the syntax. In particular, Tenny draws attention to the property associated with direct objects, of measuring out the event denoted by the verb: &ldquo;The internal argument of a simple verb is constrained so that it either undergoes no change or motion, or it undergoes change or motion that &lsquo;measures out the event&rsquo; over time&rdquo; (<link rid="b6">Tenny 1992</link>: 3). The object can be seen as a scale on which the event proceeds over time. As the event advances, so is the change of state undergone by the agent. For example, in an event of eating an apple, the apple is gradually consumed, indicating the progress of the event. Once the apple is consumed completely, the event is terminated. The same holds for objects such as &lsquo;knit a sweater&rsquo; &ndash; when the sweater is completed the event is terminated &ndash; &lsquo;read a book&rsquo; or &lsquo;perform a sonata&rsquo;. Other direct objects may not be as gradual, or incremental, but they serve to measure out the event as well: fix the car (the event ends once the car is fixed), solve a problem, find a book. By making the two assumptions regarding the role of aspect and the properties of the direct object, the Aspectual Interface Hypothesis gives a unified explanation of several cases of verb alternations. Let us see how this approach deals with the locative alternation.</p>
+<p>Tenny notes that the verbs that participate in the locative alternation share a specific semantic property: they specify one argument which is a well defined location (flat surface or container) and the other, which is a material that is applied to (or removed from, in the case of <i>clear</i> verbs) that location. Like Levin and <link rid="b1">Rappaport (1988</link>), Tenny notes that a thematic-role-based account is problematic: why would certain verbs containing a Theme and a Goal (<i>load</i>, <i>spray</i>) but not others (<i>push</i>) allow both their Theme and Goal arguments to be realized as direct objects? According to Tenny, the Aspectual Interface Hypothesis provides a simple explanation of this phenomenon. <i>Load</i> verbs denote an event that can be measured out in two different ways &ndash; both by the Theme and by the Goal. Since measuring out is associated with direct objects, either the Theme or the Goal may be realized as direct objects. The advantages of this approach are twofold: first, it captures the lexical class of verbs that participate in this alternation, and accounts for them in a unified way, using their aspectual properties. Second, it derives the subtle differences in interpretation associated with each variant. Because the direct object measures out the event, it turns out that the event terminates when the object is completely affected. In the locative variant (load the hay on the truck), the hay is realized as a direct object, and therefore the event terminates when the total amount of hay is loaded. In the <i>with</i>-variant (load the truck with hay) it is the truck that is realized as the direct object of the verb, and therefore the event terminates when the truck is full.</p>
+<p>Note that Tenny&apos;s approach is similar in many respects to the approach advocated by Levin and Rappaport Hovav. Both approaches assume an initial lexical level where verbs&rsquo; lexical properties are specified, and both believe that not all the information specified at that level is relevant for the syntax. They differ regarding the type of semantic information that is visible to the syntax. Levin and Rappaport postulate an intermediate level, PAS, mediating between the lexicon and the syntax, while Tenny takes aspectual properties to be the crucial mediator between the two.</p>
+</subsection>
+<subsection id="ss6" level="2">
+<heading id="h5" level="2">2.3&ensp;The role of syntax</heading>
+<p>Tenny&apos;s work associates a specific semantic interpretation with the direct object position. This association is captured through linking rules, postulating that the argument that measures out the event is lexicalized as the direct object of the verb. <link rid="b8">Borer (1994</link> and consequent work) points out that while the observations regarding the role of aspect are robust, the <i>direction</i> of the correlation may be opposite to that postulated by Tenny. Her approach thus turns the traditional view of argument structure upside down: it is not the case that arguments are labeled in the lexicon as Agent, Patient (or any other specification, such as event measurer), following which projection rules determine their syntactic position. Rather, it is the syntactic positions themselves that are associated with semantic interpretation: an external argument position endowed with agent-like properties, and an internal argument position, associated with the property of measuring out the event. The arguments of the verb do not bear any specifications in the lexicon. They acquire their interpretation as agents and patients only once they move into a syntactic projection associated with such an interpretation. We can define this view as the construction-based approach to argument structure (for a similar view see Van <link rid="b9">Hout 1996</link>, as well as, somewhat differently formulated within the framework of Construction Grammar, <link rid="b11">Goldberg 1995</link>).</p>
+<p>The motivation behind Borer&apos;s approach is, first and foremost, economy. Instead of rich lexical specifications, followed by linking rules that ensure mapping of the &lsquo;right&rsquo; argument (i.e., the one that was originally labeled as &lsquo;Agent&rsquo; in the lexicon) to the external argument position, she simply postulates that projection of argument takes place freely, and whatever argument happens to end up at the higher position will be interpreted as an agent (and, similarly, the one that ends up at the lower position is interpreted as measuring out the event). This way, the theoretical machinery needed for projection is considerably reduced. There is no need for rich lexical representations, nor for linking rules. All that verbs specify is their number of arguments.</p>
+<p>While this approach may prove too coarse-grained in dealing with the variety of argument structure alternations that exist in language (e.g., psychological verbs, the dative alternation), it is very fruitful in dealing with cases of multiple realization of arguments, such as the locative alternation. Let us see how this approach deals with the locative alternation. <i>Load</i> verbs are listed in the lexicon as taking three (unlabeled) arguments. These arguments are then freely projected into the available argument positions: AspOR (for <i>originator</i> of event), AspEM (<i>event measurer</i>) and prepositional object (leaving aside, for the moment, how the identity of that preposition is determined):</p>
+<p>(15)&ensp;<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;<sub>AspOR</sub> Lucy &lsqb;<sub>VP</sub> loaded &lsqb;<sub>AspEM</sub> hay &lsqb;<sub>PP</sub><i> on</i> the truck&rsqb;&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>AspOR</sub> Lucy &lsqb;<sub>VP</sub> loaded &lsqb;<sub>AspEM</sub> the truck &lsqb;<sub>PP</sub><i> with</i> hay&rsqb;&rsqb;&rsqb;&rsqb; </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The argument that is projected into the AspEM position is interpreted as the measurer of the event.</p>
+<p>Note that Borer&apos;s approach is primarily concerned with the interface of the lexicon and the syntax, rather than with internal lexical properties. Questions such as the identity of the lexical properties that are unique to <i>load</i> verbs or the distinction between <i>load</i> verbs and <i>clear</i> verbs fall outside its scope.</p>
+</subsection>
+</subsection>
+<subsection id="ss7" level="1">
+<heading id="h6" level="1">3&ensp;The semantic properties of spray-load verbs</heading>
+<p>So far we have been primarily concerned with the syntactic realization of spray-load verbs. There remains, however, the first question we raised here:</p>
+<listgroup id="l5" type="symbol">
+<li level="1">
+<number>&bull;&ensp;</number>
+<p>What are the lexical properties of the verbs that participate in that alternation?</p>
+</li>
+</listgroup>
+<p>The data discussed so far provide some cues regarding the answer. It has been observed by a number of linguists that such verbs require both a locatum (an entity that is located or put somewhere) and a location that is either a container (e.g., the truck) or a flat surface (e.g., the wall). However, this is obviously not a sufficient condition for a verb to undergo this alternation.</p>
+<p><i>Dribble</i>, for example, takes both a location and a surface, yet fails to undergo the alternation:</p>
+<p>(16)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Lucy dribbled paint onto the floor.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Lucy dribbled the floor with paint. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Similarly, <i>pour</i> specifies a locatum and a container, but does not allow the <i>with</i>-variant:</p>
+<p>(17)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Lucy poured milk into her glass.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Lucy poured her glass with milk. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Conversely, certain verbs that take a locatum and a location allow the <i>with</i>-variant, but not the locative variant:</p>
+<p>(18)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Lucy coated lemon icing onto the cake.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Lucy coated the cake with lemon icing. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(19)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Lucy seasoned lemon rind into the cake.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Lucy seasoned the cake with lemon rind. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Some finer-grained semantic criteria are required to distinguish these cases from <i>load</i>-type verbs, which participate in the alternation. Such a semantic account is offered by <link rid="b12">Pinker (1989</link>), based on earlier work by <link rid="b13">Rappaport and Levin (1985</link>). Pinker notes, first, that the location verbs are not a homogenous class. The first principal division holds, according to him, between content-oriented verbs and container-oriented verbs. Content-oriented verbs obligatorily take a locatum argument, while their location argument is optional (20). Container oriented verbs obligatorily take a location, while their locatum argument is optional (21):</p>
+<p>(20)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Lucy piled the books (on the shelf).</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Lucy piled the shelf *(with books). </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(21)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Lucy stuffed the turkey (with breadcrumbs).</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Lucy stuffed the breadcrumbs *(into the turkey). </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Pinker assumes that the optionality of arguments tells us about the direction of the derivation. When the locatum argument is obligatory (in the case of <i>stuff</i> verbs) the derivation proceeds from the <i>with</i>-variant to the locative variant. When the locative variant is obligatory (as in the case of <i>pile</i> verbs) the derivation proceeds from the locative variant to the <i>with</i>-variant. When both arguments are optional (cf. <i>load</i>, as in <i>load the gun</i> and <i>load the bullets</i>), the verb could in principle belong to either class, although, as Pinker notes, one interpretation is more salient, or basic (in this case, the container-oriented, <i>load the gun</i>. <i>Load the bullets</i> seems like a truncated form).</p>
+<p>Having established the basic distinction between content-oriented and container-oriented verbs, Pinker offers detailed characterizations of the different semantic classes found within each group. What is striking is that there is a robust correlation between the different semantic classes he notes and the groups of verbs that participate or do not participate in that alternation.</p>
+<p>Content-oriented verbs (verbs taking the locative-variant) include the following classes:</p>
+<p><i>Alternating</i>:</p>
+<listgroup id="l6" type="i">
+<li level="1">
+<number>(i)&ensp;</number>
+<p>simultaneous forceful contact and motion of mass against a surface (<i>smear</i>, <i>smudge</i>, <i>spread</i>, <i>rub</i>, <i>dab</i>, <i>daub</i>);</p>
+</li>
+<li level="1">
+<number>(ii)&ensp;</number>
+<p>vertical arrangement on a horizontal surface (<i>heap</i>, <i>pile</i>, <i>stack</i>);</p>
+</li>
+<li level="1">
+<number>(iii)&ensp;</number>
+<p>force is imparted to a mass, causing ballistic motion in a specified spatial distribution along a trajectory (<i>splash</i>, <i>spray</i>, <i>inject</i>, <i>splatter</i>, <i>sprinkle</i>);</p>
+</li>
+<li level="1">
+<number>(iv)&ensp;</number>
+<p>mass is caused to move in a widespread or nondirected distribution (<i>seed</i>, <i>scatter</i>, <i>sow</i>).</p>
+</li>
+</listgroup>
+<p><i>Non-alternating</i>:</p>
+<listgroup id="l7" type="i">
+<li level="1">
+<number>(v)&ensp;</number>
+<p>a mass is enabled to move via the force of gravity (<i>dribble</i>, <i>drip</i>, <i>ladle</i>, <i>pour</i>, <i>spill</i>);</p>
+</li>
+<li level="1">
+<number>(vi)&ensp;</number>
+<p>flexible object extended in one dimension is put around another object (<i>coil</i>, <i>chain</i>, <i>spin</i>, <i>whirl</i>);</p>
+</li>
+<li level="1">
+<number>(vii)&ensp;</number>
+<p>mass is expelled from inside an entity (<i>spit</i>, <i>exude</i>, <i>secrete</i>, <i>vomit</i>).</p>
+</li>
+</listgroup>
+<p>Container-oriented verbs (verbs taking the <i>with</i>-variant) include the following classes:</p>
+<p><i>Alternating:</i>
+</p>
+<listgroup id="l8" type="i">
+<li level="1">
+<number>(i)&ensp;</number>
+<p>a mass is forced into a container against the limits of its capacity (<i>pack</i>, <i>cram</i>, <i>jam</i>, <i>stuff</i>);</p>
+</li>
+<li level="1">
+<number>(ii)&ensp;</number>
+<p>a mass of a size, shape or type defined by the intended use of the container (and not purely by its geometry) is put into the container, enabling it to accomplish its function (<i>load</i>, <i>pack</i>, <i>stock</i>).</p>
+</li>
+</listgroup>
+<p><i>Non-alternating:</i>
+</p>
+<listgroup id="l9" type="i">
+<li level="1">
+<number>(iii)&ensp;</number>
+<p>a layer completely covers the surface (<i>inundate</i>, <i>bandage</i>, <i>blanket</i>, <i>cover</i>, <i>pave</i>, <i>smother</i>, <i>tile</i>);</p>
+</li>
+<li level="1">
+<number>(iv)&ensp;</number>
+<p>addition of an object or mass to a location causes an esthetic or qualitative, often evaluative, change in the location (<i>adorn</i>, <i>burden</i>, <i>clutter</i>, <i>dirty</i>, <i>embellish</i>, <i>garnish</i>, <i>soil</i>, <i>stain</i>);</p>
+</li>
+<li level="1">
+<number>(v)&ensp;</number>
+<p>a mass is caused to be coextensive with a solid, liquid or layer-like medium (<i>interlace</i>, <i>lard</i>, <i>soak</i>, <i>drench</i>);</p>
+</li>
+<li level="1">
+<number>(vi)&ensp;</number>
+<p>an object or mass impedes the free movement of, from, or through the object in which it is put (<i>block</i>, <i>choke</i>, <i>clog</i>);</p>
+</li>
+<li level="1">
+<number>(vii)&ensp;</number>
+<p>a set of objects is distributed over a surface (<i>bombard</i>, <i>coat</i>, <i>speckle</i>, <i>spot</i>, <i>stud</i>).</p>
+</li>
+</listgroup>
+<p>This characterization of classes may seem too fine-grained, perhaps almost arbitrary. Pinker notes that there are wider semantic motivations behind them, related to the core they specify. Content-oriented verbs thus share the property of naming the specific <i>manner</i> of applying the content (the kind of force exerted or the direction of motion according to which the Theme moves). The motion may be forced against something (<i>smear</i>), around something (<i>wrap</i>), or all over the place (<i>scatter</i>), due to gravity (<i>dribble</i>) or against gravity (<i>pile</i>). Container-oriented verbs specify the change of state resulting from the addition of material: <i>adorn</i>, <i>load</i>, <i>clock</i>, <i>pollute</i> etc.</p>
+<p>The ability of verbs to alternate results, according to Pinker, from two factors. First, types of actions whose goal argument can be more easily construed as undergoing change are more likely to realize their goal argument as a patient and participate in the alternation (note that Pinker&apos;s analysis is formulated in terms of thematic roles; his assumption is that thematic roles mediate between the initial level of lexical representation and syntactic projection). Loading a truck or cramming a jar means that the truck or the jar are filled to their capacity, thus affected. Pouring liquid into a glass does not entail similar affectedness of the glass. The second factor has to do with the specific content of verbs. As Pinker points out, container-oriented verbs (those taking the <i>with</i>-variant) must specify not only that a change of state has taken place in the container, but also <i>what</i> the change of state is. Otherwise, all such verbs would be synonymous with <i>fill</i> or <i>cover</i>. Content-oriented verbs (those taking the locative variant) must not only specify movement of substance into a location, but also what is the <i>specific</i> manner of the movement of that substance. Otherwise, they would all be synonymous with <i>put</i>.</p>
+<p>Therefore, container-oriented verbs that alternate must specify not only the change of state in the container, but also the manner in which the substance is moved into the location. Similarly, alternating content-oriented verbs must specify not only the manner in which the substance is moved, but also the change of state in the location. As Pinker points out, in the <i>smear</i> class, &ldquo;the moved substance and the container simultaneously feel the force of the action, and in the <i>spray</i> class, the force imparted to the object can aim it in a direction. This contrasts with the <i>pour</i> class, where gravity is a force mediating between the immediate effect on the moving object and the effect on the destination&rdquo; (<link rid="b12">Pinker 1989</link>: 128).</p>
+<p>Furthermore, as Pinker notes, in the case of alternating content-oriented verbs, the manner of applying the substance enables us to predict the distribution of material on the surface of the location: <i>smear</i>, <i>dab</i>, <i>spray</i>, etc. For alternating container-oriented verbs, the specified state of the container imposes constraints on the manner in which the substance is moved.</p>
+</subsection>
+<subsection id="ss8" level="1">
+<heading id="h7" level="1">4&ensp;Conclusion</heading>
+<p>The spray-load alternation proves an interesting case study both for theories of lexical semantics and for theories of the syntax&ndash;lexicon interface. The different accounts reviewed here are complementary: each takes as its focus a different aspect of the alternation. <link rid="b1">Rappaport and Levin (1988</link>) and <link rid="b6">Tenny (1992</link>) are primarily concerned with the <i>linking</i> problem of alternating verbs, offering two different perspectives of the rules governing mapping between syntax and semantics. <link rid="b8">Borer (1994</link>) uses the alternation as a case study pointing out the role of syntax in determining the semantic properties of verbs: information contained in syntactic positions (e.g., measuring out) is assigned to verbs by virtue of occupying those positions. Borer&apos;s theory draws on Tenny&apos;s observation, regarding the role of aspect in mediating between syntax and semantics. Tenny&apos;s account thus aims both to characterize alternating verbs (verbs whose Theme and Goal argument can both be construed as measuring out the event named by the verb) and explain their linking properties (by postulating that the argument that measures out the event is linked with the direct object position). Pinker&apos;s account offers the most detailed semantic characterization of alternating verbs, accounting for subtle differences between seemingly similar verbs that behave differently with respect to that alternation. Note that Pinker&apos;s characterization of alternating verbs is compatible with Tenny&apos;s. Specifying a change of state in the location entails that the goal can be construed as measuring out the event (the event proceeds along with the change of state in the container, e.g., until the truck is full). Pinker assumes some general principles that mediate between lexical semantics and the syntax. Tenny&apos;s Aspectual Interface Hypothesis may be such a coarser-grained general rule.</p>
+<p>There remain a number of interesting questions, which cannot be addressed here for lack of space. The first question regards the acquisition of locative verbs. The second question is about the morphological marking of this alternation. In English there is no morphological marking of any of the variants, but in other languages (German, Hungarian) there is different morphological marking of the alternants (specifically, an affix on the <i>with</i>-variant). Finally, there arises the question regarding the universality of the alternation. We saw that this alternation exists in a number of unrelated languages &ndash; but does it exist in all languages? If not, what are the semantic or syntactic criteria that govern the availability of the alternation? Within languages that allow this alternation, is the set of alternating verbs similar in each? If some languages are more &lsquo;permissive&rsquo; with respect to the number and type of verbs that alternate, what factors govern this variation?</p>
+<p>For a detailed discussion of the acquisition question, see <link rid="b14">Gropen (1989</link>) and <link rid="b15">Brinkmann (1997</link>). <link rid="b15">Brinkmann (1997</link>) also offers some discussion of <i>be</i>- prefixation of the <i>with</i>-variant in German (for Hungarian see <link rid="b16">Moravcsik 1978</link>). The last question, regarding variation between languages, must await further research.</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss9" level="1" type="references">
+<heading id="h8" level="1">REFERENCES</heading>
+<reference id="b10" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Arad</surname><x>, </x><forenames>Maya</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date>
+<miscellaneoustext>). VP-Structure and the Syntax&ndash;Lexicon Interface<i>.</i> PhD dissertation</miscellaneoustext><x>, </x>
+<address>University College London</address><x>.</x>
+</reference>
+<reference id="b8" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Borer</surname><x>, </x><forenames>Hagit</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">The Projection of Arguments</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Functional Projections</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Elena</forenames><x> </x><surname>Benedicto</surname>
+</name><x> and </x><name type="editor">
+<forenames>Jeffrey<x> </x>T<x>.</x>
+</forenames><x> </x><surname>Runner</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">19</page><x>&ndash;</x><page type="last">47</page>
+<x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association</publisher><x>.</x>
+</reference>
+<reference id="b15" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Brinkman</surname><x>, </x><forenames>Ursula</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="book">The Locative Alternation in German: Its Structure and Acquisition</title>
+<x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Dik</surname><x>, </x><forenames>Simon</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="book">Studies in Functional Grammar<x>.</x>
+</title><x> </x><address>London/New York</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b18" type="other">
+<namegroup type="author">
+<name type="author">
+<forenames>Fukui</forenames><x>, </x><surname>Naoki</surname>
+</name><x>, </x><name type="author">
+<forenames>Shigeru</forenames><x> </x><surname>Miyagawa</surname>
+</name>
+<x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>Carol</forenames><x> </x><surname>Tenny</surname>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date>
+<miscellaneoustext>). Verb Classes in English and Japanese: A Case Study of the Interaction of Syntax, Morphology and Semantics. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b11" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Goldberg</surname><x>, </x><forenames>Adele</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="book">Constructions: A Construction Grammar Approach to Argument Structure</title>
+<x>. </x><address>Chicago</address><x>: </x><publisher>University of Chicago Press</publisher><x>.</x>
+</reference>
+<reference id="b14" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Gropen</surname><x>, </x><forenames>Jess</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date>
+<miscellaneoustext>). Learning Locative Verbs: How Universal Linking Rules Constrain Productivity. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b9" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Hout, Angeliek</surname><x>, </x><forenames>van</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date>
+<miscellaneoustext>). Event Semantics of Verb Frame Alternations: A Case Study of Dutch and Its Acquisition. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Tilburg University</address><x>.</x>
+</reference>
+<reference id="b4" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Larson</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988b</date><x>). </x><title type="document">On the Double Object Construction</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>19</volume><x>: </x><page type="first">335</page><x>&ndash;</x><page type="last">391</page><x>.</x>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Levin</surname><x>, </x><forenames>Beth</forenames>
+</name><x> and </x><name type="author">
+<forenames>Malka<x> </x>Rappaport</forenames><x> </x><surname>Hovav</surname>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="book">Unaccusativity at the Syntax&ndash;Lexical Semantics Interface<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b16" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Moravcsik</surname><x>, </x><forenames>Edith<x> </x>A<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978</date><x>). </x><title type="document">On the Case Marking of Objects</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Universals of Human Language 4: Syntax</title><x>.</x><namegroup type="editors">
+<name type="editor">
+<x> </x><forenames>Joseph<x> </x>H<x>.</x>
+</forenames><x> </x><surname>Greenberg</surname>
+</name><x>, </x><name type="editor">
+<forenames>Charles<x> </x>A<x>.</x>
+</forenames><x> </x><surname>Ferguson</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Edith<x> </x>A<x>.</x>
+</forenames><x> </x><surname>Moravcsik</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Stanford</address><x>: </x><publisher>Stanford University Press</publisher><x>.</x>
+</reference>
+<reference id="b12" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Pinker</surname><x>, </x><forenames>Steven</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="book">Learnability and Cognition: The Acquisition of Argument Structure</title>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b13" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Rappaport</surname><x>, </x><forenames>Malka</forenames>
+</name><x> and </x><name type="author">
+<forenames>Beth</forenames><x> </x><surname>Levin</surname>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date>
+<miscellaneoustext>). A Case Study in Lexical Analysis: The Locative Alternation. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rappaport</surname><x>, </x><forenames>Malka</forenames>
+</name><x> and </x><name type="author">
+<forenames>Beth</forenames><x> </x><surname>Levin</surname>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">What to do with Theta Roles</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Thematic Relations</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Wendy</forenames><x> </x><surname>Wilkins</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">7</page><x>&ndash;</x><page type="last">36</page>
+<x>. </x><address>San Diego</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b3" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date>
+<miscellaneoustext>). Syntactic Effects of Lexical Operations: Reflexives and Unaccusatives. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Utrecht University</address><x>.</x>
+</reference>
+<reference id="b5" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Tenny</surname><x>, </x><forenames>Carol</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date>
+<miscellaneoustext>). Grammaticalizing Aspect and Affectedness. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Tenny</surname><x>, </x><forenames>Carol</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">The Aspectual Interface Hypothesis</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Lexical Matters</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ivan</forenames><x> </x><surname>Sag</surname>
+</name><x> and </x><name type="editor">
+<forenames>Anna</forenames><x> </x><surname>Szabolcsi</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">1</page><x>&ndash;</x><page type="last">28</page>
+<x>. </x><address>Stanford</address><x>: </x><publisher>CLSI Publications</publisher><x>.</x>
+</reference>
+<reference id="b7" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Tenny</surname><x>, </x><forenames>Carol</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">Aspectual Roles and the Syntax&ndash;Semantics Interface<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

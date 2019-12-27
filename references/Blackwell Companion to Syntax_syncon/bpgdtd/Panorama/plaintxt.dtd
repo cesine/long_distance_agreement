@@ -1,0 +1,33 @@
+
+<!-- This DTD offers a simple way to read plain ASCII files
+	and include very basic linking within them.
+
+	To the top of any text file, add the following two lines:
+		<!DOCTYPE plaintxt PUBLIC "plaintxt.dtd">
+		<PLAINTXT>
+	and at the end of the file, add:
+		</PLAINTXT>
+
+	To create a point which is linked "to*, in front of it
+	type <LINKST ID="Ax"> where A is any alphabetic
+	character or characters, and x is a number; after
+	the anchor text, type </LINKST>.
+
+	To create a link to that point, type 
+	<LINKEND IDREF="Ax"> before the linking text,
+	and </LINKEND> afterwards. The Ax should be the
+	same for the link to work. You can have any number
+	of <LINKEND> elements pointing to the same <LINKST>,
+	but each <LINKST> must have a unique ID.
+
+	In Panorama PRO, you may find it easier to not bother
+	with the LINKST and LINKEND element types, but
+	simply to highlight a phrase, click on Begin Link,
+	highlight another (in the same or another document)
+	and then click on Connect Link.
+-->
+
+<!ELEMENT plaintxt	    o o  (#PCDATA|linkst|linkend)*>
+<!ELEMENT (linkst|linkend)     -  o	(#PCDATA)>
+<!ATTLIST  linkst	ID	ID  #REQUIRED>
+<!ATTLIST  linkend	IDREF	IDREF  #REQUIRED>

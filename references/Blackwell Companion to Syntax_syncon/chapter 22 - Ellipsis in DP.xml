@@ -1,0 +1,3394 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="22"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 22 - Ellipsis in DP.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">145</page>
+<page type="last">173</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="0"/>
+<count type="table" count="78"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="109"/>
+<count type="page" count="29"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051108"/>
+<trackingdate type="markedup" date="0000" by="christine tsai"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 22&ensp;Lobeck: Ellipsis in DP</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 22&ensp;Lobeck: Ellipsis in DP</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">22 Ellipsis in DP</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>ANNE</forenames><x> </x><surname>LOBECK</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Ellipsis as null anaphora</p>
+</li>
+<li level="2">
+<number>2.1&ensp;</number>
+<p><i>One&apos;s</i> deletion</p>
+</li>
+<li level="2">
+<number>2.2&ensp;</number>
+<p>Deletion vs. interpretation</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>The phrase structure of ellipsis in NP</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>Ellipsis, proper government, and the Empty Category Principle</p>
+</li>
+<li level="2">
+<number>4.1&ensp;</number>
+<p>Specifier government in NP</p>
+</li>
+<li level="2">
+<number>4.2&ensp;</number>
+<p>Ellipsis in DP</p>
+</li>
+<li level="2">
+<number>4.3&ensp;</number>
+<p>Licensing and identification in DP</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>Conclusion: current research directions</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1 Introduction</heading>
+<p>The study of ellipsis in noun phrases originates as part of a broader investigation of ellipsis as <i>null anaphora</i>, where missing material is interpreted under identity with an antecedent in much the same way as a lexical pronoun. Some examples are given in (1&ndash;3) below, where in each, the ellipsis site is interpreted under identity with an antecedent in the previous discourse:</p>
+<p>(1)&ensp;The committee endorses every bill the president proposes but the advisors approve only a few &lsqb;e&rsqb;.</p>
+<p>(2)&ensp;I really liked this book and I know you&rsquo;ll like these &lsqb;e&rsqb;.</p>
+<p>(3)&ensp;The students went to the bookstore and each &lsqb;e&rsqb; bought a book by Chomsky.</p>
+<p>Early analyses of ellipsis explore the hypothesis that null and lexical anaphors are constrained by the same universal principles. Indeed, in early work in generative syntax, ellipsis in English noun phrases (typically referred to as N&prime; anaphora or N&prime; ellipsis) is analyzed as resulting from a deletion transformation, <i>one&apos;s</i> deletion, in which ellipsis results from deletion of a lexical proform. The status of the <i>one&apos;s</i> deletion transformation figures prominently in early debates between proponents of the &lsquo;deletion&rsquo; approach to null anaphora and advocates of the &lsquo;interpretation&rsquo; approach, where empty categories are base-generated and subject to rules of interpretation. Ellipis in noun phrases is subsequently analyzed within the Principles and Parameters framework as involving proper government of <i>pro</i>, an empty pronominal category, licensed by what is ultimately argued to be a functional category DET, the head of DP. This approach leads to in-depth, cross-linguistic analyses of the properties of the determiner and quantifier systems to determine the feature specifications of different functional heads, and the role those features play in licensing and identification. This research also explores connections between ellipsis in DP and substantive adjective and partitive constructions, in particular partitives which involve clitic <i>en</i> (French) and <i>ne</i> (Italian).</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2 Ellipsis as null anaphora</heading>
+<p>
+<link rid="b1">Ross (1986</link>; original dissertation 1967) is the first to investigate the parallels between ellipsis and lexical pronouns. His crucial insight is that ellipsis phenomena in general (VP ellipsis, sluicing, and ellipsis in NP) appear to violate the same cluster of constraints also violated by pronouns, that is, constraints respected by movement rules. Moreover, other phenomena involving &lsquo;missing&rsquo; constituents, such as gapping and comparative deletion, do not exhibit this behavior, and thus appear to be distinct from ellipsis. Specifically, Ross observes that both pronouns and ellipsis obey the Backwards Anaphora Constraint (BAC) (see also <link rid="b2">Langacker 1966</link>), but violate both the Complex NP Constraint (CNPC) and the Coordinate Structure Constraint (CSC). (See also <link rid="b3">Hankamer 1971</link>.)</p>
+<p>That ellipsis sites, like pronouns, obey the BAC is illustrated in (4&ndash;7), which show that both pronouns and ellipsis sites can precede their antecedents, but only when contained in subordinate but not coordinate clauses:</p>
+<p>(4)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John enjoys waking up early, and <i>he</i> likes to see the sunrise.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*<i>He</i> enjoys waking up early and <i>John</i> likes to see the sunrise.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(5)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John enjoys waking up early because <i>he</i> likes to see the sunrise.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Because <i>he</i> likes to see the sunrise, John enjoys waking up early.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(6)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Each student woke up early and all &lsqb;e&rsqb; saw the sunrise.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*All &lsqb;e&rsqb; saw the sunrise, and each student woke up early.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(7)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Each student woke up early because all &lsqb;e&rsqb; wanted to see the sunrise.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Because all &lsqb;e&rsqb; wanted to see the sunrise, each student woke up early.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(8) illustrates that both pronouns and ellipsis can be contained in NPs that do not also contain their antecedents. In Ross&apos;s terms, pronouns and ellipsis thus violate the CNPC:</p>
+<p>(8)<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>We heard that <i>Mary</i> likes &lsqb;<sub>NP</sub> the man who talked to <i>her</i> at the party&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Most people liked Mary&apos;s <i>presentation</i>, but I also talked to &lsqb;<sub>NP</sub> a number of people who didn&apos;t like Sue&apos;s &lsqb;e&rsqb;&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>That pronouns and ellipsis violate the CSC is illustrated in (9), where the pronoun and ellipsis site are contained in coordinate clauses that do not also contain their antecedents:</p>
+<p>(9)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;John saw Mary&rsqb; and &lsqb;<i>she</i> said hello to <i>him</i>&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;John read Mary&apos;s book&rsqb; and &lsqb;she read his &lsqb;e&rsqb;&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In current terms, what we might view as null anaphors in ellipsis contexts seem to obey Principle B of the Binding Theory in (10), just like lexical pronouns. That is, like pronouns, ellipsis sites are free in their binding domain, which we can informally define here as the clause containing them. (This does not apply to Antecedent-Contained Ellipsis, which will not be discussed here.)</p>
+<p>(10)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<thead>
+<row><entry><b>Binding Theory:</b>
+</entry>
+</row>
+</thead>
+<tbody>
+<row><entry>A&ensp;An anaphor must be bound in its binding domain.</entry>
+</row>
+<row><entry>B&ensp;A pronoun must be free in its binding domain.</entry>
+</row>
+<row><entry>C&ensp;An R-expression must be free.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Ross exploits this connection between ellipsis and pronominalization, proposing that the source of ellipsis in noun phrases is in fact the pronoun <i>one</i>, which is deleted by a transformational rule.</p>
+<subsection id="ss4" level="2">
+<heading id="h3" level="2">2.1 <roman>One&apos;s</roman> deletion</heading>
+<p>Ross proposes that <i>one&apos;s</i> deletion involves replacement of part of NP at deep structure by the pronoun <i>one</i>, as in (11b), and subsequent deletion of this pronoun by transformational rule, to derive the surface structure in (11c):</p>
+<p>(11)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Mary bought two books on astronomy, and she read &lsqb;both books on astronomy&rsqb; last night. (deep structure)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Mary bought two books on astronomy, and she read &lsqb;both <i>ones</i>&rsqb; last night. (<i>one</i> pronominalization)</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Mary bought two books on astronomy, and she read &lsqb;both&rsqb; last night. (<i>one&apos;s</i> deletion)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Deriving ellipsis in noun phrases by <i>one&apos;s</i> deletion raises a number of questions that suggest that it can be the source of ellipsis only at a certain cost to the grammar. Investigation of the strengths and weaknesses of <i>one&apos;s</i> deletion lays important groundwork for discussions of <i>deletion</i> vs. <i>interpretation</i>, and whether it is in fact explanatory to derive elliptical constructions from deletion of lexical pronominal counterparts. <i>One&apos;s</i> deletion also raises questions about the internal structure of the noun phrase, and highlights the different distribution of prenominal elements that can successfully introduce the ellipted category in NP in English.</p>
+<p>One immediate issue that arises in a <i>one&apos;s-</i>deletion approach to ellipsis is that it requires certain cases of ellipsis in noun phrases to derive from ungrammatical sources. <link rid="b4">Jackendoff (1971</link>) points out, for example, that the sentence in (12a) must derive from the ungrammatical sentence in (12b) (see also <link rid="b5">Perlmutter 1970a</link>; <link rid="b6">Sommerstein 1972</link>). A <i>one&apos;s</i>-deletion analysis is therefore particularly problematic for deriving ellipsis in mass noun phrases:</p>
+<p>(12)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Max&apos;s wine was good but Bill&apos;s &lsqb;e&rsqb; was even better.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Max&apos;s wine was good but Bill&apos;s <i>one</i> was even better.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b7">Jackendoff (1977</link>) circumvents the problem of <i>one&apos;s</i> deletion by proposing that ellipsis in noun phrases derives not from deletion, but rather from noun phrases with base-generated, empty pronominal (PRO) heads. Determiners preceding PRO undergo a &lsquo;substantivization&rsquo; rule, given in (13):</p>
+<p>(13)<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>ART - PRO fi 1 &plus; substantive - 2</entry>
+</row>
+<row><entry>OBLIGATORY</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This rule derives the ellipsis constructions in (14):</p>
+<p>(14) John wanted to read the dossiers of famous linguists, and/but he succeeded in reading &lsqb;Morris&apos;s/some/many/one/mine/three/none/these/every one PRO&rsqb;&ensp;&ensp;NP</p>
+<p>Substantivization has the additional effect of converting certain determiners into the appropriate phonological forms before PRO, as illustrated in (15):</p>
+<p>(15)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>every &plus; PRO &equals; every one &plus; PRO</entry>
+</row>
+<row><entry>b.</entry>
+<entry>no &plus; PRO &equals; none &plus; PRO</entry>
+</row>
+<row><entry>c.</entry>
+<entry>my &plus; PRO &equals; mine &plus; PRO</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Jackendoff (see also <link rid="b109">Selkirk 1977</link>) explicitly connects the syntax of ellipsis in noun phrases to that of partitive noun phrases, arguing that both dominate PRO heads, and that as a result, both undergo substantivization of a determiner or quantifier. The partitive noun phrase <i>each of the trees</i>, for example, has the internal structure in (16), and the ellipsis construction <i>each &lsqb;e&rsqb;</i> has the structure in (17):</p>
+<p>(16)&ensp;&lsqb;<sub>N&Prime;</sub> each &lsqb;<sub>N&Prime;</sub> &lsqb;<sub>N&prime;</sub> PRO of &lsqb;<sub>N&Prime;</sub> the trees&rsqb;&rsqb;&rsqb;&rsqb;</p>
+<p>(17)<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;<sub>N&Prime;</sub> each &lsqb;<sub>N&Prime;</sub> tree&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>N&Prime;</sub> each &lsqb;<sub>N&Prime;</sub> PRO&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In both (16) and (17b), PRO triggers substantivization of the quantifier <i>each</i>. Jackendoff predicts that both elliptical and partitive noun phrases will exhibit the same changes in phonological shape of the quantifier or determiner that precedes PRO. He therefore predicts that in ellipsis constructions, the quantifiers <i>every</i> and <i>no</i> are realized as <i>every one</i> and <i>none</i> before PRO, just as they are in partitives:</p>
+<p>(18)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>every one of the men/*every PRO of the men</entry>
+</row>
+<row><entry>b.</entry>
+<entry>every one PRO/*every PRO</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(19)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<thead>
+<row><entry>a.</entry>
+<entry>none PRO/*no of the men</entry>
+</row>
+</thead>
+<tbody>
+<row><entry>b.</entry>
+<entry>none PRO/*no PRO</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b5">Perlmutter (1970a</link>) notes further problems with <i>one&apos;s</i> deletion, observing that although prenominal adjectives can introduce the N&prime; pronominalized by <i>one</i>, <i>one&apos;s</i> deletion in these contexts is nevertheless ungrammatical. (See <link rid="b8">Baker 1978</link> and <link rid="b9">Hornstein and Lightfoot 1981</link> for arguments that <i>one</i> pronominalization replaces N&prime;.)</p>
+<p>(20)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Svetlana has two red masks and Guido has a green *<b>(one)</b>.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Svetlana has two red masks and Guido has one too.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*Svetlana has two red masks and Guido has a one too.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Perlmutter explains these facts by proposing that there exist in English both a pronoun <i>one</i> and a numeral <i>one</i>, and further, that the English indefinite article is the unstressed counterpart of the numeral <i>one</i>. (See also <link rid="b7">Jackendoff 1977</link> for discussion of two possible derivations of <i>one</i>.) This proposal explains a set of recalcitrant ellipsis facts, in addition to those illustrated in (20).</p>
+<p>Perlmutter argues that the phrase <i>a green one</i> in (20a) actually derives from the grammatical source in (21), where the numeral <i>one</i> is unstressed, and thus can reduce to <i>a</i>:</p>
+<p>(21)&ensp;one green one &rArr; a green one</p>
+<p>To block the ungrammatical (20c), Perlmutter proposes that unstressed pronominal <i>one</i> is obligatorily deleted after a numeral. The source of (20c) is thus (22):</p>
+<p>(22)&ensp;Svetlana has two red masks and Guido has one one too.</p>
+<p>Unstressed pronominal <i>one</i> in (22) will obligatorily delete, deriving the grammatical (23):</p>
+<p>(23)&ensp;Svetlana has two red masks and Guido has one too.</p>
+<p>Further evidence for this claim is given in (24&ndash;25), where we see that pronominal <i>one</i> deletes only after numerals, but not after adjectives:</p>
+<p>(24)&ensp;Svetlana sells red masks and Guido sells green ones</p>
+<p>(25)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Svetlana sold three masks and Guido sold four ones.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Svetlana sold three masks and Guido sold four.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>An account in which <i>a</i> is the unstressed counterpart of the stressed full numeral <i>one</i> also explains the contrast illustrated in (26):</p>
+<p>(26)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*a village in Greece and a (an) in Yugoslavia.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>a village in Greece and one in Yugoslavia.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>According to Perlmutter, (26a) is ruled out because <i>a</i> is a proclitic with no host to which to attach. Under such conditions only the stressed full form of the article, namely the numeral <i>one</i>, can appear.</p>
+<p>Though Perlmutter&apos;s analysis makes certain correct predictions about ellipsis in indefinite noun phrases (and a variety of other data involving the distribution of the indefinite article <i>a</i>), the analysis is unavoidably ad hoc, as it must stipulate that <i>one</i> obligatorily deletes after numerals, but not after adjectives. We are thus left without an explanation for the ungrammaticality of the (b) sentences in (27&ndash;28). In these sentences, unstressed <i>a</i> can cliticize to <i>new</i>, but ellipsis is nevertheless ungrammatical:</p>
+<p>(27)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Svetlana sells old masks and Guido sells new ones.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Svetlana sells old masks and Guido sells new.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(28)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Svetlana wants to sell an old mask and Guido wants to sell a new one.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Svetlana wants to sell an old mask and Guido wants to sell a new.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In addition, as Perlmutter himself points out (fn. 6), it appears that certain determiners other than numerals trigger obligatory deletion of <i>one</i>:</p>
+<p>(29)&ensp;<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*my flag and hers one</entry>
+</row>
+<row><entry>b.</entry>
+<entry>my flag and hers</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Again, it remains to explain why <i>one&apos;s</i> deletion is obligatory in (29b), but blocked after adjectives.</p>
+<p>Other early approaches to <i>one&apos;s</i> deletion address the status of personal pronouns, such as <i>we</i>, <i>you</i>, <i>she</i>, etc. <link rid="b10">Postal (1969</link>) argues that personal pronouns are definite articles that derive from noun phrases in which they are followed by the pronoun <i>one. One</i> deletes by a late (and, Postal admits, ad hoc) rule deriving the forms in (30b) from the sources in (30a). The status of pronouns as determiners thus emerges early on in discussions of ellipsis in noun phrases:</p>
+<p>(30)&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>we ones/you one/she one</entry>
+</row>
+<row><entry>b.</entry>
+<entry>we/you/she</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b6">Sommerstein (1972</link>) takes the opposite approach, claiming that the definite article <i>the</i> is a pronoun, replacing a full NP. He gives a number of arguments against Postal&apos;s analysis of pronouns as determiners, based on evidence from Greek, a language which allows constructions analogous to English <i>the in London</i> and <i>the loved by Rebecca</i>. He argues that in English count-noun phrases, <i>one</i> must be inserted after <i>the</i> in order to derive <i>the one in London</i> and <i>the one loved by Rebecca</i>. Thus, his approach includes an obligatory rule of <i>one</i> insertion, which inserts <i>one</i> in count-noun phrases to replace a deleted N-head. <i>One</i> insertion is similar in spirit to <i>do</i> support, inserting a dummy element to realize features, in this case, number. As for ellipsis in noun phrases, he provides only an account of the ungrammatical (31):</p>
+<p>(31)&ensp;*The cheese in this package is fresher than <b>the</b> in that package.</p>
+<p>He proposes that <i>the</i> must be altered to the stronger form <i>that</i> in order to derive the grammatical sentence in (32):</p>
+<p>(32)&ensp;*The cheese in this package is fresher than <b>that</b> in that package.</p>
+<p>For related discussion of personal pronouns as determiners, and whether or not they are followed by empty categories, see <link rid="b11">Corblin (1990</link>), <link rid="b12">Hewson (1991</link>), and <link rid="b13">Luj&aacute;n (2000</link>).</p>
+</subsection>
+<subsection id="ss5" level="2">
+<heading id="h4" level="2">2.2 Deletion vs. interpretation</heading>
+<p>Researchers in the 1960s and 1970s generally concur with Ross that ellipsis is a type of null anaphora, but not all agree with his claim that both pronouns and ellipsis are derived by the same (in early frameworks, transformational) rules. There is extensive debate concerning whether ellipsis phenomena (in particular, VP ellipsis and sluicing) are derived by deletion of a copy of an antecedent (with or without the intermediate step of pronominalization as Ross proposes), or whether ellipses are base-generated empty structures, whose content is supplied by rules of interpretation (the &lsquo;interpretive&rsquo; approach, an early illustration of which is Jackendoff&apos;s analysis of empty N as PRO). Of central concern in these debates is the definition of &lsquo;identity&rsquo; between null anaphors and their antecedents, and more specifically, whether null anaphors have internal structure, and if so, which grammatical model best expresses how such structure is derived and interpreted. Work toward resolving these issues leads researchers to sharpen the distinction between ellipsis and other phenomena involving missing material, such as gapping, comparative deletion, stripping, and null complement anaphora, and to move toward a grammatical model which requires a distinct level of Logical Form.</p>
+<p>In general, early arguments that ellipsis is derived by deletion under identity hinge on the evidence that an ellipsis site must, at some level of the derivation, have internal syntactic structure in order for the missing phrase to be properly interpreted. Such arguments are raised partially in response to <link rid="b14">Akmajian&apos;s (1968</link>) &lsquo;non-expansion hypothesis&rsquo;, in which null anaphors are base-generated as empty, unexpanded non-terminals, associated with their antecedents through rules of interpretation. (Proponents of the strict transformational position on the derivation of anaphora include <link rid="b15">Postal 1972</link>; <link rid="b16">Hankamer 1973a</link>; <link rid="b17">Morgan 1973</link>; <link rid="b1">Ross 1986</link>; and most of the pre-<i>Aspects</i> literature (<link rid="b18">Chomsky 1965</link>). Defenders of the interpretive approach include <link rid="b19">Dougherty 1969</link>; <link rid="b20 b4 b7">Jackendoff 1969, 1971, 1977</link>; <link rid="b21">Shopen 1972</link>; <link rid="b22">Wasow 1972</link>; <link rid="b23">Fiengo 1974</link>; <link rid="b24">Williams 1977</link>.)</p>
+<p>How the notion of &lsquo;syntactic identity&rsquo; is articulated, however, depends on the model of grammar defended. For instance, <link rid="b22">Wasow (1972</link>) proposes an interpretive theory in which null anaphors are base-generated empty categories with internal structure to which interpretive rules apply. Lexical pronouns, on the other hand, have no internal structure, and are also subject to interpretive rules. <link rid="b24">Williams (1977</link>) defines syntactic identity in terms of identity of Logical Form, rather than strict surface structure identity, arguing that an ellipsis and its antecedent are related by interpretive rules that apply at LF (in his model, Discourse Grammar). Deletion rules, on the other hand, are restricted to applying to surface structures (Sentence Grammar), to operations that obey Ross&apos;s Constraints, such as gapping and comparative deletion. In Williams&apos;s model ellipsis (including sluicing, ellipsis in NP, and VP ellipsis) is distinct from gapping and comparative deletion. In <link rid="b25">Sag&apos;s (1980</link>) model, ellipsis, comparative deletion, and gapping are all derived by deletion, an operation that in the case of ellipsis applies to logical forms, in a model of grammar quite different from Williams&apos;s. <link rid="b26">Hankamer and Sag (1976</link>) further elucidate this deletion approach, arguing that ellipsis patterns with stripping and gapping as an instance of &ldquo;surface&rdquo; rather than &ldquo;deep&rdquo; anaphora, based on, for example, the claim that surface but not deep anaphors require linguistic antecedents. (See <link rid="b27">Schachter 1977</link> and <link rid="b28">Chao 1988</link> for arguments that ellipsis can have pragmatic antecedents, and <link rid="b29">Lobeck 1995</link> for specific arguments that this holds of ellipsis in noun phrases. See also <link rid="b24">Williams 1977</link>, who suggests (fn. 6) that anaphoric elements dominated by N and NP can be pragmatically controlled, and that all others require linguistic control. There is thus, in his view, no difference between deep and surface anaphora, and no implicit argument for deletion based on the presence or absence of pragmatic control.)</p>
+</subsection>
+</subsection>
+<subsection id="ss6" level="1">
+<heading id="h5" level="1">3 The phrase structure of ellipsis in NP</heading>
+<p>Much of the early research on ellipsis in NP assumes without argument that ellipsis operates on a projection of N, but other work on Germanic and Romance languages explores the phrase structure of ellipsis in more detail, providing important evidence for bar-level distinctions in NP, and sharpening structural distinctions among the different prenominal elements that introduce those projections. This early research on the phrase structure of ellipsis in noun phrases lays important groundwork for arguments that noun phrases are projections of the category Determiner, and for analyzing ellipsis in such phrases as ellipsis in DP.</p>
+<p>
+<link rid="b4 b7">Jackendoff (1971, 1977</link>) examines certain crucial differences between gapping and ellipsis in NP and VP first noted by <link rid="b1">Ross (1986</link>), and concludes that gapping and ellipsis in these categories are different operations, (for him, gapping, but not ellipsis, involves deletion), but that both operate on N&prime;, the lowest projection of N. He bases this conclusion on evidence that prenominal adjectives must be included in both operations. An example of ellipsis is given in (33), based on evidence in <link rid="b4">Jackendoff (1971</link>). (The example is constructed with the ellipsis in a subordinate clause, to distinguish ellipsis from gapping, which cannot occur in subordinate clauses, as pointed out early on by both <link rid="b1">Ross 1986</link> and <link rid="b4">Jackendoff 1971</link>, among others.)</p>
+<p>(33)<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>Tureck&apos;s performance of Bach on the piano doesn&apos;t please me as much as</entry>
+</row>
+<row><entry>a.&ensp;*&lsqb;<sub>NP</sub> Glenn Gould&apos;s &lsqb;<sub>N&prime;</sub> fabulous &lsqb;e&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>b.&ensp;&lsqb;<sub>NP</sub> Glenn Gould&apos;s &lsqb;<sub>N&prime;</sub> e&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Ellipsis must also include N and its complements, as illustrated in (34), with an example based on the discussion in <link rid="b7">Jackendoff (1977</link>):</p>
+<p>(34)&ensp;<b>*Although</b> &lsqb;<sub>NP</sub> Max&apos;s &lsqb;<sub>N&prime;</sub> &lsqb;e&rsqb; about Sue&rsqb;&rsqb; was amazing, Bill&apos;s story about her was virtually incredible.</p>
+<p>
+<link rid="b30">Ronat (1977</link>) comes to the opposite conclusion for French, claiming that in contrast to English, in French N&prime; <i>cannot</i> be empty. Her arguments hinge on evidence that only elements that are dominated by N&prime; can introduce an ellipted (for her, deleted) noun. Ellipsis of N is impossible with other adjectives or relative clauses dominated by higher projections of N, as ellipsis in this case would leave N&prime; empty. The relevant contrasts are given below. (See also <link rid="b31 b32">Milner 1973, 1974</link> and <link rid="b33">Kayne 1975</link> for arguments regarding the distribution of adjectival modifiers and quantifiers in French, and <link rid="b34">Barbaud 1976</link> for the distribution of adjectives in French noun phrases.)</p>
+<p>(35)<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry morerows="2" valign="top">a.</entry>
+<entry>&lsqb;<sub>NP</sub> les</entry>
+<entry>&lsqb;<sub>N&prime;</sub> deux</entry>
+<entry>&lsqb;<sub>N</sub> e&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>the</entry>
+<entry>two</entry>
+<entry>&lsqb;e&rsqb;</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;the two&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry morerows="2" valign="top">b.</entry>
+<entry>&lsqb;<sub>NP</sub> la</entry>
+<entry>&lsqb;&lsqb;<sub>N&prime;</sub> e&rsqb;</entry>
+<entry>verte&rsqb;&rsqb;</entry>
+</row>
+<row><entry>the</entry>
+<entry>
+</entry>
+<entry>green</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;the green (one)&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(36)<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>*&lsqb;<sub>NP</sub> le</entry>
+<entry>&lsqb;<sub>N&prime;</sub> e&rsqb;&rsqb;</entry>
+</row>
+<row><entry>the</entry>
+<entry>&lsqb;e&rsqb;</entry>
+</row>
+<row><entry namest="col1" nameend="col2">&lsquo;the one&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(37)<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry>*&lsqb;<sub>NP</sub> le</entry>
+<entry>&lsqb;<sub>N&prime;</sub> e&rsqb;</entry>
+<entry>qui</entry>
+<entry>est</entry>
+<entry>susceptible</entry>
+<entry>de</entry>
+<entry>te</entry>
+<entry>plaire&rsqb;</entry>
+</row>
+<row><entry>the</entry>
+<entry>
+</entry>
+<entry>that</entry>
+<entry>is</entry>
+<entry>susceptible</entry>
+<entry>of</entry>
+<entry>you</entry>
+<entry>please</entry>
+</row>
+<row><entry namest="col1" nameend="col8">&lsquo;the (one) that pleases you&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(38)<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry>*&lsqb;<sub>NP</sub> le</entry>
+<entry>&lsqb;<sub>N&prime;</sub> e&rsqb;</entry>
+<entry>susceptible</entry>
+<entry>de</entry>
+<entry>te</entry>
+<entry>plaire&rsqb;</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>susceptible</entry>
+<entry>of</entry>
+<entry>you</entry>
+<entry>please</entry>
+</row>
+<row><entry namest="col1" nameend="col6">&lsquo;the (one) that pleases you&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(39)<object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>*&lsqb;<sub>NP</sub> les</entry>
+<entry>&lsqb;<sub>N&prime;</sub> e&rsqb;</entry>
+<entry>magnifiques&rsqb;</entry>
+</row>
+<row><entry>the</entry>
+<entry>
+</entry>
+<entry>magnificent(s)</entry>
+</row>
+<row><entry namest="col1" nameend="col3">&lsquo;the magnificent (ones)&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In an alternative approach to substantive adjective constructions in French, <link rid="b35">Herschensohn (1978</link>) argues that, contrary to the analysis proposed by <link rid="b36">Gouet (1976</link>), certain substantive adjectives are deep anaphors, rather than derived by deletion of a noun, as Gouet proposes. Herschensohn bases her claim on evidence that such constructions can take pragmatic antecedents, a criterion for identification as a deep anaphor, according to <link rid="b26">Hankamer and Sag (1976</link>). Other, superficially similar constructions require syntactic control, and are thus surface anaphors, involving deleted nouns.</p>
+<p>For example, the contrast between (40) and (41) suggests that the substantive adjective <i>petits</i> requires a linguistic antecedent and is thus a surface anaphor, derived by deletion of a noun:</p>
+<p>(40)<object id="tu28" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu28_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry>Il y</entry>
+<entry>avait</entry>
+<entry>de</entry>
+<entry>grands</entry>
+<entry>gar&ccedil;ons</entry>
+<entry>et</entry>
+<entry>de</entry>
+<entry>petits</entry>
+<entry>aussi.</entry>
+</row>
+<row><entry>there</entry>
+<entry>were</entry>
+<entry>of</entry>
+<entry>big</entry>
+<entry>boys</entry>
+<entry>and</entry>
+<entry>of</entry>
+<entry>little</entry>
+<entry>too</entry>
+</row>
+<row><entry namest="col1" nameend="col9">&lsquo;There were big boys and little (ones) too.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(41)<object id="tu29" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu29_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry namest="col1" nameend="col5">&lsqb;Two individuals are looking out a window at (among other things) boys playing&rsqb;</entry>
+</row>
+<row><entry>&num;Il y</entry>
+<entry>avait</entry>
+<entry>de</entry>
+<entry>petits</entry>
+<entry>aussi.</entry>
+</row>
+<row><entry>there</entry>
+<entry>were</entry>
+<entry>of</entry>
+<entry>little</entry>
+<entry>too</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;There were little (ones) too.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Herschensohn contrasts the substantive adjectival constructions with those discussed by Gouet, which involve regional and brand names. These adjectives appear to be pragmatically controlled:</p>
+<p>(42)<object id="tu30" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu30_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry namest="col1" nameend="col6">&lsqb;Individual standing at a bar&rsqb;</entry>
+</row>
+<row><entry>Un</entry>
+<entry>bourgogne</entry>
+<entry>blanc,</entry>
+<entry>s&rsquo;il</entry>
+<entry>vous</entry>
+<entry>pla&icirc;t.</entry>
+</row>
+<row><entry>a</entry>
+<entry>burgundy</entry>
+<entry>white</entry>
+<entry>if</entry>
+<entry>you</entry>
+<entry>please</entry>
+</row>
+<row><entry namest="col1" nameend="col6">&lsquo;A (glass of) white Burgundy (wine) please.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In Herschensohn&apos;s view, certain substantive adjectives, namely those involving brand names, do not involve deletion of a noun, while others, which require syntactic control, do.</p>
+<p>Ronat&apos;s work shifts the focus of ellipsis in noun phrases from deletion vs. interpretation to the elements that introduce the ellipted category, and explicitly connects ellipsis with constructions involving partitive <i>en</i>. Ronat adopts <link rid="b33">Kayne&apos;s (1975</link>) claim that quantifiers and numerals are dominated by N&prime;, and argues that in (43), the empty noun is therefore sister to a numeral in N&prime;. Ronat analyzes such constructions as involving ellipsis, and claims that ellipsis is grammatical because only N, but not N&prime;, is empty:</p>
+<p>(43)<object id="tu31" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu31_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry>J&rsquo;</entry>
+<entry>en</entry>
+<entry>ai</entry>
+<entry>mang&eacute;</entry>
+<entry>&lsqb;<sub>NP</sub>
+</entry>
+<entry>&lsqb;<sub>N&prime;</sub> un</entry>
+<entry>&lsqb;e&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>I</entry>
+<entry>of-them</entry>
+<entry>have</entry>
+<entry>eaten</entry>
+<entry>one</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col7">&lsquo;I have eaten one of them.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>See 4.3 for further discussion of connections between ellipsis in noun phrases and partitive <i>en</i> constructions.</p>
+</subsection>
+<subsection id="ss7" level="1">
+<heading id="h6" level="1">4 Ellipsis, proper government, and the Empty Category Principle</heading>
+<p>Within the Principles and Parameters framework of the early 1980s, empty categories are argued to be base-generated, with their syntactic distribution constrained by various interacting principles of government (in particular &lsquo;proper&rsquo; government) and binding. Within this framework, the focus on ellipsis shifts from deletion vs. interpretation to whether empty categories in ellipsis constructions can be argued to fit into a larger typology of empty &lsqb;&plus;/&minus;pronominal, &plus;/&minus;anaphor&rsqb; elements, based on the syntactic conditions under which they are licit.</p>
+<p>
+<link rid="b37 b38 b39">Zagona (1982, 1988a, 1988b</link>) is first to analyze empty VP in ellipsis constructions as typologically <i>pro</i>, an empty pronominal category, constrained by principles of proper government and the Empty Category Principle or ECP of <link rid="b40">Chomsky (1981</link>). Her analysis captures the earlier generalization that ellipses, like pronouns, seem exempt from Ross&apos;s Constraints, and in terms of the Principles and Parameters framework, subject to Principle B of the Binding Theory. (Recall that for <link rid="b41 b7">Jackendoff 1972, 1977</link>, ellipsis in noun phrases involves an empty PRO, which one might argue is another early precursor of <i>pro</i>. <link rid="b22">Wasow 1972</link> also suggests that ellipted constituents are base-generated empty proforms.) Zagona argues that empty <i>pro</i> VP in English and Spanish must be properly governed by a head specified for &lsquo;rich&rsquo; agreement, on a par with empty subjects in Romance (<link rid="b42">Rizzi 1982a</link>). Zagona argues that empty VP satisfies the ECP when properly governed by INFL, and that INFL is only a proper governor when specified for rich agreement features (in this case, Tense features). (See also <link rid="b28">Chao 1988</link>, who argues that <i>pro</i> in VP ellipsis and sluicing constructions is constrained by the ECP.)</p>
+<p>The following sections outline the progression of ECP analyses of ellipsis in noun phrases, from &lsquo;specifier&rsquo; government to proper government by the functional categories DET, Q, and NUM. This research sharpens the distinction between ellipsis and substantive adjective constructions, and clarifies connections between empty N in ellipsis constructions and partitives in which ellipted N alternates with the trace of partitive <i>en</i>/<i>ne</i>.</p>
+<subsection id="ss8" level="2">
+<heading id="h7" level="2">4.1 Specifier government in NP</heading>
+<p>In a first attempt at analyzing ellipsis in NP in the Principles and Parameters framework, <link rid="b43">Lobeck (1987</link>) extends Zagona&apos;s approach to VP ellipsis to both sluicing and ellipsis in noun phrases in English (with a short discussion of French), in an attempt to provide a unified, ECP approach to the distribution of empty categories in ellipsis constructions across categories. She argues that <i>pro</i> in ellipsis constructions must be properly governed by a specifier (and thus subject to &lsquo;specifier government&rsquo;), and that SPEC&ndash;HEAD agreement features of tense, possession, number, etc. suffice to designate certain specifiers as proper governors. In her framework ellipted projections of N must be properly governed by SPEC(N) specified as &lsqb;&plus;number&rsqb; or &lsqb;&plus;poss&rsqb;, as illustrated in (44). Quantifiers are specified as &lsqb;&plus;number&rsqb; in her approach even when singular, accounting for the grammaticality of (44e):</p>
+<p>(44)&ensp;<object id="tu32" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu32_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The committee endorses every bill the president proposes but the advisors approve only &lsqb;<sub>NP</sub> a &lsqb;few &lsqb;e&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>I really liked those books and I know you&rsquo;ll like &lsqb;<sub>NP</sub> these &lsqb;e&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Sally discussed the committee&apos;s decision to vote yes before she mentioned &lsqb;<sub>NP</sub> the president&apos;s &lsqb;e&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>Even though she already has &lsqb;<sub>NP</sub> two &lsqb;e&rsqb;&rsqb;, Mary bought three more dogs yesterday.</entry>
+</row>
+<row><entry>e.</entry>
+<entry>The students went to the bookstore and &lsqb;<sub>NP</sub> each &lsqb;e&rsqb;&rsqb; bought a book by Chomsky.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Lobeck adopts <link rid="b44">Emonds&apos;s (1985</link>) arguments that certain grammatical formatives are inserted late in the derivation, and thus unavailable as surface structure proper governors. Possessive NPs, demonstratives, and certain quantifiers are, for example, deep structure SPEC(N), but definite and indefinite articles and the quantifier <i>every</i> are inserted into the derivation at PF. In this way, Lobeck explains the ungrammaticality of ellipsis in (45), where SPEC(N) is not filled, and fails to properly govern <i>pro</i>:</p>
+<p>(45)<object id="tu33" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu33_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*I really liked this book and I know you&rsquo;ll like &lsqb;<sub>NP</sub> the &lsqb;e&rsqb;&rsqb; too.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*I&apos;d love to spend a few weeks in Hawaii and I know you&apos;d like to spend at least &lsqb;<sub>NP</sub> a &lsqb;e&rsqb;&rsqb; there too.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*The committee endorses every bill the president proposes and the advisors approve just about &lsqb;<sub>NP</sub> every &lsqb;e&rsqb;&rsqb; too.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Lobeck remarks briefly on the failure of ellipsis in noun phrases in French, illustrated in (46&ndash;47):</p>
+<p>(46)&ensp;<object id="tu34" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu34_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>*Jean a go&ucirc;t&eacute; du vin mais il n&rsquo;a pas go&ucirc;t&eacute; &lsqb;beaucoup&lsqb;e&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>John tasted some wines, but he didn&apos;t taste many &lsqb;e&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(47)&ensp;<object id="tu35" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu35_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>Jean a go&ucirc;t&eacute; du vin mais il n&rsquo;en a pas go&ucirc;t&eacute; beaucoup &lsqb;e&rsqb;.</entry>
+</row>
+<row><entry>John tasted some wines but he of-them didn&apos;t like many &lsqb;e&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Lobeck follows <link rid="b45">Milner (1978b</link>) in analyzing the empty category in (47) as the N&prime; trace of <i>en</i>, adopting also <link rid="b46">Kayne&apos;s (1981b</link>) and <link rid="b47">Hendrick&apos;s (1983</link>) arguments that the trace of <i>en</i> is licensed by lexical government. This accounts for the subject/object asymmetry illustrated by comparing (47) with (48) (see also <link rid="b48">Haik 1982</link>):</p>
+<p>(48)&ensp;<object id="tu36" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu36_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>*Beaucoup &lsqb;e&rsqb; en ont go&ucirc;t&eacute;.</entry>
+</row>
+<row><entry>Many &lsqb;e&rsqb; of-them have tasted.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (48), the trace of <i>en</i> is not lexically governed by the verb, and the derivation violates the ECP. Lobeck takes this as evidence that empty categories in NP are not licensed by specifier government in French; rather, the language relies on a different (clitic <i>en</i>) strategy to license empty categories. (46) is ungrammatical where the <i>en</i> strategy is not employed.</p>
+<p>In a comprehensive study of a range of phenomena in English NP, including ellipsis, <link rid="b49">Olsen (1987</link>) proposes an analysis of ellipsis which crucially involves specifiers and an empty category, but which is not explicitly stated in terms of proper government and the ECP. Olsen&apos;s approach also distinguishes between ellipsis in noun phrases and substantive adjectival constructions, arguing for two types of empty N: empty anaphoric N (ellipsis) and empty N specified as &lsqb;&plus;human, &plus;generic&rsqb;.</p>
+<p>Olsen argues that ellipsis in noun phrases involves an empty anaphoric head N (distinct from <i>pro</i>), whose content is recoverable from a discourse antecedent. She proposes that only specifiers that can combine with empty N (and that do not interfere with its anaphoricity) can introduce empty N in ellipsis contexts. This situation holds in (49), but not (50), where, in the latter case, anaphoric N has attempted to combine with an attributive adjective, specified for incompatible features. N must be realized here as <i>one</i>, or be ruled out:</p>
+<p>(49)&ensp;John&apos;s car and Bill&apos;s &lsqb;e&rsqb;</p>
+<p>(50)&ensp;John&apos;s new car and Bill&apos;s old one/*&lsqb;e&rsqb;</p>
+<p>Certain adjectives with appropriate features can combine with empty N that is not anaphoric, but specified as &lsqb;&plus;human, &plus;generic&rsqb;, in &lsquo;substantive&rsquo; adjectival constructions:</p>
+<p>(51)&ensp;the able &lsqb;e&rsqb;</p>
+<p>For Olsen, then, there are two types of empty N, neither of which can be analyzed as <i>pro</i>, a designation reserved for empty pronominal noun phrases rather than empty heads. Though Olsen does not explicitly state the constraints on ellipsis in terms of &lsquo;specifier government&rsquo;, her analysis parallels Lobeck&apos;s in relying on feature specification of specifiers to explain the distribution of ellipted nominal projections in English.</p>
+<p>The early work on ellipsis and the ECP re-emerges in later work in a Principles and Parameters framework in which proper government is analyzed in more detail as involving licensing and identification. At the same time, researchers are exploring the role of functional categories in X-Bar Theory, including the status of DET as a functional head of DP. Within this framework, ellipsis in noun phrases is reanalyzed as involving licensing and identification by a functional X-0 rather than a specifier.</p>
+</subsection>
+<subsection id="ss9" level="2">
+<heading id="h8" level="2">4.2 Ellipsis in DP</heading>
+<p>One immediate problem with the notion of &lsquo;specifier government&rsquo; is that it assumes that specifiers, rather than heads, can properly govern their sisters, namely intermediate projections of N (as noted by <link rid="b50">Contreras 1989</link>). Possessive NPs in SPEC(N) are a good case in point, and fall outside of the typical definition of &lsquo;proper governor&rsquo;. The &lsquo;DP Hypothesis&rsquo; (proposed originally by <link rid="b51">Brame 1982</link> and elaborated by <link rid="b52">Abney 1987</link> and others) provides an alternative framework within which to analyze licensing and identification in ellipsis constructions, as prenominal elements are analyzed as heads, rather than specifiers. The empty category in ellipsis constructions can therefore be analyzed as properly governed in most cases by the functional head DET, rather than by a (possibly phrasal) SPEC(N).</p>
+<p>
+<link rid="b53">Torrego (1987</link>) is the first to provide an ECP account of what can now be referred to as ellipsis in DP, arguing that certain determiners in Spanish, Catalan, and Portuguese license empty pronominal N heads in noun phrases. Torrego analyzes this empty category as <i>pro</i>, and extends <link rid="b54">Borer&apos;s (1986</link>) argument that <i>pro</i> must be licensed by person features (AGR). Torrego&apos;s argument hinges on the contrastive distribution of elliptical noun phrases headed by the definite determiner <i>el</i> and the demonstrative <i>este</i>, and the types of modifiers required in NP when N is empty. In order to claim that <i>el</i> governs and thus properly governs (licenses) <i>pro</i>, Torrego adopts the DP hypothesis, assuming that determiners head DP, with <i>pro</i> in this case as the empty head of the NP complement of DET (as proposed by <link rid="b55">Hellan 1985</link> for headless nominals in Norwegian).</p>
+<p>Torrego observes that <i>el</i> can apparently license empty N when N is modified by <i>de</i> &plus; XP, as illustrated in (52a). (Torrego presents a few arguments that <i>el</i> is not a clitic, and hence that such constructions involve ellipsis. <link rid="b56">Su&ntilde;er 1986</link> gives an opposing view.) Empty N modified by a &lsquo;semantically contentful&rsquo; PP is ungrammatical, as illustrated in (52b):</p>
+<p>(52)&ensp;<object id="tu37" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu37_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="1" valign="top">a.</entry>
+<entry>El &lsqb;e&rsqb; de las Meninas no est&aacute; en este museo.</entry>
+</row>
+<row><entry>&lsquo;The (one) of the Meninas is not in this museum.&rsquo;</entry>
+</row>
+<row><entry morerows="1" valign="top">b.</entry>
+<entry>Presenciaron los *(asaltos) a las zonas urbanas.</entry>
+</row>
+<row><entry>&lsquo;They witnessed the (assaults) in the urban areas.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Adjectival modifiers seem to have the same properties as <i>de</i> &plus; XP modifiers with respect to ellipsis; empty N in such constructions is apparently licensed, as in (53). (54) illustrates further that such adjectival modifiers can &lsquo;save&rsquo; ellipsis constructions that include semantically contentful PP modifiers:</p>
+<p>(53)&ensp;Los &lsqb;e&rsqb; verdes son bonitos.</p>
+<p>&lsquo;The green (ones) are nice.&rsquo;</p>
+<p>(54)&ensp;<object id="tu38" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu38_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="1" valign="top">a.</entry>
+<entry>*Le&iacute; los &lsqb;e&rsqb; sobre pol&iacute;tica.</entry>
+</row>
+<row><entry>&lsquo;I read the (ones) about politics.&rsquo;</entry>
+</row>
+<row><entry morerows="1" valign="top">b.</entry>
+<entry>Le&iacute; los &lsqb;e&rsqb; cortos sobre pol&iacute;tica.</entry>
+</row>
+<row><entry>&lsquo;I read the short (ones) about politics.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>From these and other data Torrego concludes that the definite determiner in Spanish is too &lsquo;weak&rsquo; to license empty N alone; the relevant person features for licensing are contributed by <i>de</i> &plus; XP. &lsquo;Stronger&rsquo; determiners, such as <i>este</i>/<i>ese</i>/<i>aquel</i>, are specified for person. Consequently, they license <i>pro</i> without the additional required <i>de</i> PP, as illustrated in (55):</p>
+<p>(55)<object id="tu39" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu39_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Tambi&eacute;n</entry>
+<entry>acaban</entry>
+<entry>de</entry>
+<entry>salir</entry>
+<entry>estos</entry>
+<entry>&lsqb;e&rsqb;</entry>
+<entry>sobre</entry>
+<entry>anatom&iacute;a.</entry>
+</row>
+<row><entry morerows="1" valign="top">b.</entry>
+<entry>*Tambi&eacute;n</entry>
+<entry>acaban</entry>
+<entry>de</entry>
+<entry>salir</entry>
+<entry>los</entry>
+<entry>&lsqb;e&rsqb;</entry>
+<entry>sobre</entry>
+<entry>anatom&iacute;a.</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;There also just appear these/the (ones) about anatomy.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Torrego concludes that <i>de</i> &plus; XP modifiers, like adjectives, are &lsqb;&plus;N&rsqb;, and contribute the relevant AGR features to license empty N that are not contributed by the weak definite determiner. Demonstratives are specified for sufficient features to license <i>pro</i>, and thus empty N can occur without the additional presence of <i>de</i> &plus; XP. (See also <link rid="b57 b58">Schroten 1992, Brucart 1987</link>, and <link rid="b59">Brucart and Gr&agrave;cia 1986</link> for related discussion.)</p>
+<p>As mentioned above, <link rid="b50">Contreras (1989</link>) observes that an approach to ellipsis in terms of specifier government is ad hoc, as it extends the ECP to apply to both empty intermediate and maximal projections, and includes specifiers as well as heads in the class of proper governors. Aside from these theoretical considerations he shows that specifier government fails to account for certain empirical distinctions between English and Spanish, and thus must be rejected.</p>
+<p>He critiques two parallel analyses of specifier government involving ellipsis in NP, <link rid="b43">Lobeck (1987</link>) for English and <link rid="b60">Bosque (1986</link>) for Spanish. Bosque argues that the relevant difference between Spanish and English is that in the former, the article agrees with the head noun in gender and number. Specifiers with this &lsquo;rich agreement&rsquo; properly govern empty N or N&prime;. This rich SPEC&ndash;HEAD agreement relation fails to hold between English articles and N, and specifier government fails. (Examples are from <link rid="b50">Contreras 1989</link>.)</p>
+<p>(56)&ensp;<object id="tu40" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu40_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>Vi al estudiante de f&iacute;sica y al &lsqb;e&rsqb; de qu&iacute;mica.</entry>
+</row>
+<row><entry>&lsquo;I saw the student of physics and the (one) of chemistry.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(57)&ensp;<object id="tu41" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu41_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>Dame este libro de f&iacute;sica y ese &lsqb;e&rsqb; de qu&iacute;mica.</entry>
+</row>
+<row><entry>&lsquo;Give me this book on physics and that &lsqb;book&rsqb; on chemistry.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Bosque attributes the ungrammaticality of (58) to the feature specification of Spanish possessives; unlike definite articles and demonstratives, possessives are not specified for gender and number, and hence fail as proper governors:</p>
+<p>(58)&ensp;<object id="tu42" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu42_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>*Su libro sobre Borges es mejor que su &lsqb;e&rsqb; sobre Cort&aacute;zar</entry>
+</row>
+<row><entry>&lsquo;His/her book on Borges is better than his/her &lsqb;e&rsqb; on Cort&aacute;zar.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As Contreras points out, Bosque&apos;s analysis fails to account for the failure of ellipsis in French, where in possessives, the head N agrees in gender and number with the specifier:</p>
+<p>(59)&ensp;<object id="tu43" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu43_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>*mon livre de logique et ton &lsqb;e&rsqb; de litt&eacute;rature</entry>
+</row>
+<row><entry>&lsquo;my book on logic and yours &lsqb;e&rsqb; on literature&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Bosque also fails to explain the fact that in both English and Spanish, numerals (which are not also specified for gender) apparently specifier-govern empty nominal categories, as illustrated in (60):</p>
+<p>(60)&ensp;<object id="tu44" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu44_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>Mar&iacute;a compr&oacute; tres libros de fisica y Juan compr&oacute; dos &lsqb;e&rsqb;.</entry>
+</row>
+<row><entry>&lsquo;Mary bought three books on physics and John bought two &lsqb;e&rsqb;.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>And finally, an approach restricted to gender as a &ldquo;rich&rdquo; agreement feature fails to explain why certain, but not all, quantifiers appear to properly govern empty nominals in both English and Spanish:</p>
+<p>(61)&ensp;<object id="tu45" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu45_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Si bien algunos estudiantes quieren reformas, muchos &lsqb;e&rsqb; no la quieren.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Although some students want reforms, many &lsqb;e&rsqb; don&apos;t want them.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>A prop&oacute;sito de estudiantes, varios &lsqb;e&rsqb; quieren verte.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>Speaking about students, several &lsqb;e&rsqb; want to see you.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(62)&ensp;<object id="tu46" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu46_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Aunque no todo politico miente todo &lsqb;e&rsqb; es vanidoso.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Although not every politician lies-every &lsqb;e&rsqb; is vain.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*Si cada &lsqb;e&rsqb; tiene una solucion diferente, nunca resolvere todos estos problemas.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>&lsquo;If each has a different solution, I&rsquo;ll never solve all these problems.&rsquo;</p>
+<p>To resolve the various problems with specifier government, Contreras adopts <link rid="b61">Fukui and Speas&apos;s (1986</link>) theory of phrase structure (adapted from <link rid="b62 b51">Brame&apos;s 1981, 1982</link> original proposal), in which functional categories (DET, COMP, and INFL) head phrases and project to X&Prime;. Lexical categories N, V, A, and P project to X&prime; as maximal. This distinction in what is analyzed as maximal is predicated on the assumption that only functional categories &lsquo;discharge&rsquo; Kase features to a specifier position, and hence project beyond X&prime;. Kase features include tense and agreement in INFL, &lsqb;&plus;poss&rsqb; in DET, and &lsqb;&plus;WH&rsqb; in COMP. Contreras proposes that only functional categories can properly govern ellipted nominal projections; hence, only DET specified for certain features that are appropriately &ldquo;rich&rdquo; can do so. The article in Spanish is so specified, but the English article is not. He suggests further that the evidence that DET specified as &lsqb;&plus;poss&rsqb; can properly govern an ellipted complement suggests that the feature &lsqb;&plus;poss&rsqb; qualifies as an appropriately &ldquo;rich&rdquo; agreement feature, and DET properly governs N&prime; (a maximal projection, according to Fukui and Speas):</p>
+<p>(63)&ensp;John&apos;s book was good, but &lsqb;<sub>DP</sub> Mary &lsqb;<sub>D</sub> &apos;s &lsqb;<sub>N&prime;</sub> e&rsqb;&rsqb; was even better.</p>
+<p>Most of Contreras&apos;s arguments concern the status of quantifiers as functional heads. He analyzes certain quantifiers as members of the category Q, heading QP. He supports this hypothesis with evidence that just those quantifiers that properly govern empty nominals select either DP or partitive PP complements. <i>Todo</i>/<i>all</i> thus contrasts with <i>cada</i>/<i>every</i> in this way, as illustrated in (64&ndash;65). (See <link rid="b63">Giusti 1991a</link> and <link rid="b64">L&ouml;bel 1989</link> for arguments that Q is a functional head, and <link rid="b65">Karimi 1989</link> and <link rid="b66">Rothstein 1988</link> for discussion of the phrase structure of quantified NPs in English. See also Van <link rid="b67">Riemsdijk 1989a</link> for discussion of the distribution of a somewhat different type of empty category in German DP, introduced by a determiner specified for certain features.)</p>
+<p>(64)&ensp;<object id="tu47" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu47_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<thead>
+<row><entry>a.</entry>
+<entry>todo los problemas/todo del trabajo</entry>
+</row>
+</thead>
+<tbody>
+<row><entry>b.</entry>
+<entry>all the problems/all of the work</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(65)&ensp;<object id="tu48" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu48_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*cada los problemas/*cada de los estudiantes</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*every the problems/*every of the students</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Contreras suggests that <i>cada</i> and <i>every</i> are specifiers, and sisters to N&prime;. <i>Todo</i> and <i>all</i>, on the other hand, are quantifiers that can head QP, and select maximal projections as complements. In such configurations, the functional category Q, an X-0 rather than a specifier, properly governs &lsqb;e&rsqb;. In this way he predicts not only the distribution of ellipted nominal categories in (64&ndash;65), but also the contrast between (62a) above, and (66):</p>
+<p>(66)&ensp;<object id="tu49" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu49_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>Estoy dispuesto a haver una parte del trabajo, pero no todo &ensp;&ensp;&lsqb;e&rsqb;.</entry>
+</row>
+<row><entry>&lsquo;I&apos;m willing to do part of the work, but not all.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (66), <i>todo</i> selects a DP complement, which can be empty. In contrast, in (62a) <i>todo</i> is a sister to N&prime; and thus a specifier rather than a head. Proper government fails, and ellipsis is ruled out.</p>
+<p>Contreras claims that quantifiers can occupy SPEC(N), in which case they do not properly govern &lsqb;e&rsqb;, or they fill Q, and are proper governors of DP. Yet a third option is for quantifiers to head QP and to select an N&prime; complement, a maximal projection in Fukui and Speas&apos;s framework. Thus he accounts for the grammaticality of ellipsis in (61a) above, though <i>muchos</i>/<i>many</i> does not select DP. These facts are illustrated in (67):</p>
+<p>(67)&ensp;<object id="tu50" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu50_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<thead>
+<row><entry>a.</entry>
+<entry>muchos de los estudiantes</entry>
+</row>
+</thead>
+<tbody>
+<row><entry>b.</entry>
+<entry>*muchos los estudiantes</entry>
+</row>
+<row><entry>c.</entry>
+<entry>many of the students</entry>
+</row>
+<row><entry>d.</entry>
+<entry>*many the students</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Contreras argues, contra previous accounts in which ellipted categories are analyzed as <i>pro</i>, that &lsqb;e&rsqb; in DP is &lsqb;&minus;anaphor, &minus;pronominal&rsqb;, though it is not bound by an operator (as are other such categories, namely <i>wh</i>-trace). The empty category is thus a contextually defined variable, consistent with proposals such as that of <link rid="b68">Koopman and Sportiche (1982</link>). In the framework he adopts, the ellipted category in noun phrases in Spanish is also analyzed as either N or N&prime;, a claim also made by <link rid="b53">Torrego (1987</link>), and by <link rid="b30">Ronat (1977</link>) for French. (For discussion of N&prime; ellipsis in Japanese, and how it supports the DP hypothesis, see <link rid="b69">Saito and Murasugi 1990</link>.)</p>
+</subsection>
+<subsection id="ss10" level="2">
+<heading id="h9" level="2">4.3 Licensing and identification in DP</heading>
+<p>In a number of articles throughout the 1990s Lobeck refines the licensing and identification conditions on ellipted categories in DP, focusing on how to best formulate the feature specifications of DET and Q that appear to designate these heads with agreement &lsquo;strong&rsquo; enough to license and identify NP <i>pro</i> complements of these heads (<link rid="b70 b71 b72 b73">Lobeck 1990, 1991a, 1991b, 1993</link>). One central issue is that while both the singular numeral <i>one</i> and the singular quantifier <i>each</i> license empty NP, singular <i>every</i> does not.</p>
+<p>Lobeck originally argues that numerals and quantifiers, including singular <i>one</i> and <i>each</i>, are &lsqb;&plus;number&rsqb;, and specified for strong agreement. She adopts Contreras&apos;s proposal that <i>every</i>, on the other hand, though &lsqb;&plus;number&rsqb; in her framework, fills SPEC(N) rather than Q, and is thus not a possible licensing head for an empty nominal projection. <link rid="b29">Lobeck (1995</link>) later revises this approach, ultimately arguing that the relevant feature specification of quantifiers and numerals is not &lsqb;&plus;number&rsqb;, but &lsqb;&plus;partitive&rsqb;. In this way Lobeck includes both singular <i>one</i> and <i>each</i>, both of which can occur in partitive constructions in English, in the set of potential licensing heads for ellipsis without the stipulation that these singular heads are &lsqb;&plus;number&rsqb;, and without requiring <i>every</i> to occur in a structural position different from <i>each</i>. In her framework, DET must be specified as &lsqb;&plus;poss&rsqb;, &lsqb;&plus;number&rsqb; (more specifically, &lsqb;&plus;plural&rsqb;), and/or &lsqb;&plus;partitive&rsqb; to license and identify <i>pro</i> in DP. <i>Every</i> is therefore excluded as a licenser of ellipsis because it is both &lsqb;&minus;number&rsqb; and &lsqb;&minus;partitive&rsqb;.</p>
+<p>Lobeck also argues, following <link rid="b74">Ritter (1991</link>), that numerals head NUMP, proposing that NUM specified for strong agreement can also license and identify <i>pro</i> in NUMP. In addition, Lobeck attempts a cross-linguistic analysis of ellipsis in DP based on evidence from German and French, proposing a parameter whereby the number of strong agreement features in DET or NUM that is required to identify an empty pronominal NP is proportional to the number of possible strong agreement features in the language. English, a language with relatively poor agreement, requires fewer strong agreement features to license ellipsis (at least one). French, with a somewhat more complex agreement system, requires more features than English (namely at least two), and German, with an even richer system, requires that DET, NUM, or Q be specified for three features. (For a critique of Lobeck&apos;s analysis of ellipsis in German DP, see <link rid="b75">Sleeman 1996</link>, discussed below, and <link rid="b76">Winkler 1997</link>, who argues that ellipsis is in part predictable based on pitch accent and focus.)</p>
+<p>
+<link rid="b77 b78 b79">Kester&apos;s (1992, 1993, 1994</link>, and other work, notably 1996a, 1996b) central insight is that, in a range of Germanic and Romance languages, a functional head in a SPEC&ndash;HEAD agreement relation with an adjective with morphological inflection is specified for &ldquo;strong&rdquo; agreement, and licenses empty N. (See also <link rid="b80">Delsing 1992</link> for discussion of the role of adjectival inflection in Scandinavian languages, and <link rid="b81">Olsen 1989</link> for German.) The empty non-anaphoric N in substantive adjective constructions and empty anaphoric N in ellipsis constructions are licensed in this way. They differ, however, in how empty N is identified. Non-anaphoric N is identified through special adjectival morphology, or by the grammatical gender features of the determiner. Anaphoric N, on the other hand, is identified with a lexical antecedent in the discourse. In Kester&apos;s approach, empty N is licensed by an adjective lacking strong agreement only in the default case, namely when N is specified as &lsqb;&plus;human, &plus;generic, &plus;plural&rsqb;. (Kester adopts Lobeck&apos;s claim that empty N is <i>pro</i>, noting that in Dutch, for example, <i>pro</i> &equals; N, while in English, <i>pro</i> &equals; N&prime;.)</p>
+<p>To see how this analysis works, consider (68) (from <link rid="b73">Lobeck 1993</link>, analyzed in <link rid="b82">Kester 1996b</link>):</p>
+<p>(68)<object id="tu51" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu51_source">
+<tbl frame="none">
+<tgroup cols="12">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12"/>
+<tbody>
+<row><entry>Ich</entry>
+<entry>m&ouml;chte</entry>
+<entry>das</entry>
+<entry>alte</entry>
+<entry>Buch</entry>
+<entry>kaufen</entry>
+<entry>aber</entry>
+<entry>Sie</entry>
+<entry>m&ouml;chten</entry>
+<entry>das</entry>
+<entry>neue</entry>
+<entry>&lsqb;e&rsqb;.</entry>
+</row>
+<row><entry>I</entry>
+<entry>wanted</entry>
+<entry>the</entry>
+<entry>old</entry>
+<entry>book</entry>
+<entry>to buy</entry>
+<entry>but</entry>
+<entry>you</entry>
+<entry>wanted</entry>
+<entry>the</entry>
+<entry>New</entry>
+<entry>&lsqb;e&rsqb;.</entry>
+</row>
+<row><entry namest="col1" nameend="col12">&lsquo;I wanted to buy the old book but you wanted to buy the new one.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Lobeck argues that in (68), the adjective <i>neue</i> is a head specified for strong agreement features, based on evidence that adjectives in German express gender, case, number, etc. Adjectives in English lack these features, and thus are not specified for strong agreement and fail to license and identify <i>pro</i> in DP. <link rid="b78">Kester adopts Cinque&apos;s (1993</link>) proposal that adjectives are specifiers of functional projections in DP, arguing that it is instead the functional head (F), in a SPEC&ndash;HEAD agreement relation with A specified for strong agreement, that licenses <i>pro</i> in (68). This situation is illustrated in (69):</p>
+<p>(69)&ensp;&lsqb;<sub>DP</sub> &lsqb;<sub>D&prime;</sub> das &lsqb;<sub>FP</sub> neue &lsqb;<sub>F&prime;</sub> &lsqb;<sub>NP</sub> e&rsqb;&rsqb;&rsqb;</p>
+<p>Empty N in (69) is identified with its discourse antecedent, and is grammatical.</p>
+<p>In (70), empty N is allowed in English, though A lacks features. Kester argues that this is because in English, empty N that is not identified by strong agreement can only survive if it is specified for and identified through its default features &lsqb;&plus;human, &plus;generic, &plus;plural&rsqb;. Licensing conditions are also in this default case relaxed, and <i>pro</i> is licensed under government by the functional head F:</p>
+<p>(70)<object id="tu52" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu52_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>the sick</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>DP</sub> &lsqb;<sub>D&prime;</sub> the &lsqb;<sub>FP</sub> sick &lsqb;<sub>F&prime;</sub> &lsqb;<sub>NP</sub> e&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In Dutch, on the other hand, non-anaphoric <i>pro</i> is &lsqb;&plus;human, &plus;generic&rsqb; but can be &lsqb;&plus;/&minus;plural&rsqb;. Empty N in this case is therefore not specified for default features, and thus falls under more stringent licensing and identification conditions. Ellipsis in Dutch DP also differs from English, in that empty anaphoric N can be licensed by an adjective. These facts are illustrated in (71&ndash;72) and (73), respectively:</p>
+<p>(71)<object id="tu53" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu53_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry>&lsqb;Rijken</entry>
+<entry><i>pro</i>&rsqb;</entry>
+<entry>worden</entry>
+<entry>alleen</entry>
+<entry>maar</entry>
+<entry>rijker.</entry>
+</row>
+<row><entry>rich</entry>
+<entry><i>pro</i>
+</entry>
+<entry>become</entry>
+<entry>all</entry>
+<entry>more</entry>
+<entry>rich</entry>
+</row>
+<row><entry namest="col1" nameend="col6">&lsquo;The rich only become richer.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(72)<object id="tu54" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu54_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry>&lsqb;Een</entry>
+<entry>zieke</entry>
+<entry><i>pro</i>&rsqb;</entry>
+<entry>heeft</entry>
+<entry>recht</entry>
+<entry>op</entry>
+<entry>een</entry>
+<entry>goede</entry>
+<entry>verzorging.</entry>
+</row>
+<row><entry>a</entry>
+<entry>sick</entry>
+<entry><i>pro</i>
+</entry>
+<entry>has</entry>
+<entry>a right</entry>
+<entry>to</entry>
+<entry>a</entry>
+<entry>good</entry>
+<entry>care</entry>
+</row>
+<row><entry namest="col1" nameend="col9">&lsquo;A sick person has a right to good care.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(73)<object id="tu55" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu55_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry>Jan</entry>
+<entry>kocht</entry>
+<entry>de</entry>
+<entry>rode</entry>
+<entry>auto</entry>
+<entry>en</entry>
+<entry>&lsqb;de</entry>
+<entry>groene</entry>
+<entry><i>pro</i>&rsqb;.</entry>
+</row>
+<row><entry>Jan</entry>
+<entry>bought</entry>
+<entry>the</entry>
+<entry>red</entry>
+<entry>car</entry>
+<entry>and</entry>
+<entry>the</entry>
+<entry>green</entry>
+<entry><i>pro</i>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col9">&lsquo;John bought the red car and the green (one).&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Kester accounts for this difference between English and Dutch in terms of the presence or absence of adjectival inflectional morphology. In Dutch, adjectives in both substantive adjective and ellipsis constructions are inflected with <i>-e</i> (<i>schwa</i>). She argues that in these cases <i>pro</i> is licensed by this adjectival inflection, and in ellipsis constructions such as (73), <i>pro</i> is interpreted under identity with an antecedent (identification). In the substantive adjective constructions in (71&ndash;72), non-anaphoric <i>pro</i> is identified by grammatical gender features on the determiner.</p>
+<p>Kester extends her analysis to a number of other languages (including German, Swedish, Spanish, and Finnish), concluding that adjectival inflection plays a crucial role in licensing both elliptical and non-elliptical empty N, and that the crucial difference between such constructions lies in the means by which identification conditions are met.</p>
+<p>
+<link rid="b83 b84 b85">Bernstein&apos;s work (1991, 1993a, 1993b</link>) concerns the distribution of the indefinite article in construction with empty N in Spanish and Italian (and also extends to French and Catalan). She argues that terminal vowels on nouns are functional heads, generated independently of their N stems. These functional heads can in turn license null projections of N. Because they are affixes, they must also raise to D, deriving the various orders of determiners, adjectives, and empty N in elliptical constructions in these languages. Her analysis thus provides yet another approach to &lsquo;strong&rsquo; agreement in licensing empty N.</p>
+<p>One central distributional difference that Bernstein observes is that in Spanish and Italian, the indefinite article occurs in ellipsis constructions only when affixed with <i>-o</i>. Other numerals and quantifiers are not so constrained:</p>
+<p>(74)&ensp;<object id="tu56" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu56_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>Uno rojo est&aacute; encima de la mesa</entry>
+</row>
+<row><entry>&lsquo;a red one is on the table&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(75)&ensp;<object id="tu57" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu57_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>*Quiero un (grande)</entry>
+</row>
+<row><entry>&lsquo;I want a (big)&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(76)&ensp;<object id="tu58" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu58_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>Quiero dos.</entry>
+</row>
+<row><entry>&lsquo;I want two.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(77)&ensp;<object id="tu59" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu59_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>Tengo muchos.</entry>
+</row>
+<row><entry>&lsquo;I have many.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(78)&ensp;<object id="tu60" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu60_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>Ne voglio due.</entry>
+</row>
+<row><entry>&lsquo;CL (I) want two.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(79)&ensp;<object id="tu61" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu61_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>Ne ho molti.</entry>
+</row>
+<row><entry>&lsquo;CL (I) have many.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>She captures this distinction by arguing that in Spanish and Italian, DP dominates another functional category, Word Marker Phrase (WMP), headed by <i>-o</i>. The affix <i>-o</i> undergoes head-to-head movement, raising from WM to NUM to D. In D, <i>-o</i> adjoins to <i>un-</i>, the head of a QP in SPEC(NUMP) that has raised to D. In general, then, <i>uno</i> derives from head-to-head movement of two separate heads, the Q <i>un</i> and the WM <i>-o</i>. WM is a functional head that governs and licenses empty N in ellipsis constructions, accounting for the contrast between (74) and (75) above.</p>
+<p>To explain the distribution of substantive adjectival constructions in (80), Bernstein proposes two different positions for adjectives (following <link rid="b86">Cinque 1993</link>). <i>Pobre</i> occurs below WM, and <i>mero</i> above it. In the former case, raising of WM to D is not blocked, but in the latter case movement is blocked by <i>mero</i>, and the derivation is ruled out:</p>
+<p>(80)&ensp;<object id="tu62" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu62_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>uno pobre (an impoverished one)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*uno mero (a mere one)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Bernstein generalizes her analysis to French, arguing that in this language WM is abstract, but present to govern and license an empty nominal projection. Consider, for example, (81&ndash;82), examples of empty nouns in French:</p>
+<p>(81)&ensp;<object id="tu63" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu63_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>Un tr&egrave;s gros chien vit dans cette maison. Un petit vit dans celle d&rsquo;&agrave; c&ocirc;t&eacute;.</entry>
+</row>
+<row><entry>&lsquo;A very big dog lives in this house. A small &lsqb;e&rsqb; lives in that one next door.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(82)&ensp;<object id="tu64" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu64_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>un rouge</entry>
+</row>
+<row><entry>&lsquo;a red &lsqb;e&rsqb;&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>She bases the grammaticality of (81&ndash;82) on the evidence that gender is reflected on some French nouns by an affix, <i>-e</i>, as illustrated in (83), suggesting that the final vowels in masculine nouns in French are deleted by a PF rule, but that they are present abstractly. French nouns thus are dominated by a WM projection just as in Spanish, and as a result, the invariable form <i>un</i> in French licenses empty N:</p>
+<p>(83)&ensp;<object id="tu65" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu65_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>voisin/voisine</entry>
+</row>
+<row><entry>b.</entry>
+<entry>cousin/cousine</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Bernstein also derives the difference between <i>un</i>/<i>uno</i> in partitive <i>ne</i> constructions from licensing by WM:</p>
+<p>(84)<object id="tu66" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu66_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry>Ne</entry>
+<entry>ho</entry>
+<entry>visto</entry>
+<entry>uno/*un</entry>
+<entry>rosso</entry>
+</row>
+<row><entry>CL</entry>
+<entry>I have</entry>
+<entry>seen</entry>
+<entry>a</entry>
+<entry>red (one)</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;I have seen a red (one).&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Bernstein assumes, following <link rid="b87">Cinque (1991</link>) and <link rid="b88">Cardinaletti and Giusti (1992</link>), that <i>ne</i> is basically a clitic NP that raises to cliticize to the finite verb. This raising, she argues, is possible only when WM is present (as reflected by <i>-o</i>) to license the trace of <i>ne</i>.</p>
+<p>In Bernstein&apos;s analysis then, ellipsis in Spanish, French, and Italian DP depends on licensing by a lexical or abstract functional category WM, the locus of gender affixes in Romance.</p>
+<p>In a comprehensive study of ellipsis in French DP, <link rid="b75">Sleeman (1996</link>) proposes a unified approach to licensing of empty N, or <i>pro</i> (in ellipsis, partitive, and substantive adjective constructions), defining &lsquo;strong agreement&rsquo; for licensing in terms of a single, semantic feature, &lsqb;&plus;partitive&rsqb;. Central to her analysis is the distribution of adjectives that can introduce empty N in French and other languages. Basically, she argues that adjectives are functional projections in DP, following <link rid="b86">Cinque (1993</link>), but proposes that the relevant feature specification of the licensing head of such projections is &lsqb;&plus;partitive&rsqb;, rather than overt inflectional morphology. Only adjectives with this feature will be able to introduce ellipsis, as it is only in these contexts that the functional head with which the adjective agrees will be &lsqb;&plus;partitive&rsqb;, and able to license empty N. (For other approaches to French DP upon which Sleeman draws, see <link rid="b11">Corblin 1990</link>; <link rid="b89 b90">Valois 1991a, 1991b</link>; <link rid="b91">Corver and Delfitto 1993</link>.) Sleeman argues that this approach accounts for a number of contrasts first pointed out by <link rid="b30">Ronat (1977</link>) and <link rid="b34">Barbaud (1976</link>) for French, and also for certain cross-linguistic differences between French and Dutch, Spanish, Italian, and English.</p>
+<p>Sleeman notes that while overt morphological inflection may be relevant to licensing empty N in Dutch and Spanish (as argued by Kester and Bernstein, respectively), morphological inflection does not seem relevant to licensing empty N in French. For example, the adjectives <i>int&eacute;ressante</i> and <i>grande</i>, in (85) and (87) respectively, are both morphologically inflected for gender, but only <i>grande</i> licenses ellipsis. The adjectives <i>vert fonc&eacute;</i> in (86) and <i>facile</i> in (88), on the other hand, both lack morphological inflection, but only the former licenses ellipsis:</p>
+<p>(85)<object id="tu67" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu67_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry>*Malheureusement</entry>
+<entry>je</entry>
+<entry>n&rsquo;ai</entry>
+<entry>pas</entry>
+<entry>entendu</entry>
+<entry>l&rsquo; int&eacute;ressante.</entry>
+</row>
+<row><entry> unfortunately</entry>
+<entry>I</entry>
+<entry>neg have</entry>
+<entry>neg</entry>
+<entry>heard</entry>
+<entry>the interesting</entry>
+</row>
+<row><entry namest="col1" nameend="col6">&lsquo;Unfortunately, I have not heard the interesting one.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(86)<object id="tu68" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu68_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry>De</entry>
+<entry>ces</entry>
+<entry>robes,</entry>
+<entry>je</entry>
+<entry>pr&eacute;f&egrave;re</entry>
+<entry>la</entry>
+<entry>vert</entry>
+<entry>fonc&eacute;.</entry>
+</row>
+<row><entry>of</entry>
+<entry>these</entry>
+<entry>dresses,</entry>
+<entry>I</entry>
+<entry>prefer</entry>
+<entry>the</entry>
+<entry>green</entry>
+<entry>deep</entry>
+</row>
+<row><entry namest="col1" nameend="col8">&lsquo;Of these dresses, I prefer the deep green one.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(87)<object id="tu69" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu69_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry>Je</entry>
+<entry>prendrai</entry>
+<entry>la</entry>
+<entry>grande.</entry>
+</row>
+<row><entry>I</entry>
+<entry>will-take</entry>
+<entry>the</entry>
+<entry>big</entry>
+</row>
+<row><entry namest="col1" nameend="col4">&lsquo;I will take the big one.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(88)<object id="tu70" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu70_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry>*Le</entry>
+<entry>facile</entry>
+<entry>se trouve</entry>
+<entry>&agrave;</entry>
+<entry>la</entry>
+<entry>page</entry>
+<entry>quarante.</entry>
+</row>
+<row><entry>the</entry>
+<entry>easy</entry>
+<entry>itself finds</entry>
+<entry>at</entry>
+<entry>the</entry>
+<entry>page</entry>
+<entry>forty.</entry>
+</row>
+<row><entry namest="col1" nameend="col7">&lsquo;The easy one is on page forty.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>To account for these and other contrasts, Sleeman proposes that only the functional head in a SPEC&ndash;HEAD agreement relation with a &lsqb;&plus;partitive&rsqb; adjective licenses empty N. She distinguishes two classes of partitive words: D-partitives include cardinals, superlatives, ordinals, and words such as <i>seul</i>, <i>autre</i>, <i>prochain</i>, <i>suivant</i>. N-partitives include color adjectives and certain others including <i>grand</i>, <i>petit</i>, etc., all of which license empty N. Other adjectives do not license ellipsis (adjectives of quality, such as <i>int&eacute;ressante</i> and <i>facile</i>).</p>
+<p>Sleeman also derives the distribution of quantitative <i>-en</i> in French from licensing by a &lsqb;&plus;partitive&rsqb; functional head. She argues that <i>-en</i> is inherently &lsqb;&plus;partitive&rsqb;, but that its empty counterpart, <i>pro</i>, is not, and must therefore be licensed by a &lsqb;&plus;partitive&rsqb; head to be grammatical. It is not enough, however, that <i>pro</i> be licensed; it must also be identified by a &lsqb;&plus;specific&rsqb; local element in order to be connected with an antecedent. (See <link rid="b92">En&ccedil; 1991</link> and <link rid="b93">Diesing 1992b</link> for relevant discussion of specificity. For discussion of <i>en/ne</i> see <link rid="b45">Milner 1978b</link>; <link rid="b94">Belletti and Rizzi 1981</link>; <link rid="b95">Hulk 1982</link>; <link rid="b96">Kayne 1984a</link>; <link rid="b88">Cardinaletti and Giusti 1992</link>.)</p>
+<p>To illustrate, consider the data below:</p>
+<p>(89)<object id="tu71" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu71_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry>Trois</entry>
+<entry><i>pro</i>
+</entry>
+<entry>arriveront</entry>
+<entry>demain.</entry>
+</row>
+<row><entry>three</entry>
+<entry>
+</entry>
+<entry>will arrive</entry>
+<entry>tomorrow.</entry>
+</row>
+<row><entry namest="col1" nameend="col4">&lsquo;Three will arrive tomorrow.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(90)<object id="tu72" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu72_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry>*J&rsquo;ai</entry>
+<entry>lu</entry>
+<entry>trois.</entry>
+<entry><i>pro</i>
+</entry>
+</row>
+<row><entry>I have</entry>
+<entry>read</entry>
+<entry>three</entry>
+<entry><i>pro</i>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col4">&lsquo;I have read three.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(91)<object id="tu73" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu73_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry>J&rsquo;en </entry>
+<entry>ai</entry>
+<entry>lu</entry>
+<entry>trois.</entry>
+<entry><i>pro</i>
+</entry>
+</row>
+<row><entry>I of it/them</entry>
+<entry>have</entry>
+<entry>read</entry>
+<entry>three</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;I have read three.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Sleeman explains the contrast between (89) and (90) by proposing that although <i>pro</i> is licensed by NUM (<i>trois</i>) specified as &lsqb;&plus;partitive&rsqb;, <i>pro</i> in (90) is in an indefinite object, and non-specific. The derivation is ruled out because <i>pro</i> is not identified. Sleeman assumes that subject DPs are specific, and thus that <i>pro</i> in (89) is licensed by a head specified as &lsqb;&plus;partitive&rsqb;, and is also specific, and thus identified. (91) is the counterpart of (90) where &lsqb;&plus;partitive, &plus;specific&rsqb; <i>en</i> is inserted, thus saving the derivation.</p>
+<p>In (92), <i>pro</i> is identified by the &lsqb;&plus;partitive&rsqb; PP, which also makes <i>pro</i> &lsqb;&plus;specific&rsqb; (as noted by <link rid="b88">Cardinaletti and Giusti 1992</link>). In (93), <i>pro</i> is specific because it is in a definite rather than indefinite DP (cf. (90)):</p>
+<p>(92)<object id="tu74" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu74_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry>J&rsquo;ai</entry>
+<entry>lu</entry>
+<entry>trois</entry>
+<entry><i>pro</i>
+</entry>
+<entry>de</entry>
+<entry>ses</entry>
+<entry>livres.</entry>
+</row>
+<row><entry>I have</entry>
+<entry>read</entry>
+<entry>three</entry>
+<entry>
+</entry>
+<entry>of</entry>
+<entry>his</entry>
+<entry>books</entry>
+</row>
+<row><entry namest="col1" nameend="col7">&lsquo;I have read three of his books.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(93)<object id="tu75" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu75_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry>Je</entry>
+<entry>pr&eacute;f&egrave;re</entry>
+<entry>le</entry>
+<entry>troisi&egrave;me</entry>
+<entry><i>pro</i>.</entry>
+</row>
+<row><entry>I</entry>
+<entry>prefer</entry>
+<entry>the</entry>
+<entry>third</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;I prefer the third.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Sleeman extends her analysis to predict that only &lsqb;&plus;partitive&rsqb; adjectives will introduce empty N in <i>en</i> constructions. This prediction seems to be borne out, as illustrated by the contrast between (94) and (95):</p>
+<p>(94)<object id="tu76" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu76_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry>J&rsquo;en</entry>
+<entry>ai</entry>
+<entry>achet&eacute;</entry>
+<entry>un</entry>
+<entry>rouge.</entry>
+</row>
+<row><entry>I of it</entry>
+<entry>have</entry>
+<entry>bought</entry>
+<entry>a</entry>
+<entry>red</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;I have bought a red one.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(95)<object id="tu77" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu77_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry>*J&rsquo;en</entry>
+<entry>ai</entry>
+<entry>rencontr&eacute;</entry>
+<entry>un</entry>
+<entry>f&acirc;ch&eacute;.</entry>
+</row>
+<row><entry>I of it</entry>
+<entry>have</entry>
+<entry>met</entry>
+<entry>an</entry>
+<entry>angry</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;I have met an angry one.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In Sleeman&apos;s account, only <i>rouge</i>, not <i>f&acirc;ch&eacute;</i>, is &lsqb;&plus;partitive&rsqb; and licenses empty N.</p>
+<p>Sleeman&apos;s analysis makes a number of interesting cross-linguistic predictions, one of which is that partitive adjectives, in contrast to other types of adjectives, should in fact license ellipsis in DP, contrary to Lobeck&apos;s claim that adjectives lack strong agreement and fail to license <i>pro</i> in English. Sleeman presents the data in (96) in support of this claim (examples are from <link rid="b97">Halliday and Hasan 1976</link>):</p>
+<p>(96)&ensp;<object id="tu78" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu78_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Of the boys, I prefer the eldest <i>pro</i>.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>I like your dress. I will buy the same <i>pro</i> as you.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Take this piece. I will take the other <i>pro</i>.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>The green <i>pro</i> suits you very well.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The grammaticality of ellipsis in (96) suggests for Sleeman that <i>D</i>-partitive adjectives license <i>pro</i> in English. That (97) is ungrammatical is explained by claiming that in contrast to French, <i>N-</i>partitive adjectives do not license ellipsis in English, the color adjective in (96) being an exception:</p>
+<p>(97)&ensp;I will take the small *(one).</p>
+<p>Sleeman extends her approach to substantive adjectives, arguing that in French, such constructions do not involve a syntactic empty N, though empty N is present at a lexical level. She again diverges from other analyses that argue that substantive adjective constructions involve <i>pro</i> licensed by morphological inflection.</p>
+</subsection>
+</subsection>
+<subsection id="ss11" level="1">
+<heading id="h10" level="1">5 Conclusion: current research directions</heading>
+<p>As we can see from the studies discussed here, research on what can now be analyzed as ellipsis in DP has made important contributions to our understanding of the nature of empty categories, the internal structure of the noun phrase, the properties of morphological inflection and semantic features of functional categories in licensing and identification, and the relationships between ellipsis and other phenomena, including partitive constructions (with clitic <i>ne</i>/<i>en</i>) and substantive adjective constructions.</p>
+<p>Some subsequent work on ellipsis in DP, based on the foundations outlined here, includes <link rid="b98">Coene (1999</link>) on ellipsis in DP in Romanian and Spanish, <link rid="b99">Giannakidou and Stavrou (1999</link>) on object ellipsis in Greek, <link rid="b100">Mart&iacute; Girbau (1999</link>) on partitives and ellipsis in Catalan, <link rid="b101">L&oacute;pez (2000</link>) on ellipsis in DP and D-linking, <link rid="b13">Luj&aacute;n (2000</link>) and <link rid="b102">Kester and Sleeman (2002</link>) on an alternative analysis to ellipsis in Spanish, <link rid="b103">Pollock (1998</link>) and <link rid="b104">Kupferman (1999</link>) on noun ellipsis and the clitic <i>en</i>, and <link rid="b105 b106 b107">Panagiotidis (2002, 2003a, 2003b</link>) on the status of the empty noun and <i>one</i>.</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss12" level="1" type="references">
+<heading id="h11" level="1">REFERENCES</heading>
+<reference id="b52" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Abney</surname><x>, </x><forenames>Steven</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date>
+<miscellaneoustext>). The English Noun Phrase in its Sentential Aspect</miscellaneoustext><x>. </x>
+<address>PhD dissertation</address><x>, </x><publisher>MIT</publisher><x>.</x>
+</reference>
+<reference id="b14" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Akmajian</surname><x>, </x><forenames>Adrian</forenames>
+</name>
+</namegroup><x> (</x><date date="1968">1968</date>
+<miscellaneoustext>). An Interpretive Principle for Certain Anaphoric Expressions</miscellaneoustext><x>. </x>
+<address>Unpublished manuscript</address><x>, </x><publisher>MIT</publisher><x>.</x>
+</reference>
+<reference id="b8" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Baker</surname><x>, </x><forenames>Carl<x> </x>L<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978</date><x>). </x><title type="book">Introduction to Generative-Transformational Syntax</title><x>. </x><address>Englewood Cliffs, NJ</address><x>: </x><publisher>Prentice-Hall</publisher><x>.</x>
+</reference>
+<reference id="b34" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Barbaud</surname><x>, </x><forenames>Philippe</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="document">Constructions Superlatives et Structures Apparent&eacute;es</title><x>. </x><title type="journal">Linguistic Analysis</title><x> </x><volume>2/2</volume><x>: </x><page type="first">125&ndash;174</page><x>.</x>
+</reference>
+<reference id="b94" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Belletti</surname><x>, </x><forenames>Adriana</forenames>
+</name><x> and </x><name type="author">
+<forenames>Luigi</forenames><x> </x><surname>Rizzi</surname>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="document">The Syntax of <i>Ne</i>: Some Theoretical Implications</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>1</volume><x>: </x><page type="first">117&ndash;154</page><x>.</x>
+</reference>
+<reference id="b83" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bernstein</surname><x>, </x><forenames>Judy</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">DPs in French and Walloon: Evidence for Parametric Variation in Nominal Head Movement</title><x>. </x><title type="journal">Probus</title><x> </x><volume>3/2</volume><x>: </x><page type="first">101&ndash;126</page><x>.</x>
+</reference>
+<reference id="b84" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bernstein</surname><x>, </x><forenames>Judy</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993a</date><x>). </x><title type="document">The Syntactic Role of Word Markers in Null Nominal Constructions</title><x>. </x><title type="journal">Probus</title><x> </x><volume>5</volume><x>: </x><page type="first">5&ndash;38</page><x>.</x>
+</reference>
+<reference id="b85" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Bernstein</surname><x>, </x><forenames>Judy</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993b</date>
+<miscellaneoustext>). Topics in the Syntax of Nominal Structure across Romance</miscellaneoustext><x>. </x>
+<address>PhD dissertation</address><x>, </x><publisher>CUNY</publisher><x>.</x>
+</reference>
+<reference id="b54" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Borer</surname><x>, </x><forenames>Hagit</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">I-Subjects</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>17</volume><x>: </x><page type="first">375&ndash;416</page><x>.</x>
+</reference>
+<reference id="b60" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Bosque</surname><x>, </x><forenames>Ignacio</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date>
+<miscellaneoustext>). Constricciones Morfol&oacute;gicas sobre la Coordinaci&oacute;n</miscellaneoustext><x>. </x>
+<address>Unpublished manuscript</address><x>, </x><publisher>Universidad Complutense at Madrid</publisher><x>.</x>
+</reference>
+<reference id="b62" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Brame</surname><x>, </x><forenames>Michael</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="document">The General Theory of Binding and Fusion</title><x>. </x><title type="journal">Linguistic Analysis</title><x> </x><volume>10/4</volume>
+<page type="first">
+</page><x>.</x>
+</reference>
+<reference id="b51" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Brame</surname><x>, </x><forenames>Michael</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">The Head Selector Theory of Lexical Specifications and the Nonexistence of Coarse Categories</title><x>. </x><title type="journal">Linguistic Analysis</title><x> </x><volume>10</volume><x>: </x><page type="first">321&ndash;325</page><x>.</x>
+</reference>
+<reference id="b58" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Brucart</surname><x>, </x><forenames>Jos&eacute;</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date>
+<miscellaneoustext>). La Elisi&oacute;n en Espan&otilde;l</miscellaneoustext><x>. </x>
+<address>Unpublished manuscript</address><x>, </x><publisher>Universitad Aut&ograve;noma de Barcelona</publisher><x>.</x>
+</reference>
+<reference id="b59" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Brucart</surname><x>, </x><forenames>Jos&eacute;</forenames>
+</name><x> and </x><name type="author">
+<forenames>Lluisa</forenames><x> </x><surname>Gr&agrave;cia</surname>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">I Sintagmi Nominali senza Testa</title><x>. </x><title type="journal">Rivista di Grammatica Generativa</title><x> </x><volume>11</volume><x>: </x><page type="first">3&ndash;32</page><x>.</x>
+</reference>
+<reference id="b88" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cardinaletti</surname><x>, </x><forenames>Anna</forenames>
+</name><x> and </x><name type="author">
+<forenames>Giuliana</forenames><x> </x><surname>Giusti</surname>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Partitive <i>Ne</i> and the QP Hypothesis</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the XVII Meeting of Generative Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Elisabetta</forenames><x> </x><surname>Fava</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">121&ndash;141</page><x>. </x><address>Turin</address><x>: </x><publisher>Rosenberg and Sellier</publisher><x>.</x>
+</reference>
+<reference id="b28" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chao</surname><x>, </x><forenames>Wynn</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="book">On Ellipsis</title><x>. </x><address>New York</address><x>: </x><publisher>Garland</publisher><x>.</x>
+</reference>
+<reference id="b18" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1965">1965</date><x>). </x><title type="book">Aspects of the Theory of Syntax<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b40" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="book">Lectures on Government and Binding<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b87" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Lo Statuto Categoriale del <i>Ne</i> Partitivo</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Saggi di Linguistica e di Letteratura in Memoria di Paolo Zolli</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Giampaolo</forenames><x> </x><surname>Borghello</surname>
+</name><x>, </x><name type="editor">
+<forenames>Manlio</forenames><x> </x><surname>Cortelazzo</surname>
+</name><x>, </x><name type="editor">
+<forenames>Giorgio</forenames><x> </x><surname>Padoan</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Piermario</forenames><x> </x><surname>Vescovo</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">117&ndash;126</page><x>. </x><address>Padua</address><x>: </x><publisher>Antenore</publisher><x>.</x>
+</reference>
+<reference id="b86" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">A Null Theory of Phrase and Compound Stress</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>24</volume><x>: </x><page type="first">239&ndash;298</page><x>.</x>
+</reference>
+<reference id="b98" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Coene</surname><x>, </x><forenames>Martine</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date>
+<miscellaneoustext>). Definite Null Nominals in Romanian and Spanish: A Generative Approach to the Internal Syntax of DP</miscellaneoustext><x>. </x>
+<corporatename type="author">Unpublished manuscript</corporatename><x>, </x><publisher>University of Antwerp</publisher><x>.</x>
+</reference>
+<reference id="b50" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Contreras</surname><x>, </x><forenames>Heles</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">On Spanish Empty N&prime; and N</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Studies in Romance Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Carl</forenames><x> </x><surname>Kirschner</surname>
+</name><x> and </x><name type="editor">
+<forenames>Janet</forenames><x> </x><surname>Decesaris</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Amsterdam/Philadelphia</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b11" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Corblin</surname><x>, </x><forenames>Francis</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Les Groupes Nominaux sans Nom du Fran&ccedil;ais</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">L&rsquo;Anaphore et ses Domaines</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Georges</forenames><x> </x><surname>Kleiber</surname>
+</name><x> and </x><name type="editor">
+<forenames>Jean-Emmanuel</forenames><x> </x><surname>Tyvaert</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">63&ndash;80</page><x>. </x><address>Paris</address><x>: </x><publisher>Klincksieck</publisher><x>.</x>
+</reference>
+<reference id="b91" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Corver</surname><x>, </x><forenames>Norbert</forenames>
+</name><x> and </x><name type="author">
+<forenames>Denis</forenames><x> </x><surname>Delfitto</surname>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Feature Asymmetry and the Nature of Pronoun Movement</title><x>. </x><title type="book">OTS Working Papers</title><x>, </x><publisher>Utrecht University</publisher><x>.</x>
+</reference>
+<reference id="b80" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Delsing</surname><x>, </x><forenames>Lars-Olof</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">On Attributive Adjectives in Scandinavian and Other Languages</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Workshop on the Scandinavian Noun Phrase: DGL-UUM-R-32</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Anders</forenames><x> </x><surname>Holmberg</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>. </x><address>Ume&aring;</address><x>: </x><publisher>Acta Universitatis Umensis</publisher><x>.</x>
+</reference>
+<reference id="b93" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Diesing</surname><x>, </x><forenames>Molly</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992b</date><x>). </x><title type="book">Indefinites</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b19" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Dougherty</surname><x>, </x><forenames>Ray<x> </x>C<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1969">1969</date><x>). </x><title type="document">An Interpretive Theory of Pronominal Reference</title><x>. </x><title type="journal">Foundations of Language</title><x> </x><volume>5/4</volume><x>: </x><page type="first">488&ndash;519</page><x>.</x>
+</reference>
+<reference id="b44" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Emonds</surname><x>, </x><forenames>Joseph</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="book">A Unified Theory of Syntactic Categories<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b92" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>En&ccedil;</surname><x>, </x><forenames>M&uuml;rvet</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">The Semantics of Specificity</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>22</volume><x>: </x><page type="first">1&ndash;25</page><x>.</x>
+</reference>
+<reference id="b23" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Fiengo</surname><x>, </x><forenames>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date>
+<miscellaneoustext>). Semantic Conditions on Surface Structures</miscellaneoustext><x>. </x><address>PhD dissertation, Cambridge</address><x>, </x><publisher>MIT</publisher><x>.</x>
+</reference>
+<reference id="b61" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Fukui</surname><x>, </x><forenames>Naoki</forenames>
+</name><x> and </x><name type="author">
+<forenames>Margaret</forenames><x> </x><surname>Speas</surname>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Specifiers and Projection</title><x>. </x><title type="journal">MIT Working Papers in Linguistics</title><x> </x><volume>8</volume><x>: </x><page type="first">128&ndash;72</page><x>.</x>
+</reference>
+<reference id="b99" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Giannakidou</surname><x>, </x><forenames>Anastasia</forenames>
+</name><x> and </x><name type="author">
+<forenames>Melita</forenames><x> </x><surname>Stavrou</surname>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">Nominalization and Ellipsis in Greek DP</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>16</volume><x>: </x><page type="first">295&ndash;331</page><x>.</x>
+</reference>
+<reference id="b63" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Giusti</surname><x>, </x><forenames>Giuliana</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991a</date><x>). </x><title type="document">The Categorial Status of Quantified Nominals</title><x>. </x><title type="journal">Linguistische Berichte</title><x> </x><volume>136</volume><x>: </x><page type="first">438&ndash;452</page><x>.</x>
+</reference>
+<reference id="b36" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Gouet</surname><x>, </x><forenames>Michel</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="document">On a Class of Circumstantial Deletions</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>7</volume><x>: </x><page type="first">693&ndash;697</page><x>.</x>
+</reference>
+<reference id="b48" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Ha&iuml;k</surname><x>, </x><forenames>Isabelle</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">On Clitic <i>En</i> in French</title><x>. </x><title type="journal">Journal of Linguistic Research</title><x> </x><volume>1</volume><x>: </x><page type="first">134&ndash;175</page><x>.</x>
+</reference>
+<reference id="b97" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Halliday</surname><x>, </x><forenames>Michael</forenames>
+</name><x> and </x><name type="author">
+<forenames>Ruqaiya</forenames><x> </x><surname>Hasan</surname>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>) </x><title type="book">Cohesion in English</title><x>. </x><address>London</address><x>: </x><publisher>Longman</publisher><x>.</x>
+</reference>
+<reference id="b3" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Hankamer</surname><x>, </x><forenames>Jorge</forenames>
+</name>
+</namegroup><x> (</x><date date="1971">1971</date>
+<miscellaneoustext>). Constraints on Deletion in Syntax. PhD dissertation</miscellaneoustext><x>, </x>
+<address>New Haven</address><x>, </x><publisher>Yale University</publisher><x>.</x>
+</reference>
+<reference id="b16" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hankamer</surname><x>, </x><forenames>Jorge</forenames>
+</name>
+</namegroup><x> (</x><date date="1973">1973a</date><x>). </x><title type="document">Unacceptable Ambiguity</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>4</volume><x>: </x><page type="first">17&ndash;68</page><x>.</x>
+</reference>
+<reference id="b26" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hankamer</surname><x>, </x><forenames>Jorge</forenames>
+</name><x> and </x><name type="author">
+<forenames>Ivan</forenames><x> </x><surname>Sag</surname>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="document">Deep and Surface Anaphora</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>7</volume><x>: </x><page type="first">391&ndash;428</page><x>.</x>
+</reference>
+<reference id="b55" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hellan</surname><x>, </x><forenames>Lars</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">The Headedness of NPs in Norwegian</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Features and Projections</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Pieter</forenames><x> </x><surname>Muysken</surname>
+</name><x> and </x><name type="editor">
+<forenames>Henk<x> </x>C<x>. </x>van</forenames><x> </x><surname>Riemsdijk</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">89&ndash;12</page><x>2</x><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b47" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hendrick</surname><x>, </x><forenames>Randall</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">The Distribution of the French Clitic <i>En</i> and the ECP</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Selected Papers from the XIIIth Linguistic Symposium on Romance</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Larry<x> </x>D<x>.</x>
+</forenames><x> </x><surname>King</surname>
+</name><x> and </x><name type="editor">
+<forenames>Catherine<x> </x>A<x>.</x>
+</forenames><x> </x><surname>Maley</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b35" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Herschensohn</surname><x>, </x><forenames>Julia</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978</date><x>). </x><title type="document">Deep and Surface Nominalized Adjectives in French</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>9</volume><x>: </x><page type="first">135&ndash;137</page><x>.</x>
+</reference>
+<reference id="b12" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hewson</surname><x>, </x><forenames>John</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Determiners as Heads</title><x>. </x><title type="journal">Cognitive Linguistics</title><x> </x><volume>2</volume><x>&ndash;</x><issue>4</issue><x>: </x><page type="first">317&ndash;337</page><x>.</x>
+</reference>
+<reference id="b9" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hornstein</surname><x>, </x><forenames>Norbert</forenames>
+</name><x> and </x><name type="author">
+<forenames>David</forenames><x> </x><surname>Lightfoot</surname>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>) </x><title type="book">Explanation in Linguistics</title><x>. </x><address>London</address><x>: </x><publisher>Longman</publisher><x>.</x>
+</reference>
+<reference id="b95" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hulk</surname><x>, </x><forenames>Aafke</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="book">Het Clitisch Pronomen &lsquo;En&rsquo;</title><x>. </x><address>Amsterdam</address><x>: </x><publisher>Rodopi</publisher><x>.</x>
+</reference>
+<reference id="b20" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Jackendoff</surname><x>, </x><forenames>Ray</forenames>
+</name>
+</namegroup><x> (</x><date date="1969">1969</date>
+<miscellaneoustext>). Some Rules of Semantic Interpretation for English</miscellaneoustext><x>. </x>
+<publisher>PhD dissertation</publisher><x>, </x><address>MIT</address><x>.</x>
+</reference>
+<reference id="b4" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Jackendoff</surname><x>, </x><forenames>Ray</forenames>
+</name>
+</namegroup><x> (</x><date date="1971">1971</date><x>). </x><title type="document">Gapping and Related Rules</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>2</volume><x>: </x><page type="first">21&ndash;35</page><x>.</x>
+</reference>
+<reference id="b41" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Jackendoff</surname><x>, </x><forenames>Ray</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972</date><x>). </x><title type="book">Semantic Interpretation in Generative Grammar<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b7" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Jackendoff</surname><x>, </x><forenames>Ray</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date><x>). </x><title type="book">X-Bar Syntax: A Study of Phrase Structure</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b65" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Karimi</surname><x>, </x><forenames>Simin</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date>
+<miscellaneoustext>). Aspects of Persian Syntax, Specificity, and the Theory of Grammar</miscellaneoustext><x>. </x>
+<address>PhD dissertation</address><x>, </x><publisher>University of Washington</publisher><x>.</x>
+</reference>
+<reference id="b33" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1975">1975</date><x>). </x><title type="book">French Syntax: The Transformational Cycle</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b46" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981b</date><x>). </x><title type="document">On Certain Differences Between French and English</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>12</volume><x>: </x><page type="first">349&ndash;371</page><x>.</x>
+</reference>
+<reference id="b96" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984a</date><x>). </x><title type="book">Connectedness and Binary Branching</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b77" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kester</surname><x>, </x><forenames>Ellen-Petra</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Adjectival Inflection and Dummy Affixation in Germanic and Romance Languages</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Workshop on the Scandinavian Noun Phrase: DGL-UUM-R-32</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Anders</forenames><x> </x><surname>Holmberg</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">72&ndash;87</page><x>. </x><address>Ume&aring;</address><x>: </x><publisher>Acta Universitatis Umensis</publisher><x>.</x>
+</reference>
+<reference id="b78" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kester</surname><x>, </x><forenames>Ellen-Petra</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">The Inflectional Properties of Scandinavian Adjectives</title><x>. </x><title type="journal">Studia Linguistica</title><x> </x><volume>47/2</volume><x>: </x><page type="first">139&ndash;153</page><x>.</x>
+</reference>
+<reference id="b79" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kester</surname><x>, </x><forenames>Ellen-Petra</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">Adjectival Inflection and the Llicensing of <i>Pro</i>
+</title><x>. </x><title type="journal">University of Maryland Working Papers in Linguistics</title><x> </x><volume>2</volume><x>: </x><page type="first">91&ndash;109</page><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kester</surname><x>, </x><forenames>Ellen-Petra</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996a</date><x>). </x><title type="document">Adjectival Inflection and the Licensing of Empty Categories in DP</title><x>. </x><title type="journal">Journal of Linguistics</title><x> </x><volume>32</volume><x>: </x><page type="first">57</page><x>&ndash;</x><page type="last">78</page><x>.</x>
+</reference>
+<reference id="b82" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Kester</surname><x>, </x><forenames>Ellen-Petra</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996b</date>
+<miscellaneoustext>). The Nature of Adjectival Inflection</miscellaneoustext><x>. </x>
+<address>PhD dissertation</address><x>, </x><publisher>Utrecht University</publisher><x>.</x>
+</reference>
+<reference id="b102" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Kester</surname><x>, </x><forenames>Ellen-Petra</forenames>
+</name><x> and </x><name type="author">
+<forenames>Petra</forenames><x> </x><surname>Sleeman</surname>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date>
+<miscellaneoustext>). N-Ellipsis in Spanish</miscellaneoustext><x>. </x>
+<publisher>Paper presented at the Dutch Linguistic Society, Utrecht, and at the Twelfth Colloquium of Generative Grammar</publisher><x>, </x><publisher>Lisbon</publisher><x>.</x>
+</reference>
+<reference id="b68" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Koopman</surname><x>, </x><forenames>Hilda</forenames>
+</name><x> and </x><name type="author">
+<forenames>Dominique</forenames><x> </x><surname>Sportiche</surname>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">Variables and the Bijection Principle</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>2</volume><x>: </x><page type="first">139&ndash;160</page><x>.</x>
+</reference>
+<reference id="b104" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kupferman</surname><x>, </x><forenames>Lucien</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">R&eacute;flexions sur la Partition: Les Groupes Nominaux Partitifs et la Relativisation</title><x>. </x><title type="journal">Langue Fran&ccedil;aise</title><x> </x><volume>122</volume><x>: </x><page type="first">30&ndash;51</page><x>.</x>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Langacker</surname><x>, </x><forenames>Ronald</forenames>
+</name>
+</namegroup><x> (</x><date date="1966">1966</date><x>). </x><title type="document">On Pronominalization and the Chain of Command</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Modern Studies in English</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>David</forenames><x> </x><surname>Reibel</surname>
+</name><x> and </x><name type="editor">
+<forenames>Sanford</forenames><x> </x><surname>Schane</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Englewood Cliffs, NJ</address><x>: </x><publisher>Prentice-Hall</publisher><x>.</x>
+</reference>
+<reference id="b43" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lobeck</surname><x>, </x><forenames>Anne</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="book">Syntactic Constraints on VP Ellipsis</title><x>. </x><address>Bloomington</address><x>: </x><publisher>Indiana University Linguistics Club</publisher><x>.</x>
+</reference>
+<reference id="b70" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lobeck</surname><x>, </x><forenames>Anne</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Functional Heads as Proper Governors</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society 17</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Joyce</forenames><x> </x><surname>McDonough</surname>
+</name><x> and </x><name type="editor">
+<forenames>Bernadette</forenames><x> </x><surname>Plunkett</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association</publisher><x>.</x>
+</reference>
+<reference id="b71" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lobeck</surname><x>, </x><forenames>Anne</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991a</date><x>). </x><title type="document">The Phrase Structure of Ellipsis</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Perspectives on Phrase Structure: Heads and Licensing</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Susan</forenames><x> </x><surname>Rothstein</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">81&ndash;103</page><x>. </x><address>San Diego</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b72" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lobeck</surname><x>, </x><forenames>Anne</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991b</date><x>). </x><title type="document">Spec&ndash;Head Agreement in DP</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Tenth West Coast Conference on Formal Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Dawn</forenames><x> </x><surname>Bates</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications</publisher><x>.</x>
+</reference>
+<reference id="b73" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Lobeck</surname><x>, </x><forenames>Anne</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Strong Agreement and Identification: Evidence from Ellipsis in English</title><x>. </x><title type="journal">Linguistics</title><x> </x><volume>31</volume><x>: </x><page type="first">777&ndash;811</page><x>.</x>
+</reference>
+<reference id="b29" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lobeck</surname><x>, </x><forenames>Anne</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="book">Ellipsis: Functional Heads, Licensing, and Identification</title><x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference id="b64" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>L&ouml;bel</surname><x>, </x><forenames>Elisabeth</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">Q as a Functional Category</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Syntactic Phrase Structure Phenomena in Noun Phrases and Sentences</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<surname>Christa</surname><x> </x><forenames>Bhatt,<x> </x>Elisabeth</forenames>
+</name><x> </x><miscellaneoustext>L&ouml;bel, and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Claudia</forenames><x> </x><surname>Schmidt</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">133&ndash;158</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b101" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>L&oacute;pez</surname><x>, </x><forenames>Luis</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">Ellipsis and Discourse-Linking</title><x>. </x><title type="journal">Lingua</title><x> </x><volume>110</volume><x>: </x><page type="first">183&ndash;213</page><x>.</x>
+</reference>
+<reference id="b13" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Luj&aacute;n</surname><x>, </x><forenames>Marta</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date>
+<miscellaneoustext>). Determiners as Modified Pronouns</miscellaneoustext><x>. </x>
+<address>Paper presented at the Preferably Non-Lexical Semantics Conference</address><x>, </x><publisher>University of Paris VII</publisher><x>.</x>
+</reference>
+<reference id="b100" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Mart&iacute; Girbau</surname><x>, </x><forenames>N&uacute;ira</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">Towards a Unitary Analysis of Partitive and Quantitative Constructions</title><x>. </x><title type="journal">Oxford Working Papers in Linguistics, Philology and Phonetics</title><x> </x><volume>4</volume><x>: </x><page type="first">84&ndash;101</page><x>.</x>
+</reference>
+<reference id="b31" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Milner</surname><x>, </x><forenames>Jean-Claude</forenames>
+</name>
+</namegroup><x> (</x><date date="1973">1973</date><x>). </x><title type="book">Arguments Linguistiques</title><x>. </x><address>Paris</address><x>: </x><publisher>Mame</publisher><x>.</x>
+</reference>
+<reference id="b32" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Milner</surname><x>, </x><forenames>Jean-Claude</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date><x>). </x><title type="document">Les Exclamatives et le Complementizer</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Actes du Colloque Franco-Allemand de Grammaire Transformationnelle</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Nicolas</forenames><x> </x><surname>Ruwet</surname>
+</name><x> and </x><name type="editor">
+<forenames>Christian</forenames><x> </x><surname>Rohrer</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>T&uuml;bingen</address><x>: </x><publisher>Max Niemeyer</publisher><x>.</x>
+</reference>
+<reference id="b45" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Milner</surname><x>, </x><forenames>Jean-Claude</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978b</date><x>). </x><title type="book">De la Syntaxe &agrave; l&rsquo;Interpr&eacute;tation</title><x>. </x><address>Paris</address><x>: </x><publisher>Seuil</publisher><x>.</x>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Morgan</surname><x>, </x><forenames>Jerry</forenames>
+</name>
+</namegroup><x> (</x><date date="1973">1973</date><x>). </x><title type="document">Sentence Fragments and the Notion &lsquo;Sentence&rsquo;</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Issues in Linguistics: Papers in Honor of Henry and Ren&eacute;e Kahane</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Braj<x> </x>B<x>.</x>
+</forenames><x> </x><surname>Kachru</surname>
+</name><x>, </x><name type="editor">
+<forenames>Robert<x> </x>B<x>.</x>
+</forenames><x> </x><surname>Lees</surname>
+</name><x>, </x><name type="editor">
+<forenames>Yakov</forenames><x> </x><surname>Malkiel</surname>
+</name><x>, </x><name type="editor">
+<forenames>Angela</forenames><x> </x><surname>Pietrangeli</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Sol</forenames><x> </x><surname>Saporta</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Urbana</address><x>: </x><publisher>University of Illinois Press</publisher><x>.</x>
+</reference>
+<reference id="b49" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Olsen</surname><x>, </x><forenames>Susan</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Zum &lsquo;Substantivierten&rsquo; Adjektiv im Deutschen: Deutsch als eine pro-Drop-Sprache</title><x>. </x><title type="journal">Studium Linguistik</title><x> </x><volume>21</volume><x>: </x><page type="first">1&ndash;35</page><x>.</x>
+</reference>
+<reference id="b81" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Olsen</surname><x>, </x><forenames>Susan</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">AGR(eement) in the German Noun Phrase</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Syntactic Phrase Structure Phenomena in Noun Phrases and Sentences</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Christa</forenames><x> </x><surname>Bhatt</surname>
+</name><x>, </x><name type="editor">
+<forenames>Elisabeth</forenames><x> </x><surname>L&ouml;bel</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Claudia</forenames><x> </x><surname>Schmidt</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">39&ndash;49</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b105" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Panagiotidis</surname><x>, </x><forenames>Phoevos</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="book">Pronouns, Clitics and Empty Nouns</title><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b106" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Panagiotidis</surname><x>, </x><forenames>Phoevos</forenames>
+</name>
+</namegroup><x> (</x><date date="2003">2003a</date><x>). </x><title type="document">Empty Nouns</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>21</volume><x>: </x><page type="first">381&ndash;432</page><x>.</x>
+</reference>
+<reference id="b107" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Panagiotidis</surname><x>, </x><forenames>Phoevos</forenames>
+</name>
+</namegroup><x> (</x><date date="2003">2003b</date><x>). </x><title type="document">
+<i>One</i>, Empty Nouns, and Theta-Assignment</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>34/2</volume><x>: </x><page type="first">281&ndash;292</page><x>.</x>
+</reference>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Perlmutter</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1970">1970a</date><x>). </x><title type="document">On the Article in English</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Progress in Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Manfred</forenames><x> </x><surname>Bierwisch</surname>
+</name><x> and </x><name type="editor">
+<forenames>Karl</forenames><x> </x><surname>Heidolph</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>The Hague</address><x>: </x><publisher>Mouton</publisher><x>.</x>
+</reference>
+<reference id="b103" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Pollock</surname><x>, </x><forenames>Jean-Yves</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">On the Syntax of Subnominal Clitics: Cliticization and Ellipsis</title><x>. </x><title type="journal">Syntax</title><x> </x><volume>1/3</volume><x>: </x><page type="first">300&ndash;330</page><x>.</x>
+</reference>
+<reference id="b10" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Postal</surname><x>, </x><forenames>Paul<x> </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1969">1969</date><x>). </x><title type="document">On So-Called &lsquo;Pronouns&rsquo; in English</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Modern Studies in English</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>David</forenames><x> </x><surname>Reibel</surname>
+</name><x> and </x><name type="editor">
+<forenames>Sanford</forenames><x> </x><surname>Schane</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Englewood Cliffs, NJ</address><x>: </x><publisher>Prentice-Hall</publisher><x>.</x>
+</reference>
+<reference id="b15" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Postal</surname><x>, </x><forenames>Paul<x> </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972</date><x>). </x><title type="document">On Some Rules That Are Not Successive Cyclic</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>3</volume><x>: </x><page type="first">211&ndash;222</page><x>.</x>
+</reference>
+<reference id="b67" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Riemsdijk</surname><x>, </x><forenames>Henk<x> </x>C<x>. </x>van</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989a</date><x>). </x><title type="document">Movement and Regeneration</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Dialectal Variation and the Theory of Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Paola</forenames><x> </x><surname>Beninc&agrave;</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">105&ndash;136</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b74" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ritter</surname><x>, </x><forenames>Elizabeth</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Two Functional Categories in Noun Phrases: Evidence from Modern Hebrew</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Perspectives on Phrase Structure: Heads and Licensing</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Susan</forenames><x> </x><surname>Rothstein</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">37&ndash;62</page><x>. </x><address>San Diego</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b42" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rizzi</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> </x><namegroup type="editors">
+<miscellaneoustext>(ed.)</miscellaneoustext>
+</namegroup><x> (</x><date date="1982">1982a</date><x>). </x><title type="book">Issues in Italian Syntax</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b30" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ronat</surname><x>, </x><forenames>Mitsou</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date><x>). </x><title type="document">Une Contrainte sur l&rsquo;Effacement du Nom</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Langue</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Mitsou</forenames><x> </x><surname>Ronat</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">153&ndash;69</page><x>. </x><address>Paris</address><x>: </x><publisher>Hermann</publisher><x>.</x>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ross</surname><x>, </x><forenames>John<x> </x>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="book">Infinite Syntax!</title><x> </x><address>Norwood, NJ</address><x>: </x><publisher>Ablex</publisher><x>.</x>
+</reference>
+<reference id="b66" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Rothstein</surname><x>, </x><forenames>Susan</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Subjacency, the ECP and the Formation of Chains</title><x>. </x><title type="journal">GLOW Newsletter</title><x> </x><volume>20</volume><x>: </x><page type="first">60&ndash;61</page><x>.</x>
+</reference>
+<reference id="b25" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Sag</surname><x>, </x><forenames>Ivan</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="book">Deletion and Logical Form<x>.</x>
+</title><x> </x><address>New York</address><x>: </x><publisher>Garland</publisher><x>.</x>
+</reference>
+<reference id="b69" type="journal">
+<corporatename type="author">Saito, Mamoru</corporatename><x> and </x><namegroup type="author">
+<name type="author">
+<forenames>Keiko</forenames><x> </x><surname>Murasugi</surname>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">N&prime;-Deletion in Japanese</title><x>. </x><title type="journal">University of Connecticut Working Papers in Linguistics</title><x> </x><volume>3</volume>
+<page type="first">
+</page><x>.</x>
+</reference>
+<reference id="b27" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Schachter</surname><x>, </x><forenames>Paul</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date><x>). </x><title type="document">Does She or Doesn&apos;t She?</title><x> </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>8</volume><x>: </x><page type="first">763&ndash;767</page><x>.</x>
+</reference>
+<reference id="b57" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Schroten</surname><x>, </x><forenames>Jan</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">On Spanish Definite Determiners in Swedish: Den Support in D-0</title><x>. </x><title type="journal">Studia Linguistica</title><x> </x><volume>47/2</volume><x>: </x><page type="first">154&ndash;176</page><x>.</x>
+</reference>
+<reference id="b109" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Selkirk</surname><x>, </x><forenames>Elisabeth</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date><x>). </x><title type="document">Some Remarks on Noun Phrase Structure</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Formal Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Culicover</surname>
+</name><x>, </x><name type="editor">
+<forenames>Thomas</forenames><x> </x><surname>Wasow</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Adrian</forenames><x> </x><surname>Akmajian</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">285&ndash;325</page><x>. </x><address>London</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b21" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Shopen</surname><x>, </x><forenames>Tim</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972</date>
+<miscellaneoustext>). A Generative Theory of Ellipsis</miscellaneoustext><x>. </x>
+<address>PhD dissertation</address><x>, </x><publisher>UCLA</publisher><x>.</x>
+</reference>
+<reference id="b75" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Sleeman</surname><x>, </x><forenames>Petra</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date>
+<miscellaneoustext>). Licensing Empty Nouns in French</miscellaneoustext><x>. </x>
+<address>PhD dissertation</address><x>, </x><publisher>University of Amsterdam</publisher><x>.</x>
+</reference>
+<reference id="b6" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Sommerstein</surname><x>, </x><forenames>Alan</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972</date><x>). </x><title type="document">On the So-Called &lsquo;Definite Article&rsquo; in English</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>3</volume><x>: </x><page type="first">197&ndash;209</page><x>.</x>
+</reference>
+<reference id="b56" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Su&ntilde;er</surname><x>, </x><forenames>Margarita</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">On the Referential Properties of Embedded Finite Clause Subjects</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Generative Studies in Spanish Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ivonne</forenames><x> </x><surname>Bordelois</surname>
+</name><x>, </x><name type="editor">
+<forenames>Heles</forenames><x> </x><surname>Contreras</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Karen</forenames><x> </x><surname>Zagona</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">183&ndash;203</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b53" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Torrego</surname><x>, </x><forenames>Esther</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date>
+<miscellaneoustext>). Evidence for Determiner Phrases</miscellaneoustext><x>. </x>
+<address>Unpublished manuscript, Boston</address><x>, </x><publisher>University of Massachusetts</publisher><x>.</x>
+</reference>
+<reference id="b89" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Valois</surname><x>, </x><forenames>Daniel</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991a</date><x>). </x><title type="document">The Internal Structure of DP and Adjective Placement in French and English</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society 21</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Tim</forenames><x> </x><surname>Sherer</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">367&ndash;381</page><x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association</publisher><x>.</x>
+</reference>
+<reference id="b90" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Valois</surname><x>, </x><forenames>Daniel</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991b</date>
+<miscellaneoustext>). The Internal Syntax of DP</miscellaneoustext><x>. </x>
+<address>PhD dissertation</address><x>, </x><publisher>UCLA</publisher><x>.</x>
+</reference>
+<reference id="b22" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Wasow</surname><x>, </x><forenames>Thomas</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972</date>
+<miscellaneoustext>). Anaphoric Relations in English</miscellaneoustext><x>. </x>
+<address>PhD dissertation</address><x>, </x><publisher>MIT</publisher><x>.</x>
+</reference>
+<reference id="b24" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Williams</surname><x>, </x><forenames>Edwin</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date><x>). </x><title type="document">Discourse and Logical Form</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>8</volume><x>: </x><page type="first">101&ndash;140</page><x>.</x>
+</reference>
+<reference id="b76" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Winkler</surname><x>, </x><forenames>Susanne</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="book">Focus and Secondary Predication<x>.</x>
+</title><x> </x><address>Berlin</address><x>: </x><publisher>Mouton de Gruyter</publisher><x>.</x>
+</reference>
+<reference id="b37" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Zagona</surname><x>, </x><forenames>Karen</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date>
+<miscellaneoustext>). Government and Proper Government of Verbal Projections</miscellaneoustext><x>. </x>
+<address>PhD dissertation, Seattle</address><x>, </x><publisher>University of Washington</publisher><x>.</x>
+</reference>
+<reference id="b38" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Zagona</surname><x>, </x><forenames>Karen</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988a</date><x>). </x><title type="document">Proper Government of Antecedentless VP in English and Spanish</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>6</volume><x>: </x><page type="first">95&ndash;128</page><x>.</x>
+</reference>
+<reference id="b39" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Zagona</surname><x>, </x><forenames>Karen</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988b</date><x>). </x><title type="book">Verb Phrase Syntax: A Parametric Study of English and Spanish</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

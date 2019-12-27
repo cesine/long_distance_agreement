@@ -1,0 +1,3102 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="34"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 34 - Implicit Arguments.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">558</page>
+<page type="last">588</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="0"/>
+<count type="table" count="68"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="60"/>
+<count type="page" count="31"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051110"/>
+<trackingdate type="markedup" date="0000" by="christine tsai"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 34&ensp;Bhatt and Pancheva: Implicit Arguments</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 34&ensp;Bhatt and Pancheva: Implicit Arguments</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">34&ensp;Implicit Arguments</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>RAJESH</forenames><x> </x><surname>BHATT</surname>
+</name><x> AND </x><name type="author">
+<forenames>ROUMYANA</forenames><x> </x><surname>PANCHEVA</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Implicit arguments in passives and middles</p>
+</li>
+<li level="2">
+<number>2.1&ensp;</number>
+<p>Implicit arguments in passives</p>
+</li>
+<li level="2">
+<number>2.2&ensp;</number>
+<p>Implicit arguments in middles</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>Implicit arguments of nouns</p>
+</li>
+<li level="2">
+<number>3.1&ensp;</number>
+<p>Optionality of implicit arguments of nouns</p>
+</li>
+<li level="2">
+<number>3.2&ensp;</number>
+<p>Control of implicit arguments of nouns</p>
+</li>
+<li level="2">
+<number>3.3&ensp;</number>
+<p>Differences between implicit arguments of nouns and passives</p>
+</li>
+<li level="3">
+<number>3.3.1&ensp;</number>
+<p>Controlling implicit arguments of passives</p>
+</li>
+<li level="3">
+<number>3.3.2&ensp;</number>
+<p>Differences in Control by implicit arguments of nouns and passives</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>Null objects</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>Implicit arguments of evaluative predicates</p>
+</li>
+<li level="1">
+<number>6&ensp;</number>
+<p>Arguments of modals</p>
+</li>
+<li level="1">
+<number>7&ensp;</number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1&ensp;Introduction</heading>
+<p>Reference to non-overt arguments has been made in the description of a wide range of syntactic phenomena. Some of them (PRO, <i>pro</i>, A/A&prime;-traces) are relatively well understood and there exists a certain consensus regarding their analysis. There is another class of non-overt arguments, often referred to as implicit arguments, for which no such consensus prevails. Implicit arguments do not seem to form a unified class. To appreciate this, let us examine some cases which have been argued to involve implicit arguments:</p>
+<p>(1)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry namest="col1" nameend="col2">
+<b>Implicit arguments of passives (vs. middles and unaccusatives):</b>
+</entry>
+</row>
+<row><entry>a.</entry>
+<entry>This ship was sunk &lsqb;PRO to collect the insurance&rsqb;. (passive)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&num; This ship sank &lsqb;PRO to collect the insurance&rsqb;. (unaccusative)</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*This ship sinks easily &lsqb;PRO to collect the insurance&rsqb;. (middle)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(2)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry namest="col1" nameend="col2">
+<b>Implicit arguments of nouns:</b>
+</entry>
+</row>
+<row><entry>a.</entry>
+<entry>the negotiations &lsqb;PRO to achieve a peaceful settlement&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>the use of drugs &lsqb;PRO to fall asleep&rsqb;</entry>
+</row>
+<row><entry>c.</entry>
+<entry>the playing of the game &lsqb;PRO to prove a point&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(3)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry namest="col1" nameend="col7">
+<b>Null objects (cf. <link rid="b1">Rizzi 1986a</link>):</b>
+</entry>
+</row>
+<row><entry morerows="2" valign="top">a.</entry>
+<entry>Questo</entry>
+<entry>conduce</entry>
+<entry>(la gente)</entry>
+<entry>alla</entry>
+<entry>seguente</entry>
+<entry>conclusione.</entry>
+</row>
+<row><entry>this</entry>
+<entry>leads</entry>
+<entry>the people</entry>
+<entry>to-the</entry>
+<entry>following</entry>
+<entry>conclusion</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;This leads (people) to the following conclusion.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="2" valign="top">b.</entry>
+<entry>Questo</entry>
+<entry>conduce</entry>
+<entry>(la gente)</entry>
+<entry>a</entry>
+<entry>&lsqb;PRO</entry>
+<entry>concludere</entry>
+<entry>quanto</entry>
+<entry>segue&rsqb;.</entry>
+</row>
+<row><entry>this</entry>
+<entry>leads</entry>
+<entry>the people</entry>
+<entry>to</entry>
+<entry>
+</entry>
+<entry>conclude</entry>
+<entry>what</entry>
+<entry>follows</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;This leads people to conclude what follows.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(4)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry namest="col1" nameend="col2">
+<b>Implicit arguments of adjectives (from <link rid="b2">Roeper 1987a</link>):</b>
+</entry>
+</row>
+<row><entry>a.</entry>
+<entry>It is necessary/*inevitable &lsqb;PRO to go&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>It is wise/*probable &lsqb;PRO to go&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(5)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry namest="col1" nameend="col3">
+<b>The bearer of the obligation of a deontic modal:</b>
+</entry>
+</row>
+<row><entry>a.</entry>
+<entry>The books can be sold &lsqb;without PRO reading them&rsqb;.</entry>
+<entry>(from <link rid="b3">Chomsky 1982</link> via <link rid="b4">Williams 1985</link>)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*The books might have been sold &lsqb;without PRO reading them&rsqb;.</entry>
+<entry>(from <link rid="b5">Kratzer 1991</link>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(6)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Implicit arguments of agentive suffixes (e.g., -<i>able</i>):</b>
+</entry>
+</row>
+<row><entry>Goods are exportable &lsqb;PRO to improve the economy&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The above list includes the implicit argument of a passive (<link rid="ss3">section 2</link>), the implicit argument of a noun (<link rid="ss6">section 3</link>), null objects (<link rid="ss12">section 4</link>), the implicit argument of an adjective (<link rid="ss13">section 5</link>), the bearer of the obligation argument of a deontic modal (<link rid="ss14">section 6</link>), and the implicit argument associated with agentive suffixes like <i>-able</i>.<link rid="fn1">
+<sup>1</sup></link> What unifies this class? It is felt that all of these examples involve a missing nominal element. The evidence for this missing nominal element comes from the fact that (1&ndash;3) all involve an infinitival with a PRO subject. Something, it is argued, must be controlling these PROs. There is no NP argument in the relevant structures that could be doing so. The element held responsible for Control is the implicit argument.</p>
+<p>In principle, null subjects (PRO, <i>pro</i>) could have been called implicit arguments, given that they are non-overt and indisputably arguments. Furthermore there have been analyses in the literature according to which PRO/<i>pro</i> are not syntactically expressed (for PRO see <link rid="b6">Partee and Bach 1980</link>; <link rid="b7">Chierchia 1984b</link>; <link rid="b8">Klein and Sag 1985</link>, among others; for <i>pro</i> see <link rid="b9">Alexiadou and Anagnostopoulou 1998</link>, etc.). However, by convention, PRO/<i>pro</i> are not grouped together with the cases of implicit arguments in (1&ndash;3). This is why in this chapter we do not discuss PRO/<i>pro</i>.</p>
+<p>From its inception, the literature on implicit arguments has defined them as syntactically active elements that nevertheless do not occupy a syntactically projected position.<link rid="fn2">
+<sup>2</sup></link> Consider, for example, the following definitions for implicit arguments that have been proposed in the literature:</p>
+<p>(7)&ensp;Implicit arguments are not the mysterious shadowy presences they are sometimes made out to be. They are really nothing more than the argument slots in the argument structure .&nbsp;.&nbsp;.&nbsp;A &lsquo;weak&rsquo; theta-criterion is all that is needed to give implicit arguments, since these are nothing more than unlinked argument roles.&ensp;&ensp;(<link rid="b4">Williams 1985</link>: 314)</p>
+<p>(8)&ensp;An implicit argument is a conceptual argument that is neither expressed syntactically nor bound to an argument that is expressed syntactically.&ensp;&ensp;(<link rid="b10">Jackendoff 1987</link>: 409)</p>
+<p>(9)&ensp;An argument is implicit only if it is in a structural position to license a thematic PP but no thematic PP occurs.&ensp;&ensp;(<link rid="b2">Roeper 1987a</link>: 274)</p>
+<p>However, not all researchers have followed this understanding of implicit arguments. Some have proposed that what they call implicit arguments are realized as <i>pro</i> (cf. <link rid="b11">Epstein 1984</link>; <link rid="b1">Rizzi 1986a</link>; <link rid="b12">Borer 1998</link>) and PRO (cf. <link rid="b2">Roeper 1987a</link>). But even if it is assumed that all of the non-overt arguments in (1&ndash;3) are syntactically realized as <i>pro</i>/PRO, given that (1&ndash;3) are not the canonical environments for <i>pro</i>/PRO, it is justifiable to include them in a discussion of implicit arguments. By general assumption, then, the term &lsquo;implicit arguments&rsquo; is reserved for those covert elements about whose syntactic representation we still have doubts.</p>
+<p>In (1&ndash;6), we have a list of environments which have been claimed to involve implicit arguments. That these different environments have been argued to involve implicit arguments should not, by itself, be taken to indicate that they should receive a uniform analysis. It has been questioned whether some of the members of the list in (1&ndash;6) are truly implicit. For example, <link rid="b13">Baker et al. (1989</link>) argue the passive suffix <i>-ed is</i> the agent of the passive, i.e., it is not implicit. Even if an argument is implicit, the question of how it is to be represented stays open. The implicit argument may be represented at a level of thematic structure, or as a null PRO/<i>pro</i> subject or object. In what follows, the cases in (1&ndash;6) and the analyses proposed for them will be discussed one by one. Throughout we will focus on the diagnostics that have been proposed for detecting the presence of an implicit argument. We will examine what exactly these diagnostics test.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2&ensp;Implicit arguments in passives and middles</heading>
+<subsection id="ss4" level="2">
+<heading id="h3" level="2">2.1&ensp;Implicit arguments in passives</heading>
+<p>A classic case where an implicit argument has been argued to be present is that of a passive. Passives have been contrasted with unaccusatives, which in contrast to passives have been argued to not involve an implicit agent:</p>
+<p>(10)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The ship was sunk.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The ship sank.</entry>
+<entry>(<link rid="b2">Roeper 1987a</link>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Intuitively, it seems clear that the passive in (10a) has implied agency as part of its meaning while the unaccusative in (10b) does not. In case the ship sprang a leak on its own and sank, (10b) would be true but not (10a). For (10a) to be true, there must have been someone who was responsible for sinking the ship.<link rid="fn3">
+<sup>3</sup></link>
+</p>
+<p>If by implicit argument we mean a non-overt element that is nevertheless part of the interpretation of a predicate, then the facts about the interpretation of (10a) are enough to show that passives involve an implicit agent and unaccusatives do not. However, the literature on implicit arguments aims to go beyond just showing that a particular non-overt argument is part of the semantic representation. It attempts to show that implicit arguments take part in syntactic processes and that therefore implicit arguments are syntactically real. Once it is granted that implicit arguments are syntactically real, additional questions arise that pertain to the representation of these arguments.</p>
+<p>The primary tests used to demonstrate the syntactic reality of the implicit agent of a passive are licensing of <i>by</i> phrases, the ability to control, and compatibility with adverbs like <i>deliberately</i>. The argument from <i>by</i>-phrase licensing goes as follows. Passives allow for an overt <i>by</i> phrase while unaccusative verbs do not (cf. 11). The implicit agent in the passive is taken to be responsible for this licensing:</p>
+<p>(11)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The ship was sunk by Bill.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*The ship sank by Bill.</entry>
+<entry>(<link rid="b2">Roeper 1987a</link>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Next we turn to the argument from Control. The implicit agent of a passive can control the PRO subject of a rationale clause. Unaccusatives do not have an implicit agent argument and so Control is not possible:</p>
+<p>(12)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*The boat sank to collect the insurance.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The boat was sunk to collect the insurance.</entry>
+<entry>(<link rid="b14">Manzini 1983a</link>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>If we take it as given that only syntactically active elements can control PRO then it follows that the implicit agent of the passive must be syntactically real.<link rid="fn4">
+<sup>4</sup></link>
+</p>
+<p>A related point is made by the fact that adverbs like <i>deliberately</i> can appear in a passive sentence and be associated not with the syntactic subject but with the implicit agent. In contrast, in (13b) there is no implicit argument and <i>deliberately</i> can only be associated with the lone argument of <i>sink</i>, namely <i>the boat</i>. Consequently (13b) is perceived as pragmatically deviant:</p>
+<p>(13)&ensp;<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The boat was sunk deliberately.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&num; The boat sank deliberately.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>If we assume that adverbs like <i>deliberately</i> can only be associated with syntactically real elements, it follows that the implicit agent of the passive is syntactically real.</p>
+<p>The argument for the syntactic reality of implicit argument therefore rests upon our acceptance of the assumptions behind the argument from <i>by</i>-phrase licensing, the ability to control, and compatibility with adverbs like <i>deliberately</i>. We already know that passives have implicit agents as part of their semantics. It is not clear that postulating that this implicit agent is represented syntactically is necessary for explaining the possibility of <i>by</i> phrases. It may be the case that syntactically unexpressed agentivity is all that is needed for licensing a <i>by</i> phrase.</p>
+<p>Next we turn to the argument from the acceptability of <i>deliberately</i>. Again it is not clear that anything more than the presence of an implicit agent in the semantic representation is needed. We are left with the argument from Control. The implicit argument is able to control the PRO subject of a rationale clause. So the question is whether the ability to control requires the controller to be syntactically realized.</p>
+<p>
+<link rid="b4">Williams (1985</link>) provides several arguments in support of the claim that controllers need not be syntactically realized. The first argument is based on the observation that the implicit agent of a noun like <i>attempt</i> controls the PRO subject of the complement clause in both (14a) and (14b):</p>
+<p>(14)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Attempts &lsqb;PRO to leave&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Yesterday&apos;s attempts &lsqb;PRO to leave&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>If it is assumed that the implicit agent of <i>attempt</i> in (14a) is a PRO that occupies the position occupied by <i>yesterday</i> in (14b), we expect the PRO to be absent in (14b). However, the implicit agent of <i>attempt</i> controls the PRO subject of the infinitival clause in both (14a) and (14b). <link rid="b4">Williams (1985</link>) takes this to suggest that the implicit agent in (14b) is able to control the subject of the infinitival clause without being syntactically realized. Williams&apos;s argument depends upon the assumption that the PRO that realizes the implicit agent would appear in the position occupied by <i>yesterday</i>. However, this is by no means a necessary assumption, given the acceptability of (15):</p>
+<p>(15)&ensp;yesterday&apos;s teachers&rsquo; strike&ensp;(Tom Roeper, p.c.)</p>
+<p>If the implicit agent can be generated in a position lower than <i>yesterday</i>, both (14a) and (14b) can have implicit agents and the parallelism between (14a) and (14b) with respect to Control follows. In other words, the argument against realizing the implicit agent as a PRO subject vanishes.</p>
+<p>
+<link rid="b4">Williams (1985</link>) argues that Control of rationale clauses does not require the controller to be syntactically realized. In fact, the examples that he provides demonstrate that even the presence of an implicit argument is not necessary:</p>
+<p>(16)&ensp;Grass is green &lsqb;to promote photosynthesis&rsqb;.</p>
+<p>(from <link rid="b15">Williams 1974</link> via <link rid="b4">Williams 1985</link>)</p>
+<p>In (16), <i>grass</i> is not a sensible controller. <i>Green</i> does not have any implicit argument either. Instead what promotes photosynthesis is the circumstance of grass being green. <link rid="b4">Williams (1985</link>) also points out that in the right context the ungrammatical <i>the boat sank in order to impress the king</i> becomes acceptable. Consider a situation where a playwright is rationalizing the design of his play and utters:</p>
+<p>(17)&ensp;The boat sank in order to impress the queen and move her to murder her husband by the end of Act iii.&ensp;&ensp;(from <link rid="b4">Williams 1985</link>)</p>
+<p>Since Williams&apos;s examples show that the PRO subjects of rationale clauses can be controlled even in the absence of any implicit argument, the proposal that all controllers must be syntactically realized is weakened.</p>
+</subsection>
+<subsection id="ss5" level="2">
+<heading id="h4" level="2">2.2&ensp;Implicit arguments in middles</heading>
+<p>The contrast between passives and unaccusatives carries over to middles. Middles are incompatible with overt <i>by</i> phrases:</p>
+<p>(18)&ensp;<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Bureaucrats were bribed by managers.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Bureaucrats bribe easily by managers.</entry>
+<entry>(<link rid="b16">Keyser and Roeper 1984</link>: 406, ex. 75)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Either they lack an implicit agent argument, or the implicit argument of a middle is unable to control the understood subject of a rationale clause or a subject-oriented adverb:</p>
+<p>(19)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>This bureaucrat was bribed &lsqb;PRO to avoid the draft&rsqb;.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*This bureaucrat bribes easily &lsqb;PRO to avoid the draft&rsqb;.</entry>
+<entry>(<link rid="b13">Baker et al. 1989</link>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(20)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>This bureaucrat was bribed deliberately.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*This bureaucrat bribes deliberately.</entry>
+<entry>(<link rid="b13">Baker et al. 1989</link>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Despite these tests, the English middle construction has been assumed to involve an implicit agent. For example, <link rid="b17">Fiengo (1980</link>), <link rid="b18">Condoravdi (1989</link>), <link rid="b19">Fagan (1992</link>), <link rid="b20">Zribi-Hertz (1993</link>), and <link rid="b21">Ackema and Schoorlemmer (1995</link>) argue that the implicit agent of the middle is present at a (lexical)-semantic level, while <link rid="b22">Stroik (1992a</link>) and <link rid="b23">Hoekstra and Roberts (1993b</link>) propose that the agent of the middle is syntactically realized. Of course any theory which proposes that an agent is present in middles needs to provide an account of why middles fail the tests for agentivity shown in (18&ndash;20), all of which the implicit agent of the passive passes.</p>
+<p>There are several reasons that have been advanced for assuming that middles involve an implicit agent. The first is the contrast in meaning that is perceived between (21a, b):</p>
+<p>(21)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The clothes hang easily.</entry>
+<entry>(from <link rid="b16">Keyser and Roeper 1984</link>)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The clothes are hanging on the line.</entry>
+<entry>(from <link rid="b24">Marantz 1981</link>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b16">Keyser and Roeper (1984</link>) observe that (21a) implies that it is easy for someone to hang clothes, whereas there is absolutely no implied agent in the unaccusative (21b).<link rid="fn5">
+<sup>5</sup></link>
+</p>
+<p>The second reason for postulating an implicit agent in the middle is that even though middles do not license <i>by</i> phrases, they can contain a <i>for</i>-PP whose argument seems to be identical to the agent of the middle verb:</p>
+<p>(22)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>French books read easily for educated people.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Latin texts do not translate easily for Bill.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The licensing of agentive <i>for</i>-PPs has been used to argue for the syntactic presence of an agent in the middle. For <link rid="b22">Stroik (1992a</link>), the <i>for</i>-phrase is an overt realization of the agent argument that for him is always syntactically present in the middle as PRO.</p>
+<p>The third argument for agentivity comes from the incompatibility of middles with a phrase like <i>all by itself</i>:</p>
+<p>(23)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*This kind of bread cuts easily all by itself.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*This wood carves easily all by itself.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*This ice crushes easily all by itself.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The ungrammaticality of (23a&ndash;c) has been used by <link rid="b16">Keyser and Roeper (1984</link>) and <link rid="b19">Fagan (1992</link>) as an argument in favor of the middle&apos;s agentivity.</p>
+<p>However, <link rid="b25">Rapoport (1999a</link>) challenges the conclusion that the middle necessarily involves agentivity, noting that the above tests for agentivity do not hold for all middles. As <link rid="b21">Ackema and Schoorlemmer (1995</link>) noted, not all middles allow for <i>for</i>-phrases:</p>
+<p>(24)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>These books don&apos;t sell (*for the average shopkeeper).<link rid="fn6">
+<sup>6</sup></link>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>(On shoe chest:) Stows on floor or shelf (*for tidy people).</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b25">Rapoport (1999a</link>) further points out that many middles are in fact compatible with <i>all by itself</i>:</p>
+<p>(25)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>This kind of glass breaks easily all by itself.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Milk chocolate melts smoothly all by itself.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>These heavy windows open easily all by themselves.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>These comic books sell (easily) all by themselves.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b25">Rapoport (1999a</link>) therefore concludes that middles do not have an implicit agent. The fact that the implicit agent of the middle is syntactically inactive (cf. 18&ndash;20) receives a very natural explanation under <link rid="b25">Rapoport&apos;s (1999a</link>) proposal &ndash; there simply isn&apos;t an implicit agent in the English middle. The English middle is not inherently agentive.</p>
+<p>The licensing of <i>for</i>-phrases in (22) and the unacceptability of <i>all by itself</i> with certain middles in (23) are related by <link rid="b25">Rapoport (1999a</link>) to the Instrumental/Manner (I/M) component in the meanings of certain verbs. Inherent in the meaning of <i>cut</i>, <i>carve</i>, and <i>crush</i>, the verbs in (23), is the means or manner involved in the action described by the verb (the I/M component). Rapoport argues that the I/M component brings along with it an implication of a proto-agent and this implication is responsible for the agentivity effects discussed above. Not all verbs have an I/M component as part of their meaning, and with such verbs there is no agentivity effect (cf. 24, 25).</p>
+<p>To sum up, we do not need to postulate an implicit agent in middles across the board. Some middles don&apos;t have any agentivity effects, and the agentivity effects in the one that do can be accounted for without postulating an implicit argument.</p>
+<p>Rapoport&apos;s conclusions, however, can be challenged on the following grounds. The predicates which demonstrate the absence of agentivity (cf. 18&ndash;20) also have unaccusative counterparts. This makes it possible to analyze (18&ndash;20) not as middles but as generic unaccusatives.<link rid="fn7">
+<sup>7</sup></link>
+</p>
+</subsection>
+</subsection>
+<subsection id="ss6" level="1">
+<heading id="h5" level="1">3&ensp;Implicit arguments of nouns</heading>
+<p>One argument for the syntactic visibility of implicit arguments of nouns comes from the fact that they participate in Binding Theory.</p>
+<p>(26)&ensp;<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry morerows="1" valign="top">a.</entry>
+<entry namest="col2" nameend="col3">
+<b>Condition A:</b>
+</entry>
+</row>
+<row><entry>Respect for oneself is important.</entry>
+<entry>(from <link rid="b4">Williams 1985</link>)</entry>
+</row>
+<row><entry morerows="1" valign="top">b.</entry>
+<entry namest="col2" nameend="col3">
+<b>Condition B:</b>
+</entry>
+</row>
+<row><entry>Admiration of him (<i>admirer</i> &ne; <i>admiree</i>)</entry>
+<entry>(from <link rid="b4">Williams 1985</link>)</entry>
+</row>
+<row><entry morerows="1" valign="top">c.</entry>
+<entry namest="col2" nameend="col3">
+<b>Condition C:</b>
+</entry>
+</row>
+<row><entry>The realization that John was unpopular (<i>realizer</i> &ne; <i>John</i>)</entry>
+<entry>(from <link rid="b26">Ross 1969c</link> via <link rid="b27">Williams 1987b</link>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A natural way to account for the syntactic visibility of implicit arguments involves projecting them syntactically as PRO subjects. If we do that, the Binding effects in (26) follow directly. In addition to participating in Binding, implicit arguments are also able to control and be controlled/bound themselves (cf. 27a, b respectively):</p>
+<p>(27)&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The attempt &lsqb;PRO to leave&rsqb; (<i>attempter</i> controls the PRO)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John made an attempt &lsqb;PRO to leave&rsqb;. (<i>John</i> is the attempter.)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b4 b27">Williams (1985, 1987b</link>) notes that the Binding and Control judgments stay unchanged even if the noun in question has an overt NP in its specifier position:</p>
+<p>(28)&ensp;<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Yesterday&apos;s attempt &lsqb;PRO to leave&rsqb; (<i>attempter</i> &equals; <i>leaver</i>)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Yesterday&apos;s decision &lsqb;that John was the best candidate&rsqb; (<i>decider</i> &ne; <i>John</i>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Williams assumes that a PRO agent would occupy the position occupied by <i>yesterday&apos;s</i>. Thus a PRO should be blocked in (28a, b). Since the Binding and Control judgments stay unchanged, Williams argues that Binding and Control do not require a syntactically projected NP. He proposes that non-syntactically projected implicit arguments are also visible to Binding and Control. Non-syntactically projected implicit arguments are made visible to syntax by statements like the following:</p>
+<p>(29)&ensp;For <i>attempt</i>, and similar nouns, the Agent controls (or is associated with) the subject of the embedded clause.&ensp;&ensp;(<link rid="b4">Williams 1985</link>: 302, ex. 14)</p>
+<p>(30)&ensp;An implicit argument c-commands X if the verb (or noun) of which it is an implicit argument c-commands X.</p>
+<p>If an implicit argument is coindexed with X and c-commands X, then it binds X.&ensp;&ensp;(<link rid="b4">Williams 1985</link>: 303, ex. 17)</p>
+<p>The result of these statements is that the Binding and Control effects discussed above follow naturally.</p>
+<p>With his system, <link rid="b4">Williams (1985</link>) is able to derive the fact that Condition C effects surface with respect to all the implicit arguments of triadic predicates:</p>
+<p>(31)&ensp;<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*The promise that John would win was made to him yesterday.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*The promise that John would win was made by him yesterday.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Since <link rid="b4">Williams (1985</link>) is arguing against a PRO subject of NP, he takes the facts in (31) to correctly show that just syntactically representing the agent is inadequate. This is so because in (31a) the Condition C effect is triggered by the goal-implicit argument and not by the agent-implicit argument. Then Williams goes on to conclude that the implicit agent should not be syntactically represented at all. This latter move is not forced by the facts. The facts are equally compatible with the syntactic projection of the implicit arguments of <i>promise</i> as null pronouns. Both the subject and direct object of <i>promise</i> would c-command into the complement of <i>promise</i> and yield the observed Condition C effects.</p>
+<p>Moreover, Williams&apos;s conclusion that implicit arguments are not syntactically projected is based on the assumption that an agent projected as PRO would necessarily be occupying the location occupied by <i>yesterday&apos;s</i>, which is presumably &lsqb;Spec, DP&rsqb;. If we assume, as is plausible, that the agent projected as PRO could occupy the &lsqb;Spec, NP&rsqb; position (assuming that PRO needs no case), then the facts in (28) do not come as a surprise and Williams&apos;s argument against the syntactic projection of implicit arguments is defused. To be sure, the facts are compatible with Williams&apos;s proposal. They are also, however, compatible with the syntactic projection of implicit arguments as null pronouns.</p>
+<subsection id="ss7" level="2">
+<heading id="h6" level="2">3.1&ensp;Optionality of implicit arguments of nouns</heading>
+<p>The treatment of anaphors within NPs in <link rid="b28">Chomsky (1986b</link>) assumes that NPs have implicit agents that are projected as subjects which are visible for the Binding Theory:</p>
+<p>(32)&ensp;<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>They<i><sub>i</sub>
+</i> told &lsqb;<i><sub>NP</sub>
+</i> stories about each other<i><sub>i</sub>
+</i>&rsqb;.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*They<i><sub>i</sub>
+</i> told &lsqb;<i><sub>NP</sub>
+</i> my stories about each other<i><sub>i</sub>
+</i>&rsqb;.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*They<i><sub>i</sub>
+</i> told &lsqb;<i><sub>NP</sub>
+</i> stories about them<i><sub>i</sub>
+</i>&rsqb;.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>d.</entry>
+<entry>They<i><sub>i</sub>
+</i> told &lsqb;<i><sub>NP</sub>
+</i> my stories about them<i><sub>i</sub>
+</i>&rsqb;.</entry>
+<entry>(<link rid="b28">Chomsky 1986b</link>: 166)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(33)&ensp;<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>They<i><sub>i</sub>
+</i> heard &lsqb;<i><sub>NP</sub>
+</i> stories about each other<i><sub>i</sub>
+</i>&rsqb;.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*They<i><sub>i</sub>
+</i> heard &lsqb;<i><sub>NP</sub>
+</i> my stories about each other<i><sub>i</sub>
+</i>&rsqb;.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>c.</entry>
+<entry>They<i><sub>i</sub>
+</i> heard &lsqb;<i><sub>NP</sub>
+</i> stories about them<i><sub>i</sub>
+</i>&rsqb;.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>d.</entry>
+<entry>They<i><sub>i</sub>
+</i> heard &lsqb;<i><sub>NP</sub>
+</i> my stories about them<i><sub>i</sub>
+</i>&rsqb;.</entry>
+<entry>(<link rid="b28">Chomsky 1986b</link>: 166)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b28">Chomsky (1986b</link>) argues that the object of <i>tell</i> and <i>hear</i> in (32, 33a, c) has an implicit subject on a parallel with the overt subject in (32, 33b, d). Since there is an overt subject in the object of <i>tell</i> and <i>hear</i> in (32, 33b, d), the object constitutes the Binding domain of the anaphor/pronoun. (32, 33b) are ruled out because the anaphors are not bound in their Binding domain and (32, 33b) are acceptable because the pronouns are free in their Binding domain.</p>
+<p>(32, 33a) by themselves are compatible with there being an implicit subject in the <i>story</i> NP bound by the matrix subject and the anaphor bound by this implicit subject, or with there being no implicit subject and the Binding domain of the anaphor being large enough to include the matrix subject, which is its binder. The relevant evidence in favor of postulating an implicit subject comes from the contrast between (32c) and (33c).</p>
+<p>The verbs <i>tell</i> and <i>hear</i> differ in how they combine semantically with their object <i>story</i>. Consider the contrast in interpretation between (34a) and (34b):</p>
+<p>(34)&ensp;<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John told &lsqb;stories about Mary&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John heard &lsqb;stories about Mary&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (34a), the subject of <i>tell</i> has to be interpreted as the &lsquo;agent&rsquo;/narrator of the story. It is claimed that there is no such requirement in (34b). The process by which the implicit arguments of a noun receive their interpretation will be discussed in <link rid="ss8">section 3.2</link>. For now, we can represent the difference between <i>tell</i> and <i>hear</i> by stipulating that the &lsquo;agent&rsquo;/narrator argument of the complement of <i>tell</i> must be the same as the agent of <i>tell</i>. <i>Hear</i> does not bring in such a requirement. This is shown in (35):</p>
+<p>(35)&ensp;<object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John<i><sub>i</sub>
+</i> told &lsqb;IMP<sub>i/*j</sub> stories about Mary&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John<i><sub>i</sub>
+</i> heard &lsqb;IMP<i><sub>i/j</sub>
+</i> stories about Mary&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The contrast between (32c) and (33c), repeated below in (36), now follows.</p>
+<p>(36)&ensp;<object id="tu28" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu28_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>They<i><sub>i</sub>
+</i> told &lsqb;IMP<i><sub>*i/*j</sub>
+</i> stories about them<i><sub>i</sub>
+</i>&rsqb;. (IMP<i><sub>i</sub>
+</i> is ruled out by Condition B; IMP<i><sub>j</sub>
+</i> is ruled out by <i>tell</i>.)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>They<i><sub>i</sub>
+</i> heard &lsqb;IMP<i><sub>j/*i </sub>
+</i>stories about them<i><sub>i</sub>
+</i>&rsqb;. (IMP<i><sub>i</sub>
+</i> is ruled out by Condition B; IMP<i><sub>j</sub>
+</i> is allowed by <i>hear</i>.)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The presence of the implicit argument as the subject in (36a, b) makes the object NP become the Binding domain for <i>them</i>. Since in (36a), the implicit argument is obligatorily coreferent with the matrix subject, we have a violation of Condition B in (36a). Since <i>hear</i> in (36b) does not require obligatory coreference, (36b) has a representation where the &lsquo;agent&rsquo;/narrator of the story is different from the subject of <i>hear</i>. This representation does not trigger a violation of Condition B. Condition B is still relevant for (36b) &ndash; it blocks the interpretation of (36b) where the hearers are the narrators.<link rid="fn8">
+<sup>8</sup></link>
+</p>
+<p>Let us now re-examine the analysis of anaphors inside the NP complements of anaphors in (32, 33a), repeated here as (37a, b):</p>
+<p>(37)&ensp;<object id="tu29" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu29_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>They<i><sub>i</sub>
+</i> told &lsqb;IMP<i><sub>i/*j </sub>
+</i>stories about each other<i><sub>i</sub>
+</i>&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>They<i><sub>i</sub>
+</i> heard &lsqb;IMP<i><sub>i/*j</sub>
+</i> stories about each other<i><sub>i</sub>
+</i>&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The analysis makes the right predictions concerning the grammaticality of (37a, b). However, it seems to make the wrong prediction concerning the interpretation of (37b). As <link rid="b4">Williams (1985</link>) notes, the representation in (37b) suggests that <i>each other</i> can be bound by <i>they</i> only if <i>they</i> also bound the &lsquo;agent&rsquo;/narrator argument of <i>story</i>. This seems wrong, since it seems possible for <i>they</i> to bind <i>each other</i> even when someone other than <i>they</i> are narrating the stories.</p>
+<p>For this reason, <link rid="b28">Chomsky (1986b</link>) concludes that the presence of implicit arguments as subjects is optional. The optionality of implicit arguments needs to be further constrained. The presence of implicit arguments as subjects cannot be optional everywhere. If we assume full optionality, we lose our explanations for cases like the following:</p>
+<p>(38)&ensp;<object id="tu30" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu30_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*They<i><sub>i</sub>
+</i> told &lsqb;IMP<i><sub>i</sub>
+</i> stories about them<i><sub>i</sub>
+</i>&rsqb;. (Condition B)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*The IMP<i><sub>i</sub>
+</i> realization &lsqb;that John<i><sub>i</sub>
+</i> was sick&rsqb; upset him<i><sub>i</sub>
+</i>. (Condition C)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A possible line of attack is to assume that implicit arguments are obligatorily present in nominal complements when the semantics of the embedding verb requires them (as in (38a), discussed in <link rid="ss8">section 3.2</link>) and in nominalizations (as in 38b). In other circumstances, as is the case with <i>hear</i>, we could assume either optionality or even complete absence of the implicit agent of the noun.</p>
+</subsection>
+<subsection id="ss8" level="2">
+<heading id="h7" level="2">3.2&ensp;Control of implicit arguments of nouns</heading>
+<p>We have seen evidence that implicit arguments participate in Binding and Control. This evidence shows that the implicit agent of a passive and of certain noun phrases can control PRO subjects. We also saw that the implicit arguments of nouns were subject to the Binding Theory. Next we see that not only can implicit arguments of nouns bind/control, they can also be bound/controlled. We also see that the implicit agent of a passive differs from the implicit arguments of nouns in that it cannot be bound/controlled.</p>
+<p>
+<link rid="b4">Williams (1985</link>) discusses a set of facts which show that the Binding/Control of implicit arguments differs considerably from the Control of PRO subjects of infinitival clauses. We know that depending upon the verb, we can have either subject or object control:</p>
+<p>(39)&ensp;<object id="tu31" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu31_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Gillian persuaded Stuart<i><sub>i</sub>
+</i> &lsqb;PRO<i><sub>i</sub>
+</i> to leave&rsqb;. (<i>Persuade</i> is an object control verb.)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Gillian<i><sub>i</sub>
+</i> promised Stuart &lsqb;PRO<i><sub>i</sub>
+</i> to leave&rsqb;. (<i>Promise</i> is a subject control verb.)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The choice depending upon the verb is which argument of the verb will control the PRO subject of the infinitival clause. There is no choice regarding what is controlled, which is always the PRO subject. Control of implicit arguments of nouns displays a markedly different pattern:</p>
+<p>(40)&ensp;<object id="tu32" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu32_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John made an attempt to leave. (<i>John</i> is agent of <i>attempt</i>.)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John took a picture of Mary. (<i>John</i> is maker of <i>picture</i>.)</entry>
+</row>
+<row><entry>c.</entry>
+<entry>John performed an operation on Harry. (<i>John</i> is agent of <i>operation</i>.)</entry>
+</row>
+<row><entry>d.</entry>
+<entry>Mary underwent an operation. (<i>Mary</i> is theme and not agent of <i>operation</i>.)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>While in (40a&ndash;c), the matrix subject controls/binds the implicit agent of <i>attempt</i>/<i>picture</i>/<i>operation</i> respectively, in (40d), the matrix subject controls/binds the implicit theme of <i>operation</i>. The difference clearly lies in the meaning of <i>undergo</i> vs. <i>make</i>/<i>take</i>/<i>perform</i>.<link rid="fn9">
+<sup>9</sup></link>
+</p>
+<p>As discussed above, this kind of choice concerning what is controlled is not found in cases where it is the subject of an infinitival clause that is being controlled.</p>
+<p>Control of implicit arguments of nouns also allows for so-called double Control, as in (41):</p>
+<p>(41)&ensp;Mary gave John a kick. (<i>Mary</i> is the agent and <i>John</i> the patient of <i>kick</i>.)</p>
+<p>The existence of a choice concerning what is controlled (cf. 40) and the possibility of double Control (cf. 41) has been argued by <link rid="b4">Williams (1985</link>) to show that implicit arguments should not be realized as PRO subjects. We think that these facts are actually agnostic about the issue of syntactic projection.</p>
+<p>To see this, let us examine how Williams derives the contrast between (40c) and (40d):</p>
+<p>(42)&ensp;<object id="tu33" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu33_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John performed an operation on Harry. (Agent of <i>perform</i> must be the same as the agent of its theme.)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Mary underwent an operation. (Agent of <i>undergo</i> must be the same as the patient of its theme.)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Williams proposes that verbs can specify associations between arguments and their argument structures. Thus <i>perform</i> takes two arguments, an agent and an event, and requires that its agent be the agent of the event which is its complement. <i>Undergo</i> also takes an agent and an event, but it identifies its agent with the patient of its complement event. Clearly every theory needs to specify such associations.</p>
+<p>Now let us also assume that all the implicit arguments of <i>operation</i> are syntactically projected as null pronouns. For <i>operation</i> to successfully appear with <i>perform</i> and <i>undergo</i>, its agent and theme arguments will have to be identified with the agent of <i>perform</i> and <i>undergo</i> respectively. We do not take Williams&apos;s arguments as having demonstrated that the implicit arguments are not syntactically projected. The question of whether these implicit arguments are syntactically projected stays unresolved. Note also that the possibility of double Control, as in <i>Mary gave John a kick</i>, is not problematic once we recognize that the process by which the implicit arguments of <i>kick</i> are associated with the arguments of <i>give</i> is not a syntactic process along the lines of PRO-Control.</p>
+</subsection>
+<subsection id="ss9" level="2">
+<heading id="h8" level="2">3.3&ensp;Differences between implicit arguments of nouns and passives</heading>
+<subsection id="ss10" level="3">
+<heading id="h9" level="3">3.3.1&ensp;Controlling implicit arguments of passives</heading>
+<p>Unlike the implicit arguments of nouns, which can be bound/controlled by c-commanding NPs, the implicit agent of a passive seems to be resistant to being bound by a c-commanding NP. <link rid="b13">Baker et al. (1989</link>) note that the implicit argument of a passive cannot be interpreted as coreferential with the syntactic subject of the passive. Thus (43) is not equivalent to (44) under any interpretation:</p>
+<p>(43)&ensp;<object id="tu34" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu34_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>They were killed.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>They were admired.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(44)&ensp;<object id="tu35" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu35_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>They committed suicide.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>They admired themselves.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This point is further demonstrated by (45), where the <i>by</i> phrase is bound by the syntactic subject of the passive. Since the <i>by</i> phrase is co-indexed with the implicit argument of the passive, this forces the implicit argument of the passive to be co-indexed with the syntactic subject of the passive. This in turn is responsible for the ungrammaticality of (45):</p>
+<p>(45)&ensp;* They<sub><i>i</i>
+</sub> were killed by themselves<sub><i>i</i>
+</sub>.</p>
+<p>For <link rid="b13">Baker et al. (1989</link>), the implicit agent of the passive is overtly realized by <i>-ed</i>. Therefore if the syntactic subject of the passive were to be co-indexed with the agent, we would have the following configuration:</p>
+<p>(46)&ensp;They<sub><i>i</i>
+</sub> .&nbsp;.&nbsp;.&nbsp;-ed<sub><i>i</i>
+</sub> .&nbsp;.&nbsp;.&nbsp;t<sub><i>i</i>
+</sub> (where <i>they</i> c-commands -<i>ed</i> and -<i>ed</i> c-commands the t<sub><i>i</i>
+</sub>)</p>
+<p>
+<link rid="b13">Baker et al. (1989</link>) argue that the configuration in (46) is to be ruled out. It seems, though, that the facts are more general. The implicit agent of the passive cannot be taken as referring to any c-commanding NP. This point is made by (47), where we find a disjoint reference effect even though there is no crossover:</p>
+<p>(47)&ensp;John wants Mary to be seen.&ensp;&ensp;(<link rid="b27">Williams 1987b</link>)</p>
+<p>As <link rid="b27">Williams (1987b</link>) notes, the implicit agent of the passive is disjoint from <i>John</i>, or at the very least is vague in the same way as <i>John wants Mary to be seen by somebody</i> is. Neither sentence can mean <i>John wants to see Mary</i>. <link rid="b27">Williams&apos;s (1987b</link>) suggestion is that the implicit agent of the passive is existentially quantified over. Consequently it cannot be bound by a c-commanding NP and acts like an R-expression for the purposes of Binding Theory.</p>
+<p>
+<link rid="b27">Williams (1987b</link>) argues that passive implicit arguments differ from other implicit arguments in that passive implicit arguments cannot be controlled/bound. This intuition is developed and made explicit in independent work by <link rid="b29">Lasersohn (1997</link>). <link rid="b29">Lasersohn (1997</link>) notes that implicit arguments come in at least two distinct types, existentially quantified (as in 48a) and deictic (as in 48b, c):</p>
+<p>(48)&ensp;<object id="tu36" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu36_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John was killed. (&ap; &exist;<i>x</i> kill(<i>x</i>,J))</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John is stronger. (&ne; &exist;<i>x</i> stronger-than(J,<i>x</i>))</entry>
+</row>
+<row><entry>c.</entry>
+<entry>John arrived. (&ne; &exist;<i>l</i> arrive(J,<i>l</i>))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b29">Lasersohn (1997</link>) notes that existential quantification seems to represent the semantics of the passive quite well. However, existential quantification seems to give very weak truth-conditions for (48b). For (48b) to be true, John must be stronger than some contextually salient person. It is not enough that he be stronger than someone. Similarly, Lasersohn notes that (48c) doesn&apos;t just mean that John arrived <i>somewhere</i>. It means that he arrived at the pragmatically relevant location.<link rid="fn10">
+<sup>10</sup></link>
+</p>
+</subsection>
+<subsection id="ss11" level="3">
+<heading id="h10" level="3">3.3.2&ensp;Differences in Control by implicit arguments of nouns and passives</heading>
+<p>That an implicit agent of a noun is able to control the PRO subject of the infinitival complement of the noun is uncontroversial:</p>
+<p>(49)&ensp;the attempt &lsqb;PRO to leave&rsqb; (<i>attempter &equals; leaver</i>)</p>
+<p>We have also seen instances where implicit arguments seem to control the PRO subjects of infinitival adjuncts:</p>
+<p>(50)&ensp;<object id="tu37" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu37_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The destruction of the city &lsqb;PRO to impress the general&rsqb; (<i>destroyer</i> &equals; <i>impresser</i>)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The game was played nude.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>There is disagreement in the literature concerning whether (50) involves Control of the PRO subject by the implicit argument or whether it involves some other mechanism. <link rid="b2">Roeper (1987a</link>) argues for the former position. In support of his position, <link rid="b2">Roeper (1987a</link>) notes the contrast in (51):</p>
+<p>(51)&ensp;<object id="tu38" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu38_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*The boat sank to impress the king.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The boat was sunk to impress the king.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The unacceptability of (51a) and the acceptability of (51b) are correlated by <link rid="b2">Roeper (1987a</link>) with the availability of a potential controller in (51b) in the form of the implicit agent of the passive. No such implicit agent is available in (51a) and hence the former is unacceptable.</p>
+<p>
+<link rid="b2">Roeper (1987a</link>) offers another set of examples that argue more specifically for a particular syntactic representation of the implicit argument:</p>
+<p>(52)&ensp;<object id="tu39" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu39_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The destruction of the boat to collect the insurance.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*The boat&apos;s destruction to collect the insurance.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Roeper argues that in (52a) the implicit agent of <i>destruction</i> occupies a position from which it can control the PRO subject of the infinitival adjunct. He takes the presence of <i>the boat&apos;s</i> in (52b) as blocking the implicit agent from appearing in the position where it appears in (52a). Therefore the implicit agent is not able to control the PRO subject of the infinitival adjunct.</p>
+<p>Roeper&apos;s account for the ungrammaticality of (52b) leaves unexplained why (53) is grammatical:</p>
+<p>(53)&ensp;Yesterday&apos;s attempt &lsqb;PRO to leave&rsqb;</p>
+<p>
+<link rid="b4">Williams (1985</link>) suggests that whatever blocks the implicit argument from being syntactically projected in (52b) should also block it from being syntactically projected in (53). Yet Control by the implicit argument is possible in (53).</p>
+<p>For this reason among others, <link rid="b4">Williams (1985</link>) argues against a uniform analysis of the examples in (54):</p>
+<p>(54)&ensp;<object id="tu40" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu40_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The attempt &lsqb;PRO to leave&rsqb; (Control into a complement)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The destruction of the city &lsqb;PRO to impress the general&rsqb; (Control into an adjunct)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b4">Williams (1985</link>) argues that only the PRO in (54a) is controlled by the implicit argument of <i>attempt</i>. The PRO in the adjunct clause in (54b) is controlled by other mechanisms. The theoretical motivation for doing so is that for Williams, implicit arguments are invisible beyond the first projection of their predicate. Thus while the implicit agent of <i>attempt</i> is visible to the infinitival complement, the implicit agent of <i>destruction</i> is not visible to the infinitival adjunct.</p>
+<p>The empirical motivation comes from examples like (55), which show that the implicit agent of a passive is not always able to control the PRO subjects of infinitival adjuncts:</p>
+<p>(55)&ensp;<object id="tu41" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu41_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*The boat was sunk &lsqb;PRO to become a hero&rsqb;.</entry>
+<entry>(Lasnik, p.c., via <link rid="b4">Williams 1985</link>)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Mary was arrested &lsqb;PRO to indict Bill&rsqb;.</entry>
+<entry>(<link rid="b15">Williams 1974</link>)</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*The game was played &lsqb;PRO mad at Bill&rsqb;.</entry>
+<entry>(<link rid="b4">Williams 1985</link>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>If the two kinds of Control seen in (54) are handled by the same mechanism, then Williams argues that it is not clear why the implicit argument is unable to control PRO in (55). Therefore Williams provides an alternative account according to which the controller of the PRO in (56) is not the implicit agent of the passive:</p>
+<p>(56)&ensp;<object id="tu42" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu42_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The game was played &lsqb;PRO nude&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The ship was sunk &lsqb;PRO to impress the general&rsqb;.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>The boat was destroyed &lsqb;PRO to collect the insurance&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>He proposes that the controller of the PRO in (56a) is the subject <i>the game</i> and not the implicit agent of the passive. The predicate <i>nude</i> is predicated of <i>the game</i>. Williams suggests that this is plausible since &ldquo;one may call a game nude if it is played by nude people&rdquo; (p. 309). If we modify the adjunct predicate suitably to make such a predication unreasonable, the sentence becomes unacceptable. This is why (55c) is ungrammatical. While nudity can be derivatively predicated of a game, the property of being mad at Bill cannot be.<link rid="fn11">
+<sup>11</sup></link>
+</p>
+<p>This leaves us with (56b, c). In (56b), the inanimate subject <i>the ship</i> cannot be the agent of the infinitival adjunct. Here Williams suggests that the entire clause controls the subject of the infinitival adjunct. He refers to this kind of Control as S-Control. The entire clause <i>the ship was sunk</i> controls the PRO in the infinitival adjunct &ndash; it is the fact that the ship is sunk which is to impress the general. Similarly, Williams relates the acceptability of (56c) to the (marginal) acceptability of <i>That will collect you some insurance</i>. The ungrammaticality of (55a, b) is related by Williams to the incoherence of the boat&apos;s sinking becoming a hero and Mary&apos;s arrest indicting Bill.</p>
+<p>On a parallel with S-Control, Williams suggests that cases of apparent Control of the subject of an infinitival adjunct by the implicit agent of a noun be analyzed as involving N&prime;-Control:</p>
+<p>(57)&ensp;&lsqb;the &lsqb;<sub><i>N</i>&prime;</sub> destruction of the boat&rsqb;<i><sub>i</sub>
+</i> &lsqb;PRO<i><sub>i</sub>
+</i> to impress the general&rsqb;&rsqb;</p>
+<p>The ungrammaticality of *<i>the boat&apos;s destruction to impress the general</i> is analyzed by Williams in terms of the attachment site of the infinitival adjunct. The infinitival adjunct, Williams assumes, must be attached in an NP-internal position. As a result, <i>the boat&apos;s destruction</i> cannot serve as a controller because under the relevant structure, it does not even form a constituent:</p>
+<p>(58)&ensp;*&lsqb;&lsqb;the boat&apos;s&rsqb; &lsqb;<sub><i>N</i>&prime;</sub> &lsqb;<sub><i>N</i>&prime;</sub> destruction&rsqb; &lsqb;PRO to impress the general&rsqb;&rsqb;&rsqb;</p>
+<p>Williams does not indicate why <i>destruction</i> by itself cannot control the PRO.</p>
+<p>The initial examples in (51) that were taken to demonstrate the role of implicit arguments in controlling the PRO subjects of infinitival adjuncts are argued by Williams to demonstrate not the role of implicit arguments but the presence of a purposeful agent. He offers (16), repeated here as (59a), where there is no obvious implicit argument, and (17), repeated here as (59b), which shows that the unacceptable (51b) becomes acceptable given the right context:</p>
+<p>(59)&ensp;<object id="tu43" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu43_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Grass is green &lsqb;PRO to promote photosynthesis&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The boat sank in order to impress the queen and move her to murder her husband by the end of Act III.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As for why the ergative <i>sink</i> requires an elaborate context to participate in (apparent) Control, Williams suggests that this is so because the use of the ergative <i>sink</i> strongly implies that there is no theta-theoretic agent for <i>sink</i>. Hence to make (51b) acceptable we need a context where the absence of a theta-theoretic agent does not contradict the existence of a purposeful agent. These requirements are satisfied in (59b), but not in (51a).</p>
+<p>
+<link rid="b4">Williams (1985</link>) is able to provide an explanation for a puzzling contrast noted in <link rid="b3">Chomsky (1982</link>: 46):</p>
+<p>(60)&ensp;<object id="tu44" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu44_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*The books were sold without PRO reading them.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The books can be sold without PRO reading them.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(60a) is ungrammatical because the event of book-selling cannot serve as the controller of the PRO subject of the infinitival adjunct. Why then is (60b) grammatical? Williams suggests that <i>can</i> has an implicit argument and that the <i>without</i> clause is an argument of the modal <i>can</i>. Therefore the implicit argument of <i>can</i> is able to control the PRO subject of the <i>without</i> clause. It is able to do so because the <i>without</i> clause in (60b) is the complement of <i>can</i> and not an adjunct clause as in (60a).</p>
+<p>The above generalizations notwithstanding, it is worth noting that the constraints on Control into adjuncts by implicit (and even overt) arguments are poorly understood. A number of additional factors enter into the picture that influence whether an implicit argument is able to control into the adjunct. A non-exhaustive list of relevant factors includes:</p>
+<listgroup id="l2" type="symbol">
+<li level="1">
+<number>&bull;&ensp;</number>
+<p>the role of modality (see <link rid="ss14">section 6</link>);</p>
+</li>
+<li level="1">
+<number>&bull;&ensp;</number>
+<p>the location of the theme (e.g., *<i>the boat&apos;s destruction to collect the insurance</i> vs. <i>the destruction of the boat to collect the insurance</i>; see <link rid="b2">Roeper 1987a</link>);</p>
+</li>
+<li level="1">
+<number>&bull;&ensp;</number>
+<p>the nature of the rationale clause (e.g., <i>the ship was sunk to collect the insurance</i> vs. <i>??the ship was sunk to become a hero</i> vs. *<i>the vote was taken to be elected president</i>; see <link rid="b2">Roeper 1987a</link>);</p>
+</li>
+<li level="1">
+<number>&bull;&ensp;</number>
+<p>the &plus;/&minus;human nature of the implicit argument and the overt subject (<i>The stairs were washed before entering the apartment</i>, where the &lsquo;washer&rsquo; must be &plus;human, and not &minus;human like rain, and controls the adjunct clause, vs. <i>Mary was washed before entering the apartment</i>, where both the &plus;human washer and Mary are potential controllers; see <link rid="b30">Manzini 1986a</link>; <link rid="b31">Kawasaki 1993</link>; <link rid="b32">Landau 2001</link>);</p>
+</li>
+<li level="1">
+<number>&bull;&ensp;</number>
+<p>the need for a discourse topic, which can remove the requirement for a grammatically represented controller altogether:</p>
+</li>
+<li level="2">
+<p>(61)&ensp;<object id="tu45" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu45_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>After collecting some money, a bank account was opened by the/*a businessman.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>After pitching the tents, darkness fell quickly.</entry>
+<entry>(from <link rid="b31">Kawasaki 1993</link> via <link rid="b32">Landau 2001</link>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>Williams&apos;s photosynthesis cases can be seen as a limiting case of the factors discussed above. Because of these confounds, the import of the data concerning Control by implicit arguments into infinitival adjuncts remains unclear.</p>
+</subsection>
+</subsection>
+</subsection>
+<subsection id="ss12" level="1">
+<heading id="h11" level="1">4&ensp;Null objects</heading>
+<p>In the introduction, we discussed the question of what non-overt arguments would be covered in our discussion of implicit arguments. In particular, we decided not to cover the silent subjects of non-finite clauses. This was because we assume that the subjects of non-finite clauses are actually syntactically projected (possibly due to the Extended Projection Principle) and realized as PRO. The question then arises of how null objects like in (62) are to be analyzed:</p>
+<p>(62)&ensp;<object id="tu46" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu46_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry>a.</entry>
+<entry namest="col2" nameend="col8">This leads (people) to the following conclusion.</entry>
+</row>
+<row><entry morerows="3" valign="top">b.</entry>
+<entry namest="col2" nameend="col8">Italian:</entry>
+</row>
+<row><entry>Questo</entry>
+<entry>conduce</entry>
+<entry>(la</entry>
+<entry>gente)</entry>
+<entry>alla</entry>
+<entry>seguente</entry>
+<entry>conclusione.</entry>
+</row>
+<row><entry>this</entry>
+<entry>leads</entry>
+<entry>the</entry>
+<entry>people</entry>
+<entry>to-the</entry>
+<entry>following</entry>
+<entry>conclusion</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;This leads (people) to the following conclusion.&rsquo;</entry>
+<entry>(from <link rid="b1">Rizzi 1986a</link>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Given the projection principle one might conclude that in both (62a) and (62b), the null object is syntactically projected and occupied by some null pronominal element. However, <link rid="b1">Rizzi (1986a</link>) provides several arguments against giving the English (62a) and the Italian (62b) a uniform analysis. The primary theoretical motivation for providing a non-uniform analysis for null objects in English and Italian comes from the fact that English does not seem to have <i>pro</i>, the kind of null pronominal that could serve as a null object. In contrast, Italian is known to be a null-subject language; i.e., it has <i>pro</i>, at least in the subject position of finite clauses, and it is plausible that <i>pro</i> can also appear in other case-marked positions.</p>
+<p>The empirical motivation comes from the fact that null objects in Italian, in contrast to null objects in English, seem to be syntactically active. They can control, bind, and be modified by adjuncts, while null objects in English seem to be able to do none of the above.</p>
+<p>We have already seen in (62a) that certain verbs in English do not require overt realization of the object. (63a) shows that if there is an infinitival clause with a PRO subject, then the object needs to be overt. In other words, the null/implicit object cannot serve as a controller. This is, of course, an instantiation of Bach&apos;s Generalization that object controllers in English cannot be omitted (see <link rid="b33">Bach 1979</link>; <link rid="b34">Bresnan 1982a</link>):<link rid="fn12">
+<sup>12</sup></link>
+</p>
+<p>(63)&ensp;<object id="tu47" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu47_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry morerows="2" valign="top">a.</entry>
+<entry>English:</entry>
+<entry>
+</entry>
+</row>
+<row><entry>i.</entry>
+<entry>This leads people &lsqb;PRO to conclude what follows&rsqb;.</entry>
+</row>
+<row><entry>ii.</entry>
+<entry>*This leads &lsqb;PRO to conclude what follows&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11"/>
+<tbody>
+<row><entry morerows="6" valign="top">b.</entry>
+<entry namest="col2" nameend="col9">Italian:</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry morerows="2" valign="top">i.</entry>
+<entry>Questo</entry>
+<entry>conduce</entry>
+<entry>(la</entry>
+<entry>gente)</entry>
+<entry>alla</entry>
+<entry>seguente</entry>
+<entry>conclusione.</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry>this</entry>
+<entry>leads</entry>
+<entry>the</entry>
+<entry>people</entry>
+<entry>to-the</entry>
+<entry>following</entry>
+<entry>conclusion</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col3" nameend="col9">&lsquo;This leads (people) to the following conclusion.&rsquo;</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry morerows="2" valign="top">ii.</entry>
+<entry>Questo</entry>
+<entry>conduce</entry>
+<entry>(la</entry>
+<entry>gente)</entry>
+<entry>a</entry>
+<entry>&lsqb;PRO</entry>
+<entry>concludere</entry>
+<entry>quanto</entry>
+<entry>segue&rsqb;.</entry>
+</row>
+<row><entry>this</entry>
+<entry>leads</entry>
+<entry>the</entry>
+<entry>people</entry>
+<entry>to</entry>
+<entry>
+</entry>
+<entry>conclude</entry>
+<entry>what</entry>
+<entry>follows</entry>
+</row>
+<row><entry namest="col3" nameend="col10">&lsquo;This leads people to conclude what follows.&rsquo;</entry>
+<entry>(from <link rid="b1">Rizzi 1986a</link>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In Italian, as (63bii) shows, an object controller can be omitted. Null objects in Italian can bind reflexive pronouns, as shown by (64):</p>
+<p>(64)<object id="tu48" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu48_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry morerows="2" valign="top">a.</entry>
+<entry>La</entry>
+<entry>buona</entry>
+<entry>musica</entry>
+<entry>riconcilia</entry>
+<entry>___</entry>
+<entry>con</entry>
+<entry>se stessi.</entry>
+</row>
+<row><entry>the</entry>
+<entry>good</entry>
+<entry>music</entry>
+<entry>reconciles</entry>
+<entry>
+</entry>
+<entry>with</entry>
+<entry>oneself</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;Good music reconciles one with oneself.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="2" valign="top">b.</entry>
+<entry>Un</entry>
+<entry>bravo</entry>
+<entry>psicanalista</entry>
+<entry>pu&oacute;</entry>
+<entry>restituire</entry>
+<entry>___</entry>
+<entry>a</entry>
+<entry>se stessi.</entry>
+</row>
+<row><entry>a</entry>
+<entry>good</entry>
+<entry>psychoanalyst</entry>
+<entry>can</entry>
+<entry>give</entry>
+<entry>
+</entry>
+<entry>back</entry>
+<entry>oneself</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;A good psychoanalyst can give one back to oneself.&rsquo;</entry>
+<entry>(from <link rid="b1">Rizzi 1986a</link>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The third diagnostic for the syntactic activeness of null objects in Italian is that they can be modified by adjunct small clauses (cf. 65):</p>
+<p>(65)<object id="tu49" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu49_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="2" valign="middle">a.</entry>
+<entry>Di</entry>
+<entry>solito,</entry>
+<entry>Gianni</entry>
+<entry>fotografa</entry>
+<entry>___</entry>
+<entry>seduti.</entry>
+</row>
+<row><entry>in</entry>
+<entry>general</entry>
+<entry>Gianni</entry>
+<entry>photographs</entry>
+<entry>
+</entry>
+<entry>seated.Pl</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;In general, Gianni photographs one (when one is) seated.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11"/>
+<tbody>
+<row><entry morerows="2" valign="top">b.</entry>
+<entry>Di</entry>
+<entry>solito,</entry>
+<entry>quel</entry>
+<entry>famoso</entry>
+<entry>pittore</entry>
+<entry>ritrae</entry>
+<entry>___</entry>
+<entry>vestiti</entry>
+<entry>di</entry>
+<entry>bianco</entry>
+</row>
+<row><entry>in</entry>
+<entry>general</entry>
+<entry>that</entry>
+<entry>famous</entry>
+<entry>painter</entry>
+<entry>portrays</entry>
+<entry>
+</entry>
+<entry>dressed.Pl</entry>
+<entry>in</entry>
+<entry>white</entry>
+</row>
+<row><entry namest="col2" nameend="col10">&lsquo;In general, that famous painter portrays one (when one is) dressed in white.&rsquo;</entry>
+<entry>(from <link rid="b1">Rizzi 1986a</link>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>There is also a difference in the productivity of the null-object option in English and Italian. In English, the possibility of omitting the object seems highly restricted and subject to seemingly idiosyncratic restrictions. For example, the verb <i>incite</i> allows for its object to be omitted while the nearly synonymous <i>push</i> (cf. 66) does not:</p>
+<p>(66)&ensp;<object id="tu50" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu50_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>?An unpopular law can incite ___ against the government.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*An unpopular law can push ___ against the government.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In Italian, in contrast, null objects with <i>arb</i> interpretation seem to be generally available in generic contexts across a wide range of verbs.</p>
+<p>The above differences between English and Italian with respect to the omission of the object lead <link rid="b1">Rizzi (1986a</link>) to conclude that in Italian, an omitted object is syntactically projected and realized as a <i>pro</i>, while in English, an omitted object is not syntactically projected. Instead it is realized as an implicit argument. <link rid="b1">Rizzi (1986a</link>) assumes that arguments can be lexically saturated, and suggests a modification of the Projection Principle according to which only lexically unsaturated arguments need to be syntactically projected (see also <link rid="b35">Manzini 1992b</link>). For Rizzi, Italian therefore does not constitute a violation of Bach&apos;s Generalization that object controllers cannot be omitted, because in Italian, they are not omitted. They are just realized as <i>pro</i>. A background assumption here is that the implicit argument corresponding to the omitted object cannot serve as a controller. In not being able to serve as a controller, the implicit argument corresponding to the omitted object differs from the implicit arguments of passives (<link rid="ss3">section 2</link>) and nouns (<link rid="ss6">section 3</link>).</p>
+<p>The absence of syntactically realized null objects in English seems to be a relatively recent phenomenon. <link rid="b36">Visser (1969</link>) notes that (as in Italian) in Old English, Middle English, and Early Modern English, arbitrary null objects could function as controllers (examples from <link rid="b36">Visser 1969</link> via <link rid="b1">Rizzi 1986a</link>):</p>
+<p>(67)&ensp;<object id="tu51" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu51_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>thet uerste .&nbsp;.&nbsp;.&nbsp;<i>somoneth to worthsipie</i> god</entry>
+<entry>(1340, <i>Ayenbite of Inwit</i>)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>When he <i>commaunded to receiue</i> the man .&nbsp;.&nbsp;.&nbsp;into the church again, in what church <i>commaunded</i> he <i>to receiue</i> him?</entry>
+<entry>(1532&ndash;1533, Thomas More, &ensp;<i>Works</i>)</entry>
+</row>
+<row><entry>c.</entry>
+<entry>I then <i>advised to fly</i>.</entry>
+<entry>(1725, Alexander Pope, <i>Odyssey</i>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+<subsection id="ss13" level="1">
+<heading id="h12" level="1">5&ensp;Implicit arguments of evaluative predicates</heading>
+<p>Evaluative predicates have been argued to have implicit arguments. The evidence for the presence of implicit arguments comes from the interpretation of the infinitival complements of evaluative predicates like <i>fun</i>:</p>
+<p>(68)&ensp;It is fun &lsqb;PRO<sub><i>arb</i>
+</sub> to play basketball&rsqb;.</p>
+<p>
+<link rid="b11">Epstein (1984</link>) notes that the interpretation of (68) is (69a) and not (69b):</p>
+<p>(69)&ensp;<object id="tu52" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu52_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&forall;<i>x</i> It is fun for <i>x</i> &lsqb;<i>x</i> to play basketball&rsqb;. (For everyone it is the case that if they play basketball, it is fun for them.)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>It is fun &forall;<i>x</i> &lsqb;<i>x</i> to play basketball&rsqb;. (If everyone plays basketball, it is fun.)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The fact that (68) can only mean (69a) and not (69b) reveals that the PRO<sub><i>arb</i>
+</sub> in (68) is not an instance of uncontrolled PRO. Instead it is controlled by a non-overt benefactive/experiencer argument of <i>fun</i> (see also <link rid="b37">Safir 1991</link>). (70) shows that this implicit argument of <i>fun</i> can also be overtly realized:</p>
+<p>(70)&ensp;It is fun <b>for Lucy</b> &lsqb;for Joe to play basketball&rsqb;.&ensp;&ensp;(<link rid="b11">Epstein 1984</link>: ex. 9)</p>
+<p>
+<link rid="b11">Epstein (1984</link>) assumes that the implicit argument of the evaluative adjective is syntactically projected as a null pronoun <i>pro</i>. He proposes that this <i>pro</i> is very similar in interpretation to the <i>pro</i><sub><i>arb</i>
+</sub> discussed for Spanish in <link rid="b38">Su&ntilde;er (1983</link>). Spanish, in contrast to English, is a <i>pro</i>-drop language. <link rid="b39">Bhatt and Izvorski (1998</link>) develop Epstein&apos;s basic insight and reduce several instances of &lsquo;uncontrolled&rsquo; PRO to instances of Control by an implicit argument. They provide further evidence for the role played by the implicit argument in the Control of the PRO subject of the infinitival clause. PRO without an overt controller is only found in the complement of an adjective if the adjective allows for an implicit argument:</p>
+<p>(71)&ensp;<object id="tu53" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu53_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;PRO to dance&rsqb; is fun.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*&lsqb;PRO to dance&rsqb; is uncertain/unlikely.</entry>
+<entry>(from <link rid="b39">Bhatt and Izvorski 1998</link>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p><i>Fun</i> allows for an implicit argument which specifies who something is fun for. <i>Uncertain</i>/<i>unlikely</i> lack such an argument. They do not allow us to express who something is unlikely/uncertain for. (71b) is ruled out because, unlike <i>fun</i> in (71a), <i>uncertain</i>/<i>unlikely</i> do not have an implicit argument that could serve as a controller.</p>
+<p>
+<link rid="b39">Bhatt and Izvorski (1998</link>) further point out that the quantificational force/arbitrary nature of PRO<sub><i>arb</i>
+</sub> does not need to be stipulated. Instead, they propose the quantificational force comes from the presence of genericity. Evidence comes from the fact that &lsquo;uncontrolled&rsquo; PRO does not always have a universal/arbitrary (&equals; <i>arb</i>) interpretation. The <i>arb</i> interpretation is only available in generic environments. In episodic environments, the &lsquo;uncontrolled&rsquo; PRO picks its interpretation from the local context:</p>
+<p>(72)&ensp;<object id="tu54" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu54_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>It is difficult &lsqb;PRO<i><sub>arb</sub>
+</i> to dance the dance&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>This morning, it was difficult &lsqb;PRO to dance the tango&rsqb; since the floor was slippery and we were all hungover.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (72a, b), the PRO is controlled by the implicit argument of <i>difficult</i>. However, in (72a), the implicit argument is bound by a generic operator, and this is why the PRO in (72a) has an <i>arb</i> interpretation. (72b) receives an episodic interpretation and there is no a generic operator to bind the implicit argument. Consequently the implicit argument picks up its reference from the local discourse context. This is part of the general context-sensitivity of implicit arguments. See <link rid="b40">Condoravdi and Gawron (1996</link>) for details.</p>
+<p>There are locality constraints on the relation between the implicit argument and the PRO it controls. The implicit argument that controls the PRO needs to be in the immediately higher predicate. This is shown by the contrast in (73):</p>
+<p>(73)&ensp;<object id="tu55" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu55_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*It is easy to be likely to dance the tango.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>It is likely to be easy to dance the tango.</entry>
+<entry>(from <link rid="b39">Bhatt and Izvorski 1998</link>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (73b), the implicit argument of <i>easy</i> can act as a local controller. In (73a), however, the implicit argument of <i>easy</i> is unable to act as a controller for the PRO because of the intervening predicate <i>likely</i>, which does not provide a controller. On the basis of the above data, <link rid="b39">Bhatt and Izvorski (1998</link>) conclude that PRO can receive an <i>arb</i> interpretation iff there is a generically bound implicit argument in the immediately higher predicate.</p>
+</subsection>
+<subsection id="ss14" level="1">
+<heading id="h13" level="1">6&ensp;Arguments of modals</heading>
+<p>Since <link rid="b41">Ross (1969a</link>), <link rid="b42">Perlmutter (1971</link>), <link rid="b43">Jackendoff (1972</link>), and <link rid="b5">Kratzer (1991</link>), among many others, we have known that modals fall into two two classes with respect to whether or not they have a non-propositional argument, which has sometimes been called their external argument. Epistemic modals are semantically monadic; they only take a proposition as an argument. In contrast, deontic modals may be semantically monadic, taking a proposition, or semantically dyadic, taking a proposition and an individual. In <link rid="b44">Brennan&apos;s (1993</link>) terms, this is the contrast between <i>ought to be</i> deontic modality and <i>ought to do</i> deontic modality.</p>
+<p>
+<link rid="b39">Bhatt and Izvorski (1998</link>) argue that cases of PRO<sub><i>arb</i>
+</sub> in infinitival questions can also be assimilated to control of PRO by an implicit argument:</p>
+<p>(74)&ensp;<object id="tu56" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu56_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Bill knows &lsqb;how PRO<i><sub>arb</sub>
+</i> to behave onself&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Matt<i><sub>i</sub>
+</i> knows &lsqb;what PRO<i><sub>i/arb</sub>
+</i> to do with his<i><sub>i</sub>
+</i>/one&apos;s life&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Infinitival questions are always modal and the covert modality that surfaces in them is never epistemic. This is shown by the fact that (75) cannot be paraphrased as &lsquo;Hafdis know how fast it is possible to drive on I-95&rsquo;:</p>
+<p>(75)&ensp;Hafdis knows &lsqb;how fast PRO to drive on I-95&rsqb;.&ensp;&ensp;(from <link rid="b45">Bhatt 1999</link>)</p>
+<p>Since the covert modality in infinitival questions is always deontic, the modal can have implicit arguments, and these implicit arguments can control the PRO. When the implicit arguments are bound by a generic operator, we get what is usally called PRO<sub><i>arb</i>
+</sub>, and when it is associated with the matrix subject, we have Control.</p>
+<p>The role of modality in contributing an implicit argument that can participate in Control is also shown by the paradigm in (76):</p>
+<p>(76)&ensp;<object id="tu57" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu57_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*The books were sold &lsqb;without PRO reading them&rsqb;.</entry>
+<entry>(from <link rid="b3">Chomsky 1982</link> via <link rid="b4">Williams 1985</link>)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The books can be sold &lsqb;without PRO reading them&rsqb;.</entry>
+<entry>(from <link rid="b3">Chomsky 1982</link> via <link rid="b4">Williams 1985</link>)</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*The books might have been sold &lsqb;without PRO reading them&rsqb;.</entry>
+<entry>(from <link rid="b5">Kratzer 1991</link>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The contrast between (76a) and (76b) has already been discussed in <link rid="ss11">section 3.3.2</link>. Let us focus on the contrast between (76b) and (76c). The modal in (76b) is a deontic modal and so it can have an implicit argument that can serve as a controller. This possibility is unavailable in (76c), where the modal is epistemic and does not have implicit argument. Consequently (76c) is ungrammatical.</p>
+<p>As with other instances of implicit arguments, there seems to be no consensus regarding whether the implicit arguments need to be syntactically projected. <link rid="b41">Ross (1969a</link>), <link rid="b42">Perlmutter (1971</link>), and <link rid="b43">Jackendoff (1972</link>), among many others, proposed that what we have been calling the implicit argument of a deontic modal is really not implicit at all. They assume a Control structure like in (77):</p>
+<p>(77)&ensp;John<sub><i>i</i>
+</sub> must &lsqb;PRO<sub><i>i</i>
+</sub> leave&rsqb;.</p>
+<p>The subject of the modal is taken to be the bearer of the obligation. In recent work, this assumption has been questioned in <link rid="b46">Bhatt (1997</link>) and <link rid="b47">Wurmbrand (1999a</link>). Both authors argue that there are environments where the bearer of the obligation is not syntactically represented (cf. 78):</p>
+<p>(78)&ensp;There must be fifty chairs in this room by 5 p.m. (said to a caterer)</p>
+<p>In (78), it is clear that the caterer is the bearer of the obligation, and yet the bearer is not part of the syntactic representation. This is enough to show that at least in some cases, the so-called external argument of a deontic modal does not have an obvious syntactic realization. Both <link rid="b46">Bhatt (1997</link>) and <link rid="b47">Wurmbrand (1999a</link>) provide additional arguments that modals, deontic or epistemic, never have external arguments; i.e., the bearer of the obligation is never represented syntactically. The bearer of the obligation (&equals; the implicit argument) does have a role to play in the semantics and is identified pragmatically.</p>
+</subsection>
+<subsection id="ss15" level="1">
+<heading id="h14" level="1">7&ensp;Conclusion</heading>
+<p>In <link rid="ss3 ss6 ss12 ss13 ss14">sections 2&ndash;6</link>, we saw a range of syntactic environments which have been argued to involve implicit arguments. In each of these environments, we investigated whether the putative implicit arguments were syntactically active and whether they were syntactically realized. That implicit arguments are syntactically active was shown to be the case &ndash; implicit arguments can control, they are subject to Binding Theory, and some of them can be bound/controlled. The evidence concerning the question of whether implicit arguments are syntactically realized or not is, however, more equivocal. Unlike <link rid="b4 b27">Williams (1985, 1987b</link>), we are unable to conclude that implicit arguments are not projected syntactically. However, we are also unable to conclude that the environments discussed in <link rid="ss3 ss6 ss12 ss13 ss14">sections 2&ndash;6</link> must involve syntactic projection of the implicit arguments.</p>
+<p>We find the existence of elements that are syntactically active but not syntactically projected conceptually problematic. In order to allow for elements that are syntactically active without having a syntactic realization, Binding Theory and Control Theory need to be modified. Otherwise, implicit arguments would be invisible to these modules of the grammar. Assuming syntactic realization in the form of a null pronoun (PRO/<i>pro</i>) allows us to keep Binding Theory and Control Theory unchanged. This can be taken as an argument in favor of syntactic realization of implicit arguments. Indeed this proposal has been made by several of the scholars working on implicit arguments &ndash; for passives see <link rid="b12">Borer (1998</link>), for null objects in Italian see <link rid="b1">Rizzi (1986a</link>), for evaluative adjectives see <link rid="b11">Epstein (1984</link>), and for implicit agents of nouns see <link rid="b2">Roeper (1987a</link>).</p>
+<p>Toward the beginning of this chapter, we noted that implicit arguments did not form a unified class. This point continues to hold even if we assume that implicit arguments are uniformly syntactically projected. Implicit arguments differ in their interpretation. Implicit arguments of passives receive an existential interpretation, while the interpretation of implicit locative arguments of unaccusatives and implicit comparison classes is context-dependent. In <link rid="ss13">section 5</link>, it was noted that implicit arguments of evaluative predicates can receive both context-dependent and <i>arb</i>/generic interpretation. Finally, while null dative objects in English (<i>John said to leave</i>) are context-dependent, the null objects in Italian discussed in <link rid="ss12">section 4</link> can only receive <i>arb</i> interpretation.</p>
+<p>This difference in interpretation has consequences for whether an implicit argument can be bound or not. <link rid="b48">Partee (1989</link>) notes that certain implicit arguments of nouns can be bound:</p>
+<p>(79)&ensp;<object id="tu58" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu58_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry namest="col1" nameend="col2">
+<b>Implicit contextual variables (cf. <link rid="b49">Mitchell 1986</link>; <link rid="b48">Partee 1989</link>):</b>
+</entry>
+</row>
+<row><entry>a.</entry>
+<entry>John visited a local bar.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Every sports fan in the country was at a local bar watching the play-offs.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Every participant had to confront and defeat an enemy.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>She also notes that these implicit variables pattern with overt bound pronouns in displaying weak crossover effects:</p>
+<p>(80)&ensp;<object id="tu59" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu59_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&num;?The leader of the local union wrote a letter to every untenured professor in the state.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Every untenured professor in the state received a letter from the leader of the local union.</entry>
+<entry>(from <link rid="b48">Partee 1989</link>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(81)&ensp;<object id="tu60" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu60_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry namest="col1" nameend="col2">
+<b>Implicit arguments (from <link rid="b48">Partee 1989</link>):</b>
+</entry>
+</row>
+<row><entry>a.</entry>
+<entry>Only the nearest photographer got a good picture of Reagan.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&num;?Only the nearest photographer got a good picture of every senator.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Every senator directed a smile at the nearest photographer.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(82)&ensp;<object id="tu61" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu61_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry namest="col1" nameend="col2">
+<b>Overt pronouns (from <link rid="b48">Partee 1989</link>):</b>
+</entry>
+</row>
+<row><entry>a.</entry>
+<entry>Only his top aide got a good picture of Reagan.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&num;?Only his top aide got a good picture of every senator.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Every senator directed a smile at his top aide.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>If lexical representations do not contain free variables, the existence of bound readings is an argument for the structural representation of the above implicit arguments.<link rid="fn13">
+<sup>13</sup></link>
+</p>
+<p>What is of particular interest here is that the implicit agent of a passive cannot be bound at all:</p>
+<p>(83)&ensp;<object id="tu62" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu62_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Every journalist wants &lsqb;Kylie to be interviewed&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Every journalist wants &lsqb;Kylie to be interviewed by him&rsqb;.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Every journalist wants &lsqb;Kylie to be interviewed by someone&rsqb;.</entry>
+</row>
+<row><entry namest="col1" nameend="col2">(83a) &ne; (83b), (83a) &ap; (83c)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The absence of the bound reading is further brought out in (84):</p>
+<p>(84)&ensp;<object id="tu63" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu63_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Every journalist wants &lsqb;Kylie to be interviewed&rsqb;, &num; not anyone else.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Every journalist wants &lsqb;Kylie to be interviewed by him&rsqb;, not anyone else.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Every journalist wants &lsqb;himself to interview Kylie&rsqb;, not anyone else.</entry>
+</row>
+<row><entry namest="col1" nameend="col2">(&num; indicates that the contrast cannot be with the journalist.)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The absence of a bound reading follows once we note that these implicit arguments are existentially bound. It is worth noting here that a proper treatment of the implicit argument of a passive as existentially bound will need to account for the fact that these implicit arguments do not support discourse anaphora. The proposal developed by <link rid="b50">Koenig and Mauner (1999</link>) handles this property of passive implicit arguments. An analysis will also need to handle cases where there is an overt <i>by</i> phrase as well as cases like <i>Attention needs to be paid to oneself</i>, where the implicit argument has arbitrary interpretation and is probably bound by a generic operator.</p>
+<p>The case of implicit arguments of nouns is tricky. At first it seems that variable Binding of the implicit argument is possible:</p>
+<p>(85)&ensp;John/Every student made an attempt &lsqb;PRO to leave&rsqb;. (<i>John</i> is the attempter, <i>every student</i> binds the implicit argument.)</p>
+<p>But note that unlike variable Binding, there is no optionality here. No one else could have been the <i>attempter</i>. This is more akin to <i>Control</i>. There also seem to be locality considerations: Binding/Control of the implicit argument only seem to be possible when the noun in question is a co-argument of the binder/controller, as in (85):</p>
+<p>(86)&ensp;<object id="tu64" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu64_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Annie believes that the attempt &lsqb;PRO to leave&rsqb; was unsuccessful.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Annie believes that her attempt &lsqb;PRO to leave&rsqb; was unsuccessful.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Annie believes that the unique contextually salient attempt by someone to leave was unsuccessful.</entry>
+</row>
+<row><entry namest="col1" nameend="col2">(86a) &ne; (86b), (86a) &ap; (86c)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The general pattern found here can be described as follows. The implicit arguments of nouns can be combined with the embedding predicate. If this does not happen, the arguments are existentially quantified and cannot be bound from above.</p>
+<p>Even though we will not report on the bindability of the other cases of implicit arguments discussed in this chapter, on the basis of our examination of these cases we can nevertheless say that implicit arguments do not form a unified class with respect to variable Binding. Whether a particular implicit argument can be bound and, if it can, what the exact conditions under which it can be bound are depends upon the particular properties of the implicit argument under study.</p>
+</subsection>
+<subsection id="ss16" level="1">
+<heading id="h15" level="1">NOTES</heading>
+<p>
+<span id="fn1">
+<number>1&emsp;</number>The above list is not intended to be exhaustive. <link rid="b51">Larson (1988a</link>) uses the term &lsquo;implicit argument&rsquo; more generally to cover, in addition to the cases discussed in the main text, optional but non-iterable phrases such as phrases of source, path, goal, and instrumentality:</span>
+</p>
+<p>(i)&ensp;<object id="tu65" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu65_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John ran (<i><sub>Source</sub>
+</i> from the house) (<i><sub>Goal</sub>
+</i> to the store) (<i><sub>Path</sub>
+</i> along the river).</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John cut the salami (<i><sub>Instrument</sub>
+</i> with a knife).</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Also relevant are cases of possessor raising, which have been analyzed as involving nominals with an implicit possessor argument (cf. <link rid="b52">Hole 2005</link>), degree arguments of adjectives, implicit contextual variables (cf. <link rid="b49">Mitchell 1986</link>; <link rid="b48">Partee 1989</link>), and implicit contextual restrictions/situation variables (cf. <link rid="b53">Kratzer 2004</link>).</p>
+<p>
+<span id="fn2">
+<number>2&emsp;</number>Approaching this question from a more semantic angle, <link rid="b54">Engelberg (2002</link>: 375) offers the following characterization:</span>
+</p>
+<p>(i)&ensp;a verb&apos;s predicate constant has an implicit argument iff either (i) the verb has a variant with an explicit argument (i.e., an argument that gets syntactically realized) in the same semantic realization or (ii) there is a morphologically related verb with an explicit argument in the same semantic relation.</p>
+<p>This is perhaps a good place to point out that the focus of this chapter will be limited to syntactic and, to a more limited extent, semantic properties of implicit arguments. We will not delve into the rich psycholinguistic literature on this topic, such as <link rid="b55">H&auml;rtl (2003</link>), and in particular a vital body of work developed by Jean-Pierre Koenig and Gail Mauner (see <link rid="b56">Mauner and Koenig 2000</link> as a point of entry), which has important implications for the question of whether there are implicit arguments in passives, middles, and unaccusatives respectively.</p>
+<p>
+<span id="fn3">
+<number>3&emsp;</number>Our attention here is restricted to passives whose implicit argument is an agent. Implicit arguments of passives are not restricted to being agents, e.g., experiencers (cf. i):</span>
+</p>
+<p>(i)&ensp;The noise was heard at a great distance.</p>
+<p>
+<span id="fn4">
+<number>4&emsp;</number>The following example reveals that the notion of agency relevant here needs to be broad enough to include non-animate causers:</span>
+</p>
+<p>(i)&ensp;The part was automatically rotated to insert four screws.&ensp;(Tom Roeper, p.c.)</p>
+<p>
+<span id="fn5">
+<number>5&emsp;</number>It might seem that it is the adverb <i>easily</i> in (21a) that contributes the agentive interpretation. That this is not the case is shown by (i):</span>
+</p>
+<p>(i)&ensp;The ship sank easily.</p>
+<p>The presence of <i>easily</i> in (i) does not force an agentive interpretation.</p>
+<p>
+<span id="fn6">
+<number>6&emsp;</number>The example improves considerably with the addition of <i>well</i>: &lsquo;These books don&apos;t sell well for the average shopkeeper.&rsquo; Further, there are also speakers for whom (24a) is grammatical.</span>
+</p>
+<p>
+<span id="fn7">
+<number>7&emsp;</number>There is a rich literature on middle and passive constructions involving <i>si</i> in the Romance languages. The discussion in <link rid="b57">Cinque (1988</link>) seems to suggest that <i>si</i> constructions in Italian, which can be both middles and passives, allow Control when the <i>si</i> construction can be passive but not when it can only be a middle. See <link rid="b57">Cinque (1988</link>), <link rid="b58">Vinet (1988</link>), and <link rid="b59 b60">Dobrovie-Sorin (1994a, 1998</link>) for details.</span>
+</p>
+<p>
+<span id="fn8">
+<number>8&emsp;</number>It is likely that the hearers-as-narrators reading is ruled out by the pragmatics of the verb <i>hear</i>. It is hard to construe <i>John heard a story about Mary</i> as John hearing a story about Mary where John is the narrator of the story. Presumably whatever makes it hard to construe the hearer as the narrator here can be used to block this reading in (36b). Then we can dispense with the implicit argument in (36b) or equivalently assume it to be fully optional. This point is relevant for the discussion of optionality at the end of this section.</span>
+</p>
+<p>
+<span id="fn9">
+<number>9&emsp;</number>Note that all these examples are plausibly analyzed as involving &lsquo;light&rsquo; verbs, e.g., <i>take</i>, <i>perform</i>, <i>undergo</i>, <i>give</i>. Arguably the noun-phrase complement of a light verb contributes to the argument structure in a way that is different from what its contribution would be if it were an ordinary argument DP.</span>
+</p>
+<p>
+<span id="fn10">
+<number>10&emsp;</number>
+<link rid="b29">Lasersohn (1997</link>) shows that the semantic contribution of existentially quantified implicit arguments differs from the semantic contribution of deictic implicit arguments with regard to distributivity.</span>
+</p>
+<p>
+<span id="fn11">
+<number>11&emsp;</number>We find <i>The movie was watched nude</i>, which is parallel to (56a), acceptable. However, it seems a much greater stretch to refer to a movie that is watched nude as a nude movie.</span>
+</p>
+<p>
+<span id="fn12">
+<number>12&emsp;</number>Closely related to Bach&apos;s Generalization is Visser&apos;s Generalization that verbs do not passivize when they involve subject Control. (cf. i):</span>
+</p>
+<p>(i)&ensp;<object id="tu66" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu66_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*It was preferred &lsqb;PRO to leave&rsqb;. (vs. He<i><sub>i</sub>
+</i> preferred &lsqb;PRO<i><sub>i</sub>
+</i> to leave&rsqb;.)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*It was tried &lsqb;PRO to leave&rsqb;. (vs. He<i><sub>i</sub>
+</i> tried &lsqb;PRO<i><sub>i</sub>
+</i> to leave&rsqb;).</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>That the reason behind the ungrammaticality of (ia, b) is subject Control can be demonstrated by considering a verb like <i>promise</i> that takes both finite and infinitival complements:</p>
+<p>(ii)&ensp;<object id="tu67" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu67_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="1" valign="top">a.</entry>
+<entry>John<i><sub>i</sub>
+</i> promised Mary &lsqb;PRO<i><sub>i</sub>
+</i> to be on time&rsqb;.</entry>
+</row>
+<row><entry>John promised Mary that he would be on time.</entry>
+</row>
+<row><entry morerows="1" valign="top">b.</entry>
+<entry>*Mary was promised by John<i><sub>i</sub>
+</i> &lsqb;PRO<i><sub>i</sub>
+</i> to be on time&rsqb;.</entry>
+</row>
+<row><entry>Mary was promised by John that he would be on time.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>When there is no problem associated with Control, it is possible to passivize <i>promise</i>, as the contrast in (iib) shows.</p>
+<p>As <link rid="b34">Bresnan (1982a</link>) points out, Visser&apos;s Generalization is to subjects what Bach&apos;s Generalization is to objects. Certain counter-examples to both Visser&apos;s Generalization (cf. iii) and Bach&apos;s Generalization (cf. iv) have been noted in the literature:</p>
+<p>(iii)&ensp;<object id="tu68" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu68_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Mary was never promised to be allowed to leave.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>It was decided to leave.</entry>
+<entry>(from Bresnan 1982a)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(iv)&ensp;Louise signaled (Tom) to follow her.</p>
+<p>
+<link rid="b34">Bresnan (1982a</link>) suggests that the exceptions in (iii, iv) involve <i>anaphoric</i> Control, a form of Control that is distinct from <i>functional</i> Control. Bach&apos;s Generalization and Visser&apos;s Generalization, she argues, follow from the properties of functional Control, but not of anaphoric Control.</p>
+<p>The ungrammaticality of (iib) could be due to the failure of a passive implicit argument to control the subject of its infinitival complement, but alternatively it could be due to the failure of certain subject Control predicates to passivize, for currently unknown reasons. The latter seems more likely because some subject Control predicates can in fact passivize and with them the implicit argument can control (cf. iiia/b).</p>
+<p>
+<span id="fn13">
+<number>13&emsp;</number>This is not, however, the conclusion that <link rid="b48">Partee (1989</link>) comes to herself.</span>
+</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss17" level="1" type="references">
+<heading id="h16" level="1">REFERENCES</heading>
+<reference id="b21" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Ackema</surname><x>, </x><forenames>Peter</forenames>
+</name><x> and </x><name type="author">
+<forenames>Maaike</forenames><x> </x><surname>Schoorlemmer</surname>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Middles and Non-Movement</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>26</volume><x>: </x><page type="first">173</page><x>&ndash;</x><page type="last">197</page><x>.</x>
+</reference>
+<reference id="b9" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Alexiadou</surname><x>, </x><forenames>Artemis</forenames>
+</name><x> and </x><name type="author">
+<forenames>Elena</forenames><x> </x><surname>Anagnostopoulou</surname>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">Parametrizing AGR: Word Order, V-Movement and EPP-Checking</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>16</volume><x>: </x><page type="first">491</page><x>&ndash;</x><page type="last">539</page><x>.</x>
+</reference>
+<reference id="b33" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bach</surname><x>, </x><forenames>Emmon</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date><x>). </x><title type="document">Control in Montague Grammar</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>10</volume><x>: </x><page type="first">515</page><x>&ndash;</x><page type="last">531</page><x>.</x>
+</reference>
+<reference id="b13" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Baker</surname><x>, </x><forenames>Mark</forenames>
+</name><x>, </x><name type="author">
+<forenames>Kyle</forenames><x> </x><surname>Johnson</surname>
+</name><x>, and </x><name type="author">
+<forenames>Ian</forenames><x> </x><surname>Roberts</surname>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">Passive Arguments Raised</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>20</volume><x>: </x><page type="first">219</page><x>&ndash;</x><page type="last">251</page><x>.</x>
+</reference>
+<reference id="b46" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Bhatt</surname><x>, </x><forenames>Rajesh</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Obligation and Possession</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the MIT Round Table on Argument Structure</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Heidi</forenames><x> </x><surname>Harley</surname>
+</name>
+<miscellaneoustext> (ed.)</miscellaneoustext><x>.</x>
+</namegroup><x> </x><address>Cambridge</address><x>: </x><publisher>MIT</publisher><x>.</x>
+</reference>
+<reference id="b45" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Bhatt</surname><x>, </x><forenames>Rajesh</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date>
+<miscellaneoustext>). Covert Modality in Non-Finite Contexts. PhD dissertation, Philadelphia, University of Pennsylvania</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b39" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Bhatt</surname><x>, </x><forenames>Rajesh</forenames>
+</name><x> and </x><name type="author">
+<forenames>Roumyana</forenames><x> </x><surname>Izvorski</surname>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">Genericity, Implicit Arguments and Control</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="other">Proceedings of the Student Conference in Linguistics 7</title><x>.</x>
+</reference>
+<reference id="b12" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Borer</surname><x>, </x><forenames>Hagit</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">Deriving Passive Without Theta Roles</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Morphology and its Relation to Phonology and Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Stephen</forenames><x> </x><surname>LaPointe</surname>
+</name><x>, </x><name type="editor">
+<forenames>Diane</forenames><x> </x><surname>Brentari</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Patrick</forenames><x> </x><surname>Farrell</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">60</page><x>&ndash;</x><page type="last">110</page><x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications</publisher><x>.</x>
+</reference>
+<reference id="b44" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Brennan</surname><x>, </x><forenames>Virginia</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date>
+<miscellaneoustext>). Root and Epistemic Modal Auxiliary Verbs. PhD dissertation, University of Massachusetts</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b34" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bresnan</surname><x>, </x><forenames>Joan</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982a</date><x>). </x><title type="document">Complementation and Control</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>13</volume><x>: </x><page type="first">343</page><x>&ndash;</x><page type="last">434</page><x>.</x>
+</reference>
+<reference id="b7" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Chierchia</surname><x>, </x><forenames>Gennaro</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984b</date>
+<miscellaneoustext>). Topics in the Syntax and Semantics of Infinitives and Gerunds. PhD dissertation, University of Massachusetts</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b3" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="book">Some Concepts and Consequences of the Theory of Government and Binding</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b28" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986b</date><x>). </x><title type="book">Knowledge of Language: Its Nature, Origin and Use</title><x>. </x><address>New York</address><x>: </x><publisher>Praeger</publisher><x>.</x>
+</reference>
+<reference id="b57" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">On <i>Si-</i>Constructions and the Theory of Arb</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>19</volume><x>: </x><page type="first">521</page><x>&ndash;</x><page type="last">581</page><x>.</x>
+</reference>
+<reference id="b18" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Condoravdi</surname><x>, </x><forenames>Cleo</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">The Middle: Where Semantics and Morphology Meet</title><x>. </x><title type="journal">MIT Working Papers in Linguistics</title><x> </x><volume>11</volume><x>: </x><page type="first">16</page><x>&ndash;</x><page type="last">30</page><x>.</x>
+</reference>
+<reference id="b40" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Condoravdi</surname><x>, </x><forenames>Cleo</forenames>
+</name><x> and </x><name type="author">
+<forenames>Jean<x> </x>Mark</forenames><x> </x><surname>Gawron</surname>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="document">The Context-Dependency of Implicit Arguments</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Quantifiers, Deduction, and Context</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Makoto</forenames><x> </x><surname>Kanazawa</surname>
+</name><x>, </x><name type="editor">
+<forenames>Christopher<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Pi&ntilde;&oacute;n</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Henri&euml;tte</forenames><x> </x><surnameprefix>de</surnameprefix><x> </x><surname>Swart</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">1</page><x>&ndash;</x><page type="last">32</page><x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications</publisher><x>.</x>
+</reference>
+<reference id="b59" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Dobrovie-Sorin</surname><x>, </x><forenames>Carmen</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994a</date><x>). </x><title type="document">On Impersonal <i>Se/Si</i> in Romanian, French and Italian</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Paths Towards Universal Grammar: Studies in Honor of Richard S<x>. </x>Kayne</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Guglielmo</forenames><x> </x><surname>Cinque</surname>
+</name><x>, </x><name type="editor">
+<forenames>Jan</forenames><x> </x><surname>Koster</surname>
+</name><x>, </x><name type="editor">
+<forenames>Jean-Yves</forenames><x> </x><surname>Pollock</surname>
+</name><x>, </x><name type="editor">
+<forenames>Luigi</forenames><x> </x><surname>Rizzi</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Raffaella</forenames><x> </x><surname>Zanuttini</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">137</page><x>&ndash;</x><page type="last">153</page><x>. </x><address>Washington, DC</address><x>: </x><publisher>Georgetown University Press</publisher><x>.</x>
+</reference>
+<reference id="b60" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Dobrovie-Sorin</surname><x>, </x><forenames>Carmen</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">Impersonal <i>Se</i> Constructions in Romance and the Passivization of Unergatives</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>29/3</volume><x>: </x><page type="first">399</page><x>&ndash;</x><page type="last">438</page><x>.</x>
+</reference>
+<reference id="b54" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Engelberg</surname><x>, </x><forenames>Stefan</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="document">Intransitive Accomplishments and the Lexicon: The Role of Implicit Arguments, Definiteness, and Reflexivity in Aspectual Composition</title><x>. </x><title type="journal">Journal of Semantics</title><x> </x><volume>19</volume><x>: </x><page type="first">369</page><x>&ndash;</x><page type="last">416</page><x>.</x>
+</reference>
+<reference id="b11" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Epstein</surname><x>, </x><forenames>Samuel</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">Quantifier-Pro and the LF Representation of PROarb</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>15</volume><x>: </x><page type="first">499</page><x>&ndash;</x><page type="last">505</page><x>.</x>
+</reference>
+<reference id="b19" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Fagan</surname><x>, </x><forenames>Sarah<x> </x>M<x>. </x>B<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="book">The Syntax and Semantics of Middle Constructions: A Study with Special Reference to German</title><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Fiengo</surname><x>, </x><forenames>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="book">Surface Structure</title><x>. </x><address>Boston</address><x>: </x><publisher>Harvard University Press</publisher><x>.</x>
+</reference>
+<reference id="b55" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>H&auml;rtl</surname><x>, </x><forenames>Holden</forenames>
+</name>
+</namegroup><x> (</x><date date="2003">2003</date><x>). </x><title type="document">The Conceptual Inactiveness of Implicit Arguments: Evidence from Particle Verbs and Object Categorization</title><x>. </x><title type="journal">Journal of Semantics</title><x> </x><volume>20/1</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">33</page><x>.</x>
+</reference>
+<reference id="b23" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hoekstra</surname><x>, </x><forenames>Teun</forenames>
+</name><x> and </x><name type="author">
+<forenames>Ian</forenames><x> </x><surname>Roberts</surname>
+</name>
+</namegroup><x> (</x><date date="1993">1993b</date><x>). </x><title type="document">Middle Constructions in Dutch and English</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Knowledge and Language II: Lexical and Conceptual Structure</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name><x> and </x><name type="editor">
+<forenames>Werner</forenames><x> </x><surname>Abraham</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">183</page><x>&ndash;</x><page type="last">220</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b52" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Hole</surname><x>, </x><forenames>Daniel</forenames>
+</name>
+</namegroup><x> (</x><date date="2005">2005</date><x>). </x><title type="document">Extra Argumentality: A Binding Account of &lsquo;Possessor Raising&rsquo; in English, German, and Mandarin</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="other">Possessives and Beyond: Semantics and Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ji-Yung</forenames><x> </x><surname>Kim</surname>
+</name><x>, </x><name type="editor">
+<forenames>Yuri<x> </x>A<x>.</x>
+</forenames><x> </x><surname>Lander</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Barbara<x> </x>H<x>.</x>
+</forenames><x> </x><surname>Partee</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup>
+<x>.</x><miscellaneoustext>). Amherst Graduate Linguistics Student Association</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b43" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Jackendoff</surname><x>, </x><forenames>Ray</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972</date><x>). </x><title type="book">Semantic Interpretation in Generative Grammar</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b10" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Jackendoff</surname><x>, </x><forenames>Ray</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">The Status of Thematic Relations in Linguistic Theory</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>18</volume><x>: </x><page type="first">369</page><x>&ndash;</x><page type="last">412</page><x>.</x>
+</reference>
+<reference id="b31" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Kawasaki</surname><x>, </x><forenames>Noriko</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date>
+<miscellaneoustext>). Control and Arbitrary Interpretation in English</miscellaneoustext><x>. </x>
+<publisher>PhD dissertation, Amherst, University of Massachusetts.</publisher>
+</reference>
+<reference id="b16" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Keyser</surname><x>, </x><forenames>Samuel<x> </x>J<x>.</x>
+</forenames>
+</name><x> and </x><name type="author">
+<forenames>Thomas</forenames><x> </x><surname>Roeper</surname>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">On the Middle and Ergative Constructions in English</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>15</volume><x>: </x><page type="first">381</page><x>&ndash;</x><page type="last">416</page><x>.</x>
+</reference>
+<reference id="b8" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Klein</surname><x>, </x><forenames>Ewan</forenames>
+</name><x> and </x><name type="author">
+<forenames>Ivan</forenames><x> </x><surname>Sag</surname>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">Type Driven Translation</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>8</volume><x>: </x><page type="first">163</page><x>&ndash;</x><page type="last">202</page><x>.</x>
+</reference>
+<reference id="b50" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Koenig</surname><x>, </x><forenames>Jean-Pierre</forenames>
+</name><x> and </x><name type="author">
+<forenames>Gail</forenames><x> </x><surname>Mauner</surname>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">A-Definites and the Discourse Status of Implicit Arguments</title><x>. </x><title type="journal">Journal of Semantics</title><x> </x><volume>16</volume><x>: </x><page type="first">207</page><x>&ndash;</x><page type="last">236</page><x>.</x>
+</reference>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kratzer</surname><x>, </x><forenames>Angelika</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Modality</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Semantics: An International Handbook of Contemporary Research</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Arnim</forenames><x> </x><surnameprefix>von</surnameprefix><x> </x><surname>Stechow</surname>
+</name><x> and </x><name type="editor">
+<forenames>Dieter</forenames><x> </x><surname>Wunderlich</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>Berlin</address><x>: </x><publisher>de Gruyter</publisher><x>.</x>
+</reference>
+<reference id="b53" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Kratzer</surname><x>, </x><forenames>Angelika</forenames>
+</name>
+</namegroup><x> (</x><date date="2004">2004</date>
+<miscellaneoustext>). Covert Quantifier Restrictions in Natural Languages. Handout of talk presented in Gargnano, Italy</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b32" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Landau</surname><x>, </x><forenames>Idan</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">Control and Extraposition: The Case of Super-Equi. Natural</title><x>. </x><title type="journal">Language and Linguistic Theory</title><x> </x><volume>19/1</volume><x>: </x><page type="first">109</page><x>&ndash;</x><page type="last">152</page><x>.</x>
+</reference>
+<reference id="b51" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Larson</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988a</date><x>). </x><title type="document">Implicit Arguments in Situation Semantics</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>11</volume><x>: </x><page type="first">169</page><x>&ndash;</x><page type="last">201</page><x>.</x>
+</reference>
+<reference id="b29" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lasersohn</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Lexical Distributivity and Implicit Arguments</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of SALT III</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Utpal</forenames><x> </x><surname>Lahiri</surname>
+</name><x> and </x><name type="editor">
+<forenames>Adam<x> </x>Zachary</forenames><x> </x><surname>Wyner</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">145</page><x>&ndash;</x><page type="last">161</page><x>. </x><address>Ithaca</address><x>: </x><publisher>Cornell University Press</publisher><x>.</x>
+</reference>
+<reference id="b14" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Manzini</surname><x>, </x><forenames>Maria<x> </x>Rita</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983a</date><x>). </x><title type="document">On Control and Control Theory</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>14</volume><x>: </x><page type="first">421</page><x>&ndash;</x><page type="last">446</page><x>.</x>
+</reference>
+<reference id="b30" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Manzini</surname><x>, </x><forenames>Maria<x> </x>Rita</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986a</date><x>). </x><title type="document">On Control and Binding Theory</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society 16</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Stephen</forenames><x> </x><surname>Berman</surname>
+</name><x>, </x><name type="editor">
+<forenames>Jae-Woong</forenames><x> </x><surname>Choe</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Joyce</forenames><x> </x><surname>McDonough</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">322</page><x>&ndash;</x><page type="last">337</page><x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association.</publisher>
+</reference>
+<reference id="b35" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Manzini</surname><x>, </x><forenames>Maria<x> </x>Rita</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992b</date><x>). </x><title type="document">The Projection Principle(s): A Reexamination</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Thematic Structure: Its Role in Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Iggy</forenames><x> </x><surname>Roca</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">271</page><x>&ndash;</x><page type="last">291</page><x>. </x><address>Berlin</address><x>: </x><publisher>Mouton</publisher><x>.</x>
+</reference>
+<reference id="b24" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Marantz</surname><x>, </x><forenames>Alec</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="book">On the Nature of Grammatical Relations</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b56" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Mauner</surname><x>, </x><forenames>Gail</forenames>
+</name><x> and </x><name type="author">
+<forenames>Jean-Pierre</forenames><x> </x><surname>Koenig</surname>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">Linguistic vs. Conceptual Sources of Implicit Agents in Sentence Comprehension</title><x>. </x><title type="journal">Journal of Memory and Language</title><x> </x><volume>34</volume><x>: </x><page type="first">110</page><x>&ndash;</x><page type="last">134</page><x>.</x>
+</reference>
+<reference id="b49" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Mitchell</surname><x>, </x><forenames>Jonathan<x> </x>E<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date>
+<miscellaneoustext>). The Formal Semantics of Point of View. PhD dissertation, Amherst, University of Massachusetts</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b48" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Partee</surname><x>, </x><forenames>Barbara<x> </x>H<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">Binding Implicit Variables in Quantified Contexts</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Twenty-fifth Regional Meeting of the Chicago Linguistic Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Caroline</forenames><x> </x><surname>Wiltshire</surname>
+</name><x>, </x><name type="editor">
+<forenames>Randolph</forenames><x> </x><surname>Graczyk</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Bradley</forenames><x> </x><surname>Music</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">342</page><x>&ndash;</x><page type="last">356</page><x>. </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society</publisher><x>.</x>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Partee</surname><x>, </x><forenames>Barbara<x> </x>H<x>.</x>
+</forenames>
+</name><x> and </x><name type="author">
+<forenames>Emmon</forenames><x> </x><surname>Bach</surname>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="document">Anaphora and Semantic Structure</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Sixteenth Regional Meeting of the Chicago Linguistic Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jody</forenames><x> </x><surname>Kreiman</surname>
+</name><x> and </x><name type="editor">
+<forenames>Almerindo<x> </x>E<x>.</x>
+</forenames><x> </x><surname>Ojeda</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society</publisher><x>.</x>
+</reference>
+<reference id="b42" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Perlmutter</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1971">1971</date><x>). </x><title type="book">Deep and Surface Structure Constraints in Syntax</title><x>. </x><address>New York</address><x>: </x><publisher>Holt, Rinehart and Winston.</publisher>
+</reference>
+<reference id="b25" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Rapoport</surname><x>, </x><forenames>Tova<x> </x>R<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999a</date><x>). </x><title type="document">The English Middle and Agentivity</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>30/1</volume><x>: </x><page type="first">147</page><x>&ndash;</x><page type="last">155</page><x>.</x>
+</reference>
+<reference id="b1" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Rizzi</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986a</date><x>). </x><title type="document">Null Objects in Italian and the Theory of Pro</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>17</volume><x>: </x><page type="first">501</page><x>&ndash;</x><page type="last">557</page><x>.</x>
+</reference>
+<reference id="b2" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Roeper</surname><x>, </x><forenames>Thomas</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987a</date><x>). </x><title type="document">Implicit Arguments and the Head&ndash;Complement Relation</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>18</volume><x>: </x><page type="first">267</page><x>&ndash;</x><page type="last">310</page><x>.</x>
+</reference>
+<reference id="b41" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ross</surname><x>, </x><forenames>John<x> </x>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1969">1969a</date><x>). </x><title type="document">Auxiliaries as Main Verbs</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Studies in Philosophical Linguistics 1</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>William</forenames><x> </x><surname>Todd</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">77</page><x>&ndash;</x><page type="last">102</page><x>. </x><address>Evanston</address><x>: </x><publisher>Great Expectations Press</publisher><x>.</x>
+</reference>
+<reference id="b26" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ross</surname><x>, </x><forenames>John<x> </x>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1969">1969c</date><x>). </x><title type="document">On the Cyclic Nature of English Pronominalization</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Modern Studies in English</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>David</forenames><x> </x><surname>Reibel</surname>
+</name><x> and </x><name type="editor">
+<forenames>Sanford</forenames><x> </x><surname>Schane</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">187</page><x>&ndash;</x><page type="last">200</page><x>. </x><address>Englewood Cliffs, NJ</address><x>: </x><publisher>Prentice-Hall</publisher><x>.</x>
+</reference>
+<reference id="b37" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Safir</surname><x>, </x><forenames>Kenneth</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Evaluative Predicates and the Representation of Implicit Arguments</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Principles and Parameters in Comparative Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Robert</forenames><x> </x><surname>Freidin</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">99</page><x>&ndash;</x><page type="last">131</page><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b22" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Stroik</surname><x>, </x><forenames>Thomas</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992a</date><x>). </x><title type="document">Middles and Movement</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>23</volume><x>: </x><page type="first">127</page><x>&ndash;</x><page type="last">137</page><x>.</x>
+</reference>
+<reference id="b38" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Su&ntilde;er</surname><x>, </x><forenames>Margarita</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">Proarb</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>14</volume><x>: </x><page type="first">188</page><x>&ndash;</x><page type="last">191</page><x>.</x>
+</reference>
+<reference id="b58" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Vinet</surname><x>, </x><forenames>Marie-Th&eacute;r&egrave;se</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Implicit Arguments and Control in Middles and Passives</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Advances in Romance Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>David</forenames><x> </x><surname>Birdsong</surname>
+</name><x> and </x><name type="editor">
+<forenames>Jean-Pierre</forenames><x> </x><surname>Montreuil</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b36" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Visser</surname><x>, </x><forenames>Frederic<x> </x>Theodor</forenames>
+</name>
+</namegroup><x> (</x><date date="1969">1969</date><x>). </x><title type="book">An Historical Syntax of the English Language</title><x>. </x><volume>Vol. 2</volume><x>. </x><address>Leiden</address><x>: </x><publisher>Brill</publisher><x>.</x>
+</reference>
+<reference id="b15" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Williams</surname><x>, </x><forenames>Edwin</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date>
+<miscellaneoustext>). Rule Ordering in Syntax. PhD dissertation, Cambridge, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b4" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Williams</surname><x>, </x><forenames>Edwin</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">PRO and the Subject of NP</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>3</volume><x>: </x><page type="first">297</page><x>&ndash;</x><page type="last">315</page><x>.</x>
+</reference>
+<reference id="b27" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Williams</surname><x>, </x><forenames>Edwin</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987b</date><x>). </x><title type="document">Implicit Arguments, the Binding Theory and Control</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>5</volume><x>: </x><page type="first">151</page><x>&ndash;</x><page type="last">180</page><x>.</x>
+</reference>
+<reference id="b47" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Wurmbrand</surname><x>, </x><forenames>Susi</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999a</date><x>). </x><title type="document">Modal Verbs Must be Raising Verbs</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Eighteenth West Coast Conference on Formal Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Sonya</forenames><x> </x><surname>Bird</surname>
+</name><x>, </x><name type="editor">
+<forenames>Andrew</forenames><x> </x><surname>Carnie</surname>
+</name><x>, </x><name type="editor">
+<forenames>Jason<x> </x>D<x>.</x>
+</forenames><x> </x><surname>Haugen</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Norquest</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">599</page><x>&ndash;</x><page type="last">612</page><x>. </x><address>Somerville</address><x>: </x><publisher>Cascadilla Press</publisher><x>.</x>
+</reference>
+<reference id="b20" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Zribi-Hertz</surname><x>, </x><forenames>Anne</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">On Stroik&apos;s Analysis of English Middle Constructions</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>24</volume><x>: </x><page type="first">583</page><x>&ndash;</x><page type="last">589</page><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

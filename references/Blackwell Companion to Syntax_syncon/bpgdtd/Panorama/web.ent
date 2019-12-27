@@ -1,0 +1,94 @@
+<!-- "-//Synex Information AB//DTD Web//EN" -->
+
+
+<!entity amp cdata "&">
+<!entity lt  cdata "<">
+<!entity Q cdata '"'>
+<!entity q  cdata "'">
+
+<!element web (webname, (doc | link)*)>
+
+<!element doc (title, anchor*)>
+
+<!element title (#pcdata)>
+
+<!element webname (#pcdata)>
+
+<!element anchor (loc, head?, note?, hotspot?)>
+<!attlist anchor
+          id            id      #required
+          hilite        NUMBER  "0"
+          bookmark      NUMBER  "0"
+          linkend       idref   #required
+          HyTime        name    clink
+          >
+
+<!element loc (nameloc?, treeloc?, dataloc?, hotspot?)>
+
+<!element (head | note) rcdata>
+
+<!element nameloc (nmlist)>
+<!attlist nameloc
+          id     id     #required
+          HyTime name   nameloc
+          >
+
+<!element nmlist (#pcdata)>
+<!attlist nmlist
+          docorsub      entity  #implied
+          nametype      (element | entity) element
+          HyTime        name     nmlist
+          >
+
+
+<!element treeloc (marklist)>
+<!attlist treeloc
+          id            id     #required
+          locsrc        idref  #implied
+          HyTime        name   treeloc
+          >
+
+<!element marklist (#pcdata)>
+
+<!element dataloc (dimlist)>
+<!attlist dataloc
+          id            id     #required
+          locsrc        idref  #implied
+          quantum       (norm) norm
+          HyTime        name   dataloc
+          >
+
+<!element dimlist (#pcdata)>
+
+
+
+<!element link empty>
+
+<!attlist link
+          anchrole cdata #fixed "anchor anchor"
+          linkends idrefs #required
+          HyTime   name   ilink
+          >
+
+
+
+<!-- Synex proprietary format for graphic hotspots -->
+
+<!element hotspot       empty>
+
+<!attlist hotspot
+          id            id      #implied
+          graphic       entity  #required -- pointer to entity nameloc --
+          rx            number  "0"       -- left endpoint --
+          ry            number  "0"       -- top endpoint --
+          rw            number  "2048"    -- maximum height --
+          rh            number  "2048"    -- maximum width --
+          zoom          number  "0"       -- 0=default
+                                             1=100%
+                                             2=200%
+                                             3=400%
+                                             4=800%
+                                          --
+          synex-af      name    hotspot
+          >
+

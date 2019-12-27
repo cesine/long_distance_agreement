@@ -1,0 +1,4735 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="69"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 69 - Syntactic Haplology.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">685</page>
+<page type="last">710</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="0"/>
+<count type="table" count="52"/>
+<count type="formula" count="2"/>
+<count type="reference_total" count="41"/>
+<count type="page" count="26"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051130"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 69&ensp;Neeleman and Van de Koot: Syntactic Haplology</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 69&ensp;Neeleman and Van de Koot: Syntactic Haplology</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">69 Syntactic Haplology</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>AD</forenames><x> </x><surname>NEELEMAN</surname>
+</name><x> AND </x><name type="author">
+<forenames>HANS</forenames><x> </x><surname>VAN DE KOOT</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction: the Repeated Morph Constraint</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Four strategies</p>
+</li>
+<li level="2">
+<number>2.1&ensp;</number>
+<p>Tolerance and avoidance</p>
+</li>
+<li level="2">
+<number>2.2&ensp;</number>
+<p>Deletion</p>
+</li>
+<li level="2">
+<number>2.3&ensp;</number>
+<p>Suppletion</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>Repeated features</p>
+</li>
+<li level="2">
+<number>3.1&ensp;</number>
+<p>Syntactic identity</p>
+</li>
+<li level="2">
+<number>3.2&ensp;</number>
+<p>Deletion</p>
+</li>
+<li level="2">
+<number>3.3&ensp;</number>
+<p>Suppletion</p>
+</li>
+<li level="2">
+<number>3.4&ensp;</number>
+<p>Portmanteau morphemes</p>
+</li>
+<li level="2">
+<number>3.5&ensp;</number>
+<p>Tolerance and avoidance</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1 Introduction: the Repeated Morph Constraint</heading>
+<p>A number of authors have observed that languages exhibit a resistance against accidental repetition of morphemes (<link rid="b1">Perlmutter 1971</link>; <link rid="b2">Stemberger 1981</link>; Menn and MacWhinney 1983; <link rid="b3">Yip 1998</link>; <link rid="b4">Plag 1998</link>, and references cited there). This resistance is reminiscent of the Obligatory Contour Principle in phonology (<link rid="b5">Leben 1973</link>; <link rid="b6">Goldsmith 1979</link>, and much subsequent work), which requires adjacent phonemes to be contrastive. In this chapter we will explore which phenomena at the sentence level can be understood in terms of the avoidance of repeated morphs, an issue first addressed within a generative context by <link rid="b1">Perlmutter (1971</link>). This will require us to establish which strings can be taken to involve accidental repetition of morphemes and which strategies are available for avoiding them.</p>
+<p>Suppose M<sub>1</sub> and M<sub>2</sub> are identical in the relevant sense and happen to be adjacent, as in (1a). Perhaps in the majority of cases, grammars simply live with this repetition and allow M<sub>1</sub> and M<sub>2</sub> to surface unchanged. In cases where the string is ruled out, four possibilities arise. (i) If the grammar does not provide an alternative realization for either M<sub>1</sub> or M<sub>2</sub>, structures in which these morphemes surface in adjacent positions are ungrammatical (the language is characterized by (1b)). (ii) Repetition of identical morphemes can be circumvented if the grammar allows haplology: deletion of one of the offending morphemes (the language is characterized by a combination of (1b) and (1c)). (iii) A further option is to associate either morpheme with a different realization, typically based on a subset or a superset of its features (the language is characterized by a combination of (1b) and (1d)). (iv) Finally, the grammar may make available a so-called portmanteau morpheme, which spells out the features of both M<sub>1</sub> and M<sub>2</sub> (the lang.uage is characterized by a combination of (1b) and (1e)). Repair strategies always affect functional elements; repetition of lexical heads is tolerated.</p>
+<p>(1)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>.&nbsp;.&nbsp;.&nbsp;M<sub>1</sub> M<sub>2</sub> .&nbsp;.&nbsp;.&nbsp;</entry>
+<entry>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>* .&nbsp;.&nbsp;.&nbsp;M<sub>1</sub> M<sub>2</sub> .&nbsp;.&nbsp;.&nbsp;</entry>
+<entry>
+</entry>
+</row>
+<row><entry>c.</entry>
+<entry>.&nbsp;.&nbsp;.&nbsp;M<sub>2</sub> .&nbsp;.&nbsp;.&nbsp;</entry>
+<entry>.&nbsp;.&nbsp;.&nbsp;M<sub>1</sub> .&nbsp;.&nbsp;.&nbsp;</entry>
+</row>
+<row><entry>d.</entry>
+<entry>.&nbsp;.&nbsp;.&nbsp;M<sub>1</sub> M<sub>2</sub>&prime; .&nbsp;.&nbsp;.&nbsp;</entry>
+<entry>.&nbsp;.&nbsp;.&nbsp;M<sub>1</sub>&prime; M<sub>2</sub> .&nbsp;.&nbsp;.&nbsp;</entry>
+</row>
+<row><entry>e.</entry>
+<entry>.&nbsp;.&nbsp;.&nbsp;M<sub>3</sub> .&nbsp;.&nbsp;.&nbsp;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Which of these strategies is exploited varies from language to language and from case to case. We should also note that there are other conceivable strategies, such as the insertion of a dummy morpheme between M<sub>1</sub> and M<sub>2</sub>. Few, if any, cases of this type are attested. An anonymous reviewer suggests that there is a tendency in Spanish to introduce an expletive negation when the second term in a comparative construction begins with <i>que</i> (see (2a), where this tendency is marked by a question mark). This might be a case in point, although insertion of expletive negation is not obligatory and can also appear without morpheme iteration (see (2b)). We will not investigate this issue any further here.</p>
+<p>(2)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>M&aacute;s</entry>
+<entry>vale</entry>
+<entry>que</entry>
+<entry>te</entry>
+<entry>vayas</entry>
+<entry>que</entry>
+<entry>?(no)</entry>
+<entry>que</entry>
+<entry>te</entry>
+<entry>quedes.</entry>
+</row>
+<row><entry>more</entry>
+<entry>helps</entry>
+<entry>that</entry>
+<entry>you</entry>
+<entry>go</entry>
+<entry>that</entry>
+<entry>(not)</entry>
+<entry>that</entry>
+<entry>you</entry>
+<entry>remain</entry>
+</row>
+<row><entry namest="col2" nameend="col11">&lsquo;It is much better that you go than that you stay.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>M&aacute;s</entry>
+<entry>vale</entry>
+<entry>ma&ntilde;a</entry>
+<entry>que</entry>
+<entry>(no)</entry>
+<entry>fuerza.</entry>
+</row>
+<row><entry>more</entry>
+<entry>helps</entry>
+<entry>skill</entry>
+<entry>than</entry>
+<entry>(not)</entry>
+<entry>strength</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;Skill is more helpful than strength.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>From the fact that many grammars tolerate repeated morphemes we can conclude that an inviolable condition that blocks accidental repetition cannot exist. On the other hand, there seem to be clear cases in which structures are ruled out precisely because they show accidental repetition. This tension can be resolved in at least three ways. First, one could develop a conspiracy theory in which the rules of syntax and morphology are such that in specific cases accidental repetition happens to be avoided, even though the grammar does not contain any conditions ruling it out. At best, grammars that avoid accidental repetition could be favored by an extra-grammatical, psycholinguistic, repeated-morph constraint (see Menn and MacWhinney 1983 and <link rid="b7">Bonet 1995</link> for examples of this approach). Second, one could assume that the grammar contains conditions that rule out fairly specific cases of accidental repetition and that trigger adjustments of the type in (1c) through (1e). These &lsquo;low-level&rsquo; filters could also be seen as psycholinguistically motivated (see <link rid="b8">Radford 1977</link> for an approach in this spirit). Third, one could adopt an optimality-theoretic approach to grammar (see <link rid="b9">Prince and Smolensky 1993</link>). On this view, a maximally general condition against repeated morphemes would be part of the grammar, but its effects would depend on its interaction with other constraints. In other words, if a particular language allows structures that violate the constraint, these structures would be favored by constraints ranked higher in the grammar of that language (see <link rid="b10">Grimshaw 1997a</link> and <link rid="b11">Ackema 2001</link> for examples of such an approach).</p>
+<p>In the sections that follow, we will state a number of descriptive generalizations involving the repeated-morph constraint. These will be formulated in terms of the second approach for reasons of presentational convenience. No theoretical claims should be attached to this choice.</p>
+<p>What constitutes an accidental repetition of morphemes depends on what we mean by identity of morphemes, &lsquo;repetition&rsquo;, and &lsquo;accidental&rsquo;. (i) Many authors assume that identity is to be understood in terms of phonological form, although it could be that similarity in form rather than strict identity triggers haplology or suppletion. We will argue that, in addition to this, a sequence of morphemes expressing identical features may do so. (ii) The question about repetition concerns the context in which haplology and suppletion are triggered. The standard assumption is that M<sub>1</sub> and M<sub>2</sub> must be adjacent, which is compatible with all cases discussed here. (iii) Accidental repetition is to be distinguished from intentional repetition. In the case of reduplication in morphology, for example, two adjacent morphemes may end up having the same form by rule, thus exemplifying intentional repetition (the reduplicative morpheme is phonologically incomplete and takes its form, partially or wholly, from its host). Haplology and suppletion, however, involve accidental repetition: the relevant morphemes happen to have the same form and happen to surface next to each other. This raises the non-trivial question why grammars should distinguish the two cases. Menn &amp; MacWhinney suggest a partial psycholinguistic answer, but a more comprehensive solution remains elusive.</p>
+<p>In <link rid="ss3">section 2</link> we discuss phenomena from several languages that illustrate strategies by which repetition of phonologically identical morphemes is avoided. In <link rid="ss7">section 3</link> we turn to cases of haplology and suppletion involving morphemes that express identical features but are different in form. We offer some conclusions in <link rid="ss13">section 4</link>.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2 Four strategies</heading>
+<subsection id="ss4" level="2">
+<heading id="h3" level="2">2.1 Tolerance and avoidance</heading>
+<p>It is easy to demonstrate that repetition of identical morphemes is not ruled out across the board. For example, in felicitous contexts, prepositional phrases may be used as &lsquo;honorary NPs&rsquo;. If so, they can be the complement of a preposition that is identical to their head, as shown by the Dutch example in (3).</p>
+<p>(3)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="12">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<tbody>
+<row><entry namest="col1" nameend="col12">(Context: They will probably hang the painting the right way up, but since it is abstract art, you can&apos;t be sure. If they hang it upside down, all hell will break loose.)</entry>
+</row>
+<row><entry>De</entry>
+<entry>meeste</entry>
+<entry>journalisten</entry>
+<entry>hopen</entry>
+<entry>dan</entry>
+<entry>ook</entry>
+<entry>&lsqb;<sub>PP</sub>
+</entry>
+<entry><b>op</b>
+</entry>
+<entry>&lsqb;<sub>PP</sub>
+</entry>
+<entry><b>op</b>
+</entry>
+<entry>z&rsquo;n</entry>
+<entry>kop&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>the</entry>
+<entry>most</entry>
+<entry>journalists</entry>
+<entry>hope</entry>
+<entry>then</entry>
+<entry>also</entry>
+<entry>
+</entry>
+<entry>on</entry>
+<entry>
+</entry>
+<entry>on</entry>
+<entry>its</entry>
+<entry>head</entry>
+</row>
+<row><entry namest="col1" nameend="col12">&lsquo;Indeed most journalists are hoping for upside down.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Dutch also has a preposition that seems to combine freely with prepositional complements, even if these are not honorary NPs. It turns that the selected PP can be headed by the same preposition, <i>voor</i> &lsquo;for&rsquo;. This is illustrated in (4a). Repetition of prepositions is not restricted to complementation. Dutch has verbs that are accompanied by a prepositional particle and if such a particle is stranded by verb movement, it can end up adjacent to the head of an extraposed PP, giving rise to examples like (4b, c).</p>
+<p>(4)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Dit</entry>
+<entry>is</entry>
+<entry>een</entry>
+<entry>goede</entry>
+<entry>wijn &lsqb;<sub>PP</sub>
+</entry>
+<entry><b>voor</b>
+</entry>
+<entry>&lsqb;<sub>PP</sub>
+</entry>
+<entry><b>voor</b>
+</entry>
+<entry>de</entry>
+<entry>televisie&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>this</entry>
+<entry>is</entry>
+<entry>a</entry>
+<entry>good</entry>
+<entry>wine</entry>
+<entry>for</entry>
+<entry>
+</entry>
+<entry>for</entry>
+<entry>the</entry>
+<entry>television</entry>
+</row>
+<row><entry namest="col2" nameend="col11">&lsquo;This is a good wine for in front of the television.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Ik</entry>
+<entry>zoek</entry>
+<entry>het</entry>
+<entry>&lsqb;<sub>V</sub>
+</entry>
+<entry><b>op</b> t<sub>V</sub>&rsqb;&lsqb;<sub>PP</sub>
+</entry>
+<entry><b>op</b>
+</entry>
+<entry>de</entry>
+<entry>kaart&rsqb;.</entry>
+</row>
+<row><entry>I</entry>
+<entry>search</entry>
+<entry>it</entry>
+<entry>
+</entry>
+<entry>on</entry>
+<entry>on</entry>
+<entry>the</entry>
+<entry>map</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;I look it up on the map.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>Ik</entry>
+<entry>lees</entry>
+<entry>me</entry>
+<entry>&lsqb;<sub>V</sub>
+</entry>
+<entry><b>in</b> t<sub>V</sub>&rsqb;&lsqb;<sub>PP</sub>
+</entry>
+<entry><b>in</b>
+</entry>
+<entry>dit</entry>
+<entry>onderwerp&rsqb;.</entry>
+</row>
+<row><entry>I</entry>
+<entry>read</entry>
+<entry>me</entry>
+<entry>
+</entry>
+<entry>in</entry>
+<entry>in</entry>
+<entry>this</entry>
+<entry>topic</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;I read up on this topic.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>However, in other cases repetition of phonologically identical morphemes leads to ungrammaticality. Thus, the Dutch demonstrative pronouns <i>die</i> and <i>dat</i> &lsquo;that&rsquo; cannot be followed by a relative clause introduced by the same pronoun. It seems unlikely that this is due to syntactic or semantic factors, given that relative clauses introduced by <i>die</i> and <i>dat</i> may follow the non-homophonous demonstratives <i>degene</i> and <i>hetgene</i>, while the demonstratives <i>die</i> and <i>dat</i> allow modification by prepositional phrases with a comparable semantics. The full paradigm is given in (5) and (6). A similar point is made for German and English by Pullum and Zwicky, as cited in Menn and MacWhinney (1983).</p>
+<p>(5)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry namest="col1" nameend="col6">(Context: Which filmstar do you like best?)</entry>
+</row>
+<row><entry morerows="2">a.</entry>
+<entry>die</entry>
+<entry>met</entry>
+<entry>dat</entry>
+<entry>rooie</entry>
+<entry>haar</entry>
+</row>
+<row><entry>that</entry>
+<entry>with</entry>
+<entry>that</entry>
+<entry>red</entry>
+<entry>hair</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;the one with the red hair&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>degene</entry>
+<entry>met</entry>
+<entry>dat</entry>
+<entry>rooie</entry>
+<entry>haar</entry>
+<entry>
+</entry>
+</row>
+<row><entry>the-one</entry>
+<entry>with</entry>
+<entry>that</entry>
+<entry>red</entry>
+<entry>hair</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;the one with the red hair&rsquo;</entry>
+</row>
+<row><entry morerows="1">c.</entry>
+<entry><b>??die</b>
+</entry>
+<entry><b>die</b>
+</entry>
+<entry>dat</entry>
+<entry>rooie</entry>
+<entry>haar</entry>
+<entry>heeft</entry>
+</row>
+<row><entry>that</entry>
+<entry>that</entry>
+<entry>that</entry>
+<entry>red</entry>
+<entry>hair</entry>
+<entry>has</entry>
+</row>
+<row><entry morerows="2">d.</entry>
+<entry>degene</entry>
+<entry>die</entry>
+<entry>dat</entry>
+<entry>rooie</entry>
+<entry>haar</entry>
+<entry>heeft</entry>
+</row>
+<row><entry>the-one</entry>
+<entry>that</entry>
+<entry>that</entry>
+<entry>red</entry>
+<entry>hair</entry>
+<entry>has</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;the one with the red hair&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(6)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry namest="col1" nameend="col6">(Context: Which house do you consider most romantic?)</entry>
+</row>
+<row><entry morerows="2">a.</entry>
+<entry>dat</entry>
+<entry>met</entry>
+<entry>een</entry>
+<entry>strooien</entry>
+<entry>dak</entry>
+</row>
+<row><entry>that</entry>
+<entry>with</entry>
+<entry>a</entry>
+<entry>thatch</entry>
+<entry>roof</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;the one with a thatch roof&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>hetgene</entry>
+<entry>met</entry>
+<entry>een</entry>
+<entry>strooien</entry>
+<entry>dak</entry>
+<entry>
+</entry>
+</row>
+<row><entry>the-one</entry>
+<entry>with</entry>
+<entry>a</entry>
+<entry>thatch</entry>
+<entry>roof</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;the one with a thatch roof&rsquo;</entry>
+</row>
+<row><entry morerows="1">c.</entry>
+<entry><b>??dat</b>
+</entry>
+<entry><b>dat</b>
+</entry>
+<entry>een</entry>
+<entry>strooien</entry>
+<entry>dak</entry>
+<entry>heeft</entry>
+</row>
+<row><entry>that</entry>
+<entry>that</entry>
+<entry>a</entry>
+<entry>thatch</entry>
+<entry>roof</entry>
+<entry>has</entry>
+</row>
+<row><entry morerows="2">d.</entry>
+<entry>hetgene</entry>
+<entry>dat</entry>
+<entry>een</entry>
+<entry>strooien</entry>
+<entry>dak</entry>
+<entry>heeft</entry>
+</row>
+<row><entry>the-one</entry>
+<entry>that</entry>
+<entry>a</entry>
+<entry>thatch</entry>
+<entry>roof</entry>
+<entry>has</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;the one with a thatch roof&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The hypothesis that (5c) and (6c) are ruled out because of repetition of identical morphemes is corroborated by the grammaticality of relative clauses that modify the <i>wh</i>-operators <i>wie</i> and <i>wat</i>:</p>
+<p>(7)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Wie</entry>
+<entry>die</entry>
+<entry>je</entry>
+<entry>in</entry>
+<entry>Zuid Afrika</entry>
+<entry>ontmoet</entry>
+<entry>hebt</entry>
+<entry>vond</entry>
+<entry>je</entry>
+<entry>aardig?</entry>
+</row>
+<row><entry>who</entry>
+<entry>that</entry>
+<entry>you</entry>
+<entry>in</entry>
+<entry>South Africa</entry>
+<entry>met</entry>
+<entry>has</entry>
+<entry>found</entry>
+<entry>you</entry>
+<entry>nice</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;Who that you met in South Africa did you consider nice?&rsquo;</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Wat</entry>
+<entry>dat</entry>
+<entry>je</entry>
+<entry>gelezen</entry>
+<entry>hebt</entry>
+<entry>vond</entry>
+<entry>je</entry>
+<entry>mooi?</entry>
+</row>
+<row><entry>what</entry>
+<entry>that</entry>
+<entry>you</entry>
+<entry>read</entry>
+<entry>has</entry>
+<entry>found</entry>
+<entry>you</entry>
+<entry>beautiful</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;What that you have read did you consider beautiful?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Note that the ban on repetition of identical morphemes is conditioned by adjacency. No ungrammaticality results if the demonstrative is separated from the homophonous relative pronoun by a nominal complement.</p>
+<p>(8)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>die</entry>
+<entry>filmster</entry>
+<entry>die</entry>
+<entry>dat</entry>
+<entry>rooie</entry>
+<entry>haar</entry>
+<entry>heeft</entry>
+</row>
+<row><entry>that</entry>
+<entry>filmstar</entry>
+<entry>that</entry>
+<entry>that</entry>
+<entry>red</entry>
+<entry>hair</entry>
+<entry>has</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;that filmstar with the red hair&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>dat</entry>
+<entry>huis</entry>
+<entry>dat</entry>
+<entry>een</entry>
+<entry>strooien</entry>
+<entry>dak</entry>
+<entry>heeft</entry>
+</row>
+<row><entry>that</entry>
+<entry>house</entry>
+<entry>that</entry>
+<entry>a</entry>
+<entry>thatch</entry>
+<entry>roof</entry>
+<entry>has</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;that house with a thatch roof&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Interestingly, the filter that excludes repetition must be sensitive to syntactic environment as well as phonological form, since the demonstratives <i>dat</i> and <i>die</i> may freely follow homophonous relative operators:</p>
+<p>(9)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>De</entry>
+<entry>jongen</entry>
+<entry><b>die</b>
+</entry>
+<entry><b>die</b>
+</entry>
+<entry>fiets</entry>
+<entry>gestolen</entry>
+<entry>heeft</entry>
+<entry>is</entry>
+<entry>minderjarig.</entry>
+</row>
+<row><entry>the</entry>
+<entry>boy</entry>
+<entry>that</entry>
+<entry>that</entry>
+<entry>bicycle</entry>
+<entry>stolen</entry>
+<entry>has</entry>
+<entry>is</entry>
+<entry>under-age</entry>
+</row>
+<row><entry namest="col2" nameend="col10">&lsquo;The boy who stole that bicycle is under age.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Het</entry>
+<entry>meisje</entry>
+<entry><b>dat</b>
+</entry>
+<entry><b>dat</b>
+</entry>
+<entry>boek</entry>
+<entry>gekocht</entry>
+<entry>heeft</entry>
+<entry>is</entry>
+<entry>gek.</entry>
+</row>
+<row><entry>the</entry>
+<entry>girl</entry>
+<entry>that</entry>
+<entry>that</entry>
+<entry>book</entry>
+<entry>bought</entry>
+<entry>has</entry>
+<entry>is</entry>
+<entry>mad</entry>
+</row>
+<row><entry namest="col2" nameend="col10">&lsquo;The girl who bought that book is mad.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Indeed, in a carefully constructed example involving the complementizer <i>dat</i>, the demonstrative <i>dat</i>, the relative <i>dat</i> and an autoreferential DP, it is possible to create a sequence of six repeated morphemes:</p>
+<p>(10)&ensp;<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="14">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13" align="char" char="."/>
+<colspec colnum="14" colname="col14" align="char" char="."/>
+<tbody>
+<row><entry>Ik</entry>
+<entry>denk</entry>
+<entry><b>dat</b>
+</entry>
+<entry><b>dat</b>
+</entry>
+<entry>&lsquo;<b>dat</b>&rsquo;</entry>
+<entry><b>dat</b>
+</entry>
+<entry><b>dat</b>
+</entry>
+<entry>&lsquo;<b>dat</b>&rsquo;</entry>
+<entry>op</entry>
+<entry>pagina 2</entry>
+<entry>volgt</entry>
+<entry>weggelaten</entry>
+<entry>kan</entry>
+<entry>worden.</entry>
+</row>
+<row><entry>I</entry>
+<entry>think</entry>
+<entry>that</entry>
+<entry>that</entry>
+<entry>that</entry>
+<entry>that</entry>
+<entry>that</entry>
+<entry>that</entry>
+<entry>on</entry>
+<entry>page 2</entry>
+<entry>follows</entry>
+<entry>omitted</entry>
+<entry>can</entry>
+<entry>be</entry>
+</row>
+<row><entry namest="col1" nameend="col14">&lsquo;I think that the &lsquo;that&rsquo; which follows the &lsquo;that&rsquo; on page 2 should be omitted.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The situation can be summed up by the following descriptive rule (small capitals indicate syntactic elements, material between forward slashes, their phonological realization):</p>
+<p>(11)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry namest="col1" nameend="col2">*/pronoun/ /relative operator/ if</entry>
+</row>
+<row><entry> (i)</entry>
+<entry>/pronoun/ and /relative operator/ are adjacent,</entry>
+</row>
+<row><entry>(ii)</entry>
+<entry>/pronoun/ is identical to /relative operator/, and</entry>
+</row>
+<row><entry>(iii)</entry>
+<entry>PRONOUN is the antecedent of RELATIVE OPERATOR</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+<subsection id="ss5" level="2">
+<heading id="h4" level="2">2.2 Deletion</heading>
+<p>The strategy chosen in the Dutch examples above is one of avoidance of repetition. As Menn and MacWhinney point out, an alternative strategy would be deletion. Thus, if two free adjacent morphemes normally receive the same phonological realization, one of them would fail to be spelled out. In Mandarin Chinese, for example, the perfective marker <i>le</i> and the particle <i>le</i> which marks a new situation trigger deletion when adjacent (<link rid="b3">Yip 1998</link> and references cited there):</p>
+<p>(12)&ensp;<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>Bing</entry>
+<entry>dou</entry>
+<entry>hua</entry>
+<entry><b>le</b>
+</entry>
+<entry>(*<b>le</b>).</entry>
+</row>
+<row><entry>ice</entry>
+<entry>all</entry>
+<entry>melt</entry>
+<entry>Perf</entry>
+<entry>CHANGE-OF-STATE</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;The ice melted.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A similar rule of deletion is triggered in French by adjacency of comparative <i>que</i> and the homophonous complementizer (<link rid="b8 b12">Radford 1977, 1979</link>):</p>
+<p>(13)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry>Je</entry>
+<entry>pr&eacute;f&egrave;re</entry>
+<entry>que</entry>
+<entry>tu</entry>
+<entry>restes,</entry>
+<entry>plut&ocirc;t</entry>
+<entry><b>que</b> (*</entry>
+<entry><b>que</b>)</entry>
+<entry>tu</entry>
+<entry>t&rsquo;en ailles.</entry>
+</row>
+<row><entry>I</entry>
+<entry>prefer</entry>
+<entry>that</entry>
+<entry>you</entry>
+<entry>remain</entry>
+<entry>rather</entry>
+<entry>than</entry>
+<entry>that</entry>
+<entry>you</entry>
+<entry>go-away</entry>
+</row>
+<row><entry namest="col1" nameend="col10">&lsquo;I prefer that you stay rather than that you go away.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A further example from French involves the deletion of superlative <i>le</i> in a position immediately following the homophonous determiner (<link rid="b8 b12">Radford 1977, 1979</link>). (An anonymous reviewer suggests that (14b) may not involve haplology, but rather, raising of the comparative expression <i>plus beau</i>, which lacks an article, to a prenominal position where it acquires superlative semantics. It would take us too far afield to explore this possibility here.)</p>
+<p>(14)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>le</entry>
+<entry>paysage</entry>
+<entry>le</entry>
+<entry>plus</entry>
+<entry>beau</entry>
+</row>
+<row><entry>the</entry>
+<entry>landscape</entry>
+<entry>the</entry>
+<entry>most</entry>
+<entry>beautiful</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;the most beautiful landscape&rsquo;</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry><b>le</b> (*</entry>
+<entry><b>le</b>)</entry>
+<entry>plus</entry>
+<entry>beau</entry>
+<entry>paysage</entry>
+</row>
+<row><entry>the</entry>
+<entry>the</entry>
+<entry>most</entry>
+<entry>beautiful</entry>
+<entry>landscape</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The phenomenon is also found in Spanish clitic clusters. <link rid="b10">Grimshaw (1997a</link>) points out that at least in some dialects a sequence of a reflexive and an impersonal clitic, expected to surface as <i>se se</i>, in fact surfaces as a single clitic. Although the empirical claim is somewhat controversial, it would &ndash; if correct &ndash; show that haplology extends to clitic clusters.</p>
+<p>(15)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry><b>Se</b>
+</entry>
+<entry>(*<b>se</b>)</entry>
+<entry>lava.</entry>
+</row>
+<row><entry>one</entry>
+<entry>oneself</entry>
+<entry>washes</entry>
+</row>
+<row><entry namest="col1" nameend="col3">&lsquo;One washes oneself.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>We will discuss one notorious case of syntactic haplology in some more detail. The Dutch weak pronoun <i>er</i> can have four different functions. It can be an expletive; the fronted argument of a preposition; a locative meaning &lsquo;there&rsquo;; and a fronted noun associated with a numeral or a quantificational modifier. We illustrate these uses of <i>er</i> below, where we adopt <link rid="b13">Odijk&apos;s (1993</link>) marking of <i>er</i>&apos;s functions by X, P, L, and Q, respectively. (See <link rid="b14 b15 b16 b17">Bech 1952, Van Riemsdijk 1978a, Bennis 1980, 1986</link> and <link rid="b18">Model 1991</link> for additional discussion.)</p>
+<p>(16)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>dat</entry>
+<entry>er<sub>X</sub>
+</entry>
+<entry>iemand</entry>
+<entry>in</entry>
+<entry>het</entry>
+<entry>bos</entry>
+<entry>loopt</entry>
+</row>
+<row><entry>that</entry>
+<entry>there</entry>
+<entry>someone</entry>
+<entry>in</entry>
+<entry>the</entry>
+<entry>forest</entry>
+<entry>walks</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;that there walks someone in the forest&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>dat</entry>
+<entry>Jan</entry>
+<entry>er<sub>P</sub>
+</entry>
+<entry>gisteren</entry>
+<entry>pas</entry>
+<entry>weer &lsqb;<sub>PP</sub>
+</entry>
+<entry>aan <i>e</i>&rsqb;</entry>
+<entry>dacht</entry>
+</row>
+<row><entry>that</entry>
+<entry>John</entry>
+<entry>there</entry>
+<entry>yesterday</entry>
+<entry>only</entry>
+<entry>again</entry>
+<entry>on</entry>
+<entry>thought</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;that John only thought about it again yesterday&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>dat</entry>
+<entry>Jan</entry>
+<entry>er<sub>L</sub>
+</entry>
+<entry>al</entry>
+<entry>jaren</entry>
+<entry>woont</entry>
+</row>
+<row><entry>that</entry>
+<entry>John</entry>
+<entry>there</entry>
+<entry>already</entry>
+<entry>years</entry>
+<entry>lives</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;that John has lived there for years&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">d.</entry>
+<entry>dat</entry>
+<entry>Jan</entry>
+<entry>er<sub>Q</sub> &lsqb;<sub>DP</sub>
+</entry>
+<entry>vijf <i>e</i>&rsqb;</entry>
+<entry>heeft</entry>
+</row>
+<row><entry>that</entry>
+<entry>John</entry>
+<entry>there</entry>
+<entry>five</entry>
+<entry>has</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;that John has five of them&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Since weak pronouns are not generally in complementary distribution in Dutch, one would expect sentences with up to four occurrences of <i>er</i> to be possible. In fact, however, in most sentences of the relevant type only a single <i>er</i> is spelled out, which somehow manages to combine multiple roles. The following examples, taken from <link rid="b13">Odijk (1993</link>), illustrate sentences in which <i>er</i> combines two functions:</p>
+<p>(17)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Kwamen</entry>
+<entry>er<sub>XQ</sub>
+</entry>
+<entry>slechts</entry>
+<entry>twee?</entry>
+</row>
+<row><entry>came</entry>
+<entry>there</entry>
+<entry>only</entry>
+<entry>two</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Did only two (persons) come?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Hij</entry>
+<entry>heeft</entry>
+<entry>er<sub>QP</sub>
+</entry>
+<entry>slechts</entry>
+<entry>twee</entry>
+<entry>over</entry>
+<entry>gelezen.</entry>
+</row>
+<row><entry>he</entry>
+<entry>has</entry>
+<entry>there</entry>
+<entry>only</entry>
+<entry>two</entry>
+<entry>about</entry>
+<entry>read</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;He read only two (articles) about it.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>Hij</entry>
+<entry>kocht</entry>
+<entry>er<sub>QL</sub>
+</entry>
+<entry>slechts</entry>
+<entry>twee.</entry>
+</row>
+<row><entry>he</entry>
+<entry>bought</entry>
+<entry>there</entry>
+<entry>only</entry>
+<entry>two</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;He bought only two (books) there.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>There are in principle two approaches to these data, both based on the fact that weak pronouns tend to cluster in a position between the regular subject position and the VP. A syntactic approach could postulate a single position for <i>er</i> in the cluster, which could then bind several empty pronominal elements in the clause. The various functions of <i>er</i> would then be associated with these elements. The alternative, haplological, approach assumes that the cluster can contain multiple occurrences of <i>er</i>, each with a single function. However, adjacent occurrences of <i>er</i> are subject to deletion, giving rise to the appearance of shared functions in the remaining pronoun.</p>
+<p>The first approach cannot be correct as it stands since it does not allow any multiple occurrences of <i>er</i>, whether adjacent or not. This is clearly too strong, given that quantificational <i>er</i> can co-occur with expletive, locative, and prepositional <i>er</i> (although other co-occurrences are excluded):</p>
+<p>(18)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Er<sub>XL</sub>
+</entry>
+<entry>hebben</entry>
+<entry>er<sub>Q</sub> &lsqb;<sub>DP</sub>
+</entry>
+<entry>twee <i>e</i>&rsqb;</entry>
+<entry>een</entry>
+<entry>jaar</entry>
+<entry>gewoond.</entry>
+</row>
+<row><entry>there</entry>
+<entry>have</entry>
+<entry>there</entry>
+<entry>two</entry>
+<entry>a</entry>
+<entry>year</entry>
+<entry>lived</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;Two (of them) lived there for a year.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Er<sub>X</sub>
+</entry>
+<entry>hebben</entry>
+<entry>er<sub>Q</sub> &lsqb;<sub>DP</sub>
+</entry>
+<entry>twee <i>e</i>&rsqb;</entry>
+<entry>een</entry>
+<entry>bon</entry>
+<entry>gekregen.</entry>
+</row>
+<row><entry>there</entry>
+<entry>have</entry>
+<entry>there</entry>
+<entry>two</entry>
+<entry>a</entry>
+<entry>ticket</entry>
+<entry>got</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;Two (of them) received a ticket.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>Er<sub>XP</sub>
+</entry>
+<entry>hebben</entry>
+<entry>er<sub>Q</sub> &lsqb;<sub>DP</sub>
+</entry>
+<entry>twee <i>e</i>&rsqb; &lsqb;<sub>PP</sub>
+</entry>
+<entry>over <i>e</i>&rsqb;</entry>
+<entry>gepraat.</entry>
+</row>
+<row><entry>there</entry>
+<entry>have</entry>
+<entry>there</entry>
+<entry>two</entry>
+<entry>about</entry>
+<entry>talked</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;Two (of them) talked about it.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(19)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>dat</entry>
+<entry>hij</entry>
+<entry>er<sub>L</sub>
+</entry>
+<entry>zich</entry>
+<entry>er<sub>Q</sub> &lsqb;<sub>DP</sub>
+</entry>
+<entry>twee <i>e</i>&rsqb;</entry>
+<entry>heeft</entry>
+<entry>aangeschaft</entry>
+</row>
+<row><entry>that</entry>
+<entry>he</entry>
+<entry>there</entry>
+<entry>self</entry>
+<entry>there</entry>
+<entry>two</entry>
+<entry>has</entry>
+<entry>bought</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;that he has bought himself two (of them) there.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>dat</entry>
+<entry>er<sub>X</sub>
+</entry>
+<entry>zich</entry>
+<entry>er<sub>Q</sub> &lsqb;<sub>DP</sub>
+</entry>
+<entry>twee <i>e</i>&rsqb;</entry>
+<entry>tot</entry>
+<entry>top-athleten</entry>
+<entry>ontwikkelden</entry>
+</row>
+<row><entry>that</entry>
+<entry>there</entry>
+<entry>self</entry>
+<entry>there</entry>
+<entry>two</entry>
+<entry>to</entry>
+<entry>top-athletes</entry>
+<entry>developed</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;that two (of them) developed into top athletes&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>dat</entry>
+<entry>er<sub>P</sub>
+</entry>
+<entry>zich</entry>
+<entry>er<sub>Q</sub> &lsqb;<sub>DP</sub>
+</entry>
+<entry>twee <i>e</i>&rsqb; &lsqb;<sub>PP</sub>
+</entry>
+<entry>over <i>e</i>&rsqb;</entry>
+<entry>ontfermden</entry>
+</row>
+<row><entry>that</entry>
+<entry>there</entry>
+<entry>self</entry>
+<entry>there</entry>
+<entry>two</entry>
+<entry>about</entry>
+<entry>took-care-of</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;that two (of them) took care of it&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The second, haplological, approach is advocated in <link rid="b16 b17">Bennis (1980, 1986</link>). The main advantage of this proposal is that it allows multiple occurrences of <i>er</i> as long as they are non-adjacent. However, a deletion rule is by itself not sufficient to accommodate all the data. In particular, a syntactic analysis seems required to explain the ungrammaticality of any structure that combines locative and preposition <i>er</i>. This is illustrated in (20a), which tries to spell out <i>er</i><sub>L</sub> and <i>er</i><sub>P</sub> separately, and (20b), which tries to combine the two functions in a single pronoun.</p>
+<p>(20)<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>*dat</entry>
+<entry>Jan</entry>
+<entry>er<sub>P</sub>
+</entry>
+<entry>zich</entry>
+<entry>er<sub>L</sub> &lsqb;<sub>PP</sub>
+</entry>
+<entry>aan <i>e</i>&rsqb;</entry>
+<entry>ergerde</entry>
+</row>
+<row><entry>that</entry>
+<entry>John</entry>
+<entry>there</entry>
+<entry>self</entry>
+<entry>there</entry>
+<entry>on</entry>
+<entry>annoyed-got</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>*dat</entry>
+<entry>Jan</entry>
+<entry>er<sub>PL</sub> &lsqb;<sub>PP</sub>
+</entry>
+<entry>aan <i>e</i>&rsqb;</entry>
+<entry>dacht</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry>that</entry>
+<entry>John</entry>
+<entry>there</entry>
+<entry>on</entry>
+<entry>thought</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As argued by <link rid="b13">Odijk (1993</link>) on the basis of largely comparable data, a hybrid analysis of <i>er</i> is required, which combines syntactic restrictions with haplology. Here we briefly present a variant of his proposal.</p>
+<p>Data like (18) and (19) show that the position occupied by <i>er</i><sub>Q</sub> in the pronominal cluster must be distinguished from the one occupied by <i>er</i><sub>X</sub>, <i>er</i><sub>L</sub>, and <i>er</i><sub>P</sub>. In particular, it seems to be located to the right of this more general position. This conclusion makes it necessary to adopt a rule of deletion triggered by adjacent occurrences of <i>er</i>. The point is that, whenever the two positions are filled in the absence of intervening material, only a single <i>er</i> surfaces:</p>
+<p>(21)&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Hebben</entry>
+<entry>er<sub>XLQ</sub> &lsqb;<sub>DP</sub>
+</entry>
+<entry>twee <i>e</i>&rsqb;</entry>
+<entry>een</entry>
+<entry>auto</entry>
+<entry>gekocht?</entry>
+<entry>
+</entry>
+</row>
+<row><entry>have</entry>
+<entry>there</entry>
+<entry>two</entry>
+<entry>a</entry>
+<entry>car</entry>
+<entry>bought</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;Did two (of them) buy a car there?&rsquo;</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>*Hebben</entry>
+<entry><b>er</b><sub>XL</sub>
+</entry>
+<entry><b>er</b><sub>Q</sub> &lsqb;<sub>DP</sub>
+</entry>
+<entry>twee <i>e</i>&rsqb;</entry>
+<entry>een</entry>
+<entry>auto</entry>
+<entry>gekocht?</entry>
+</row>
+<row><entry>have</entry>
+<entry>there</entry>
+<entry>there</entry>
+<entry>two</entry>
+<entry>a</entry>
+<entry>car</entry>
+<entry>bought</entry>
+</row>
+<row><entry morerows="2">c.</entry>
+<entry>Hebben</entry>
+<entry>er<sub>XQ</sub> &lsqb;<sub>DP</sub>
+</entry>
+<entry>twee <i>e</i>&rsqb;</entry>
+<entry>een</entry>
+<entry>bon</entry>
+<entry>gekregen?</entry>
+<entry>
+</entry>
+</row>
+<row><entry>have</entry>
+<entry>there</entry>
+<entry>two</entry>
+<entry>a</entry>
+<entry>ticket</entry>
+<entry>received</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;Did two (of them) receive a ticket?&rsquo;</entry>
+</row>
+<row><entry morerows="1">d.</entry>
+<entry>*Hebben</entry>
+<entry><b>er</b><sub>X</sub>
+</entry>
+<entry><b>er</b><sub>Q</sub> &lsqb;<sub>DP</sub>
+</entry>
+<entry>twee <i>e</i>&rsqb;</entry>
+<entry>een</entry>
+<entry>bon</entry>
+<entry>gekregen?</entry>
+</row>
+<row><entry>have</entry>
+<entry>there</entry>
+<entry>there</entry>
+<entry>two</entry>
+<entry>a</entry>
+<entry>ticket</entry>
+<entry>received</entry>
+</row>
+<row><entry morerows="2">e.</entry>
+<entry>Hebben</entry>
+<entry>er<sub>XPQ</sub> &lsqb;<sub>DP</sub>
+</entry>
+<entry>twee <i>e</i>&rsqb; &lsqb;<sub>PP</sub>
+</entry>
+<entry>over <i>e</i>&rsqb;</entry>
+<entry>gepraat?</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry>have</entry>
+<entry>there</entry>
+<entry>two</entry>
+<entry>about</entry>
+<entry>talked</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;Did two (of them) talk about it?&rsquo;</entry>
+<entry>
+</entry>
+</row>
+<row><entry morerows="1">f.</entry>
+<entry>*Hebben</entry>
+<entry><b>er</b><sub>XP</sub>
+</entry>
+<entry><b>er</b><sub>Q</sub> &lsqb;<sub>DP</sub>
+</entry>
+<entry>twee <i>e</i>&rsqb;&lsqb;<sub>PP</sub>
+</entry>
+<entry>over <i>e</i>&rsqb;</entry>
+<entry>gepraat?</entry>
+<entry>
+</entry>
+</row>
+<row><entry>have</entry>
+<entry>there</entry>
+<entry>there</entry>
+<entry>two</entry>
+<entry>about</entry>
+<entry>talked</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The co-occurrence restriction on <i>er</i><sub>L</sub> and <i>er</i><sub>P</sub> can be understood if they compete for a single position. But why does this explanation not affect the expletive function? In other words, why can a single <i>er</i> realize <i>er</i><sub>X</sub>, as well as <i>er</i><sub>L</sub> or <i>er</i><sub>P</sub>, despite the fact that separate realization of <i>er</i><sub>X</sub> and <i>er</i><sub>L</sub> or <i>er</i><sub>P</sub> is prohibited? The ungrammaticality of (22a) and (22c) demonstrates that haplology cannot be involved in the explanation of the grammatical examples.</p>
+<p>(22)&ensp;<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>*Er<sub>X</sub>
+</entry>
+<entry>gebeuren</entry>
+<entry>er<sub>L</sub>
+</entry>
+<entry>ongelukken.</entry>
+</row>
+<row><entry>there</entry>
+<entry>happen</entry>
+<entry>there</entry>
+<entry>accidents</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Er<sub>XL</sub>
+</entry>
+<entry>gebeuren</entry>
+<entry>ongelukken.</entry>
+</row>
+<row><entry>there</entry>
+<entry>happen</entry>
+<entry>accidents</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;Accidents happen there.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">c.</entry>
+<entry>*Er<sub>X</sub>
+</entry>
+<entry>denken</entry>
+<entry>er<sub>P</sub>
+</entry>
+<entry>mensen &lsqb;<sub>PP</sub>
+</entry>
+<entry>aan <i>e</i>&rsqb;.</entry>
+</row>
+<row><entry>there</entry>
+<entry>think</entry>
+<entry>there</entry>
+<entry>people</entry>
+<entry>on</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">d.</entry>
+<entry>Er<sub>XP</sub>
+</entry>
+<entry>denken</entry>
+<entry>mensen &lsqb;<sub>PP</sub>
+</entry>
+<entry>aan <i>e</i>&rsqb;.</entry>
+</row>
+<row><entry>there</entry>
+<entry>think</entry>
+<entry>people</entry>
+<entry>on</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;People think of it.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>We suggest that the key to understanding the distribution of expletive <i>er</i> lies in an interpretive rule which states that an occurrence of <i>er</i> is assigned the expletive function if it occurs in the IP or CP domain (we remain neutral on what this function exactly entails). Thus, <i>er</i> is never inherently expletive, but acquires this property on the basis of its context. This explains why an expletive function is unavailable in (23a), where <i>er</i> can only be locative. By contrast, (23b) is ruled out because <i>er</i> must be exclusively locative (given the choice of subject), while the interpretive rule forces an additional expletive function.</p>
+<p>(23)&ensp;<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>*dat</entry>
+<entry>zich</entry>
+<entry>er<sub>X</sub>
+</entry>
+<entry>ongelukken</entry>
+<entry>voordoen</entry>
+</row>
+<row><entry>that</entry>
+<entry>self</entry>
+<entry>there</entry>
+<entry>accidents</entry>
+<entry>happen</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>*Er<sub>L</sub>
+</entry>
+<entry>woont</entry>
+<entry>Jan.</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry>there</entry>
+<entry>lives</entry>
+<entry>John</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>On this view, the lexicon contains two entries for <i>er</i>, quantificational <i>er</i><sub>Q</sub> and a referential variant that subsumes <i>er</i><sub>P</sub> and <i>er</i><sub>L</sub>. That this is a reasonable assumption is supported by the fact that <i>er</i><sub>P</sub> and <i>er</i><sub>L</sub> have a strong counterpart, <i>daar</i>, but <i>er</i><sub>Q</sub> does not:</p>
+<p>(24)&ensp;<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>dat</entry>
+<entry>Jan</entry>
+<entry>er<sub>P</sub>/daar<sub>P</sub> &lsqb;<sub>PP</sub>
+</entry>
+<entry>over <i>e</i>&rsqb;</entry>
+<entry>gepraat</entry>
+<entry>heeft</entry>
+</row>
+<row><entry>that</entry>
+<entry>John</entry>
+<entry>there/there</entry>
+<entry>about</entry>
+<entry>talked</entry>
+<entry>has</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;that John has talked about it&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>dat</entry>
+<entry>Jan</entry>
+<entry>er<sub>L</sub>/daar<sub>L</sub>
+</entry>
+<entry>woont</entry>
+</row>
+<row><entry>that</entry>
+<entry>John</entry>
+<entry>there/there</entry>
+<entry>lives</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;that John lives there&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>dat</entry>
+<entry>Jan</entry>
+<entry>er<sub>Q</sub>/*daar<sub>Q</sub> &lsqb;<sub>DP</sub>
+</entry>
+<entry>vijf <i>e</i>&rsqb;</entry>
+<entry>heeft</entry>
+</row>
+<row><entry>that</entry>
+<entry>John</entry>
+<entry>there/there</entry>
+<entry>five</entry>
+<entry>has</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;that John has five (of them)&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Pure expletive <i>er</i> is merged in a position to which the interpretational rule applies. However, since this merged expletive is not related to an interpretable empty position, its semantic content must be suppressed, much like the semantics of <i>do</i> in <i>do</i>-support constructions. The data in (22) now fall into place. In general, suppression of semantic content is avoided where possible. Thus, in constructions that allow verb movement, <i>do</i>-support is ruled out. Similarly, where a variant of <i>er</i> is available that allows movement into a position to which the interpretational rule applies, merger of <i>er</i> is blocked since the movement option avoids suppression of semantics. In the resulting structure <i>er</i> fulfills both the expletive function and the function it is associated with in its base position.</p>
+<p>There is one remaining issue. As it turns out, the expletive and quantificational functions of <i>er</i> are incompatible:</p>
+<p>(25)&ensp;<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Er<sub>X</sub>
+</entry>
+<entry>bestaan</entry>
+<entry>er<sub>Q</sub> &lsqb;<sub>DP</sub>
+</entry>
+<entry>twee <i>e</i>&rsqb;.</entry>
+</row>
+<row><entry>there</entry>
+<entry>exist</entry>
+<entry>there</entry>
+<entry>two</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;There exist two (of them).&rsquo;</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>*Er<sub>XQ</sub>
+</entry>
+<entry>bestaan&lsqb;<sub>DP</sub>
+</entry>
+<entry>twee <i>e</i>&rsqb;.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>there</entry>
+<entry>exist</entry>
+<entry>two</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This restriction may be related to the fact that, cross-linguistically, expletives are derived from referential rather than quantificational elements. Apparently, quantificational semantics is incompatible with the expletive function.</p>
+<p>In summary, the distribution of Dutch <i>er</i> can be captured by the following generalizations:</p>
+<p>(26)&ensp;<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry namest="col2" nameend="col3">There are two positions hosting <i>er</i>, one which licenses referential <i>er</i> (<i>er</i><sub>L</sub> and <i>er</i><sub>P</sub>) and one which licenses quantificational <i>er</i><sub>Q</sub>. The referential position c-commands the quantificational one, while both are located between the IP and VP domains.</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col3">The expletive function is assigned to all variants of <i>er</i> that occupy a position in the IP or CP domain, by movement or base generation.</entry>
+</row>
+<row><entry morerows="2">c.</entry>
+<entry>*/er<sub>1</sub>/ /er<sub>2</sub>/ if</entry>
+<entry>
+</entry>
+</row>
+<row><entry>(i)</entry>
+<entry>/er<sub>1</sub>/ and /er<sub>2</sub>/ are adjacent, and </entry>
+</row>
+<row><entry>(ii)</entry>
+<entry>ER<sub>1</sub> and ER<sub>2</sub> are pronouns</entry>
+</row>
+<row><entry>c&prime;.</entry>
+<entry>/er<sub>1</sub>/ /er<sub>2</sub>/ &rarr; /er/ (triggered by (c))</entry>
+<entry>
+</entry>
+</row>
+<row><entry>d.</entry>
+<entry>Pure expletive <i>er</i> is derived by suppression of semantic content.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>e.</entry>
+<entry>Quantificational semantics cannot be suppressed.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>f.</entry>
+<entry>Movement is preferred over suppression of semantic content.</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The generalizations in (26a) and (26c, c&prime;) are directly taken from <link rid="b13">Odijk (1993</link>), while (26b), (26d), and (26e) provide an alternative to his analysis of expletive <i>er</i>, which circumvents some technical difficulties. For our present purposes, it is important to acknowledge the properties of the rule of haplology in (26c, c&prime;). Like the earlier rule in (10), it is conditioned by adjacency and must refer, not only to phonological identity, but also to syntactic category. The latter is easily demonstrated by the examples in (27), in which no deletion takes place despite the adjacency of phonologically identical morphemes <i>er</i>:</p>
+<p>(27)&ensp;<object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>dat</entry>
+<entry>de</entry>
+<entry>duik<b>er</b>
+</entry>
+<entry><b>er</b>
+</entry>
+<entry>twee</entry>
+<entry>heeft</entry>
+<entry>opgedoken</entry>
+</row>
+<row><entry>that</entry>
+<entry>the</entry>
+<entry>diver</entry>
+<entry>there</entry>
+<entry>two</entry>
+<entry>has</entry>
+<entry>updived</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;that the diver recovered two (of them)&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>dat</entry>
+<entry>Jan</entry>
+<entry>lang<b>er</b>
+</entry>
+<entry><b>er</b>over</entry>
+<entry>doet</entry>
+<entry>dan</entry>
+<entry>Marie</entry>
+</row>
+<row><entry>that</entry>
+<entry>John</entry>
+<entry>longer</entry>
+<entry>thereon</entry>
+<entry>does</entry>
+<entry>than</entry>
+<entry>Mary</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;that John takes longer than Mary&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Another property shared with the earlier rule is that the deletion applies to specific lexical items only. Identical weak pronouns are generally allowed to surface in adjacent positions:</p>
+<p>(28)&ensp;<object id="tu28" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu28_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>dat</entry>
+<entry><b>ze</b>
+</entry>
+<entry><b>ze</b>
+</entry>
+<entry>gisteren</entry>
+<entry>gezien</entry>
+<entry>hebben</entry>
+</row>
+<row><entry>that</entry>
+<entry>they</entry>
+<entry>them</entry>
+<entry>yesterday</entry>
+<entry>seen</entry>
+<entry>have</entry>
+</row>
+<row><entry namest="col1" nameend="col6">&lsquo;that they have seen them yesterday&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+</subsection>
+<subsection id="ss6" level="2">
+<heading id="h5" level="2">2.3 Suppletion</heading>
+<p>A fourth strategy in dealing with cases of accidental repetition is to map one of the morphemes to a phonological form that can normally not be used to realize it. Menn and MacWhinney (1983) list a number of cases of this type that suggest that the phenomenon is particularly common in clitic clusters. For instance, a sequence of an indirect and a direct object third person proclitic in Spanish is expected to surface as <i>le lo</i> but does in fact take the form of <i>se lo</i>. The example in (29) is taken from <link rid="b7">Bonet (1995</link>) (see also <link rid="b1">Perlmutter 1971</link>).</p>
+<p>(29)&ensp;<object id="tu29" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu29_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry>A</entry>
+<entry>Pedro,</entry>
+<entry>el</entry>
+<entry>premio,</entry>
+<entry>se/*<b>le</b>
+</entry>
+<entry><b>lo</b>
+</entry>
+<entry>dieron</entry>
+<entry>ayer.</entry>
+</row>
+<row><entry>to</entry>
+<entry>Peter</entry>
+<entry>the</entry>
+<entry>price</entry>
+<entry>se/3.Dat</entry>
+<entry>3.Acc</entry>
+<entry>gave-3.Pl</entry>
+<entry>yesterday</entry>
+</row>
+<row><entry namest="col1" nameend="col8">&lsquo;They gave the price to Peter yesterday.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Notice that, if these cases are to be conditioned by adjacency of identical forms, identity must be defined in terms of onset identity, a considerably looser notion than the strict identity assumed for the cases discussed so far. An alternative account, explored in the next section, could rely on <i>le</i> and <i>lo</i> sharing the phi-features third person singular.</p>
+<p>The phenomenon is not restricted to clitic clusters, however. <link rid="b8 b12">Radford (1977, 1979</link>) notices that in German a sequence of comparative <i>als</i> and temporal <i>als</i> is realized as <i>denn als</i>.</p>
+<p>(30)&ensp;<object id="tu30" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu30_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry>Goethe</entry>
+<entry>ist</entry>
+<entry>bekannter</entry>
+<entry>als</entry>
+<entry>Schriftsteller</entry>
+<entry>denn/*<b>als</b>
+</entry>
+<entry><b>als</b>
+</entry>
+<entry>Naturwissenschaftler.</entry>
+</row>
+<row><entry>Goethe</entry>
+<entry>is</entry>
+<entry>better-known</entry>
+<entry>as</entry>
+<entry>writer</entry>
+<entry>than /as</entry>
+<entry>as</entry>
+<entry>scientist</entry>
+</row>
+<row><entry namest="col1" nameend="col8">&lsquo;Goethe is better known as a writer than as a scientist.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In many cases the alternative realization of the affected morpheme cannot reasonably be derived from the expected phonological form. Rather, it is an independently existing word in the language with a feature make-up that is either a subset or a superset of that expressed by the expected form. Below we will discuss two examples of suppletion in a little more detail. The first involves non-realization of a feature, while the second is a case in which the phonological form that is used spells out more features than are motivated by the syntax/semantics.</p>
+<p>
+<link rid="b11">Ackema (2001</link>) observes that the Dutch coordinating complementizer <i>of</i> &lsquo;or&rsquo; and the homophonous complementizer used to introduce embedded questions cannot surface adjacently. This is illustrated by the case of coordinate reduction in (31b). As shown by (31c) and (31d), the strategy employed in this case of accidental repetition is not haplology but suppletion. The second complementizer surfaces as indicative <i>dat</i> &lsquo;that&rsquo;. (Example (31b) is also acceptable for some speakers.)</p>
+<p>(31)&ensp;<object id="tu31" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu31_source">
+<tbl frame="none">
+<tgroup cols="16">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13" align="char" char="."/>
+<colspec colnum="14" colname="col14" align="char" char="."/>
+<colspec colnum="15" colname="col15" align="char" char="."/>
+<colspec colnum="16" colname="col16" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Vroeg</entry>
+<entry>je</entry>
+<entry>nou</entry>
+<entry>of</entry>
+<entry>die</entry>
+<entry>plaats</entry>
+<entry>vrij</entry>
+<entry>is</entry>
+<entry>of</entry>
+<entry>vroeg</entry>
+<entry>je</entry>
+<entry>nou</entry>
+<entry>of-ie</entry>
+<entry>bezet</entry>
+<entry>is?</entry>
+</row>
+<row><entry>asked</entry>
+<entry>you</entry>
+<entry>now</entry>
+<entry>if</entry>
+<entry>that</entry>
+<entry>seat</entry>
+<entry>free</entry>
+<entry>is</entry>
+<entry>or</entry>
+<entry>asked</entry>
+<entry>you</entry>
+<entry>now</entry>
+<entry>if-it</entry>
+<entry>taken</entry>
+<entry>is</entry>
+</row>
+<row><entry namest="col2" nameend="col16">&lsquo;Did you ask whether that seat is free or whether it is taken?&rsquo;</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>*Vroeg</entry>
+<entry>je</entry>
+<entry>nou</entry>
+<entry>of</entry>
+<entry>die</entry>
+<entry>plaats</entry>
+<entry>vrij</entry>
+<entry>is</entry>
+<entry><b>of</b>
+</entry>
+<entry><strike>vroeg </strike>
+</entry>
+<entry><strike>je</strike>
+</entry>
+<entry><strike>nou</strike>
+</entry>
+<entry><b>of</b>-ie</entry>
+<entry>bezet</entry>
+<entry>is?</entry>
+</row>
+<row><entry>asked</entry>
+<entry>you</entry>
+<entry>now</entry>
+<entry>if</entry>
+<entry>that</entry>
+<entry>seat</entry>
+<entry>free</entry>
+<entry>is</entry>
+<entry>or</entry>
+<entry>asked</entry>
+<entry>you</entry>
+<entry>now</entry>
+<entry>if-it</entry>
+<entry>taken</entry>
+<entry>is</entry>
+</row>
+<row><entry morerows="1">c.</entry>
+<entry>Vroeg</entry>
+<entry>je</entry>
+<entry>nou</entry>
+<entry>of</entry>
+<entry>die</entry>
+<entry>plaats</entry>
+<entry>vrij</entry>
+<entry>is</entry>
+<entry>of</entry>
+<entry><strike>vroeg</strike>
+</entry>
+<entry><strike>je</strike>
+</entry>
+<entry><strike>nou</strike>
+</entry>
+<entry>dat-ie</entry>
+<entry>bezet</entry>
+<entry>is?</entry>
+</row>
+<row><entry>asked</entry>
+<entry>you</entry>
+<entry>now</entry>
+<entry>if</entry>
+<entry>that</entry>
+<entry>seat</entry>
+<entry>free</entry>
+<entry>is</entry>
+<entry>or</entry>
+<entry>asked</entry>
+<entry>you</entry>
+<entry>now</entry>
+<entry>that-it</entry>
+<entry>taken</entry>
+<entry>is</entry>
+</row>
+<row><entry morerows="1">d.</entry>
+<entry>*Vroeg</entry>
+<entry>je</entry>
+<entry>nou</entry>
+<entry>of</entry>
+<entry>die</entry>
+<entry>plaats</entry>
+<entry>vrij</entry>
+<entry>is</entry>
+<entry>of</entry>
+<entry><strike>vroeg</strike>
+</entry>
+<entry><strike>je</strike>
+</entry>
+<entry><strike>nou</strike>
+</entry>
+<entry>&Oslash;-ie</entry>
+<entry>bezet</entry>
+<entry>is?</entry>
+</row>
+<row><entry>asked</entry>
+<entry>you</entry>
+<entry>now</entry>
+<entry>if</entry>
+<entry>that</entry>
+<entry>seat</entry>
+<entry>free</entry>
+<entry>is</entry>
+<entry>or</entry>
+<entry>asked</entry>
+<entry>you</entry>
+<entry>now</entry>
+<entry>it</entry>
+<entry>taken</entry>
+<entry>is</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Ackema argues that these data fall out from a ban on adjacent identical complementizers (or rather functional heads). For our present purposes we can formulate the relevant filter as in (32).</p>
+<p>(32)&ensp;<object id="tu32" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu32_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry namest="col1" nameend="col2">*/complementizer<sub>1</sub>/ /complementizer<sub>2</sub>/ if</entry>
+</row>
+<row><entry> (i) </entry>
+<entry>/complementizer<sub>1</sub>/ and /complementizer<sub>2</sub>/ are adjacent, and </entry>
+</row>
+<row><entry> (ii)</entry>
+<entry>/complementizer<sub>1</sub>/ is identical to /complementizer<sub>2</sub>/</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl> </insitu>
+</objectsource>
+</object>
+</p>
+<p>In addition, the grammar of Dutch is such that violation of this principle is avoided by a rule that suppresses realization of the Q feature in the second complementizer. The result of this is that only the feature indicating subordination will be realized, yielding the phonological form <i>dat</i>:</p>
+<p>(33)&emsp;&lsqb;<smallcapitals>
+<smallcapitals>sub q</smallcapitals>
+</smallcapitals>&rsqb; &rarr; &lsqb;<smallcapitals>
+<smallcapitals>sub</smallcapitals>
+</smallcapitals>&rsqb; (triggered by (32))</p>
+<p>Several aspects of this analysis are independently motivated. First, the adjacency condition is corroborated by the fact that material stranded by coordination reduction blocks suppletion (see (34a)). Second, the relevance of the syntactic category of the adjacent morphemes can be inferred from the grammaticality of (34b), in which the second <i>of</i> functions as an honorary NP (it has auto-referential semantics). Third, phonological identity is a precondition for suppletion: if the coordinating complementizer is focussed, suppletion cannot take place (see (34c)).</p>
+<p>(34)&ensp;<object id="tu33" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu33_source">
+<tbl frame="none">
+<tgroup cols="15">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13" align="char" char="."/>
+<colspec colnum="14" colname="col14" align="char" char="."/>
+<colspec colnum="15" colname="col15" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Vroeg</entry>
+<entry>hij</entry>
+<entry>nou</entry>
+<entry>zachtjes</entry>
+<entry>of</entry>
+<entry>die</entry>
+<entry>plaats</entry>
+<entry>vrij</entry>
+<entry>is</entry>
+<entry>of</entry>
+<entry>hard</entry>
+<entry>of/*dat-ie</entry>
+<entry>bezet</entry>
+<entry>is?</entry>
+</row>
+<row><entry>asked</entry>
+<entry>he</entry>
+<entry>now</entry>
+<entry>softly</entry>
+<entry>if</entry>
+<entry>that</entry>
+<entry>seat</entry>
+<entry>free</entry>
+<entry>is</entry>
+<entry>or</entry>
+<entry>loudly</entry>
+<entry>if/that-it</entry>
+<entry>taken</entry>
+<entry>is</entry>
+</row>
+<row><entry namest="col2" nameend="col15">&lsquo;Did he ask softly whether that seat is free or loudly whether it is taken?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Ik</entry>
+<entry>vraag</entry>
+<entry>me</entry>
+<entry>af</entry>
+<entry><b>of</b>
+</entry>
+<entry>&lsquo;<b>of</b>&rsquo;</entry>
+<entry>een</entry>
+<entry>voegwoord</entry>
+<entry>is.</entry>
+</row>
+<row><entry>I</entry>
+<entry>ask</entry>
+<entry>me</entry>
+<entry>Prt</entry>
+<entry>if</entry>
+<entry>if</entry>
+<entry>a</entry>
+<entry>complementizer</entry>
+<entry>is</entry>
+</row>
+<row><entry namest="col2" nameend="col10">&lsquo;I wonder whether &lsquo;if&rsquo; is a complementizer.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="12">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>Hij</entry>
+<entry>vroeg</entry>
+<entry><b>OF</b>
+</entry>
+<entry><b>of</b>
+</entry>
+<entry>die</entry>
+<entry>plaats</entry>
+<entry>vrij</entry>
+<entry>is</entry>
+<entry><b>OF</b>
+</entry>
+<entry> <b>of</b>-ie/*dat-ie</entry>
+<entry>bezet</entry>
+</row>
+<row><entry>he</entry>
+<entry>asked</entry>
+<entry>either</entry>
+<entry>if</entry>
+<entry>that</entry>
+<entry>seat</entry>
+<entry>free</entry>
+<entry>is</entry>
+<entry>or</entry>
+<entry> if-it/that-it</entry>
+<entry>taken</entry>
+</row>
+<row><entry namest="col2" nameend="col12">&lsquo;He asked either whether that seat is free or whether it is taken.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The data in (35) provide an interesting complication not discussed by Ackema. Although these examples have been claimed to be ungrammatical by <link rid="b19">Koster (1978d</link>), many speakers of Dutch find them acceptable and, moreover, do not distinguish between the cases of accidental repetition in (35a, b) and the cases of non-repetition in (35c, d).</p>
+<p>(35)&ensp;<object id="tu34" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu34_source">
+<tbl frame="none">
+<tgroup cols="12">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Hij</entry>
+<entry>zei</entry>
+<entry><b>dat</b> &lsqb;<sub>CP</sub>
+</entry>
+<entry><b>dat</b>
+</entry>
+<entry>Jan</entry>
+<entry>komt&rsqb;</entry>
+<entry>het</entry>
+<entry>feest</entry>
+<entry>wel</entry>
+<entry>zal</entry>
+<entry>opluisteren.</entry>
+</row>
+<row><entry>he</entry>
+<entry>said</entry>
+<entry>that</entry>
+<entry>that</entry>
+<entry>John</entry>
+<entry>comes</entry>
+<entry>the</entry>
+<entry>party</entry>
+<entry>no-doubt</entry>
+<entry>will</entry>
+<entry>enhance</entry>
+</row>
+<row><entry namest="col2" nameend="col12">&lsquo;He said that John&apos;s coming will certainly enhance the party.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Hij</entry>
+<entry>vroeg</entry>
+<entry><b>of</b> &lsqb;<sub>CP</sub>
+</entry>
+<entry>of</entry>
+<entry>Jan</entry>
+<entry>komt&rsqb;</entry>
+<entry>veel</entry>
+<entry>uit</entry>
+<entry>zal</entry>
+<entry>maken</entry>
+</row>
+<row><entry>he</entry>
+<entry>asked</entry>
+<entry>if</entry>
+<entry>whether</entry>
+<entry>John</entry>
+<entry>comes</entry>
+<entry>a-lot</entry>
+<entry>out</entry>
+<entry>will</entry>
+<entry>make</entry>
+</row>
+<row><entry namest="col2" nameend="col11">&lsquo;He asked whether it will matter a great deal whether John will come or not.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>Jij</entry>
+<entry>vroeg</entry>
+<entry>of &lsqb;<sub>CP</sub>
+</entry>
+<entry>dat</entry>
+<entry>Jan</entry>
+<entry>komt&rsqb;</entry>
+<entry>een</entry>
+<entry>probleem</entry>
+<entry>is.</entry>
+</row>
+<row><entry>you</entry>
+<entry>asked</entry>
+<entry>if</entry>
+<entry>that</entry>
+<entry>John</entry>
+<entry>comes</entry>
+<entry>a</entry>
+<entry>problem</entry>
+<entry>is</entry>
+</row>
+<row><entry namest="col2" nameend="col10">&lsquo;You asked whether John&apos;s coming would be a problem.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">d.</entry>
+<entry>Hij</entry>
+<entry>zei</entry>
+<entry>dat &lsqb;<sub>CP</sub>
+</entry>
+<entry>of</entry>
+<entry>Jan</entry>
+<entry>komt&rsqb;</entry>
+<entry>niet</entry>
+<entry>zeker</entry>
+<entry>is.</entry>
+</row>
+<row><entry>he</entry>
+<entry>said</entry>
+<entry>that</entry>
+<entry>whether</entry>
+<entry>John</entry>
+<entry>comes</entry>
+<entry>not</entry>
+<entry>sure</entry>
+<entry>is</entry>
+</row>
+<row><entry namest="col2" nameend="col10">&lsquo;He said that it is uncertain whether John will come.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Sentence (35a) can easily be accommodated as a case of tolerance (see <link rid="ss4">section 2.1</link>) since <i>dat</i> cannot be input to the rule in (33). Example (35b), however, is predicted to be ungrammatical. It should be realized as (36), which is ungrammatical on the intended reading.</p>
+<p>(36)&ensp;<object id="tu35" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu35_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry>*Hij</entry>
+<entry>vroeg</entry>
+<entry>of &lsqb;<sub>CP</sub>
+</entry>
+<entry>dat</entry>
+<entry>Jan</entry>
+<entry>komt&rsqb;</entry>
+<entry>veel</entry>
+<entry>uit</entry>
+<entry>zal</entry>
+<entry>maken.</entry>
+</row>
+<row><entry>he</entry>
+<entry>asked</entry>
+<entry>if</entry>
+<entry>that</entry>
+<entry>John</entry>
+<entry>comes</entry>
+<entry>a-lot</entry>
+<entry>out</entry>
+<entry>will</entry>
+<entry>make</entry>
+</row>
+<row><entry namest="col1" nameend="col10">&lsquo;He asked whether it will matter a great deal whether John will come or not.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A potential solution would be to say that suppression of features may not obliterate semantic contrasts. The subject position is not selected and can therefore either contain an indicative or interrogative CP, which are of course associated with different readings (&lsquo;whether .&nbsp;.&nbsp;.&nbsp;&rsquo; versus &lsquo;the fact that .&nbsp;.&nbsp;.&nbsp;&rsquo;). Ackema&apos;s data involve selected interrogatives, which apparently reconciles suppression of the interrogative feature with recoverability. That selection does not do so generally raises questions about the nature of recoverability, which, however, are beyond the scope of this chapter.</p>
+<p>Ackema derives various apparently stipulative properties of (32) and (33) from optimality-theoretic competition. In this respect, the paper builds on <link rid="b10">Grimshaw (1997a</link>), who provides an account of suppletion in certain Italian clitic clusters. <link rid="b7">Bonet (1995</link>) observes that a sequence of an impersonal and a reflexive clitic, expected to surface as <i>si si</i> or <i>si se</i>, is in fact realized as <i>ci si</i>, where <i>ci</i> is a form that normally functions as the first person plural pronoun:</p>
+<p>(37)&ensp;<object id="tu36" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu36_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Lo</entry>
+<entry>si</entry>
+<entry>sveglia.</entry>
+<entry>Italian</entry>
+</row>
+<row><entry>him</entry>
+<entry>one</entry>
+<entry>wakes-up</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;One wakes him up.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Se</entry>
+<entry>lo</entry>
+<entry>compra.</entry>
+</row>
+<row><entry>self</entry>
+<entry>it</entry>
+<entry>buys</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;He/she buys it for himself/herself.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>*<b>Si</b>
+</entry>
+<entry><b>si</b>
+</entry>
+<entry>lava.</entry>
+</row>
+<row><entry>one</entry>
+<entry>self</entry>
+<entry>washes</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;One washes oneself.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">d.</entry>
+<entry>Ci</entry>
+<entry>si</entry>
+<entry>lava.</entry>
+</row>
+<row><entry>we</entry>
+<entry>self</entry>
+<entry>washes</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;One washes oneself.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>It seems, then, that Italian has a ban on adjacent identical clitics:</p>
+<p>(38)&ensp;<object id="tu37" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu37_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry namest="col1" nameend="col2">*/clitic<sub>1</sub>/ /clitic<sub>2</sub>/ if</entry>
+</row>
+<row><entry>(i)</entry>
+<entry>/clitic<sub>1</sub>/ and /clitic<sub>2</sub>/ are adjacent, and</entry>
+</row>
+<row><entry>(ii)</entry>
+<entry>/clitic<sub>1</sub>/ is identical to /clitic<sub>2</sub>/</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The same filter could be responsible for the fact that the dative clitics <i>lo</i> and <i>la</i> become <i>glie</i> before accusative clitics beginning with <i>l</i>. Of course, this would require that identity is defined as onset identity.</p>
+<p>As in the case of dative clitics, the strategy adopted for avoiding violation of (38) by <i>si si</i> sequences is one of suppletion. What distinguishes replacement of <i>si</i> by <i>ci</i> in Italian from replacement of <i>of</i> by <i>dat</i> in Dutch is that the suppletive form in Italian is richer in content than the form it replaces. <link rid="b7">Bonet (1995</link>) argues that the impersonal clitic <i>si</i> is highly underspecified: it only contains the feature plural, as indicated by the fact that it triggers plural adjectival agreement (<link rid="b20">Cinque 1988</link>). If this analysis is correct, whatever form replaces <i>si</i> will be associated with a more specific feature content. In particular, Bonet captures the situation in Italian by a rule that inserts the feature first person, prior to phonological realization of the clitic. The resulting form is <i>ci</i>, which normally expresses first person plural:</p>
+<p>(39)&emsp;&lsqb;<smallcapitals>
+<smallcapitals>d pl</smallcapitals>
+</smallcapitals>&rsqb; &rarr; &lsqb;<smallcapitals>
+<smallcapitals>d</smallcapitals>
+</smallcapitals> 1 <smallcapitals>
+<smallcapitals>pl</smallcapitals>
+</smallcapitals>&rsqb; (triggered by (38))</p>
+<p>Three remarks are in order. First, the first person feature in <i>ci</i> should not feed semantic interpretation. This leaves open two options: either the rule is syntactic and relies on subsequent suppression of the relevant feature at LF, or the rule applies in the PF branch of the grammar (as suggested by Bonet). Second, it remains to be explained why the suppletive form is <i>ci</i> rather than any other of the available clitics. Bonet gives a partial answer to this question, based on economy. <link rid="b10">Grimshaw (1997a</link>) discusses the problem in detail, providing an optimality-theoretic analysis. She argues that <i>ci</i> is chosen because it is minimally marked, while at the same time realizing as much of the target semantics as possible. Third, it is an open question why the first rather than the second <i>si</i> receives a suppletive realization. Although this is expressed by Bonet&apos;s rule, it remains unexplained.</p>
+</subsection>
+<subsection id="ss7" level="1">
+<heading id="h6" level="1">3 Repeated features</heading>
+<subsection id="ss8" level="2">
+<heading id="h7" level="2">3.1 Syntactic identity</heading>
+<p>The rules we have formulated so far must operate at the PF interface: while their effects are phonological, the environment in which they are triggered is characterized in both morpho-syntactic and phonological terms. For example, Dutch does not exclude the sequence /er/ /er/ in general, but only if it corresponds to a repetition of the pronoun <i>er</i> in syntax. Thus, the sequence /duiker/ /er/ in (27) is well-formed. This state of affairs raises the question what exactly triggers haplology in this case, repetition of phonological forms or of syntactic features. In some cases phonology seems the only possible trigger (for example, the case of Dutch complementizer suppletion), but in others the situation is arguably less clear. A complicating factor is that elements often have the same form because they express the same features.</p>
+<p>Given that the spell-out rules relate morpho-syntactic objects to their phonological form, one would expect to find cases in which deletion or suppletion is triggered by syntactic features even though the morphemes affected are not phonologically identical in isolation. Thus, even if M<sub>1</sub> and M<sub>2</sub> in (40a) are usually spelled out differently, the fact that they both express the feature F may trigger avoidance (40b), haplology (40c), suppletion (40d) or insertion of a portmanteau form (40e).</p>
+<p>(40)&ensp;<object id="tu38" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu38_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry namest="col2" nameend="col3">.&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>M1</sub> .&nbsp;.&nbsp;.&nbsp;F .&nbsp;.&nbsp;.&nbsp;&rsqb; &lsqb;<sub>M2</sub> .&nbsp;.&nbsp;.&nbsp;F .&nbsp;.&nbsp;.&nbsp;&rsqb; .&nbsp;.&nbsp;.&nbsp;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*.&nbsp;.&nbsp;.&nbsp;M<sub>1</sub> M<sub>2</sub> .&nbsp;.&nbsp;.&nbsp;</entry>
+<entry>
+</entry>
+</row>
+<row><entry>c.</entry>
+<entry>.&nbsp;.&nbsp;.&nbsp;M<sub>2</sub> .&nbsp;.&nbsp;.&nbsp;</entry>
+<entry>.&nbsp;.&nbsp;.&nbsp;M<sub>1</sub> .&nbsp;.&nbsp;.&nbsp;</entry>
+</row>
+<row><entry>d.</entry>
+<entry>.&nbsp;.&nbsp;.&nbsp;M<sub>1</sub> M<sub>2</sub>&prime; .&nbsp;.&nbsp;.&nbsp;</entry>
+<entry>.&nbsp;.&nbsp;.&nbsp;M<sub>1</sub>&prime; M<sub>2</sub> .&nbsp;.&nbsp;.&nbsp;</entry>
+</row>
+<row><entry>e.</entry>
+<entry>.&nbsp;.&nbsp;.&nbsp;M<sub>3</sub> .&nbsp;.&nbsp;.&nbsp;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl> </insitu>
+</objectsource>
+</object>
+</p>
+<p>In this section we discuss some phenomena that can be analyzed in these terms. Of course, the existence of such cases does not imply that the cases dis-cussed so far must be reanalyzed in terms of repetition of syntactic features.</p>
+</subsection>
+<subsection id="ss9" level="2">
+<heading id="h8" level="2">3.2 Deletion</heading>
+<p>A suitable phenomenon for introducing the issue is provided by the deletion of possessive markers in Romanian in the context of preceding definite determiners (see <link rid="b21 b22 b23">Dobrovie-Sorin 1987, Grosu 1988, Cornilescu 1995</link>, and others). Indefinite articles in Romanian precede the noun, while definite articles follow it. This implies that definite, but not indefinite, articles will be adjacent to the particle that introduces post-nominal possessives. As it turns out, the possessive marker is deleted if it surfaces next to the definite article, as in (41b). No deletion occurs if the article and possessive marker are separated by an adjectival modifier (cf. 41c) or a demonstrative (cf. 41d).</p>
+<p>(41)&ensp;<object id="tu39" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu39_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>un</entry>
+<entry>prieten</entry>
+<entry>al</entry>
+<entry>b&#x01CE;iat-ul-ui</entry>
+</row>
+<row><entry>Indef.M</entry>
+<entry>friend</entry>
+<entry>Poss.Sg.M</entry>
+<entry>boy-Def.M-Dat.M</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;a friend of the boy&rsquo;</entry>
+</row>
+<row><entry morerows="2">b.</entry>
+<entry>prieten-<b>ul</b>
+</entry>
+<entry>(*<b>al</b>)</entry>
+<entry>b&#x01CE;iat-ul-ui</entry>
+<entry>
+</entry>
+</row>
+<row><entry>friend-Def.M</entry>
+<entry>Poss.Sg.M</entry>
+<entry>boy-Def.M-Dat.M</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;the friend of the boy&rsquo;</entry>
+</row>
+<row><entry morerows="2">c.</entry>
+<entry>prieten-ul</entry>
+<entry>nebun</entry>
+<entry>al</entry>
+<entry>b&#x01CE;iat-ul-ui</entry>
+</row>
+<row><entry>friend-Def.M</entry>
+<entry>crazy</entry>
+<entry>Poss.Sg.M</entry>
+<entry>boy-Def.M-Dat.M</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;the crazy friend of the boy&rsquo;</entry>
+</row>
+<row><entry morerows="2">d.</entry>
+<entry>prieten-a</entry>
+<entry>asta</entry>
+<entry>a</entry>
+<entry>b&#x01CE;iat-ul-ui</entry>
+</row>
+<row><entry>friend-Def.F</entry>
+<entry>this.F</entry>
+<entry>Poss.Sg.F</entry>
+<entry>boy-Def.M-Dat.M</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;this girlfriend of the boy&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Although this phenomenon is often analyzed in purely syntactic terms, <link rid="b24">Ortmann and Popescu (2001</link>) argue convincingly that it is in fact conditioned by adjacency rather than hierarchical structure. A particularly strong argument to this effect is provided by coordinated possessives, which, in the relevant context, require deletion of the possessive marker that introduces the leftmost conjunct but not of any other possessive markers. This is particularly hard to understand in terms of syntactic structure.</p>
+<p>(42)&ensp;<object id="tu40" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu40_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>o</entry>
+<entry>cas&#x01CE; &lsqb;</entry>
+<entry>a</entry>
+<entry>b&#x01CE;iat-ul-ui</entry>
+<entry>&#x015F;i</entry>
+<entry>a</entry>
+<entry>fet-ei&rsqb;</entry>
+</row>
+<row><entry>Indef.F</entry>
+<entry>house</entry>
+<entry>Poss.Sg.F</entry>
+<entry>boy-Def.M-Dat.M</entry>
+<entry>and</entry>
+<entry>Poss.Sg.F</entry>
+<entry>girl-Dat.F</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;a house of the boy and of the girl&rsquo;</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>cas-<b>a</b> &lsqb;</entry>
+<entry>(*<b>a</b>)</entry>
+<entry>b&#x01CE;iat-ul-ui</entry>
+<entry>&#x015F;i</entry>
+<entry>a</entry>
+<entry>fet-ei&rsqb;</entry>
+</row>
+<row><entry>house-Def.F</entry>
+<entry>Poss.Sg.F</entry>
+<entry>boy-Def.M-Dat.M</entry>
+<entry>and</entry>
+<entry>Poss.Sg.F</entry>
+<entry>girl-Dat.F</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;the house of the boy and of the girl&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Ortmann and Popescu analyze possessive deletion in terms of phonologically conditioned haplology. Indeed, as they point out, the definite determiner and the possessive share at least one phoneme in contexts that trigger deletion. In Romanian, as in French, possessives agree in number and gender with the nominal constituent they modify. As a result, a noun ending in a masculine singular definite determiner will take a possessive phrase starting with a particle expressing the same features, etc. The contexts that require deletion of the possessive marker are presented in (43).</p>
+<p>(43)<object id="tu41" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu41_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>
+</entry>
+<entry>Definite determiner</entry>
+<entry>Possessive</entry>
+</row>
+<row><entry><i>Masculine singular</i>
+</entry>
+<entry><i>u<u>l</u>
+</i>/<i><u>l</u>e</i>
+</entry>
+<entry><i>a<u>l</u>
+</i>
+</entry>
+</row>
+<row><entry>Feminine singular</entry>
+<entry><i><u>a</u>
+</i>
+</entry>
+<entry><i><u>a</u>
+</i>
+</entry>
+</row>
+<row><entry>Masculine plural</entry>
+<entry><i><u>i</u>
+</i>
+</entry>
+<entry><i>a<u>i</u>
+</i>
+</entry>
+</row>
+<row><entry>Feminine plural</entry>
+<entry><i><u>l</u>e</i>
+</entry>
+<entry><i>a<u>l</u>e</i>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The deletion of the possessive marker cannot have a purely phonological trigger, since indefinites whose stem ends in <i>ul</i> do not require deletion of a following <i>al</i> possessive. Ortmann and Popescu therefore propose a ban on any shared phonological material in adjacent functional heads.</p>
+<p>Although the determiner and possessive forms consistently share a phoneme, they are clearly not generally phonologically identical; consequently, it is not immediately clear that we can generalize from the cases discussed in the previous section to Romanian possessive deletion. Indeed, given that the determiner and possessive marker share phi-features, it seems more plausible to attribute the deletion to a ban on accidentally repeated syntactic features:</p>
+<p>(44)&ensp;<object id="tu42" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu42_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry namest="col1" nameend="col2">*/determiner/ /possessive/ if</entry>
+</row>
+<row><entry> (i)</entry>
+<entry>/determiner/ and /possessive/ are adjacent, and</entry>
+</row>
+<row><entry> (ii)</entry>
+<entry>
+<smallcapitals>determiner</smallcapitals> and <smallcapitals>possessive</smallcapitals> agree in number and gender.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This ban triggers the rule below:</p>
+<p>(45)&emsp;/possessive/ &rarr; &Oslash; (triggered by(44))</p>
+<p>In other words, Romanian possessive deletion takes place under systematic syntactic identity but only partial phonological identity, which favors an account in terms of repeated syntactic features.</p>
+<p>As Ortmann and Popescu&apos;s work demonstrates, there is a reasonable interpretation of the Romanian data based on accidental phonological repetition. A case in which such an approach seems much less plausible, if not downright impossible, is presented by Old French pro drop. The facts are as follows. Old French is a verb-second language and pro drop is sensitive to word order. It is possible in exactly one context, namely, in main clauses in which subject&ndash;verb inversion would occur if the subject were overt, as pointed out by <link rid="b25">Foulet (1928</link>). Thus, it is possible in declarative main clauses in which a constituent other than the subject is fronted and in yes&ndash;no questions, but it is unattested in embedded clauses and subject-initial declaratives. This is illustrated by the data in (46a, b), from <link rid="b26">Adams (1987</link>). Examples (46c, d) are constructed examples of unattested patterns.</p>
+<p>(46)&ensp;<object id="tu43" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu43_source">
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Einsi</entry>
+<entry>corurent</entry>
+<entry>__</entry>
+<entry>par</entry>
+<entry>mer</entry>
+<entry>tant que</entry>
+<entry>il</entry>
+<entry>vindrent</entry>
+<entry>&agrave;</entry>
+<entry>Cademel&eacute;e.</entry>
+</row>
+<row><entry>thus</entry>
+<entry>ran-3.Pl</entry>
+<entry>
+</entry>
+<entry>by</entry>
+<entry>sea</entry>
+<entry>until</entry>
+<entry>they</entry>
+<entry>came-3.Pl</entry>
+<entry>to</entry>
+<entry>Cadm&eacute;e</entry>
+</row>
+<row><entry namest="col2" nameend="col11">&lsquo;In this way they ran by the sea until they came to Cadm&eacute;e.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Oserai</entry>
+<entry>__</entry>
+<entry>le</entry>
+<entry>vous</entry>
+<entry>demander?</entry>
+</row>
+<row><entry>dare-1.Sg</entry>
+<entry>
+</entry>
+<entry>it</entry>
+<entry>you</entry>
+<entry>ask</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;Dare I ask it of you?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="12">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">c.</entry>
+<entry>*Einsi</entry>
+<entry>corurent</entry>
+<entry>li</entry>
+<entry>Grieu</entry>
+<entry>par</entry>
+<entry>mer</entry>
+<entry>tant que</entry>
+<entry>__</entry>
+<entry>vindrent</entry>
+<entry>&agrave;</entry>
+<entry>Cademel&eacute;e.</entry>
+</row>
+<row><entry>thus</entry>
+<entry>ran-3.Pl</entry>
+<entry>the</entry>
+<entry>Greeks</entry>
+<entry>by</entry>
+<entry>sea</entry>
+<entry>until</entry>
+<entry>
+</entry>
+<entry>came-3.Pl</entry>
+<entry>to</entry>
+<entry>Cadm&eacute;e</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">d.</entry>
+<entry>*__</entry>
+<entry>corurent</entry>
+<entry>einsi</entry>
+<entry>par</entry>
+<entry>mer</entry>
+<entry>tant que</entry>
+<entry>il</entry>
+<entry>vindrent</entry>
+<entry>&agrave;</entry>
+<entry>Cademel&eacute;e.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>ran-3.Pl</entry>
+<entry>thus</entry>
+<entry>by</entry>
+<entry>sea</entry>
+<entry>until</entry>
+<entry>they</entry>
+<entry>came-3.Pl</entry>
+<entry>to</entry>
+<entry>Cadm&eacute;e</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The simplest generalization that describes these data is that a weak pronoun is omitted precisely when it is adjacent to the inflectional ending it agrees with (for obvious reasons, focused pronouns cannot be deleted). This suggests an account in terms of accidentally repeated syntactic features. The relevant filter is given in (47).</p>
+<p>(47)&ensp;<object id="tu44" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu44_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry namest="col1" nameend="col2">*/affix/ /pronoun/ if</entry>
+</row>
+<row><entry>(i)</entry>
+<entry>/affix/ and /pronoun/ are adjacent, and</entry>
+</row>
+<row><entry>(ii)</entry>
+<entry>
+<smallcapitals>affix</smallcapitals> and <smallcapitals>pronoun</smallcapitals> agree.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Violation of this filter is avoided by deletion of the pronoun:</p>
+<p>(48)&emsp;/pronoun/ &rarr; &Oslash; (triggered by (47))</p>
+<p>This is a reformulation of the analysis offered in <link rid="b27">Ackema and Neeleman (2003</link>), who characterize the domain of rule application somewhat differently. Crucially, the conditioning environment cannot be purely phonological, given that pronouns and inflectional endings in Old French do not show any similarity in form. Hence, if haplology is at stake here, it is best captured in terms of repeated syntactic features. (As shown by Ackema and Neeleman, the argument carries over to Arabic pro drop.)</p>
+<p>The main earlier treatment of Old French pro drop (<link rid="b26">Adams 1987</link>) is based on government and relies on the following assumptions; (i) the position of pro must be identified by a governing head; (ii) the content of pro must be identified by co-indexation with the proper features; (iii) the proper governor for pro is I<sup>0</sup> but not C<sup>0</sup>; (iv) I<sup>0</sup> governs to the right; (v) I<sup>0</sup> can govern from its derived position in C<sup>0</sup> in verb-second structures; and (vi) pro cannot be fronted to satisfy the verb second constraint. Several of these conditions are unexpected, even in GB theory. More importantly, however, they amount to a rather complex way of deriving what is in essence a simple generalization, namely that pro drop relies on adjacency of an agreeing affix.</p>
+</subsection>
+<subsection id="ss10" level="2">
+<heading id="h9" level="2">3.3 Suppletion</heading>
+<p>Having seen a possible case of deletion in order to avoid accidental repetition of syntactic features, one may expect the same avoidance mechanism to give rise to suppletion. A possible case of this is found Dutch verb-second structures. In general, agreement in Dutch is insensitive to word order, but second person singular verb forms surface as first person singular whenever verb second gives rise to inversion:</p>
+<p>(49)&ensp;<object id="tu45" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu45_source">
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>&lsqb;<sub>CP</sub>
+</entry>
+<entry>dat &lsqb;</entry>
+<entry>jij</entry>
+<entry>dagelijks</entry>
+<entry>met</entry>
+<entry>een</entry>
+<entry>hondje</entry>
+<entry>over</entry>
+<entry>straat</entry>
+<entry>loopt&rsqb;&rsqb;</entry>
+</row>
+<row><entry>
+</entry>
+<entry>that</entry>
+<entry>you</entry>
+<entry>daily</entry>
+<entry>with</entry>
+<entry>a</entry>
+<entry>doggy</entry>
+<entry>in-the</entry>
+<entry>street</entry>
+<entry>walk-2.Sg</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>&lsqb;<sub>CP</sub>
+</entry>
+<entry>Jij &lsqb;<sub>C&prime;</sub>
+</entry>
+<entry>loopt &lsqb;t<sub>DP</sub>
+</entry>
+<entry>dagelijks</entry>
+<entry>met</entry>
+<entry>een</entry>
+<entry>hondje</entry>
+<entry>over</entry>
+<entry>straat</entry>
+<entry>t<sub>V</sub>&rsqb;&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>you</entry>
+<entry>walk-2.Sg</entry>
+<entry>daily</entry>
+<entry>with</entry>
+<entry>a</entry>
+<entry>doggy</entry>
+<entry>in-the</entry>
+<entry>street</entry>
+<entry>
+</entry>
+</row>
+<row><entry morerows="1">c.</entry>
+<entry>&lsqb;<sub>CP</sub>
+</entry>
+<entry>*Dagelijks &lsqb;<sub>C&prime;</sub>
+</entry>
+<entry>loop<b>t</b> &lsqb;</entry>
+<entry><b>jij</b> t<sub>AdvP</sub>
+</entry>
+<entry>met</entry>
+<entry>een</entry>
+<entry>hondje</entry>
+<entry>over</entry>
+<entry>straat</entry>
+<entry>t<sub>V</sub>&rsqb;&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>daily</entry>
+<entry>walk-2.Sg</entry>
+<entry>you</entry>
+<entry>with</entry>
+<entry>a</entry>
+<entry>doggy</entry>
+<entry>in-the</entry>
+<entry>street</entry>
+<entry>
+</entry>
+</row>
+<row><entry morerows="1">d.</entry>
+<entry>&lsqb;<sub>CP</sub>
+</entry>
+<entry>Dagelijks &lsqb;<sub>C&prime;</sub>
+</entry>
+<entry>loop &lsqb;</entry>
+<entry>jij t<sub>AdvP</sub>
+</entry>
+<entry>met</entry>
+<entry>een</entry>
+<entry>hondje</entry>
+<entry>over</entry>
+<entry>straat</entry>
+<entry>t<sub>V</sub>&rsqb;&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>daily</entry>
+<entry>walk.1.Sg</entry>
+<entry>you</entry>
+<entry>with</entry>
+<entry>a</entry>
+<entry>doggy</entry>
+<entry>in-the</entry>
+<entry>street</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As in the case of Old French pro drop, the obvious generalization is that spell-out is sensitive to adjacency of the second person singular affix and the agreeing subject. <link rid="b27">Ackema and Neeleman (2003</link>) develop an analysis roughly along these lines, based on a characterization of the Dutch verbal paradigm in terms of the features Prt, Add, and Pl, which represent participant in the speech act, addressee, and plural (see also <link rid="b28">Kerstens 1993</link>; <link rid="b29">Harley and Ritter 1998</link>). The paradigm may then be characterized in terms of the following spell-out rules:</p>
+<p>(50)&ensp;<object id="tu46" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu46_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;V <smallcapitals>prt</smallcapitals>&rsqb; &rarr; /v/</entry>
+<entry>(first person singular)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;V <smallcapitals>prt add</smallcapitals>&rsqb; &rarr; /v/-/t/</entry>
+<entry>(second person singular)</entry>
+</row>
+<row><entry>c.</entry>
+<entry>&lsqb;V <smallcapitals>pl</smallcapitals>&rsqb; &rarr; /v/-/en/</entry>
+<entry>(plural)</entry>
+</row>
+<row><entry>d.</entry>
+<entry>&lsqb;V&rsqb; &rarr; /v/-/t/</entry>
+<entry>(third person singular, elsewhere form)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Given this verbal paradigm, the condition that rules out (49c) can be stated in terms of accidental repetition of the <smallcapitals>add</smallcapitals> feature:</p>
+<p>(51)&ensp;<object id="tu47" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu47_source"> <tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry namest="col1" nameend="col2">*/affix/ /pronoun/ if</entry>
+</row>
+<row><entry>(i)</entry>
+<entry>/affix/ and /pronoun/ are adjacent, and </entry>
+</row>
+<row><entry>(ii)</entry>
+<entry>
+<smallcapitals>affix</smallcapitals> and <smallcapitals>pronoun</smallcapitals> agree in <smallcapitals>add</smallcapitals>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl> </insitu>
+</objectsource>
+</object>
+</p>
+<p>Violation of this filter is avoided by suppression of the <smallcapitals>add</smallcapitals> in spell-out:</p>
+<p>(52)&emsp;<smallcapitals>add</smallcapitals> &rarr; &Oslash; (triggered by (51))</p>
+<p>The resulting phonology realizes only the <smallcapitals>prt</smallcapitals> feature and therefore has the form of the first person singular. The analysis is supported by the fact that, although there is in general no adjacency requirement on a subject and a preceding fronted verb, the reduced form of the second person singular must immediately be followed by the subject. (See <link rid="b30">Paardekooper 1961</link> and <link rid="b31">Hoekstra 1996</link> for related discussion and observations.) We should acknowledge here that there is some variation among speakers with respect to the relevant judgments. Some speakers reject (53b), where the subject contains a DP-internal modifier, but no speakers accept (53b&prime;).</p>
+<p>(53)&ensp;<object id="tu48" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu48_source">
+<tbl frame="none">
+<tgroup cols="16">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13" align="char" char="."/>
+<colspec colnum="14" colname="col14" align="char" char="."/>
+<colspec colnum="15" colname="col15" align="char" char="."/>
+<colspec colnum="16" colname="col16" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Volgens</entry>
+<entry>mij</entry>
+<entry>gaat</entry>
+<entry>zelfs</entry>
+<entry>hij</entry>
+<entry>op</entry>
+<entry>de</entry>
+<entry>heetste</entry>
+<entry>dag</entry>
+<entry>van</entry>
+<entry>&apos;t</entry>
+<entry>jaar</entry>
+<entry>naar</entry>
+<entry>het</entry>
+<entry>park.</entry>
+</row>
+<row><entry>according</entry>
+<entry>to-me</entry>
+<entry>go-3.Sg</entry>
+<entry>even</entry>
+<entry>he</entry>
+<entry>on</entry>
+<entry>the</entry>
+<entry>hottest</entry>
+<entry>day</entry>
+<entry>of</entry>
+<entry>the</entry>
+<entry>year</entry>
+<entry>to</entry>
+<entry>the</entry>
+<entry>park</entry>
+</row>
+<row><entry namest="col2" nameend="col16">&lsquo;According to me even he goes to the park on the hottest day of the year.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="16">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13" align="char" char="."/>
+<colspec colnum="14" colname="col14" align="char" char="."/>
+<colspec colnum="15" colname="col15" align="char" char="."/>
+<colspec colnum="16" colname="col16" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a&prime;.</entry>
+<entry>Volgens</entry>
+<entry>mij</entry>
+<entry>gaat</entry>
+<entry>op</entry>
+<entry>de</entry>
+<entry>heetste</entry>
+<entry>dag</entry>
+<entry>van</entry>
+<entry>&apos;t</entry>
+<entry>jaar</entry>
+<entry>zelfs</entry>
+<entry>hij</entry>
+<entry>naar</entry>
+<entry>het</entry>
+<entry>park.</entry>
+</row>
+<row><entry>according</entry>
+<entry>to-me</entry>
+<entry>go-3.Sg</entry>
+<entry>on</entry>
+<entry>the</entry>
+<entry>hottest</entry>
+<entry>day</entry>
+<entry>of</entry>
+<entry>the</entry>
+<entry>year</entry>
+<entry>even</entry>
+<entry>he</entry>
+<entry>to</entry>
+<entry>the</entry>
+<entry>park</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="16">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13" align="char" char="."/>
+<colspec colnum="14" colname="col14" align="char" char="."/>
+<colspec colnum="15" colname="col15" align="char" char="."/>
+<colspec colnum="16" colname="col16" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Volgens</entry>
+<entry>mij</entry>
+<entry>ga</entry>
+<entry>zelfs</entry>
+<entry>jij</entry>
+<entry>op</entry>
+<entry>de</entry>
+<entry>heetste</entry>
+<entry>dag</entry>
+<entry>van</entry>
+<entry>&apos;t</entry>
+<entry>jaar</entry>
+<entry>naar</entry>
+<entry>het</entry>
+<entry>park.</entry>
+</row>
+<row><entry>according</entry>
+<entry>to-me</entry>
+<entry>go.1.Sg</entry>
+<entry>even</entry>
+<entry>you</entry>
+<entry>on</entry>
+<entry>the</entry>
+<entry>hottest</entry>
+<entry>day</entry>
+<entry>of</entry>
+<entry>the</entry>
+<entry>year</entry>
+<entry>to</entry>
+<entry>the</entry>
+<entry>park</entry>
+</row>
+<row><entry namest="col2" nameend="col16">&lsquo;According to me even he goes to the park on the hottest day of the year.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="16">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13" align="char" char="."/>
+<colspec colnum="14" colname="col14" align="char" char="."/>
+<colspec colnum="15" colname="col15" align="char" char="."/>
+<colspec colnum="16" colname="col16" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">b&prime;.</entry>
+<entry>*Volgens</entry>
+<entry>mij</entry>
+<entry>ga</entry>
+<entry>op</entry>
+<entry>de</entry>
+<entry>heetste</entry>
+<entry>dag</entry>
+<entry>van</entry>
+<entry>&apos;t</entry>
+<entry>jaar</entry>
+<entry>zelfs</entry>
+<entry>jij</entry>
+<entry>naar</entry>
+<entry>het</entry>
+<entry>park.</entry>
+</row>
+<row><entry>according</entry>
+<entry>to-me</entry>
+<entry>go.1.Sg</entry>
+<entry>on</entry>
+<entry>the</entry>
+<entry>hottest</entry>
+<entry>day</entry>
+<entry>of</entry>
+<entry>the</entry>
+<entry>year</entry>
+<entry>even</entry>
+<entry>you</entry>
+<entry>to</entry>
+<entry>the</entry>
+<entry>park</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Indeed, if the fronted verb and the following second person singular subject are not adjacent, the preferred form of the verb ends in <i>t</i>:</p>
+<p>(54)&ensp;<object id="tu49" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu49_source">
+<tbl frame="none">
+<tgroup cols="15">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13" align="char" char="."/>
+<colspec colnum="14" colname="col14" align="char" char="."/>
+<colspec colnum="15" colname="col15" align="char" char="."/>
+<tbody>
+<row><entry>?Volgens</entry>
+<entry>mij</entry>
+<entry>gaat</entry>
+<entry>op</entry>
+<entry>de</entry>
+<entry>heetste</entry>
+<entry>dag</entry>
+<entry>van</entry>
+<entry>&apos;t</entry>
+<entry>jaar</entry>
+<entry>zelfs</entry>
+<entry>jij</entry>
+<entry>naar</entry>
+<entry>het</entry>
+<entry>park.</entry>
+</row>
+<row><entry>according</entry>
+<entry>to-me</entry>
+<entry>go-2.Sg</entry>
+<entry>on</entry>
+<entry>the</entry>
+<entry>hottest</entry>
+<entry>day</entry>
+<entry>of</entry>
+<entry>the</entry>
+<entry>year</entry>
+<entry>even</entry>
+<entry>you</entry>
+<entry>to</entry>
+<entry>the</entry>
+<entry>park</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The example is not perfect, which Ackema and Neeleman attribute to a parsing difficulty.</p>
+<p>Although we have presented the loss of second person marking under inversion as a possible case of suppletion, it could also be analyzed in terms of deletion, given that the suppletive first person singular form does not carry an ending. However, in realizational models of morphology deletion corresponds to non-spell-out of all features. Hence, if the syntactic agreement affix were deleted, the resulting phonological form would be the elsewhere form, which ends in <i>t</i>. This is obviously not the correct result. Be this as it may, there are comparable phenomena in other languages that must involve suppletion rather than deletion, because there is an overt form that unambiguously spells out the features unaffected by suppression. A well-known case is the agreement alternation with preverbal and postverbal subjects in Modern Standard Arabic (<link rid="b32">Fassi Fehri 1993</link>; <link rid="b33 b34">Benmamoun 2000a, 2000b</link>; <link rid="b27">Ackema and Neeleman 2003</link>). As the data below show, plural agreement is suppressed in VSO order, but gender agreement is maintained. Only in VSO order is the subject adjacent to the verbal ending (data from Fassi Fehri):</p>
+<p>(55)<object id="tu50" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu50_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Daxal-at</entry>
+<entry>n-nisaa<formula id="mu1" format="inline">
+<file name="Graphics\chapter_69_mu1.gif" type="gif"/>
+</formula>-u</entry>
+<entry>makaatib-a-hunna</entry>
+</row>
+<row><entry>entered-Fem</entry>
+<entry>the-women-Nom</entry>
+<entry>office-Pl-Acc-their-Fem</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;the women entered their office.&rsquo;</entry>
+</row>
+<row><entry morerows="1">a&prime;.</entry>
+<entry>*Daxal-<b>na</b>
+</entry>
+<entry><b>n-nisaa</b>
+<formula id="mu2" format="inline">
+<file name="Graphics\chapter_69_mu2.gif" type="gif"/>
+</formula><b>-u</b>
+</entry>
+<entry>makaatib-a-hunna</entry>
+</row>
+<row><entry>entered-Fem-Pl</entry>
+<entry>the-women-Nom</entry>
+<entry>office-Pl-Acc-their-Fem</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>N-nisaa<formula format="inline">
+<file name="Graphics\chapter_69_mu1.gif" type="gif"/>
+</formula>-u</entry>
+<entry>daxal-na</entry>
+<entry>makaatib-a-hunna</entry>
+</row>
+<row><entry>the-women-nom</entry>
+<entry>entered-Fem-Pl</entry>
+<entry>office-Pl-Acc-their-Fem</entry>
+</row>
+<row><entry morerows="1">b&prime;.</entry>
+<entry>*N-nisaa<formula format="inline">
+<file name="Graphics\chapter_69_mu1.gif" type="gif"/>
+</formula>-u</entry>
+<entry>daxal-at</entry>
+<entry>makaatib-a-hunna</entry>
+</row>
+<row><entry>the-women-Nom</entry>
+<entry>entered-Fem</entry>
+<entry>office-Pl-Acc-their-Fem</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Of course, both the Dutch and the Modern Standard Arabic data have received syntactic analyses (see <link rid="b35">Zwart 1997a</link> and references mentioned there for a syntactic approach to the Dutch data, and <link rid="b36">Huybregts 1991</link> and <link rid="b32">Fassi Fehri 1993</link> for a syntactic approach to agreement weakening in Arabic). It would take us too far afield to compare these to the suggestions made here.</p>
+</subsection>
+<subsection id="ss11" level="2">
+<heading id="h10" level="2">3.4 Portmanteau morphemes</heading>
+<p>In the case of haplology based on phonological identity, one can either say that one of the two morphemes fails to be realized phonologically (deletion) or that the remaining phonological form spells out two morphemes (coalescence). It is not easy to find empirical arguments distinguishing the two approaches and it may even be the case that different instances of phonologically motivated haplology require different analyses (see <link rid="b37">De Lacy 1999</link> for related discussion in morpho-phonology).</p>
+<p>If we turn to avoidance of accidental repetition of syntactic features, however, the two strategies can be told apart. In the case of deletion, the remaining phonological form will be identical to the spell-out one of the two morphemes receives in isolation. In the case of coalescence, it may well be that the form that surfaces differs from the form of either morpheme in isolation. In other words, avoidance of accidental repetition of syntactic features may give rise to a portmanteau morpheme.</p>
+<p>The case we will look at involves Huastec weak pronouns, as discussed by <link rid="b38">Edmonson (1987</link>). Huastec is an absolutive&ndash;ergative language with a separate paradigm for absolutive and ergative pronominals. This language displays the following phenomenon. In intransitive structures, pronouns show up in the absolutive (see 56a). In transitive structures, a third person singular object pronoun may be omitted, in which case a subject pronoun shows up in the ergative form (see 56b). However, when both pronouns should be overtly realized, we do not find the expected repetition of pronouns, but rather a portmanteau morpheme indexing both the ergative and absolutive arguments (see 56c, d). (TS &equals; thematic suffix; Com &equals; completive inflection; Inc &equals; incompletive inflection).</p>
+<p>(56)<object id="tu51" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu51_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry namest="col2" nameend="col4">
+<formula format="inline">
+<file name="Graphics\chapter_69_mu1.gif" type="gif"/>
+</formula>In k&rsquo;alel. I.Abs go.TS-Inc</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;I go.&rsquo;</entry>
+</row>
+<row><entry morerows="2">b.</entry>
+<entry>___</entry>
+<entry>
+<formula format="inline">
+<file name="Graphics\chapter_69_mu1.gif" type="gif"/>
+</formula>a</entry>
+<entry>hapiyal.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>you(all).Erg</entry>
+<entry>open.TS-Inc</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;You (all) open it.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>*<formula format="inline">
+<file name="Graphics\chapter_69_mu2.gif" type="gif"/>
+</formula><b>In</b>
+</entry>
+<entry>
+<formula format="inline">
+<file name="Graphics\chapter_69_mu2.gif" type="gif"/>
+</formula><b>a</b>
+</entry>
+<entry>k<sup>w</sup>a&thgr;a<formula format="inline">
+<file name="Graphics\chapter_69_mu1.gif" type="gif"/>
+</formula>.</entry>
+</row>
+<row><entry>me.Abs</entry>
+<entry>you(all).Erg</entry>
+<entry>hit.TS-Com</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;You (all) hit me.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">d.</entry>
+<entry>Tin</entry>
+<entry>k<sup>w</sup>a&thgr;a<formula format="inline">
+<file name="Graphics\chapter_69_mu1.gif" type="gif"/>
+</formula>.</entry>
+</row>
+<row><entry>you(all).me</entry>
+<entry>hit.TS-Com</entry>
+</row>
+<row><entry namest="col2" nameend="col3">&lsquo;You (all) hit me.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The analysis of the Huastec data could involve a filter ruling out adjacent weak pronouns. Violation of this filter is avoided by assigning the two morphemes a single phonological realization:</p>
+<p>(57)&emsp;*/pronoun<sub>1</sub>/ /pronoun<sub>2</sub>/ if /pronoun<sub>1</sub>/ and /pronoun<sub>2</sub>/ are adjacent</p>
+<p>It is not immediately clear from the Huastec data that what Edmonson analyzes as weak pronouns could not instead be agreement affixes, given that they tend to surface adjacent to the verb. However, that we are dealing with a syntactic portmanteau morpheme is supported by two facts. First, pronouns can be separated from the verb by certain modifiers (see (58)). Second, in sentences containing full DP arguments, the pronominals can be omitted (although doubling is also allowed).</p>
+<p>(58)<object id="tu52" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu52_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>Tin</entry>
+<entry>leh</entry>
+<entry>&cent;&prime;ik&prime;-a<formula format="inline">
+<file name="Graphics\chapter_69_mu1.gif" type="gif"/>
+</formula>-&Oslash;</entry>
+<entry>
+<formula format="inline">
+<file name="Graphics\chapter_69_mu1.gif" type="gif"/>
+</formula>an</entry>
+<entry>
+<formula format="inline">
+<file name="Graphics\chapter_69_mu1.gif" type="gif"/>
+</formula>a:m</entry>
+<entry>t-u</entry>
+<entry>
+<formula format="inline">
+<file name="Graphics\chapter_69_mu1.gif" type="gif"/>
+</formula>oko:b.</entry>
+</row>
+<row><entry>it.me</entry>
+<entry>very</entry>
+<entry>bite.TS-Com</entry>
+<entry>the</entry>
+<entry>spider</entry>
+<entry>on-A1</entry>
+<entry>arm</entry>
+</row>
+<row><entry namest="col1" nameend="col7">&lsquo;The spider really bit me in my arm.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+<subsection id="ss12" level="2">
+<heading id="h11" level="2">3.5 Tolerance and avoidance</heading>
+<p>Before we summarize the main findings of this paper, let us briefly discuss the two remaining strategies of dealing with accidental repetition of syntactic features, namely tolerance and avoidance. It will be clear that tolerance is by far the most common strategy. Agreement, for example, is not normally affected by adjacency. As to avoidance, we have not found any examples of this. In cases where repetition is not tolerated, languages consistently seem to provide an alternative realization. We have no explanation for this, but speculate that functional factors may disfavour avoidance strategies in such cases.</p>
+</subsection>
+</subsection>
+<subsection id="ss13" level="1">
+<heading id="h12" level="1">4 Conclusion</heading>
+<p>Strategies for avoidance of accidental repetition involving free morphemes can invariably be formulated as filters that mention both phonological and syntactic properties of the relevant structure. The minimal phonological condition is adjacency, but often partial or complete identity of form plays a role as well. The minimal syntactic condition specifies the syntactic category of the elements in question, but often shared features are mentioned as well. Given these characteristics, the conclusion is unavoidable that avoidance strategies form part of the PF interface. Moreover, this interface must provide a mapping from morpho-syntactic to morpho-phonological representations. It cannot be the case that the phonological form of syntactic terminals is jointly merged with their syntactic and semantic properties.</p>
+<p>It is highly unpredictable in which cases avoidance strategies are employed and, where they are employed, which strategy is chosen. The fact that avoidance is language-specific, construction-specific and morpheme-specific suggests to us that it must be seen as part of the lexicon of the language. In the view of PF sketched above, it is natural to view the lexicon as a list of minimal mapping rules associating, among other things, syntactic terminals with phonological forms (see <link rid="b39 b40">Jackendoff 1996, Halle and Marantz 1993</link>, and many others). If so, some lexical mapping rules may be context-sensitive, giving rise to avoidance of accidental repetition in specific cases.</p>
+<p>For most cases of haplology involving free forms, a purely syntactic analysis is unsatisfactory, primarily because it cannot express the generalizations that seem to underlie the data. It cannot but treat the relevance of adjacency as an epiphenomenon.</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss14" level="1" type="references">
+<heading id="h13" level="1">REFERENCES</heading>
+<reference id="b11" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Ackema</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">Colliding Complementizers in Dutch: Another OCP Effect</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>32</volume><x>: </x><page type="first">717</page><x>&ndash;</x><page type="last">727</page><x>.</x>
+</reference>
+<reference id="b27" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Ackema</surname><x>, </x><forenames>Peter</forenames>
+</name><x> and </x><name type="author">
+<forenames>Ad</forenames><x> </x><surname>Neeleman</surname>
+</name>
+</namegroup><x> (</x><date date="2003">2003</date><x>). </x><title type="document">Context-Sensitive Spell-out and Adjacency</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>21</volume><x>: </x><page type="first">681</page><x>&ndash;</x><page type="last">735</page><x>.</x>
+</reference>
+<reference id="b26" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Adams</surname><x>, </x><forenames>Marianne</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">From Old French to the Theory of Pro-drop</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>5</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">31</page><x>.</x>
+</reference>
+<reference id="b14" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bech</surname><x>, </x><forenames>Gunnar</forenames>
+</name>
+</namegroup><x> (</x><date date="1952">1952</date><x>). </x><title type="document">&Uuml;ber das Niederl&auml;ndische Adverbialpronomen <i>Er</i>
+</title><x>. </x><title type="journal">Traveaux du Cercle Linguistique de Copenhague</title><x> </x><volume>8</volume><x>: </x><page type="first">5</page><x>&ndash;</x><page type="last">32</page><x>.</x>
+</reference>
+<reference id="b33" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Benmamoun</surname><x>, </x><forenames>Elabbas</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000a</date><x>). </x><title type="document">Agreement Asymmetries and the PF Interface</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Research in Afroasiatic Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jacqueline</forenames><x> </x><surname>Lecarme</surname>
+</name><x>, </x><name type="editor">
+<forenames>Jean</forenames><x> </x><surname>Lowenstamm</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Ur</forenames><x> </x><surname>Shlonsky</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">23</page><x>&ndash;</x><page type="last">40</page><x>. </x><address>Amsterdam/Philadelphia</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference id="b34" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Benmamoun</surname><x>, </x><forenames>Elabbas</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000b</date><x>). </x><title type="book">The Feature Structure of Functional Categories</title><x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press.</publisher>
+</reference>
+<reference id="b16" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Bennis</surname><x>, </x><forenames>Hans</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="document">
+<i>Er-</i>Deletion in Modular Grammar</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Linguistics in the Netherlands 1980</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Saskia</forenames><x> </x><surname>Daalder</surname>
+</name><x> and </x><name type="editor">
+<forenames>Marinel</forenames><x> </x><surname>Gerritsen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">58</page><x>&ndash;</x><page type="last">68</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Bennis</surname><x>, </x><forenames>Hans</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="book">Gaps and Dummies</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b7" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bonet</surname><x>, </x><forenames>Eulalia</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Feature Structure of Romance Clitics</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>13</volume><x>: </x><page type="first">607</page><x>&ndash;</x><page type="last">647</page><x>.</x>
+</reference>
+<reference id="b20" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">On <i>Si-</i>Constructions and the Theory of Arb</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>19</volume><x>: </x><page type="first">521</page><x>&ndash;</x><page type="last">581</page><x>.</x>
+</reference>
+<reference id="b23" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cornilescu</surname><x>, </x><forenames>Alexandra</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Romanian Genitive Constructions</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Advances in Romanian Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Guglielmo</forenames><x> </x><surname>Cinque</surname>
+</name><x> and </x><name type="editor">
+<forenames>Giuliana</forenames><x> </x><surname>Guisti</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">1</page><x>&ndash;</x><page type="last">54</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference id="b21" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Dobrovie-Sorin</surname><x>, </x><forenames>Carmen</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">&Agrave; Propos de la Structure du Groupe Nominal en Roumain</title><x>. </x><title type="journal">Rivista di Grammatica Generativa</title><x> </x><volume>12</volume><x>: </x><page type="first">123</page><x>&ndash;</x><page type="last">152</page><x>.</x>
+</reference>
+<reference id="b38" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Edmonson</surname><x>, </x><forenames>Barbara</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Huastec Pronouns</title><x>. </x><title type="journal">Anthropological Linguistics</title><x> </x><volume>29</volume><x>: </x><page type="first">342</page><x>&ndash;</x><page type="last">361</page><x>.</x>
+</reference>
+<reference id="b32" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Fassi-Fehri</surname><x>, </x><forenames>Abdelkader</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="book">Issues in the Structure of Arabic Clauses and Words</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer.</publisher>
+</reference>
+<reference id="b25" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Foulet</surname><x>, </x><forenames>Lucien</forenames>
+</name>
+</namegroup><x> (</x><date date="1928">1928</date><x>). </x><title type="book">Petite Syntaxe de l&rsquo;Ancien Fran&ccedil;ais</title><x>. </x><address>Paris</address><x>: </x><publisher>Champion.</publisher>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Goldsmith</surname><x>, </x><forenames>John<x> </x>A<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date><x>). </x><title type="book">Autosegmental Phonology</title><x>. </x><address>New York</address><x>: </x><publisher>Garland.</publisher>
+</reference>
+<reference id="b10" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Grimshaw</surname><x>, </x><forenames>Jane</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997a</date><x>). </x><title type="document">The Best Clitic: Constraint Conflict in Morphosyntax</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Elements of Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Liliane</forenames><x> </x><surname>Haegeman</surname>
+</name>
+<miscellaneoustext> (ed.)</miscellaneoustext><x>.</x>
+</namegroup><x> </x><address>Dordrecht</address><x>: </x><publisher>Kluwer.</publisher>
+</reference>
+<reference id="b22" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Grosu</surname><x>, </x><forenames>Alexander</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">On the Distribution of Genitive Phrases in Romanian</title><x>. </x><title type="journal">Linguistics</title><x> </x><volume>26</volume><x>: </x><page type="first">931</page><x>&ndash;</x><page type="last">949</page><x>.</x>
+</reference>
+<reference id="b40" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Halle</surname><x>, </x><forenames>Morris</forenames>
+</name><x> and </x><name type="author">
+<forenames>Alec</forenames><x> </x><surname>Marantz</surname>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Distributed Morphology and the Pieces of Inflection</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The View from Building 20: Essays in Linguistics in Honor of Sylvain Bromberger</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ken</forenames><x> </x><surname>Hale</surname>
+</name><x> and </x><name type="editor">
+<forenames>Samuel<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Keyser</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">111</page><x>&ndash;</x><page type="last">176</page><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b29" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Harley</surname><x>, </x><forenames>Heidi</forenames>
+</name><x> and </x><name type="author">
+<forenames>Elizabeth</forenames><x> </x><surname>Ritter</surname>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date>
+<miscellaneoustext>). Meaning in Morphology: Motivating a Feature-Geometric Analysis of Person and Number. Unpublished manuscript</miscellaneoustext><x>, </x>
+<publisher>University of Pennsylvania/University of Calgary</publisher><x>.</x>
+</reference>
+<reference id="b31" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Hoekstra</surname><x>, </x><forenames>Erik</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date>
+<miscellaneoustext>). On the Interaction between Agreement and Pronouns in the 2sg Present Tense in Dutch. Unpublished manuscript</miscellaneoustext><x>, </x>
+<publisher>P. J. Meertens Institute</publisher><x>.</x>
+</reference>
+<reference id="b36" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Huybregts</surname><x>, </x><forenames>Riny</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Allosteric Agreement in VSO Languages</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Linguistics in the Netherlands</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Frank</forenames><x> </x><surname>Drijkoningen</surname>
+</name><x> and </x><name type="editor">
+<forenames>Ans</forenames><x> </x><surnameprefix>van</surnameprefix><x> </x><surname>Kemenade</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">81</page><x>&ndash;</x><page type="last">90</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference id="b39" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Jackendoff</surname><x>, </x><forenames>Ray</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="book">The Architecture of the Language Faculty</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b28" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kerstens</surname><x>, </x><forenames>Johan</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="book">The Syntax of Number, Person and Gender</title><x>. </x><address>Berlin</address><x>: </x><publisher>Mouton de Gruyter</publisher><x>.</x>
+</reference>
+<reference id="b19" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Koster</surname><x>, </x><forenames>Jan</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978d</date><x>). </x><title type="document">Why Subject Sentences Don&apos;t Exist</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Recent Transformational Studies in European Languages</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Samuel<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Keyser</surname>
+</name>
+<miscellaneoustext> (ed.)</miscellaneoustext><x>.</x>
+</namegroup><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b37" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lacy</surname><x>, </x><forenames>Paul<x> </x>de</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">Haplology and Correspondence</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">University of Massachusetts Occasional Papers (UMOP) 24</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Paul</forenames><x> </x><surnameprefix>de</surnameprefix><x> </x><surname>Lacy</surname>
+</name><x> and </x><name type="editor">
+<forenames>Anita</forenames><x> </x><surname>Nowak</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">51</page><x>&ndash;</x><page type="last">88</page><x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association.</publisher>
+</reference>
+<reference id="b5" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Leben</surname><x>, </x><forenames>William</forenames>
+</name>
+</namegroup><x> (</x><date date="1973">1973</date>
+<miscellaneoustext>). Suprasegmental Phonology. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge</address><x>, </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Menn</surname><x>, </x><forenames>Lise</forenames>
+</name><x> and </x><name type="author">
+<forenames>Brian</forenames><x> </x><surname>MacWhinney</surname>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">The Repeated Morph Constraint: Toward an Explanation</title><x>. </x><title type="journal">Language</title><x> </x><volume>60</volume><x>: </x><page type="first">519</page><x>&ndash;</x><page type="last">541</page><x>.</x>
+</reference>
+<reference id="b18" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Model</surname><x>, </x><forenames>Jan</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="book">Grammatische Analyse: Syntactische Verschijnselen in het Nederlands en het Engels</title><x>. (</x><title type="book">Grammatical Analysis: Syntactic Phenomena in Dutch and in English</title><x>.) </x><address>Dordrecht</address><x>: </x><publisher>IGC Publications.</publisher>
+</reference>
+<reference id="b13" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Odijk</surname><x>, </x><forenames>Jan</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date>
+<miscellaneoustext>). Compositionality and Syntactic Generalizations. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Tilburg University</address><x>.</x>
+</reference>
+<reference id="b24" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ortmann</surname><x>, </x><forenames>Albert</forenames>
+</name>
+</namegroup><x> and</x><miscellaneoustext> Alexandra Popescu (</miscellaneoustext>
+<date date="2001">2001</date><x>). </x><address>Haplology Involving Morphologically Bound and Free Elements</address><x>: </x><publisher>Evidence from Romanian.</publisher>
+<miscellaneoustext> In</miscellaneoustext><x>: </x>
+<title type="book">Yearbook of Morphology 2000</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Geert</forenames><x> </x><surname>Booij</surname>
+</name><x> and </x><name type="editor">
+<forenames>Jaap</forenames><x> </x><surnameprefix>van</surnameprefix><x> </x><surname>Marle</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">43</page><x>&ndash;</x><page type="last">70</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer.</publisher>
+</reference>
+<reference id="b30" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Paardekooper</surname><x>, </x><forenames>Pieter</forenames>
+</name>
+</namegroup>
+<miscellaneoustext> C. (</miscellaneoustext>
+<date date="1961">1961</date><x>). </x><title type="document">Persoonsvorm en Voegwoord. (Finite Verb and Conjunction.)</title><x> </x><title type="journal">De Nieuwe Taalgids</title><x> </x><volume>54</volume><x>: </x><page type="first">296</page><x>&ndash;</x><page type="last">301</page><x>.</x>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Perlmutter</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1971">1971</date><x>). </x><title type="book">Deep and Surface Structure Constraints in Syntax</title><x>. </x><address>New York</address><x>: </x><publisher>Holt, Rinehart and Winston</publisher><x>.</x>
+</reference>
+<reference id="b4" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Plag</surname><x>, </x><forenames>Ingo</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">Morphological Haplology in a Constraint-Based Morpho-Phonology</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Phonology and Morphology of the Germanic Languages</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Wolfgang</forenames><x> </x><surname>Kehrein</surname>
+</name><x> and </x><name type="editor">
+<forenames>Richard</forenames><x> </x><surname>Wiese</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">199</page><x>&ndash;</x><page type="last">215</page><x>. </x><address>T&uuml;bingen</address><x>: </x><publisher>Max Niemeyer.</publisher>
+</reference>
+<reference id="b9" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Prince</surname><x>, </x><forenames>Alan</forenames>
+</name><x> and </x><name type="author">
+<forenames>Paul</forenames><x> </x><surname>Smolensky</surname>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date>
+<miscellaneoustext>). Optimality Theory: Constraint Interaction in Generative Grammar. Unpublished manuscript, RuCCs Technical Report 2</miscellaneoustext><x>. </x>
+<address>New Jersey, Rutgers University Center for Cognitive Science</address><x>.</x>
+</reference>
+<reference id="b8" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Radford</surname><x>, </x><forenames>Andrew</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date><x>). </x><title type="document">Counter-Filtering Rules</title><x>. </x><title type="journal">York Papers in Linguistics</title><x> </x><volume>7</volume><x>: </x><page type="first">7</page><x>&ndash;</x><page type="last">45</page><x>.</x>
+</reference>
+<reference id="b12" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Radford</surname><x>, </x><forenames>Andrew</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date><x>). </x><title type="document">The Functional Basis of Transformations</title><x>. </x><title type="other">Transactions of the Philological Society</title><x> </x><page type="first">1</page><x>&ndash;</x><page type="last">42</page><x>.</x>
+</reference>
+<reference id="b15" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Riemsdijk</surname><x>, </x><forenames>Henk<x> </x>C<x>. </x>van</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978a</date><x>). </x><title type="book">A Case Study in Syntactic Markedness: The Binding Nature of Prepositional Phrases</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b2" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Stemberger</surname><x>, </x><forenames>Joseph<x> </x>P<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="document">Morphological Haplology</title><x>. </x><title type="journal">Language</title><x> </x><volume>57</volume><x>: </x><page type="first">791</page><x>&ndash;</x><page type="last">817</page><x>.</x>
+</reference>
+<reference id="b3" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Yip</surname><x>, </x><forenames>Moira</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">Identity Avoidance in Phonology and Morphology</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Morphology and its Relation to Phonology and Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Stephen</forenames><x> </x><surname>LaPointe</surname>
+</name><x>, </x><name type="editor">
+<forenames>Diane</forenames><x> </x><surname>Brentari</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Patrick</forenames><x> </x><surname>Farrell</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">216</page><x>&ndash;</x><page type="last">246</page><x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications.</publisher>
+</reference>
+<reference id="b35" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Zwart</surname><x>, </x><forenames>C<x>. </x>Jan-Wouter</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997a</date><x>). </x><title type="book">The Morphosyntax of Verb Movement</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer.</publisher>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

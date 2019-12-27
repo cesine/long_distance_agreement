@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/comp5541t3/!svn/ver/140/uuisphp/PHYSICALASSETS/MAPPER
+END
+StorageUnitMapper.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/comp5541t3/!svn/ver/138/uuisphp/PHYSICALASSETS/MAPPER/StorageUnitMapper.php
+END
+EquipmentMapper.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/comp5541t3/!svn/ver/138/uuisphp/PHYSICALASSETS/MAPPER/EquipmentMapper.php
+END
+GroupMapper.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/comp5541t3/!svn/ver/138/uuisphp/PHYSICALASSETS/MAPPER/GroupMapper.php
+END
+PhysicalAssetMapper.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/comp5541t3/!svn/ver/140/uuisphp/PHYSICALASSETS/MAPPER/PhysicalAssetMapper.php
+END
+ComputerMapper.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/comp5541t3/!svn/ver/138/uuisphp/PHYSICALASSETS/MAPPER/ComputerMapper.php
+END
+FurnitureMapper.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/comp5541t3/!svn/ver/138/uuisphp/PHYSICALASSETS/MAPPER/FurnitureMapper.php
+END

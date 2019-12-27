@@ -1,0 +1,112 @@
+<!--<!DOCTYPE content [-->
+<!--  Blackwell Publishing Group DTD ver. 4.0 (XML) 
+				6 August 2001
+             (c) 2000 Blackwell Publishing Group
+
+    This DTD is copyright and cannot be used either whole or in part 
+       without permission. Requests for permission to use the DTD 
+       should be directed to the publisher at dtd4@blacksci.co.uk
+-->
+
+<!-- Parameter entities -->
+<!ENTITY % bodytext     "(p | quotation | listgroup | table | object | objectgroup | formula | event | reference)+">
+
+<!ENTITY % formatting   "accent | b | i | u | smallcapitals | uu | overline | sansserif | slanted | strike | sup | sub | tt | openface | scriptface | roman | highlight | font | x | br | softbr | symbol | span | alternativeformat | number | fill">
+
+<!ENTITY % linksetc      "link | externallink">
+
+<!ENTITY % data         "%formatting; | %linksetc; | genesequence | layeredtext | accolade | formula | object | reference | answer | question | hint | feedback | related | price | namegroup | name | date | address | corporatename | title">
+
+<!ENTITY % isolang  "CDATA">
+<!--use ISO 639 2-letter codes
+http://www.w3.org/WAI/ER/IG/ert/iso639.htm
+da=danish; de=german; el=Greek; en=English; es=Spanish; fi=Finnish; fr=French; it=Italian; nl=Dutch; pl=Polish; pt=Portuguese; ru=Russian; sv=Swedish; un=Unknown-->
+
+<!ENTITY % yesorno "CDATA"><!-- used in tables -->
+
+<!-- address module -->
+<!ENTITY % bpg4-0address.mod          SYSTEM     "bpg4-0address.mod">
+%bpg4-0address.mod;
+
+
+<!-- book details/BPMS output module -->
+<!ENTITY % bpg4-0bpms.mod          SYSTEM     "bpg4-0bpms.mod">
+%bpg4-0bpms.mod;
+
+
+<!-- common elements module -->
+<!ENTITY % bpg4-0common.mod       SYSTEM     "bpg4-0common.mod">
+%bpg4-0common.mod;
+
+
+<!-- content module -->
+<!ENTITY % bpg4-0content.mod       SYSTEM     "bpg4-0content.mod">
+%bpg4-0content.mod;
+
+
+<!-- dates module -->
+<!ENTITY % bpg4-0date.mod          SYSTEM     "bpg4-0date.mod">
+%bpg4-0date.mod;
+
+
+<!-- Entity declarations for non-ASCII characters--> 
+<!ENTITY % bpg4-0entities.mod     SYSTEM     "bpg4-0entities.mod">
+%bpg4-0entities.mod;
+
+
+<!-- formatting module -->
+<!ENTITY % bpg4-0formatting.mod       SYSTEM     "bpg4-0formatting.mod">
+%bpg4-0formatting.mod;
+
+
+<!-- links module -->
+<!ENTITY % bpg4-0links.mod       SYSTEM     "bpg4-0links.mod">
+%bpg4-0links.mod;
+
+
+<!-- maths module--> 
+<!ENTITY % bpg4-0math.mod          SYSTEM     "bpg4-0math.mod">
+%bpg4-0math.mod;
+
+
+<!-- metadata module -->
+<!ENTITY % bpg4-0metadata.mod         SYSTEM     "bpg4-0metadata.mod">
+%bpg4-0metadata.mod;
+
+
+<!-- name module -->
+<!ENTITY % bpg4-0name.mod          SYSTEM     "bpg4-0name.mod">
+%bpg4-0name.mod;
+
+
+<!-- Notation declarations for non-XML data -->
+<!ENTITY % bpg4-0notation.mod     SYSTEM     "bpg4-0notation.mod">
+%bpg4-0notation.mod;
+
+
+<!-- objects module -->
+<!ENTITY % bpg4-0object.mod         SYSTEM     "bpg4-0object.mod">
+%bpg4-0object.mod;
+
+
+<!-- 'Question and Answer' module -->
+<!ENTITY % bpg4-0qanda.mod          SYSTEM     "bpg4-0qanda.mod">
+%bpg4-0qanda.mod;
+
+
+<!-- reference module -->
+<!ENTITY % bpg4-0reference.mod          SYSTEM     "bpg4-0reference.mod">
+%bpg4-0reference.mod;
+
+
+<!-- table module -->
+<!ENTITY % bpg4-0table.mod          SYSTEM     "bpg4-0table.mod">
+%bpg4-0table.mod;
+
+
+<!-- table of contents module -->
+<!ENTITY % bpg4-0toc.mod          SYSTEM     "bpg4-0toc.mod">
+%bpg4-0toc.mod;
+
+<!--]>-->
+

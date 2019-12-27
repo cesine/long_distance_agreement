@@ -1,0 +1,21 @@
+From: Richard O'Beirne
+To: Ben Strange; Dean Smart; Jamie Davies; Martin Clutterbuck; Rosario Bajo; 
+Simon Ward; Spiro Vranjes
+Cc: John Strange
+Subject: New DTD 3 stylesheets
+Date: 26 March 1999 13:14
+
+<<File Attachment: ENTITYRC>>
+
+I've done a new 'references linking info' stylesheet and re-organized
+the stylesheets menu for DTD 3 SGML in Panorama. Save the attached to
+your 'entityrc' folder, overwriting the old one,  and you'll see
+them. The linking info stylesheet allows you to check quickly the
+information from each reference that Synergy/Highwire use for
+creating links from refs to Medline etc (journal title, date, vol.
+no., first page no.).
+
+I'm doing a QC checklist in the light of Synergy and Highwire
+feedback: I'll have these for you next week.
+
+R

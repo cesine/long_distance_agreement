@@ -1,0 +1,3817 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="31"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 31 - Grammatical Verbs (with Special Reference to Light Verbs).xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">459</page>
+<page type="last">492</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="2"/>
+<count type="table" count="45"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="80"/>
+<count type="page" count="34"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051110"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 31&ensp;Mohanan: Grammatical Verbs</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 31&ensp;Mohanan: Grammatical Verbs</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">31 Grammatical Verbs (with Special Reference to Light Verbs)</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>TARA</forenames><x> </x><surname>MOHANAN</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction: scope of the chapter</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>&lsquo;Light verb&rsquo; and its host</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>Central questions that light verbs raise</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>Nominal hosts</p>
+</li>
+<li level="2">
+<number>4.1&ensp;</number>
+<p>Complex predicates in English</p>
+</li>
+<li level="2">
+<number>4.2&ensp;</number>
+<p>Light verbs with nominal hosts in Hindi: a case study</p>
+</li>
+<li level="2">
+<number>4.3&ensp;</number>
+<p>Complex predicates, noun incorporation, and raising/control</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>Verbal hosts</p>
+</li>
+<li level="2">
+<number>5.1&ensp;</number>
+<p>Causative light verbs</p>
+</li>
+<li level="2">
+<number>5.2&ensp;</number>
+<p>Applicative light verbs in Malayalam</p>
+</li>
+<li level="3">
+<number>5.2.1&ensp;</number>
+<p>&lsquo;Give&rsquo; compounding</p>
+</li>
+<li level="3">
+<number>5.2.2&ensp;</number>
+<p>&lsquo;Get&rsquo; compounding</p>
+</li>
+<li level="2">
+<number>5.3&ensp;</number>
+<p>Aspectual and modal light verbs in Hindi/Urdu</p>
+</li>
+<li level="1">
+<number>6&ensp;</number>
+<p>Adjectival hosts</p>
+</li>
+<li level="1">
+<number>7&ensp;</number>
+<p>The ubiquitous light verb <i>do</i>
+</p>
+</li>
+<li level="1">
+<number>8&ensp;</number>
+<p>The relation between the full verb and the light verb</p>
+</li>
+<li level="1">
+<number>9&ensp;</number>
+<p>Theoretical issues and problems of analysis</p>
+</li>
+<li level="2">
+<number>9.1&ensp;</number>
+<p>Variety of structure in complex predicates</p>
+</li>
+<li level="2">
+<number>9.2&ensp;</number>
+<p>Diversity in analysis</p>
+</li>
+<li level="3">
+<number>9.2.1&ensp;</number>
+<p>&lsquo;Movement&rsquo; and &lsquo;restructuring&rsquo; vs. multidimensionality</p>
+</li>
+<li level="3">
+<number>9.2.2&ensp;</number>
+<p>How empty are light verbs?</p>
+</li>
+<li level="3">
+<number>9.2.3&ensp;</number>
+<p>Complex predicate formation: event structure or argument structure?</p>
+</li>
+<li level="1">
+<number>10&ensp;</number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1 Introduction: scope of the chapter</heading>
+<p>Syntacticians of most persuasions would acknowledge a pre-theoretic distinction between &lsquo;lexical&rsquo; (or &lsquo;content&rsquo;) words and &lsquo;grammatical&rsquo; (or &lsquo;function&rsquo;) words in all languages. The conventionally accepted distinction between the two classes seems to be that the former allows novel coinages (open class), while the latter does not (closed class). Thus, while one can coin a new noun or verb, the number of pronouns, prepositions, and auxiliary verbs in a language remains relatively fixed, not open to coinages. Following this terminology, we can use the term &lsquo;grammatical verb&rsquo; to refer to special closed classes of verbs that do not permit the addition of new members, except perhaps through the process of grammaticalization.</p>
+<p>Grammatical verbs typically include auxiliaries, indicating meanings of relative time, perfectivity, or progression, and modal auxiliaries, indicating meanings such as those of obligation or permission (see <related relationship="sibling" type="samework"><externallink id="chapter 70 - The Syntax of Modal Auxiliaries.xml" type="file">chapter 70</externallink></related>). They also include special verbs of possession (<i>have</i>) and existence (<i>be</i>), as well as the class of words often referred to as co-verbs, especially in the literature on East Asian languages.</p>
+<p>In a large number of languages, grammatical verbs also include a special class of verbs called light verbs. The present chapter focuses on light verbs, specifically seeking to distinguish them from the other classes when empirical evidence is presented. For detailed discussions of the other subclasses of grammatical verbs, see modals (see <related relationship="sibling" type="samework"><externallink id="chapter 70 - The Syntax of Modal Auxiliaries.xml" type="file">chapter 70</externallink></related>), the have/be distinction, causatives (see <related relationship="sibling" type="samework"><externallink id="chapter 6 - Analytic Causatives.xml" type="file">chapter 6</externallink></related>), verb particle constructions (see <related relationship="sibling" type="samework"><externallink id="chapter 76 - Verb Particle Constructions.xml" type="file">chapter 76</externallink></related>), the Chinese <i>ba</i> construction, the East Asian passive (see <related relationship="sibling" type="samework"><externallink id="chapter 12 - Chinese Ba.xml" type="file">chapter 12</externallink></related>), and serial verbs (see <related relationship="sibling" type="samework"><externallink id="chapter 59 - Serial Verbs.xml" type="file">chapter 59</externallink></related>).</p>
+<p>Light verbs, which form a closed class, are limited in number, but are part of a construction that is extremely productive. The examples in (1b) and (1c) below illustrate a light verb construction in Malayalam, a South Indian language:</p>
+<p>(1)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>anu</entry>
+<entry>skuuLilninn<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>wannu.</entry>
+</row>
+<row><entry>Anu</entry>
+<entry>school-from</entry>
+<entry>came</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;Anu came from school.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>anuwin<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>santooSam</entry>
+<entry>wannu.</entry>
+</row>
+<row><entry>Anu-DAT</entry>
+<entry>happiness</entry>
+<entry>came</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;Anu became happy.&rsquo; (To Anu, happiness came.)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>anuwin<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>aanayooT<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>deeSyam</entry>
+<entry>wannu.</entry>
+</row>
+<row><entry>Anu-DAT</entry>
+<entry>elephant-to</entry>
+<entry>anger</entry>
+<entry>came</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Anu became angry with (toward) the elephant.&rsquo; (To Anu, anger came&nbsp;.&nbsp;.&nbsp;.&nbsp;)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The verb in all the sentences in (1) is <i>wannu</i> &lsquo;came&rsquo;. In (1a), this verb acts as a full verb. In (1b) and (1c), however, it is a light verb. It does not have the meaning of change of physical location associated with the verb <i>come</i>. Intuitively, the predicate in (1b) is <i>santooSam wannu</i> &lsquo;became happy&rsquo;, with a single argument, Anu. The predicate in (1c) is <i>deeSyam wannu</i> &lsquo;became angry&rsquo;, with two arguments, Anu and the elephant. The source of the difference in valency &ndash; that is, the number of arguments &ndash; is located in the nouns <i>santooSam</i> &lsquo;happiness&rsquo; and <i>deeSyam</i> &lsquo;anger&rsquo; respectively. In other words, the nouns &lsquo;host&rsquo; the light verb, and bear part of the predicative burden. Together, they form a &lsquo;complex predicate&rsquo; (<link rid="b1">Jespersen 1954&ndash;1958</link>; <link rid="b2">Cattell 1984</link>; <link rid="b3">Grimshaw and Mester 1988</link>, among others), each incomplete as a predicate in isolation.</p>
+<p>One may characterize a light verb as an independent grammatical verb that forms a complex predicate together with a host. This characterization obviously prompts the question of what a complex predicate is. A possible answer is that a complex predicate is a construction in which two morphs, both of which are semantically predicative, jointly head a single syntactic clause.</p>
+<p>Stated at this level of generality, complex predicates manifest themselves in a wide range of constructions, not all of which necessarily involve a light verb. Thus, resultative constructions are analyzed as complex predicates, because they involve the combination of two predicates in a single clause (<link rid="b4">Simpson 1983</link>; <link rid="b5">Levin and Rappaport Hovav 1995</link>; <link rid="b6">Hale and Keyser 1997</link>; <link rid="b7">Wunderlich 1997b</link>). However, this construction does not have a light verb. Likewise, verbal affixes that in some way affect the valency, argument meaning, or case marking in a clause form complex predicates with their verbal host. (See <link rid="b8">Baker 1988a</link>; <link rid="b9">Alsina 1996</link>; <link rid="b10">Alsina et al. 1997</link>; <link rid="b11">Ackerman and Webelhuth 1998</link>.) However, these morphemes, though grammatical elements, are not light verbs, because they are not independent words. Other complex predicate constructions without light verbs include the verb &plus; particle (see <related relationship="sibling" type="samework"><externallink id="chapter 76 - Verb Particle Constructions.xml" type="file">chapter 76</externallink></related>) or verb &plus; preposition structures.</p>
+<p>A light verb, then, is a grammatical verb that functions as a member of a complex predicate construction. In this chapter, our concern is with complex predicate constructions that contain a light verb. This would exclude complex predicate constructions in which elements smaller than words, such as affixes, or constructions larger than words may serve the same semantic function as light verbs in some languages. To give an example, the applicative function &ndash; namely, that of adding an argument meaning, most commonly that of a beneficiary &ndash; is borne by a verbal affix in many languages (for instance, the Bantu languages, Indonesian, Malay, and Yimas: <link rid="b12">Foley 1997</link>), or by special constructions, such as the dative construction in English. In yet other languages such as Malayalam and Mandarin, this function is fulfilled by a complex predicate with a light verb. Our concern is restricted to the last type.</p>
+<p>It must be noted that <link rid="b13">Radford (1997</link>: 264) defines a light verb as &ldquo;an affixal verb (often with a causative sense, like that of <i>make</i>) to which a noun, adjective, or verb adjoins.&rdquo; Under Radford&apos;s definition, a causative affix, an applicative affix, and in fact any verb-forming affix that involves an operation on argument structure or event structure would be a light verb. Such a definition stands in contrast to the one we assume in this chapter, namely, that a light verb is a word-level (X<sup>0</sup>) unit, and that while affixes in combination with nouns, adjectives, or verbs may form complex predicates, they are not light verbs.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2 &lsquo;Light verb&rsquo; and its host</heading>
+<p>Original use of the term &lsquo;light&rsquo; verb is due to Otto Jespersen, although the phenomenon was observed long before; <link rid="b14">Gilchrist (1796</link>) called it a &lsquo;subservient&rsquo; verb. Jespersen describes it as an insignificant verb which is placed next to an &ldquo;important idea&rdquo; to carry the markings of person, number, and tense (<link rid="b1">Jespersen 1954&ndash;1958</link>: VI, 117&ndash;118).</p>
+<p>
+<link rid="b2">Cattell (1984</link>) lays out a range of relevant data on complex predicates from English, as well as issues surrounding their analysis. While complex predicates were variously explored under the guises of compound verbs, composite predicates, and serial verbs in a considerable amount of sporadic work over the years (discussions are found, for instance, in <link rid="b15">Ross 1986</link> (original dissertation 1967); <link rid="b16">Chomsky 1975b</link>; <link rid="b17 b18">Jackendoff 1972, 1974a</link>; <link rid="b19">Higgins 1979</link> (original dissertation 1974); <link rid="b20">Oehrle 1976</link>; <link rid="b21">Wierzbicka 1982</link>), Cattell seems to have set the stage for the phenomenon of complex predicates to become a central preoccupation in most major syntactic theories, beginning with <link rid="b3">Grimshaw and Mester&apos;s (1988</link>) analysis of the Japanese verb <i>suru</i> &lsquo;do&rsquo;. (See also <link rid="b22">Ackerman 1987</link>; <link rid="b8">Baker 1988a</link>; <link rid="b23 b24">Sells 1988, 1991</link>; <link rid="b25">Krishnamurti 1989</link>; <link rid="b26">Miyagawa 1989a</link>; <link rid="b27">Rosen 1989</link>; <link rid="b28">Mahajan 1990</link>; <link rid="b29">Huang 1992a</link>; <link rid="b30">Mohanan 1994</link>; <link rid="b31 b32">Butt 1995, 1997</link>; <link rid="b9">Alsina 1996</link>; <link rid="b33">Matsumoto 1996a</link>; <link rid="b34">Alsina et al. 1997</link>; <link rid="b35 b36">Cinque 1997a, 1997b</link>; <link rid="b11">Ackerman and Webelhuth 1998</link>; <link rid="b37">Wilson 1999</link>.)</p>
+<p>Let us use examples of the light verb construction in English to develop an intuitive sense of the phenomenon. The verbs in (2a), (3a), and (4a) are full verbs; their counterparts in (b) are light verbs:</p>
+<p>
+<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry morerows="1">(2)</entry>
+<entry>a.</entry>
+<entry>Pat made a snowman.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Pat made a dash across the puddle.</entry>
+</row>
+<row><entry morerows="1">(3)</entry>
+<entry>a.</entry>
+<entry>Pat took May to the park.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Pat took a bath.</entry>
+</row>
+<row><entry morerows="1">(4)</entry>
+<entry>a.</entry>
+<entry>Pat gave Pip a toy.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Pat gave a gasp.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The light verbs in these examples have three characteristic properties. The first is that a light verb is identical in form to a heavy or full lexical verb in the language. Thus, each of the verbs in (b) in (2&ndash;4) has a counterpart that is not a light verb, as shown in (a).</p>
+<p>Intimately related to this is the second property: that it is typical for the light verb not to have the entire meaning content associated with its full counterpart; it is often seen as an &lsquo;incomplete predicate&rsquo; (<link rid="b31">Butt 1995</link>; <link rid="b9">Alsina 1996</link>). Part of the predicative burden is borne by its host, as in (1b) and (1c). <link rid="b38">Meshchaninov (1982</link>: 158) describes the loss of meaning in the grammatical verb as follows: &ldquo;Having become a linking verb, the verb loses one of its obligatory meanings &ndash; lexical meaning &ndash; and preserves another meaning &ndash; syntactic meaning.&rdquo; A complete predicate &ldquo;exists only in the union&rdquo; of both meanings. The extent to which the core meaning of the verb is weakened or &ldquo;bleached&rdquo; (<link rid="b39">Masica 1976</link>) in the light verb depends on the particular verb in each language. Perhaps an extreme instance of &lsquo;lightness&rsquo; or semantic bleaching of a grammatical verb whose sole purpose is to bear the grammatical features of agreement and tense may be the so-called &lsquo;dummy&rsquo; verb <i>do</i> in certain &lsquo;<i>do</i> support&rsquo; constructions illustrated in (5) (see <link rid="b40">Grimshaw 1997b</link> for a discussion):</p>
+<p>(5)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Did Pat give Pip a toy?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Pat gave Pip a toy, and so did May.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The dummy verb <i>do</i> in these examples is often taken to be devoid of any semantic content, even though such a position is not unchallenged (<link rid="b41">Penhallurick 1985</link>; <link rid="b42">Hewson 1990</link>; <link rid="b43">Hirtle 1997</link>; also see <link rid="b44">Kroch 1989b</link> and <link rid="b45">Stein 1990</link> for a historical perspective).</p>
+<p>The third property of light verbs such as those in (2&ndash;4) is that at some level of abstraction, the verb and the following noun seem to create a single predicate-like unit that is equivalent to a single verb. Thus, <i>to take a bath</i> and <i>to give a gasp</i> are equivalent to <i>to bathe</i> and <i>to gasp</i> respectively.</p>
+<p>In (1&ndash;4), the host of the light verb is a noun. A light verb can also take an adjectival or verbal host. In languages like Hindi (a language of northern India) and Urdu (a language spoken in Pakistan and in northern India, almost identical in structure to Hindi) we find all three types of light verb constructions, illustrated by the examples from Hindi/Urdu in (6):</p>
+<p>(6)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>raam-ne</entry>
+<entry>niinaa-kii</entry>
+<entry><b>madad</b>
+</entry>
+<entry><b>kii.</b>
+</entry>
+<entry>(Noun &plus; Verb)</entry>
+</row>
+<row><entry>Ram</entry>
+<entry>Nina&apos;s</entry>
+<entry>help</entry>
+<entry>did</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;Ram helped Nina.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>raam-ne</entry>
+<entry>kamraa</entry>
+<entry><b>saaf</b>
+</entry>
+<entry><b>kiyaa.</b>
+</entry>
+<entry>(Adj. &plus; Verb)</entry>
+</row>
+<row><entry>Ram</entry>
+<entry>room</entry>
+<entry>clean</entry>
+<entry>did</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;Ram cleaned the room.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>raam</entry>
+<entry><b>has</b>
+</entry>
+<entry><b>paDaa.</b>
+</entry>
+<entry>(Verb &plus; Verb)</entry>
+</row>
+<row><entry>Ram</entry>
+<entry>laugh</entry>
+<entry>fell down</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Ram burst out laughing.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The light verbs that take a verbal host, as in (6c), raise difficult analytical as well as theoretical problems, brought out by a comparison of different constructions involving V&ndash;V sequences:</p>
+<p>(7)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>raam-ne</entry>
+<entry>rootii</entry>
+<entry><b>khaaii</b>.</entry>
+</row>
+<row><entry>Ram</entry>
+<entry>bread</entry>
+<entry>ate</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;Ram ate bread.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>raam-ne</entry>
+<entry>rootii</entry>
+<entry><b>khaaii</b>
+</entry>
+<entry><b>hai</b>.</entry>
+</row>
+<row><entry>Ram</entry>
+<entry>bread</entry>
+<entry>ate</entry>
+<entry>is</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Ram has eaten bread.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>raam</entry>
+<entry>rootii</entry>
+<entry><b>khaataa</b>
+</entry>
+<entry><b>hai</b>.</entry>
+</row>
+<row><entry>Ram</entry>
+<entry>bread</entry>
+<entry>eats</entry>
+<entry>is</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Ram eats bread.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">d.</entry>
+<entry>raam-ne</entry>
+<entry>rootii</entry>
+<entry><b>khaa</b>
+</entry>
+<entry><b>lii</b>.</entry>
+</row>
+<row><entry>Ram</entry>
+<entry>bread</entry>
+<entry>eat</entry>
+<entry>took</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Ram ate the bread (all of it).&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">e.</entry>
+<entry>raam-ne</entry>
+<entry>rootii</entry>
+<entry><b>khaa</b>
+</entry>
+<entry><b>Daalii</b>.</entry>
+</row>
+<row><entry>Ram</entry>
+<entry>bread</entry>
+<entry>eat</entry>
+<entry>put/flung</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Ram ate up the bread (finished all of it, forcefully).&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A Hindi/Urdu grammarian would agree, perhaps reluctantly, that in (7b), the second verb in the verb&ndash;verb sequence might be treated as an &lsquo;auxiliary&rsquo; that in combination with the first verb indicates perfective aspect; in (7c), it may be a &lsquo;modal auxiliary&rsquo;, expressing habitual action together with the first verb; and in (7e), it is a &lsquo;light verb&rsquo;, expressing completion and forcefulness. But we would be hard pressed to find a justification for these labels, at least on a cross-linguistic basis if not within Hindi/Urdu. Now, how about the second verb in (7d)? It may traditionally be considered a modal, indicating completion. However, <link rid="b31">Butt (1995</link>) argues that it must be treated as a light verb, as it contributes to the argument structure of the complex predicate.</p>
+<p>The analytical challenge posed by examples like (7a&ndash;e) are illustrative of problems raised by complex predicate constructions in general. How do we distinguish between light verbs and modal verbs? Is such a distinction between two types of grammatical verbs necessary? How do we distinguish between complex predicates on the one hand, and serial verbs (see <related relationship="sibling" type="samework"><externallink id="chapter 59 - Serial Verbs.xml" type="file">chapter 59</externallink></related>) and control constructions on the other? Are there clusters of cross-linguistic generalizations that converge on these distinctions? These are not easy questions to answer. In the rest of this chapter, we will point to partial answers when there is empirical evidence to make a principled distinction. (See <link rid="b31">Butt 1995</link> for an extended discussion.)</p>
+<p>Perhaps one of the sources of the problem of a cross-linguistic characterization of light verbs is the multiplicity of intuitions associated with the term &lsquo;light verb&rsquo;, namely, that it is a verb that (i) has a full verb counterpart; (ii) can contribute to the argument structure of the clause; (iii) does not uniquely determine the argument structure of the complex predicate; (iv) permits a non-verb to function as a predicate; and (v) forms a single syntactic predicate with its host. Thus, <i>be</i> in <i>John is asleep</i> or <i>The flower is red</i> is a light verb by (iii), (iv), and (v) but not by (i) and (ii). The second verb in (7e) is a light verb by (i), (ii), (iii), and (v), but not by (iv). By (v), a verb that involves syntactic control cannot be a light verb. Switching between these intuitions often results in inconsistent conclusions.</p>
+<p>In the following sections, we will first look at some of the central questions (<link rid="ss4">section 3</link>) of analysis and theory that the light verb phenomena give rise to. We then go on to a survey of light verbs that take a nominal host (<link rid="ss5">section 4</link>), a verbal host (<link rid="ss9">section 5</link>), and an adjectival host (<link rid="ss15">section 6</link>), and the lightest of light verbs, <i>do</i> (<link rid="ss16">section 7</link>), examining clusters of morphological, syntactic, and semantic properties of light verbs across languages that have intrigued syntactic theories, and some of the analyses that have emerged as a response to the phenomena. Our main concern will lie with the substance of the theoretical hypotheses that have emerged, some of which are consensual, and others still controversial. Their implementation within various syntactic frameworks is only of secondary interest.</p>
+</subsection>
+<subsection id="ss4" level="1">
+<heading id="h3" level="1">3 Central questions that light verbs raise</heading>
+<p>There are three broad questions that studies of the light verb construction, whether language-particular or cross-linguistic, must pay attention to, so as to make possible the emergence of a theory of the light verb construction. They are:</p>
+<listgroup id="l2" type="i">
+<li level="1">
+<number>(i)&ensp;</number>
+<p>What is a cross-linguistic characterization of complex predicate constructions such that they can be distinguished from other constructions involving auxiliaries, serial verbs, control/raising verbs, and (noun) incorporation?</p>
+</li>
+<li level="1">
+<number>(ii)&ensp;</number>
+<p>Within the class of complex predicates, what are the similarities and differences between those that involve a light verb and those that don&apos;t? These include, on the one hand, complex predicates without an incomplete predicate, such as resultatives, and, on the other, those that involve affixation, such as morphological causatives.</p>
+</li>
+</listgroup>
+<p>Having addressed these questions, the next obvious question would be:</p>
+<p>(iii)&ensp;What are the parameters of variation among complex predicates, and what are the limits of variability?</p>
+<p>On the basis of currently available studies, we can identify the following typological parameters of variation in terms of the various kinds of information that belong within grammar; in other words, different levels of representation within the organization of grammar. The terminology used in the formulation of the questions tries to be as framework-neutral as possible, and should be translatable into the different theories with the appropriate framework-internal vocabulary:</p>
+<listgroup id="l3" type="symbol">
+<li level="1">
+<number>&bull;&ensp;</number>
+<p>In terms of <b>grammatical categories</b>, do the light verb and its host form a single constituent? Is the host a lexical (X<sup>0</sup>) or a phrasal (X<sup>bar</sup>) category? Is the light verb a lexical or phrasal category? Do the light verb and the host, when combined, form a lexical or phrasal category?</p>
+</li>
+<li level="1">
+<number>&bull;&ensp;</number>
+<p>In terms of <b>grammatical functions</b>, do the light verb and its host form a single complex predicate? Or do they remain as two separate predicates, as in control or raising constructions? Does the host have an independent function?</p>
+</li>
+<li level="1">
+<number>&bull;&ensp;</number>
+<p>As for the <b>argument structure</b> of the construction, does the light verb contribute to the valency and nature of the arguments of the complex predicate? Does the host contribute to this structure? Does the complex predicate have a single argument structure, or an embedded argument structure composed of main and subordinate argument structures?</p>
+</li>
+<li level="1">
+<number>&bull;&ensp;</number>
+<p>How do the light verb and the host contribute to the other aspects of the syntactic behavior of the complex predicate, such as <b>case marking</b> and <b>agreement</b>?</p>
+</li>
+<li level="1">
+<number>&bull;&ensp;</number>
+<p>What is the contribution of the light verb and the host to the meaning of the complex predicate? What is the relation between the meaning of the light verb and its full counterpart?</p>
+</li>
+<li level="1">
+<number>&bull;&ensp;</number>
+<p>What are the meanings that typically lend themselves to light verb formation across languages?</p>
+</li>
+</listgroup>
+<p>A comprehensive theoretical account of the light verb construction must await the availability of detailed grammars that address these questions in individual languages, to ensure the coverage of all the attested patterns.</p>
+</subsection>
+<subsection id="ss5" level="1">
+<heading id="h4" level="1">4 Nominal hosts</heading>
+<subsection id="ss6" level="2">
+<heading id="h5" level="2">4.1 Complex predicates in English</heading>
+<p>The expression in boldface in (8a) is recognized in the literature, at least beginning with <link rid="b16">Chomsky (1975b</link>), to be somehow different from that in (8b):</p>
+<p>(8)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Pat <b>made the claim</b> that the snowman was innocent.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Pat <b>disproved the claim</b> that the snowman was innocent.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The complex expression <i>made the claim</i> in (8a) is perceived as a complex predicate; the expression <i>disproved the claim</i> is not. A number of syntactic and semantic properties distinguish the two constructions, justifying the claim that the expression in bold in (8a) is indeed a complex predicate, where a predicative noun combines with a light verb to form a single syntactic predicate.</p>
+<p>To begin with, intuitively, <i>make the claim</i> is a single &lsquo;semantic unit&rsquo; that is equivalent to the single verb <i>claim</i>. Thus, <i>John made the claim that</i>&nbsp;.&nbsp;.&nbsp;.&nbsp;is equivalent to <i>John claimed that</i>&nbsp;.&nbsp;.&nbsp;.&nbsp;In contrast, <i>disprove the claim</i> does not form a single semantic unit. This difference in semantics has correlates in syntax, for instance, in the contrast between (9a) and (9b):</p>
+<p>(9)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry><sup>?</sup>Who did you make the claim that Bill saw ___?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Who did you disprove the claim that Bill saw ___?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In order to account for what looks like a violation of the Complex NP Constraint in (9a), <link rid="b16">Chomsky (1975b</link>) postulates a rule of restructuring which takes the structure in (10a) as the input, yielding (10b) as the reanalyzed structure, where <i>make the claim</i> is a single V:</p>
+<p>(10)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;&lsqb;make&rsqb;<sub>V</sub> &lsqb;the claim that S&rsqb;<sub>NP</sub>&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;&lsqb;make the claim&rsqb;<sub>V</sub> &lsqb;that S&rsqb;<sub>S-bar</sub>&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In contrast, <i>disprove the claim</i> has only one structure:</p>
+<p>(11)&ensp;&lsqb;&lsqb;disprove&rsqb;v &lsqb;the claim that S&rsqb;np&rsqb;</p>
+<p>If the representations relevant for Subjacency are (10b) and (11), the contrast between (9a) and (9b) would follow automatically. However, the reanalyzed structure in (10b) does not account for the contrast between (12a) and (12b):</p>
+<p>(12)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>That Bill defeated Pat John did not claim ___.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*That Bill defeated Pat John did not make the claim ___.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>&ensp;</p>
+<p>The ungrammaticality of (12b) must follow from the structure in (10a), which treats <i>the claim that Bill defeated Pat</i> as a noun phrase. Thus, to account for the contrast between (9a) and (9b), one must assume the availability of the structure in (10b). However, in order to account for the contrast between (12a) and (12b), one must assume that the structure is as in (10a), and that the structure in (10b) is not available.</p>
+<p>The need for the two conflicting groupings in (10) illustrates the &lsquo;dual&rsquo; nature of complex predicates. Now, these two structures cannot both belong to the same level of representation because that would constitute a logical contradiction.</p>
+<p>One way to capture the intuition underlying the distinction between (10a) and (10b) is as in (13), where, in (13b), <i>make the claim</i> is a single unit in its function as a predicate (equivalent to (10b)), but its categorial structure is (13a) (identical to (10a)):</p>
+<p>(13)&ensp;<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;&lsqb;make&rsqb;<sub>V</sub> &lsqb;the claim that S&rsqb;<sub>NP</sub>&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;&lsqb;make the claim&rsqb;<sub>PRED</sub> &lsqb;that S&rsqb;<sub>COMPL</sub>&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The structure relevant for relating a gap with its antecedent (governed by Subjacency or its equivalent) is the one in (13b), while the structure relevant for determining the position of the gap is the one in (13a).</p>
+<p>The above discussion illustrates a recurrent characteristic of complex predicates with nominal hosts, namely, the mismatch between the structure in terms of grammatical categories and in terms of grammatical functions. The rest of <link rid="ss5">section 4</link> outlines the central analytical and theoretical problems surrounding light verb constructions with nominal hosts.</p>
+</subsection>
+<subsection id="ss7" level="2">
+<heading id="h6" level="2">4.2 Light verbs with nominal hosts in Hindi: a case study</heading>
+<p>In order to understand the phenomenon of light verbs with nominal hosts, and the theoretical questions they raise, it would be best to look closely at the construction in one language. As the language for illustration, we will use Hindi, where we find a duality of structure similar to that shown in English (<link rid="ss6">section 4.1</link>). Hindi offers a particularly fruitful starting point for exploring a cross-linguistic characterization of the complex predicate construction: it exhibits not only extremely productive complex predicate formation with nominal, verbal, as well as adjectival hosts (6a&ndash;e), but also a split among N&plus;V complex predicates into two distinct types (<link rid="b30 b46">Mohanan 1994, 1997</link>).</p>
+<p>Hindi has noun &plus; verb sequences that are clear instances of constructions that are not complex predicates, as in (14). There are also instances of sequences that are uncontroversially complex predicates, as in (15). The verbs in (15) are the light counterparts of those in (14):</p>
+<p>(14)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>kal</entry>
+<entry>&aelig;ksiDent</entry>
+<entry><b>huaa</b>.</entry>
+</row>
+<row><entry>yesterday</entry>
+<entry>accident</entry>
+<entry>happened (M)</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;There was an accident yesterday.&rsquo; (An accident happened yesterday.)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>raam-ne</entry>
+<entry>apnaa</entry>
+<entry>homwark</entry>
+<entry><b>kiyaa</b>.</entry>
+</row>
+<row><entry>Ram-ERG</entry>
+<entry>self&apos;s</entry>
+<entry>homework</entry>
+<entry>did (M)</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Ram did his homework.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>raam-ne</entry>
+<entry>niinaa-ko</entry>
+<entry>kitaab</entry>
+<entry><b>dii</b>.</entry>
+</row>
+<row><entry>Ram-ERG</entry>
+<entry>Nina-DAT</entry>
+<entry>book</entry>
+<entry>gave (F)</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Ram gave a book to Nina.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(15)<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>kamre-kii</entry>
+<entry><b>safaaii</b>
+</entry>
+<entry><b>huii</b>.</entry>
+</row>
+<row><entry>room-GEN</entry>
+<entry>cleaning</entry>
+<entry>happened (F)</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;The room got cleaned.&rsquo; (Cleaning of the room happened.)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>raam-ne</entry>
+<entry>kamre-kii</entry>
+<entry><b>safaaii</b>
+</entry>
+<entry><b>kii</b>.</entry>
+</row>
+<row><entry>Ram-ERG</entry>
+<entry>room-GEN</entry>
+<entry>cleaning</entry>
+<entry>did (F)</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Ram cleaned the room.&rsquo; (Ram did cleaning of the room.)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>raam-ne</entry>
+<entry>niinaa-kii</entry>
+<entry>kahaanii-par</entry>
+<entry><b>dhyaan</b>
+</entry>
+<entry><b>diyaa</b>.</entry>
+</row>
+<row><entry>Ram-ERG</entry>
+<entry>Nina-GEN</entry>
+<entry>story-on</entry>
+<entry>attention</entry>
+<entry>gave (M)</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;Ram paid attention to Nina&apos;s story.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In complex predicates like <i>madad kar</i> &lsquo;help do&rsquo; in (6a), <i>safaaii ho</i> &lsquo;cleaning happen&rsquo; in (15a), <i>safaaii kar</i> &lsquo;cleaning do&rsquo; in (15b), and <i>dhyaan de</i> &lsquo;attention give&rsquo; in (15c), the host noun (N) and the light verb (V), both predicative elements, combine to give a functionally single clausal nucleus. The N&plus;V complex predicate construction in these examples exhibits certain clusters of properties that are recurrently found in the construction across languages, and can form an initial basis for a unified theory of complex predicates, including the parameters of variation available to the construction.</p>
+<p>A striking trait of sentences with the N&plus;V complex predicate in Hindi is that both the verb and the noun participate in determining the structure of the clause. Thus, in (15a) and (15b), the nominal host in the complex predicates is the same, but the verb is different. (15a) has one argument, (15b) has two. This difference in valency must therefore be contributed by the light verb. As for the contribution of the noun, the data involving the light verb <i>aa</i> &lsquo;come&rsquo; provide a telling example. This verb in its capacity as a full verb has two arguments, as shown by (16): the entity that comes, and its locative destination:</p>
+<p>(16)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry>raam</entry>
+<entry>mere</entry>
+<entry>ghar</entry>
+<entry><b>aayaa</b>.</entry>
+</row>
+<row><entry>Ram</entry>
+<entry>my</entry>
+<entry>house</entry>
+<entry>came</entry>
+</row>
+<row><entry namest="col1" nameend="col4">&lsquo;Ram came to my house.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (17), the same verb &lsquo;come&rsquo; functions as a light verb:</p>
+<p>(17)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>mohan-ko</entry>
+<entry><b>hasii</b>
+</entry>
+<entry><b>aayii</b>.</entry>
+</row>
+<row><entry>Mohan-DAT</entry>
+<entry>laughter</entry>
+<entry>came</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;Mohan had the urge to laugh.&rsquo; (Laughter came to Mohan.)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>mohan-ko</entry>
+<entry>kahaanii</entry>
+<entry><b>yaad</b>
+</entry>
+<entry><b>aayii</b>.</entry>
+</row>
+<row><entry>Mohan-DAT</entry>
+<entry>story</entry>
+<entry>memory</entry>
+<entry>came</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Mohan remembered the story.&rsquo; (Memory of the story came to Mohan.)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>mohan-ko</entry>
+<entry>anu-kaa</entry>
+<entry><b>dhyaan</b>
+</entry>
+<entry><b>aayaa</b>.</entry>
+</row>
+<row><entry>Mohan-DAT</entry>
+<entry>Anu&apos;s</entry>
+<entry>attention</entry>
+<entry>came</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Mohan thought of Anu.&rsquo; (Thought of Anu came to Mohan.)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">d.</entry>
+<entry>mohan-ko</entry>
+<entry>anu-par</entry>
+<entry><b>krodh</b>
+</entry>
+<entry><b>aayaa</b>.</entry>
+</row>
+<row><entry>Mohan-DAT</entry>
+<entry>Anu-on</entry>
+<entry>anger</entry>
+<entry>came</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Mohan was angry with Anu.&rsquo; (Anger on Anu came to Mohan.)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (17a), there are two arguments: the entity that comes, laughter, and its destination, Mohan. But the destination is an abstract one; it is an experiencer. In addition to the destination being an experiencer, the sentences in (17b&ndash;d) have an extra argument, not sanctioned by the verb <i>aa</i> &lsquo;come&rsquo;. This argument must therefore be sanctioned by the noun. Furthermore, the case marking of the additional argument can differ depending on the noun: in (17b) it is nominative, in (17c) genitive, and in (17d) locative. (The case differences exhibited in (17b&ndash;d) on non-subjects can also appear on subjects: <link rid="b46">Mohanan 1997</link>: 436). If we assume that differences in non-structural case marking indicate differences in argument meaning, then the meanings of the additional arguments in these sentences must also be different.</p>
+<p>In short, the nominal host in a complex predicate can contribute to the number of arguments, their meaning, and the case assigned to them, and so can the light verb. This property of the complex predicate in Hindi is demonstrable in other languages of South Asia as well. We can state our observations so far as (18):</p>
+<p>(18)&ensp;In the N&plus;V complex predicate, the N and V together act as a single predicate. However, both the N and the V are predicates in their own right: they can contribute to the number of arguments, argument meanings, and case marking in the clause.</p>
+<p>Evidence from the behavior of reflexives, which at least in some varieties of Hindi take either the grammatical subject or the logical subject as their antecedent, shows that functionally, the complex predicate is a single clausal nucleus (<link rid="b46">Mohanan 1997</link>: 443&ndash;444). Categorially, however, the N and V are concatenated phrasally, as shown by the topicalizability of the light verb (<link rid="b46">Mohanan 1997</link>: 447&ndash;448). We can state this mismatch as follows:</p>
+<p>(19)&ensp;Functionally, the N and V form a single predicate; however, they are phrasally combined: they do not have a lexical status.</p>
+<p>Even though the nominal host is part of the predicate, and a predicate in its own right, it is also an argument of the light verb in Hindi. This is shown by the fact that the nominal host can be the subject of a passive. Furthermore, the light verb exhibits agreement with its host in number, gender, and person; verb agreement in Hindi can only be induced by a subject or an object in nominative case. This leads to our next conclusion:</p>
+<p>(20)&ensp;Although the N is a predicate, and part of the complex predicate, it is, in some cases, also simultaneously an argument of the V.</p>
+<p>In terms of the property in (20), the N&plus;V complex predicates in Hindi appear to split into two classes. There is a small group of nominal hosts that are different from the rest in certain syntactic patterns. A nominal host belonging to this class cannot trigger verb agreement; it cannot be the subject of a passive; a negative word indicating syntactic negation can precede it; and it can gap and be gapped in a coordinate construction. All these differences follow naturally if we assume that the host in these instances is not an argument of the light verb.</p>
+<p>The structural properties in (18&ndash;20) present a challenge. How must the compositionality of complex predicates be formally expressed such that the semantic and syntactic representation of the light verb and its host, together with the structural relation between the two, derives the semantic and syntactic properties of the complex predicate? What kind of syntactic and semantic theory can describe this compositionality? While framework-internal analyses of different aspects of different types of complex predicates are available, covering rich data with recurrent clustering of properties, answering the above questions requires bringing together all of the fragments into a comprehensive picture. We do not as yet have such an integrated theory of complex predicates.</p>
+</subsection>
+<subsection id="ss8" level="2">
+<heading id="h7" level="2">4.3 Complex predicates, noun incorporation, and raising/control</heading>
+<p>As mentioned earlier, the light verb construction rose into prominence in theoretical syntax with the study of the Japanese light verb <i>suru</i> &lsquo;do&rsquo; in <link rid="b3">Grimshaw and Mester (1988</link>) (G&amp;M). The central problem that G&amp;M address is illustrated by the Japanese construction in (21a), and its behavioral contrast to (21b):</p>
+<p>(21)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>John-wa</entry>
+<entry>Bill-to</entry>
+<entry>AISEKI-o</entry>
+<entry>shita.</entry>
+</row>
+<row><entry>John-Top</entry>
+<entry>Bill-with</entry>
+<entry>table-sharing-Acc</entry>
+<entry><i>suru</i>-past</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;John shared a table with Bill.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>John-wa</entry>
+<entry>Bill-to</entry>
+<entry>AISEKI</entry>
+<entry>shita.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>John-Top</entry>
+<entry>Bill-with</entry>
+<entry>table-sharing</entry>
+<entry><i>suru</i>-past</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;John shared a table with Bill.&rsquo;</entry>
+<entry>(G&amp;M: 206)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In both (21a) and (21b), the verb <i>suru</i> &lsquo;do&rsquo; appears to form a single unit with the preceding noun at some level of grammatical structure. The overt difference between them is that while the preceding noun in (21a) carries accusative case marking, that in (21b) is a bare noun. G&amp;M claim that while (21a) is an example of a complex predicate construction with <i>suru</i> as a light verb, (21b) is an example of the noun incorporation construction.</p>
+<p>Subsequent literature (<link rid="b47">Ahn 1990</link>; <link rid="b29">Huang 1992a</link>; <link rid="b33 b48">Matsumoto 1996a, 1996b</link>; among others), however, disputes the claim that <i>suru</i> in (21a) is a light verb, and argues that (21a) is not an example of a complex predicate construction, but rather a raising/control construction involving a main verb and a complement clause. Yet other works accept that <i>suru</i> in (21a) is a light verb, but reject the G&amp;M claim that it is an empty verb without its own argument structure. (For a detailed discussion of the issues and analyses related to <i>suru</i>, see <link rid="b31">Butt 1995</link>: 201&ndash;221.)</p>
+<p>In order to get a clear understanding of the issues involved in the different constructions, therefore, it would be productive to explore what properties constitute the necessary conditions for a construction to be called complex predicate (CP) or noun incorporation (NI), and how they are both different from raising/control constructions. One way to identify the parameters along which the differences can be characterized is in terms of the categorial and functional properties of the N&plus;V sequences. The first distinction to recognize is that CP and NI constructions involve a single syntactic clause, while raising/control involve a matrix clause and an embedded clause.</p>
+<p>Within the single-clause constructions, the relevant parameters include the categorial status of the nominal host (N), the light verb (V), and the complex predicate (&lsqb;N, V&rsqb;), and the functional status of the nominal host. A possible way to distinguish the two constructions is as follows:</p>
+<p>(22)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry><b>NI</b>
+</entry>
+<entry><b>CP</b>
+</entry>
+</row>
+<row><entry>Categorial status</entry>
+<entry>a.</entry>
+<entry>of N</entry>
+<entry>Lexical</entry>
+<entry>Lexical or phrasal</entry>
+</row>
+<row><entry>
+</entry>
+<entry>b.</entry>
+<entry>of V</entry>
+<entry>Lexical</entry>
+<entry>Lexical or phrasal</entry>
+</row>
+<row><entry>
+</entry>
+<entry>c.</entry>
+<entry>of &lsqb;N, V&rsqb;</entry>
+<entry>Lexical</entry>
+<entry>Lexical or phrasal</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(23)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry><b>NI</b>
+</entry>
+<entry><b>CP</b>
+</entry>
+</row>
+<row><entry>Functional status of N</entry>
+<entry>a.</entry>
+<entry>as argument</entry>
+<entry>Yes</entry>
+<entry>Maybe</entry>
+</row>
+<row><entry>
+</entry>
+<entry>b.</entry>
+<entry>as predicate</entry>
+<entry>No</entry>
+<entry>Yes</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Whether the specifications in (22) and (23) should be accepted as criterial of CP and NI constructions is for future research to determine.</p>
+<p>The parameters in (22) and (23) point to possible cross-linguistic variability in N&plus;V complex predicates. One parameter of variation is the argumenthood of the nominal host (23a). As indicated earlier, Hindi itself distinguishes two classes, one in which the host is a syntactic argument, and another in which it is part of the predicate without any argument status. Another parameter of variation is the categorial level of the host (22a). In Hindi, it is a lexical category. In a language like Malayalam, in contrast, the host is a phrasal category (<link rid="b49">Mohanan 1983</link>). Such typological variations deserve careful study.</p>
+<p>Other variations in N&plus;V complex predicates appear in languages like Korean (<link rid="b47">Ahn 1990</link>; <link rid="b50">Sells and Cho 1991</link>). The host noun, a lexical category, participates in three types of complex predicates, each displaying a different cluster of syntactic properties. One is lexically concatenated, and is syntactically unanalyzable; it obeys the lexical integrity principle (<link rid="b22">Ackerman 1987</link>; <link rid="b51">Di Sciullo and Williams 1987</link>; <link rid="b52">Simpson 1991</link>; <link rid="b53">Sells 1994</link>; <link rid="b54">Bresnan and Mchombo 1995</link>; <link rid="b55">Mohanan 1995</link>), which prohibits subconstituents of a lexical unit from undergoing syntactic reordering; examples are <i>kwen-hata</i> &lsquo;encourage&rsquo; and <i>ceng-hata</i> &lsquo;decide&rsquo;. The second and third types are phrasally concatenated: adverbs and negatives can intervene between the N and V. The phrasally combined complex predicates fall into two classes in terms of their behavior with respect to replies to yes/no questions, gapping, and the ability to take accusative marking. The two classes are distinguished by the fact that in contrast to the nominal hosts in examples like <i>phantan hata</i> &lsquo;judge&rsquo; and <i>sayngkak hata</i> &lsquo;think&rsquo;, those in examples like <i>yenkwu hata</i> &lsquo;research&rsquo; and <i>kongpwu hata</i> &lsquo;study&rsquo; can be omitted in the reply to a yes/no question, can be gapped independently of the light verb, and can take the accusative marking <i>(l)ul</i>.</p>
+</subsection>
+</subsection>
+<subsection id="ss9" level="1">
+<heading id="h8" level="1">5 Verbal hosts</heading>
+<subsection id="ss10" level="2">
+<heading id="h9" level="2">5.1 Causative light verbs</heading>
+<p>We now turn to the light verbs that combine with verbal hosts. Consider the English examples in (24), where (24b) is a causative (see <related relationship="sibling" type="samework"><externallink id="chapter 4 - Adverb Classes and Adverb Placement.xml" type="file">chapter 4</externallink></related>) version of (24a):</p>
+<p>(24)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Pat combed Ellen&apos;s hair.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Pat made Jan comb Ellen&apos;s hair.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(24b) is an example of a syntactically biclausal causative. If the object <i>Ellen</i> in (24b) is replaced with the pronoun <i>him</i>, the pronoun can take <i>Pat</i> as its antecedent. On the other hand, if we replace it with the reflexive <i>himself</i>, the reflexive cannot take <i>Pat</i> as its antecedent. These facts follow from the conditions of disjoint reference and reflexive binding (Binding Conditions B and A respectively in GB/Minimalist syntax), given that <i>make</i> and <i>comb</i> belong to different clauses in (24b).</p>
+<p>Now consider the German sentence in (25a), and its causative versions in (25b, c):</p>
+<p>(25)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Ellen</entry>
+<entry>hat</entry>
+<entry>den</entry>
+<entry>Jungen</entry>
+<entry>gek&auml;mmen</entry>
+<entry>
+</entry>
+</row>
+<row><entry>Ellen</entry>
+<entry>has</entry>
+<entry>the</entry>
+<entry>boy</entry>
+<entry>combed</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;Ellen combed the boy.&rsquo;</entry>
+<entry>(Ackerman and Webelhuth 1998: 275)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Ellen</entry>
+<entry>lie&szlig;</entry>
+<entry>den</entry>
+<entry>Vater</entry>
+<entry>den</entry>
+<entry>Jungen</entry>
+<entry>k&auml;mmen.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>Ellen</entry>
+<entry>cause</entry>
+<entry>the</entry>
+<entry>father</entry>
+<entry>the</entry>
+<entry>boy</entry>
+<entry>comb</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;Ellen made the father comb the boy.&rsquo;</entry>
+<entry>(Ackerman and Webelhuth 1998: 279)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10"/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>Ellen</entry>
+<entry>lie&szlig;</entry>
+<entry>den</entry>
+<entry>Jungen</entry>
+<entry>von</entry>
+<entry>seiner</entry>
+<entry>Schwester</entry>
+<entry>k&auml;mmen</entry>
+<entry>
+</entry>
+</row>
+<row><entry>Ellen</entry>
+<entry>cause</entry>
+<entry>the</entry>
+<entry>boy</entry>
+<entry>by</entry>
+<entry>his</entry>
+<entry>sister</entry>
+<entry>comb</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;Ellen had the boy combed by his sister.&rsquo;</entry>
+<entry>(Ackerman and Webelhuth 1998: 275)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b11">Ackerman and Webelhuth (1998</link>) argue that (25b) behaves like a bi-clausal structure, exactly like the English example in (24b). However, the behavior of (25c) leads them to conclude that the sentence is monoclausal. Given that the verb <i>lie&szlig;</i> in (25c), which is an independent verb (not an affix), forms a single syntactic predicate with the following verb and contributes to the argument structure of the clause, it follows from our earlier characterization that <i>lie&szlig;</i> is a light verb in (25c), and that <i>lie&szlig;</i>&nbsp;.&nbsp;.&nbsp;.&nbsp;<i>k&auml;mmen</i> is an example of a complex predicate. In contrast, the sentence in (25b) is an example of a bi-clausal raising/control construction, and <i>lie&szlig;</i> is not a light verb.</p>
+<p>Additional evidence from disjoint reference also points to the conclusion that (25c) is monoclausal, while (25b) is bi-clausal. Thus, if &lsquo;the boy&rsquo; in (25b) is replaced with the pronoun <i>ihn</i>, the pronoun can take as its antecedent the subject <i>Ellen</i> (Miriam Butt, p.c.). But if &lsquo;his sister&rsquo; in (25c) is replaced by the pronoun, it cannot take Ellen as its antecedent. Together with the rest of the evidence, then, disjoint reference shows that (25c) has a single syntactic clause. This situation illustrates the possibility, even within a single language, of an analytical causative being either a complex predicate construction with a light verb as in (25c), or a raising/control causative such as that in (24b) and (25b).</p>
+<p>In the following sections, we will take a closer look at some more light verbs that take verbal hosts. We will see that the issues related to the analysis of N&plus;V complex predicates discussed earlier resurface in a slightly different guise in the analysis of V&plus;V complex predicates.</p>
+</subsection>
+<subsection id="ss11" level="2">
+<heading id="h10" level="2">5.2 Applicative light verbs in Malayalam</heading>
+<subsection id="ss12" level="3">
+<heading id="h11" level="3">5.2.1 &lsquo;Give&rsquo; compounding</heading>
+<p>The phenomenon of applicatives has generally been viewed as one in which an indirect object, oblique object, or non-argument appears as an object of the clause (henceforth &lsquo;applied object&rsquo;). The dative construction in English, illustrated in (26b) below, can be understood as a restricted version of the phenomenon of applicatives:</p>
+<p>(26)&ensp;<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Miko sang a song for Jomo.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Miko sang Jomo a song.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Languages vary with respect to the theta-role of the applied object; a particular language may allow one or more of the following: beneficiaries, goals, instruments, locatives (<link rid="b8">Baker 1988a</link>; <link rid="b56">Bresnan and Moshi 1990</link>; <link rid="b57">Alsina and Mchombo 1993</link>; <link rid="b12">Foley 1997</link>). In languages with restricted instances of the applicative, including English, the applied object is typically a beneficiary.</p>
+<p>As mentioned earlier, the applicative complex predicate may involve a light verb in some languages, for instance Malayalam. (Note that in the applicative in English, the verb bears no overt verbal marking.) The applicative in Malayalam has been described as give-compounding (<link rid="b49 b58">Mohanan 1983, 1989</link>), because it involves a V&plus;V predicate in which the second V is the word for &lsquo;give&rsquo;. (See <link rid="b59">Wong 1995</link> for a construction with similar effects in Mandarin involving the verb <i>gei</i> &lsquo;give&rsquo;.)</p>
+<p>Consider the triadic verb <i>koTukk</i>- &lsquo;give&rsquo; in (27):</p>
+<p>(27)&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry>uma</entry>
+<entry>ammuwin<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>oru</entry>
+<entry>pustakam</entry>
+<entry>koTuttu.</entry>
+</row>
+<row><entry>Uma</entry>
+<entry>Ammu-DAT</entry>
+<entry>one</entry>
+<entry>book</entry>
+<entry>gave</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;Uma gave a book to Ammu.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Applicatives in Malayalam are formed through a productive V&plus;V compounding, where the second V is <i>koTukk</i>- &lsquo;give&rsquo;, as illustrated in (28b):</p>
+<p>(28)&ensp;<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>uma</entry>
+<entry>oru</entry>
+<entry>paaTT<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>paaTi.</entry>
+</row>
+<row><entry>Uma</entry>
+<entry>one</entry>
+<entry>song</entry>
+<entry>sang</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Uma sang a song.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>uma</entry>
+<entry>baalan<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>oru</entry>
+<entry>paaTT<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>paaTi</entry>
+<entry>koTuttu.</entry>
+</row>
+<row><entry>Uma</entry>
+<entry>Balan-DAT</entry>
+<entry>one</entry>
+<entry>song</entry>
+<entry>sang</entry>
+<entry>gave</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;Uma sang Balan a song.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="1">c.</entry>
+<entry>*uma</entry>
+<entry>baalan<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>oru</entry>
+<entry>paaTT<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>paaTi.</entry>
+</row>
+<row><entry>Uma</entry>
+<entry>Balan-DAT</entry>
+<entry>one</entry>
+<entry>song</entry>
+<entry>sang</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="2">d.</entry>
+<entry>uma</entry>
+<entry>baalan<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>-weeNTi</entry>
+<entry>oru</entry>
+<entry>paaTT<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>paaTi.</entry>
+</row>
+<row><entry>Uma</entry>
+<entry>Balan-DAT-for</entry>
+<entry>one</entry>
+<entry>song</entry>
+<entry>sang</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;Uma sang a song for Balan.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="2">e.</entry>
+<entry>*uma</entry>
+<entry>oru</entry>
+<entry>paaTT<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>paaTi</entry>
+<entry>baalan<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>koTuttu.</entry>
+</row>
+<row><entry>Uma</entry>
+<entry>one</entry>
+<entry>song</entry>
+<entry>sang</entry>
+<entry>Balan-DAT</entry>
+<entry>gave</entry>
+</row>
+<row><entry namest="col2" nameend="col7">Intended: &num;&rsquo;Uma sang a song and gave it to Balan.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The verb &lsquo;sing&rsquo; in (28) is dyadic. In (28b), where it occurs with &lsquo;give&rsquo; in a V&plus;V compound, &lsquo;give&rsquo; contributes to the clause an additional beneficiary argument. An even more telling example of such argument addition is given in (29):</p>
+<p>(29)&ensp;<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>ani</entry>
+<entry>aLaweTukkaan</entry>
+<entry>ninnu.</entry>
+</row>
+<row><entry>Ani</entry>
+<entry>measurement-take-INF</entry>
+<entry>stood</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;Ani stood for the purpose of having her measurements taken.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>ani</entry>
+<entry>ammuwin<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>aLaweTukkaan</entry>
+<entry>ninnu</entry>
+<entry>koTuttu.</entry>
+</row>
+<row><entry>Ani</entry>
+<entry>Ammu-DAT</entry>
+<entry>measurement-take-INF</entry>
+<entry>stood</entry>
+<entry>gave</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;Anu stood for Ammu to take her measurements (for Ammu&apos;s benefit).&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="1">c.</entry>
+<entry>*ani</entry>
+<entry>ammuwin<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>aLaweTukkaan</entry>
+<entry>ninnu</entry>
+</row>
+<row><entry>Ani</entry>
+<entry>Ammu-DAT</entry>
+<entry>measurement-take-INF</entry>
+<entry>stood</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>On the basis of (28) and (29), one might be tempted to treat the syntactic effect of this compounding as one of increasing valency. However, as (30) shows, even though it involves the additional meaning of a beneficiary, it is not necessary that give-compounding always adds an argument to the clause:</p>
+<p>(30)&ensp;<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>uma</entry>
+<entry>aniye</entry>
+<entry>kuukkaan</entry>
+<entry>paThippiccu.</entry>
+</row>
+<row><entry>Uma</entry>
+<entry>Ani-ACC</entry>
+<entry>shout-INF</entry>
+<entry>taught</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Uma taught Ani to shout.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>uma</entry>
+<entry>anik&rsquo;k&rsquo;<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>kuukkaan</entry>
+<entry>paThippiccu</entry>
+<entry>koTuttu.</entry>
+</row>
+<row><entry>Uma</entry>
+<entry>Ani-DAT</entry>
+<entry>shout-INF</entry>
+<entry>taught</entry>
+<entry>gave</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;Uma taught Ani to shout.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="1">c.</entry>
+<entry>*uma</entry>
+<entry>anik&rsquo;k&rsquo;<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>kuukkaan</entry>
+<entry>paThippiccu</entry>
+</row>
+<row><entry>Uma</entry>
+<entry>Ani-DAT</entry>
+<entry>shout-INF</entry>
+<entry>taught</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="1">d.</entry>
+<entry>*uma</entry>
+<entry>aniye</entry>
+<entry>kuukkaan</entry>
+<entry>paThippiccu</entry>
+<entry>koTuttu.</entry>
+</row>
+<row><entry>Uma</entry>
+<entry>Ani-ACC</entry>
+<entry>shout-INF</entry>
+<entry>taught</entry>
+<entry>gave</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The object of &lsquo;teach&rsquo; in (30a) is in the accusative case. Its counterpart in (30b), where the predicate is a give-compound, is in the dative case. Also, (30b) has the added meaning that the teaching was either desired by or beneficial to the learner. (30a) carries no such implication. In other words, the second argument in (30a) is a &lsquo;theme&rsquo;, while that in (30b) is both a theme and a beneficiary. There is no additional argument in (30b).</p>
+<p>What we have here is a complex predicate construction in which the verb &lsquo;give&rsquo; functions as a light verb. It adds the meaning of beneficiary to the clause, which may or may not result in the addition of an independent beneficiary argument. It also requires the beneficiary to be in the dative case. The benefit in this construction is the entire event described by the host of the light verb. Thus, in (28b), Uma is the agent, Balan is the beneficiary, and the event of Uma&apos;s singing a song is the theme that benefits Balan.</p>
+<p>If the argument meanings of the full verb <i>koTukk-</i> &lsquo;give&rsquo; in (27) are compared with those of the light verb in (28b), (29b), and (30b), an interesting difference appears. The dative argument in (27) is a recipient who is not necessarily a beneficiary. Thus, we can add <i>ravik&rsquo;k&rsquo;</i>
+<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula><i> weeNDi</i> &lsquo;for Ravi&rsquo; to (27), to mean &lsquo;Uma gave a book to Ammu for Ravi.&rsquo; In other words, a beneficiary can be added to the sentence as an adjunct. In contrast, such a beneficiary adjunct cannot be added to a complex predicate construction with the light verb <i>koTukk-</i>. This suggests that the dative argument of the complex predicate V-<i>koTukk-</i> is a beneficiary, not merely a recipient.</p>
+<p>Furthermore, the dative argument of the full verb can be the recipient of an undesirable theme. For instance, a sentence in which <i>pustakam</i> &lsquo;book&rsquo; in (27) is replaced by <i>wiSam</i> &lsquo;poison&rsquo;, which is harmful to the recipient, is entirely acceptable. In contrast, the event that is of benefit to the dative argument in the light verb construction cannot be undesirable to the beneficiary. Thus, in a context in which Balan dislikes Uma&apos;s singing, the sentence in (28b) is unacceptable.</p>
+<p>In sum, the special characteristics of the light verb &lsquo;give&rsquo; in Malayalam can best be understood as a grammaticalization of the full verb &lsquo;give&rsquo;. (31) below gives the parallel properties that bring out the effects of grammaticalization:</p>
+<p>(31)&ensp;<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry>
+</entry>
+<entry><b>Property</b>
+</entry>
+<entry><b>Full verb</b>
+</entry>
+<entry><b>Light verb</b>
+</entry>
+</row>
+<row><entry>a.</entry>
+<entry>number of arguments: three</entry>
+<entry>&radic;</entry>
+<entry>&radic;</entry>
+</row>
+<row><entry morerows="3">b.</entry>
+<entry>Argument meanings:</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry>(i) Agent</entry>
+<entry>&radic;</entry>
+<entry>&radic;</entry>
+</row>
+<row><entry>(ii) Recipient</entry>
+<entry>&radic;</entry>
+<entry>Desirable benefit</entry>
+</row>
+<row><entry>(iii) Theme </entry>
+<entry>&radic;</entry>
+<entry>&radic;</entry>
+</row>
+<row><entry morerows="2">c.</entry>
+<entry>Theme: </entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry>(i) Concrete entity</entry>
+<entry>&radic;</entry>
+<entry>No</entry>
+</row>
+<row><entry>(ii) Event</entry>
+<entry>No</entry>
+<entry>&radic;</entry>
+</row>
+<row><entry>d.</entry>
+<entry>Transfer from agent to recipient</entry>
+<entry>&radic;</entry>
+<entry>No</entry>
+</row>
+<row><entry>e.</entry>
+<entry>Case of recipient/beneficiary: dative</entry>
+<entry>&radic;</entry>
+<entry>&radic;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The difference between the full verb and the light verb lies in their semantics: (i) the dative argument of the light verb is a beneficiary, (ii) the theme is an event, not an entity, and (iii) no transfer is involved.</p>
+<p>It must be pointed out that the verb &lsquo;give&rsquo; appears recurrently across languages as the indicator of the applicative meaning. Some examples are given below. Each of the examples appears to be an applicative with a light verb &lsquo;give&rsquo;:</p>
+<p>(32)&ensp;<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry>mama</entry>
+<entry>f&eacute;ng-<b>g&egrave;&iacute;</b>
+</entry>
+<entry>Xi&agrave;&oacute;q&iacute;</entry>
+<entry>y&igrave;</entry>
+<entry>ti&aacute;o</entry>
+<entry>q&uacute;nzi.</entry>
+<entry>Mandarin</entry>
+</row>
+<row><entry>mother</entry>
+<entry>sew-give</entry>
+<entry>Xiaoqi</entry>
+<entry>one</entry>
+<entry>CL</entry>
+<entry>skirt</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col6">&lsquo;Mother sewed Xiaoqi a a skirt.&rsquo;</entry>
+<entry>(Wong 1995: 12)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(33)&ensp;<object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry>i e</entry>
+<entry>prani</entry>
+<entry>a</entry>
+<entry>karu</entry>
+<entry><b>gi</b>
+</entry>
+<entry><b>yu</b>.</entry>
+<entry>Sranan</entry>
+</row>
+<row><entry>I</entry>
+<entry>plant</entry>
+<entry>the</entry>
+<entry>corn</entry>
+<entry>give</entry>
+<entry>you</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col6">&lsquo;I&apos;m planting the corn for you.&rsquo;</entry>
+<entry>(<link rid="b80">Sebba 1987</link>: 50)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(34)&ensp;<object id="tu28" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu28_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry>a</entry>
+<entry>s&eacute;i</entry>
+<entry>d&igrave;</entry>
+<entry>w&ograve;su</entry>
+<entry><b>d&agrave;</b>
+</entry>
+<entry>d&igrave;</entry>
+<entry>w&ograve;mi.</entry>
+<entry>Saramaccan</entry>
+</row>
+<row><entry>he</entry>
+<entry>sell</entry>
+<entry>the</entry>
+<entry>house</entry>
+<entry>give</entry>
+<entry>the</entry>
+<entry>man</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col8">&lsquo;He sold the house for the man.&rsquo; or &lsquo;He sold the house to the man.&rsquo;</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>(<link rid="b77">Byrne 1987</link>: 177)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(35)&ensp;<object id="tu29" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu29_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry>nws</entry>
+<entry>xa</entry>
+<entry>ib</entry>
+<entry>qho</entry>
+<entry>khoom</entry>
+<entry><b>pub</b>
+</entry>
+<entry>kuv.</entry>
+<entry>White Hmong</entry>
+</row>
+<row><entry>3sg</entry>
+<entry>send</entry>
+<entry>one</entry>
+<entry>class.</entry>
+<entry>goods</entry>
+<entry>give</entry>
+<entry>2sg</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col7">&lsquo;She sent me some things (as a present).&rsquo;</entry>
+<entry>(<link rid="b79">Jarkey 1991</link>: 244)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b60">Heine and Reh (1983</link>) observe that the applicative morpheme in a number of African languages developed historically from the verb for &lsquo;give&rsquo;. <link rid="b47">Ahn (1990</link>) and <link rid="b48">Matsumoto (1996b</link>) argue that the apparently parallel construction in Japanese and Korean involving the verbs for giving and receiving are not complex predicate constructions; rather, they are constructions involving a main verb and a complement clause. Given our characterization of light verb as part of a complex predicate, we must conclude that the verbs &lsquo;give&rsquo; and &lsquo;receive&rsquo; in this construction in Japanese and Korean are not light verbs. However, given that these constructions resemble those of the applicative light verb constructions, an alternative view of light verbs would be to delink their characterization from complex predicatehood, and define them as grammaticalized, bleached verbs that have a &lsquo;full&rsquo; counterpart, whether or not they are part of a complex predicate. The wisdom of such a recharacterization of light verbs cannot be assessed without further investigation.</p>
+</subsection>
+<subsection id="ss13" level="3">
+<heading id="h12" level="3">5.2.2 &lsquo;Get&rsquo; compounding</heading>
+<p>Another light verb construction which involves the addition of a beneficiary meaning is what may be called get-compounding. The Malayalam example in (36) is a simple sentence with the verb <i>kiTT-</i> &lsquo;get&rsquo; as a full verb:</p>
+<p>(36)&ensp;<object id="tu30" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu30_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>anuwin<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>looTTari</entry>
+<entry>kiTTi.</entry>
+</row>
+<row><entry>Anu-DAT</entry>
+<entry>lottery</entry>
+<entry>got</entry>
+</row>
+<row><entry namest="col1" nameend="col3">&lsquo;Anu won a lottery. (Anu got a lottery.)&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The verb <i>kiTT</i>- &lsquo;get&rsquo; participates as a light verb in a complex predicate construction. Compare the give-compounding version of (37a) in (37b) with its get-compounding version in (37c):</p>
+<p>(37)&ensp;<object id="tu31" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu31_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>anu</entry>
+<entry>oru</entry>
+<entry>keikk<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>uNTaakki.</entry>
+</row>
+<row><entry>Anu</entry>
+<entry>one</entry>
+<entry>cake</entry>
+<entry>made</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Anu baked a cake. (Anu made a cake.)&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>uma</entry>
+<entry>anuwin<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>oru</entry>
+<entry>keikk<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>uNTaakki</entry>
+<entry>koTuttu.</entry>
+</row>
+<row><entry>Uma</entry>
+<entry>Anu-DAT</entry>
+<entry>one</entry>
+<entry>cake</entry>
+<entry>made</entry>
+<entry>gave</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;Uma made Anu a cake.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>anuwin<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>oru</entry>
+<entry>keikk<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>uNTaakki</entry>
+<entry>kiTTi.</entry>
+</row>
+<row><entry>Anu-DAT</entry>
+<entry>one</entry>
+<entry>cake</entry>
+<entry>made</entry>
+<entry>got</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;Anu got the benefit of someone baking a cake.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In the example of get-compounding in (37c), Anu is the beneficiary of the theme, namely, the event of baking a cake.</p>
+<p>Consider another example of get-compounding in (38b):</p>
+<p>(38)&ensp;<object id="tu32" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu32_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>kuTTi</entry>
+<entry>skuuLil</entry>
+<entry>etti.</entry>
+</row>
+<row><entry>child</entry>
+<entry>school-in</entry>
+<entry>arrived</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;The child arrived in school.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>ammak&rsquo;k&rsquo;<formula format="inline">
+<file name="Graphics\chapter_31_fu1.gif" type="gif"/>
+</formula>
+</entry>
+<entry>kuTTi</entry>
+<entry>skuuLil</entry>
+<entry>etti</entry>
+<entry>kiTTi.</entry>
+</row>
+<row><entry>mother-DAT</entry>
+<entry>child</entry>
+<entry>school-in</entry>
+<entry>arrived</entry>
+<entry>got</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;The mother received the benefit of the child arriving in school.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Give-compounding requires an agent and a beneficiary; if the host does not have a beneficiary, the light verb supplies one, either as an argument or as an argument meaning. However, if the host does not have an agent, the light verb cannot combine with it. Thus, a give-compounding version of (38a) is not possible to create, because (38a) does not have an agent to begin with.</p>
+<p>Like give-compounding, get-compounding requires a beneficiary, and the light verb adds it if one is not already available. The beneficiary in (37c) and (38b) is not an argument of the verbal host; it is contributed solely by the light verb. In contrast to &lsquo;give&rsquo;, however, the light verb &lsquo;get&rsquo; does not permit the expression of the agent. Thus, the agent of the host in (37c) is unexpressed; expressing the agent of &lsquo;make&rsquo; in any form would render the sentence unacceptable.</p>
+<p>A comparison of the main verb <i>kiTT</i>- &lsquo;get&rsquo; and its light counterpart shows the following differences:</p>
+<p>(39)&ensp;<object id="tu33" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu33_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<thead>
+<row><entry>
+</entry>
+<entry><b>Property</b>
+</entry>
+<entry><b>Full verb</b>
+</entry>
+<entry><b>Light verb</b>
+</entry>
+</row>
+</thead>
+<tbody>
+<row><entry>a.</entry>
+<entry>Number of arguments: two</entry>
+<entry>&radic;</entry>
+<entry>&radic;</entry>
+</row>
+<row><entry morerows="2">b.</entry>
+<entry>Argument meanings:</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry>(i) Recipient</entry>
+<entry>&radic;</entry>
+<entry>Beneficiary</entry>
+</row>
+<row><entry>(ii) Theme</entry>
+<entry>&radic;</entry>
+<entry>&radic;</entry>
+</row>
+<row><entry morerows="2">c.</entry>
+<entry>Theme:</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry>(i) Concrete entity</entry>
+<entry>&radic;</entry>
+<entry>No</entry>
+</row>
+<row><entry>(ii) Event</entry>
+<entry>No</entry>
+<entry>&radic;</entry>
+</row>
+<row><entry>d.</entry>
+<entry>Transfer to recipient</entry>
+<entry>&radic;</entry>
+<entry>No</entry>
+</row>
+<row><entry>e.</entry>
+<entry>Case of recipient/beneficiary: dative</entry>
+<entry>&radic;</entry>
+<entry>&radic;</entry>
+</row>
+<row><entry>f.</entry>
+<entry>Agent cannot be an argument</entry>
+<entry>&radic;</entry>
+<entry>&radic;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The properties of get-compounding, then, are that (i) the complex predicate has two arguments; (ii) the logical subject is a beneficiary, not just a recipient; and (iii) the theme is an event, not an entity. The two complex predicate constructions, &lsquo;give&rsquo;-applicative and &lsquo;get&rsquo;-applicative, are parallel in that they both add a beneficiary meaning to the clause, where the benefit is an event; they differ in that the former requires an agent, while the latter prohibits one. This difference follows naturally from the argument structures of the full verbs.</p>
+<p>The discussion of give-compounding and get-compounding in Malayalam shows that the idea of deriving the light verb through semantic bleaching of the full verb is not viable if bleaching is interpreted as implying the strong claim stated in (40):</p>
+<p>(40)&ensp;The semantic structure of the light verb is a proper substructure of the semantic structure of the full verb.</p>
+<p>The light verbs <i>koTukk</i>- &lsquo;give&rsquo; and <i>kiTT</i>- &lsquo;get&rsquo;, unlike their full counterparts, require that their dative argument be the beneficiary of a desirable outcome. In other words, they impose a semantic condition not found in the full verb. Hence, (40) could not be correct.</p>
+<p>The general characteristics illustrated by the behavior of the applicative light verbs in Malayalam can now be summarized as follows. A light verb may impose a requirement on an argument of the complex predicate; if the host does not satisfy this requirement, the light verb may either contribute an additional argument (addition) or add the required argument meaning to an existing argument (merging). A light verb may also impose a requirement that results in suppressing a semantic role of the host, thus preventing it from being expressed as an argument (suppression). Finally, it may require its host to contain a specific argument, as in the case of an agent in give-compounding. These properties support the conclusion that it is necessary to factor apart the semantic information and the valency information conflated in theta-role labels like agent, recipient, beneficiary, and theme.</p>
+</subsection>
+</subsection>
+<subsection id="ss14" level="2">
+<heading id="h13" level="2">5.3 Aspectual and modal light verbs in Hindi/Urdu</heading>
+<p>Complex predicates of the form V&plus;V are so prevalent in the South Asian languages that a detailed description of their meanings has long been a central preoccupation of grammarians of these languages. <link rid="b39">Masica (1976</link>) lists the varied and manifold meanings that light verbs bring to the complex predicate: they connote &ldquo;completion, suddenness, directionality, benefaction, intensity, violence, stubbornness, reluctance, regret, forethought, thoroughness, etc.&rdquo; However, he suggests that these various modal and aspectual meanings &ldquo;can all be brought under one banner: greater specification of features of the action already latent in the main verb itself or those that are compatible with it but have not yet been specified.&rdquo; The light verb unfolds the &ldquo;latent semantics&rdquo; of the host, &ldquo;characterizing the manner and implications of its performance more precisely&rdquo; (<link rid="b39">Masica 1976</link>: 143).</p>
+<p>In a detailed description of data from the various Indo-Aryan languages of South Asia, particularly Hindi and Marathi, <link rid="b61">Hook (1974</link>) postulates a category called &lsquo;vector verb&rsquo;, roughly equivalent to what we have called &lsquo;light verb&rsquo;. (<link rid="b62">Bahl 1967</link> proposes the term &lsquo;explicator&rsquo; to refer to this class of verbs.) Of the two verbs V&plus;V in a &lsquo;compound verb&rsquo;, the first is the host, and the second the vector or light verb. Including the less common and less productive ones, Hook catalogues 68 light verbs in Hindi (of which 24 are commonly used), as well as the various verbs that each of them accepts as its hosts.</p>
+<p>In extensive work on complex predicate constructions with verbal hosts in Urdu, <link rid="b31">Butt (1995</link>) lays out two constructions that she argues must be treated as complex predicate constructions, namely the permissive and the aspectual complex predicate, illustrated in (42) and (43) respectively. The sentence in (41) is the corresponding simple sentence with a single verb:</p>
+<p>(41)&ensp;<object id="tu34" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu34_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>anu-ne</entry>
+<entry>haar</entry>
+<entry>banaayaa.</entry>
+</row>
+<row><entry>Anu-ERG</entry>
+<entry>garland</entry>
+<entry>made</entry>
+</row>
+<row><entry namest="col1" nameend="col3">&lsquo;Anu made a garland.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(42)&ensp;<object id="tu35" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu35_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry>raam-ne</entry>
+<entry>anu-ko</entry>
+<entry>haar</entry>
+<entry>banaane</entry>
+<entry>diyaa.</entry>
+</row>
+<row><entry>Ram-ERG</entry>
+<entry>Anu-DAT</entry>
+<entry>garland</entry>
+<entry>to make</entry>
+<entry>gave</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;Ram let Anu make a garland.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(43)&ensp;<object id="tu36" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu36_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry>anu-ne</entry>
+<entry>haar</entry>
+<entry>banaa</entry>
+<entry>diyaa.</entry>
+</row>
+<row><entry>Anu-ERG</entry>
+<entry>garland</entry>
+<entry>make</entry>
+<entry>gave</entry>
+</row>
+<row><entry namest="col1" nameend="col4">&lsquo;Anu made a garland (completely).&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The permissive construction illustrated in (42) is entirely productive. The aspectual complex predicates, however, exhibit certain interesting combinatorial restrictions. The light verb can determine the case of the subject of the clause, and must be compatible with the host in terms of whether or not the subject of the clause can be volitional. The notions of the inception and completion of an event also play a role in limiting the combinatorial possibilities (<link rid="b63">Ramchand 1997</link>); thus, a light verb may serve to pick out or focus on the point of inception. In short, the light verb brings its own semantics and argument structure to the construction, as in the N&plus;V complex predicates.</p>
+<p>On the basis of evidence from patterns of agreement, control, reflexive binding, and disjoint reference, Butt demonstrates that the light verb and its host form a single syntactic predicate in (42) and (43), behaving exactly like the simple predicate in (41). On the other hand, the patterns of scrambling, negation, modification, and coordination displayed by the constructions lead to the conclusion that they need not form a single constituent in phrase structure. Butt argues that in the phrase structure of (42), the infinitival verbal host is in fact nominal, and the light verb is not a lexical category; rather, it is a V<sup>bar</sup>, as is the combination:</p>
+<p>
+<object id="fu1" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_31_fu2.jpg" type="jpg" id="fu2_source"/>
+</objectsource>
+</object>
+</p>
+<p>In (43), on the other hand, the light verb and the host are both V<sup>0</sup> sisters, their mother node being a V<sup>bar</sup>:</p>
+<p>
+<object id="fu2" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_31_fu3.jpg" type="jpg" id="fu3_source"/>
+</objectsource>
+</object>
+</p>
+<p>The V&plus;V complex predicates in Urdu, Hindi, and the other Indo-Aryan languages of South Asia raise questions about distinctions among grammatical verbs, particularly aspectual auxiliary, modal auxiliary, and light verb. In (42), the meaning is that of permission, typically found in modal auxiliary. However, as Butt argues, the construction in Urdu involves a complex predicate with a light verb which adds an argument to the clause, a property not associated with modals. Hence, we may conclude that the Hindi verb &lsquo;give&rsquo; in (42) is a modal light verb, unlike the applicative light verb &lsquo;give&rsquo; in Malayalam.</p>
+<p>In (43), the verb &lsquo;give&rsquo; adds the aspectual meaning of completion. One might ask if this grammatical verb should be treated as an aspectual light verb, or as an aspectual auxiliary in (43). It does not add an argument. However, it requires a particular argument meaning, namely that of conscious choice, of its subject. This could be used as justification for classifying it as a light verb, if it were the case that all grammatical verbs that contribute/require specific argument meanings are light verbs. However, given that modal auxiliaries &ndash; for instance, <i>can</i>, <i>will</i>, <i>shall</i>, and <i>must</i> in English &ndash; generally express meanings such as volitionality, intentionality, ability, and obligation, which belong to the same class of meanings as conscious choice, it is difficult to use this property as criterial. The only reason for treating &lsquo;give&rsquo; in (43) as a light verb, then, is that unlike the modal auxiliaries in English, light verbs have full counterparts. One may therefore suggest that a grammatical verb is a light verb if it has a full counterpart. However, this criterion also runs into problems when faced with examples like (44) and (45):</p>
+<p>(44)&ensp;<object id="tu37" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu37_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry>anu</entry>
+<entry>us</entry>
+<entry>ghar-me</entry>
+<entry>rahtii</entry>
+<entry>hae.</entry>
+</row>
+<row><entry>Anu</entry>
+<entry>that</entry>
+<entry>house-in</entry>
+<entry>stays</entry>
+<entry>is</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;Anu lives/stays in that house.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(45)&ensp;<object id="tu38" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu38_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>anu</entry>
+<entry>haar</entry>
+<entry>banaatii</entry>
+<entry>hae.</entry>
+</row>
+<row><entry>Anu</entry>
+<entry>garland</entry>
+<entry>makes</entry>
+<entry>is</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Anu makes garlands.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>anu</entry>
+<entry>haar</entry>
+<entry>banaatii</entry>
+<entry>rahtii</entry>
+<entry>hae.</entry>
+</row>
+<row><entry>Anu</entry>
+<entry>garland</entry>
+<entry>make</entry>
+<entry>stay</entry>
+<entry>is</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;Anu keeps making garlands.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>anu</entry>
+<entry>haar</entry>
+<entry>banaa</entry>
+<entry>rahii</entry>
+<entry>hae.</entry>
+</row>
+<row><entry>Anu</entry>
+<entry>garland</entry>
+<entry>make</entry>
+<entry>stay</entry>
+<entry>is</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;Anu is making garlands.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A comparison of (44) and (45) shows that the grammatical verb <i>rah</i>- &lsquo;stay/ remain/continue&rsquo; in (45b, c) has a full verb counterpart in (44). By the criterion of pairing with full verbs, therefore, <i>rah-</i> in (45b) and (45c) should be a light verb. However, this verb in (45c) is viewed without question as an auxiliary. We must conclude that either the treatment of <i>rah-</i> in (45c) as an auxiliary is not viable, or that the property of pairing with a full verb is not a sufficient condition for light verbs.</p>
+<p>It is widely agreed that auxiliaries (including modals) and light verbs, while they need not form a single phrase structure constituent, nevertheless form a single predicate with their hosts in terms of syntactic function. Now, distinguishing between auxiliaries, light verbs, and modals, <link rid="b64">Butt and Lahiri (1998</link>) cite as an example of a modal the following sentence with an embedded structure:</p>
+<p>(46)&ensp;<object id="tu39" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu39_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry>naadyaa</entry>
+<entry>xat</entry>
+<entry>likhnaa</entry>
+<entry>caahtii</entry>
+<entry>hae.</entry>
+</row>
+<row><entry>Nadya</entry>
+<entry>letter</entry>
+<entry>write-INF</entry>
+<entry>wish/want-IMPF</entry>
+<entry>is</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;Nadya wants to write a letter.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>However, it is unclear how (46) can be distinguished from a raising construction. If we take light verbs and auxiliaries (including modals) to be grammatical verbs that involve a single functional clause, the legitimacy of (46) as a modal construction is called into question. What (46) shares with modals is simply a modality meaning, which in this instance is expressed by a full verb.</p>
+<p>A possible way to distinguish between auxiliaries and light verbs may be in terms of their contribution to the event structure of the clause: while auxiliaries participate in the modification of the event structure of their host, light verbs come with their own event structure, no matter how bleached. This is what makes a light verb a semantic predicate in its own right, allowing it to contribute arguments and argument meanings, and determine the case of arguments (<link rid="b30">Mohanan 1994</link>; <link rid="b31 b32">Butt 1995, 1997</link>; <link rid="b64">Butt and Lahiri 1998</link>). Though this is a possible move to make, it is unclear how one can in a non-ad-hoc way establish on an empirical basis the distinction between having an independent event and modifying an existing event.</p>
+</subsection>
+</subsection>
+<subsection id="ss15" level="1">
+<heading id="h14" level="1">6 Adjectival hosts</heading>
+<p>As mentioned earlier, the resultative construction in English has been treated as a complex predicate construction where the complex predicate is composed of a verb and an adjective (<link rid="b4">Simpson 1983</link>; <link rid="b65">Jackendoff 1990b</link>; <link rid="b5">Levin and Rappaport Hovav 1995</link>; <link rid="b6">Hale and Keyser 1997</link>). The construction is illustrated in (47):</p>
+<p>(47)&ensp;<object id="tu40" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu40_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The potter baked the clay hard.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The elf licked the plate clean.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>They painted the Volkswagen purple.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>While (47) illustrates complex predicates made up of a verb&ndash;adjective combination, these examples are not of interest in a discussion of light verbs, because the range of verbs that participate in the construction do not form a closed class, and therefore are not grammatical verbs.</p>
+<p>We do, however, find true light verb constructions with adjectival hosts, such as those in (48) from Hindi:</p>
+<p>(48)&ensp;<object id="tu41" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu41_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>kamraa</entry>
+<entry><b>saaf</b>
+</entry>
+<entry><b>huaa</b>.</entry>
+</row>
+<row><entry>room</entry>
+<entry>clean</entry>
+<entry>became</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;The room became clean.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>raam-ne</entry>
+<entry>kamraa</entry>
+<entry><b>saaf</b>
+</entry>
+<entry><b>kiyaa</b>.</entry>
+</row>
+<row><entry>Ram</entry>
+<entry>room</entry>
+<entry>clean</entry>
+<entry>did</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Ram cleaned the room. (Ram did the room clean.)&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Compare (48a, b) with (15a, b), where the host is a noun; the meaning is only minimally different. Like N&plus;V and V&plus;V complex predicates, A&plus;V complex predicates like those in (48) are entirely productive in Hindi.</p>
+<p>The A&plus;V complex predicates in Malayalam display an interesting twist. The language does not allow native adjectives to appear in the preverbal position in a complex predicate: adjectives, whether derived or underived (of which there are no more than a handful), must undergo nominalization to appear preverbally. Alternatively, they undergo verbalization, in which case they do not require a light verb. Yet, surprisingly, there is widespread borrowing of adjectives from English to create A&plus;V complex predicates such as those in (49), parallel to those from Hindi in (48):</p>
+<p>(49)&ensp;<object id="tu42" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu42_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>muri</entry>
+<entry><b>kLiin</b>
+</entry>
+<entry><b>aayi</b>.</entry>
+</row>
+<row><entry>room</entry>
+<entry>clean</entry>
+<entry>became</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;The room became clean.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>raaman</entry>
+<entry>muri</entry>
+<entry><b>kLiin</b>
+</entry>
+<entry><b>aakki</b>.</entry>
+</row>
+<row><entry>Raman</entry>
+<entry>room</entry>
+<entry>clean</entry>
+<entry>caused to become</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Ram cleaned the room. (Ram made the room clean.)&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The borrowing of adjectives is productive; thus, the word &lsquo;clean&rsquo; in (49a) and (49b) can be replaced by &lsquo;tidy&rsquo;, &lsquo;neat&rsquo;, &lsquo;dirty&rsquo;, &lsquo;dark&rsquo;, &lsquo;bright&rsquo;, or &lsquo;yellow&rsquo;, all with acceptable results. The A&plus;V construction in Hindi and Malayalam reconfirms what we have observed before, namely that the light verb can determine the transitivity of the complex predicate independently of the host.</p>
+</subsection>
+<subsection id="ss16" level="1">
+<heading id="h15" level="1">7 The ubiquitous light verb <i>do</i>
+</heading>
+<p>As mentioned earlier (<link rid="ss8">section 4.3</link>), Japanese and Korean have complex predicate constructions in which the light verb is &lsquo;do&rsquo;: <i>suru</i> in Japanese and <i>hata</i> in Korean. The equivalent of the verb &lsquo;do&rsquo; appears to be one of the most pervasive light verbs across languages: <i>kardan</i> in Persian; <i>kar</i>- in the Indo-Aryan languages of South Asia, including Hindi, Gujarati, and Bengali, and <i>gar</i>- in Nepali; <i>ces</i>- in Telugu; <i>maad</i>- in Kannada; <i>paNN</i> in Tamil; and <i>cey</i> in Malayalam.</p>
+<p>In all these languages, the light verb &lsquo;do&rsquo; is completely productive, taking as its host not only native words but also words borrowed from English. An interesting quirk found in this productive complex predicate formation pattern in the South Asian languages is that typically, if the host is a native word, it is a noun; if the host is borrowed from English, it is a verb. Examples that illustrate this asymmetry are given in (50) and (51). While the illustrations are given only from two languages, the phenomenon is prevalent across the languages of the region:</p>
+<p>(50)&ensp;<object id="tu43" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu43_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<thead>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col3">
+<b>Hindi</b>
+</entry>
+<entry namest="col4" nameend="col5">
+<b>Malayalam</b>
+</entry>
+<entry><b>Gloss</b>
+</entry>
+</row>
+</thead>
+<tbody>
+<row><entry>a.</entry>
+<entry>puujaa</entry>
+<entry>kar</entry>
+<entry>puuja</entry>
+<entry>cey</entry>
+<entry>to worship</entry>
+</row>
+<row><entry>b.</entry>
+<entry>upkaar</entry>
+<entry>kar</entry>
+<entry>upakaaram</entry>
+<entry>cey</entry>
+<entry>to do a favor</entry>
+</row>
+<row><entry>c.</entry>
+<entry>madad</entry>
+<entry>kar</entry>
+<entry>sahaayam</entry>
+<entry>cey</entry>
+<entry>to help</entry>
+</row>
+<row><entry>d.</entry>
+<entry>tyaag</entry>
+<entry>kar</entry>
+<entry>tyaagam</entry>
+<entry>cey</entry>
+<entry>to sacrifice</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(51)&ensp;<object id="tu44" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu44_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<thead>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col3">
+<b>Hindi</b>
+</entry>
+<entry namest="col4" nameend="col5">
+<b>Malayalam</b>
+</entry>
+<entry><b>Gloss</b>
+</entry>
+</row>
+</thead>
+<tbody>
+<row><entry>a.</entry>
+<entry>allow</entry>
+<entry>kar</entry>
+<entry>allow</entry>
+<entry>cey</entry>
+<entry>to allow</entry>
+</row>
+<row><entry>b.</entry>
+<entry>edit</entry>
+<entry>kar</entry>
+<entry>edit</entry>
+<entry>cey</entry>
+<entry>to edit</entry>
+</row>
+<row><entry>c.</entry>
+<entry>insist</entry>
+<entry>kar</entry>
+<entry>insist</entry>
+<entry>cey</entry>
+<entry>to insist</entry>
+</row>
+<row><entry>d.</entry>
+<entry>wash</entry>
+<entry>kar</entry>
+<entry>wash</entry>
+<entry>cey</entry>
+<entry>to wash</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In V&plus;V complex predicates like those in (51), the borrowed English verb is incorporated into the language, with appropriate phonological adaptation.</p>
+<p>In both Hindi and Malayalam, if the X in the X-<i>do</i> complex predicate is a native word, in which case X is a noun, as in (50), then the complex predicate is transitive, with an agent. If, on the other hand, the X is a borrowing from English, and hence a verb, the complex predicate may be either transitive or intransitive.</p>
+<p>Among V&plus;V complex predicates where the host is intransitive, Hindi and Malayalam diverge: Hindi requires that the host be unergative, while Malayalam allows both unergative and unaccusative hosts:</p>
+<p>(52)&ensp;<object id="tu45" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu45_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<thead>
+<row><entry>
+</entry>
+<entry><b>Hindi</b>
+</entry>
+<entry><b>Malayalam</b>
+</entry>
+<entry><b>As in the sentences:</b>
+</entry>
+</row>
+</thead>
+<tbody>
+<row><entry>a.</entry>
+<entry>jump kar</entry>
+<entry>jump cey</entry>
+<entry>The cat jumped.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>jog</entry>
+<entry>jog</entry>
+<entry>Meg jogged.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*arrive</entry>
+<entry>arrive</entry>
+<entry>The train arrived.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>*break</entry>
+<entry>break</entry>
+<entry>The teapot broke.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>There is clearly a language-internal regularity visible in the phenomenon. However, the cross-linguistic details of the pattern of X&plus;do, as well as the pattern of complex predicates of the form A&plus;V (<link rid="ss15">section 6</link>), both of which involve words borrowed from English, appear at least for now to defy a principled account.</p>
+</subsection>
+<subsection id="ss17" level="1">
+<heading id="h16" level="1">8 The relation between the full verb and the light verb</heading>
+<p>When talking about light verbs, a question that must be asked, whether or not it can be adequately answered, is: what is the relation between a lexical verb and its grammatical counterpart? Although the semantic and syntactic properties of a light verb are not identical to those of its full independent counterpart, there is clearly a systematic synchronic relation between the two. Thus, all analyses of complex predicates acknowledge that there is something light or incomplete about the light verb in relation to the full verb. Yet some central aspect of the syntax and semantics of the full verb is typically preserved in the light verb, whether it be valency, argument meanings, or case assignment. How, then, are the two verbs related? How must the relatedness be expressed by linguistic theory?</p>
+<p>One of the explanations for the relation between full and light verbs has been in terms of the historical perspective. Historically, when a lexical form undergoes grammaticalization to become a grammatical form, the change is often manifested as a cline. (See <link rid="b66">Hopper and Traugott 1993</link>: 103&ndash;113 for a detailed discussion of clines, and caveats.) A very general grammaticalization cline suggested for verbs is the following: full verb &gt; auxiliary &gt; clitic &gt; affix. (See <link rid="b67">Bybee 1985</link>; <link rid="b68">Bybee and Dahl 1989</link>, for studies of cross-linguistic verbal clines, and <link rid="b69">Lord 1976</link> for similar grammaticalization patterns.) On this cline of grammaticalization, one of the intermediate stages between the full verb and the auxiliary is represented by <link rid="b61">Hook&apos;s (1974</link>) vector verb (<link rid="b66">Hopper and Traugott 1993</link>). The large and variable repertoire of light verbs listed in the various Indo-Aryan languages of South Asia, as well as the restrictions on the semantic classes of verbs each of them accepts as its host, suggest a need to treat them as a class distinct from auxiliaries, closer to the full verbs.</p>
+<p>
+<link rid="b64">Butt and Lahiri (1998</link>), however, argue that light verbs do not belong on the grammaticalization cline mentioned above. The reasons they provide on the basis of light verbs in Urdu and Bengali are the following. First, V&plus;V as well as N&plus;V complex predicates have been around for at least two thousand years, and though absent in Vedic, are found in Classical Sanskrit texts, as well as in Prakrit and Pali. Interestingly, the structural ambiguity between a participial reading and a complex predicate reading found in Sanskrit is found in the complex predicate constructions in the Urdu, Bengali, and Hindi of today.</p>
+<p>Second, while old participle forms have grammaticalized to affixes in the tense&ndash;aspect system, light verbs have remained intact. Furthermore, they interact with all the tenses and aspects, rather than forming a subclass within the system.</p>
+<p>Finally, it is interesting to note that the basic set of verbs that appear as light verbs display a striking resemblance across languages. The languages, many of them genetically and areally unrelated to one another, range from Korean, Japanese, Chinese, Persian, and the various language families of South Asia, including Indic (Hindi, Bengali, Marathi, Sinhala), Dravidian (Malayalam, Tamil, Telugu), Tibeto-Burman, and Munda, to Amerind languages like Tepehua, African languages like Yoruba, and creoles like Sranan. The verbs that have light counterparts are typically selected from a set that includes &lsquo;do&rsquo;, &lsquo;become&rsquo;, &lsquo;have&rsquo;, &lsquo;make&rsquo;, &lsquo;come&rsquo;, &lsquo;go&rsquo;, &lsquo;move&rsquo;, &lsquo;give&rsquo;, &lsquo;take&rsquo;, &lsquo;put&rsquo;, &lsquo;throw&rsquo;, &lsquo;release&rsquo;, &lsquo;fall&rsquo;, &lsquo;rise&rsquo;, &lsquo;hit&rsquo;, and &lsquo;strike&rsquo;. What these verbs appear to have in common is that they are the semantically simplest verbs in any language (<link rid="b40">Grimshaw 1997b</link>). They are relatively unspecified for information, other than, for instance, movement and directionality. This absence of semantic specification renders them amenable to service in a variety of constructions (<link rid="b64">Butt and Lahiri 1998</link>).</p>
+<p>This brings us back to our question: how do we express the relation between the full verb and the light verb in syntactic theory? Butt and Lahiri suggest two possibilities. One is to assume that, for every verb that has a full as well as a light manifestation, there are two lexical entries: one with specification of the full verb, and the other for the light verb. The other is to postulate a single underspecified representation for each verb, which lends itself to use either as a full verb or as a light verb, depending on what is required by the larger context of the clause. Butt and Lahiri favor the latter as the more plausible assumption.</p>
+<p>Whatever the formal solution (e.g., full specification, underspecification, or deletion of specification), the substantive challenge at the level of grammar is that of stating the general laws (rules or constraints) that relate light verbs and their full counterparts. The challenge at the level of Universal Grammar is that of capturing the cross-linguistically recurring patterns in such laws, not available at the current stage in linguistic theory.</p>
+</subsection>
+<subsection id="ss18" level="1">
+<heading id="h17" level="1">9 Theoretical Issues and problems of analysis</heading>
+<subsection id="ss19" level="2">
+<heading id="h18" level="2">9.1 Variety of structure in complex predicates</heading>
+<p>As we have seen, complex predicate constructions involving light verbs display a confusing array of structures and properties. First, the host of a light verb can be a verb, noun, or adjective. Some languages allow all three types of hosts.</p>
+<p>In terms of the parameters of variation with respect to phrase structure, we have seen that a light verb, its host, and the entire complex predicate may be either a lexical category or a phrasal category. In N&plus;V complex predicates in Hindi, the host is a lexical category (<link rid="ss7">section 4.2</link>), while in the parallel N&plus;V complex predicates in Malayalam, the host is a phrasal category (<link rid="b49">Mohanan 1983</link>). The light verb in N&plus;V complex predicates in Hindi is a phrasal category (<link rid="ss7">section 4.2</link>), while that in the causative predicate in Catalan is a lexical category (<link rid="b10">Alsina 1997</link>). Like the N&plus;V (<link rid="ss7">section 4.2</link>) and V&plus;V (<link rid="ss14">section 5.3</link>) complex predicates in Hindi, the entire causative predicate in Catalan must be treated as a phrasal category, but in Chichewa, it is a lexical category (<link rid="b10">Alsina 1997</link>).</p>
+<p>We have also found that in addition to being a predicate, and part of a complex predicate, a nominal host can also be an argument of the light verb. Hindi has two types of N&plus;V complex predicates, the difference between them being precisely that the host is an argument of the light verb in one type but not in the other.</p>
+</subsection>
+<subsection id="ss20" level="2">
+<heading id="h19" level="2">9.2 Diversity in analysis</heading>
+<p>In addition to the clear cases of the language-internal and cross-linguistic variability in the structure of complex predicates, we also find considerable divergence in the claims that have been made on complex predicates and light verbs in various languages. It is unclear at this point if the diversity of claims is a reflection of further cross-linguistic variability of the construction, or if it is a function of differences in analyses whose empirical claims need to be tested. Wherever the latter is the case, it is important to look for empirical evidence to choose from among the analyses.</p>
+<p>Most treatments of complex predicates involve the combination of two semantic predicates into a single syntactic predicate. A brief look at the diversity of analyses of complex predicates available in the literature reveals four classes of issues.</p>
+<subsection id="ss21" level="3">
+<heading id="h20" level="3">9.2.1 &lsquo;Movement&rsquo; and &lsquo;restructuring&rsquo; vs. multidimensionality</heading>
+<p>The first issue has to do with the problem of expressing how a light verb and its host behave like a single syntactic predicate with respect to functional structure, even though they may be two independent units with respect to categorial structure. This problem has two solutions (<link rid="ss6">section 4.1</link>). One solution involves a syntactic transformation of one representation into another. For instance, in an analysis of N&plus;V complex predicates in English, <link rid="b16">Chomsky (1975b</link>) employs restructuring to transform the categorially motivated structure &lsqb;&lsqb;make&rsqb; &lsqb;the claim that&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;&rsqb; (10a) to the functionally motivated structure &lsqb;&lsqb;make the claim&rsqb; &lsqb;that&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;&rsqb; (10b). The same need for reanalysis, or &lsquo;restructuring&rsquo;, appears in V&plus;V complex predicates as well. Variants of the transformational approach are employed in the treatments of complex predicates in GB, including movement in Logical Form (<link rid="b8">Baker 1988a</link>; <link rid="b70">Jayaseelan 1988</link>; <link rid="b71">Speas 1990</link>; <link rid="b29">Huang 1992a</link>; Chomsky 1995b; <link rid="b35 b36">Cinque 1997a, 1997b</link>). These approaches share with Relational Grammar the essential idea of &lsquo;clause union&rsquo;, or the hypothesis that such phenomena involve the reduction of a bi-clausal structure into a monoclausal one (<link rid="b72 b73">Aissen and Perlmutter 1976, 1983</link>).</p>
+<p>The alternative solution involves two parallel linked representations. Within this approach, one structure is categorial (13a), as in the first solution, but the other is functional (13b); the two structures are related through principles of correspondence rather than the procedure of transformations. This is the strategy adopted, for instance, in the LFG-inspired treatments of complex predicates (<link rid="b74 b9">Alsina 1992, 1996</link>; <link rid="b30 b46">Mohanan 1994, 1997</link>; <link rid="b31 b32">Butt 1995, 1997</link>; <link rid="b33">Matsumoto 1996a</link>; among others).</p>
+<p>The choice between these approaches to the mismatch between functional and categorial information derives from the commitments of the particular model or framework that the individual linguist employs, and is particularly difficult (though not impossible) to test on empirical grounds. We will not pursue this issue here.</p>
+</subsection>
+<subsection id="ss22" level="3">
+<heading id="h21" level="3">9.2.2 How empty are light verbs?</heading>
+<p>The second issue is that of expressing the contributions to the complex predicate by the light verb and by the host. Some approaches, such as that of <link rid="b3">Grimshaw and Mester (1988</link>), assume that the light verb has no syntactic or semantic information to contribute, and that the relevant requirements of the host are projected up to the complex predicate. This assumption is clearly untenable in the light of the range of phenomena that we have reviewed so far, whether the host is nominal, verbal, or adjectival. Other approaches (<link rid="b74 b9">Alsina 1992, 1996</link>; <link rid="b30 b46">Mohanan 1994, 1997</link>; <link rid="b31 b32">Butt 1995, 1997</link>; <link rid="b33">Matsumoto 1996a</link>; among others) assume, on the basts of large bodies of evidence, that both the light verb and its host can make a contribution to the complex predicate. The light verb can even contribute meanings to the complex predicate not found in the full verb (<link rid="ss11">section 5.2</link>).</p>
+</subsection>
+<subsection id="ss23" level="3">
+<heading id="h22" level="3">9.2.3 Complex predicate formation: event structure or argument structure?</heading>
+<p>The third issue concerns the representation of the information contributed independently by the light verb and the host. In frameworks that make use of theta-role labels of the traditional sort, valency information is conflated with the semantics of the arguments. As demonstrated by the phenomena we have reviewed in applicatives in Malayalam (<link rid="ss11">section 5.2</link>), valency must necessarily be factored apart from argument meanings: a light verb can require the addition of an argument meaning, which can be satisfied either by merging the meaning with an existing argument, or by adding a new argument.</p>
+<p>The V&plus;V complex predicates (<link rid="ss14">section 5.3</link>) also raise questions about argument structure. Given that a complex predicate has two semantic predicates and one syntactic (functional) predicate, how do we articulate the relation between the semantics and the syntax? In other words, how do two semantic predicates merge as a single syntactic predicate?</p>
+<p>Differences among analyses in terms of this question crucially hinge on differences in the conception of the level of argument structure, the issue having to do with the representation of thematic role information. On the one hand, works like <link rid="b27">Rosen (1989</link>), <link rid="b75">Grimshaw (1990</link>), and <link rid="b30">Mohanan (1994</link>) argue for a skeletal argument structure that represents valency and argument hierarchy information, without any semantic content. <link rid="b31">Butt (1995</link>), on the other hand, incorporates semantic information at the level of argument structure, adopting <link rid="b65">Jackendoff&apos;s (1990b</link>) Lexical Conceptual Structure representations directly into argument structure. <link rid="b9">Alsina&apos;s (1996</link>) argument structure is less elaborated than that in Butt, but richer than the skeletal argument structure in that it includes proto-role information (<link rid="b76">Dowty 1991</link>).</p>
+<p>Given these differences, variants of at least two possible views of complex predicate formation emerge, yielding two types of analyses. In one type, <link rid="b9">Alsina (1996</link>), for complex predicates in the Bantu languages and in Romance, and <link rid="b31">Butt (1995</link>), for V&plus;V complex predicates in Urdu, formulate complex predicate formation in terms of the correspondence of two argument structures and a single functional structure. In other words, each of the two semantic predicates has its own argument structure, with an embedded a-structure representation.</p>
+<p>
+<link rid="b30">Mohanan (1994</link>), in contrast, formulates N&plus;V complex predicate formation in Hindi as a correspondence of two semantic structures and a single argument structure. The crucial difference between the two approaches is that the complex a-structure hypothesis implies the possibility of two logical subjects (highest argument in a minimal a-structure) in a single functional clause, while the simple a-structure hypothesis entails a single logical subject. In Hindi, evidence on the basis of which to choose between the two comes from facts of reflexive binding, which is sensitive to logical subjecthood: a reflexive in this language takes as its antecedent either a grammatical subject or a logical subject. It is extremely difficult to find examples of complex predicates in which, given a compositional argument structure, the logical subjects of the embedded predicate and the matrix predicate would be distinct. However, in the rare examples that can be found among N&plus;V complex predicates, only one of them can bind the reflexive. This points to a representation with a single argument structure without embedding (<link rid="b30">Mohanan 1994</link>). The hypothesis of dual logical subjects is therefore untenable at least for the N&plus;V complex predicates in Hindi. Whether this is true of the V&plus;V complex predicates in the literature remains to be seen.</p>
+<p>In the absence of relevant evidence, we may entertain a parametric choice between simple and complex argument structures available to languages in complex predicate formation. How do we decide which choice is appropriate in a particular instance? What is the kind of empirical evidence, such as that described above from reflexive binding in Hindi, that would allow for the choice between the alternative analyses? Or are they empirically equivalent variants, resulting from minor individual differences in the conception of the organization of grammar? These are questions for future research.</p>
+</subsection>
+</subsection>
+</subsection>
+<subsection id="ss24" level="1">
+<heading id="h23" level="1">10 Conclusion</heading>
+<p>We hope that it is clear that research since the early 1980s, whether descriptive or theoretical, and regardless of specific frameworks, has contributed considerably to our understanding of the phenomenon of complex predicates and their formation. While unanswered questions abound, the wealth of data keeps growing.</p>
+<p>In the preceding sections, we have addressed the questions outlined at the beginning of the chapter, here briefly summarized:</p>
+<listgroup id="l4" type="i">
+<li level="1">
+<number>(i)&ensp;</number>
+<p>How can we characterize the complex predicate construction in such a way that it can be distinguished from other constructions involving grammatical elements?</p>
+</li>
+<li level="1">
+<number>(ii)&ensp;</number>
+<p>How can we characterize the light verb construction as a special case of complex predicates, to be distinguished from other types of complex predicates?</p>
+</li>
+<li level="1">
+<number>(iii)&ensp;</number>
+<p>How do complex predicates vary, and what are the limits of their variability?</p>
+</li>
+</listgroup>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss25" level="1" type="references">
+<heading id="h24" level="1">REFERENCES</heading>
+<reference id="b22" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Ackerman</surname><x>, </x><forenames>Farrell</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date>
+<miscellaneoustext>). Miscreant Morphemes: Phrasal Predicates in Ugric. PhD dissertation</miscellaneoustext><x>, </x>
+<publisher>University of California at Berkeley</publisher><x>.</x>
+</reference>
+<reference id="b11" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ackerman</surname><x>, </x><forenames>Farrell</forenames>
+</name><x> and </x><name type="author">
+<forenames>Gert</forenames><x> </x><surname>Webelhuth</surname>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="book">A Theory of Predicates<x>.</x>
+</title><x> </x><address>Stanford</address><x>: </x><publisher>CSLI Publications.</publisher>
+</reference>
+<reference id="b47" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ahn</surname><x>, </x><forenames>Hee-Don</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">On Light Verb Constructions in Korean and Japanese</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Conference on Japanese and Korean Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Hajime</forenames><x> </x><surname>Hoji</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">221</page><x>&ndash;</x><page type="last">237</page>
+<x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications.</publisher>
+</reference>
+<reference id="b72" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Aissen</surname><x>, </x><forenames>Judith</forenames>
+</name><x> and </x><name type="author">
+<forenames>David</forenames><x> </x><surname>Perlmutter</surname>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="document">Clause Reduction in Spanish</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Second Annual Meeting of the Berkeley Linguistics Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Henry</forenames><x> </x><surname>Thompson et al.</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">1</page><x>&ndash;</x><page type="last">30</page>
+<x>. </x><address>Berkeley</address><x>: </x><publisher>Berkeley Linguistics Society.</publisher>
+</reference>
+<reference id="b73" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Aissen</surname><x>, </x><forenames>Judith</forenames>
+</name>
+</namegroup><x> and </x><corporatename type="author">David Perlmutter</corporatename><x> (</x><date date="1983">1983</date><x>). </x><title type="document">Clause Reduction in Spanish</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Studies in Relational Grammar 1</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>David</forenames><x> </x><surname>Perlmutter</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">360</page><x>&ndash;</x><page type="last">403</page>
+<x>. </x><address>Chicago</address><x>: </x><publisher>University of Chicago Press.</publisher>
+</reference>
+<reference id="b74" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Alsina</surname><x>, </x><forenames>Alex</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">On the Argument Structure of Causatives</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>23</volume><x>: </x><page type="first">517</page><x>&ndash;</x><page type="last">555</page><x>.</x>
+</reference>
+<reference id="b9" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Alsina</surname><x>, </x><forenames>Alex</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="book">Predicate Composition: A Theory of Syntactic Function Alternations</title>
+<x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications.</publisher>
+</reference>
+<reference id="b10" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Alsina</surname><x>, </x><forenames>Alex</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Causatives in Bantu and Romance</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Complex Predicates</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Alex</forenames><x> </x><surname>Alsina</surname>
+</name><x>, </x><name type="editor">
+<forenames>Joan</forenames><x> </x><surname>Bresnan</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Sells</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">203</page><x>&ndash;</x><page type="last">246</page>
+<x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications.</publisher>
+</reference>
+<reference id="b57" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Alsina</surname><x>, </x><forenames>Alex</forenames>
+</name><x> and </x><name type="author">
+<forenames>Sam</forenames><x> </x><surname>Mchombo</surname>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Object Asymmetries and the Chichewa Applicative Construction</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Theoretical Aspects of Bantu Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Sam</forenames><x> </x><surname>Mchombo</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">17</page><x>&ndash;</x><page type="last">45</page>
+<x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications.</publisher>
+</reference>
+<reference id="b34" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Alsina</surname><x>, </x><forenames>Alex</forenames>
+</name><x>, </x><name type="author">
+<forenames>Joan</forenames><x> </x><surname>Bresnan</surname>
+</name><x>, and </x><name type="author">
+<forenames>Peter</forenames><x> </x><surname>Sells</surname>
+</name>
+</namegroup>
+<miscellaneoustext> ed. (</miscellaneoustext>
+<date date="1997">1997</date><x>). </x><title type="book">Complex Predicates<x>.</x>
+</title><x> </x><address>Stanford</address><x>: </x><publisher>CSLI Publications.</publisher>
+</reference>
+<reference id="b62" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Bahl</surname><x>, </x><forenames>Kali<x> </x>Charan</forenames>
+</name>
+</namegroup><x> (</x><date date="1967">1967</date><x>). </x><title type="book">A Reference Grammar of Hindi: A Study of Some Selected Topics in Hindi Grammar</title>
+<x>. </x><address>Chicago</address><x>: </x><publisher>University of Chicago Press.</publisher>
+</reference>
+<reference id="b8" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Baker</surname><x>, </x><forenames>Mark</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988a</date><x>). </x><title type="book">Incorporation: A Theory of Grammatical Function Changing</title>
+<x>. </x><address>Chicago</address><x>: </x><publisher>University of Chicago Press.</publisher>
+</reference>
+<reference id="b54" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bresnan</surname><x>, </x><forenames>Joan</forenames>
+</name><x> and </x><name type="author">
+<forenames>Sam</forenames><x> </x><surname>Mchombo</surname>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">The Lexical Integrity Principle: Evidence from Bantu</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>13</volume><x>: </x><page type="first">181</page><x>&ndash;</x><page type="last">254</page><x>.</x>
+</reference>
+<reference id="b56" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bresnan</surname><x>, </x><forenames>Joan</forenames>
+</name><x> and </x><name type="author">
+<forenames>Lioba</forenames><x> </x><surname>Moshi</surname>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Object Asymmetries in Comparative Bantu Syntax</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>21</volume><x>: </x><page type="first">147</page><x>&ndash;</x><page type="last">185</page><x>.</x>
+</reference>
+<reference id="b31" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Butt</surname><x>, </x><forenames>Miriam</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="book">The Structure of Complex Predicates in Urdu<x>.</x>
+</title><x> </x><address>Stanford</address><x>: </x><publisher>CSLI Publications.</publisher>
+</reference>
+<reference id="b32" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Butt</surname><x>, </x><forenames>Miriam</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Complex Predicates in Urdu</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Complex Predicates</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Alex</forenames><x> </x><surname>Alsina</surname>
+</name><x>, </x><name type="editor">
+<forenames>Joan</forenames><x> </x><surname>Bresnan</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Sells</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">107</page><x>&ndash;</x><page type="last">149</page>
+<x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications.</publisher>
+</reference>
+<reference id="b64" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Butt</surname><x>, </x><forenames>Miriam</forenames>
+</name><x> and </x><name type="author">
+<forenames>Aditi</forenames><x> </x><surname>Lahiri</surname>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date>
+<miscellaneoustext>). The Status of Light Verbs in Historical Change</miscellaneoustext><x>. </x>
+<publisher>Unpublished manuscript</publisher><x>, </x><address>University of York</address><x>.</x>
+</reference>
+<reference id="b67" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Bybee</surname><x>, </x><forenames>Joan</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="book">Morphology: A Study of the Relation between Meaning and Form</title>
+<x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference id="b68" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bybee</surname><x>, </x><forenames>Joan</forenames>
+</name><x> and </x><name type="author">
+<forenames>&Ouml;sten</forenames><x> </x><surname>Dahl</surname>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">A Study of the Relation between Meaning and Form</title><x>. </x><title type="journal">Studies in Language</title><x> </x><volume>13</volume><x>: </x><page type="first">51</page><x>&ndash;</x><page type="last">103</page><x>.</x>
+</reference>
+<reference id="b77" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Byrne</surname><x>, </x><forenames>Francis</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="book">Grammatical Relations in a Radical Creole<x>.</x>
+</title><x> </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cattell</surname><x>, </x><forenames>Ray</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="book">Composite Predicates in English<x>.</x>
+</title><x> </x><address>New York</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference id="b16" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1975">1975b</date><x>). </x><title type="document">Questions of Form and Interpretation</title><x>. </x><title type="journal">Linguistic Analysis</title><x> </x><volume>1</volume><x>: </x><page type="first">75</page><x>&ndash;</x><page type="last">109</page><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995c</date><x>). </x><title type="book">The Minimalist Program<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b35" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997a</date>
+<miscellaneoustext>). The Interaction of Passive, Causative, and &lsquo;Restructuring&rsquo; in Romance</miscellaneoustext><x>. </x>
+<publisher>Unpublished manuscript, University of Venice</publisher><x>.</x>
+</reference>
+<reference id="b36" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997b</date>
+<miscellaneoustext>). Restructuring and the Order of Aspectual and Root Modal Heads</miscellaneoustext><x>. </x>
+<publisher>Unpublished manuscript, University of Venice</publisher><x>.</x>
+</reference>
+<reference id="b51" type="book">
+<namegroup type="author">
+<name type="author">
+<surnameprefix>Di</surnameprefix><x> </x><surname>Sciullo</surname><x>, </x><forenames>Anna-Maria</forenames>
+</name><x> and </x><name type="author">
+<surname>Edwin</surname><x> </x><forenames>Williams</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="book">On the Definition of Word<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b76" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Dowty</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Thematic Proto-Roles and Argument Selection</title><x>. </x><title type="journal">Language</title><x> </x><volume>67</volume><x>: </x><page type="first">547</page><x>&ndash;</x><page type="last">619</page><x>.</x>
+</reference>
+<reference id="b12" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Foley</surname><x>, </x><forenames>William</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Polysynthesis and Complex Verb Formation: The Case of Applicatives in Yimas</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Complex Predicates</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Alex</forenames><x> </x><surname>Alsina</surname>
+</name><x>, </x><name type="editor">
+<forenames>Joan</forenames><x> </x><surname>Bresnan</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Sells</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">355</page><x>&ndash;</x><page type="last">395</page>
+<x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications.</publisher>
+</reference>
+<reference id="b14" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Gilchrist</surname><x>, </x><forenames>John<x> </x>Borthwick</forenames>
+</name>
+</namegroup><x> (</x><date date="1796">1796</date><x>). </x><title type="book">A Grammar of the Hindustani Language<x>.</x>
+</title><x> </x><publisher>Calcutta</publisher><x>.</x>
+</reference>
+<reference id="b75" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Grimshaw</surname><x>, </x><forenames>Jane</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="book">Argument Structure<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b40" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Grimshaw</surname><x>, </x><forenames>Jane</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997b</date><x>). </x><title type="document">Projection, Heads and Optimality</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>28</volume><x>: </x><page type="first">373</page><x>&ndash;</x><page type="last">422</page><x>.</x>
+</reference>
+<reference id="b3" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Grimshaw</surname><x>, </x><forenames>Jane</forenames>
+</name><x> and </x><name type="author">
+<forenames>Armin</forenames><x> </x><surname>Mester</surname>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Light Verbs and Theta-Marking</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>19</volume><x>: </x><page type="first">205</page><x>&ndash;</x><page type="last">232</page><x>.</x>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hale</surname><x>, </x><forenames>Ken</forenames>
+</name><x> and </x><name type="author">
+<forenames>Samuel<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Keyser</surname>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">On the Complex Nature of Simple Predicators</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Complex Predicates</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Alex</forenames><x> </x><surname>Alsina</surname>
+</name><x>, </x><name type="editor">
+<forenames>Joan</forenames><x> </x><surname>Bresnan</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Sells</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">29</page><x>&ndash;</x><page type="last">65</page>
+<x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications.</publisher>
+</reference>
+<reference id="b60" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Heine</surname><x>, </x><forenames>Bernd</forenames>
+</name><x> and </x><name type="author">
+<forenames>Mechthild</forenames><x> </x><surname>Reh</surname>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="book">Grammaticalization and Reanalysis in African Languages<x>.</x>
+</title><x> </x><address>Hamburg</address><x>: </x><publisher>Helmut Buske.</publisher>
+</reference>
+<reference id="b42" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hewson</surname><x>, </x><forenames>John</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">The Auxiliary <i>Do</i> in English</title><x>. </x><title type="journal">Journal of the Atlantic Provinces Linguistic Association</title><x> </x><volume>12</volume><x>: </x><page type="first">39</page><x>&ndash;</x><page type="last">52</page><x>.</x>
+</reference>
+<reference id="b19" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Higgins</surname><x>, </x><forenames>Francis<x> </x>Roger</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date><x>). </x><title type="book">The Pseudo-Cleft Construction in English</title>
+<x>. </x><address>New York</address><x>: </x><publisher>Garland.</publisher>
+</reference>
+<reference id="b43" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hirtle</surname><x>, </x><forenames>Waiter</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">
+<i>Do</i> Auxiliary: A Meaningful Support and Operator</title><x>. </x><title type="journal">Lingua</title><x> </x><volume>100</volume><x>: </x><page type="first">111</page><x>&ndash;</x><page type="last">149</page><x>.</x>
+</reference>
+<reference id="b61" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hook</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date><x>). </x><title type="book">The Compound Verb in Hindi<x>.</x>
+</title><x> </x><address>Ann Arbor</address><x>: </x><publisher>Center for South Asian Studies.</publisher>
+</reference>
+<reference id="b66" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hopper</surname><x>, </x><forenames>Paul</forenames>
+</name><x> and </x><name type="author">
+<forenames>Elizabeth<x> </x>Cross</forenames><x> </x><surname>Traugott</surname>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="book">Grammaticalization<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b29" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Huang</surname><x>, </x><forenames>C.-T<x>. </x>James</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992a</date><x>). </x><title type="document">Complex Predicates in Control</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Control and Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Richard</forenames><x> </x><surname>Larson</surname>
+</name><x>, </x><name type="editor">
+<forenames>Utpal</forenames><x> </x><surname>Lahiri</surname>
+</name><x>, </x><name type="editor">
+<forenames>Sabine</forenames><x> </x><surname>Iatridou</surname>
+</name><x>, and </x><name type="editor">
+<forenames>James</forenames><x> </x><surname>Higginbotham</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">119</page><x>&ndash;</x><page type="last">147</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer.</publisher>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Jackendoff</surname><x>, </x><forenames>Ray</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972</date><x>). </x><title type="book">Semantic Interpretation in Generative Grammar<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b18" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Jackendoff</surname><x>, </x><forenames>Ray</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974a</date><x>). </x><title type="document">A Deep Structure Projection Rule</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>5</volume><x>: </x><page type="first">481</page><x>&ndash;</x><page type="last">506</page><x>.</x>
+</reference>
+<reference id="b65" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Jackendoff</surname><x>, </x><forenames>Ray</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990b</date><x>). </x><title type="book">Semantic Structures<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b79" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Jarkey</surname><x>, </x><forenames>Nerida</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date>
+<x>). </x><miscellaneoustext>Serial Verbs in White Hmong: A Functional Approach</miscellaneoustext><x>. </x>
+<publisher>PhD dissertation, University of Sydney</publisher><x>.</x>
+</reference>
+<reference id="b70" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Jayaseelan</surname><x>, </x><forenames>K<x>. </x>A<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Complex Predicates and Theta-Theory</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Thematic Relations</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Wendy</forenames><x> </x><surname>Wilkins</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">91</page><x>&ndash;</x><page type="last">112</page>
+<x>. </x><address>New York</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Jespersen</surname><x>, </x><forenames>Otto</forenames>
+</name>
+</namegroup><x> (</x><date date="1954">1954&ndash;1958</date><x>). </x><title type="book">A Modern English Grammar on Historical Principles<x>.</x>
+</title>
+<miscellaneoustext> 7 vols</miscellaneoustext><x>. </x>
+<address>London</address><x>: </x><publisher>Allen and Unwin.</publisher>
+</reference>
+<reference id="b25" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Krishnamurti</surname><x>, </x><forenames>Bh<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">Complex Predicates in Telugu</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Eleventh South Asian Languages Analysis Roundtable</title>
+<x>. </x><address>Madison</address><x>: </x><publisher>University of Wisconsin.</publisher>
+</reference>
+<reference id="b44" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kroch</surname><x>, </x><forenames>Anthony</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989b</date><x>). </x><title type="document">Reflexes of Grammar in Patterns of Language Change</title><x>. </x><title type="journal">Language Variation and Change</title><x> </x><volume>1</volume><x>: </x><page type="first">199</page><x>&ndash;</x><page type="last">244</page><x>.</x>
+</reference>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Levin</surname><x>, </x><forenames>Beth</forenames>
+</name><x> and </x><name type="author">
+<forenames>Malka<x> </x>Rappaport</forenames><x> </x><surname>Hovav</surname>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="book">Unaccusativity at the Syntax&ndash;Lexical Semantics Interface<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b69" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lord</surname><x>, </x><forenames>Carol</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="document">Evidence for Syntactic Reanalysis: From Verb to Complementizer in Kwa</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Twelfth Regional Meeting of the Chicago Linguistic Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Sanford<x> </x>B<x>.</x>
+</forenames><x> </x><surname>Steever</surname>
+</name><x>, </x><name type="editor">
+<forenames>Carol<x> </x>A<x>.</x>
+</forenames><x> </x><surname>Walker</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Salikoko</forenames><x> </x><surname>Mufwene</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society.</publisher>
+</reference>
+<reference id="b28" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Mahajan</surname><x>, </x><forenames>Gyanam</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">On Complex Verbs in Hindi</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Twelfth South Asian Languages Analysis Roundtable</title>
+<x>. </x><address>Berkeley</address><x>: </x><publisher>University of California.</publisher>
+</reference>
+<reference id="b39" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Masica</surname><x>, </x><forenames>Colin</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="book">Defining a Linguistic Area: South Asia</title>
+<x>. </x><address>Chicago</address><x>: </x><publisher>University of Chicago Press.</publisher>
+</reference>
+<reference id="b33" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Matsumoto</surname><x>, </x><forenames>Yo</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996a</date><x>). </x><title type="book">Complex Predicates in Japanese: A Syntactic and Semantic Study of the Notion &lsquo;Word&rsquo;</title>
+<x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications.</publisher>
+</reference>
+<reference id="b48" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Matsumoto</surname><x>, </x><forenames>Yo</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996b</date><x>). </x><title type="document">A Syntactic Account of Light Verb Phenomena in Japanese</title><x>. </x><title type="journal">Journal of East Asian Linguistics</title><x> </x><volume>5</volume><x>: </x><page type="first">107</page><x>&ndash;</x><page type="last">149</page><x>.</x>
+</reference>
+<reference id="b38" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Meshchaninov</surname><x>, </x><forenames>I<x>. </x>I<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="book">Glagol<x>.</x>
+</title><x> </x><address>Leningrad</address><x>: </x><publisher>Nouka, Leningradskoe otd-nie</publisher><x>.</x>
+</reference>
+<reference id="b26" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Miyagawa</surname><x>, </x><forenames>Shigeru</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989a</date><x>). </x><title type="document">Light Verbs and the Ergative Hypothesis</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>20</volume><x>: </x><page type="first">659</page><x>&ndash;</x><page type="last">668</page><x>.</x>
+</reference>
+<reference id="b49" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Mohanan</surname><x>, </x><forenames>Karvanuur<x> </x>P<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">Move NP or Lexical Rules? Evidence from Malayalam Causativization</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers in Lexical-Functional Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Lori</forenames><x> </x><surname>Levin</surname>
+</name><x>, </x><name type="editor">
+<forenames>Malka</forenames><x> </x><surname>Rappaport</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Annie</forenames><x> </x><surname>Zaenen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">47</page><x>&ndash;</x><page type="last">112</page>
+<x>. </x><address>Bloomington</address><x>: </x><publisher>Indiana University Linguistics Club.</publisher>
+</reference>
+<reference id="b58" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Mohanan</surname><x>, </x><forenames>Karvanuur<x> </x>P<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">Argument Structure and Semantic Structure</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Summer Working Group on Argument Structure and Syntax, CSLI</title>
+<x>. </x><address>Stanford</address><x>: </x><publisher>Stanford University.</publisher>
+</reference>
+<reference id="b30" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Mohanan</surname><x>, </x><forenames>Tara</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">Argument Structure in Hindi<x>.</x>
+</title><x> </x><address>Stanford</address><x>: </x><publisher>CSLI Publications.</publisher>
+</reference>
+<reference id="b55" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Mohanan</surname><x>, </x><forenames>Tara</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Wordhood and Lexicality: Noun Incorporation in Hindi</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>13</volume><x>: </x><page type="first">75</page><x>&ndash;</x><page type="last">134</page><x>.</x>
+</reference>
+<reference id="b46" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Mohanan</surname><x>, </x><forenames>Tara</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Multidimensionality of Representation: NV Complex Predicates in Hindi</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Complex Predicates</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Alex</forenames><x> </x><surname>Alsina</surname>
+</name><x>, </x><name type="editor">
+<forenames>Joan</forenames><x> </x><surname>Bresnan</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Sells</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">431</page><x>&ndash;</x><page type="last">471</page>
+<x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications.</publisher>
+</reference>
+<reference id="b20" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Oehrle</surname><x>, </x><forenames>Richard<x> </x>T<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date>
+<miscellaneoustext>). The Grammatical Status of the English Dative Alternation</miscellaneoustext><x>. </x>
+<publisher>PhD dissertation, MIT</publisher><x>.</x>
+</reference>
+<reference id="b41" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Penhallurick</surname><x>, </x><forenames>John<x> </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">The Semantics of Auxiliary</title><x> </x><title type="journal">Do<x>. </x>Studies in Language</title><x> </x><volume>9</volume><x>: </x><page type="first">311</page><x>&ndash;</x><page type="last">333</page><x>.</x>
+</reference>
+<reference id="b13" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Radford</surname><x>, </x><forenames>Andrew</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="book">Syntactic Theory and the Structure of English: A Minimalist Approach</title>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b63" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ramchand</surname><x>, </x><forenames>Gillian</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="book">Aspect and Predication: The Semantics of Argument Structure</title>
+<x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press.</publisher>
+</reference>
+<reference id="b27" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Rosen</surname><x>, </x><forenames>Sara<x> </x>Thomas</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date>
+<miscellaneoustext>). Argument Structure and Complex Predicates</miscellaneoustext><x>. </x>
+<publisher>PhD dissertation, Brandeis University</publisher><x>.</x>
+</reference>
+<reference id="b15" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ross</surname><x>, </x><forenames>John<x> </x>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="book">Infinite Syntax!</title><x> </x><address>Norwood, NJ</address><x>: </x><publisher>Ablex.</publisher>
+</reference>
+<reference id="b80" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Sebba</surname><x>, </x><forenames>Mark</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="book">The Syntax of Serial Verbs<x>.</x>
+</title><x> </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference id="b23" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Sells</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date>
+<miscellaneoustext>). More on Light Verbs and Theta-Marking</miscellaneoustext><x>. </x>
+<publisher>Unpublished manuscript, Stanford Unversity</publisher><x>.</x>
+</reference>
+<reference id="b24" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Sells</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Complex Verbs and Argument Structures in Korean</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="other">Harvard Studies in Korean Linguistics 4</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Susumu</forenames><x> </x><surname>Kuno</surname>
+</name><x>, </x><name type="editor">
+<forenames>John</forenames><x> </x><surname>Whitman</surname>
+</name><x>, </x><name type="editor">
+<forenames>Young-Se</forenames><x> </x><surname>Kang</surname>
+</name><x>, </x><name type="editor">
+<forenames>Ik-Hwan</forenames><x> </x><surname>Lee</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Sung-Yun</forenames><x> </x><surname>Bak</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">395</page><x>&ndash;</x><page type="last">406</page><x>.</x>
+</reference>
+<reference id="b53" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Sells</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">Japanese and Korean Morphology from a Lexical Perspective</title><x>. </x><title type="other">Linguistic Inquiry</title><x>.</x>
+</reference>
+<reference id="b50" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Sells</surname><x>, </x><forenames>Peter</forenames>
+</name><x> and </x><name type="author">
+<forenames>Young-Mee</forenames><x> </x><surname>Yu Cho</surname>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">On the Distribution of X<sup>0</sup> Elements in Korean</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="other">Proceedings of the Santa Cruz Workshop on Korean Syntax and Semantics</title><x>.</x>
+</reference>
+<reference id="b4" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Simpson</surname><x>, </x><forenames>Jane</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">Resultatives</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers in Lexical Functional Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Lori</forenames><x> </x><surname>Levin</surname>
+</name><x>, </x><name type="editor">
+<forenames>Malka</forenames><x> </x><surname>Rappaport</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Annie</forenames><x> </x><surname>Zaenen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">143</page><x>&ndash;</x><page type="last">157</page>
+<x>. </x><address>Bloomington</address><x>: </x><publisher>Indiana University Linguistics Club.</publisher>
+</reference>
+<reference id="b52" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Simpson</surname><x>, </x><forenames>Jane</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="book">Warlpiri Morpho-Syntax: A Lexicalist Approach</title>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer.</publisher>
+</reference>
+<reference id="b71" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Speas</surname><x>, </x><forenames>Margaret</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="book">Phrase Structure in Natural Language<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Kluwer.</publisher>
+</reference>
+<reference id="b45" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Stein</surname><x>, </x><forenames>Dieter</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="book">The Semantics of Syntactic Change: Aspects of the Evolution of <roman>Do</roman> in English</title><x>. </x><address>Berlin</address><x>: </x><publisher>Mouton</publisher><x>.</x>
+</reference>
+<reference id="b21" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Wierzbicka</surname><x>, </x><forenames>Anna</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">Why Can You <i>&lsquo;Have a Drink&rsquo;</i> When You Can&apos;t <i>&lsquo;Have an Eat&rsquo;</i>?</title><x> </x><title type="journal">Language</title><x> </x><volume>58</volume><x>: </x><page type="first">753</page><x>&ndash;</x><page type="last">799</page><x>.</x>
+</reference>
+<reference id="b37" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Wilson</surname><x>, </x><forenames>Stephen</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="book">Coverbs and Complex Predicates in Wagiman<x>.</x>
+</title><x> </x><address>Stanford</address><x>: </x><publisher>CSLI Publications.</publisher>
+</reference>
+<reference id="b59" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Wong Hsien-Yi</surname><x>, </x><forenames>Geraint</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date>
+<miscellaneoustext>). Mandarin GEI: Its Syntax and Semantics</miscellaneoustext><x>. </x>
+<publisher>Unpublished manuscript, National University of Singapore</publisher><x>.</x>
+</reference>
+<reference id="b7" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Wunderlich</surname><x>, </x><forenames>Dieter</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997b</date><x>). </x><title type="document">Cause and the Structure of Verbs</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>28</volume><x>: </x><page type="first">27</page><x>&ndash;</x><page type="last">68</page><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

@@ -1,0 +1,53 @@
+
+<!--
+		This is a very simple DTD for a set of slides.
+
+		Suggested public identifier: 
+		-//CDA/SQ//DTD SLIDESET-1//EN
+
+	You may easily modify it to incorporate additional elements
+	which may show up in each SLIDE by editing the PARATYP
+	parameter entity, and additional elements within PARAgraphs
+	and similar elements by modifying the PARACON entity.		
+
+	If you modify the DTD, be sure also to modify the accompanying
+	template file, shipped with Author/Editor as "template\_slide.ae".
+									-->
+  
+<!ENTITY  %  emphs		"emph| emph1 | emph2 "  	>
+<!ENTITY  %  text		"%emphs; "  	>
+<!ENTITY  %  heads		"subhead"					>
+<!ENTITY  %  lists		"list1 | list2"				>
+<!ENTITY  %  paracon		"%text; | q "  				>
+<!ENTITY  %  special		"art | example "  				>
+<!ENTITY  %  paratyp		"para | bq | text | item 
+						| note | %heads;"	>
+
+<!ELEMENT slideset		(title?, slide+)  	>
+<!ELEMENT slide		(head, (%special; | %paratyp; | %lists;)*) 	+(anchor) >
+
+<!ELEMENT title				(#PCDATA)  >
+<!ELEMENT (%paratyp;)		(#PCDATA | %paracon;)*  	>
+<!ELEMENT (%lists;)			(lhead?, litem)+  			>
+<!ELEMENT litem		(#PCDATA | (para | %lists;)*)  >
+<!ELEMENT (%paracon;)					(#PCDATA)  >
+<!ELEMENT (head | lhead)			(#PCDATA | %paracon;)* >
+<!ELEMENT art	(subhead?, text)?				>
+<!ATTLIST art	sizex	NUTOKEN	#IMPLIED
+			sizey	NUTOKEN	#REQUIRED
+			unit	(i|c|p|u|m|n|v)		i
+			-- unit must be specified if sizex or sizey are.	--
+			type NOTATION (bmp|other) bmp
+			file CDATA #REQUIRED  >
+<!ELEMENT example		CDATA>
+<!ELEMENT anchor		(#PCDATA)>
+
+<!ATTLIST (slide|head)	ID	ID	#IMPLIED>
+<!ATTLIST anchor	IDREF	IDREF	#IMPLIED>
+<!ATTLIST slideset	
+			WHERE	CDATA	#IMPLIED
+			WHEN		CDATA	#IMPLIED
+			CREATOR	CDATA	#IMPLIED
+			SECTION	CDATA	#IMPLIED>
+
+<!NOTATION bmp    PUBLIC "Windows BitMap">

@@ -1,0 +1,50 @@
+lfg
+
+-computationally precise
+-psychologically realistic representation
+-no movement
+-subject and object are primitives
+"syntax is not based only on structure"=P&P multiple levels of representation
+-began in 1970s by Joan Bresnan and Ronald Kaplan, they disputed the chomskyan transformational views (1982) arguing that it didnt have means to model the psychological
+-"framework should be typologically grounded" (?!) argument: syntactic theory is based on compairisons between very similar languages
+
+
+
+-multiple levels of representation each has
+	-architecture
+	-vocabulary
+	-constraints
+-levels not "derived" from each other (as compaired to P&P)
+-levels are parallel
+-levels are linked through mappings constrained by correspondance principles (which ensure the information on differnet levels is compatible)
+
+LEVELS
+dealing with syntactic analysis
+-f(unctional)-structure
+	-input comes from information encoded in lexical items or from information ni the nodes of c-structure
+	-internal or 'covert' structure of language where grammatical relations are represented.
+	-formlized by a matrix of attributes associated with values. matrixes can be viewed as mathematical function mapping the atributes to the values
+	-restricted by completenes, coherence and uniqueness principles
+-c(onstituent)-structure
+-a(rgument)-structure
+
+dealing witth logic semantic interpretation, sound systems and discourse pragmatics
+-semantic(s)-structure
+-phonological-structure
+-thematic-structure
+
+
+values in matricies:
+-symbols (PL)
+-sematic forms (lion)
+-or other atribute-value matrixes (ie other functional structures)
+
+Completeness principle
+-every function designated by a PRED must be present in its f-structure
+
+Coherence principle (converse of completeness)
+-every argument must be designated by a PRED
+
+Uniqueness principle
+-every attribute has  unique value (i.e. cant have values of PL and SG)
+-note: its possible to have the same values for both the OBJ and TOP attributes (a topicalized object)

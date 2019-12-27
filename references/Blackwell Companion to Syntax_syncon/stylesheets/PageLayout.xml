@@ -1,0 +1,60 @@
+<root xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:ins="http://www.blacksci.co.uk/xsl-subs" xml:space="preserve">
+		<html xml:lang="en" lang="en">
+			<head>
+			<ins:std-stylesheet-ref/>
+			<title>Synergy : <ins:document-reference-text bare="true"/></title>
+			<ins:std-client-scripts/>
+			<ins:site-client-scripts/>
+			<ins:full-images-source/>
+			<ins:footnotes-source/>
+			</head>
+			<body OnUnload="OnUnload()">
+				<div class="ct-{ins:content-type}">
+				<div class="cc-{ins:content-code}">
+				<div class="dt-{ins:document-type}">
+				<table class="pagelayout" border="0" width="100%">
+				<tr>
+				<td>
+				<table class="Header" border="0" cellSpacing="0" cellPadding="0" width="100%">
+				<tr>
+					<td class="HeaderPaneLeft" vAlign="top">
+						<!--<ins:HeaderPaneLeft/>-->
+					</td>
+					<td class="HeaderPaneRight" vAlign="top" align="right">
+						<!-- <ins:HeaderPaneRight/> -->
+					</td>
+				</tr><tr class="HeaderBar">
+					<td colSpan="2" vAlign="top" width="100%"><div class="HeaderBarDiv">&amp;nbsp;</div></td>
+				</tr>
+				</table>
+				<table class="Panes" border="0" cellSpacing="0"  cellPadding="0" width="100%">
+				<tr>
+					<td class="PaneLeft" vAlign="top">
+						<ins:LeftPane/> 
+					</td>
+					<td class="PaneSpacer">&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+					</td>
+					<td class="PaneRight" vAlign="top" width="157">
+						<!-- <ins:RightPane/> -->
+					</td>
+				</tr>
+				</table>
+				<table class="Footer" border="0" cellSpacing="0"  cellPadding="0" width="100%">
+				<tr>
+					<td vAlign="top">
+						<ins:FooterPaneLeft/>
+					</td>
+					<td vAlign="top">
+						<ins:FooterPaneRight/>
+					</td>
+				</tr>
+			</table>
+			</td>
+			</tr>
+			</table>
+			</div>
+			</div>
+			</div>
+			</body>
+		</html>
+</root>

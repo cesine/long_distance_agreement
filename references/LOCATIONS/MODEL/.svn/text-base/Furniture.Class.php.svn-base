@@ -1,0 +1,61 @@
+<?php
+include_once('PhysicalAssets.Class.php');
+
+class Furniture extends PhysicalAssets {
+	
+	
+	private $height;
+	private $depth;
+	private $width;
+	private $color;
+	private $type;
+	private $finish;
+	
+	function setDepth($depth){
+		$this->depth = $depth;
+	}
+	
+	function setHeight($height){
+		$this->height = $height;
+	}
+	
+	function setWidth($width){
+		$this->width = $width;
+	}
+	
+	function setColor($color){
+		$this->color = $color;
+	}
+	
+	function setType($type){
+		$this->type = $type;
+	}
+	
+	function setFinish($finish){
+		$this->finish = $finish;
+	}
+	
+	function getType(){
+		return $this->type;
+	}
+	
+	function getFinish(){
+		return $this->finish;
+	}
+	
+	function getColor(){
+		return $this->color;
+	}
+	
+	function getDimension(){
+		return $this->dimension;
+	}
+	
+	function displayAssetDetails(){
+		;
+	}
+	
+}
+
+
+?>

@@ -1,0 +1,3 @@
+
+<!ENTITY % dtd-source          SYSTEM     "bpgdtd\4-0\bpg4-0.dtd">
+%dtd-source;

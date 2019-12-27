@@ -1,0 +1,18 @@
+<?php
+
+echo 'Under Construction. Come Back Later!';
+
+?>
+
+<html>
+<body>
+<br/>
+<br/>
+<form action="AssetMenu.php" method="post">
+<fieldset>
+<legend> <font color=gray><b>Return to system page</b></font> </legend>
+    <input type="submit" name="submit" value="Return" />
+</fieldset>
+</form>
+</body>
+</html>

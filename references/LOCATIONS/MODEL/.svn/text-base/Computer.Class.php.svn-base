@@ -1,0 +1,9 @@
+<?php
+include_once ('Equipment.Class.php');
+
+class Computer extends Equipment {
+	
+	
+}
+
+?>

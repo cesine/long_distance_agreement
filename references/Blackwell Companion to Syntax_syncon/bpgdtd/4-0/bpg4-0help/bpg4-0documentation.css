@@ -1,0 +1,106 @@
+body			{ margin: 2em 5em 2em 5em;
+			font-family: sans-serif;
+			color: black;
+			background: white;}
+
+h1			{ font: 180% sans-serif;
+			text-align: left;
+			color: #005A9C }
+
+h2			{ font: 140% sans-serif;
+			text-align: left; 
+			background: #EEEEEE;
+			color: #005A9C }
+
+h3			{ font: 120% sans-serif;
+			text-align: left;
+			color: #005A9C }
+
+h4			{ font: bold 100% sans-serif;
+			text-align: left }
+
+h5			{ font: italic 100% sans-serif;
+			text-align: left }
+
+h6			{ font: small-caps 100% sans-serif;
+			text-align: left }
+
+blockquote		{font: italic 90% serif;}
+acronym			{ color: green}
+
+a:visited		{ color: blue}
+a:hover			{ background: yellow}
+a.normal		{ text-decoration:none}
+
+span.highlight		{ background: #FFFF99}
+span.lowlight		{ color: #CCCCCC}
+
+span.code   		{ font-family: monospace;}
+span.code_8pt  		{ font-family: "Courier New", "Courier", monospace; font-size: 8pt}
+
+span.warning		{ color: #FF0000 }
+span.attribute		{ text-transform: lowercase}
+span.glossary		{ color: red}
+span.question		{ background:pink; visibility: hidden}
+
+div.code		{background-color: #EEEEEE; 
+			border-top-width: 1px; 
+			border-bottom-width: 1px; 
+			border-left-width: 1px; 
+			border-right-width: 1px; 
+			border-style: solid; 
+			border-width: 1px;
+			border-color: black black black black; }
+
+div.badcode		{background-color: #EEEEEE; 
+			border-top-width: 1px; 
+			border-bottom-width: 1px; 
+			border-left-width: 1px; 
+			border-right-width: 1px; 
+			border-style: solid; 
+			border-width: 1px;
+			border-color: black black black black; 
+			text-decoration: strike}
+
+
+
+th			{ font-weight: bold; background-color: #bFbFFF;}
+tr			{ background-color: #DFDFBF;}
+td			{ font: 80%; 
+			vertical-align: text-top; 
+			padding-left: 5; 
+			padding-right: 5; 
+			padding-top: 1; 
+			padding-bottom: 1}
+
+table.site_title	{}
+tr.site_title		{background-color:white;}
+td.site_title		{vertical-align: middle;}
+span.site_title		{font: sans-serif; font-size: 30pt; text-align: left;}
+img.logo		{border: none;} 
+
+h2.FAQ2			{ background-color: #005A9C; 
+			color: white}
+
+p.navbar		{ font: 80%;}
+p.navbarhead		{ font: 80%;}
+p.navbarfoot		{ font: 80%;}
+
+p.date			{ font: 80%;}
+
+p.warning		{ border-top-width: 1px; 
+			border-bottom-width: 1px; 
+			border-left-width: 1px; 
+			border-right-width: 1px; 
+			border-style: solid; 
+			border-width: 1px;
+			border-color: red red red red; 
+			padding-top: 5px;
+			padding-right: 5px;
+			padding-left: 5px;
+			padding-bottom: 5px;} 
+
+hr			{color: #005A9C;}
+
+/* code			{ font-name: Courier; font: 90%;} */
+/* a:visited		{ color: #000099} */

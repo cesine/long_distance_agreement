@@ -1,0 +1,31 @@
+<constants>
+<long-month-names>
+	<January/>
+	<Febuary/>
+	<March/>
+	<April/>
+	<May/>
+	<June/>
+	<July/>
+	<August/>
+	<September/>
+	<October/>
+	<November/>
+	<December/>
+</long-month-names>
+<short-month-names>
+	<Jan/>
+	<Feb/>
+	<Mar/>
+	<Apr/>
+	<May/>
+	<Jun/>
+	<Jul/>
+	<Aug/>
+	<Sep/>
+	<Oct/>
+	<Nov/>
+	<Dec/>
+</short-month-names>
+</constants>
+	

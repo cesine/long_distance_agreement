@@ -1,0 +1,2107 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+ <contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="19"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 19 - Derived Nominals.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">24</page>
+<page type="last">55</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="10"/>
+<count type="table" count="35"/>
+<count type="formula" count="1"/>
+<count type="reference_total" count="75"/>
+<count type="page" count="32"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051105"/>
+<trackingdate type="markedup" date="0000" by="christine tsai"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 19&ensp;Rozwadowska: Derived Nominals</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 19&ensp;Rozwadowska: Derived Nominals</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">19&ensp;Derived Nominals</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>BO&#x017B;ENA</forenames><x> </x><surname>ROZWADOWSKA</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Transformationalist&ndash;lexicalist controversy</p>
+</li>
+<li level="2">
+<number>2.1&ensp;</number>
+<p>Configurational hypothesis</p>
+</li>
+<li level="2">
+<number>2.2&ensp;</number>
+<p>Non-configurational thematic approaches</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>Result/process ambiguity</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>The event-structure theory of nominalizations</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>Neo-transformational account of nominalizations</p>
+</li>
+<li level="2">
+<number>5.1&ensp;</number>
+<p>Parallel morphology and derived nominals</p>
+</li>
+<li level="2">
+<number>5.2&ensp;</number>
+<p>Picallo&apos;s account</p>
+</li>
+<li level="2">
+<number>5.3&ensp;</number>
+<p>Alexiadou&apos;s Ergativity Patterns of derived nominals</p>
+</li>
+<li level="2">
+<number>5.4&ensp;</number>
+<p>Configurational accounts of the result/process distinctions in Slavic languages</p>
+</li>
+<li level="2">
+<number>5.5&ensp;</number>
+<p>Gerunds as nominalizations</p>
+</li>
+<li level="1">
+<number>6&ensp;</number>
+<p>Intransitive nominals</p>
+</li>
+<li level="1">
+<number>7&ensp;</number>
+<p>Psych nominals</p>
+</li>
+<li level="1">
+<number>8&ensp;</number>
+<p>More on aspectual properties of derived nominals</p>
+</li>
+<li level="2">
+<number>8.1&ensp;</number>
+<p>English derived nominals</p>
+</li>
+<li level="2">
+<number>8.2&ensp;</number>
+<p>Polish derived nominals</p>
+</li>
+<li level="2">
+<number>8.3&ensp;</number>
+<p>Russian derived nominals</p>
+</li>
+<li level="1">
+<number>9&ensp;</number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1&ensp;Introduction</heading>
+<p>Derived nominals are nominal structures derived from other syntactic categories by means of derivational affixes. In modern linguistic tradition this term is associated with deverbal nominalizations denoting eventualities of various sorts (as opposed to, e.g., agentive <i>er</i> nominals). In the generative tradition the study of derived nominals thus understood dates back to <link rid="b1">Lees (1960</link>). Since then, during subsequent stages of the development of the theory of grammar, and as a result of the ever growing interest in nominalizations, various problems have been identified and their number keeps growing in view of the recent intensive cross-linguistic studies.</p>
+<p>Cross-linguistically, derived nominals have a mixture of nominal and verbal properties. As categorial hybrids they constitute a challenge to the modern theory of grammar. Even in a single language such as English the range of derived nominal constructions is quite diversified with respect to their nominal and verbal properties: derived nominals such as <i>destruction</i>, nominal gerunds such as <i>the destroying of the city</i>, or verbal gerunds such as <i>destroying the city</i> (<related relationship="sibling" type="samework"><externallink id="chapter 30 - Gerundive Nominalizations.xml" type="file">chapter 30</externallink></related>). Different languages show different nominalization patterns and variations. Therefore it is very difficult to develop a theory that would provide a consistent account of all the varieties. There is no consensus as to the nature of the nominalization process and the relationship of the derived nominal to the base verb. Among derived nominals, action nominalizations (that is, those derived from Agent&ndash;Patient verbs like <i>destroy</i>) have been studied most extensively. They have usually constituted the basis for the development of various theories, which, on closer scrutiny, do not always work when confronted with derived nominals from other semantic classes, such as, for example, nominalizations of the notorious Experiencer verbs like <i>fear</i> or <i>amuse</i>. The mixed categorial nature of derived nominals, the inter-language and intra-language variations as well as the Experiencer problem have inspired research in this area, at the same time leading to a lot of controversy. Here we will be primarily concerned with the derived nominals proper, and not with gerundial constructions or nominal infinitives (<related relationship="sibling" type="samework"><externallink id="chapter 30 - Gerundive Nominalizations.xml" type="file">chapter 30</externallink></related>). The prototypical derived nominal is presented in (1):</p>
+<p>(1)<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>the enemy&apos;s destruction of the city</entry>
+</row>
+<row><entry>b.</entry>
+<entry>the destruction of the city by the enemy</entry>
+</row>
+<row><entry>c.</entry>
+<entry>the city&apos;s destruction by the enemy</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b2">Koptjevskaja-Tamm (1993</link>), following the tradition represented earlier by <link rid="b3">Comrie (1976b</link>) or <link rid="b4">Comrie and Thompson (1985</link>), provides an exhaustive cross-linguistic and typological classification of languages with respect to action nominal constructions (ANCs). Typological studies reveal that languages vary as to the closeness of nominalizations to underived noun phrases or to verb phrases in respect of both semantic and syntactic properties. Their intermediate nature is unquestionable, though: they are indeed a mixed category rather than an independent category whose properties would be different from those of NPs or VPs. Although they have nominal external distribution, their internal syntax is often not unlike that of a verb phrase. The degree of their &lsquo;nouniness&rsquo; and &lsquo;verbness&rsquo; varies from the point of view of both intra-language and inter-language variation. All these facts remain problematic in view of the generally endocentric phrasal pattern encapsulated in the X-bar conventions and the prevailing generative conception of syntactic categories as discrete elements within a system of contrastive oppositions. In view of the universality of the noun&ndash;verb distinction (which is assumed in different linguistic traditions; cf. <link rid="b5">Sapir 1921</link>: 117&ndash;19; <link rid="b6">Hopper and Thompson 1985</link>), the task of the linguistic theory is to provide an account of the categories which clearly show both nominal and verbal properties. The history of nominalization studies shows that at various points different aspects of the properties of derived nominal structures were discovered and emphasized. Particular theories focus either on what nominalizations share with verbs or on what makes them nominal. There is no single division line between various approaches, though some researchers try to simplify the issue and group the approaches into complementary pairs. Thus we can often encounter such binary divisions as transformationalist vs. lexicalist approach or syntactic vs. lexical derivation.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2&ensp;Transformationalist&ndash;lexicalist controversy</heading>
+<p>This binary contrast is assumed by <link rid="b2">Koptjevskaja-Tamm (1993</link>), <link rid="b7 b8">Borer (1991, 1993</link>), and <link rid="b9">Fu (1994</link>). The early transformational approach is represented by <link rid="b10">Chomsky (1957</link>) and <link rid="b1">Lees (1960</link>) and contrasted to the Lexicalist Hypothesis developed in <link rid="b11">Chomsky (1970</link>). The transformationalist approach is to make the link between derived nominals and their corresponding verbs a matter of syntactic derivation; the lexicalist approach is to express the link in the lexicon. In the early stages of the development of generative grammar the only possibility of expressing the link between related structures was via a syntactic transformational process operating on sentences, which by its nature accounted for clausal properties of derived nominals. <link rid="b11">Chomsky&apos;s (1970</link>) seminal paper &ldquo;Remarks on Nominalization&rdquo; was a reaction to the transformationalist hypothesis. He argued against a transformationalist analysis of derived nominals, illustrated further in (2) and having their sentential counterparts in (3):</p>
+<p>(2)<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John&apos;s eagerness to please</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John&apos;s refusal of the offer</entry>
+</row>
+<row><entry>c.</entry>
+<entry>John&apos;s criticism of the book</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(3)<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John is eager to please.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John has refused the offer.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>John criticized the book.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b11">Chomsky (1970</link>) pointed out that the following properties of derived nominals are problematic for the transformationalist approach:</p>
+<listgroup id="l2" type="symbol">
+<li level="1">
+<number>&bull;&ensp;</number>
+<p>The productivity of derived nominals is restricted.</p>
+</li>
+<li level="1">
+<number>&bull;&ensp;</number>
+<p>The semantic relations between the associated proposition and the derived nominal are quite varied and idiosyncratic.</p>
+</li>
+<li level="1">
+<number>&bull;&ensp;</number>
+<p>The nominal has the internal structure of a noun phrase.</p>
+</li>
+<li level="1">
+<number>&bull;&ensp;</number>
+<p>Well-known transformations that apply to sentences (such as raising to object, raising to subject, or dative shift) are barred from nominalizations.</p>
+</li>
+</listgroup>
+<p>He provided an alternative account, the Lexicalist Hypothesis, according to which derived nominals constitute separate items in the lexicon. Building on an elaborated system of syntactic features introduced in <link rid="b12">Chomsky (1965</link>), he proposed that the same selectional properties of verbs and related nominals should be captured by the same lexical entry with the same selectional requirements, but neutral with respect to the category. This gave rise to the X-bar theory, widely adopted in modern grammar and extended later on. In this way the link between a derived nominal and its corresponding verb was located in the lexicon, that component of the grammar where all the idiosyncracies are listed. This theoretical move took care of the problems enumerated above. Since then the consensus has been that nominalizations are base-generated in the lexicon rather than syntactically derived, but the question of the relationship between nouns and verbs has not been settled. Rather, it has become much more complex and now it occupies a central place in theoretical research. The dominating tendency in recent studies is to introduce mechanisms which would allow different derivations of different types of derived nominals. Both the lexical tradition and the syntactic tradition in nominalization studies have come to the point where it is necessary to recognize syntactically different, though morphologically identical deverbal derived nominals. There are various independent versions of what might be regarded as the neo-transformational approach. Differ as they may in initial assumptions and theoretically important details, they share the basic claim that the difference in interpretation and argument distribution corresponds either to the level at which a morphological operation takes place or to the functional layers that dominate the nominal head.</p>
+<p>The point of departure for the various approaches is the argument distribution in nominals as compared to verbs. Only from the point of view of this single property it turns out that the debate cannot be reduced to the simple transformationalist&ndash;lexicalist controversy.</p>
+<subsection id="ss4" level="2">
+<heading id="h3" level="2">2.1&ensp;Configurational hypothesis</heading>
+<p>The lexicalist approach developed in various directions. One of its most recent versions is represented by <link rid="b13">Giorgi and Longobardi (1991</link>), who develop <link rid="b11">Chomsky&apos;s (1970</link>) assumption that the structure related to a verb is the same as that related to the corresponding noun. Accordingly, their thematic properties remain the same as well. To put it in simple words, both nouns and verbs have subjects and complements, and both nouns and verbs assign theta-roles to the respective positions in the same way. Furthermore, various rearrangements of arguments within the nominal and verbal projections are due to the same principles of grammar, such as &lsquo;Move &alpha;&rsquo;, which apply both in the domain of clauses and in the domain of noun phrases. Thus the well-known analogy illustrated in (4) and (5) below obtains:</p>
+<p>(4)<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The barbarians destroyed the city.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The city was destroyed by the barbarians.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(5)<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The barbarians&rsquo; destruction of the city</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The city&apos;s destruction by the barbarians</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Under this approach (5a) and (5b) are transformationally related in the same sense in which (4a) and (4b) are, and the possessive phrases of (5) have the same prominence as the surface subjects of (4). These views are generalized into the Configurational Hypothesis, consisting of two clauses:</p>
+<p>(6)&ensp;Configurational Hypothesis:</p>
+<listgroup id="l3" type="symbol">
+<li level="2">
+<number>&bull;&ensp;&ensp;</number>
+<p>It is possible to identify, within NPs, definite theta- (and non-theta-) positions at various levels of hierarchical attachment: whenever an element of the N-frame appears in a position arguably different from the one where it should be projected at D-structure, its displacement must, then, be governed by the general conditions holding on antecedent&ndash;trace relationships created by &lsquo;Move &alpha;&rsquo;; moreover, the binding of anaphors and pronouns in NPs obeys the same constraints as observed in clauses.</p>
+</li>
+<li level="2">
+<number>&bull;&ensp;&ensp;</number>
+<p>The theta-structure of Ns (their theta-grid and the conditions on theta-assignment) strictly parallels that of Vs, so that the differences appearing on the surface must be due to the intervention of other modules of grammar which determine some systematic variation (<link rid="b13">Giorgi and Longobardi 1991</link>: 2).</p>
+</li>
+</listgroup>
+<p>To accommodate the differences in the distribution of NP satellites between Germanic and Romance languages, Giorgi and Longobardi enrich the X-bar theory with the directionality parameters: &lsquo;Head&ndash;Complement&rsquo; and &lsquo;Head&ndash;Subject&rsquo;. Internal arguments are projected to the right of the head in Romance and in Germanic; external semantic functions are licensed at D-structure on the right in Romance but on the left in Germanic, as represented in a simplified way in (7):</p>
+<p>(7)&ensp;<b>The Head&ndash;Subject Hypothesis:</b>
+<object id="fu1" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_19_fu1.jpg" type="jpg" id="fu1_source"/>
+</objectsource>
+</object>
+</p>
+<p>Next, on the grounds of binding evidence, Giorgi and Longobardi propose a three-layer structure for an Italian NP:</p>
+<p>(8)<object id="fu2" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_19_fu2.jpg" type="jpg" id="fu2_source"/>
+</objectsource>
+</object>
+</p>
+<p>In Italian NPs, all the occurrences of arguments to the left of N are the result of movement to Spec (core case of movement), which together with the Possessivization Principle quoted in (9) is supposed to account for the distribution of arguments and for the binding facts in Italian:</p>
+<p>(9)<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Possessivization Principle:</b>
+</entry>
+</row>
+<row><entry>The unique phrase allowed to appear as a possessive is the hierarchically highest genitive argument of an NP (Giorgi and Longobardi 1991: 68).</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Giorgi and Longobardi claim that the syntactic template of the NP determined by the parameters fully predicts the distribution of arguments in nominals. This is by virtue of the fact that the null assumption of the Configurational Hypothesis is that all the grammatical processes, including the theta-assignment conditions, are identical for verbs and nouns. On this approach no reference to lexical or semantic information is allowed, apart from recognizing the classic syntactic distinction between external and internal arguments (introduced by <link rid="b14">Williams 1981a</link>) in the theta-grid of a lexical item, neutral with respect to the category. Given the syntactic template for the NP with canonical D-structure positions for the internal and external arguments of the theta-grid (which distinction is equivalent to the distinction between the object and the subject), the distribution of arguments is predicted. By its nature, configurational approach does not refer either to the content of thematic roles or to any other kind of lexical information.</p>
+<p>
+<link rid="b13">Giorgi and Longobardi (1991</link>) are primarily concerned with the structure of NP as such. They do not discuss complexities within the domain of derived nominals such as the result/process distinction. Nor do they provide any explanation for the failure of Agents of transitive actions to surface as subjects of NPs, which is attested in a number of languages (e.g., Romance, Slavic, Modern Greek), as opposed to Agents of result nominals (sometimes also referred to as material nouns).</p>
+</subsection>
+<subsection id="ss5" level="2">
+<heading id="h4" level="2">2.2&ensp;Non-configurational thematic approaches</heading>
+<p>The configurational hypothesis assumes complete parallelism between verbs and nouns and, as described in the previous section, mapping principles are stated in syntactic terms. On closer investigation it turns out that the argument realization in derived nominals depends on some semantic distinctions which the categorial view ignores. Those who recognize the distinctions differ in what they consider crucial for stating important generalizations.</p>
+<p>The regular pattern in (1), which gave rise to the categorial lexicalist approach, is attested only for prototypical Agent&ndash;Patient predicates. English nominalizations from verbs with non-affected objects (<related relationship="sibling" type="samework"><externallink id="chapter 5 - Affectedness.xml" type="file">chapter 5</externallink></related>) do not have a passive nominal:</p>
+<p>(10)<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John enjoys the movie.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The movie is enjoyed by John.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>John&apos;s enjoyment of the movie</entry>
+</row>
+<row><entry>d.</entry>
+<entry>*the movie&apos;s enjoyment by John</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b15">Anderson (1984</link>) proposes a constraint which prohibits movement of non-affected objects to the Specifier position of an English NP. In addition to cases like (10) we observe the non-existence of nominalizations derived from Object Experiencer verbs:</p>
+<p>(11)<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*the book&apos;s amusement of the children</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*the news&rsquo; terror/horror of Mary</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*his rude behaviour&apos;s disgust of Mary</entry>
+</row>
+<row><entry>d.</entry>
+<entry>*the book&apos;s delight of the public</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The regularity of the patterns illustrated in (10) and (11) inspired lexicalist non-categorial thematic approaches to nominalization represented among others by <link rid="b16">Amritavalli (1980</link>), <link rid="b17">Rappaport (1983</link>), <link rid="b18">Hoekstra (1986a</link>), and <link rid="b19">Rozwadowska (1988</link>). Their essence is the claim that formal realization of arguments is determined by their thematic role with respect to the head. In other words, it is not the syntactic structure which is directly inherited from the verb by the nominal, but the thematic grid. The mapping rules are then formulated directly in terms of thematic relations assigned by a predicate. Moreover, verbal and nominal projections are treated separately, and accordingly, the mapping rules between theta-roles and structural positions for nominals are formulated separately from the corresponding verbal projections. The theta-grid itself can be shared by nominals and verbs, but the rules are independent.</p>
+<p>Although the thematic generalizations formulated in various ways and using various thematic labels are observationally adequate, the explanatory value of thematic generalizations both with respect to nominalizations and with respect to other grammatical phenomena has been questioned. Thematic systems are notorious for the arbitrariness of their definitions and the multiplicity of their thematic labels. New thematic labels are often introduced as the need arises, and it is quite difficult to achieve a consensus on what and how many thematic relations do exist. The attempts to decompose the thematic labels into a small, finite set of features (such as, e.g., <link rid="b20">Rozwadowska 1992</link>; <link rid="b21">Reinhart 1996</link>) reduce the number of primitives and account for the substantial overlap among the traditional atomic concepts but do not provide any more principled, motivated, or explanatory basis for the generalizations.</p>
+<p>The next stage in the non-configurational lexical approach was the event-structure approach to derived nominals developed in <link rid="b22">Grimshaw (1990</link>) and discussed in <link rid="ss7">section 4</link>. The event-structure approach is closely connected with the result/process ambiguity discussed in <link rid="ss6">section 3</link>. The Event Structure Theory of nominalization developed in <link rid="b22">Grimshaw (1990</link>) can be placed in between the configurational (categorial) view and the thematic view. There are two important ingredients of this approach. First, it makes crucial use of the distinction between result nominals and process nominals, and second, it introduces a derived lexical level of argument structure, which determines both the argument distribution in nominalizations and the existence of a nominalization itself. The mapping rules do not refer directly to thematic roles, but to the lexical level of Argument Structure, which is derived from the Lexical-Conceptual Structure via a two-dimensional hierarchy, one dimension being thematic and the other aspectual. The aspectual hierarchy presupposes the existence of an event structure in the sense of <link rid="b23">Pustejovsky (1988</link>). Thus, ultimately, nominalizations are analyzed in terms of event structure.</p>
+</subsection>
+</subsection>
+<subsection id="ss6" level="1">
+<heading id="h5" level="1">3&ensp;Result/process ambiguity</heading>
+<p>Significant ambiguities within the system of nominalization were discussed by <link rid="b15">Anderson (1984</link>), <link rid="b24">Walinska de Hackbeil (1984</link>), <link rid="b25 b22">Grimshaw (1986, 1990</link>), <link rid="b26">Lebeaux (1986</link>), <link rid="b27">Roeper (1987b</link>), <link rid="b28">Zubizarreta (1987</link>), <link rid="b29">Malicka-Kleparska (1988</link>), <link rid="b30">Picallo (1991</link>), <link rid="b31">Bottari (1992</link>), <link rid="b32 b33">Schoorlemmer (1995, 1998a</link>), <link rid="b34">Rozwadowska (1997</link>), <link rid="b35 b36">Engelhardt and Trugman (1998a, 1998b</link>), <link rid="b37">Rappaport (1998</link>), and <link rid="b38">Alexiadou (1999b</link>), among others. <link rid="b15">Anderson (1984</link>) distinguishes between concrete nouns, such as <i>store</i>, which take lexical possessives, and abstract nouns, such as <i>reliance</i>, where &rsquo;<i>s</i> is inserted transformationally. A similar distinction between abstract and concrete nominals is the basis for <link rid="b29">Malicka-Kleparska&apos;s (1988</link>) distinction between regular nominalizations and their irregular lexicalizations. <link rid="b24">Walinska de Hackbeil (1984</link>) discusses a relation between clausal nominals with a full theta-grid, and the so called theta-nominals, where one of the argument positions is absorbed in the lexical process. The properties of the clausal nominals as contrasted to those of the theta-nominals are illustrated below:</p>
+<p>(12)<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Possession *(of such knife) was her dream.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>This is my favorite possession (*of such knife).</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(13)<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Their acquisition by the museum was thoughtless.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Their recent acquisitions are here. (ungrammatical on the passive interpretation)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(14)<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The doctor coldly observed this nervous crossing and uncrossing of legs.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>This (*un)crossing on the Ave is dangerous.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (12a) the clausal nominal requires the presence of the theme argument, which contrasts with (12b), where we have the corresponding theta-nominal with no argument possible. Examples in (13) illustrate a possibility of passivization within the clausal nominal and its impossibility in the case of the theta-nominal. This is claimed to be a consequence of the absence of the argument structure in the latter case. (14) illustrates the difference between the two kinds of nominals with respect to propositional negation. To summarize Walinska de Hackbeil&apos;s observations, the action/process nominals in the (a) examples above are clausal nominals because they share a number of properties with clauses, while the theta-nominals in the (b) examples lack such properties.</p>
+<p>The distinction between process nominals (since <link rid="b22">Grimshaw 1990</link>, these are often referred to as complex event nominals and abbreviated to CENs) and result nominals has been well documented cross-linguistically. <link rid="b28">Zubizarreta (1987</link>) draws a similar distinction between result and event nominals and accounts for the difference between them with respect to argument realization, illustrated in (15) and (16) for Romance languages. The nominals in (16) have only the event interpretation as opposed to the result interpretation in (15):</p>
+<p>(15)<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="2" valign="top">a.</entry>
+<entry>la descrizione degli avvenimenti di Gianni</entry>
+</row>
+<row><entry>the description of the facts of Gianni</entry>
+</row>
+<row><entry>&lsquo;Giannni&apos;s description of the facts&rsquo;</entry>
+</row>
+<row><entry morerows="2" valign="top">b.</entry>
+<entry>la description du paysage de Pierre (Fr.)</entry>
+</row>
+<row><entry>la descripcion del paisaje de Pedro (Sp.)</entry>
+</row>
+<row><entry>&lsquo;Pierre&apos;s description of the landscape&rsquo;</entry>
+</row>
+<row><entry morerows="2" valign="top">c.</entry>
+<entry>sa description du paysage (Fr.)</entry>
+</row>
+<row><entry>su descripcion del paisaje (Sp.)</entry>
+</row>
+<row><entry>&lsquo;his description of the landscape&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(16)<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="2" valign="top">a.</entry>
+<entry>la description du paysage par Pierre (Fr.)</entry>
+</row>
+<row><entry>la descripcion del paisaje por Pedro (Sp.)</entry>
+</row>
+<row><entry>&lsquo;the description of the landscape by Pierre&rsquo;</entry>
+</row>
+<row><entry morerows="2" valign="top">b.</entry>
+<entry>l&rsquo;interpr&eacute;tation des donn&eacute;es par Pierre (Fr.)</entry>
+</row>
+<row><entry>la interpretacion de los datos por Pedro (Sp.)</entry>
+</row>
+<row><entry>&lsquo;the interpretation of the data by Pierre&rsquo;</entry>
+</row>
+<row><entry morerows="2" valign="top">c.</entry>
+<entry>la traduction de l&rsquo;oeuvre de Balzac par Pierre (Fr.)</entry>
+</row>
+<row><entry>la traduccion de la obra de Balzac por Pedro (Sp.)</entry>
+</row>
+<row><entry>&lsquo;the translation of Balzac&apos;s work by Pierre&rsquo;</entry>
+</row>
+<row><entry morerows="2" valign="top">d.</entry>
+<entry>la d&eacute;monstration du th&eacute;or&egrave;me de Pythagore par Pierre (Fr.)</entry>
+</row>
+<row><entry>la demonstracion del teorema de Pitagora por Pedro (Sp.)</entry>
+</row>
+<row><entry>&lsquo;the proof of Pythagoras&apos;s theorem by Pierre&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The main difference between (15) and (16) is that the Agent is realized as the second post-nominal genitive (or a prenominal possessive pronoun) with result nominals but in the <i>par</i> phrase (the equivalent of the English <i>by</i> phrase) with event nominals. There is a clear complementary distribution between these two varieties.</p>
+<p>Similar facts obtain in other languages. The clear difference between result nominals and process/event nominals in respect of both the internal and external distribution, including co-occurence with adjectives and adverbs, has been discussed recently for Italian in <link rid="b31">Bottari (1992</link>); for Catalan in <link rid="b30">Picallo (1991</link>); for Greek in <link rid="b39">Markantonatou (1995</link>), <link rid="b38">Alexiadou (1999b</link>), and numerous references therein; for Russian in <link rid="b32 b33 b40">Schoorlemmer (1995, 1998a, 1998b</link>), <link rid="b35 b36">Engelhardt and Trugman (1998a, 1998b</link>), <link rid="b37">Rappaport (1998</link>); for Polish in <link rid="b34">Rozwadowska (1997</link>) and <link rid="b41 b42">Willim (1999, 2000</link>). It turns out that in addition to the distinctions similar to those identified for English, one of the salient and very clear properties of derived result nominals in Romance, Slavic, and Greek is the possibility of two adnominal genitives in the case of result nominals derived from transitive verbs. Such distribution is never possible with process/event readings. The latter may take only one adnominal genitive, always expressing the Theme (Patient) argument. The Agent must appear in an optional prepositional phrase or in the instrumental case (equivalents of the English <i>by</i> phrase). While the contrast is uncontroversial and widely recognized, the terminology and the views are not uniform. Thus, for instance, nominals with the <i>by</i> phrase are standardly referred to as passive nominalizations. In a non-standard way, <link rid="b38">Alexiadou (1999b</link>) takes the single genitive restriction as the indication of the intransitivity and accordingly refers to them as intransitive nominals. Consistently, result nominals taking two adnominal genitives are treated by her as transitive nominals.</p>
+<p>This obvious contrast has led to the development of various approaches concerning both the internal structure and the derivation of the respective subtypes of derived nominals. <link rid="b28">Zubizarreta (1987</link>) attributes that difference to a universal distinction between <i>description</i>-type nominals and <i>destruction</i>-type nominals, the former being ambiguous between the result, non-argument taking nominal, and the event nominal with predicate&ndash;argument structure. Thus for Zubizarreta, in Romance nominals the adjunct genitive phrase (i.e., the external postnominal argument in <link rid="b13">Giorgi and Longobardi&apos;s 1991</link> theory), generated in the postnominal position immediately under the NP node, has two essential properties: it is lexically marked as &plus;Poss and it is syntactically bound to the Specifier position. Zubizarreta defends the hypothesis that the nominals which denote an event cannot carry a Poss-variable, while the nominals which denote the result of a process can. This explains the contrast between the <i>destruction</i>-type and the <i>description</i>-type nominals: the event nominals in contrast to the result nominals cannot carry the Poss variable, and consequently the genitive adjunct <i>de NP</i> cannot receive an interpretation.</p>
+</subsection>
+<subsection id="ss7" level="1">
+<heading id="h6" level="1">4&ensp;The event-structure theory of nominalizations</heading>
+<p>The result/event ambiguity was taken as the starting point for a more elaborated theory developed by <link rid="b22">Grimshaw (1990</link>), who refers to that ambiguity as the result/process distinction and links the ambiguity with aspectual properties, arguing that the real distinction is between nouns that have an associated event structure (the so called complex event nominals) and nouns that do not. The latter include both the result nominals discussed in <link rid="ss6">section 3</link> and simple event nominals (abbreviated to SENs) such as, e.g., <i>examination</i> (&equals;<i>exam</i>), <i>race</i>, <i>war</i>, <i>storm</i>, etc. An example of the internal event structure for an accomplishment, analyzed as consisting of two subevents, is given in (17):</p>
+<p>(17)<object id="fu3" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_19_fu3.jpg" type="jpg" id="fu3_source"/>
+</objectsource>
+</object>
+</p>
+<p>For an event to count as complex, it does not need to be necessarily a branching event. This means that one of the branches may be empty. It is only crucial that it should be analyzable in terms of aspectual distinctions, i.e., that it has some temporal organization. Thus all kinds of Vendlerian events count as complex: activities, achievements, accomplishments, and also states (such as, for instance, <i>fear</i> or <i>love</i> in Grimshaw&apos;s analysis).</p>
+<p>In Grimshaw&apos;s theory, argument structure is composed from the thematic and aspectual analyses of a predicate according to the respective hierarchies given in (18). She hypothesizes that any predicate lacking an aspectual analysis will also lack an argument structure and will never take any grammatical arguments at all:</p>
+<p>(18)<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>(Agent(Experiencer(Goal/Source/Location(Theme))))</entry>
+</row>
+<row><entry>b.</entry>
+<entry>(Cause(other( .&nbsp;.&nbsp;.&nbsp;)))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The prediction is that complements to complex event nominals will be obligatory (i.e., capable in principle of being obligatory but perhaps subject to lexical variation). Since derived nominals are often ambiguous, it is not always obvious how they behave with respect to their argument-taking properties. On closer investigation it turns out that only on their complex event interpretation can they take grammatical arguments. The result nominals take neither Agent nor Patient (or Theme). The complex event nominals do not pluralize, while the result or simple event nominals do. Moreover, the complex event nominals can be modified by aspectual adverbs. These contrasts are illustrated in (19):</p>
+<p>(19)<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The assignments were long. (no a-structure)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>the assignment *(of unsolvable problems) by the instructor</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Only observation of the patient for several weeks can determine the most likely . . .</entry>
+</row>
+<row><entry>d.</entry>
+<entry>These observations are very interesting. (no a-structure)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The modifiers <i>frequent</i> and <i>constant</i> force the complex event reading of the noun and thus its a-structure must be satisfied. Therefore (20b) and (21b) are not grammatical:</p>
+<p>(20)<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The expression is desirable.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*The frequent expression is desirable.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>The frequent expression of one&apos;s feelings is desirable.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>We express *(our feelings).</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(21)<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The assignment is to be avoided.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*The constant assignment is to be avoided.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>The constant assignment of unsolvable problems is to be avoided.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>We constantly assign *(unsolvable problems).</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>According to Grimshaw, the process of nominalization consists in the suppression of the external argument, defined as the argument which is most prominent on both the thematic and the aspectual hierarchies quoted in (18) above. The non-existence of nominals in (22a&ndash;b) is explained as a consequence of the non-existence of the external argument in the case of Object Experiencer (OE) predicates: there is a conflict in prominence between the thematic and the aspectual dimensions, and thus there is no argument which could be most prominent on both dimensions, thus qualifying for being the external one. The nominals in (22c&ndash;e) are claimed to be result nominals without argument structure &ndash; their satellites are mere modifiers:</p>
+<p>(22)<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*the event&apos;s embarrassment/humiliation of Mary</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*the movie&apos;s (constant) amusement/entertainment of the children</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Mary&apos;s embarrassment/humiliation</entry>
+</row>
+<row><entry>d.</entry>
+<entry>the embarrassment/humiliation of the bystanders</entry>
+</row>
+<row><entry>e.</entry>
+<entry>the amusement/entertainment of the children</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The suppressed external argument can be realized in a <i>by</i> phrase, which is an argument-adjunct (a-adjunct) linked to it. As summarized in (23), the <i>by</i> phrase is licensed by the suppressed external argument and in nominals limited to Agents only:</p>
+<p>(23)<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>by, a-adjunct, external argument</entry>
+</row>
+<row><entry>b.</entry>
+<entry>by, a-adjunct, Agent</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>If there is no external argument, the nominalization does not exist, and the <i>by</i> phrase is not licensed. (23b), originally proposed by <link rid="b17">Rappaport (1983</link>), is supposed to explain the impossibility of the Experiencer of a Subject Experiencer predicate being realized in the <i>by</i> phrase, as illustrated in (24):</p>
+<p>(24)<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Fear of flying by many people</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Dislike of flying by many people</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>With respect to argument distribution, the predictions of Grimshaw&apos;s theory can be summarized as follows: both the <i>by</i> phrase and the prenominal possessive are argument-adjuncts linked to the external argument, lexically suppressed in the process of nominalization. Only complex events undergo the process of nominalization and only such complex event nominals have an argument structure. All the other nominals are either result nominals or simple event nominals, and the rule of the suppression of the external argument of a predicate does not apply to them.</p>
+<p>Grimshaw&apos;s theory inspired a lot of cross-linguistic research and raised a lot of controversy. The division of nominals into three types (i.e., results, simple events, and complex events) has been generally accepted. What has been questioned or has become highly controversial is the suppression mechanism and the explanation for the distribution of the <i>by</i> phrase. This controversy is also closely related to the debate on whether derived nominals are instances of passive nominals or not (cf. <link rid="b8">Borer 1993</link>; <link rid="b36">Engelhardt and Trugman 1998b</link>; <link rid="b37">Rappaport 1998</link>; <link rid="b40">Schoorlemmer 1998b</link>; <link rid="b38">Alexiadou 1999b</link>).</p>
+</subsection>
+<subsection id="ss8" level="1">
+<heading id="h7" level="1">5&ensp;Neo-transformational account of nominalizations</heading>
+<p>Another line of current research is represented by <link rid="b7 b8">Borer (1991, 1993</link>), <link rid="b43">Hazout (1995</link>), <link rid="b30">Picallo (1991</link>), <link rid="b9">Fu (1994</link>), <link rid="b32 b33 b40">Schoorlemmer (1995, 1998a, 1998b</link>), <link rid="b35 b36">Engelhardt and Trugman (1998a, 1998b</link>), <link rid="b44">Van Hout and Roeper (1998</link>), and <link rid="b38">Alexiadou (1999b</link>). They argue for the syntactic derivation of process nominals in contrast to the lexical derivation of result nominals. Thus their approach can be treated as the revival of the early transformationalist approach within a much more sophisticated and refined syntactic theory, which offers mechanisms and solutions capable of overcoming the drawbacks of the early transformational account. Individual researchers differ in many points, but they all share the assumption that the environment for the morphological operation of combining the nominalizing suffix with the root may be regulated by the presence vs. absence of different functional projections and/or syntactic processes. The inspiration for this approach is the parallel morphology model developed by <link rid="b7 b8">Borer (1991, 1993</link>).</p>
+<subsection id="ss9" level="2">
+<heading id="h8" level="2">5.1&ensp;Parallel morphology and derived nominals</heading>
+<p>In contrast to the traditional view on the autonomy of the word-formation component, which assumes the linear ordering between morphology and syntax, <link rid="b7 b8">Borer (1991, 1993</link>) considers an alternative notion of autonomy which allows the interaction between the two modules in a parallel fashion. According to her, a module is autonomous if (a) it has a distinct set of primitives not found in other modules, and (b) it constitutes a coherent set of formal operations which are distinct from those found in other components. Given this notion of autonomy, there is no need to maintain that two autonomous modules interact with one another at a fixed unique point (like D-structure level in the standard approach). A word can be derived either in the lexicon, before the D-structure insertion, or later on, after D-structure. The post-D-structure word formation is novel as compared to the lexicalist approach. The relevant aspects of the output of each syntactic operation are available to the word-formation component, and likewise, the relevant aspects of the output of each word-formation operation are available to syntax.</p>
+<p>A morphological word, an M-word, is the output of the autonomous morphological component with its independent restrictions and properties. Syntactic operations, such as the head-to-head movement, can create the environment in which such word formation can take place. In that case the word formation takes place after a syntactic operation. This process is referred to as the syntactic derivation as opposed to the lexical derivation, which takes place in the lexicon, without any prior syntactic processes. So the word &lsqb;YX&rsqb;<sub>x</sub>, where X (the affix) is the head, can be derived either in the lexicon, prior to D-structure insertion, or in syntax, after D-structure. In the former case the properties of Y, the non-head (the root the affix attaches to), are opaque, whereas in the latter case the properties of the non-head are transparent, because it originates in a syntactic head position, and then is raised to adjoin to the affix. Parallel morphology attributes the transparency of a non-head of a word to the presence of a syntactic projection of that non-head. The transparent properties include both argument structure and adjunct phrases of the non-head. In this regard, parallel morphology differs from lexicalist approaches in assuming that the non-head is syntactically present in the structure.</p>
+<p>A word inserted following D-structure, which is both an M-word and an X<sub>0</sub> with a complex syntactic structure, results in the impossibility of any semantic drift in that case. The dual representation as both M-word and X<sub>0</sub> with an internal structure ensures that such words will always have as a subpart of their meaning the semantic and selectional properties of the phrases embedded in them, or a violation of the Projection Principle would result. M-words which do not have a syntactic representation are not thus constrained. Some properties of the embedded morphemes may and will disappear, without any violation resulting.</p>
+<p>Parallel morphology (or its spirit) has been adopted in recent accounts of mixed categories, in particular nominalizations. <link rid="b8">Borer (1993</link>) uses her model to account for the result/process ambiguity of derived nominals by attributing it to the presence of the VP constituent within the NP in the case of process nominals and its absence in the case of result nominals. A result nominal is formed in the lexicon and can be inserted at D-structure as an N<sub>0</sub>, which then projects an NP like an ordinary noun:</p>
+<p>(25)<object id="fu4" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_19_fu4.jpg" type="jpg" id="fu4_source"/>
+</objectsource>
+</object>
+</p>
+<p>A process nominal, on the other hand, is inserted at S-structure. The environment for the respective morphological rule to apply is created by V-raising, which takes place to satisfy the morphological requirement of the N (<i>-ation</i>):</p>
+<p>(26)<object id="fu5" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_19_fu5.jpg" type="jpg" id="fu5_source"/>
+</objectsource>
+</object>
+</p>
+<p>The parallel morphology approach directly accounts for the presence of argument structure in the case of process nominals (here attributed to the presence of the VP) and its lack in the case of result nominals. However, mere presence of the argument structure is not the most important criterion for the V-raising (neo-transformational) approach as such, because in lexical accounts the presence of the argument structure can be attributed to the inheritance of the theta-grid. Therefore further evidence has been brought up in defense of the V-raising structure for derived nominals. This has been done for various languages: <link rid="b45">Fu et al. (1995</link>) argue for the presence of the VP in English derived nominals on the basis of their admitting certain adverbs and the <i>do-so</i> test. <link rid="b46 b43">Hazout (1994, 1995</link>) presents evidence for the presence of the VP constituent in the action nominalization constructions in Hebrew and Arabic, while <link rid="b9">Fu (1994</link>) gives extensive support for the V-raising structure in Chinese derived nominals, at the same time modifying and extending Borer&apos;s original idea. <link rid="b32">Schoorlemmer (1995</link>) and <link rid="b35 b36">Engelhardt and Trugman (1998a, 1998b</link>) adopt parallel morphology for Russian.</p>
+<p>
+<link rid="b9">Fu (1994</link>) admits that there remains a problem: if there is an underlying VP in derived nominals, then why is it that some VP-related elements such as verbal case-marked NPs and adverbs do not occur in derived nominals? What is the difference between VPs in derived nominals and other VPs? <link rid="b8">Borer (1993</link>) and <link rid="b9">Fu (1994</link>) propose that head licensing (Case and Adverbs) requires that the licensing head be dominated by its &lsquo;extended projection&rsquo; in the sense of <link rid="b47">Grimshaw (1991</link>). The absence of verbal case-marked NPs and adverb phrases is to be explained, then, by the absence of extended verbal projection in derived nominals. Fu proposes that nominalization structures may vary between an underlying VP and an underlying IP. Languages whose nominalization constructions admit verbal cases and adverbs have nominalizers which select for an IP rather than VP. It is the presence of an IP that makes the head licensing possible for verbal Cases and adverbs. Similar arguments are extensively discussed in <link rid="b38">Alexiadou (1999b</link>).</p>
+</subsection>
+<subsection id="ss10" level="2">
+<heading id="h9" level="2">5.2&ensp;Picallo&apos;s account</heading>
+<p>Similar ideas are presented in <link rid="b30">Picallo (1991</link>). Unlike Borer, however, Picallo regards her proposal as the continuation of <link rid="b11">Chomsky&apos;s (1970</link>) &ldquo;Remarks on Nominalization.&rdquo; She supports the view that the thematic structure of Nouns parallels that of Verbs and adapts to the current theoretical framework (<link rid="b68 b48">Chomsky 1986, 1989</link>) the suggestion made in <link rid="b11">Chomsky (1970</link>) that lexical elements may not be categorially marked in the lexicon.</p>
+<p>Picallo attributes the difference in argument distribution between result nominals and event/process nominals in Catalan to the ambiguity of the nominalization suffixes: they are either inflectional elements or derivational ones. When the nominalization suffix is analyzed as an inflectional element, the DP will receive the event/process interpretation, and will have the structure in (27):</p>
+<p>(27)<object id="fu6" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_19_fu6.jpg" type="jpg" id="fu6_source"/>
+</objectsource>
+</object>
+</p>
+<p>The nominalization suffix can complementarily be analyzed as a derivational morpheme. The DP will then have the result interpretation with the structure in (28):</p>
+<p>(28)<object id="fu7" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_19_fu7.jpg" type="jpg" id="fu7_source"/>
+</objectsource>
+</object>
+</p>
+<p>Non-deverbal nominals, which designate only objects and do not have the nominalization suffix, will be assigned structure (28), like result nominals. According to Picallo, the analysis of the nominalization affix as a functional category is what allows the event/process reading to obtain. Then she shows that in Catalan among monadic nominals, the intransitive unergative nominals (in contrast to the ergative ones) have only the result interpretation, as they do not take temporal modifiers. Picallo points out that a great number of intransitive nominals in Catalan do not take any of the Catalan nominalization suffixes (i.e., -<i>acio</i>, <i>-ada</i>, <i>-iment</i>, etc.). Therefore, she concludes that there are no syntactic nominalizations of intransitives in Catalan, and consequently, adjunct-subjects (i.e., <i>by</i> phrases) are impossible with intransitives:</p>
+<p>(29)<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>*el salt per part de l&rsquo;atleta</entry>
+</row>
+<row><entry>&lsquo;the jump on the part of the athlete&rsquo;</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>*la lluita per part del gladiador</entry>
+</row>
+<row><entry>&lsquo;the fight on the part of the gladiator&rsquo;</entry>
+</row>
+<row><entry morerows="1">c.</entry>
+<entry>*el xiscle per part del nen</entry>
+</row>
+<row><entry>&lsquo;the scream on the part of the child&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The nominalization suffix is analyzed as a functional element which has the property of absorbing the external role. Consequently the external argument cannot be realized in argument position and its appearance as an adjunct is licensed.</p>
+<p>Borer explicitly states that her approach is in opposition to the lexicalist position and refers to it as the syntactic one. On the other hand, Picallo&apos;s proposal, similar in spirit to Borer&apos;s theory, though articulated in a different way, emerged as the continuation of the configurational approach advocated by <link rid="b13">Giorgi and Longobardi (1991</link>). Borer&apos;s and Picallo&apos;s theories converge and share the spirit of the neo-transformational approach in advocating the lexical&ndash;syntactic distinction, the presence of the syntactic projection in the syntactic nominal, and the V-raising (or theta-raising) operation allowing the creation of the nominal after D-structure. The difference between them is such that Picallo adheres to the category-neutral approach to lexical entries, while Borer assumes a category-changing morphological process.</p>
+</subsection>
+<subsection id="ss11" level="2">
+<heading id="h10" level="2">5.3&ensp;Alexiadou&apos;s ergativity patterns of derived nominals</heading>
+<p>Another version of the structural account of the ambiguities attested in the domain of derived nominals is offered by <link rid="b38">Alexiadou (1999b</link>). Alexiadou proposes that the differences between the two types of nominals should be explained in terms of different functional projections under which the respective nominals are embedded. She argues (like <link rid="b8">Borer 1993</link>; <link rid="b9">Fu 1994</link>; <link rid="b32 b33 b40">Schoorlemmer 1995, 1998a, 1998b</link>; <link rid="b44">Van Hout and Roeper 1998</link>) that result nominals are inserted directly under nominal projections, whereas the structure of process nominals includes (i) an Aspect Phrase (AspP) and (ii) a &lsquo;deficient&rsquo; light v/Voice Phrase (vP) that does not license an external argument. Only vP and AspectP are present within process nominals (there is no Tense projection). The presence of AspP explains the aspectual properties of process nominals, whereas the presence of vP accounts for the eventive reading of these nominals. The structure for process nominals is presented in (30):</p>
+<p>(30)<object id="fu8" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_19_fu8.jpg" type="jpg" id="fu8_source"/>
+</objectsource>
+</object>
+</p>
+<p>According to <link rid="b38">Alexiadou (1999b</link>: 89), result nominals and process nominals are similar in the sense that both include the lexical node as their basic component, and hence both can take arguments. Process nominals are like verbs in the sense that their internal structure involves a Lexical Phrase embedded under vP and AspP. The difference between result and process nominals results from the absence of functional layers in the former, and does not reduce to a difference in the base (category neutral vs. nominal). Another important ingredient of Alexiadou&apos;s approach is that there is no process of passivization within nominals (contra Picallo, Borer, and Bottari). <link rid="b40">Schoorlemmer (1998b</link>) argues for lack of passivization within nominals on the basis of Russian. Alexiadou claims that nominals are generally intransitive, i.e., they are ergative constructions. Furthermore, Alexiadou distinguishes between process and event nominals (i.e., those with durative and terminative interpretation respectively), whereas in previous accounts either those two labels were used interchangeably or the difference was unimportant.</p>
+<p>All the current theories of derived nominals are concerned with the result/process ambiguity in the domain of action nominals. The debate cannot be reduced to the simple lexicalist&ndash;transformationalist controversy. First, drastically different accounts are advocated within what can be roughly referred to as the lexicalist position, and second, theories which essentially share the basic ideas (e.g., Borer&apos;s and Picallo&apos;s accounts) have been developed from different underlying assumptions with respect to the lexicalist&ndash;transformationalist controversy. All the theories presented above cover the same range of linguistic facts; namely, they account for the result/process ambiguity within the domain of action nominalizations. Moreover, only transitive actions are easily accommodated in all the above solutions. Intransitive derived nominals (i.e., nominals derived from unergative verbs) turn out to be non-existent.</p>
+</subsection>
+<subsection id="ss12" level="2">
+<heading id="h11" level="2">5.4&ensp;Configurational accounts of the result/process distinctions in Slavic languages</heading>
+<p>Purely syntactic accounts for the different syntax of action nominals and result nominals have also been attempted for Slavic languages such as Russian or Polish (<link rid="b35 b36">Engelhardt and Trugman 1998a, 1998b</link>; <link rid="b37">Rappaport 1998</link>; <link rid="b33 b40">Schoorlemmer 1998a, 1998b</link>; <link rid="b42">Willim 2000</link>). All these accounts are configurational, though often mutually incompatible. As mentioned above, the main difference between result nominals and process (action) nominals in Russian and Polish consists in the possibility of two adnominal genitives with result nominals and lack of the second genitive with process nominals. As reported in <link rid="b36">Engelhardt and Trugman (1998b</link>), the common trend in the analyses of Russian NPs has been to view only the lexical head N as a possible source of Case for genitive DPs (cf. <link rid="b49">Babby 1992</link>; <link rid="b50">Rappaport 1992</link>; <link rid="b32">Schoorlemmer 1995</link>). Under the standard assumptions those analyses were forced to treat all possessor elements as adjuncts, and did not explain why possessor adjuncts are ruled out in process nominals. <link rid="b35">Engelhardt and Trugman (1998a</link>) exploit the idea that genitive subjects in Russian are licensed by the functional head D. This is an extension of the account of subjects of nominal projections proposed for other languages (<link rid="b51">Abney 1987</link> for English; <link rid="b52 b53">Szabolcsi 1987, 1994</link> for Hungarian; <link rid="b54">Engelhardt 1997</link> for Hebrew; <link rid="b55 b56">Grosu 1988, 1994</link> for Rumanian). In addition to adopting the assumptions of parallel morphology, Engelhardt and Trugman assume that the Case licensed by functional and lexical heads in NPs is of a different nature (structural and inherent respectively). Inherent case is licensed by the lexical head N to its complement, whereas the structural case is licensed by the functional head D to the syntactic subject of the NP, i.e., the genitive DP occupying the specifier position. This mechanism, together with the assumption that all process nominals in Russian contain a passive VP-projection, rules out the possibility of double adnominal genitives in process nominals.</p>
+<p>
+<link rid="b37">Rappaport (1998</link>), following <link rid="b35">Engelhardt and Trugman (1998a</link>), assumes the DP analysis and claims that the NP is selected by a functional category of Determiner. However, he proposes a different Case-system. He distinguishes the internal geometry of material NPs (equivalent to Grimshaw&apos;s results) and action nominal NPs, and elaborates a mechanism of licensing NP-internal case assignment. Assuming the distinction between inherent case licensed by selection (and accompanied by the assignment of a thematic role) and structural case licensed by the need to check uninterpretable features (and divorced from thematic role assignment), Rappaport distinguishes two Determiners. The content of one is the feature &lsqb;possession&rsqb;. This Determiner can select a material noun and assign inherent case to its external argument together with a thematic role of Possessor by the mechanism of selection. The other Determiner has no semantic content and an uninterpretable case feature, which entails that it assigns structural case, unrelated to thematic role assignment. This uninterpretable feature &lsqb;&sim;genitive&rsqb; needs to be checked, and DP<sup>2</sup> can do so by permitting its case feature to raise to the position of D<sup>1</sup>. The relevant configurations are presented in (31) and (32):</p>
+<p>(31)<object id="fu9" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_19_fu9.jpg" type="jpg" id="fu9_source"/>
+</objectsource>
+</object>
+</p>
+<p>(32)<object id="fu10" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_19_fu10.jpg" type="jpg" id="fu10_source"/>
+</objectsource>
+</object>
+</p>
+<p>Rappaport&apos;s analysis does not require the assumption that all process nominals in Russian contain a passive VP-projection. Neither does it distinguish between lexical and syntactic derivations.</p>
+<p>
+<link rid="b41 b42">Willim (1999, 2000</link>) deals with the syntax of Polish NPs and the mechanism of genitive Case-checking. She suggests that in object-denoting nominals involving two lexical genitives, the Possessor is an adjunct rather than an argument of the noun and that it is adjoined to the lexical projection of the noun. The genitive Case of the Possessor is not supported by the noun and consequently, the subject or object can surface in the genitive. Otherwise, Polish, Czech, and Russian disallow two lexical genitives. Assuming that in these languages only one genitive argument can occur in the nominal complex, Willim claims that the second relevant head is missing, i.e., there is no Determiner.</p>
+</subsection>
+<subsection id="ss13" level="2">
+<heading id="h12" level="2">5.5&ensp;Gerunds as nominalizations</heading>
+<p>The binary distinction between syntactic and lexical nominalizations becomes even more complicated when confronted with gerunds (<related relationship="sibling" type="samework"><externallink id="chapter 30 - Gerundive Nominalizations.xml" type="file">chapter 30</externallink></related>). English <i>-ing</i> constructions pose a well-known problem in being three-way ambiguous and in exhibiting both verbal and nominal properties. The standard, traditional treatment recognizes three types of <i>-ing</i> structures: action nominals, gerunds, and <i>acc-ing</i> constructions, illustrated below (after <link rid="b57">Adger and Rhys 2000</link>) in (33 a, b, and c) respectively:</p>
+<p>(33)<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Jo&apos;s devouring of cakes</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Jo&apos;s devouring cakes</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Jo devouring cakes</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+<p>
+<link rid="b57">Adger and Rhys (2000</link>) argue that the constructions in (33b) and (33c) differ crucially from the construction in (33a). They propose a binary division between NGs (33a) and VGs (33b, c) and claim that the two classes could be distinguished by the representation of their argument structures: NGs have no argument structure while VGs have argument structure. Then, following <link rid="b58">Borer (1984a</link>) and assuming a modularized architecture for the morphology and syntax, they postulate a lexical combination for the affix and the root to derive NGs, but a syntactic combination of the root and the functional head -<i>ing</i> via head movement to derive VGs. As a result, there is a single lexical entry for the affix -<i>ing</i>, and different licensing conditions for complements depending on the presence vs. absence of argument structure. Such an account is incompatible with the approaches presented above, because it leaves no room for the explanation of the result/process ambiguity of derived nominals in terms of argument structure and the level of derivation (lexical vs. syntactic). Adger and Rhys&apos;s proposal presupposes that NGs are like derived nominals in having no argument structure.</p>
+</subsection>
+<subsection id="ss14" level="1">
+<heading id="h13" level="1">6&ensp;Intransitive nominals</heading>
+<p>By intransitive nominals we will understand here nominals derived from intransitive verbs. (Note, however, that a different understanding of intransitivity is assumed in <link rid="b38">Alexiadou 1999b</link>.) Basically, all the theories reported above cannot accommodate them in a consistent way. Grimshaw&apos;s <i>by</i>-phrase licensing rule in (23) predicts that if there are nominalizations from intransitive unergative verbs (that is, those that have an external argument available for suppression), then that suppressed external argument should appear in the <i>by</i> phrase.</p>
+<p>Contrary to the predictions of the theories reported above, there are languages where complex event nominals derived from unergative intransitive verbs do exist (cf. <link rid="b59 b34">Rozwadowska 1995b, 1997</link> for Polish, or <link rid="b32 b33 b40">Schoorlemmer 1995, 1998a, 1998b</link> for Russian). As discussed in <link rid="b59 b34">Rozwadowska (1995b, 1997</link>), Polish intransitive nominals qualify as CENs, since they may take aspectual modifiers, allow control into purpose clauses (another test employed by Grimshaw to check the complex event status of a nominal), and exhibit the familiar event/result distinction. Moreover, Polish intransitive nominals appear in aspectual pairs. Polish one-participant events must have their only argument expressed as a possessive modifier, irrespective of the type of semantic predicate (whether unergative or unaccusative).</p>
+<p>
+<link rid="b32">Schoorlemmer (1995</link>: 297&ndash;300) recognizes the existence of intransitive complex event nominals in Russian and thus provides further evidence for their existence cross-linguistically. <link rid="b33">Schoorlemmer (1998a</link>) demonstrates that Russian intransitive CENs, like the Polish ones, occur in eventive contexts, can take aspectual modification, and allow control into purpose clauses (if unergative). Both in Polish and in Russian, Agents of complex event nominals derived from intransitive verbs must appear as possessives and not in an Agentive phrase equivalent to the English <i>by</i> phrase. An example of a Polish intransitive nominal is presented in (34), whereas Russian intransitive nominals are illustrated (after <link rid="b33">Schoorlemmer 1998a</link>) in (35):</p>
+<p>(34)<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="1" valign="top">a.</entry>
+<entry>p&#x0142;ywanie Janka w swoim w&#x0142;asnym basenie przez godzin&#x0119;</entry>
+</row>
+<row><entry>&lsquo;John&apos;s swimming in his own swimming pool for an hour&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(35)<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="2" valign="top">a.</entry>
+<entry>My prisutstvovali pri Irinoj igre na skripke.</entry>
+</row>
+<row><entry>we were-present at Ira&apos;s play on violin</entry>
+</row>
+<row><entry>&lsquo;We witnessed Ira playing the violin.&rsquo;</entry>
+</row>
+<row><entry morerows="2" valign="top">b.</entry>
+<entry>My prisutstvovali pri ego iz&#x010D; eznovenii.</entry>
+</row>
+<row><entry>we were-present at his disappearance</entry>
+</row>
+<row><entry>&lsquo;We witnessed his disappearance.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The existence of intransitive CENs constitutes a challenge to the theories that do not admit them. The obligatory realization of their single participant as the possessor is a counter-argument to the suppression theories. While predicting the difference in argument distribution between non-argument-taking and argument-taking nominals in the domain of transitive actions, <link rid="b22">Grimshaw&apos;s (1990</link>) theory (like <link rid="b28">Zubizarreta&apos;s 1987</link>) fails to predict the failure of single participants of intransitive complex events to surface in the <i>przez/by</i> phrase. <link rid="b8">Borer&apos;s (1993</link>) and <link rid="b30">Picallo&apos;s (1991</link>) accounts do not admit intransitive complex event nominals either. Borer treats all syntactic nominalizations (corresponding to Grimshaw&apos;s CENs) as derived from passive verbs, so automatically intransitives are not considered at all. Picallo claims that among monadic nominals in Catalan only ergative nominals can designate events/processes, whereas the intransitives (i.e., unergatives) appear to be only able to have the result interpretation. Picallo observes that with respect to their morphological characteristics, ergative nominals, without exception, appear with a nominalization suffix (i.e., -<i>acio</i>, -<i>ada</i>, -<i>iment</i>, etc.), whereas a great number of intransitives consist of an NP stem with features for Gender and Number only, without a nominalization morpheme. Its lack accounts for the absence of the event/process reading. Similar implications can be found in <link rid="b38">Alexiadou (1999b</link>) and <link rid="b39">Markantonatou (1995</link>). Polish and Russian are different from English, Catalan, or Modern Greek in admitting complex event reading (i.e., abstract, non-concrete event/process interpretation) in the domain of intransitives. This is a challenge for all the available accounts referred to so far, which, despite significant theory-internal differences, all fail to accommodate single participants of unergative eventualities.</p>
+</subsection>
+<subsection id="ss15" level="1">
+<heading id="h14" level="1">7&ensp;Psych nominals</heading>
+<p>Psych nominals are nominals derived from the so called Experiencer verbs, divided into Subject Experiencer verbs and Object Experiencer verbs. They are illustrated for English in (36) and (37):</p>
+<p>(36)<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John&apos;s enjoyment of the film</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*the film&apos;s enjoyment (by/of John)</entry>
+</row>
+<row><entry>c.</entry>
+<entry>John enjoys the film</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(37)<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John&apos;s amusement at the books</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*the book&apos;s amusement of John</entry>
+</row>
+<row><entry>c.</entry>
+<entry>The books amused John.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The contrast in the distribution of nominal satellites between the pattern in (36) and the pattern typical of action nominals illustrated in (1) was already noticed by <link rid="b15">Anderson (1984</link>). Anderson accounts for this contrast in terms of a constraint on movement of &ldquo;non-affected&rdquo; objects inside NPs (<related relationship="sibling" type="samework"><externallink id="chapter 5 - Affectedness.xml" type="file">chapter 5</externallink></related>). Nominals such as those in (37) must then be treated as derived from adjectival passives rather than from verbs and are irrelevant for Anderson&apos;s constraint. For a critique of such an account see <link rid="b16">Amritavalli (1980</link>) and <link rid="b19">Rozwadowska (1988</link>).</p>
+<p>
+<link rid="b17">Rappaport (1983</link>) and <link rid="b19">Rozwadowska (1988</link>) independently formulate different versions of thematic constraints responsible for the distribution of satellites in derived nominals. Rappaport introduces the thematic label <i>Experienced</i> and suggests within the framework of Lexical-Functional Grammar that Experienced is restricted from being assigned the Poss function. Then, quite separately, she mentions nominals such as those in (38) and refers to <link rid="b15">Anderson&apos;s (1984</link>) constraint on the movement of non-affected objects to account for their ungrammaticality:</p>
+<p>(38)<object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*history&apos;s knowledge</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*John&apos;s sight by Mary</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*the event&apos;s recollection</entry>
+</row>
+<row><entry>d.</entry>
+<entry>*the problem&apos;s perception</entry>
+</row>
+<row><entry>e.</entry>
+<entry>*the picture&apos;s observation</entry>
+</row>
+<row><entry>f.</entry>
+<entry>*the novel&apos;s understanding</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b19">Rozwadowska (1988</link>) introduces the feature-decomposition approach to thematic relations and formulates various thematic constraints on the distribution of satellites in deverbal nominals in terms of features. She argues that they are more consistent than all the previous theories, that they account for a wider range of facts, and that they capture the overlap among thematic relations. The relevant constraints are presented in (39):</p>
+<p>(39)<object id="tu28" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu28_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>A &lsqb;&minus;change, &minus;sentient&rsqb; argument cannot appear in the specifier position of an English nominal.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>If one of the two arguments of a transitive nominal is &lsqb;&plus;change&rsqb;, then this argument must be expressed in a single argument nominal.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Only &lsqb;&plus;change&rsqb; arguments can be expressed as genitive complements of Polish transitive nominals.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Note that single-argument nominals are understood here as nominals taking one satellite but derived from transitive verbs:</p>
+<p>(40)<object id="tu29" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu29_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Rome&apos;s destruction</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John&apos;s love</entry>
+</row>
+<row><entry>c.</entry>
+<entry>John&apos;s surprise</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The constraint in (39b) is motivated by the contrast between (40) and (41):</p>
+<p>(41)<object id="tu30" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu30_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*the barbarians&rsquo; destruction (where <i>the barbarians</i> &equals; Agent)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*the books&rsquo; love (cf. <i>John loves books</i>)</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*her behavior&apos;s surprise (cf. <i>Her behavior surprises John</i>)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The constraint in (39c) is illustrated with the Polish data in (42&ndash;43):</p>
+<p>(42)<object id="tu31" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu31_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Jan podziwia Mari&#x0119;.</entry>
+</row>
+<row><entry>John-nom admires Mary-acc</entry>
+</row>
+<row><entry>&lsquo;John admires Mary.&rsquo;</entry>
+</row>
+<row><entry morerows="2">b.</entry>
+<entry>podziw Jana dla Marii</entry>
+</row>
+<row><entry>admiration-nom John-gen for Mary-gen</entry>
+</row>
+<row><entry>&lsquo;John&apos;s admiration for Mary&rsquo;</entry>
+</row>
+<row><entry morerows="1">c.</entry>
+<entry>*podziw Marii przez Jana</entry>
+</row>
+<row><entry>Admiration-nom Mary-gen by John-gen</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(43)<object id="tu32" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu32_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Dzieci zdumiewaj<formula id="fu11" format="inline">
+<file name="Graphics\chapter_19_fu11.gif" type="gif"/>
+</formula> rodzic&oacute;w.</entry>
+</row>
+<row><entry>children-nom amaze parents-acc</entry>
+</row>
+<row><entry>&lsquo;Children amaze parents.&rsquo;</entry>
+</row>
+<row><entry morerows="2">b.</entry>
+<entry>zdumienie rodzic&oacute;w dzie&#x0107;edil;mi</entry>
+</row>
+<row><entry>amazement-nom parents-gen children-instr</entry>
+</row>
+<row><entry>&lsquo;parents&rsquo; amazement at the children&rsquo;</entry>
+</row>
+<row><entry morerows="2">c.</entry>
+<entry>*zdumienie dzieci (przez) rodzic&oacute;w</entry>
+</row>
+<row><entry>amazement-nom children-gen (by) parents-gen</entry>
+</row>
+<row><entry>*&lsquo;children&apos;s amazement of/by the parents&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>All the above thematic constraints work consistently for both Object Experiencer and Subject Experiencer predicates, which is an argument in favor of the thematic constraints rather than syntactic solutions, since the two classes of predicates share thematic properties but differ in syntax.</p>
+<p>As discussed in <link rid="ss7">section 4</link>, under Grimshaw&apos;s analysis psych nominals derived from Subject Experiencer verbs are stipulated to have both argument and aspectual structures, and the lack of the <i>by</i> phrase in them is attributed to the semantic restriction on the <i>by</i> phrase in nominals. Psych nominals derived from Object Experiencer verbs are claimed to be results with no argument structure.</p>
+<p>In opposition to this view, <link rid="b60">Pesetsky (1995</link>: 72) maintains that nouns derived from Object Experiencer verbs like <i>agitation</i>, <i>annoyance</i>, <i>amusement</i>, etc. are not result nominals but argument-taking nouns, hence true nominalizations, some of which have uses that refer to objects, but not results. <link rid="b34">Rozwadowska (1997</link>), on the basis of Polish, develops further the idea that nominals related to both Subject Experiencer verbs and Object Experiencer verbs show all the ambiguities recognized in the action domain. <link rid="b34">Rozwadowska (1997</link>: 44&ndash;48, 85&ndash;97) demonstrates that psych nominals display the same pattern as action nominalizations. The examination of the cluster of properties standardly assumed to be tests for argumenthood reveals that psych nominals in general can be both argument-taking and non-argument-taking. In other words, they qualify as CENs. The predictions of the suppression theory, however, are not met then.</p>
+<p>
+<link rid="b39">Markantonatou (1995</link>) provides evidence from Modern Greek that many psychological predicates are related to some nominal. She shows that they take as many syntactic arguments as do the verbs they are related to and that they can be modified by the same durative adverbials:</p>
+<p>(44)<object id="tu33" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu33_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="2" valign="top">a.</entry>
+<entry>I agapi *(tu Yiani) *(yia tin Maria) dio hronia sto telos ton trelane.</entry>
+</row>
+<row><entry>the love the-gen Yianis-gen for the Maria for two years in-the end him made-crazy</entry>
+</row>
+<row><entry>&lsquo;Yianis&rsquo; love for Mary for two years made him crazy in the end.&rsquo;</entry>
+</row>
+<row><entry morerows="2" valign="top">b.</entry>
+<entry>(O Yianis) agapuse *(tin Maria) epi dio hronia.</entry>
+</row>
+<row><entry>the Yianis loved the Maria for two years</entry>
+</row>
+<row><entry>&lsquo;Yianis loved Maria for two years.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Markantonatou concludes that nothing is suppressed here, contra to Grimshaw&apos;s claim. Markantonatou proposes a mechanism for the derivation of Modern Greek deverbal nominals which requires the existence of an &lsquo;internal&rsquo; (&lsqb;&minus;r&rsqb;) argument, i.e., the argument bearing a semantically unrestricted grammatical function. She claims that a small set of simple, unification-based operations within the framework of the Lexical Mapping Theory of LFG (Lexical Functional Grammar) provides a broader coverage than the suppression theory.</p>
+<p>
+<link rid="b34">Rozwadowska (1997</link>) suggests that the lack of the <i>by</i> phrase in intransitive and psych nominals can be related to their intransitivity at the event-structure level, where the number of event participants is crucial. Borrowing from Van <link rid="b61">Hout (1996</link>) the idea that the number of event participants is a primitive at the level of event structure, Rozwadowska divides the domain of eventualities into external (i.e., non-psych) eventualities and internal (i.e., psych) eventualities. External eventualities can be either one-participant or two-participant eventualities, whereas internal eventualities are necessarily one-participant eventualities. Such division groups together intransitive actions and all psychological events. Then the distribution of the <i>by</i> phrase in derived nominals can be explained in terms of some version of <link rid="b62">Williams&apos;s (1987a</link>) ergativity rule operating at the level of event structure.</p>
+</subsection>
+<subsection id="ss16" level="1">
+<heading id="h15" level="1">8&ensp;More on aspectual properties of derived nominals</heading>
+<subsection id="ss17" level="2">
+<heading id="h16" level="2">8.1&ensp;English derived nominals</heading>
+<p>The relevance of aspectual dimension for the analysis of derived nominals was recognized by <link rid="b22">Grimshaw (1990</link>). Aspect is understood there in the sense of Vendlerian disctinctions, i.e., lexical differences between different types of predicates (activities, accomplishments, achievements, and states). The fact that derived nominals co-occur with the same temporal adverbials as do the corresponding verbs, as well as their co-occurence with the adjectives <i>frequent</i> and <i>constant</i>, is taken as evidence for the presence of aspect in them.</p>
+<p>Further studies of aspectual distinctions in derived nominals (e.g., <link rid="b33 b40">Schoorlemmer 1998a, 1998b</link>; <link rid="b63">Snyder 1998</link>; <link rid="b38">Alexiadou 1999b</link>; <link rid="b64">Rozwadowska 2000</link>) show that the problem of the presence of aspect in derived nominals is much more complex and needs more attention. <link rid="b63">Snyder (1998</link>) maintains that in English, active CENs derived from accomplishment verbs denote either the &ldquo;development&rdquo; (i.e., an &ldquo;on-going process&rdquo;) or the &ldquo;culmination&rdquo; of an underlying event. The compatibility of the nominal with the verb <i>continue</i> is taken by Snyder as evidence for the &ldquo;on-going process&rdquo; reading, illustrated in (45a). On the other hand, Grimshaw&apos;s example in (45b) illustrates the &ldquo;culmination&rdquo; reading (though not labelled in this way by her). That this is not an isolated phenomenon is further illustrated (after Snyder) in (46):</p>
+<p>(45)<object id="tu34" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu34_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>If the barbarians&rsquo; destruction of the city continues for another week, little will remain.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The total destruction of the city in only two days appalled everyone.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(46)<object id="tu35" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu35_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>If the reorganization of the filing system continues, I&rsquo;ll never be able to find anything.</entry>
+</row>
+<row><entry namest="col1" nameend="col2">b.If the consumption of our food continues at this rate, we&rsquo;ll exhaust our supplies in a week.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Snyder&apos;s examples with <i>continue</i> are supposed to prove that on top of the accomplishment reading standardly recognized with CENs derived from accomplishment verbs, active CENs allow also a &ldquo;development&rdquo; reading, which passive nominals resist, as illustrated in (47):</p>
+<p>(47)&ensp;a.&ensp;<sup>??</sup>If the city&apos;s destruction (by the barbarians) continues for another week, little will remain.</p>
+<p>Snyder claims that compatibility with <i>frequent</i> and <i>constant</i> is characteristic of propositional nominals and plural SENs, but not CENs or singular SENs. Passive nominals are incompatible with such modifiers, which suggests that they resist a propositional reading. However, Snyder claims that they receive a clear complex-event reading and can serve as the subject of <i>occur</i>. They are incompatible with <i>continue</i>, which leads to the conclusion that the passive nominalization of an accomplishment denotes the culmination of an underlying accomplishment event. Similar views are presented in <link rid="b38">Alexiadou (1999b</link>). Alexiadou presents arguments against the result analysis of passive nominals. She introduces the distinction between events and processes, arguing that English passive nominals are generally event nominals, i.e., have a terminative interpretation.</p>
+</subsection>
+<subsection id="ss18" level="2">
+<heading id="h17" level="2">8.2&ensp;Polish derived nominals</heading>
+<p>As shown in <link rid="b65 b34">Rozwadowska (1995a, 1997</link>), in Polish there are two types of derived nominals that qualify as CENs: derived nominals similar to those attested in other languages and the so-called verbal nouns. Polish verbal nouns are derived by means of the productive suffix <i>-nie/-cie</i> and appear in aspectual pairs (perfective vs. imperfective) distinguished morphologically in the same way as the corresponding aspectual pairs of verbs. Verbal nouns in Polish have more verbal properties than other derived nominals. However, they are unlike verbal gerunds or nominal infinitives (<related relationship="sibling" type="samework"><externallink id="chapter 30 - Gerundive Nominalizations.xml" type="file">chapter 30</externallink></related>) in not admitting accusative case on the object. It is also worth noticing that Polish is exceptional even when compared to other Slavic languages (e.g., Russian). The existence of the two types of CENs in Polish as contrasted to Russian led <link rid="b32">Schoorlemmer (1995</link>) to emphasize that Russian derived nominals are sensitive to aspectuality and not aspect. Also it inspired Schoorlemmer&apos;s proposal that Polish verbal nouns contain an embedded IP whereas Russian and Polish derived nominals contain only an embedded VP. Such a proposal is consistent with the approaches presented in the preceding sections, most of which relate different types of derived nominals to different functional projections or different levels at which the morphological operation takes place. <link rid="b34 b64">Rozwadowska (1997, 2000</link>) presents more evidence that all the three types of derived nominals (i.e., object nominals and two kinds of CENs) exist in Polish both in the action domain and in the psych domain. Polish derived nominals (as opposed to verbal nouns) are aspectually neutral, i.e., they are ambiguous between the perfective and the imperfective reading or their aspectual interpretation is idiosyncratic. On the other hand, Polish verbal nouns in all semantic domains seem to appear in aspectual pairs.</p>
+<p>The following facts should thus be highlighted:</p>
+<listgroup id="l4" type="i">
+<li>
+<number>(i)&ensp;</number>
+<p>In Polish there are two types of nominals that meet the criteria for CENs: aspectually neutral derived nominals with argument structure on one hand, and <i>-nie/-cie</i> nominals which have grammatical aspect in addition to argument structure on the other hand.</p>
+</li>
+<li>
+<number>(ii)&ensp;</number>
+<p>Polish derived nominals (but not verbal nouns) and English derived nominals share essential properties, including the aspectual ambiguity, which in fact suggests the absence of aspect rather than its presence in them.</p>
+</li>
+<li>
+<number>(iii)&ensp;</number>
+<p>The ambiguity of the derived nominals coincides with the internal complexity of the event denoted by the nominal (i.e., it is possible only with accomplishment verbs).</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss19" level="2">
+<heading id="h18" level="2">8.3&ensp;Russian derived nominals</heading>
+<p>
+<link rid="b66">Engelhardt (1998</link>) and <link rid="b36">Engelhardt and Trugman (1998b</link>) propose a correlation between the level of nominalization and the aspectual properties of the derived nominal. They observe that Russian <i>-nie</i> nominals are syntactic and claim that the syntactic derivation triggers an imperfective viewpoint of the event, in the sense of <link rid="b67">Smith (1991</link>). They do not claim that syntactic derivation of process nominals preserves aspectual features of a base verb, but that, irrespective of the aspect of the verbal base, syntactic derivation will always result in an imperfective nominal. According to this view syntactic nominalization is thus an imperfective operator. As one piece of evidence for their hypothesis <link rid="b36">Engelhardt and Trugman (1998b</link>) provide the distribution of modifiers such as Russian equivalents of <i>frequent</i> and <i>constant</i>, which have been found to be restricted to process nominals across languages. It turns out that in Russian the nominal derived from the imperfective base functions predominantly as a process nominal, whereas the one formed from the perfective base is preferred in the result interpretation. They also point out that perfective verbal bases stop giving rise to new <i>-nie</i> derivations.</p>
+</subsection>
+</subsection>
+<subsection id="ss20" level="1">
+<heading id="h19" level="1">9&ensp;Conclusion</heading>
+<p>Concluding this overview we can say that the current research agenda in the area of derived nominals goes in the direction of finding correlations between aspectual interpretation and syntax.</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss21" level="1" type="references">
+<heading id="h20" level="1">REFERENCES</heading>
+<reference id="b51" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Abney</surname><x>, </x><forenames>Steven</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date>
+<miscellaneoustext>). The English Noun Phrase in its Sentential Aspect. PhD dissertation, Cambridge, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b57" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Adger</surname><x>, </x><forenames>David</forenames>
+</name><x> and </x><name type="author">
+<forenames>Catrin<x> </x>Sian</forenames><x> </x><surname>Rhys</surname>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">Eliminating Disjunction in Lexical Specifica-tion</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Lexical Specification and Insertion</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Coopmans</surname>
+</name><x>, </x><name type="editor">
+<forenames>Martin</forenames><x> </x><surname>Everaert</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Jane</forenames><x> </x><surname>Grimshaw</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">1</page><x>&ndash;</x><page type="last">26</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference id="b38" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Alexiadou</surname><x>, </x><forenames>Artemis</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999b</date>
+<miscellaneoustext>). On the Syntax of Nominalization and Possession: Remarks on Patterns of Ergativity. Unpublished manuscript, University of Potsdam</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b16" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Amritavalli</surname><x>, </x><forenames>Raghavachari</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="document">Expressing Cross-Categorial Selectional Correspondences: An Alternative to the X&prime; Syntax Approach</title><x>. </x><title type="journal">Linguistic Analysis</title><x> </x><volume>6</volume><x>: </x><page type="first">305</page><x>&ndash;</x><page type="last">343</page><x>.</x>
+</reference>
+<reference id="b15" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Anderson</surname><x>, </x><forenames>Mona</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">Prenominal Genitive NPs</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>3</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">24</page><x>.</x>
+</reference>
+<reference id="b49" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Babby</surname><x>, </x><forenames>Leonard</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Noncanonical Configurational Case Assignment Strategies</title><x>. </x><title type="journal">Cornell Working Papers in Linguistics</title><x> </x><volume>9</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">56</page><x>.</x>
+</reference>
+<reference id="b58" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Borer</surname><x>, </x><forenames>Hagit</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984a</date><x>). </x><title type="book">Parametric Syntax: Case Studies in Semitic and Romance Languages</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b7" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Borer</surname><x>, </x><forenames>Hagit</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">The Causative&ndash;Inchoative Alternation: A Case Study in Parallel Morphology</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>8</volume><x>: </x><page type="first">119</page><x>&ndash;</x><page type="last">158</page><x>.</x>
+</reference>
+<reference id="b8" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Borer</surname><x>, </x><forenames>Hagit</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date>
+<miscellaneoustext>). Parallel Morphology. Unpublished manuscript, Utrecht University</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b31" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Bottari</surname><x>, </x><forenames>Piero</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">On the Predicate-Argument Structure of Romance Passive Nominals</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Geneva Generative Papers</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Michal</forenames><x> </x><surname>Starke</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">66</page><x>&ndash;</x><page type="last">80</page><x>. </x><address>Geneva</address><x>: </x><publisher>Department of Lin-guistics, University of Geneva.</publisher>
+</reference>
+<reference id="b10" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1957">1957</date><x>). </x><title type="book">Syntactic Structures<x>.</x>
+</title><x> </x><address>The Hague</address><x>: </x><publisher>Mouton.</publisher>
+</reference>
+<reference id="b12" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1965">1965</date><x>). </x><title type="book">Aspects of the Theory of Syntax<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b11" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1970">1970</date><x>). </x><title type="document">Remarks on Nominalization</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Readings in English Transformational Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Roderick</forenames><x> </x><surname>Jacobs</surname>
+</name><x> and </x><name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Rosenbaum</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">184</page><x>&ndash;</x><page type="last">221</page><x>. </x><address>Boston</address><x>: </x><publisher>Ginn.</publisher>
+</reference>
+<reference id="b68" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986b</date><x>). </x><title type="book">Knowledge of Language: Its Nature, Origin and Use</title><x>. </x><address>New York</address><x>: </x><publisher>Praeger.</publisher>
+</reference>
+<reference id="b48" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">Some Notes on Economy of Derivation and Representation</title><x>. </x><title type="journal">MIT Working Papers in Linguistics</title><x> </x><volume>10</volume><x>: </x><page type="first">43</page><x>&ndash;</x><page type="last">74</page><x>.</x>
+</reference>
+<reference id="b3" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Comrie</surname><x>, </x><forenames>Bernard</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976b</date><x>). </x><title type="document">The Syntax of Action Nominals: A Cross-Linguistic Study</title><x>. </x><title type="journal">Lingua</title><x> </x><volume>40</volume><x>: </x><page type="first">177</page><x>&ndash;</x><page type="last">201</page><x>.</x>
+</reference>
+<reference id="b4" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Comrie</surname><x>, </x><forenames>Bernard</forenames>
+</name><x> and </x><name type="author">
+<forenames>Sandra</forenames><x> </x><surname>Thompson</surname>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">Lexical Nominalization</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Language Typology and Syntactic Description 3: Grammatical Categories and the Lexicon</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Tim</forenames><x> </x><surname>Shopen</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">349</page><x>&ndash;</x><page type="last">398</page><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>D&eacute;chaine</surname><x>, </x><forenames>Rose-Marie</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988b</date><x>). </x><title type="document">Towards a Typology of Serial Constructions in Haitian</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Niger-Congo Syntax and Semantics 1</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Victor</forenames><x> </x><surname>Manfredi</surname>
+</name><x> and </x><name type="editor">
+<forenames>Karl</forenames><x> </x><surname>Reynolds</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Bloomington</address><x>: </x><publisher>Indiana University Linguistics Club.</publisher>
+</reference>
+<reference id="b54" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Engelhardt</surname><x>, </x><forenames>Miriam</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">The Licensing of Subjects in Noun Phrases</title><x>. </x><title type="journal">IATL Proceedings</title><x> </x><volume>4</volume><x>: </x><page type="first">41</page><x>&ndash;</x><page type="last">54</page><x>.</x>
+</reference>
+<reference id="b66" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Engelhardt</surname><x>, </x><forenames>Miriam</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date>
+<miscellaneoustext>). The Syntax of Nominalized Properties. PhD dissertation, Jerusalem, Hebrew University</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b35" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Engelhardt</surname><x>, </x><forenames>Miriam</forenames>
+</name><x> and </x><name type="author">
+<forenames>Helen</forenames><x> </x><surname>Trugman</surname>
+</name>
+</namegroup><x> (</x><date date="1998">1998a</date><x>). </x><title type="document">D as a Source of Adnominal Genitive in Russian</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Formal Approaches to Slavic Linguistics 7</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>&#x017D;eljko</forenames><x> </x><surname>Bo&scaron;kovi&#x0107;</surname>
+</name><x>, </x><name type="editor">
+<forenames>Steven</forenames><x> </x><surname>Franks</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>William</forenames><x> </x><surname>Snyder</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">114</page><x>&ndash;</x><page type="last">133</page><x>. </x><address>Ann Arbor</address><x>: </x><publisher>Slavic Publications.</publisher>
+</reference>
+<reference id="b36" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Engelhardt</surname><x>, </x><forenames>Miriam</forenames>
+</name><x> and </x><name type="author">
+<forenames>Helen</forenames><x> </x><surname>Trugman</surname>
+</name>
+</namegroup><x> (</x><date date="1998">1998b</date><x>). </x><title type="document">Double Genitive Constructions in Russian</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Workshop on Slavic Morphosyntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>George</forenames><x> </x><surname>Fowler</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>. </x><address>Indiana</address><x>: </x><publisher>State of the Art.</publisher>
+</reference>
+<reference id="b9" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Fu</surname><x>, </x><forenames>Jingqi</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date>
+<miscellaneoustext>). On Deriving Chinese Derived Nominals. PhD dissertation, Amherst, University of Massachusetts</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b45" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Fu</surname><x>, </x><forenames>Jingqi</forenames>
+</name><x>, </x><name type="author">
+<forenames>Thomas</forenames><x> </x><surname>Roeper</surname>
+</name><x>, and </x><name type="author">
+<forenames>Hagit</forenames><x> </x><surname>Borer</surname>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date>
+<miscellaneoustext>). The VP Within Nominalizations: Evidence from Adverbs and the VP Anaphor Do-So. Unpublished manuscript, Amherst, University of Massachusetts</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b13" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Giorgi</surname><x>, </x><forenames>Alessandra</forenames>
+</name><x> and </x><name type="author">
+<forenames>Giuseppe</forenames><x> </x><surname>Longobardi</surname>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="book">The Syntax of Noun Phrases: Configuration, Parameters, and Empty Categories</title><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b25" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Grimshaw</surname><x>, </x><forenames>Jane</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date>
+<miscellaneoustext>). Nouns, Arguments and Adjuncts. Unpublished manuscript, Brandeis University</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b22" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Grimshaw</surname><x>, </x><forenames>Jane</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="book">Argument Structure<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b47" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Grimshaw</surname><x>, </x><forenames>Jane</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date>
+<miscellaneoustext>). Extended Projections. Unpublished manuscript, Brandeis University</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b55" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Grosu</surname><x>, </x><forenames>Alexander</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">On the Distribution of Genitive Phrases in Romanian</title><x>. </x><title type="journal">Linguistics</title><x> </x><volume>26</volume><x>: </x><page type="first">931</page><x>&ndash;</x><page type="last">949</page><x>.</x>
+</reference>
+<reference id="b56" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Grosu</surname><x>, </x><forenames>Alexander</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">Three Studies in Locality and Case<x>.</x>
+</title><x> </x><address>London</address><x>: </x><publisher>Routledge.</publisher>
+</reference>
+<reference type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Gussmann</surname><x>, </x><forenames>Edmund</forenames>
+</name>
+</namegroup><x> </x><namegroup type="editors">
+<miscellaneoustext>(ed.) (</miscellaneoustext>
+</namegroup>
+<date date="1995">1995</date><x>). </x><title type="other">Licensing in Syntax and Phonology</title><x>. </x><address>Lublin</address><x>: </x><name type="editor">
+<surname>Folium</surname>
+</name><x>.</x>
+</reference>
+<reference id="b46" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hazout</surname><x>, </x><forenames>Ilan</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">Nominalizers in Theta Theory</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>11</volume><x>: </x><page type="first">5</page><x>&ndash;</x><page type="last">48</page><x>.</x>
+</reference>
+<reference id="b43" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hazout</surname><x>, </x><forenames>Ilan</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Action Nominalizations and the Lexicalist Hypothesis</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>13</volume><x>: </x><page type="first">355</page><x>&ndash;</x><page type="last">404</page><x>.</x>
+</reference>
+<reference id="b18" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hoekstra</surname><x>, </x><forenames>Teun</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986a</date><x>). </x><title type="document">Deverbalization and Inheritance</title><x>. </x><title type="journal">Linguistics</title><x> </x><volume>24</volume><x>: </x><page type="first">549</page><x>&ndash;</x><page type="last">584</page><x>.</x>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hopper</surname><x>, </x><forenames>Paul</forenames>
+</name><x> and </x><name type="author">
+<forenames>Sandra</forenames><x> </x><surname>Thompson</surname>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">The Iconicity of &lsquo;Noun&rsquo; and &lsquo;Verb&rsquo;</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Iconicity in Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>John</forenames><x> </x><surname>Haiman</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference id="b61" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Hout</surname><x>, </x><forenames>Angeliek<x> </x>van</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date>
+<miscellaneoustext>). Event Semantics of Verb Frame Alternations: A Case Study of Dutch and its Acquisition. PhD dissertation, Tilburg University</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b44" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hout</surname><x>, </x><forenames>Angeliek<x> </x>van</forenames>
+</name><x> and </x><name type="author">
+<forenames>Thomas</forenames><x> </x><surname>Roeper</surname>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">Events and Aspectual Structure in Derivational Morphology</title><x>. </x><title type="journal">MIT Working Papers in Linguistics</title><x> </x><volume>32</volume><x>: </x><page type="first">175</page><x>&ndash;</x><page type="last">220</page><x>.</x>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Koptjevskaja-Tamm</surname><x>, </x><forenames>Maria</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="book">Nominalizations<x>.</x>
+</title><x> </x><address>London</address><x>: </x><publisher>Routledge.</publisher>
+</reference>
+<reference id="b26" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lebeaux</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">The Interpretation of Derived Nominals</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Twenty-second Regional Meeting of the Chicago Linguistic Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Anne</forenames><x> </x><surname>Farley</surname>
+</name><x>, </x><name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Farley</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Karl-Erik</forenames><x> </x><surname>McCullough</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">231</page><x>&ndash;</x><page type="last">247</page><x>. </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society.</publisher>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lees</surname><x>, </x><forenames>Robert<x> </x>B<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1960">1960</date><x>). </x><title type="book">The Grammar of English Nominalizations<x>.</x>
+</title><x> </x><address>Bloomington</address><x>: </x><publisher>Indiana University Press.</publisher>
+</reference>
+<reference id="b29" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Malicka-Kleparska</surname><x>, </x><forenames>Anna</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="book">Rules and Lexicalisations: Selected English Nominals</title><x>. </x><address>Lublin</address><x>: </x><publisher>Redakcja Wydawnictw Katolickiego Uniwersytetu Lubelskiego</publisher><x>.</x>
+</reference>
+<reference id="b39" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Markantonatou</surname><x>, </x><forenames>Stella</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Modern Greek Deverbal Nominals: An LMT Approach</title><x>. </x><title type="journal">Journal of Linguistics</title><x> </x><volume>31</volume><x>: </x><page type="first">267</page><x>&ndash;</x><page type="last">299</page><x>.</x>
+</reference>
+<reference id="b60" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Pesetsky</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="book">Zero Syntax: Experiencers and Cascades</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b30" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Picallo</surname><x>, </x><forenames>Carme</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Nominals and Nominalizations in Catalan</title><x>. </x><title type="journal">Probus</title><x> </x><volume>3</volume><x>: </x><page type="first">271</page><x>&ndash;</x><page type="last">316</page><x>.</x>
+</reference>
+<reference id="b23" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Pustejovsky</surname><x>, </x><forenames>James</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">The Geometry of Events</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Studies in Generative Approaches to Aspect</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Carol</forenames><x> </x><surname>Tenny</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">19</page><x>&ndash;</x><page type="last">40</page><x>. </x><address>Cambridge</address><x>: </x><publisher>Center for Cognitive Science, MIT.</publisher>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Pustejovsky</surname><x>, </x><forenames>James</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">The Syntax of Event Structure</title><x>. </x><title type="journal">Cognition</title><x> </x><volume>41</volume><x>: </x><page type="first">47</page><x>&ndash;</x><page type="last">81</page><x>.</x>
+</reference>
+<reference id="b50" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rappaport</surname><x>, </x><forenames>Gilbert<x> </x>C<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">On the Adnominal Genitive and the Structure of Noun Phrases in Russian and Polish</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Linguistique et Slavistique</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Marguerite</forenames><x> </x><surname>Guiraud-Weber</surname>
+</name><x> and </x><name type="editor">
+<forenames>Charles</forenames><x> </x><surname>Zaremba</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">241</page><x>&ndash;</x><page type="last">262</page><x>. </x><address>Paris</address><x>: </x><publisher>Publications de l&rsquo;Universit&eacute; de Provence.</publisher>
+</reference>
+<reference id="b37" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Rappaport</surname><x>, </x><forenames>Gilbert<x> </x>C<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">The Slavic Noun Phrase</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="other">Comparative Slavic Morphosyntax: The State of the Art</title>
+<x>. </x><miscellaneoustext><externallink type="url">http://www.indiana.edu/</externallink>&percnt;7Eslavconf/linguistics/download.html</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rappaport</surname><x>, </x><forenames>Malka</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">On the Nature of Derived Nominals</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers in Lexical-Functional Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Lori</forenames><x> </x><surname>Levin</surname>
+</name><x>, </x><name type="editor">
+<forenames>Malka</forenames><x> </x><surname>Rappaport</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Annie</forenames><x> </x><surname>Zaenen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">113</page><x>&ndash;</x><page type="last">142</page><x>. </x><address>Bloomington</address><x>: </x><publisher>Indiana University Press.</publisher>
+</reference>
+<reference id="b21" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date>
+<miscellaneoustext>). Syntactic Effects of Lexical Operations: Reflexives and Unaccusatives. Unpublished manuscript, Utrecht, Utrecht University</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b27" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Roeper</surname><x>, </x><forenames>Thomas</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987b</date>
+<miscellaneoustext>). The Syntax of Compound Reference. Unpublished manuscript, Amherst, University of Massachusetts</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b19" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rozwadowska</surname><x>, </x><forenames>Bo&#x017C;ena</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Thematic Restrictions on Derived Nominals</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Syntax and Semantics: Thematic Relations</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Wendy</forenames><x> </x><surname>Wilkins</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">147</page><x>&ndash;</x><page type="last">165</page><x>. </x><address>New York</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rozwadowska</surname><x>, </x><forenames>Bo&#x017C;ena</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">Are Thematic Relations Discrete?</title>
+<miscellaneoustext> In</miscellaneoustext><x>: </x>
+<title type="book">Linguistic Categorization</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Roberta</forenames><x> </x><surname>Corrigan</surname>
+</name><x>, </x><name type="editor">
+<forenames>Fred</forenames><x> </x><surname>Eckman</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Michael</forenames><x> </x><surname>Noonan</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">115</page><x>&ndash;</x><page type="last">129</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rozwadowska</surname><x>, </x><forenames>Bo&#x017C;ena</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">On Argument Realization in Polish Deverbal Nominals</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">OTS Yearbook 1991</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Coopmans</surname>
+</name><x>, </x><name type="editor">
+<forenames>Bert</forenames><x> </x><surname>Shouten</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Wim</forenames><x> </x><surname>Zonneveld</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">65</page><x>&ndash;</x><page type="last">79</page><x>. </x><address>Utrecht</address><x>: </x><publisher>Utrecht University.</publisher>
+</reference>
+<reference id="b20" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rozwadowska</surname><x>, </x><forenames>Bo&#x017C;ena</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="book">Thematic Constraints on Selected Constructions in English and Polish<x>.</x>
+</title><x> </x><address>Wroc&#x0142;aw</address><x>: </x><publisher>Wydawnictwo Uniwersytu Wroc&#x0142;awskiego.</publisher>
+</reference>
+<reference id="b65" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Rozwadowska</surname><x>, </x><forenames>Bo&#x017C;ena</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995a</date><x>). </x><title type="document">Configurational Hypothesis and Polish NPs</title><x>. </x><title type="journal">Papers and Studies in Contrastive Linguistics</title><x> </x><volume>30</volume><x>: </x><page type="first">131</page><x>&ndash;</x><page type="last">144</page><x>.</x>
+</reference>
+<reference id="b59" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rozwadowska</surname><x>, </x><forenames>Bo&#x017C;ena</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995b</date><x>). </x><title type="document">The Duality of Polish <i>-Nie/-Cie</i> Nominals</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Licensing in Syntax and Phonology</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Edmund</forenames><x> </x><surname>Gussmann</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">87</page><x>&ndash;</x><page type="last">106</page><x>. </x><address>Lublin</address><x>: </x><publisher>Folium</publisher><x>.</x>
+</reference>
+<reference id="b34" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rozwadowska</surname><x>, </x><forenames>Bo&#x017C;ena</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="book">Towards a Unified Theory of Nominalizations<x>.</x>
+</title><x> </x><address>Wroc&#x0142;aw</address><x>: </x><publisher>Wydawnictwo Uniwersytetu Wroc&#x0142;awskiego.</publisher>
+</reference>
+<reference id="b64" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rozwadowska</surname><x>, </x><forenames>Bo&#x017C;ena</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">Event Structure, Argument Structure and the <i>By</i>-Phrase in Polish Nominalizations</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Lexical Specification and Insertion</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Coopmans</surname>
+</name><x>, </x><name type="editor">
+<forenames>Martin</forenames><x> </x><surname>Everaert</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Jane</forenames><x> </x><surname>Grimshaw</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">329</page><x>&ndash;</x><page type="last">347</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Rozwadowska</surname><x>, </x><forenames>Bo&#x017C;ena</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="document">Aspectual Properties of Polish Nominalizations</title><x>. </x><title type="journal">Journal of Slavic Linguistics</title><x> </x><volume>8/1&ndash;2</volume><x>: </x><page type="first">239</page><x>&ndash;</x><page type="last">261</page><x>.</x>
+</reference>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Sapir</surname><x>, </x><forenames>Edward</forenames>
+</name>
+</namegroup><x> (</x><date date="1921">1921</date><x>). </x><title type="book">Language<x>.</x>
+</title><x> </x><address>New York</address><x>: </x><publisher>Harcourt, Brace.</publisher>
+</reference>
+<reference id="b32" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Schoorlemmer</surname><x>, </x><forenames>Maaike</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date>
+<miscellaneoustext>). Participial Passive and Aspect in Russian. PhD dissertation, Utrecht, Research Institute for Language and Speech</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b33" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Schoorlemmer</surname><x>, </x><forenames>Maaike</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998a</date><x>). </x><title type="document">Complex Event Nominals</title><x>. </x><title type="journal">Journal of Slavic Linguistics</title><x> </x><volume>6</volume><x>: </x><page type="first">205</page><x>&ndash;</x><page type="last">254</page><x>.</x>
+</reference>
+<reference id="b40" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Schoorlemmer</surname><x>, </x><forenames>Maaike</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998b</date>
+<miscellaneoustext>). There is No Such Thing as a Passive Nominal. Unpublished manuscript, Utrecht, OTS Utrecht University</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b67" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Smith</surname><x>, </x><forenames>Carlota</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="book">The Parameter of Aspect<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Kluwer.</publisher>
+</reference>
+<reference id="b63" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Snyder</surname><x>, </x><forenames>William</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">On the Aspectual Properties of English Derived Nominals</title><x>. </x><title type="journal">MIT Working Papers in Linguistics</title><x> </x><volume>25</volume><x>: </x><page type="first">125</page><x>&ndash;</x><page type="last">139</page><x>.</x>
+</reference>
+<reference id="b52" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Szabolcsi</surname><x>, </x><forenames>Anna</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Functional Categories in the Noun Phrase</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Approaches to Hungarian</title><x>. </x><volume>Vol. 2</volume><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Istv&aacute;n</forenames><x> </x><surname>Kenesei</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">167</page><x>&ndash;</x><page type="last">189</page><x>. </x><address>Szeged</address><x>: </x><publisher>Joseph Attila University.</publisher>
+</reference>
+<reference id="b53" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Szabolcsi</surname><x>, </x><forenames>Anna</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">The Noun Phrase</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Syntax and Semantics 27</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ferenc</forenames><x> </x><surname>Kiefer</surname>
+</name><x> and </x><name type="editor">
+<forenames>Katalin<x> </x>&Eacute;<x>.</x>
+</forenames><x> </x><surname>Kiss</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">197</page><x>&ndash;</x><page type="last">274</page><x>. </x><address>New York</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference id="b24" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Walinska de Hackbeil</surname><x>, </x><forenames>Hanna</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">On Two Types of Derived Nominals</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Twentieth Regional Meeting of the Chicago Linguistic Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Joseph</forenames><x> </x><surname>Drogo</surname>
+</name><x>, </x><name type="editor">
+<forenames>Veena</forenames><x> </x><surname>Mishra</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>David</forenames><x> </x><surname>Testen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">308</page><x>&ndash;</x><page type="last">332</page><x>. </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society.</publisher>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Wilkins</surname><x>, </x><forenames>Wendy</forenames>
+</name>
+</namegroup><x> </x><namegroup type="editors">
+<miscellaneoustext>(ed.)</miscellaneoustext>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="book">Thematic Relations<x>.</x>
+</title><x> </x><address>San Diego</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference id="b14" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Williams</surname><x>, </x><forenames>Edwin</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981a</date><x>). </x><title type="document">Argument Structure and Morphology</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>1</volume><x>: </x><page type="first">81</page><x>&ndash;</x><page type="last">114</page><x>.</x>
+</reference>
+<reference id="b62" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Williams</surname><x>, </x><forenames>Edwin</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987a</date><x>). </x><title type="document">English as an Ergative Language: Theta Structure of Derived Nouns</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Twenty-third Regional Meeting of the Chicago Linguistic Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Barbara</forenames><x> </x><surname>Need</surname>
+</name><x>, </x><name type="editor">
+<forenames>Eric</forenames><x> </x><surname>Schiller</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Anna</forenames><x> </x><surname>Bosch</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">366</page><x>&ndash;</x><page type="last">375</page><x>. </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society.</publisher>
+</reference>
+<reference id="b41" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Willim</surname><x>, </x><forenames>Ewa</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">On the Syntax of Genitive Nominals: The Case of Polish</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Crossing Boundaries: Advances in the Theory of Central and Eastern European Languages</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Istv&aacute;n</forenames><x> </x><surname>Kenesei</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">179</page><x>&ndash;</x><page type="last">210</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference id="b42" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Willim</surname><x>, </x><forenames>Ewa</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">On the Grammar of Polish Nominals</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Step by Step: Essays on Minimalist Syntax in Honor of Howard Lasnik<x>.</x>
+</title><x> </x><namegroup type="editors">
+<name type="editor">
+<forenames>Roger</forenames><x> </x><surname>Martin</surname>
+</name><x>, </x><name type="editor">
+<forenames>David</forenames><x> </x><surname>Michaels</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Juan</forenames><x> </x><surname>Uriagereka</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b28" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Zubizarreta</surname><x>, </x><forenames>Maria-Luisa</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="book">Levels of Representation in the Lexicon and in Syntax</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

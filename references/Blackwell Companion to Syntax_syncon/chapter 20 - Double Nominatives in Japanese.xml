@@ -1,0 +1,2522 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="20"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 20 - Double Nominatives in Japanese.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">56</page>
+<page type="last">72</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="0"/>
+<count type="table" count="33"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="19"/>
+<count type="page" count="17"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20050811"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 20&ensp;Tateishi: Double Nominatives in Japanese</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 20&ensp;Tateishi: Double Nominatives in Japanese</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">20 Double Nominatives in Japanese</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>KOICHI</forenames><x> </x><surname>TATEISHI</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Double Subject/Nominative Constructions</p>
+</li>
+<li level="2">
+<number>2.1&ensp;</number>
+<p>The Double Nominative Double Subject Construction</p>
+</li>
+<li level="2">
+<number>2.2&ensp;</number>
+<p>Topic and subject</p>
+</li>
+<li level="2">
+<number>2.3&ensp;</number>
+<p>The Nominative Object Construction</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>Focus/exhaustive listing and Subjectivization</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>After Subjectivization: analyses on Double (Nominative) Subjects</p>
+</li>
+<li level="2">
+<number>4.1&ensp;</number>
+<p>Kuroda on Major Subject</p>
+</li>
+<li level="2">
+<number>4.2&ensp;</number>
+<p>Pure Topic</p>
+</li>
+<li level="2">
+<number>4.3&ensp;</number>
+<p>Mihara on &lsquo;aboutness&rsquo;</p>
+</li>
+<li level="2">
+<number>4.4&ensp;</number>
+<p>Tateishi&apos;s non-movement analysis</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>Nominative assignment</p>
+</li>
+<li level="2">
+<number>5.1&ensp;</number>
+<p>Saito&apos;s analysis of Nominatives</p>
+</li>
+<li level="2">
+<number>5.2&ensp;</number>
+<p>Multiple Nominative assignment</p>
+</li>
+<li level="1">
+<number>6&ensp;</number>
+<p>Functional categories and Double Nominatives</p>
+</li>
+<li level="2">
+<number>6.1&ensp;</number>
+<p>Kuroda and Fukui&apos;s parametrization approach</p>
+</li>
+<li level="2">
+<number>6.2&ensp;</number>
+<p>Case particles as functional heads</p>
+</li>
+<li level="1">
+<number>7&ensp;</number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1 Introduction</heading>
+<p>The existence of the Double Nominative Construction as in (1) is one of the peculiarities that linguists working on the Japanese language have always paid attention to:</p>
+<p>(1)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry>Nihon</entry>
+<entry>-ga</entry>
+<entry>kokumin</entry>
+<entry>-no</entry>
+<entry>heikin</entry>
+<entry>jumyoo</entry>
+<entry>-ga</entry>
+<entry>mijika</entry>
+<entry>-i.</entry>
+</row>
+<row><entry>Japan</entry>
+<entry>NOM</entry>
+<entry>citizen</entry>
+<entry>GEN</entry>
+<entry>average</entry>
+<entry>lifespan</entry>
+<entry>NOM</entry>
+<entry>short</entry>
+<entry>PRES</entry>
+</row>
+<row><entry namest="col1" nameend="col9">&lsquo;It is Japan whose citizen&apos;s average lifespan is short.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This construction is taken to be peculiar because it has been considered that the subject position and the Nominative Case assignment which usually comes with it are unique per clause. Sometimes the non-uniqueness of the subject/Nominative has been taken as evidence that Japanese lacks the notion <i>subject</i> in formal terms, and, at other times, the existence of such a construction has been regarded as the basis of parametrization on the function of the syntactic categories <i>INFL/Tense/Agr/C(K)ase</i>, as they are all said to be relevant to the Nominative Case assignment/checking. Some people notice the focal characteristic of the &lsquo;outer&rsquo; subject and investigate where it comes from. Because the Double Nominative Construction does not fit into the ordinary scheme of the clausal structure &lsqb;S NP &lsqb;VP V NP&rsqb;&rsqb; with a unique subject per clause, the analysis of this construction has enough power to affect the theory of the clausal structure per se.</p>
+<p>This case study presents and reviews some previous work on this peculiar construction and sees what issue is at stake and what the construction can tell us about the theory of the clausal structure. <link rid="ss3">Section 2</link> introduces types of Double Nominative/Subject Constructions that exist in a single language called Japanese. As Japanese has another topic/subject marker <i>-wa</i> alongside the ordinary Nominative <i>-ga</i>, we cannot avoid mentioning how <i>-wa</i> and <i>-ga</i> interact with each other. <link rid="ss7">Section 3</link> discusses the focal characteristic of some Double Nominative sentences. In this context, the rule &lsquo;Subjectivization&rsquo; as a kind of focalization rule will be introduced. <link rid="ss8">Section 4</link> overviews analyses of other types of Double Subject sentences not derived by Subjectivization. <link rid="ss13">Section 5</link> introduces views on Case assignment/checking in relation to the Double Nominative Construction. The non-uniqueness of the Nominative Assignment in this particular construction has been and is an important issue for the theory of grammatical Case. <link rid="ss16">Section 6</link> reviews what kind of typology is possible to allow for Double-Nominative languages and Unique-Nominative languages. <link rid="ss19">Section 7</link> summarizes the article.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2 Double Subject/Nominative Constructions</heading>
+<subsection id="ss4" level="2">
+<heading id="h3" level="2">2.1 The Double Nominative Double Subject Construction</heading>
+<p>In a language like English, on the basis of which the theory of generative grammar has mainly developed, the position of the subject and the assignment/checking of the Nominative Case have been taken to be unique for a clause:</p>
+<p>(2)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John&apos;s</entry>
+<entry>uncle</entry>
+<entry>is</entry>
+<entry>a</entry>
+<entry>doctor.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*John</entry>
+<entry>uncle</entry>
+<entry>is</entry>
+<entry>a</entry>
+<entry>doctor.<link rid="fn1">
+<sup>1</sup></link>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This is not the case in Japanese. In Japanese, having two or more Nominative Subjects is possible:</p>
+<p>(3)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Jon</entry>
+<entry>-ga</entry>
+<entry>isha</entry>
+<entry>-da.</entry>
+</row>
+<row><entry>John</entry>
+<entry>NOM</entry>
+<entry>doctor</entry>
+<entry>is</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;John is a doctor.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Jon</entry>
+<entry>-ga</entry>
+<entry>oji</entry>
+<entry>-ga</entry>
+<entry>isha</entry>
+<entry>-da.</entry>
+</row>
+<row><entry>John</entry>
+<entry>NOM</entry>
+<entry>uncle</entry>
+<entry>NOM</entry>
+<entry>doctor</entry>
+<entry>is</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;It is John whose uncle is a doctor.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>Jon</entry>
+<entry>-ga</entry>
+<entry>oji</entry>
+<entry>-ga</entry>
+<entry>me</entry>
+<entry>-ga</entry>
+<entry>chikai.</entry>
+</row>
+<row><entry>John</entry>
+<entry>NOM</entry>
+<entry>uncle</entry>
+<entry>NOM</entry>
+<entry>eye</entry>
+<entry>NOM</entry>
+<entry>near</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;It is John whose uncle is nearsighted.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In the classical treatment of the Nominative Case, as in <link rid="b1 b2">Chomsky (1981, 1986a</link>), the Nominative Case of the subject is assigned by the subject&apos;s being governed by a category INFL(&plus; Tense/Agr), in the following structure:</p>
+<p>(4)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>&lsqb;IP NP &lsqb;I&prime; INFL(&plus;Tense,AGR) VP&rsqb;&rsqb;</entry>
+</row>
+<row><entry> (NP assigned Nominative)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Due to the convention of the X-bar theory at that time, the number of the specifier (SPEC) of the phrase has been considered to be one, so the number of NPs with the Nominative Case is also considered to be one. Thus, the position of the subject has been regarded as unique. The existence of the Double Nominative Construction is peculiar in this context. Even though the position of the subject and the position of the Nominative Case (regarded as identical at that time) are taken to be unique, why do Japanese and some other languages allow for having two or more Nominative phrases per clause? We have five choices (or maybe more) to answer the question:</p>
+<p>(5)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The uniqueness requirement on the Nominative Case assignment is under parametrization, and, for languages like Japanese, <b>multiple</b> assignment of the Nominative Case feature is allowed.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The Nominative Case in languages like Japanese is <b>not assigned</b>. The existence of the Case particle (-<i>ga</i> in the case of Japanese) guarantees the Case feature. There is a requirement of uniqueness on Case assignment, but not on Case particles. This type of analysis is often connected with the fact that the Nominative in Japanese often expresses the discoursal focus.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>The Nominative Case in Japanese and other double subject languages is not assigned by the functional category INFL(&plus;Tense/Agr). It is <b>assigned to a particular lexical position</b>, such as Spec(VP). Because the lexical projection does not need to be and is not unique in any respect, we can have multiple subjects.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>The Nominative Case in languages like Japanese is always licensed by some semantic relation, which is usually called <b>&lsquo;aboutness&rsquo;</b>. For example, the Nominative Case in (3b) is licensed by the fact that the uncle&apos;s being a doctor is &lsquo;about&rsquo; John.</entry>
+</row>
+<row><entry>e.</entry>
+<entry>The Nominative Case Assignment and the requirement that the clause have a subject (the Extended Projection Principle (EPP)) can be satisfied by <b>separate structural relations</b>. For example, the EPP can be satisfied by the existence of Spec(IP), while the Nominative Case assignment can be satisfied by some other structural relations, allowing for seemingly double subjects.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>These possible analyses do not necessarily contradict each other and researchers often take two or more positions at the same time. We will return to the previous analyses in later sections.</p>
+</subsection>
+<subsection id="ss5" level="2">
+<heading id="h4" level="2">2.2 Topic and subject</heading>
+<p>The subject is not always with the Nominative Case in Japanese. In the following example, the Nominative Subject is preceded by the topic of the sentence:</p>
+<p>(6)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry>Hanako</entry>
+<entry>-wa</entry>
+<entry>Taroo</entry>
+<entry>-ga</entry>
+<entry>tazune</entry>
+<entry>-ta.</entry>
+</row>
+<row><entry>Hanako</entry>
+<entry>TOPIC</entry>
+<entry>Taro</entry>
+<entry>NOM</entry>
+<entry>visit</entry>
+<entry>PAST</entry>
+</row>
+<row><entry namest="col1" nameend="col6">Hanako, Taro visited.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In many such cases, we can easily find the non-topicalized version, in which the topic is with a grammatical relation other than the subject (object in the case of (6)):</p>
+<p>(7)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry>Taroo</entry>
+<entry>-ga</entry>
+<entry>Hanako</entry>
+<entry>-o</entry>
+<entry>tazune</entry>
+<entry>-ta.</entry>
+</row>
+<row><entry>Taro</entry>
+<entry>NOM</entry>
+<entry>Hanako</entry>
+<entry>ACC</entry>
+<entry>visit</entry>
+<entry>PAST</entry>
+</row>
+<row><entry namest="col1" nameend="col6">Taro visited Hanako.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>However, there are cases where the topic cannot find the &lsquo;source&rsquo;:</p>
+<p>(8)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="14">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13" align="char" char="."/>
+<colspec colnum="14" colname="col14"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>&lsqb;NP</entry>
+<entry>Shinbun</entry>
+<entry>-o</entry>
+<entry>yomi</entry>
+<entry>-tai</entry>
+<entry>hito&rsqb;</entry>
+<entry>-wa</entry>
+<entry>Asahi</entry>
+<entry>-ga</entry>
+<entry>koko</entry>
+<entry>-ni</entry>
+<entry>ari</entry>
+<entry>-masu.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>newspaper</entry>
+<entry>OBJ</entry>
+<entry>read</entry>
+<entry>want</entry>
+<entry>person</entry>
+<entry>TOPIC</entry>
+<entry>The Asahi</entry>
+<entry>NOM</entry>
+<entry>here</entry>
+<entry>LOC</entry>
+<entry>exist</entry>
+<entry>PRES</entry>
+</row>
+<row><entry namest="col2" nameend="col14">&lsquo;As for those who want to read newspapers, we have The Asahi here.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="14">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13" align="char" char="."/>
+<colspec colnum="14" colname="col14"/>
+<tbody>
+<row><entry>b.</entry>
+<entry>*&lsqb;NP</entry>
+<entry>Shinbun</entry>
+<entry>-o</entry>
+<entry>yomi</entry>
+<entry>-tai</entry>
+<entry>hito&rsqb;</entry>
+<entry>-ga<sub>NOM</sub>
+</entry>
+<entry>Asahi</entry>
+<entry>-ga</entry>
+<entry>koko</entry>
+<entry>-ni</entry>
+<entry>ari</entry>
+<entry>-masu.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*&lsqb;NP</entry>
+<entry>Shinbun</entry>
+<entry>-o</entry>
+<entry>yomi</entry>
+<entry>-tai</entry>
+<entry>hito&rsqb;</entry>
+<entry>-o<sub>ACC</sub>
+</entry>
+<entry>Asahi</entry>
+<entry>-ga</entry>
+<entry>koko</entry>
+<entry>-ni</entry>
+<entry>ari</entry>
+<entry>-masu.</entry>
+</row>
+<row><entry namest="col1" nameend="col14">etc.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>These &lsquo;pure&rsquo; topics are associated with the sentence by some sort of &lsquo;aboutness&rsquo; relation, as I indicate in the gloss. Once we take a view that the Double Nominative Construction is licensed by the semantic/pragmatic &lsquo;aboutness&rsquo; relation, we need to distinguish the Double Nominative Construction and topics as in (8), and find the source(s) of the differences between the two constructions.</p>
+</subsection>
+<subsection id="ss6" level="2">
+<heading id="h5" level="2">2.3 The Nominative Object Construction</heading>
+<p>The Nominative case is not always assigned to the semantic subject. In the following examples, the Nominative Case is assigned to those phrases which are regarded as objects in English and other languages:</p>
+<p>(9)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Taroo</entry>
+<entry>-ga</entry>
+<entry>eigo</entry>
+<entry>-ga</entry>
+<entry>hanas</entry>
+<entry>-e</entry>
+<entry>-ru.</entry>
+</row>
+<row><entry>Taro</entry>
+<entry>NOM</entry>
+<entry>English</entry>
+<entry>NOM</entry>
+<entry>speak</entry>
+<entry>can</entry>
+<entry>PRES</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;Taro can speak English.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Taroo</entry>
+<entry>-ga</entry>
+<entry>Hanako</entry>
+<entry>-ga</entry>
+<entry>suki</entry>
+<entry>-da.</entry>
+</row>
+<row><entry>Taro</entry>
+<entry>NOM</entry>
+<entry>Hanako</entry>
+<entry>NOM</entry>
+<entry>fond of</entry>
+<entry>PRES</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;Taro likes Hanako.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>Watashi</entry>
+<entry>-ga</entry>
+<entry>mizu</entry>
+<entry>-ga</entry>
+<entry>hoshi</entry>
+<entry>-i.</entry>
+</row>
+<row><entry>I</entry>
+<entry>NOM</entry>
+<entry>water</entry>
+<entry>NOM</entry>
+<entry>want</entry>
+<entry>-PRES</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;I want water.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The fact that the Nominative Case can be given to the object in some constructions is often regarded as evidence that the Nominative Case assignment in Japanese is not structural. On the other hand, some researchers say that this is evidence that the Case assignment in Japanese is not unique, and that multiple Case assignment/checking is possible.</p>
+<p>In sum, the existence of the Double Nominative Construction in Japanese is still under various interpretations. This is partly because the notions &lsquo;Double Subjects&rsquo; and &lsquo;Double Nominatives&rsquo; are not necessarily identical, as we have seen in the preceding two subsections.</p>
+</subsection>
+</subsection>
+<subsection id="ss7" level="1">
+<heading id="h6" level="1">3 Focus/exhaustive listing and Subjectivization</heading>
+<p>
+<link rid="b3">Kuno (1973c</link>) points out that the main distinctive feature of the two seemingly subject-marking particles &minus;<i>wa</i> and &minus;<i>ga</i> in Japanese is in the discoursal informational status of noun phrases marked with them:</p>
+<p>
+<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="5">a.</entry>
+<entry namest="col2" nameend="col7">
+<i><b>-Wa</b>
+</i>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col7">
+<i>-Wa</i> is either <i>thematic</i> or <i>contrastive</i>.</entry>
+</row>
+<row><entry morerows="3">i.</entry>
+<entry namest="col3" nameend="col7">Thematic</entry>
+</row>
+<row><entry>Jon</entry>
+<entry>-wa</entry>
+<entry>gakusei</entry>
+<entry>
+</entry>
+<entry>desu.</entry>
+</row>
+<row><entry>John</entry>
+<entry>TOPIC</entry>
+<entry>student</entry>
+<entry>
+</entry>
+<entry>PRES</entry>
+</row>
+<row><entry namest="col3" nameend="col7">&lsquo;John is a student.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry morerows="3">ii.</entry>
+<entry namest="col2" nameend="col8">Contrastive</entry>
+</row>
+<row><entry>Ame</entry>
+<entry>-wa</entry>
+<entry>hut</entry>
+<entry>-tei</entry>
+<entry>-masu</entry>
+<entry>-ga</entry>
+<entry>.&nbsp;.&nbsp;.</entry>
+</row>
+<row><entry>rain</entry>
+<entry>CONTRAST</entry>
+<entry>fall</entry>
+<entry>PROG</entry>
+<entry>PRES</entry>
+<entry>but</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;It is raining, but&nbsp;.&nbsp;.&nbsp;.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="5">b.</entry>
+<entry namest="col2" nameend="col6">
+<i><b>-Ga</b>
+</i>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col6">
+<i>-Ga</i> marks the subject of the sentence in either <i>neutral description</i> or <i>exhaustive listing</i>.</entry>
+</row>
+<row><entry morerows="3">i.</entry>
+<entry namest="col3" nameend="col6">Neutral description (only occurs with predicates representing an action, existence, or temporary state)</entry>
+</row>
+<row><entry>Jon</entry>
+<entry>-ga</entry>
+<entry>ki</entry>
+<entry>-ta.</entry>
+</row>
+<row><entry>John</entry>
+<entry>NOM</entry>
+<entry>come</entry>
+<entry>PAST</entry>
+</row>
+<row><entry namest="col3" nameend="col6">&lsquo;John came.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6"/>
+<tbody>
+<row><entry morerows="4">ii.</entry>
+<entry namest="col2" nameend="col6">Exhaustive listing (obligatory with predicates representing a stable state)</entry>
+</row>
+<row><entry>Jon</entry>
+<entry>-ga</entry>
+<entry>gakusei</entry>
+<entry>-desu.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>John</entry>
+<entry>NOM</entry>
+<entry>student</entry>
+<entry>PRES</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;John and only John is a student.&rsquo;</entry>
+</row>
+<row><entry namest="col2" nameend="col5">
+</entry>
+<entry>(<link rid="b3">Kuno 1973c</link>: 59&ndash;60; my arrangement)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Even though Kuno uses completely different terms for them, neutral description and exhaustive listing are both representations of the discoursal focus. The exhaustive listing <i>-ga</i> focalizes only the noun phrase marked with it, while the neutral description <i>-ga</i> focalizes a larger domain. What is important here is that <i>-ga</i> is not a mere Nominative marking particle, but also can mark a discoursal focus.<link rid="fn2">
+<sup>2</sup></link> With a predicate representing a stable state, the <i>-ga</i>-marked phrase is interpreted as exhaustive listing.</p>
+<p>This generalization about the distribution of exhaustive-listing <i>-ga</i> collapses in the following examples: </p>
+<p>(11)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Kono</entry>
+<entry>kurasu</entry>
+<entry>-wa</entry>
+<entry>dansei</entry>
+<entry>-ga</entry>
+<entry>yoku</entry>
+<entry>deki</entry>
+<entry>-ru.</entry>
+</row>
+<row><entry>this</entry>
+<entry>class</entry>
+<entry>TOP</entry>
+<entry>male</entry>
+<entry>NOM</entry>
+<entry>well</entry>
+<entry>able</entry>
+<entry>PRES</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;Speaking of this class, the boys do well.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Kono</entry>
+<entry>kurasu</entry>
+<entry>-wa</entry>
+<entry>Jon</entry>
+<entry>-ga</entry>
+<entry>yoku</entry>
+<entry>deki</entry>
+<entry>-ru.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>John</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;Speaking of this class, John does well.&rsquo;</entry>
+<entry>&ensp;(<link rid="b3">Kuno 1973c</link>: 64 (10))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (11a), even though the predicate <i>deki</i> &lsquo;able&rsquo; expresses a permanent state, the noun phrase marked with <i>-ga</i>, namely <i>dansei-ga</i>, is ambiguous between neutral description and exhaustive listing. <i>Ga</i> with a stative predicate is not always interpreted as exhaustive listing. On the other hand, the noun phrase <i>Jon-ga</i> in (11b) is always interpreted as exhaustive listing.</p>
+<p>To account for this fact, Kuno cites two other facts. First, (11a) has a corresponding non-topical sentence, where the sentence-initial phrase <i>kono kurasu-wa</i> is not topicalized but marked with the Nominative Case. On the other hand, (11b) does not have such a corresponding sentence:</p>
+<p>(12)&ensp;<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Kono</entry>
+<entry>kurasu</entry>
+<entry>-ga</entry>
+<entry>dansei</entry>
+<entry>-ga</entry>
+<entry>yoku</entry>
+<entry>deki</entry>
+<entry>-ru.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>this</entry>
+<entry>class</entry>
+<entry>NOM</entry>
+<entry>male</entry>
+<entry>NOM</entry>
+<entry>well</entry>
+<entry>able</entry>
+<entry>PRES</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;It is this class in which the boys do well.&rsquo;</entry>
+<entry>&ensp;(<link rid="b3">Kuno 1973c</link>: 67 (16b))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>*Kono</entry>
+<entry>kurasu</entry>
+<entry>-ga</entry>
+<entry>Jon</entry>
+<entry>-ga</entry>
+<entry>yoku</entry>
+<entry>deki</entry>
+<entry>-ru.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>John</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;It is this class in which John does well.&rsquo;</entry>
+<entry>&ensp;(<link rid="b3">Kuno 1973c</link>: 68 (18b))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (12a), it is <i>Kono kurasu-ga</i> but not <i>dansei-ga</i> which is interpreted as exhaustive listing. Thus, we can obtain the following generalization:</p>
+<p>(13)&ensp;The leftmost noun phrase marked with <i>-ga</i> in a sentence with a predicate which expresses permanent state must be interpreted as exhaustive listing.</p>
+<p>In (12a), <i>kono kurasu-ga</i> must be an exhaustive-listing noun phrase because it is the leftmost phrase marked with <i>-ga</i>. As for (11a), there are two possibilities. First, (11a) can be (12a) with the first Nominative phrase <i>kono kurasu-ga</i> topicalized. In this case, the interpretation of <i>-ga</i>-marked phrases goes as in (12a), and <i>dansei-ga</i> is a neutral description phrase. The second possibility is that (11a) be (14) with the genitive phrase topicalized:</p>
+<p>(14)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry>Kono</entry>
+<entry>kurasu</entry>
+<entry>-no</entry>
+<entry>dansei</entry>
+<entry>-ga</entry>
+<entry>yoku</entry>
+<entry>deki</entry>
+<entry>-ru.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>this</entry>
+<entry>class</entry>
+<entry>GEN</entry>
+<entry>male</entry>
+<entry>NOM</entry>
+<entry>well</entry>
+<entry>able</entry>
+<entry>PRES</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col8">&lsquo;The boys in this class do well.&rsquo;</entry>
+<entry>&ensp;(<link rid="b3">Kuno 1973c</link>: 68 (21))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In that case, it is the noun phrase <i>kono kurasu-no dansei-ga</i> which must be interpreted as exhaustive listing, because it is the only Nominative phrase in the sentence. The ambiguity of (11a) is thus accounted for.</p>
+<p>Then the question is: why is such ambiguity impossible for (11b)? To account for this, Kuno cites another fact. It is possible to have a genitive source for (11b), as we show (14) corresponding to (11a), but the semantics of the genitive relations is different, according to Kuno:</p>
+<p>(15)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry>Kono</entry>
+<entry>kurasu</entry>
+<entry>-no</entry>
+<entry>Jon</entry>
+<entry>-ga</entry>
+<entry>yoku</entry>
+<entry>deki</entry>
+<entry>-ru.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>this</entry>
+<entry>class</entry>
+<entry>GEN</entry>
+<entry>John</entry>
+<entry>NOM</entry>
+<entry>well</entry>
+<entry>able</entry>
+<entry>PRES</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col8">&lsquo;John, who is in this class, does well.&rsquo;</entry>
+<entry>&ensp;(<link rid="b3">Kuno 1973c</link>: 73 (33b))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (14), the genitive relation is restrictive, while in (15), it is non-restrictive. Kuno suggests that this difference may be the reason why we cannot have (12b) (see <link rid="b3">Kuno 1973c</link>: 73, fn. 8). On the basis of these observations, Kuno formalizes the following Subjectivization Rule:</p>
+<p>(16)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry namest="col1" nameend="col2">
+<b>Subjectivization:</b>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col2">Change the sentence-initial NP-<i>no</i> (with some semantic relation; see the above observation (K.T.)) to NP-<i>ga</i>, and make it the new subject of the sentence.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>(<link rid="b3">Kuno 1973c</link>: 71 (28a))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Subjectivization, for example, shifts the structure (17a) to (17b):</p>
+<p>(17)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="14">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13" align="char" char="."/>
+<colspec colnum="14" colname="col14"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;S</entry>
+<entry>&lsqb;NP</entry>
+<entry>&lsqb;NP</entry>
+<entry>kono</entry>
+<entry>kurasu</entry>
+<entry>-no&rsqb;</entry>
+<entry>
+</entry>
+<entry>dansei</entry>
+<entry>-ga&rsqb;</entry>
+<entry>yoku</entry>
+<entry>deki</entry>
+<entry>-ru.&rsqb;</entry>
+<entry>(&equals; (14))</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;S</entry>
+<entry>&lsqb;NP</entry>
+<entry>kono</entry>
+<entry>kurasu</entry>
+<entry>-ga&rsqb;</entry>
+<entry>&lsqb;S</entry>
+<entry>&lsqb;NP</entry>
+<entry>dansei</entry>
+<entry>-ga&rsqb;</entry>
+<entry>yoku</entry>
+<entry>deki</entry>
+<entry>-ru.&rsqb;&rsqb;</entry>
+<entry>(&equals; (12a))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(15) cannot undergo Subjectivization because the genitive relation in it, being non-restrictive, is not one of those semantic relation that can trigger Subjectivization. Thus, <link rid="b3">Kuno (1973c</link>) has established the basis for the later works on the Double Nominative Construction.</p>
+</subsection>
+<subsection id="ss8" level="1">
+<heading id="h7" level="1">4 After Subjectivization: analyses on Double (Nominative) Subjects</heading>
+<p>Kuno&apos;s Subjectivization approach to the Double Nominative Construction is certainly one example of a fine pure syntactic analysis of previously unknown grammatical facts. However, it gives rise to the following two problems:</p>
+<p>(18)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Is the genitive&ndash;head relation the only source of Subjectivization or the Double Nominative/Subject Construction? In other words, is the Double Nominative/Subject Construction always &lsquo;derived&rsquo; by movement/adjunction?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>How can we assign the Nominative Case to the &lsquo;derived&rsquo; subjects?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(18b) will be dealt with in <link rid="ss13 ss16">sections 5 and 6</link>, where the mechanism of Nominative assignment is directly dealt with. This section will introduce approaches to (18a). It will be pointed out that derivation from the genitive position is not the only source of the Double Nominative Construction, but the Double Nominative Construction can also be licensed by what we call &lsquo;aboutness&rsquo;. There are even scholars who say that &lsquo;aboutness&rsquo; is the only distinctive feature of the Double Nominative Construction, and that there is no such rule as Subjectivization.</p>
+<subsection id="ss9" level="2">
+<heading id="h8" level="2">4.1 Kuroda on Major Subject</heading>
+<p>Taking up Kuno&apos;s ingenious analysis of the Double Nominative Construction, <link rid="b4">Kuroda (1986</link>) points out that all Double Nominative sentences cannot be derived by &lsquo;Subjectivization&rsquo;:</p>
+<p>(19)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry>Tokyoo</entry>
+<entry>wan</entry>
+<entry>-no</entry>
+<entry>sakana</entry>
+<entry>-ga</entry>
+<entry>koozyoo</entry>
+<entry>haisui</entry>
+<entry>-ni</entry>
+<entry>-yoru</entry>
+</row>
+<row><entry>Tokyo</entry>
+<entry>bay</entry>
+<entry>GEN</entry>
+<entry>fish</entry>
+<entry>NOM</entry>
+<entry>factory</entry>
+<entry>drained water</entry>
+<entry>DAT</entry>
+<entry>by</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry>kaisui</entry>
+<entry> -no</entry>
+<entry>osen</entry>
+<entry>-de</entry>
+<entry>moo</entry>
+<entry>sudeni</entry>
+<entry>sisha</entry>
+<entry>-ga</entry>
+<entry>san</entry>
+</row>
+<row><entry>sea water</entry>
+<entry>GEN</entry>
+<entry>pollution</entry>
+<entry>by</entry>
+<entry>already</entry>
+<entry>already</entry>
+<entry>dead person</entry>
+<entry>NOM</entry>
+<entry>three</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry>-mei</entry>
+<entry>de</entry>
+<entry>-tei</entry>
+<entry>-ru.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>persons</entry>
+<entry>come out</entry>
+<entry>PROG</entry>
+<entry>PRES</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;It is fish of Tokyo Bay that due to the pollution of sea water by water drained from factories the death of three persons has already happened.&rsquo;</entry>
+</row>
+<row><entry namest="col1" nameend="col4">
+</entry>
+<entry>&emsp;(<link rid="b4">Kuroda 1986</link>: (129))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(19) does not have the genitive source which Subjectivized sentences do:</p>
+<p>(20)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry>Tokyoo</entry>
+<entry>wan</entry>
+<entry>-no</entry>
+<entry>sakana</entry>
+<entry>-no</entry>
+<entry>koozyoo</entry>
+<entry>haisui</entry>
+<entry>-ni</entry>
+<entry>-yoru</entry>
+</row>
+<row><entry>Tokyo</entry>
+<entry>bay</entry>
+<entry>GEN</entry>
+<entry>fish</entry>
+<entry>GEN</entry>
+<entry>factory</entry>
+<entry>drained water</entry>
+<entry>DAT</entry>
+<entry>by</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry>kaisui</entry>
+<entry>-no</entry>
+<entry>osen</entry>
+<entry>-de</entry>
+<entry>moo</entry>
+<entry>sudeni</entry>
+<entry>sisha</entry>
+<entry>-ga</entry>
+<entry>san</entry>
+</row>
+<row><entry>sea water</entry>
+<entry>GEN</entry>
+<entry>pollution</entry>
+<entry>by</entry>
+<entry>already</entry>
+<entry>already</entry>
+<entry>dead person</entry>
+<entry>NOM</entry>
+<entry>three</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry>-mei</entry>
+<entry>de</entry>
+<entry>-tei</entry>
+<entry>-ru.</entry>
+</row>
+<row><entry>persons</entry>
+<entry>come out</entry>
+<entry>PROG</entry>
+<entry>PRES</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Kuroda calls such an extra subject <i>Major Subject</i>.</p>
+<p>Kuroda, on the basis of this and other examples, claims that the extra Nominatives (and topics) are licensed in the following structure:</p>
+<p>(21)&ensp;&lsqb;S <b>NP</b> &lsqb;S&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;&rsqb;</p>
+<p>That is, provided that NP can hold a proper predication relation with the rest of the sentence, the extra subject can be semantically licensed.</p>
+<p>In addition, Kuroda in his earlier work (1978) notes that there are two types in the predication relations held in the Double Nominative sentences derived by Subjectivization. Consider (22) and (23):</p>
+<p>(22)&ensp;<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry>&lsqb;S</entry>
+<entry>Zoo</entry>
+<entry>-ga</entry>
+<entry>&lsqb;S</entry>
+<entry>hana</entry>
+<entry>-ga</entry>
+<entry>naga</entry>
+<entry>-i&rsqb;&rsqb;</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>elephant</entry>
+<entry>NOM</entry>
+<entry>
+</entry>
+<entry>trunk</entry>
+<entry>NOM</entry>
+<entry>long</entry>
+<entry>-PRES</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col8">&lsquo;It is elephants that have long trunks.&rsquo;</entry>
+<entry>&emsp;(<link rid="b19">Kuroda 1978</link>: (64))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(23)&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry>&lsqb;S</entry>
+<entry>kono</entry>
+<entry>hana</entry>
+<entry>-ga</entry>
+<entry>iro</entry>
+<entry>-ga</entry>
+<entry>kirei</entry>
+<entry>-da&rsqb;</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>this</entry>
+<entry>flower</entry>
+<entry>NOM</entry>
+<entry>color</entry>
+<entry>NOM</entry>
+<entry>beautiful</entry>
+<entry>PRES</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col8">&lsquo;It is this flower whose color is beautiful.&rsquo;</entry>
+<entry>&emsp;(<link rid="b19">Kuroda 1978</link>: (65))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(22) is derived by Subjectivization from a sentence <i>zoo-no hana-ga naga-i</i> and the derived subject is Chomsky-adjoined to an S node. However, in (23), the extra subject is sister-adjoined. Kuroda distinguished between the two because, in (23), the predicate <i>kirei-da</i> is involved in two predication relations, namely that the color is beautiful and the flower is beautiful, but, in (22), the extra subject holds a predication relation with the rest of the sentence as a whole (the sentence does not imply that elephants are long). This type of distinction still must be reflected in the structural analysis of Double Nominative sentences.</p>
+<p>Moreover, <link rid="b4">Kuroda (1986</link>) points out that there are apparent topics which cannot alternate with <i>-ga</i>: </p>
+<p>(24)&ensp;<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11"/>
+<tbody>
+<row><entry>Shinbun</entry>
+<entry>-o</entry>
+<entry>yomi</entry>
+<entry>-tai</entry>
+<entry>hito</entry>
+<entry>-wa</entry>
+<entry>koko</entry>
+<entry>-ni</entry>
+<entry>ari</entry>
+<entry>-masu.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>newspaper</entry>
+<entry>ACC</entry>
+<entry>read</entry>
+<entry>want</entry>
+<entry>people</entry>
+<entry>TOP</entry>
+<entry>here</entry>
+<entry>LOC</entry>
+<entry>exist</entry>
+<entry>PRES</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col10">&lsquo;Those who want to read newspapers, (you find) them here.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col8">
+</entry>
+<entry namest="col9" nameend="col11">&emsp;(<link rid="b4">Kuroda 1986</link>: (145))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(25)&ensp;*Shinbun -o yomi -tai hito -ga koko -ni ari -masu.</p>
+<p>Kuroda correctly points out <i>shinbun-o yomi-tai hito-wa</i> is not even a topic of the sentence in (24), because the sentence is not about those who want to read newspapers but about newspapers. Kuroda claims that this is the reason why (25) is impossible. The &lsquo;topic&rsquo; phrase in (24) cannot hold any predication relation with the rest of the sentence.<link rid="fn3">
+<sup>3</sup></link> So far, we need to distinguish at least four kinds of topics and subjects in Japanese structurally or semantically.</p>
+</subsection>
+<subsection id="ss10" level="2">
+<heading id="h9" level="2">4.2 Pure Topic</heading>
+<p>
+<link rid="b5">Tateishi (1994</link>) points out that, in addition to examples like (24) which Kuroda uses, there is a group of real topics which cannot alternate with -<i>ga</i>:</p>
+<p>(26)&ensp;<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="14">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13" align="char" char="."/>
+<colspec colnum="14" colname="col14"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Taroo<sub>i</sub>
+</entry>
+<entry>-wa</entry>
+<entry>Jiroo</entry>
+<entry>-ga</entry>
+<entry>Hanako</entry>
+<entry>-ni</entry>
+<entry>kare<sub>i</sub>
+</entry>
+<entry>-no</entry>
+<entry>musuko</entry>
+<entry>-o</entry>
+<entry>shookai</entry>
+<entry>-shi</entry>
+<entry>-ta.</entry>
+</row>
+<row><entry>Taro</entry>
+<entry>TOP</entry>
+<entry>Jiro</entry>
+<entry>NOM</entry>
+<entry>Hanako</entry>
+<entry>DAT</entry>
+<entry>he</entry>
+<entry>GEN</entry>
+<entry>son</entry>
+<entry>ACC</entry>
+<entry>introduce</entry>
+<entry>do</entry>
+<entry>PAST</entry>
+</row>
+<row><entry namest="col2" nameend="col14">&lsquo;As for Taro, Jiro introduced his son to Hanako.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Hannin</entry>
+<entry>-wa</entry>
+<entry>Saburoo</entry>
+<entry>-ga</entry>
+<entry>ayashi</entry>
+<entry>-i.</entry>
+</row>
+<row><entry>perpetrator</entry>
+<entry>TOP</entry>
+<entry>Saburo</entry>
+<entry>NOM</entry>
+<entry>suspicious</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;As for the perpetrator, I suspect Saburo might be.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As the glosses show, the two <i>-wa</i> phrases are topics of the sentence, and, in this sense, they can hold proper predication relations with the rest of the sentences. According to Kuroda&apos;s statement in the previous section, this may be enough for licensing the Nominative Case on such topics. However, topics in (26) cannot alternate with <i>-ga</i>:</p>
+<p>(27)&ensp;<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Taroo<sub>i </sub>-ga Jiroo -ga Hanako -ni kare<sub>i</sub> -no musuko -o shookai -shi -ta.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Hannin -ga Saburoo -ga ayashi -i.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>These examples show that the domain of predication relations and the domain of Nominative assignment are not identical. We need to distinguish at least five types of Double/Multiple Subject Constructions:</p>
+<p>(28)&ensp;<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Subjectivization I: The derived subject holds a predication relation with the main predicate. (&equals; (23))</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Subjectivization II: The derived subject holds a predication relation with the rest of the sentence as a whole. (&equals; (22))</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Major Subject: No genitive origin. The extra subject holds a predication relation with the rest of the sentence as a whole. (&equals; (19))</entry>
+</row>
+<row><entry>d.</entry>
+<entry>Pure Topic: No Nominative alternation. The extra topic holds a predication relation with the rest of the sentence as a whole. (&equals; (26))</entry>
+</row>
+<row><entry>e.</entry>
+<entry>Non-Topical &lsquo;Topic&rsquo;: No Nominative alternation. No predication relation. (&equals; (24))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>If these distinctions must be stated in terms of structural distinctions, we need to have four clausal domains at least:</p>
+<p>(29)&ensp;<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The domain in which the subject can hold a predication relation with the main predicate. (<i>v</i>P?)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The domain in which the Nominative Case is assigned. (IP or TP)</entry>
+</row>
+<row><entry>c.</entry>
+<entry>The domain in which the predication relation is possible. (Somewhere between IP and CP)</entry>
+</row>
+<row><entry>d.</entry>
+<entry>The whole clausal domain. (CP)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+<subsection id="ss11" level="2">
+<heading id="h10" level="2">4.3 Mihara on &lsquo;aboutness&rsquo;</heading>
+<p>
+<link rid="b6">Mihara (1994</link>), in his book on Japanese syntax, claims that all Double Nominative sentences are licensed in terms of the notion &lsquo;aboutness&rsquo;. He claims that, provided that the sentence is &lsquo;about&rsquo; the subject/topic, the Nominative assignment is licensed. Take the example in (19) from <link rid="b4">Kuroda (1986</link>), which is repeated in what follows:</p>
+<p>(30)&ensp;
+<object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row>
+<entry>Tokyoo</entry>
+<entry>wan</entry>
+<entry>-no</entry>
+<entry>sakana</entry>
+<entry>-ga</entry>
+<entry>koozyoo</entry>
+<entry>haisui</entry>
+<entry>-ni</entry>
+<entry>-yoru</entry>
+</row>
+<row>
+<entry>Tokyo</entry>
+<entry>bay</entry>
+<entry>GEN</entry>
+<entry>fish</entry>
+<entry>NOM</entry>
+<entry>factory</entry>
+<entry>drained water</entry>
+<entry>DAT</entry>
+<entry>by</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry>kaisui</entry>
+<entry>-no</entry>
+<entry>osen</entry>
+<entry>-de</entry>
+<entry>moo</entry>
+<entry>sudeni</entry>
+<entry>sisha</entry>
+<entry>-ga</entry>
+<entry>san</entry>
+</row>
+<row><entry>sea water</entry>
+<entry>GEN</entry>
+<entry>pollution</entry>
+<entry>by</entry>
+<entry>already</entry>
+<entry>already</entry>
+<entry>dead person</entry>
+<entry>NOM</entry>
+<entry>three</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry>-mei</entry>
+<entry>de</entry>
+<entry>-tei</entry>
+<entry>-ru.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>persons</entry>
+<entry>PROG</entry>
+<entry>PRES</entry>
+<entry>come out</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;It is fish of Tokyo Bay that due to the pollution of sea water by water drained from factories the death of three persons has already happened.&rsquo;</entry>
+</row>
+<row><entry namest="col1" nameend="col4">
+</entry>
+<entry>&emsp;(<link rid="b4">Kuroda 1986</link>: (129))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The meaning of (30) can be paraphrased as in (31):</p>
+<p>(31)&ensp;Fish of Tokyo Bay are such that the death of three persons by eating them has already come out due to the pollution of sea water by water drained from factories.</p>
+<p>According to Mihara it is this &ldquo;such that&rdquo; relation which allows for the generation of an extra subject.</p>
+<p>However, Mihara&apos;s claim cannot stand as is when we look at the Pure Topic. The Pure Topic sentence is also connected with the rest of the sentence by what Mihara calls an &lsquo;aboutness&rsquo; relation, but the Pure Topic cannot be Nominative-marked. &lsquo;Aboutness&rsquo; cannot explain everything about Double Nominatives, though it may be that Double Subjects/Topics are licensed by &lsquo;aboutness&rsquo; or predication relations.<link rid="fn4">
+<sup>4</sup></link>
+</p>
+</subsection>
+<subsection id="ss12" level="2">
+<heading id="h11" level="2">4.4 Tateishi&apos;s non-movement analysis</heading>
+<p>
+<link rid="b7">Tateishi (1988</link>) proposes an analysis of Subjectivization from a different point of view. He notices the fact that Subjectivization has a genitive origin. For Tateishi, for example, example (1), repeated here as (32), has the structure of (33):</p>
+<p>(32)&ensp;<object id="tu28" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu28_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry>Nihon</entry>
+<entry>-ga</entry>
+<entry>kokumin</entry>
+<entry>-no</entry>
+<entry>heikin</entry>
+<entry>jumyoo</entry>
+<entry>-ga</entry>
+<entry>mijika</entry>
+<entry>-i.</entry>
+</row>
+<row><entry>Japan</entry>
+<entry>NOM</entry>
+<entry>citizen</entry>
+<entry>GEN</entry>
+<entry>average</entry>
+<entry>lifespan</entry>
+<entry>NOM</entry>
+<entry>short</entry>
+<entry>PRES</entry>
+</row>
+<row><entry namest="col1" nameend="col9">&lsquo;It is Japan whose citizen&apos;s average lifespan is short.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(33)&ensp;&lsqb;IP &lsqb;NP Nihon -ga &lsqb;NP kokumin -no heikin jumyoo -ga&rsqb;&rsqb; &lsqb;VP mijika&rsqb; -i&rsqb;</p>
+<p>For Tateishi, the extra Nominatives stays in situ in a Genitive position. The Nominative Case is assigned to the Genitive position by a kind of Case feature percolation. Thus, there is no movement involved in Subjectivization, according to <link rid="b7">Tateishi (1988</link>).</p>
+<p>
+<link rid="b8">Heycock (1993</link>) criticizes Tateishi&apos;s analysis on the basis that an adverb can be inserted between the two Nominative phrases, casting doubt on the constituency of the two Nominative phrases as a whole:</p>
+<p>(34)&ensp;<object id="tu29" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu29_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10"/>
+<tbody>
+<row><entry>Nihon</entry>
+<entry>-ga</entry>
+<entry>zannen-nagara</entry>
+<entry>kokumin</entry>
+<entry>-no</entry>
+<entry>heikin</entry>
+<entry>jumyoo</entry>
+<entry>-ga</entry>
+<entry>mijika</entry>
+<entry>-i.</entry>
+</row>
+<row><entry>Japan</entry>
+<entry>NOM</entry>
+<entry>unfortunately</entry>
+<entry>citizen</entry>
+<entry>GEN</entry>
+<entry>average</entry>
+<entry>lifespan</entry>
+<entry>NOM</entry>
+<entry>short</entry>
+<entry>PRES</entry>
+</row>
+<row><entry namest="col1" nameend="col10">&lsquo;It is Japan whose citizen&apos;s average lifespan is unfortunately short.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>However, we must say that it is still conceivable that movement seemingly involved in Subjectivization is a kind of Scrambling and that, if so, the Nominative assignment in situ is still a possibility. Independently of this, <link rid="b5">Tateishi (1994</link>) points out that Scrambling of subjects in the Double Nominative Construction is possible. For example, (33) can undergo Scrambling and have the following word order:</p>
+<p>(35)&ensp;Kokumin -no heikin jumyoo -ga nihon -ga mijika -i.</p>
+<p>
+<link rid="b5">Tateishi (1994</link>) has refuted <link rid="b7">Tateishi&apos;s (1988</link>) analysis on the basis of this fact on Scrambling, because it appears that, if (32) is the correct structure, (35) involves movement of a non-maximal constituent. However, once Scrambling of the subject is possible, we can derive (35) by moving the Nominative phrases twice:</p>
+<p>(36)&ensp;&lsqb;NP t<sub>j</sub> Kokumin -no heikin jumyoo -ga&rsqb;<sub>i</sub> NP nihon -ga&rsqb;<sub>j</sub> t<sub>i</sub> mijika -i.</p>
+<p>Thus, <link rid="b7">Tateishi&apos;s (1988</link>) analysis still remains as a formal possibility.</p>
+</subsection>
+</subsection>
+<subsection id="ss13" level="1">
+<heading id="h12" level="1">5 Nominative assignment</heading>
+<p>This section and the next introduce studies trying to answer (18b), repeated here as (37):</p>
+<p>(37)&ensp;How can we assign the Nominative Case to the &lsquo;derived&rsquo; subjects?</p>
+<p>This section introduces those which propose mechanisms of Nominative assignment, and <link rid="ss16">section 6</link> introduces studies which try to explain the existence of the Double Nominative Construction by parametrization of a part of language faculty.</p>
+<subsection id="ss14" level="2">
+<heading id="h13" level="2">5.1 Saito&apos;s analysis of Nominatives</heading>
+<p>
+<link rid="b9 b10">Saito (1982, 1985</link>) proposes that the Nominative Case <i>-ga</i> in Japanese is a kind of inherent Case. In <link rid="b9">Saito (1982</link>), he appears to identify the trigger of this inherent Case to be a focus. As <i>-ga</i> is an inherent Case triggered to be generated by some kind of thematic or semantic relations, <i>-ga</i> phrases can be generated more than once, Saito states.</p>
+<p>The most serious trouble with Saito&apos;s approach is that it is actually very hard to identify the triggering semantic relation for the Case particle <i>-ga</i>. As we have mentioned in <link rid="ss7">section 3</link>, it is true that <i>-ga</i> in the root context expresses a kind of focus, neutral description, or exhaustive listing. However, as <link rid="b4">Kuroda (1986</link>) correctly points out, <i>-ga</i> is not always focal in the non-root context:</p>
+<p>(38)<object id="tu30" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu30_source">
+<tbl frame="none">
+<tgroup cols="17">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13" align="char" char="."/>
+<colspec colnum="14" colname="col14" align="char" char="."/>
+<colspec colnum="15" colname="col15" align="char" char="."/>
+<colspec colnum="16" colname="col16" align="char" char="."/>
+<colspec colnum="17" colname="col17"/>
+<tbody>
+<row><entry>&lsqb;Moshi</entry>
+<entry>zoo</entry>
+<entry>-ga</entry>
+<entry>hana</entry>
+<entry>-ga</entry>
+<entry>mijika</entry>
+<entry>-kereba&rsqb;</entry>
+<entry>dono</entry>
+<entry>yoo</entry>
+<entry> -ni</entry>
+<entry>shi</entry>
+<entry>-te</entry>
+<entry>banana</entry>
+<entry>-o</entry>
+<entry>tabe</entry>
+<entry>-ru</entry>
+<entry>-daroo.</entry>
+</row>
+<row><entry> if</entry>
+<entry>elephant</entry>
+<entry>NOM</entry>
+<entry>trunk</entry>
+<entry>NOM</entry>
+<entry>short</entry>
+<entry>if</entry>
+<entry>how</entry>
+<entry>way</entry>
+<entry>DAT</entry>
+<entry>do</entry>
+<entry>and</entry>
+<entry>banana</entry>
+<entry>ACC</entry>
+<entry>eat</entry>
+<entry>PRES</entry>
+<entry>Q</entry>
+</row>
+<row><entry namest="col1" nameend="col17">&lsquo;If elephants had short trunks, how would they eat bananas?&rsquo;</entry>
+</row>
+<row><entry namest="col1" nameend="col12">
+</entry>
+<entry namest="col13" nameend="col17">(<link rid="b4">Kuroda 1986</link>: (106))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>There is no indication of focus in the conditional clause in (38), as the focus of questioning here is on how elephants eat bananas. Thus, it is not clear what <i>-ga</i> expresses, except that <i>-ga</i> may be Nominative. There is no strong evidence which shows that <i>-ga</i> is inherent.</p>
+</subsection>
+<subsection id="ss15" level="2">
+<heading id="h14" level="2">5.2 Multiple Nominative assignment</heading>
+<p>
+<link rid="b11">Takezawa (1987</link>; <link rid="b12">Takezawa and Whitman 1998</link>) proposes that the existence of the Double Nominative Construction in Japanese is due to the lexical characteristic of the category INFL in Japanese. In English, the number of Nominative-marked phrases in a tensed clause is one, because INFL requires a strictly one-to-one Case-assignment/checking relation with a noun phrase. On the other hand, according to Takezawa, Japanese allows for a single INFL assigning/checking the Nominative Case with two or more noun phrases, allowing for Double Nominatives.</p>
+<p>Such an analysis of Case assignment/checking works, and it may be advantageous given the fact that there is a distinction between a Double Subject Double Nominative construction and a Double Subject Topic construction (see <link rid="ss8">section 4</link>). Such a distinction may well be described in terms of the domain of Nominative assignment/checking. In fact, <link rid="b13">Ura (2000</link>) recently proposes a view that Case feature checking may be parametrized between one-to-one and multiple for his analysis of Double Subject Constructions. The only flaw in this kind of account is that it is speculative and &lsquo;parametrization&rsquo; of the lexical item INFL/Tense comes from nothing else. This is what the studies introduced in <link rid="ss16">section 6</link> are exploring.</p>
+</subsection>
+</subsection>
+<subsection id="ss16" level="1">
+<heading id="h15" level="1">6 Functional categories and Double Nominatives</heading>
+<p>As we have seen in the previous section, there is a possibility that some kind of parametrization is involved in the existence/absence of the Double Nominative Construction. However, is it just a simple direct description of the fact? For example, is the parametrization in question of the form &lsqb;&plus;/&minus; unique Nominative assignment/checking&rsqb;, as <link rid="b11">Takezawa (1987</link>) and perhaps <link rid="b13">Ura (2000</link>) argues for? Studies introduced in this section try to answer this question. They all claim that the peculiarity of the Double Nominative Construction comes from something deeper.</p>
+<subsection id="ss17" level="2">
+<heading id="h16" level="2">6.1 Kuroda and Fukui&apos;s parametrization approach</heading>
+<p>
+<link rid="b14">Fukui (1995</link>) and <link rid="b15">Kuroda (1988</link>) both try to derive a set of differences between languages like English and those like Japanese from a simple parametric difference which covers the very basic of clausal construction. For example:</p>
+<p>(39)&ensp;<object id="tu31" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu31_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry><b>Japanese</b>
+</entry>
+<entry><b>English</b>
+</entry>
+</row>
+<row><entry>Lack of surface <i>wh</i>-movement</entry>
+<entry>Obligatory <i>wh</i>-movement</entry>
+</row>
+<row><entry>Scrambling</entry>
+<entry>No Scrambling</entry>
+</row>
+<row><entry>Stacks of Determiner-like elements</entry>
+<entry>Unique Determiner per Noun Phrase</entry>
+</row>
+<row><entry>No grammatical plural form which triggers agreement</entry>
+<entry>Number agreement required</entry>
+</row>
+<row><entry>Multiple Nominatives allowed</entry>
+<entry>Unique Nominative per clause</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Though they differ in the details of their formulation of the parameter in question, it can be stated as follows:</p>
+<p>(40)&ensp;English forces agreement, while Japanese does not force agreement or lacks agreement at all.</p>
+<p>As agreement in the current syntactic theory is basically a feature-checking relation between the head and the Spec in the projection of functional categories (<link rid="b16">Chomsky 1995c</link>), the lack of agreement means the lack or inertness of functional projections. Thus, languages like Japanese must generate virtually everything in lexical projections, according to Fukui and Kuroda. The lexical projections are not under the control of feature checking and there are basically no bounds to the number of levels of projections in terms of X-bar theory or whatever replaces it (e.g., there are no bounds to the number of adjectives preceding and modifying a noun). Thus, in a language like Japanese where the subject is in the lexical projection on the surface, the multiple subjects are possible, so far as there can be a proper semantic relation between the subject and the rest of the sentence:</p>
+<p>(41)&ensp;&lsqb;I&prime; &lsqb;VP NP-ga &lsqb;VP NP-ga &lsqb;VP NP-ga .&nbsp;.&nbsp;.&nbsp;&rsqb;&rsqb;&rsqb;&rsqb;</p>
+<p>Thus, the multiple Nominatives are possible, according to Fukui and Kuroda.</p>
+<p>Then what is the Nominative Case? On this issue, Kuroda and Fukui differ. Kuroda claims that <i>-ga</i> is marked and licensed whenever a noun phrase is clause-initial. Kuroda views Case in Japanese as something assigned based on linear positions, not on structural relations. Fukui, on the other hand, claims that <i>-ga</i> and other Case particles are of a special syntactic category K(ase), and K is generated to Case-mark an NP in languages like Japanese where structural Case assignment/checking is not possible.</p>
+<p>The major weak point of Fukui&apos;s and Kuroda&apos;s approach is that they cannot distinguish the types of Topics/Subjects introduced in <link rid="ss8">section 4</link>. However, their approach to Japanese grammar is worth exploring in that they try to derive numbers of differences in two types of languages from a single, simple parametric difference, which possibly simplifies the form of Universal Grammar drastically.</p>
+</subsection>
+<subsection id="ss18" level="2">
+<heading id="h17" level="2">6.2 Case particles as functional heads</heading>
+<p>Whitman in <link rid="b12">Takezawa and Whitman (1998</link>) shows a unique view on Japanese Case marking. He agrees with Fukui that the case particles in Japanese constitute independent syntactic categories and are not simply a marking on NP. He differs from Fukui in that Whitman considers case particles as fully projecting functional categories. For example, for Whitman, a simple transitive sentence in Japanese has the following structure:</p>
+<p>(42)&ensp;<object id="tu32" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu32_source">
+<tbl frame="none">
+<tgroup cols="12">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12"/>
+<tbody>
+<row><entry>&lsqb;IP</entry>
+<entry>Taroo</entry>
+<entry>&lsqb;I&prime;</entry>
+<entry>&lsqb;I</entry>
+<entry>-ga&rsqb;</entry>
+<entry>&lsqb;TrP</entry>
+<entry>Hanako</entry>
+<entry>&lsqb;Tr&prime;</entry>
+<entry>&lsqb;Tr</entry>
+<entry>-o&rsqb;</entry>
+<entry>&lsqb;VP</entry>
+<entry>shikatta&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>
+</entry>
+<entry>Taro</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>NOM</entry>
+<entry>
+</entry>
+<entry>Hanako</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>ACC</entry>
+<entry>
+</entry>
+<entry>scolded</entry>
+</row>
+<row><entry namest="col1" nameend="col12">&lsquo;Taro scolded Hanako.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>For Whitman, the Nominative Case particle -<i>ga</i> is an instance of a functional head INFL and the Accusative Case particle -<i>o</i> is an instance of another functional head Tr(ansitive) (or <i>v</i> or AgrO or whatever we call it), and the clausal structure in Japanese has full projections, just like English. Case marking/checking is done by the Spec&ndash;Head relations just as in English. Japanese is different from English in that INFL lacks Tense/Agr features, basically following Fukui&apos;s and Kuroda&apos;s claims. Because Japanese INFL <i>-ga</i> lacks features, it can be multiplied in a single clause, according to Whitman:</p>
+<p>(43)&ensp;<object id="tu33" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu33_source">
+<tbl frame="none">
+<tgroup cols="12">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12"/>
+<tbody>
+<row><entry>&lsqb;IP</entry>
+<entry>Zoo</entry>
+<entry>&lsqb;I&prime;</entry>
+<entry>&lsqb;I</entry>
+<entry>-ga&rsqb;</entry>
+<entry>&lsqb;IP</entry>
+<entry>hana</entry>
+<entry>&lsqb;I&prime;</entry>
+<entry>&lsqb;I</entry>
+<entry>-ga&rsqb;</entry>
+<entry>&lsqb;AdjP</entry>
+<entry>nagai&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>
+</entry>
+<entry>elephants</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>NOM</entry>
+<entry>
+</entry>
+<entry>trunk</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>NOM</entry>
+<entry>
+</entry>
+<entry>long</entry>
+</row>
+<row><entry namest="col1" nameend="col12">&lsquo;It is elephants whose trunk is long.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The two INFL <i>-ga</i>s are responsible for the two occasions of Nominative marking/checking.</p>
+<p>The problem which immediately arises from Whitman&apos;s treatment of Japanese grammar is that we cannot conceive of a way to derive a sentence to which Scrambling of a noun phrase has applied, where a noun and a case particle appear to move together as if they constitute a constituent, as in (42):</p>
+<p>(44)&ensp;Hanako -o Taroo -ga shikatta.</p>
+<p>A noun and a case particle following it always move together, and Whitman&apos;s grammar does not have a way to guarantee this. However, his way of analyzing Japanese clauses is worth exploring, because it may show another direction the theory of Universal Grammar may head in once parametrization of the characteristic of functional heads, as proposed by Fukui and Kuroda, can be accepted as something real.</p>
+</subsection>
+</subsection>
+<subsection id="ss19" level="1">
+<heading id="h18" level="1">7 Conclusion</heading>
+<p>This article has introduced theories and analyses of Japanese Double Subject/Nominative Constructions. It has been shown that this peculiar construction may be a guiding light for various branches of syntax, such as focus, the basic clausal structure, topic/subject distinction, and the role of functional heads in grammar. So far, there has not been any theory of this construction which covers all of the characteristics/distinctions that are introduced and reviewed in this article. Future studies on the Double Nominative Construction must be both theoretically intriguing and descriptively accurate, as almost all issues relating to this peculiar construction have been presented.</p>
+</subsection>
+<subsection id="ss20" level="1">
+<heading id="h19" level="1">NOTES</heading>
+<p>
+<span id="fn1">
+<number>1&emsp;</number>Note that this is different from the Left-Dislocation Construction, as in (i):</span>
+</p>
+<p>&emsp;(i)&ensp;John, his uncle is a doctor.</p>
+<p>
+<span id="fn2">
+<number>2&emsp;</number>Perhaps because it is non-topical.</span>
+</p>
+<p>
+<span id="fn3">
+<number>3&emsp;</number>
+<link rid="b17 b5">Tateishi (1990, 1994</link>) claims that the topic in (24) is base-generated in Spec(CP), on the basis that a sentence with this type of topic cannot allow for LF <i>wh</i>-extraction. Whether Tateishi&apos;s approach is correct or not, it is certain that this type of topic must be generated outside of ordinary domains of predication, S or IP(TP).</span>
+</p>
+<p>
+<span id="fn4">
+<number>4&emsp;</number>See also <link rid="b18">Fujii (2000</link>), which argues that Subjectivization and Major Subject Construction must be distinguished, on the basis of other sets of data.</span>
+</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss21" level="1" type="references">
+<heading id="h20" level="1">REFERENCES</heading>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="book">Lectures on Government and Binding<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986a</date><x>). </x><title type="book">Barriers<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b16" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995c</date><x>). </x><title type="book">The Minimalist Program<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b18" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Fujii</surname><x>, </x><forenames>Tomohiro</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">Multiple Nominative Constructions and their Implications</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Osaka University Papers in English Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Seisaku</forenames><x> </x><surname>Kawakami</surname>
+</name><x> and </x><name type="editor">
+<forenames>Yukio</forenames><x> </x><surname>Oba</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">1</page><x>&ndash;</x><page type="last">41</page>
+<x>. </x><address>Toyonaka</address><x>: </x><publisher>Osaka University, English Linguistics, Graduate School</publisher><x>.</x>
+</reference>
+<reference id="b14" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Fukui</surname><x>, </x><forenames>Naoki</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="book">Theory of Projection in Syntax<x>.</x>
+</title><x> </x><address>Tokyo/Stanford</address><x>: </x><publisher>Kurosio/CSLI Publications.</publisher>
+</reference>
+<reference id="b8" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Heycock</surname><x>, </x><forenames>Caroline</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Syntactic Predication in Japanese</title><x>. </x><title type="journal">Journal of East Asian Linguistics</title><x> </x><volume>2</volume><x>: </x><page type="first">167</page><x>&ndash;</x><page type="last">211</page><x>.</x>
+</reference>
+<reference id="b3" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kuno</surname><x>, </x><forenames>Susumu</forenames>
+</name>
+</namegroup><x> (</x><date date="1973">1973c</date><x>). </x><title type="book">The Structure of the Japanese Language<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b19" type="book">
+<corporatename type="author">Kuroda, Shige-Yuki</corporatename><x> (</x><date date="1978">1978</date><x>). </x><title type="document">Case-Marking, Canonical Sentence Patterns and Counter Equi in Japanese</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Problems in Japanese Syntax and Semantics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>John</forenames><x> </x><surname>Hinds</surname>
+</name><x> and </x><name type="editor">
+<forenames>Irwin</forenames><x> </x><surname>Howard</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">30</page><x>&ndash;</x><page type="last">51</page>
+<x>. </x><address>Tokyo</address><x>: </x><publisher>Kaitakusha.</publisher>
+</reference>
+<reference id="b4" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kuroda</surname><x>, </x><forenames>Shige-Yuki</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Movement of Noun Phrases in Japanese</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Issues in Japanese Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Takashi</forenames><x> </x><surname>Imai</surname>
+</name><x> and </x><name type="editor">
+<forenames>Mamoru</forenames><x> </x><surname>Saito</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">229</page><x>&ndash;</x><page type="last">271</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b15" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kuroda</surname><x>, </x><forenames>Shige-Yuki</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Whether We Agree or Not: A Comparative Syntax of English and Japanese</title><x>. </x><title type="journal">Linguisticae Investigationes</title><x> </x><volume>12</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">47</page><x>.</x>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Mihara</surname><x>, </x><forenames>Ken-Ichi</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">Nihongo-no Togo-Kozo (The Syntactic Structure of Japanese</title><x>)</x><x>. </x><address>Tokyo</address><x>: </x><publisher>Shohakusha.</publisher>
+</reference>
+<reference id="b9" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Saito</surname><x>, </x><forenames>Mamoru</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date>
+<miscellaneoustext>). Case Marking in Japanese</miscellaneoustext><x>. </x>
+<address>Unpublished manuscript, Cambridge</address><x>, </x><publisher>MIT</publisher><x>.</x>
+</reference>
+<reference id="b10" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Saito</surname><x>, </x><forenames>Mamoru</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date>
+<miscellaneoustext>). Some Asymmetries in Japanese and their Theoretical Implications</miscellaneoustext><x>. </x>
+<publisher>PhD dissertation, Cambridge</publisher><x>, </x><address>MIT</address><x>.</x>
+</reference>
+<reference id="b11" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Takezawa</surname><x>, </x><forenames>Koichi</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date>
+<miscellaneoustext>). A Configurational Approach to Case Marking in Japanese</miscellaneoustext>
+<x>. </x><address>PhD dissertation, Seattle</address><x>, </x><publisher>University of Washington</publisher><x>.</x>
+</reference>
+<reference id="b12" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Takezawa</surname><x>, </x><forenames>Koichi</forenames>
+</name><x> and </x><name type="author">
+<forenames>John</forenames><x> </x><surname>Whitman</surname>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="book">Kaku-to Gojun-to Togo-Kozo<x>. </x>(Case Marking, Word Order and Syntactic Structures</title><x>.) </x><address>Tokyo</address><x>: </x><publisher>Kenkyusha.</publisher>
+</reference>
+<reference id="b7" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Tateishi</surname><x>, </x><forenames>Koichi</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">On the Universality of X&prime;-Theory</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Seventh West Coast Conference on Formal Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Hagit</forenames><x> </x><surname>Borer</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">331</page><x>&ndash;</x><page type="last">345</page>
+<x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications.</publisher>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Tateishi</surname><x>, </x><forenames>Koichi</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Syntax of Conditional Topic Construction in Japanese</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society 20</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Juli</forenames><x> </x><surname>Carter</surname>
+</name><x>, </x><name type="editor">
+<forenames>Rose-Marie</forenames><x> </x><surname>D&eacute;chaine</surname>
+</name><x>, </x><name type="editor">
+<surname>
+</surname>
+<forenames>Bill<x> </x>Philip</forenames>
+</name><x>, and </x><name type="editor">
+<forenames>Tim</forenames><x> </x><surname>Sherer</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">457</page><x>&ndash;</x><page type="last">471</page>
+<x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association.</publisher>
+</reference>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Tateishi</surname><x>, </x><forenames>Koichi</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">The Syntax of &lsquo;Subjects&rsquo;<x>.</x>
+</title><x> </x><address>Tokyo/Stanford</address><x>: </x><publisher>Kurosio/CSLI Publications.</publisher>
+</reference>
+<reference id="b13" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ura</surname><x>, </x><forenames>Hiroyuki</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="book">Checking Theory and Grammatical Functions in Universal Grammar<x>.</x>
+</title><x> </x><address>Oxford</address><x>: </x><publisher>Oxford University Press.</publisher>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

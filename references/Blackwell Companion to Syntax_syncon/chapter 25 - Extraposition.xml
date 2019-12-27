@@ -1,0 +1,2115 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="25"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 25 - Extraposition.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">237</page>
+<page type="last">271</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="0"/>
+<count type="table" count="37"/>
+<count type="formula" count="4"/>
+<count type="reference_total" count="53"/>
+<count type="page" count="35"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051108"/>
+<trackingdate type="markedup" date="0000" by="christine tsai"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 25&ensp;Baltin: Extraposition</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 25&ensp;Baltin: Extraposition</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">25 Extraposition</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>MARK</forenames><x> </x><surname>BALTIN</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>The position of attachment of the extraposed element</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>LF-locality between head and complement</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>The Right Roof Constraint</p>
+</li>
+<li level="2">
+<number>4.1&ensp;</number>
+<p>The status of the Right Roof Constraint</p>
+</li>
+<li level="2">
+<number>4.2&ensp;</number>
+<p>Alternative accounts of the Right Roof Constraint in other approaches to extraposition</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>The base-generation analysis of extraposition and the stranding analysis in greater detail</p>
+</li>
+<li level="2">
+<number>5.1&ensp;</number>
+<p>The base-generation analysis</p>
+</li>
+<li level="2">
+<number>5.2&ensp;</number>
+<p>The stranding analysis</p>
+</li>
+<li level="3">
+<number>5.2.1&ensp;</number>
+<p>Advantages</p>
+</li>
+<li level="3">
+<number>5.2.2&ensp;</number>
+<p>Disadvantages</p>
+</li>
+<li level="1">
+<number>6&ensp;</number>
+<p>Extraposition of PP</p>
+</li>
+<li level="1">
+<number>7&ensp;</number>
+<p>Variant of the stranding analysis</p>
+</li>
+<li level="1">
+<number>8&ensp;</number>
+<p>All extrapositions are not created equal: a mixed analysis of the phenomenon</p>
+</li>
+<li level="1">
+<number>9&ensp;</number>
+<p>Result clauses</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1 Introduction</heading>
+<p>Extraposition may be defined as a process by which an element is moved to the right of, or subsequent to, its canonical position. Examples of extraposition are given in (1&ndash;3):</p>
+<p>(1)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>That John is a fool is obvious.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>It is obvious that John is a fool.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(2)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>A book which was written by Chomsky appeared.</entry>
+</row>
+<row><entry>b.</entry>
+<entry><u>A book</u> appeared which was written by Chomsky.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(3)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>A review of Chomsky&apos;s book appeared.</entry>
+</row>
+<row><entry>b.</entry>
+<entry><u>A review</u> appeared of Chomsky&apos;s book.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The (a) versions are assumed to represent the basic word orders, and the (b) versions are assumed to represent the extraposed versions. The extraposition that is exemplified in (1) is simply termed extraposition, following <link rid="b1">Rosenbaum (1967</link>); the process in (2) is often called extraposition of relatives, and sometimes extraposition from NP (a term that originates in the period before nominals were analyzed as DPs); and the process in (3) is often called PP-extraposition. In this survey, Rosenbaum&apos;s extraposition will be dealt with only briefly, in <link rid="ss6">section 4.1</link>, where we discuss the status of the Right Roof Constraint, but it is necessary to delimit it, in order to emphasize the construction that we will not be talking about.</p>
+<p>Rosenbaum&apos;s extraposition deals with the alternation in which a clausal argument of a predicate does not appear in its &lsquo;normal&rsquo; position, but rather appears to the right of that position, and that position is occupied by the expletive <i>it</i>. We will be discussing another construction in which an element appears to the right of its canonical position but a gap is left. The element is either a PP or a CP. There is another construction in which an element appears to the right of its normal position, but this construction is usually distinguished in the literature from extraposition, and is termed the &lsquo;Heavy NP Shift&rsquo; construction, exemplified in (4):</p>
+<p>(4)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>I gave everything I had to John.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>I gave to John everything I had.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Although the similarities between Heavy NP Shift and extraposition are highly suggestive of a unified analysis, a formal unification of the grammatical analysis of the two constructions has not been made, to our knowledge.</p>
+<p>With the focus of discussion hopefully clarified, let us proceed to the question of the etiology of the extraposition construction. Four analyses have appeared in the literature: (i) rightward movement of the extraposed element from its canonical position to a position subsequent to the canonical position (<link rid="b2">Ross 1986</link>; <link rid="b3">Akmajian 1975</link>; <link rid="b4 b5">Baltin 1978b, 1981</link>); (ii) generation of the extraposed element in the extraposed position, perhaps with some interpretive process that treats it as though it were in the canonical position (<link rid="b6">Culicover and Rochemont 1990</link>); (iii) given that extraposed elements are modifiers of some sort, generating the extraposed elements and the elements that they modify as constituents in the extraposed position, with leftward movement of the elements that are modified (<link rid="b7">Kayne 1994</link> and a modification of <link rid="b7">Kayne 1994</link> proposed by <link rid="b8">Wilder 1995</link>); (iv) a &lsquo;mixed&rsquo; analysis proposed by <link rid="b9">Fox and Nissenbaum (1999</link>), in which some elements are moved rightward, while other &lsquo;extraposed&rsquo; elements are adjuncts that are merged with heads that are moved rightward but are not pronounced in their moved positions.</p>
+<p>We will discuss all of these analyses, and compare them, in subsequent sections, but we will first establish some high-level descriptive generalizations about the extraposition construction, as a kind of yard-stick against which to measure the success of each analysis.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2 The position of attachment of the extraposed element</heading>
+<p>To be neutral among these analyses of extraposition, it would be helpful to introduce some terminology. Let us refer to the phrase which the extraposed element is construed as modifying as the host. For example, the underlined subjects in (2b) and (3b) are hosts.</p>
+<p>Hosts can occupy a variety of positions &ndash; the subject position is only one. For example, objects can be hosts:</p>
+<p>(5)&ensp;I called <u>somebody</u> yesterday who I couldn&apos;t stand.</p>
+<p>Objects of prepositions can also serve as hosts:</p>
+<p>(6)&ensp;I talked to somebody about that who was quite knowledgeable.</p>
+<p><i>Wh</i>-phrases, presumably in &lsqb;Spec, CP&rsqb;, can also be hosts:</p>
+<p>(7)&ensp;Who did you visit who was unhappy about the visit?</p>
+<p>Extraposition cases such as (7), in which the host is in a derived position, raise the question of what the host is. If we assume that the <i>wh</i>-phrase and its trace form a chain, is the host the head of the chain, or the tail of the chain? <link rid="b6">Culicover and Rochemont (1990</link>) present evidence that that host is the head of the chain. We will present this evidence below, but for now, it must be taken on faith, because the notion of a host has not been shown to have any theoretical significance; it has only been a terminological matter. It is clear, however, that unless grammatical relations are determined derivationally, i.e., pre-movement, in a way in which they are indelible, some mechanism must be countenanced that can determine the fact that a given extraposed element is the modifier of a given host. <link rid="b10">Gu&eacute;ron and May (1984</link>) provide such a principle, which they dub the Complement Principle. This is presented in (8):</p>
+<p>(8)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Complement Principle (Gu&eacute;ron and May&apos;s (11):</b>
+</entry>
+</row>
+<row><entry>In a sequence of categories &alpha;<sub>i</sub>, &bgr;<sup>i1</sup>&nbsp;.&nbsp;.&nbsp;.&nbsp;<formula id="mu1" format="inline">
+<file name="Graphics\chapter_25_mu1.gif" type="gif"/>
+</formula> in a structure &Sigma;, <formula format="inline">
+<file name="Graphics\chapter_25_mu2.gif" type="gif"/>
+</formula>&nbsp;.&nbsp;.&nbsp;.&nbsp;<formula format="inline">
+<file name="Graphics\chapter_25_mu1.gif" type="gif"/>
+</formula> are complements to &alpha;<sub>i</sub> only if &alpha;<sub>i</sub> governs &bgr;<sub>1</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;<formula format="inline">
+<file name="Graphics\chapter_25_mu1.gif" type="gif"/>
+</formula>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>They assume the following definition of government:</p>
+<p>(9)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>(Gu&eacute;ron and May&apos;s (12)):</b>
+</entry>
+</row>
+<row><entry>&alpha; governs &bgr; &equals; <sub>df</sub> &alpha;,&bgr; are dominated by all the same maximal projections, and there are no maximal projection boundaries between &alpha; and &bgr;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Gu&eacute;ron and May assume <link rid="b11">May&apos;s (1985</link>) principle that adjunction creates multi-membered projections, and that to be dominated by a node is to be contained within all of its members. They further assume that Bresnan&apos;s S&prime; (i.e., Comp &plus; S) is the maximal projection of S, a non-standard assumption today, the standard assumption being that there is a CP and a TP, both of which are maximal projections. Gu&eacute;ron and May&apos;s complement principle will be examined in <link rid="ss4">section 3</link>, but for now, we note that they require that the head of an A-bar-chain be the element that is construed with the extraposed constituent, and there are two independent reasons for allowing extraposed elements to be construed with A-bar-chain heads. The first is based on a fact first noted in <link rid="b12 b4">Baltin (1978a, 1978b</link>), to the effect that extraposition cannot occur out of a fronted PP:</p>
+<p>(10)&ensp;*In which magazine did you see it which was lying on the table?</p>
+<p>The object of a preposition that remains within the VP can be related to an extraposed constituent:</p>
+<p>(11)&ensp;I saw it in a magazine yesterday which was lying on the table.</p>
+<p>Crucially, if the preposition is stranded, a fronted <i>wh</i>-phrase can more acceptably be related to an extraposed constituent:</p>
+<p>(12)&ensp;<sup>??</sup>Which magazine did you see it in which was lying on the table?</p>
+<p>The essential contrast here is between (10) and (12). It is true that (11) shows that an extraposed constituent can be related to a prepositional object that is within the VP, but a prepositional object within a PP that is fronted out of the VP cannot launch an extraposed constituent. It seems, however, that a fronted prepositional object that is fronted by itself does more easily launch an extraposed constituent. We will return below to the inability of a fronted PP to host an argument that is related to an extraposed constituent. Unfortunately, the acceptability of (12) seems to be marginal.</p>
+<p>A clearer piece of evidence that an extraposed constituent must be related to the head of an A-bar-chain, rather than the tail, is provided by <link rid="b13">Culicover and Rochemont (1997</link>), who note the contrast between (13) and (14) (their (49) and (50), respectively):</p>
+<p>(13)&ensp;*He<sub>i</sub> &lsqb;<sub>VP</sub> &lsqb;<sub>VP</sub> invited several girls to the party&rsqb; &lsqb;<sub>CP</sub> that John<sub>i</sub> dated in high school&rsqb;&rsqb;.</p>
+<p>(14)&ensp;How many girls did &lsqb;<sub>IP</sub> he<sub>i</sub> invite to the party&rsqb; &lsqb;<sub>CP</sub> that John<sub>i</sub> dated in high school&rsqb;?</p>
+<p>If we assume that the extraposed relative in (13) is adjoined to the VP, co-indexing between a pronominal subject and an R-expression that is within the extraposed relative violates Principle C of the Binding Theory (<link rid="b14">Chomsky 1981</link>) under standard assumptions. The fact that such co-indexing is acceptable in (14) indicates that the extraposed relative must be outside of the domain of the subject, which it is if the extraposed relative in (14) is adjoined to CP.</p>
+<p>
+<link rid="b5">Baltin (1981</link>) shows that there is no unique point of attachment for extraposed constituents. It is shown there that constituents that are extraposed from subject position (relatives and extraposed PPs) are adjoined to IP, while relatives and PPs that are extraposed from within objects are adjoined to VP. The arguments are based on stranding contrasts of extraposed material under VP-ellipsis and VP-fronting processes. Specifically, material that is extraposed from subject position can be stranded when the VP is elided or fronted, and indeed must be stranded under those conditions, while material that is extraposed from object position cannot be stranded when the VP is elided or fronted:</p>
+<p>(15)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Although not many people would ride with Fred who knew just him, some would___who knew his brother.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Although no reviews appeared of Chomsky&apos;s book, one did___of Jakobson&apos;s book.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*Although he didn&apos;t call people up who are from Boston, he did ___who are from New York.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>*Although he didn&apos;t call people up from Boston, he did___from New York.</entry>
+</row>
+<row><entry>e.</entry>
+<entry>John said that he would call people up who are from Boston, and call people up who are from Boston he did___.</entry>
+</row>
+<row><entry>f.</entry>
+<entry>*John said that he would call people up who are from Boston, and call people up he did___who are from Boston.</entry>
+</row>
+<row><entry>g.</entry>
+<entry>John said that he would call people up from Boston, and call people up from Boston he did___.</entry>
+</row>
+<row><entry>h.</entry>
+<entry>*John said that he would call people up from Boston, and call people up he did___from Boston.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This would indicate that the generalization about the structural position of extraposed phrases is the following:</p>
+<p>(16)&ensp;An extraposed phrase is adjoined to the first maximal projection that dominates the phrase in which it originates.</p>
+<p>Therefore, an extraposed element that modifies a <i>wh</i>-phrase in &lsqb;Spec, CP&rsqb; would be adjoined to CP, and hence out of the c-command domain of the subject, accounting for Culicover and Rochemont&apos;s observations noted in (14). It will be noted that (16) predicts that an element that is extraposed from subject position will follow an element that is extraposed from object position, given that the former would be adjoined to a projection dominating VP, while the latter is adjoined to VP. This prediction appears to be correct:</p>
+<p>(17)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Someone picked some books up which were lying on the table who really didn&apos;t want to.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Someone picked some books up who really didn&apos;t want to which were lying on the table.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>It should be noted that while extraposition is usually thought of as applying to elements that modify nominals, the process is clearly more general. It applies to clausal and PP complements of adjectives and verbs as well (as noted by <link rid="b5">Baltin 1981</link>):</p>
+<p>(18)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>How fond of Sally are you?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>How fond are you of Sally?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(19)&ensp;<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>How certain that the Mets will win are you?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>How certain are you that the Mets will win?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(20)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Believe that Fred is crazy though I may, it doesn&apos;t matter.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Believe though I may that Fred is crazy, it doesn&apos;t matter.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(21)&ensp;<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Talk to Sally about Martha though I may, it won&apos;t matter.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Talk to Sally though I may about Martha, it won&apos;t matter.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Gu&eacute;ron and May&apos;s complement principle does not make reference to the categorial status of the head, and this is one of its virtues, as we see.</p>
+</subsection>
+<subsection id="ss4" level="1">
+<heading id="h3" level="1">3 LF-locality between head and complement</heading>
+<p>Let us examine more closely <link rid="b10">Gu&eacute;ron and May&apos;s (1984</link>) Complement Principle, repeated here, together with their definition of government:</p>
+<p>(8)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Complement Principle (Gu&eacute;ron and May&apos;s (11)):</b>
+</entry>
+</row>
+<row><entry>In a sequence of categories &alpha;<sub>i</sub>, &bgr;<sup>i1</sup>&nbsp;.&nbsp;.&nbsp;.&nbsp;<formula format="inline">
+<file name="Graphics\chapter_25_mu1.gif" type="gif"/>
+</formula> in a structure &Sigma;, <formula format="inline">
+<file name="Graphics\chapter_25_mu2.gif" type="gif"/>
+</formula>&nbsp;.&nbsp;.&nbsp;.&nbsp;<formula format="inline">
+<file name="Graphics\chapter_25_mu1.gif" type="gif"/>
+</formula> are complements to &alpha;<sub>i</sub> only if &alpha;<sub>i</sub> governs &bgr;<sub>1</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;<formula format="inline">
+<file name="Graphics\chapter_25_mu1.gif" type="gif"/>
+</formula>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(9)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>(Gu&eacute;ron and May&apos;s (12)):</b>
+</entry>
+</row>
+<row><entry>&alpha; governs &bgr; &equals;<sub>df</sub> &alpha;,&bgr; are dominated by all the same maximal projections, and there are no maximal projection boundaries between &alpha; and &bgr;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Assuming that the Complement Principle governs locality between an extraposed constituent and its host, S-structure cannot be the level at which the Complement Principle must hold. Gu&eacute;ron and May assume the S-structures advocated in <link rid="b5">Baltin (1981</link>), in which a constituent that is extraposed from subject position is adjoined to TP, while a constituent that is extraposed from object position is adjoined to VP. They also assume <link rid="b11">May&apos;s (1985</link>) convention regarding adjunction structures, which posits a distinction between projections and members of projections. Adjunction structures are viewed as creating multi-membered projections. Domination by a projection requires containment within all of the members of the projection, so that an adjoined element is not viewed as being dominated by the node to which it is adjoined; rather, it is viewed as being dominated by the next higher projection. Hence, a relative clause that is adjoined to VP is not dominated by that VP, since it is not contained within the lowest member of that VP (the one to which it is adjoined), while an object would be dominated by the VP. The same argument holds, by parity of reasoning, for relative clauses adjoined to TP.</p>
+<p>Hence, the nominal host of an extraposed relative clause would not govern it at S-structure. Gu&eacute;ron and May claim, however, that government by the nominal host of the extraposed relative clause would hold at LF if the nominal QRs (Quantifier Raises) to adjoin still higher than the extraposed relative clause (or PP).</p>
+<p>As evidence for the Complement Principle&apos;s application at LF, after QR feeds the Complement Principle, it is necessary to bifurcate the class of restrictive relative clause-taking nominals into those that are quantified and those that are not, with the prediction being that only the former will be able to host extraposed relative clauses. The definite determiner <i>the</i>, and demonstratives, are not considered to be quantified, and therefore cannot cause the DPs that they head to QR. Therefore, they should not be able to host extraposed relative clauses. It has often been noted, and Gu&eacute;ron and May note as well, that nominals introduced by definite articles indeed do not host extraposed relatives:</p>
+<p>(22)&ensp;*The man showed up that hated Chomsky.</p>
+<p>The claim, however, that DPs that are headed by demonstratives do not host extraposed constituents is less obviously true. Gu&eacute;ron and May assign a * to the following example (their (17b)):</p>
+<p>(23)&ensp;*I read that book during the vacation that was written by Chomsky.</p>
+<p>However, it is not as bad as (22), and parallel examples are perfect:</p>
+<p>(24)&ensp;Those students will pass this course who complete all of their assignments on time.</p>
+<p>It is, however, impossible, it seems, to improve a nominal that is introduced by a pure definite article as an extraposition host. Therefore, the predictions of the LF-locality theory of extraposition do not seem to be clearly borne out. In <link rid="ss10">section 5.2</link>, when we consider the stranding account of extraposition, we will examine an alternative, more overtly syntactic, account of the contrast between definite articles and demonstratives as introducers of extraposed relative clause hosts.</p>
+</subsection>
+<subsection id="ss5" level="1">
+<heading id="h4" level="1">4 The Right Roof Constraint</heading>
+<p>Assuming that (16) is correct, and that extraposed elements are adjoined to the first maximal projection that dominates their &lsquo;hosts&rsquo;, we must ask precisely what mechanism ensures this. If extraposition is a rightward movement process, one might locate its restriction within the theory of bounding, a specification of the locality constraints on movement. If one takes extraposition as arising from generation of the constituent in its extraposed position, and construal of this element as modifying some element to its left, the locality constraint would be taken to be a specification of the configuration in which this modification construal is licit. A third view of the rightward movement locality conditions was proposed by <link rid="b7">Kayne (1994</link>), which we will discuss below.</p>
+<p>First, however, a bit of history is in order. <link rid="b2">Ross (1986</link>), taking extraposition to be a rightward movement process, noticed that extraposition had stricter constraints on how far it could move than leftward movement processes, such as <i>wh</i>-movement. Specifically, he posited a constraint that has come to be known as the Right Roof Constraint:</p>
+<p>(25)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Right Roof Constraint:</b>
+</entry>
+</row>
+<row><entry>An element cannot move rightward out of the clause in which it originates.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>An example of the Right Roof Constraint can be seen below, taken from <link rid="b4">Baltin (1978b</link>):</p>
+<p>(26)&ensp;*John was believed to be certain by everybody that the Mets would lose.</p>
+<p>Assuming the <i>by</i> phrase to be in the matrix clause, whose main verb is passive, it follows that the finite complement which follows it, the underlying complement of <i>certain</i>, must also be in the matrix clause, and cannot be within the infinitive. Since we have seen that clausal complements of adjectives can extrapose (as seen in (19)), something must be preventing it from extraposing out of the infinitive clause into the matrix clause, and the Right Roof Constraint seems to accurately describe this restriction.</p>
+<p>Of course, the fact that the Right Roof Constraint needs to explicitly mention the direction of movement is a defect in a theory of Universal Grammar that incorporates it. It is clear that there is no &lsquo;Left Roof Constraint&rsquo;; <i>wh</i>-movement, for example, can clearly extract elements out of the clauses in which they originate:</p>
+<p>(27)&ensp;What was John believed to be certain that we would be assigned___?</p>
+<p>Let us put aside for the moment the objection to incorporating the Right Roof Constraint as is into the theory of grammar, while we examine its empirical adequacy.</p>
+<p>Following Ross&apos;s extensive discussion of the range of syntactic islands, an attempt was made to unify them into a general theory of bounding of movement, a theory of locality of movement in the form of <link rid="b15">Chomsky&apos;s (1973</link>) Subjacency condition:</p>
+<p>(28)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Subjacency:</b>
+</entry>
+</row>
+<row><entry>In the configuration X .&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>&alpha;</sub> .&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>&bgr;</sub> .&nbsp;.&nbsp;.&nbsp;Y .&nbsp;.&nbsp;.&nbsp;&rsqb; .&nbsp;.&nbsp;.&nbsp;&rsqb; .&nbsp;.&nbsp;.&nbsp;X&prime;, no element Y can be moved to position X or X&prime;, if &alpha; and &bgr; are both cyclic nodes.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>It had been thought in the 1960s and 1970s that a proper subset of the set of maximal projections could be stipulated as cyclic nodes, the set of nodes that were relevant for the transformational cycle. It had been proposed that universally NP (before NPs were reanalyzed as DPs, in <link rid="b16">Abney 1987</link>) was one of the cyclic nodes, and either CP, IP (in those days, S&prime; and S respectively), or both were cyclic nodes as a parameter.</p>
+<p>Many of the empirical effects of the Right Roof Constraint could be derived from Subjacency, but not all, as shown by <link rid="b5">Baltin (1981</link>), to whom we will return. <link rid="b3">Akmajian (1975</link>) showed, however, that the Right Roof Constraint, which mentions only the clause as setting a boundary for rightward movement, is too weak, in that extraposition seems to be much more bounded in its movement, the required boundary being at a subclausal level. Akmajian discussed the ambiguity of (29):</p>
+<p>(29)&ensp;A review of a book by three authors appeared.</p>
+<p>The ambiguity hinges on the modification relation between the second PP and the NP that it is taken to modify, with different structures for the subject. Presumably, assuming again that nominal arguments are NPs rather than DPs (for historical fidelity to the work cited, although nothing hinges on this), the structures would be as in (30):</p>
+<p>(30)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;<sub>NP</sub> A &lsqb;<sub>N&prime;</sub> &lsqb;<sub>N&prime;</sub> review of a book&rsqb; &lsqb;<sub>PP</sub> by three authors&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>NP</sub> A &lsqb;<sub>N&prime;</sub> &lsqb;review&rsqb; &lsqb;<sub>PP</sub> &lsqb;<sub>P</sub> of&rsqb; &lsqb;<sub>NP</sub> a book by three authors&rsqb;&rsqb;&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (30a), the second PP is within the highest NP, representing the reading in which three authors penned the review, while in (30b) the second PP is within the lowest NP, representing the reading in which three individuals wrote the book. Akmajian noted, however, that PP extraposition of the second PP removes the ambiguity, with the reading corresponding to (30a), rather than (30b):</p>
+<p>(31)&ensp;A review of a book appeared by three authors.</p>
+<p>Assuming extraposition to be an instance of movement, movement out of the lowest NP would violate Subjacency, since the PP would have to cross two NPs to move out of the subject, while movement out of the higher NP would only cross one NP, obeying Subjacency.</p>
+<p>
+<link rid="b12 b4">Baltin (1978a, 1978b</link>) and, independently, Van <link rid="b17">Riemsdijk (1978a</link>), argued that PPs also had to be counted in the set of cyclic nodes that were relevant to Subjacency. These authors argued on the basis of leftward movement restrictions as well, but one argument, from <link rid="b12">Baltin (1978a</link>), was the account that inclusion of PP in the inventory of cyclic nodes would furnish of the inability of extraposition of relative clauses to occur out of fronted PPs, noted in (10), repeated here:</p>
+<p>(10)&ensp;*In which magazine did you see it which was lying on the table?</p>
+<p>If the PP and the NP that contain the relative clause are both counted for Subjacency, Subjacency rules out extraposition of a relative clause to a position outside of the PP.</p>
+<p>A problem for this account, however, is the fact that such extraposition does seem to be possible out of a PP that remains inside of the VP, as noted in (11), repeated here:</p>
+<p>(11)&ensp;I saw it in a magazine yesterday which was lying on the table.</p>
+<p>One account of the difference in extraposition possibilities between (10) and (11) relied on a notion of &lsquo;reanalysis&rsquo; of the preposition, causing it to incorporate, in current parlance, into the verb, and presumably pruning the preposition&apos;s projections, so that there would be no PP node in (11) that would dominate the NP out of which extraposition took place. The reanalysis account was extremely influential for a number of years, but <link rid="b18">Baltin and Postal (1996</link>) presented several arguments, to which the reader is referred, that there is no reanalysis of prepositions that occurs within the VP. For example, comparative subdeletion cannot occur in the object of a preposition, while it clearly can to uncontroversial objects, so that the contrast in (32) holds:</p>
+<p>(32)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*John talked to more of these people than he talked to___of those people.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John read more of these books than he read___of those books.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The contrast between (10) and (11) seems to be identical to the contrast in (33) and (34), involving anaphoric binding rather than extraposition:</p>
+<p>(33)&ensp;*To whom did he talk about each other?</p>
+<p>(34)&ensp;I talked to them about each other.</p>
+<p>On the face of it, the contrast between (33) and (34) would seem to argue for reanalysis of the preposition with the verb, allowing the prepositional object to then c-command the second PP (again assuming subsequent pruning or some sort of analogous device of the preposition&apos;s original projection(s)). However, as shown by Baltin and Postal, we get contrary results for Principle B, involving pronouns:</p>
+<p>(35)&ensp;*To whom<sub>i</sub> did John talk about him<sub>i</sub>?</p>
+<p>(36)&ensp;*John talked to Fred<sub>i</sub> about him<sub>i</sub>
+</p>
+<p>Assuming a uniform definition of c-command that would underlie Principle A and Principle B, we would first have to make reanalysis obligatory, to account for the impossibility of binding in (36), but the impossibility of binding in (35) is unexplained, since reanalysis would not be able to apply to the fronted P.</p>
+<p>Another possible avenue of pursuit in the account of why PPs that remain within the VP allow extraposition out of them, within the attempt to subsume bounding constraints on extraposition from subjacency, would be the adoption of <link rid="b19">Chomsky&apos;s (1986a</link>) revised formulation of Subjacency in the context of the <i>Barriers</i> approach. In this view, subjacency makes reference not simply to the number of maximal projections between the original position of a moved element and the position to which it moves; rather, reference is made to the number of barriers between a moved element and its trace, where a barrier is a maximal projection that is not L-marked (roughly speaking, L-marking means being a complement to a lexical category and being theta-marked by that lexical category). To see the need for relativization of the set of bounding nodes for subjacency to the set of L-marked maximal projections, consider (37), in which <i>wh</i>-movement is occurring out of an infinitival complement of a noun that is the semantic head of the object (<link rid="b19">Chomsky 1986a</link> has similar examples):</p>
+<p>(37)&ensp;Who<sub>i</sub> did you announce &lsqb;<sub>DP</sub> .&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>NP</sub> plans &lsqb;<sub>CP</sub> to visit t<sub>i</sub>&rsqb;&rsqb;&rsqb;?</p>
+<p>This would be ruled out by the earliest formulation of subjacency, but permitted by the <i>Barriers</i> approach to subjacency.</p>
+<p>With this in mind, if a PP that remains within the VP is a selected complement of the V, and the prepositional object presumably bears the same relation to the P, neither said PP nor its object will be barriers, and subjacency will not be violated. A fronted PP, on the other hand, will be a barrier, since it is not in a configuration to be L-marked. Hence, the difference between (10) and (11) is accounted for.</p>
+<p>We must still ask, however, how (26), repeated here, is accounted for if we assume the <i>Barriers</i> approach to Subjacency:</p>
+<p>(26)&ensp;*John was believed to be certain by everybody that the Mets would lose.</p>
+<p>There is one way in which extraposition out of an infinitival complement that remains within the VP could be ruled out. An ECM infinitive, or an infinitive out of which raising can occur, is standardly analyzed as a TP complement. Although the TP is L-marked, and would therefore not be a barrier by itself, it does dominate the VP, which is a blocking category and a barrier, and therefore the TP would be a &lsquo;barrier by inheritance&rsquo;. Hence, extraction out of the infinitive would cross two barriers &ndash; the VP and the CP.</p>
+<p>Given that subjacency is taken to induce weak violations, with the number of barriers crossed leading to increased unacceptability, crossing two barriers is taken to induce unacceptability, while crossing one does not. For example, extraposition of the clausal complement of a <i>wh</i>-moved adjective does not induce any unacceptability:</p>
+<p>(38)&ensp;How fond are you of Sally?</p>
+<p>However, assuming that movement over one barrier is possible, we can see that subjacency is insufficient in and of itself to account for the locality constraints on the extraposition relation between an extraposed element and its host. For example, a relative clause that is extraposed from object position to a position outside of the VP would only be crossing one barrier, the VP, given that the object is L-marked by V, and yet we saw that such extraposition leads to unacceptability, as seen in (15f), repeated here:</p>
+<p>(15)&ensp;f.&ensp;*John said that he would call people up who are from Boston, and call people up he did___who are from Boston.</p>
+<p>Similarly, if we assume that prepositions L-mark their complements, extraposing a relative clause out of a fronted PP would only cross one barrier &ndash; the PP itself. We would therefore have no account of the impossibility of such extraposition, exemplified by (10), repeated here:</p>
+<p>(10)&ensp;*In which magazine did you see it which was lying on the table?</p>
+<p>As a matter of historical fact, between the formulation of subjacency in <link rid="b15">Chomsky (1973</link>), which simply counted cyclic nodes, and the <i>Barriers</i> formulation of subjacency in <link rid="b19">Chomsky (1986a</link>), another formulation of subjacency was proposed by <link rid="b5">Baltin (1981</link>). In that formulation, there was believed to be an asymmetry between the set of bounding nodes for rightward and leftward movements, such that every maximal projection was considered to be a bounding node for rightward movement, and only a subset of these were bounding nodes for leftward movements. The formulation is given in (39):</p>
+<p>(39)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>(Baltin 1981: 8) Generalized Subjacency:</b>
+</entry>
+</row>
+<row><entry>In the configuration A .&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>&alpha;</sub> .&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>&bgr;</sub> .&nbsp;.&nbsp;.&nbsp;B .&nbsp;.&nbsp;.&nbsp;&rsqb; .&nbsp;.&nbsp;.&nbsp;l .&nbsp;.&nbsp;.&nbsp;A&prime;,</entry>
+</row>
+<row><entry>ii.&ensp;A&prime; cannot be related to B where a and b are maximal projections of any major categories;</entry>
+</row>
+<row><entry>iii.&ensp;A cannot be related to B where &alpha; and &bgr; are drawn from the following list of phrasal categories; (a) PP; (b) NP; (c) S or S&prime; or both, depending on the specific language.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This asymmetry was motivated by the general impossibility of extraposing out of any VP complement to a position outside of the VP. An example would be the unacceptability of (40b) as opposed to (40a):</p>
+<p>(40)&ensp;<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Become fond of Sally though he may, it won&apos;t matter.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Become fond though he may of Sally, it won&apos;t matter.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>It was assumed in <link rid="b5">Baltin (1981</link>) that the complement of <i>become</i> is an AP, and hence the extraposition in (40b) would involve movement past AP and VP. Clearly, leftward <i>wh</i>-movement of the PP is perfectly acceptable:</p>
+<p>(41)&ensp;Sally, of whom I became quite fond___, is an exceptional linguist.</p>
+<subsection id="ss6" level="2">
+<heading id="h5" level="2">4.1 The status of the Right Roof Constraint</heading>
+<p>There are some problems with the Right Roof Constraint and its successor, Generalized Subjacency. These problems are of both an empirical and a conceptual nature. Let us begin with an empirical problem.</p>
+<p>We noted that PPs that are located within the VP can host extraposition of relative clauses out of them, as in (11), repeated here:</p>
+<p>(11)&ensp;I saw it in a magazine yesterday which was lying on the table.</p>
+<p>Without reanalysis, Generalized Subjacency is apparently violated with impunity, since the relative clause, if extraposed, is crossing the NP or DP, as well as the PP dominating the host nominal. It is clear, however, that such violations are not systematically possible. For example, if we adapt Akmajian&apos;s example by placing the complex nominal within the VP, the extraposed PP cannot be interpreted as modifying the most deeply embedded nominal:</p>
+<p>(42)&ensp;I read a review of a book yesterday by three authors.</p>
+<p>One potential problem may lie in the acceptability of the following:</p>
+<p>(43)&ensp;I would prefer for everyone to leave that you would___.</p>
+<p>Sentence (43) seems to be an example of the much-discussed Antecedent-Contained Deletion (ACD) construction, originally discussed by <link rid="b20">Bouton (1970</link>), and then by <link rid="b11">May (1985</link>), <link rid="b21">Baltin (1987</link>), <link rid="b22">Larson and May (1990</link>), <link rid="b23">Hornstein (1994</link>), and others. ACD is the phenomenon whereby ellipsis occurs apparently in the antecedent of the elided material. Another example is given in (44):</p>
+<p>(44)&ensp;I read everything you did___.</p>
+<p>Assuming that the VP of the relative clause in (40) has undergone VP ellipsis (including elision of the trace of the relative clause operator), the antecedent of the elided VP appears to contain the elided VP, and reconstruction or copying of the antecedent into the null VP would lead to an infinite regress. To solve this problem, it is necessary to perform some operation that would move the relative clause out of the antecedent VP, so that the antecedent does not contain the VP to be elided at the stage at which the identity between antecedent and ellipsis candidate is to be determined.</p>
+<p>There have been three main mechanisms in the literature to accomplish this configurational rescue: (i) Quantifier Raising of the DP at LF (<link rid="b11">May 1985</link>; <link rid="b22">Larson and May 1990</link>); (ii) extraposition of the relative clause out of the VP (<link rid="b21">Baltin 1987</link>); (iii) movement of the DP that contains the null VP to &lsqb;Spec, Agr-O&Prime;&rsqb; for Case-checking reasons (<link rid="b23">Hornstein 1994</link>).</p>
+<p>Consider the difference between (43) and (45):</p>
+<p>(45)&ensp;*I would prefer for everyone that you would to leave.</p>
+<p>Presumably the infinitival sequence which follows the infinitive&apos;s subject is a non-maximal projection, hence unable to extrapose out of the highest VP. The entire infinitive subject is therefore assumed to be a complex nominal, i.e., a constituent, and hence the relative clause in (45) would have to be contained within its antecedent.</p>
+<p>Crucially, the antecedent in (43) is assumed to be the matrix VP, so that (43) means that I would prefer for everyone to leave that you would prefer to leave. However, in order to avoid antecedent containment, the relative clause in (43), if extraposed, would have to cross the TP of which it is subject, the CP, and the DP, violating Generalized Subjacency.</p>
+<p>It would seem, therefore, that in at least two situations, when the host of the extraposed element is located within the VP, Generalized Subjacency, an extension of Ross&apos;s Right Roof Constraint, is violated. However, it cannot be violated in Akmajian&apos;s cases, as in (42).</p>
+<p>The conceptual problem with Generalized Subjacency is its stipulative nature. Why should there be an asymmetry between the set of movement barriers for rightward and leftward movement? Moreover, the stipulation of the set of bounding nodes for leftward movement, an embarrassment for pre-<i>Barriers</i> formulations of Subjacency, remains in this account.</p>
+</subsection>
+<subsection id="ss7" level="2">
+<heading id="h6" level="2">4.2 Alternative accounts of the Right Roof Constraint in other approaches to extraposition</heading>
+<p>At this point, it may be useful to compare the other two approaches to extraposition &ndash; the non-movement account and the stranding account &ndash; with respect to how they handle the bounding restrictions on the extraposition relationship. These two accounts will be examined in more detail in subsequent sections, but it will be useful to look at these approaches simply with respect to this issue.</p>
+<p>First, with respect to the non-movement account, notice that the Complement Principle, given in (8), will ensure locality between the extraposed element and its host, given that the extraposed element must be adjoined to the minimal maximal projection containing the host (<link rid="b13">Culicover and Rochemont 1997</link>) in order to be interpreted as a complement. Hence, violations of Generalized Subjacency will be due not to this constraint per se as a primitive, but to the Principle of Full Interpretation (<link rid="b24">Chomsky 1986b</link>), given that an extraposed element that is adjoined above the first maximal projection that dominates the element that it is supposed to modify will not be in the right configuration to modify that element. Unless there is some other role for the extraposed element to play in the interpretation, it will simply be superfluous, and cause the structure to run afoul of the Principle of Full Interpretation.</p>
+<p>It is clear, however, that the problems for Generalized Subjacency remain as problems for the Complement Principle. Without reanalysis, (11) violates the Complement Principle, just as it violated Generalized Subjacency, and (43), for which reanalysis is even less plausible, violates the Complement Principle in exactly the same way as it violates Generalized Subjacency. In both cases, the extraposed element, assuming that it is adjoined, is adjoined higher than the first maximal projection dominating the candidate for modifiee.</p>
+<p>Another alternative to the Right Roof Constraint was proposed by <link rid="b7">Kayne (1994</link>), within the context of the stranding analysis of extraposition. Recall that the stranding analysis eschews rightward movement of the modifier. Kayne only discusses relative clause extraposition, but presumably the analysis would be extended to extraposition of complements of other types of modifiers, as in (18&ndash;21). In Kayne&apos;s analysis, the head is moved leftward by normal leftward movement (presumably A-movement), stranding the relative clause. Hence, the &ldquo;extraposed&rdquo; position is in fact the base position of the head. This analysis affords us the opportunity to view with a fresh eye Right Roof Constraint violations such as the following (<link rid="b7">Kayne 1994</link>&apos;s (5), <related relationship="sibling" type="samework"><externallink id="chapter 9 - Binding Theory.xml" type="file">chapter 9</externallink></related>):</p>
+<p>(46)&ensp;*The fact that somebody walked into the room is irrelevant who I knew.</p>
+<p>Kayne notes that if we assume the stranding analysis, the head of the relative clause would have to originate in the matrix clause and move leftward, lowering into the subject noun-complement clause. Given that the nominal is not an argument of the matrix predicate, generating it in this position would violate the theta-criterion, however it is recast in Minimalist terms. Second, the movement would be movement to a non-c-commanding position, violating an assumption that movement is always to a c-commanding position (although see <link rid="b25">Bo&scaron;kovi&#x0107; and Takahashi 1998</link> for a defense of lowering rules).</p>
+<p>Hence, the stranding analysis of extraposition replaces Generalized Subjacency with either of two restrictions: (i) the requirement that arguments be generated in the domain of their heads; (ii) a ban on movement to non-c-commanding positions.</p>
+<p>It can be shown, however, that while (ii), the ban on lowering, may be accurate, (i) is not. Turning our attention to extraposition of clausal arguments, discussed by <link rid="b1">Rosenbaum (1967</link>), consider the following sentence, discussed in <link rid="b12">Baltin (1978a</link>):</p>
+<p>(47)&ensp;It was believed to be certain by everybody that Fred would win.</p>
+<p>Assuming that the <i>by</i> phrase is in the matrix clause, the finite complement, certainly an argument of <i>certain</i>, must also be in the matrix clause. Extraposition of clausal arguments clearly obeys Generalized Subjacency:</p>
+<p>(48)&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>That it was obvious to everybody that Bush was a moron surprised me.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*That it was obvious to everybody surprised me that Bush was a moron.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>It should be noted that (47) contrasts with (26), repeated here:</p>
+<p>(26)&ensp;*John was believed to be certain by everybody that the Mets would lose.</p>
+<p>What is the basis of this contrast? One immediate observation that comes to mind is that in (47), the finite complement is related to the expletive in some way, and the expletive has clearly undergone A-movement into the matrix. In (26), the clausal argument cannot be related to any position in the clause in which it resides; there is no expletive, for one thing.</p>
+<p>The reanalysis of extraposition, viewed as a rightward movement, as stranding, a leftward movement, is done in the context of <link rid="b7">Kayne&apos;s (1994</link>) Linear Correspondence Axiom (LCA), which maps linear precedence onto asymmetric c-command, such that if A asymmetrically c-commands B (A and B are assumed to be non-terminals), the terminals that A dominates must precede the terminals that B dominates. Therefore, rightward adjunction would be impossible, because the results could not be linearized.</p>
+<p>The alternation that is characterized by extraposition must be characterized by any grammar, including one that assumes the LCA as the basis for linear order; one way to capture the relationship between the variant in which the clausal argument appears in subject position and the variant in which it appears in final position (the subject position being occupied by the expletive <i>it</i>) would be to generate the clausal argument in final position, and allow it to move leftward into subject position. Hence, the structure in which the clausal argument is in &lsquo;extraposed&rsquo; position, corresponding to (49a), would be more basic than the structure in which the clausal argument is in subject position, corresponding to (49b):</p>
+<p>(49)&ensp;<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>It is obvious that Fred is crazy.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>That Fred is crazy is obvious.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Indeed, this was the tack that <link rid="b26 b27">Emonds (1970, 1972b</link>) took, in an analysis of the alternation that was an alternative to Rosenbaum&apos;s, labeling the leftward movement process &lsquo;intraposition&rsquo;.</p>
+<p>If we adopt the leftward-movement characterization of the extraposition analysis, the intraposition view &ndash; sentences such as (43), in which clausal arguments are in clauses superior to the ones in which their selecting predicates occur &ndash; indicates that Kayne&apos;s first suggestion as to how to rule out Right Roof Constraint violations cannot be correct. Arguments would have to be permitted to be generated in clauses that are superior to the ones in which they are arguments, under this view.</p>
+<p>The second barrier to leftward movement of all or part of an argument into a lower clause &ndash; the fact that such movement would be lowering to a non-c-commanding position &ndash; may be more promising. The problem here comes from consideration of the case in which the clausal argument appears in final position, with the subject position apparently occupied by the expletive <i>it</i>. No overt movement of the clausal argument occurs here. In earlier times, <link rid="b26 b27">Emonds (1970, 1972b</link>) suggested that the expletive and the clausal argument were &lsquo;co-indexed&rsquo;. If this were true, the unacceptability of apparent Right Roof Constraint violations that involve clausal argument extraposition, such as (48b), might be due to a requirement that such co-indexing requires c-command.</p>
+<p>However, current Minimalism eschews indices in general. A more recent mechanism for the relationship of expletive&ndash;associate pairs, which <link rid="b28">Chomsky (1995c</link>) pursues for <i>there</i>-expletives, involves positing the expletive <i>there</i> as defective, i.e., missing some of the features of T, in whose specifier position it occurs. The associate of the expletive has these features (Case and phi-features), so that these features would then raise and adjoin to T. However, crucially, Chomsky contrasts English <i>it</i>-expletives, which are not defective, so that features of the associate would not raise to T (1995c: 288). If this is correct, then there would seem to be no device to explicitly mark the relationship between the expletive and the clausal argument in the final representation.</p>
+<p>However, we would then have to ask what is responsible for the Right Roof Constraint effects in (48b). It can be seen from examples such as (47) that arguments can be higher than their selecting predicates. If there is no device to explicitly relate the expletive and clausal argument pairs in extraposition constructions, then what is responsible for the Right Roof Constraint restrictions in this construction?</p>
+<p>In fact, one possible move might be to generate the expletive and the clausal argument together, and move either the expletive or the clausal argument into subject position. In English, the expletive and the clausal argument cannot surface together, for reasons that we cannot explore here, but the two can surface together in Scandinavian languages, according to Chomsky (p.c., citing Dianne Jonas). If this is correct, one can perhaps assimilate Rosenbaum&apos;s view of extraposition to Kayne&apos;s view of extraposition as, in fact, leftward movement of the non-clausal part of an argument, stranding the clause. In the phenomenon that Rosenbaum analyzed, it would be the expletive itself that is moving leftward, rather than the semantic head of the relative clause. It would be necessary, however, to attribute the Right Roof Constraint effects to a ban on movement to a non-c-commanding position, rather than a requirement that arguments be generated within the same local domain as the heads that license them.</p>
+</subsection>
+</subsection>
+<subsection id="ss8" level="1">
+<heading id="h7" level="1">5 The base-generation analysis of extraposition and the stranding analysis in greater detail</heading>
+<subsection id="ss9" level="2">
+<heading id="h8" level="2">5.1 The base-generation analysis</heading>
+<p>The earliest analysis of the extraposition phenomenon viewed it as arising from rightward movement of clauses and prepositional phrases. There are a number of problems that arise from this analysis of extraposition. One is a theory-internal problem that can be seen from considering extraposition of relatives and PPs from subject position. In Government-Binding theory terms, the Empty Category Principle (ECP), originally proposed in <link rid="b14">Chomsky (1981</link>) and revised and refined in numerous works in that period, required that traces be properly governed, in the sense of being governed by either a lexical category (later, the trace&apos;s theta-role assigner) or its antecedent; traces of categories which were not theta-governed had to fulfill the latter requirement. The subject position was always a barrier to government, and relative clauses, which have been viewed as adjuncts, are not theta-governed. Hence, as originally noted by Howard Lasnik (cited in <link rid="b21">Baltin 1987</link>), if a relative clause were extraposed from subject position, and it left a trace, the trace would violate the ECP. Extraposition of a PP complement of a noun would not violate the ECP, since the PP would be governed by the noun, its theta-role assigner.</p>
+<p>It is important to note an objection to a movement account of extraposition that was advanced often in the 1970s through the early 1990s that no longer has any force. As noted by <link rid="b3">Akmajian (1975</link>) in a footnote, and often repeated, one might ask why extraposition could not violate subjacency by successive cyclically moving the extraposed element to adjoin to the first bounding node, and then the next, etc., parallel to the successive-cyclic movement of <i>wh</i>-elements, which, of course, superficially violate subjacency, but do not in reality because of the successive-cyclic character of <i>wh</i>-movement.</p>
+<p>The reason that the question of why successive-cyclicity for extraposition was not possible was even raised in <link rid="b3">Akmajian (1975</link>), and subsequently, was that successive-cyclicity was supposed to be the norm for movement, an assumption that was crucial in <link rid="b19">Chomsky (1986a</link>), for example, who used widespread adjunctions to barriers as a means of voiding barrierhood. This assumption is no longer held within, e.g., Minimalism, where it is held that movement is only done for, e.g., feature-checking (<link rid="b28">Chomsky 1995c</link>) or for some other purpose, pragmatic or semantic (<link rid="b29 b30">Reinhart 1995, 1997</link>; <link rid="b31">Fox 1999</link>), a principle known as &lsquo;Last Resort&rsquo; (<link rid="b32 b28">Chomsky 1991, 1995c</link>; <link rid="b51">Lasnik 1999</link>). If Last Resort is assumed, something extra must be assumed to allow for successive-cyclic movement. For example, to allow for successive-cyclic raising, <link rid="b28">Chomsky (1995c</link>) makes a distinction between interpretable features, which are checked but not erased, allowing an element to keep moving to check features of a target, and uninterpretable features, which are deleted as soon as they are first checked. If we assume that extraposition does not check any interpretable features, it could not be successive-cyclic, and the question disappears. Of course, the question within Minimalism, assuming Last Resort, would be what feature(s) extraposition would check. There is no satisfactory answer to this question at this time.</p>
+<p>An extremely straightforward argument against a movement account of extraposition is based on a phenomenon originally noted by <link rid="b33">Perlmutter and Ross (1970</link>). There are extraposed relative clauses with split antecedents, one in each conjunct of a coordination. In this case, there is no single head that could serve as the antecedent for the relative clause. The phenomenon is manifest when the relative clause contains a symmetric predicate, one requiring a plural subject:</p>
+<p>(50)&ensp;A man entered the room and a woman left who were similar.</p>
+<p>Interestingly enough, such split antecedence appears to be possible only across conjuncts:</p>
+<p>(51)&ensp;*A man visited a woman (yesterday) who were similar.</p>
+<p>It is also only possible when the two antecedents are in parallel positions within the conjuncts; a subject in the first conjunct cannot combine with an object in the second:</p>
+<p>(52)&ensp;*A man entered the room and I saw a woman who were similar.</p>
+<p>Needless to say, as <link rid="b33">Perlmutter and Ross (1970</link>) noted at the time, such cases of extraposition are extremely problematic for a movement account of this construction, since there is no plausible source for the origin of the relative clause within a single nominal. Such cases of extraposition would therefore appear to lend credence to a base-generation approach to extraposition. However, it is necessary to account for the apparent need for parallel positions for the antecedents in the split antecedent construction.</p>
+<p>One line that might be pursued in accounting for these restrictions might be to make use of the difference in adjunction sites for relative clauses extraposed from subject position vs. those for relative clauses extraposed from object position. It should be recalled that the former were shown to be adjoined to TP, while the latter were adjoined to VP. Assuming that this difference in adjunction sites is relevant to the reconstruction of the complement relation, such that a complement could be at most adjoined to the maximal projection dominating the element to which it is to be interpreted as complement, the relative clause in (52) would have to be adjoined to the TP conjunction. This would allow the extraposed relative to be interpreted as modifying the subject in the first conjunct, but not the object in the second.</p>
+<p>This account would also explain why split antecedence is not possible in simple sentences, as in (51). The extraposed relative could be interpreted as modifying the subject if adjoined to TP, but it would not be able to be interpreted as modifying the object in that case. If it is adjoined to VP, it could modify the object, but could not then modify the subject (if we assume that modifiers cannot be interpreted as being lower than the phrases they modify).</p>
+<p>The Complement Principle, in tandem with the Principle of Full Interpretation (<link rid="b19">Chomsky 1986a</link>), which requires that all elements that are present at LF must be integrated into the sentence in some way, thus accounts for the locality restrictions on &lsquo;extraposed&rsquo; (the term being used in a purely descriptive sense now) elements vis-&agrave;-vis the elements that they modify. However, there is a cost. The term <i>complement</i> is usually reserved for a phrase that is an X-bar sister of an X<sup>0</sup> head that assigns it a theta-role; it is an argument of that head. Elements that modify higher projections are considered adjuncts. The Complement Principle does not distinguish between complements, which are internal arguments of some theta-role assigning X<sup>0</sup>, and adjuncts, so that the underlined elements in both (53a) and (b) are considered complements:</p>
+<p>(53)&ensp;<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>A review appeared <u>of Chomsky&apos;s book</u>.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>A man showed up <u>who was quite convincing</u>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>While this may be accurate for the LF grammatical relations of these phrases, it does not reflect their underlying grammatical relations. The same problem shows up clearly in examples of extraposition that modify phrases other than nominals, such as the following, pointed out by an anonymous <i>Linguistic Inquiry</i> reviewer to <link rid="b6">Culicover and Rochemont (1990</link>):</p>
+<p>(54)&ensp;<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>How fond of Sally are you?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>How fond are you of Sally?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The adjective <i>fond</i> obligatorily takes a PP headed by <i>of</i> as an internal argument, and yet a traceless structure with the Complement Principle would simply note the locality between the &lsquo;extraposed&rsquo; PP and the AP headed by <i>of</i> &ndash; in other words, placing the PP in the configuration of an adjunct, modifying the AP. Nowhere is, e.g., the obligatory selection between the PP and <i>fond</i> reflected in this structure.</p>
+<p>In sum, it would seem that the adoption of the Complement Principle obscures what has been thought to be a crucial grammatical distinction between arguments and adjuncts, and complicates the view that there are linking regularities between thematic relations and syntactic positions for realizing those thematic relations (<link rid="b34">Perlmutter and Postal 1977</link>; <link rid="b35">Carter 1988</link>; <link rid="b36">Pesetsky 1995</link>; <link rid="b37">Gruber 2000</link>).</p>
+</subsection>
+<subsection id="ss10" level="2">
+<heading id="h9" level="2">5.2 The stranding analysis</heading>
+<p>As noted earlier, the stranding analysis of extraposed constituents (<link rid="b7">Kayne 1994</link>) generates them, together with their hosts, in the positions in which they ultimately reside, and moves the host into its surface position, minus the relative clause. To see how this works, we must first discuss the analysis of relative clauses within this approach.<link rid="fn1">
+<sup>1</sup></link>
+</p>
+<p>First of all, relative clauses are analyzed as CP complements of determiners,<link rid="fn2">
+<sup>2</sup></link> and the heads of relative clauses are promoted from within the relative clauses themselves, an analysis first advocated in the 1970s by <link rid="b38">Schachter (1973</link>) and others. Hence, the structure of, e.g., (55) would be as in (56):</p>
+<p>(55)&ensp;The book that I read.</p>
+<p>(56)&ensp;&lsqb;<sub>DP</sub> &lsqb;<sub>D</sub> the&rsqb; &lsqb;<sub>CP</sub> &lsqb;<sub>NP</sub> book&rsqb; &lsqb;<sub>C&prime;</sub> &lsqb;<sub>C</sub> that&rsqb; &lsqb;<sub>TP</sub> I &lsqb;<sub>VP</sub> &lsqb;<sub>V</sub> read&rsqb; &lsqb;<sub>NP</sub> t&rsqb;&rsqb;</p>
+<p>Hence, the nominal &lsquo;head&rsquo; of the relative clause is within the Spec of the CP of the head of the relative clause, and, at least in the case of the determiner <i>the</i> introducing the relative clause, does not form a constituent with the determiner. This aspect of the analysis is crucial, as we will see in <link rid="ss11">section 5.2.1</link>, for accounting for stranding possibilities for relative clauses headed by various determiners. Other determiners are not located as the highest head of DP, but are in fact within the NP, such as numerals or the indefinite article <i>a</i>:</p>
+<p>(57)&ensp;Two books that I read.</p>
+<p>(58)&ensp;&lsqb;<sub>DP</sub> &lsqb;<sub>D</sub> 0&rsqb; &lsqb;<sub>CP</sub> &lsqb;<sub>NP</sub> two books&rsqb; &lsqb;<sub>C&prime;</sub> &lsqb;<sub>C</sub> that&rsqb; &lsqb;<sub>TP</sub> I &lsqb;<sub>VP</sub> &lsqb;<sub>V</sub> read&rsqb; &lsqb;<sub>NP</sub> t&rsqb;&rsqb;</p>
+<p>As evidence for this analysis of relative clauses, Kayne notes that the definite article cannot introduce a simple nominal with a postnominal genitive, as in (59):</p>
+<p>(59)&ensp;*The picture of John&apos;s.</p>
+<p>Postnominal genitives that are introduced by <i>the</i> are possible when the nominals are further modified by relative clauses, however:</p>
+<p>(60)&ensp;The picture of John&apos;s that we like.</p>
+<p>In contradistinction to <i>the</i>, numerals can introduce postnominal genitives in simple nominals:</p>
+<p>(61)&ensp;Two pictures of John&apos;s.</p>
+<p>Briefly, Kayne analyzes nominals such as (61) as being headed by <i>of</i>, which he takes to be a determiner (D), and the material to the left of <i>of</i> in (61) originates in the NP complement of <i>of</i>, which then moves to its specifier. The two stages are shown in (62):</p>
+<p>(62)&ensp;<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;<sub>DP</sub> &lsqb;<sub>D</sub> of&rsqb; &lsqb;<sub>NP</sub> John&apos;s &lsqb;<sub>NP</sub> two pictures&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>DP</sub> &lsqb;<sub>NP</sub> two pictures&rsqb;<sup>i</sup> &lsqb;<sub>D</sub> of&rsqb; &lsqb;<sub>NP</sub> John&apos;s t<sup>i</sup>&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>However, if <i>the</i>, unlike the numerals and the indefinite article, is a D which cannot take a DP complement, the impossibility of postnominal genitives introduced by the is accounted for.</p>
+<p>With this in mind, we are now in a position to see some advantages of the stranding analysis of relative clause extraposition.</p>
+<subsection id="ss11" level="3">
+<heading id="h10" level="3">5.2.1 Advantages</heading>
+<p>It will be recalled that in <link rid="ss4">section 3</link>, we reviewed the claim by <link rid="b10">Gu&eacute;ron and May (1984</link>) that the hosts of extraposed constituents had to be quantified. One piece of evidence for this claim was the observation that nominals which were introduced by the definite article <i>the</i> were impossible hosts for extraposed constituents, as in (22), repeated here:</p>
+<p>(22)&ensp;*The man showed up that hated Chomsky.</p>
+<p>Gu&eacute;ron and May tied the impossibility of (22) to the non-quantified status of the head of the relative, but the stranding analysis offers a competing account. The structure of a complex nominal which is introduced by <i>the</i> has the structure in (63):</p>
+<p>(63)&ensp;&lsqb;<sub>DP</sub> &lsqb;<sub>D</sub> the&rsqb; &lsqb;<sub>CP</sub> &lsqb;<sub>NP</sub> man&rsqb; &lsqb;<sub>C&prime;</sub> that hated Chomsky&rsqb;&rsqb;</p>
+<p>Crucially, the determiner <i>the</i> and the NP <i>man</i> do not form a constituent under this analysis, and under the traditional assumption that only constituents can move, the derivation of (22) from a structure which corresponds to (64) would illicitly involve movement of a non-constituent:</p>
+<p>(64)&ensp;e showed up &lsqb;<sub>DP</sub> &lsqb;<sub>D</sub> the&rsqb; &lsqb;<sub>CP</sub> &lsqb;<sub>NP</sub> man&rsqb; &lsqb;<sub>C&prime;</sub> that hated Chomsky&rsqb;&rsqb;</p>
+<p>We therefore have two proposed methods of preventing nominals that are introduced by <i>the</i> from hosting extraposed relative clauses. The first method, that of <link rid="b10">Gu&eacute;ron and May (1984</link>), bases the method on the syntactico-semantic properties of the determiner; the second method, relying on <link rid="b7">Kayne (1994</link>), bases the account on a purely syntactic restriction on the definite article <i>the</i> &ndash; it is a D<sup>0</sup>, higher in the DP than numerals and the indefinite article. Can we find any additional evidence to choose between the Gu&eacute;ron and May account and the Kayne-based account?</p>
+<p>We can. It will be recalled that the restriction on demonstratives introducing hosts of extraposed relatives, to the extent that the restriction is real at all, is much weaker than the restriction on <i>the</i> introducing hosts of extraposed relatives, as was seen from the perfect acceptability of (24), repeated here:</p>
+<p>(24)&ensp;Those students will pass this course who complete all of their assignments on time.</p>
+<p>Demonstratives and <i>the</i> are equally definite; consequently, some other factor must be responsible for the distinction between (22) and (24).</p>
+<p>It turns out that demonstratives, unlike the definite article <i>the</i>, can introduce postnominal genitive constructions:</p>
+<p>(65)&ensp;Those pictures of John&apos;s . . .</p>
+<p>By the reasoning in <link rid="b7">Kayne (1994</link>) concerning the postnominal genitive, demonstratives must be lower within the DP than the definite article, perhaps within the NP itself. Hence, the structure of the relative clause in (24) would be, in the relevant respects, (66):</p>
+<p>(66)&ensp;&lsqb;<sub>CP</sub> &lsqb;<sub>DP</sub> &lsqb;<sub>DP</sub> &lsqb;<sub>NP</sub> those students&rsqb; &lsqb;<sub>D&prime;</sub> &lsqb;<sub>D</sub> who&rsqb;&rsqb;&rsqb;<sub>i</sub> &lsqb;<sub>C&prime;</sub> &lsqb;<sub>C</sub> &lsqb;<sub>TP</sub> t<sub>i</sub> &lsqb;<sub>T&prime;</sub> &lsqb;<sub>T</sub> &lsqb;<sub>VP</sub> complete all their work on time&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;</p>
+<p>The prediction would be the following: the ability to introduce a postnominal genitive construction would correlate with the ability to host an extraposed relative clause. More research is needed to see if this correlation holds.</p>
+<p>Similarly, the inability of the host of an extraposed relative clause to reside within a fronted PP, noted in the discussion of (10), repeated here, has a natural explanation within the stranding analysis:</p>
+<p>(10)&ensp;*In which magazine did you see it which was lying on the table?</p>
+<p>The preposition plus NP do not form a constituent if the head of the relative clause resides within the Spec of CP.</p>
+<p>Of course, the fact that apparent prepositional objects that reside within the VP can host extraposed relative clauses, as in (6), repeated here, poses the same problems for the stranding analysis as it did for Generalized Subjacency, discussed in <link rid="ss5">section 4</link>:</p>
+<p>(6)&ensp;I talked to somebody about that who was quite knowledgeable.</p>
+</subsection>
+<subsection id="ss12" level="3">
+<heading id="h11" level="3">5.2.2 Disadvantages</heading>
+<p>Given that a relative clause that is extraposed from subject position is to the right of the VP, the stranding analysis requires a stage of derivations in which the subject is to the right of VP, with the subject moving to &lsqb;Spec, AgrP&rsqb; or whatever the superficial subject position turns out to be. Assuming movement is always to a c-commanding position (a position that is currently predominantly but not universally accepted: <link rid="b39">Bobaljik and Brown 1997</link>; <link rid="b13">Culicover and Rochemont 1997</link>), note the following binding contrast involving extraposition from object position:</p>
+<p>(67)&ensp;<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>(Culicover and Rochemont 1997&apos;s ex. (7a) and (b)):</b>
+</entry>
+</row>
+<row><entry>a.&ensp;I sent her<sub>i</sub> many gifts last year that Mary<sub>i</sub> didn&apos;t like.</entry>
+</row>
+<row><entry>b.&ensp;*I sent her<sub>i</sub> many gifts that Mary<sub>i</sub> didn&apos;t like last year.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The pronominal first object c-commands the second object (<link rid="b40">Larson 1988b</link>, based on <link rid="b41">Barss and Lasnik 1986</link>), triggering a Principle C violation (<link rid="b14">Chomsky 1981</link>) in (a), but if the only difference between the derivation of (67a) and (67b) is the complexity of the moved material into the second object position, Principle C should rule out both (67a) and (67b), as pointed out by Culicover and Rochemont. In short, it would appear that the &lsquo;extraposed&rsquo; constituent is not c-commanded by its host.</p>
+<p>A characterization of the positions from which stranding can occur is not a trivial matter. For example, <link rid="b7">Kayne (1994</link>: 121, (21)) proposes that &ldquo;A relative clause can be stranded by A-movement only in a non-Case position.&rdquo; However, if we assume, as is standard, that nominals that undergo passive A-movement are in non-Case positions, we would predict from this statement that a relative clause can be stranded in the first object position of a passive double object construction, contrary to fact:</p>
+<p>(68)&ensp;*Someone was given who liked Steinbeck an interesting book.</p>
+<p>Kayne in fact discusses such cases, and suggests (1994: 166, fn. 4) that their deviance may be &ldquo;an extreme case of the constraint against complex specifiers.&rdquo; However this constraint is formulated, it would seem to have to distinguish between specifier positions to which Case is assigned, and specifier positions to which Case is not assigned (or checked), given that the former positions, which don&apos;t allow stranding of the relative, do allow the entire DP to occur in them, and the entire DP is presumably more complex than the stranded relative.</p>
+<p>If we look again at Culicover and Rochemont&apos;s examples, (13) and (14) repeated here, we see that stranding must be possible under A-bar movement:</p>
+<p>(13)&ensp;*He<sub>i</sub> &lsqb;<sub>VP</sub> &lsqb;<sub>VP</sub> invited several girls to the party&rsqb; &lsqb;<sub>CP</sub> that John<sub>i</sub> dated in high school&rsqb;&rsqb;.</p>
+<p>(14)&ensp;How many girls did &lsqb;<sub>IP</sub> he<sub>i</sub> invite to the party&rsqb; &lsqb;<sub>CP</sub> that John<sub>i</sub> dated in high school&rsqb;?</p>
+<p>This would, of course, be possible, if <i>wh</i>-movement first involved movement to an intermediate A-bar position that is higher than the surface subject position, as suggested for other cases by <link rid="b19">Chomsky (1986a</link>). However, we then have no account, other than the necessarily extremely refined constraint against complex specifiers, as to why relatives cannot be stranded in object position, as in (69):</p>
+<p>(69)&ensp;*How many girls did he consider who were from Boston interesting?</p>
+<p>(14) would furthermore require first movement of the object to pre-IP position, and then subsequent preposing of the IP as remnant movement to the left of the preposed object. These movements would require independent motivation.</p>
+<p>In short, the stranding analysis captures some facts rather neatly, such as the distinction between demonstratives and definite-determiner-headed DPs as extraposition &lsquo;hosts&rsquo;, but it also suffers from some shortcomings, such as the binding facts that indicate that extraposition hosts must be lower than the extraposed material (64), the lack of a precise characterization of the positions from which stranding would take place, and the Perlmutter&ndash;Ross observation that extraposed relatives can have split antecedents.</p>
+</subsection>
+</subsection>
+</subsection>
+<subsection id="ss13" level="1">
+<heading id="h12" level="1">6 Extraposition of PP</heading>
+<p>
+<link rid="b42">Barbiers (1995</link>), in discussing extraposition of PPs in Dutch, notes that focus particles cannot precede extraposed PPs, although they can precede PPs that are moved by other processes, such as topicalization. He cites the following pattern:</p>
+<p>(70)<object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry namest="col1" nameend="col9">
+<b>(Barbiers 1995: <related relationship="sibling" type="samework"><externallink id="chapter 4 - Adverb Classes and Adverb Placement.xml" type="file">chapter 4</externallink></related>, ex. (6)):</b>
+</entry>
+</row>
+<row><entry morerows="2" valign="top">a.</entry>
+<entry>Jan</entry>
+<entry>heeft</entry>
+<entry>&lsqb;<sub>PP</sub>
+</entry>
+<entry>pas</entry>
+<entry>in</entry>
+<entry>EEN</entry>
+<entry>stad&rsqb;</entry>
+<entry>gewerkt.</entry>
+</row>
+<row><entry>John</entry>
+<entry>has</entry>
+<entry>
+</entry>
+<entry>just</entry>
+<entry>in</entry>
+<entry>one</entry>
+<entry>city&rsqb;</entry>
+<entry>worked</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;John has just worked in one city&rsquo;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10"/>
+<tbody>
+<row><entry morerows="2" valign="top">b.</entry>
+<entry>Jan</entry>
+<entry>heeft</entry>
+<entry>&lsqb;<sub>FoP</sub>
+</entry>
+<entry>pas</entry>
+<entry>&lsqb;<sub>VP</sub>
+</entry>
+<entry>gewerkt&rsqb; &lsqb;<sub>PP</sub>
+</entry>
+<entry>in</entry>
+<entry>EEN</entry>
+<entry>stad&rsqb;.</entry>
+</row>
+<row><entry>John</entry>
+<entry>has</entry>
+<entry>
+</entry>
+<entry>just</entry>
+<entry>
+</entry>
+<entry>worked</entry>
+<entry>in</entry>
+<entry>one</entry>
+<entry>city</entry>
+</row>
+<row><entry namest="col2" nameend="col10">&lsquo;John has worked in just one city&rsquo;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="2" valign="top">c.</entry>
+<entry>Jan</entry>
+<entry>heeft</entry>
+<entry>&lsqb;<sub>PP</sub>
+</entry>
+<entry>in</entry>
+<entry>EEN</entry>
+<entry>stad&rsqb; &lsqb;<sub>VP</sub>
+</entry>
+<entry>gewerkt&rsqb;</entry>
+<entry>pas.</entry>
+</row>
+<row><entry>John</entry>
+<entry>has</entry>
+<entry>
+</entry>
+<entry>in</entry>
+<entry>one</entry>
+<entry>city</entry>
+<entry>worked</entry>
+<entry>just</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;&num;John has worked in just one city&num;. (&num; means &lsquo;unacceptable in this interpretation&rsquo;.)&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="1" valign="top">d.</entry>
+<entry>*Jan</entry>
+<entry>heeft</entry>
+<entry>&lsqb;gewerkt&rsqb;</entry>
+<entry>&lsqb;<sub>PP</sub>
+</entry>
+<entry>pas</entry>
+<entry>in</entry>
+<entry>EEN</entry>
+<entry>stad&rsqb;.</entry>
+</row>
+<row><entry>John</entry>
+<entry>has</entry>
+<entry>worked</entry>
+<entry>
+</entry>
+<entry>just</entry>
+<entry>in</entry>
+<entry>one</entry>
+<entry>city</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="2" valign="top">e.</entry>
+<entry>&lsqb;<sub>PP</sub>
+</entry>
+<entry>Pas</entry>
+<entry>in</entry>
+<entry>EEN</entry>
+<entry>stad&rsqb;</entry>
+<entry>heeft</entry>
+<entry>Jan</entry>
+<entry>gewerkt.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>Just</entry>
+<entry>in</entry>
+<entry>one</entry>
+<entry>city</entry>
+<entry>has</entry>
+<entry>John</entry>
+<entry>worked</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;John has worked in just one city&rsquo;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8"/>
+<tbody>
+<row><entry morerows="2" valign="top">f.</entry>
+<entry>Jan</entry>
+<entry>heeft</entry>
+<entry>&lsqb;gewerkt&rsqb; &lsqb;<sub>PP</sub>
+</entry>
+<entry>in</entry>
+<entry>pas</entry>
+<entry>EEN</entry>
+<entry>stad&rsqb;.</entry>
+</row>
+<row><entry>John</entry>
+<entry>has</entry>
+<entry>worked</entry>
+<entry>in</entry>
+<entry>just</entry>
+<entry>one</entry>
+<entry>city</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;John has worked in just one city&rsquo;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9"/>
+<tbody>
+<row><entry morerows="1" valign="top">g.</entry>
+<entry>*Jan</entry>
+<entry>heeft</entry>
+<entry>&lsqb;<sub>PP</sub>
+</entry>
+<entry>in</entry>
+<entry>pas</entry>
+<entry>EEN</entry>
+<entry>stad&rsqb;</entry>
+<entry>gewerkt.</entry>
+</row>
+<row><entry>John</entry>
+<entry>has</entry>
+<entry>
+</entry>
+<entry>in</entry>
+<entry>just</entry>
+<entry>one</entry>
+<entry>city</entry>
+<entry>worked</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The aforementioned contrast is between (70d) and (70e). Assuming that PP extraposition is rightward movement of the extraposed constituent, we must ask why a PP that is introduced by a focus particle cannot be extraposed. As seen from (70f), focus particles can occur within extraposed PPs; they just cannot introduce them.</p>
+<p>Barbiers&apos;s account of this fact relies on a general account of the syntax&ndash;semantics mapping that he proposes and motivates within that work, and a detailed account of that proposal is beyond the scope of this chapter. Briefly, he proposes a principle of semantic interpretation:</p>
+<p>(71)&ensp;<object id="tu28" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu28_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>(Barbiers 1995: 4.10) Principle of Semantic Interpretation:</b>
+</entry>
+</row>
+<row><entry>I.&ensp;A node Z establishes a <b>S(EMANTIC)-RELATION</b> between a node X and a node Y iff X immediately c-commands Z and Z immediately c-commands Y.</entry>
+</row>
+<row><entry>II.&ensp;Z is a <b>QUALIFIER</b> of X iff Z establishes a S(emantic)-relation between X and Y, and X and Y are coindexed.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Barbiers, in his <related relationship="sibling" type="samework"><externallink id="chapter 2 - Adjectival Passives.xml" type="file">chapter 2</externallink></related>, defends a notion of c-command that differs somewhat from standard definitions. It is presented as (72) (his <related relationship="sibling" type="samework"><externallink id="chapter 4 - Adverb Classes and Adverb Placement.xml" type="file">chapter 4</externallink></related>, fn. 7):</p>
+<p>(72)&ensp;<object id="tu29" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu29_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="3" valign="top">a</entry>
+<entry><b>C-command:</b>
+</entry>
+</row>
+<row><entry>X c-commands Y iff</entry>
+</row>
+<row><entry>(i) X does not dominate Y and Y does not dominate X</entry>
+</row>
+<row><entry>(ii) There is a (connected) path of left branches from Z, the minimal node that dominates X and Y, to X</entry>
+</row>
+<row><entry morerows="1" valign="top">b.</entry>
+<entry>Immediate c-command</entry>
+</row>
+<row><entry>X immediately c-commands Y iff X c-commands Y and there is no closer c-commander W such that X c-commands W and W commands Y</entry>
+</row>
+<row><entry morerows="1" valign="top">c.</entry>
+<entry>Connected path of left branches</entry>
+</row>
+<row><entry>Two paths of left branches A and B are a connected path of left branches AU B iff there is no node that intervenes between the two paths</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Armed with this machinery, we are now in a position to describe Barbiers&apos;s analysis of extraposition. In essence, the Principle of Semantic Interpretation yields the syntactic configurations for the modification relation (or the Qualifier Relation), and, assuming <link rid="b24">Chomsky&apos;s (1986b</link>) Principle of Full Interpretation, an element that occurs at LF that receives no interpretation causes the structure to be ruled out. A PP argument of a verb must be interpreted as a qualifier of the VP. In order to accomplish this, such PP arguments are generated as left-adjuncts of the VPs of which they are arguments, and the VP then moves leftward to the specifier position of the PP adjunct. Hence, the partial initial structure of (73) (the unfocused variant of (70a), (74):</p>
+<p>(73)&ensp;Jan heeft in een stad gewerkt.</p>
+<p>(74)&ensp;Jan heeft &lsqb;<sub>VP</sub> &lsqb;<sub>PP</sub> in een stad&rsqb; &lsqb;<sub>VP</sub> gewerkt&rsqb;&rsqb;.</p>
+<p>The aforementioned movement of the adjoined VP to the specifier of its adjunct PP can take place either before or after Spell Out (<link rid="b28">Chomsky 1995c</link>), i.e., either overtly or covertly. In any event, the VP movement is motivated by the need to establish the qualification relation, and the LF is, in the essential respects, (75):</p>
+<p>(75)&ensp;Jan heeft &lsqb;<sub>VP</sub> &lsqb;<sub>PP</sub> &lsqb;<sub>VP<sup>i</sup>
+</sub> gewerkt&rsqb; &lsqb;<sub>PP</sub> &lsqb;<sub>P</sub> in&rsqb; &lsqb;<sub>DP</sub> een stad&rsqb;&rsqb;&rsqb; &lsqb;<sub>VP</sub> t<sup>i</sup>&rsqb;.</p>
+<p>In other words, the extraposition phenomenon is really the leftward movement of the host of the extraposition, in this analysis, motivated to yield the requisite qualification configuration. If the VP and its argument PP do not end up in this configuration, and if there is no other interpretation available, the structure will run foul of the Principle of Full Interpretation.</p>
+<p>In fact, this is what happens in (70d), in Barbiers&apos;s account. In his analysis of focus particles (<link rid="b42">Barbiers 1995</link>: <related relationship="sibling" type="samework"><externallink id="chapter 3 - Adjectives.xml" type="file">chapter 3</externallink></related>), the focus particle must immediately c-command either its semantic argument or the trace of its semantic argument. The semantic argument can be either a temporal object or a numeral object; in the former case, it corresponds to a VP, and in the latter case, it corresponds either to a DP or to a PP that contains the DP. It seems that FocPs can be generated as left-adjuncts of any maximal projections. However, FocPs must also be interpreted as qualifiers of their semantic arguments, and must hence be in the requisite configuration with respect to the constituents that denote those semantic arguments. With this in mind, the underlying structure of all of the sentences in (70) is (76):</p>
+<p>(76)&ensp;Jan heeft &lsqb;<sub>VP</sub> &lsqb;<sub>FocP</sub> pas&rsqb; &lsqb;<sub>VP</sub> &lsqb;<sub>PP</sub> in een stad&rsqb; &lsqb;<sub>VP</sub> gewerkt&rsqb;&rsqb;&rsqb;.</p>
+<p>Given that the lowest VP must first move into the Spec of the PP adjunct in order to license the PP as its qualifier, the next structure would be (77):</p>
+<p>(77)&ensp;Jan heeft &lsqb;<sub>VP</sub> &lsqb;<sub>FocP</sub> pas&rsqb; &lsqb;<sub>VP</sub> &lsqb;<sub>PP</sub> &lsqb;<sub>VPi</sub> gewerkt&rsqb; &lsqb;<sub>PP</sub> in een stad&rsqb;&rsqb; <sub>VPi</sub> t&rsqb;&rsqb;&rsqb;.</p>
+<p>The movement of VP into the Spec of its PP adjunct may be either overt or covert, as can be the movement into &lsqb;Spec, FocP&rsqb;. If the highest PP, with the VP filling the specifier, moves into &lsqb;Spec, FocP&rsqb;, the focus particle is interpreted as a qualifier of the PP, so that the qualifier would receive a numeral-associated interpretation. Covert movement into &lsqb;Spec, FocP&rsqb; of the PP would yield (70b), if movement of the VP into &lsqb;Spec, VP&rsqb; is overt. If VP movement into &lsqb;Spec, PP&rsqb; is covert, and movement of PP into &lsqb;Spec, FocP&rsqb; is covert, we get (70a).</p>
+<p>To derive a temporal interpretation for the focus particle, the VP must occupy the focus particle&apos;s Spec. This could be accomplished by moving the highest VP overtly into the Spec of FocP, and would correspond to (70c). (70d) is marginally possible, according to Barbiers, with a temporal interpretation, but is ungrammatical with a numeral association for the focus particle, because there is no derivation that would place the focus particle into the requisite configuration with the PP so as to allow it to receive a numeral-associated interpretation.</p>
+<p>Barbiers&apos;s argument, however, is somewhat weak, in that it seems to over-predict the possibilities with respect to the interaction of focus particles and extraposition (here construed as leftward movement). Overt movement of the VP into Spec PP would cause the VP PP configuration to be a PP. This PP with filled Spec should be permitted to move to &lsqb;Spec, FocP&rsqb;, where the focus particle will immediately c-command its trace. The result would be (70c), which would simply differ from (70b) in that the latter would involve covert movement into &lsqb;Spec, FocP&rsqb;, while the former would involve overt movement of the large PP into &lsqb;Spec, FocP&rsqb;. Hence, this argument for PP extraposition involving leftward movement is problematic.</p>
+</subsection>
+<subsection id="ss14" level="1">
+<heading id="h13" level="1">7 Variant of the stranding analysis</heading>
+<p>
+<link rid="b8">Wilder (1995</link>) proposes a variant of the stranding analysis in which the &lsquo;extraposed&rsquo; material is not stranded, but rather a larger constituent containing the material is L-moved, leaving a copy of this larger constituent in the original position. The material that appears as extraposed is in fact deleted in the L-moved position, and everything but this material is deleted in the right copy position. To illustrate with a noun-complement that appears in extraposed position, consider (78) (Wilder&apos;s (64)), in which bolding indicates deletion:</p>
+<p>(78)&ensp;We talked &lsqb;about the claim <b>that Mary will hire Peter</b>&rsqb; yesterday &lsqb;<b>about the claim</b> that Mary will hire Peter&rsqb;</p>
+<p>As Wilder notes, his analysis requires the possibility of non-constituent deletion, exemplified in the rightmost deletion in (78).</p>
+<p>An advantage of Wilder&apos;s analysis is that it accounts for the fact that the extraposed material is not c-commanded by the position in which it is interpreted (in rightward movement accounts, the trace does not c-command its antecedent).</p>
+<p>Nevertheless, it seems that there are some aspects of the deletion analysis that are extremely problematic. First, it seems that it over-predicts the reconstruction possibilities. Since the phenomenon of extraposition results from deletion of material at PF, it predicts that the &lsquo;extraposed&rsquo; material will reconstruct to the position in which the material is interpreted, i.e., the L-moved copy of the larger constituent. As <link rid="b50">Buring and Hartmann (1997a)</link> (cited by Wilder) point out, this prediction is valid for Condition C reconstruction effects when the extraposed material is a noun-complement:</p>
+<p>(79)&ensp;<object id="tu30" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu30_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>(based on) Wilder&apos;s (53a):</b>
+</entry>
+</row>
+<row><entry>*We talked &lsqb;about her<sub>i</sub> claim___&rsqb; yesterday that Mary<sub>i</sub> will hire Peter.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>However, <link rid="b9">Fox and Nissenbaum (1999</link>) point out, citing <link rid="b43">Taraldsen (1981</link>) as the original source of the observation, that extraposed relative clauses do not reconstruct:</p>
+<p>(80)&ensp;<object id="tu31" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu31_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>(Fox and Nissenbaum&apos;s (11b)):</b>
+</entry>
+</row>
+<row><entry>I gave him<sub>i</sub> an argument yesterday that supports John<sub>i</sub>&apos;s theory.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Hence, the conflation of both relative clause extraposition and noun complement extraposition is viewed by Fox and Nissenbaum, to whom we will turn in the next section, as inappropriate.</p>
+<p>The allowance of non-constituent deletion that is exemplified in (75) also seems problematic. For example, VP ellipsis is standardly viewed as deleting a constituent, and this assumption seems justified by the impossibility of deleting, e.g., a verb plus small-clause subject, leaving the predicate, as in (81):</p>
+<p>(81)&ensp;*Although I don&apos;t consider him intelligent, I do <b>consider him</b> ambitious.</p>
+<p>The allowance of non-constituent deletion that is required in this analysis seems overly powerful as well. For example, it would seem to allow deletion of the verb plus object in a VP-fronting construction, stranding the object relative, which was shown to be impossible, as in (15f), repeated here:</p>
+<p>(15)&ensp;f.&ensp;*John said that he would call people up who are from Boston, and call people up he did___who are from Boston.</p>
+<p>It would also seem to predict extraposition out of a fronted PP, as in (10), repeated here:</p>
+<p>(10)&ensp;*In which magazine did you see it which was lying on the table?</p>
+<p>Furthermore, by taking extraposition to be a reflex of deletion of part of the copy of a leftward-moved constituent, it has no account of the Perlmutter&ndash;Ross phenomenon of relative clauses with split antecedents, as in (50).</p>
+</subsection>
+<subsection id="ss15" level="1">
+<heading id="h14" level="1">8 All extrapositions are not created equal: a mixed analysis of the phenomenon</heading>
+<p>
+<link rid="b9">Fox and Nissenbaum (1999</link>; also <link rid="b44">Fox 2002</link>) propose that relative clause extraposition be separated analytically from complement extraposition. For the latter, they propose rightward movement of the complement. For the former, they adopt the view that relative clauses, as adjuncts, should be merged late with the constituents which they modify. Specifically, they propose that extraposed relative clauses are in fact merged with QRed nominals which are interpreted as the heads of those relative clauses, and that QR should be viewed as adjoining the nominal to the right of the projection that immediately dominates the nominal before QR. They propose that the distinction between covert and overt operations be eliminated and replaced by a distinction between pronunciation of the head of a chain (the traditional overt movements) and pronunciation of the tail of a chain (the traditional covert movements). The derivation of, e.g., (82) would be as in (83):</p>
+<p>(82)&ensp;John picked a book up which he really enjoyed.</p>
+<p>(83)&ensp;<object id="tu32" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu32_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;<sub>CP</sub> John &lsqb;<sub>VP</sub> picked a book up&rsqb;&rsqb; &lsqb;<sub>CP</sub> which he really enjoyed&rsqb;.</entry>
+</row>
+<row><entry namest="col1" nameend="col2">QR yields:</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>CP</sub> John &lsqb;<sub>VP</sub> &lsqb;<sub>VP</sub> picked a book up&rsqb; &lsqb;<sub>DP</sub> a book&rsqb;&rsqb;&rsqb; &lsqb;<sub>CP</sub> which he really enjoyed&rsqb;.</entry>
+</row>
+<row><entry namest="col1" nameend="col2">Merger of the relative clause:</entry>
+</row>
+<row><entry>c.</entry>
+<entry>&lsqb;<sub>CP</sub> John &lsqb;<sub>VP</sub> &lsqb;<sub>VP</sub> picked a book up&rsqb; &lsqb;<sub>DP</sub> &lsqb;<sub>DP</sub> a book&rsqb; &lsqb;<sub>CP</sub> which he really enjoyed&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;.</entry>
+</row>
+<row><entry namest="col1" nameend="col2">PF deletion of the head of the QRed nominal chain (represented by bolding):</entry>
+</row>
+<row><entry>d.</entry>
+<entry>&lsqb;<sub>CP</sub> John &lsqb;<sub>VP</sub> &lsqb;<sub>VP</sub> picked a book up&rsqb; &lsqb;<sub>DP</sub> &lsqb;<sub>DP</sub><b> a book</b>&rsqb; &lsqb;<sub>CP</sub> which he really enjoyed&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The analysis has some noteworthy aspects. First, because it ties relative clause extraposition to QR, it captures the Gu&eacute;ron and May claim that extraposition of relatives is tied to the QR of the head. Second, because this analysis relies on merger of the extraposed relative in its overt position, it never places it within the constituent that immediately dominates the host&apos;s overt position; this accounts for the fact that relatives that are extraposed from object position do not reconstruct to the overt position of the object, exemplified in (80). Because complement extraposition is analyzed as involving rightward movement, by contrast, extraposed complements do reconstruct, as in (79).</p>
+<p>It is tempting to apply this analysis of relative clause extraposition to the split antecedence phenomenon, by applying QR in across-the-board fashion for both conjuncts, as in the <i>wh</i>-movement example in (84):</p>
+<p>(84)&ensp;What did John give to Sally and Bill give to Martha?</p>
+<p>The Perlmutter&ndash;Ross example would be derived as in (85):</p>
+<p>(85)&ensp;<object id="tu33" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu33_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<thead>
+<row><entry>a.</entry>
+<entry>&lsqb;&lsqb;a man entered the room&rsqb; and &lsqb;a woman left&rsqb;&rsqb; &lsqb;who were similar (QR from both conjuncts yielding (b))</entry>
+</row>
+</thead>
+<tbody>
+<row><entry>b.</entry>
+<entry>&lsqb;&lsqb;&lsqb;<sub>DP</sub> a man&rsqb; entered the room&rsqb; and &lsqb;&lsqb;<sub>DP</sub> a woman&rsqb; left&rsqb;&rsqb; &lsqb;<sub>DP</sub> &lsqb;<sub>DP</sub> a man&rsqb; and &lsqb;<sub>DP</sub> a woman&rsqb;&rsqb;&rsqb; &lsqb;who were similar&rsqb; (merger of the relative clause to the conjoined DP yields (c)</entry>
+</row>
+<row><entry>c.</entry>
+<entry>&lsqb;&lsqb;&lsqb;<sub>DP</sub> a man&rsqb; entered the room&rsqb; and &lsqb;<sub>DP</sub> a woman&rsqb; left&rsqb;&rsqb; &lsqb;<sub>DP</sub> &lsqb;<sub>DP</sub> &lsqb;<sub>DP</sub><b> a man</b>&rsqb; and &lsqb;<sub>DP</sub><b> a woman</b>&rsqb;&rsqb; <sub>CP</sub> who were similar&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>It is true that the two nominals in the Perlmutter&ndash;Ross example would have to be distinct, but it is possible for two distinct nominals to move across the board, as can be seen from the overt example in (86), with across-the-board topicalization, in a <i>respectively</i>-coordination sentence:</p>
+<p>(86)&ensp;This book<sub>i</sub> and that magazine<sub>j</sub> John bought t<sub>i</sub> at Borders and Bill bought t<sub>j</sub> at Dalton&apos;s respectively.</p>
+<p>In fact, we can even derive the parallelism constraints on relative-clause extraposition noted in (50), in which the split antecedents cannot consist of a subject in the first conjunct and an object in the second conjunct, if we assume, following <link rid="b11">May (1985</link>), that object QR is adjunction to VP, while subject adjunction is QR to TP. There would be no way to create a conjoined DP after QR in such cases to host merger of the relative clause.</p>
+<p>There is one noteworthy consequence of the Fox&ndash;Nissenbaum analysis of relative clause extraposition, whose salient features are rightward QR followed by late merger of the relative clause. Recall <link rid="b13">Culicover and Rochemont&apos;s (1997</link>) observation, discussed in <link rid="ss3">section 2</link>, that fronted <i>wh</i>-phrases can host extraposed relatives, based on the contrast in (13) and (14), repeated here:</p>
+<p>(13)&ensp;*He<sub>i</sub> &lsqb;<sub>VP</sub> &lsqb;<sub>VP</sub> invited several girls to the party&rsqb; &lsqb;<sub>CP</sub> that John<sub>i</sub> dated in high school&rsqb;&rsqb;.</p>
+<p>(14)&ensp;How many girls did &lsqb;<sub>IP</sub> he<sub>i</sub> invite to the party&rsqb; &lsqb;<sub>CP</sub> that John<sub>i</sub> dated in high school&rsqb;?</p>
+<p>In other words, the extraposed relative in (14) must be adjoined to a projection that takes it out of the c-command domain of the subject, presumably CP, in order to ensure that the coindexing indicated in (14) does not cause a Principle C violation. However, in Fox and Nissenbaum&apos;s approach, we are led to first right-adjoin the object to CP, as a parallel to their analysis of QR, before moving the <i>wh</i>-phrase to &lsqb;Spec, CP&rsqb;. This movement of <i>wh</i>-phrases to the right edge of CP before moving to their final resting place is, to the best of our knowledge, unattested, and we are hard pressed to explain the reason for this movement, particularly in a theory which posits movement as a last resort.</p>
+<p>We are also hard pressed to explain, in the late merger theory of relative clause extraposition, why reduced relatives do not appear in extraposed position, so that the only phrases that occur in the extraposition construction are PPs and CPs.</p>
+</subsection>
+<subsection id="ss16" level="1">
+<heading id="h15" level="1">9 Result clauses</heading>
+<p>Finally, another construction that seems to have some affinities with extraposition is the degree-complement construction that is exemplified in (87):</p>
+<p>(87)&ensp;<object id="tu34" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu34_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John was <u>so</u> hungry <u>that he would eat anything</u>.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John was <u>too</u> angry <u>for us to talk to him</u>.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>John was hungry <u>enough that he would eat anything</u>.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>John was hungry <u>enough to eat anything</u>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>There is a dependency between the underlined degree words and the clausal phrases to suggest a level of representation at which the clausal phrase is a complement of the degree word. For one thing, the clausal phrase cannot appear without the degree word&apos;s presence; for another, the finiteness value of the clausal phrase is determined by the particular degree word, such that <i>so</i> requires that the clause be finite, <i>too</i> that it be non-finite, and <i>enough</i> allows either (88c&ndash;d):</p>
+<p>(88)&ensp;<object id="tu35" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu35_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*John was hungry that he would eat anything.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*John was angry for us to talk to him.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*John was so hungry to eat anything.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>*John was too tired that he ate anything.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>With these considerations, early analyses of degree phrases posited representations in which the degree word and the clause formed a constituent, in which the clause was a complement of the degree word. An obligatory extraposition process would then move the clause rightward, so that, e.g., (87a) would include (88) in its derivational history:</p>
+<p>(89)&ensp;John was &lsqb;<sub>AP</sub> &lsqb;<sub>Deg&Prime;</sub> &lsqb;<sub>Deg&prime;</sub> &lsqb;<sub>Deg</sub> so&rsqb; &lsqb;<sub>C&Prime;</sub> that he would eat anything&rsqb;&rsqb;&rsqb;&rsqb;.</p>
+<p>It has been noted, however, by <link rid="b45">Liberman (1974</link>) that, unlike the extraposition of relative clauses that we have been considering, a degree complement can have multiple antecedents:</p>
+<p>(90)&ensp;So many people read so many books so often that it&apos;s hard to keep track of them.</p>
+<p>Moreover, there can only be one degree complement in a clause:</p>
+<p>(91)&ensp;*So many people read so many books so often that the lines are immense that we have to restock the shelves that the bookstores are making a mint.</p>
+<p>The possibility of split antecedents for the degree complement contrasts with the impossibility of split antecedents for the extraposed relative clause, discussed above in connection with (50).</p>
+<p>Furthermore, as <link rid="b10">Gu&eacute;ron and May (1984</link>) show, the degree complement can occur in a clause that is higher than theclause in which the degree word resides:</p>
+<p>(92)&ensp;<object id="tu36" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu36_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>(Gu&eacute;ron and May&apos;s (29a)):</b>
+</entry>
+</row>
+<row><entry>I told <i>her</i> that so many people attended last year&apos;s concert that I made <i>Mary</i> nervous.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The fact that (92) does not have the status of a Principle C violation of the binding theory indicates that the result clause, which contains <i>Mary</i>, must be higher in the tree than the matrix object object pronoun. Given that the degree word resides in <i>tell</i>&apos;s complement CP in overt syntax, extraposition of the degree complement into the matrix clause would violate the Right Roof Constraint.</p>
+<p>As Gu&eacute;ron and May note, however, the degree word can scope out of the clause in which it overtly resides. Hence, (93), originally noted by <link rid="b45">Liberman (1974</link>), seems to have two understood interpretations, represented by the following logical forms (Gu&eacute;ron and May&apos;s (33)):</p>
+<p>(93)&ensp;Mary believed that Harry is so crazy that he acted irrationally.</p>
+<p>(94)&ensp;<object id="tu37" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu37_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Mary believed &lsqb;<sub>CP</sub> so<sup>2</sup> &lsqb;<sub>CP</sub> that Harry is <formula id="mu3" format="inline">
+<file name="Graphics\chapter_25_mu3.gif" type="gif"/>
+</formula> crazy <formula id="mu4" format="inline">
+<file name="Graphics\chapter_25_mu4.gif" type="gif"/>
+</formula>&rsqb; &lsqb;<sub>CP</sub> that he acted irrationally&rsqb; <sup>2</sup>&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>CP</sub> so<sup>2</sup> &lsqb;<sub>TP</sub> Mary believed &lsqb;<sub>CP </sub>
+<formula format="inline">
+<file name="Graphics\chapter_25_mu3.gif" type="gif"/>
+</formula> &lsqb;<sub>CP</sub> that Harry is &lsqb;<formula format="inline">
+<file name="Graphics\chapter_25_mu3.gif" type="gif"/>
+</formula> crazy <formula format="inline">
+<file name="Graphics\chapter_25_mu4.gif" type="gif"/>
+</formula>&rsqb;&rsqb; <formula format="inline">
+<file name="Graphics\chapter_25_mu4.gif" type="gif"/>
+</formula>&rsqb;&rsqb; &lsqb;<sub>CP</sub> that he acted irrationally&rsqb;<sup>2</sup>&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The first interpretation of (93), corresponding to (94a), is one in which the extent of Harry&apos;s craziness is within the scope of Mary&apos;s beliefs, such that Mary believed that Harry&apos;s craziness was to such an extent that he acted irrationally. In the second interpretation of (93), corresponding to (94b), Mary believed to such an extent that Harry is crazy that her beliefs caused him to act irrationally.</p>
+<p>These two interpretations are claimed to correlate with the syntactic position of the result clause, such that the result clause is analyzed as being adjoined to the CP in which the degree word takes scope. Matrix interpretation of the degree word is said to correlate with the attachment of the result clause to the matrix CP, and this is analyzed by Gu&eacute;ron and May as a reflex of the head&ndash;complement relation being established at LF, a view that has become extremely consonant with the tenets of Minimalism (<link rid="b28">Chomsky 1995c</link>), in which LF and PF are the only two significant linguistic levels. Therefore, the interpretation of (93), given that the result clause is adjoined to the matrix clause, is one in which the degree word must take matrix scope.</p>
+</subsection>
+<subsection id="ss17" level="1">
+<heading id="h16" level="1">NOTES</heading>
+<p>
+<span id="fn1">
+<number>1&emsp;</number>See <link rid="b46">Borsley (1997</link>) for a criticism of this approach, and <link rid="b47">Bianchi (2000</link>) for a response to Borsley&apos;s criticisms.</span>
+</p>
+<p>
+<span id="fn2">
+<number>2&emsp;</number>While the approach taken in <link rid="b7">Kayne (1994</link>) is easiest to explain for relative clauses that are introduced by the complementizer <i>that</i>, he also shows how this account can extend to <i>wh</i>-relatives. The exposition of this extension would take us too far afield. For details, see <link rid="b7">Kayne (1994</link>: 88&ndash;90).</span>
+</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss18" level="1" type="references">
+<heading id="h17" level="1">REFERENCES</heading>
+<reference id="b16" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Abney</surname><x>, </x><forenames>Steven</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date>
+<miscellaneoustext>). The English Noun Phrase in its Sentential Aspect. PhD dissertation, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b3" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Akmajian</surname><x>, </x><forenames>Adrian</forenames>
+</name>
+</namegroup><x> (</x><date date="1975">1975</date><x>). </x><title type="document">More Evidence for an NP Cycle</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>6</volume><x>: </x><page type="first">115</page><x>&ndash;</x><page type="last">129</page><x>.</x>
+</reference>
+<reference id="b12" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Baltin</surname><x>, </x><forenames>Mark</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978a</date><x>). </x><title type="document">PP as a Bounding Node</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society 8</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Mark</forenames><x> </x><surname>Stein</surname>
+</name>
+<miscellaneoustext> (ed.)</miscellaneoustext><x>.</x>
+</namegroup><x> </x><address>Amherst, Massachusetts</address><x>: </x><publisher>Graduate Linguistics Student Association.</publisher>
+</reference>
+<reference id="b4" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Baltin</surname><x>, </x><forenames>Mark</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978b</date>
+<miscellaneoustext>). Toward A Theory of Movement Rules. PhD dissertation, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Baltin</surname><x>, </x><forenames>Mark</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="document">Strict Bounding</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Logical Problem of Language Acquisition</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Carl<x> </x>L<x>.</x>
+</forenames><x> </x><surname>Baker</surname>
+</name><x> and </x><name type="editor">
+<forenames>John</forenames><x> </x><surname>McCarthy</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">257</page><x>&ndash;</x><page type="last">295</page>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b21" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Baltin</surname><x>, </x><forenames>Mark</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Do Antecedent-Contained Deletions Exist?</title><x> </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>18</volume><x>: </x><page type="first">279</page><x>&ndash;</x><page type="last">295</page><x>.</x>
+</reference>
+<reference id="b18" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Baltin</surname><x>, </x><forenames>Mark</forenames>
+</name><x> and </x><name type="author">
+<forenames>Paul<x> </x>M<x>.</x>
+</forenames><x> </x><surname>Postal</surname>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="document">More on Reanalysis Hypotheses</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>27</volume><x>: </x><page type="first">127</page><x>&ndash;</x><page type="last">145</page><x>.</x>
+</reference>
+<reference id="b42" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Barbiers</surname><x>, </x><forenames>Sjef</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date>
+<miscellaneoustext>). The Syntax of Interpretation. PhD dissertation, Leiden University</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b41" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Barss</surname><x>, </x><forenames>Andrew</forenames>
+</name><x> and </x><name type="author">
+<forenames>Howard</forenames><x> </x><surname>Lasnik</surname>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">A Note on Anaphora and Double Objects</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>17</volume><x>: </x><page type="first">347</page><x>&ndash;</x><page type="last">354</page><x>.</x>
+</reference>
+<reference id="b47" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bianchi</surname><x>, </x><forenames>Valentina</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">The Raising Analysis of Relative Clauses: A Reply to Borsley</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>31</volume><x>: </x><page type="first">123</page><x>&ndash;</x><page type="last">140</page><x>.</x>
+</reference>
+<reference id="b39" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bobaljik</surname><x>, </x><forenames>Jonathan</forenames>
+</name><x> and </x><name type="author">
+<forenames>Samuel</forenames><x> </x><surname>Brown</surname>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Interarboreal Operations: Head Movement and the Extension Requirement</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>28</volume><x>: </x><page type="first">345</page><x>&ndash;</x><page type="last">356</page><x>.</x>
+</reference>
+<reference id="b46" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Borsley</surname><x>, </x><forenames>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Relative Clauses and the Theory of Phrase Structure</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>28</volume><x>: </x><page type="first">629</page><x>&ndash;</x><page type="last">647</page><x>.</x>
+</reference>
+<reference id="b25" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bo&scaron;kovi&#x0107;</surname><x>, </x><forenames>&#x017D;eljko</forenames>
+</name><x> and </x><name type="author">
+<forenames>Daiko</forenames><x> </x><surname>Takahashi</surname>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">Scrambling and Last Resort</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>29</volume><x>: </x><page type="first">347</page><x>&ndash;</x><page type="last">366</page><x>.</x>
+</reference>
+<reference id="b20" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Bouton</surname><x>, </x><forenames>Lawrence<x> </x>F<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1970">1970</date><x>). </x><title type="document">Antecedent-Contained Pro-Forms</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Sixth Regional Meeting of the Chicago Linguistic Society</title><x> </x><namegroup type="editors">
+<name type="editor">
+<forenames>M.</forenames><x> </x><surname>Campbell et al.</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society.</publisher>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Brame</surname><x>, </x><forenames>Michael</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="book">Conjectures and Refutations in Syntax and Semantics<x>.</x>
+</title><x> </x><address>New York</address><x>: </x><publisher>Elsevier.</publisher>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bresnan</surname><x>, </x><forenames>Joan</forenames>
+</name>
+</namegroup><x> (</x><date date="1973">1973b</date><x>). </x><title type="document">Syntax of the Comparative Clause Construction in English</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>4</volume><x>: </x><page type="first">275</page><x>&ndash;</x><page type="last">343</page><x>.</x>
+</reference>
+<reference id="b50" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>B&uuml;ring</surname><x>, </x><forenames>Daniel</forenames>
+</name><x> and </x><name type="author">
+<forenames>Katharina</forenames><x> </x><surname>Hartmann</surname>
+</name>
+</namegroup><x> (</x><date date="1997">1997a</date><x>). </x><title type="document">Doing the Right Thing</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>14</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">42</page><x>.</x>
+</reference>
+<reference id="b35" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Carter</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Some Linking Regularities</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">On Linking: Papers by Richard Carter</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Beth</forenames><x> </x><surname>Levin</surname>
+</name><x> and </x><name type="editor">
+<forenames>Carol</forenames><x> </x><surname>Tenny</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">1</page><x>&ndash;</x><page type="last">92</page>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b15" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1973">1973</date><x>). </x><title type="document">Conditions on Transformations</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">A Festschrift for Morris Halle</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Stephen</forenames><x> </x><surname>Anderson</surname>
+</name><x> and </x><name type="editor">
+<forenames>Paul</forenames><x> </x><surname>Kiparsky</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">232</page><x>&ndash;</x><page type="last">286</page>
+<x>. </x><address>New York</address><x>: </x><publisher>Holt, Rinehart, and Winston.</publisher>
+</reference>
+<reference id="b14" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="book">Lectures on Government and Binding<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b19" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986a</date><x>). </x><title type="book">Barriers</title>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b24" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986b</date><x>). </x><title type="book">Knowledge of Language: Its Nature, Origin and Use</title>
+<x>. </x><address>New York</address><x>: </x><publisher>Praeger.</publisher>
+</reference>
+<reference id="b32" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Some Notes on Economy of Derivation and Representation</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Principles and Parameters in Comparative Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Robert</forenames><x> </x><surname>Freidin</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">417</page><x>&ndash;</x><page type="last">454</page>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b28" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995c</date><x>). </x><title type="book">The Minimalist Program<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b6" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Culicover</surname><x>, </x><forenames>Peter</forenames>
+</name><x> and </x><name type="author">
+<forenames>Michael</forenames><x> </x><surname>Rochemont</surname>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Extraposition and the Complement Principle</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>21</volume><x>: </x><page type="first">23</page><x>&ndash;</x><page type="last">47</page><x>.</x>
+</reference>
+<reference id="b13" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Culicover</surname><x>, </x><forenames>Peter</forenames>
+</name><x> and </x><name type="author">
+<forenames>Michael</forenames><x> </x><surname>Rochemont</surname>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Deriving Dependent Right Adjuncts in English</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Rightward Movement</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Dorothee</forenames><x> </x><surname>Beermann</surname>
+</name><x>, </x><name type="editor">
+<forenames>David</forenames><x> </x><surname>LeBlanc</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Henk<x> </x>C<x>.</x>
+</forenames><x> </x><surnameprefix>van</surnameprefix><x> </x><surname>Riemsdijk</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Philadelphia</address><x>: </x><publisher>Benjamins.</publisher>
+</reference>
+<reference id="b26" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Emonds</surname><x>, </x><forenames>Joseph</forenames>
+</name>
+</namegroup><x> (</x><date date="1970">1970</date>
+<miscellaneoustext>). Root and Structure-Preserving Transformations. PhD dissertation, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b27" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Emonds</surname><x>, </x><forenames>Joseph</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972b</date><x>). </x><title type="document">A Reformulation of Certain Syntactic Transformations</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Goals of Linguistic Theory</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Stanley</forenames><x> </x><surname>Peters</surname>
+</name>
+<miscellaneoustext> (ed.)</miscellaneoustext><x>.</x>
+</namegroup><x> </x><address>Englewood Cliffs, NJ</address><x>: </x><publisher>Prentice-Hall.</publisher>
+</reference>
+<reference id="b31" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Fox</surname><x>, </x><forenames>Danny</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="book">Economy and Semantic Interpretation<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b44" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Fox</surname><x>, </x><forenames>Danny</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="document">Antecedent Contained Deletion and the Copy Theory of Movement</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>33</volume><x>: </x><page type="first">63</page><x>&ndash;</x><page type="last">96</page><x>.</x>
+</reference>
+<reference id="b9" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Fox</surname><x>, </x><forenames>Danny</forenames>
+</name><x> and </x><name type="author">
+<forenames>Jon</forenames><x> </x><surname>Nissenbaum</surname>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">Extraposition and Scope: A Case for Overt QR</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Eighteenth West Coast Conference on Formal Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Sonya</forenames><x> </x><surname>Bird</surname>
+</name><x>, </x><name type="editor">
+<forenames>Andrew</forenames><x> </x><surname>Carnie</surname>
+</name><x>, </x><name type="editor">
+<forenames>Jason<x> </x>D<x>.</x>
+</forenames><x> </x><surname>Haugen</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Norquest</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">132</page><x>&ndash;</x><page type="last">144</page>
+<x>. </x><address>Somerville</address><x>: </x><publisher>Cascadilla Press.</publisher>
+</reference>
+<reference id="b37" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Gruber</surname><x>, </x><forenames>Jeffrey<x> </x>S<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">Thematic Relations</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Handbook of Contemporary Syntactic Theory</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Mark</forenames><x> </x><surname>Baltin</surname>
+</name><x> and </x><name type="editor">
+<forenames>Chris</forenames><x> </x><surname>Collins</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">257</page><x>&ndash;</x><page type="last">298</page>
+<x>. </x><address>Oxford</address><x>: </x><publisher>Blackwell.</publisher>
+</reference>
+<reference id="b10" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Gu&eacute;ron</surname><x>, </x><forenames>Jacqueline</forenames>
+</name><x> and </x><name type="author">
+<forenames>Robert</forenames><x> </x><surname>May</surname>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">Extraposition and Logical Form</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>15</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">31</page><x>.</x>
+</reference>
+<reference id="b23" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hornstein</surname><x>, </x><forenames>Norbert</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">An Argument for Minimalism: The Case of Antecedent-Contained Deletion</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>25</volume><x>: </x><page type="first">455</page><x>&ndash;</x><page type="last">480</page><x>.</x>
+</reference>
+<reference id="b7" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">The Antisymmetry of Syntax<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b40" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Larson</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988b</date><x>). </x><title type="document">On the Double Object Construction</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>19</volume><x>: </x><page type="first">335</page><x>&ndash;</x><page type="last">391</page><x>.</x>
+</reference>
+<reference id="b22" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Larson</surname><x>, </x><forenames>Richard</forenames>
+</name><x> and </x><name type="author">
+<forenames>Robert</forenames><x> </x><surname>May</surname>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Antecedent Containment or Vacuous Movement: A Reply to Baltin</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>21</volume><x>: </x><page type="first">103</page><x>&ndash;</x><page type="last">122</page><x>.</x>
+</reference>
+<reference id="b51" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Lasnik</surname><x>, </x><forenames>Howard</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999b</date><x>). </x><title type="document">On Feature Strength: Three Minimalist Approaches to Overt Movement</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>30</volume><x>: </x><page type="first">197</page><x>&ndash;</x><page type="last">217</page><x>.</x>
+</reference>
+<reference id="b45" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Liberman</surname><x>, </x><forenames>Mark</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date><x>). </x><title type="document">Conditioning the Rule of Subject&ndash;Aux Inversion</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society 5</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Judith</forenames><x> </x><surname>Aissen</surname>
+</name><x> and </x><name type="editor">
+<forenames>Jorge</forenames><x> </x><surname>Hankamer</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">77</page><x>&ndash;</x><page type="last">91</page>
+<x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association.</publisher>
+</reference>
+<reference id="b11" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>May</surname><x>, </x><forenames>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="book">Logical Form: Its Structure and Derivation</title>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b34" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Perlmutter</surname><x>, </x><forenames>David</forenames>
+</name><x> and </x><name type="author">
+<forenames>Paul<x> </x>M<x>.</x>
+</forenames><x> </x><surname>Postal</surname>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date><x>). </x><title type="document">Toward a Universal Characterization of Passivization</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Third Annual Meeting of the Berkeley Linguistics Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Kenneth</forenames><x> </x><surname>Whistler et al.</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">394</page><x>&ndash;</x><page type="last">417</page>
+<x>. </x><address>Berkeley</address><x>: </x><publisher>Berkeley Linguistics Society.</publisher>
+</reference>
+<reference id="b33" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Perlmutter</surname><x>, </x><forenames>David</forenames>
+</name><x> and </x><name type="author">
+<forenames>John<x> </x>Robert</forenames><x> </x><surname>Ross</surname>
+</name>
+</namegroup><x> (</x><date date="1970">1970</date><x>). </x><title type="document">Relative Clauses with Split Antecedents</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>1</volume><x>: </x><page type="first">350</page><x>.</x>
+</reference>
+<reference id="b36" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Pesetsky</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="book">Zero Syntax: Experiencers and Cascades</title>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b29" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Interface Strategies</title><x>. </x><title type="other">OTS Working Papers of Theoretical Linguistics</title><x> </x><page type="first">95</page><x>&ndash;</x><page type="last">002</page><x>.</x>
+</reference>
+<reference id="b30" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Quantifier Scope: How Labour is Divided between QR and Choice Functions</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>20</volume><x>: </x><page type="first">335</page><x>&ndash;</x><page type="last">397</page><x>.</x>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Riemsdijk</surname><x>, </x><forenames>Henk<x> </x>C<x>. </x>van</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978a</date><x>). </x><title type="book">A Case Study in Syntactic Markedness: The Binding Nature of Prepositional Phrases</title>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rosenbaum</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="1967">1967</date><x>). </x><title type="book">The Grammar of English Predicate Complement Constructions<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ross</surname><x>, </x><forenames>John<x> </x>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="book">Infinite Syntax!</title><x> </x><address>Norwood, NJ</address><x>: </x><publisher>Ablex.</publisher>
+</reference>
+<reference id="b38" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Schachter</surname><x>, </x><forenames>Paul</forenames>
+</name>
+</namegroup><x> (</x><date date="1973">1973</date><x>). </x><title type="document">Focus and Relativization</title><x>. </x><title type="journal">Language</title><x> </x><volume>49</volume><x>: </x><page type="first">19</page><x>&ndash;</x><page type="last">46</page><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Selkirk</surname><x>, </x><forenames>Elisabeth</forenames>
+</name>
+</namegroup><x> (</x><date date="1970">1970</date><x>). </x><title type="book">On the Determiner Systems of Noun Phrase and Adjective Phrase<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b43" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Taraldsen</surname><x>, </x><forenames>Knut<x> </x>Tarald</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="document">The Theoretical Interpretation of a Class of Marked Extractions</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Theory of Markedness in Generative Grammar: Proceedings of the 1979 GLOW Conference</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Adriana</forenames><x> </x><surname>Belletti</surname>
+</name><x>, </x><name type="editor">
+<forenames>Luciana</forenames><x> </x><surname>Brandi</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Luigi</forenames><x> </x><surname>Rizzi</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Pisa</address><x>: </x><publisher>Scuola Normale Superiore.</publisher>
+</reference>
+<reference type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Vergnaud</surname><x>, </x><forenames>Jean-Roger</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date>
+<miscellaneoustext>). French Relative Clauses. PhD dissertation, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b8" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Wilder</surname><x>, </x><forenames>Chris</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Rightward Movement as Leftward Deletion</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">On Extraction and Extraposition in German</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Uli</forenames><x> </x><surname>Lutz</surname>
+</name><x> and </x><name type="editor">
+<forenames>Jurgen</forenames><x> </x><surname>Pafel</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">273</page><x>&ndash;</x><page type="last">309</page>
+<x>. </x><address>Amsterdam and Philadelphia</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

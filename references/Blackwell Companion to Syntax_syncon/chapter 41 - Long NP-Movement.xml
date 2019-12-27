@@ -1,0 +1,1803 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo><contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="41"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 41 - Long NP-Movement.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">109</page>
+<page type="last">130</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="7"/>
+<count type="table" count="26"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="66"/>
+<count type="page" count="22"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051123"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 41&ensp;Lasnik and Boeckx: Long NP-Movement</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 41&ensp;Lasnik and Boeckx: Long NP-Movement</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">41 Long NP-Movement</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>HOWARD</forenames><x> </x><surname>LASNIK</surname>
+</name><x> AND </x><name type="author">
+<forenames>CEDRIC</forenames><x> </x><surname>BOECKX</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Superraising</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>An ECP account</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>Relativized Minimality</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>Raising across experiencer</p>
+</li>
+<li level="1">
+<number>6&ensp;</number>
+<p>Economy</p>
+</li>
+<li level="1">
+<number>7&ensp;</number>
+<p>Equidistance</p>
+</li>
+<li level="1">
+<number>8&ensp;</number>
+<p>Typological variation?</p>
+</li>
+<li level="1">
+<number>9&ensp;</number>
+<p>Experiencer paradox</p>
+</li>
+<li level="1">
+<number>10&ensp;</number>
+<p>Feature movement</p>
+</li>
+<li level="1">
+<number>11&ensp;</number>
+<p>Agree</p>
+</li>
+<li level="1">
+<number>12&ensp;</number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1 Introduction</heading>
+<p>Our current understanding of &lsquo;locality&rsquo; conditions on movement goes back in one form or another to <link rid="b1">Ross&apos;s (1986</link>) Constraints on Variables in Syntax (originally a 1967 PhD dissertation), and <link rid="b2">Chomsky&apos;s (1973</link>) Conditions on Transformations. We will here follow the tradition of Ross and Chomsky in analyzing these relations in terms of &lsquo;movement&rsquo;, although the issues we explore arise in similar fashion under alternative approaches to these long-distance relations. Ross claimed that movement is essentially unbounded (limitations arising from islands). By contrast, Chomsky argued that movement is required to take place in short successive steps. As we will see, the issue re-emerges in the most modern version of generative grammar, the Minimalist program. For the phenomenon we investigate here, long NP-movement, we take Chomsky&apos;s view as a starting point, since it has been so influential.</p>
+<p>&lsquo;Long NP-movement&rsquo; is an umbrella term for cases of non-local A/NP-movement,<link rid="fn1">
+<sup>1</sup></link> where the locality factors are traditifonally considered to be (i) tense (1), and (ii) the presence of a subject (2), reflexes of <link rid="b2">Chomsky&apos;s (1973</link>) Tensed-Sentence Condition (3), and Specified-Subject Condition (4) respectively:</p>
+<p>(1)&ensp;<object id="fu1" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_41_fu1.jpg" type="jpg" id="fu1_source"/>
+</objectsource>
+</object>
+</p>
+<p>(2)&ensp;<object id="fu2" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_41_fu2.jpg" type="jpg" id="fu2_source"/>
+</objectsource>
+</object>
+</p>
+<p>(3)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Tensed-Sentence Condition (TSC):</b>
+</entry>
+</row>
+<row><entry>No rule can involve X, Y in</entry>
+</row>
+<row><entry>.&nbsp;.&nbsp;.&nbsp;X .&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>&alpha;</sub> .&nbsp;.&nbsp;.&nbsp;Y .&nbsp;.&nbsp;.&nbsp;&rsqb; .&nbsp;.&nbsp;.&nbsp;</entry>
+</row>
+<row><entry>where &alpha; is a finite clause.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(4)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Specified-Subject Condition (SSC):</b>
+</entry>
+</row>
+<row><entry>No rule can involve X, Y in</entry>
+</row>
+<row><entry>.&nbsp;.&nbsp;.&nbsp;X .&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>&alpha;</sub>Z .&nbsp;.&nbsp;.&nbsp;Y .&nbsp;.&nbsp;.&nbsp;&rsqb; .&nbsp;.&nbsp;.&nbsp;</entry>
+</row>
+<row><entry>where Z is the subject of &alpha;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>One of the major discoveries of the early 1970s was that in certain central respects, NP-movement obeys the same constraints as the process associating an anaphor with its antecedent. <link rid="b2">Chomsky&apos;s (1973</link>) explanation was that this fact is simply a special case of the generalization that all rules obey (3) and (4). The significance of such an approach was that it allowed for a great reduction in the descriptive power of transformations, leading ultimately to the modern notion of Move &alpha;. Thus, (1&ndash;2) are similar to (5&ndash;6):</p>
+<p>(5)&ensp;*Mary believes &lsqb;<i>herself</i> <b>is</b> likely to win the race&rsqb;.</p>
+<p>(6)&ensp;*Mary believes &lsqb;that <b>John</b> likes <i>himself</i>&rsqb;.</p>
+<p>Chomsky&apos;s approach by no means claimed that NP-movement and anaphor binding are a &lsquo;natural class&rsquo; of processes. They pattern alike only because all rules of grammar behave this way. Of course, in <link rid="b2">Chomsky (1973</link>), it was noted that pronominal coreference did not in fact obey the constraints, and <i>wh</i>-movement obeyed them only by stipulation. Moreover, the constraints were specifically stated in such a way that (COMP-to-COMP) movement was granted an exemption. Apparently, certain rules had to be designated as obeying the constraints, others as not obeying them.</p>
+<p>
+<link rid="b3">Chomsky (1976</link>) proposed an alternative. There is exactly one type of rule conforming to the constraints, namely, rules of construal (which concern themselves with antecedent relations). Other rules are not constrained (if we set aside <link rid="b4">Lasnik&apos;s 1976</link> Rule of Disjoint Reference). Thus, NP-movement itself is not constrained. Rather, the &lsquo;trace&rsquo; left behind by movement is an anaphor, subject to the same rule of construal as any other anaphor. This approach ultimately led to Binding Condition A (<link rid="b5">Chomsky 1981</link>):</p>
+<p>(7)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Binding Condition A:</b>
+</entry>
+</row>
+<row><entry>An anaphor must be bound in its governing category (GC) (where GC is defined in terms of tense and subject).</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>For <link rid="b2">Chomsky (1973</link>), some instances of long-distance movement fell under the purview of Subjacency:</p>
+<p>(8)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Subjacency:</b>
+</entry>
+</row>
+<row><entry>No rule can involve X, Y, if Y is not subjacent to X. (Y is subjacent to X if they are contained in all the same cyclic categories &lsqb;clause or NP&rsqb; or if they are in adjacent cyclic domains.)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>But, at the time, there was no particular application of Subjacency to NP-preposing, presumably because SSC and TSC imposed tighter constraints. With the <link rid="b5">Chomsky (1981</link>) reformulation and incorporation of SSC and TSC into Condition A of the Binding Theory, Subjacency did become potentially relevant to NP-preposing, particularly the instances which came to be known as &lsquo;superraising&rsquo;, a name due to Guiseppe Longobardi. We turn to these instances now.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2 Superraising</heading>
+<p>The first published discussion of the phenomenon appears in <link rid="b5">Chomsky (1981</link>: 58). Chomsky presents the following example, of a type reportedly considered by Longobardi:</p>
+<p>(9)&ensp;*John seems &lsqb;that it is certain &lsqb;<i>t</i> to like ice cream&rsqb;&rsqb;.</p>
+<p>According to Chomsky, Longobardi noted the potentially problematic nature of such examples. The name &lsquo;superraising&rsquo; was by analogy with the super-Equi of <link rid="b6">Grinder (1970</link>), illustrated in (10):</p>
+<p>(10)&ensp;John<sub>i</sub> said that it would disturb Sue &lsqb;PRO<sub>i</sub> to make a fool of himself in public&rsqb;.</p>
+<p>But while Equi (i.e., control of PRO) is possible at a distance (in particular, across an expletive subject), raising is evidently not, and that is Chomsky&apos;s concern. Chomsky reasons that the trace <i>t</i> in (9) is governed, satisfying one of its requirements, and its antecedent is in a non-theta-position, satisfying another. He concludes that Subjacency is responsible for the ungrammaticality of (9). Chomsky mentions, but immediately rejects, the possibility that (9) is an SSC (later in the book incorporated into Condition A) effect: &ldquo;While there are, as we shall see, binding theory violations of a structural form similar to &lsqb;(9)&rsqb;, they seem very different in level of acceptability from the completely ungrammatical &lsqb;(9)&rsqb;, indicating that &lsqb;(9)&rsqb; is not a binding theory violation&rdquo; (1981: 58). Chomsky does not explicitly spell out this point either here or later in the book, but he presumably has in mind the kind of example he discusses on (1981: 214):</p>
+<p>(11)&ensp;They think it is a pity that pictures of each other are hanging on the wall.</p>
+<p>The point is that the distance between <i>each other</i> and its antecedent <i>they</i> here is comparable to or greater than the distance between <i>t</i> and its antecedent <i>John</i> in (9). Thus, even under the <link rid="b5">Chomsky (1981</link>) assumption that the trace of NP-movement is an anaphor, Condition A of the Binding Theory, repeated in (12), cannot handle (9) without incorrectly ruling out (11):</p>
+<p>(12)&ensp;An anaphor must be bound in its governing category.</p>
+<p>There is one other construction on which the <link rid="b2">Chomsky (1973</link>) and <link rid="b5">Chomsky (1981</link>) accounts diverge. As <link rid="b7">Lasnik (1985</link>) pointed out, (13) is indistinguishable from (14), as far as TSC and SSC are concerned:</p>
+<p>(13)&ensp;*John<sub>i</sub> is believed &lsqb;that he<sub>i</sub> likes <i>t</i><sub>i</sub>&rsqb;.</p>
+<p>(14)&ensp;*John<sub>i</sub> is believed &lsqb;that Mary<sub>j</sub> likes <i>t</i><sub>i</sub>&rsqb;.</p>
+<p>The movement of <i>John</i> in both examples unequivocally violates both TSC and SSC, since the movement is out of the bracketed finite clause, and is across a subject. Yet in (13), unlike in (14), the trace left by movement conforms to (12): the governing category of <i>t</i> is the embedded S, and in that embedded S <i>t</i> is bound by <i>he</i>. <link rid="b7">Lasnik (1985</link>), extending the ideas of <link rid="b8">Rizzi (1986b</link>), proposes to account for (13) by the condition in (15), from <link rid="b5">Chomsky (1981</link>: 333):</p>
+<p>(15)&ensp;Where &alpha;<sub>i</sub>, &alpha;<sub>i&plus;1</sub> are successive members of a chain, &alpha;<sub>i</sub> must locally bind &alpha;<sub>i&plus;1</sub>.</p>
+<p>In (13), this condition is violated since <i>he</i>, rather than <i>John</i>, locally binds <i>t</i>. Hence, <i>John</i> and <i>t</i> cannot constitute a chain, and the theta-criterion is violated. <link rid="b9">Chomsky (1986b</link>) also proposed an analysis of examples like (13) in terms of a chain requirement, but a different one: that a chain can&apos;t contain two Case positions.</p>
+</subsection>
+<subsection id="ss4" level="1">
+<heading id="h3" level="1">3 An ECP account</heading>
+<p>As noted above, <link rid="b5">Chomsky (1981</link>) proposes that Subjacency is responsible for the unacceptability of superraising examples as in (9), repeated here as (16):</p>
+<p>(16)&ensp;*John seems &lsqb;that it is certain &lsqb;<i>t</i> to like ice cream&rsqb;&rsqb;.</p>
+<p>Chomsky&apos;s initial argument for a Subjacency account was that (16) is worse than a typical Condition A violation. However, as observed by <link rid="b10">Lasnik and Saito (1984</link>), it is also worse than a typical Subjacency violation. They go on to point out, following an observation of Chomsky&apos;s, that (16) falls under their formulation of the Empty Category Principle (ECP), a constraint that typically results in severe degradation. The ECP was first formulated in <link rid="b5">Chomsky (1981</link>), and has undergone many changes. For present purposes, let us adopt the following formulation, approximately that of Lasnik and Saito:</p>
+<p>(17)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Empty Category Principle:</b>
+</entry>
+</row>
+<row><entry>A trace must be properly governed.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In Lasnik and Saito&apos;s formulation, there are two ways to satisfy the proper government requirement, roughly as follows:</p>
+<p>(18)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source"> <tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Lexical government:</b>
+</entry>
+</row>
+<row><entry>&alpha;, a lexical head, lexically governs &bgr; iff &alpha; governs &bgr; and &alpha; assigns Case or a theta-role to &bgr;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(19)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source"> <tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Antecedent government:</b>
+</entry>
+</row>
+<row><entry>&alpha; antecedent-governs &bgr; iff &alpha; binds &bgr; and &alpha; and &bgr; are not separated by an S&prime; boundary (unless &bgr; is in Comp).<link rid="fn2">
+<sup>2</sup></link>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A sentence like (1) (repeated here as (20)) is redundantly ruled out by the ECP, since it also violates Condition A of the Binding Theory, but we saw that other cases of illicit NP-movement are not ruled out by Condition A:</p>
+<p>(20)&ensp;*Mary is believed &lsqb;<i>t</i> likes John&rsqb;.</p>
+<p>The trace in (20) is not properly governed. It is certainly not a complement of any head, lexical or otherwise, and it is not in a position Case-marked by a lexical head. Furthermore, its binder is too far away: <i>John</i> is outside the minimal S&prime; containing <i>t</i>, and <i>t</i> is not in Comp. So (20) violates the ECP. (20) contrasts with the standard raising construction in (21):</p>
+<p>(21)&ensp;Mary is believed &lsqb;<i>t</i> to like John&rsqb;.</p>
+<p>From the definition given above, the trace in (21) is not properly governed by <i>believed</i>, since this trace is not a complement to <i>believed</i>. However, under the Lasnik and Saito formulation, antecedent government is satisfied, since the only S&prime; that contains the trace is the entire S&prime;, given that (21) is an &lsquo;S&prime;-deletion&rsquo; configuration. On the other hand, the superraising example, repeated here as (22), is correctly excluded:</p>
+<p>(22)&ensp;*John seems &lsqb;that it is certain &lsqb;<i>t</i> to like ice cream&rsqb;&rsqb;.</p>
+<p>Note that if lexical government were simply government by a lexical head, (22) would be ruled in. Since <i>certain</i> governs the trace in (22) (S&prime; not being a barrier to government), it would lexically govern this trace. Under the more restrictive definition in (18), <i>certain</i> cannot properly govern the subject position of the lower clause because it assigns neither a theta-role nor Case to it. However, as <link rid="b11">Lasnik and Saito (1992</link>: 129) note, there are examples of superraising that do not readily fall under their ECP account. One such case (attributed to Mark Baker) is shown in (23):</p>
+<p>(23)&ensp;*John seems &lsqb;that it was told <i>t</i> &lsqb;that Mary was a genius&rsqb;&rsqb;.</p>
+<p>This example involves raising of <i>John</i> from the object position of <i>told</i> to the matrix subject position, and is clearly ungrammatical. But unlike the trace in (22), <i>t</i> in (23) satisfies the ECP as stated above, since it is theta-marked, and hence lexically governed, by the verb <i>told</i>. Note that this trace is not antecedent-governed, since its antecedent is too far removed from it. Given this fact, <link rid="b12">Chomsky (1986a</link>) suggests that all traces must be antecedent-governed regardless of whether they are lexically governed or not (see also <link rid="b13">Jaeggli 1982</link>; <link rid="b14">Koopman and Sportiche 1985</link>; <link rid="b15">Stowell 1986</link>; <link rid="b16">Aoun et al. 1987</link>).</p>
+</subsection>
+<subsection id="ss5" level="1">
+<heading id="h4" level="1">4 Relativized Minimality</heading>
+<p>At this point, we turn to the major post-<i>Barriers</i> analysis of long NP-movement, viz. <link rid="b17">Rizzi (1990b</link>), which also plays a crucial role in recent &lsquo;Minimalist&rsquo; versions of locality. The essence of <link rid="b17">Rizzi (1990b</link>) is a locality notion of &lsquo;Relativized Minimality&rsquo;.</p>
+<p>Rizzi&apos;s condition differs from previous ones in that it pays crucial attention to the type of position targeted for movement. Roughly speaking, Relativized Minimality prevents a syntactic dependency from being established across an intervening element of the same kind, since the intervening element would be a closer antecedent for the lower position in the dependency. Thus, the dependency in (24) is blocked if Y is a potential antecedent for Z (where potential antecedenthood is independent of indexing):</p>
+<p>(24)&ensp;<object id="fu3" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_41_fu3.jpg" type="jpg" id="fu3_source"/>
+</objectsource>
+</object>
+</p>
+<p>(24)&ensp;can be seen as a generalization and extension of the condition in (15).</p>
+<p>Rizzi investigates three kinds of syntactic dependencies, based on the types of positions involved: A-chains (the concern of this chapter), A-bar chains (operator-variable chains), and head-chains. Rizzi argues that dependencies like those in (25) are ill-formed because they are blocked by an intervening potential antecedent, the boldfaced item in each example:</p>
+<p>(25)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*John seems &lsqb;that <b>it</b> is likely &lsqb;<i>t</i> to win&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*How do you wonder &lsqb;<b>whether</b> &lsqb;to solve the problem <i>t</i>&rsqb;&rsqb;?</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*Have they <b>could</b> &lsqb;<i>t</i> left&rsqb;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Under this view, superraising as in (25a) arises when an element moving to a subject position (i.e., an A specifier position) crosses another A specifier position.</p>
+<p>As mentioned above, Relativized Minimality is an extension of the locality constraint in (15), first formulated by <link rid="b5">Chomsky (1981</link>) and further developed by <link rid="b8">Rizzi (1986b</link>). <link rid="b8">Rizzi (1986b</link>) argued that a well-formed A-chain cannot be established across an intervening argument with the same &lsquo;referential index&rsquo;. This configuration is schematized in (26), where Y blocks the dependency between the co-indexed X and its trace <i>t</i>. Let us follow <link rid="b18">McGinnis (1998</link>), and refer to this type of condition as Indexical Locality:</p>
+<p>(26)&ensp;<object id="fu4" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_41_fu4.jpg" type="jpg" id="fu4_source"/>
+</objectsource>
+</object>
+</p>
+<p>Although similar in spirit to Relativized Minimality, Indexical Locality constrains dependencies only between elements with the same referential index, and not between elements of the same position type. In fact, even though <link rid="b8">Rizzi (1986b</link>) does not discuss examples of the superraising type, Indexical Locality presupposes that an A-chain across an intervening A-position is well-formed. For example, <link rid="b8">Rizzi (1986b</link>) contrasts ill-formed dependencies like (27) with well-formed ones like (28). By Relativized Minimality, however, depending on the details of the structure, one might expect that the A-chain between <i>Gianni</i> and its trace in (28) would be blocked by the intervening argument <i>gli</i>:</p>
+<p>(27)&ensp;<object id="fu5" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_41_fu5.jpg" type="jpg" id="fu5_source"/>
+</objectsource>
+</object>
+</p>
+<p>(28)&ensp;<object id="fu6" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_41_fu6.jpg" type="jpg" id="fu6_source"/>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b8">Rizzi&apos;s (1986b</link>) explanation of the contrast between (27) and (28) has been applied to (abstractly) similar contrasts in Albanian (<link rid="b19 b20">Massey 1990, 1992</link>), and in German and Japanese A-scrambling (<link rid="b21">Miyagawa 1997</link>; <link rid="b22 b23">Yatsushiro 1997, 1999</link>). We refer to <link rid="b24">Snyder (1992</link>) and <link rid="b18">McGinnis (1998</link>) for extensive discussion, and ramifications.</p>
+</subsection>
+<subsection id="ss6" level="1">
+<heading id="h5" level="1">5 Raising across experiencer</heading>
+<p>A second potentially problematic case for Relativized Minimality is the possibility of raising into a higher clause past a non-clitic experiencer, as in (29):</p>
+<p>(29)&ensp;John seems to Mary &lsqb;<i>t</i> to be the best&rsqb;.</p>
+<p>The experiencer appears to be in an A-position c-commanding into the embedded clause, since the quantified DP experiencer <i>every poet</i> in (30a) can bind the pronoun <i>his</i> in the embedded clause, yielding the following interpretation: for each poet P, John seemed to P to be P&apos;s most devoted admirer. Further evidence appears in (30b), where the experiencer pronoun gives rise to an apparent Condition C effect:</p>
+<p>(30)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John seemed to every<sub>i</sub> poet &lsqb;<i>t</i> to be his<sub>i</sub> most devoted admirer&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Mary<sub>j</sub> seemed to him<sub>i</sub> &lsqb;<i>t</i><sub>j</sub> to like John<sub>i</sub>&rsqb;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Further, the construction is reasonably acceptable even if the raised subject binds an anaphoric experiencer, as in (31). Cases like this potentially violate both Indexical Locality and Relativized Minimality:</p>
+<p>(31)&ensp;John<sub>i</sub> seems to himself<sub>i</sub> &lsqb;<i>t</i><sub>i</sub> to be beautiful&rsqb;.</p>
+<p>As we will see, the problem posed by such examples persists in the Minimalist framework.</p>
+</subsection>
+<subsection id="ss7" level="1">
+<heading id="h6" level="1">6 Economy</heading>
+<p>The guiding intuition to capture locality in an economy-based Minimalist framework has been that in &ldquo;the &lsquo;bad&rsquo; cases, some element has failed to make &lsquo;the shortest move.&rsquo;&nbsp;&rdquo; (<link rid="b25">Chomsky 1993</link>: 14). This intuition follows directly from Relativized Minimality. In a classic superraising configuration such as the following, <i>John</i> has not made the shortest move, as it has bypassed the intermediate subject position occupied by <i>it</i>:</p>
+<p>(32)&ensp;*John seems that it is likely to win.</p>
+<p>Standard TSC examples, such as (1) (repeated here as (33)), also have a derivation that can be excluded in this manner:</p>
+<p>(33)&ensp;*Mary is believed likes John.</p>
+<p>Assuming the VP-internal subject hypothesis (VPISH), <i>Mary</i> has moved from the lower VP-internal position. If the movement is in one fell swoop, subject position of the lower clause is skipped, in violation of shortest move. However, it is also obvious that (33) is also excluded on standard Minimalist assumptions concerning movement and feature checking: all movement must be assumed to be triggered by feature-checking requirements. When the subject moves in one fell swoop from its base position (internal to the lowest VP) to matrix SpecIP, this creates the right configuration for checking the features (Case and agreement) of matrix I, and satisfies the Extended Projection Principle (EPP)<link rid="fn3">
+<sup>3</sup></link> in that matrix clause, but leaves the features of embedded I unchecked, and the EPP requirement of its clause unsatisfied. This derivation, therefore, is independently excluded without appeal to locality/shortest move.</p>
+<p>An alternative derivation might involve successive-cyclic movement, with <i>Mary</i> first moving to the Spec of the embedded IP. However, in this instance, the Case feature of the matrix finite Infl will not be checked even when <i>Mary</i> moves to the higher Spec, as the nominative Case feature of <i>Mary</i> has been checked off.<link rid="fn4">
+<sup>4</sup></link>
+</p>
+<p>
+<link rid="b26 b27">Ura (1994, 1996</link>) refers to cases like (33) as &lsquo;hyperraising&rsquo;. Impressionistically, hyperraising stands for cases where an element appears to have done too much checking; superraising stands for operations which move an element across a closer potential checker. The conception of checking and movement underwent a substantial change in <link rid="b28">Chomsky (1995b</link>). <link rid="b28">Chomsky (1995b</link>) distinguishes between uninterpretable and interpretable features. According to Chomsky, only uninterpretable features (e.g., Case) are inaccessible after checking. Interpretable features (e.g., agreement and categorial features of a nominal expression) can participate in more than one checking operation (see <link rid="b29">Lee 1994</link> for further development). As for Move, Chomsky proposed a change in perspective, arguing that movement is better conceived of in terms of &lsquo;attraction&rsquo;. That is, movement is driven by the needs of the position to which movement takes place. Shortest move is thus reconstrued as &lsquo;closest attract&rsquo; (see also <link rid="b30">Oka 1993</link>).</p>
+<p>The change from Move to Attract is more than a mere terminological one. It allows a reduction in computational complexity (shifting from a global to a more desirable local type of Economy). This is so since the ultimate position where a moving item will have its features checked may be many derivational steps away from the initial position of that item. Thus, from the point of view of the moving item, all of the steps of movement prior to the final one are locally gratuitous, contributing only toward a future need. If, on the other hand, each position to which movement takes place has a requirement (e.g., the EPP) that must be satisfied, that need is determined immediately at that point of cyclic derivation.</p>
+<p>The interpretable/uninterpretable-feature distinction meshes with this view of movement if, as suggested by <link rid="b28">Chomsky (1995b</link>), the EPP is satisfied by the categorial D feature of a nominal expression. In successive-cyclic movement, the intermediate checking operations do not cause the moving element to lose its feature, and thereby that feature remains accessible for further attraction.</p>
+<p>There is one type of hyperraising that is not yet accounted for. Recall that in the standard instances, such as (33) above, in the path of movement there are two (or more) Case positions. Assuming the Case feature of <i>Mary</i> is checked off in the lower Spec of IP, the matrix Infl will wind up with its Case feature unchecked. Alternatively, if the lower Spec of IP is skipped, its Case (and agreement and EPP) features will remain unchecked. One might then expect that A-movement from a Case position to a non-Case position would be possible. But it is not:</p>
+<p>(34)&ensp;<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>*Mary&apos;s belief &lsqb;John to be likely &lsqb;<i>t</i> will win&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>cf. Mary&apos;s belief that John is likely to win.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Note that the clausal analogue of (34) is easily accommodated:</p>
+<p>(35)&ensp;*Mary believes &lsqb;John to be likely &lsqb;<i>t</i> will win&rsqb;&rsqb;.</p>
+<p>Here, the accusative Case feature of the matrix verb <i>believe</i> will not be checked, since <i>John</i> must have checked the nominative Case feature of the embedded finite Infl. But in (34), there is no such Case feature in the matrix, since nouns have no structural Case feature. This is evidenced by the contrast in (36):</p>
+<p>(36)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Mary believes John to be likely to win.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Mary&apos;s belief John to be likely to win.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Another type of example abstractly displays the same problem. Eduardo Raposo notes (p.c. to Noam Chomsky; see also <link rid="b31">Raposo and Uriagereka 1996</link>: 775, fn. 35) that <link rid="b32">Chomsky&apos;s (1995c</link>) system incorrectly rules in a particular variant of superraising:</p>
+<p>(37)&ensp;*It seems &lsqb;that <i>t</i> was told John &lsqb;that IP&rsqb;&rsqb;.</p>
+<p>Raising of <i>it</i> to matrix Spec of IP is evidently legitimate, because its interpretable EPP/categorial feature still makes it accessible for further computation. Having lost its Case feature in the embedded clause, <i>it</i> cannot check the uninterpretable Case-feature of matrix Infl. But as Raposo observes, it is still possible to raise <i>John</i> (or its relevant formal features) in the LF component to check the Case features of both matrix finite Infl and <i>John</i>.<link rid="fn5">
+<sup>5</sup></link> No uninterpretable features remain unchecked (being interpretable, the categorial/EPP features of <i>John</i> need not be checked), so the derivation converges, incorrectly in this instance. To rule out this possibility, <link rid="b33">Chomsky (2000</link>) postulates that an element having checked its Case features cannot be &lsquo;attracted&rsquo; for mere EPP-checking. In particular, Chomsky argues that the role of Case in the grammar is to make an element visible for Attraction (of the A-movement sort). This correctly rules out (37): having checked its Case features, <i>it</i> cannot Move to matrix I. The uninterpretable Case feature of matrix I remains unchecked, causing the derivation to crash.</p>
+<p>Note that care is required if we are to continue to rule out the classic superraising configuration, as in (23), repeated here as (38):</p>
+<p>(38)&ensp;*John seems &lsqb;that it was told <i>t</i> &lsqb;that Mary was a genius&rsqb;&rsqb;.</p>
+<p>Even though <i>it</i> is no longer a potential attractee (having already checked its Case), it must still count for the purposes of closest Attract, thus preventing the attraction of <i>John</i>, an instance of what <link rid="b33">Chomsky (2000</link>) calls &lsquo;defective intervention&rsquo;.</p>
+</subsection>
+<subsection id="ss8" level="1">
+<heading id="h7" level="1">7 Equidistance</heading>
+<p>
+<link rid="b25">Chomsky (1993</link>: 182ff.) considers an apparent instance of superraising (a violation of the &lsquo;Shortest Movement&rsquo; requirement) that arises in the context of his claim that an object NP must raise to SpecAGRoP to check off its Case feature. The combination of an Object-related functional projection (AGRoP) outside of VP and the VPISH gives rise to a situation where the object must cross either the subject or its trace (depending on the timing of Object raising):</p>
+<p>(39)&ensp;&lsqb;<sub>AGRoP</sub> ___ &lsqb;<sub>AGRo&prime;</sub> AGRo &lsqb;<sub>VP</sub> Subject-NP/<i>t</i><sub>subject-NP</sub> &lsqb;<sub>V&prime;</sub> V Object-NP&rsqb;&rsqb;&rsqb;&rsqb;</p>
+<p>To avoid a violation of Shortest Move, Chomsky proposes a mechanism of Equidistance according to which two targets of movement (i.e., two potential landing sites) are equidistant if they are in the same minimal domain. The minimal domain of a head H is (roughly) the specifier of HP and the complement of H. Crucially, Chomsky allows for the possibility of &lsquo;domain extension&rsquo;; in particular, the minimal domain of H may be extended if H moves to a head X. When that happens, the minimal domain of the chain headed by H comprises SpecXP, SpecHP, and Complement of H (in addition to any adjoined elements, which we ignore here). Returning to (39), Chomsky&apos;s characterization of Minimal Domain and Equidistance allows for the object NP to move to SpecAGRoP across the subject NP or its trace without causing a Shortest Move/Minimality violation only if V moves to AGRo. Chomsky&apos;s Equidistance account has played a major role in the analysis of overt Object raising for Case (especially in instances of Object Shift in Scandinavian languages), since the operation appears to be tied to verb raising (&lsquo;Holmberg&apos;s Generalization&rsquo;; see <link rid="b34">Holmberg 1986</link> and much subsequent work). Contrast (40) and (41)<link rid="fn6">
+<sup>6</sup></link> (we follow the literature in assuming that negation <i>ekki</i> marks the left-edge of VP):</p>
+<p>(40)&ensp;<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>J&oacute;lasveinarnir</entry>
+<entry>bor&eth;u&eth;u</entry>
+<entry>ekki</entry>
+<entry>b&uacute;&eth;inginn.</entry>
+</row>
+<row><entry>The Xmas troll</entry>
+<entry>ate</entry>
+<entry>not</entry>
+<entry>the pudding</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;The Xmas troll didn&apos;t eat the pudding.&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col5">J&oacute;lasveinarnir bor&eth;u&eth;u b&uacute;&eth;inginn ekki.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(41)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>J&oacute;lasveinarnir</entry>
+<entry>hafa</entry>
+<entry>ekki</entry>
+<entry>bor&eth;a&eth;</entry>
+<entry>b&uacute;&eth;inginn.</entry>
+</row>
+<row><entry>The Xmas troll</entry>
+<entry>has</entry>
+<entry>not</entry>
+<entry>eaten</entry>
+<entry>the pudding</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;The Xmas troll has not eaten the pudding.&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col6">*J&oacute;lasveinarnir hafa b&uacute;&eth;inginn ekki bor&eth;a&eth;.</entry>
+</row>
+<row><entry>c.</entry>
+<entry namest="col2" nameend="col6">*J&oacute;lasveinarnir hafa b&uacute;&eth;inginn bor&eth;a&eth; ekki.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As an alternative to the admittedly complex definition of Minimal Domain and the relaxation of locality under Equidistance, several researchers (notably, <link rid="b35">Koizumi 1995</link> and <link rid="b36">Lasnik 1999a</link>) have adopted a VP-structure in which AGRoP is located below the base position of the subject, the so-called &lsquo;Split-VP&rsquo; hypothesis in (42):</p>
+<p>(42)&ensp;&lsqb;<sub>VP</sub> Subject-NP &lsqb;<sub>V&prime;</sub> V &lsqb;<sub>AGRoP</sub> AGRo &lsqb;<sub>VP</sub> &lsqb;V Object-NP&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;</p>
+<p>If (42) is adopted, the issue of superraising in situations of overt Object raising is eliminated entirely.</p>
+</subsection>
+<subsection id="ss9" level="1">
+<heading id="h8" level="1">8 Typological variation?</heading>
+<p>Given how &lsquo;deep&rsquo; the principles are preventing long NP-movement, one would a priori expect such movement to be prohibited universally. However, <link rid="b26 b27">Ura (1994, 1996</link>) has presented evidence that many languages differ from English in accepting hyperraising and/or superraising constructions. The following are examples from Romanian (hyperraising; <link rid="b37">Grosu and Horvath 1984</link>: 351) and Mandarin Chinese (<link rid="b26">Ura 1994</link>: 10):</p>
+<p>(43)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>S-a</entry>
+<entry>nimerit</entry>
+<entry>ca</entry>
+<entry>to tcedil i</entry>
+<entry>b&#x01CE;ie tcedil ii</entry>
+<entry>s&#x01CE;</entry>
+<entry>fie</entry>
+<entry>bolnavi.</entry>
+</row>
+<row><entry>refl-have.3sg</entry>
+<entry>hit-part</entry>
+<entry>that-subj</entry>
+<entry>all</entry>
+<entry>boys</entry>
+<entry>subj</entry>
+<entry>be-3pl.subj</entry>
+<entry>sick</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;It happens that all boys were sick.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>To tcedil i</entry>
+<entry>b&#x01CE;ie tcedil ii</entry>
+<entry>s-au</entry>
+<entry>nimerit</entry>
+<entry>s&#x01CE;</entry>
+<entry>fie</entry>
+<entry>bolnavi.</entry>
+</row>
+<row><entry>all</entry>
+<entry>boys</entry>
+<entry>refl-have.3pl</entry>
+<entry>hit-part</entry>
+<entry>subj</entry>
+<entry>be-3pl.subj</entry>
+<entry>sick</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;All the boys happened to be sick.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(44)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Keneng</entry>
+<entry>Zhangsan</entry>
+<entry>reng</entry>
+<entry>le</entry>
+<entry>nei</entry>
+<entry>kuai</entry>
+<entry>rou</entry>
+<entry>gei</entry>
+<entry>la.</entry>
+</row>
+<row><entry>possible</entry>
+<entry>Zhangsan</entry>
+<entry>throw</entry>
+<entry>ASP</entry>
+<entry>that</entry>
+<entry>piece</entry>
+<entry>meat</entry>
+<entry>to</entry>
+<entry>he</entry>
+</row>
+<row><entry namest="col2" nameend="col10">&lsquo;It is possible that Zhangsan tossed that piece of meat to him.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Ta<sub>i</sub>
+</entry>
+<entry>keneng</entry>
+<entry>Zhangsan</entry>
+<entry>reng</entry>
+<entry>le</entry>
+<entry>nei</entry>
+<entry>kuai</entry>
+<entry>rou <i>t<sub>i</sub>
+</i>.</entry>
+</row>
+<row><entry>He</entry>
+<entry>possible</entry>
+<entry>Zhangsan</entry>
+<entry>throw</entry>
+<entry>ASP</entry>
+<entry>that</entry>
+<entry>piece</entry>
+<entry>meat</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;He is possible that Zhangsan tossed that piece of meat.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Ura argues that all languages that allow superraising or hyperraising also have &lsquo;multiple subject constructions&rsquo;, which, if analyzed as involving multiple specifiers, make all &lsquo;subjects&rsquo; equally accessible to a higher target position, hence equally eligible for attraction. In this type of language, a nominal expression can escape from a clause by first moving to a specifier position in that clause. Note, though, that while that might permit derivations of superraising constructions, it does not suffice to allow hyperraising. For the latter construction, as Ura observes, it is necessary to weaken the normal requirement that a Case &lsquo;assigner&rsquo; check a Case. He thus proposes that languages that allow hyperraising have optional Case-feature checking in certain circumstances. How to fit this naturally into the Minimalist program is not entirely clear. However, see <link rid="b38">Zwart (1997b</link>), where it is claimed that Ura&apos;s generalization about multiple Specs is spurious. Zwart explains away many of the problematic illicit NP-movements as cases of non-raising (hyperraising) or topicalization (superraising). Clearly, further research is needed in that area before theoretical conclusions can be drawn.</p>
+<p>An area where the logic of Ura&apos;s account is widely assumed is double object constructions. It is now generally accepted that languages split into two groups when it comes to the behavior of the two objects in ditransitive structures (see <link rid="b39">Anagnostopoulou 2003</link> for a comprehensive survey and justification of the dichotomy). Some languages are said to be symmetric, allowing both objects to take part in the same set of operations (passivization, incorporation, reflexivization, etc.), while other languages are asymmetric: they invariably favor the indirect object (Goal NP) for syntactic purposes. On the basis of pairs like (45) and (46), English is characterized as an asymmetric language, whereas the Bantu language Kinyarwanda falls into the symmetric language type (data from <link rid="b40">Baker 1988a</link>: 175):</p>
+<p>(45)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John was given the book (by Frank).</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*The book was given John (by Frank).</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(46)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Umugore</entry>
+<entry>y-a-haa-w-e</entry>
+<entry>igitabo.</entry>
+</row>
+<row><entry>Woman</entry>
+<entry>SP-Past-give-Pass-Asp</entry>
+<entry>book</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;The woman was given the book.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Igitabo</entry>
+<entry>cy-a-haa-w-e</entry>
+<entry>umugore.</entry>
+</row>
+<row><entry>Book</entry>
+<entry>SP-Past-give-Pass-Asp</entry>
+<entry>woman</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;The book was given (to) the woman.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b39">Anagnostopoulou (2003</link>) shows in detail that the contrast between symmetric and asymmetric languages does not reduce to a Case difference (say, availability of inherent Case), and argues that the contrast must be accounted for in terms of locality. She follows <link rid="b27">Ura (1996</link>) and <link rid="b18 b41">McGinnis (1998, 2002</link>) in taking the structure in (47) to be the base structure for ditransitives cross-linguistically:</p>
+<p>(47)&ensp;&lsqb;<sub>VP-1</sub> Goal-NP &lsqb;V-1 &lsqb;<sub>VP-2</sub> V-2 Theme-NP&rsqb;&rsqb;&rsqb;</p>
+<p>The asymmetry observed in (45) falls out immediately from (47): the Goal NP is closer than the Theme-NP for movement. Symmetry of the type found in (46) arises from the possibility of &lsquo;leapfrogging&rsquo;: movement of the Theme-NP to an extra specifier position made available by V-1 (48):</p>
+<p>(48)&ensp;&lsqb;<sub>VP-1</sub> Theme-NP &lsqb;<sub>VP-1</sub> Goal-NP &lsqb;V-1 &lsqb;<sub>VP-2</sub> V-2 <i>t</i><sub>Theme-NP</sub>&rsqb;&rsqb;&rsqb;&rsqb;</p>
+<p>Once the Theme-NP has moved to SpecVP-1, it can be targeted by syntactic processes taking it outside VP without superraising. The parametric difference between English and Kinyarwanda thus boils down to the availability of multiple VP-specifiers.</p>
+</subsection>
+<subsection id="ss10" level="1">
+<heading id="h9" level="1">9 Experiencer paradox</heading>
+<p>Another item on the &lsquo;problematic&rsquo; list for the Minimalist program was already a major stumbling block in the GB-era. It concerns cases of raising past an experiencer, as in (29), repeated here as (49):</p>
+<p>(49)&ensp;John seems to Mary &lsqb;<i>t</i> to be the best&rsqb;.</p>
+<p>
+<link rid="b28">Chomsky (1995b</link>) notes the problematic nature of these cases. He also notes, following work by Esther <link rid="b42 b43">Torrego (1996, 1998</link>), that some languages, like Spanish, behave as expected. That is, subject-raising past the experiencer is disallowed. Languages like French and Italian, where raising is allowed in some cases (when the experiencer is a clitic, for instance), contribute to make the area murkier still. Here, we will confine ourselves to the solutions to be found in the Minimalist literature for English, referring to <link rid="b44">Boeckx (1999</link>) and <link rid="b18">McGinnis (1998</link>) for discussion of the parametric issue.</p>
+<p>
+<link rid="b45">Kitahara (1997</link>) addresses the experiencer paradox, instantiated in (50), repeated from (30b) above, and suggests a derivational account, which is similar to one independently proposed by <link rid="b46 b47">Ferguson (1994, 1996</link>):</p>
+<p>(50)&ensp;Mary<sub>j</sub> seemed to him<sub>i</sub> &lsqb;<i>t</i><sub>j</sub> to like John<sub>i</sub>&rsqb;.</p>
+<p>To ensure c-command by <i>him</i> into the embedded clause and thus account for the Condition C effect, and at the same time to allow raising of <i>they</i> out of the embedded clause and past <i>him</i>, Kitahara suggests that <i>him</i> does not c-command into the embedded clause at the point in the derivation when raising applies. Kitahara gives roughly the structure in (51), but his line of reasoning would be applicable on virtually any standardly assumed structure:</p>
+<p>(51)&ensp;<object id="fu7" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_41_fu7.jpg" type="jpg" id="fu7_source"/>
+</objectsource>
+</object>
+</p>
+<p>Assuming any of the usual definitions of c-command, in (51) <i>him</i> does not c-command <i>they</i>, since the PP-node dominates the former but not the latter. Raising is thus licit.</p>
+<p>With respect to the disjoint reference effect, Kitahara assumes, following <link rid="b25">Chomsky (1993</link> and later works) that binding is an interpretive procedure established by inspecting LF. To achieve the relevant configuration, Kitahara suggests that <i>him</i> covertly raises and adjoins to P to check its Case. Following this movement, <i>him</i> c-commands into the embedded clause, which forces the disjoint reference effect. There is one immediate problem for Kitahara&apos;s account. Raising is evidently possible even across simple nominal experiencers. Parallel to (50), we find the following (which, following standard assumptions, we take to be a case of raising, although the evidence is less clear than in (49)):</p>
+<p>(52)&ensp;John strikes Mary &lsqb;as <i>t</i> being the best&rsqb;.</p>
+<p>And here too, there is evidence that the experiencer c-commands into the clausal complement:</p>
+<p>(53)&ensp;*They strike him<sub>i</sub> &lsqb;as <i>t</i> being angry at John<sub>i</sub>&rsqb;.</p>
+<p>Perhaps one could argue that contrary to superficial appearances, <i>him</i> in (53) is contained in a PP, but one headed by a null P. Kitahara&apos;s account could then be maintained.</p>
+<p>There is also a somewhat more abstract problem with Kitahara&apos;s account. Kitahara&apos;s account crucially relies on the a priori reasonable assumption that covert movement of a nominal expression can affect anaphoric possibility. However, <link rid="b48">Lasnik (1995b</link>) argues that such movement does not affect anaphoric (or any other) interpretive relations. First, some background is in order. In a series of writings, beginning with <link rid="b9">Chomsky (1986b</link>), Chomsky argued that the &lsquo;associate&rsquo; of <i>there</i> undergoes some sort of covert raising in such a sentence as (54):</p>
+<p>(54)&ensp;There is a man here.</p>
+<p>This provides the basis for an account of the familiar superficially bizarre agreement paradigms displayed by these constructions, with the verb agreeing with something that is not its formal subject:</p>
+<p>(55)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>There is/*are a man here.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>There are/*is men here.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>But, as is well known, for all anaphoric purposes, the associate behaves as if it is in situ. The following data (based on Den <link rid="b49">Dikken 1995a</link>; see <link rid="b50">Lasnik and Saito 1991</link> for similar examples in Exceptional-Case-Marking (ECM)/subject-to-object-raising-contexts like <i>John believes there to be a man in the room</i>) are representative:</p>
+<p>(56)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry><i>Some applicants</i> seem to <i>each other</i> to be eligible for the job.</entry>
+</row>
+<row><entry>b.</entry>
+<entry><i>No applicant</i> seems to <i>his</i> interviewer to be eligible for the job.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(57)&ensp;<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*There seem to <i>each other</i> to be <i>some applicants</i> eligible for the job.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*There seems to <i>his</i> interviewer to be <i>no applicant</i> eligible for the job.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+<subsection id="ss11" level="1">
+<heading id="h10" level="1">10 Feature movement</heading>
+<p>The movement theory of <link rid="b32">Chomsky (1995c</link>) provides a rather natural resolution of this near contradiction, as discussed by <link rid="b48">Lasnik (1995b</link>). Chomsky argues that when movement is for feature-checking purposes (perhaps always the case), a priori only formal features ought to move. For overt movement, Chomsky suggests that this will cause morpho-phonological problems. Hence, overt movement will typically demand the &lsquo;pied-piping&rsquo; of an entire word or phrase. Covert movement, on the other hand, does not feed into the phonological component, so the more economical movement of mere formal features is possible, hence necessary. Under the reasonable assumption<link rid="fn7">
+<sup>7</sup></link> that mere displacement of formal features (leaving behind the semantic properties of the item) is not enough to affect semantic relations, the contrast between (56) and (57) is explained. In the former examples, an entire expression, referential properties and all, has moved; in the latter, only formal features have moved, so the anaphor in (57a) and the bound variable pronoun in (57b) are unlicensed.</p>
+<p>Returning now to Kitahara&apos;s account, we see that his covert/feature movement must affect binding relations: that is crucial to capture the Condition C effect. But there is no immediately obvious way to distinguish Kitahara&apos;s raising from that in the existential sentences. Perhaps the essence of Kitahara&apos;s account could be captured with not the nominal expression undergoing covert movement, but rather the preposition. If a preposition P were to be analyzed as just a bundle of formal features (rather plausible for <i>to</i>), covert &lsquo;incorporation&rsquo; of P into the verb arguably could affect the c-command relations between the complement of that P and items outside the PP.</p>
+<p>Feature communication triggered another proposal in the realm of A-movement. <link rid="b51">Manzini and Roussou (2000</link>) suggest that A-movement does not exist. Rather, A-elements are base generated in their surface positions, and attract theta-roles (conceived of as features, as suggested by <link rid="b52">Lasnik 1995c</link>). For superraising, Manzini and Roussou&apos;s proposal faces the same problem as the more conventional view of A-movement. To exclude superraising, Manzini and Roussou adopt the following principle, dubbed Scopal MLC (Minimal Link Condition):</p>
+<p>(58)&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Scopal MLC:</b>
+</entry>
+</row>
+<row><entry>A target attracts everything down to the next attractor.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As <link rid="b53">Boeckx (2000</link>) shows, this is still inadequate in dealing with the raising-past-experiencer cases just discussed.</p>
+<p>Note that conceiving of theta-roles as movement features brings control into the realm of raising, and suggests the possibility that <link rid="b54">Rosenbaum&apos;s (1967</link>) Minimal Distance Principle, stated in more modern terms in (59), should be looked upon as a special case of Relativized Minimality, or one of its minimalist instantiations, as <link rid="b55">Hornstein (1999</link>) argues:</p>
+<p>(59)&ensp;<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Minimal Distance Principle:</b>
+</entry>
+</row>
+<row><entry>The subject of an infinitival complement of a predicate P selects as its controller the minimal c-commanding noun phrase in the functional complex of P. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>If something like this is correct, the longstanding puzzle of shifting control (<link rid="b56">Farkas 1988</link>, etc.) might fall under the purview of variation with respect to superraising. (For further discussion, see <link rid="b57">Boeckx and Hornstein 2003</link>; <link rid="b58">Hornstein 2003</link>.)</p>
+</subsection>
+<subsection id="ss12" level="1">
+<heading id="h11" level="1">11 Agree</heading>
+<p>In 2000, Chomsky sharpened the Move-F account. Despite its adequacy in dealing with data like (57), feature movement raises a series of non-trivial technical questions. In particular, feature movement takes the form of (head-)adjunction, which violates the Minimalist conception of the Cycle known as the Extension Condition, the requirement that all operations expand the Phrase Marker. <link rid="b33">Chomsky (2000</link>) dispensed with feature movement as such<link rid="fn8">
+<sup>8</sup></link> and proposed the operation Agree to capture the essential effects of feature movement.<link rid="fn9">
+<sup>9</sup></link> Agree amounts to a process of long-distance feature checking (or valuation) with no displacement. The configuration in which it obtains is very reminiscent of the notion of long-distance government under c-command (see especially <link rid="b59">Raposo and Uriagereka 1990</link>). In an Agree analysis, a Probe (attractor) searches inside its c-command domain for a Goal (attractee) with a matching feature. Once the Goal is found, it checks the features of the Probe, triggering agreement. Viewed in this light, covert &lsquo;movement&rsquo; (long-distance agreement) is decomposable into a Matching and a Checking/Valuation procedure.</p>
+<p>Since Agree is taken to underlie Move (see <link rid="b33 b60">Chomsky 2000, 2001</link>
+<link rid="b60">b</link>), we expect it to be subject to the same locality constraints. In particular, we expect no &lsquo;Superagree&rsquo;. The restriction on Japanese object (honorific) agreement discussed in <link rid="b61">Boeckx and Niinuma (2004</link>) offers a relevant case.</p>
+<p>The basic facts are as follows: if the verb is transitive and the object is of the relevant sort (appropriate social rank vis-&agrave;-vis the speaker, say), object agreement (here glossed as OH, short for Object Honorification) obtains (60). If the verb is ditransitive, the verb agrees in honorification with the indirect object (61). Crucially, the direct object is inaccessible for agreement in such cases even if it is of the relevant sort, and the indirect object isn&apos;t (62):</p>
+<p>(60)&ensp;<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>Taro-ga</entry>
+<entry>Tanaka sensei-o</entry>
+<entry>o-tasuke-si-ta.</entry>
+</row>
+<row><entry>Taro-Nom</entry>
+<entry>Prof. Tanaka-Acc</entry>
+<entry>help-OH-past</entry>
+</row>
+<row><entry namest="col1" nameend="col3">&lsquo;Taro helped Prof. Tanaka.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(61)&ensp;<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>Hanako-ga</entry>
+<entry>Tanaka Sensei-ni</entry>
+<entry>Mary-o</entry>
+<entry>go-syookai-si-ta.</entry>
+</row>
+<row><entry>Hanako-Nom</entry>
+<entry>Prof. Tanaka-Dat</entry>
+<entry>Mary-Acc</entry>
+<entry>introduce-OH-past</entry>
+</row>
+<row><entry namest="col1" nameend="col4">&lsquo;Hanako introduced Mary to Prof. Tanaka.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(62)&ensp;<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>*Hanako-ga</entry>
+<entry>Mary-ni</entry>
+<entry>Tanaka Sensei-o</entry>
+<entry>go-syookai-si-ta.</entry>
+</row>
+<row><entry>Hanako-Nom</entry>
+<entry>Mary-Dat</entry>
+<entry>Prof. Tanaka-Acc</entry>
+<entry>introduce-OH-past</entry>
+</row>
+<row><entry namest="col1" nameend="col4">&lsquo;Hanako introduced Prof. Tanaka to Mary.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Here, the predicate is ditransitive, as in (61), but this time the NP bearing the relevant feature to trigger honorification functions as the direct object. In such a case, object honorification (i.e., agreement between the verb and the direct object) is impossible.</p>
+<p>
+<link rid="b61">Boeckx and Niinuma (2004</link>) argue that the restriction observed in (62) falls under Relativized Minimality. Since switching the surface order of the direct object and of the indirect object via overt A-movement (short-distance scrambling) does not affect agreement marking (63), these authors claim that it must be the case that object agreement takes place prior to word-order permutation:</p>
+<p>(63)&ensp;<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>*Hanako-ga</entry>
+<entry>Tanaka Sensei-o</entry>
+<entry>Mary-ni</entry>
+<entry>go-syookai-si-ta.</entry>
+</row>
+<row><entry>Hanako-Nom</entry>
+<entry>Prof. Tanaka-Acc</entry>
+<entry>Mary-Dat</entry>
+<entry>introduce-OH-past</entry>
+</row>
+<row><entry namest="col1" nameend="col4">&lsquo;Hanako introduced Prof. Tanaka to Mary.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>They take this to mean that agreement takes place under Chomsky&apos;s derivational version of Agree, which applies as soon as the Probe (say, <i>v</i>) is introduced into the derivation. The intervention effect in (62) follows if the dative element c-commands the accusative element, as in (47).</p>
+<p>Examples like (64) (<link rid="b33">Chomsky 2000</link>: 149, n. 93(ii), attributing the example to Erich Groat) suggest that Agree may take place more than once. Specifically, it may target more than one INFL, just like in &lsquo;hyperraising&rsquo; cases (in (64) <i>two men</i> agrees with both embedded and matrix INFLs):</p>
+<p>(64)&ensp;<sup>?</sup>There look as though there are two men in the room.</p>
+<p>Interestingly, as <link rid="b62">Fujii (2003</link>) observes, there exists a &lsquo;hyperraising&rsquo; analogue to the &lsquo;hyperagree&rsquo; case in (64). Consider (65):</p>
+<p>(65)&ensp;Two men look as though they are in the garden.</p>
+<p>We do not know at this point why English forces the presence of a resumptive pronoun (<i>they</i>) in the embedded clause in hyperraising cases, but we find the parallel between Agree and Move intriguing. (66) shows that Move followed by Agree is disallowed:</p>
+<p>(66)&ensp;*There look as though two men are in the room.</p>
+<p>The unacceptability of (66) suggests that overt movement of X to Y (Move) followed by Agree between X and a higher head Z (Agree) is disallowed. More precisely, since Agree underlies Move, the sequence of operations in (67) is disallowed:</p>
+<p>(67)&ensp;Agree (X, Y) &plus; Move (X, Y) &plus; Agree (X, Z)</p>
+<p>(67) is reminiscent of instances of &lsquo;Improper Movement&rsquo; (an option considered in the context of superraising by <link rid="b28">Chomsky 1995b</link>: 326):<link rid="fn10">
+<sup>10</sup></link>
+</p>
+<p>(68)&ensp;A-movement &plus; A-bar movement &plus; A-movement</p>
+<p>If the existence of &lsquo;Improper Agree&rsquo; (67) can be confirmed, the parallelism between Move and Agree would be strengthened.</p>
+</subsection>
+<subsection id="ss13" level="1">
+<heading id="h12" level="1">12 Conclusion</heading>
+<p>Needless to say, many mysteries remain. Perhaps the most significant of them, as noted above, is how to permit raising across an experiencer at all, but then how to block it where it is not allowed. Another, as noted by Manzini in a reprise of an observation by Lasnik and Saito discussed above, is why a violation of closest Attract in the case of A-movement leads to more severe degradation than a mere Subjacency violation, in particular, a <i>wh</i>-island violation, which has been analyzed in precisely the same terms. It seems that we have not yet found the true generalizations in this realm.</p>
+</subsection>
+<subsection id="ss14" level="1">
+<heading id="h13" level="1">NOTES</heading>
+<p>
+<span id="fn1">
+<number>1&emsp;</number>Keeping definitions maximally simple, A-movement refers to movement to subject/object positions, i.e., basically anything targeting non-operator(-like) positions.</span>
+</p>
+<p>
+<span id="fn2">
+<number>2&emsp;</number>S&prime; becomes CP in the extended X&prime;-theory of <link rid="b12">Chomsky (1986a</link>), and movement to Comp becomes movement to Spec of CP. Likewise, clause (S) becomes InflP (IP), and its subject position Spec of IP.</span>
+</p>
+<p>
+<span id="fn3">
+<number>3&emsp;</number>This is the requirement that every clause have a subject, suggested by <link rid="b5">Chomsky (1981</link>) and further developed by <link rid="b63">Chomsky (1982</link>).</span>
+</p>
+<p>
+<span id="fn4">
+<number>4&emsp;</number>This is, in effect, the Minimalist version of the chain condition of <link rid="b9">Chomsky (1986b</link>).</span>
+</p>
+<p>
+<span id="fn5">
+<number>5&emsp;</number>Chomsky quite generally assumes that Case can be &lsquo;checked&rsquo; in the covert component.</span>
+</p>
+<p>
+<span id="fn6">
+<number>6&emsp;</number>Overt Object Shift in Scandinavian languages correlates with overt verb raising to T (not just V-raising to AGRo). This can be captured under Chomsky&apos;s account by forcing V-movement to T to allow for movement of the VP-internal subject NP to SpecTP across SpecAGRoP (see <link rid="b64">Bobaljik and Jonas 1996</link> for detailed discussion).</span>
+</p>
+<p>
+<span id="fn7">
+<number>7&emsp;</number>Developed in detail in <link rid="b48">Lasnik (1995b</link>).</span>
+</p>
+<p>
+<span id="fn8">
+<number>8&emsp;</number>Accordingly, Chomsky also dispenses with head-movement in narrow syntax. For an argument in favor of Chomsky&apos;s position, see <link rid="b65">Boeckx and Stjepanovi&#x0107; (2001</link>).</span>
+</p>
+<p>
+<span id="fn9">
+<number>9&emsp;</number>See <link rid="b66">Lasnik (2002</link>) for arguments in favor of feature movement over Agree.</span>
+</p>
+<p>
+<span id="fn10">
+<number>10&emsp;</number>Chomsky was worried about excluding a derivation in which an element X A-bar-raises across an A-element Y before landing into an A-position Z, as depicted in (i):</span>
+</p>
+<p>(i)&ensp;John seems &lsqb;<i>t</i>&prime; &lsqb;it was told <i>t</i> &lsqb;that it was raining&rsqb;&rsqb;&rsqb;.</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss15" level="1" type="references">
+<heading id="h14" level="1">REFERENCES</heading>
+<reference id="b39" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Anagnostopoulou</surname><x>, </x><forenames>Elena</forenames>
+</name>
+</namegroup><x> (</x><date date="2003">2003</date><x>). </x><title type="book">The Syntax of Ditransitives: Evidence from Clitics<x>.</x>
+</title><x> </x><address>Berlin/New York</address><x>: </x><publisher>Mouton de Gruyter</publisher><x>.</x>
+</reference>
+<reference id="b16" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Aoun</surname><x>, </x><forenames>Joseph</forenames>
+</name><x>, </x><name type="author">
+<forenames>Norbert</forenames><x> </x><surname>Hornstein</surname>
+</name><x>, </x><name type="author">
+<forenames>David</forenames><x> </x><surname>Lightfoot</surname>
+</name><x>, and </x><name type="author">
+<forenames>Amy</forenames><x> </x><surname>Weinberg</surname>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Two Types of Locality</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>18</volume><x>: </x><page type="first">537</page><x>&ndash;</x><page type="last">577</page><x>.</x>
+</reference>
+<reference id="b40" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Baker</surname><x>, </x><forenames>Mark</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988a</date><x>). </x><title type="book">Incorporation: A Theory of Grammatical Function Changing</title><x>. </x><address>Chicago</address><x>: </x><publisher>University of Chicago Press</publisher><x>.</x>
+</reference>
+<reference id="b64" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bobaljik</surname><x>, </x><forenames>Jonathan</forenames>
+</name><x> and </x><name type="author">
+<forenames>Diane</forenames><x> </x><surname>Jonas</surname>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="document">Subject Positions and the Role of TP</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>37</volume><x>: </x><page type="first">195</page><x>&ndash;</x><page type="last">236</page><x>.</x>
+</reference>
+<reference id="b44" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Boeckx</surname><x>, </x><forenames>Cedric</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">Conflicting C-Command Requirements</title><x>. </x><title type="journal">Studia Linguistica</title><x> </x><volume>53</volume><x>: </x><page type="first">227</page><x>&ndash;</x><page type="last">250</page><x>.</x>
+</reference>
+<reference id="b53" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Boeckx</surname><x>, </x><forenames>Cedric</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">A Note on Contraction</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>31</volume><x>: </x><page type="first">357</page><x>&ndash;</x><page type="last">366</page><x>.</x>
+</reference>
+<reference id="b57" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Boeckx</surname><x>, </x><forenames>Cedric</forenames>
+</name><x> and </x><name type="author">
+<forenames>Norbert</forenames><x> </x><surname>Hornstein</surname>
+</name>
+</namegroup><x> (</x><date date="2003">2003</date><x>). </x><title type="document">A Reply to &ldquo;Control is not Movement.&rdquo;</title><x> </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>34</volume><x>: </x><page type="first">269</page><x>&ndash;</x><page type="last">280</page><x>.</x>
+</reference>
+<reference id="b61" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Boeckx</surname><x>, </x><forenames>Cedric</forenames>
+</name><x> and </x><name type="author">
+<forenames>Fumikazu</forenames><x> </x><surname>Niinuma</surname>
+</name>
+</namegroup><x> (</x><date date="2004">2004</date><x>). </x><title type="document">Conditions on Agreement in Japanese</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>22</volume><x>: </x><page type="first">453</page><x>&ndash;</x><page type="last">480</page><x>.</x>
+</reference>
+<reference id="b65" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Boeckx</surname><x>, </x><forenames>Cedric</forenames>
+</name><x> and </x><name type="author">
+<forenames>Sandra</forenames><x> </x><surname>Stjepanovi&#x0107;</surname>
+</name>
+</namegroup><x>; (</x><date date="2001">2001</date><x>). </x><title type="document">Head-ing Toward PF</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>32</volume><x>: </x><page type="first">345</page><x>&ndash;</x><page type="last">355</page><x>.</x>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1973">1973</date><x>). </x><title type="document">Conditions on Transformations</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">A Festschrift for Morris Halle</title>
+<x>. </x><miscellaneoustext>Stephen Anderson and Paul Kiparsky (eds.)</miscellaneoustext><x>, </x>
+<page type="first">232</page><x>&ndash;</x><page type="last">286</page><x>. </x><address>New York</address><x>: </x><publisher>Holt, Rinehart, and Winston</publisher><x>.</x>
+</reference>
+<reference id="b3" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="document">Conditions on Rules of Grammar</title><x>. </x><title type="journal">Linguistic Analysis</title><x> </x><volume>2</volume><x>: </x><page type="first">303</page><x>&ndash;</x><page type="last">351</page><x>.</x>
+</reference>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="book">Lectures on Government and Binding<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b63" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="book">Some Concepts and Consequences of the Theory of Government and Binding<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b12" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986a</date><x>). </x><title type="book">Barriers<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b9" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986b</date><x>). </x><title type="book">Knowledge of Language: Its Nature, Origin and Use</title><x>. </x><address>New York</address><x>: </x><publisher>Praeger</publisher><x>.</x>
+</reference>
+<reference id="b25" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">A Minimalist Program for Linguistic Theory</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The View from Building 20: Essays in Linguistics in Honor of Sylvain Bromberger</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ken</forenames><x> </x><surname>Hale</surname>
+</name><x> and </x><name type="editor">
+<forenames>Samuel<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Keyser</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">1</page><x>&ndash;</x><page type="last">52</page><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b28" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name><x> (</x>
+</namegroup>
+<date date="1995">1995b</date><x>). </x><title type="document">Categories and Transformations</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Minimalist Program</title><x>. </x><name type="author">
+<forenames>Noam</forenames><x> </x><surname>Chomsky</surname>
+</name><x>, </x><page type="first">219</page><x>&ndash;</x><page type="last">394</page><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b32" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995c</date><x>). </x><title type="book">The Minimalist Program<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b33" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><address>Minimalist Inquiries</address><x>: </x><publisher>The Framework</publisher>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Step by Step: Essays on Minimalist Syntax in Honor of Howard Lasnik</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Roger</forenames><x> </x><surname>Martin</surname>
+</name><x>, </x><name type="editor">
+<forenames>David</forenames><x> </x><surname>Michaels</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Juan</forenames><x> </x><surname>Uriagereka</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">89</page><x>&ndash;</x><page type="last">155</page><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b60" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001b</date><x>). </x><title type="document">Derivation by Phase</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Ken Hale: A Life in Language</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Michael</forenames><x> </x><surname>Kenstowicz</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">1</page><x>&ndash;</x><page type="last">52</page><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b49" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Dikken</surname><x>, </x><forenames>Marcel<x> </x>den</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995a</date><x>). </x><title type="document">Binding, Expletives, and Levels</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>26</volume><x>: </x><page type="first">347</page><x>&ndash;</x><page type="last">354</page><x>.</x>
+</reference>
+<reference id="b56" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Farkas</surname><x>, </x><forenames>Donka</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">On Obligatory Control</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>11</volume><x>: </x><page type="first">27</page><x>&ndash;</x><page type="last">58</page><x>.</x>
+</reference>
+<reference id="b46" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ferguson</surname><x>, </x><forenames>K<x>. </x>Scott</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">Deriving the Invisibility of PP-Nodes for Command from AGR-P&plus;P Case Checking</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Harvard Working Papers in Linguistics 4</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Samuel</forenames><x> </x><surname>Epstein</surname>
+</name><x>, </x><name type="editor">
+<forenames>H&ouml;skuldur</forenames><x> </x><surname>Thr&aacute;insson</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Susumu</forenames><x> </x><surname>Kuno</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">30</page><x>&ndash;</x><page type="last">36</page><x>. </x><address>Cambridge</address><x>: </x><publisher>Harvard University</publisher><x>.</x>
+</reference>
+<reference id="b47" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Ferguson</surname><x>, </x><forenames>K<x>. </x>Scott</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date>
+<miscellaneoustext>). A Feature-Relativized Shortest Move Requirement. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Harvard University</address><x>.</x>
+</reference>
+<reference id="b62" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Fujii</surname><x>, </x><forenames>Tomohiro</forenames>
+</name>
+</namegroup><x> (</x><date date="2003">2003</date><x>). </x><title type="document">Licit and Illicit Long Subject-to-Subject Raising</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Fourth Tokyo Conference on Psycholinguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Yukio</forenames><x> </x><surname>Otsu</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">109</page><x>&ndash;</x><page type="last">133</page><x>. </x><address>Tokyo</address><x>: </x><publisher>Hituzi Syobo</publisher><x>.</x>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Grinder</surname><x>, </x><forenames>John<x> </x>T<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1970">1970</date><x>). </x><title type="document">Super-Equi NP-Deletion</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Sixth Regional Meeting of the Chicago Linguistic Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>M.</forenames><x> </x><surname>Campbell et al.</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society</publisher><x>.</x>
+</reference>
+<reference id="b37" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Grosu</surname><x>, </x><forenames>Alexander</forenames>
+</name><x> and </x><name type="author">
+<forenames>Julia</forenames><x> </x><surname>Horvath</surname>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">The GB Theory and Raising in Romanian</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>15</volume><x>: </x><page type="first">348</page><x>&ndash;</x><page type="last">353</page><x>.</x>
+</reference>
+<reference id="b34" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Holmberg</surname><x>, </x><forenames>Anders</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date>
+<miscellaneoustext>). Word Order and Syntactic Features in the Scandinavian Languages and English. PhD dissertation</miscellaneoustext><x>, </x>
+<address>University of Stockholm</address><x>.</x>
+</reference>
+<reference id="b55" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hornstein</surname><x>, </x><forenames>Norbert</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">Movement and Control</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>30</volume><x>: </x><page type="first">69</page><x>&ndash;</x><page type="last">96</page><x>.</x>
+</reference>
+<reference id="b58" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hornstein</surname><x>, </x><forenames>Norbert</forenames>
+</name>
+</namegroup><x> (</x><date date="2003">2003</date><x>). </x><title type="document">On Control</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Minimalist Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Randall<x>.</x>
+</forenames><x> </x><surname>Hendrick</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">6</page><x>&ndash;</x><page type="last">81</page><x>. </x><address>Oxford</address><x>: </x><publisher>Blackwell</publisher><x>.</x>
+</reference>
+<reference id="b13" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Jaeggli</surname><x>, </x><forenames>Osvaldo</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="book">Topics in Romance Syntax<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b45" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kitahara</surname><x>, </x><forenames>Hisatsugu</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="book">Elementary Operations and Optimal Derivations<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b35" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Koizumi</surname><x>, </x><forenames>Masatoshi</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date>
+<miscellaneoustext>). Phrase Structure in Minimalist Syntax. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b14" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Koopman</surname><x>, </x><forenames>Hilda</forenames>
+</name><x> and </x><name type="author">
+<forenames>Dominique</forenames><x> </x><surname>Sportiche</surname>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">Theta Theory and Extraction</title><x>. </x><title type="journal">GLOW Newsletter</title><x> </x><volume>14</volume><x>: </x><page type="first">57</page><x>&ndash;</x><page type="last">58</page><x>.</x>
+</reference>
+<reference id="b4" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Lasnik</surname><x>, </x><forenames>Howard</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="document">Remarks on Coreference</title><x>. </x><title type="journal">Linguistic Analysis</title><x> </x><volume>2</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">22</page><x>.</x>
+</reference>
+<reference id="b7" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Lasnik</surname><x>, </x><forenames>Howard</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">Illicit NP-Movement: Locality Conditions on Chains?</title><x> </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>16</volume><x>: </x><page type="first">481</page><x>&ndash;</x><page type="last">490</page><x>.</x>
+</reference>
+<reference id="b48" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lasnik</surname><x>, </x><forenames>Howard</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995b</date><x>). </x><title type="document">Last Resort</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Minimalism and Linguistic Theory</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Shosuke</forenames><x> </x><surname>Haraguchi</surname>
+</name><x> and </x><name type="editor">
+<forenames>Michio</forenames><x> </x><surname>Funaki</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">1</page><x>&ndash;</x><page type="last">32</page><x>. </x><address>Tokyo</address><x>: </x><publisher>Hituzi Syobo</publisher><x>.</x>
+</reference>
+<reference id="b52" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lasnik</surname><x>, </x><forenames>Howard</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995c</date><x>). </x><title type="document">A Note on Pseudogapping</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers on Minimalist Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Rob</forenames><x> </x><surname>Pensalfini</surname>
+</name><x> and </x><name type="editor">
+<forenames>Hiroyuki</forenames><x> </x><surname>Ura</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">143</page><x>&ndash;</x><page type="last">163</page><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b36" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lasnik</surname><x>, </x><forenames>Howard</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999a</date><x>). </x><title type="book">Minimalist Analysis</title><x>. </x><address>Oxford</address><x>: </x><publisher>Blackwell</publisher><x>.</x>
+</reference>
+<reference id="b66" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lasnik</surname><x>, </x><forenames>Howard</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="document">Feature Movement or Agreement at a Distance</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Dimensions of Movement</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Artemis</forenames><x> </x><surname>Alexiadou</surname>
+</name><x>, </x><name type="editor">
+<forenames>Elena</forenames><x> </x><surname>Anagnostopoulou</surname>
+</name><x>, </x><name type="editor">
+<forenames>Sjef</forenames><x> </x><surname>Barbiers</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Hans-Martin</forenames><x> </x><surname>G&auml;rtner</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">189</page><x>&ndash;</x><page type="last">208</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b10" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Lasnik</surname><x>, </x><forenames>Howard</forenames>
+</name><x> and </x><name type="author">
+<forenames>Mamoru</forenames><x> </x><surname>Saito</surname>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">On the Nature of Proper Government</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>15</volume><x>: </x><page type="first">235</page><x>&ndash;</x><page type="last">289</page><x>.</x>
+</reference>
+<reference id="b50" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lasnik</surname><x>, </x><forenames>Howard</forenames>
+</name><x> and </x><name type="author">
+<forenames>Mamoru</forenames><x> </x><surname>Saito</surname>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">On the Subject of Infinitives</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Twenty-seventh Regional Meeting of the Chicago Linguistic Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Lise</forenames><x> </x><surname>Dobrin</surname>
+</name><x>, </x><name type="editor">
+<forenames>Lynn</forenames><x> </x><surname>Nichols</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Rosa</forenames><x> </x><surname>Rodriguez</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">324</page><x>&ndash;</x><page type="last">343</page><x>. </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society</publisher><x>.</x>
+</reference>
+<reference id="b11" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lasnik</surname><x>, </x><forenames>Howard</forenames>
+</name><x> and </x><name type="author">
+<forenames>Mamoru</forenames><x> </x><surname>Saito</surname>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="book">Move &alpha;: Conditions on its Application and Output</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b29" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Lee</surname><x>, </x><forenames>Rhang-Hye-Yun</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date>
+<miscellaneoustext>). Economy of Representation. PhD dissertation</miscellaneoustext><x>, </x>
+<address>University of Connecticut</address><x>.</x>
+</reference>
+<reference id="b51" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Manzini</surname><x>, </x><forenames>Maria<x> </x>Rita</forenames>
+</name><x> and </x><name type="author">
+<forenames>Anna</forenames><x> </x><surname>Roussou</surname>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">A Minimalist Theory of A-Movement and Control</title><x>. </x><title type="journal">Lingua</title><x> </x><volume>110</volume><x>: </x><page type="first">409</page><x>&ndash;</x><page type="last">447</page><x>.</x>
+</reference>
+<reference id="b19" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Massey</surname><x>, </x><forenames>Victoria<x> </x>Walker</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Experiencers, Themes and C-Command in Albanian</title><x>. </x><title type="journal">MIT Working Papers in Linguistics</title><x> </x><volume>12</volume><x>: </x><page type="first">128</page><x>&ndash;</x><page type="last">143</page><x>.</x>
+</reference>
+<reference id="b20" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Massey</surname><x>, </x><forenames>Victoria<x> </x>Walker</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date>
+<miscellaneoustext>). Compositionality and Constituency in Albanian. PhD dissertation</miscellaneoustext><x>, </x>
+<address>University of North Carolina</address><x>.</x>
+</reference>
+<reference id="b18" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>McGinnis</surname><x>, </x><forenames>Martha</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date>
+<miscellaneoustext>). Locality in A-Movement. PhD dissertation</miscellaneoustext><x>, </x>
+<address>MIT</address><x>.</x>
+</reference>
+<reference id="b41" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>McGinnis</surname><x>, </x><forenames>Martha</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date>
+<miscellaneoustext>). The Syntax of Applicatives. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>University of Calgary</address><x>.</x>
+</reference>
+<reference id="b21" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Miyagawa</surname><x>, </x><forenames>Shigeru</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Against Optional Scrambling</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>28</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">25</page><x>.</x>
+</reference>
+<reference id="b30" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Oka</surname><x>, </x><forenames>Toshifusa</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date>
+<miscellaneoustext>). Minimalism in Syntactic Derivation. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b59" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Raposo</surname><x>, </x><forenames>Eduardo</forenames>
+</name><x> and </x><name type="author">
+<forenames>Juan</forenames><x> </x><surname>Uriagereka</surname>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Long-Distance Case Assignment</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>21</volume><x>: </x><page type="first">505</page><x>&ndash;</x><page type="last">537</page><x>.</x>
+</reference>
+<reference id="b31" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Raposo</surname><x>, </x><forenames>Eduardo</forenames>
+</name><x> and </x><name type="author">
+<forenames>Juan</forenames><x> </x><surname>Uriagereka</surname>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="document">Indefinite <i>Se</i>
+</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>14</volume><x>: </x><page type="first">749</page><x>&ndash;</x><page type="last">810</page><x>.</x>
+</reference>
+<reference id="b8" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rizzi</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986b</date><x>). </x><title type="document">On Chain Formation</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Syntax of Pronominal Clitics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Hagit</forenames><x> </x><surname>Borer</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">65</page><x>&ndash;</x><page type="last">95</page><x>. </x><address>New York</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rizzi</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990b</date><x>). </x><title type="book">Relativized Minimality<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b54" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rosenbaum</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="1967">1967</date><x>). </x><title type="book">The Grammar of English Predicate Complement Constructions<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ross</surname><x>, </x><forenames>John<x> </x>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="book">Infinite Syntax!</title><x> </x><address>Norwood, NJ</address><x>: </x><publisher>Ablex</publisher><x>.</x>
+</reference>
+<reference id="b24" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Snyder</surname><x>, </x><forenames>William</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date>
+<miscellaneoustext>). Chain-Formation and Cross-Over. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>MIT</address><x>.</x>
+</reference>
+<reference id="b15" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Stowell</surname><x>, </x><forenames>Tim</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Null Antecedents and Proper Government</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society</title>
+<miscellaneoustext> 16</miscellaneoustext><x>. </x>
+<namegroup type="editors">
+<name type="editor">
+<forenames>Stephen</forenames><x> </x><surname>Berman</surname>
+</name><x>, </x><name type="editor">
+<forenames>Jae-Woong</forenames><x> </x><surname>Choe</surname>
+</name><x> and </x><name type="editor">
+<forenames>Joyce</forenames><x> </x><surname>McDonough</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">476</page><x>&ndash;</x><page type="last">493</page><x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association</publisher><x>.</x>
+</reference>
+<reference id="b42" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Torrego</surname><x>, </x><forenames>Esther</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="document">Experiencers and Raising Verbs</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Current Issues in Comparative Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Robert</forenames><x> </x><surname>Freidin</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">101</page><x>&ndash;</x><page type="last">120</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b43" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Torrego</surname><x>, </x><forenames>Esther</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="book">The Dependencies of Objects<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b26" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ura</surname><x>, </x><forenames>Hiroyuki</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">Varieties of Raising and the Feature-Based Bare Phrase Structure Theory</title><x>. </x><title type="book">MIT Occasional Papers in Linguistics</title><x> 7. </x><address>Cambridge</address><x>: </x><publisher>MIT</publisher><x>.</x>
+</reference>
+<reference id="b27" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Ura</surname><x>, </x><forenames>Hiroyuki</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date>
+<miscellaneoustext>). Multiple Feature-Checking: A Theory of Grammatical Function Splitting. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b22" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Yatsushiro</surname><x>, </x><forenames>Kazuko</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Structure within VP in Japanese</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Eighth Annual Japanese/Korean Linguistics Conference</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>David</forenames><x> </x><surname>Silva</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x> </x><page type="first">501</page><x>&ndash;</x><page type="last">514</page><x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications</publisher><x>.</x>
+</reference>
+<reference id="b23" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Yatsushiro</surname><x>, </x><forenames>Kazuko</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date>
+<miscellaneoustext>). Case-Licensing and VP-Structure. PhD dissertation</miscellaneoustext><x>, </x>
+<address>University of Connecticut</address><x>.</x>
+</reference>
+<reference id="b38" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Zwart</surname><x>, </x><forenames>C<x>. </x>Jan-Wouter</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997b</date><x>). </x><title type="document">Transitive Expletive Constructions and the Evidence Supporting the Multiple Specifier Hypothesis</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">German: Syntactic Problems &ndash; Problematic Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Werner</forenames><x> </x><surname>Abraham</surname>
+</name><x> and </x><name type="editor">
+<forenames>Elly<x> </x>van</forenames><x> </x><surname>Gelderen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">105</page><x>&ndash;</x><page type="last">134</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

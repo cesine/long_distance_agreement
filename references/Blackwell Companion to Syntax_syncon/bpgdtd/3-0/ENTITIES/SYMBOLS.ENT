@@ -1,0 +1,48 @@
+<!--
+     Unicode entities should be added as follows
+     ENTITY U+code SDATA "[U+code]"  text description 
+     
+     Unicode charts available online at 
+     http://charts.unicode.org/Unicode.charts/normal/Unicode.html
+
+     If you add your own symbols to this entity list, you should supply
+     a list of these with the characters they represent to your technical contact at
+     Blackwell Science or Munksgaard. 
+-->
+<!--                               UNICODE                             -->
+
+<!ENTITY U2261 SDATA "[U2261]" --/IDENTICAL TO-->
+<!ENTITY U25A4 SDATA "[U25A4]" --/SQUARE WITH HORIZONTAL FILL-->
+<!ENTITY U25A5 SDATA "[U25A5]" --/SQUARE WITH VERTICAL FILL-->
+<!ENTITY U25A6 SDATA "[U25A6]" --/SQUARE WITH ORTHOGONAL CROSSHATCH FILL-->
+<!ENTITY U25A7 SDATA "[U25A7]" --/SQUARE WITH UPPER LEFT TO LOWER RIGHT FILL-->
+<!ENTITY U25A8 SDATA "[U25A8]" --/SQUARE WITH UPPER RIGHT TO LOWER LEFT FILL-->
+<!ENTITY U25A9 SDATA "[U25A9]" --/SQUARE WITH DIAGONAL CROSSHATCH FILL-->
+<!ENTITY U25D0 SDATA "[U25D0]" --/CIRCLE WITH LEFT HALF BLACK-->
+<!ENTITY U25D1 SDATA "[U25D1]" --/CIRCLE WITH RIGHT HALF BLACK-->
+<!ENTITY U25D2 SDATA "[U25D2]" --/CIRCLE WITH LOWER HALF BLACK-->
+<!ENTITY U25D3 SDATA "[U25D3]" --/ CIRCLE WITH UPPER HALF BLACK-->
+<!ENTITY U25D4 SDATA "[U25D4]" --/ CIRCLE WITH UPPER RIGHT QUADRANT BLACK-->
+<!ENTITY U25D5 SDATA "[U25D5]" --/CIRCLE WITH ALL BUT UPPER LEFT QUADRANT BLACK-->
+<!ENTITY U25D6 SDATA "[U25D6]" --/LEFT HALF BLACK CIRCLE-->
+<!ENTITY U25D7 SDATA "[U25D7]" --/RIGHT HALF BLACK CIRCLE-->
+
+<!--                               BSL                             -->
+
+<!ENTITY bsl00002 SDATA "[bsl00002]" --/shading pattern 2-->
+<!ENTITY bsl00003 SDATA "[bsl00003]" --/shading pattern 3-->
+<!ENTITY bsl00004 SDATA "[bsl00004]" --/shading pattern 4-->
+<!ENTITY bsl00005 SDATA "[bsl00005]" --/shading pattern 5-->
+<!ENTITY bsl00006 SDATA "[bsl00006]" --/shading pattern 6-->
+<!ENTITY bsl00007 SDATA "[bsl00007]" --/shading pattern 7-->
+<!ENTITY bsl00008 SDATA "[bsl00008]" --/shading pattern 8-->
+<!ENTITY bsl00009 SDATA "[bsl00009]" --/shading pattern 9-->
+<!ENTITY bsl00010 SDATA "[bsl00010]" --/shading pattern 10-->
+<!ENTITY bsl00011 SDATA "[bsl00011]" --/shading pattern 11-->
+<!ENTITY bsl00012 SDATA "[bsl00012]" --/shading pattern 12-->
+<!ENTITY bsl00013 SDATA "[bsl00013]" --/shading pattern 13-->
+<!ENTITY bsl00018 SDATA "[bsl00018]" --/shading pattern 18-->
+<!ENTITY bsl00019 SDATA "[bsl00019]" --/shading pattern 19-->
+<!ENTITY bsl00027 SDATA "[bsl00027]" --/cross in box-->
+<!ENTITY bsl00028 SDATA "[bsl00028]" --/4x4 dots-->
+

@@ -1,0 +1,95 @@
+Di Sciullo, A-1997-Projections and Interface Conditions Essays on Modularity (Language & Linguistics Grammar 415).txt
+Di Sciullo, Anna-Maria (ed.), 1997:
+Projections and Interface Conditions: Essays on Modularity (Language & Linguistics: Grammar 415)
+Oxford & New York: Oxford University Press. Pp. xii + 257.
+ISBN: 0-19-510414-5. Price: UK£52.00 or US$65.00 (hardback)
+reviewed by
+
+Kleanthes Grohmann
+University of Maryland, College Park
+E-mail: kleanthes@punksinscience.org Copyright Notice:
+
+First published in Web Journal of Modern Language Linguistics, © 1998 Kleanthes Grohmann.
+The moral rights of the author(s) to be identified as author(s) of this work are asserted in accordance with §§.77 and 78 of the Copyright, Designs and Patents Act 1988. This work may be reproduced without the consent of the author, in part or in whole in any manner and in any medium subject only to the two following conditions:
+(a) no charge shall be made for the copy containing the work or the excerpt,
+(b) a copy of this notice shall precede the work or the excerpt.
+
+Overview
+Projections and Interface Conditions: Essays on Modularity (henceforth Projections), edited by Anna-Maria Di Sciullo, contains a fair collection of some excellent research on the modular system of the grammar within the generative framework; the papers treat not only possible modules themselves, but also the relevant projections and conditions at the interfaces. The latter Di Sciullo takes literally from Chomsky's (1995) exposition: there are only two external interface levels in natural language, LF and PF, which interact with the performance system, the Conceptual-Intentional system (C-I) and the Acoustic-Perceptual system (A-P). Investigation of these is the topic of research presented in Projections with many concentrating on LF/C-I. (Note that all papers refer to the "older" versions of minimalism, in particular Chomsky 1992, 1993 and 1994. As Chomsky 1995 contains most if not all of the material relevant here, I will dispense with further dichotomies for the remainder of this book review, unless necessary, and refer to the Minimalist Program as Chomsky 1995 or simply MP throughout.)
+
+As far as I can tell, the papers collected in Projections result from the Modularity project and/or from the Interface project conducted by and/or at the Université du Québec à Montréal, with the exception of the second and ninth contributions. These, however, are also linked to the projects and particular researchers involved. (I am not 100% sure which papers are the result from which project and which papers come from the "outside." Apart from bookkeeping purposes, this does not play a role though.) In any case, the nine papers in Projections follow a common theme: the modular structure of the grammar and interface conditions imposed on it.
+
+In an informative "Preface" (pp. v-x), Anna-Maria Di Sciullo presents the main issues and casts them against the general background. The relevance of the issues (as briefly outlined above) to the theory of grammar has its history in the conception of the GB-framework (Chomsky 1981) where "modularity of the grammar resides in the coexistence of autonomous components (phonological, syntactic, morphological, semantic) as well as in the interaction of given sets of principles (Theta Theory, Case Theory, Binding Theory, and so on) at given levels of representation (D-Structure, S-Structure, Logical Form, and so on)" (p. v). In the minimalist framework, the grammar is viewed to consist of two levels of representation which only interact with the performance system (C-I and A-P); the GB-principles do not exist in this form anymore: instead, Economy conditions and the Copy Theory of movement (Copy, Merge, Delete) ensure to capture the rich empirical base of GB in a (theoretically) uniform way.
+
+Review
+Let me provide the reader with a synopsis of the papers collected in Projections, partly adapted from Di Sciullo's preface, and address some issues in detail where appropriate. (With "where appropriate" I indicate that I am not an expert on most of the issues raised in this book. Rather than dabbling with unqualified remarks, I would like to point out here that most might be viewed as unqualified and as such I will restrict my critical comments to points that I can defend comfortably. As a result, I will not give all papers equal attention which does not reflect differences in quality among the papers. For a one-sentence synopsis of each paper, see also Vanden Wyngaerd 1998.) According to this preface (pp. vi-viii), the first two chapters address the question "What are the components of the Grammar?", the last four "How does variation follow from the theory of grammar?", and chapter five "What are the autonomous modules?" The remaining question (taken from p. vi) "What modules can be derived from the properties of the configuration?" is dealt with in the remaining two papers (chapters three and four). The following is a brief summary of each paper in order of appearance; in this sense, each paper also corresponds to the chapters just mentioned.
+
+Anna-Maria Di Sciullo's first paper, "On Word-structure and Conditions" (3-27), proposes a theory of word-formation and its impact on the interface with C-I. Comparing two approaches to the derivation of words, lexicalist versus transformationalist, Di Sciullo suggests utilizing the best of both, while dispensing with the unwanted disadvantages under a modular approach; in particular, a morphological component in the grammar derives word-structures (X0 expressions) which are restricted to head-adjunction. The principle of Full Interpretation (FI) is operative on word-structure and correctly identifies X0 heads and X0 adjuncts at the interface with C-I; when FI applies at LF, it can only identify legitimate XP chains, or in other words, X-bar objects. Such an approach within the Modular Hypothesis (Di Sciullo 1990) can easily differentiate the distinct properties of X-bar structure and head-adjunction structure in the grammar.
+
+"On Some Syntactic Properties of Word-structure and Modular Grammars" (28-51) by Paul Law argues against an X-bar theoretic approach to deverbal nominals (as has often been pursued ever since Selkirk 1982). While the categorial properties of phrase-level syntax hold on word-structures with derivational morphology, other properties of phrase-level syntax do not. As Law shows, neither Theta Theory -- argued by Burzio (1981) and Roeper (1987) to play a crucial role in cases of nominalization -- nor Control Theory (brought into the relevant context in Roeper 1985) are observed in word-level syntax, but certainly apply strictly to phrase-level syntax. To have both word-structures and phrase-structures available can be accommodated in MP in a straightforward manner as there is only one computational system in the grammar that generates syntactic structures.
+
+Anna-Maria Di Sciullo treats "Prefixed-verbs and Adjunct Identification" (52-73) in her second contribution to Projections. Set in the framework of her first papers (head-adjunction at the interface between word-structure and C-I, see above; this interface is dubbed Morphological Form (MF) to distinguish it from LF, based on Di Sciullo 1993), Di Sciullo investigates the properties of prefixed verbs in French, distinguishing internal from external prefixes (where the former have the status of a head, unlike the latter). The "Adjunct Identification Condition" correctly identifies the adverbial and prepositional prefixes of these verbs (adjunct-head structures) as attributive, not as descriptive; it thus also differs head-prefixes from non-head-prefixes. Variation between French and Italian formation of prefixed verbs -- where aspectual identification in the latter lies in projection of an independent morpheme -- boils down to morphological differences, the running explanation among languages in MP.
+
+Elizabeth Klipple's "Prepositions and Variation" (74-108) discusses the different behaviour of prepositions in French and English. In a broader context, she investigates language variation and projection of aspectual categories; here, the claim is that variation is strictly derived from morphological properties of languages (MP), not different parameter settings (GB). Klipple adopts Di Sciullo's (1993) framework in which there are three levels of grammar: syntax (LF), Morphological Form (MF) and Lexical Conceptual Structure (LCS), all sketched on basically morphological grounds. The aspectual nature of the "direction/aspect" node (with "event" playing a central role in the semantic relations of a clause, following Davidson 1967 and Higginbotham 1985) licenses its it as part of VP. Variation among French and English verb + preposition constructions are explained on the basis of minimal differences between LCS and syntax, in particular different representations of the direction/aspect function.
+
+"On the Modularity of Case Theory: A Case against the Visibility Hypothesis" (109-129) by Mireille Tremblay proposes Case Theory not only to be independent of Theta Theory but also to interact with Theta Theory only at the interface. Arguing against the Visibility Hypothesis, she shows that the Case Filter applies to [+N] elements (predicates and arguments), while the Theta Criterion applies to arguments only (but of all sorts, i.e. NP, PP, CP). Besides arguing against the Visibility Hypothesis, Tremblay also sketches a possible adoption of Case Theory in a modular grammar in general and within MP in particular (based on Checking Theory and the issue of agreement). A number of different constructions with have and be constitute the empirical base of this article.
+
+Jeffrey Gruber and Chris Collins discuss "Argument Projection, Thematic Configurationality, and Case Theory" (130-154), and suggest the elimination of the concept of Theta-role "assignment" and consequently of Theta Theory as an instantiation of its own, independent module. Instead, a cross-modular approach to the representation and projection of Theta-roles accounts for the asymmetry between the Theta-roles that subjects and objects express. On this approach, thematic relations are derived configurationally (following X-bar theoretic principles). Operations to derive overt forms are subject to principles of syntax, so that X-bar Theory, Movement Theory and Case Theory interact to derive Theta-roles. Movement for Case reasons into Agreement Phrases constrains the projection of arguments as subject or object. This account builds on Hale and Keyser's (1993) approach to syntactic influence on thematic relations and expands on their limitation to the projection of only two arguments. Another consequence of Gruber and Collins' proposal is a framework that captures the difference between serializing and non-serializing languages.
+
+Jeffrey Gruber's "Modularity in a Configurational Theta Theory" (155-200) explores the interaction of three syntactic modules (X-bar Theory, Case Theory and Event Linkage) with a configurational Theta Theory (as in Gruber and Collins, see above). The upshot is that distinctions in thematic relations result from different configurational representations in the syntax. Event Linkage (related to Event Binding as in Higginbotham 1985, for instance) refers to co-linking of Theta-roles between elemental event representations; the basic configurations may be changed through inner Aspect Phrases (= Aktionsart). Gruber's "Strict Thematic Configurationality" offers an account for the representational (representing thematic structure semantically) and correspondence problems of thematic structure (correspondence with syntactic predicate-argument structure). This article takes direct issue with Baker's (1988) Uniformity of Theta Assignment as well as decompositional analyses (Jackendoff 1972, Talmy 1976 and more).
+
+Johan Rooryck makes an interesting proposal "On Passive as Partitive Quantification" (201-234). Pointing out the weaknesses of the modular approach to passives in Chomsky 1981 (Case Theory, Movement Theory and Theta Theory), Rooryck proposes an even more modular approach to these constructions. He proposes that the partitive properties of be/*tre (the passive auxiliary) determine the constraints on passive, where quantificational be is contrasted with predicational be (à la Hoekstra 1993 and Kayne 1993). This quantificational analysis of passive makes no reference to thematic roles (to account for the "exceptions" in passives), but argues that passivizing an internal NP-argument is the sole option for this NP to be syntactically construed to express its constitutive property.
+
+Pierre Pica and William Snyder, finally, reflect "On the Syntax and Semantics of Local Anaphors in French and English" (235-250) and argue that reflexives are essentially pronominals. Basically, Principle B is the core of Binding Theory and local anaphors need to escape this condition, leading to their surprising properties. Pica and Snyder analyse local anaphors as bimorphemic, consisting of the pronominal element and the anaphoric morpheme; this structure is related to a semantics of "partition," allowing the local anaphor to escape Principle B. The modular character of this approach includes the interaction of Principle B, the morphological structure of local anaphors and the broader architecture of human cognition.
+
+Conclusion
+As this review has hopefully shown, Projections is a great book which I highly recommend to everyone who is interested in the issues raised. The choice of papers is right on the spot, all papers being highly informative, well written and of uttermost interest. On a theoretical level, (nearly) all papers deal with state-of-the-art implementations and explorations within MP, thereby lending even more empirical and theoretical support to the program.
+
+Furthermore, it boasts a great preface, introducing the general theme and presenting the papers in a concise way. While the price might be a bit steep (at least for the personal libraries of graduate students, I suppose), it should find its way into every university library; moreover, the price is not as bad as many other academic books which gives us reason to hope that a paperback edition (should it appear) will most certainly be affordable for everyone.
+
+On the other hand, the book also contains a number of weak points, primarily of editorial interest. For example, the 7-page index compares rather poorly with others. Personally, I favour an index-distinction based on topics, languages and authors -- especially for a collection of papers. More serious, however, is the slightly idiosyncratic style of the references (which appear after each paper instead of being compiled into a long bibliography at the end of the book), firstly with respect to punctuation, secondly with respect to the inconsistent listing of full first names and page references for articles. Also on the negative side, we find the complete absence of addresses (snail mail as well as email) for the contributors; moreover, the affiliations of individual researchers are only given in the table of contents, not at the beginning or end of the individual papers. While these objections are rather minor and seem to reflect an anal retentiveness on the reviewer's side, they are present and play a role for the justification of the price. As a final note to the publisher, in which series did this book actually appear, if any? (The book does not seem to be tied to any series as nothing is indicated in the book itself; browsing the web-site of OUP, however, I came across the numerical entry listed in the full title above, which can also be found at the beginning of the line immediately following the Library of Congress catalogue entry.)
+
+Bibliography
+
+Baker, M. 1988. Incorporation: A Theory of Grammatical Function Changing. Chicago, IL: Chicago University Press.
+
+Burzio, L. 1981. Intransitive Verbs and Italian Auxiliaries. PhD Dissertation, Massachusetts Institute of Technology, Cambridge.
+
+Chomsky, N. 1981. Lectures on Government and Binding. Dordrecht: Foris.
+
+Chomsky, N. 1992. A Minimalist Program for Linguistic Theory. Ms., Massachusetts Institute of Technology, Cambridge.
+
+Chomsky, N. 1993. A Minimalist Program for Linguistic Theory. In: K. Hale and S.J. Keyser, eds. Cambridge, MA: MIT Press, 1-52.
+
+Chomsky, N. 1994. Bare Phrase Structure. MIT Occasional Papers in Linguistics 5. Massachusetts Institute of Technology, Cambridge: MITWPL.
+
+Chomsky, N. 1995. The Minimalist Program. Cambridge, MA: MIT Press.
+
+Davidson, D. 1967. The Logical Form of Action Sentences. In N. Resher, ed. The Logic of Decision and Action. Pittsburgh, PA: University of Pittsburgh Press.
+
+Hale, K. and S. J. Keyser. 1993. On Argument Structure and the Lexical Expression of Syntactic Relations. In K. Hale and S. J. Keyser, eds. The View from Building 20: Essays in Honor of Sylvain Bromberger. Cambridge, MA: MIT Press, 53-109.
+
+Higginbotham, J. 1985. On Semantics. In: Linguistic Inquiry 16.547-594.
+
+Hoekstra, T. 1993. BE as HAVE Plus or Minus. Ms., University of Leiden.
+
+Jackendoff, R. 1972. Semantic Interpretation in Generative Grammar. Cambridge, MA: MIT Press.
+
+Kayne, R. S. 1993. Toward a Modular Theory of Auxiliary Selection. In: Studia Linguistica 47.3-31.
+
+Roeper, T. 1985. Copying Implicit Arguments. In J. Goldberg, S. MacKaye and M. T. Westcoat, eds. Proceedings of the 4th West Coast Conference on Formal Linguistics. Stanford, CA: SLA, 273-283.
+
+Roeper, T. 1987. Implicit Arguments and the Head-Complement Relation. In: Linguistic Inquiry 18.267-310.
+
+Di Sciullo, A.-M. 1990. Modularity and the Mapping from the Lexicon to the Syntax. Probus 2: 257-290.
+
+Di Sciullo, A.-M. 1993. The Complement Domain of a Head at Morphological Form. Probus 5: 95-125.
+
+Selkirk, E. 1982. The Syntax of Words. Cambridge, MA: MIT Press.
+
+Talmy, L. 1976. Semantic Causative Types. In M. Shibatani, ed. Syntax and Semantics 6: The Grammar of Causative Constructions. Cambridge: Cambridge University Press, 43-116.
+
+Vanden Wyngaerd, G. 1998. Book Report of Di Sciullo (1997). GLOT International 3.4: 26.
+
+Return to The Issue 3 Contents Page | The WJMLL Home Page
+

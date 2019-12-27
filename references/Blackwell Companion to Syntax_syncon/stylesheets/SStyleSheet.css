@@ -1,0 +1,26 @@
+         body { background-color:white;padding:0.5em; }
+        .pagelayout { width:590px;}
+	.h1 { page-break-before:auto }
+	.symbol-u { color:red;}
+	.formula-block { display:inline;white-space:nowrap;border-width:0px;margin:0px;padding:0px;}
+	.formula-block td { white-space:nowrap}
+	.footnotes { font-size:smaller }
+	.document-summary { padding-left:2em;padding-right:2em}
+	.document-subtitle { font-size:smaller; }
+	table { font-size:100%;}
+	.inline-linked-object {display:none;}
+	.HeaderBar { width:100%;background-color:#99CCFF;line-height:3px;}
+	.HeaderBarDiv { font-size:3px;}
+	.Panes { padding-top:5px;}
+		
+	@media print {
+		.PaneRight { display:none;}
+		.inline-linked-object {display:block;}
+		.newpage {page-break-after:always;}
+	}
+	
+	@media screen {
+		.PaneRight { display:block;}
+		.inline-linked-object {display:none;}
+	}
+	

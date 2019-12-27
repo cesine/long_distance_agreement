@@ -1,0 +1,139 @@
+<!-- TBD1: Additional parameters -->
+<!-- TBD2: Convert dates (purchase and warranty) to proper format -->
+<!-- TBD3: Correct UUIS database table for Owner is FacultyID -->
+<!-- TBD4: Correct UUIS database table for Category not null -->
+<!-- TBD5: Validate: If user = Role 2 then Faculty = user faculty otherwise error -->
+<!-- TBD6: Populate Location with list from DB -->
+<!-- TBD7: Populate Owner/Faculty with list from DB -->
+
+
+<html>
+<head>
+
+<title>Add physical asset</title>
+
+<script language="Javascript1.2">
+function verifyBarCode(strng) {
+	var error = "";
+	if (strng == "") {
+		error = "Barcode must be provided.\n";
+	}
+	return error;
+}
+
+function verifyOwner(strng) {
+	var error = "";
+	if (strng == "") {
+		error = "Owner/Faculty must be provided.\n";
+	}
+	return error;
+}
+
+function verifyLocation(strng) {
+	var error = "";
+	if (strng == "") {
+		error = "Location must be provided.\n";
+	}
+	return error;
+}
+
+
+function check_valid(form)
+{
+	var error = "";
+	error += verifyBarCode(form.$BarCode.value);
+	error += verifyOwner(form.$FacultyName.value);
+	error += verifyLocation(form.$LocationName.value);
+	if (error != "") {
+		alert(error);
+		return false;
+	}
+	return true;
+}
+</script>
+
+</head>
+
+<body>
+
+<h1>Add physical asset</h1>
+
+<form action="AdditionalAssetInformation.php" onsubmit="return check_valid(this)" method="post">
+
+
+<fieldset>
+<legend><font color=cornflowerblue><b>New physical asset entry</b></font></legend>
+
+Barcode - Mandatory:
+    <input type="text" name="$BarCode"            size ="32" maxlength="64"  class="inputtext">
+<br><br>
+
+Owner/Faculty - Mandatory:
+	<select name="$FacultyName">
+		<option></option>
+		<option value="Engineering and Computer Science">Engineering and Computer Science</option>
+		<option value="Arts and Science">Arts and Science</option>
+	</select>
+<br><br>
+
+Purchase requisition number:
+    <input type="text" name="$ReqNumber"          size ="32" maxlength="64"  class="inputtext">
+<br><br>
+
+Purchase order number:
+    <input type="text" name="$PoNumber"           size ="32" maxlength="64"  class="inputtext">
+<br><br>
+
+Legacy code:
+    <input type="text" name="$LegacyCode"         size ="32" maxlength="64"  class="inputtext">
+<br><br>
+
+Purchase date (mm/dd/yyyy):
+    <input type="text" name="$DatePurchased"      size ="10" maxlength="10"  class="inputtext">
+<br><br>
+
+Warranty expiration date (mm/dd/yyyy):
+    <input type="text" name="$WarrantyExpiration" size ="10" maxlength="10"  class="inputtext">
+<br><br>
+
+Location - Mandatory:
+	<select name="$LocationName">
+		<option></option>
+		<option value=EV3.Administration>EV3.Administration</option>
+		<option value=EV8.177>EV8.177</option>
+		<option value=EV8.107>EV8.107</option>
+		<option value=EV3.177>EV3.177</option>
+		<option value=EV9.104>EV9.104</option>
+	</select>
+<br><br>
+
+Manufacturer:
+    <input type="text" name="$Manufacturer"       size ="64" maxlength="128" class="inputtext">
+<br><br>
+
+Model:
+    <input type="text" name="$Model"              size ="64" maxlength="128" class="inputtext">
+<br>
+
+</fieldset>
+<br>
+
+<fieldset>
+<legend> <font color=gray><b>Equipment details / Furniture details / Clear</b></font> </legend>
+    <input type="submit" name="$Equipment" value="Equipment additional information" />
+    <input type="submit" name="$Furniture" value="Furniture additional information" /><br><br>
+    <input type="reset"  name="$Reset"     value="Clear entry" />
+</fieldset>
+
+</form>
+
+<!-- Return link -->
+
+<form action="AssetMenu.php" method="post">
+<fieldset>
+<legend> <font color=gray><b>Return to system page</b></font> </legend>
+    <input type="submit" name="submit" value="Return" />
+</fieldset>
+</form>
+</body>
+</html>

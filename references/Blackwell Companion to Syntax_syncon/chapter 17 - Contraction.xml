@@ -1,0 +1,1074 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="17"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 17 - Contraction.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">688</page>
+<page type="last">703</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="0"/>
+<count type="table" count="23"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="26"/>
+<count type="page" count="16"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051104"/>
+<trackingdate type="markedup" date="0000" by="christine tsai"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 17&ensp;Goodall: Contraction&emsp;</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 17&ensp;Goodall: Contraction&emsp;</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">17&ensp;Contraction</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>GRANT</forenames><x> </x><surname>GOODALL</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p><i>Wanna</i>-contraction</p>
+</li>
+<li level="2">
+<number>2.1&ensp;</number>
+<p>The basic paradigm</p>
+</li>
+<li level="2">
+<number>2.2&ensp;</number>
+<p>Fuller view of data</p>
+</li>
+<li level="2">
+<number>2.3&ensp;</number>
+<p>Adding government</p>
+</li>
+<li level="2">
+<number>2.4&ensp;</number>
+<p>Contraction and restructuring</p>
+</li>
+<li level="2">
+<number>2.5&ensp;</number>
+<p><i>Wanna</i> and subcategorization</p>
+</li>
+<li level="2">
+<number>2.6&ensp;</number>
+<p>Adjacency again</p>
+</li>
+<li level="2">
+<number>2.7&ensp;</number>
+<p>The liberal dialects</p>
+</li>
+<li level="2">
+<number>2.8&ensp;</number>
+<p>Conclusion</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>Finite auxiliary contraction</p>
+</li>
+<li level="2">
+<number>3.1&ensp;</number>
+<p>A comparison with <i>wanna</i>-contraction</p>
+</li>
+<li level="2">
+<number>3.2&ensp;</number>
+<p>Finite auxiliary contraction and syntax</p>
+</li>
+<li level="2">
+<number>3.3&ensp;</number>
+<p>Conclusion</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h01" level="1">1&ensp;Introduction</heading>
+<p>&lsquo;Contraction&rsquo; is the term traditionally used to describe phenomena where one word is reduced and apparently affixed to another, as when <i>have not</i> is realized as <i>haven&apos;t</i>, or <i>we have</i> as <i>we&apos;ve</i>. It should be stressed that this is only a descriptive term and does not presuppose any particular type of analysis. Indeed, whether a particular type of contraction is to be analyzed in morphological, phonological, or syntactic terms is often a point of contention. Here we will examine some contraction phenomena which have been thought to relate to syntax, i.e., those which appear to result from or interact with syntactic processes.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h1" level="1">2&ensp;<i>Wanna</i>-contraction</heading>
+<subsection id="ss4" level="2">
+<heading id="h2" level="2">2.1&ensp;The basic paradigm</heading>
+<p>The best-known such contraction by far is that in which <i>want to</i> is realized as <i>wanna</i>. This phenomenon first caught the eye of syntacticians because of facts like (1), first discussed by <link rid="b1">Lakoff (1970</link>):</p>
+<p>(1)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Who do you wanna dance with?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Who do you wanna dance?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The contrast between (1a) and (1b) here is surprising at first, because they would seem to result from the contraction of the <i>want to</i> sequences in (2a) and (2b), respectively, which are both fine:</p>
+<p>(2)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Who do you want to dance with?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Who do you want to dance?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The most obvious difference between (2a) and (2b), though, is that the <i>wh</i>-phrase originates as the object of <i>with</i> in (a), and as the subject of <i>dance</i> in (b). If we assume that <i>want</i> and <i>to</i> may contract only when they are adjacent, and that the trace of <i>who</i> intervenes between <i>want</i> and <i>to</i> in (b) but not in (a), then the contrast follows. This is the thrust of the analysis in <link rid="b2">Chomsky (1976</link>), and it is still presented in many basic textbooks as an argument for the existence of traces (e.g., <link rid="b3">Napoli 1993</link>; <link rid="b4">Radford 1997</link>).</p>
+<p>Although very appealing, this analysis is less straightforward than it might seem. First, one could argue that there is also an intervening trace in (2a), since by successive cyclic movement the <i>wh</i>-phrase will stop in the embedded SPEC of CP (between <i>want</i> and <i>to</i>) before moving to its surface position. Second, there is a PRO subject in the embedded clause in (2a), and this would appear to make <i>want</i> and <i>to</i> non-adjacent. Third, traces of A-movement do not seem to block similar types of contraction. This may be seen in (3), where the fact that <i>John</i> might originate in a position between <i>going</i> and <i>to</i> does not prevent contraction of these to <i>gonna</i>:</p>
+<p>(3)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John is going to dance with Mary.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John is gonna dance with Mary.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Thus, simply saying that <i>wanna</i>-contraction is sensitive to the presence of empty categories is not sufficient, since we have seen that only some empty categories appear to block contraction. As <link rid="b5">Jaeggli (1980</link>) pointed out, those that do are Case-marked (in GB terms). This of course opens up the question of why contraction would be sensitive to the presence of an intervening Case-marked empty category but not to Case-less empty categories such as the intermediate <i>wh</i>-trace, PRO, and NP-trace mentioned above. For the facts seen so far, however, Jaeggli&apos;s distinction based on Case seems to yield the right results.</p>
+</subsection>
+<subsection id="ss5" level="2">
+<heading id="h3" level="2">2.2&ensp;Fuller view of data</heading>
+<p>The picture is complicated by the fact that <i>wanna</i>-contraction is sometimes blocked even when there is no intervening Case-marked trace, as noted by <link rid="b6">Postal and Pullum (1982</link>). Contraction is impossible in all of the following sentences, for example:</p>
+<p>(4)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>I don&apos;t want to flagellate oneself in public to become standard practice in this monastery.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>It seems like to want to regret that one does not have.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>I don&apos;t want anyone who continues to want to stop wanting.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>One must want (in order) to become an over-effective consumer.</entry>
+</row>
+<row><entry>e.</entry>
+<entry>I want to dance and to sing.</entry>
+</row>
+<row><entry>f.</entry>
+<entry>I don&apos;t need or want to hear about it.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (4c) in particular, there is arguably no empty category at all intervening between <i>want</i> and <i>to</i>, but in none of them is there an intervening Case-marked trace. What, then, is the difference between (2a), where contraction is possible, and (4), where it is not? In (2a), <i>to</i> is in I of the complement clause of <i>want</i>, but this configuration does not obtain in any of the examples in (4). This may be seen straightforwardly in (4a&ndash;d). In (4e) it appears that <i>to</i> is in an I embedded within a coordinate structure, and in (f) <i>want</i> is part of a coordinate structure.</p>
+</subsection>
+<subsection id="ss6" level="2">
+<heading id="h4" level="2">2.3&ensp;Adding government</heading>
+<p>The generalization which now emerges is that contraction between <i>want</i> and <i>to</i> is possible only when <i>to</i> is in the main I of the complement of <i>want</i>. This sort of head-complement requirement between the verb <i>want</i> and the <i>to</i> of its complement clause is reminiscent of the government relation, and it is thus tempting to formulate the conditions on <i>wanna</i>-contraction in terms of this relation, i.e., by saying that for <i>want</i> and <i>to</i> to contract, <i>want</i> must govern <i>to</i> (see <link rid="b7">Aoun and Lightfoot 1984</link>; <link rid="b8">Lobeck and Kaisse 1984</link>; <link rid="b9">Bouchard 1986</link>).</p>
+<p>The basic intuition behind government-based accounts, that <i>want</i> and <i>to</i> must be in a kind of head-complement relation, is clear enough, but getting the technical details to work out right is more challenging. Under standard assumptions about clause structure and government, in fact, <i>want</i> does not govern <i>to</i> in ordinary sentences where contraction is possible (e.g., (1a)), the reason being that there is an intervening CP maximal projection which will prevent <i>want</i> from governing IP and its head <i>to</i>. Under standard GB assumptions about PRO, we want this CP to be present, since otherwise the PRO subject of the embedded clause would be governed illicitly. Of course there are a number of ways one might address these difficulties. <link rid="b10">Barss (1995</link>), for instance, adopts the view that there is no intervening CP in control clauses and that PRO can be governed.</p>
+</subsection>
+<subsection id="ss7" level="2">
+<heading id="h5" level="2">2.4&ensp;Contraction and restructuring</heading>
+<p>It has been known for a long time that there are some significant similarities between <i>wanna</i>-contraction and the phenomenon known as restructuring (or clause reduction), and analyses making use of this fact have been developed which either complement or are in opposition to those based on the presence of a trace and/or a government requirement (e.g., <link rid="b11">Frantz 1978</link>; <link rid="b12">Postal and Pullum 1978</link>; <link rid="b13">Goodall 1991</link>; <link rid="b14">Roberts 1997b</link>). An example of restructuring is given in (5), from Spanish:</p>
+<p>(5)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7"/>
+<tbody>
+<row><entry>Juan</entry>
+<entry>lo</entry>
+<entry>quiere</entry>
+<entry>ver.</entry>
+<entry>it</entry>
+<entry>want</entry>
+<entry>see</entry>
+</row>
+<row><entry namest="col1" nameend="col7">&lsquo;Juan wants to see it.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Despite the presence of two verbs here, sentences of this type display some properties of a single clause, such as the clitic-climbing seen in (5).</p>
+<p>One obvious similarity between restructuring and <i>wanna</i>-contraction is that they both affect the verb <i>want</i>. This fact in itself is not very impressive, but it becomes more so if one considers that there are other verbs which have been argued to participate in contraction with <i>to</i> of the same type as <i>wanna</i> (see, e.g., <link rid="b15">Pullum 1997</link>):</p>
+<p>(6)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry>
+</entry>
+<entry><b>Verb</b>
+</entry>
+<entry><b>Contracted form</b>
+</entry>
+<entry><b>Example</b>
+</entry>
+</row>
+<row><entry>a.</entry>
+<entry>go</entry>
+<entry>gonna</entry>
+<entry>I&apos;m gonna dance.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>used</entry>
+<entry>usta</entry>
+<entry>I usta dance.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>have</entry>
+<entry>hafta</entry>
+<entry>I hafta dance.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>got</entry>
+<entry>gotta</entry>
+<entry>I gotta dance.</entry>
+</row>
+<row><entry>e.</entry>
+<entry>ought</entry>
+<entry>oughta</entry>
+<entry>I oughta dance.</entry>
+</row>
+<row><entry>f.</entry>
+<entry>supposed</entry>
+<entry>suposta</entry>
+<entry>I&apos;m suposta dance</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>These verbs are either aspectual, as in (6a&ndash;b), or modal, as in (6c&ndash;f) and <i>want</i>. These turn out to be two of the major classes of verbs which participate in restructuring.</p>
+<p>This similarity in verb classes could of course just be a coincidence, but when considered in combination with a number of significant syntactic similarities, this seems less likely (see <link rid="b13">Goodall 1991</link> for discussion). We have seen, for instance, that contraction is only possible when <i>to</i> is in the complement clause of <i>want</i>, and likewise restructuring is only possible between a verb and its complement clause. Both phenomena are also restricted to control or raising structures, i.e., neither is possible when the embedded subject is not coreferential with the matrix subject (cf. (1b) for contraction). In addition, the behavior of contraction in coordinate structures that we saw earlier in (4e&ndash;f) is replicated exactly with restructuring.</p>
+<p>If these similarities are in fact significant, then of course one would want to know why they obtain. This question is particularly intriguing since at a descriptive level, contraction and restructuring would not seem to have much in common in terms of how they operate. One possible account is given by <link rid="b14">Roberts (1997b</link>), who argues that restructuring is the result of raising embedded T into the matrix clause through head movement. Assuming that <i>to</i> is generated in T, contraction could then be seen as the same process. This then gives us an immediate account of the cases in (4).</p>
+<p>Since contraction is now the result of syntactic head movement, it is disallowed here for whatever reasons generally prevent movement out of a subject, adjunct, or coordinate structure, or into a subject or coordinate structure.</p>
+<p>This also allows us to explain the contrast between (1a) and (1b). With the ECM use of <i>want</i>, it is often assumed that there is a null version of <i>for</i> in C, which provides case for the embedded subject. If true, this complementizer should block raising of <i>to</i> to the matrix clause. This accounts for the ungrammaticality of (1b). (1a), on the other hand, is not an ECM structure, so C is not filled and nothing should prevent raising of <i>to</i>.</p>
+<p>This analysis thus allows us to account for the constraints on contraction and its fundamental similarities with restructuring in an elegant and relatively simple way. In fact, for reasons having to do with the theory of adjunction he is assuming, Roberts proposes that <i>wanna</i> itself is formed in the lexicon, so there is actually no syntactic raising of <i>to</i> as such. Instead, <i>wanna</i> is endowed with a restructuring feature which must be checked by T of the embedded clause. Given that this checking is accomplished by raising of the embedded T, the account of the constraints on <i>wanna</i>-contraction just sketched remains basically unchanged.</p>
+</subsection>
+<subsection id="ss8" level="2">
+<heading id="h6" level="2">2.5&ensp;<i>
+<roman>Wanna</roman>
+</i> and subcategorization</heading>
+<p>Under Roberts&apos;s checking analysis, the T embedded under <i>wanna</i> must be null, since overt <i>to</i> is neither adjoined to <i>wanna</i> nor present in the embedded clause, and the embedded clause cannot be tensed. Thus we can say that <i>wanna</i> subcategorizes for a kind of bare infinitive. This may seem like an innocent conclusion, but in fact it can account for much of the data seen so far in and of itself, if we make the standard assumption that a head may subcategorize only for a complement. Thus the fact that contraction is disallowed in (4) now follows. In (4a&ndash;d), the clause to the right of <i>want</i> is not a complement of <i>want</i>, so even if we used <i>wanna</i> in place of <i>want</i>, the clause to its right would not be licensed as a bare infinitive. In (4e), replacing <i>want</i> with <i>wanna</i> would mean that both conjuncts would have to be bare infinitives, not just the first, and in (4f), using <i>wanna</i> would result in a conjunction of verbs with different subcategorization requirements, which we would expect to be ungrammatical. Specifically, only <i>wanna</i> would subcategorize for a bare infinitival.</p>
+<p>By saying that <i>wanna</i> subcategorizes for a bare infinitive, then, as appears to be necessary under Roberts&apos;s analysis, we can straightforwardly account for the lack of contraction in (4) without appealing to raising of the embedded T. This is in fact the analysis that <link rid="b15">Pullum (1997</link>) proposes: <i>wanna</i> is related to <i>want</i> by derivational morphology and it subcategorizes for a bare infinitive. One can now reasonably ask whether there is any evidence for the raising of T that Roberts proposes, given that subcategorization alone can account for a significant range of facts. One possible piece of evidence may come from the basic contrast we saw in (1).</p>
+<p>In order to account for the ungrammaticality of (1b) under a subcategorization-only analysis, we have to say that <i>wanna</i> subcategorizes specifically for a control bare infinitival clause, with a PRO subject (cf. <link rid="b15">Pullum 1997</link>). Such a specification is independently needed to account for impossible contractions such as (7):</p>
+<p>(7)&ensp;*You wanna Bill eat the pie.</p>
+<p>What remains unexplained under this account, though, is why <i>wanna</i> should be restricted in this way. It cannot be that overt subjects are disallowed in principle in bare infinitival clauses, because verbs like <i>make</i>, for example, allow them, as in (8):</p>
+<p>(8)&ensp;Bill made it rain.</p>
+<p>Under Roberts&apos;s analysis with raising of embedded T, the ungrammaticality of (1b) and (7) follows from the assumption that these ECM cases require a filled C in order to license case on the embedded subject. If C is filled, then raising of T to matrix V is blocked, and contraction is impossible. Thus there is some advantage to adopting an account which makes use of more than just subcategorization, in that we can then account for the impossibility of an overt embedded subject with <i>wanna</i> without stipulating it.</p>
+<p>Whether or not we supplement it with raising of the embedded T, the subcategorization account of <i>wanna</i> predicts that we should find no evidence for the presence of <i>to</i> in the embedded clause. <link rid="b15">Pullum (1997</link>) points out that in principle we should be able to look for such evidence by examining the behavior of <i>wanna</i> vs. <i>want to</i> in constructions where an overt element in T is required. VP ellipsis (as opposed to null complement anaphora) and VP fronting are two such constructions. Examples of the latter are given in (9):</p>
+<p>(9)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>I said I&apos;d wash the dishes, and wash them I did.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*I said I&apos;d help wash the dishes, and wash them I helped.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>If <i>wanna</i> involves no overt element in the embedded T, we would then predict that (10b) would be worse than (10a):</p>
+<p>(10)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>I said I&apos;d feel like climbing the mountain, and climb it I want to.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>I said I&apos;d feel like climbing the mountain, and climb it I wanna.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Pullum reports that unfortunately, judgments on sentences like these are so unclear and inconsistent as to be of little use (and similar results obtain with examples involving VP ellipsis), so at this point it is an open question whether it is possible to find evidence for or against the presence of <i>to</i> in the clause embedded under <i>wanna</i>.</p>
+</subsection>
+<subsection id="ss9" level="2">
+<heading id="h7" level="2">2.6&ensp;Adjacency again</heading>
+<p>One interesting property of the accounts of <link rid="b14">Roberts (1997b</link>) and <link rid="b15">Pullum (1997</link>) just examined is that adjacency between <i>want</i> and <i>to</i> plays no role in the analysis. That is, the only restriction on <i>wanna</i> is that its complement clause be of the appropriate type and, for Roberts, that the T of this complement clause raise to check the restructuring feature of <i>wanna</i>. Since they assume that <i>wanna</i> is formed in the lexicon, there is no requirement, nor could there be, that for <i>wanna</i> to be well-formed, the non-<i>wanna</i> version of the sentence must have <i>want</i> and <i>to</i> in adjacent positions.</p>
+<p>The data which originally motivated such a requirement, such as (1) and (7), can now be accounted for in a different way, as we have seen.</p>
+<p>For Pullum, (1b) and (7) are out because <i>wanna</i> subcategorizes for a bare infinitival clause with a PRO subject, and for Roberts, they are out because T of the embedded clause is unable to raise to <i>wanna</i>. The subject of the embedded clause requires a filled C for case reasons, and this blocks movement of T to the matrix V.</p>
+<p>Thus the role that (1b) played historically as a kind of unusually concrete evidence for the existence of traces is gone under these analyses. An account of (1b) may still crucially involve a trace (although there are ways to do this without a trace also; see <link rid="b15">Pullum 1997</link> for discussion), but only in the way that many other sentence types do. That is, positing a trace in (1b) may allow us to give a unified account of (1b) and (7), but we cannot say under these analyses that it is the trace itself which directly blocks the contraction.</p>
+<p>This point is of more than historical interest. Recall that one of the problems facing an adjacency analysis of <i>wanna</i>-contraction is that an A&prime;-trace disrupts the adjacency of <i>want</i> and <i>to</i> but PRO does not (as seen, for instance, in the contrast in (1)). One possible response to this problem is to say that if we assume that the adjacency analysis is correct and that A&prime;-trace and PRO are present in the syntactic structure, then it must be that only A&prime;-trace intervenes between <i>want</i> and <i>to</i>. This amounts to saying that A&prime;-trace raises to the specifier of an inflectional head but that PRO does not, or at least does not need to. This is the line of argument adopted by <link rid="b16">Baltin (1995</link>), who proposes that PRO remains in a VP-internal position. Under this analysis, then, <i>wanna</i>-contraction can provide valuable evidence regarding the surface position of PRO.</p>
+<p>Another possible response to the problem for an adjacency analysis of intervening PRO is to assimilate control to A-movement, as in <link rid="b17">Horstein (1999</link>), and to assume that A-movement does not leave a trace/copy. This is essentially the analysis of <link rid="b18">Boeckx (2000</link>), who shows that adopting these assumptions allows one to say that <i>want</i> and <i>to</i> are indeed adjacent in (1a) and (3), but not in (1b), where the A&prime;-trace intervenes, just as in the classical analysis. This solves the problems of PRO and NP-trace for an adjacency analysis that we examined earlier (and see <link rid="b18">Boeckx 2000</link> for a brief discussion of how facts like (4) might be handled under his analysis).</p>
+<p>So far, then, we have seen analyses such as those by <link rid="b14">Roberts (1997b</link>) and <link rid="b15">Pullum (1997</link>), which account for the &lsquo;adjacency&rsquo; facts of <i>wanna</i>-contraction (i.e., (1) and (7)) without actually appealing to adjacency as part of the analysis, and analyses such as those by <link rid="b16">Baltin (1995</link>) and <link rid="b18">Boeckx (2000</link>), which claim that <i>wanna</i> is possible only when <i>want</i> and <i>to</i> are adjacent. To decide between these two approaches, one could look for cases of non-adjacent contraction, i.e., cases where <i>wanna</i> is possible but where <i>want</i> and <i>to</i> would not be adjacent in the corresponding sentence without contraction. Such cases might be expected to surface if <link rid="b14">Roberts (1997b</link>) and <link rid="b15">Pullum (1997</link>) are correct, but they are clearly predicted to be impossible under <link rid="b16">Baltin&apos;s (1995</link>) and <link rid="b18">Boeckx&apos;s (2000</link>) accounts. One possible example of such a case is the &lsquo;Langendoen dialect&rsquo; noted by <link rid="b12">Postal and Pullum (1978</link>) and discussed more recently by <link rid="b15">Pullum (1997</link>). In this dialect, reportedly spoken by Terence Langendoen, (11a) is possible but (11b) is not:</p>
+<p>(11)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry><sup>&percnt;</sup>I wanna very MUCH go to the game this evening!</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*I want to very MUCH go to the game this evening!</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The adverbial expression <i>very much</i> must clearly appear within the matrix clause, i.e., to the left of <i>to</i> in (11b). Thus the possibility of <i>wanna</i> in this dialect is very surprising if we assume an adjacency analysis. With an analysis such as Roberts&apos;s or Pullum&apos;s, on the other hand, (11a) is straightforward. What would seem more difficult, in fact, is explaining why most speakers do not accept it. Pullum points out, though, that the ungrammaticality of (11a) for most speakers is probably due to the fact that in general, verbs must be adjacent to their bare infinitival complements (for whatever reason). <i>Wanna</i> then falls into the general pattern. (11a) appears to be good for Langendoen because for some reason he does not have this restriction in general, so of course he does not have it for <i>wanna</i> either.</p>
+<p>The contrast in (11) thus in principle provides interesting evidence in favor of a non-adjacency analysis of <i>wanna</i>-contraction, but it is difficult to place much confidence in this conclusion, since it is hard to find speakers who accept this contrast. Using different adverbials may help; I have found that some speakers detect a slight contrast between (12a) and (12b), for instance:</p>
+<p>(12)&ensp;<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry><sup>??</sup>I wanna with all my heart go with you.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*I want to with all my heart go with you. (cf. I want with all my heart to go with you.)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Still, the judgments are subtle at best, so neither (11) nor (12) is as decisive as one would like.</p>
+</subsection>
+<subsection id="ss10" level="2">
+<heading id="h8" level="2">2.7&ensp;The liberal dialects</heading>
+<p>Another area of possible dialectal variation concerns the so-called &ldquo;liberal dialects&rdquo; (<link rid="b6">Postal and Pullum 1982</link>), for whose speakers (1b) is grammatical. This type of dialect is very difficult to account for with an adjacency analysis, and it is not much easier with a non-adjacency analysis such as those of <link rid="b14">Roberts (1997b</link>) or <link rid="b15">Pullum (1997</link>). Probably the best that can be done under these latter analyses is to say that the liberal dialects differ from others in their phonology, not in their syntax, in that they allow reduction of <i>want to</i> to <i>wanna</i> within a phonological phrase, as proposed in <link rid="b15">Pullum (1997</link>).</p>
+<p>But it is hard to know to what extent one should take these liberal dialects into account without better documentation of their existence. As <link rid="b19">Carden (1983</link>: 48, fn. 11) stated, &ldquo;the force of the data based on the liberal dialects is weakened by worries about whether the claimed dialect difference is real, or whether the subjects are simply reporting introspections based on different assumed speech rates.&rdquo; Unfortunately, we know nothing more about this now than we did when Carden made this statement.</p>
+</subsection>
+<subsection id="ss11" level="2">
+<heading id="h9" level="2">2.8&ensp;Conclusion</heading>
+<p>As we have seen, there are some analyses, such as those of <link rid="b16">Baltin (1995</link>), <link rid="b18">Boeckx (2000</link>), and their many predecessors, that claim that <i>wanna</i> is only possible when <i>want</i> and <i>to</i> are adjacent, and other analyses, such as those of <link rid="b14">Roberts (1997b</link>) and <link rid="b15">Pullum (1997</link>), that claim that adjacency is not relevant. Notice that under the latter approach, the term &lsquo;<i>wanna</i>-contraction&rsquo; is in a sense a misnomer, since it really doesn&apos;t involve contraction at all, at least not in the phonological or syntactic sense. <i>Wanna</i> under these analyses is formed in the lexicon, and it is inserted in the syntax just like an ordinary verb. The fact that it seems to interact in such interesting ways with the syntax, which is what drew attention to this phenomenon in the first place, follows from its subcategorization properties and, for Roberts, from the fact that it must check a feature on the embedded T.</p>
+</subsection>
+</subsection>
+<subsection id="ss12" level="1">
+<heading id="h10" level="1">3&ensp;Finite auxiliary contraction</heading>
+<subsection id="ss13" level="2">
+<heading id="h11" level="2">3.1&ensp;A comparison with <i>wanna</i>-contraction</heading>
+<p>The term &lsquo;finite auxiliary contraction&rsquo; is used to label the phenomenon in which finite auxiliaries (<i>have</i>, <i>be</i>, and modals <i>will</i> and <i>would</i>) appear to contract with elements to their left, as in (13):</p>
+<p>(13)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>We&apos;ve eaten the pie.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>We&rsquo;re eating the pie.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>We&rsquo;ll eat the pie.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>We&apos;d eat the pie.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This phenomenon resembles <i>wanna</i>-contraction in a couple of ways which could turn out to be significant. First, it involves the apparent contraction of an element in T with something to its left (though see <link rid="b20">Bresnan 1971a</link> for an alternative view). Assuming that <i>to</i> is in T, this description would fit <i>wanna</i>-contraction as well. Second, the finite auxiliary cannot skip over a lexical subject to contract with something further to the left. This is seen in (14):</p>
+<p>(14)&ensp;*I don&apos;t know who&apos;s John going to the party with.</p>
+<p>Here <i>is</i> has contracted with <i>who</i> despite the intervening subject <i>John</i>, and the result is ill-formed. This is reminiscent of the restriction that we saw in (7), where <i>wanna</i>-contraction may not cross an intervening subject.</p>
+<p>Although we saw earlier that both of these descriptions of <i>wanna</i>-contraction (that it involves contraction of an element in T and that it may not cross intervening material) are open to question, still the initial similarity between it and finite auxiliary contraction might give us hope that they could receive a common analysis and that the additional data that auxiliary contraction could provide might resolve some of the open questions remaining in the analysis of <i>wanna</i>-contraction.</p>
+<p>However, a closer look shows that there are some significant differences between the two phenomena. For example, <i>wanna</i>-contraction involves the apparent contraction of <i>to</i> with a specific word to its left, i.e., the verb <i>want</i> or one of the handful of other verbs that behave similarly (see the list in (6)). The finite auxiliary, on the other hand, contracts with whatever is to its left. This means that the sort of subcategorization analysis that we saw earlier for <i>wanna</i>-contraction will be unworkable for finite auxiliary contraction. In fact, the finite auxiliary is able to contract with more than just subjects, as seen in (15):</p>
+<p>(15)&ensp;Who&apos;s John going to the party with?</p>
+<p>In this case, <i>is</i> has presumably raised to C, but it is still able to contract.</p>
+<p>An even more striking difference is that finite auxiliary contraction does not behave like <i>wanna</i>-contraction in terms of the latter&apos;s most celebrated property: its inability to contract across an A&prime;-trace. Whereas <i>wanna</i>-contraction is impossible in cases like (1b), finite auxiliary contraction is perfect in analogous cases such as (16):</p>
+<p>(16)&ensp;Who do you think&apos;s dancing?</p>
+<p>The well-formedness of (16) is particularly interesting given the fact that auxiliary contraction is not able to operate across an overt subject, as we saw in (14). Thus the parallelism between overt arguments and A&prime;-traces that has drawn so much attention in <i>wanna</i>-contraction is not found in finite auxiliary contraction.</p>
+</subsection>
+<subsection id="ss14" level="2">
+<heading id="h12" level="2">3.2&ensp;Finite auxiliary contraction and syntax</heading>
+<p>The above differences should make us somewhat pessimistic about finding a common analysis for these two types of contraction. In fact, they could even suggest that whereas <i>wanna</i>-contraction is clearly sensitive to a number of syntactic factors, finite auxiliary contraction seems largely oblivious to the syntax. For instance, we have seen that the finite auxiliary may contract with a variety of elements to its left (e.g., a subject in (13), an element in SPEC/C in (15), a verb in (16)) regardless of the syntactic position. Moreover, finite auxiliary contraction is blocked by the presence of intervening overt material, but not by the presence of a trace (e.g., (14) and (16)). We might thus conclude that finite auxiliary contraction, unlike <i>wanna</i>-contraction, is an entirely phonological operation. This conclusion is rendered more plausible by the fact that contraction of <i>is</i> undergoes voicing assimilation with the preceding segment:</p>
+<p>(17)&ensp;<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Ted&apos;s eating the pie.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Pete&apos;s eating the pie.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Contracted &rsquo;<i>s</i> is voiced in (17a) and voiceless in (17b).</p>
+<p>However, the literature points to a number of ways in which this conclusion appears to be too hasty, in that finite auxiliary contraction does seem to be sensitive to the syntax in a way we would not expect of a purely phonological process. First, whether or not a finite auxiliary may contract with a preceding adverb depends on the class, and presumably structural position, of the adverb. Sentential adverbs allow contraction, as seen in (18), but aspectual adverbs do not, as seen in (19) (<link rid="b21">Baker 1971</link>; <link rid="b20">Bresnan 1971a</link>; <link rid="b22">Kaisse 1985</link>):</p>
+<p>(18)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John clearly&apos;d eat the pie if he had the chance.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Jane apparently&apos;s eating the pie.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(19)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*John never&apos;d eat the pie.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Jane often&apos;s eating pie.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The full, non-contracted form of the auxiliary is possible to the right of the adverb in cases like (19) (though the position to the left of the adverb is preferred), as is the &lsquo;reduced&rsquo; form, i.e., the form in which the vowel of the auxiliary is reduced but still present. Given this, it is not clear why further phonological reduction of the auxiliary, resulting in the contracted form, would not be possible here. But if auxiliary contraction is at least partly a syntactic operation, the different positions of the adverbs in (18) and (19) might make an explanation possible (see <link rid="b23">Wilder 1997</link> for an analysis). <link rid="b4">Radford (1997</link>) points out that the position of the auxiliary itself seems to affect the possibility of contraction as well, as seen in (20):</p>
+<p>(20)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*The chairman may&apos;ve gone home.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*It would have been a pity to&apos;ve given up syntax.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*She wouldn&apos;t let me&apos;ve gone there on my own.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>*Should we&apos;ve helped him?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>It can be argued in all of these cases that the auxiliary is not in T, and that would seem to be related to their inability to contract. This of course is why the phenomenon we are examining is called &lsquo;finite auxiliary contraction&rsquo;, but the very fact that the auxiliary must be finite (i.e., in T) makes it unlikely that a purely phonological analysis would suffice, especially since the finite and non-finite forms of the auxiliary in question in (20) (<i>have</i>) can be homophonous.</p>
+<p>Another way in which finite auxiliary contraction might be sensitive to the syntax is that contraction is barred when the element immediately to the right of the auxiliary is null, either because of movement or deletion (see <link rid="b21">Baker 1971</link>; <link rid="b20">Bresnan 1971a</link>; <link rid="b24">King 1970</link>; <link rid="b1">Lakoff 1970</link>):</p>
+<p>(21)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*I don&apos;t know what kind of lawyer Mary&apos;s.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Tom has eaten as much pie as we&apos;ve.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*They&rsquo;ll water the plants on Tuesday, and I&rsquo;ll on Thursday.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>*If John would get some exercise, then Mary&apos;d as well.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>All of these sentences are grammatical without contraction. What seems odd about this restriction, of course, is that the auxiliary contracts with the word to its left, yet here we see it is sensitive to the type of material to its right. One way to make sense of this is to assume that the contracted auxiliary is not able to properly govern the null element to its right and thus attribute the ungrammaticality of (21) to the ECP (see <link rid="b25">Zagona 1982</link> and <link rid="b23">Wilder 1997</link> for discussion). Another way is to assume some sort of prosodic condition which prohibits contracted forms before a gap (see <link rid="b23">Wilder 1997</link> for recent discussion of this approach). This view is supported by the fact that contraction is still prohibited even when the destressed, weak pronoun <i>it</i> intervenes between the auxiliary and the gap, as seen in (22) (from <link rid="b20">Bresnan 1971a</link>):</p>
+<p>(22)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*What&apos;s it? (cf. What&apos;s that?)</entry>
+</row>
+<row><entry>b.</entry>
+<entry>What&apos;s it for?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>It appears that the word immediately to the left of the gap must bear stress, and if <i>it</i> can&apos;t do this, then the auxiliary can take over. But a contracted auxiliary can&apos;t bear stress either, so (22a) is ruled out, as are the examples in (21). Notice that (22b) is fine, because <i>for</i> can bear stress. If a prosodic account such as this is ultimately successful, then (21) may be irrelevant to the issue of whether finite auxiliary contraction is syntactic in some sense, but for now the proper treatment of (21) remains an open question.</p>
+<p>A third area in which finite auxiliary contraction seems to show an interesting interaction with syntax is in the differing behavior of contraction with stage-level and individual-level predicates. <link rid="b10">Barss (1995</link>) shows that when the predicate to the right of the auxiliary is stage-level, as in (23), contraction is perfect, but when the predicate is individual-level, as in (24), it is not:</p>
+<p>(23)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Who do you think&apos;s available?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Who did you say&apos;s coming to the party?</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Who do you think&apos;s outside?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(24)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry><sup>?</sup>*Who do you think&apos;s altruistic?</entry>
+</row>
+<row><entry>b.</entry>
+<entry><sup>?</sup>*Who did you say&apos;s tall?</entry>
+</row>
+<row><entry>c.</entry>
+<entry><sup>?</sup>*Who do you think&apos;s moral?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The distinction is subtle, although it appears to be real. Barss claims that one can account for this contrast if one assumes that stage-level predicates theta-mark their subjects internal to their projections and that with individual-level predicates, there is a control relation between a subject outside the predicate projection (in SPEC of TP) and a PRO subject inside the predicate projection, as in <link rid="b26">Diesing (1990a</link>). This means that in (23), the <i>wh</i>-phrase can move directly from the predicate-internal position to SPEC of CP, without leaving a trace in SPEC of TP. In (24), on the other hand, the <i>wh</i>-phrase starts out in SPEC of TP and so does leave a trace there before moving to SPEC of CP. With certain further reasonable assumptions, the presence or absence of this trace accounts for the contrast between (23) and (24), and for the contrast that we saw earlier between finite auxiliary contraction and <i>wanna</i>-contraction in (1b) and (16). Under Barss&apos;s account, then, finite auxiliary contraction is just as sensitive to the presence of an A&prime;-trace as <i>wanna</i>-contraction is, but this sensitivity is not apparent in (23) because there is no A&prime;-trace in SPEC of TP. Unfortunately, perhaps, this account may not be fully compatible with some current assumptions. For instance, if we say that T has an EPP feature that needs to be checked, then the <i>wh</i>-phrase will need to stop in SPEC of TP even in structures like (23), and the contrast between (23) and (24) will be lost. At a minimum, though, Barss&apos;s analysis shows that one cannot be too quick to reject the possibility that finite auxiliary contraction has a syntactic basis.</p>
+<p>A fourth type of possible syntactic effect with finite auxiliary contraction comes from <link rid="b4">Radford (1997</link>). Radford points out that contraction between an auxiliary and a head is always perfect, as in (25), whereas contraction between an auxiliary and a phrase seems degraded, as in (26):</p>
+<p>(25)&ensp;<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>You&apos;ve upset her.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>They&apos;d probably refuse you if you asked them.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>We&rsquo;ll help you out.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>Who&apos;ve they chosen?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(26)&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*John and you&apos;ve got a lot in common.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*The Masai&apos;ve been driven out of their homeland.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*Di&apos;d like to be an ambassador for Britain.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>*Which one of you&apos;ve they chosen?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Why would this be? Radford proposes that contracted auxiliaries are affixal heads in T which are only legitimate PF objects if another head adjoins to them. Thus pronouns are able to adjoin and, as a result, check case, but full DPs are not. Contraction with full DPs is therefore ruled out.</p>
+<p>A few comments about the contrast between (25) and (26) are in order. First, as Radford points out, this contrast only obtains with the fully contracted forms of the auxiliaries, where what remains of the auxiliary is just a single consonant. Reduced auxiliaries, in which a schwa vowel is still present, are fine in (26). Second, Radford claims that the contrast is also restricted to those auxiliaries whose fully contracted forms can only attach to a previous vowel. Auxiliaries <i>have</i>, <i>had</i>, <i>would</i>, <i>will</i>, and <i>am</i> have this constraint on what they can be fully contracted with, but <i>has</i> and <i>is</i> do not, as seen in (27):</p>
+<p>(27)&ensp;<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Tom&apos;s been to the zoo several times.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The girl in the car&apos;s studying chemistry.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As (27) also shows, <i>has</i> and <i>is</i> are also not restricted to contracting with a head. Finally, not all combinations of full DPs and contracted auxiliaries of this class seem equally bad. (28), for instance, seems quite good, but the sentences in (29) are noticeably worse (when the auxiliaries are fully contracted):</p>
+<p>(28)&ensp;An Apache&apos;d never do something like that.</p>
+<p>(29)&ensp;<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry><sup>?</sup>*The Apache&apos;ve opened a new hotel.</entry>
+</row>
+<row><entry>b.</entry>
+<entry><sup>?</sup>*An Apache&rsquo;ll be waiting for you at the gate.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Clearly, then, the data need to be explored more deeply before firm conclusions can be drawn, but the contrast in (25) and (26) presents an intriguing case where syntax might be intimately involved in a constraint on finite auxiliary contraction.</p>
+</subsection>
+<subsection id="ss15" level="2">
+<heading id="h13" level="2">3.3&ensp;Conclusion</heading>
+<p>The literature offers no grand consensus on how finite auxiliary contraction is to be analyzed. We have seen that in some ways it appears to operate independently of syntax, such as in (16), where it seems to be oblivious to the presence of an A&prime;-trace. On the other hand, we have seen a number of cases where syntactic factors appear to be crucially involved. Even (16) may turn out to require a purely syntactic approach, as in Barss&apos;s account. For now, though, the question of the precise role of syntax in accounting for finite auxiliary contraction remains open.</p>
+</subsection>
+</subsection>
+<subsection id="ss16" level="1">
+<heading id="h14" level="1">4&ensp;Conclusion</heading>
+<p>It is often said that nature does not necessarily divide itself up the way our a priori ideas would lead us to expect. Within the realm of language, contraction is a perfect example of this, for two reasons. First, given that contraction involves the loss of segments and word boundaries, one would expect that accounting for it would be a matter for phonology. In fact, however, investigation has shown that contraction behaves, to one degree or another, in ways that are not consistent with a purely phonological analysis and that seem to require some recourse to syntax. Second, the fact that we use the term &lsquo;contraction&rsquo; does not mean that there is truly a unified phenomenon that this term refers to. We have seen that <i>wanna</i>-contraction and finite auxiliary contraction exhibit some significant differences, at least superficially, and whether they share any basic mechanisms is an empirical question that has yet to be fully resolved. As we explore other contraction phenomena in English and in other languages, it is good to keep in mind that there is no guarantee that they will in fact have much in common with what we have examined here beyond the descriptive label.</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss17" level="1" type="references">
+<heading id="h15" level="1">REFERENCES</heading>
+<reference id="b7" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Aoun</surname><x>, </x><forenames>Joseph</forenames>
+</name><x> and </x><name type="author">
+<forenames>David</forenames><x> </x><surname>Lightfoot</surname>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">Government and Contraction</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>15</volume><x>: </x><page type="first">465</page><x>&ndash;</x><page type="last">473</page><x>.</x>
+</reference>
+<reference id="b21" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Baker</surname><x>, </x><forenames>Carl<x> </x>L<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1971">1971</date><x>). </x><title type="document">Stress Level and Auxiliary Behavior in English</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>2</volume><x>: </x><page type="first">167</page><x>&ndash;</x><page type="last">181</page><x>.</x>
+</reference>
+<reference id="b16" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Baltin</surname><x>, </x><forenames>Mark</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Floating Quantifiers, PRO and Predication</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>26</volume><x>: </x><page type="first">199</page><x>&ndash;</x><page type="last">248</page><x>.</x>
+</reference>
+<reference id="b10" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Barss</surname><x>, </x><forenames>Andrew</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Extraction and Contraction</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>26</volume><x>: </x><page type="first">681</page><x>&ndash;</x><page type="last">694</page><x>.</x>
+</reference>
+<reference id="b18" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Boeckx</surname><x>, </x><forenames>Cedric</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">A Note on Contraction</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>31</volume><x>: </x><page type="first">357</page><x>&ndash;</x><page type="last">366</page><x>.</x>
+</reference>
+<reference id="b9" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bouchard</surname><x>, </x><forenames>Denis</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Empty Categories and the Contraction Debate</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>17</volume><x>: </x><page type="first">95</page><x>&ndash;</x><page type="last">104</page><x>.</x>
+</reference>
+<reference id="b20" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Bresnan</surname><x>, </x><forenames>Joan</forenames>
+</name>
+</namegroup><x> (</x><date date="1971">1971a</date>
+<miscellaneoustext>). Contraction and the Transformational Cycle in English. Unpublished manuscript, Bloomington, Indiana University Linguistics Club</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b19" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Carden</surname><x>, </x><forenames>Guy</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">The Debate about <i>Wanna</i>: Evidence from Other Contraction Rules</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Eighteenth Regional Meeting of the Chicago Linguistic Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Kevin</forenames><x> </x><surname>Tuite</surname>
+</name><x>, </x><name type="editor">
+<forenames>Robinson</forenames><x> </x><surname>Schneider</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Robert</forenames><x> </x><surname>Chametzky</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">38</page><x>&ndash;</x><page type="last">49</page><x>. </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society.</publisher>
+</reference>
+<reference id="b2" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="document">Conditions on Rules of Grammar</title><x>. </x><title type="journal">Linguistic Analysis</title><x> </x><volume>2</volume><x>: </x><page type="first">303</page><x>&ndash;</x><page type="last">351</page><x>.</x>
+</reference>
+<reference id="b26" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Diesing</surname><x>, </x><forenames>Molly</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990a</date>
+<miscellaneoustext>). The Syntactic Roots of Semantic Partition. PhD dissertation, University of Massachusetts</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b11" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Frantz</surname><x>, </x><forenames>Donald<x> </x>G<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978</date><x>). </x><title type="document">A New View of <i>To</i>-Contraction</title><x>. </x><title type="journal">Canadian Journal of Linguistics</title><x> </x><volume>24</volume><x>: </x><page type="first">137</page><x>&ndash;</x><page type="last">141</page><x>.</x>
+</reference>
+<reference id="b13" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Goodall</surname><x>, </x><forenames>Grant</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">
+<i>Wanna-</i>Contraction as Restructuring</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Interdisciplinary Approaches to Language: Essays in Honor of S<x>.</x>-Y<x>. </x>Kuroda</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>C.</forenames><x> </x><surname>Georgopoulos</surname>
+</name><x> and </x><name type="editor">
+<forenames>R.</forenames><x> </x><surname>Ishihara</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">239</page><x>&ndash;</x><page type="last">254</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer.</publisher>
+</reference>
+<reference id="b17" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hornstein</surname><x>, </x><forenames>Norbert</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">Movement and Control</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>30</volume><x>: </x><page type="first">69</page><x>&ndash;</x><page type="last">96</page><x>.</x>
+</reference>
+<reference id="b5" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Jaeggli</surname><x>, </x><forenames>Osvaldo</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="document">Remarks on <i>To</i> Contraction</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>11</volume><x>: </x><page type="first">239</page><x>&ndash;</x><page type="last">246</page><x>.</x>
+</reference>
+<reference id="b22" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kaisse</surname><x>, </x><forenames>Ellen</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="book">Connected Speech: The Interaction of Syntax and Phonology</title><x>. </x><address>San Diego</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference id="b24" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>King</surname><x>, </x><forenames>Harold<x> </x>V<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1970">1970</date><x>). </x><title type="document">On Blocking the Rules for Contraction in English</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>1</volume><x>: </x><page type="first">134</page><x>&ndash;</x><page type="last">136</page><x>.</x>
+</reference>
+<reference id="b1" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Lakoff</surname><x>, </x><forenames>George</forenames>
+</name>
+</namegroup><x> (</x><date date="1970">1970</date><x>). </x><title type="document">Global Rules</title><x>. </x><title type="journal">Language</title><x> </x><volume>46</volume><x>: </x><page type="first">627</page><x>&ndash;</x><page type="last">639</page><x>.</x>
+</reference>
+<reference id="b8" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lobeck</surname><x>, </x><forenames>Anne</forenames>
+</name><x> and </x><name type="author">
+<forenames>Ellen</forenames><x> </x><surname>Kaisse</surname>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">On the Domain of Locality Conditions</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Third West Coast Conference on Formal Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Mark</forenames><x> </x><surname>Cobler</surname>
+</name><x>, </x><name type="editor">
+<forenames>Susannah</forenames><x> </x><surname>MacKaye</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Michael</forenames><x> </x><surname>Wescoat</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">170</page><x>&ndash;</x><page type="last">178</page><x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications.</publisher>
+</reference>
+<reference id="b3" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Napoli</surname><x>, </x><forenames>Donna-Jo</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="book">Syntax: Theory and Problems</title><x>. </x><address>New York</address><x>: </x><publisher>Oxford University Press.</publisher>
+</reference>
+<reference id="b12" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Postal</surname><x>, </x><forenames>Paul<x> </x>M<x>.</x>
+</forenames>
+</name><x> and </x><name type="author">
+<forenames>Geoffrey</forenames><x> </x><surname>Pullum</surname>
+</name>
+</namegroup><x> (</x><date date="1978">1978</date><x>). </x><title type="document">Traces and the Description of English Complementizer Contraction</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>9</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">29</page><x>.</x>
+</reference>
+<reference id="b6" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Postal</surname><x>, </x><forenames>Paul<x> </x>M<x>.</x>
+</forenames>
+</name><x> and </x><name type="author">
+<forenames>Geoffrey</forenames><x> </x><surname>Pullum</surname>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">The Contraction Debate</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>13</volume><x>: </x><page type="first">122</page><x>&ndash;</x><page type="last">138</page><x>.</x>
+</reference>
+<reference id="b15" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Pullum</surname><x>, </x><forenames>Geoffrey</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">The Morpholexical Nature of English <i>To-</i>Contraction</title><x>. </x><title type="journal">Language</title><x> </x><volume>73</volume><x>: </x><page type="first">79</page><x>&ndash;</x><page type="last">102</page><x>.</x>
+</reference>
+<reference id="b4" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Radford</surname><x>, </x><forenames>Andrew</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="book">Syntactic Theory and the Structure of English: A Minimalist Approach</title><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b14" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Roberts</surname><x>, </x><forenames>Ian</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997b</date><x>). </x><title type="document">Restructuring, Head Movement and Locality</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>28</volume><x>: </x><page type="first">423</page><x>&ndash;</x><page type="last">460</page><x>.</x>
+</reference>
+<reference id="b23" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Wilder</surname><x>, </x><forenames>Chris</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">English Finite Auxiliaries in Syntax and Phonology</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Clitics, Pronouns, and Movement</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>James<x> </x>R<x>.</x>
+</forenames><x> </x><surname>Black</surname>
+</name><x> and </x><name type="editor">
+<forenames>Virginia</forenames><x> </x><surname>Motapanyane</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">321</page><x>&ndash;</x><page type="last">362</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference id="b25" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Zagona</surname><x>, </x><forenames>Karen</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date>
+<miscellaneoustext>). Government and Proper Government of Verbal Projections. PhD dissertation, Seattle, University of Washington</miscellaneoustext><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

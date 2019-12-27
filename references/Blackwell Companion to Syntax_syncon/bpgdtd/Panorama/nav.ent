@@ -1,0 +1,17 @@
+<!-- -//Synex Information AB//DTD Navigator Explorer//EN -->
+
+<!element toc-def (toc*)>
+<!attlist toc-def
+          dtd    cdata  #implied
+          name   cdata  #implied
+          scale  number #implied
+          min    number #implied
+          max    number #implied
+>
+
+<!element toc empty>
+<!attlist toc
+          body  cdata   #implied
+          title cdata   #implied
+>
+

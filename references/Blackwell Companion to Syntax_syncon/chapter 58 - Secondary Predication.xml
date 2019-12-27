@@ -1,0 +1,2104 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="58"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 58 - Secondary Predication.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">209</page>
+<page type="last">233</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="0"/>
+<count type="table" count="36"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="91"/>
+<count type="page" count="25"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051126"/>
+<trackingdate type="markedup" date="0000" by="christine tsai"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 58&ensp;Rothstein: Secondary Predication</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 58&ensp;Rothstein: Secondary Predication</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">58 Secondary Predication</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>SUSAN</forenames><x> </x><surname>ROTHSTEIN</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction: overview and historical background</p>
+</li>
+<li level="2">
+<number>1.1&ensp;</number>
+<p>Background and basic data</p>
+</li>
+<li level="2">
+<number>1.2&ensp;</number>
+<p>Early generative discussion of secondary predication</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Secondary predication as a form of predication</p>
+</li>
+<li level="2">
+<number>2.1&ensp;</number>
+<p>Williams&apos;s theory of predication</p>
+</li>
+<li level="2">
+<number>2.2&ensp;</number>
+<p>
+<link rid="b1">Rothstein (1983</link>) and syntactic predication</p>
+</li>
+<li level="2">
+<number>2.3&ensp;</number>
+<p>Are secondary predicates constituents of small clauses?</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>Depictives</p>
+</li>
+<li level="2">
+<number>3.1&ensp;</number>
+<p>Where are depictive predicates located in the tree?</p>
+</li>
+<li level="2">
+<number>3.2&ensp;</number>
+<p>The c-command restriction and objects of prepositions</p>
+</li>
+<li level="2">
+<number>3.3&ensp;</number>
+<p>What are the semantic constraints on depictives?</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>Resultatives</p>
+</li>
+<li level="2">
+<number>4.1&ensp;</number>
+<p>General issues</p>
+</li>
+<li level="2">
+<number>4.2&ensp;</number>
+<p>The syntactic structure of resultatives</p>
+</li>
+<li level="2">
+<number>4.3&ensp;</number>
+<p>The &lsquo;direct object&rsquo; restriction in resultatives, and non-thematic resultatives (including so-called &lsquo;fake&rsquo; reflexives)</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>Conclusion: recent developments</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1 Introduction: overview and historical background</heading>
+<subsection id="ss3" level="2">
+<heading id="h2" level="2">1.1 Background and basic data</heading>
+<p>The study of secondary predicates is important not only because of our interest in adequate descriptive grammars, but because of its theoretical relevance to at least two areas of grammatical theory: predication relations and aspect. This chapter will focus on secondary predication in English, where the construction is constrained in such a way as to make theoretical implications explicit. Where possible, reference will be made to studies in other languages and we will formulate the questions that these studies raise.</p>
+<p>Secondary predicates are of two kinds: the so-called depictive predicates, illustrated in (1), and resultatives, illustrated in (2) (where the terminology comes from <link rid="b2">Halliday 1967</link>):</p>
+<p>(1)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John<sub>i</sub> drove the car <i>drunk</i><sub>i</sub>.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Mary ate the carrots<sub>i</sub><i> uncooked</i><sub>i</sub>. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(2)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Jane painted the house<sub>i</sub><i> red</i><sub>i</sub>.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Bill wiped the table<sub>i</sub><i> clean</i><sub>i</sub>. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A depictive predicate attributes a property to its subject which holds of that subject all the time that the event denoted by the matrix verb is going on. Resultatives attribute a property to their subject which holds of that subject at the point that the event denoted by the matrix verb ends or culminates. Thus (1a) asserts that John drove the car and was drunk all the time that the driving event was going on, while (2a) asserts that Jane painted the house and at the end of the painting activity, the house was red. It has been suggested (<link rid="b3">Simpson 1983</link>) that there is a third kind of secondary predicate, the circumstantial, but this seems essentially to reduce to a depictive predicate under the scope of a modal operator.</p>
+<p>Although the existence of what are essentially secondary predicates had been noticed by a variety of grammarians (see, e.g., <link rid="b4">Jespersen 1954&ndash;1958</link>), the earliest detailed description of the phenomenon seems to be in <link rid="b2">Halliday (1967</link>). In his taxonomy of the grammatical constituents of a sentence, Halliday lists the &lsquo;attributive element&rsquo; (see section 3 of his paper), which is essentially the Adjective Phrase. Among the grammatical uses of the attributive AP that he mentions is the function of ascribing a property to a participant in a process, the nature of which is determined by the meaning of a (non-copula) matrix verb. He makes the crucial distinction, which is expressed morphologically in English by the absence or presence of the adverbial inflection, between an adverb, which gives a property of the process itself, and the attributive (usually adjectival) modifier, which gives a property of a participant in the process; contrast the depictive predicate in (3a) with the adverbial in (3b):</p>
+<p>(3)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John left the room angry.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John left the room angrily. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>For (3a) to be true requires John to be angry at the time that he left the room, while (3b) is compatible with John leaving the room in an angry fashion, though not actually being angry himself. &lsquo;John left the room angrily, although he was actually faking his displeasure&rsquo; is perfectly felicitous. &lsquo;John left the room angry, although he was actually faking his displeasure&rsquo; is infelicitous. (Secondary predicates can also be semantically distinguished from adverbs which are oriented toward a particular thematic participant, such as <i>reluctantly</i>. See discussion in <link rid="b5">Jackendoff 1972</link>; <link rid="b6">Napoli 1975</link>; <link rid="b7">McConnell-Ginet 1982</link>; <link rid="b8">Geuder 2000</link>; <link rid="b9">Rothstein 2004</link>.)</p>
+<p>Secondary predicates are most characteristically APs, although PP predicates are often found, and there is a restricted set of nominal predicates (examples of both are given in (4)). However, non-adjectival secondary predicates seem more often to be found as resultatives than as depictives:</p>
+<p>(4)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>She reached the house out of breath.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>He left the hospital a shade of his former self.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>John broke the vase into pieces.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>He painted the house a violent shade of scarlet. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>There appear to be no VP secondary predicates, although it has been suggested that at least some participial modifiers, such as the one in (5), should be treated as secondary predicates:</p>
+<p>(5)&ensp;She walked down the street searching for her wallet.</p>
+<p>Depictive and resultative predicates can be distinguished from each other by several syntactic and semantic properties, and attempts to explain these properties have been at the root of most studies of secondary predication.</p>
+<p>Depictives can be subject- or object-oriented, as the indexing in (1) indicates, while resultatives can (usually) only be object-oriented. Thus there is no resultative reading of (6) with the meaning that John painted the house and when the house was painted he was tired:</p>
+<p>(6)&ensp;John<sub>i</sub> painted the house tired<sub>i</sub>.</p>
+<p>As was pointed out by Jespersen and Halliday, resultatives in English allow so called &lsquo;fake reflexives&rsquo; in which both intransitive and detransitivized verbs (such as the single-argument form of <i>drunk</i>) can take a reflexive object which is not their thematic argument and which is the subject of a resultative predicate, as in (7):</p>
+<p>(7)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>He drank himself under the table.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The baby cried herself asleep. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(7a) means roughly &lsquo;He drank and at the culmination of the drinking event he was under the table&rsquo; (i.e., too drunk to sit on a chair), and (7b) means roughly &lsquo;The baby cried until she was asleep.&rsquo; These arguments are considered non-thematic because of the ungrammaticality of (8a, b) as opposed to (9) (where (9) should be compared with the examples in (2)):</p>
+<p>(8)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*He drank himself.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*The baby cried herself. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(9)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Jane painted the house.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Bill wiped the table. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Further, these non-thematic arguments need not be reflexive:</p>
+<p>(10)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John sang the baby asleep.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The audience laughed the players off the stage. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Depictive predicates cannot be predicated of non-thematic subjects; thus (11) cannot have the reading &lsquo;John drove while he/Mary was crazy&rsquo;:</p>
+<p>(11)&ensp;John drove himself/Mary crazy.</p>
+<p>A fundamental question is whether secondary predication structures are derived through syntactic or lexical operations. An obvious way to describe the semantic effect of secondary predication is that it results in the formation of a complex predicate. Thus whatever operation forms the secondary predication structure in (1a), it results in the formation of a complex predicate <i>drive the car drunk</i> which is applied to the subject <i>John.</i> Similarly, in (1b), a complex discontinuous predicate <i>ate</i> .&nbsp;.&nbsp;.&nbsp;<i>uncooked</i> is applied to the argument <i>the carrots</i>, while in (2a) <i>painted .&nbsp;.&nbsp;.&nbsp;red</i> is applied to the argument <i>the house.</i> However, the complex predicate formation operation can in principle be a lexical or a structural operation, with the complex predicate resulting either from a word-formation rule, or from an operation on either syntactic or semantic structures, applied during the construction of the sentence. Syntacticians (with some notable exceptions, indicated below) have tended to assume a syntactic adjunction structure, based in part on the fact that verb and predicate are never adjacent and never form a constituent (unlike verb&ndash;particle pairs), in part on the data in (29a), which indicate that the secondary predicate subject-oriented depictive is not part of the V&prime;, and in part on the desire to maintain a unified analysis for all the constructions illustrated above. Semantic analyses (e.g., <link rid="b10">Dowty 1979</link>) have often assumed a lexical predicate formation rule for resultatives, and remained agnostic about depictives, although <link rid="b11">Wunderlich (1997a</link>) treats both kinds of secondary predicate constructions as the output of a lexical operation.</p>
+</subsection>
+<subsection id="ss4" level="2">
+<heading id="h3" level="2">1.2 Early generative discussion of secondary predication</heading>
+<p>Resultative predication became a topic of interest for generative formal semanticists in the 1970s (see, e.g., <link rid="b12">McCawley 1970</link>; <link rid="b13 b10">Dowty 1972, 1979</link>; <link rid="b14">Green 1972</link>). Resultatives were discussed in the context of analyses of the underlying structure of accomplishment verbs. In an aspectual characterization of verbs, &lsquo;process&rsquo; events were divided by <link rid="b15">Vendler (1967a</link>) into activity verbs heading atelic VPs, such as <i>run</i> and <i>push the cart</i>, and accomplishment verbs heading telic VPs, such as <i>paint the room</i> and <i>build the castle</i>. <link rid="b10">Dowty (1979</link>: 91&ndash;99) summarized and developed the arguments for analyzing accomplishment verbs as decomposable into an underlying logical structure &lsqb;&phis; CAUSE &psi;&rsqb;, where &phis; is an activity sentence and &psi; contains a sentence embedded under the predicate BECOME. (This is the so-called &lsquo;bisentential analysis of CAUSE&rsquo;.) Under this analysis, (9a) is analyzed roughly as in (12a), and by analogy (10a) would be analyzed as (12b):</p>
+<p>(12)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;&lsqb;Jane did some painting to the house&rsqb; &lsqb;CAUSE &lsqb;BECOME &lsqb;the house painted&rsqb;&rsqb;&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;&lsqb;John did some singing&rsqb; &lsqb;CAUSE &lsqb;BECOME &lsqb;the baby asleep&rsqb;&rsqb;&rsqb;&rsqb;. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Resultative phrases in general, and non-thematic resultatives in particular, were seen to support this analysis of accomplishments, since (i) sentences such as those in (10) seem to indicate explicitly that the grammatical template &phis; CAUSE&lsqb;BECOME &psi;&rsqb;&rsqb; is available in the language, and (ii) non-thematic reflexives show that the template could be used in an overt lexical operation which derives a phrasal accomplishment from an activity verb and an independent resultative predicate.</p>
+<p>The intuition that non-thematic resultatives involve the construction of non-lexical accomplishment verbs is at the heart of many later analyses of resultative predication, and a great deal of research into resultatives since <link rid="b10">Dowty (1979</link>) can be seen as an attempt to make this intuition precise, and to examine its syntactic consequences. <link rid="ss9">Section 3</link> below discusses this issue in detail.</p>
+<p>While interest in secondary predication in the 1970s was semantic, and focused on resultative predication, syntactic interest in secondary predication built up around the beginning of the 1980s. Syntacticians analyzed depictive and resultative predication as different instantiations of the same phenomenon.</p>
+<p>Edwin <link rid="b16">Williams&apos;s seminal (1980</link>) paper &ldquo;Predication&rdquo; explicitly made the leap of recognizing secondary predication as an instantiation of the same relation that is involved in clausal predication, and opened the way for discussion of what exactly that relation is and how secondary and primary predication differ. <link rid="b16">Williams (1980</link>) implicitly, and <link rid="b3">Simpson (1983</link>) followed by <link rid="b1">Rothstein (1983</link>) explicitly, followed <link rid="b2">Halliday (1967</link>), who argued that resultative and depictive predication are themselves two instantiations of the secondary predication relation. In this they differed from, e.g., <link rid="b10 b17">Dowty (1979, 1982a</link>), who argued that resultative predication is the result of a lexical operation of complex verb formation, while depictive predication is adjunct predication.</p>
+<p>The syntactic questions about secondary predication which interested syntacticians centered on questions of licensing, and for those working in a Government-Binding framework, the discussion focused, at least initially, on depictive predicates. The questions asked were: (i) where subject-oriented and object-oriented predicates are generated, and (ii) whether the predicate is a sister of its apparent subject, or whether it forms a small clause with a PRO subject, where PRO is obligatorily controlled by the apparent subject. Thus (13b, c) were competing structures for the object-oriented reading of (13a):</p>
+<p>(13)&ensp;<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John met Mary<sub>i</sub> angry<sub>i</sub>.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John &lsqb;met Mary<sub>i</sub> angry<sub>i</sub>&rsqb;<sub>VP</sub>.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>John &lsqb;met Mary<sub>i</sub>&rsqb; &lsqb;PRO<sub>i</sub> angry&rsqb;<sub>SC</sub>. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Co-indexing in (13b) indicates predication, while in (13c) it indicates obligatory control. (Since we will not discuss the issues involved in determining the categorial status of small clauses here, I purposely do not indicate either the syntactic position or the categorial properties of small clauses, but label them &lsquo;SC&rsquo;. See also the discussion in <link rid="ss10">section 3.1</link> below.)</p>
+<p>Government-Binding theory in the early 1980s, following the lead of <link rid="b18">Chomsky (1981</link>), essentially came down in favor of (13c), with the exceptions being the work of <link rid="b16 b19">Williams (1980, 1983a</link>, and succeeding papers), <link rid="b1">Rothstein (1983</link>), and <link rid="b20">Schein (1995</link>). The point of contention was the status of the theta-criterion, i.e., the constraint on the assignment of thematic roles. <link rid="b18">Chomsky (1981</link>) argued that the theta-criterion was essentially to be formulated as follows:</p>
+<listgroup id="l2" type="text">
+<li>
+<number>(14)&ensp;</number>
+<p><b>Theta-criterion</b> (<link rid="b18">Chomsky 1981</link>):</p>
+<p>
+<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>(i)</entry>
+<entry>Every argument must be assigned one and only one thematic role.</entry>
+</row>
+<row><entry>(ii)</entry>
+<entry>Each thematic role must be assigned to one and only one argument. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>This formulation rules out the possibility of one nominal argument being simultaneously the argument of more than one lexical head, and thus (13b) is immediately an illegal structure. Linguists who argued in favor of (13b) were forced to reformulate the theta-criterion in such a way as to allow double theta-marking in the case of secondary predication. <link rid="b19">Williams (1983a</link>) argued that the domain of the theta-criterion should be the argument structure of the lexical head, ruling out the possibility of an argument being assigned two thematic roles by a single head, but allowing two separate heads to share an argument. Similar proposals were explored by others.</p>
+<p>Linguists who accepted the theta-criterion as in (14) and thus adopted structure (13c) were forced to deal with a different problem, namely what position in the tree would allow the PRO subject of the small clause to be ungoverned. The difficulty in answering this question led some (including Chomsky himself) to argue that there were cases in which PRO was not ungoverned. Discussion of depictive predicates focused on these structural issues, although there was some discussion also of the semantic constraints on depictive predication, in particular of the apparent constraint that the depictive has to denote a &lsquo;transitory&rsquo; or possibly stage-level property (<link rid="b1">Rothstein 1983</link>; <link rid="b21 b22">Rapoport 1991, 1999b</link>). For the most part, however, discussion of depictive predicates centered on the structural issues, while discussion of resultatives stayed mostly in the domain of lexical semantics. It was argued that the &lsquo;direct object restriction&rsquo; on resultatives could not follow from purely structural considerations, but must follow from aspectual considerations, such as the role of the direct object in &lsquo;measuring out&rsquo; or determining the telic point of the event denoted by the verb, and the role of the resultative itself in delimiting the verb. See <link rid="b23 b24">Tenny (1987, 1994</link>), <link rid="b25">Levin and Rappaport Hovav (1995</link>), and others.</p>
+<p>Work in the 1990s began to discuss the semantic relationship between depictives and resultatives, moving the discussion of secondary predication as a general phenomenon back from the domain of predication theory to the domain of theories of aspect.</p>
+<p>The structure of this chapter is as follows. <link rid="ss5">Section 2</link> discusses the syntactic issues raised by secondary predication. This section is largely about secondary predicates and predication theory in general. <link rid="ss9">Section 3</link> focuses on syntactic discussion of depictive predication, and <link rid="ss13">section 4</link> on resultatives. <link rid="ss17">Section 5</link> discusses some more recent developments in theories of secondary predication, which bring the topic squarely back into the domain of theories of aspect.</p>
+</subsection>
+</subsection>
+<subsection id="ss5" level="1">
+<heading id="h4" level="1">2 Secondary predication as a form of predication</heading>
+<subsection id="ss6" level="2">
+<heading id="h5" level="2">2.1 Williams&apos;s theory of predication</heading>
+<p>
+<link rid="b16">Williams (1980</link>) is a crucial point in the development of the theory of predication in general. He argues that predication is a relation between a maximal projection and a nominal argument, and that the relation is to be defined in terms of thematic role assignment:</p>
+<p>(15)&ensp;A predicate &alpha; is a maximal projection which assigns an external theta-role.</p>
+<p>The subject of a predicate &alpha; is that NP which is assigned a thematic role by &alpha;.</p>
+<p>He furthermore claims that there is a strict structural relation between subject and predicate, namely that the subject must c-command and be c-subjacent to the predicate, where &alpha; c-commands &bgr; if every branching node which dominates &alpha; also dominates &bgr;, and &alpha; does not dominate &bgr;, and where &alpha; is c-subjacent to &bgr; if &bgr; is dominated by no more than one branching node which does not dominate &alpha;. Thus, Williams proposes that the predication relation should be defined in terms of thematic relations which themselves can be regulated by configurational relations. He makes several predictions about possible distribution of secondary predicates; in particular, the configurational c-command constraint rules out the possibility of prepositional objects being the subjects of secondary predication, and thus predicts the contrasts in (16) and (17), as well as others (on the assumption, which is supported by syntactic arguments, that the secondary predicate in (16b) is not inside the PP):</p>
+<p>(16)&ensp;<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>I presented it to John dead.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*I presented John with it dead. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(17)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John loaded the wagon full with hay.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John loaded the hay into the wagon green.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*John loaded the wagon with hay green.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>*John loaded the hay onto the wagon full. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Examples like (18), however, indicate that there are thematic constraints on what the subject of a depictive can be, since (18b) is as unacceptable as (18a). On the basis of this kind of example, Williams argues that within the VP the secondary predicate is predicated of the theme:</p>
+<p>(18)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*John gave the book to Mary<sub>i</sub> sick<sub>i</sub>.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*John gave Mary<sub>i</sub> the book sick<sub>i</sub>. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+<subsection id="ss7" level="2">
+<heading id="h6" level="2">2.2 <link rid="b1">Rothstein (1983</link>) and syntactic predication</heading>
+<p>
+<link rid="b1">Rothstein (1983</link>) argues that the predication relation is a essentially a non-thematic relation, and that this shows up in the fact that predicates can be predicated of pleonastic subjects, as in the small clause in (19):</p>
+<p>(19)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John considers it unlikely that they will arrive on time.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>They made it impossible for anyone to win the lottery. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Rothstein argues that secondary predication is an instantiation of the same relation as clausal, or primary, predication, but that for reasons to do with licensing, there must also be a thematic relation between the secondary predicate and its subject. Primary predicates form a constituent with their subjects, and this constituent is licensed either by being tensed, or by being theta-marked, as in the case of small clauses such as those illustrated in (19). Secondary predicates do not form a constituent with their subjects (following the structure in (13b)), and are essentially adjuncts. The adjunct is licensed because it is predicated of an argument which is independently licensed as the thematic argument of another head.</p>
+</subsection>
+<subsection id="ss8" level="2">
+<heading id="h7" level="2">2.3 Are secondary predicates constituents of small clauses?</heading>
+<p>The general syntactic issue discussed in Government-Binding theory concerns whether or not a secondary predicate is generated as the daughter of a small clause. The issue concerns both depictive and resultative predicates, but for the most part, discussion in the GB literature has centered on depictives. <link rid="b18">Chomsky (1981</link>: <related relationship="sibling" type="samework"><externallink id="chapter 2 - Adjectival Passives.xml" type="file">chapter 2.6</externallink></related>) briefly discusses depictive predicates in the context of the correct formulation of the theta-criterion. As noted above, <i>Lectures on Government and Binding</i> proposes that the theta-criterion, or condition on thematic role assignment, is a bi-uniqueness condition, formulated as in (14), repeated here as (20):</p>
+<listgroup id="l3" type="1">
+<li>
+<number>(20)&ensp;</number>
+<p><b>Theta-criterion</b> (<link rid="b18">Chomsky 1981</link>):</p>
+<p>
+<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>(i)</entry>
+<entry>Every argument must be assigned one and only one thematic role.</entry>
+</row>
+<row><entry>(ii)</entry>
+<entry>Each thematic role must be assigned to one and only one argument. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>Chomsky notes that Williams&apos;s examples of secondary predicates (from <link rid="b16">Williams 1980</link>) are a problem for this principle, and proposes that in order to maintain the bi-uniqueness of the theta-criterion, the secondary predicate should be predicated of a PRO subject, and the correct interpretation of the subject should be given by the theory of control. Examples are given in (21), where (21b) is ambiguous between a subject-oriented and an object-oriented reading:</p>
+<p>(21)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John &lsqb;left the room&rsqb;<sub>VP</sub> &lsqb;PRO angry&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John &lsqb;met Mary&rsqb;<sub>VP</sub> &lsqb;PRO angry&rsqb;. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Chomsky distinguishes structurally between secondary predicates, which occur in adjunct small clauses, as in (21), and small-clause complements, such as those in (22) where the subject of the small clause is not the thematic argument of the matrix verb, and where the subject cannot be PRO:</p>
+<p>(22)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John considers &lsqb;Mary a genius&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*John considers &lsqb;PRO a genius&rsqb;. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Since (22b) is ruled out by the condition that PRO must be ungoverned, the structures in (21) require the small clause containing the depictive to be in an ungoverned position. As <link rid="ss10">section 3.1</link> shows, there is strong evidence that secondary predicates in general must be inside the VP, with object-oriented predicates generated under V&prime;. This means that under standard definitions of government, in which a head &alpha; governs everything which &alpha; m-commands (i.e., which is dominated by the maximal projection which &alpha; heads), it is impossible for the small clause to be in a non-governed position (see discussion in <link rid="b26">McNulty 1988</link>). Chomsky does not discuss this in detail, but he raises the possibility that while theta-marked small clauses are transparent for government, and thus cannot have a PRO subject, non-theta-marked small clauses are opaque for government, so that their subject position is not governed and allows PRO. The position that (21) is the correct structure for secondary predicates is held also by <link rid="b27">Safir (1983</link>), <link rid="b28">Stowell (1983</link>), <link rid="b29">Hornstein and Lightfoot (1987</link>), and, more recently, <link rid="b30">Franks and Hornstein (1992</link>), who draw on data from Russian, and <link rid="b31">Legendre (1997</link>), who draws on data from French to argue that secondary predicates are constituents of small clauses that are projections of the functional head Gender, and that the small clause is thus a Gender Phrase.</p>
+<p>
+<link rid="b16 b19 b32">Williams (1980, 1983a, 1987</link>), <link rid="b20">Schein (1995</link>), and <link rid="b1 b33 b34">Rothstein (1983, 1995, 2001a</link>) all reject the structural proposal in (21), and assume that the secondary predicate is generated without a subject, as a daughter of some projection of the V. <link rid="b19">Williams (1983a</link>) argues explicitly against small clauses in either the cases illustrated in (21) or the ECM verbs represented by <i>consider</i> in (22). Schein takes the same position, while <link rid="b1 b33">Rothstein (1983, 1995</link>) argues that (22) is the correct structure for thematically marked small-clause complements of ECM verbs, but that there is no small clause in the case of adjunct predicates. The authors bring several arguments in against (21). <link rid="b19">Williams (1983a</link>) argues that the correct way to capture the thematic independence of the secondary predicate from the main predicate is not to give it a PRO subject, but to revise the theta-criterion so that it states that no argument may be theta-marked more than once by the same head. <link rid="b20">Schein (1995</link>) argues that non-thematic resultatives such as those illustrated in (23), where the argument of the secondary predicate is not theta-marked by the verbal head, presumably form small clauses with their subjects on Chomsky&apos;s theory, yet although these small clauses are not theta-marked, they cannot have PRO subjects, as (24) shows:</p>
+<p>(23)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John ran the soles off his shoes.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Bill sang the baby asleep.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(24)&ensp;<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*John ran PRO off his shoes.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Bill sang PRO asleep.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Rothstein argues that there is good reason to assume that small clauses must be licensed by theta-marking, and that in (21), there is no way to license the small clauses. She uses the structural distinction between adjunct predication and complement small-clause predication to argue for the distinction between primary and secondary predication; primary predication occurs when the subject and predicate form a constituent, and it is a condition on primary predication that the subject is not theta-marked outside the constituent in which it occurs. On this account, (21) is inadequate, since it makes it impossible to distinguish between primary and secondary predication. (She discusses the problem of how to license the small clauses in (23) in <link rid="b34">Rothstein 2001a</link>.) Other linguists have argued for and used a non-small-clause analysis of secondary predication; these include <link rid="b35">Roberts (1988a</link>), <link rid="b36">Napoli (1989</link>), <link rid="b37">Speas (1990</link>), <link rid="b38">Carrier and Randall (1992</link>), and <link rid="b39">Neeleman (1994a</link>), who argues that in Dutch the predicate and the verbal head form a complex predicate. Obviously, studies of secondary predication within a framework such as Lexical Functional Grammar (e.g., <link rid="b3">Simpson 1983</link>), which do not allow empty categories, have assumed a non-small-clause analysis throughout.</p>
+</subsection>
+</subsection>
+<subsection id="ss9" level="1">
+<heading id="h8" level="1">3 Depictives</heading>
+<subsection id="ss10" level="2">
+<heading id="h9" level="2">3.1 Where are depictive predicates located in the tree?</heading>
+<p>Early syntactic work on secondary predicates for the most part followed Halliday in identifying depictives and resultatives as instantiations of the same mechanism. (As already mentioned, formal and generative semanticists differed from this in arguing from the beginning that resultative predication is the result of a lexical word-formation rule, while depictive predication is the result of syntactic complex predicate formation during the process of derivation. See, e.g., <link rid="b13 b10 b17">Dowty 1972, 1979, 1982a</link>.) However, syntacticians tended to discuss the syntax of the two phenomena independently. Studies of depictive predication centered on two questions, one syntactic and one semantic. The syntactic question concerns where depictive predicates, and in particular, subject-oriented predicates, occur in the tree (i.e., under V&prime;, under VP, or not in the VP at all), and the related issue of the relevance of the mutual c-command constraint (i.e., that subjects and their predicates must c-command each other). This question does not arise with resultatives, since they appear to be predicates of direct objects, or subjects which have been raised from direct object position (but see the discussion in <link rid="ss17">section 5</link> below). The issue of syntactic position is independent of the issue of whether secondary predicates have a PRO subject or not, although it is related. If the subject of secondary predicate is PRO and the predicate and subject are part of a small clause, then they by definition c-command each other, and the question of interpreting PRO reduces to control theory. For that reason, the question of whether subject-oriented predicates are within the VP and the apparent conflict between VP-internal predicates and the c-command constraint has most concerned those who argue against a small-clause approach. However, the c-command constraint is also at stake in the analysis of secondary predicates and prepositional objects, as discussed in <link rid="ss11">section 3.2</link>. below. The semantic question focuses on what the semantic restrictions on the choice of depictive predicates are, but this has so far received much less attention in the literature.</p>
+<p>
+<link rid="b16">Williams (1980</link>) argues that the structural relation between subject and (secondary) predicate is based on c-command: the subject must c-command the predicate and be c-subjacent to it, where &alpha; is c-subjacent to &bgr; iff &bgr; is dominated by no more than one branching node which does not dominate &alpha;. <link rid="b1">Rothstein (1983</link>) argues that the relevant relation is mutual c-command. It is fairly straightforward to argue that an object-oriented depictive is generated under the V&prime; as a sister to the V and its direct object, as in (25):</p>
+<p>(25)&ensp;Mary &lsqb;&lsqb;ate&rsqb;<sub>V</sub> &lsqb;the carrots&rsqb;<sub>DP</sub> &lsqb;raw&rsqb;<sub>AP</sub>&rsqb;<sub>VP</sub>.</p>
+<p>However, the situation is more complicated with subject-oriented predicates as in (26):</p>
+<p>(26)&ensp;John drove the car drunk.</p>
+<p>
+<link rid="b1">Rothstein (1983</link>) claims that the mutual c-command condition predicts that these subject-oriented predicates are outside the VP, and <link rid="b20">Schein (1995</link>) proposes the same structure. Schein bases his arguments on facts about agreement in Russian, described in <link rid="b40">Pesetsky (1982</link>), and on quantifier-variable facts. The Russian data discussed by Pesetsky show that an adjunct predicate which has instrumental case can only be predicated of a direct object, while subject-oriented predicates must be in the nominative form. Schein argues that, under the assumption that instrumental case is assigned under government by V, this implies that a subject-oriented predicate cannot be governed by V, and thus must be outside the VP. Strictly speaking, though, it shows only that instrumental case must be assigned within VP and not that nominative case cannot be assigned to a VP-internal predicate. (See also <link rid="b30">Franks and Hornstein 1992</link> and <link rid="b41">Filip 2001</link> for more discussion of case-assignment facts with respect to Russian secondary predicates.) Schein also discusses the contrasts in (27):</p>
+<p>(27)&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Everyone<sub>i</sub> left Mary angrier at herself than he<sub>i</sub> thought.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Mary left everyone<sub>i</sub> angrier at herself than he<sub>i</sub> thought. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (27a) the pronoun can be bound by <i>everyone</i> but in (27b) it cannot, indicating that when the secondary predicate is predicated of the subject, it is higher than the direct object.</p>
+<p>However, tests for placement of adverbials presented in <link rid="b42">Andrews (1982</link>) indicate clearly that these secondary predicates should be part of the VP although placed higher than the object-oriented predicates. This was pointed out in <link rid="b26">McNulty (1988</link>), <link rid="b21">Rapoport (1991</link>), <link rid="b33 b34">Rothstein (1995, 2001a</link>), and others. Andrews uses VP preposing, <i>though</i>-movement, and clefting tests, and applied to secondary predicates, the tests show that the secondary predicate is part of the VP:</p>
+<p>(28)&ensp;<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John<sub>i</sub> said he would drive the car drunk<sub>i</sub> and drive the car drunk<sub>i</sub> he<sub>i</sub> did.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Drive the car drunk<sub>i</sub> though he<sub>i</sub> did . . .</entry>
+</row>
+<row><entry>c.</entry>
+<entry>What John<sub>i</sub> did was drive the car drunk<sub>i</sub>. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>However, (29a) shows that subject-oriented depictives may be stranded by pseudoclefting, while (29b) shows that in object-oriented depictives, this is not possible:</p>
+<p>(29)&ensp;<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>What John<sub>i</sub> did drunk<sub>i</sub> was drive the car.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*What John did raw<sub>i</sub> was eat the carrots<sub>i</sub>. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In sum, the data show that a subject-oriented predicate can, but need not, be stranded by pseudoclefting, while an object-oriented predicate may not be stranded. Since, as is well known, pseudoclefting can target either the VP or the V&prime; constituent, the conclusion to be drawn from (27&ndash;29) is that the object-oriented predicate is the daughter of V&prime;, while the subject-oriented predicate is daughter of VP. As such, the subject-oriented predicate will be higher than the direct object and the contrast in (29) will be explained.</p>
+<p>
+<link rid="b35">Roberts (1988a</link>) uses these facts to argue for VP-internal subjects. He shows that positing the structures in (30) allows one to maintain the mutual c-command constraint on predication, and to put subject-oriented secondary predicates inside the VP, where Andrews&apos;s tests predict that they should be:</p>
+<p>(30)&ensp;<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;e &lsqb;Mary<sub>i</sub> &lsqb;left the room&rsqb;<sub>V&prime;</sub> angry<sub>i</sub>&rsqb;<sub>VP</sub>&rsqb;<sub>IP</sub>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;e &lsqb;Mary<sub>i</sub> &lsqb;ate the carrots<sub>i</sub> raw<sub>i</sub>&rsqb;<sub>V&prime;</sub>&rsqb;<sub>VP</sub>&rsqb;<sub>IP</sub>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b33 b34">Rothstein (1995, 2001a</link>) solves the conflict between the mutual c-command condition on predication and the evidence that subject-oriented predicates are VP internal in a different way. She argues that predicates which do not c-command a subject are absorbed into the predicate which dominates them by a syntactic process of complex predicate formation. In the case of <i>left the room angry</i>, <i>angry</i> is absorbed into the VP headed by <i>left</i> and the whole complex predicate is predicated of the subject. She argues that this is a better solution than <link rid="b35">Roberts&apos;s (1988a</link>), since it applies also to subcategorized predicates, as in (31), which must be included in the V&prime;:</p>
+<p>(31)&ensp;Mary &lsqb;&lsqb;feels happy&rsqb;<sub>V&prime;</sub>&rsqb;<sub>VP</sub>
+</p>
+</subsection>
+<subsection id="ss11" level="2">
+<heading id="h10" level="2">3.2 The c-command restriction and objects of prepositions</heading>
+<p>
+<link rid="b16">Williams (1980</link>) argues that the c-command restriction rules out predicating secondary predicates of prepositional objects, as in the examples given in (16&ndash;17) above and repeated here as (32&ndash;33):</p>
+<p>(32)&ensp;<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>I presented it to John dead.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*I presented John with it dead. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(33)&ensp;<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John loaded the wagon full with hay.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John loaded the hay into the wagon green.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*John loaded the wagon with hay green.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>*John loaded the hay onto the wagon full. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl> </insitu>
+</objectsource>
+</object>
+</p>
+<p>Williams notes the potential counter-example in (34), and argues that in this case <i>think of</i> has been reanalyzed as a single verb:</p>
+<p>(34)&ensp;He thought of John as silly.</p>
+<p>Since V&plus;P reanalysis is what is assumed to take place in pseudo-passives, we might well expect to get a correlation between prepositional objects which can host secondary predicates and prepositional objects which can be passivized, as in (35):</p>
+<p>(35)&ensp;John was thought of as silly.</p>
+<p>In case-marking languages, the restriction that (non-reanalyzed) prepositional objects cannot host secondary predicates seems to be transferred to oblique marked objects. <link rid="b43">Levin and Simpson (1981</link>) and <link rid="b40">Pesetsky (1982</link>) argue that oblique objects cannot host secondary predicates. <link rid="b20">Schein (1995</link>) argues that oblique case and prepositions should thus both be represented as P, and then in case-marking languages too, the restriction will reduce to the c-command constraint. However, examples like (36) indicate that the constraint may be thematic rather than structural. (36b) is as unacceptable as (36a) (both repeated from (18) above):</p>
+<p>(36)&ensp;<object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*John gave the book to Mary<sub>i</sub> sick<sub>i</sub>.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*John gave Maryi<sub>i</sub> the book sick<sub>i</sub>. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The dative direct object in (36b) can be the antecedent for an anaphor in VP, as in (37), and this supports the hypothesis that the restriction is thematic and not structural, and indeed, Williams claims that within the VP the secondary predicate is predicated of the theme:</p>
+<p>(37)&ensp;<object id="tu28" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu28_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry><sup>??</sup>John gave the book about herself to every girl.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John gave every girl a book about herself. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b44">Demonte (1987</link>) brings interesting data from Spanish into the discussion. She is responding to arguments by <link rid="b45">Bresnan (1982d</link>) and <link rid="b46">Zubizarreta (1987</link>), who claim that the distribution of secondary predicates should be reduced to the theory of control. Demonte argues that Romance, specifically Spanish, makes a distinction between true prepositions and dummy case-marking prepositions. She shows that DP complements of dummy case-marking prepositions can host secondary predicates, while complements of true prepositions cannot. She argues that this is because true prepositions head PP phrases, while dummy prepositions are invisible to X-bar theory and do not project PPs. This still does not show unequivocally that the constraint is structural rather than thematic, since it is plausible that true prepositions and not dummy prepositions introduce thematic roles. Demonte&apos;s argument is the converse of Schein&apos;s: Schein proposes that oblique case is represented as P, while Demonte argues that dummy case-marking prepositions should be invisible for the calculation of c-command relations. The discussion of oblique objects is further complicated by work by <link rid="b47">Nichols (1978</link>) and <link rid="b48">Simpson (1991</link>) (cf. <related relationship="sibling" type="samework"><externallink id="chapter 57 - Secondary Predicates in Australian Languages.xml" type="file">chapter 57</externallink></related>), who report that in Finnish and Warlpiri respectively, oblique arguments may host secondary predicates. It is clear that much more work must be done on the relation between oblique case, oblique arguments, prepositions, and thematic marking before we can make progress on understanding this issue.</p>
+<subsection id="ss12" level="3">
+<heading id="h11" level="3">3.3 What are the semantic constraints on depictives?</heading>
+<p>
+<link rid="b1">Rothstein (1983</link>) points out that there are semantic constraints on depictive predicates. It seems to be the case that the depictive must express a property which is non-inherent. Thus there are contrasts such as (38):</p>
+<p>(38)&ensp;<object id="tu29" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu29_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Mary met John drunk.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Mary met John tall.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>I eat tomatoes fresh.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>*I eat tomatoes non-synthetic. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Clearly the restrictions are context-dependent:</p>
+<p>(39)&ensp;<object id="tu30" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu30_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry><sup>??</sup>I bought the blouse green.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>I bought the blouse green but then I dyed it black. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>There has been some, but not much, discussion of this in the literature, mainly in the context of the investigation of the contrast between stage- and individual-level predicates (see, e.g., <link rid="b49">McNally 1993</link>), with attempts being made to explain (38) as a restriction that secondary predicates must be stage-level. <link rid="b21">Rapoport (1991</link>) offers an essentially semantic explanation in terms of linking event arguments of the verbal and adjectival predicates, based on <link rid="b50">Kratzer&apos;s (1995</link>) proposal that stage-level predicates have an event argument and individual-level predicates do not (see also <link rid="b22">Rapoport 1999b</link>). However, work on adjectival modification (<link rid="b51">Condoravdi 1992</link>; <link rid="b52">Greenberg 1998</link>) has shown that the stage/individual-level distinction is unlikely to correlate with the presence or absence of an event argument. Condoravdi argues that there are individual-level predicates which can be used as secondary predicates, for example (40), and that the restriction in (38) is pragmatic rather than semantic.</p>
+<p>(40)&ensp;He was born a Republican and he died a Republican.</p>
+<p>Another area which remains to be investigated is the relation between secondary predication and APs used as absolutives, as discussed in <link rid="b53">Stump (1985</link>) and illustrated in the construction in (41), which are adjuncts with a much freer semantic distribution than secondary predicates:</p>
+<p>(41)&ensp;Drunk, he walked down the street.</p>
+</subsection>
+</subsection>
+</subsection>
+<subsection id="ss13" level="1">
+<heading id="h12" level="1">4 Resultatives</heading>
+<subsection id="ss14" level="2">
+<heading id="h13" level="2">4.1 General issues</heading>
+<p>The two crucial syntactic properties which characterize resultative predication in English are: (i) the apparent object-orientedness of the predicates, as illustrated in (42); and (ii) the fact that resultatives can be predicated of an argument which is not a thematic argument of the matrix verb, illustrated in (43):</p>
+<p>(42)&ensp;<object id="tu31" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu31_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John painted the house<sub>i</sub> red<sub>i</sub>.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*John<sub>i</sub> painted the house tired<sub>i</sub>. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(43)&ensp;<object id="tu32" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu32_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Bill ran the soles of his shoes<sub>i</sub> thin<sub>i</sub>.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The audience laughed the actors<sub>i</sub> off the stage<sub>i</sub>.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>John ate himself<sub>i</sub> sick<sub>i</sub>. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (43a, b) the matrix verb is an intransitive, which is nonetheless case marking the subject of the resultative (as discussed in <link rid="b54">Rothstein 1992</link>), while in (43c) the matrix verb is a transitive verb, which is no longer assigning the normal thematic role to its syntactic object. Thus while (42a) entails that John painted the house, the examples in (43) do not entail that Bill ran the soles of his shoes, that the audience laughed the actors, or that John ate himself. An obvious syntactic question is whether transitive and intransitive (or non-thematic) resultatives have the same syntactic structure. Syntactic research into resultatives has centered on these questions, but it has been apparent from the beginning that resultative predication is an aspectual phenomenon, and that the syntactic constraints will not be understood without understanding the lexical and semantic issues involved (see, e.g., <link rid="b10">Dowty 1979</link> and <link rid="b55">Hoekstra 1988</link>, who both come to this conclusion from radically different theoretical assumptions). In particular, linguists have tried to derive the so-called &lsquo;direct object restriction&rsquo; and the facts about non-thematic resultatives from intuitions about the aspectual function of resultatives, as for example in the work of <link rid="b56">Bach (1980</link>), <link rid="b23 b24">Tenny (1987, 1994</link>), <link rid="b55">Hoekstra (1988</link>), <link rid="b57">Levin and Rapoport (1988</link>), and <link rid="b21">Rapoport (1991</link>), to name but a few.</p>
+<p>The first relevant fact here is that resultatives can be added freely to transitive verbs without changing their meaning or aspectual properties only if the verb is an accomplishment. Thus (42a) contrasts with (44), where the matrix verb denotes an activity where (44a) is ungrammatical and (44b) is marginal, and requires interpreting the V &plus; resultative as a complex telic verb with the meaning &lsquo;stir <i>x</i> until <i>x</i> is liquid&rsquo;:</p>
+<p>(44)&ensp;<object id="tu33" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu33_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*John pushed the cart broken.</entry>
+</row>
+<row><entry>b.</entry>
+<entry><sup>?</sup>John stirred the soup liquid. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl> </insitu>
+</objectsource>
+</object>
+</p>
+<p>The second relevant fact is that intransitive resultatives illustrated in (43) involve reinterpreting an intransitive atelic activity-denoting verb as a verb denoting a telic event whose end-point is determined in some sense by the resultative.</p>
+<p>In addition to these issues, there are a number of other questions concerning resultatives which have been noted, and which it is hoped that a general theory of the construction will explain. For example, <link rid="b25">Levin and Rappaport Hovav (1995</link>) and <link rid="b58">Tortora (1998</link>) discuss the apparent incompatibility of resultatives with verbs of inherently directed motion, and (as discussed below) it becomes clear that in some cases there is in fact no clear agreement on whether a predicate phrase is really a resultative. Another fruitful area of research has been cross-linguistic comparison of constraints on resultatives, in particular <link rid="b59">Napoli&apos;s (1992</link>) comparison of resultatives in Italian and English, <link rid="b39">Neeleman&apos;s (1994a</link>; <link rid="b60">Neeleman and Weerman 1993</link>) work on resultatives in Dutch, and <link rid="b61">Kim and Maling&apos;s (1997</link>) papers on Korean resultatives.</p>
+</subsection>
+<subsection id="ss15" level="2">
+<heading id="h14" level="2">4.2 The syntactic structure of resultatives</heading>
+<p>On the assumption (which has been questioned: see below) that resultative predication is restricted to taking a direct object as subject, the mutual c-command constraint causes no problems. The syntactic issue has instead revolved around what structure should be assigned to intransitive resultatives, and whether transitive and intransitive resultatives should be assigned the same structure. Prima facie, the structure of (42a) should be as in (45):</p>
+<p>(45)&ensp;John &lsqb;&lsqb;painted &lsqb;the house&rsqb;<sub>i</sub> &lsqb;red&rsqb;<sub>i</sub>&rsqb;<sub>V&prime;</sub>&rsqb;<sub>VP</sub>.</p>
+<p>This structure correctly implies that the nominal <i>the house</i> is the thematic argument of the matrix verb, and that the AP is an adjunct of some kind. Dropping the adjunct does not affect the grammaticality of the structure, and this correlates with the semantic fact that (42a) entails that John painted the house. On the assumption that all resultatives have the same grammatical function, and that all are adjuncts, the structure for (43a) should be (46):</p>
+<p>(46)&ensp;Bill &lsqb;&lsqb;ran &lsqb;the soles of his shoes&rsqb;<sub>i</sub> &lsqb;thin&rsqb;<sub>i</sub>&rsqb;<sub>V&prime;</sub>&rsqb;<sub>VP</sub>.</p>
+<p>But this incorrectly implies that the adjunct <i>thin</i> is optional in this structure, and that (43a) entails that Bill ran the soles of his shoes. A more convincing structure for (43a) is (47), where the resultative predicate and its subject form a small clause, indicating that the predicate is necessary to license the nominal argument:</p>
+<p>(47)&ensp;Bill &lsqb;ran &lsqb;the soles of his shoes<sub>i</sub> thin<sub>i</sub>&rsqb;<sub>SC</sub>&rsqb;<sub>VP</sub>.</p>
+<p>There are three possible approaches to take to this issue. One is that both transitive and intransitive resultatives have the same &lsquo;flat&rsquo; structure as in (45&ndash;46) and that the difference in entailments follows from the assignments of thematic roles: in case the matrix verb does theta-mark the direct object, the entailment holds, and if the theta-marking relation doesn&apos;t occur, then the entailment doesn&apos;t hold either. This is the position adopted by <link rid="b16">Williams (1980</link>) and succeeding papers, and, most notably, <link rid="b38">Carrier and Randall (1992</link>). The second approach is to assign both transitive and intransitive resultative constructions the small clause structure in (47). Thus (42a) would be assigned the structure in (48):</p>
+<p>(48)&ensp;John &lsqb;painted &lsqb;the house<sub>i</sub> red<sub>i</sub>&rsqb;<sub>SC</sub>&rsqb;<sub>VP</sub>.</p>
+<p>This line of argument is associated with <link rid="b55 b62">Hoekstra (1988, 1992</link>), who builds on the similarities between the resultative construction and verb&ndash;particle constructions. He shows that the small-clause analysis he gives parallels the analysis of verb&ndash;particle constructions given by <link rid="b63">Kayne (1984a</link>). The difference in entailments between transitive and intransitive resultatives is derived from the workings of a lexical-semantic operation which integrates the verb and the resultative predicate into a complex which denotes a single event.</p>
+<p>The third approach is to assume that transitive and intransitive resultatives have different structures. This is argued by <link rid="b54 b34">Rothstein (1992, 2001a</link>), although in recent work (<link rid="b64 b9">Rothstein 2003, 2004</link>) she presents an analysis of the semantics of resultatives which is compatible both with her earlier assumptions and with the assumption that all resultatives have the structure in (45).</p>
+<p>Yet another approach to the syntactic structure of resultatives is taken by <link rid="b60">Neeleman and Weerman (1993</link>) and <link rid="b39">Neeleman (1994a</link>), with respect to Dutch. They argue that in Dutch, resultatives are adjoined to the V at D-structure. Like Hoekstra, they observe the similarities between resultatives and particles, but they observe also differences in behavior which lead them to analyze particles as elements which are adjoined to V in the morphological component rather than the syntax. Explicit differences between the syntax of Dutch and English, such as the fact that V &plus; resultative may move as a constituent in Dutch but not in English, mean that their analysis is not easily applicable to the English data. Yet a different approach is taken in <link rid="b65">Winkler (1997</link>), who argues for a complex predicate analysis of resultative constructions.</p>
+</subsection>
+<subsection id="ss16" level="2">
+<heading id="h15" level="2">4.3 The &lsquo;direct object&rsquo; restriction in resultatives, and non-thematic resultatives (including so-called &lsquo;fake&rsquo; reflexives)</heading>
+<p>The facts about resultatives, as has already been discussed above, are that they can normally be predicated only of direct objects and can take neither oblique objects nor sentential subjects as their subject. The exceptions have been subjects of passive sentences and subjects of verbs which have been argued to be unaccusative, such as <i>freeze</i>. On the assumption that passives and unaccusatives involve syntactic movement to subject position, leaving a co-indexed trace in object position, the relevant resultative constructions are given in (49):</p>
+<p>(49)&ensp;<object id="tu34" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu34_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The house<sub>i</sub> was painted t<sub>i</sub> red<sub>i</sub>.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The river<sub>i</sub> froze t<sub>i</sub> solid<sub>i</sub>. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Assuming a movement analysis of unaccusatives and passives thus allows the preservation of the &lsquo;direct object&rsquo; restriction; <link rid="b25">Levin and Rappaport Hovav (1995</link>) use the distribution of &lsquo;subject-oriented&rsquo; resultatives to argue for a syntactic (i.e., movement) analysis of unaccusativity. They argue that in the context of the direct object restriction, a movement account of apparently unaccusative verbs in English, together with a movement account of passive, is the best way to explain when subject-oriented resultatives are possible (but see below in <link rid="ss17">section 5</link> for a revision of this opinion). The direct object restriction is clearly related to the distribution of so-called &lsquo;fake&rsquo; reflexives, the intuition being that inserting a reflexive after an intransitive verb and predicating the resultative of this reflexive is a way to circumvent the restriction on predicating resultatives directly of subjects. This is illustrated in (50):</p>
+<p>(50)&ensp;<object id="tu35" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu35_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*John laughed sick.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John laughed himself sick. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>However, examples such as (51), where the non-thematic argument is not a reflexive but a nominal with independent lexical content, indicate that the fake reflexive construction is more than a &lsquo;last resort&rsquo; mechanism:</p>
+<p>(51)&ensp;They laughed John off the stage.</p>
+<p>
+<link rid="b3">Simpson&apos;s (1983</link>) principle that the controller (i.e., subject) of a resultative must be a grammatical direct object at some level of structure covers the data descriptively, but does not explain why the direct object restriction holds, or how the reflexive in (50) or the accusative-marked nominal in (51) can be introduced as objects. <link rid="b54">Rothstein (1992</link>) suggests that these objects are case-marked by the matrix verb and thematically licensed by the resultative, but this leaves open the question of why a subject-oriented resultative is not generally possible. <link rid="b10">Dowty (1979</link>) already made it clear that the principles governing the introduction of resultatives are to be found in an understanding of how aspectual classification works. He shows that resultatives can be introduced with accomplishment verbs, in which case they give information about the telic point of the accomplishment, or they can be introduced with activity verbs, in which case they force the derivation of a complex verb constructed out of V &plus; resultative predicate which has the meaning of an accomplishment. Based on the templates in (12) above, a lexical accomplishment like <i>x build y</i> means roughly something like &lsquo;<i>x</i> does an activity of building <i>y</i> and this causes <i>y</i> to become built&rsquo; &ndash; a complex accomplishment derived out of an activity; and a resultative like <i>x sing y asleep</i> means roughly &lsquo;<i>x</i> does a singing activity and this causes <i>y</i> to become asleep&rsquo;. The difference between the lexical and the derived complex accomplishment is thus that in the latter the activity and the result are specified by different lexical items, while in the former both are specified by the same lexical item. Similar approaches include, e.g., <link rid="b55 b62">Hoekstra (1988, 1992</link>), <link rid="b57">Levin and Rapoport (1988</link>), <link rid="b23 b24">Tenny (1987, 1994</link>), <link rid="b66">Pustejovsky (1991</link>), and van <link rid="b67">Valin (1990</link>).</p>
+<p>
+<link rid="b23 b24">Tenny (1987, 1994</link>) is explicit about how this relates to the direct object restriction on resultatives. Following <link rid="b10 b68">Dowty (1979, 1991</link>), <link rid="b69">Krifka (1992</link>), and others, Tenny discusses how the function of the direct object in accomplishments is to &lsquo;measure out&rsquo; the progress of the eventuality, with the telic point being reached when the direct object, or theme, is intuitively &lsquo;used up&rsquo;. Thus an event of painting a house is over when the house is all painted, and an event of eating an apple is over when the apple is eaten up. Tenny argues that themes are delimiters (&lsquo;incremental themes&rsquo; in <link rid="b68">Dowty&apos;s 1991</link> terminology), and that the restriction is that delimiters are within V&prime;. Since the function of the resultative is also to delimit, it too should be part of the V&prime;.</p>
+<p>Discussion of resultatives took a new turn around 1997, with a series of works which argue against the direct object restriction on resultatives. These include <link rid="b70">Wechsler (1997</link>), <link rid="b71">Verspoor (1997</link>), and <link rid="b72">Rappaport Hovav and Levin (2001</link>), who all claim that there exist some genuine subject-oriented resultatives (i.e., resultatives whose subject-orientation cannot be reduced to deep structure object-orientation). (<link rid="b61">Kim and Maling 1997</link> claim that subject-oriented resultatives are possible in Korean too.)</p>
+<p>The relevant examples include the following ((52a&ndash;b) are from <link rid="b70">Wechsler 1997</link>, (52c) from <link rid="b71">Verspoor 1997</link>, and (52d) from <link rid="b72">Rappaport Hovav and Levin 2001</link>, who cite similar examples from <link rid="b55">Hoekstra 1988</link>):</p>
+<p>(52)&ensp;<object id="tu36" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu36_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The wise men followed the star out of Bethlehem.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The sailors caught a breeze and rode it clear of the rocks.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>John walked the dog to the store/across the park.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>The elevator creaked to the ground floor. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Both <link rid="b70">Wechsler (1997</link>) and Rappaport Hovav and <link rid="b73">Levin (1999</link>) give explanations in terms of the relations that different types of eventualities may have to their results. Wechsler argues that only &lsquo;canonical results&rsquo; may be subject-oriented, while Rappaport Hovav and Levin argue that subject-oriented resultatives are possible only if the event denoted by the resultative and the event denoted by the matrix verb can be conflated, by which essentially they mean that the temporal development of the two events is parallel. These papers have brought to the fore a number of examples which have been insufficiently discussed in the literature, though it still remains unclear whether they are to be analyzed as genuine resultatives. <link rid="b9">Rothstein (2004</link>), for example, argues that since all apparent subject-oriented resultatives are locative expressions (whether PPs or, much more rarely, APs), they are better analyzed as denoting incremental path arguments in the sense of <link rid="b74">Krifka (1998a</link>). This group of papers revives the very basic issue about when a predicate is to be analyzed as a resultative, a question which is also raised by <link rid="b58">Tortora (1998</link>), who argues that, contra <link rid="b25">Levin and Rappaport Hovav (1995</link>), the achievement &plus; PP in (53) should also be analyzed as a resultative:</p>
+<p>(53)&ensp;John arrived at the station.</p>
+</subsection>
+</subsection>
+<subsection id="ss17" level="1">
+<heading id="h16" level="1">5 Conclusion: recent developments</heading>
+<p>A relatively recent development in the study of secondary predication has been a renewed interest in attempts to give a unified explicit semantics for depictives and resultatives, and in relating this to more general constraints on complex predicate formation. This has resulted in, among others, papers by <link rid="b75 b76">Cormack and Smith (1994, 1999</link>) and <link rid="b64 b9">Rothstein (2003, 2004</link>), which analyze secondary predication as an operation of predicate conjunction, where the conjunction operation is constrained in a way in which it is not in ordinary conjunction, such as is expressed by the operator <i>and</i>. Cormack and Smith hypothesize that secondary predication is an operation which essentially shares the properties of serial verb formation, a hypothesis which is also put forward by <link rid="b77">Larson (1991</link>) and <link rid="b78">Collins (1997a</link>). Cormack and Smith claim that secondary predication (both depictive and resultative) and serial verb formation involve an asymmetric conjunction operator, with differing constraints on event structure deriving the differences between different constructions such as depictive and resultative predication. <link rid="b78">Collins (1997a</link>), in the context of the debate about argument sharing in serial verb constructions, argues that serial verb formation necessarily involves internal argument sharing between predicates, and that Ewe serial verbs and English resultatives are both to be analyzed as control structures, where the second predicate incorporates into the first at LF. The difference between Ewe and English then essentially reduces to categorial restrictions on the second predicate &ndash; in English it cannot be verbal and thus the output is not, in English, a serial verb. <link rid="b64 b9">Rothstein (2003, 2004</link>) argues that both depictive and resultative predication are the result of a summing operation which sums a verbal and a non-verbal predicate, each denoting events, where the denotation of the predicates is related via the relation &lsquo;time&ndash;participant connected&rsquo;. Two events e and e&prime; are time&ndash;participant connected under the condition that e and e&prime; have the same running time, and that they share a thematic participant. Depictives differ minimally from resultatives: with depictives the two events which must be time&ndash;participant connected are the event denoted by the verbal predicate and the event denoted by the secondary predicate, while with resultatives the relation holds between the event which is the culmination of the event denoted by the verb, and the event given by the secondary predicate. The relation between this work and the papers by Cormack and Smith and Collins has yet to be explored, but the connection between serial verb formation and secondary predication seems a fruitful avenue to explore, and it places the study of secondary predication squarely in the domain of verb aspect and complex predicate formation in the verbal domain.</p>
+<p>Another area in which much research is going on is secondary predication in languages other than English. For example, there have been a number of recent papers examining secondary predication in Japanese (<link rid="b79">Takezawa 1993</link>; <link rid="b80">Koizumi 1994</link>; <link rid="b81">Miyamoto 1996</link>), in Korean (<link rid="b82">Kim 1993</link>; <link rid="b61">Kim and Maling 1997</link>; <link rid="b83 b84">Washio 1997, 1999</link>; <link rid="b85">Wechsler and Noh 2001</link>), and in Russian (<link rid="b41">Filip 2001</link>; <link rid="b86">Strigin and Demjjanow 2001</link>; <link rid="b87">Demjjanow and Strigin 2003</link>); These have of course raised the question of what properties of secondary predication in English are shared cross-linguistically, and what properties characterize secondary predication cross-linguistically which do not show up in English. The papers on Russian have raised the issue of the syntactic constraints on and semantic relevance of case assignment in secondary predicate constructions. <link rid="b85">Wechsler and Noh (2001</link>) have argued, contra <link rid="b61">Kim and Maling (1997</link>), that the direct object restriction does hold in Korean resultative secondary predication, and that apparent counter-examples occur because resultatives can also be expressed via a non-predicative construction involving clause linking.</p>
+<p>The issue of whether secondary predication is the result of a lexical or a structural operation has also received renewed attention in the last few years, especially in <link rid="b39">Neeleman (1994a</link>), <link rid="b65">Winkler (1997</link>), and <link rid="b11">Wunderlich (1997a</link>). Differences between Germanic (i.e., German, Dutch, and closely related languages) and English also raise the possibility that what is a structural operation in one language may be a lexical operation in the other. Further cross-linguistic work on both the syntactic structure and semantic interpretation of secondary predication constructions should deepen our understanding of these issues.</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss18" level="1" type="references">
+<heading id="h17" level="1">REFERENCES</heading>
+<reference id="b42" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Andrews</surname><x>, </x><forenames>Avery</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">A Note on the Constituent Structure of Adverbials and Auxiliaries</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>13</volume><x>: </x><page type="first">313</page><x>&ndash;</x><page type="last">317</page><x>.</x>
+</reference>
+<reference id="b56" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bach</surname><x>, </x><forenames>Emmon</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="document">In Defense of Passive</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>3</volume><x>: </x><page type="first">297</page><x>&ndash;</x><page type="last">341</page><x>.</x>
+</reference>
+<reference id="b45" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Bresnan</surname><x>, </x><forenames>Joan</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982d</date><x>). </x><title type="document">The Passive in Lexical Theory</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Mental Representation of Grammatical Relations</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Joan</forenames><x> </x><surname>Bresnan</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">3</page><x>&ndash;</x><page type="last">86</page><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b38" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Carrier</surname><x>, </x><forenames>Jill</forenames>
+</name><x> and </x><name type="author">
+<forenames>Janet</forenames><x> </x><surname>Randall</surname>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">The Argument Structure and Syntactic Structure of Resultatives</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>23</volume><x>: </x><page type="first">173</page><x>&ndash;</x><page type="last">234</page><x>.</x>
+</reference>
+<reference id="b18" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="book">Lectures on Government and Binding</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986b</date><x>). </x><title type="book">Knowledge of Language: Its Nature, Origin and Use</title><x>. </x><address>New York</address><x>: </x><publisher>Praeger</publisher><x>.</x>
+</reference>
+<reference id="b78" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Collins</surname><x>, </x><forenames>Chris</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997a</date><x>). </x><title type="document">Argument Sharing in Serial Verb Constructions</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>28</volume><x>: </x><page type="first">461</page><x>&ndash;</x><page type="last">497</page><x>.</x>
+</reference>
+<reference id="b51" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Condoravdi</surname><x>, </x><forenames>Cleo</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date>
+<miscellaneoustext>). Individual Level Predicates in Conditional Clauses. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Yale University</address><x>.</x>
+</reference>
+<reference id="b75" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Cormack</surname><x>, </x><forenames>Annabel</forenames>
+</name><x> and </x><name type="author">
+<forenames>Neil</forenames><x> </x><surname>Smith</surname>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">Serial Verbs</title><x>. </x><title type="journal">Working Papers in Linguistics</title><x> </x><volume>6</volume><x>: </x><page type="first">63</page><x>&ndash;</x><page type="last">88</page><x>.</x>
+</reference>
+<reference id="b76" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Cormack</surname><x>, </x><forenames>Annabel</forenames>
+</name><x> and </x><name type="author">
+<forenames>Neil</forenames><x> </x><surname>Smith</surname>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">Why are Depictives Different from Resultatives?</title><x> </x><title type="journal">Working Papers in Linguistics</title><x> </x><volume>11</volume><x>: </x><page type="first">251</page><x>&ndash;</x><page type="last">284</page><x>.</x>
+</reference>
+<reference id="b87" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Demjjanow</surname><x>, </x><forenames>Assinja</forenames>
+</name><x> and </x><name type="author">
+<forenames>Anatoli</forenames><x> </x><surname>Strigin</surname>
+</name>
+</namegroup><x> (</x><date date="2003">2003</date><x>). </x><title type="document">Real Adjuncts in Instrumental in Russian</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Modifying Adjuncts</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ewald</forenames><x> </x><surname>Lang</surname>
+</name><x>, </x><name type="editor">
+<forenames>Claudia</forenames><x> </x><surname>Maienborn</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Cathrine</forenames><x> </x><surname>Fabricius-Hansen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>Berlin</address><x>: </x><publisher>Mouton</publisher><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Demonte</surname><x>, </x><forenames>Violeta</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Predication and Passive</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Generative Studies in Spanish Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ivonne</forenames><x> </x><surname>Bordelois</surname>
+</name><x>, </x><name type="editor">
+<forenames>Heles</forenames><x> </x><surname>Contreras</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Karen</forenames><x> </x><surname>Zagona</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">51</page><x>&ndash;</x><page type="last">66</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b44" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Demonte</surname><x>, </x><forenames>Violeta</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">C-Command, Prepositions and Predication</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>18</volume><x>: </x><page type="first">147</page><x>&ndash;</x><page type="last">157</page><x>.</x>
+</reference>
+<reference id="b13" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Dowty</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972</date>
+<miscellaneoustext>). Studies in the Logic of Verb Aspect and Time Reference in English. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Austin, University of Texas</address><x>.</x>
+</reference>
+<reference id="b10" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Dowty</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date><x>). </x><title type="book">Word Meaning and Montague Grammar: The Semantics of Verbs and Times in Generative Semantics and Montague&apos;s PTQ</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Reidel</publisher><x>.</x>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Dowty</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982a</date><x>). </x><title type="document">Grammatical Relations and Montague Grammar</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Nature of Syntactic Representation</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Pauline</forenames><x> </x><surname>Jacobson</surname>
+</name><x> and </x><name type="editor">
+<forenames>Geoffrey</forenames><x> </x><surname>Pullum</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">79</page><x>&ndash;</x><page type="last">130</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b68" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Dowty</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Thematic Proto-Roles and Argument Selection</title><x>. </x><title type="journal">Language</title><x> </x><volume>67</volume><x>: </x><page type="first">547</page><x>&ndash;</x><page type="last">619</page><x>.</x>
+</reference>
+<reference id="b41" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Filip</surname><x>, </x><forenames>Hana</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">The Semantics of Case in Russian Secondary Predicates</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of SALT XI</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Rachel</forenames><x> </x><surname>Hastings</surname>
+</name><x>, </x><name type="editor">
+<forenames>Brendan</forenames><x> </x><surname>Jackson</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Zsofia</forenames><x> </x><surname>Zvolenszky</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>Ithaca</address><x>: </x><publisher>Cornell University Press</publisher><x>.</x>
+</reference>
+<reference id="b30" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Franks</surname><x>, </x><forenames>Steven</forenames>
+</name><x> and </x><name type="author">
+<forenames>Norbert</forenames><x> </x><surname>Hornstein</surname>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Secondary Predicates in Russian and Proper Government of PRO</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Control and Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Richard</forenames><x> </x><surname>Larson</surname>
+</name><x>, </x><name type="editor">
+<forenames>Utpal</forenames><x> </x><surname>Lahiri</surname>
+</name><x>, </x><name type="editor">
+<forenames>Sabine</forenames><x> </x><surname>Iatridou</surname>
+</name><x>, and </x><name type="editor">
+<forenames>James</forenames><x> </x><surname>Higginbotham</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b8" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Geuder</surname><x>, </x><forenames>Wilhelm</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date>
+<miscellaneoustext>). Oriented Adverbs: Issues in the Lexical Semantics of Event Adverbs. PhD dissertation</miscellaneoustext><x>, </x>
+<address>University of Konstanz</address><x>.</x>
+</reference>
+<reference id="b14" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Green</surname><x>, </x><forenames>Georgia</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972</date><x>). </x><title type="document">Some Observations on the Syntax and Semantics of Instrumental Verbs</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Eighth Regional Meeting of the Chicago Linguistic Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Paul<x> </x>M<x>.</x>
+</forenames><x> </x><surname>Peranteau</surname>
+</name><x>, </x><name type="editor">
+<forenames>Judith<x> </x>N<x>.</x>
+</forenames><x> </x><surname>Levi</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Gloria<x> </x>C<x>.</x>
+</forenames><x> </x><surname>Phares</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">83</page><x>&ndash;</x><page type="last">97</page><x>. </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society</publisher><x>.</x>
+</reference>
+<reference id="b52" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Greenberg</surname><x>, </x><forenames>Yael</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">An Overt Syntactic Marker for Genericity in Hebrew</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Events and Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Susan</forenames><x> </x><surname>Rothstein</surname>
+</name>
+<miscellaneoustext> (ed.)</miscellaneoustext><x>.</x>
+</namegroup><x> </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b2" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Halliday</surname><x>, </x><forenames>Michael</forenames>
+</name>
+</namegroup><x> (</x><date date="1967">1967</date><x>). </x><title type="document">Notes on Transitivity, Part I</title><x>. </x><title type="journal">Journal of Linguistics</title><x> </x><volume>3</volume><x>: </x><page type="first">37</page><x>&ndash;</x><page type="last">81</page><x>.</x>
+</reference>
+<reference id="b55" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hoekstra</surname><x>, </x><forenames>Teun</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Small Clause Results</title><x>. </x><title type="journal">Lingua</title><x> </x><volume>74</volume><x>: </x><page type="first">101</page><x>&ndash;</x><page type="last">139</page><x>.</x>
+</reference>
+<reference id="b62" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hoekstra</surname><x>, </x><forenames>Teun</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Aspect and Theta Theory</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Thematic Structure: Its Role in Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Iggy</forenames><x> </x><surname>Roca</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">145</page><x>&ndash;</x><page type="last">174</page><x>. </x><address>Berlin</address><x>: </x><publisher>Mouton</publisher><x>.</x>
+</reference>
+<reference id="b29" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hornstein</surname><x>, </x><forenames>Norbert</forenames>
+</name><x> and </x><name type="author">
+<forenames>David</forenames><x> </x><surname>Lightfoot</surname>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Predication and PRO</title><x>. </x><title type="journal">Language</title><x> </x><volume>63</volume><x>: </x><page type="first">23</page><x>&ndash;</x><page type="last">52</page><x>.</x>
+</reference>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Jackendoff</surname><x>, </x><forenames>Ray</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972</date><x>). </x><title type="book">Semantic Interpretation in Generative Grammar<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b4" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Jespersen</surname><x>, </x><forenames>Otto</forenames>
+</name>
+</namegroup><x> (</x><date date="1954">1954&ndash;1958</date><x>). </x><title type="book">A Modern English Grammar on Historical Principles</title>
+<x>. </x><miscellaneoustext>7 vols</miscellaneoustext><x>. </x>
+<address>London</address><x>: </x><publisher>Allen and Unwin</publisher><x>.</x>
+</reference>
+<reference id="b63" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984a</date><x>). </x><title type="book">Connectedness and Binary Branching<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b82" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kim</surname><x>, </x><forenames>Jong-Bok</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Syntax and Semantics of Korean Resultative Constructions</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Harvard Studies in Korean Linguistics V</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Susumu</forenames><x> </x><surname>Kuno</surname>
+</name><x>, </x><name type="editor">
+<forenames>Ik-Hwan</forenames><x> </x><surname>Lee</surname>
+</name><x>, </x><name type="editor">
+<forenames>J.</forenames><x> </x><surname>Whitman</surname>
+</name><x>, </x><name type="editor">
+<forenames>Joan</forenames><x> </x><surname>Maling</surname>
+</name><x>, </x><name type="editor">
+<forenames>Young-Se</forenames><x> </x><surname>Kang</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Yang-Joo</forenames><x> </x><surname>Kim</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">471</page><x>&ndash;</x><page type="last">482</page><x>. </x><address>New Haven</address><x>: </x><publisher>Harvard University Linguistics Department</publisher><x>.</x>
+</reference>
+<reference id="b61" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kim</surname><x>, </x><forenames>Soonwon</forenames>
+</name><x> and </x><name type="author">
+<forenames>Joan</forenames><x> </x><surname>Maling</surname>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">A Cross-Linguistic Perspective on Resultative Formation</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Syntax and Semantics of Predication</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ralph<x> </x>C<x>.</x>
+</forenames><x> </x><surname>Blight</surname>
+</name><x> and </x><name type="editor">
+<forenames>Michelle<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Moosally</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">189</page><x>&ndash;</x><page type="last">204</page><x>. </x><address>Austin</address><x>: </x><publisher>University of Texas</publisher><x>.</x>
+</reference>
+<reference id="b80" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Koizumi</surname><x>, </x><forenames>Masatoshi</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">Secondary Predicates</title><x>. </x><title type="journal">Journal of East Asian Linguistics</title><x> </x><volume>3</volume><x>: </x><page type="first">25</page><x>&ndash;</x><page type="last">79</page><x>.</x>
+</reference>
+<reference id="b50" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kratzer</surname><x>, </x><forenames>Angelika</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Stage-Level and Individual-Level Predicates</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Generic Book</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Gregory<x> </x>N<x>.</x>
+</forenames><x> </x><surname>Carlson</surname>
+</name><x> and </x><name type="editor">
+<forenames>Francis<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Pelletier</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">125</page><x>&ndash;</x><page type="last">175</page><x>. </x><address>Chicago</address><x>: </x><publisher>University of Chicago Press</publisher><x>.</x>
+</reference>
+<reference id="b69" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Krifka</surname><x>, </x><forenames>Manfred</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Thematic Relations as Links between Nominal Reference and Temporal Constitution</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Lexical Matters</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ivan</forenames><x> </x><surname>Sag</surname>
+</name><x> and </x><name type="editor">
+<forenames>Anna</forenames><x> </x><surname>Szabolsci</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>Chicago</address><x>: </x><publisher>University of Chicago Press</publisher><x>.</x>
+</reference>
+<reference id="b74" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Krifka</surname><x>, </x><forenames>Manfred</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998a</date><x>). </x><title type="document">The Origins of Telicity</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Events and Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Susan</forenames><x> </x><surname>Rothstein</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">197</page><x>&ndash;</x><page type="last">235</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b77" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Larson</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Some Issues in Verb Serialization</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Serial Verbs: Grammatical, Comparative and Cognitive Approaches</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Claire</forenames><x> </x><surname>Lefebvre</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">185</page><x>&ndash;</x><page type="last">210</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b31" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Legendre</surname><x>, </x><forenames>G&eacute;raldine</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Secondary Predication and Functional Projections in French</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>15</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">45</page><x>.</x>
+</reference>
+<reference id="b57" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Levin</surname><x>, </x><forenames>Beth</forenames>
+</name><x> and </x><name type="author">
+<forenames>Tova<x> </x>R<x>.</x>
+</forenames><x> </x><surname>Rapoport</surname>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Lexical Subordination</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Twenty-Fourth Regional Meeting of the Chicago Linguistic Society</title><x>.</x><namegroup type="editors">
+<name type="editor">
+<x> </x><forenames>Lynn</forenames><x> </x><surname>MacLeod</surname>
+</name><x>, </x><name type="editor">
+<forenames>Gary</forenames><x> </x><surname>Larson</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Diane</forenames><x> </x><surname>Brentari</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">275</page><x>&ndash;</x><page type="last">289</page><x>. </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society</publisher><x>.</x>
+</reference>
+<reference id="b25" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Levin</surname><x>, </x><forenames>Beth</forenames>
+</name><x> and </x><name type="author">
+<forenames>Malka<x> </x>Rappaport</forenames><x> </x><surname>Hovav</surname>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="book">Unaccusativity at the Syntax&ndash;Lexical Semantics Interface<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b73" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Levin</surname><x>, </x><forenames>Beth</forenames>
+</name><x> and </x><name type="author">
+<forenames>Malka<x> </x>Rappaport</forenames><x> </x><surname>Hovav</surname>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">Two Structures for Compositionally Derived Events</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of SALT IX</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Tanya</forenames><x> </x><surname>Matthews</surname>
+</name><x> and </x><name type="editor">
+<forenames>Devon</forenames><x> </x><surname>Strolovitch</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>New York</address><x>: </x><publisher>Cornell Linguistics Circle</publisher><x>.</x>
+</reference>
+<reference id="b43" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Levin</surname><x>, </x><forenames>Lori</forenames>
+</name><x> and </x><name type="author">
+<forenames>Jane</forenames><x> </x><surname>Simpson</surname>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="document">Quirky Case and Lexical Representations of Icelandic Verbs</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Seventeenth Regional Meeting of the Chicago Linguistic Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Roberta</forenames><x> </x><surname>Hendrick</surname>
+</name><x>, </x><name type="editor">
+<forenames>Carrie</forenames><x> </x><surname>Masek</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Mary<x> </x>F<x>.</x>
+</forenames><x> </x><surname>Miller</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">185</page><x>&ndash;</x><page type="last">196</page><x>. </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society</publisher><x>.</x>
+</reference>
+<reference id="b12" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>McCawley</surname><x>, </x><forenames>James</forenames>
+</name>
+</namegroup><x> (</x><date date="1970">1970</date><x>). </x><title type="document">English as a VSO Language</title><x>. </x><title type="journal">Language</title><x> </x><volume>46</volume><x>: </x><page type="first">286</page><x>&ndash;</x><page type="last">299</page><x>.</x>
+</reference>
+<reference id="b7" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>McConnell-Ginet</surname><x>, </x><forenames>Sally</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">Adverbs and Logical Form</title><x>. </x><title type="journal">Language</title><x> </x><volume>58</volume><x>: </x><page type="first">144</page><x>&ndash;</x><page type="last">184</page><x>.</x>
+</reference>
+<reference id="b49" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>McNally</surname><x>, </x><forenames>Louise</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Adjunct Predicates and the Individual/Stage Level Distinction</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Twelfth West Coast Conference on Formal Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Erin</forenames><x> </x><surname>Duncan</surname>
+</name><x>, </x><name type="editor">
+<forenames>Donka</forenames><x> </x><surname>Farkas</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Philip</forenames><x> </x><surname>Spaelti</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">561</page><x>&ndash;</x><page type="last">576</page><x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications</publisher><x>.</x>
+</reference>
+<reference id="b26" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>McNulty</surname><x>, </x><forenames>Elaine</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date>
+<miscellaneoustext>). The Syntax of Adjunct Phrases. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Storrs, University of Connecticut</address><x>.</x>
+</reference>
+<reference id="b81" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Miyamoto</surname><x>, </x><forenames>Yoichi</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="document">Floating Quantifiers and the Stage/Individual-Level Distinction</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Japanese/Korean Linguistics. Vol. 5</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Noriko</forenames><x> </x><surname>Akatsuka</surname>
+</name><x>, </x><name type="editor">
+<forenames>Shoichi</forenames><x> </x><surname>Iwasaki</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Susan</forenames><x> </x><surname>Strauss</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">321</page><x>&ndash;</x><page type="last">335</page><x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications</publisher><x>.</x>
+</reference>
+<reference id="b6" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Napoli</surname><x>, </x><forenames>Donna-Jo</forenames>
+</name>
+</namegroup><x> (</x><date date="1975">1975</date><x>). </x><title type="document">A Global Agreement Phenomenon</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>3</volume><x>: </x><page type="first">413</page><x>&ndash;</x><page type="last">435</page><x>.</x>
+</reference>
+<reference id="b36" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Napoli</surname><x>, </x><forenames>Donna-Jo</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="book">Predication: A Case Study for Indexing Theory</title><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference id="b59" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Napoli</surname><x>, </x><forenames>Donna-Jo</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Secondary Resultative Predicates in Italian</title><x>. </x><title type="journal">Journal of Linguistics</title><x> </x><volume>28</volume><x>: </x><page type="first">53</page><x>&ndash;</x><page type="last">90</page><x>.</x>
+</reference>
+<reference id="b39" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Neeleman</surname><x>, </x><forenames>Ad</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994a</date>
+<miscellaneoustext>). Complex Predicates. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Utrecht, OTS, Utrecht University</address><x>.</x>
+</reference>
+<reference id="b60" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Neeleman</surname><x>, </x><forenames>Ad</forenames>
+</name>
+</namegroup><x> and</x><miscellaneoustext> Fred</miscellaneoustext><x> </x>
+<corporatename type="author">Weerman</corporatename><x> (</x><date date="1993">1993</date><x>). </x><title type="document">The Balance between Syntax and Morphology: Dutch Particles and Resultatives</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>11</volume><x>: </x><page type="first">433</page><x>&ndash;</x><page type="last">475</page><x>.</x>
+</reference>
+<reference id="b47" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Nichols</surname><x>, </x><forenames>Johanna</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978</date><x>). </x><title type="document">Secondary Predicates</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Fourth Annual Meeting of the Berkeley Linguistics Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jeri<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Jaeger</surname>
+</name><x>, </x><name type="editor">
+<forenames>Anthony<x> </x>C<x>.</x>
+</forenames><x> </x><surname>Woodbury</surname>
+</name><x>, </x><name type="editor">
+<forenames>Farrell<x> </x>Ackerman</forenames><x>, </x><surname>et al.</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">114</page><x>&ndash;</x><page type="last">127</page><x>. </x><address>Berkeley</address><x>: </x><publisher>Berkeley Linguistics Society</publisher><x>.</x>
+</reference>
+<reference id="b40" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Pesetsky</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date>
+<miscellaneoustext>). Paths and Categories. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b66" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Pustejovsky</surname><x>, </x><forenames>James</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">The Syntax of Event Structure</title><x>. </x><title type="journal">Cognition</title><x> </x><volume>41</volume><x>: </x><page type="first">47</page><x>&ndash;</x><page type="last">81</page><x>.</x>
+</reference>
+<reference id="b21" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rapoport</surname><x>, </x><forenames>Tova<x> </x>R<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Adjunct Predicate Licensing and D-Structure</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Perspectives on Phrase Structure: Heads and Licensing</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Susan</forenames><x> </x><surname>Rothstein</surname>
+</name>
+<miscellaneoustext> (ed.)</miscellaneoustext><x>.</x>
+</namegroup><x> </x><address>San Diego</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b22" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Rapoport</surname><x>, </x><forenames>Tova<x> </x>R<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999b</date><x>). </x><title type="document">Structure, Aspect and the Predicate</title><x>. </x><title type="journal">Language</title><x> </x><volume>75</volume><x>: </x><page type="first">653</page><x>&ndash;</x><page type="last">676</page><x>.</x>
+</reference>
+<reference id="b72" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Rappaport Hovav</surname><x>, </x><forenames>Malka</forenames>
+</name><x> and </x><name type="author">
+<forenames>Beth</forenames><x> </x><surname>Levin</surname>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">An Event-Structure Account of English Resultatives</title><x>. </x><title type="journal">Language</title><x> </x><volume>77</volume><x>: </x><page type="first">766</page><x>&ndash;</x><page type="last">797</page><x>.</x>
+</reference>
+<reference id="b35" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Roberts</surname><x>, </x><forenames>Ian</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988a</date><x>). </x><title type="document">Predicative APs</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>19</volume><x>: </x><page type="first">703</page><x>&ndash;</x><page type="last">710</page><x>.</x>
+</reference>
+<reference id="b1" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Rothstein</surname><x>, </x><forenames>Susan</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date>
+<miscellaneoustext>). The Syntactic Forms of Predication. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b54" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Rothstein</surname><x>, </x><forenames>Susan</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Case and NP Licensing</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>10</volume><x>: </x><page type="first">119</page><x>&ndash;</x><page type="last">139</page><x>.</x>
+</reference>
+<reference id="b33" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rothstein</surname><x>, </x><forenames>Susan</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Small Clauses and Copular Constructions</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Small Clauses</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Anna</forenames><x> </x><surname>Cardinaletti</surname>
+</name><x> and </x><name type="editor">
+<forenames>Maria<x> </x>Teresa</forenames><x> </x><surname>Guasti</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">27</page><x>&ndash;</x><page type="last">48</page><x>. </x><address>New York</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b34" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rothstein</surname><x>, </x><forenames>Susan</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001a</date><x>). </x><title type="book">Predicates and their Subjects</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Rothstein</surname><x>, </x><forenames>Susan</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001b</date><x>). </x><title type="document">What are Incremental Themes?</title><x> </x><title type="journal">ZAS Papers in Linguistics</title><x> </x><volume>22</volume>
+<page type="first">
+</page><x>.</x>
+</reference>
+<reference id="b64" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rothstein</surname><x>, </x><forenames>Susan</forenames>
+</name>
+</namegroup><x> (</x><date date="2003">2003</date><x>). </x><title type="document">Secondary Predication and Aspectual Structure</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Modifying Adjuncts</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ewald</forenames><x> </x><surname>Lang</surname>
+</name><x>, </x><name type="editor">
+<forenames>Claudia</forenames><x> </x><surname>Maienborn</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Cathrine</forenames><x> </x><surname>Fabricius-Hansen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>Berlin</address><x>: </x><publisher>Mouton</publisher><x>.</x>
+</reference>
+<reference id="b9" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rothstein</surname><x>, </x><forenames>Susan</forenames>
+</name>
+</namegroup><x> (</x><date date="2004">2004</date><x>). </x><title type="book">Structuring Events: A Study in the Semantics of Lexical Aspect</title><x>. </x><address>Oxford</address><x>: </x><publisher>Blackwell</publisher><x>.</x>
+</reference>
+<reference id="b27" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Safir</surname><x>, </x><forenames>Kenneth</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">On Small Clauses as Constituents</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>14</volume><x>: </x><page type="first">730</page><x>&ndash;</x><page type="last">735</page><x>.</x>
+</reference>
+<reference id="b20" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Schein</surname><x>, </x><forenames>Barry</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Predication</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Small Clauses</title><x> </x><namegroup type="editors">
+<name type="editor">
+<forenames>Anna</forenames><x> </x><surname>Cardinaletti</surname>
+</name><x> and </x><name type="editor">
+<forenames>Maria<x> </x>Teresa</forenames><x> </x><surname>Guasti</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>New York</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b3" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Simpson</surname><x>, </x><forenames>Jane</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">Resultatives</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers in Lexical Functional Grammar</title><x>.</x><namegroup type="editors">
+<name type="editor">
+<x> </x><forenames>Lori</forenames><x> </x><surname>Levin</surname>
+</name><x>, </x><name type="editor">
+<forenames>Malka</forenames><x> </x><surname>Rappaport</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Annie</forenames><x> </x><surname>Zaenen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">143</page><x>&ndash;</x><page type="last">157</page><x>. </x><address>Bloomington</address><x>: </x><publisher>Indiana University Linguistics Club</publisher><x>.</x>
+</reference>
+<reference id="b48" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Simpson</surname><x>, </x><forenames>Jane</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="book">Warlpiri Morpho-Syntax: A Lexicalist Approach</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b37" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Speas</surname><x>, </x><forenames>Margaret</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="book">Phrase Structure in Natural Language<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b28" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Stowell</surname><x>, </x><forenames>Tim</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">Subjects Across Categories</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>2</volume><x>: </x><page type="first">285</page><x>&ndash;</x><page type="last">312</page><x>.</x>
+</reference>
+<reference id="b86" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Strigin</surname><x>, </x><forenames>Anatoli</forenames>
+</name><x> and </x><name type="author">
+<forenames>Assinja</forenames><x> </x><surname>Demjjanow</surname>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">Secondary Predication in Russian</title><x>. </x><title type="journal">ZAS Papers in Linguistics</title><x> </x><volume>25</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">79</page><x>.</x>
+</reference>
+<reference id="b53" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Stump</surname><x>, </x><forenames>Gregory</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="book">The Semantic Variability of Absolute Constructions<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Reidel</publisher><x>.</x>
+</reference>
+<reference id="b79" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Takezawa</surname><x>, </x><forenames>Koichi</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Secondary Predication and Locative/Goal Phrases</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Japanese Syntax in Comparative Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Nobuko</forenames><x> </x><surname>Hasegawa</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">45</page><x>&ndash;</x><page type="last">77</page><x>. </x><address>Tokyo</address><x>: </x><publisher>Kurosio</publisher><x>.</x>
+</reference>
+<reference id="b23" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Tenny</surname><x>, </x><forenames>Carol</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date>
+<miscellaneoustext>). Grammaticalizing Aspect and Affectedness. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b24" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Tenny</surname><x>, </x><forenames>Carol</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">Aspectual Roles and the Syntax&ndash;Semantics Interface<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b58" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Tortora</surname><x>, </x><forenames>Christina<x> </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">Verbs of Inherently Directed Motion are Compatible with Resultative Phrases</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>29</volume><x>: </x><page type="first">338</page><x>&ndash;</x><page type="last">345</page><x>.</x>
+</reference>
+<reference id="b67" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Valin</surname><x>, </x><forenames>Robert D.</forenames><x> </x><surnameprefix>van</surnameprefix><x>, </x><pedigree>Jr</pedigree>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Semantic Parameters of Split Intransitivity</title><x>. </x><title type="journal">Language</title><x> </x><volume>66</volume><x>: </x><page type="first">221</page><x>&ndash;</x><page type="last">260</page><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Vendler</surname><x>, </x><forenames>Zeno</forenames>
+</name>
+</namegroup><x> (</x><date date="1957">1957</date><x>). </x><title type="document">Verbs and Times</title><x>. </x><title type="journal">Philosophical Review</title><x> </x><volume>66</volume><x>: </x><page type="first">143</page><x>&ndash;</x><page type="last">160</page><x>.</x>
+</reference>
+<reference id="b15" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Vendler</surname><x>, </x><forenames>Zeno</forenames>
+</name>
+</namegroup><x> (</x><date date="1967">1967a</date><x>). </x><title type="book">Linguistics in Philosophy<x>.</x>
+</title><x> </x><address>Ithaca</address><x>: </x><publisher>Cornell University Press</publisher><x>.</x>
+</reference>
+<reference id="b71" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Verspoor</surname><x>, </x><forenames>Cornelia</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date>
+<miscellaneoustext>). Contextually Dependent Lexical Semantics. PhD dissertation</miscellaneoustext><x>, </x>
+<address>University of Edinburgh</address><x>.</x>
+</reference>
+<reference id="b83" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Washio</surname><x>, </x><forenames>Ryuichi</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Resultatives, Compositionality and Language Variation</title><x>. </x><title type="journal">Journal of East Asian Lingusitics</title><x> </x><volume>6</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">49</page><x>.</x>
+</reference>
+<reference id="b84" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Washio</surname><x>, </x><forenames>Ryuichi</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">Some Comparative Notes on Resultatives</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Linguistics: In Search of the Human Mind &ndash; A Festschrift for Kazukoe Inoue</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Masatake</forenames><x> </x><surname>Muraki</surname>
+</name><x> and </x><name type="editor">
+<forenames>Enoch</forenames><x> </x><surname>Iwamoto</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>Tokyo</address><x>: </x><publisher>Kaitakusha</publisher><x>.</x>
+</reference>
+<reference id="b70" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Wechsler</surname><x>, </x><forenames>Stephen</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Resultative Predicates and Control</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the 1997 Texas Linguistics Society Conference on the Syntax and Semantics of Predication</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ralph<x> </x>C<x>.</x>
+</forenames><x> </x><surname>Blight</surname>
+</name><x> and </x><name type="editor">
+<forenames>Michelle<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Moosally</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">307</page><x>&ndash;</x><page type="last">321</page><x>. </x><address>Austin</address><x>: </x><publisher>University of Texas</publisher><x>.</x>
+</reference>
+<reference id="b85" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Wechsler</surname><x>, </x><forenames>Stephen</forenames>
+</name><x> and </x><name type="author">
+<forenames>Bokyung</forenames><x> </x><surname>Noh</surname>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><address>On Resultative Predicates and Clauses</address><x>: </x><publisher>Parallels between Korean and English</publisher><x>. </x><title type="book">Language Sciences</title>
+<miscellaneoustext> 23</miscellaneoustext><x>: </x>
+<page type="first">391</page><x>&ndash;</x><page type="last">423</page><x>.</x>
+</reference>
+<reference id="b16" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Williams</surname><x>, </x><forenames>Edwin</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="document">Predication</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>11</volume><x>: </x><page type="first">203</page><x>&ndash;</x><page type="last">238</page><x>.</x>
+</reference>
+<reference id="b19" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Williams</surname><x>, </x><forenames>Edwin</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983a</date><x>). </x><title type="document">Against Small Clauses</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>14</volume><x>: </x><page type="first">287</page><x>&ndash;</x><page type="last">308</page><x>.</x>
+</reference>
+<reference id="b32" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Williams</surname><x>, </x><forenames>Edwin</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987c</date><x>). </x><title type="document">NP Trace and Theta-Theory</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>10</volume><x>: </x><page type="first">203</page><x>&ndash;</x><page type="last">238</page><x>.</x>
+</reference>
+<reference id="b65" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Winkler</surname><x>, </x><forenames>Susanne</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="book">Focus and Secondary Predication<x>.</x>
+</title><x> </x><address>Berlin</address><x>: </x><publisher>Mouton de Gruyter</publisher><x>.</x>
+</reference>
+<reference id="b11" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Wunderlich</surname><x>, </x><forenames>Dieter</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997a</date><x>). </x><title type="document">Argument Extension by Lexical Adjunction</title><x>. </x><title type="journal">Journal of Semantics</title><x> </x><volume>14</volume><x>: </x><page type="first">95</page><x>&ndash;</x><page type="last">142</page><x>.</x>
+</reference>
+<reference id="b46" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Zubizarreta</surname><x>, </x><forenames>Maria-Luisa</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="book">Levels of Representation in the Lexicon and in Syntax<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

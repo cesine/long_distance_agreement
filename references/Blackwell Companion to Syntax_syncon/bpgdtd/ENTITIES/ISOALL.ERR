@@ -1,0 +1,4 @@
+C:\SP\BIN\NSGMLS.EXE:z:\bpgdtd\entities\isoall.sgm:4:7:E: document type does not allow element "MTABLE" here; missing one of "B", "I", "U", "SCAPS", "UP", "SL", "UU", "OL", "SS", "SUP", "SUB", "TT", "OF", "SCR", "RM", "MATH", "MOVER", "MUNDER" start-tag
+C:\SP\BIN\NSGMLS.EXE:z:\bpgdtd\entities\isoall.sgm:1255:52:E: general entity "emsp3" not defined and no default entity
+C:\SP\BIN\NSGMLS.EXE:z:\bpgdtd\entities\isoall.sgm:1256:52:E: general entity "emsp4" not defined and no default entity
+C:\SP\BIN\NSGMLS.EXE:z:\bpgdtd\entities\isoall.sgm:1303:53:E: general entity "ballot" not defined and no default entity

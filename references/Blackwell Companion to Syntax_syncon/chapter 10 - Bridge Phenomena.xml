@@ -1,0 +1,1167 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="10"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 10 - Bridge Phenomena.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">284</page>
+<page type="last">294</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="0"/>
+<count type="table" count="24"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="28"/>
+<count type="page" count="11"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051103"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 10&ensp;Erteschik-Shir: Bridge Phenomena</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 10&ensp;Erteschik-Shir: Bridge Phenomena</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">10&ensp;Bridge Phenomena</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>NOMI</forenames><x> </x><surname>ERTESCHIK-SHIR</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Structural approaches</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>Non-structural approaches</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>Bridge phenomena cross-linguistically and learnability</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1&ensp;Introduction</heading>
+<p>The term &lsquo;bridge&rsquo; was coined in <link rid="b1">Erteschik-Shir (1973</link>) to characterize the matrix clause in cases in which extraction out of an embedded clause is licensed.<link rid="fn1">
+<sup>1</sup></link> The (a) examples below illustrate such bridges. The (b) examples illustrate nonbridges:</p>
+<p>(1)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>What did she say (that) Fred had done?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*What did she simper that Fred had done?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(2)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>What did she make a claim that he had done?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*What did she discuss the claim that he had done?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(3)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>What did she see a picture of?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*What did she destroy a picture of?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(4)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>This book she knows who has written.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*This book she inquired who had written.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(5)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Det</entry>
+<entry>har</entry>
+<entry>jeg</entry>
+<entry>set</entry>
+<entry>mange</entry>
+<entry>der</entry>
+<entry>har</entry>
+<entry>gjort.</entry>
+<entry>Danish</entry>
+</row>
+<row><entry>That</entry>
+<entry>have</entry>
+<entry>I</entry>
+<entry>seen</entry>
+<entry>many</entry>
+<entry>that</entry>
+<entry>have</entry>
+<entry>done</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col10">&lsquo;I have seen many that have done that.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11"/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>*Det</entry>
+<entry>har</entry>
+<entry>jeg</entry>
+<entry>drillet</entry>
+<entry>mange</entry>
+<entry>der</entry>
+<entry>har</entry>
+<entry>gjort.</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry>That</entry>
+<entry>have</entry>
+<entry>I</entry>
+<entry>made</entry>
+<entry>fun</entry>
+<entry>of</entry>
+<entry>many</entry>
+<entry>that</entry>
+<entry>have</entry>
+<entry>done</entry>
+</row>
+<row><entry namest="col2" nameend="col11">&lsquo;I have made fun of many that have done that.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Example (1) shows that extraction out of simple <i>that</i>-clauses depends on the matrix verb. The verb <i>say</i> provides a bridge, the verb <i>simper</i> does not. (2) shows that a <i>that</i>-clause embedded in a complex NP may or may not allow extraction. Again this depends on the lexical content of the matrix. (3) shows that extraction out of picture noun phrases is also lexically determined. (4) illustrates a <i>wh</i>-island. Here again certain verbs which select embedded questions provide bridges, others do not. Finally (5) illustrates extraction out of Danish relative clauses. (5a) is a violation of the Complex Noun Phrase constraint which blocks extraction out of relative clauses. In Danish extraction out of object relative clauses is possible when the matrix provides a bridge.</p>
+<p>There are two basic ways of looking at extraction phenomena. Under one view, certain subordinate clause types are viewed as islands. Extraction is predicted to be blocked only from these structures. According to <link rid="b2">Ross (1967</link>), the examples in (2), (4), and (5) are islands predicting the ungrammatical cases in (b), but not the ones in (a), in which the matrix clauses can be viewed as providing bridges. The <i>that</i>-clauses in (1) are, however, not islands. Therefore only the grammatical case in (a) is predicted. The ungrammatical (b) case must be blocked by some additional principle. Under the other view the matrix clauses in all (tensed) subordinate clauses are islands. Extraction is therefore generally blocked except for the complements of certain matrix clauses which provide bridges. The latter view allows for a unified view of bridges</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2&ensp;Structural approaches</heading>
+<p>Most of the references to bridge phenomena in the literature address the distinction between verbs of saying, which allow extraction, and manner-of-speaking verbs, which do not.<link rid="fn2">
+<sup>2</sup></link> An early discussion of manner-of-speaking verbs is <link rid="b3">Dean (1967</link>) who argues that the deletion of <i>that</i> converts a subordinate clause into a non-subordinate one. She suggests that those verbs that allow the deletion of <i>that</i> are the same verbs that license extraction:</p>
+<p>(6)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Mike quipped that she never wore this hat.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Mike quipped she never wore this hat.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*Which hat did Mike quip that she never wore?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This is explained by the general hypothesis that extraction out of all subordinate clauses is blocked. Dean thus adheres to the view that all subordinate clauses are islands.</p>
+<p>Dean herself notes the following problem with her generalization: extraction out of <i>that-</i>clauses does not depend on <i>that</i>-deletion:</p>
+<p>(7)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>What do you believe that John bought?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>What do you believe John bought?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>She comments that for her (7b) is preferable to (7a), but does not offer a solution to the problem.</p>
+<p>
+<link rid="b2">Ross (1967</link>: 138&ndash;140) is intrigued by Dean&apos;s constraint on extraction from all (finite) subordinate clauses. Ross rejects Dean&apos;s proposal in view of the variation in acceptability of extraction out of different subordinate clauses.</p>
+<p>
+<link rid="b4">Chomsky (1977b</link>: 85) observes that <i>wh</i>-movement from within a clause is lexically determined (his (42)):</p>
+<p>(8)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*What did John complain that he had to do this evening?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*What did John quip that Mary wore?</entry>
+</row>
+<row><entry>c.</entry>
+<entry><sup>?</sup>Who did he murmur that John saw?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>He notes that it is not clear what permits a matrix VP to be a bridge but assumes (following <link rid="b1">Erteschik-Shir 1973</link>) that &ldquo;the &lsquo;bridge&rsquo; conditions fall within the interpretive rules,&rdquo; leaving the following condition on <i>wh</i>-movement: &ldquo;where there is a bridge, there is an apparent violation of subjacency, PIC and SSC.&rdquo;<link rid="fn3">
+<sup>3</sup></link> Bridge phenomena are thus used by Chomsky as one of the ways to identify an occurrence of <i>wh</i>-movement.</p>
+<p>
+<link rid="b5">Bach (1977a</link>: 149) notes that quantifier scope is sensitive to bridge properties as well:</p>
+<p>(9)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John thinks that everyone is crazy.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John regrets that everyone has a nickel.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Sally disputed the claim that everyone had a nickel.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>Walter knows a man who every woman loves.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(9a) and (9b) exhibit bridge properties and allow a wide scope interpretation of the quantifier. (9a), for example, receives the following wide scope interpretation in (10a) and the narrow scope interpretation in (10b):</p>
+<p>(10)&ensp;<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>for every x, John thinks that x is crazy</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John has the belief that everyone in the universe is crazy</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The complex noun phrases in (9c) and (9d) allows only narrow scope of the quantifier. Bach argues that if sensitivity to bridge properties is limited to <i>wh</i>-movement, there is no explanation for the data in (10) due to there being no movement.</p>
+<p>
+<link rid="b6">May (1977</link>) argues that the wide scope of quantifiers is accounted for by Quantifier Raising, an interpretive movement rule which applies in Logical Form (LF). May shows that Quantifier Raising is sensitive to the same bridge conditions described in <link rid="b1">Erteschik-Shir (1973</link>).</p>
+<p>
+<link rid="b7">Koster (1978a</link>) also adheres to the view that clauses are islands, i.e., <i>wh</i>-movement is bounded. For Koster this has to be the case in view of the fact that many languages have only bounded rules, and unbounded processes are very limited in all languages. According to Koster extraction is, however, possible from the complements of a subclass of categories of the type &lsqb;&plus;V&rsqb; (verbs and adjectives). For Koster bridge phenomena are thus limited to verbs and adjectives. His account is therefore also limited to those bridge phenomena involved with extraction from <i>that</i>-clauses.</p>
+<p>
+<link rid="b8">Chomsky (1980a</link>) adapts Koster&apos;s idea that bounded <i>wh</i>-movement is the unmarked case and that &lsquo;bridge conditions&rsquo; must be specifically stipulated. It follows that languages such as Russian, which do not appear to permit unbounded <i>wh</i>-movement, would reflect the unmarked case. Chomsky attributes this to Subjacency according to which extraction is blocked across more than one bounding node. For English, at least, S is a bounding node for Subjacency. If S&prime; is also a bounding node then <i>wh-</i>movement is always &lsquo;local&rsquo; (bounded). The bridge conditions would in effect state that with certain matrix verbs, S&prime; does not count as a bounding node for Subjacency, a marked property of these verbs.</p>
+<p>
+<link rid="b9 b10">Stowell (1981, 1986</link>) and <link rid="b11">Fukui (1986</link>) base their analyses on the intuition that the complements of nonbridge verbs are not real complements, but are more like adjuncts. Stowell&apos;s implementation of this idea is that manner-of-speaking verbs do not assign a theta-role to their &lsquo;complements&rsquo;.</p>
+<p>Stowell proposes an interesting account of bridge phenomena: complements with overt complementizers are argued to be adjuncts and extraction out of adjuncts is blocked. He thus predicts that nonbridge verbs such as <i>mumble</i>, <i>quip</i>, and <i>simper</i>, which require an overt <i>that</i>-complementizer, do not allow extraction. Note that nonbridge verbs generally do not require complements in accordance with Stowell&apos;s proposal:</p>
+<p>(11)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John mumbled/quipped/simpered.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*John thought/believed/said.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>According to Stowell, the correlation between the possibility of that-deletion and extraction possibilities follows from the ECP.<link rid="fn4">
+<sup>4</sup></link> This he derives from a distinction between the properties of bridge verbs and nonbridge manner-of-speaking verbs. Only the former assign a theta-role directly to the <i>that</i>-clause:</p>
+<p>(12)&ensp;<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Ben knew &lsqb;&lsqb;e&rsqb; &lsqb;the teacher was lying&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;Who&rsqb;<sub>i</sub> did Ben know &lsqb;&lsqb;e&rsqb;<sub>i</sub> was lying&rsqb;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(13)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Bill muttered &lsqb;&lsqb;e&rsqb; &lsqb;Denny was playing too much poker&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*&lsqb;Who&rsqb;<sub>i</sub> did Bill mutter&lsqb;&lsqb;e&rsqb;<sub>i</sub> &lsqb;&lsqb;e&rsqb;<sub>i</sub> was playing too much poker&rsqb;&rsqb;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (12a), the empty complementizer is properly governed by the matrix verb, since it is the head position of the clause to which the verb assigns the direct object theta-role. In (12b), the trace in subject position is properly governed by the trace in the head position in COMP. The trace in COMP, in turn, is properly governed by the matrix verb, by virtue of appearing in the head position of the clause.</p>
+<p>In (13a) the governing head, the nonbridge verb, does not assign a theta-role directly to the clause of which the empty COMP position is the head. And in (13b) the trace in COMP violates the ECP, since there is no external governor with which it can be co-indexed.</p>
+<p>Whereas Stowell&apos;s analysis in terms of the ECP predicts a strong correlation between <i>that</i>-deletion and extraction, the correlation is, in fact, weak, as noted by <link rid="b3">Dean (1967</link>) and also shown in (14) and (15) (from <link rid="b1">Erteschik-Shir 1973</link>: 62):</p>
+<p>(14)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*He regretted you did it.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>What did he regret that you did?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(15)&ensp;a.&ensp;*It alarmed me she liked it.</p>
+<p>b.&ensp;What did it alarm you that she liked?</p>
+<p>Stowell&apos;s analysis predicts that extraction from object position, as in (16), should always be possible since this position is always governed. He cites the following examples to support this prediction.</p>
+<p>(16)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;What&rsqb;<sub>i</sub> did John just whisper to you &lsqb;<sub>S&prime;</sub> that &lsqb;he ate &lsqb;e&rsqb;<sub>i</sub>&rsqb;&rsqb;?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;Who&rsqb;<sub>i</sub> did Bill mutter &lsqb;<sub>S&prime;</sub> that &lsqb;he doesn&apos;t like &lsqb;e&rsqb;<sub>i</sub>&rsqb;&rsqb;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Although it is generally agreed that ECP infractions are worse than extraction from the object position of nonbridge verbs, the sentences in (16) are clearly ungrammatical.</p>
+<p>
+<link rid="b12">Depiante (1993</link>) offers a lexical account of manner-of-speaking verbs which explains why they do not assign a theta-role to their complement. Nonbridge verbs are derived verbs (as in <link rid="b13">Hale and Keyser 1993a</link>). These verbs contains an adverb of manner that has been incorporated into a light verb with the semantic import of <i>say</i>. The process of incorporation discharges the internal theta-role and makes the verb intransitive.</p>
+<p>
+<link rid="b14">Chomsky (1986a</link>) proposes an explanation for island constraints in terms of Barriers. Whether or not extraction is licensed depends on the number of barriers between the moved constituent and the extraction site. Barrierhood is indirectly dependent on L-marking (only a non-L-marked maximal projection can be a barrier) and the latter is defined in terms of government as follows (<link rid="b14">Chomsky 1986a</link>: 15):</p>
+<p>(17)&ensp;&alpha; L-marks &bgr; iff &alpha; is a lexical category that &thgr; governs &bgr;.</p>
+<p>
+<link rid="b14">Chomsky (1986a</link>: 35) employs L-marking to explain the weak island effect (see <related relationship="sibling" type="samework"><externallink id="chapter 64 - Strong vs. Weak Islands.xml" type="file">chapter 64</externallink></related>) in noun complements:</p>
+<p>(18)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>which book did John hear &lsqb;<sub>NP</sub> a rumor &lsqb;<sub>CP</sub> that you had read t&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>which book did John announce &lsqb;<sub>NP</sub> a plan &lsqb;<sub>CP</sub> for you to read t&rsqb;&rsqb;</entry>
+</row>
+<row><entry>c.</entry>
+<entry>which actor did you see &lsqb;<sub>NP</sub> a picture of t&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (18a) and (18b) the CP is L-marked and therefore does not transfer barrierhood to the complex NP. In the picture noun phrase in (18c) the NP is L-marked and therefore not a barrier. These examples do not exhibit island violations as does extraction out of relative clauses:</p>
+<p>(19)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*which book did John meet &lsqb;<sub>NP</sub> a child &lsqb;<sub>CP</sub> who read t&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*which book did John have &lsqb;<sub>NP</sub> a friend &lsqb;<sub>CP</sub> to whom to read t&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The relative clause CP is a barrier since it is not L-marked; the NP inherits barrierhood from CP. The two barriers cause a Subjacency violation, explaining the ungrammaticality of these sentences.</p>
+<p>
+<link rid="b14">Chomsky (1986a</link>: 34) states that it is a property of Subjacency violations (but not ECP violations) that they are variable and weak. He also notes that &ldquo;a number of factors (including lexical choice) appear to enter into acceptability judgments in these cases, many of them poorly understood.&rdquo; He chooses to factor out the subpart of the phenomena which can be explained by Subjacency and thus does not offer an account of bridge phenomena.</p>
+<p>
+<link rid="b15">Cinque (1990c</link>) argues that the weak islandhood (see <related relationship="sibling" type="samework"><externallink id="chapter 64 - Strong vs. Weak Islands.xml" type="file">chapter 64</externallink></related>) of the CP complements of both factive and manner-of-speaking verbs is due to their not being L-marked by V. He achieves this result by assuming that these complements are not dominated by V&prime;, but are adjoined in a higher position, hence not governed by V, a condition for L-marking. The problem with this type of structural analysis is that manner-of-speaking and factive verbs do not form a uniform class with respect to islandhood. The examples of manner-of-speaking verbs in (20) and factive verbs in (21) are from <link rid="b1">Erteschik-Shir (1973</link>: 51&ndash;56):<link rid="fn5">
+<sup>5</sup></link>
+</p>
+<p>(20)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry><sup>?</sup>What did she mumble that he had done?</entry>
+</row>
+<row><entry>b.</entry>
+<entry><sup>??</sup>What did the paper editorialize that McGovern had done?</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*What did she simper that home economics was?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(21)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>This is the girl that I regret that Peter likes.</entry>
+</row>
+<row><entry>b.</entry>
+<entry><sup>?</sup>This is the girl that I resent that Peter likes.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*This is the girl that I rejoice that Peter likes.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Cinque&apos;s account would predict that all the examples in (20), in which the extracted element is non-referential, are equally bad and that the examples in (21), in which the extracted element is referential are equally good.</p>
+<p>
+<link rid="b16">Manzini (1998</link>) develops a minimalist theory of weak islands revising the Minimal Link Condition in <link rid="b17">Chomsky (1995c</link>). Within this framework she offers a syntactic account of factive islands which builds on the idea that a factive complement is a Topic. Her idea is that a Topic is licensed only in the presence of a Focus which is syntactically projected:</p>
+<p>(22)&ensp;<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Why do you regret &lsqb;that they fired him t<sub>why</sub>&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;do-Q&rsqb; &lsqb;you &lsqb;F regret &lsqb;that they fired him why&rsqb;&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>According to Manzini, it is the projecting of F that prevents Q from attracting <i>why</i>. Although Manzini&apos;s account explains the fact that factives generally are more resistant to extraction than nonfactives, her structural implementation of topic/focus concepts cannot explain squishes within factives such as illustrated in (21).</p>
+<p>The main concern of <link rid="b18">Fodor (1992</link>) is to account for the repercussions of bridge phenomena on learnability. In that context she argues that bridge verbs are subcategorized for both an S sister and an S&lsqb;SLASH NP&rsqb; sister, whereas nonbridge verbs are subcategorized only for the former. (In GPSG a SLASH category is a category which includes a gap, i.e., a category from which extraction has occurred.)<link rid="fn6">
+<sup>6</sup></link>
+</p>
+<p>
+<link rid="b1">Erteschik-Shir (1973</link>) argues that subcategorization cannot explain bridge phenomena even for simple cases such as <i>that</i>-complements. The first argument is that such an approach predicts that extraction is either completely good or completely bad. The data in (20) and (21) show that the extraction facts are squishy, an indication that subcategorization cannot provide the correct explanation. Another argument has to do with contextual effects on extraction: if a verb is subcategorized as a nonbridge verb then extraction should not be licensed in any context, but extraction is contextually determined as the following example shows:</p>
+<p>(23)&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*What did John lisp that he&apos;d do?</entry>
+</row>
+<row><entry>b.</entry>
+<entry><sup>?</sup>What did Truman Capote lisp that he&apos;d do?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(19b) shows that if it is contextually known that the subject has a lisp, as it is in the case of Truman Capote, then extraction is much improved. This follows, according to Erteschik-Shir, from the fact that <i>lisp</i> in (19b) is stripped of much of its meaning and is almost equivalent to <i>say</i>.</p>
+<p>A similar example of how context influences extraction facts is offered by <link rid="b19">Kuno (1987a</link>):</p>
+<p>(24)&ensp;<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>Speaker A:</entry>
+<entry>Right after Chairman Mao died, they started taking pictures of the Central Committee members off the wall.</entry>
+</row>
+<row><entry>Speaker B:</entry>
+<entry>Who did they destroy more pictures of, Chairman Mao or Jiang Qing?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Again, the meaning of the verb <i>destroy</i> is contextually given by Speaker A&apos;s assertion.<link rid="fn7">
+<sup>7</sup></link>
+</p>
+<p>A third argument against the subcategorization approach is provided by (25) in which the matrix verb is emphatically stressed and extraction is degraded:</p>
+<p>(25)&ensp;<sup>??</sup>Who did you BELIEVE that Bill would hit?</p>
+<p>Speaker-specific squishy data, contextual factors, and emphasis not only provide strong arguments against an account in terms of lexical subcategorization, they also indicate that any purely structural analysis will fail to account for bridge phenomena.</p>
+</subsection>
+<subsection id="ss4" level="1">
+<heading id="h3" level="1">3&ensp;Non-structural approaches</heading>
+<p>
+<link rid="b1">Erteschik-Shir (1973</link>) argues that extraction is conditioned by focusability:<link rid="fn8">
+<sup>8</sup></link> only those subordinate clauses which can be focused allow extraction. Focus is roughly defined as a constituent which the speaker intends to draw the attention of the hearer to. This condition on extraction explains all island effects including bridge phenomena according to the intuition that <i>wh</i>-movement is restricted to focused or foregrounded constituents to which the attention of the hearer is drawn. Backgrounded constituents to which the attention of the hearer is not drawn are processed in a different manner and therefore gaps within them cannot be detected. The unmarked case is for subordinate clauses to be backgrounded, i.e., in the unmarked case, syntax mirrors the discourse function in that main clauses are foregrounded and subordinate clauses are backgrounded. In order for a subordinate clause to be focused the main clause must not draw the attention of the hearer. It follows that bridges are those matrix clauses that need not be focused, and the question arises as to which factors are involved in the assignment of foci to sentences. In <link rid="b1">Erteschik-Shir (1973</link>) it was argued that semantically complex and/or infrequent lexical items are necessarily focused. An explanation for the problematic data illustrated in (23&ndash;5) follows naturally. Squishy data is predicted since semantic complexity and frequency are themselves squishy notions. Context is predicted to determine the assignment of focus in such a way that focus will not be assigned to a contextually given constituent (as in (23) and (24)) and finally in (25) focusing the verb blocks the assignment of focus to the subordinate clause, in turn blocking extraction. Similarly, the rest of the data listed in the introduction are accounted for.<link rid="fn9">
+<sup>9</sup></link>
+</p>
+<p>
+<link rid="b20">Cattell (1978</link>: 61) discusses the ambiguity of interrogative sentences such as the following:</p>
+<p>(26)&ensp;Why do the police believe (that) Sue killed Harry?</p>
+<p>According to Cattell, verbs that allow the interrogative to be interpreted within the subordinate clause, i.e., verbs that allow extraction, are those he calls volunteered-stance verbs. Stance verbs are those verbs for which the complement is NOT part of the common background. Volunteered-stance verbs are a subset of stance verbs, namely those for which &ldquo;their subject accepts some kind of responsibility for the proposition that follows.&rdquo; The class of stance verbs has in common with bridge verbs (as characterized in <link rid="b1">Erteschik-Shir 1973</link>) that their complement must not be backgrounded. It is not easy, however, to apply Cattell&apos;s classification of stance verbs to verbs he does not discuss, e.g., manner-of-speaking verbs. These must be stance verbs since their complement is not part of the common background, but it is not clear whether Cattell would classify them with <i>say</i> as volunteered-stance verbs. It is therefore unclear whether Cattell&apos;s approach can make the correct prediction for these verbs.</p>
+<p>
+<link rid="b21">Kluender (1992</link>: 247) introduces the Predication Principle to account for extraction facts:</p>
+<p>(27)&ensp;Predication Principle: initial argument expression NPs must be as referentially specific as possible; all heads and specifiers occurring in complex predicates must be as non-specific in reference as possible.</p>
+<p>He shows how bridge phenonema follow from this principle. For example his account of bridge verbs is that they &ldquo;are typically statives or achievements. Manner-of-speaking verbs, on the other hand, are invariably activity verbs. Since the lexical semantics of manner-of-speaking verbs includes not only the meaning of &lsquo;say&rsquo; but also a specific manner component&nbsp;.&nbsp;.&nbsp;.&nbsp;there is a sense in which these verbs are referentially more highly specified than bridge verbs&rdquo; (p. 245).</p>
+<p>The intuitive basis of the Predication Principle is similar to the account offered in <link rid="b1">Erteschik-Shir (1973</link>). <link rid="b21">Kluender (1992</link>: 249) concludes that the basic effect of the Predication Principle is to ensure that logical subjects of predication are as salient as possible while the heads and specifiers occurring in complex predicates remain as unobtrusive as possible.</p>
+<p>In the framework of <link rid="b22">Erteschik-Shir (1997</link>), the basic intuitions of <link rid="b1">Erteschik-Shir (1973</link>) have been developed into a comprehensive theory of focus structure which provides an account of all island phenomena, weak and strong.</p>
+</subsection>
+<subsection id="ss5" level="1">
+<heading id="h4" level="1">4&ensp;Bridge phenomena cross-linguistically and learnability</heading>
+<p>A serious problem for both structural and nonstructural approaches is to explain why languages differ with respect to bridge phenomena.</p>
+<p>
+<link rid="b18">Fodor (1992</link>: 109&ndash;180) points out that Polish does not permit extraction out of tensed clauses except for complements of a very small number of verbs (<i>say</i>, <i>tell</i>, <i>think</i>), a small subset of the verbs which allow extraction in English. None of the approaches to bridge phenomena cited above can explain this. Fodor (p. 123) argues as follows: &ldquo;the existence of even one non-bridge item in even one language would constitute a serious challenge for learnability. Once an extraction rule&nbsp;.&nbsp;.&nbsp;.&nbsp;is in a grammar, limiting its application to some items and not others would apparently call for complication of the grammar. And why would a learner bother, when his (positive) data are perfectly compatible with the unrestricted rule?&rdquo; Fodor further reasons that &ldquo;linguistic theory must FORCE extraction to be described in such a way that the lexicon is necessarily implicated.&rdquo; Fodor suggests (following <link rid="b1 b23">Erteschik-Shir 1973, 1982</link>) that synonymous verbs in English and Polish occupy identical positions on a scale and that the two languages have different cut-offs with respect to extractability. In other words bridge phenomena might be conceived of as a universal property of language. Extraction in a particular language will be constrained syntactically and limited by the cut-off point identified for a particular language on these scales. An argument in favor of this approach offered in <link rid="b1">Erteschik-Shir (1973</link>) is the fact that the English equivalents of acceptable extractions out of relative clauses in Danish, although degraded, are not as bad as those that are also unacceptable in Danish. Thus the English version of (5a) is much better than that of (5b).</p>
+</subsection>
+<subsection id="ss6" level="1">
+<heading id="h5" level="1">NOTES</heading>
+<p>
+<span id="fn1">
+<number>1&emsp;</number>Extraction is <i>wh</i>-movement out of a subordinate clause.</span>
+</p>
+<p>
+<span id="fn2">
+<number>2&emsp;</number>See <link rid="b24">Zwicky (1971</link>) for a systematic account of some properties of manner-of-speaking verbs.</span>
+</p>
+<p>
+<span id="fn3">
+<number>3&emsp;</number>PIC and SSC are the Propositional Island Constraint and the Specified Subject Condition, respectively.</span>
+</p>
+<p>
+<span id="fn4">
+<number>4&emsp;</number>ECP: A trace must be properly governed.</span>
+</p>
+<p>Proper Government: &alpha; properly governs &bgr; if and only if</p>
+<p>
+<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>(i)&ensp;</entry>
+<entry>&alpha; governs &bgr;, and</entry>
+</row>
+<row><entry>(ii)</entry>
+<entry>&alpha; is lexical</entry>
+</row>
+<row><entry>(iii)</entry>
+<entry>&alpha; is co-indexed with &bgr;.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<span id="fn5">
+<number>5&emsp;</number>
+<link rid="b25">Kiparsky and Kiparsky (1970</link>) categorize verbs whose complements are presupposed as factive. They argue that the reason extraction is blocked from the complements of factive verbs is that they are derived from complex noun phrase islands. Under this analysis the source of (i) would be the structure of (ii):</span>
+</p>
+<p>
+<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>(i)</entry>
+<entry>I resent that Peter likes this girl.</entry>
+</row>
+<row><entry>(ii)</entry>
+<entry>I resent the fact that Peter likes this girl.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<span id="fn6">
+<number>6&emsp;</number>Fodor argues for a modified version of GPSG which she calls LPSG (Learnable Phrase Structure Grammar). We return to Fodor&apos;s discussion of learnability with respect to bridge phenomena in <link rid="ss5">section 4</link>.</span>
+</p>
+<p>
+<span id="fn7">
+<number>7&emsp;</number>Kuno explains these and other extraction facts as follows: only constituents which qualify as the topic of a sentence can be extracted. For arguments against this type of approach see <link rid="b26">Erteschik-Shir and Lappin (1981</link>).</span>
+</p>
+<p>
+<span id="fn8">
+<number>8&emsp;</number>The term Dominance was used in this work instead of Focus.</span>
+</p>
+<p>
+<span id="fn9">
+<number>9&emsp;</number>See <link rid="b1">Erteschik-Shir (1973</link>), <link rid="b27">Erteschik-Shir and Lappin (1979</link>), and <link rid="b28">Erteschik-Shir (1981</link>) for details. In this work independent tests for focusability are also provided.</span>
+</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss7" level="1" type="references">
+<heading id="h6" level="1">REFERENCES</heading>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Bach</surname><x>, </x><forenames>Emmon</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977a</date><x>). </x><title type="document">Comments on Chomsky</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Formal Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Culicover</surname>
+</name><x>, </x><name type="editor">
+<forenames>Thomas</forenames><x> </x><surname>Wasow</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Adrian</forenames><x> </x><surname>Akmajian</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">133</page><x>&ndash;</x><page type="last">155</page>
+<x>. </x><address>New York</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference id="b20" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Cattell</surname><x>, </x><forenames>Ray</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978</date><x>). </x><title type="document">On the Source of Interrogative Adverbs</title><x>. </x><title type="journal">Language</title><x> </x><volume>54</volume><x>: </x><page type="first">61</page><x>&ndash;</x><page type="last">77</page><x>.</x>
+</reference>
+<reference id="b4" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977b</date><x>). </x><title type="document">On <i>Wh-</i>movement</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Formal Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Culicover</surname>
+</name><x>, </x><name type="editor">
+<forenames>Thomas</forenames><x> </x><surname>Wasow</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Adrian</forenames><x> </x><surname>Akmajian</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">71</page><x>&ndash;</x><page type="last">132</page>
+<x>. </x><address>New York</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference id="b8" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980a</date><x>). </x><title type="document">On Binding</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>11</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">46</page><x>.</x>
+</reference>
+<reference id="b14" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986a</date><x>). </x><title type="book">Barriers<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995c</date><x>). </x><title type="book">The Minimalist Program<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b15" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990c</date><x>). </x><title type="book">Types of A&rsquo;-Dependencies<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b3" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Dean</surname><x>, </x><forenames>Janet</forenames>
+</name>
+</namegroup><x> (</x><date date="1967">1967</date>
+<miscellaneoustext>). Noun Phrase Complementation in English and German. Unpublished manuscript, Cambridge, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b12" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Depiante</surname><x>, </x><forenames>Marcela<x> </x>A<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date>
+<miscellaneoustext>). Bridge and Non-Bridge Verbs. Unpublished manuscript, University of Maryland at College Park</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b1" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Erteschik-Shir</surname><x>, </x><forenames>Nomi</forenames>
+</name>
+</namegroup><x> (</x><date date="1973">1973</date>
+<miscellaneoustext>). On the Nature of Island Constraints. PhD dissertation, Cambridge, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b28" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Erteschik-Shir</surname><x>, </x><forenames>Nomi</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="document">On Extraction from Noun Phrases (Picture Noun Phrases)</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Theory of Markedness in Generative Grammar: Proceedings of the 1979 GLOW Conference</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Adriana</forenames><x> </x><surname>Belletti</surname>
+</name><x>, </x><name type="editor">
+<forenames>Luciana</forenames><x> </x><surname>Brandi</surname>
+</name><x>
+</x><x>, and </x><name type="editor">
+<forenames>Luigi</forenames><x> </x><surname>Rizzi</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">147</page><x>&ndash;</x><page type="last">169</page>
+<x>. </x><address>Pisa</address><x>: </x><publisher>Scuola Nomale Superiore di Pisa.</publisher>
+</reference>
+<reference id="b23" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Erteschik-Shir</surname><x>, </x><forenames>Nomi</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">Extractability in Danish and the Pragmatic Principle of Dominance</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Readings on Unbounded Dependencies in Scandinavian Languages</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Elisabet</forenames><x> </x><surname>Engdahl</surname>
+</name><x> and </x><name type="editor">
+<forenames>Eva</forenames><x> </x><surname>Ejerhed</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">175</page><x>&ndash;</x><page type="last">192</page>
+<x>. </x><address>Stockholm</address><x>: </x><publisher>Almqvist and Wiksell.</publisher>
+</reference>
+<reference id="b22" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Erteschik-Shir</surname><x>, </x><forenames>Nomi</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="book">The Dynamics of Focus Structure<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b27" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Erteschik-Shir</surname><x>, </x><forenames>Nomi</forenames>
+</name><x> and </x><name type="author">
+<forenames>Shalom</forenames><x> </x><surname>Lappin</surname>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date><x>). </x><title type="document">Dominance and the Functional Explanation of Island Phenomena</title><x>. </x><title type="journal">Theoretical Linguistics</title><x> </x><volume>6</volume><x>: </x><page type="first">41</page><x>&ndash;</x><page type="last">85</page><x>.</x>
+</reference>
+<reference id="b26" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Erteschik-Shir</surname><x>, </x><forenames>Nomi</forenames>
+</name><x> and </x><name type="author">
+<forenames>Shalom</forenames><x> </x><surname>Lappin</surname>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="document">Dominance and Extraction: A Reply to A. Grosu</title><x>. </x><title type="journal">Theoretical Linguistics</title><x> </x><volume>10</volume><x>: </x><page type="first">81</page><x>&ndash;</x><page type="last">96</page><x>.</x>
+</reference>
+<reference id="b18" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Fodor</surname><x>, </x><forenames>Janet<x> </x>Dean</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Islands, Learnability and the Lexicon</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Island Constraints, Theory, Acquisition and Processing</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Helen</forenames><x> </x><surname>Goodluck</surname>
+</name><x> and </x><name type="editor">
+<forenames>Michael</forenames><x> </x><surname>Rochemont</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">109</page><x>&ndash;</x><page type="last">180</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer.</publisher>
+</reference>
+<reference id="b11" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Fukui</surname><x>, </x><forenames>Naoki</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date>
+<miscellaneoustext>). A Theory of Category Projection and its Applications. PhD dissertation, Cambridge, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b13" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hale</surname><x>, </x><forenames>Ken</forenames>
+</name><x> and </x><name type="author">
+<forenames>Samuel<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Keyser</surname>
+</name>
+</namegroup><x> (</x><date date="1993">1993a</date><x>). </x><title type="document">On Argument Structure and the Lexical Expression of Syntactic Relations</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The View from Building 20: Essays in Linguistics in Honor of Sylvian Bromberger</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ken</forenames><x> </x><surname>Hale</surname>
+</name><x> and </x><name type="editor">
+<forenames>Samuel<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Keyser</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">53</page><x>&ndash;</x><page type="last">109</page>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b25" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kiparsky</surname><x>, </x><forenames>Paul</forenames>
+</name><x> and </x><name type="author">
+<forenames>Carol</forenames><x> </x><surname>Kiparsky</surname>
+</name>
+</namegroup><x> (</x><date date="1970">1970</date><x>). </x><title type="document">Fact</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Progress in Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Manfred</forenames><x> </x><surname>Bierwisch</surname>
+</name><x> and </x><name type="editor">
+<forenames>Karl</forenames><x> </x><surname>Heidolph</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">143</page><x>&ndash;</x><page type="last">173</page>
+<x>. </x><address>The Hague</address><x>: </x><publisher>Mouton.</publisher>
+</reference>
+<reference id="b21" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kluender</surname><x>, </x><forenames>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Deriving Island Constraints from Principles of Predication</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Island Constraints, Theory, Acquisition and Processing</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Helen</forenames><x> </x><surname>Goodluck</surname>
+</name><x> and </x><name type="editor">
+<forenames>Michael</forenames><x> </x><surname>Rochemont</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">223</page><x>&ndash;</x><page type="last">258</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer.</publisher>
+</reference>
+<reference id="b7" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Koster</surname><x>, </x><forenames>Jan</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978a</date><x>). </x><title type="document">Conditions, Empty Nodes and Markedness</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>9</volume><x>: </x><page type="first">551</page><x>&ndash;</x><page type="last">593</page><x>.</x>
+</reference>
+<reference id="b19" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kuno</surname><x>, </x><forenames>Susumu</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987a</date><x>). </x><title type="book">Functional Syntax, Anaphora, Discourse and Empathy<x>.</x>
+</title><x> </x><address>Chicago</address><x>: </x><publisher>University of Chicago Press.</publisher>
+</reference>
+<reference id="b16" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Manzini</surname><x>, </x><forenames>Mar&iacute;a<x> </x>Rita</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">A Minimalist Theory of Weak Islands</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Limits of Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Culicover</surname>
+</name><x> and </x><name type="editor">
+<forenames>Louise</forenames><x> </x><surname>McNally</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">185</page><x>&ndash;</x><page type="last">209</page>
+<x>. </x><address>New York</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference id="b6" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>May</surname><x>, </x><forenames>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date>
+<miscellaneoustext>). The Grammar of Quantification. PhD dissertation, Cambridge, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b2" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Ross</surname><x>, </x><forenames>John<x> </x>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1967">1967</date>
+<miscellaneoustext>). Constraints on Variables in Syntax. PhD dissertation, Cambridge, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b9" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Stowell</surname><x>, </x><forenames>Tim</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date>
+<miscellaneoustext>). Origins of Phrase Structure. PhD dissertation, Cambridge, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b10" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Stowell</surname><x>, </x><forenames>Tim</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Null Antecedents and Proper Government</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society 16</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Stephen</forenames><x> </x><surname>Berman</surname>
+</name><x>, </x><name type="editor">
+<forenames>Jae-Woong</forenames><x> </x><surname>Choe</surname>
+</name><x>
+</x><x>, and </x><name type="editor">
+<forenames>Joyce</forenames><x> </x><surname>McDonough</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">476</page><x>&ndash;</x><page type="last">493</page>
+<x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association.</publisher>
+</reference>
+<reference id="b24" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Zwicky</surname><x>, </x><forenames>Arnold<x> </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1971">1971</date><x>). </x><title type="document">In a Manner of Speaking</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>2</volume><x>: </x><page type="first">223</page><x>&ndash;</x><page type="last">233</page><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

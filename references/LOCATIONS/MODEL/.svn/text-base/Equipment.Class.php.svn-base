@@ -1,0 +1,40 @@
+<?php
+include_once('PhysicalAssets.Class.php');
+
+class Equipment extends PhysicalAssets {
+	
+	private $userId;
+	private $serialNo;
+	private $type;
+	
+	function setUserId($userId){
+		$this->userId = $userId;
+	}
+	
+	function setSerialNo($serialNo){
+		$this->serialNo = $serialNo;
+	}
+	
+	function setType($type){
+		$this->type = $type;
+	}
+	
+	function getType(){
+		return $this->type;
+	}
+	
+	function getSerialNo(){
+		return $this->serialNo;
+	}
+	
+	function getUserId(){
+		return $this->userId;
+	}
+	
+	function displayAssetDetails(){
+		;
+	}
+	
+}
+
+?>

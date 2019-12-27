@@ -1,0 +1,564 @@
+<!-- <!DOCTYPE article [ -->
+<!-- Blackwell Publishing Group DTD ver. 2.2. Anders Geertsen, Munksgaard
+Int. Publishers Ltd., Copenhagen. Revised: 11.12.1996  Released 16.1.1997-->
+
+
+<!-- ==================================================
+      symbols.ent: entity list for figure legend symbols 
+      etc. not found in ISO entity lists. BSL- or supplier-specific and 
+      Unicode where possible. See symbols.ent file for how to add entities.
+      ===================================================-->
+<!ENTITY % symbols PUBLIC "Blackwell Publishing Group//ENTITIES Symbols//EN" --"../entities/symbols.ent"-- >
+%symbols;
+
+<!ENTITY % ISOlat1 PUBLIC "ISO 8879-1986//ENTITIES Added Latin 1//EN"><!--SYSTEM "isolat2.ent"-->
+%ISOlat1;
+
+<!ENTITY % ISOlat2 PUBLIC "ISO 8879-1986//ENTITIES Added Latin 2//EN"><!--SYSTEM "isolat2.ent"-->
+%ISOlat2;
+
+<!ENTITY % ISOnum PUBLIC "ISO 8879-1986//ENTITIES Numeric and Special Graphic//EN"><!--SYSTEM "isonum.ent"-->
+%ISOnum;
+
+<!ENTITY % ISOpub PUBLIC "ISO 8879-1986//ENTITIES Publishing//EN"><!--SYSTEM "isopub.ent"-->
+%ISOpub;
+
+<!ENTITY % ISOtech PUBLIC "ISO 8879-1986//ENTITIES General Technical//EN"><!--SYSTEM "isotech.ent"-->
+%ISOtech; 
+
+<!ENTITY % ISOgrk1 PUBLIC "ISO 8879-1986//ENTITIES Greek Letters//EN"><!--SYSTEM "isogrk1.ent"-->
+%ISOgrk1;
+
+<!ENTITY % ISOgrk2 PUBLIC "ISO 8879-1986//ENTITIES Monotoniko Greek//EN"><!--SYSTEM "isogrk2.ent"-->
+%ISOgrk2;
+
+<!ENTITY % ISOgrk3 PUBLIC "ISO 8879-1986//ENTITIES Greek Symbols//EN"><!--SYSTEM "isogrk3.ent"-->
+%ISOgrk3; 
+
+<!ENTITY % ISOamsr PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Relations //EN"><!--SYSTEM "isoamsr.ent"-->
+%ISOamsr;
+
+<!ENTITY % ISOgrk4 PUBLIC "ISO 9573-13:1991//ENTITIES Alternative Greek Symbols //EN"><!--SYSTEM "isogrk4.ent"-->
+%ISOgrk4;
+
+<!ENTITY % ISOcyr1 PUBLIC "ISO 8879-1986//ENTITIES Russian Cyrillic//EN"><!--SYSTEM "isocyr1.ent"-->
+%ISOcyr1;
+
+<!ENTITY % ISOcyr2 PUBLIC "ISO 8879-1986//ENTITIES Non-Russian Cyrillic//EN"><!--SYSTEM "isocyr2.ent"-->
+%ISOcyr2;
+
+<!ENTITY % ISOamsa PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Arrow Relations //EN"><!--SYSTEM "isoamsa.ent"-->
+%ISOamsa;
+
+<!ENTITY % ISOamsb PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Binary Operators //EN"><!--SYSTEM "isoamsb.ent"-->
+%ISOamsb;
+
+<!ENTITY % ISOamsc PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Delimiters //EN"><!--SYSTEM "isoamsc.ent"-->
+%ISOamsc;
+
+<!ENTITY % ISOamsn PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Negated Relations //EN"><!--SYSTEM "isoamsn.ent"-->
+%ISOamsn;
+
+<!ENTITY % ISOamso PUBLIC "ISO 9573-13:1991//ENTITIES Added Math Symbols: Ordinary //EN"><!--SYSTEM "isoamso.ent"-->
+%ISOamso;
+
+<!ENTITY % ISObox PUBLIC "ISO 8879-1986//ENTITIES Box and Line Drawing//EN"><!--SYSTEM "isobox.ent"-->
+%ISObox;
+
+<!ENTITY % ISOdia PUBLIC "ISO 8879-1986//ENTITIES Diacritical Marks//EN"><!--SYSTEM "isodia.ent"-->
+%ISOdia;
+
+<!ENTITY % ISOmscr PUBLIC "ISO 9573-13:1991//ENTITIES Math Alphabets: Script //EN"><!--SYSTEM "isomscr.ent"-->
+%ISOmscr;
+
+<!ENTITY % ISOMOPF  PUBLIC "ISO 9573-13:1991//ENTITIES Math Alphabets: Open Face //EN">
+%ISOMOPF;
+
+<!NOTATION BMP SYSTEM>
+<!NOTATION GIF SYSTEM>
+<!NOTATION TIFF SYSTEM>
+<!NOTATION PDF SYSTEM>
+<!NOTATION JPEG SYSTEM>
+<!NOTATION EPS SYSTEM>
+<!NOTATION WMF SYSTEM>
+<!NOTATION PICT SYSTEM>
+<!NOTATION DOC SYSTEM>
+<!NOTATION OLE SYSTEM>
+
+<!ENTITY  % data       "(#PCDATA | e1 | e2 | e3 | e4 | e5 | e6 | e7 | e8 | e9 | sup | qt | fnr | inf | tblr | figr | formref | listr | email | url | bbr |headr | publink | publinkr)*">
+
+<!ELEMENT article      - -  (header, body?, bm?)>
+
+<!ELEMENT header       - -  (issue, artcon)>
+
+<!ELEMENT issue        - -  (pinfo, jsinfo?, jinfo, pubinfo, typenm?,dtdver?, iti?, isu?, isueds?)>
+
+<!ELEMENT pinfo        - -  (pnm, loc*, url*, email*)+>
+<!ELEMENT pnm          - -  (#PCDATA)>
+<!ELEMENT loc          - -  (#PCDATA)>
+<!ELEMENT url          - -  (#PCDATA)>
+<!ELEMENT email        - -  (#PCDATA)>
+
+<!ELEMENT jsinfo       - -  (jsid?, jtl, jsbt?, jalt?, jabt?)>
+<!ELEMENT jsid         - -  (#PCDATA)>
+<!ELEMENT jtl          - -  (#PCDATA)>
+<!ELEMENT jsbt         - -  (#PCDATA)>
+<!ELEMENT jalt         - -  (#PCDATA)>
+<!ELEMENT jabt         - -  (#PCDATA)>
+
+<!ELEMENT jinfo        - -  (jid, jtl, jsbt?, jalt?, jabt?, issn, eissn?, cdn?, crn, url*, email*)>
+<!ELEMENT jid          - -  (#PCDATA)>
+<!ELEMENT issn         - -  (#PCDATA)>
+<!ELEMENT cdn          - -  (#PCDATA)>
+
+<!-- iid made mandatory-->
+<!ELEMENT pubinfo      - -  (vid, iid, cd)>
+<!ELEMENT vid          - -  (#PCDATA)>
+<!ELEMENT iid          - -  (#PCDATA)>
+<!ELEMENT cd           - -  (#PCDATA)>
+<!ATTLIST cd           year   NUMBER  #REQUIRED
+                       month  NUMBER  #IMPLIED
+                       day    NUMBER  #IMPLIED>
+
+<!ELEMENT typenm       - -  (#PCDATA)>
+<!ELEMENT dtdver       - -  (#PCDATA)>
+
+<!ELEMENT artcon       - -  (genhdr)>
+
+<!-- Language can be stated by use of attributes at 5 different tags:"genhdr", 
+"atl", "abs", "res", and "kwdg". If the language is the same throughout the 
+entire article, the language should only be stated in the "genhdr" tag -->
+
+<!ELEMENT genhdr       - -  (artinfo, tig,  rw*,  dedg?,  aug?,  abs*,  kwdg*,  subg*,  abbrg*,  cad*,  cng*,  cgs*,  cgn*,  genbank*)>
+<!ATTLIST genhdr       language NAME  #REQUIRED>
+
+<!ELEMENT artinfo      - -  (aid, rheads?, doi?, medline?, artty, categ?, figct?, 
+tabct?, eqnct?, refct?, ppct?, wrdct?, ppf, ppl, crn?, hst?)>
+
+<!ELEMENT aid          - -  (#PCDATA)>
+
+<!ELEMENT rheads       - -  (rhatl?, rhau?)>
+
+<!ELEMENT rhatl        - -  (%data;)>
+
+<!ELEMENT rhau         - -  (%data;)>
+
+<!ELEMENT medline      - -  (#PCDATA)>
+
+<!ELEMENT artty        - o  EMPTY>
+<!ATTLIST artty        artty (ED | RA | CO | MR | OR | TN | IN | ME | OA | CR| 
+SC | RP | LE | DI | BR | ER | NE | AN | CA | AB | PP | XX) #REQUIRED>
+
+<!ELEMENT categ        - - (#PCDATA)>
+
+<!ELEMENT figct        - o  EMPTY>
+<!ATTLIST figct        count  NUMBER  #REQUIRED>
+
+<!ELEMENT tabct        - o  EMPTY>
+<!ATTLIST tabct        count  NUMBER  #REQUIRED>
+
+<!ELEMENT eqnct        - o  EMPTY>
+<!ATTLIST eqnct        count  NUMBER  #REQUIRED>
+
+<!ELEMENT refct        - o  EMPTY>
+<!ATTLIST refct        count  NUMBER  #REQUIRED>
+
+<!ELEMENT ppct         - o  EMPTY>
+<!ATTLIST ppct         count  NUMBER  #REQUIRED>
+
+<!ELEMENT wrdct        - o  EMPTY>
+<!ATTLIST wrdct        count  NUMBER  #REQUIRED>
+
+<!ELEMENT ppf          - -  (#PCDATA)>
+<!ELEMENT ppl          - -  (#PCDATA)>
+<!ELEMENT crn          - -  (#PCDATA)>
+
+<!ELEMENT hst          - -  (re?, acc?, rv?, misc?)+>
+
+<!ELEMENT re           - o  EMPTY>
+<!ATTLIST re           year   NUMBER  #REQUIRED
+                       month  NUMBER  #REQUIRED
+                       day    NUMBER  #IMPLIED>
+
+<!ELEMENT acc          - o  EMPTY>
+<!ATTLIST acc          year   NUMBER  #REQUIRED
+                       month  NUMBER  #REQUIRED
+                       day    NUMBER  #IMPLIED>
+
+<!ELEMENT rv           - o  EMPTY>
+<!ATTLIST rv           year   NUMBER  #REQUIRED
+                       month  NUMBER  #REQUIRED
+                       day    NUMBER  #IMPLIED>
+
+<!ELEMENT misc         - -       (#PCDATA)>
+<!ATTLIST misc         year   NUMBER  #REQUIRED
+                       month  NUMBER  #REQUIRED
+                       day    NUMBER  #IMPLIED>
+
+
+<!ELEMENT kwdg         - -  (kwd+)>
+<!ATTLIST kwdg         class  CDATA  #IMPLIED
+                       language  NAME  #IMPLIED>
+
+<!ELEMENT kwd          - -  (%data;)>
+
+<!ELEMENT abbrg        - -  (abbr+)>
+<!ELEMENT abbr         - -  (%data;)>
+
+<!ELEMENT cad          - -  (au | aff)+ >
+
+<!ELEMENT tig          - -  (atl+)>
+
+<!ELEMENT atl          - -  (%data; | heading | sbt)+>
+<!ATTLIST atl          language  NAME  #IMPLIED>
+
+<!ELEMENT sbt          - -  (%data;)>
+<!ELEMENT heading      - -  (%data;)>
+
+<!ELEMENT rw           - -  (%data;)>
+<!ELEMENT dedg         - -  (ded?, prs?)>
+<!ELEMENT ded          - -  (%data;)>
+<!ELEMENT prs          - -  (%data;)>
+
+<!ELEMENT aug          - -  ((collab | au)+, aff*)>
+<!ELEMENT collab       - -  (%data;)>
+<!ELEMENT au           - -  (%data; | degs | fnms | inits | snm | roles)+ +(orf)>
+
+<!ELEMENT degs         - -  (%data;)>
+<!ELEMENT fnms         - -  (%data;)>
+<!ELEMENT inits        - -  (%data;)>
+<!ELEMENT snm          - -  (%data;)>
+<!ELEMENT roles        - -  (%data;)>
+
+<!ELEMENT orf          - o  EMPTY>
+<!ATTLIST orf          rid  IDREF  #REQUIRED>
+
+<!ELEMENT aff          - -  (%data;)+ +(oid)>
+
+<!-- numeric attribute "id"-value of "oid" must be preceded by "a", e.g. "a1" -->
+
+<!ELEMENT oid          - o  EMPTY>
+<!ATTLIST oid          id  ID  #REQUIRED>
+
+<!ELEMENT abs          - -  (head | p )+>
+<!ATTLIST abs          language  NAME  #IMPLIED>
+
+<!ELEMENT p            - -  (%data;) >
+
+<!ELEMENT subg         - -  (subc+)>
+<!ELEMENT subc         - -  (%data;)>
+
+<!ELEMENT cng          - -  (#PCDATA | p)+>
+
+<!ELEMENT cgs          - -  (#PCDATA | p)+>
+
+<!ELEMENT cgn          - -  (#PCDATA | p)+>
+
+<!ELEMENT genbank    - -  (%data;)>
+
+<!ELEMENT qt           - -  (%data;)>
+
+<!ELEMENT body         - -  (head | p)+>
+
+<!-- Numeric attribute "id"-value of "head" must be preceded by "h", e.g."h001" -->
+
+<!ELEMENT head        - - (%data;)>
+<!ATTLIST head         id   ID  #REQUIRED
+                       level (1 | 2 | 3 | 4 | 5 | 6) 1
+                       context (abs | body | app) abs>
+
+<!ELEMENT bm           - - (ack? | app? | bibl? | res? | notes? | objects?)*>
+
+<!ELEMENT ack          - - (p+)>
+
+<!ELEMENT app          - - (head | p)+>
+
+<!ELEMENT bibl         - - (bb+)>
+
+<!-- Numeric attribute "id"-value of "bb" must be preceded by "b", e.g. "b5"-->
+
+<!ELEMENT bb           - - (reftxt*)>
+<!ATTLIST bb           id  ID  #REQUIRED>
+
+<!ELEMENT reftxt       - - (%data; | jtl | atl | au | iid | vid | ppf | ppl | cd | medline | doi | extlink)+>
+
+<!ELEMENT extlink   - - (%data;)>
+<!ATTLIST extlink       type (company | genbank | DNA | email | url | misc) #IMPLIED
+                        link CDATA #IMPLIED
+                        linktype CDATA #IMPLIED
+                        linkid CDATA #IMPLIED>  
+
+
+<!ELEMENT res          - - (%data;)>
+<!ATTLIST res          language  NAME  #REQUIRED>
+
+<!ELEMENT notes        - - (fn+)>
+
+<!ELEMENT objects     - - (tbl | fig | formula | list)*>
+
+<!-- Font shifts -->
+
+<!ELEMENT e1           - -  (%data;)> <!-- Italics -->
+<!ELEMENT e2           - -  (%data;)> <!-- Bold -->
+<!ELEMENT e3           - -  (%data;)> <!-- Bold Italics -->
+<!ELEMENT e4           - -  (%data;)> <!-- Underline -->
+<!ELEMENT e5           - -  (%data;)> <!-- Small Caps -->
+<!ELEMENT e6           - -  (%data;)> <!-- Upright, often followed by Greek-->
+<!ELEMENT e7           - -  (%data;)> <!-- Sloping, often followed by Greek-->
+<!ELEMENT e8           - -  (%data;)> <!-- Double underline -->
+<!ELEMENT e9           - -  (%data;)> <!-- Overline -->
+<!ELEMENT sup          - -  (%data;)>
+<!ELEMENT inf          - -  (%data;)>
+
+<!-- Publishers links -->
+
+<!ELEMENT publink      - -  (#PCDATA)>
+<!ELEMENT publinkr     - -  (#PCDATA)>
+
+<!-- Foot note text -->
+<!-- Numeric attribute "id"-value of "fn" must be preceded by "fn", e.g. "fn1"-->
+
+<!ELEMENT fn           - -  (p+)  -(fn)>
+<!ATTLIST fn           id  ID  #REQUIRED>
+
+<!-- Reference to foot note -->
+
+<!ELEMENT fnr          - o  EMPTY>
+<!ATTLIST fnr          rid  IDREF  #REQUIRED>
+
+<!-- Reference to bibliographic entry -->
+
+<!ELEMENT bbr          - o  EMPTY>
+<!ATTLIST bbr          rid  IDREF  #REQUIRED>
+
+<!-- Table -->
+<!-- All tables must be kept in external files, referenced by the "entname" attribute value -->
+<!-- Numeric attribute "id"-value of "tbl" must be preceded by "t", e.g. "t1 -->
+
+<!ELEMENT tbl          - - (tbltl?, legend?, tblnote?)>
+<!ATTLIST tbl          id   ID    #REQUIRED
+                       type (bmp | gif | tiff | eps | wmf | pict | doc | pdf | jpeg | ole ) bmp
+                      entname ENTITY #REQUIRED
+                       subent  CDATA #IMPLIED>
+
+<!ELEMENT tbltl        - -  (%data;)>
+<!ELEMENT legend       - -  (%data;)>
+<!ELEMENT tblnote       - -  (%data;)>
+
+<!-- Reference to table -->
+
+<!ELEMENT tblr         - o  EMPTY>
+<!ATTLIST tblr         rid  IDREF  #REQUIRED>
+
+<!-- Figure -->
+<!-- All figures must be kept in external files, referenced by the "entname" attribute value -->
+<!-- Numeric attribute "id"-value of "fig" must be preceded by "f", e.g. "f1"-->
+
+<!ELEMENT fig          - - (figtl?, legend?, fignote?)>
+<!ATTLIST fig          id   ID    #REQUIRED
+                       type (bmp | gif | tiff | eps | wmf | pict | doc | pdf | jpeg | ole ) bmp
+                       entname ENTITY #REQUIRED>
+
+<!ELEMENT figtl        - - (%data;)>
+<!ELEMENT fignote        - - (%data;)>
+
+<!-- Reference to figure -->
+
+<!ELEMENT figr         - o  EMPTY>
+<!ATTLIST figr         rid  IDREF  #REQUIRED>
+
+<!-- Reference to head -->
+
+<!ELEMENT headr        - o  EMPTY>
+<!ATTLIST headr        rid  IDREF  #REQUIRED>
+
+<!-- List -->
+<!-- Numeric attribute "id"-value of "li" must be preceded by "l", e.g. "l1"-->
+
+<!ELEMENT list         - - (li+)>
+<!ATTLIST list         id   ID    #REQUIRED
+                       type CDATA #IMPLIED>
+<!ELEMENT li           - - (%data;)>
+
+<!-- Reference to list item -->
+
+<!ELEMENT listr        - o  EMPTY>
+<!ATTLIST listr        rid  IDREF  #REQUIRED>
+
+<!-- Formula -->
+<!-- Numeric attribute "id"-value of "formula" must be preceded by "m", e.g. "m1" -->
+
+<!ELEMENT formula      - - (formnote?)>
+<!ATTLIST formula      id   ID    #REQUIRED
+                       type (bmp | gif | tiff | eps | wmf | pict | doc | pdf | jpeg | ole ) bmp
+                       form (inline | display) inline
+                       desc (math | chem) math
+                       entname ENTITY #REQUIRED
+                       subent  CDATA #IMPLIED>
+
+<!ELEMENT formnote     - - (%data;)>
+
+<!-- Reference to formula -->
+
+<!ELEMENT formref   - o  EMPTY>
+<!ATTLIST formref   rid  IDREF  #REQUIRED>
+
+
+<!ELEMENT eissn      - -  (#PCDATA)>
+<!ELEMENT doi        - -  (#PCDATA)>
+<!ELEMENT iti        - -  (%data;)>
+<!ELEMENT isu        - -  (%data;)>
+<!ELEMENT isueds     - -  (%data;)>
+
+<!-- END OF DTD -->
+
+<!-- List of elements -->
+
+<!-- <abbr> abbreviation -->
+<!-- <abbrg> abbreviation group -->
+<!-- <abs> abstract -->
+<!-- <absinfo> abstract information -->
+<!-- <acc> accepted for publication -->
+<!-- <ack> acknowledgement -->
+<!-- <aff> affiliation -->
+<!-- <aid> unique article identification number -->
+<!-- <app> appendix -->
+<!-- <artcon> article content-->
+<!-- <article> article -->
+<!-- <artinfo> article information -->
+<!-- <artty> article type -->
+<!-- <atl> article title  -->
+<!-- <au> author -->
+<!-- <aug> author group -->
+<!-- <bb> bibliographic reference -->
+<!-- <bbr> reference bibliographic reference -->
+<!-- <bibl> bibliographic reference group -->
+<!-- <bm> back matter -->
+<!-- <body> body -->
+<!-- <br> forced line break -->
+<!-- <cad> corresponding author -->
+<!-- <categ> category -->
+<!-- <cd> cover date -->
+<!-- <cdn> Coden -->
+<!-- <cgn> Contract/Grant number -->
+<!-- <cgs> contract or grant sponsor -->
+<!-- <cng> conference -->
+<!-- <collab> collaboration-->
+<!-- <crn> copyright notice -->
+<!-- <ded> dedication -->
+<!-- <dedg> dedication group -->
+<!-- <degs> degrees -->
+<!-- <dtdver> dtd version number -->
+<!-- <e1> emphasis1 -->
+<!-- <e2> emphasis2 -->
+<!-- <e3> emphasis3 -->
+<!-- <e4> emphasis4 -->
+<!-- <e5> emphasis5 -->
+<!-- <e6> emphasis6 -->
+<!-- <e7> emphasis7 -->
+<!-- <e8> emphasis8 -->
+<!-- <e9> emphasis9 -->
+<!-- <e10> emphasis10 -->
+<!-- <email> e-mail address -->
+<!-- <eqnct> equation count -->
+<!-- <fig> figure -->
+<!-- <figct> figure count -->
+<!-- <fignote> figure note -->
+<!-- <figr> reference to figure -->
+<!-- <figtl> figure title -->
+<!-- <fn> foot note -->
+<!-- <fng> foot note group-->
+<!-- <fnms> first name(s) -->
+<!-- <fnr> reference to foot note -->
+<!-- <formtxt> formula text-->
+<!-- <formnote> note to a formula -->
+<!-- <formref> reference to a formula -->
+<!-- <formula> formula -->
+<!-- <genbank> GenBank number -->
+<!-- <genhdr> general header -->
+<!-- <head> head -->
+<!-- <header> header -->
+<!-- <heading> heading -->
+<!-- <headr> reference to head1, head2, or head3 -->
+<!-- <hst> history -->
+<!-- <histtxt> history text-->
+<!-- <iid> issue identification -->
+<!-- <inf> inferior -->
+<!-- <inits> initials -->
+<!-- <issn> issn number-->
+<!-- <issue> issue -->
+<!-- <iti> issue title -->
+<!-- <isu> issue subtitle -->
+<!-- <jabt> journal abbreviated title -->
+<!-- <jalt> journal altenate title -->
+<!-- <jid> publishers journal identification -->
+<!-- <jinfo> journal information -->
+<!-- <jsbt> journal sub-title -->
+<!-- <jsid> journal series identification -->
+<!-- <jsinfo> journals series information -->
+<!-- <jtl> journal title -->
+<!-- <kwd> keyword -->
+<!-- <kwdg> keuword group -->
+<!-- <legend> legend -->
+<!-- <li> list item -->
+<!-- <listr> reference to list -->
+<!-- <list> list -->
+<!-- <loc> location -->
+<!-- <medline> Medline article number -->
+<!-- <misc> miscelaneous -->
+<!-- <notes> foot notes -->
+<!-- <objects> references to tables, figures, and formulas. holds lists -->
+<!-- <oid> organization identification -->
+<!-- <orf> organization reference -->
+<!-- <p> paragraph -->
+<!-- <pinfo> publisher information -->
+<!-- <pnm> publisher's name -->
+<!-- <ppct> page count -->
+<!-- <ppf> first page -->
+<!-- <ppl> last page-->
+<!-- <prs> presented by -->
+<!-- <pubinfo> publication information -->
+<!-- <publink> anchor for link created by publisher -->
+<!-- <publinkr> link to anchor, created by publisher -->
+<!-- <qt> quote -->
+<!-- <re> received -->
+<!-- <refct> bibliographic reference count -->
+<!-- <reftxt> bibligraphic reference text -->
+<!-- <res> resume -->
+<!-- <rheads> running heads group -->
+<!-- <rhatl> running head, title -->
+<!-- <rhau> running heads, author list -->
+<!-- <roles> roles -->
+<!-- <rv> revised -->
+<!-- <rw> referenced work -->
+<!-- <sbt> sub-title -->
+<!-- <smalltxt> smaller font text-->
+<!-- <snm> surname-->
+<!-- <source> source  of quote-->
+<!-- <subc> subject code -->
+<!-- <subg> subject code group -->
+<!-- <sup> superior -->
+<!-- <tabct> table count -->
+<!-- <tbl> table -->
+<!-- <tblnote> table note -->
+<!-- <tblr> reference to table -->
+<!-- <tbltl> table title -->
+<!-- <tig> title group -->
+<!-- <typenm> name of typesetting company -->
+<!-- <url> URL on the World Wide Web -->
+<!-- <vid> volume number -->
+<!-- <wrdct> word count --> 
+
+
+<!--
+CHANGES TO DTD
+21 Feb 2000 EISSN added to JINFO for DOI etc.
+21 Feb 2000 DOI added to ARTINFO and REFTXT
+
+1 Mar 2000 ITI and ISU added to ISSUE
+1 Mar 2000 ISUEDS added to ISSUE
+
+5 May 2000 EXTLINK added to REFTXT to contain linking information.
+-->
+
+<!--]>-->

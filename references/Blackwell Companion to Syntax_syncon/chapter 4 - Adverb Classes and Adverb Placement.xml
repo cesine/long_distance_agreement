@@ -1,0 +1,2117 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="4"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 4 - Adverb Classes and Adverb Placement.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">83</page>
+<page type="last">120</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="0"/>
+<count type="table" count="25"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="113"/>
+<count type="page" count="38"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051103"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 4&ensp;Delfitto: Adverb Classes and Adverb Placement</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 4&ensp;Delfitto: Adverb Classes and Adverb Placement</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">4 &ensp;Adverb Classes and Adverb Placement</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>DENIS</forenames><x> </x><surname>DELFITTO</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>The categorial status of adverbs</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>Adverb classes</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>Issues of adverb placement</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>Adverbs and movement</p>
+</li>
+<li level="2">
+<number>5.1&ensp;</number>
+<p><i>Wh</i>-movement</p>
+</li>
+<li level="2">
+<number>5.2&ensp;</number>
+<p>Other kinds of movement</p>
+</li>
+<li level="2">
+<number>5.3&ensp;</number>
+<p>Adverb placement as a diagnostic for movement</p>
+</li>
+<li level="1">
+<number>6&ensp;</number>
+<p>Adverbs and adjunction</p>
+</li>
+<li level="1">
+<number>7&ensp;</number>
+<p>Adverbs and the syntax/semantics mapping</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1&ensp;Introduction</heading>
+<p>Adverbs are one of the familiar categories of traditional grammar. Traditional terminology suggests that adverbs are modifiers of the verb (Lat. <i>adverbium</i>, Gr. <i>ep&iacute;rrhema</i>). The traditional view has to be improved in at least two respects. First, adverbs modify not only verbs, but also predicates belonging to other syntactic categories (adjectives, as in <i>very smart</i>, other adverbs, as in <i>very soon</i>, etc.). Second, and even more importantly, not all adverbs can be interpreted as predicate operators (see <link rid="ss4">section 3</link> for a discussion of this point). Sentence adverbs (for instance, &lsquo;modal&rsquo; adverbs such as <i>probably</i>) are better conceived of as sentence operators, whereas subject-oriented adverbs such as <i>rudely</i> roughly correspond to two-place relations between individuals and events.<link rid="fn1">
+<sup>1</sup></link> Temporal adverbs of frequency (such as <i>often</i>, <i>always</i>) have been interpreted as unselective operators (starting from <link rid="b1">Lewis 1975</link>&apos;s seminal work) or even as generalized quantifiers (cf. De <link rid="b2">Swart 1993</link>). The inescapable conclusion is therefore that different adverbs are projected into different semantic objects: the interpretive notion of &lsquo;predicate modifier&rsquo; does not provide us with a criterion of classification sufficient to understand what all adverbs have in common.</p>
+<p>Morphologically, matters are certainly not less intricate. Descriptively, adverbs can be classified into lexical and derived adverbs. Lexical adverbs can be morphologically related to adjectives (as witnessed by English <i>hard</i>, <i>fast</i>, etc.), to nouns (<i>yesterday</i>, <i>tomorrow</i>, etc.), to prepositions (<i>downstairs</i>, <i>before</i>, etc.) and arguably even to determiners (<i>now</i>, <i>there</i>, etc.).<link rid="fn2">
+<sup>2</sup></link> Derived adverbs (<i>-ly</i> adverbs in English, adverbs formed by means of the Latin suffix <i>-mente</i> in Romance) are all adjectivally related adverbs, but they belong semantically to distinct classes (<i>probably</i> is a sentence operator, whereas <i>rudely</i>, at least in one of its possible readings, is a predicate operator). Therefore, it is difficult to see how morphological criteria could be helpful in our attempt to find a unitary characterization for adverbs.</p>
+<p>Adverbial syntax, on the other hand, is notoriously a fairly complex domain. Traditionally, the parallelism with adjectival modification in the nominal domain and the possibility for adverbs to occur &lsquo;stacked&rsquo; (<i>John repeatedly viciously attacked Mary</i>), as adjectives do (see <related relationship="sibling" type="samework"><externallink id="chapter 3 - Adjectives.xml" type="file">chapter 3</externallink></related>), has been held to imply that adverbs give rise to adjunction stuctures.<link rid="fn3">
+<sup>3</sup></link> The view that (adjectival and adverbial) modification essentially involves adjunction is still widely shared, as we will see in the following sections. However, at least two problems should be immediately mentioned in this connection. First, many adverbs are clearly selected/subcategorized by the verb (as in <i>The job pays us handsomely</i>, <i>John worded the letter carefully</i>), and this fact has often been assigned a central theoretical relevance.<link rid="fn4">
+<sup>4</sup></link> Second, it is far from obvious that the complex facts characterizing adverbial syntax can be derived by means of principled constraints on adjunction.<link rid="fn5">
+<sup>5</sup></link> A careful examination of the literature shows in fact that the issue of adverbial modification fairly exceeds the domain of base-generated adjunction and significantly overlaps with issues concerning the status of implicit and optional arguments and the parallelism with optional oblique arguments such as benefactives, instrumentals, locatives, and so on.</p>
+<p>These first considerations about the syntax of adverbs acquire a particular importance if viewed in the light of their ambiguous categorial status (which will be discussed in detail in <link rid="ss3">section 2</link>). It has been observed in the literature (cf. especially <link rid="b3">Larson 1985a</link>) that the distribution of adverbs can be hardly made dependent on some common set of syntactic features, corresponding to a well-defined syntactic category, as is arguably the case with the other lexical categories (N, V, A, and presumably P). Adverbs may be characterized as a collection of phrasal categories exhibiting similar distribution (and being hopefully assigned some common semantic function, such as that of &lsquo;modifier&rsquo;). However, it is far from obvious that CPs (as in <i>because I am sleepy</i>), PPs (as in <i>at 4 o&rsquo;clock</i>), APs (as in <i>hard</i>) and NPs (as in <i>that way</i>) constitute a natural class under any generally accepted set of syntactic features. This makes it hard to understand why they tend to be distributionally equivalent when occurring as adverbials, under common assumptions concerning the relation between semantic and categorial selection.</p>
+<p>These considerations might lead to interesting general conclusions along the following lines. Adverbs (and more generally &lsquo;adverbials&rsquo;, that is, phrasal categories of different sorts roughly performing the same function as lexical adverbs) constitute a still largely unsolved puzzle concerning the form of mapping between syntactic and semantic categories. The problems are more serious than those that arise with other lexical categories (the fact, for instance, that the very same syntactic category may be mapped into two or more distinct semantic categories, or the related fact that different syntactic categories may be mapped into the very same semantic object). The additional problem concerns here the difficulty to understand which set of syntactic features is involved in the mapping (as we have seen, the distributional evidence does not provide us with the desired answer), and the lack of agreement among scholars as to the precise definition of the co-domain of the mapping function (are adverbials to be uniformly regarded as predicate modifiers, or are they to be assigned to a large variety of semantic objects, ranging from individuals to sets to sets of sets, just abstracting away from &lsquo;intensional&rsquo; complications?). Given this state of affairs, it is really not surprising that the syntax of adverbs (and, more generally, the syntax of modification) still represents one of the most controversial domains of research, posing essential challenges to core modules of syntax such as the theory of categorial constituency, so that &ldquo;...we still have no good phrase structure theory for such simple matters as attributive adjectives&nbsp;...and adjuncts of many different types&rdquo; (cf. <link rid="b4">Chomsky 1995c</link>: 382, n. 22).</p>
+<p>Nevertheless, we hope that the following sections will show to the reader that research in formal linguistics has greatly contributed, over the past 30 years, to our understanding of important properties of adverbs and adverbial phrases.<link rid="fn6">
+<sup>6</sup></link> Our discussion will be fairly interdisciplinary, partly reflecting the different perspectives from which the issue of adverbial modification has been approached along the years. In <link rid="ss3">section 2</link>, the categorial status of adverbials will be discussed, in the attempt to clarify whether the presence of adverbs in the lexicon of a given language requires the enrichment of the commonly assumed set of syntactic categories and/or the commonly accepted set of categorial features. <link rid="ss4">Section 3</link> deals with the main attempts to classify adverbials into several distinct classes, mainly based on interpretive criteria and revolving around the mapping from syntactic representations to &lsquo;logical&rsquo; forms which provide a suitable &lsquo;compositional&rsquo; input for interpretation. In <link rid="ss5">section 4</link> it will be shown that the issue of syntactic placement of adverbials is largely underdetermined by their partition (on semantic grounds) into different classes. <link rid="ss6">Section 5</link> will face the issue of movement (how it relates to adverbial syntax): we will discuss the peculiar properties of <i>wh</i>-movement when applied to adverbs/adjuncts of several types and the status of the argument/adjunct asymmetry (see <related relationship="sibling" type="samework"><externallink id="chapter 64 - Strong vs. Weak Islands.xml" type="file">chapter 64</externallink></related>), the possibility that adverbs undergo other sorts of movement and the use of adverb placement as a diagnostic for the application of different sorts of syntactic processes, with special reference to head-movement processes. In <link rid="ss10">section 6</link> the issue of adjunction and some related theoretical issues will be handled. Finally, in <link rid="ss11">section 7</link>, an attempt will be made to illustrate the range of semantic ambiguity of adverbials by means of a detailed examination of the behavior of different sorts of temporal adverbs.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2&ensp;The categorial status of adverbs</heading>
+<p>As emphasized in the introduction, this is one of the long-debated issues in adverbial syntax. It is easy to observe that handbook-level classifications of syntactic categories generally tend to overlook the presence/role of adverbs, under the (often) implicit assumption that lexical adverbs are relatively easily amenable to the most common syntactic categories (A, N, and P). A necessarily condensed survey of the relevant literature reveals that this attempt has been pursued in two main directions.</p>
+<p>On the one hand, adverbs occurring in sentence-final position (as in <i>John ran downstairs</i>) are easy to interpret as &lsquo;intransitive&rsquo; (that is, objectless) prepositions, as confirmed by the fact that many of them can behave as normal prepositions (<i>down the stairs</i>) and/or are morphologically related to prepositions (<link rid="b5">Klima 1965</link>; <link rid="b6">Jackendoff 1972</link>). This strategy is at first sight corroborated by the parallel treatment of postverbal particles (as in <i>John carried up the trunk</i>) as transitive prepositions also admitting an intransitive use, in terms of &lsquo;directional&rsquo; adverbs with virtually the same meaning as when they have an object (<link rid="b7">Emonds 1985</link>: 252ff.; see also <related relationship="sibling" type="samework"><externallink id="chapter 76 - Verb Particle Constructions.xml" type="file">chapter 76</externallink></related>). However, it is hard to see how adjectival adverbs such as <i>long</i> or <i>fast</i> might be inserted in this category (<link rid="b6">Jackendoff 1972</link>: 63). Similarly, the issue arises of <i>-ly</i> adverbs occurring sentence-finally as selected by the verb (as in <i>John dresses elegantly</i>): are they to be added to the inventory of (intransitive) prepositions or are they transformationally related to the sentence-internal position (see <link rid="ss4">section 3</link>) where they are normally generated if not selected by the verb (as in <i>John elegantly solved the problem</i>)? Either solution does not appear particularly natural, even though the transformational analysis is more readily discarded on strictly theoretical grounds (it would unnecessarily increase the complexity of subcategorization rules, <link rid="b6">Jackendoff 1972</link>). The variety of interpretations and the complex distribution of <i>-ly</i> adverbs has constituted in fact the main source of evidence against the attempts to reduce adverbs to more primitive syntactic categories, as we will see in a moment.</p>
+<p>The case of adjectivally related adverbs such as <i>fast</i> and <i>hard</i> has led some scholars to the hypothesis that even non-selected adverbs are uniformly categorized as A(djectives), say with a defective distribution (<link rid="b7">Emonds 1985</link>). In other words, <i>-ly</i> is considered a suffix inflectional on A (tentatively accounting, under the assumption that English admits only one inflection per word, for the fact that comparative/superlative affixes cannot be added to <i>-ly</i> adverbs: <i>*elegantlier</i>), the crucial evidence being provided by the cases where the adverb is morphologically indistinguishable from the related adjective. As for the case of underived adverbs (such as <i>seldom</i>, <i>often</i>, etc.) which do not occur in noun-modifying position, it has been argued that they may be As as well, on the grounds of the observation that they exhibit the same specifier system as adjectives, as can be seen in <i>very seldom</i>, <i>how often</i>, etc. The position that unselected adverbs are uniformly As from a categorial perspective is somehow reminiscent of the hypothesis (dating back to at least <link rid="b8">Katz 1964</link>) that alternations such as <i>good</i>/<i>well</i> constitute suppletive pairs of the abstract underlying form (A, EVALUATIVE), the different surface realization being the result of case-assignment to the adjectival member of the pair (the comparative/superlative forms <i>better</i> and <i>best</i> are actually indistinguishable). A natural development of this basic insight would be to assume that APs and adverbial APs differ in that the former, but not the latter, are case-marked. It has been observed that there are cases where adjectival and adverbial realization appear to be in free alternation (<link rid="b7">Emonds 1985</link>: 58, n. 30).<link rid="fn7">
+<sup>7</sup></link> Pursuing this line of research would obviously require versions of theta <i>and</i> case theory which are able to correctly derive the fact that caseless APs are interpretable only in some well-defined positions (the adverbial use being strictly confined to these positions). Alternatively, one might simply consider some extension of the case filter to true APs, with adverbs belonging to a syntactic category other than A. This possibility leads us to examine the radical alternative to the &lsquo;reductionist&rsquo; approaches considered so far, based on the assumption that adverbs constitute a primitive syntactic category.</p>
+<p>This alternative is explicitly developed in <link rid="b6">Jackendoff (1972</link>), where adverbs are assumed to be lexical categories performing, within the verbal domain, the same function performed by adjectives within the nominal domain. The parallelism between adverbs and adjectives is particularly striking on distributional grounds: adverbs surface between subject and main verb (in the so-called &lsquo;auxiliary position&rsquo;, identified with the underlying position for <i>-ly</i> adverbs, as in <i>John easily won the race</i>), exactly as adjectives surface between the determiner and the noun (<i>the easy solution</i>). Derived nominals and gerunds provide the most suitable context for the parallelism to be detected (<i>John&apos;s rapid reading of the letter</i> vs. <i>John&apos;s rapidly reading the letter</i>) (see <related relationship="sibling" type="samework"><externallink id="chapter 30 - Gerundive Nominalizations.xml" type="file">chapter 30</externallink></related>). The leading hypothesis is that there are two distinct base rule schemas for adjectives and adverbs, roughly assigned the following form (<link rid="b6">Jackendoff 1972</link>: 60):<link rid="fn8">
+<sup>8</sup></link>
+</p>
+<p>(1)&ensp;N&prime; (Adj) &minus; N &minus; Complement</p>
+<p>(2)&ensp;V&prime; (Adv) &minus; V &minus; Complement</p>
+<p>The rule admits a more abstract formulation, in which the categorial labels N/V are replaced by the common symbol X (referring to the sets of syntactic features shared by N and V), and Adj/Adv are replaced by the common symbol Y (referring to the set of features shared by adverbs and adjectives): in this way it is possible to capture the distributional similarity emphasized above by simply expressing the generalization that whenever the feature &plus;V is assigned to X the feature &plus;Adv will be assigned to Y (yielding the base rule schema in (2)). It is worth noticing that these distributional facts (whose theoretical relevance is confirmed by the observation that adjectives that only occur prenominally are paralleled by adverbs exclusively occurring in auxiliary position, as in <i>the mere truth</i> vs. <i>John merely said the truth</i>) could not be easily given formal expression in a grammar where adverbs are derivative categories transformationally related to adjectival sources (as was the case, in the 1960s, for the approaches inspired by the Katz-Postal hypothesis, according to which all semantic information is encoded in underlying structure). The fact that a sentence such as <i>John easily won the race</i> can be assigned an underlying structure roughly equivalent to <i>It was easy for John to win the race</i> does not offer any clue as to why adjectives and adverbs should exhibit the distributional symmetry tentatively captured in (1&ndash;2). Criticism of the idea that adverbs and adjectives are transformationally related is also based on the observation that adverbs of certain classes (such as <i>merely</i>, <i>readily</i>, <i>actually</i>, etc.) cannot be derived from adjectival sources (<i>Albert is merely being a fool / *it is mere that Albert is a fool</i>) and on the hopeless variety of the adjectival sources arguably involved (to be reviewed in <link rid="ss4">section 3</link> while discussing the variety of interpretations assigned to different classes of adverbs). It seems reasonable to conclude that adverbial syntax constitutes one of the domains of research in which the complex and idiosyncratic rules resorted to in generative semantics (typically involving deletion of the superordinate clause and insertion of lexical material in the lower clause) proved not only difficult to handle but also severely inadequate empirically. A case in point (beyond the general difficulty of attaining a real simplification of the lexicon due to the unavailability of adequate adjectival sources for many adverbs) is provided by the analysis of adverbials such as instrumental PPs. The attempt to link sentences such as <i>John sliced the salami with a knife</i> to sources involving <i>use</i> in the deleted higher clause (<i>John used a knife to slice the salami</i>) has been argued at least as early as in <link rid="b9">Bresnan (1969</link>) to be problematic in view of cases such as <i>John used a knife to slice the salami with</i>.</p>
+<p>It might be argued that <i>derived</i> adverbs and a subset of <i>lexical</i> adverbs are adjectival, with other adverbs distributing over various syntactic categories, as is the case for prepositional adverbs occurring in sentence-final position (see above) and for bare NP adverbs, like the <i>now</i>/<i>then</i> and <i>here</i>/<i>there</i> pairs discussed in <link rid="b7">Emonds (1985</link>) and the temporal, locative, directional, and manner bare NP adverbs discussed in <link rid="b3">Larson (1985a</link>) (<i>sometime</i>, <i>someplace</i>, <i>that direction</i>, <i>that way</i>). However, this analysis would still be in need of explaining the central fact of adverbial syntax, that is, the distributional symmetry observed among &lsquo;adverbial&rsquo; constituents belonging to several syntactic categories. Bare NP adverbs, for instance, certainly exhibit distributional peculiarities, in that they can occur in specifier positions which are restricted to NPs (as in <i>yesterday&apos;s refusal</i>, <link rid="b3">Larson 1985a</link>: 598). They also exhibit, however, a distributional behavior quite similar to that of other &lsquo;adverbial categories&rsquo;: they occur in subcategorized position (as in <i>Peter worded the letter that way</i>/<i>tactlessly</i>/<i>in a thoughtful manner</i>), co-occur with the intensifier <i>right</i>, as adverbial PPs and adverbial clauses do (<i>I saw John right then</i>/<i>near the door</i>/<i>after you did</i>), and can be easily coordinated with adverbial categories of a different syntactic category (<i>They will be arriving Thursday and</i>/<i>or subsequently</i>). The obvious expectation is that constituents sharing, to a significant extent, the same distributional behavior, will also be endowed with the same categorial feature(s). On the other hand, as already emphasized, CPs, APs (or AdvPs), PPs, and NPs hardly constitute a natural class under any generally accepted set of syntactic features. As observed by Larson, the temptation might be strong to postulate &lsquo;hidden&rsquo; categorial structure for which it is difficult to find independent evidence, as in <link rid="b10">Bresnan and Grimshaw&apos;s (1978</link>) account of English free relatives (see <related relationship="sibling" type="samework"><externallink id="chapter 27 - Free Relatives.xml" type="file">chapter 27</externallink></related>), where bare NP adverbs are analyzed as PPs headed by an empty head. A better solution consists in the assumption that distribution is not an exclusive function of category membership, as was the case in structural linguistics and in earlier phases of generative linguistics. Distribution is rather the product of the interaction of different modules of syntax (essentially, theta theory and case theory). This approach is particularly natural if it is assumed that predicates may assign &lsquo;adverbial theta-roles&rsquo; to arbitrary categories and that distributional constraints affecting certain adverbial categories (like bare NP adverbs) essentially depend on case considerations.<link rid="fn9">
+<sup>9</sup></link> Potential problems for this approach concern the feasibility of the notion of &lsquo;adverbial theta-role&rsquo; (based on the analogy with the theta-roles assigned to other optionally selected constituents such as benefactives), especially in view of the fact that adverbial categories are arguably mapped into a relatively large variety of semantic objects (<link rid="ss11">section 7</link>), and that the nature of the mapping is largely independent of their categorial specification.</p>
+<p>Summarizing, there seems to be agreement that the notion &lsquo;adverb&rsquo; is largely dependent on thematic and case-theoretic considerations and cannot be simply reduced to a categorial primitive. Phrases belonging to different syntactic categories (NPs, PPs, CPs) are easily assigned the same semantic function and the same syntactic distribution as &lsquo;lexical&rsquo; adverbs. As for the latter, there seems to be some consensus that the &lsquo;reductionist&rsquo; approach (all adverbs are Ps, As, or Ns) cannot be pursued up to its extreme consequences, and that mention of the category &lsquo;Adverb&rsquo; might well be unavoidable. Interestingly, reductionist approaches tend to discharge the burden of explanation on specific versions of theta and case theory.</p>
+</subsection>
+<subsection id="ss4" level="1">
+<heading id="h3" level="1">3&ensp;Adverb classes</heading>
+<p>Descriptively, adverbs of different sorts are distinguished on intuitive meaning grounds. In the literature, reference to adverbs often makes use of such primitive labels as manner adverbials, locative adverbials, temporal adverbials (further distinguished into punctual, durative, frequency adverbs, etc.), means and degree adverbs, reason adverbials and so on. At a more abstract level, the classification task is intended to provide generalizations which might be relevant for a satisfactory formal characterization of adverbs, on syntactic and/or semantic grounds. Adopting a semantic or a syntactic perspective may lead indeed to quite different results. Here, we will consider the two perspectives separately, comparing them only at a later phase.</p>
+<p>Semantically, adverbs have been traditionally partitioned into predicate operators and sentence operators (roughly corresponding to the familiar distinction into VP-adverbs and S-adverbs). S-adverbs are assumed to take scope over the whole sentence, as is clearly the case with modal adverbs such as <i>probably</i>, <i>certainly</i>, <i>presumably</i>, etc., whose semantic structure roughly coincides with a copula clause containing <i>Adj</i> (that is, the adjectival counterpart of the modal adverb) and taking as its unique argument the sentence resulting from removing the adverb (<i>Frank is certainly avoiding us / It is certain that Frank is avoiding us</i>) (<link rid="b6">Jackendoff 1972</link>: 69). However, the interpretation of S-adverbs as uniformly belonging to the syntactic category t/t (categories combining with sentences to yield sentences) is clearly deemed to fail, since many other sorts of S-adverbs, such as evaluative adverbs (<i>fortunately</i>, <i>happily</i>, etc.), domain adverbs (<i>politically</i>, <i>botanically</i>, etc.), and pragmatic adverbs (<i>frankly</i>, <i>honestly</i>, etc.) seem to resist this straightforward semantic treatment.<link rid="fn10">
+<sup>10</sup></link> Jackendoff&apos;s Type I adverbs (&lsquo;speaker-oriented adverbs&rsquo;) are actually interpreted as involving (at least in some cases) a two-place adjectival predicate, whose first argument is the sentence resulting from removing the adverb and whose second argument is an NP referring to the speaker: ADJ (SPEAKER, f(NP<sup>1</sup>,&nbsp;..., NP<sup>n</sup>)), where ADJ is the adjectival counterpart of the adverb and f(NP<sup>1</sup>,&nbsp;..., NP<sup>n</sup>)) expresses the relation between the verb and its strictly subcategorized arguments. As a consequence, the appropriate paraphrase for a sentence such as <i>Happily, Frank is avoiding us</i> (containing an evaluative adverb) will involve a two-place adjective, as in <i>I am happy that Frank is avoiding us</i>. Matters are even more complex in the case of speech-act modifying or pragmatic adverbials, which seem to modify an implicit speech-act predicate: the appropriate paraphrase for <i>Botanically, a tomato is a fruit</i> will presumably be something equivalent to <i>In making the following assertion, I speak botanically: A tomato is a fruit</i>. What seems to be at stake here is that &ldquo;we do not use the proposition expressed by the modified sentence as input to our adverb: rather, the adverb helps determine what proposition that sentence expresses. And this then makes it impossible to treat sentence adverbs of this kind as semantic functions whose arguments are propositions expressed by the modified sentences&rdquo; (<link rid="b11">McConnell-Ginet 1982</link>: 176). In other words, it seems reasonable to conclude that Jackendoff&apos;s class of &lsquo;speaker-oriented adverbs&rsquo; is sufficient to show that the interpretation of S-adverbs in terms of sentence operators is severely inadequate. As for the nature of the mapping between sentences containing adverbs and the adjectival structures purported to express their interpretation, it is important to emphasize that Jackendoff interprets it in terms of &lsquo;projection rules&rsquo; belonging to the interpretive component (against the view of generative semanticians, contending that adverbial sentences and their adjectival counterparts are transformationally related).<link rid="fn11">
+<sup>11</sup></link> The role of syntax consists in constraining the application of these rules, since each of them applies to a well-defined set of structural descriptions: for instance, the projection rule mapping speaker-oriented adverbs into two-place adjectives will not apply to syntactic configurations where the adverb is generated too low in the structure, as in <i>*George will be happily finishing his carrots</i>. Of course, interesting issues arise concerning the compositional nature of the interpretation procedure, issues to which we will return below.</p>
+<p>Let us consider now the case of VP-adverbs (that is, adverbs allegedly interpreted as predicate operators). The traditional view in formal semantics (established in Montague&apos;s classical contribution and defended in largely influential successive work, cf. especially <link rid="b12">Thomason and Stalnaker 1973</link>) is that VP-adverbs, typically instantiated by manner adverbials such as <i>slowly</i>, correspond to predicate functors, that is, categories of type &lt;&lt;e,t&gt;, &lt;e,t&gt;&gt;, which apply to predicates to yield predicates (see <link rid="b13">Heny 1973</link> for a discussion of this approach). A well-known shortcoming of this approach is that it fails to derive arguably valid logical entailments such as <i>John walks slowly / John walks</i> as a matter of logical form, requiring the introduction of specific meaning postulates (that is, the validity of this kind of logical entailment has to be independently established, in principle, for each single predicate). It is worth noticing that the set-theoretic treatment of VP-adverbs as predicate functors appears to constitute a suitable formalization of Jackendoff&apos;s semantic structure for manner, degree, and time adverbs (Type III adverbs, <link rid="b6">Jackendoff 1972</link>: 70&ndash;71). The semantic structure associated to manner adverbs by projection rules is roughly represented as &lsqb;f &plus; ADV&rsqb; (NP<sup>1</sup>,&nbsp;..., NP<sup>n</sup>), expressing the fact that the adverb can be interpreted as adding a lexically determined set of &lsquo;semantic markers&rsquo; interacting with the set of semantic markers corresponding to the lexical meaning of the verb, without altering its &lsquo;functional structure&rsquo;, that is, its selection properties.<link rid="fn12">
+<sup>12</sup></link> Both approaches (Montague&apos;s and Jackendoff&apos;s) fail to characterize adverbial modification as essentially involving that the extension of the modified predicate is (properly) included in the extension of the original one &ndash; &ldquo;that the set of those who talk quickly is a (probably proper) subset of the talkers&rdquo; (<link rid="b11">McConnell-Ginet 1982</link>: 162). That &lsquo;davidsonian&rsquo; inferences of this sort actually hold has been repeatedly challenged in the literature: <i>He filled the tank halfway / He filled the tank</i> can hardly be viewed as a logically valid entailment, even though <i>halfway</i> qualifies as a VP-adverb according to the diagnostics proposed in <link rid="b12">Thomason and Stalnaker (1973</link>), contrary to adverbials such as <i>allegedly</i> and <i>in a dream</i>, which have also been used in order to reject the davidsonian inference pattern (<link rid="b14">Parsons 1970</link>; <link rid="b15">Montague 1974</link>). However, it is widely aknowledged that inference patterns such as <i>John walks slowly, therefore he walks</i> fit quite well our pre-theoretical intuitions about adverbial modification. That the analysis of VP-adverbs as predicate functors can hardly be assumed to adequately formalize our pretheoretical intuitions about &lsquo;modification&rsquo; is more clearly confirmed by the fact that this analysis cannot be satisfactorily developed in purely extensional terms. In a model where &lsquo;those who talk&rsquo; accidentally coincide with &lsquo;those who walk&rsquo;, we do not want to conclude that those who talk quickly necessarily coincide with those who walk quickly (<link rid="b11">McConnell-Ginet 1982</link>: 162). The solution traditionally consists in assuming that the adverb takes the intension rather than the extension of the predicate as its argument (this way, alternative situations are considered (possible worlds) where the extension of the properties of walking and talking are differently defined, making it possible to differentiate the result of the application of the function &lsquo;quickly&rsquo; to these properties). However, the intensional machinery does not really reflect the way we think about <i>why</i> quick talkers and quick walkers may well correspond to two distinct sets in situations where talkers and walkers coincide. Intuitively, what we would like to have is a semantics according to which &ldquo;...a single situation can distinguish those walking quickly from those talking quickly, even if walkers are all talkers and vice versa&rdquo; (<link rid="b11">McConnell-Ginet 1982</link>: 163). There is a clear sense in which &lsquo;intensions&rsquo; are beyond the point here, but intensions are all we have to achieve the correct empirical result if VP-adverbs are to be treated as predicate functors.</p>
+<p>As is well known, the davidsonian approach (<link rid="b16">Davidson 1967</link>) is often understood as a research program intended to circumvent these counterintuitive intensional complications, by means of a non-standard formalization of first-order logic. Events are entities and predicates contain an additional argument position for events. Sentences such as <i>Sebastian strolled through the streets of Bologna at 2 am</i> and <i>Sebastian strolled through the streets of Bologna</i> are assigned the logical forms in (3) and (4), respectively, easily reducing logical entailment between the first and the second sentence to a matter of form (<link rid="b17">Davidson 1980</link>: 166):</p>
+<p>(3)&ensp;&exist;e(Strolled(Sebastian, e) and Through(e, the streets of Bologna) and at(e, 2am))</p>
+<p>(4)&ensp;&exist;e(Strolled(Sebastian, e) and Through(e, the streets of Bologna))</p>
+<p>The real issue, however, is that interpreting VP-adverbs as predicate functors (as in Montague grammar) or as predicates of events (as in Davidson&apos;s proposal) does not provide any viable approach for the analysis of slightly more sophisticated uses of VP-adverbs, as with the &lsquo;subject-oriented&rsquo; reading of manner adverbs like <i>rudely</i>, <i>carefully</i>, etc. According to this reading, the adverb does not express the manner in which the action occurred, but rather expresses some judgment about the import of its occurrence (the latter reading is also qualified as &lsquo;stative&rsquo;, cf. <link rid="b18">Higginbotham 1989</link>). <link rid="b6">Jackendoff (1972</link>) assigns this reading the following semantic structure: ADJ(NP<sup>i</sup>, <i>f</i>(NP<sup>1</sup>,&nbsp;...NP<sup>n</sup>)), corresponding to a two-place adjective which takes as its first argument the sentence obtained by removing the adverb and as its second argument one of the elements selected by the verbal predicate. The canonical example <i>Louisa rudely departed</i> will therefore be assigned, in its subject-oriented reading, a paraphrase roughly corresponding to <i>It was rude of Louisa to depart</i> (<link rid="b11">McConnell-Ginet 1982</link>; <link rid="b18">Higginbotham 1989</link>).<link rid="fn13">
+<sup>13</sup></link> Notice that a delicate compositionality issue arises here, since Jackendoff&apos;s paraphrase contains two instances of the subject NP (as a semantic constituent in its own right and as a sub-constituent of the sentential argument), whereas sentences such as <i>Louisa rudely departed</i> cannot be assumed to contain multiple occurrences of the subject NP (abstracting away, of course, from analyses which identify the deep structure of the sentences under scrutiny with their logical form, as in <link rid="b19">Lakoff 1965</link>). McConnell-Ginet proposes a solution according to which Jackendoff&apos;s paraphrase should be modified by replacing the sub-constituent of the sentential argument which also occurs as first argument of ADJ with a variable. This can be made semantically straightforward by assuming that in the subject-oriented reading of <i>Louisa rudely departed</i>, the adverb is a daughter of the sentential node and applies to VP (interpreted as a predicate, that is, &lgr;xPx). Since predicates and open sentences of the form Px are both interpretable as propositional functions, the semantics of <i>Louisa rudely departed</i> can be partially made parallel to that of its adjectival paraphrase <i>It was rude of Louisa to depart</i> (where the semantic variable is presumably provided by the subject PRO of the infinitival clause), without any need of unorthodox stipulations concerning the syntactic structure of <i>Louisa rudely departed</i>.<link rid="fn14">
+<sup>14</sup></link> However, application of the predicate functor <i>rudely</i> to either V (yielding (6)) or to the whole VP (yielding (5)) will still be insufficient to differentiate the manner reading from the subject-oriented one, since the predicates to which the adverb applies in the two cases differ only structurally, but not semantically, and will therefore yield undistinguishable interpretations (<link rid="b11">McConnell-Ginet 1982</link>: 161):</p>
+<p>(5)&ensp;(Louisa) (rudely (&lgr;x (x departed)))</p>
+<p>(6)&ensp;(Louisa) (rudely (departed))</p>
+<p>Again, the predicate-operator approach needs to resort to meaning postulates in order to arrive at the correct empirical result: in this case, it seems necessary to assume two distinct predicate operators &lsquo;rudely<sub>1</sub>&rsquo; and &lsquo;rudely<sub>2</sub>&rsquo;, one designating manner and the other attitude.</p>
+<p>This is the reason why a number of scholars have rejected the predicate-operator approach, essentially by adopting non-standard assumptions about the argument structure of (verbal) predicates. According to one of these hypotheses, manner adverbs (presumably on a par with other &lsquo;circumstantial&rsquo; adverbs such as locatives, instrumentals, etc.) are to be interpreted as &lsquo;optional&rsquo; arguments of the verb. The main piece of evidence is provided by the fact, discussed in <link rid="ss3">section 2</link>, that adverbs, on a par with other &lsquo;optional&rsquo; arguments such as &lsquo;benefactives&rsquo;, are sometimes obligatorily selected by the verb, as in <i>Joan behaved *(badly)</i> and <i>Most of the people treated Jill *(rudely)</i>.<link rid="fn15">
+<sup>15</sup></link> Jackendoff&apos;s failure to satisfactorily connect the homonymous &lsquo;manner&rsquo; and &lsquo;sentence-complement&rsquo; (i.e., subject-oriented) adverbs is allegedly repaired by assuming that adverbs that are semantically equivalent to predicates with a sentential complement are actually connected (by means of some lexical rule) with genuine &lsquo;higher&rsquo; predicates, modified by the adverb and regularly taking sentential complements. In this way, the subject-oriented interpretation of <i>Louisa rudely departed</i> will be traced back to structures of the form <i>Louisa acted rudely to depart</i> (<link rid="b11">McConnell-Ginet 1982</link>: 173). Notice that this kind of approach is essentially based on assuming fairly complex lexical representations, with a high degree of lexical ambiguity: the manner reading depends on the possibility of adding an extra argument position in the theta-grid of <i>depart</i>, whilst the subject-oriented reading is based on the possibility that the adverb can be interpreted as the modifier of an implicit higher predicate. Conceptually, they seem to be motivated by the desire to replace the mechanical meaning postulates which would anyway be necessary within the predicate-operator approach with explicit assumptions about the nature of the lexical operations involved, in the hope that these assumptions will eventually lose their stipulative flavor. In the same vein, but more in the spirit of Davidson&apos;s approach, <link rid="b18">Higginbotham (1989</link>) proposes that the issue of adverbial modification reduces to how open positions in the lexical structure of lexical items are &lsquo;saturated&rsquo; by means of the mechanism of thematic discharge (involving the operations of theta-binding, theta-identification, and autonymous theta-marking) developed in <link rid="b20">Higginbotham (1985</link>), and originally applied to adjectival modification. The basic insight is that there are cases of adverbial modification, as in <i>Mary fatally slipped</i>, which exactly parallel the canonical adjectival modification in <i>a white ball</i>. Under the assumption that adverbs express relations about an event <i>e</i> and an individual <i>x</i>, and that the open positions in the lexical structure of the adverb can be &lsquo;discharged&rsquo; by identifying them with those in the lexical structure of the verb, it is possible to arrive at the correct semantic paraphrase (<i>Mary slipped and it (the slip) was fatal to her</i>). Needless to say, the manner and subject-oriented readings of adverbs such as <i>rudely</i> require that the adverb under scrutiny be assigned more complex (and distinct!) lexical structures: as for the manner reading, rudely is interpreted as expressing a relation between situations and &lsquo;attributes&rsquo; (the latter corresponding to the &lsquo;intensional&rsquo; equivalents of predicates), in order to arrive at paraphrases like &lsquo;<i>e</i> is a departure by Louisa and it is rude (for a departure by Louisa)&rsquo;; as for the subject-oriented reading, the adverb is assigned the lexical structure of a three-place predicate (expressing a relation among situations, individuals, and attributes), in order to yield paraphrases such as &lsquo;the departure of Louisa was rude of Louisa, as classified by the very attribute of being a departure by Louisa&rsquo;.<link rid="fn16">
+<sup>16</sup></link> It is worth noticing that Higginbotham&apos;s analysis of adverbial modification can be interpreted as an attempt to provide the semantics for adjunction structures: adverbs, within the large variety of their interpretations, are consistently analyzed in terms of n-place relations crucially involving the event variable assigned to action predicates by Davidson.<link rid="fn17">
+<sup>17</sup></link> This position has to be carefully kept apart from the view taken in <link rid="b11">McConnell-Ginet (1982</link>) or <link rid="b3">Larson (1985a</link>), where &lsquo;circumstantial&rsquo; adverbs are interpreted, as emphasized above, as (optional) arguments of the verb. In <link rid="ss11">section 7</link>, we will see that the latter view is apparently supported by important facts concerning (a subset of) temporal adverbs. For the time being, we will limit ourselves to pointing out some intriguing facts concerning adverb-incorporation in Modern Greek, which also seem to militate in favor of the relevance of the argument status of adverbials (<link rid="b21">Rivero 1992</link>). Rivero discusses the fact that manner and directional adverbs apparently incorporate into the verb in Modern Greek.<link rid="fn18">
+<sup>18</sup></link> Incorporation is not limited to strictly selected adverbials (as in <i>Mary behaves badly toward her sister</i>) but significantly extends to normal cases of adverbial modification like <i>Mary turned it upside down</i>. The class of incorporators arguably includes &lsquo;aktionsart&rsquo; adverbials such as <i>again</i> (intuitively referring to the internal properties of the event, much in the spirit of <link rid="b22">Verkuyl 1993</link>&apos;s &lsquo;theory of aspectuality&rsquo; and as such qualifying as VP-internal), but crucially excludes &lsquo;aspect&rsquo; adverbials like <i>still</i> (apparently sensitive to the perfective/imperfective distinction) and &lsquo;tense&rsquo; adverbials like <i>yesterday</i> and <i>often</i> (which are assumed to be adjoined to different functional layers such as AspP and TP). Under the assumption that these phenomena fall under the range of <link rid="b23">Baker&apos;s (1988a</link>) analysis of incorporation in terms of head-movement into a higher selecting head, Rivero uses them as a diagnostic for a distinction between adverbials which qualify as arguments of the verbal predicate (manner, directional, and aktionsart adverbs) and those that are adjuncts related to different functional projections (primarily aspect and tense adverbs). The results produced by the application of this diagnostic are sometimes highly intriguing. The classification cuts across the class of circumstantial adverbs: manner and locative adverbials are kept apart from temporal adverbials, suggesting that the latter are never interpreted as arguments, a result difficult to justify both on empirical and theoretical grounds (see <link rid="ss11">section 7</link>).</p>
+<p>As emphasized at the outset, identifying different adverb classes is strictly dependent on the nature of the criteria which are applied. On essentially distributional grounds, the number of relevant classes can be easily shown to exceed the semantically motivated partition into VP- and S-adverbs, and the related quadripartition proposed in <link rid="b6">Jackendoff (1972</link>).<link rid="fn19">
+<sup>19</sup></link> There is a large amount of literature, concerning a relatively large typological domain, about the rigid relative ordering of different sorts of adverbs.<link rid="fn20">
+<sup>20</sup></link> Cinque (forthcoming) proposes a universal hierarchy of adverbs (hopefully correlating with a fixed universal hierarchy of functional projections, see <link rid="ss10">section 6</link>) which distinguishes among (at least) an ordered sequence of &lsquo;higher&rsquo; sentence adverbs, an ordered sequence of &lsquo;lower&rsquo; VP-adverbs and an unordered sequence of VP-internal &lsquo;circumstantial&rsquo; adverbs:</p>
+<p>(7)&ensp;higher sentence AdvPs &gt; lower AdvPs &gt; (DP<sup>subj</sup>) (V) complements &gt; &gt; place, time, manner, etc. adverbials<link rid="fn21">
+<sup>21</sup></link>
+</p>
+<p>The theoretical relevance of the partition obtained by applying distributional criteria is assumed to depend on the feasibility of the correlation between (classes of) adverbs and independently motivated functional projections, and on the existence of a one-to-one correlation between syntactic positions and semantic structures. At the same time, it is worth emphasizing that these results are unlikely to improve our understanding of the compositionality issue. The relation between the syntactic position occupied by an adverb and the semantic role fulfilled by the latter remains essentially non-compositional (as was the case in Jackendoff&apos;s analysis).<link rid="fn22">
+<sup>22</sup></link> We might say, by adopting Jackendoff&apos;s terminology, that the arbitrariness of the projection rules involved is hopefully compensated for by the presence of a distinct structural description for each projection rule. The role of syntax seems to consist in producing an unambiguous input for the application of non-compositional interpretive strategies. This would entail that the relation between the manner and the subject-oriented readings of adverbs such as <i>carefully</i> or <i>rudely</i> does not go far beyond accidental homonymy.</p>
+<p>Summarizing, we have seen that the familiar distinction between VP-adverbs and S-adverbs is hardly supported by a semantic partition between adverbs that are predicate operators and adverbs that are sentence operators. Rather, a large variety of interpretations has emerged (for instance, Jackendoff&apos;s speaker-oriented and subject-oriented readings of S-adverbs and VP-adverbs, respectively). Two major streams of research have been discussed. The one tries to cope with the challenge that adverbial syntax poses to compositionality. The other accepts the arbitrariness of the projection rules and tries to provide the most adequate characterization of the set of structural descriptions involved (representing the input for the interpretive component). We turn now to the consequences of the proposed analyses for the issue of adverb placement.</p>
+</subsection>
+<subsection id="ss5" level="1">
+<heading id="h4" level="1">4&ensp;Issues of adverb placement</heading>
+<p>As remarked at the end of the previous section, investigations on the syntactic position occupied by adverbs are likely to play an essential role if syntax is assumed to provide an unambiguous input for the application of the interpretive procedure (&lsquo;projection rules&rsquo;) which associates adequate semantic structures to sentences containing adverbs. In the ideal situation, configurations where an adverb is assigned more than one interpretation should be ambiguous between two distinct configurations in which the adverb fills a different position, and, conversely, there should be no case of an adverb receiving the same interpretation in more than one syntactic position (abstracting away, for the time being, from the &lsquo;reconstruction&rsquo; properties of certain kinds of adverb movement, which will be discussed in <link rid="ss7 ss8">sections 5.1 and 5.2</link>). <link rid="b6">Jackendoff (1972</link>) tried to reduce the notion &lsquo;ambiguity of syntactic position&rsquo; to the notion &lsquo;ambiguity of syntactic attachment&rsquo;. The canonical cases of ambiguity taken into consideration concern relative ordering of adverbs and auxiliaries, as in the following examples:</p>
+<p>(8)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John cleverly has read the book.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John has cleverly read the book.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>John has read the book cleverly.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As is well known, (8a) is only possible with the subject-oriented reading of the adverb, and (8c) with the manner reading of the adverb. As for (8b), it is assumed to be ambiguous between the subject-oriented and the manner reading. These facts easily follow if the adverb is attached to S in (8a) and to VP in (8c), whereas it is ambiguous between VP-attachment and S-attachment in (8b), under the assumption that the projection rule providing the subject-oriented and the manner reading only applies to adverbs attached to S and to VP, respectively. The ambiguity of attachment holding for (8b) is derived from the hypothesis that the auxiliary system is split into two parts, with Modal and Tense realized as a daughter of S and (<i>have -en</i>)/(<i>be -ing</i>) realized under VP (<link rid="b24">Klima 1966</link>; <link rid="b25">Emonds 1970</link>). Since obligatory raising of <i>have</i>/<i>be</i> to Tense is assumed to take place, this system entails that an adverb which follows a single auxiliary, as in (8b), can be attached either to S or to VP, reducing interpretive ambiguity to structural ambiguity, as desirable on theoretical grounds. One of the predictions is that adverbs following more than one auxiliary are only compatible with the manner reading (crucially excluding S-attachment), since the second auxiliary, that does not undergo movement to Tense, is obligatorily VP-internal, forcing VP-attachment of the adverb. The prediction is borne out, as shown in (9) (<link rid="b6">Jackendoff 1972</link>: 76):</p>
+<p>(9)&ensp;George will have (*probably/completely) read the book.</p>
+<p>A more complex class of facts involves the marginality of the manner reading in configurations where the adverb surfaces between two auxiliaries, as in <i>John will (probably</i>/<i>?*completely) have read the book</i>. Within the system outlined above, the question is how to exclude VP-attachment of the adverb. The solution consists in assuming that the position of VP-adverbs within VP is rigidly determined to follow <i>have</i>/<i>be</i> and is therefore incompatible with the relative ordering observed in the sentence under scrutiny (entailing VP-fronting of the adverb). The position of the adverb is however somewhat less rigid in the cases involving S-attachment: the system has to account for (at least) the possibilities exemplified below, with the adverb preceding the subject, filling an intermediate position between the subject and the auxiliary, following the auxiliary, and occurring in dislocated sentence-final position (<link rid="b6">Jackendoff 1972</link>: 72ff.):</p>
+<p>(10)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Evidently John has eaten the beans.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John evidently has eaten the beans.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>John has evidently eaten the beans.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>John has eaten the beans, evidently.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As emphasized above, the very same structural position should be involved here, since the interpretation is essentially the same in all cases. The proposed solution consists in assuming that all the adverb positions detected in (10) crucially involve S-attachment: the relative ordering with respect to other constituents may vary, provided the sisterhood relation to these constituents is maintained. This proposal is technically implemented by resorting to the &lsquo;Transportability Convention&rsquo; introduced in <link rid="b26">Keyser (1968</link>), according to which constituents marked as &lsqb;&plus;transportable&rsqb; can be freely moved, giving rise to a (possibly) large variety of linear orders, under the condition that the fundamental <i>structural</i> relations that they entertain with the other constituents be preserved. The stipulative flavor of this solution is essentially maintained under more recent approaches to the problem raised by (10). <link rid="b27">Belletti (1990</link>), where a more constrained version of X-bar theory is adopted (essentially, that defined in <link rid="b28">Chomsky 1986a</link>), ruling out uniform base-generation of subject, auxiliary, and adverb as daughters of IP (&equals; S), proposes for (10c) an analysis which involves recursion of the Agr(eement)-node.<link rid="fn23">
+<sup>23</sup></link> The proposal is that S-adverbs such as <i>evidently</i> are uniformly generated as adjoined to the sentential AgrP node. Whenever an auxiliary is present, Agr-recursion is assumed to take place, with obligatory movement of Aux to the higher Agr-node (cf. <link rid="b27">Belletti 1990</link>: 53ff.). Under these assumptions, the word orders in (10a) and (10c) depend on whether the adverb has been adjoined to the lower or to the higher AgrP-node. In other words, the adverb is granted a certain amount of freedom with respect to syntactic placement, provided certain fundamental <i>structural</i> relations are preserved (here, adjunction to a sentential node), much in the spirit of the &lsquo;Transportability Convention&rsquo;. There are cases, however, where global improvement in the theoretical format of the theory might correspond to a real advancement in our understanding of some of the issues involved by the paradigm in (10). As far as the pair in (10a) and (10b) are concerned, for instance, Belletti proposes that the latter is transformationally related to the former by means of left-dislocation of the subject. Evidence for this hypothesis is provided by the observation that the word order in (10b) is unavailable in Italian in cases where left-dislocation of the subject NP is independently excluded, as with indefinite quantifiers.<link rid="fn24">
+<sup>24</sup></link> As for &lsquo;lower&rsquo; VP-adverbs such as <i>spesso</i> &lsquo;often&rsquo;, Belletti argues that the configurations where they occur sentence-initially (as in <i>Spesso Gianni incontra Maria in vacanza &lsquo;</i>Often Gianni meets Mary on vacation&rsquo;) are derived by the application of &lsquo;<i>wh</i>-movement&rsquo; (topicalization) to the adverb, as shown by the ungrammaticality of structures in which a second constituent has undergone topicalization (*<i>MARIA spesso Gianni incontra in vacanza</i>), under the independently well-motivated assumption that topicalization cannot affect more than one constituent per sentence (<link rid="b27">Belletti 1990</link>: 62; see <related relationship="sibling" type="samework"><externallink id="chapter 26 - Focus Movement (with Special Reference to Hungarian).xml" type="file">chapter 26</externallink></related>). The examples just discussed conveniently illustrate the general remark made at the beginning of this section: one of the main streams of research on the syntax of adverbs has implicitely adopted Jackendoff&apos;s assumption that principles of adverb interpretation are tied to a well-defined set of structural descriptions, further constraining it in the sense of an ideal one-to-one correlation between syntactic positions and adverb readings. Cases where two or more positions are apparently associated with a single interpretation are tentatively analyzed as involving movement of syntactic constituents other than the adverb, or as involving <i>wh</i>-movement of the adverb itself (under the well-established assumption that the meaning associated with the position of the trace is retained, for example via &lsquo;reconstruction&rsquo;; see <related relationship="sibling" type="samework"><externallink id="chapter 54 - Reconstruction, Binding, and Scope.xml" type="file">chapter 54</externallink></related>).<link rid="fn25">
+<sup>25</sup></link> In this perspective, the only viable alternative consists in the possibility that the interpretations involved turn out to be different under a deeper examination. This has been argued to be the case with the manner reading associated with adverbs realized preverbally or postverbally (in a non-dislocated position). A case in point is the following minimal pair (<link rid="b29">Cinque 1999</link>):</p>
+<p>(11)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John has cleverly answered the question.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John has answered the question cleverly.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>That the two positions of the adverb in (11) cannot be tied to the same interpretation is shown by the fact that the position in (11a) does not satisfy the selection properties of the verb (<i>*John has carefully worded the letter</i>), differently from what happens when movement is involved (cf. the grammatical <i>How carefully did John word the letter?</i>). The hypothesis that the readings involved are actually different is corroborated by <link rid="b12">Thomason and Stalnaker&apos;s (1973</link>) observation that the two adverb positions in (11) are associated to unambiguous scope construals, yielding in some cases different truth-conditions, as shown by the example in (12):</p>
+<p>(12)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>He slowly tested some bulbs.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>He tested some bulbs slowly.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As Thomason and Stalnaker put it &ldquo;sentence (12a) would be true if he took a long coffee break between each testing, even though he tested each single bulb quickly.&rdquo; Other cases where the interpretation of an adverb occurring in (at least) two distinct positions is only apparently the same involve frequency adverbs such as <i>often</i>, as exemplified by the minimal pair in (13) below (to be further discussed in <link rid="ss11">section 7</link>):</p>
+<p>(13)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John knocked on the door often.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John often knocked on the door.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>It has been observed that (13b) corresponds to a &lsquo;relational&rsquo; statement comparing two classes of events (roughly paraphrasable as &lsquo;many of the events in which John knocked on something are events in which John knocked on the door&rsquo;), whereas (13a) corresponds to the &lsquo;absolute&rsquo; statement that the knocking events (by John) were many.<link rid="fn26">
+<sup>26</sup></link> The relation between the postverbal and preverbal position in which some adverbs may occur can give rise to intriguing (and still poorly understood) scope patterns, such as that exemplified in (14) and (15):</p>
+<p>(14)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John knocked on the door intentionally twice.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John knocked on the door twice intentionally.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(15)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry><sup>?</sup>John twice intentionally knocked on the door.</entry>
+</row>
+<row><entry>b.</entry>
+<entry><sup>??</sup>John intentionally twice knocked on the door.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>It has been noticed that the scope construal associated to (14) corresponds to some sort of &lsquo;inverse-linking&rsquo; effect (see <related relationship="sibling" type="samework"><externallink id="chapter 36 - Inverse Linking.xml" type="file">chapter 36</externallink></related>): the reading according to which John intended to knock twice is expressed by either (15b), the adverb on the left takes wide scope, as expected, or (14b), here it is the adverb on the right that takes wide scope (see <link rid="b30">Andrews 1983</link>; <link rid="b29">Cinque 1999</link> for a detailed discussion of this issue).</p>
+<p>As a result of these observations, we can conclude that the possibility for the same adverbial to occur, with distinct interpretations, in different syntactic positions (as we have shown to be the case for manner adverbials and frequency adverbs) raises a number of delicate questions revolving around the relation between these interpretations and largely bearing on still poorly understood issues concerning the syntax of &lsquo;modification&rsquo; and the syntactic encoding of quantification over events and/or times. A better understanding of these matters will hopefully lead to a satisfactory answer to the questions whether and how these adverb positions are related by movement and to a better assessment of the relevance of adverbial syntax for the compositionality issue in natural language (much in the spirit of McConnell-Ginet&apos;s stimulating observations).</p>
+</subsection>
+<subsection id="ss6" level="1">
+<heading id="h5" level="1">5&ensp;Adverbs and movement</heading>
+<subsection id="ss7" level="2">
+<heading id="h6" level="2">5.1&ensp;<roman>Wh-</roman>movement</heading>
+<p>The observation that adverbs can naturally undergo <i>wh</i>-movement is quite uncontroversial. As is well known, it has motivated the argument-adjunct asymmetry in extraction facts (<link rid="b31">Huang 1982a</link> and much subsequent literature). Roughly, adverbs turn out to be sensitive to both strong and weak islands (see <related relationship="sibling" type="samework"><externallink id="chapter 64 - Strong vs. Weak Islands.xml" type="file">chapter 64</externallink></related>), whereas arguments are only sensitive to strong islands. The asymmetry does not reduce to the fact that elements which are not selected (that is theta-marked) by the verb are less easily extractable. Selected adverbials, as the French manner adverbial in the following example, are worse than optional comitative arguments when extracted from <i>wh</i>-islands, falsifying the hypothesis that semantic selection is the relevant factor for the admissibility of long movement (<link rid="b32">Rizzi 1990b</link>: 77ff.):</p>
+<p>(16)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry><sup>?</sup>Avec qui ne sais-tu pas &lsqb;comment &lsqb;PRO te comporter t t&rsqb;&rsqb;</entry>
+</row>
+<row><entry>with whom don&apos;t you know how to behave</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>*Comment ne sais-tu pas &lsqb;avec qui &lsqb;PRO te comporter t t&rsqb;&rsqb;</entry>
+</row>
+<row><entry>how don&apos;t you know with whom to behave</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>It seems that the possibility for an element to enter binding relations (hence to give rise to long-movement dependencies) is connected with the fact that it bears a &lsquo;referential&rsquo; theta-role (expressing a &lsquo;participant&rsquo; in the event referred to by the predicate) and is therefore endowed with a &lsquo;referential&rsquo; index:<link rid="fn27">
+<sup>27</sup></link> the manner adverb in (16) does not refer to any &lsquo;participant&rsquo; in the relevant event, in spite of the fact that it is obligatorily selected by the verb. An alternative approach ascribes the sensitivity of adverbs for weak islands to the fact that adverbs refer to &lsquo;partially-ordered&rsquo; objects (that is, objects that cannot be collected into unordered sets, but only into sets whose members exhibit inclusion and/or overlap relations), under the assumption that weak islands provide semantic environments which do not preserve partial ordering (<link rid="b33">Szabolcsi 1992</link>: 410ff.; cf. also <link rid="b34">Szabolcsi and Zwarts 1993</link>). One of the merits of the latter approach is that adverbs cease to represent a uniform semantic class, as was the case with the &lsquo;referential-role&rsquo; approach: there might well be adverbs referring to &lsquo;individuals&rsquo; (elements which can be collected into unordered sets), as is arguably the case with punctual temporal adverbials such as <i>at 5 o&rsquo;clock</i>, which significantly perform quite better than manner adverbs when extracted from weak islands (<link rid="b35">Giorgi and Pianesi 1997</link>; cf. <link rid="ss10">section 6</link>) (see <related relationship="sibling" type="samework"><externallink id="chapter 72 - Temporal Reference.xml" type="file">chapter 72</externallink></related>).</p>
+<p>Independently of the correct characterization of the constraints governing <i>wh</i>-movement of adverbials, notice that the question how adverbs move should be naturally preceded by the question why adverbs can be moved. Under a conjunctive formulation of the E(mpty)C(ategory)P(rinciple), the obvious assumption is that adverb traces (on a par with the other empty categories) have to be formally licensed by a higher head of the appropriate type. In <link rid="b32">Rizzi (1990b</link>), manner adverbials are assumed to be VP-adjoined and to be formally licensed by the higher functional head T(ense) (<link rid="b32">Rizzi 1990b</link>: 46). An interesting issue arises with sentence adverbs such as &lsquo;reason&rsquo; adverbials (the domain of interrogative <i>why</i>): as S-adverbs, they are expected to be attached to a higher position than manner adverbials, arguably TP or AgrP: in both cases, proper government by T is obviously excluded, raising the issue of why <i>wh</i>-movement is perfectly admissible in these cases. Rizzi&apos;s solution consists of the assumption that adverbs of the reason type are base-generated in spec-CP. Evidence is provided by the fact that reason adverbials cannot occur <i>in situ</i> in French, contrary to what happens with other VP-adverbials (<i>Il a parl&eacute; comment</i> vs. ?*<i>Il a parl&eacute; pourquoi</i>) and by the observation that French stylistic inversion cannot be triggered by sentential adverbials such as pourquoi (<i>Comment a parl&eacute; Jean</i> vs. ?<i>*Pourquoi a parl&eacute; Jean</i>) (<link rid="b32">Rizzi 1990b</link>: 47&ndash;48).<link rid="fn28">
+<sup>28</sup></link>
+</p>
+<p>A semantically-based approach to the issue of adverb movement is proposed in <link rid="b36">Chierchia (1985</link>), where a trace is assumed to be properly governed if and only if it constitutes the argument of some propositional function (<link rid="b36">Chierchia 1985</link>: 433). The basic insight is that variable-binding of adverbs is generally excluded, since adverbs are &lsquo;functors&rsquo; (that is, predicate operators, cf. <link rid="ss4">section 3</link>) and the type-hierarchy in natural language is arguably limited to three semantic &lsquo;layers&rsquo; (individuals, propositional functions, and functors). This hypothesis nicely accounts for the fact that a large variety of adverbs cannot be <i>wh</i>-moved (including <i>too</i>, <i>again</i>, <i>also</i>, <i>even</i>, <i>almost</i>, etc.). As for the adverbs that undergo <i>wh</i>-movement (typically, manner adverbs in -<i>ly</i>), the solution consists of the assumption that these adverbs are semantically related to predicative counterparts (that is, to &lsquo;propositional functions&rsquo;) by means of a mapping function -<i>ly</i>, with morphemes such as -<i>ly</i> playing the role of &lsquo;exceptional&rsquo; proper governors. This approach raises a number of intriguing issues concerning the cases where -<i>ly</i> adverbs cannot be <i>wh</i>-moved, as when they are assigned a subject-oriented interpretation (How elegantly do you think he was dressed? vs. *How luckily has he won?; <link rid="b29">Cinque 1999</link>), and the cases where other sorts of adverbs (with no lexically distinct predicative counterpart) are <i>wh</i>-moved, as with punctual temporal adverbs (At which time do you think he went out?).</p>
+<p>Before closing this section, let us note that <i>wh</i>-movement easily allows the &ldquo;regular&rdquo; relative order between two adverbs to be subverted, as has been emphasized in <link rid="b29">Cinque (1999</link>), who provides the following paradigm for Italian:</p>
+<p>(17)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Tratta gi&agrave; male il suo assistente.</entry>
+</row>
+<row><entry>he is treating already badly his assistant</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Tratta male gi&agrave; il suo assistente.</entry>
+</row>
+<row><entry morerows="1">c.</entry>
+<entry>Quanto male tratta gi&agrave; il suo assistente?</entry>
+</row>
+<row><entry>how badly is he already treating his assistant</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+<subsection id="ss8" level="2">
+<heading id="h7" level="2">5.2&ensp;Other kinds of movement</heading>
+<p>As noted in <link rid="ss5">section 4</link>, the issue of whether the different syntactic positions filled by a given adverb are related by movement is arguably one of most poorly understood topics in adverbial syntax. However, <link rid="b29">Cinque (1999</link>) discusses a number of cases in which varieties of displacement other than <i>wh</i>-movement appear to be involved. As observed in <link rid="b37">Kayne (1975</link>), French exhibits structures where an adverb surfacing in the main clause is thematically related to the predicate of the embedded clause, as in <i>Il ne faut plus que tu parles</i> &lsquo;it is necessary that you do not speak.&rsquo; Interestingly, the fixed relative order cannot be subverted in these cases, as shown by the ill-formedness of examples such as *<i>Il a mal d&ucirc; toujours raccrocher</i> &lsquo;he must have badly always hung up&rsquo;, contrary to what happens with <i>wh</i>-movement (<link rid="ss7">section 5.1</link>). The same seems to hold for the cases where an adverb is topicalized, in Germanic SOV langages, to comply with the verb-second requirements. As observed in <link rid="b38">Koster (1978c</link>), adverb topicalization is not admitted to alter the fixed relative order between two adverbials, as shown by the Dutch paradigm in (18&ndash;19), suggesting that these verb-second phenomena have to be kept apart from standard <i>wh</i>-movement:</p>
+<p>(18)&ensp;<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Het is zo dat hij <i>helaas waarschijnlijk</i> ziek is.</entry>
+</row>
+<row><entry>it is the case that he unfortunately probably sick is</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Het is zo dat hij <i>waarschijnlijk helaas</i> ziek is.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(19)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Helaas is hij <i>waarschijnlijk</i> ziek.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*<i>Waarschijnlijk</i> is hij <i>helaas</i> ziek.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A different class of phenomena, attested in Italian, is discussed in <link rid="b39">Cinque (1990c</link>), where it is noted that certain instances of &lsquo;adverb-preposing&rsquo; exclusively apply to sentence-initial adverbials. The evidence for this hypothesis originates from the observation that the preposed adverb does not preserve the scope properties which are linked to the VP-adjoined (or sentence-final) position, a phenomenon that is naturally accounted for under the assumption that adverbs undergoing this sort of movement are necessarily IP-initial (see <related relationship="sibling" type="samework"><externallink id="chapter 53 - Quantifier Scope Ambiguities.xml" type="file">chapters 53</externallink></related> and <related relationship="sibling" type="samework"><externallink id="chapter 54 - Reconstruction, Binding, and Scope.xml" type="file">54</externallink></related>). A relevant example is provided in (20a), where the preposed adverb cannot be interpreted in the scope of the universal quantifier in subject position, contrasting with the ordinary case of <i>wh</i>-movement in (20b), where narrow scope of the adverb is readily admitted (<link rid="b39">Cinque 1990c</link>: 91&ndash;92):</p>
+<p>(20)&ensp;<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>In una citt&agrave; del sud, ognuno di loro &egrave; nato.</entry>
+</row>
+<row><entry>In a southern city everyone of them was born</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>In quale citt&agrave; del sud ognuno di loro &egrave; nato?</entry>
+</row>
+<row><entry>In which southern city was everyone of them born</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Additional evidence is provided by the absence of crossover violations in contexts involving adverbial clause preposing (originally discussed in <link rid="b40">Longobardi 1983</link>), exemplified in (21a), and clearly contrasting with the strong crossover violation detected in (21b), suggesting the presence of an IP-internal trace in (21b), but not in the case of adjunct-preposing (21a):</p>
+<p>(21)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Dopo aver presentato Maria a che ragazzo, lui vi si &egrave; dimostrato riconoscente?</entry>
+</row>
+<row><entry>after presenting Maria to which boy, he was grateful to you</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>*&lsqb;Di parlare a &lsqb;che ragazzo&rsqb;<sub>i</sub>&rsqb;<sub>k</sub> &lsqb;pro<sub>i</sub> vi ha chiesto t<sub>k</sub>&rsqb;</entry>
+</row>
+<row><entry>to speak to which boy did he ask you</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>These observations have motivated highly intriguing hypotheses, according to which &lsquo;adverb-preposing&rsquo; corresponds to an instance of non-standard <i>wh</i>-movement and &lsquo;circumstantial&rsquo; adverbs (as the locative in (20)) can be directly generated in IP-initial position, contrary to the familiar assumption that they are VP-internal (<link rid="b39">Cinque 1990c</link>: 94; on the issue of adverbial PP preposing, see also <link rid="b32">Rizzi 1990b</link>, appendix 1). Again, adverbial syntax seems to lead to quite puzzling questions concerning the interplay between issues of placement (cf. <link rid="ss5">section 4</link>) and issues of movement.</p>
+</subsection>
+<subsection id="ss9" level="2">
+<heading id="h8" level="2">5.3&ensp;Adverb placement as a diagnostic for movement</heading>
+<p>Issues of adverb placement have traditionally been related to the syntactic analysis of processes of inflectional morphology (<link rid="b41 b7">Emonds 1978, 1985</link>; <link rid="b42">Pollock 1989</link>). In Emonds&rsquo; analysis, the process of finite verb formation corresponds to a language-particular transformation (as such not belonging to the operation Move) which allows a grammatical formative realized in the third-level projection of V to be realized as an inflection bound to V (<link rid="b7">Emonds 1985</link>: 200ff.). As a matter of fact, inflectional processes are crucially assumed to require adjacency configurations: the fact that finite verb formation is not blocked by the presence of adverbs (such as <i>scarcely</i> or <i>never</i>) is accounted for by assuming that adverbs are generated within the first level of V, with adjacency defined in such a way that the head X of a phrase is considered adjacent to the boundary of the phrase X&prime;. Elements which block head-attachment (such as the negation <i>not</i> in English) are assumed to be generated outside V&Prime;, destroying the required adjacency configuration (<link rid="b7">Emonds 1985</link>: 207ff.). In Pollock&apos;s analysis, head-movement operations belong to the core of the syntactic system (much in the line of <link rid="b23">Baker&apos;s 1988a</link> analysis of a large variety of incorporation processes in terms of head-movement). The parametric difference between English and French in configurations where the verb selects a direct object, illustrated by the minimal pair in (22), is assumed to depend on the fact that V moves to the functional projection(s) realizing the inflectional features in French, but not in English (see <link rid="b42">Pollock 1989</link> and much subsequent literature for a more detailed assessment of the empirical issues involved):</p>
+<p>(22)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Mon ami pr&eacute;pare <i>toujours/souvent</i> du poisson.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*My friend prepares <i>always/often</i> fish.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>However, the conclusion that verbs do not move in English has been challenged in view of the observation that the position of the adverb seems to depend on the application of the adjacency requirement between verb and nominal objects proposed in <link rid="b43">Stowell (1981</link>): adverbs easily occur to the right of the verb (as in French) whenever prepositional or clausal complements are involved, as shown by the minimal pair in (23) (<link rid="b4">Chomsky 1995c</link>: 329ff.):</p>
+<p>(23)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*John reads often books.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John reads often to his children.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This state of affairs is in principle compatible both with the hypothesis that verb movement is not generally barred in English, possibly depending on case considerations (see <link rid="b44">Pesetsky 1989</link>; <link rid="b45">Johnson 1991</link>), and with the hypothesis that structures such as (23b) do not involve verb movement, but rather the adverb occurring sentence-finally with extraposition of the prepositional complement (<link rid="b46">Pollock 1997</link>).<link rid="fn29">
+<sup>29</sup></link> <link rid="b4">Chomsky (1995c</link>) formulates the more radical hypothesis that the relevant paradigm of adverb distribution might be entirely independent from the issue of verb raising: adverbials such as <i>every day</i> or <i>last night</i> exhibit the behavior shown in (23) for <i>often</i> (*<i>John reads every day books</i> vs. <i>John reads every day to the children</i>), but they are not allowed in the preverbal position available to <i>often</i> (<i>John often reads to his children</i> vs. *<i>John every day reads to his children</i>). Chomsky&apos;s proposal for English, according to which covert movement of the nominal object in (23a) to the functional position relevant for case-checking is blocked by the occurrence of two closer intervening elements (the subject and the adverb itself) filling specifiers of a Larsonian VP-shell (as a violation of &lsquo;shortest movement&rsquo;), raises the issue of how to account for the grammaticality of the French counterpart of (23a).</p>
+<p>As a result of this brief survey, let us emphasize that the use of facts of adverb placement as a diagnostic for syntactic operations affecting constituents other than adverbs (which is a typical characteristic of a significant part of the literature on Germanic scrambling and Scandinavian object-shift) is arguably more problematic than it is generally assumed. However, some skepticism seems at least partly justified in these empirical domains as well (see especially <link rid="b47">Neeleman 1994a</link> for the view that a given adverb can fill a variety of syntactic positions in Germanic SOV languages, giving rise to &lsquo;base-generated&rsquo; scrambling).</p>
+</subsection>
+</subsection>
+<subsection id="ss10" level="1">
+<heading id="h9" level="1">6&ensp;Adverbs and adjunction</heading>
+<p>In recent times, the hypothesis that XP-adjunction does not belong to the core of the &lsquo;computational system&rsquo; (or syntax proper) has gained considerable credit. Adjunction sites strictly resemble traditional specifier positions in <link rid="b48">Kayne&apos;s (1994</link>) version of X&prime; theory, where a principled constraint on multiple adjunction is introduced. <link rid="b4">Chomsky (1995c</link>) develops a model in which syntactic operations are triggered by Last Resort and feature-checking, under the restrictive assumption that the checking domain of a category is limited to positions included (rather than contained) in Max(&alpha;) and that XP-adjunction is severely constrained to semantically vacuous targets (<link rid="b4">Chomsky 1995c</link>: 324&ndash;326; cf. also pp. 329ff.).</p>
+<p>This research program is apparently supported, empirically, by a large number of facts arguing against the idea that adverbials are freely generated in adjunction positions, to be briefly reviewed below.</p>
+<p>A first class of data concerns the constraints on right-adjunction (cf. <link rid="b29">Cinque 1999</link>; <link rid="b49">Costa 1997</link>; and others). Under the familiar approach to adjunction according to which both right- and left-adjunction are possible, a sentence like <i>John has spoken to his mother cleverly</i> should be interpretable as involving right-adjunction of the adverb <i>cleverly</i> to the same (functional) category to which <i>cleverly</i> is left-adjoined in cases such as <i>John cleverly has spoken to his mother</i>, as shown by the structures in (24):</p>
+<p>(24)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John &lsqb;<sub>XP</sub>cleverly &lsqb;<sub>XP</sub>has spoken to his mother&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John &lsqb;&lsqb;has spoken to his mother<sub>XP</sub>&rsqb; cleverly<sub>XP</sub>&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>However, it is well known that <i>cleverly</i> is exclusively assigned the subject-oriented reading in (24a), and can only receive the manner reading in (24b) (see <link rid="ss5">section 4</link>). This difference in meaning is clearly unexpected under the assumption that all hierarchical relations relevant for meaning are essentially preserved in the shift from (24a) to (24b). Similarly, the ungrammaticality arising from &lsquo;stacking&rsquo; adverbs in sentence-final position, as in *<i>John has answered their questions stupidly cleverly</i> is actually unpredicted if this sentence can be assigned a structural analysis (as is quite naturally the case under the adjunction hypothesis) which has the adverb right-adjoined to the same projection to which the adverb is left-adjoined in its grammatical counterpart <i>John cleverly has answered their questions stupidly</i>.</p>
+<p>A second kind of argument against adjunction is provided by the observation that adverbs tend to pose severe &lsquo;selectional&rsquo; constraints on the &lsquo;adjoinee&rsquo;, giving rise to a relatively fixed linear order among their different classes. There is a large literature to be considered here, including at least <link rid="b50">Zubizarreta (1982a</link>), <link rid="b51">Sportiche (1988</link>), <link rid="b52">Travis (1988</link>), <link rid="b53">Rochette (1990c</link>), <link rid="b54">Bowers (1993</link>), <link rid="b55">Lonzi (1991</link>), and <link rid="b29">Cinque (1999</link>). On the grounds of a fine-grained assessment of the empirical evidence from Italian, Cinque proposes for instance the following relative order for S-level adverbs (see <link rid="ss4">section 3</link> for the variety of readings actually assigned to this class of adverbs):</p>
+<p>(25)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4"/>
+<tbody>
+<row><entry>francamente</entry>
+<entry>&lt; purtroppo</entry>
+<entry>&lt; evidentemente</entry>
+<entry>&lt; probabilmente</entry>
+</row>
+<row><entry>frankly</entry>
+<entry>&lt; unfortunately</entry>
+<entry>&lt; evidently</entry>
+<entry>&lt; probably</entry>
+</row>
+<row><entry>&lt; ora</entry>
+<entry>&lt; forse</entry>
+<entry>&lt; stupidamente</entry>
+<entry>
+</entry>
+</row>
+<row><entry>&lt; now</entry>
+<entry>&lt; perhaps</entry>
+<entry>&lt; stupidly</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Deriving patterns of relative order as that in (24) under the free adjunction hypothesis is arguably quite problematic, unless it can be shown that the order constraints follow from the application of independent semantic conditions at the interface with the interpretive system. However, we have already emphasized (see <link rid="ss4 ss5">sections 3 and 4</link>) that the interpretation of &lsquo;higher&rsquo; adverbs as those in (25) is largely non-compositional, as it involves a fairly arbitrary set of mapping operations between the syntactic structures exhibiting the order constraints under discussion and the logical forms which correspond to a compositional codification of their meaning. Cinque&apos;s implicit assumption is that adverb ordering is in fact <i>not</i> semantically motivated, but rather encoded in syntax in the form of a one-to-one correlation between (distributionally motivated) adverb classes and functional positions (whose hierarchy is in principle independent of interpretive considerations, for instance the logically motivated exclusion of certain scope construals). This correlation arguably permits an elegant treatment of the complex interplay between adverbs and various sorts of verbal heads, whose analysis is highly problematic under the free adjunction hypothesis, which must resort to arbitrary &lsquo;filters&rsquo; to reduce overgeneration.<link rid="fn30">
+<sup>30</sup></link>
+</p>
+<p>A third class of facts that apparently militate against adjunction concerns the behavior of &lsquo;circumstantial&rsquo; adverbs of time, place, and manner. These adverbs easily enter coordination and binding relations which are problematic under the free adjunction hypothesis. As discussed in <link rid="b56">Larson (1988b</link>), temporal adverbials can be coordinated with a complement of the verb, and anaphors contained in them can be bound by antecedents corresponding to a complement of the verb, as shown in (26a) and (26b), respectively:</p>
+<p>(26)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Sue gave books &lsqb;to these people on Friday&rsqb; and &lsqb;to those people on Saturday&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Sue gave books <i>to these people on each other&apos;s birthday</i>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Under relatively well-motivated assumptions concerning coordination and binding (essentially establishing that coordination exclusively involves constituents and that binding requires c-command), these facts have been taken to show that circumstantial adverbials of various sorts must be sisters to a projection of V, motivating the adoption of VP-shell structures, with &lsquo;alleged&rsquo; adjuncts filling a position lower than verbal arguments in compliance with a thematic-relational hierarchy of some sort (<link rid="b56">Larson 1988b</link>; <link rid="b57">Pesetsky 1995</link>: 163ff., and the references cited there). Pesetsky interprets the availability of coordination configurations such as <i>Sue gave books to &lsqb;these people on Friday&rsqb; and &lsqb;those people on Saturday&rsqb;</i> as evidence that shell-structures (characterized by the abandonment of the requirement that the verb&apos;s lexical properties be satisfied at D-structure) might not suffice to achieve empirical adequacy and as an argument for the adoption of <i>cascade</i>-structures in syntax.<link rid="fn31">
+<sup>31</sup></link> All these facts conspire to the conclusion that circumstantial adverbs are syntactically represented VP-internally, by filling a fixed (lower) position with respect to the arguments of the verb. There is in fact some evidence that these adverbs correspond to the presence of a spatio-temporal argument (<link rid="b58">Kratzer 1995</link>) in the theta-grid of verbs: temporal adverbs such as <i>on Friday</i> or <i>at 4 o&rsquo;clock</i> exhibit for example an argument-like behavior in extraction contexts, in not being sensitive to weak islands (<link rid="b35">Giorgi and Pianesi 1997</link>) and giving rise to rigid-denotation effects in certain contexts (see <link rid="ss11">section 7</link>).<link rid="fn32">
+<sup>32</sup></link> The well-known fact that other &lsquo;circumstantials&rsquo; such as manner adverbials <i>are</i> indeed sensitive to weak islands need not represent a problem for the hypothesis that <i>all</i> VP-internal adverbials are arguments: the contrast between punctual temporal adverbs and manner adverbials easily follows, for instance, from the approach to weak islands developed in <link rid="b34">Szabolcsi and Zwarts (1993</link>), under the quite reasonable assumption that (certain) temporal arguments refer to &lsquo;individuals&rsquo; (times), whilst manner adverbials necessarily refer to &lsquo;partially-ordered&rsquo; objects (see <link rid="ss7">section 5.1</link>).</p>
+<p>Before closing this section, it is worth noticing that the negative conclusions about the relevance of base-generated adjunction for issues of adverb placement is corroborated, at a more general level, by the conceptual and empirical success of proposals aimed at severely constraining the role of adjunction in movement processes. Cases in point are <link rid="b59">Rizzi&apos;s (1997</link>) attempt to reduce alleged instances of adjunction such as topicalization and focus movement to instances of substitution movement and <link rid="b60">Beghelli&apos;s (1995</link>) decomposition of quantifier raising into a class of &lsquo;checking&rsquo; operations involving a well-defined set of functional projections. Finally, issues concerning the role of intermediate adjunction sites have been addressed, within the same negative program, in <link rid="b61">Sportiche (1993a</link>; see also <link rid="b4">Chomsky 1995c</link>).</p>
+</subsection>
+<subsection id="ss11" level="1">
+<heading id="h10" level="1">7&ensp;Adverbs and the syntax/semantics mapping</heading>
+<p>In the preceding sections, we have repeatedly emphasized that one of the major problems arising with adverbials is constituted by their ambiguous role in the mapping from syntax to semantics. This ambiguity is conveniently illustrated by the interaction between adverbial phrases and specific modules of syntax, such as theta-theory. In the literature, claims are found both that adverbials are arguments of the verb receiving a specific theta-role (<link rid="b11">McConnell-Ginet 1982</link>; <link rid="b3">Larson 1985a</link>) and that adverbials are elements assigning some theta-role to predicates, heads, or other adjuncts (<link rid="b4">Chomsky 1995c</link>: 45). In this final section, we want to provide further exemplification of the kind of complexities arising at the syntax&ndash;semantics interface. Given our space limitations, we will only present some interpretative ambiguities involving different classes of temporal adverbs. The choice of temporal adverbs is not accidental. As we have seen, one of the most promising lines of research for the treatment of adverb semantics involves assuming more complex lexical structures for verbal predicates, with a consequent increase in the degree of complexity of the related syntactic representations.<link rid="fn33">
+<sup>33</sup></link> The adoption of syntactic representations permitting quantification over events and/or times seems to provide adequate heuristic tools for a satisfactory assessment of the factors involved in the contribution of temporal adverbials to meaning.</p>
+<p>A first class of facts concerns temporal adverbials of the <i>punctual</i> or <i>durative</i> sort (such as <i>at 5 o&rsquo;clock</i>, <i>for three hours</i>, etc.). These adverbials have been shown to be ambiguous between a &ldquo;p(osition)-definite&rdquo; interpretation, according to which they unambiguously fix the position of a time span on the time axis, and a non-p-definite interpretation, according to which they express a time span whose position on the time axis is vague (<link rid="b62">Klein 1992</link>). Significantly, this interpretive ambiguity seems to correlate with the syntactic position (sentence-final or sentence-initial) occupied by the temporal adverbial, as exemplified by the minimal pair in (27). (<link rid="b63">Hitzeman 1995</link>):</p>
+<p>(27)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Mary lived in Amsterdam for three years (once).</entry>
+</row>
+<row><entry>b.</entry>
+<entry>For three years, Mary lived in Amsterdam (&num;once).</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Sentence (27a) is ambiguous between a reading in which &ldquo;there is some three-year interval in the past during which Mary lived in Amsterdam, and a reading in which Mary lives in Amsterdam at the speech time and has done so for the three years preceding speech time&rdquo; (<link rid="b63">Hitzeman 1995</link>: 2), whereas only the latter reading is preserved in (27b), as shown by the awkwardness of <i>once</i> (which presumably forces the event time to be non-p-definite) when occurring in this structure. Interestingly, this sort of ambiguity can be expressed by saying that <i>for three years</i> can be interpreted as a &lsquo;predicate&rsquo; in (27a) (it corresponds to the restriction of a time variable which is existentially quantified), but necessarily counts as an argument in (27b) (it behaves as a rigidly-denoting referential expression, unambiguously fixing a certain position on the time axis). The name-like behavior of temporal adverbials corroborates the hypothesis that they may count as arguments of the verbal predicate, in accordance with the argument-like behavior they exhibit in extraction contexts, as already observed in <link rid="ss4 ss10">sections 3 and 6</link>. This conclusion easily extends to <i>punctual</i> adverbials, as shown by the fact that the sentences in (28) exhibit the same kind of ambiguity detected in (27):</p>
+<p>(28)&ensp;<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Mary will be in her office at 8 o&rsquo;clock.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>At 8 o&rsquo;clock, Mary will be in her office.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>At this point, we may wonder which factors (beyond the syntactic position of the adverbial) are involved in these kinds of meaning ambiguities. <link rid="b64">Delfitto and Bertinetto (1995</link>) observe that Aspect arguably plays a crucial role, since the ambiguity detected in (27) and (28) does not arise with &lsquo;habitual&rsquo; sentences. However, the position of the temporal adverbial affects truth-conditions even in habitual sentences. This is shown, for Italian, by means of the &lsquo;imperfective&rsquo; sentences in (29), where the realization of the punctual adverbial either in VP-internal or in dislocated position clearly affects meaning, as expressed by the logical paraphrases in (30):</p>
+<p>(29)&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Gianni beveva un caff&egrave; alle 8.</entry>
+</row>
+<row><entry>Gianni drank-IMP a coffee at 8 o&rsquo;clock</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>Alle 8 Gianni beveva un caff&egrave;.</entry>
+</row>
+<row><entry>At 8 o&rsquo;clock Gianni drank-IMP a coffee</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(30)&ensp;<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Gn t (&exist;e: D(e) and at(e,t)) (at 8(t))</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Gn t (at 8 (t)) (&exist;e: D(e) and at(e,t))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The ambiguity detected in (28) can be explained by saying that <i>at 8 o&rsquo;clock</i> is uniformly interpreted as a &lsquo;predicate&rsquo; expressing a property of time, with the syntactic position of the adverb determining whether this property applies to the temporal variable in the scope (30a) or to the temporal variable in the restrictive clause (30b). Accordingly, (29a) will be roughly assigned the paraphrase &lsquo;every time Gianni used to drink a coffee it was 8 o&rsquo;clock&rsquo; and (29b) the paraphrase &lsquo;every time it was 8 o&rsquo;clock Gianni used to drink a coffee&rsquo;, intuitively expressing different truth-conditions.</p>
+<p>A second class of facts concerns the ambiguity of &lsquo;frequency&rsquo; adverbs such as <i>often</i> and <i>always</i>, which can be interpreted, on a par with determiners, as generalized quantifiers (<link rid="b2">De Swart 1993</link>). For instance, the interpretation of <i>always</i> in (31a) as a generalized quantifier expressing a relation between two sets of events/times is represented in (31b) (&lsquo;the set of events in which John writes with something are included in the set of events in which John writes with a red pencil&rsquo;):<link rid="fn34">
+<sup>34</sup></link>
+</p>
+<p>(31)&ensp;<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John always writes with a red pencil.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lgr;e &lsqb;&exist;y (John writes with y) (e)&rsqb; &sube; &lgr;e &lsqb;(John writes with a red pencil) (e)&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>However, Q-adverbs may also be assigned, when occurring in (non-dislocated) sentence-final position, an &lsquo;adjectival&rsquo; reading according to which they express a cardinal predicate of the plurality of events referred to by the verbal predicate: (32) seems to correspond to the &lsquo;absolute&rsquo; statement that &lsquo;the situations in which John writes with a red pencil are many&rsquo;, paralleling the &lsquo;adjectival&rsquo; usage of weak determiners in cases such as <i>These students are many</i> (<link rid="b65">Higginbotham 1987</link>):</p>
+<p>(32)&ensp;John writes with a red pencil (quite) often</p>
+<p>Again, the syntactic position of the adverb appears to be crucial in order to discriminate between the &lsquo;relational&rsquo; and the &lsquo;cardinal&rsquo; interpretation of Q-adverbs.</p>
+<p>Summarizing, we have seen that temporal adverbials exhibit a broad range of semantic ambiguity, in that they can be mapped into individual-referring expressions, predicative expressions and quantificational expressions (referring to different types of logical objects). The factors involved in these kinds of ambiguity include at least syntactic placement, the presence of an event/time argument in the lexical structure of verbal predicates, and morphologically encoded aspectual distinctions. Needless to say, any theoretical advancement in these domains is likely to improve our understanding of the role of adverbs in the mapping from syntax to semantics.<link rid="fn35">
+<sup>35</sup></link>
+</p>
+</subsection>
+<subsection id="ss12" level="1">
+<heading id="h11" level="1">NOTES</heading>
+<p>
+<span id="fn1">
+<number>1&emsp;</number>See in particular <link rid="b6">Jackendoff (1972</link>) and <link rid="b11">McConnell-Ginet (1982</link>).</span>
+</p>
+<p>
+<span id="fn2">
+<number>2&emsp;</number>See <link rid="b7">Emonds (1985</link>), where the <i>now</i>/<i>then</i> and <i>here</i>/<i>there</i> pairs are analyzed as &lsquo;suppletive&rsquo; NPs, in view of the fact that they exhibit the same distant/proximate dichotomy as <i>this</i>/<i>that</i> and that they can be the object of prepositions (<link rid="b7">Emonds 1985</link>: 161).</span>
+</p>
+<p>
+<span id="fn3">
+<number>3&emsp;</number>According to the by now standard version of X-bar theory originally proposed in <link rid="b66">May (1985</link>) and adopted in <link rid="b28">Chomsky (1986a</link>), adjunction structures involve categories composed of two or more <i>segments</i>. These theories are thus based on the distinction between segments and categories, and on the related distinction between inclusion and containment. See also <link rid="ss10">section 6</link>.</span>
+</p>
+<p>
+<span id="fn4">
+<number>4&emsp;</number>The issue concerning the syntactic relation between the sentence-final position in which selected adverbials occur and and other adverb positions will be addressed in <link rid="ss5">section 4</link>. As emphasized in the text, the presence of &lsquo;selected&rsquo; adverbials has been important for syntactic theorizing, mainly in order to decide whether the argument/adjunct asymmetry can be reduced to the role of theta-marking or must receive a more sophisticated conceptual foundation (on this issue, see the literature on the proper definition of the Empty Category principle (ECP) and especially <link rid="b32">Rizzi 1990b</link>).</span>
+</p>
+<p>
+<span id="fn5">
+<number>5&emsp;</number>See <link rid="ss4 ss5">sections 3 and 4</link> for a critical discussion of some basic facts in the syntax of adverbs, and <link rid="ss10">section 6</link> for a critical assessment of the explanatory role played by adjunction.</span>
+</p>
+<p>
+<span id="fn6">
+<number>6&emsp;</number>Besides the contributions explicitly referred to or discussed in the text and in the notes, see also the following works for a presentation of other important aspects of the syntax and semantics of adverbs: <link rid="b67">&Aring;farli (1995</link>), <link rid="b68">Andrews (1982</link>), <link rid="b69 b70">Baker (1981, 1989</link>), <link rid="b71">Bartsch (1976</link>), <link rid="b72">Cresswell (1985</link>), <link rid="b73">Dik et al. (1990</link>), <link rid="b74">Dowty (1982b</link>), <link rid="b75">Emonds (1976</link>), <link rid="b76">Ernst (1984</link>), <link rid="b77">Geis (1986</link>), <link rid="b78">Huang (1975</link>), <link rid="b79">Kuroda (1968b</link>), <link rid="b80">Ladusaw (1978</link>), <link rid="b81">Laenzingler (1993</link>), <link rid="b82 b83">Lakoff (1968, 1974a</link>), <link rid="b84">Larson (1984</link>), <link rid="b85">Moltmann (1991</link>), <link rid="b86">Pecoraro and Pisacane (1984</link>), <link rid="b87">Ramat and Ricca (1994</link>), <link rid="b59">Rizzi (1997</link>), <link rid="b88">Rooth (1995</link>), <link rid="b89">Schreiber (1971</link>), <link rid="b90">Stroik (1992b</link>), and <link rid="b91">Vinet (1995</link>).</span>
+</p>
+<p>
+<span id="fn7">
+<number>7&emsp;</number>According to Emonds, one possibility is that case-marking of APs is syntactically optional, providing adjectival APs when it applies and adverbial APs when it does not apply. There seem to be syntactic positions in which both case-marked (adjectival) and case-less (adverbial) APs can be realized and interpreted:</span>
+</p>
+<listgroup id="l2" type="i">
+<li>
+<number>(i)&ensp;</number>
+<p>Bill &lsqb;walked into the room&rsqb; &lsqb;fearful&rsqb;</p>
+</li>
+<li>
+<number>(ii)&ensp;</number>
+<p>Bill &lsqb;walked into the room&rsqb; &lsqb;fearfully&rsqb;</p>
+</li>
+</listgroup>
+<p>
+<span id="fn8">
+<number>8&emsp;</number>The base rule schemas in (1) and (2) in the text, intended to capture the prenominal and preverbal occurrence of adjectives and adverbs, respectively, can be easily restated in a more updated X-bar theoretic framework by assuming that adjectives and adverbs fill the specifier position of intermediate functional projections, on the grounds of the by now standard parallelism between nominal and clausal structures (see especially <link rid="b92">Szabolcsi 1987</link>; and <link rid="b93">Abney 1987</link>). See also <link rid="ss4 ss10">sections 3 and 6</link>.</span>
+</p>
+<p>
+<span id="fn9">
+<number>9&emsp;</number>The claim that the distribution of bare NP adverbs crucially involves case considerations, as in <link rid="b3">Larson (1985a</link>), is obviously reminiscent, at an abstract theoretical level, of Emonds&rsquo; treatment of adverbial APs as non-case-marked. For the claim that predicates may assign &lsquo;adverbial theta-roles&rsquo; to arbitrary categories, see <link rid="b11">McConnell-Ginet (1982</link>), <link rid="b94">Roeper (1983</link>), <link rid="b3">Larson (1985a</link>), and others.</span>
+</p>
+<p>
+<span id="fn10">
+<number>10&emsp;</number>For a discussion of the peculiar properties of the classes of adverbs mentioned in the text, see <link rid="b95">Mittwoch (1977</link>), <link rid="b96">Bellert (1977</link>), <link rid="b11">McConnell-Ginet (1982</link>), and others.</span>
+</p>
+<p>
+<span id="fn11">
+<number>11&emsp;</number>The reader is referred to <link rid="b19">Lakoff (1965</link>); for an early detailed criticism of Lakoff&apos;s positions, see <link rid="b97">Bowers (1969</link>).</span>
+</p>
+<p>
+<span id="fn12">
+<number>12&emsp;</number>This is intended to capture meaning equivalences such as that existing between <i>break violently</i> and <i>smash</i>, the semantic markers added by <i>violently</i> being incorporated in the lexical entry of <i>smash</i> (<link rid="b6">Jackendoff 1972</link>: 71).</span>
+</p>
+<p>
+<span id="fn13">
+<number>13&emsp;</number>See <link rid="b98">Stowell (1991</link>) (and the references cited there) for the syntactic analysis of this particular kind of adjectival construction, involving &lsquo;mental predicates&rsquo; and arguably expressing stage-level relations between individuals and events.</span>
+</p>
+<p>
+<span id="fn14">
+<number>14&emsp;</number>McConnell-Ginet&apos;s proposal, according to which VPs correspond to predicates (hence to semantic objects interpreted as propositional functions) obtained by lambda-abstracting over the subject position, arguably finds a rather solid &lsquo;compositional&rsquo; foundation under some version of the VP-internal subject hypothesis (cf. <link rid="b99">Koopman and Sportiche 1991a</link>), and the assumption that the VP-internal subject trace is interpreted as a variable undergoing lambda-abstraction (see especially <link rid="b100">Chierchia 1995b</link>).</span>
+</p>
+<p>
+<span id="fn15">
+<number>15&emsp;</number>See <link rid="b11">McConnell-Ginet (1982</link>) and <link rid="b3">Larson (1985a</link>), where some of the arguments against the treatment of oblique terms as arguments are critically evaluated and tentatively rejected.</span>
+</p>
+<p>
+<span id="fn16">
+<number>16&emsp;</number>The cases of adverbial modification which exclusively involve theta-identification (as in <i>Mary fatally slipped</i>), paralleling adjectival modification in <i>white ball</i>, are assigned the structure indicated in (i), where coindexing indicates theta-identification:</span>
+</p>
+<p>(i)&ensp;&lsqb;<sub>V&prime;</sub> &lsqb;fatally, &lt;1<sup>i</sup>, 2<sup>j</sup>&gt;&rsqb; &lsqb;<sub>V&prime;</sub> slipped, &lt;1<sup>j</sup>, E<sup>i</sup>&gt;&rsqb;&rsqb;</p>
+<p>The manner interpretation of <i>Louisa rudely departed</i> is obviously assigned a more complex representation, involving theta-identification together with autonomous theta-marking of the V&prime;. The subject-oriented (or, according to equivalent terminology, &lsquo;stative&rsquo;) reading of the same sentence involves an interpretation of &lsquo;rudely&rsquo; as a three-place predicate with the thematic grid &lt;1, 2, 3&gt;, interpreted as expressing that situation 1 is rude of actor 2 with respect to &lsquo;attribute&rsquo; 3 (that is, with respect to the property of being a departure of Louisa) (see <link rid="b18">Higginbotham 1989</link>: 476&ndash;479).</p>
+<p>
+<span id="fn17">
+<number>17&emsp;</number>Scholars are divided into those who assume that only some classes of predicates contain an open position for the event variable, crucially excluding statives and/or individual-level predicates (<link rid="b58">Kratzer 1995</link>; <link rid="b101">Diesing 1992b</link>) and those who assume that the event argument is selected by virtually every sort of predicate (<link rid="b102">Parsons 1990</link>; <link rid="b20">Higginbotham 1985</link>) (see <related relationship="sibling" type="samework"><externallink id="chapter 8 - Bare Plurals.xml" type="file">chapter 8</externallink></related>). However, it should be noticed that there have also been attempts to distinguish between Davidson&apos;s event argument and Kratzer&apos;s spatio-temporal argument (see <link rid="b103">Ramchand 1996</link>).</span>
+</p>
+<p>
+<span id="fn18">
+<number>18&emsp;</number>Some of the examples of adverb incorporation provided by Rivero are reproduced below in (i) and (ii) (involving manner and directional adverbials, respectively):</span>
+<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry morerows="3">(i)</entry>
+<entry morerows="1">a.</entry>
+<entry>I Mar&iacute;a f&eacute;rete KAK&Aacute; stin adelf&iacute; tis.</entry>
+</row>
+<row><entry>the Mary behaves badly to&plus;the sister hers</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>I Mar&iacute;a KAKOf&eacute;rete stin adelf&iacute; tis.</entry>
+</row>
+<row><entry>the Mary badly&plus;behaves to&plus;the sister hers</entry>
+</row>
+<row><entry morerows="3">(ii)</entry>
+<entry morerows="1">a.</entry>
+<entry>I Mar&iacute;a tha to gir&iacute;si AN&Aacute;PODA.</entry>
+</row>
+<row><entry>the Mary FUT it turn upside down</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>I Mar&iacute;a tha to ANAPODOgir&iacute;si.</entry>
+</row>
+<row><entry>the Mary FUT it turn upside down</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<span id="fn19">
+<number>19&emsp;</number>We have already introduced three of the four classes of adverbs discussed by Jackendoff: class I includes modal adverbs (sentence operators) and speaker-oriented adverbs; class II includes subject-oriented adverbs; class III is typically instantiated by manner adverbs. As for class IV, it is assumed to include adverbs such as <i>merely</i>, <i>truly</i>, etc., for which Jackendoff is unable to provide a suitable semantic structure. Adjectives belonging to this class have been important for the empirical evaluation of the hypothesis that adverbs are transformationally related to adjectival sources, since they do not seem to admit adequate semantic paraphrases with adjectival predicates. However, it should be noticed that these adverbs exhibit a striking distributional symmetry with the corresponding adjectives (<i>mere</i>, etc.): the prohibition against the adverb occurring sentence-initially or sentence-finally is paralleled by the prohibition that the corresponding adjectives occur in predicative position (for a more detailed discussion of the distributional constraints holding for this class of adjectives, see especially <link rid="b104">Bernstein 1993b</link>).</span>
+</p>
+<p>
+<span id="fn20">
+<number>20&emsp;</number>See especially <link rid="b105">Ruwet (1968</link>), <link rid="b96">Bellert (1977</link>), <link rid="b52">Travis (1988</link>), <link rid="b27">Belletti (1990</link>), <link rid="b55">Lonzi (1991</link>), <link rid="b54">Bowers (1993</link>), and the references cited in <link rid="b29">Cinque (1999</link>). The hypothesis put forward by Cinque, essentially based on a principled correlation between adverbs and designated functional projections, presents important analogies with the analysis independently developed in <link rid="b106">Alexiadou (1994</link>).</span>
+</p>
+<p>
+<span id="fn21">
+<number>21&emsp;</number>As for the class of &lsquo;higher&rsquo; adverbs, Cinque proposes, for Italian and French, something along the lines of the following ordered sequence of adverbs (each adverb in the hierarchy is assumed to stand for a set of adverbs belonging to the same (distributional) class):</span>
+</p>
+<p>(i)&ensp;francamente/fortunatamente/probabilmente/ora/forse/intelligentemente frankly/fortunately/probably/now/perhaps/intelligently</p>
+<p>For the class of &lsquo;lower&rsquo; adverbs, the proposed hierarchy is as follows:</p>
+<p>(ii)&ensp;solitamente/mica/gi&agrave;/pi&ugrave;/sempre/completamente/tutto/bene usually/not/already/anylonger/always/completely/everything/well</p>
+<p>Cinque shows that violations of the relative ordering constraints give rise to ungrammaticality, as exemplified in the paradigm below, concerning the class of &lsquo;lower&rsquo; adverbs:</p>
+<p>
+<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry morerows="4">(iii)</entry>
+<entry morerows="1">a.</entry>
+<entry>Da allora, non accetta mica pi&ugrave; sempre i nostri inviti.</entry>
+</row>
+<row><entry>since then, he doesn&apos;t any longer always accept our invitation</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Da allora non accetta mica sempre pi&ugrave; i nostri inviti.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>*Da allora, non accetta sempre mica pi&ugrave; i nostri inviti.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>*Da allora, non accetta pi&ugrave; mica sempre i nostri inviti.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>e.</entry>
+<entry>*Da allora, non accetta pi&ugrave; sempre mica i nostri inviti.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<span id="fn22">
+<number>22&emsp;</number>Cinque&apos;s proposal entails that a &lsquo;modal&rsquo; adverb such as <i>probably</i> and a &lsquo;subject-oriented&rsquo; adverb such as <i>cleverly</i> occupy the specifier position of different functional layers. This is not enough to provide us with syntactic structures which allow the former adverb to be &lsquo;compositionally&rsquo; interpreted as a sentence operator and the latter to be interpreted as a two-place predicate expressing a relation between individuals and events. Another clear instance of the compositionality issue arises with frequency adverbs such as <i>always</i>, which can be interpreted as generalized quantifiers expressing relations between two classes of events (see <link rid="ss11">section 7</link>). It is explicitly assumed that the two &lsquo;arguments&rsquo; of <i>always</i> are not syntactically represented and are in fact derived by applying relatively complex interpretive procedures (see <link rid="b107">Rooth 1985</link>; De <link rid="b2">Swart 1993</link>; <link rid="b64">Delfitto and Bertinetto 1995</link> for a &lsquo;compositional&rsquo; alternative). The issue has important implications for the &lsquo;Universality of theta-assignment hypothesis&rsquo; (UTAH), which proposes a rigid mapping between thematic notions and structural configurations and has revealed itself an important heuristic tool for the investigation of several syntactic domains. There is nowadays large agreement, for instance, on the fact that &lsquo;unaccusative&rsquo; adjectives such as <i>likely</i> in <i>This result is likely</i> are related to source structures of the form <i>&lsqb;e&rsqb; is likely this result</i>, in spite of the ungrammaticality of *<i>It</i>/<i>there is likely (of) this result</i>, and that pairs like <i>John was clever to leave</i> and <i>Leaving was clever of John</i> admit a common structural source (since they are assigned the same thematic interpretation). In the same vein, we would like to explain the fact that members of pairs like <i>John will probably call</i> vs. <i>It is probable that John will call</i> or <i>John rudely departed</i> vs. <i>John was rude to depart</i> are basically assigned the same meaning, by relating them to a common structural source (unless we want to restore compositionality by assuming hidden higher predicates for subject-oriented adverbs, as in <link rid="b11">McConnell-Ginet 1982</link>). Since there seems to be no obvious way to relate adjectival and adverbial constructions syntactically (that is, by resorting to widely accepted modules of syntax, much in the spirit of Jackendoff&apos;s criticism), we are forced to depart from the strongest version of UTAH. It seems fair to conclude, however, that this issue is still poorly understood (see also <link rid="ss5">section 4</link>).</span>
+</p>
+<p>
+<span id="fn23">
+<number>23&emsp;</number>The Agr(eement) node corresponds to one of the functional projections in which the Aux(iliary) node has been split under the set of assumptions developed in <link rid="b42">Pollock (1989</link>), <link rid="b108">Moro (1988</link>).</span>
+</p>
+<p>
+<span id="fn24">
+<number>24&emsp;</number>A suitable example is <i>Nessuno probabilmente telefoner&aacute; alle 5</i> &lsquo;Nobody probably will call at 5&rsquo;, where only the topicalized reading of the negative subject is admitted (<link rid="b27">Belletti 1990</link>: 43). Under the assumption that the left-dislocated subject can be &lsquo;reconstructed&rsquo; into its original position, we can arguably derive the correct semantic result, according to which the modal adverb takes scope over the whole sentence. However, notice that the same facts obtain for sentences involving subject-oriented adverbs, as in <i>Nessuno intelligentemente telefoner&aacute; alle 5</i> &lsquo;Nobody cleverly will call at 5&rsquo;, where the negative subject is obligatorily topicalized. In this case, it is not clear that reconstruction of the subject in the scope of the adverb would produce the correct semantic result, since the subject is one of the arguments of the &lsquo;relational&rsquo; adverb. Additional (interpretive) assumptions are needed, suggesting that (independently motivated) movement of constituents other than the adverb is not sufficient to assign a &lsquo;compositional&rsquo; meaning to the latter (on the compositionality issue, see also <link rid="ss4">section 3</link>).</span>
+</p>
+<p>
+<span id="fn25">
+<number>25&emsp;</number>There are also approaches where a certain adverbial reading is admitted to apply to a set (crucially not a singleton) of structural descriptions, as in <link rid="b47">Neeleman&apos;s (1994a</link>) analysis of the variety of adverbial positions characterizing West-Germanic scrambling.</span>
+</p>
+<p>
+<span id="fn26">
+<number>26&emsp;</number>See De <link rid="b2">Swart (1993</link>), <link rid="b64">Delfitto and Bertinetto (1995</link>), <link rid="b29">Cinque (1999</link>).</span>
+</p>
+<p>
+<span id="fn27">
+<number>27&emsp;</number>See <link rid="b39">Cinque (1990c</link>) for an empirically motivated refinement of the notion &lsquo;referential index&rsquo; in terms of the notion &lsquo;D-linking&rsquo; (<link rid="b109">Pesetsky 1987a</link>). According to Cinque&apos;s proposal elements bearing a referential index must refer to discourse-prominent entities in addition to referring to a participant in the event expressed by the predicate.</span>
+</p>
+<p>
+<span id="fn28">
+<number>28&emsp;</number>The hypothesis that adverbs can be generated in spec-CP is also apparently corroborated by the analysis of &lsquo;affective adverbials&rsquo; (that is, adverbs mitigating the &lsquo;<i>that</i>-trace&rsquo; effect) as base-generated in spec-CP and as triggering, in such a position, CP-recursion, arguably as a consequence of the requirements on clause-type identification (<link rid="b110">Browning 1996</link>). A convenient example is provided by the following minimal pair:</span>
+</p>
+<listgroup id="l3" type="i">
+<li>
+<number>(i)&ensp;</number>
+<p>*Robin met the man Leslie said that was the mayor of the city.</p>
+</li>
+<li>
+<number>(ii)&ensp;</number>
+<p>Robin met the man that Leslie said that for all intents and purposes was the mayor of the city.</p>
+</li>
+</listgroup>
+<p>Browning claims that the circumvention of the <i>that</i>-trace effect is achieved via co-indexation of the <i>wh</i>-operator with the trace of the displaced C, and presents interesting evidence to the effect that embedded topicalization of arguments is essentially different from embedded topicalization of adverbials.</p>
+<p>
+<span id="fn29">
+<number>29&emsp;</number>
+<link rid="b111">Costa (1996</link>) provides interesting empirical arguments against Pollock&apos;s analysis, arguing that extraction is possible in English from the allegedly extraposed prepositional complements.</span>
+</p>
+<p>
+<span id="fn30">
+<number>30&emsp;</number>Under the hypothesis that adverbs belonging to a given class fill the specifier position of a designated functional projection, it is expected that one and only one head position is available between two arbitrary adverbs (corresponding to the head of the designated functional projection). Data concerning the distribution of past participle heads in Romance arguably provide support for this hypothesis.</span>
+</p>
+<p>See <link rid="ss4">section 3</link> for a critical assessment of the conceptual foundations of the proposed correlation between adverbs and functional heads.</p>
+<p>It should be emphasized that this idea has been advocated, in various ways, by different authors (<link rid="b52">Travis 1988</link>; <link rid="b54">Bowers 1993</link>; and others), claiming that adverbs belonging to a given class are licensed by the features realized on a single designated head, which may be functional or lexical. <link rid="b52">Travis (1988</link>) assumes, for example, that adverbs licensed by V can be generated either as complements of V (within V&prime;), as in <i>John learned French perfectly</i>, or as adjoined to V&prime; (or VP), as in <i>John learned French quickly</i>, where the adverb is allowed to occur preverbally, contrary to what happens in the former example (*<i>John perfectly learned French</i>). The form of head licensing developed in <link rid="b54">Bowers (1993</link>) is far more restrictive, since adverbs are uniformly analyzed as X&prime;-adjuncts and a one-to-one correlation is assumed to exist between adverb classes and designated heads. Bowers assumes that adverbs which exclusively occur postverbally, such as <i>perfectly</i> in the example above, are in fact those which are licensed by V, explaining the prohibition on their preverbal occurrence in terms of obligatory verb movement to the functional category Pred, encoding predication in syntax (see <link rid="b54">Bowers 1993</link> for the derivation of verb movement within the &lsquo;minimal functional complex&rsquo; from the particular version of theta-theory assumed there, which presents clear analogies with the Larsonian VP-shell theory). Since direct objects are assumed to be generated in spec-VP, and VP-adverbs are adjoined either to V&prime; or to Pred&prime;, the prohibition against adverbs occurring between the verb and the direct object is straightforwardly derived, without any need to resort to the adjacency condition on case assignment originally proposed in <link rid="b43">Stowell (1981</link>). As a matter of fact, Bowers claims that V-adverbs are prohibited from appearing between the verb and the direct object even in French, as shown by the ungrammaticality of *<i>Jean parle parfaitement l&rsquo;Anglais</i> (predicted by the hypothesis that the postverbal position of V-adverbs is a consequence of obligatory movement of V to Pred). The assumption that adverbs like <i>perfectly</i> and <i>intimately</i> are V-adjoined, together with obligatory V-raising to Pred and the assumption that direct objects are in spec-VP and PP-complements within V&prime;, provide a direct structural explanation for the fact that V-adverbs do not resist placement between verb and PP-complements, as revealed by the following contrast (see <link rid="b54">Bowers 1993</link>: 609 and <link rid="ss6">section 5</link> for further discussion of these facts):</p>
+<listgroup id="l4" type="i">
+<li>
+<number>(i)&ensp;</number>
+<p>John spoke French intimately to Mary.</p>
+</li>
+<li>
+<number>(ii)&ensp;</number>
+<p>*John spoke intimately French to Mary</p>
+</li>
+</listgroup>
+<p>An important aspect of Bowers&rsquo; analysis is that head licensing of adverbs is assumed to be essentially nondirectional (with right and left adjunction equally permitted), explaining why Pred-adverbs can optionally occur postverbally (as in <i>John learned French (very) quickly</i>). See, however, <link rid="ss10">section 6</link> for important arguments against right-adjunction and the nondirectionality of adverb licensing.</p>
+<p>
+<span id="fn31">
+<number>31&emsp;</number>Cascade-structures are characterized by a modification of the usual selection requirements according to which a head H is allowed to select positions corresponding to the specifier of the sister of H.</span>
+</p>
+<p>
+<span id="fn32">
+<number>32&emsp;</number>As examples of the insensitivity of temporal adverbials to weak islands, <link rid="b35">Giorgi and Pianesi (1997</link>) discuss minimal pairs as the following in Italian, instantiating a clear contrast between manner and temporal adverbials:</span>
+</p>
+<listgroup id="l5" type="i">
+<li>
+<number>(i)&ensp;</number>
+<p>A che ora ti dispiace che Mario sia partito?</p>
+<p>&lsquo;At which time do you regret that Mario has left?&rsquo;</p>
+</li>
+<li>
+<number>(ii)&ensp;</number>
+<p>*Come ti dispiace che mario sia partito?</p>
+<p>&lsquo;How do you regret that Mario has left?&rsquo;</p>
+</li>
+</listgroup>
+<p>
+<span id="fn33">
+<number>33&emsp;</number>Instances of analyses of the argument structure of verbal predicates which depart from usual assumptions are <link rid="b20">Higginbotham&apos;s (1985</link>) event argument, <link rid="b58">Kratzer&apos;s (1995</link>) spatio-temporal argument, and <link rid="b112">Stowell&apos;s (1996</link>) temporal argument.</span>
+</p>
+<p>
+<span id="fn34">
+<number>34&emsp;</number>See <link rid="b107">Rooth (1985</link>) for technical discussion of the way in which the two arguments of the frequency adverb are derived. The view adopted there is that these arguments are not syntactically expressed, and must be derived by applying relatively complex interpretive devices, based on the so-called association with focus procedure. For the view that the two arguments can be derived compositionally by means of a relatively straightforward mapping between syntax and semantics, see <link rid="b64">Delfitto and Bertinetto (1995</link>).</span>
+</p>
+<p>
+<span id="fn35">
+<number>35&emsp;</number>There is an extensive literature on the interplay between temporal morphemes and adverbials (see the references cited in <link rid="b113">Ogihara 1996</link>). The interplay between temporal/ aspectual adverbials and aspectual morphemes is a somewhat less studied phenomenon (see the references mentioned in <link rid="b64">Delfitto and Bertinetto 1995</link>).</span>
+</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss13" level="1" type="references">
+<heading id="h12" level="1">REFERENCES</heading>
+<reference id="b93" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Abney</surname><x>, </x><forenames>Steven<x> </x>Paul</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date>
+<miscellaneoustext>). The English Noun Phrase in its Sentential Aspect. PhD dissertation</miscellaneoustext><x>, </x>
+<address>MIT</address><x>.</x>
+</reference>
+<reference id="b67" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>&Aring;farli</surname><x>, </x><forenames>Tor<x> </x>A<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">A Note on the Syntax of Adverbial Phrases</title><x>. </x><title type="journal">Norsk Lingvistisk Tidsskrift</title><x> </x><volume>13</volume><x>: </x><page type="first">23</page><x>&ndash;</x><page type="last">40</page><x>.</x>
+</reference>
+<reference id="b106" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Alexiadou</surname><x>, </x><forenames>Artemis</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date>
+<miscellaneoustext>). Issues in the Syntax of Adverbs. PhD dissertation</miscellaneoustext><x>, </x>
+<address>University of Potsdam</address><x>.</x>
+</reference>
+<reference id="b68" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Andrews</surname><x>, </x><forenames>Avery</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">A Note on the Constituent Structure of Adverbials and Auxiliaries</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>13</volume><x>: </x><page type="first">313</page><x>&ndash;</x><page type="last">317</page><x>.</x>
+</reference>
+<reference id="b30" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Andrews</surname><x>, </x><forenames>Avery</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">A Note on the Constituent Structure of Modifiers</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>14</volume><x>: </x><page type="first">695</page><x>&ndash;</x><page type="last">697</page><x>.</x>
+</reference>
+<reference id="b69" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Baker</surname><x>, </x><forenames>Carl<x> </x>L<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="document">Auxiliary&ndash;Adverb Word Order</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>12</volume><x>: </x><page type="first">309</page><x>&ndash;</x><page type="last">315</page><x>.</x>
+</reference>
+<reference id="b70" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Baker</surname><x>, </x><forenames>Carl<x> </x>L<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="book">English Syntax</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b23" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Baker</surname><x>, </x><forenames>Mark</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988a</date><x>). </x><title type="book">Incorporation: A Theory of Grammatical Function Changing</title><x>. </x><address>Chicago</address><x>: </x><publisher>University of Chicago Press</publisher><x>.</x>
+</reference>
+<reference id="b71" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Bartsch</surname><x>, </x><forenames>Renate</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="book">The Grammar of Adverbials: A Study in the Semantics and Syntax of Adverbial Constructions</title><x>. </x><address>Amsterdam</address><x>: </x><publisher>North-Holland</publisher><x>.</x>
+</reference>
+<reference id="b60" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Beghelli</surname><x>, </x><forenames>Filippo</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date>
+<miscellaneoustext>). The Phrase Structure of Quantifier Scope. PhD dissertation</miscellaneoustext><x>, </x>
+<publisher>UCLA</publisher><x>.</x>
+</reference>
+<reference id="b96" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bellert</surname><x>, </x><forenames>Irena</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date><x>). </x><title type="document">On Semantic and Distributional Properties of Sentence Adverbs</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>8</volume><x>: </x><page type="first">337</page><x>&ndash;</x><page type="last">351</page><x>.</x>
+</reference>
+<reference id="b27" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Belletti</surname><x>, </x><forenames>Adriana</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="book">Generalized Verb Movement: Aspects of Verb Syntax</title><x>. </x><address>Turin</address><x>: </x><publisher>Rosenberg and Sellier</publisher><x>.</x>
+</reference>
+<reference id="b104" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Bernstein</surname><x>, </x><forenames>Judy</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993b</date>
+<miscellaneoustext>). Topics in the Syntax of Nominal Structure across Romance. PhD dissertation</miscellaneoustext><x>, </x>
+<publisher>CUNY</publisher><x>.</x>
+</reference>
+<reference id="b97" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Bowers</surname><x>, </x><forenames>John<x> </x>S<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1969">1969</date>
+<miscellaneoustext>). Adjectives and Adverbs in English. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Bloomington, Indiana University Linguistics Club</address><x>.</x>
+</reference>
+<reference id="b54" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bowers</surname><x>, </x><forenames>John<x> </x>S<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">The Syntax of Predication</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>24</volume><x>: </x><page type="first">591</page><x>&ndash;</x><page type="last">656</page><x>.</x>
+</reference>
+<reference id="b9" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Bresnan</surname><x>, </x><forenames>Joan</forenames>
+</name>
+</namegroup><x> (</x><date date="1969">1969</date>
+<miscellaneoustext>). On Instrumental Adverbs and the Concept of Deep Structure. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b10" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bresnan</surname><x>, </x><forenames>Joan</forenames>
+</name><x> and </x><name type="author">
+<forenames>Jane</forenames><x> </x><surname>Grimshaw</surname>
+</name>
+</namegroup><x> (</x><date date="1978">1978</date><x>). </x><title type="document">The Syntax of Free Relatives in English</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>9</volume><x>: </x><page type="first">331</page><x>&ndash;</x><page type="last">391</page><x>.</x>
+</reference>
+<reference id="b110" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Browning</surname><x>, </x><forenames>Margaret</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="document">CP Recursion and That-t Effects</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>27</volume><x>: </x><page type="first">237</page><x>&ndash;</x><page type="last">255</page><x>.</x>
+</reference>
+<reference id="b36" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Chierchia</surname><x>, </x><forenames>Gennaro</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">Formal Semantics and the Grammar of Predication</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>16</volume><x>: </x><page type="first">417</page><x>&ndash;</x><page type="last">443</page><x>.</x>
+</reference>
+<reference id="b100" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chierchia</surname><x>, </x><forenames>Gennaro</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995b</date><x>). </x><title type="document">Individual-Level Predicates as Inherent Generics</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Generic Book</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Gregory<x> </x>N<x>.</x>
+</forenames><x> </x><surname>Carlson</surname>
+</name><x> and </x><name type="editor">
+<forenames>Francis<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Pelletier</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">176</page><x>&ndash;</x><page type="last">223</page><x>. </x><address>Chicago</address><x>: </x><publisher>University of Chicago Press</publisher><x>.</x>
+</reference>
+<reference id="b28" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986a</date><x>). </x><title type="book">Barriers</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b4" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995c</date><x>). </x><title type="book">The Minimalist Program</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b39" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990c</date><x>). </x><title type="book">Types of A&prime;-Dependencies</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b29" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="book">Adverbs and Functional Heads: A Cross-Linguistic Perspective</title><x>. </x><address>New York</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference id="b111" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Costa</surname><x>, </x><forenames>Jo&atilde;o</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>)</x><x>. </x><address>Adverb Positioning and V-movement in English</address><x>: </x><publisher>Some More Evidence</publisher><x>.</x><x> </x><title type="book">Studia Linguistica</title>
+<miscellaneoustext> 50/1</miscellaneoustext><x>: </x>
+<page type="first">22</page><x>&ndash;</x><page type="last">34</page><x>.</x>
+</reference>
+<reference id="b49" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Costa</surname><x>, </x><forenames>Jo&atilde;o</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">On the Behaviour of Adverbs in Sentence-Final Context</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>14/1</volume><x>: </x><page type="first">43</page><x>&ndash;</x><page type="last">68</page><x>.</x>
+</reference>
+<reference id="b72" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cresswell</surname><x>, </x><forenames>Maxwell<x> </x>John</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="book">Adverbial Modification</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Reidel</publisher><x>.</x>
+</reference>
+<reference id="b16" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Davidson</surname><x>, </x><forenames>Donald</forenames>
+</name>
+</namegroup><x> (</x><date date="1967">1967</date><x>). </x><title type="document">The Logical Form of Action Sentences</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Logic of Decision and Action</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Nicholas</forenames><x> </x><surname>Rescher</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">81</page><x>&ndash;</x><page type="last">95</page><x>. </x><address>Pittsburgh</address><x>: </x><publisher>University of Pittsburgh Press</publisher><x>.</x>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Davidson</surname><x>, </x><forenames>Donald</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="book">Essays on Actions and Events</title><x>. </x><address>Oxford</address><x>: </x><publisher>Clarendon Press</publisher><x>.</x>
+</reference>
+<reference id="b64" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Delfitto</surname><x>, </x><forenames>Denis</forenames>
+</name><x> and </x><name type="author">
+<forenames>Pier<x> </x>Marco</forenames><x> </x><surname>Bertinetto</surname>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Word Order and Quantification over Times</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Quaderni del Laboratorio di Linguistica</title><x> 9: </x><page type="first">69</page><x>&ndash;</x><page type="last">91</page><x>. </x><address>Pisa</address><x>: </x><publisher>Scuola Normale Superiore</publisher><x>.</x>
+</reference>
+<reference id="b101" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Diesing</surname><x>, </x><forenames>Molly</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992b</date><x>). </x><title type="book">Indefinites</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b73" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Dik</surname><x>, </x><forenames>Simon</forenames>
+</name><x>, </x><name type="author">
+<forenames>Kees</forenames><x> </x><surname>Hengeveld</surname>
+</name><x>, </x><name type="author">
+<forenames>Elseline</forenames><x> </x><surname>Vester</surname>
+</name>
+<x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>Co</forenames><x> </x><surname>Vet</surname>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">The Hierarchical Structure of the Clause and the Typology of Adverbial Satellites</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Layers and Levels of Representation in Language Theory: A Functional View</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jan</forenames><x> </x><surname>Nuyts</surname>
+</name><x>, </x><name type="editor">
+<forenames>A<x>. </x>Machtelt</forenames><x> </x><surname>Bolkenstein</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Co</forenames><x> </x><surname>Vet</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b74" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Dowty</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982b</date><x>). </x><title type="document">Tense, Time Adverbs, and Compositional Semantic Theory</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>5</volume><x>: </x><page type="first">23</page><x>&ndash;</x><page type="last">55</page><x>.</x>
+</reference>
+<reference id="b25" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Emonds</surname><x>, </x><forenames>Joseph</forenames>
+</name>
+</namegroup><x> (</x><date date="1970">1970</date>
+<miscellaneoustext>). Root and Structure-Preserving Transformations. PhD dissertation</miscellaneoustext><x>, </x>
+<address>MIT</address><x>.</x>
+</reference>
+<reference id="b75" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Emonds</surname><x>, </x><forenames>Joseph</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="book">A Transformational Approach to English Syntax: Root, Structure-Preserving and Local Transformations</title><x>. </x><address>New York</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b41" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Emonds</surname><x>, </x><forenames>Joseph</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978</date><x>). </x><title type="document">The Verbal Complex V&prime;-V in French</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>9</volume><x>: </x><page type="first">151</page><x>&ndash;</x><page type="last">175</page><x>.</x>
+</reference>
+<reference id="b7" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Emonds</surname><x>, </x><forenames>Joseph</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="book">A Unified Theory of Syntactic Categories</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b76" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Ernst</surname><x>, </x><forenames>Thomas</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date>
+<miscellaneoustext>). Towards an Integrated Theory of Adverb Position in English. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Bloomington, Indiana University Linguistics Club</address><x>.</x>
+</reference>
+<reference id="b77" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Geis</surname><x>, </x><forenames>Michael<x> </x>L<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Pragmatic Determinants of Adverb Preposing</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Twenty-second Regional Meeting of the Chicago Linguistic Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Anne<x> </x>M<x>.</x>
+</forenames><x> </x><surname>Farley</surname>
+</name><x>, </x><name type="editor">
+<forenames>Peter<x> </x>T<x>.</x>
+</forenames><x> </x><surname>Farley</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Karl-Erik</forenames><x> </x><surname>McCullough</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society</publisher><x>.</x>
+</reference>
+<reference id="b35" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Giorgi</surname><x>, </x><forenames>Alessandra</forenames>
+</name><x> and </x><name type="author">
+<forenames>Fabio</forenames><x> </x><surname>Pianesi</surname>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="book">Tense and Aspect: From Semantics to Morphosyntax</title><x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference id="b13" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Heny</surname><x>, </x><forenames>Frank</forenames>
+</name>
+</namegroup><x> (</x><date date="1973">1973</date><x>). </x><title type="document">Sentence and Predicate Modifiers in English</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Syntax and Semantics 2</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>John</forenames><x> </x><surname>Kimball</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">217</page><x>&ndash;</x><page type="last">245</page><x>. </x><address>New York</address><x>: </x><publisher>Seminar Press</publisher><x>.</x>
+</reference>
+<reference id="b20" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Higginbotham</surname><x>, </x><forenames>James</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">On Semantics</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>16</volume><x>: </x><page type="first">547</page><x>&ndash;</x><page type="last">593</page><x>.</x>
+</reference>
+<reference id="b65" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Higginbotham</surname><x>, </x><forenames>James</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Indefiniteness and Predication</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Representation of (In)definiteness</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name><x> and </x><name type="editor">
+<forenames>Alice<x> </x>ter</forenames><x> </x><surname>Meulen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">43</page><x>&ndash;</x><page type="last">70</page><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b18" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Higginbotham</surname><x>, </x><forenames>James</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">Elucidations of Meaning</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>12</volume><x>: </x><page type="first">465</page><x>&ndash;</x><page type="last">518</page><x>.</x>
+</reference>
+<reference id="b63" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Hitzeman</surname><x>, </x><forenames>Janet</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date>
+<miscellaneoustext>). Semantic Partition and the Ambiguity of Sentences Containing Temporal Adverbs. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Human Communication RC, University of Edinburgh</address><x>.</x>
+</reference>
+<reference id="b31" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Huang</surname><x>, </x><forenames>C.-T<x>. </x>James</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982a</date>
+<miscellaneoustext>). Logical Relations in Chinese and the Theory of Grammar. PhD dissertation</miscellaneoustext><x>, </x>
+<address>MIT</address><x>.</x>
+</reference>
+<reference id="b78" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Huang</surname><x>, </x><forenames>Shuan-fan</forenames>
+</name>
+</namegroup><x> (</x><date date="1975">1975</date><x>). </x><title type="book">A Study of Adverbs</title><x>. </x><address>The Hague</address><x>: </x><publisher>Mouton</publisher><x>.</x>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Jackendoff</surname><x>, </x><forenames>Ray</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972</date><x>). </x><title type="book">Semantic Interpretation in Generative Grammar</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b45" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Johnson</surname><x>, </x><forenames>Kyle</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Objects Positions</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>9</volume><x>: </x><page type="first">577</page><x>&ndash;</x><page type="last">636</page><x>.</x>
+</reference>
+<reference id="b8" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Katz</surname><x>, </x><forenames>Jerrold<x> </x>J<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1964">1964</date><x>). </x><title type="document">Semantic Theory and the Meaning of <i>Good</i>
+</title><x>. </x><title type="journal">Journal of Philosophy</title><x> </x><volume>61</volume><x>: </x><page type="first">739</page><x>&ndash;</x><page type="last">766</page><x>.</x>
+</reference>
+<reference id="b37" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1975">1975</date><x>). </x><title type="book">French Syntax: The Transformational Cycle</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b48" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">The Antisymmetry of Syntax</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b26" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Keyser</surname><x>, </x><forenames>Samuel<x> </x>J<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1968">1968</date><x>). </x><title type="document">Review of Sven Jacobson</title><x>: </x><title type="journal">Adverbial Positions in English Language</title><x> </x><volume>44</volume><x>: </x><page type="first">357</page><x>&ndash;</x><page type="last">374</page><x>.</x>
+</reference>
+<reference id="b62" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Klein</surname><x>, </x><forenames>Wolfgang</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">The Present Perfect Puzzle</title><x>. </x><title type="journal">Language</title><x> </x><volume>68</volume><x>: </x><page type="first">525</page><x>&ndash;</x><page type="last">552</page><x>.</x>
+</reference>
+<reference id="b5" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Klima</surname><x>, </x><forenames>Edward</forenames>
+</name>
+</namegroup><x> (</x><date date="1965">1965</date>
+<miscellaneoustext>). Studies in Diachronic Syntax<i>.</i> PhD dissertation</miscellaneoustext><x>, </x>
+<address>Harvard University</address><x>.</x>
+</reference>
+<reference id="b24" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Klima</surname><x>, </x><forenames>Edward</forenames>
+</name>
+</namegroup><x> (</x><date date="1966">1966</date>
+<miscellaneoustext>). Unpublished Lectures</miscellaneoustext><x>. </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b99" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Koopman</surname><x>, </x><forenames>Hilda</forenames>
+</name><x> and </x><name type="author">
+<forenames>Dominique</forenames><x> </x><surname>Sportiche</surname>
+</name>
+</namegroup><x> (</x><date date="1991">1991a</date><x>). </x><title type="document">On the Position of Subjects</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Syntax of Verb-Initial Languages</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>James</forenames><x> </x><surname>McCloskey</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">211</page><x>&ndash;</x><page type="last">258</page><x>. </x><address>The Hague</address><x>: </x><publisher>Mouton</publisher><x>.</x>
+</reference>
+<reference id="b38" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Koster</surname><x>, </x><forenames>Jan</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978c</date>
+<miscellaneoustext>). The Relation between Pro-Drop, Scrambling and Verb-Movement</miscellaneoustext><x>. </x>
+<address>Unpublished manuscript, Groningen University</address><x>.</x>
+</reference>
+<reference id="b58" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kratzer</surname><x>, </x><forenames>Angelika</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Stage-Level and Individual-Level Predicates</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Generic Book</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Gregory<x> </x>N<x>.</x>
+</forenames><x> </x><surname>Carlson</surname>
+</name><x> and </x><name type="editor">
+<forenames>Francis<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Pelletier</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">125</page><x>&ndash;</x><page type="last">175</page><x>. </x><address>Chicago</address><x>: </x><publisher>University of Chicago Press</publisher><x>.</x>
+</reference>
+<reference id="b79" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kuroda</surname><x>, </x><forenames>Shige-Yuki</forenames>
+</name>
+</namegroup><x> (</x><date date="1968">1968b</date><x>). </x><title type="document">Remarks on English Manner Adverbials</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Studies in General and Oriental Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Roman</forenames><x> </x><surname>Jakobson</surname>
+</name><x> and </x><name type="editor">
+<forenames>Shigeo</forenames><x> </x><surname>Kawamoto</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Tokyo</address><x>: </x><publisher>TEC Corporation</publisher><x>.</x>
+</reference>
+<reference id="b80" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ladusaw</surname><x>, </x><forenames>William</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978</date><x>). </x><title type="document">The Scope of Some Sentence Adverbs and Surface Structure</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society 8</title>
+<x>. </x><miscellaneoustext>Mark Stein (ed.)</miscellaneoustext><x>, </x>
+<page type="first">97</page><x>&ndash;</x><page type="last">111</page><x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association</publisher><x>.</x>
+</reference>
+<reference id="b81" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Laenzingler</surname><x>, </x><forenames>Christopher</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date>
+<miscellaneoustext>). Principles for a Formal and Computational Account of Adverbial Syntax. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>University of Geneva</address><x>.</x>
+</reference>
+<reference id="b19" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lakoff</surname><x>, </x><forenames>George</forenames>
+</name>
+</namegroup><x> (</x><date date="1965">1965</date><x>). </x><title type="document">On the Nature of Syntactic Irregularity</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Mathematical Linguistics and Automatic Translation</title>
+<x>. </x><miscellaneoustext>Rept. NSF-16</miscellaneoustext><x>. </x>
+<address>Cambridge</address><x>: </x><publisher>Harvard Computation Laboratory</publisher><x>.</x>
+</reference>
+<reference id="b82" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Lakoff</surname><x>, </x><forenames>George</forenames>
+</name>
+</namegroup><x> (</x><date date="1968">1968</date><x>). </x><title type="document">Instrumental Adverbs and the Concept of Deep Structure</title><x>. </x><title type="journal">Foundations of Language</title><x> </x><volume>4</volume><x>: </x><page type="first">4</page><x>&ndash;</x><page type="last">29</page><x>.</x>
+</reference>
+<reference id="b83" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Lakoff</surname><x>, </x><forenames>George</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974a</date><x>). </x><title type="document">Notes on What it Would Take to Understand How One Adverb Works</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="journal">Berkeley Studies in Syntax and Semantics</title><x> </x><volume>1</volume><x>: </x><page type="first">12</page><x>.</x>
+</reference>
+<reference id="b84" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Larson</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date>
+<miscellaneoustext>). Adjuncts and Implicit Arguments in Situation Semantics. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b3" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Larson</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985a</date><x>). </x><title type="document">Bare NP-Adverbs</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>16</volume><x>: </x><page type="first">595</page><x>&ndash;</x><page type="last">621</page><x>.</x>
+</reference>
+<reference id="b56" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Larson</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988b</date><x>). </x><title type="document">On the Double Object Construction</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>19</volume><x>: </x><page type="first">335</page><x>&ndash;</x><page type="last">391</page><x>.</x>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lewis</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1975">1975</date><x>). </x><title type="document">Adverbs of Quantification</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Formal Semantics of Natural Language</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Edward<x> </x>L<x>.</x>
+</forenames><x> </x><surname>Keenan</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">3</page><x>&ndash;</x><page type="last">15</page><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference id="b40" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Longobardi</surname><x>, </x><forenames>Giuseppe</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">Connectedness, Complementi Circostanziali e Soggiacenza</title><x>. </x><title type="journal">Rivista di Grammatica Generativa</title><x> </x><volume>5</volume><x>: </x><page type="first">141</page><x>&ndash;</x><page type="last">185</page><x>.</x>
+</reference>
+<reference id="b55" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lonzi</surname><x>, </x><forenames>Lidia</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Il Sintagma Avverbiale</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Grande Grammatica Italiana di Consultazione 2</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Lorenzo</forenames><x> </x><surname>Renzi</surname>
+</name><x> and </x><name type="editor">
+<forenames>Giampaolo</forenames><x> </x><surname>Salvi</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">342</page><x>&ndash;</x><page type="last">412</page><x>. </x><address>Bologna</address><x>: </x><publisher>Il Mulino</publisher><x>.</x>
+</reference>
+<reference id="b66" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>May</surname><x>, </x><forenames>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="book">Logical Form: Its Structure and Derivation</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b11" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>McConnell-Ginet</surname><x>, </x><forenames>Sally</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">Adverbs and Logical Form</title><x>. </x><title type="journal">Language</title><x> </x><volume>58</volume><x>: </x><page type="first">144</page><x>&ndash;</x><page type="last">184</page><x>.</x>
+</reference>
+<reference id="b95" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Mittwoch</surname><x>, </x><forenames>Anita</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date><x>). </x><title type="document">How to Refer to One&apos;s Own Words: Speech-Act Modifying Adverbials and the Performative Analysis</title><x>. </x><title type="journal">Journal of Linguistics</title><x> </x><volume>13</volume><x>: </x><page type="first">177</page><x>&ndash;</x><page type="last">189</page><x>.</x>
+</reference>
+<reference id="b85" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Moltmann</surname><x>, </x><forenames>Friederike</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Measure Adverbials</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>14</volume><x>: </x><page type="first">629</page><x>&ndash;</x><page type="last">660</page><x>.</x>
+</reference>
+<reference id="b15" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Montague</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date><x>). </x><title type="book">Formal Philosophy: Selected Papers of Richard Montague</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Richmond<x> </x>H<x>.</x>
+</forenames><x> </x><surname>Thomason</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>. </x><address>New Haven</address><x>: </x><publisher>Yale University Press</publisher><x>.</x>
+</reference>
+<reference id="b108" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Moro</surname><x>, </x><forenames>Andrea</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Per una Teoria Unificata delle Frasi Copulari</title><x>. </x><title type="journal">Revista di Grammatica Generativa</title><x> </x><volume>13</volume><x>: </x><page type="first">81</page><x>&ndash;</x><page type="last">110</page><x>.</x>
+</reference>
+<reference id="b47" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Neeleman</surname><x>, </x><forenames>Ad</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994a</date>
+<miscellaneoustext>). Complex Predicates. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Utrecht, OTS, Utrecht University</address><x>.</x>
+</reference>
+<reference id="b113" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ogihara</surname><x>, </x><forenames>Toshiyuki</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="book">Tense, Attitudes and Scope</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b14" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Parsons</surname><x>, </x><forenames>Terence</forenames>
+</name>
+</namegroup><x> (</x><date date="1970">1970</date><x>). </x><title type="document">Some Problems Concerning the Logic of Grammatical Modifiers</title><x>. </x><title type="journal">Synthese</title><x> </x><volume>21</volume><x>: </x><page type="first">320</page><x>&ndash;</x><page type="last">334</page><x>.</x>
+</reference>
+<reference id="b102" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Parsons</surname><x>, </x><forenames>Terence</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="book">Events in the Semantics of English: A Study in Subatomis Semantics</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b86" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Pecoraro</surname><x>, </x><forenames>Walter</forenames>
+</name><x> and </x><name type="author">
+<forenames>Chiara</forenames><x> </x><surname>Pisacane</surname>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="book">L&rsquo;Avverbio</title><x>. </x><address>Bologna</address><x>: </x><publisher>Zanichelli</publisher><x>.</x>
+</reference>
+<reference id="b109" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Pesetsky</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987a</date><x>). </x><title type="document">
+<i>Wh-</i>in-Situ: Movement and Unselective Binding</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Representation of (In)definiteness</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name><x> and </x><name type="editor">
+<forenames>Alice<x> </x>ter</forenames><x> </x><surname>Meulen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">98</page><x>&ndash;</x><page type="last">129</page><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b44" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Pesetsky</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date>
+<miscellaneoustext>). Language Particular Processes and the Earliness Principle. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b57" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Pesetsky</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="book">Zero Syntax: Experiencers and Cascades</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b42" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Pollock</surname><x>, </x><forenames>Jean-Yves</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">Verb Movement, Universal Grammar and the Structure of IP</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>20</volume><x>: </x><page type="first">365</page><x>&ndash;</x><page type="last">424</page><x>.</x>
+</reference>
+<reference id="b46" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Pollock</surname><x>, </x><forenames>Jean-Yves</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Notes on Clause Structure</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Elements of Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Liliane</forenames><x> </x><surname>Haegeman</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">237</page><x>&ndash;</x><page type="last">279</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b87" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Ramat</surname><x>, </x><forenames>Paolo</forenames>
+</name><x> and </x><name type="author">
+<forenames>Davide</forenames><x> </x><surname>Ricca</surname>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">Prototypical Adverbs: On the Scalarity/Radiality of the Notion ADVERB</title><x>. </x><title type="journal">Rivista di Linguistica</title><x> </x><volume>6</volume><x>: </x><page type="first">289</page><x>&ndash;</x><page type="last">326</page><x>.</x>
+</reference>
+<reference id="b103" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Ramchand</surname><x>, </x><forenames>Gillian</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="document">Two Subject Positions in Scottish Gaelic: The Syntax&ndash;Semantics Interface</title><x>. </x><title type="journal">Natural Language Semantics</title><x> </x><volume>4</volume><x>: </x><page type="first">165</page><x>&ndash;</x><page type="last">191</page><x>.</x>
+</reference>
+<reference id="b21" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Rivero</surname><x>, </x><forenames>Mar&iacute;a-Luisa</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Adverb Incorporation and the Syntax of Adverbs in Modern Greek</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>15</volume><x>: </x><page type="first">289</page><x>&ndash;</x><page type="last">331</page><x>.</x>
+</reference>
+<reference id="b32" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rizzi</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990b</date><x>). </x><title type="book">Relativized Minimality</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b59" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rizzi</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">The Fine Structure of the Left Periphery</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Elements of Grammar: Handbook of Generative Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Liliane</forenames><x> </x><surname>Haegeman</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">281</page><x>&ndash;</x><page type="last">337</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b53" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Rochette</surname><x>, </x><forenames>Anne</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990c</date><x>). </x><title type="document">La Structure d&rsquo;Arguments et les Propri&eacute;t&eacute;s Distributionnelles des Adverbes</title><x>. </x><title type="journal">Revue Qu&eacute;b&eacute;coise de Linguistique</title><x> </x><volume>20</volume><x>: </x><page type="first">55</page><x>&ndash;</x><page type="last">77</page><x>.</x>
+</reference>
+<reference id="b94" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Roeper</surname><x>, </x><forenames>Thomas</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date>
+<miscellaneoustext>). Implicit Arguments in the Syntax and the Lexicon. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Amherst, University of Massachusetts</address><x>.</x>
+</reference>
+<reference id="b107" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Rooth</surname><x>, </x><forenames>Mats</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date>
+<miscellaneoustext>). Association with Focus. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Amherst, University of Massachusetts</address><x>.</x>
+</reference>
+<reference id="b88" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rooth</surname><x>, </x><forenames>Mats</forenames>
+</name><x> (</x>
+</namegroup>
+<date date="1995">1995</date><x>). </x><name type="author">
+<surname>Indefinites</surname><x>, </x><forenames>Adverbs</forenames>
+</name><x> </x><title type="document">of Quantification and Focus Semantics</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Generic Book</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Gregory<x> </x>N<x>.</x>
+</forenames><x> </x><surname>Carlson</surname>
+</name><x> and </x><name type="editor">
+<forenames>Francis<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Pelletier</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">265</page><x>&ndash;</x><page type="last">299</page><x>. </x><address>Chicago</address><x>: </x><publisher>Chicago University Press</publisher><x>.</x>
+</reference>
+<reference id="b105" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Ruwet</surname><x>, </x><forenames>Nicolas</forenames>
+</name>
+</namegroup><x> (</x><date date="1968">1968</date>
+<miscellaneoustext>). Adverbs: A Note on the Question: Where Do They Come From? Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b89" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Schreiber</surname><x>, </x><forenames>Peter<x> </x>A<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1971">1971</date><x>). </x><title type="document">Some Constraints on the Formation of English Sentence Adverbs</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>2</volume><x>: </x><page type="first">83</page><x>&ndash;</x><page type="last">101</page><x>.</x>
+</reference>
+<reference id="b51" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Sportiche</surname><x>, </x><forenames>Dominique</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">A Theory of Floating Quantifiers and its Corollaries for Constituent Structure</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>19</volume><x>: </x><page type="first">425</page><x>&ndash;</x><page type="last">449</page><x>.</x>
+</reference>
+<reference id="b61" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Sportiche</surname><x>, </x><forenames>Dominique</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993a</date>
+<miscellaneoustext>). Adjuncts and Adjunction. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>UCLA</address><x>.</x>
+</reference>
+<reference id="b43" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Stowell</surname><x>, </x><forenames>Tim</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date>
+<miscellaneoustext>). Origins of Phrase Structure. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b98" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Stowell</surname><x>, </x><forenames>Tim</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">The Alignment of Arguments in Adjective Phrases</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Syntax and Perspectives on Phrase Structure: Heads and Licensing</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Susan<x> </x>D<x>.</x>
+</forenames><x> </x><surname>Rothstein</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">105</page><x>&ndash;</x><page type="last">135</page><x>. </x><address>San Diego</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b112" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Stowell</surname><x>, </x><forenames>Tim</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="document">The Phrase Structure of Tense</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Phrase Structure and the Lexicon</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jhoan</forenames><x> </x><surname>Rooryck</surname>
+</name><x> and </x><name type="editor">
+<forenames>Laurie</forenames><x> </x><surname>Zaring</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">277</page><x>&ndash;</x><page type="last">291</page><x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b90" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Stroik</surname><x>, </x><forenames>Thomas</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992b</date><x>). </x><title type="document">On the Distribution of Temporal and Locative NP Adverbials</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>9</volume><x>: </x><page type="first">267</page><x>&ndash;</x><page type="last">284</page><x>.</x>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Swart</surname><x>, </x><forenames>Henri&euml;tte<x> </x>de</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="book">Adverbs of Quantification: A Generalized Quantifier Approach</title><x>. </x><address>New York</address><x>: </x><publisher>Garland</publisher><x>.</x>
+</reference>
+<reference id="b92" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Szabolcsi</surname><x>, </x><forenames>Anna</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Functional Categories in the Noun Phrase</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Approaches to Hungarian</title><x>: </x><volume>Vol. 2</volume><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Istv&aacute;n</forenames><x> </x><surname>Kenesei</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">167</page><x>&ndash;</x><page type="last">189</page><x>. </x><address>Szeged</address><x>: </x><publisher>Joseph Attila University</publisher><x>.</x>
+</reference>
+<reference id="b33" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Szabolcsi</surname><x>, </x><forenames>Anna</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Weak Islands, Individuals and Scope</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of SALT II</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Chris</forenames><x> </x><surname>Baker</surname>
+</name><x> and </x><name type="editor">
+<forenames>David</forenames><x> </x><surname>Dowty</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">407</page><x>&ndash;</x><page type="last">438</page><x>. </x><address>Columbus, OH</address><x>: </x><publisher>Ohio State University Press</publisher><x>.</x>
+</reference>
+<reference id="b34" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Szabolcsi</surname><x>, </x><forenames>Anna</forenames>
+</name><x> and </x><name type="author">
+<forenames>Frans</forenames><x> </x><surname>Zwarts</surname>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Weak Islands and an Algebraic Semantics of Scope Taking</title><x>. </x><title type="journal">Natural Language Semantics</title><x> </x><volume>1</volume><x>: </x><page type="first">235</page><x>&ndash;</x><page type="last">284</page><x>.</x>
+</reference>
+<reference id="b12" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Thomason</surname><x>, </x><forenames>Richard</forenames>
+</name><x> and </x><name type="author">
+<forenames>Robert</forenames><x> </x><surname>Stalnaker</surname>
+</name>
+</namegroup><x> (</x><date date="1973">1973</date><x>). </x><title type="document">A Semantic Analysis of Adverbs</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>4</volume><x>: </x><page type="first">195</page><x>&ndash;</x><page type="last">220</page><x>.</x>
+</reference>
+<reference id="b52" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Travis</surname><x>, </x><forenames>Lisa</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">The Syntax of Adverbs</title><x>. </x><title type="other">McGill Working Papers in Linguistics<x>. </x>Special Issue on Comparative Germanic Syntax</title><x>. </x><page type="first">280</page><x>&ndash;</x><page type="last">310</page><x>.</x>
+</reference>
+<reference id="b22" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Verkuyl</surname><x>, </x><forenames>Henk</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="book">A Theory of Aspectuality: The Interaction between Temporal and Atemporal Structure</title><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference id="b91" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Vinet</surname><x>, </x><forenames>Marie-Th&eacute;r&egrave;se</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Adverbial Quantifiers, Negation and Stress Rules Effects</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="journal">University of Venice Working Papers in Linguistics</title><x> </x><volume>5</volume><x>: </x><page type="first">115</page><x>&ndash;</x><page type="last">138</page><x>.</x>
+</reference>
+<reference id="b50" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Zubizarreta</surname><x>, </x><forenames>Mar&iacute;a<x> </x>Luisa</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982a</date>
+<miscellaneoustext>). On the Relation of the Lexicon to Syntax. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

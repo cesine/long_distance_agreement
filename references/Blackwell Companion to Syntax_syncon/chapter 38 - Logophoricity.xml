@@ -1,0 +1,1197 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="38"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 38 - Logophoricity.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">1</page>
+<page type="last">20</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="0"/>
+<count type="table" count="8"/>
+<count type="formula" count="1"/>
+<count type="reference_total" count="52"/>
+<count type="page" count="20"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051118"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 38&ensp;Reuland: Logophoricity</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 38&ensp;Reuland: Logophoricity</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">38 Logophoricity</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>ERIC</forenames><x> </x><surname>REULAND</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1 </number>
+<p>Background</p>
+</li>
+<li level="1">
+<number>2 </number>
+<p>The notion of logophoricity</p>
+</li>
+<li level="1">
+<number>3 </number>
+<p>Long-distance anaphora</p>
+</li>
+<li level="1">
+<number>4 </number>
+<p>Theoretical issues in logophoricity</p>
+</li>
+<li level="1">
+<number>5 </number>
+<p>The nature of logophoric interpretation</p>
+</li>
+<li level="1">
+<number>6 </number>
+<p>Logophoricity and free anaphors</p>
+</li>
+<li level="2">
+<number>6.1 </number>
+<p>The binding requirement on anaphors</p>
+</li>
+<li level="2">
+<number>6.2 </number>
+<p>The logophoric interpretation of free anaphors</p>
+</li>
+<li level="1">
+<number>7 </number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1&ensp;Background</heading>
+<p>According to the canonical Binding Theory (<link rid="b1">Chomsky 1981</link>), nominal expressions occur in three basic types: (i) anaphors, (ii) pronominals, and (iii) R-expressions. Anaphors are characterized as expressions that have no inherent capacity for reference. Hence, they must depend on some other expression in the sentence for their interpretation (their <i>antecedent</i>). Pronominals may, but need not depend on another expression for their interpretation. They are characterized by the fact that their features are drawn solely from a set of grammatical features, phi-features (in many languages just gender, number, and person). R-expressions have some additional features (grammatical and/or lexical).<link rid="fn1">
+<sup>1</sup></link> Certain anaphors are like pronominals in that they only consist of phi-features. Other anaphors are morphologically complex and may contain other features as well. Anaphors and pronominals are together often referred to as <i>pronouns</i>.</p>
+<p>The linguistic encoding of interpretive dependencies between nominal expressions and their antecedents is governed by the Binding Theory. For anaphors, the Binding Theory stipulates that they must be bound in a local domain (Condition A of the Binding Theory). Within the class of anaphors a further distinction is made between reflexive and non-reflexive anaphors. Loosely speaking, reflexive anaphors have an argument of the same predicate as their antecedent, non-reflexive anaphors do not (for a more precise exposition, see <related relationship="sibling" type="samework"><externallink id="chapter 9 - Binding Theory.xml" type="file">chapter 9</externallink></related>).</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2&ensp;The notion of logophoricity</heading>
+<p>One of the challenges for the canonical Binding Theory, discussed by <link rid="b2">Clements (1975</link>) among others, is the fact that the behavior of anaphors is not always clear-cut. Languages may have forms that must be bound in one environment, and need not be bound in another.<link rid="fn2">
+<sup>2</sup></link> A typical example is <i>sig</i> in Icelandic. It must have a binder in (1a) (and failing this, due to a feature mismatch between &thorn;<i>&uacute;</i> and <i>sig</i>, it is ill-formed):</p>
+<p>(1)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry namest="col2" nameend="col3">*&thorn;&uacute; hefur sviki&eth; sig.</entry>
+</row>
+<row><entry namest="col2" nameend="col3">you have betrayed self</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>Mar&iacute;a var alltaf svo andstyggileg. &thorn;egar Olafur<sub>j</sub> kaemi seg&eth;i h&uacute;n s&eacute;r<sub>i/*j</sub> &aacute;rei&eth;anlega a&eth; fara.</entry>
+<entry>(<link rid="b3">Thr&aacute;insson 1991</link>)</entry>
+</row>
+<row><entry namest="col2" nameend="col3"> &lsquo;Mary was always so nasty. When Olaf would come, she would certainly tell himself &lsqb;the person whose thoughts are being presented &ndash; not Olaf&rsqb; to leave.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (1b) <i>s&eacute;r</i> is without a linguistically expressed antecedent, and yet the sentence is well-formed.<link rid="fn3">
+<sup>3</sup></link> Traditionally anaphors such as <i>sig</i> in (1b) were called indirect reflexives. Hag&egrave;ge illustrates the indirect reflexive with the Latin example in (2) (<link rid="b4">Hag&egrave;ge 1974</link>: 289, my gloss and annotation):</p>
+<p>(2)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>(Patres conscripti)</entry>
+<entry>legatos&nbsp;.&nbsp;.&nbsp;.</entry>
+<entry>miserunt&nbsp;.&nbsp;.&nbsp;.</entry>
+<entry>qui a</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry>senators</entry>
+<entry>delegates</entry>
+<entry>sent</entry>
+<entry>who from</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry>rege peterent &lsqb;ne inimicissimum</entry>
+<entry>suum</entry>
+<entry>secum</entry>
+<entry>haberet</entry>
+<entry>sibique</entry>
+<entry>dedere&rsqb;.</entry>
+</row>
+<row><entry>king ask<sub>subj</sub> that not biggest enemy</entry>
+<entry>refl<sub>2</sub>
+</entry>
+<entry>refl<sub>1</sub>-with</entry>
+<entry>keep<sub>subj</sub>
+</entry>
+<entry>refl<sub>2</sub>-and</entry>
+<entry>give<sub>subj</sub>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col6">&lsquo;The senators<sub>i</sub> sent delegates to ask the king<sub>j</sub> not to keep their<sub>i</sub> biggest enemy<sub>k</sub> with him<sub>j</sub> and to give &lsqb;him<sub>k</sub>&rsqb; to them<sub>i</sub>.&rsquo; (Cornelius Nepos, 23, 12, 2).</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p><i>Suum</i>, <i>se</i>, and <i>sibi</i> are all formally anaphors (reflexives in <link rid="b4">Hag&egrave;ge 1974</link>).<link rid="fn4">
+<sup>4</sup></link> As he points out, (2) shows two quite different uses, however. One use (in <i>secum</i>) is properly reflexive (rendered as &lsquo;refl<sub>1</sub>&rsquo; in the gloss), the other use is not, but rather refers to the author of the request (rendered as &lsquo;refl<sub>2</sub>&rsquo; in the gloss).<link rid="fn5">
+<sup>5</sup></link> It is impossible for <i>sibi</i> in (2) to refer to individuals different from the senators, as would be the case if it were replaced by the pronominal form <i>eis</i>.</p>
+<p>This second use is special since the reflexive, although it is technically bound, is not bound in a local domain, contra to what Condition A would lead one to expect; rather the binding relation crosses two (subjunctive) clausal boundaries. Such a use of reflexive-like forms is not limited to Icelandic or Latin, but widespread over the languages of the world.<link rid="fn6">
+<sup>6</sup></link>
+</p>
+<p>Since Clements, the term <i>logophor</i> has come to be used for such anaphors. The term <i>logophor</i> was earlier introduced by <link rid="b4">Hag&egrave;ge (1974</link>) for a different purpose, namely, to characterize a class of pronouns in languages from the Niger-Congo family that refer to the &lsquo;auteur d&rsquo;un discours&rsquo; (the &lsquo;source of a discourse&rsquo;, in the terms of <link rid="b2">Clements 1975</link>). As Hag&egrave;ge puts it: &ldquo;These pronouns distinguish the individual to which they refer from the speaker himself who uses them, in .&nbsp;.&nbsp;.&nbsp;&lsquo;indirect speech&rsquo;&rdquo; (<link rid="b4">Hag&egrave;ge 1974</link>: 287, my translation). They refer to the individual cited, the secondary speaker, as opposed to the primary speaker.</p>
+<p>Such a formally distinct series of pronouns for this type of use is found in, for instance, Mundang, Tuburi, and Ewe from the Niger-Congo family. These pronouns bear no formal resemblance to reflexives, hence Hag&egrave;ge considers the term &lsquo;indirect reflexive&rsquo; inappropriate. It is for these, therefore, that Hag&egrave;ge introduces the term &lsquo;logophoric&rsquo;.<link rid="fn7">
+<sup>7</sup></link> Yet, as Hag&egrave;ge and Clements noted, the discourse function of such logophoric pronouns is similar to the indirect reflexive (<link rid="b4">Hag&egrave;ge 1974</link>; <link rid="b2">Clements 1975</link>).</p>
+<p>The parallel between indirect reflexives and logophors is illustrated by the following example from Ewe (<link rid="b2">Clements 1975</link>):</p>
+<p>(3)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>Tsali gbl<formula id="mu1" format="inline">
+<file name="Graphics\chapter_38_mu1.gif" type="gif"/>
+</formula> na-e be ye-e dyi y&egrave; gake y&egrave;-kpe dyi.</entry>
+</row>
+<row><entry>Tsali say to-Pron that Pron beget LOG but LOG be victor</entry>
+</row>
+<row><entry>&lsquo;Tsali<sub>i</sub> told him<sub>j</sub> (i.e., his father) that he<sub>j</sub> begot him<sub>i</sub> but he<sub>i</sub> was the victor.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Here LOG is the gloss for the logophoric pronoun <i>y&egrave;</i>.<link rid="fn8">
+<sup>8</sup></link> Only <i>Tsali</i>, the source of the reported discourse, can be the antecedent of <i>y&egrave;</i>. As Clements notes, it is not necessary that the clause containing the logophoric pronoun be subjacent to the clause containing the antecedent. The logophoric pronoun may occur at any depth of embedding. In fact these pronouns do not require a cosentential antecedent &ndash; the antecedent can be several sentences back. The subsequent sentences of the discourse will continue to present the events described by the narrator from the point of view of the same individual or individuals (<link rid="b2">Clements 1975</link>: 170).</p>
+<p>The terminology of Hag&egrave;ge, and most of the standard typological literature with him, explicitly distinguishes indirect reflexives from logophoric pronouns. Modern syntactic literature often follows the usage of <link rid="b2">Clements (1975</link>), which extends Hag&egrave;ge&apos;s. In this usage, logophoricity is what characterizes both the special forms of (3) and the non-local and/or free use of anaphors in Icelandic and Latin as in (1b) and (2) and in many other languages (varying from Chinese and Japanese, to Italian and English).</p>
+<p>Clements gives the following cross-linguistic characterization of logophoric pronouns (<link rid="b2">Clements 1975</link>: 171&ndash;2):</p>
+<listgroup id="l2" type="i">
+<li level="1">
+<number>(i) </number>
+<p>logophoric pronouns are restricted to <i>reportive contexts</i> transmitting the words or thoughts of an individual or individuals other than the speaker/narrator;</p>
+</li>
+<li level="1">
+<number>(ii) </number>
+<p>the antecedent does not occur in the same reportive context as the logophoric pronoun;</p>
+</li>
+<li level="1">
+<number>(iii) </number>
+<p>the antecedent designates the individual or individuals whose words or thoughts are transmitted in the reported context in which the logophoric pronoun occurs.</p>
+</li>
+</listgroup>
+<p>Clements observes that in some languages logophoric pronouns may occur in sentences that strictly speaking do not satisfy conditions (i&ndash;iii), but that are in some sense modeled on sentences in which these conditions are satisfied. He notes that these conditions are primarily semantic/pragmatic, but does not elaborate on this.</p>
+<p>Clements argues that there are no universal syntactic conditions on logophoric pronouns, such as a strict subjecthood condition on the antecedent. Languages do, however, impose varying idiosyncratic conditions on logophors. In Ewe, for instance, logophors are restricted to clauses introduced by the complementizer <i>be</i>.<link rid="fn9 fn10">
+<sup>9,10</sup></link> Icelandic logophoric anaphora requires a subjunctive, in Mandarin Chinese the antecedent must be a living human being, etc.<link rid="fn11">
+<sup>11</sup></link>
+</p>
+</subsection>
+<subsection id="ss4" level="1">
+<heading id="h3" level="1">3&ensp;Long-distance anaphora</heading>
+<p>Much of the syntactic study of indirect reflexives, which will henceforth be referred to by the more neutral term <i>free anaphors</i>, has been conducted from the perspective of long-distance anaphora, and the questions they raise for the canonical Binding Theory. As noted in <link rid="ss2">section 1</link>, binding Condition A (<link rid="b1">Chomsky 1981</link>) expresses that anaphors must be locally bound:</p>
+<listgroup id="l3" type="1">
+<li>
+<number>(4) </number>
+<p><b>Condition A:</b>
+</p>
+<p>
+<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>An anaphor must be bound in its governing category.</entry>
+</row>
+<row><entry>&ggr; is a governing category for &alpha; if and only if &ggr; is the minimal category containing &alpha;, a governor of &alpha;, and a SUBJECT (<i>accessible to &alpha;</i>).<link rid="fn12">
+<sup>12</sup></link>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>Anaphors exceptionally allowing an antecedent beyond their SUBJECT are classified as long-distance anaphors. Icelandic logophoric anaphora forms a paradigm case.</p>
+<p>Three types of exceptions have been distinguished:</p>
+<listgroup id="l4" type="i">
+<li level="1">
+<number>(i) </number>
+<p>anaphors that are properly bound by an antecedent outside the governing category assigned under (4);</p>
+</li>
+<li level="1">
+<number>(ii) </number>
+<p>anaphors that are properly interpreted without a c-commanding antecedent;</p>
+</li>
+<li level="1">
+<number>(iii) </number>
+<p>anaphors that are properly interpreted without a linguistically expressed antecedent.</p>
+</li>
+</listgroup>
+<p>An influential line of research considered (i) as the canonical instance of such exceptions. Within this approach the possibility of non-local binding is captured by parameterizing the factors entering into the computation of the governing category (<link rid="b5">Manzini and Wexler 1987</link>; see also <link rid="b6">Dalrymple 1993</link>). Manzini and Wexler revise Condition A as in (5):</p>
+<listgroup id="l5" type="1">
+<li>
+<number>(5) </number>
+<p><b>Condition A:</b>
+</p>
+<p>
+<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>An anaphor must be bound in its governing category.</entry>
+</row>
+<row><entry>&ggr; is a governing category for &alpha; if and only if &ggr; is the minimal category containing &alpha;, a governor of &alpha;, and F (an opacity factor).</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>F is taken to assume values such as (accessible) SUBJECT, Tense, Agr, or Comp. Particular anaphors may lexically differ in the value they select. Essential in this approach is that all processes interpreting anaphors are uniformly binding processes.</p>
+<p>It has been established, however, that the nature of the relation between anaphors and their antecedents is not uniform across domains (<link rid="b7">Hellan 1988</link>; <link rid="b8 b3">Thr&aacute;insson 1990, 1991</link>; <link rid="b9">Reuland and Sigurj&oacute;nsd&oacute;ttir 1997</link>). Even languages allowing all three options given above do not necessarily allow them under the same conditions. Exceptions of types (ii) and (iii) are not only sensitive to syntactic factors and parameters (<link rid="b10">Everaert 1986b</link>). They are also subject to specific non-structural conditions to be met by the discourse in which they are embedded. This is what will be focused on next (see also <related relationship="sibling" type="samework"><externallink id="chapter 33 - Icelandic Logophoric Anaphora.xml" type="file">chapter 33</externallink></related>).</p>
+</subsection>
+<subsection id="ss5" level="1">
+<heading id="h4" level="1">4&ensp;Theoretical issues in logophoricity</heading>
+<p>Over the last decades logophoricity has received attention from a typological, a syntactic, and a semantic perspective. The first type of perspective is exemplified by work such as <link rid="b4">Hag&egrave;ge (1974</link>), <link rid="b11">Hyman and Comrie (1981</link>), <link rid="b12">Frajzyngier (1985</link>), <link rid="b13">Wiesemann (1986</link>), <link rid="b14">von Roncador (1992</link>), <link rid="b15 b16">Culy (1994, 1997</link>). These works contain an array of important findings about the ways in which logophoricity is encoded cross-linguistically, some quite challenging for theory formation, for instance verbal markings of logophoricity (see, e.g., <link rid="b17">Curnow 2002</link>). To some extent independent of the details of the typological findings, the semantics of attititudes, reports, perspective, indexicals, and self-representation has drawn the attention of linguists and philosophers. Some illustrative works are <link rid="b18">Lewis (1979</link>), <link rid="b19">Chierchia (1989</link>), <link rid="b20">Kaplan (1989</link>), <link rid="b21">Reinhart (1991</link>), and, more recently, <link rid="b22">Higginbotham (2003</link>). In addition, there is a growing body of literature in which typological, syntactic and semantic considerations are brought together under a general perspective. <link rid="b2">Clements (1975</link>) can be considered the first representative of this approach, followed by <link rid="b23">Sells (1987</link>). These authors present a general perspective on both logophoric pronouns of the Niger-Congo type and logophoric anaphors. This line of research constitutes an attempt to explicitly incorporate the role of discourse factors in a general Binding Theory (formulated from the perspective of discourse representation theory; <link rid="b24">Kamp 1981b</link>).<link rid="fn13">
+<sup>13</sup></link>
+</p>
+<p>In recent years <link rid="b25">Tancredi (1997</link>), <link rid="b26">Safir (2003</link>), <link rid="b27">Schlenker (2003a</link>), <link rid="b28">Sigur&eth;sson (2004</link>) presented intriguing endeavors toward an integrated approach based on their contributions toward a general theory of the interpretation of indexicals with respect to the context of utterance, and the accessibility of context in the interpretation of reports. Of crucial importance was the inclusion into the debate of languages like Amharic. In Amharic one finds shifted interpretations of first person pronouns in reportive contexts. If the situation to be reported is one in which John says &lsquo;I am hero&rsquo; English says &lsquo;<i>John</i> says that <i>he</i> is a hero.&rsquo; Amharic, however, say &lsquo;<i>John</i> says that <i>I</i> am a hero&rsquo;, where &lsquo;I&rsquo; and &lsquo;John&rsquo; are the same, which is impossible in English. As discussed by Sigur&eth;sson, this type of interpretation is not unique to Amharic, but occurs in a wider variety of languages. Such shifted interpretations of indexicals are not logophoric in the original sense, but contribute to finding the proper constraints on a theory of logophoricity. It would be impossible to bring all these strands together here. We will only be able to focus on a limited number of issues.</p>
+<p>From a syntactic and lexical perspective, logophoric pronouns (or in general pronouns with shifted interpretation) and free anaphors pose different theoretical problems. Logophoric pronouns have specific lexical properties, which impose a certain type of interpretation. For them, the questions arise of (i) how this type of interpretation can be characterized; and (ii) why assigning this interpretation is subject to syntactic licensing in some languages, even though it is lexically expressed.</p>
+<p>Prima facie, free anaphors have no specific lexical properties imposing a logophoric interpretation (this must be so, since they don&apos;t have this interpretation in standard reflexive contexts).</p>
+<p>Logophoric pronouns and free anaphors with logophoric interpretation both give rise to the following question: (i) How can logophoric interpretation be characterized?</p>
+<p>Different questions are: (ii) How can free anaphors escape the locality conditions on anaphor binding, although they are formally anaphors? (iii) Is long-distance anaphora a unified phenomenon (i.e., do all long-distance dependencies reflect the same type of process)? (iv) How can free anaphors be interpreted as logophors, although, prima facie, they have no specific lexical properties to impose a logophoric interpretation? (v) What are the principles governing the cross-linguistic variation observed?</p>
+<p>We will first address the question of how logophoric interpretation can be characterized, keeping discussion at an informal level (for recent discussions with different degrees of formalization, see <link rid="b26 b27">Safir 2003, Schlenker 2003a</link>, and <link rid="b28">Sigur&eth;sson 2004</link>).</p>
+</subsection>
+<subsection id="ss6" level="1">
+<heading id="h5" level="1">5&ensp;The nature of logophoric interpretation</heading>
+<p>A question that comes up is how &lsquo;special&rsquo; logophoric interpretation is. The number of languages with a special paradigm of logophoric pronouns is quite limited. The number of languages with some sort of free anaphor is considerably larger, but, nevertheles, quite a few languages lack that kind of use. So, another way to frame the question is to what extent we find the ingredients for logophoricity also in languages like Dutch, which prima facie appear to lack it. Since logophoric interpretation is held to reflect properties of the &lsquo;source of a discourse&rsquo;, as we saw, let&apos;s consider these more closely.<link rid="fn14">
+<sup>14</sup></link>
+</p>
+<p>Any utterance is an event that happens at some particular time and place, involving a speaker and a hearer (who may be identical).<link rid="fn15">
+<sup>15</sup></link> In the notation of <link rid="b29">Fillmore (1971a</link>) this can be captured by associating an utterance (of a sentence in context) with a <i>center</i>, which is a triple consisting of the <i>time</i> and the <i>place</i> of the utterance, and the <i>participants</i> (generally taken to be the speaker and hearer).</p>
+<p>It is important to determine how properties of the interpretation of an utterance depend on the center. With the model held constant, the truth-value of a sentence like <i>Mirella danced the tango</i> can remain the same regardless of whether it was uttered on January 10, 11, or 12, 1997, and at Trans 10, Building 20, or on Harvard Square. A sentence can be provided with expressions specifying values for time and place. Some expressions, such as <i>January 12, 1997</i>, or <i>Room 0.19, Trans 10</i>, receive interpretations independent of context of utterance. The interpretation of other elements cannot be given independently of context. These are the elements we will be concerned with here.</p>
+<p>Relative interpretation is pervasive in the deictic system, be it local or temporal. The value of <i>Mirella danced the tango yesterday</i> is affected when the utterance time is varied. The value of <i>Mirella danced the tango here</i> is affected by varying utterance place.</p>
+<p>For the interpretation of many texts actual time and location of production play a marginal role or no role. It is sufficient that some coordinate system can be identified with respect to which interpretation of an utterance takes place. This can be the actual time and place of the utterance, it can be a different time and place related to these, or it can be some virtual coordinate system intrinsic to the text itself. This is illustrated in (6):</p>
+<p>(6) Mary found out that John failed the test. (<link rid="b30">En&ccedil; 1987</link>)</p>
+<p>It is quite possible that this sentence has been uttered in some actual conversation. In that case the moment of utterance must provide the basis for an evaluation of the sentence. This entails that <i>utterance time &equals; evaluation time</i>. However, if (6) is part of a novel, it must be evaluated against the background of a system that may well be completely virtual. Hence utterance time, as the time of linguistic event in the actual world giving rise to the novel, is irrelevant for the evaluation of the sentence. <i>Evaluation time</i>, therefore, must be distinguished from utterance time, although they may coincide, and no linguistic process presumably ever distinguishes the two. What is linguistically relevant is the relation between the temporal coordinate of the utterance as such, i.e., the evaluation time, and the interpretation of the matrix clause and the complement. The past tense expresses that the moment of Mary&apos;s finding out is prior to the evaluation time, and that the moment of John&apos;s failing the test is yet earlier. This is a <i>shifted reading</i> in En&ccedil;&apos;s terms. The moments of Mary&apos;s finding out and of John&apos;s failing the test are the <i>event times</i>.<link rid="fn16">
+<sup>16</sup></link> This leads to distinctions between <i>utterance time</i>, <i>evaluation time</i>, and <i>event time</i>.</p>
+<p>Similar distinctions must be made with respect to the place dimension. So, taking together the place and time coordinates from Fillmore&apos;s center, the <i>position</i> of an utterance is defined as a pair containing the values for place and time in the associated coordinate system, and a distinction must be drawn among <i>utterance position</i>, <i>evaluation position</i>, and <i>event position</i>.</p>
+<p>Thus, for a class of elements the interpretation will vary with the position of the utterance in the coordinate system, even if the interpretation domain is held constant.<link rid="fn17">
+<sup>17</sup></link> This is what captures the specific type of context sensitivity of these elements.</p>
+<p>As is well known, the role of person in personal pronouns cannot be captured in terms of position as defined here. Suppose that <i>a</i> saw <i>b</i> on January 12, 1997, and <i>a</i> &equals; John, <i>b</i> &equals; Bill, but <i>b</i> did not see <i>a</i> on January 12, 1997. On January 13, 1997, this situation verifies <i>John saw Bill yesterday</i> and falsifies <i>Bill saw John yesterday</i>. These arguments can also be expressed by personal pronouns such as <i>I</i> and <i>you</i>. Under the conditions sketched, it is possible for John to truthfully say to Bill <i>I saw you yesterday</i>. That is, under these circumstances, <i>I</i> &equals; John and <i>you</i> &equals; Bill. However, it is equally possible that we have a different situation, in which the speaker has been changed from John to Bill, and consequently <i>I</i> &equals; Bill and <i>you</i> &equals; John. So, in this situation, Bill can truthfully say to John <i>I didn&apos;t see you yesterday</i>, but, of course, not <i>I saw you yesterday</i>. So, both a sentence and its negation can be truthfully uttered in one and the same position.</p>
+<p>This shows that <i>I</i> and <i>you</i> are indexicals whose context sensitivity cannot be captured in terms of utterance position. They reflect the participants in Fillmore&apos;s conception of the center.</p>
+<p>An utterance is not just an event that happens at some particular time and place, it is also intrinsically associated with a speaker who utters it and, if it is observed at all, with a person who perceives it. This implies that the role of the speaker&ndash;hearer relation as part of the center is quite different from the role of the position. The speaker&ndash;hearer relation implies that utterances have directionality. Together, speaker and hearer define the <i>orientation</i> of an utterance in a world.<link rid="fn18">
+<sup>18</sup></link>
+</p>
+<p>The same caveats apply as with time and place. Just as the actual time and place of an utterance must be generalized to the notion of an evaluation position, the notions of speaker and perceiver must be generalized so as to accommodate the possibility that they are positioned within some derived or virtual reality. I will use the terms <i>source</i> and <i>target</i> for these parameters (allowing the possibility that source and target coincide), and continue to use the term <i>orientation</i> for what they contribute. <i>Orientation</i> thus reflects the same type of systematic distinctions as <i>position</i>, namely, as <i>utterance orientation</i>, <i>evaluation orientation</i>, and <i>event orientation</i>, but with a restriction, since orientation is, by its very nature, only a property of <i>linguistic events</i>: typically events of saying, but also of dreaming, imagining, etc.</p>
+<p>Languages do not necessarily express all these distinctions. Utterance time and evaluation time are generally not formally distinguished, nor are utterance place and evaluation place. However, a distinction between evaluation time and event time is typically linguistically reflected in some way, just like a distinction between evaluation place and event place. Just as in the case of position, utterance orientation and evaluation orientation are expected to coincide. But just as in the case of utterance time vs. event time, we will expect that the contrast between utterance orientation and event orientation does reflect a possible linguistic category.</p>
+<p>Although many languages have no special system reflecting event orientation, logophoricity of the Niger-Congo type as described by Hag&egrave;ge and Clements is precisely that: a system linguistically expressing event orientation. But then, logophoricity is nothing mysterious. Relativizing the interpretation of elements with respect to some property reflecting the context of utterance is one of the recurring options among language systems. Logophoricity is nothing but realizing that option with respect to the event orientation of expressions. Logophoric pronouns are just elements lexically marked as expressing this property.</p>
+<p>Of course, the question comes up of how rich this lexical property must be. This is one of the recurring themes in any account of pronominal properties that are not prima facie trivial. Our semantic apparatus is so rich that that it would be hard to think of a property that cannot be described.<link rid="fn19">
+<sup>19</sup></link> Ideally, however their interpretation should in the end be governed by far more elementary properties of the syntactic structure. In fact, <link rid="b26">Safir (2003</link>), <link rid="b27">Schlenker (2003a</link>), and <link rid="b28">Sigur&eth;sson (2004</link>) all succeed in finding restrictive ways of lexically encoding the relevant properties. Thus, from a broader perspective, the availability of the type of lexical marking that is required needs no more stipulation than any kind of lexical marking does; the ingredients are there, even in languages that have no &lsquo;grammaticalized&rsquo; logophoricity.</p>
+<p>It is by no means necessary that the notions we have covered so far, including event orientation, exhaust the context sensitivity of pronoun interpretation. Let&apos;s therefore briefly discuss <link rid="b23">Sells&apos;s (1987</link>) taxonomy of discourse factors. <link rid="b23">Sells (1987</link>: 457) proposes that there are three basic roles in discourse, in terms of which logophoricity phenomena are to be described:</p>
+<p>(7)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>SOURCE: </entry>
+<entry>one who is the intentional agent in a communication,</entry>
+</row>
+<row><entry>SELF: </entry>
+<entry>one whose mental state or attitude the content of the proposition describes,</entry>
+</row>
+<row><entry>PIVOT:</entry>
+<entry>one with respect to whose (space-time) location the content of the proposition is evaluated.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Below, I summarize Sells&apos;s diagnostics for each of these categories. Sells uses Japanese examples, contrasting the anaphor <i>zibun</i> with the null object (&Oslash;). For simplicity&apos;s sake, I will be using just Sells&apos;s translations of his examples, since the intuitions are actually quite transparent in English as well. SOURCE is illustrated by speaker-evaluative phrases, such as <i>that fool</i> in (8):</p>
+<p>(8) Taroo heard from Takasi<sub>i</sub> that that fool Yosiko was following him<sub>i</sub> &equals; <i>zibun</i>
+</p>
+<p>Here the SOURCE &equals; Takasi (or the external speaker) is responsible for calling Yosiko a fool. The SELF can be diagnosed by adverbs such as <i>mysteriously</i>, as in (9):</p>
+<p>(9) Takasi<sub>i</sub> said that Yosiko was mysteriously following him<sub>i</sub> &equals; &Oslash;</p>
+<p>It is the SELF &equals; Takasi for whom the following is mysterious, unlike in (10), which carries what Sells calls a third person point of view (3POV):</p>
+<p>(10) Takasi<sub>i</sub> doesn&apos;t mind, though Yosiko is mysteriously following him<sub>i</sub> &equals; &Oslash;</p>
+<p>The <i>though</i>-clause does not reflect Takasi&apos;s point of view, hence <i>mysteriously</i> does not represent Takasi&apos;s perspective on who is following him.</p>
+<p>The notion of PIVOT can be brought out in 3POV environments by verb selection (<i>come</i> versus <i>go</i>), as in (11):</p>
+<p>(11)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Takasi<sub>i</sub> was happy because Yosiko came to visit him<sub>i</sub> &equals; <i>zibun</i>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Takasi<sub>i</sub> was happy because Yosiko went to visit him<sub>i</sub> &equals; <i>zibun</i>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>According to Sells, <i>Takasi</i> is not a proper antecedent for <i>zibun</i> in (11), since he is not a PIVOT, as required.<link rid="fn20">
+<sup>20</sup></link>
+</p>
+<p>Sells argues that SOURCE, SELF, and PIVOT define a range of options for cross-linguistic variation in conditions on antecedency. It is easy to see that the role of SOURCE is covered by what I described as event-orientation. In fact, that of SELF is too. SELF pertains to psychological predicates, which also reflect linguistic events, provided that source and target are identified.</p>
+<p>What about PIVOT? PIVOT is understood as the locus to which deictic elements must refer (<link rid="b23">Sells 1987</link>: 465), and its role is subtle. According to Sells, speakers report that (11b) is acceptable if one imagines that Takasi was out and that Yosiko went to the place where Takasi would normally be expected to be. <i>Go</i> and <i>come</i> differ as to whether their beginning or their end coincides with the designated space-coordinates of the event representation. If an anaphor is sensitive to whether or not a potential antecedent is a PIVOT, this effectively means that its interpretation is sensitive not only to the intrinsic features of its antecedent (phi-features, etc.), but also to its location in space with respect to the event described. Given that verbs apparently reflect such a sensitivity, to find it in the nominal domain as well need not be very surprising. We may, however, conclude at this point that sensitivity to PIVOT is really something quite different from the notion of logophoricity as such (a conclusion that in fact can already be found in Sells&apos;s contribution).</p>
+</subsection>
+<subsection id="ss7" level="1">
+<heading id="h6" level="1">6&ensp;Logophoricity and free anaphors</heading>
+<p>Free anaphors posed the following additional questions: (ii) How, having the form of reflexives, can they escape the locality conditions on anaphor binding? (iii) How, having no specific lexical properties imposing a logophoric interpretation, are they, nevertheless, so interpreted?</p>
+<subsection id="ss8" level="2">
+<heading id="h7" level="2">6.1&ensp;The binding requirement on anaphors</heading>
+<p>As stated in <link rid="ss2">section 1</link>, the canonical Binding Theory (<link rid="b1 b31">Chomsky 1981, 1986b</link>) stipulates that anaphors (simplex anaphors such as Icelandic <i>sig</i>, Dutch <i>zich</i>, and perhaps Latin <i>se</i>, clitic anaphors such as Italian <i>se</i>/<i>si</i>, French <i>se</i>, and complex anaphors such as Icelandic <i>sjalfan sig</i>, Dutch <i>zichzelf</i>) are referentially defective.<link rid="fn21">
+<sup>21</sup></link> A commonly adopted view is that this is so because of (12) (<link rid="b32">Bouchard 1984</link>):</p>
+<p>(12) In order for some argument &alpha; to be interpreted it must have a full specification for phi-features.</p>
+<p>It appears to be the case that all the simplex anaphors exemplified are underspecified in some respect. Taking that the set of phi-features can be given as &lsqb;&alpha; person, &bgr; gender, &ggr; number&rsqb;, we observe that, e.g., <i>zich</i> is specified for person (namely third person), but is not specified for gender, or for number. I.e., although <i>zich</i> requires a third person antecedent, it is immaterial whether the antecedent is masculine or feminine, or singular or plural. Yet, the general role of lexical and formal features is to constrain the interpretation of the elements carrying them. Therefore, (13) rather than (12) would be expected to hold (<link rid="b33">Reuland 2001</link>):</p>
+<p>(13) If &alpha; has fewer phi-features than &bgr;, there are fewer constraints on the interpretation of &alpha; than on the interpretation of &bgr;.</p>
+<p>From this perspective, a general binding requirement on anaphors has no intrinsic motivation. The existence of free anaphors as in (1) (see also <related relationship="sibling" type="samework"><externallink id="chapter 33 - Icelandic Logophoric Anaphora.xml" type="file">chapter 33</externallink></related>) then provides reason to doubt the correctness of (12), and assume (14) instead:</p>
+<p>(14) There is no intrinsic need for anaphors to have a syntactic binder.</p>
+<p>Given that free anaphors have a restricted distribution, just as they have a special type of interpretation, this leads to the question in (15):</p>
+<p>(15) What principles regulate the free interpretation of anaphors?</p>
+<p>
+<link rid="b34 b35">Reinhart and Reuland (1991, 1993</link>), <link rid="b36">Pollard and Sag (1992</link>) and <link rid="b9">Reuland and Sigurj&oacute;nsd&oacute;ttir (1997</link>) show that the syntactic conditions on freedom/exemption should be sharply distinguished from the semantic and discourse conditions on interpretation. <link rid="b37">Cole et al. (2001b</link>) show the same from a different perspective (see note 11). <link rid="b33">Reuland (2001</link>) argues that the obligation for an anaphor to be bound is due to a general economy principle. Encoding an interpretive dependency by a syntactic process takes precedence over alternative ways of interpreting the anaphor. Thus, the availability of syntactic encoding blocks interpretation of the anaphor as free. The encoding process can be agreement based (if both the antecedent and the anaphor are in an obligatory feature-checking relation with a head, such as finite inflection, this establishes a syntactic link for anaphors such as Icelandic <i>sig</i>); it can also be movement based (for instance, in the case of English SELF<i>-</i>anaphors, <i>self</i> covertly moves onto the verb). Free interpretation of anaphors obtains just in case the syntactic mechanism involved in establishing the link cannot apply (see <link rid="b33">Reuland 2001</link> for detailed discussion). The factor can be subjunctive in the case of simplex anaphors such as <i>sig</i>/<i>sibi</i> in Icelandic or Latin; it can be the structural position of the source with respect to the target in SELF-anaphors in English (coordinate structure constraint, adjunct condition); see <related relationship="sibling" type="samework"><externallink id="chapter 9 - Binding Theory.xml" type="file">chapter 9</externallink></related> for more discussion. In languages where the details of encoding differ, also the details of the blocking factor (or absence thereof) may differ, but the general pattern will be expected to be the same: If a syntactic encoding mechanism is blocked, discourse principles come into play, and the factors that are relevant for discourse based dependencies become visible.</p>
+</subsection>
+<subsection id="ss9" level="2">
+<heading id="h8" level="2">6.2&ensp;The logophoric interpretation of free anaphors</heading>
+<p>The free use of anaphors is essentially pronominal. Just like pronominals these anaphors are potentially referring expressions (see <related relationship="sibling" type="samework"><externallink id="chapter 33 - Icelandic Logophoric Anaphora.xml" type="file">chapter 33</externallink></related>). Their referential use falls primarily under discourse theory.</p>
+<p>Also in cross-sentential domains, where syntactic binding is unavailable, the choice of an expression to refer to some object in the domain of discourse is not arbitrary. <link rid="b38">Ariel (1990</link>) extensively discusses the conditions under which one and the same object is referred to by a full NP, an epithet, or a pronoun (see also earlier relevant discussion by <link rid="b39">Giv&oacute;n 1983</link>). Ariel establishes that there is an inverse relation between the descriptive content of a referring expression and what she calls the accessibility of the discourse referent. The more prominent an element is in the discourse, where prominence can, for instance, be measured in terms of textual distance, the more accessible it is in the theoretical sense Ariel develops. So, whenever the last mention of a discourse referent is sufficiently distant with respect to the mention to come, a full lexical NP or proper name will be used. If it is high on the scale of accessibility, a pronoun is preferred instead. Epithets can be used for referents of intermediate accessibility.</p>
+<p>Since anaphors of the type discussed have even lower descriptive content (i.e., fewer phi-features) than pronouns, Ariel&apos;s theory predicts that they require discourse referents of higher accessibility than pronouns do. The correctness of this prediction has been obscured by the fact that, in many languages, anaphors may not escape syntactic binding at all, and so the remaining cases were viewed as anomalies. The interpretation of free anaphors indicates that this prediction is, in fact, correct. In the environments in which they occur, free anaphors take discourse referents that are, indeed, high on the scale of accessibility. That is, they refer to individuals within the domain of interpretation that can be characterized as being the center of consciousness, defining view point, or as perspective holders.<link rid="fn22">
+<sup>22</sup></link>
+</p>
+<p>Although such individuals do figure prominently in the discourse, we still have to clarify why it is only these elements that serve as discourse referents for free anaphors, and why not just any forcefully foregrounded discourse entity will do.</p>
+<p>That this is so follows from the nature of pronominals as such. We already saw that first and second person pronouns represent source and target of an utterance, respectively. That is, they first and foremost express <i>orientation</i>. Generalizing, I will claim that the property of expressing orientation is the basic, unmarked, property of third person pronominals as well. If so, a pronoun can only be used independent of orientation, for instance, deictically, if it has specific features allowing that use. Therefore, a canonical third person pronominal must have at least one feature that is not the direct counterpart of some feature in a first or second person pronoun. A feature that seems identical but is in fact different in third person pronouns from first and second person pronouns is number. As was noted by <link rid="b40">Benveniste (1966b</link>), the plural <i>we</i> does not denote a plurality of individual <i>I</i>&apos;s in the same way in which the plural <i>cats</i> denotes a plurality of <i>cat</i>s or the plural <i>they</i> denotes a plurality of individuals.<link rid="fn23">
+<sup>23</sup></link> Thus, <i>I</i> and <i>we</i> are not grammatically, but inherently, singular and plural respectively. I will then advance the hypothesis that it is <i>grammatical number</i> (as opposed to the inherent number of <i>I</i> or <i>we</i>) that enables a use that is independent of orientation. Then, if number (or any other such feature) is absent, as it is in the case of <i>zich</i>, <i>sig</i>, <i>se</i>, etc., the only option for interpretation left will represent precisely that property that is basic, namely orientation. Utterance and evaluation orientation are typically expressed by first and second person pronouns. This leaves open a slot for event orientation. The option for a numberless third person pronoun is, then, to fill this slot and represent event orientation, the reported SOURCE or SELF of a linguistic event (varying from actual utterances to internal monologues, dreams, etc.).<link rid="fn24">
+<sup>24</sup></link>
+</p>
+<p>This ties in with the analysis by <link rid="b41">Koopman and Sportiche (K&amp;S) (1989</link>) of the pronominal system of Abe. Abe has two pronominal classes, O-pronouns and n-pronouns. O-pronouns behave essentially as English pronominals. They respect Condition B, and can be interpreted as bound variables, or referentially. N-pronouns also respect Condition B, but they cannot be bound by either an R-expression or an O-pronoun (other than under conditions indicated below), or bind one themselves. At first sight they allow a referential interpretation, but the number of indexings (taking these to reflect interpretations) available to them in a sentence is limited by the number of Comp nodes dominating them. For instance, two n-pronouns in a root clause are dominated by only one Comp node. Hence, they are obligatorily coindexed. Generalizing, in the case of n Comp nodes dominating n &plus; i (occurrences of) n-pronouns, i n-pronouns will have to be coindexed with another n-pronoun.</p>
+<p>In clauses introduced by the complementizer <i>kO</i> (under reportive verbs), they are, however, coindexed with (and bound by) the NP representing the source of the report, regardless of whether this is an O-pronoun or R-expression. In this environment they exhibit the standard features of logophoricity. The basis of the analysis in <link rid="b41">K&amp;S (1989</link>) is the claim that n-pronouns are logical variables. In this they are deemed similar to first and second person pronouns (n-pronouns are also characterized as &plus;human).</p>
+<p>
+<link rid="b41">K&amp;S (1989</link>) discuss the status of logical variables in syntactic, rather than semantic terms. A semantic characterization of what it means to be a logical variable, in the sense of K&amp;S, can be based on the idea that these elements reflect event orientation, as discussed above. This entails that they are identified with the source of the report in reportive contexts. This amounts to saying that in these contexts logophoric pronouns are obligatory <i>de se</i> pronouns (<link rid="b19">Chierchia 1989</link>; <link rid="b27">Schlenker 2003a</link>).<link rid="fn25">
+<sup>25</sup></link>
+</p>
+<p>The <i>de se</i> analysis alone, however, does not cover the use of n-pronouns in non-reportive contexts. K&amp;S account for the relation between the interpretation of n-pronouns and the number of dominating CPs in non-reportive contexts by assuming that each C, being associated with an operator position, provides a possible A&prime;-binder for the variable. One C, then, directly entails co-interpretation. This insight may be combined with the discourse based approach. Events are syntactically realized as CPs. One may assume that, in general, the orientation of an utterance is not just a pair &lt;<i>source, target</i>&gt;, but, in fact, a triple &lt;<i>source, target, other</i>&gt;, where <i>other</i> refers to <i>any other participant defining the event</i>, such as a person talked about. This person is also a participant in the utterance, and thus among the factors determining orientation. If the orientation of each event is unique, the selection of this further participant, once made, enabling it to be referred to by the n-pronoun, must be maintained for the whole CP, thus fixing its interpretation to that one choice. In a complex sentence, with embedded expressions for events (CPs), each event will introduce a possibly different <i>other</i>, yielding the dependency pattern found.</p>
+</subsection>
+</subsection>
+<subsection id="ss10" level="1">
+<heading id="h9" level="1">7&ensp;Conclusion</heading>
+<p>The logic of our discussion led us to a number of questions. In answer to question (i), we found that logophoric interpretation expresses event orientation. In answer to question (ii), we can say that free anaphors can escape the locality conditions on anaphor binding since there is no absolute binding requirement on anaphors. As discussed in <link rid="b33">Reuland (2001</link>), the morphosyntactic features of the anaphor will interact with the functional structure of the clause. If movement is involved, the dependency will be subject to standard conditions on movement. The anaphor will be freed if movement is blocked. If agreement is involved, the anaphor will be freed if some factor interferes with agreement. The question (iii) of whether long-distance anaphora is a unified phenomenon (i.e., do all long-distance dependencies reflect the same type of process?) is discussed in chapters 9, 33, and 40. The answer is negative for reasons set out there. Although free anaphors appear to have no specific lexical properties imposing a logophoric interpretation, they can nevertheless be interpreted logophorically (question (iv)). Due to their poverty of grammatical features they reflect the unmarked properties of personal pronouns, i.e., they express orientation. It is hypothesized that it is the grammatical number feature that enables fully specified pronouns to bypass expressing orientation.</p>
+<p>Cross-linguistic variation in free anaphors is essentially due to the interaction of grammatical features with independent properties of grammatical structure. In fact the issue reduces to patterns of variation in general. If &lsquo;being logophoric&rsquo; can be encoded in morphosyntactic features along the lines sketched in the literature cited, also its variation poses no particular problems beyond the issue of variation itself.</p>
+<p>We may conclude that the logophoric use of pronouns is not anything special, but just a reflection of basic properties of the pronominal system.</p>
+</subsection>
+<subsection id="ss11" level="1">
+<heading id="h10" level="1">NOTES</heading>
+<p>While I was finalizing this chapter I came to realize that it is not a paradigmatic instance of a &lsquo;Case&rsquo;, as cases were initially conceived for this project. In the area of logophoricity, the fields of typology, formal syntax, and formal semantics, including its philosophical perspective, come together, and a proper synthesis has yet to be established. Moreover, a considerable amount of the literature that is relevant for such a synthesis only appeared after this chapter had essentially been written. The main aim of this chapter is to present the Clements/Sells approach to logophoricity and put the discussion on long-distance anaphora, in particular that of free anaphors, in its perspective. I trust that the selection of further literature cited, although not exhaustive, is broad enough to point the user in the direction of current debates. I am very grateful to three anonymous reviewers whose constructive criticisms led to considerable improvement and broadening of scope. Needless to say, I am alone responsible for any omissions and mistakes.</p>
+<p>
+<span id="fn1">
+<number>1 </number>Whether the definition of an R-expression must involve reference to grammatical features, rather than just lexical features, depends on the analysis of bare <i>wh</i>-elements. For instance, suppose that <i>wh</i> is a grammatical, rather than a lexical feature, as is often assumed. If so, <i>wh</i>-words such as <i>who</i> or <i>what</i> will effectively be bundles of purely grammatical features, non-distinct from the corresponding pronouns in lexical content. Yet, <i>wh</i>-elements cannot be A-bound, as in <i>He</i><sub><i>i</i>
+</sub> <i>was wondering whether Mary had asked Cindy whom</i><sub><i>*i/j</i>
+</sub> <i>Daphne had seen (whom</i><sub><i>*i/j</i>
+</sub><i>)</i>. If they are R-expressions this follows from the standard Condition C. Of course, if, as a reviewer suggests, the quantificational character of <i>who</i> or <i>what</i> is intrinsically lexical, no reference to grammatical features is needed. For current purposes we can leave this issue open.</span>
+</p>
+<p>
+<span id="fn2">
+<number>2 </number>Exceptions in English were noted earlier by <link rid="b42">Ross (1970b</link>), <link rid="b43">Cantrall (1974</link>), and Kuno (see, for a summary, <link rid="b44">Kuno 1987a</link>).</span>
+</p>
+<p>
+<span id="fn3">
+<number>3 </number>See <related relationship="sibling" type="samework"><externallink id="chapter 33 - Icelandic Logophoric Anaphora.xml" type="file">chapters 33</externallink></related> and <related relationship="sibling" type="samework"><externallink id="chapter 9 - Binding Theory.xml" type="file">9</externallink></related> for further examples from Icelandic and examples from English.</span>
+</p>
+<p>
+<span id="fn4">
+<number>4 </number>In most of the older, but also much of the modern literature the term <i>reflexive</i> is used indiscriminately for elements that appear to require an antecedent, regardless of whether they actually reflexivize a predicate. Except for contexts where I actually discuss such literature I will be using the term <i>anaphor</i>, following the usage that has become standard since <link rid="b1">Chomsky (1981</link>).</span>
+</p>
+<p>
+<span id="fn5">
+<number>5 </number>According to Hag&egrave;ge, the former is an &lsquo;op&eacute;rateur de r&eacute;flexivit&eacute;&rsquo; (reflexive operator); the latter refers to a particular participant that is distinguished from the others by being the author of a discourse or a thought, and is, furthermore, also distinguished from the principal speaker.</span>
+</p>
+<p>
+<span id="fn6">
+<number>6 </number>Languages for which this phenomenon has been described in some depth include Icelandic, English, Italian, Japanese, and Mandarin Chinese.</span>
+</p>
+<p>
+<span id="fn7">
+<number>7 </number>That is, &lsquo;renvoyant au discours&rsquo; (&lsquo;pertaining to the discourse event&rsquo;).</span>
+</p>
+<p>
+<span id="fn8">
+<number>8 </number><i>Y&egrave;</i>&apos;s non-high tone, represented by the grave accent, distinguishes it from the non-logophoric strong form <i>ye</i>, which bears high tone; the logophoric pronoun is also distinct from a reflexive; in Ewe these are formed by affixing a genetive form of a pronoun to the noun <i>d,okui</i> &lsquo;self&rsquo;, and, according to Clements, behave much like their English counterparts.</span>
+</p>
+<p>
+<span id="fn9">
+<number>9 </number>This may well be a reflection of the fact that logophoricity occurs in reportive contexts since the complementizer <i>be</i> is a &lsquo;grammaticalized&rsquo; form of the verb <i>b&egrave;</i> &lsquo;say&rsquo;. In fact, as <link rid="b23">Sells (1987</link>) notes, there is a common tendency for the verb &lsquo;say&rsquo; to develop into a complementizer.</span>
+</p>
+<p>
+<span id="fn10">
+<number>10 </number>Also, the logophoric forms <i>y&egrave;</i> (singular) and <i>y&egrave;wo</i> (plural) each allow both third and second person antecedents. In many languages with indirect reflexives this is impossible.</span>
+</p>
+<p>
+<span id="fn11">
+<number>11 </number>There are reasons to believe that the role of subjunctive in Icelandic is less idiosyncratic than Clements implies. In general it is necessary to distinguish between conditions facilitating a logophoric interpretation, and the conditions determining the interpretation that is actually obtained. For instance, <link rid="b37">Cole et al. (2001b</link>) discuss the variation between two Chinese &lsquo;dialects&rsquo; in Hong Kong, showing that the syntactic conditions under which logophoric interpretation obtains are identical, but that the discourse conditions vary. Too little is known at this point to provide a principled discussion of the licensing conditions on logophoric pronouns in general. Hence, this issue will be left open.</span>
+</p>
+<p>
+<span id="fn12">
+<number>12 </number>See <related relationship="sibling" type="samework"><externallink id="chapter 9 - Binding Theory.xml" type="file">chapter 9</externallink></related> for discussion.</span>
+</p>
+<p>
+<span id="fn13">
+<number>13 </number>See also <link rid="b6">Dalrymple (1993</link>) and especially <link rid="b45">Huang (2000</link>) for approaches from different perspectives.</span>
+</p>
+<p>
+<span id="fn14">
+<number>14 </number>Discussion will be limited to personal pronouns. An anonymous reviewer raises the question of whether there are also logophoric place or time pronouns. I have not been able to answer this question, so I will have to leave the issue open.</span>
+</p>
+<p>
+<span id="fn15">
+<number>15 </number>This statement would be completely trivial, were it not for the fact that where there is a significant delay between production and reception of a text occasionally significance should be attached to time and place of reception, rather than to time and place of production.</span>
+</p>
+<p>
+<span id="fn16">
+<number>16 </number>In this I depart from En&ccedil;&apos;s usage, who uses the term <i>evaluation time</i> throughout (distinguishing between shifted and unshifted evaluation times). See for discussion of temporal structure the extensive literature on this subject starting with <link rid="b46">Reichenbach (1947</link>).</span>
+</p>
+<p>
+<span id="fn17">
+<number>17 </number>This implies that we distinguish between the model and the space-time in which it is embedded. Clearly, formally one might collapse the distinction, as is usually done. However, some reflection on their behavior with respect to quantification shows that expressions of space-time are different from expressions for individuals. For instance, <i>Cindy loved every book</i> clearly has a different status from <i>Cindy loved every kilometer</i>. The former is acceptable in an out-of-the-blue context. The latter is not. It becomes acceptable, though, in a context such as <i>Cindy ran the Amsterdam Marathon. She loved every kilometer</i> (or .&nbsp;.&nbsp;.&nbsp;<i>every minute</i>). Expressions denoting dimensions in space or time must be anchored with respect to the objects they are dimensions of. (See De <link rid="b47">Jong 1987</link> for discussion.) Of course, there is a difference between coordinates and dimensions. But this is precisely the heart of the matter. Dimensions can be anchored to objects by virtue of the latter&apos;s space-time coordinates, but they cannot be anchored to space-time coordinates directly. To express the same fact in a different manner, objects are available for accommodation, as in <i>Cindy loved the book</i>, but dimensions are not, as in *<i>Cindy loved the kilometer</i> (I think this one indeed merits an asterisk). Thus, however one turns it around, there is an asymmetry between the individuals and the coordinates in a model.</span>
+</p>
+<p>
+<span id="fn18">
+<number>18 </number>Which can be thought of as a vector in space-time. For present purposes an informal notion will do.</span>
+</p>
+<p>
+<span id="fn19">
+<number>19 </number>An interesting example is the issue of the existence of &lsquo;monsters&rsquo;. <link rid="b20">Kaplan (1989</link>) discusses the possibility that there are indexicals violating the fixity thesis:</span>
+</p>
+<p><b>Fixity Thesis (a corollary of Direct Reference):</b>
+</p>
+<p>The semantic value of an indexical is fixed solely by the context of the actual speech act, and cannot be affected by any logical operators.</p>
+<p>Indexicals violating this thesis he calls &lsquo;monsters&rsquo; and claims they should not and cannot exist in natural language. As shown in <link rid="b27">Schlenker (2003a</link>) logophoric pronouns and Amharic first person pronouns are in fact such monsters. And he argues that their existence follows from a proper theory of how context is to be accommodated in the interpretation of indexicals.</p>
+<p>
+<span id="fn20">
+<number>20 </number>A similar effect obtains by the possibilities of construal for <i>beloved</i> in (i) (which Sells attributes to Kuno):</span>
+</p>
+<p>
+<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">(i)</entry>
+<entry>a.</entry>
+<entry>Takasi<sub>i</sub> told Taroo that his beloved Yosiko hated him<sub>i</sub> &equals; <i>zibun</i>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Taroo heard from Takasi<sub>i</sub> that his beloved Yosiko hated him<sub>i</sub> &equals; <i>zibun</i>
+</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Takasi<sub>i</sub> got wet because his beloved Yosiko spilled water on him<sub>i</sub> &equals; <i>zibun</i>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In all cases <i>beloved Yosiko</i> is interpreted relative to the PIVOT <i>Takasi</i>.</p>
+<p>
+<span id="fn21">
+<number>21 </number>To my knowledge virtually all of the literature on anaphora, from <link rid="b1">Chomsky (1981</link>) to the present (including <link rid="b35">Reinhart and Reuland 1993</link>), takes this position.</span>
+</p>
+<p>
+<span id="fn22">
+<number>22 </number>See <link rid="b7">Hellan (1988</link>).</span>
+</p>
+<p>
+<span id="fn23">
+<number>23 </number>See also <link rid="b48">Kayne (1995</link>) and <link rid="b33">Reuland (2001</link>) for discussion.</span>
+</p>
+<p>
+<span id="fn24">
+<number>24 </number>One word of caution about terminology. From the perspective developed, the term <i>third person</i> has become ambiguous. An element can be third person in the sense that it is marked for person, but as third, rather than first or second person, or in the sense that it is a non-person, an element outside the person system proper (see, for instance, <link rid="b49">Anagnostopoulou 2003</link> for discussion of this contrast). From the present perspective, then, only a numberless pronoun, such as <i>sig</i>, is properly third person. This ties in with the fact that argumental SE-anaphors (non-local <i>zich</i> in Dutch, non-local <i>sig</i> in Icelandic, also when it is not logophoric) require a <i>sentient</i> antecedent. What is generally considered to be a canonical pronominal (<i>he</i>, <i>she</i>, <i>they</i>, etc.) is in fact a non-person and only has grammatical third person properties by default, just like R-expressions such as <i>the Amsterdam Marathon</i>, <i>Cindy&apos;s running shoes</i>, etc. This obviously has implications for the grammatical checking of person features. However, discussion of these implications would lead us too far afield.</span>
+</p>
+<p>
+<span id="fn25">
+<number>25 </number>An important reason to strive for a proper semantic characterization of what K&amp;S refer to as a &ldquo;logical variable&rdquo; is that bound variable interpretation in its canonical sense needs to be distinguished from a pure <i>de se</i> interpretation. As argued in <link rid="b22">Higginbotham (2003</link>), a <i>de se</i> interpreted expression will be able to mimic variable binding behavior, but the opposite does not obtain. (I would like to thank an anonymous reviewer for prompting me to clarify these issues.)</span>
+</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss12" level="1" type="references">
+<heading id="h11" level="1">REFERENCES</heading>
+<reference id="b49" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Anagnostopoulou</surname><x>, </x><forenames>Elena</forenames>
+</name>
+</namegroup><x> (</x><date date="2003">2003</date><x>). </x><title type="book">The Syntax of Ditransitives: Evidence from Clitics</title>
+<x>. </x><address>Berlin/New York</address><x>: </x><publisher>Mouton de Gruyter</publisher><x>.</x>
+</reference>
+<reference id="b38" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ariel</surname><x>, </x><forenames>Mira</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="book">Accessing Noun-Phrase Antecedents</title>
+<x>. </x><address>London</address><x>: </x><publisher>Croom Helm</publisher><x>.</x>
+</reference>
+<reference id="b40" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Benveniste</surname><x>, </x><forenames>&Eacute;mile</forenames>
+</name>
+</namegroup><x> (</x><date date="1966">1966b</date><x>). </x><title type="book">Probl&egrave;mes de Linguistique G&eacute;n&eacute;rale</title>
+<x>. </x><address>Paris</address><x>: </x><publisher>Gallimard</publisher><x>.</x>
+</reference>
+<reference id="b32" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Bouchard</surname><x>, </x><forenames>Denis</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="book">On the Content of Empty Categories</title>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b43" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cantrall</surname><x>, </x><forenames>William</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date><x>). </x><title type="book">View Point, Reflexives and the Nature of Noun Phrases</title>
+<x>. </x><address>The Hague</address><x>: </x><publisher>Mouton</publisher><x>.</x>
+</reference>
+<reference id="b19" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chierchia</surname><x>, </x><forenames>Gennaro</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">Anaphora and Attitudes De Se</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Semantics and Contextual Expression</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Renate</forenames><x> </x><surname>Bartsch</surname>
+</name><x>, </x><name type="editor">
+<forenames>Johan</forenames><x> </x><surnameprefix>van</surnameprefix><x> </x><surname>Benthem</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Peter</forenames><x> </x><surnameprefix>van</surnameprefix><x> </x><surname>Emde Boas</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="book">Lectures on Government and Binding</title>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b31" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986b</date><x>). </x><title type="book">Knowledge of Language: Its Nature, Origin and Use</title>
+<x>. </x><address>New York</address><x>: </x><publisher>Praeger</publisher>
+</reference>
+<reference id="b2" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Clements</surname><x>, </x><forenames>George</forenames>
+</name>
+</namegroup><x> (</x><date date="1975">1975</date><x>). </x><title type="document">The Logophoric Pronoun in Ewe: Its Role in Discourse</title><x>. </x><title type="journal">Journal of West African Languages</title><x> </x><volume>10</volume><x>: </x><page type="first">141</page><x>&ndash;</x><page type="last">177</page><x>.</x>
+</reference>
+<reference id="b37" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cole</surname><x>, </x><forenames>Peter</forenames>
+</name><x>, </x><name type="author">
+<forenames>Gabriella</forenames><x> </x><surname>Hermon</surname>
+</name><x>, and </x><name type="author">
+<forenames>Cher<x> </x>Leng</forenames><x> </x><surname>Lee</surname>
+</name>
+</namegroup><x> (</x><date date="2001">2001b</date><x>). </x><title type="document">Grammatical and Discourse Conditions on Long Distance Reflexives in Two Chinese Dialects</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Long-Distance Reflexives</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Cole</surname>
+</name><x>, </x><name type="editor">
+<forenames>Gabriella</forenames><x> </x><surname>Hermon</surname>
+</name><x>, and </x><name type="editor">
+<forenames>C.-T<x>. </x>James</forenames><x> </x><surname>Huang</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>New York</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b15" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Culy</surname><x>, </x><forenames>Christopher</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">Aspects of Logophoric Marking</title><x>. </x><title type="journal">Linguistics</title><x> </x><volume>32</volume><x>: </x><page type="first">1055</page><x>&ndash;</x><page type="last">1094</page><x>.</x>
+</reference>
+<reference id="b16" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Culy</surname><x>, </x><forenames>Christopher</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Logophoric Pronouns and Point of View</title><x>. </x><title type="journal">Linguistics</title><x> </x><volume>35</volume><x>: </x><page type="first">845</page><x>&ndash;</x><page type="last">859</page><x>.</x>
+</reference>
+<reference id="b17" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Curnow</surname><x>, </x><forenames>Timothy</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="document">Verbal Logophoricity in African Languages</title><x>. </x><title type="journal">Proceedings of the 2002 Conference of the Australian Linguistic Society</title><x> </x><volume>1</volume>
+<page type="first">
+</page><x>.</x>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Dalrymple</surname><x>, </x><forenames>Mary</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="book">The Syntax of Anaphoric Binding<x>.</x>
+</title><x> </x><address>Stanford</address><x>: </x><publisher>CSLI Publications</publisher><x>.</x>
+</reference>
+<reference id="b30" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>En&ccedil;</surname><x>, </x><forenames>M&uuml;rvet</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Anchoring Conditions for Tense</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>18</volume><x>: </x><page type="first">633</page><x>&ndash;</x><page type="last">657</page><x>.</x>
+</reference>
+<reference id="b10" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Everaert</surname><x>, </x><forenames>Martin</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986b</date><x>). </x><title type="book">The Syntax of Reflexivization</title>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher>
+</reference>
+<reference id="b29" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Fillmore</surname><x>, </x><forenames>Charles</forenames>
+</name>
+</namegroup><x> (</x><date date="1971">1971a</date><x>). </x><title type="book">Santa Cruz Lectures on Deixis</title>
+<x>. </x><address>Bloomington</address><x>: </x><publisher>Indiana University Linguistics Club</publisher><x>.</x>
+</reference>
+<reference id="b12" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Frajzyngier</surname><x>, </x><forenames>Zygmunt</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">Logophoric Systems in Chadic</title><x>. </x><title type="journal">Journal of African Languages and Linguistics</title><x> </x><volume>7</volume><x>: </x><page type="first">23</page><x>&ndash;</x><page type="last">37</page><x>.</x>
+</reference>
+<reference id="b39" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Giv&oacute;n</surname><x>, </x><forenames>Talmy</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">Topic Continuity in Discourse: An Introduction</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x> </x>
+<title type="book">Topic Continuity in Discourse</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Talmy</forenames><x> </x><surname>Giv&oacute;n</surname>
+</name>
+<miscellaneoustext> (ed.)</miscellaneoustext><x>.</x>
+</namegroup><x> </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b4" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hag&egrave;ge</surname><x>, </x><forenames>Claude</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date><x>). </x><title type="document">Les Pronoms Logophoriques</title><x>. </x><title type="journal">Bulletin de la Soci&eacute;t&eacute; de Linguistique de Paris</title><x> </x><volume>69</volume><x>: </x><page type="first">287</page><x>&ndash;</x><page type="last">310</page><x>.</x>
+</reference>
+<reference id="b7" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hellan</surname><x>, </x><forenames>Lars</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="book">Anaphora in Norwegian and the Theory of Grammar</title>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b22" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Higginbotham</surname><x>, </x><forenames>James</forenames>
+</name>
+</namegroup><x> (</x><date date="2003">2003</date><x>). </x><title type="document">Remembering, Imagining and the First Person</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x> </x>
+<title type="book">Epistemology of Language</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Alex</forenames><x> </x><surname>Barber</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">496</page><x>&ndash;</x><page type="last">533</page>
+<x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Huang</surname><x>, </x><forenames>C.-T<x>. </x>James</forenames>
+</name><x> and </x><name type="author">
+<forenames>C.-S<x>.</x>
+</forenames><x> </x><surname>Luther Liu</surname>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">Logophoricity, Attitudes, and <i>Ziji</i> at the Interface</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x> </x>
+<title type="book">Long-Distance Reflexives</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Cole</surname>
+</name><x>, </x><name type="editor">
+<forenames>Gabriella</forenames><x> </x><surname>Hermon</surname>
+</name><x>, and </x><name type="editor">
+<forenames>C.-T<x>. </x>James</forenames><x> </x><surname>Huang</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">141</page><x>&ndash;</x><page type="last">196</page>
+<x>. </x><address>New York</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b45" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Huang</surname><x>, </x><forenames>Yan<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="book">Anaphora: A cross-linguistic study</title>
+<x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference id="b11" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hyman</surname><x> </x><forenames>Larry</forenames>
+</name><x> and </x><name type="author">
+<forenames>Bernard</forenames><x> </x><surname>Comrie</surname>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="document">Logophoric Reference in Gokana</title><x>. </x><title type="journal">Journal of African Languages and Linguistics</title><x> </x><volume>3</volume><x>: </x><page type="first">19</page><x>&ndash;</x><page type="last">37</page><x>.</x>
+</reference>
+<reference id="b47" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Jong</surname><x>, </x><forenames>Francisca<x> </x>de</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">The Compositional Nature of (In)definiteness</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Representation of (In)definiteness</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name><x> and </x><name type="editor">
+<forenames>Alice<x> </x>ter</forenames><x> </x><surname>Meulen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">270</page><x>&ndash;</x><page type="last">285</page>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b24" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kamp</surname><x>, </x><forenames>Hans</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981b</date><x>). </x><title type="document">A Theory of Truth and Semantic Representation</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x> </x>
+<title type="book">Truth, Interpretation and Information</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jeroen</forenames><x> </x><surname>Groenendijk</surname>
+</name><x>, </x><name type="editor">
+<forenames>Theo</forenames><x> </x><surname>Janssen</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Martin</forenames><x> </x><surname>Stokhof</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">1</page><x>&ndash;</x><page type="last">41</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b20" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kaplan</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">Demonstratives: An Essay on the Semantics, Logic, Metaphysics, and Epistemology of Demonstratives and Other Indexicals</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Themes from Kaplan</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Josef</forenames><x> </x><surname>Almog</surname>
+</name><x>, </x><name type="editor">
+<forenames>John</forenames><x> </x><surname>Perry</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Howard</forenames><x> </x><surname>Wettstein</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">481</page><x>&ndash;</x><page type="last">564</page>
+<x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference id="b48" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Agreement and Verb Morphology in Three Varieties of English</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Studies in Comparative Germanic Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Hubert</forenames><x> </x><surname>Haider</surname>
+</name><x>, </x><name type="editor">
+<forenames>Susan</forenames><x> </x><surname>Olsen</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Sten</forenames><x> </x><surname>Vikner</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">159</page><x>&ndash;</x><page type="last">165</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b41" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Koopman</surname><x>, </x><forenames>Hilda</forenames>
+</name><x> and </x><name type="author">
+<forenames>Dominique</forenames><x> </x><surname>Sportiche</surname>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">Pronouns, Logical Variables and Logophoricity in Abe</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>20</volume><x>: </x><page type="first">555</page><x>&ndash;</x><page type="last">589</page><x>.</x>
+</reference>
+<reference id="b44" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kuno</surname><x>, </x><forenames>Susumu</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987a</date><x>). </x><title type="book">Functional Syntax: Anaphora, Discourse and Empathy</title>
+<x>. </x><address>Chicago</address><x>: </x><publisher>University of Chicago Press</publisher><x>.</x>
+</reference>
+<reference id="b18" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Lewis</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date><x>). </x><title type="document">Attitudes De Dicto and De Re</title><x>. </x><title type="journal">Philosophical Review</title><x> </x><volume>88</volume><x>: </x><page type="first">513</page><x>&ndash;</x><page type="last">543</page><x>.</x>
+</reference>
+<reference id="b5" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Manzini</surname><x>, </x><forenames>Maria<x> </x>Rita</forenames>
+</name><x> and </x><name type="author">
+<forenames>Kenneth</forenames><x> </x><surname>Wexler</surname>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Binding Theory, Parameters, and Learnability</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>18</volume><x>: </x><page type="first">413</page><x>&ndash;</x><page type="last">444</page><x>.</x>
+</reference>
+<reference id="b36" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Pollard</surname><x>, </x><forenames>Carl</forenames>
+</name><x> and </x><name type="author">
+<forenames>Ivan</forenames><x> </x><surname>Sag</surname>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Anaphors in English and the Scope of the Binding Theory</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>23</volume><x>: </x><page type="first">261</page><x>&ndash;</x><page type="last">305</page><x>.</x>
+</reference>
+<reference id="b46" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Reichenbach</surname><x>, </x><forenames>Hans</forenames>
+</name>
+</namegroup><x> (</x><date date="1947">1947</date><x>). </x><title type="book">Elements of Symbolic Logic</title>
+<x>. </x><address>New York</address><x>: </x><publisher>Macmillan</publisher><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983b</date><x>). </x><title type="document">Point of View in Language: The Use of Parentheticals</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Essays on Deixis</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Gisa</forenames><x> </x><surname>Rauh</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>. </x><address>T&uuml;bingen</address><x>: </x><publisher>Narr</publisher><x>.</x>
+</reference>
+<reference id="b21" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991b</date>
+<miscellaneoustext>). Self-Representation. Unpublished manuscript, Universities of Utrecht and Tel Aviv</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b34" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name><x> and </x><name type="author">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Anaphors and Logophors: An Argument Structure Perspective</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x> </x>
+<title type="book">Long-Distance Anaphora</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jan</forenames><x> </x><surname>Koster</surname>
+</name><x> and </x><name type="editor">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">283</page><x>&ndash;</x><page type="last">321</page>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference id="b35" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name><x> and </x><name type="author">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Reflexivity</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>24</volume><x>: </x><page type="first">595</page><x>&ndash;</x><page type="last">652</page><x>.</x>
+</reference>
+<reference id="b33" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Reuland</surname><x>, </x><forenames>Eric</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">Primitives of Binding</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>32</volume><x>: </x><page type="first">439</page><x>&ndash;</x><page type="last">492</page><x>.</x>
+</reference>
+<reference id="b9" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Reuland</surname><x>, </x><forenames>Eric</forenames>
+</name><x> and </x><name type="author">
+<forenames>Sigr&iacute;dur</forenames><x> </x><surname>Sigurj&oacute;nsd&oacute;ttir</surname>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Long Distance &lsquo;Binding&rsquo; in Icelandic: Syntax or Discourse?</title>
+<miscellaneoustext> In</miscellaneoustext><x>: </x>
+<title type="book">Atomism and Binding</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Hans</forenames><x> </x><surname>Bennis</surname>
+</name><x>, </x><name type="editor">
+<forenames>Pierre</forenames><x> </x><surname>Pica</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Johan</forenames><x> </x><surname>Rooryck</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">323</page><x>&ndash;</x><page type="last">340</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b14" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Roncador</surname><x>, </x><forenames>Manfred<x> </x>von</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Types of Logophoric Marking in African Languages</title><x>. </x><title type="journal">Journal of African Languages and Linguistics</title><x> </x><volume>13</volume><x>: </x><page type="first">163</page><x>&ndash;</x><page type="last">182</page><x>.</x>
+</reference>
+<reference id="b42" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ross</surname><x>, </x><forenames>John<x> </x>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1970">1970b</date><x>). </x><title type="document">On Declarative Sentences</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x> </x>
+<title type="book">Readings in English Transformational Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Roderick</forenames><x> </x><surname>Jacobs</surname>
+</name><x> and </x><name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Rosenbaum</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>Waltham, MA</address><x>: </x><publisher>Ginn</publisher><x>.</x>
+</reference>
+<reference id="b26" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Safir</surname><x>, </x><forenames>Kenneth</forenames>
+</name>
+</namegroup><x> (</x><date date="2003">2003</date>
+<miscellaneoustext>). On Person as a Model for Logophoricity</miscellaneoustext><x>. </x>
+<publisher>Paper presented at the Fourth World Congress of African Linguistics</publisher><x>. </x><address>New Brunswick</address>
+<x>, </x><miscellaneoustext>June 17&ndash;22</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b27" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Schlenker</surname><x>, </x><forenames>Philippe</forenames>
+</name>
+</namegroup><x> (</x><date date="2003">2003a</date><x>). </x><title type="document">A Plea for Monsters</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>26</volume><x>: </x><page type="first">29</page><x>&ndash;</x><page type="last">120</page><x>.</x>
+</reference>
+<reference id="b23" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Sells</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Aspects of Logophoricity</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>18</volume><x>: </x><page type="first">445</page><x>&ndash;</x><page type="last">479</page><x>.</x>
+</reference>
+<reference id="b28" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Sigur&eth;sson</surname><x>, </x><forenames>Halld&oacute;r<x> </x>&Aacute;rmann</forenames>
+</name>
+</namegroup><x> (</x><date date="2004">2004</date><x>). </x><title type="document">The Syntax of Person, Tense, and Speech Features</title><x>. </x><title type="journal">Rivista di Linguistica: Italian Journal of Linguistics</title><x> </x><volume>16</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">36</page><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Speas</surname><x>, </x><forenames>Margaret</forenames>
+</name>
+</namegroup><x> (</x><date date="2004">2004</date><x>). </x><title type="document">Evidentiality, Logophoricity and the Syntactic Representation of Pragmatic Features</title><x>. </x><title type="journal">Lingua</title><x> </x><volume>114</volume><x>: </x><page type="first">255</page><x>&ndash;</x><page type="last">276</page><x>.</x>
+</reference>
+<reference id="b25" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Tancredi</surname><x>, </x><forenames>Chris</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Pronouns and Perspectives</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x> </x>
+<title type="book">Atomism and Binding</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Hans</forenames><x> </x><surname>Bennis</surname>
+</name><x>, </x><name type="editor">
+<forenames>Pierre</forenames><x> </x><surname>Pica</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Johan</forenames><x> </x><surname>Rooryck</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b8" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Thr&aacute;insson</surname><x>, </x><forenames>H&ouml;skuldur</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">A Semantic Reflexive in Icelandic</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x> </x>
+<title type="book">Modern Icelandic Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Joan</forenames><x> </x><surname>Maling</surname>
+</name><x> and </x><name type="editor">
+<forenames>Annie</forenames><x> </x><surname>Zaenen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">289</page><x>&ndash;</x><page type="last">307</page><x>. </x><address>New York</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b3" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Thr&aacute;insson</surname><x>, </x><forenames>H&ouml;skuldur</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Long Distance Reflexives and the Typology of NPs</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Long-Distance Anaphora</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jan</forenames><x> </x><surname>Koster</surname>
+</name><x> and </x><name type="editor">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">49</page><x>&ndash;</x><page type="last">75</page><x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference id="b13" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Wiesemann</surname><x>, </x><forenames>Ursula</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Grammaticalized Coreference</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x> </x>
+<title type="book">Pronominal Systems</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ursula</forenames><x> </x><surname>Wiesemann</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">437</page><x>&ndash;</x><page type="last">463</page><x>. </x><address>T&uuml;bingen</address><x>: </x><publisher>Narr</publisher><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

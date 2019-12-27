@@ -1,0 +1,1183 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="36"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 36 - Inverse Linking.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">639</page>
+<page type="last">667</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="0"/>
+<count type="table" count="15"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="38"/>
+<count type="page" count="29"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051110"/>
+<trackingdate type="markedup" date="0000" by="christine tsai"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 36&ensp;May and Bale: Inverse Linking</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 36&ensp;May and Bale: Inverse Linking</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">36&ensp;Inverse Linking</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>ROBERT</forenames><x> </x><surname>MAY</surname>
+</name><x> AND </x><name type="author">
+<forenames>ALAN</forenames><x> </x><surname>BALE</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Linked and non-linked quantification</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>Initial accounts</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>Reacquainting ourselves with the eighties</p>
+</li>
+<li level="2">
+<number>4.1&ensp;</number>
+<p>
+<link rid="b1">Larson (1985c</link>)</p>
+</li>
+<li level="2">
+<number>4.2&ensp;</number>
+<p>Is Larson&apos;s Generalization really general?</p>
+</li>
+<li level="2">
+<number>4.3&ensp;</number>
+<p>Quantifier retrieval and storage</p>
+</li>
+<li level="2">
+<number>4.4&ensp;</number>
+<p>Switching tactics: the basic argument of <link rid="b2">May (1985</link>)</p>
+</li>
+<li level="2">
+<number>4.5&ensp;</number>
+<p>Simplifying May&apos;s theory and accounting for Larson&apos;s Generalization</p>
+</li>
+<li level="2">
+<number>4.6&ensp;</number>
+<p>Is there any need for Government?</p>
+</li>
+<li level="2">
+<number>4.7&ensp;</number>
+<p>Leaving the eighties</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1&ensp;Introduction</heading>
+<p>In this chapter, we will consider a phenomenon known as <i>inverse linking</i>, a term coined by <link rid="b3">May (1977</link>) to describe the most salient readings of sentences such as &lsquo;Someone from every city despises it&rsquo;.<link rid="fn1">
+<sup>1</sup></link> What is interesting about this sort of sentence is a particular &lsquo;quirk&rsquo; in its interpretation, in that the embedded quantifier phrase preferentially receives a wide-scope interpretation. In the example at hand, &lsquo;every city&rsquo; has scope over &lsquo;someone&rsquo;, so that it is naturally read as meaning that for each city, there is at least one person that despises that city. Inverse linking has prompted much discussion since the early 1970s in the linguistic literature. Our aim here is to explore the influence the inverse linking phenomenon has had on syntactic theory, especially with respect to the syntactic representation of quantifier scope. By examining such issues, we hope to demonstrate how the understanding of this phenomenon has highlighted the difficulties in investigating the link between language and meaning.</p>
+<p>In the discussion to follow, we will initially address research conducted during the 1970s and 1980s on the significance of inverse linking for the issue of the logical representation of natural language in general, and on notions of covert, syntactic movement in particular. As we will see, inverse linking was one of the strongest examples for motivating post Surface Structure (SS) movement of quantifier phrases, a form of covert movement called Quantifier Raising (QR). Ironically, although the effect of these examples is acknowledged in the post-eighties literature, post-eighties theories of QR are generally incompatible with inverse linking. In an effort to rid ourselves of this irony, we will focus on two of the principal works on inverse linking, viz., <link rid="b1">Larson (1985c</link>) and <link rid="b2">May (1985</link>). We hope to re-establish the judgments concerning this type of quantifier interaction while also discussing some of the specifics of Larson&apos;s and May&apos;s theoretical machinery.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2&ensp;Linked and non-linked quantification</heading>
+<p>In this section we will argue for a parallelism between Quantifier Phrases (QPs) that interact with each other within a complex NP and QPs that interact as arguments to the same verb or predicate relation. First we will discuss the kind of syntactic constructions relevant for inverse linking. We will then demonstrate how such constructions reveal scope ambiguities (or lack thereof) that mirror the ambiguities found with subject and object quantifiers. Finally we will also demonstrate how quantifiers within complex NPs undergo the same type of scope freezing effects as regular subject and object quantifiers.</p>
+<p>To begin, inverse linking involves complex NPs with the syntactic structure shown in (1a) below. The preposition can be locative in nature (in English this includes <i>at</i>, <i>from</i>, <i>in</i>, and <i>on</i> to name a few) or it can simply serve as a connector to a relational noun (in English, this preposition is normally <i>of</i>). The relevant NPs each have quantifyicational determiners such as <i>every</i>, <i>some</i>, <i>a</i>, <i>two</i>, <i>three</i>, <i>at least four</i>, <i>few</i>, <i>most</i>, etc. Some example phrases appear in (1b):</p>
+<p>(1)<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;<sub>NP</sub> Det &lsqb;<sub>NP</sub> &lsqb;<sub>N</sub> Noun&rsqb; &lsqb;<sub>PP</sub> &lsqb;<sub>P</sub> Preposition &lsqb;<sub>NP</sub> .&nbsp;.&nbsp;.&nbsp;&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Someone in every building, every man from a small town, at least three women on each committee, a parent of every child .&nbsp;.&nbsp;.&nbsp;etc.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>These complex NP constructions demonstrate at least two types of scope interactions: an inversely linked interpretation where the embedded quantifier takes scope over the main NP and a surface-scope reading with the opposite interaction. Some prepositions like <i>with</i> and <i>without</i> resist any inversely linked interpretations, only allowing the surface-scope reading. For example, (2a) is a statement about the resignation of most of the boys that are with every committee, rather than a statement about each committee having most of its boys resign. Similarly, (2b) states that there is at least one woman that is without every lipstick color. It cannot be read as making any claims that for every lipstick color, there is at least one woman without that color.</p>
+<p>(2)<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Most boys with every committee resigned from their duties.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>At least one woman without every lipstick color appeared on the news.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>However, other than <i>with</i> and <i>without</i>, normally most prepositions demonstrate the same kind of scope interactions that are found with verbs and other predicates. For example, the sentences in (3) can have either an inverse-scope interpretation or a surface-scope interpretation. Whether the quantifiers interact as arguments to the verb or as members of the same complex NP seems to make little difference. (See also <link rid="b4">Gillon (1996</link>) who makes similar observations about distributivity and collectivity effects in such constructions.)</p>
+<p>(3)<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Someone joined every committee.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Someone on every committee voted for the amendment.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>At least one woman is on five of the committees.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>At least one woman on five of the committees voted for the amendment.</entry>
+</row>
+<row><entry>e.</entry>
+<entry>Every boy in the school skipped two classes.</entry>
+</row>
+<row><entry>f.</entry>
+<entry>Every boy in two classes went to the washroom.</entry>
+</row>
+<row><entry>h.</entry>
+<entry>Two sisters met each committee member.</entry>
+</row>
+<row><entry>g.</entry>
+<entry>Two sisters of each committee member came to the meeting.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Also, just as inverse scope is blocked by sentential complements to verbs, so too is the inversely linked interpretation blocked in complex NPs with sentential complements. For example the sentences in (4a) and (4b) can only have a surface-scope interpretation where there is one boy that annoyed all of the parents:</p>
+<p>(4)<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>A boy knew that he annoyed every parent.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>A boy that annoyed every parent skipped school.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Similarly, just as negative quantifiers in the object position cannot scope over universal subjects, so too are negative quantifiers prohibited from scoping over universals that contain them:</p>
+<p>(5)<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Everyone joined no committees.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Everyone on no committees felt uninvolved.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The sentence in (5a) cannot be interpreted as saying that there are no committees that everyone joined. Similarly (5b) cannot be interpreted as saying that there are no committees such that everyone on such a committee felt uninvolved. Parallelism between the two types of constructions remains even to the point of having the same type of idiosyncratic scope restrictions.</p>
+<p>Such parallelism suggests that perhaps both types of scope interactions should receive similar explanations within linguistic theory. However, there are some instances where this parallelism breaks down. For example, negative quantifiers do not seem to allow for an inversely linked interpretation when they have a universal quantifier embedded within. This is a bit puzzling considering that such interactions are permitted when the negative quantifier is the subject and the universal quantifier is the object. (Thanks to an anonymous reviewer and Kyle Johnson for drawing our attention to such breakdowns in parallelism.)</p>
+<p>(6)<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Nobody on every committee voted for the amendment.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Nobody joined every committee.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The sentence in (6a) cannot have an interpretation where for every committee, nobody on that committee voted for the amendment. In contrast, (6b) can have an interpretation where for every committee, nobody joined that committee. Yet, even though the parallelism breaks down slightly here, similar constructions without the universal quantifier seem to allow for the inversely linked reading. For example, the sentence in (7) can have an interpretation where there are three cities such that nobody in those respective cities voted for the incumbent:</p>
+<p>(7)&ensp;Nobody in three cities voted for the incumbent.</p>
+<p>In summary, the examples of parallelism seem too systematic to ignore. In fact, not only do complex NPs demonstrate the same type of scope ambiguities, they also conform to constraints similar to those governing verb-argument quantification. For example, consider some of the scope-freezing effects mentioned in <link rid="b5">Fox (1999</link>), and accounted for by his principle of Scope Economy:<link rid="fn2">
+<sup>2</sup></link>
+</p>
+<p>(8)<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Two volunteers greeted every producer.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Two volunteers greeted every producer. Bill did too.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The sentence in (8a) is true, whether it was the same two volunteers that greeted each producer, or two different volunteers for each producer. However, (8b) can only be true in the situation where it was the same two volunteers. The same kind of scope-freezing effect also exists for NP-embedded prepositional objects. Consider the sentence in (9):</p>
+<p>(9)<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Two volunteers greeted the producer of every movie.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Two volunteers greeted the producer of every movie. Bill did too.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The sentence in (9a) is true whether it was the same two volunteers that greeted each producer, or two different volunteers for each producer. The sentence in (9b) is only true if it was the same two volunteers, just as in (8b).</p>
+<p>The similarities in scope restrictions do not end here. NP-embedded prepositional objects also demonstrate a scope-freezing effect involving pronominal binding, and a similar kind of effect can be exhibited with quantifiers in verbal argument positions. This is particularly relevant for inverse linking, since binding is usually hypothesized to require a specific syntactic configuration: that of c-command. To demonstrate the similarities, consider the sentences in (10):</p>
+<p>(10)<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Some politician disappointed every female voter.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Some politician disappointed every female voter before finishing his acceptance speech.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Some politician disappointed every female voter that voted for him.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The sentence in (10a) is true whether there is one politician that disappointed all the female voters, or whether for each female voter, a different politician disappointed her. However, as noted by <link rid="b6">Hornstein (1995</link>), in (10b) and (10c) where &lsquo;he&rsquo; and &lsquo;him&rsquo; are understood as being bound by &lsquo;some politician&rsquo;, only the former reading is possible; the one where there is one politician that disappointed all the female voters. The same kind of scope-freezing effects exist for inversely linked constructions, as we observe in (11):</p>
+<p>(11)<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>At most two senators on every committee voted for the bill.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>At most two senators on every committee voted to abolish it.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>At least one senator on every committee that he thought was worthy of his attention, voted for the bill.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(11a) is true in a situation where on each committee, many senators voted for the bill, but where only two senators that were on all the committees voted for the bill. Such a situation characterizes the surface-scope interpretation of the sentence in (11a). In contrast, (11b) is not true in a similar situation: a situation where on each committee, many senators voted to abolish that same committee, but where only two senators that were on all the committees voted to abolish each of those committees. In (11b), the binding of the pronoun &lsquo;it&rsquo; by &lsquo;every committee&rsquo; forces the sentence to only permit the inversely linked interpretation. Binding of the pronoun &lsquo;he&rsquo; by &lsquo;at least one senator&rsquo; in (11c) has the opposite consequence. Much like (10c), only the surface-scope interpretation is available. This is demonstrated by the fact that the sentence is false in a situation where the following two facts hold: (i) for every committee there is one senator on that committee who both voted for the bill and thinks that his committee is worthy of his attention, and (ii) every senator thinks that there are some committees that he is not on, that are worthy of his attention.</p>
+<p>In summary, the quantifier positions in inversely linked constructions demonstrate similar kinds of ambiguities and interpretive restrictions as quantifiers in regular argument positions. Such similarities suggest that any theory that provides a separate explanation of the quantificational ambiguities in complex NPs is missing a strong generalization about the parallelism between complex NPs and their sentential counterparts.</p>
+</subsection>
+<subsection id="ss4" level="1">
+<heading id="h3" level="1">3&ensp;Initial accounts</heading>
+<p>In this section, we explore the earlier syntactic theories and their accounts of inverse linking before discussing more modern syntactic theories with a focus on how they could possibly deal with deriving inversely linked interpretations.</p>
+<p>The beginning of the linguistic history of the inverse-linking phenomenon started with <link rid="b7">Hintikka (1974</link>), who used such interpretations as evidence for a theory of branching quantification. <link rid="b8">Gabbay and Moravcsik (1974</link>), in response to an unpublished draft of Hintikka&apos;s paper, also take note of such interpretations in their efforts to incorporate branching quantification into a Montague style semantics, as does <link rid="b9">Reinhart (1976</link>) in her discussion of binding. However, although these authors used these constructions within their linguistic analysis, no author discussed the full syntactic complexity of inverse linking until <link rid="b3">May (1977</link>). It was within this work, that May&apos;s main premises were introduced arguing for a syntactic level of Logical Form (LF) and a syntactic operation called QR, and it was amongst these issues that inverse linking had its greatest influence. So, here is where we will begin our discussion, exploring some of the details discussed in <link rid="b3">May (1977</link>) before examining some of the more recent literature.</p>
+<p>
+<link rid="b3">May (1977</link>) hypothesized that scope ambiguity could be derived by syntactic movement. He conjectured that there was another syntactic level beyond Surface Structure called Logical Form (LF) derived by syntactic movements obeying familiar constraints on such movements. It was at this level that QPs moved to adjoin to a phrase above all inflectional elements; in the parlance of the day, adjoining to S. C-command relations determined scope interpretations. In sentences with multiple quantifiers, all else being equal, the final arrangement of the QPs was indeterminate relative to surface order, either QP free to move above the other, scope ambiguity being dependent on this choice.</p>
+<p>One of the important insights recognized at the time by May was that syntactic constraints affected the possibilities of semantic interpretation vis-&agrave;-vis the possible scope order of multiple QPs. Although it is important to show the ability of syntactic theory to derive permissible interpretations, it is equally important (if not more so) to demonstrate that some inadmissible interpretations can be explained by syntactic conditions. For <link rid="b3">May (1977</link>), inversely linked constructions were a prime example for demonstrating such a syntax&ndash;semantics interaction.</p>
+<p>To see why, consider the sentences in (12):</p>
+<p>(12)<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*Which did the girl kiss boy?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Which boy did the girl kiss?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>These sentences demonstrate the well-known condition that overt movement affects a whole <i>wh</i>-phrase, not just part of that phrase. As <link rid="b3">May (1977</link>) saw the examples in (12), it is only the <i>wh</i>-element &lsquo;which&rsquo; that is targeted for movement, but a certain syntactic constraint, the &lsquo;Condition on Analyzability&rsquo;, (hereon COA), requires the whole NP &lsquo;which boy&rsquo; to move. May used this movement restriction to derive interesting results in inversely linked constructions. Consider the sentence in (13):</p>
+<p>(13)&ensp;Each of the members of a key congressional committee voted for the amendment.&ensp;&ensp;(<link rid="b3">May 1977</link>: 62, (2.1d))</p>
+<p>According to May&apos;s theory of QR, the quantificational elements &lsquo;each&rsquo; and &lsquo;a&rsquo; are targeted for movement. Thus, in compliance with the COA, the entire phrase &lsquo;a key congressional committee&rsquo; and &lsquo;Each of the members of . . .&rsquo; must move to adjoin to the S-phrase. This means that the following two LF forms can be derived for the sentence in (13), where &lsquo;<i>y</i>&rsquo; marks the original position of &lsquo;a key congressional committee&rsquo; and &lsquo;<i>x</i>&rsquo; marks the original position of &lsquo;Each of the members of a key congressional committee&rsquo;:</p>
+<p>(14)<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*&lsqb;<sub>S</sub> &lsqb;Each of the members of <i>y</i>&rsqb;<sub><i>x</i>
+</sub> &lsqb;<sub>S</sub> &lsqb;a key congressional committee&rsqb;<sub><i>y</i>
+</sub> &lsqb;<sub>S</sub> <i>x</i> voted for the amendment&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>S</sub> &lsqb;a key congressional committee&rsqb;<sub><i>y</i>
+</sub> &lsqb;<sub>S</sub> &lsqb;Each of the members of <i>y</i>&rsqb;<sub><i>x</i>
+</sub> &lsqb;<sub>S</sub> <i>x</i> voted for the amendment&rsqb;&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(14a) represents the interpretation where &lsquo;each&rsquo; scopes over &lsquo;a key congressional committee&rsquo; (i.e., where every member of any of the congressional committees voted for the amendment), whereas (14b) represents the inversely linked interpretation (i.e., where there is one congressional committee such that each of its members voted for the amendment). The interesting result for May was that (14a) is ill-formed since &lsquo;a key congressional committee&rsquo; does not properly bind the variable &lsquo;<i>y</i>&rsquo;. As a result (14a) is ruled out by a general syntactic condition barring the occurrence at LF of unbound traces of movement (see Proper Binding Condition in <link rid="b10">Fiengo 1977</link>).<link rid="fn3">
+<sup>3</sup></link> What is of importance to note here is the general form of the argument May employs: syntactic constraints can explain the restricted interpretation of inversely linked constructions, and thus provide evidence that covert QR exists as a mechanism for explaining quantifier ambiguity.</p>
+<p>By the mid 1980s, inverse linking was generally taken to be centrally important for establishing an operation of quantifier movement. As <link rid="b2">May (1985</link>: 72) put it, &ldquo;inverse linking serves as an existence argument for the level of LF itself,&rdquo; and the structures and operations employed to account for inversely linked sentences were also used to account for simpler structures without embedded quantification. The relevance of inverse linking in establishing the existence of a level of LF did not go unnoticed in the subsequent literature. <link rid="b11">Chomsky and Lasnik (1995</link>: 65), in their review of Government and Binding theory, state, &ldquo;The examples of &lsquo;inversely linked&rsquo; quantification discussed by May .&nbsp;.&nbsp;.&nbsp;clearly indicate that S-Structure configuration does not suffice.&rdquo; <link rid="b6">Hornstein (1995</link>: 25), in his review of LF through the period under discussion, also states that inverse linking provides strong evidence for LF. Although neither of these reviews gets into the full complexity of the issues surrounding inverse linking, they do acknowledge the importance of the phenomenon, especially in sentences that have inverse linking combined with pronominal binding, as in (15):</p>
+<p>(15)&ensp;Someone from every city despises it.&ensp;(<link rid="b2">May 1985</link>: (26))</p>
+<p>The sentence in (15) can be interpreted with the quantifier &lsquo;every city&rsquo; binding the pronoun &lsquo;it&rsquo; (i.e., for every city, someone from that city despises it, it being the city). On the standard assumption that this form of binding requires c-command, and on the assumption that the object position of the preposition does not c-command the Verb Phrase (VP), &lsquo;every city&rsquo; must move from its apparent surface position to a higher position c-commanding the pronoun.<link rid="fn4">
+<sup>4</sup></link>
+</p>
+<p>With such observations peppered throughout the recent literature on LF, one would think that the theories of QR and LF since 1985 would at least be able to account for the phenomenon. In many cases, however, this does not seem to be borne out.</p>
+<p>This lacuna is acknowledged by some authors. For example, <link rid="b12">Kayne (1998</link>: 183) in trying to reduce covert movement to overt movement, mentions inverse linking as a problem that will have to be reanalyzed within his framework. However, an account within Kayne&apos;s theory would require that the QP in the prepositional complement, such as &lsquo;every city&rsquo; in (15), somehow c-command a trace of the subject QP from its surface position. Although a solution via Kayne&apos;s analysis might be possible, it seems difficult to naturally create an overt structure for sentence (15) with the inversely linked interpretation, where &lsquo;every city&rsquo; c-commands the VP or at least the trace of the VP, while also c-commanding the QP &lsquo;someone from . . .&rsquo; or at least the trace of the QP. The structure would have to be something like (16):</p>
+<p>(16)&ensp;&lsqb;&lsqb;<sub>IP</sub> &lsqb;someone from t<sub>1</sub>&rsqb; t<sub>2</sub>&rsqb;<sub>3</sub> &lsqb;&lsqb;every city&rsqb;<sub>1</sub> &lsqb;&lsqb;<sub>VP</sub> despises it&rsqb;<sub>2</sub> t<sub>3</sub>&rsqb;&rsqb;&rsqb;</p>
+<p>Crucial to this structure is that the object of the preposition is overtly in a separate phrase from the actual preposition. Certainly a very suspicious consequence, especially considering that sentences such as &lsquo;Someone from incidentally every city despises it&rsquo; are unacceptable in English. Further research may be able to establish or avoid this problem, but either way, the road ahead for Kayne&apos;s hypothesis seems very rocky indeed.</p>
+<p>While Kayne makes it known that he is aware of the problem, others do not. For example, <link rid="b13">Aoun and Li (1993b</link>) never mention inverse linking. Yet, the phenomenon is very problematic for their theory. Consider their two principles that they employ to syntactically derive quantifier scope; the Minimal Binding Requirement and their Scope Principle:</p>
+<p><b>Scope Principle:</b>
+</p>
+<p>A quantifier A may have scope over a quantifier B iff A c-commands a member of the chain containing B. (<link rid="b13">Aoun and Li 1993b</link>: 21)</p>
+<p><b>Minimal Binding Requirement: (MBR)</b>
+</p>
+<p>Variables must be bound by the most local potential A-bar-binder.<link rid="fn5">
+<sup>5</sup></link>
+</p>
+<p>Now consider a much simpler version of the sentence in (15) without the pronoun.</p>
+<p>(17)&ensp;Someone from every city loves Esme.</p>
+<p>In a sentence like (17) with the inversely linked interpretation, <link rid="b13">Aoun and Li (1993b</link>) must hypothesize, in accordance with their Scope Principle, that &lsquo;every city&rsquo; c-commands at least one member of the chain containing &lsquo;someone from x&rsquo;. However, if &lsquo;every city&rsquo; has scope broader than the operator &lsquo;someone from x&rsquo;, then its variable would be within the scope of the quantifier &lsquo;some&rsquo;. It is unclear what consequences this would have for the MBR. According to the MBR the trace of &lsquo;every city&rsquo; must be bound by its closest A-bar binder. Whether appearing in the restrictor phrase of a quantifier would violate the MBR is an issue that warrants some attention. Such a discussion might have led Aoun and Li to a more detailed definition of quantifier scope and variable interactions. (See the generalized structure in (18), where the potentially offending variable is the complement of the preposition.)</p>
+<p>(18)&ensp;&lsqb; .&nbsp;.&nbsp;.&nbsp;&lsqb;every city&rsqb;<sub><i>x</i>
+</sub> .&nbsp;.&nbsp;.&nbsp;&lsqb;&lsqb;some &lsqb;one &lsqb;from <i>x</i>&rsqb;&rsqb;&rsqb; .&nbsp;.&nbsp;.&nbsp;<i>t</i><sub><i>y</i>
+</sub> loves Esme&rsqb;&rsqb;</p>
+<p>However, potential problems do not stop here. In the case of a non-inversely linked interpretation (where quantifiers maintain surface scope), it is doubtful whether there is a means of deriving the required interpretation. This is especially problematic considering sentences such as (19) where an inversely linked reading is impossible:</p>
+<p>(19)&ensp;Someone with every known skeleton key opened this door.</p>
+<p>The sentence in (19) can only be a statement about one person who happens to have every known skeleton key. Clearly, the QP &lsquo;someone with x&rsquo; has scope over &lsquo;every known skeleton key&rsquo;. According to Aoun and Li&apos;s Scope Principle, a QP may have scope over another QP only if it c-commands a member of the chain containing that QP. For a sentence like (19), this would require having &lsquo;someone with x&rsquo; scope over a variable for &lsquo;every known skeleton key&rsquo;. Yet, &lsquo;every known skeleton key&rsquo; must scope over &lsquo;someone with x&rsquo; in order to bind the variable &lsquo;x&rsquo;. Not only would this need multiple movements of &lsquo;every known .&nbsp;.&nbsp;.&nbsp;key&rsquo; in order to create a variable that &lsquo;someone with x&rsquo; could bind, but it would also require that &lsquo;someone with x&rsquo; be closer to the variable of &lsquo;every known .&nbsp;.&nbsp;.&nbsp;key&rsquo;, thus violating the MBR. (See the generalized structure in (20), where the offending variable is <i>t</i><sub><i>x</i>
+</sub>.)</p>
+<p>(20)&ensp;&lsqb; .&nbsp;.&nbsp;.&nbsp;&lsqb;every known .&nbsp;.&nbsp;.&nbsp;key&rsqb;<sub><i>x</i>
+</sub> .&nbsp;.&nbsp;.&nbsp;&lsqb;&lsqb;some &lsqb;one &lsqb;with <i>x</i>&rsqb; .&nbsp;.&nbsp;.&nbsp;&rsqb;&rsqb; .&nbsp;.&nbsp;.&nbsp;<i>t</i><sub><i>x</i>
+</sub> .&nbsp;.&nbsp;.&nbsp;<i>t</i><sub><i>y</i>
+</sub> loves Esme&rsqb;</p>
+<p>Another mechanism could be used to derive the surface scope interpretation (see <link rid="b1">Larson 1985c</link>; and <link rid="b14">Heim and Kratzer 1998</link>, who derive the surface scope through type shifting), but such a mechanism would miss the generalization that inversely linked and surface-scope interpretations within complex noun phrases seem to parallel the scope interactions between subjects and objects within sentences.</p>
+<p>Other syntactic theories suffer from comparable difficulties. For example, as first noted by <link rid="b5">Fox (1999</link>: 46, n. 35), theories that rely on explaining scope variation through case checking are particularly challenged by inverse linking. Such theories include <link rid="b6">Hornstein (1995</link>), and <link rid="b15">Kitahara (1996</link>). In each of these theories, case-checking movements are employed to account for the ambiguous quantifier interpretations, scope being determined by c-command relations (see <link rid="b16">Kennedy 1997a</link> for arguments against replacing QR with case checking). However, movement motivated by case checking is a procedure usually applied to verbal arguments. It is unclear how case checking would work for prepositional objects. To account for inverse linking and pronomial binding (required for the most salient interpretation of sentences like (15) above), these theories would need the prepositional object to move to a case-checking position c-commanding the NP complement and the VP object. Hypothesizing such a case-checking movement seems a little too problem-specific to be plausible.</p>
+<p>However, there is a second group of problems for case-checking accounts of inverse linking. Hornstein&apos;s own arguments concerning inverse linking claim that non-quantificational NPs are not able to c-command out of PPs that are embedded within NPs, while in contrast QPs seem to have this ability (see <link rid="b6">Hornstein 1995</link>: 25, and note 4 in this chapter). Yet, in a theory of movement for case-checking purposes, there should not be any difference between the movement of QPs and other non-quantificational NPs. Hence, it cannot be just the case-checking position that allows a QP to move and c-command out of an &lsqb;NP PP&rsqb; constituent. The obvious way out of this dilemma is to hypothesize a type of movement targeting quantifiers specifically. But this would just be reintroducing QR, when the whole purpose of case-checking theories of quantifier scope was to eliminate this rule.</p>
+<p>Before concluding this section, it is important to note that the problems for theories of quantifier scope and inverse linking are even more general than those mentioned above. Many theories of quantifiers in natural language have an underlying assumption that QPs need to adjoin at some kind of propositional level in order to be interpretable. This assumption seems to be supported by the fact that the embedded QP can bind a variable in the object position in sentences like (15) above, repeated below as (21).</p>
+<p>(21)&ensp; Someone from every city despises it.</p>
+<p>Since binding is thought to involve c-command, the fact that &lsquo;every city&rsquo; can bind the object seems to suggest that &lsquo;every city&rsquo; is in fact adjoined at a pro-positional level. (Note that all the propositional levels in such a sentence necessarily dominate the object position of the verb.) However these facts become problematic when considering non-inversely linked interpretations. If QPs need to take scope at a propositional level, then the embedded QPs such as &lsquo;every city&rsquo; should be able to c-command the object even in non-inversely linked interpretations. Yet this is not the case. Consider the sentence in (22) below:</p>
+<p>(22)&ensp;At most two senators on every committee voted to abolish it.</p>
+<p>The sentence in (22) can have a non-inversely linked interpretation where the voters are (at most) two senators that are on every committee. Yet (22) does not permit &lsquo;every committee&rsquo; to bind the pronoun in the object position of &lsquo;abolish&rsquo;. If the QP were able to bind the pronoun then the sentence should be true when the following two facts held: (i) on each committee, more than two senators voted to abolish that same committee, and (ii) there are at most two senators that are on every committee and that voted to abolish each of those committees. (22) however is not true in such a situation. Such judgments seem to suggest that the embedded QP does not adjoin to the propositional level when it is interpreted within the scope of the QP containing the preposition. To capture such facts, a means separate from QR might seem necessary (for example see <link rid="b1">Larson 1985c</link>; <link rid="b14">Heim and Kratzer 1998</link>). Yet in deriving the surface scope with a separate kind of procedure, one wonders whether the theory fails to capture the similarities between subject and object scope interactions and the interactions between quantifiers in complex NPs. Having two separate mechanisms predicts that the similarities are merely coincidental.</p>
+<p>In summary, it appears that inverse linking has not been as central to theories of LF and QR as it was in the seventies and eighties, despite the emphasis on this phenomenon in originally motivating a need for such theories. Even authors that were aware of the data and its importance have conspicuously left it out of their analyses.</p>
+</subsection>
+<subsection id="ss5" level="1">
+<heading id="h4" level="1">4&ensp;Re-acquainting ourselves with the eighties</heading>
+<p>Thus far, we have reviewed the early importance of inverse linking and noted its fading influence within the more recent literature. Yet, as just discussed, this fading influence is by no means justified. In an effort to understand somewhat more deeply what is at stake with inverse linking, we shall examine in some detail the discussions of <link rid="b1">Larson (1985c</link>) and <link rid="b2">May (1985</link>). However, before launching into a detailed review, a little background.</p>
+<p>As mentioned in <link rid="ss3">section 2</link>, prior to the theories being considered in this section sentences with inversely-linked, complex NPs were thought to be unambiguous (see <link rid="b3">May 1977</link>: 65 who states this opinion directly; yet also see <link rid="b8">Gabbay and Moravcsik 1974</link>: 143, who implicitly assume the same judgment). However, things changed in 1985.<link rid="fn6">
+<sup>6</sup></link> In <i>Logical Form</i>, <link rid="b2">May (1985</link>: 72) suggests that surface scope interpretations are indeed available,<link rid="fn7">
+<sup>7</sup></link> and this altered the status of the original arguments developed by <link rid="b3">May (1977</link>), which used the lack of a surface scope interpretation as support for claiming that quantifier interpretation involved syntactic restrictions. Furthermore, in the early eighties, notions of subjacency became more prevalent as a means of restricting syntactic movement. In the traditional account of inverse linking (<link rid="b3">May&apos;s 1977</link> account), the QP in the complement position of the preposition moved out of the subject NP to the adjoin at the sentential level. This movement was in direct violation of subjacency.</p>
+<p>It was in this environment that <link rid="b1">Larson (1985c</link>) and <link rid="b2">May (1985</link>) built their syntactic theories in an effort to capture the subtleties of inverse linking.</p>
+<subsection id="ss6" level="2">
+<heading id="h5" level="2">4.1&ensp;<link rid="b1">Larson (1985c</link>)</heading>
+<p>Before reviewing the details of Larson&apos;s analysis of inverse linking, it is appropriate to recognize his motivations. As we will see below, a great deal of his arguments tacitly assume that syntactic positions are mirrored by functional, logical combination (following <link rid="b17">Montague 1974</link> in this regard). With this underlying concern, Larson begins by exploring whether the object of a preposition moves at some syntactic level or not. For <link rid="b1">Larson (1985c</link>), this concern was not as straightforward as it was for <link rid="b3">May (1977</link>), who assumed that the quantifiers embedded within the prepositional phrase took sentential scope. However, Larson demonstrates that this is not necessarily always the case. Consider the sentence in (23):</p>
+<p>(23)&ensp;Max needs a lock of mane from every unicorn in an enchanted forest.</p>
+<p>(<link rid="b1">Larson 1985c</link>: (4a))</p>
+<p>According to Larson, the sentence in (23) has a reading where &lsquo;every unicorn&rsquo; scopes over &lsquo;a lock of mane&rsquo; but where &lsquo;every unicorn&rsquo; scopes under the intensional operator of the verb. In other words, (23) can have a <i>de dicto</i> reading, even when the object and the embedded quantifier are inversely linked. To establish this, Larson claims that (23) is true in the following context: &ldquo;Max requires locks of unicorn mane for the performance of some magic spell. The spell stipulates no particular forest nor any particular pieces of mane. It is only necessary that he have some bit of mane from every unicorn in whatever forest is selected&rdquo; (<link rid="b1">Larson 1985c</link>: 2).</p>
+<p>Larson argues from this example that &ldquo;if we are to retain Montague&apos;s analysis of intensional object NPs, then the fact that each of these NPs may be read de dicto clearly entails that such quantification must take place <i>before</i> the object NP is combined with the intensional verb&rdquo; (<link rid="b1">Larson 1985c</link>: 2). In other words, as long as intensional verbs are thought to have scope only over their objects, then sentences such as (23) must demonstrate an inversely linked reading localized within the object NP itself. Furthermore, Larson claims that this internal NP derivation can be accomplished via a small modification of Montague&apos;s Grammar (<link rid="b17">Montague 1974</link>). No syntactic operations need apply.<link rid="fn8">
+<sup>8</sup></link>
+</p>
+<p>This is an interesting conjecture that at first seems to undermine the syntactic enterprise of describing inverse linking. However, Larson quickly moves on to the problematic data for his <i>in-situ</i> theory of inverse linking. Consider the examples of pronomial binding as in (15) repeated here as (24):</p>
+<p>(24)&ensp; Someone from every city despises it.</p>
+<p>Assuming that &lsquo;every city&rsquo; is a generalized quantifier of type &lt;&lt;e,t&gt;, t&gt; (<link rid="b18">Barwise and Cooper 1981</link>), then &lsquo;every city&rsquo; must combine with a predicate such as &ldquo;<i>&lgr;x</i>&exist;<i>y</i> (PERSON(<i>y</i>) and FROM(<i>y</i>,<i>x</i>) and DESPISE(<i>y</i>,<i>x</i>)).&rdquo; Otherwise, &lsquo;every city&rsquo; would not be able to bind the object pronoun (represented as the variable &lsquo;x&rsquo; in the relation &lsquo;DESPISE&rsquo;). However, this predicate contains the logical representation of the transitive verb and its arguments. This suggests that &lsquo;every city&rsquo; must combine at the sentential level and not within the NP subject. A minor alteration to Montague&apos;s Grammar will not be able to derive the pronomial binding while maintaining that the QP remains within the NP. For Larson, the obvious solution is to move the quantifier out of the NP and let it combine sententially above the subject. Perhaps syntactic movement is required after all.</p>
+<p>But now there is something of a paradox taking shape. There are two reasons that Larson thinks that movement out of the subject NP in (24) should not be permitted. First, complex NPs are typically an &lsquo;island&rsquo; for movement, as demonstrated by the unacceptable (25):</p>
+<p>(25)&ensp;*Which city does &lsqb;someone from e&rsqb; despises it.&ensp;(<link rid="b2">May 1985</link>: (30a))</p>
+<p>However, whether &lsquo;islands&rsquo; apply to covert movement has always been a controversial subject in the syntactic literature,<link rid="fn9">
+<sup>9</sup></link> so this might be taken as only weak motivation for not allowing movement out of the NP. His second reason for restricting movement is somewhat stronger. According to Larson, allowing movement to the sentential level predicts some unattested interpretations. Consider the sentence in (26):</p>
+<p>(26)&ensp;Two politicians spy on someone from every city.&ensp;(<link rid="b1">Larson 1985c</link>: 5 (12))</p>
+<p>If the quantifier embedded in the PP is permitted to take sentential scope, then like a normal verb object it should be able to scope over the subject. Furthermore, since the embedded quantifier would be able to scope out of the NP, it should not need to carry that NP with it when it moves. In other words, movement out of the NP (without any further restrictions) seems to predict that (26) should have an interpretation where the embedded quantifier &lsquo;every city&rsquo; has scope over the subject &lsquo;two politicians&rsquo;, but where &lsquo;someone&rsquo; has scope under &lsquo;two politicians&rsquo;. This means that (26) should be true in the situation where the following two facts hold: (i) For every city, there are two politicians who each spy on someone from that city; (ii) no politician spies on more than one person nor on the same person as another politician. But as Larson observes, (26) is not true in this circumstance.</p>
+<p>This result is particularly damaging since (26) does seem to allow an interpretation where the embedded quantifier &lsquo;every city&rsquo; has scope over the subject, but where the object also has scope over the subject. For example, (26) is true in the situation where the following two facts hold: (i) for every city, there is someone from that city that two politicians are spying on, and (ii) it is not the same politicians doing the spying in each city.<link rid="fn10">
+<sup>10</sup></link>
+</p>
+<p>In observing the interpretations available for (26), Larson makes the following generalization. If the quantifier embedded in the object&apos;s PP has scope over the subject, then the object must also scope over the subject. This result would make perfect sense if the embedded quantifier were unable to move out of the NP, since to move this quantifier above the subject would require moving the whole NP.<link rid="fn11">
+<sup>11</sup></link>
+</p>
+<p>Larson&apos;s observations seem to lead to contrary conclusions. Evidence from pronomial binding suggests that the embedded quantifiers move outside of the NP in which they are embedded, while the absence of certain interpretations suggests that the embedded quantifiers are unable move out of the NP.</p>
+</subsection>
+<subsection id="ss7" level="2">
+<heading id="h6" level="2">4.2&ensp;Is Larson&apos;s Generalization really general?</heading>
+<p>Stepping back a little from Larson&apos;s approach, it seems appropriate at this point to examine the judgments concerning (26) a little more closely, for there are some apparent difficulties surrounding Larson&apos;s claims about this example. First of all, (26) involves a bare indefinite numeral quantifier and the indefinite quantifier &lsquo;someone&rsquo;. As has been demonstrated repeatedly in the linguistic literature (see <link rid="b19">Reinhart 1997</link> for both a demonstration, and a list of other works), such quantifiers do not have the same scopal behavior as other quantifiers. Second, <link rid="b2">May (1985</link>: 82&ndash;3) reports a counter-example to Larson&apos;s Generalization. Consider the sentence in (27):</p>
+<p>(27)&ensp;Some student will investigate two dialects of every language.</p>
+<p>According to <link rid="b2">May (1985</link>), there is an interpretation of (27), where &lsquo;every language&rsquo; is understood as taking scope over &lsquo;some student&rsquo;, which in turn takes scope over &lsquo;two dialects&rsquo;. Ignoring for the moment the indefinites in (27), how is it possible to tell that (27) has the interpretation that May claims? Normally, one would construct a situation that isolates the meaning. However, any situation where May&apos;s interpretation is true, is also a situation where, for every language, there are two dialects that were each investigated by a student.<link rid="fn12">
+<sup>12</sup></link> This makes it impossible to isolate the interpretation where the subject has scope over the object from the interpretation where the object scopes over the subject (this is assuming that &lsquo;every language&rsquo; has widest scope). So, to use <link rid="b19">Reinhart&apos;s (1997</link>: 341) turn of phrase when explaining just this point, &ldquo;there is no obvious way to know&rdquo; whether the sentence has the scope reading it is claimed to have or not.</p>
+<p>To avoid both the problem with the choice of quantifiers, and the problem with <link rid="b2">May&apos;s (1985</link>) counter-example, consider the sentence in (28):</p>
+<p>(28)&ensp;More than half of the students will investigate at least one dialect of every language.</p>
+<p>The sentence in (28) contains the quantifiers &lsquo;every&rsquo;, &lsquo;more than half&rsquo;, and &lsquo;at least one&rsquo;. Each of these quantifiers does not demonstrate the wide-scope behavior as exhibited by the bare numeral quantifiers and the indefinite &lsquo;someone&rsquo;. (For example, none of the quantifiers seems to be able to scope outside of the modal operators in a conditional sentence as do &lsquo;two&rsquo; and &lsquo;some&rsquo;.) In addition, it is easy to isolate the reading where the embedded QP has widest scope, and the subject scopes over the object. For example, consider the situation where two-thirds of the students were assigned to investigate a dialect from every language except one: the excluded language differing for each student. Also, for each language, more than half of the students investigated a dialect from it, but no student investigated the same dialect as another. It seems difficult to understand (28) as being true in such a situation, even though this interpretation should be available if Larson&apos;s Generalization did not hold. This is despite the fact that (28) is true in the situation where, for every language, there is at least one dialect that more than half of the students will investigate.</p>
+<p>So, perhaps Larson&apos;s Generalization does indeed hold.<link rid="fn13">
+<sup>13</sup></link>
+</p>
+</subsection>
+<subsection id="ss8" level="2">
+<heading id="h7" level="2">4.3&ensp;Quantifier retrieval and storage</heading>
+<p>So, how does Larson account for the observations under consideration? Building on a system first hypothesized by <link rid="b20">Cooper (1983</link>), Larson proposes a dual operation for moving quantifiers: Quantifier Storage followed by Quantifier Retrieval. This process, often called Cooper storage, was one of the leading theories of quantifier movement and <i>wh</i>-movement during the early eighties. Leaving the (important) algorithmic details for the reader to explore independently, we will review the general design of the system. The idea proposed by Cooper was that during the course of combining the logical representations of the sub-sentential phrases into the logical representation of the entire sentence (from the bottom of the tree up), two possible operations could apply to QPs. Either, a QP could be combined and processed like other phrases, thus allowing the quantifier to take surface scope, or the QP could be stored, replaced by a variable, and later combined at the sentential level. When it is combined at the sentential level, the variable is abstracted, thus forming a predicate which can then be logically combined with the QP, represented as a Generalized Quantifier.<link rid="fn14">
+<sup>14</sup></link>
+</p>
+<p>In this manner, a QP is able to move into a position where it can take wide scope (the object moving above the subject, for instance). Cooper also worked in the notion of islands into his storage and retrieval system. For him, islands can be incorporated by adding a constraint which renders a phrase that is an island (an NP for instance) uninterpretable if there is a QP of some kind already in storage. To quote <link rid="b1">Larson (1985c</link>: 8), the desired result of this kind of constraint is &ldquo;to require that all stored quantifiers in the interpretation of an island node be quantified out or &lsquo;discharged&rsquo; before that node is combined semantically with another constituent.&rdquo;<link rid="fn15">
+<sup>15</sup></link>
+</p>
+<p>
+<link rid="b1">Larson (1985c</link>) modifies this system, by changing Cooper&apos;s storage operation (Quantifier Storage) into a push-down mechanism. Thus, for Larson multiple QPs could be stored at the same time, the only constraint being that the quantifiers have to be retrieved in the reverse order that they were stored. The consequence of this is that if two quantifiers are stored, then the resulting interpretation will almost always have the inverse scope of the surface word order.</p>
+<p>With this minor change, Larson can now explain the apparent paradox noted above. In inversely linked constructions, the embedded QP cannot be stored and then later retrieved at the sentential level. This would violate Cooper&apos;s island constraint. However, Larson redefines Cooper&apos;s constraint, such that if the NP is a QP, then this QP can be stored on top of the embedded QP. The island constraint thus would not apply, since the island would be in storage.<link rid="fn16">
+<sup>16</sup></link>
+</p>
+<p>In this way, the embedded QP is allowed to have sentential scope through movement, but only if the NP in which the QP is embedded is itself stored and combined at the sentential level. Since the storage system employs a push-down mechanism, the resulting structure after retrieval necessitates that the embedded QP scope over the NP in which it was embedded. A welcome result, considering the scope-freezing effects already mentioned to exist in this section and in <link rid="ss2">section 1</link> above. For example, recall that in sentences like (22) above, repeated here as (29), pronominal binding forces the inversely linked interpretation:</p>
+<p>(29)&ensp;At most two senators on every committee voted to abolish it.</p>
+<p>In Larson&apos;s system, &lsquo;every committee&rsquo; has to combine at the sentential level in order to bind the pronoun &lsquo;it&rsquo;. In effect, the push-down mechanism guarantees that &lsquo;every committee&rsquo; scopes over &lsquo;at most two senators&rsquo; when there is a pronoun acting as a bound variable in the VP.</p>
+<p>Also, this kind of quantifier movement easily accounts for Larson&apos;s generalization, mentioned above. In sentences such as (28), repeated as (30), there are three quantifiers:</p>
+<p>(30)&ensp; More than half of the students will investigate at least one dialect of every language.</p>
+<p>To move &lsquo;every language&rsquo; above &lsquo;more than half of the students&rsquo;, &lsquo;at least one dialect&rsquo; would have to be stored as well, otherwise the movement would violate the island constraint. Thus, before &lsquo;every language&rsquo; could be retrieved, &lsquo;at least one dialect&rsquo; would first have to be discharged at the sentential level, where it would scope over the subject. Even if the subject itself were stored, the push-down mechanism guarantees that in the resulting interpretation, quantifier scope will be the exact inverse of the surface word order (&lsquo;every language&rsquo; having scope over &lsquo;at least one dialect&rsquo; which scopes over &lsquo;more than half of the students&rsquo;). In this way, Larson&apos;s system forces the object to scope over the subject whenever the QP embedded in the object scopes over the subject.</p>
+<p>This is a very strong result. Not only does Larson&apos;s system account for the available, inversely linked interpretations, it also rules out potentially invalid interpretations. Furthermore, Larson can maintain a unified account of island effects between covert and overt movement.</p>
+<p>However, although Larson&apos;s system works well for inversely linked constructions and even common declaratives, its Achilles heel seems to be double object constructions. As noted by <link rid="b21">Breuning (2001</link>), double object constructions seem to only allow surface scope. Consider the sentence in (31):</p>
+<p>(31)&ensp;My daughter Esme showed at least one newborn baby every wooden toy in the room.</p>
+<p>The sentence in (31) is true in the situation where there is one newborn to whom Esme showed each of the wooden toys, but it is false in the situation where Esme showed every wooden toy to a different newborn. The second situation is what characterizes the inverse-scope reading. In Larson&apos;s system, if the objects of ditransitive verbs are subject to Quantifier Storage and Retrieval, then it would be difficult to explain why the inverse-scope reading is unavailable. Especially problematic, is the fact that the sentence in (32) is acceptable:</p>
+<p>(32)&ensp;What did Esme show her mother?</p>
+<p>Since Larson employs his quantifier movement operations to account for <i>wh</i>-movement, the grammaticality of (32) suggests that these operations should apply to double object constructions.</p>
+</subsection>
+<subsection id="ss9" level="2">
+<heading id="h8" level="2">4.4&ensp;Switching tactics: the basic argument of <link rid="b2">May (1985</link>)</heading>
+<p>Like Larson, <link rid="b2">May (1985</link>) is chiefly concerned with where the embedded quantifier moves. However, unlike Larson, he has no intent to maintain an isomorphism between syntactic structures and some kind of logical representation. May&apos;s underlying theme is that syntax simply constrains or enhances the range of flexibility involved in semantic interpretation, not that it determines this interpretation. With this in mind, let&apos;s consider <link rid="b2">May&apos;s (1985</link>) theory of inverse linking.</p>
+<p>In contrast with his earlier work, <link rid="b2">May (1985</link>) is a little bothered by the idea of moving a quantifier out of an NP island. He asks rhetorically, &ldquo;Why can QR extract a phrase from NP in mapping onto LF, but <i>wh</i>-movement cannot in mapping onto S-Structure?&rdquo; (<link rid="b2">May 1985</link>: 69). In the end, May thinks that island constraints are in a certain sense inapplicable to Quantifier Raising (see the discussion below). Nonetheless, with this question serving as background motivation, <link rid="b2">May (1985</link>) proposes an alternative to his earlier theory of inverse linking. Instead of raising the embedded QP out of the NP to a sentential position in order to derive the inversely linked reading, May suggests that the QP adjoins to the NP in which it is embedded. Under this hypothesis the representation of &lsquo;Someone from every city despised it&rsquo; would be as in (33) (see <link rid="b2">May 1985</link>: 70&ndash;1):</p>
+<p>(33)&ensp;&lsqb;<sub>S</sub> &lsqb;<sub>NP1</sub> &lsqb;every city&rsqb;<sub><i>x</i>
+</sub> &lsqb;<sub>NP2</sub> someone from <i>x</i>&rsqb;&rsqb;<sub><i>y</i>
+</sub> &lsqb;<sub>S</sub><i> y</i> despised it<sub><i>x</i>
+</sub>&rsqb;&rsqb;</p>
+<p>In (33), the subject NP &lsquo;someone from every city&rsquo; still adjoins at the sentential level, however &lsquo;every city&rsquo; adjoins to the NP &lsquo;someone from <i>x</i>&rsquo;. Of course, now that May has this structure, the obvious question is how to derive the scope relations and quantifier binding effects. Crucial to both of these issues are <link rid="b2">May&apos;s (1985</link>) definitions of c-command, Government, and his Scope Principle. The definitions of c-command and Government are quite straight forward, and are presented below.</p>
+<p><b>C-command:</b>
+</p>
+<p>A c-commands B iff every maximal projection that dominates A dominates B, and A does not dominate B.</p>
+<p><b>Government:</b>
+</p>
+<p>A governs B iff A c-commands B and B c-commands A, and there are no maximal projection boundaries between A and B.</p>
+<p>The Scope Principle is a little more complex, but it can be summed up informally as follows. If two QPs are not in a Government relation with each other, then scope is dependent on constituency hierarchy. However, for any set of quantifiers that are all governed by one member of that set, any quantifier ordering is possible. For example, take a set of quantifiers A, B, and C, where A governs B and C, then the possible quantifier orderings would be ABC, ACB, CAB, CBA, BAC, and BCA. The scope relation would be dependent on the quantifier order that is chosen.<link rid="fn17">
+<sup>17</sup></link>
+</p>
+<p>In considering the application of the Scope Principle to inverse linking, May relies on his articulation of adjunction structures on which the segments of a maximal projection, such as the segments of the NP in the adjunction structure in (33), are not themselves maximal projections, but only parts thereof. Thus, any element adjoined to some phrase is not dominated by that phrase. What this means for adjunction structures of the form &lsqb;<sub>XP1</sub> A &lsqb;<sub>XP2</sub> .&nbsp;.&nbsp;.&nbsp;&rsqb;&rsqb;, is that A will always c-command XP, and XP will also c-command A. In addition, since the only nodes intervening between A and XP are the segments of XP, A governs XP.</p>
+<p>The consequence for the QP and the NP in (33), is that &lsquo;every city&rsquo; governs &lsquo;someone from <i>x</i>&rsquo;. In principle, this means that either scope relation should be available: the inversely linked interpretation or the surface scope interpretation. However, since the NP contains a variable that must be bound by the QP, only the inversely linked interpretation is permitted by May (see <link rid="b2">May 1985</link>: 75, where this aspect of the Scope Principle is fully spelled out).</p>
+<p>So, what about surface scope interpretations? As mentioned earlier, unlike <link rid="b3">May (1977</link>), <link rid="b2">May (1985</link>) recognizes that he has to account for surface scope interpretations. To get this interpretation, May raises the embedded QP to adjoin to the NP-internal PP rather than to the NP itself. For example, the sentence &lsquo;At most two senators on every committee voted for the bill&rsquo;, under the surface scope interpretation where &lsquo;at most two senators&rsquo; scopes over &lsquo;every committee&rsquo;, would have the representation in (34) (see <link rid="b2">May 1985</link>: 72):</p>
+<p>(34)&ensp; &lsqb;<sub>S</sub> &lsqb;<sub>NP</sub> At most two senators &lsqb;<sub>PP1</sub> &lsqb;every committee&rsqb;<sub><i>x</i>
+</sub> &lsqb;<sub>PP2</sub> on <i>x</i>&rsqb;&rsqb;&rsqb;<sub><i>y</i>
+</sub> &lsqb;<sub>S</sub><i> y</i> voted for the bill&rsqb;&rsqb;</p>
+<p>In (34), constituency hierarchy determines that &lsquo;At most two senators . . .&rsquo; has scope over &lsquo;every committee&rsquo;. In this way, <link rid="b2">May (1985</link>) is able to separately derive both kinds of scope relations for inversely linked constructions. But, as has been discussed throughout this paper, being able to derive scope ambiguity is not enough. What is important is to explain the lack of certain interpretations through syntactic means. In this area, May&apos;s theory offers some explanation, although maybe not quite as much as Larson&apos;s theory reviewed in the previous section.</p>
+<p>In terms of the benefits of May&apos;s theory, consider the lack of surface scope availability in sentences such as (11b) above, repeated as (35):</p>
+<p>(35)&ensp;At most two senators on every committee voted to abolish it.</p>
+<p>The sentence in (35) would have the following two possible derivations according to May.</p>
+<p>(36)<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;<sub>S</sub> &lsqb;<sub>NP1</sub> &lsqb;every committee&rsqb;<sub><i>x</i>
+</sub> &lsqb;<sub>NP2</sub> At least two senators from <i>x</i>&rsqb;&rsqb;<sub><i>y</i>
+</sub> &lsqb;<sub>S</sub><i> y</i> voted to abolish it<sub><i>x</i>
+</sub>&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>S</sub> &lsqb;<sub>NP</sub> At most two senators &lsqb;<sub>PP1</sub> &lsqb;every committee&rsqb;<sub><i>x</i>
+</sub> &lsqb;<sub>PP2</sub> on <i>x</i>&rsqb;&rsqb;&rsqb;<sub><i>y</i>
+</sub> &lsqb;<sub>S</sub><i> y</i> voted to abolish it<sub><i>x</i>
+</sub>&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As mentioned in <link rid="ss3 ss4">section 2, 3</link>, and 4.3, when &lsquo;every committee&rsquo; is interpreted as binding the pronoun &lsquo;it&rsquo;, the sentence in (35) can only have the inversely linked interpretation. This is exactly what May&apos;s structures would predict. Assuming that a QP must c-command a pronoun in order to bind it, only the structure in (36a), the inversely linked representation, would allow &lsquo;every committee&rsquo; to c-command &lsquo;it&rsquo;. In (36b) the maximal projection NP dominates &lsquo;every committee&rsquo; but not the pronoun.<link rid="fn18">
+<sup>18</sup></link>
+</p>
+<p>However, even though May can account for the pronoun binding effects, Larson&apos;s Generalization is still a problem. This is not surprising considering that <link rid="b2">May (1985</link>) claims to have a counter-example to this generalization. But as we saw in <link rid="ss7">section 4.2</link>, the counter-example is rather weak. Recall that Larson&apos;s Generalization maintains that a QP, embedded in the object, cannot scope over the subject unless the object also scopes over the subject. Since <link rid="b2">May (1985</link>) does not have island restrictions that apply to QR (more on this later), the embedded QP is free to move to a position where it scopes over the subject, while the object can move to adjoin to a phrase below the subject. Yet, even if island constraints were maintained, Larson&apos;s Generalization would still be out of reach for May&apos;s theory. Consider the sentence &lsquo;Two politicians spy on someone from every city&rsquo;. May&apos;s account would allow a representation such as in (37):</p>
+<p>(37)&ensp;&lsqb;<sub>S</sub> &lsqb;<sub>NP1</sub> &lsqb;<sub>NP1&prime;</sub> &lsqb;every city&rsqb;<sub><i>x</i>
+</sub> &lsqb;<sub>NP2&prime;</sub> someone from <i>x</i>&rsqb;&rsqb;<sub><i>y</i>
+</sub> &lsqb;<sub>NP2</sub> Two politicians&rsqb;<sub><i>z</i>
+</sub>&rsqb; &lsqb;<sub>S</sub><i> z</i> spied on <i>y</i>&rsqb;&rsqb;</p>
+<p>In (37), &lsquo;every city&rsquo; is adjoined to &lsquo;someone from <i>x</i>&rsquo;, and this whole object phrase is adjoined to the subject phrase &lsquo;two politicians&rsquo;. There are two interesting things about this structure, first &lsquo;every city&rsquo; does not move past the NP island, second &lsquo;every city&rsquo; governs both &lsquo;someone from <i>x</i>&rsquo; and &lsquo;two politicians&rsquo;. According to <link rid="b2">May&apos;s (1985</link>) Scope Principle, (37) should allow the interpretation where &lsquo;every city&rsquo; has scope over the subject &lsquo;two politicians&rsquo;, while the object &lsquo;someone from <i>x</i>&rsquo; has scope under the subject. Larson&apos;s Generalization is still violated.<link rid="fn19">
+<sup>19</sup></link>
+</p>
+</subsection>
+<subsection id="ss10" level="2">
+<heading id="h9" level="2">4.5&ensp;Simplifying May&apos;s theory and accounting for Larson&apos;s Generalization</heading>
+<p>Since Larson&apos;s Generalization is a problem for May&apos;s theory, it seems appropriate to discuss some minor changes to <link rid="b2">May&apos;s (1985</link>) proposal that would allow for an account. While the validity of this generalization is not beyond doubt, (cf. <link rid="ss7">section 4.2</link> and note 13), it will still be useful to see how small alterations to a theory can dramatically affect its descriptive adequacy.</p>
+<p>Early in his chapter on inverse linking, <link rid="b2">May (1985</link>) uses concern about island restrictions to motivate his adjunction structure. Later in the text (1985: 80), he explicitly denies the notion of islands having any effect on LF movement, proposing a new constraint as a replacement.<link rid="fn20">
+<sup>20</sup></link> This constraint involves forbidding double adjunction as represented by the template in (38):</p>
+<p>(38)&ensp;&lsqb;<sub>XP1</sub> .&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>XP2</sub> .&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>XP3</sub> .&nbsp;.&nbsp;.&nbsp;&rsqb;&rsqb;&rsqb;.</p>
+<p>As a result of this restriction, if an argument has already adjoined sententially, then the embedded QP cannot adjoin sententially. Thus, the constraint forces it to adjoin to the NP or PP in which it is embedded. <link rid="b2">May (1985</link>) suggests that this may be a general constraint on phrase structure, but in the context of the theory, he only needs it to apply to quantifiers (i.e., no two quantifiers can adjoin to the same phrase).<link rid="fn21">
+<sup>21</sup></link>
+</p>
+<p>As pointed out by <link rid="b22">Kayne (1994</link>: 19), the prohibition against double adjunction structures can be reduced to a constraint involving asymmetric c-command. For example, <link rid="b2">May (1985</link>) would not have needed to hypothesize a new constraint if his definition of the Scope Principle were something more akin to a definition similar to <link rid="b6">Hornstein&apos;s (1995</link>):</p>
+<p><b>Scope Principle:</b>
+</p>
+<p>A Quantifier Phrase QP1 scopes over a Quantifier Phrase QP2 iff QP1 asymmetrically c-commands QP2.</p>
+<p>With this definition, May&apos;s double-adjunction constraint follows naturally (i.e., it can be derived from the definition). Any two QPs adjoined to the same phrase would mutually c-command each other. This means that neither QP would scope over the other. An interpretation would be impossible. The problem is that this definition of the Scope Principle would also predict that May&apos;s NP adjunction structure could not account for inverse linking, at least not as long as May kept the same definition of c-command. However, notice that if the definition of c-command were altered slightly, then the NP adjunction structure would get the same scope interpretation as May&apos;s original theory would have predicted. Consider the definition below:</p>
+<p><b>C-command:</b>
+</p>
+<p>A c-commands B if and only if every maximal projection that dominates A dominates B, and A excludes B. (For a similar definition see <link rid="b22">Kayne 1994</link>.)</p>
+<p>A <i>excludes</i> B if and only if no segment of A dominates B (<link rid="b23">Chomsky 1986a</link>: 9).</p>
+<p>With this new definition of c-command and the new Scope Principle, let&apos;s revisit the NP adjunction structure in (36a), repeated as (39) below:</p>
+<p>(39)&ensp;&lsqb;<sub>S</sub> &lsqb;<sub>NP1</sub> &lsqb;every committee&rsqb;<sub><i>x</i>
+</sub> &lsqb;<sub>NP2</sub> At least two senators from <i>x</i>&rsqb;&rsqb;<sub><i>y</i>
+</sub> &lsqb;<sub>S</sub><i> y</i> voted to abolish it<sub><i>x</i>
+</sub>&rsqb;&rsqb;</p>
+<p>In (39), &lsquo;every committee&rsquo; still c-commands &lsquo;at least two senators&rsquo; and the pronoun in the VP as before. However, with the new c-command relation, &lsquo;at least two senators from x&rsquo; does not c-command &lsquo;every committee&rsquo;, since a segment of &lsquo;at least two senators from x&rsquo; dominates &lsquo;every committee&rsquo;. This means that &lsquo;every committee&rsquo; has scope over &lsquo;at least two senators from x&rsquo;, exactly the same result as in May&apos;s original theory.</p>
+<p>On the surface, these changes to May&apos;s theory seem to simplify the definition of the Scope Principle without changing the descriptive adequacy of the system (at least within the limited domain of the inverse linking data). However, there is more. If movement out of an NP island is forbidden at the level of LF, then this new variation of May&apos;s theory can account for Larson&apos;s Generalization. With island constraints limiting movement, the only way for a QP embedded in the object to move to a position where it c-commands the subject is for the QP to adjoin to the object NP, and for the object NP to either adjoin to the subject NP, or somewhere above the subject NP. The two possibilities are represented in (40):</p>
+<p>(40)<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;<sub>S</sub> &lsqb;<sub>NP2</sub> &lsqb;<sub>NP1&prime;</sub> &lsqb;every city&rsqb;<sub><i>x</i>
+</sub> &lsqb;<sub>NP1</sub> someone from <i>x</i>&rsqb;&rsqb;<sub><i>y</i>
+</sub> &lsqb;<sub>NP2</sub> Two politicians&rsqb;<sub><i>z</i>
+</sub>&rsqb; &lsqb;<sub>S</sub><i> z</i> spied on <i>y</i>&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>?</sub> &lsqb;<sub>NP1&prime;</sub> &lsqb;every city&rsqb;<sub><i>x</i>
+</sub> &lsqb;<sub>NP1</sub> someone from <i>x</i>&rsqb;&rsqb;<sub><i>y</i>
+</sub> .&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>?</sub> .&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>S</sub> &lsqb;<sub>NP2</sub> Two politicians&rsqb;<sub><i>z</i>
+</sub> &lsqb;<sub>S</sub><i> z</i> spied on <i>y</i>&rsqb;&rsqb;&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>No matter which option is taken, the object NP will always asymmetrically c-command the subject: in (40a) the subject NP has a segment that dominates the object, and in (40b) there is a maximal projection (whatever the node above S would be) that dominates the subject but not the object. Either way, if the embedded QP raises to a position that asymmetrically c-commands the subject, then the object must also raise and asymmetrically c-command the object.</p>
+<p>In summary, with adjustments to <link rid="b2">May&apos;s (1985</link>) analysis, we are able to account for Larson&apos;s Generalization as long as island restrictions apply to Quantifier Raising. The key modification involved in obtaining this result, was to alter the Scope Principle from a definition that involves Government to one that employs asymmetrical c-command.</p>
+</subsection>
+<subsection id="ss11" level="2">
+<heading id="h10" level="2">4.6&ensp;Is there any need for Government?</heading>
+<p>
+<link rid="b2">May (1985</link>) does provide some evidence in support of his use of Government, at least in terms of his Scope Principle. In light of the possibility of eliminating this notion from May&apos;s account, it seems appropriate to review some of the motivations for using this relation.</p>
+<p>As noted, in May&apos;s original proposal a relative scope interpretation is possible when two QPs c-command each other. In support of this May brings forward cross-binding Bach-Peters type sentences, as in (41), in which both pronouns can be simultaneously construed as bound variables, with a fixed scope interpretation of the quantifiers:</p>
+<p>(41)&ensp;Some pilot who shot at it hit the navigator of every MIG that chased him.</p>
+<p>(<link rid="b2">May 1985</link>: 70 (34))</p>
+<p>
+<link rid="b24">Higginbotham and May (1981</link>) present a semantic account of these cases in terms of absorbed quantifiers; the account is generalized to all <i>n</i>-tuples of mutually c-commanding quantifiers in <link rid="b25">May (1989</link>).<link rid="fn22">
+<sup>22</sup></link>
+</p>
+<p>Another argument for Government deals with donkey anaphora. May assumes that a Heim-style, unselective binding mechanism can account for sentences where an indefinite quantifier seems to be interpreted as a universal. For example, the sentence &lsquo;Everybody that owns a donkey beats it&rsquo; has an interpretation where it is implied that every donkey is beaten by its owner. Crucial to May&apos;s analysis is that unselective binding can apply only if a variable could not be otherwise interpreted (see <link rid="b2">May 1985</link>: 75). This is relevant to inverse linking since inverse linking constructions demonstrate donkey anaphora. For example, in &lsquo;Every owner of a donkey beats it&rsquo;, the indefinite phrase &lsquo;a donkey&rsquo; is permitted to have a universal interpretation: the interpretation where every donkey is once again beaten by its owner.</p>
+<p>May is able to derive this interpretation through his Scope Principle. Recall that May&apos;s Scope Principle allows for any ordering of QPs that are in a Government relation. Thus, in a structure such as (42), either &lsquo;every owner of <i>x</i>&rsquo; can be positioned to scope over &lsquo;a donkey&rsquo;, or &lsquo;a donkey&rsquo; can be positioned to scope over &lsquo;every owner of <i>x</i>&rsquo;:</p>
+<p>(42)&ensp;&lsqb;<sub>S</sub> &lsqb;<sub>NP1</sub> &lsqb;a donkey&rsqb;<sub><i>x</i>
+</sub> &lsqb;<sub>NP2</sub> Every owner of <i>x</i>&rsqb;&rsqb;<sub><i>y</i>
+</sub> &lsqb;<sub>S</sub><i> y</i> beats it<sub><i>x</i>
+</sub>&rsqb;&rsqb;</p>
+<p>Normally, only the latter position would be permitted, otherwise the variable &lsquo;<i>x</i>&rsquo; would not be bound by &lsquo;a donkey&rsquo;. However, in the option where &lsquo;every owner of <i>x</i>&rsquo; precedes &lsquo;a donkey&rsquo;, unselective binding is permitted to apply. There is a variable that could not be otherwise interpreted (i.e. &lsquo;<i>x</i>&rsquo;), and &lsquo;every&rsquo; would be in a position where it would scope over the pronoun &lsquo;it&rsquo;, the indefinite phrase &lsquo;a donkey&rsquo; and the variable &lsquo;<i>x&rsquo;</i>. It is the freedom of positioning created by May&apos;s Scope Principle that derives the proper environment for unselective binding.</p>
+<p>This having been said, there is another construction that would allow May to derive the proper environment for unselective binding: namely (43) below:</p>
+<p>(43)&ensp;&lsqb;<sub>S</sub> Every owner &lsqb;<sub>PP1</sub> &lsqb;a donkey&rsqb;<sub><i>x</i>
+</sub> &lsqb;<sub>PP2</sub> of <i>x</i>&rsqb;&rsqb;<sub><i>y</i>
+</sub> &lsqb;<sub>S</sub><i> y</i> beats it<sub><i>x</i>
+</sub>&rsqb;&rsqb;</p>
+<p>In this construction, &lsquo;every&rsquo; once again has scope over &lsquo;a donkey&rsquo;, the pronoun &lsquo;it&rsquo;, and the variable &lsquo;<i>x&rsquo;</i>. Furthermore, the pronoun &lsquo;it&rsquo;, if it is represented as a variable, is uninterpretable unless unselective binding is employed. In the end, donkey anaphora can be derived without the intricacies of May&apos;s Scope Principle. Thus, perhaps in this case there is an alternative.</p>
+<p>In contrast, there are some phenomena that are easily explained by May&apos;s Government relation, but not by other theories. For example, consider the sentences in (44):</p>
+<p>(44)<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>What does somebody from every city despise.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>What does everybody despise.</entry>
+<entry>(<link rid="b2">May 1985</link>: 70 (32)) </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(44b) allows for a pair-list answer (i.e., Brad, the local school board, and Jerry, the teachers association). (44a) does not. On May&apos;s view, the pair-list reading of a question arises when &lsquo;what&rsquo; is interpreted as scoping under &lsquo;every&rsquo;. Assuming that the subject QP adjoins to the S-phase, and that the <i>wh</i>-element is adjoined above the S-phrase, then May has a natural explanation for the differences between (44a) and (44b). In (44b), &lsquo;what&rsquo; governs &lsquo;everybody&rsquo;. However in (44a), the NP to which &lsquo;every city&rsquo; is adjoined, blocks &lsquo;what&rsquo; from governing &lsquo;every city&rsquo; and vice versa. Constituency determines that &lsquo;what&rsquo; must scope over &lsquo;every city&rsquo;. It is difficult for any other theory to account for the contrast between (44a) and (44b), which makes this lack of the pair-list reading one of the strongest arguments in support of May&apos;s Government definition of the Scope Principle.</p>
+</subsection>
+<subsection id="ss12" level="2">
+<heading id="h11" level="2">4.7&ensp;Leaving the eighties</heading>
+<p>To summarize, this section reviewed two theories of inverse linking that were developed in the eighties. Although the details are a little dated, the basic properties of the theories are still well motivated by the data. Both theories were not only able to derive the inversely linked interpretation, but also showed how scope interpretation was restricted by (their) syntactic principles. As a result, both <link rid="b2">May (1985</link>) and <link rid="b1">Larson (1985c</link>) are empirically more adequate than the theories reviewed in <link rid="ss4">section 3</link>, and while they are couched within principles and mechanisms that are not wholly compatible with some contemporary approaches to syntax (e.g., the Minimalist approach of <link rid="b26">Chomsky 1995c</link>), their essentials remain viable accounts of inverse linking phenomena. The challenge for more current syntactic theories is to account for the inverse linking data at least as well as May and Larson did in the mid-eighties. There are some interesting attempts. For instance, <link rid="b21">Breuning (2001</link>) has suggested that object quantifiers move to adjoin to VP: the only position where they are interpretable. Inverse scope of the subject and object is a side effect of choosing to interpret the subject in its internal VP position, rather than its nominative case checking position higher than the VP. Assuming, as <link rid="b27">Sauerland (2005</link>) does, that QPs embedded in NPs must scope over those NPs for interpretability reasons, Larson&apos;s Generalization can be accounted for. If the object NP and the object-embedded QP are adjoined to the VP, then for the subject to be interpreted below the embedded QP, it would have to be interpreted in its VP internal position. This position is also below the NP-object. Thus Larson&apos;s Generalization holds. However, within the Minimalist framework there still remains the question of how to derive surface scope interpretation of inversely linked constructions without arbitrary stipulation (i.e., without Type-Shifting).</p>
+<p>Also, there are more general problems with inverse linking that eventually have to be addressed in any syntactic theory of quantifier interpretation. One particularly puzzling difficulty is why with certain prepositions an inversely linked interpretation is blocked. For example, &lsquo;A man with every woman likes her&rsquo; disallows an interpretation where the man can vary for each woman. In addition, &lsquo;every woman&rsquo; seems to have trouble binding the pronoun &lsquo;her&rsquo;. (See <link rid="b8">Gabbay and Moravcsik 1974</link>: 143, who were the first to note the semantic restriction involved with this preposition.) Why this should be so is unclear, but perhaps it is related to aspects of the internal structure of NPs, and the argument/adjunct distinction.</p>
+</subsection>
+</subsection>
+<subsection id="ss13" level="1">
+<heading id="h12" level="1">5&ensp;Conclusion</heading>
+<p>In this review of inverse linking phenomenon, we have considered various approaches, from the classic accounts of the 1970s and 1980s to more recent proposals. One of our main themes in outlining this history has been to observe how inverse linking has been employed in motivating syntactic explanations for primarily semantic effects. These arguments have taken the form of first accounting for known semantic interpretations through syntactic mechanisms, and then explaining the lack of certain interpretations through restrictions derived from the syntactic mechanisms. It is through the execution of arguments of this form that the syntactification of semantic phenomena becomes plausible. Another theme developed in this essay is that inverse linking remains central to any syntactic theory which purports to account for logical representation of natural language quantification.</p>
+</subsection>
+<subsection id="ss14" level="1">
+<heading id="h13" level="1">NOTES</heading>
+<p>
+<span id="fn1">
+<number>1&emsp;</number>The &lsquo;inverse&rsquo; label stems from the fact that the quantifiers are interpreted in the inverse of their surface word order, &lsquo;every city&rsquo; has scope over &lsquo;someone&rsquo; in the example sentence, whereas the &lsquo;linking&rsquo; label is used to describe how the broader scope quantifier binds a variable contained within the restriction of the narrower scope quantifier.</span>
+</p>
+<p>
+<span id="fn2">
+<number>2&emsp;</number>Fox&apos;s Scope Economy restricts the ability of the object to scope over the subject, if the following VP-elided sentence does not have a quantifier for a subject. This codifies an observation initially due to <link rid="b28">Fiengo and May (1994</link>: 231ff.).</span>
+</p>
+<p>
+<span id="fn3">
+<number>3&emsp;</number>Note that the issue here is not whether the scope order of the quantifiers shown in (14a) is possible. As noted by <link rid="b3 b2">May (1977, 1985</link>) and <link rid="b8">Gabbay and Moravcsik (1974</link>), this ordering of quantifiers is possible, just not with the logical structure given in (14a). Rather, the representation will be one in which the scope of the narrow-scope quantifier is wholly <i>contained</i> within the restriction of the broader-scope quantifier. We might paraphrase this reading as something like &lsquo;Each of the members who are on a key congressional committee voted for the amendment&rsquo;. Hence the moniker &lsquo;relative reading&rsquo; given this construal in <link rid="b3">May (1977</link>). In <link rid="b2">May (1985</link>), these cases are analyzed by allowing for NP-internal adjunction structures. <link rid="b1">Larson (1985c</link>) also discusses these cases in his efforts to establish the quasi-syntactic operation of quantifier retrieval (based on <link rid="b20">Cooper 1983</link>).</span>
+</p>
+<p>
+<span id="fn4">
+<number>4&emsp;</number>
+<link rid="b6">Hornstein (1995</link>: 25) provides an argument that non-quantificational elements in the prepositional object position do not c-command into the VP. He uses the lack of so-called &lsquo;sloppy&rsquo; readings of the pronoun to demonstrate his case. According to <link rid="b29">Reinhart (1983a</link>), sloppy readings of pronouns require c-command even with non-quantification noun phrases. So consider the sentences in (i) and (ii):</span>
+</p>
+<p>(i)&ensp;John loves his mother and Bill does too.</p>
+<p>(ii)&ensp;The woman who likes John loves his mother, and the woman who likes Bill does too.</p>
+<p>The sentence in (i) can be interpreted with the sloppy reading as John loves John&apos;s mother and Bill loves Bill&apos;s mother. On the other hand, (ii) cannot be interpreted as referring to one woman liking John&apos;s mother and the other liking Bill&apos;s. The reason for this, according to Reinhart, is that &lsquo;Bill&rsquo; c-commands the elided VP in (i), but not in (ii). Hornstein claims that the sentence in (iii) also lacks the sloppy reading:</p>
+<p>(iii)&ensp;People from LA love its beaches, and someone from NYC does too.</p>
+<p>In other words, (iii) cannot mean that people from LA love LA beaches, and someone from NYC loves NYC beaches. Hence NYC cannot c-command the elided VP. However, note that <link rid="b2">May (1985</link>: 68) claims that sentences such as (iii) can have sloppy readings. For example, May claims that (iv) can be interpreted as saying that nobody from NYC rides NYC subways, but everybody from Tokyo rides Tokyo subways:</p>
+<p>(iv)&ensp;Nobody from New York rides its subways, but everybody from Tokyo does.</p>
+<p>(<link rid="b2">May 1985</link>: 65, (29))</p>
+<p>Also, <link rid="b28">Fiengo and May (1994</link>) have argued at considerable length that Reinhart&apos;s claim itself is incorrect, and that sloppy readings are possible in the absence of c-command.</p>
+<p>
+<span id="fn5">
+<number>5&emsp;</number>Note that the trace in the VP subject position is not a variable, but a trace that is A-bound by the subject in Spec-IP.</span>
+</p>
+<p>
+<span id="fn6">
+<number>6&emsp;</number>As an aside, it is interesting that there are some difficulties in linking scope to c-command notions, while leaving the quantifiers in their surface positions. The two competing structures for the QP &plus; PP constituent are &lsqb;<sub>QP1</sub> Q &lsqb;N &lsqb;<sub>PP</sub> &lsqb;P QP<sub>2</sub>&rsqb;&rsqb;&rsqb;&rsqb; and &lsqb;<sub>QP1&prime;</sub> &lsqb;<sub>QP1</sub> Q &lsqb;NP&rsqb;&rsqb; &lsqb;<sub>PP</sub> P &lsqb;QP<sub>2</sub>&rsqb;&rsqb;&rsqb;. In the first structure, QP<sub>1</sub> does not c-command QP<sub>2</sub> since it dominates QP<sub>2</sub>. Q does c-command QP<sub>2</sub>, but if scope was based on the c-command properties of Q, then it is unclear how Q could ever c-command outside of QP<sub>1</sub> (which it must to get sentential scope). In the second structure QP<sub>1</sub> can c-command QP<sub>2</sub>, as long as the definition of c-command does not exclude inclusion of categories. Unfortunately, many definitions do maintain such an exclusion.</span>
+</p>
+<p>
+<span id="fn7">
+<number>7&emsp;</number>The evidence that May considers come from sentences such as &lsquo;Every house near a river faces danger from flooding&rsquo; or &lsquo;The head of every public authority in New York was Robert Moses&rsquo; (<link rid="b2">May, 1985</link>: 72). Other examples that do not rely on the vicissitudes of definite and indefinite articles (on the latter, see <link rid="b19">Reinhart 1997</link>; <link rid="b30">Diesing 1992b</link>; <link rid="b31">Fodor and Sag 1982</link>, among others) can be adduced:</span>
+</p>
+<p>(i)&ensp;Less than three senators on every committee voted for the bill.</p>
+<p>(ii)&ensp;Every senator on more than two committees voted for the bill.</p>
+<p>(i) is true in the situation where several senators on each committee voted for the bill, but only one or two senators that were a member of every committee did. (ii) is true in the situation where every senator that was on more than two committees voted for the bill but no committee was unanimous in their vote.</p>
+<p>
+<span id="fn8">
+<number>8&emsp;</number>Larson&apos;s modification consists of reducing two expressions, A and B of the type &lt;&lt;e,t&gt;, t&gt; to one expression, C of the type, &lt;&lt;e,t&gt;, t&gt;, where C &equals; &lgr;Q &lsqb;A &lsqb;&lgr;<i>x</i> B-with-<i>x</i>-in-formula (Q)&rsqb;&rsqb;. For example, suppose A &equals; &lgr;S &exist;(<i>x</i>) &lsqb;E(<i>x</i>) and S(<i>x</i>)&rsqb;, and suppose B &equals; &lgr;R&forall; (<i>z</i>)&lsqb;(W(<i>z</i>) and From(<i>z</i>,<i>q</i>)) &sup; R(<i>z</i>)&rsqb;. C would then equal &lgr;Q (&lgr;S&exist;(<i>x</i>) &lsqb;E(<i>x</i>) and S(<i>x</i>)&rsqb;) &lgr;<i>q</i> (&lgr;R&forall;(<i>z</i>)&lsqb;(W(<i>z</i>) and From(<i>z</i>,<i>q</i>)) &sup; R(<i>z</i>)&rsqb;) Q, which reduces to &lgr;Q (&exist;(<i>x</i>) &lsqb;E(<i>x</i>) and &forall;(<i>z</i>)&lsqb;(W(<i>z</i>) and From(<i>z</i>,<i>x</i>)) &sup; Q(<i>z</i>)&rsqb;). The representation of a QP as &lgr;P &exist;(<i>x</i>)&lsqb;Man(<i>x</i>) and R(<i>x</i>) and P(<i>x</i>)&rsqb; where R is a free variable which can be &lgr;-abstracted, is from <link rid="b32">Bach and Cooper (1978</link>) who use it to account for relative clauses. Thus PPs can be bound into QP.</span>
+</p>
+<p>
+<span id="fn9">
+<number>9&emsp;</number>This is a main theme of <link rid="b2">May (1985</link>, especially ch. 3). See also remarks in <link rid="b19">Reinhart (1997</link>), who argues that as a matter of principle, all movement whether covert or overt should obey the same movement restrictions. One of the first extensive discussions of the relevance of LF islands can be found in <link rid="b33">Huang (1982a</link>).</span>
+</p>
+<p>
+<span id="fn10">
+<number>10&emsp;</number>Although this situation is true of both the interpretation where &lsquo;someone&rsquo; has scope over &lsquo;two politicians&rsquo; and the interpretation where &lsquo;two politicians&rsquo; has scope over &lsquo;someone&rsquo;, the lack of the second interpretation in the previous situation suggests that it can only be the first interpretation that makes the sentence true.</span>
+</p>
+<p>
+<span id="fn11">
+<number>11&emsp;</number>As an aside, we note that <link rid="b14">Heim and Kratzer (1998</link>) use Larson&apos;s Generalization to argue for the NP internal structure.</span>
+</p>
+<p>
+<span id="fn12">
+<number>12&emsp;</number>To be more explicit, whenever it is true that for every language there is some student that is investigating two dialects from that language, it is also true that for every language there are two dialects of that language that are being investigated by some student. It just happens to be the same student for the second proposition.</span>
+</p>
+<p>
+<span id="fn13">
+<number>13&emsp;</number>There is some other evidence in support of Larson&apos;s Generalization, although matters here are quite subtle, as well as theory dependent. If an object and subject are scopally commutative (according to <link rid="b5">Fox&apos;s (1999</link>) definition), then Fox&apos;s Scope Economy should prevent the quantifier embedded in the object from scoping over the subject. Consider, the sentence in (i), where the object and subject are scopally commutative:</span>
+</p>
+<p>(i)&ensp;A volunteer greeted an exchange student from every country.</p>
+<p>Can this sentence have a reading in which the quantifier &ldquo;every&rdquo; has scope over &ldquo;a volunteer&rdquo;? To isolate this reading, consider the situation where the following two facts hold: (1) no volunteer greeted more than one of the exchange students, (2) For every country, an exchange student from that country was greeted by a volunteer. The sentence in (i) seems false in such a situation. This is interesting because this sentence can have the interpretation where there is one volunteer that greeted each of the exchange students. If Fox&apos;s Scope Economy blocks the object from moving over the subject, then the sentence in (i) demonstrates that the object must be able to scope over the subject in order for the internal NP quantifier to do so.</p>
+<p>
+<span id="fn14">
+<number>14&emsp;</number>The following is an informal description of the operation. To store a quantifier, replace its position by a variable (actually by ^&lgr;P P(<i>x</i>), but basically this is the same thing), and then store the ordered pair &lt;QP, <i>x</i>&gt; where <i>x</i> marks the &lsquo;variable address&rsquo; for the quantifier. Then, to retrieve the quantifier, first &lgr;-abstract the variable given in the &lsquo;variable address&rsquo;, and finally apply the quantifier. For example, consider &lsquo;Esme loves everybody&rsquo;. First replace the QP with a variable, leaving &lsquo;Esme loves <i>x</i>&rsquo; with &lt;everybody, <i>x</i>&gt; stored. Then &lgr;-abstract and combine, leaving &lsquo;Everybody &lgr;x (Esme loves <i>x</i>)&rsquo; after retrieval. For a critical notice of <link rid="b20">Cooper (1983</link>), see <link rid="b34">May (1987</link>).</span>
+</p>
+<p>
+<span id="fn15">
+<number>15&emsp;</number>For a more thorough description of Cooper&apos;s approach, see <link rid="b20">Cooper (1983</link>: 134ff.). Note that Cooper like many other linguists treats <i>wh</i>-elements as quantifiers.</span>
+</p>
+<p>
+<span id="fn16">
+<number>16&emsp;</number>
+<link rid="b1">Larson (1985c</link>: 8) re-defines Cooper&apos;s constraint on quantifying out of islands as follows: If &alpha; is a structural description and &alpha; &isin; I, then INT assigns no interpretation &bgr;&prime; to &lsqb;&bgr; .&nbsp;.&nbsp;.&nbsp;&alpha; .&nbsp;.&nbsp;.&nbsp;&rsqb;, where &bgr;&prime;&equals;&lt;&Phi;, &lt;Q&prime;, <i>x</i><sub>n</sub>&gt;&gt;, and where &alpha;&prime; &equals; &lt;&Psi;, &lt;Q&prime;, <i>x</i><sub>n</sub>&gt;&gt;. I &equals; &lcub;NP, Q, R&rcub; where Q and R are &lsqb;&plus;WH&rsqb; S&apos;s.</span>
+</p>
+<p>
+<span id="fn17">
+<number>17&emsp;</number>This is an informal presentation. May&apos;s more formal definition is as follows. &ldquo;Let us call a class of occurrences of operators &Psi; a &Sigma;-sequence if and only if for any Oi, Oj &isin; &Psi;, Oi governs Oj, where .&nbsp;.&nbsp;.&nbsp;members of &Sigma;-sequences are free to take on any type of relative scope relation&rdquo; (<link rid="b2">May 1985</link>: 34).</span>
+</p>
+<p>
+<span id="fn18">
+<number>18&emsp;</number>Because May is unconcerned with maintaining a Montagovian semantics, binding need not be equated with &lgr;-abstraction, as it was with <link rid="b1">Larson (1985c</link>).</span>
+</p>
+<p>
+<span id="fn19">
+<number>19&emsp;</number>An alternative to (37), would be a double adjunction structure as in (i) below, where the complex object NP is adjoined sententially along with the subject:</span>
+</p>
+<p>(i)&ensp;&lsqb;<sub>S1</sub> &lsqb;<sub>NP1</sub> &lsqb;every city&rsqb;<sub><i>x</i>
+</sub> &lsqb;<sub>NP2</sub> someone from <i>x</i>&rsqb;&rsqb;<sub><i>y</i>
+</sub> &lsqb;<sub>S2</sub> &lsqb;<sub>NP2</sub> Two politicians&rsqb;<sub><i>z</i>
+</sub> &lsqb;<sub>S3</sub> <i>z</i> spied on <i>y</i>&rsqb;&rsqb;&rsqb;</p>
+<p>
+<link rid="b2">May (1985</link>) actually has a constraint on double adjunction, so (i) is an invalid derivation according to May, and hence not mentioned as a possible derivation in the main text. However, even if (i) were permitted, &lsquo;every city&rsquo; still governs both &lsquo;someone&rsquo; and &lsquo;two politicians&rsquo;. Thus this structure would also violate Larson&apos;s Generalization.</p>
+<p>
+<span id="fn20">
+<number>20&emsp;</number>
+<link rid="b2">May (1985</link>: 80) notes the following to show that extraction from islands is possible via QR: &ldquo;One case is brought up by van <link rid="b35">Riemsdijk and Williams (1981</link>), who point out that a question such as <i>Who knows which pictures of whom Bill bought</i> allows an interpretation in which whom is paired with who in asking a multiple direct question. Representing this, on the view here, involves extracting from an island, so as to move whom to a higher clause.&rdquo;</span>
+</p>
+<p>
+<span id="fn21">
+<number>21&emsp;</number>The actual phrasing of the constraint is &ldquo;only one operator can be adjoined per projection level.&rdquo; (<link rid="b2">May 1985</link>: 81).</span>
+</p>
+<p>
+<span id="fn22">
+<number>22&emsp;</number>Conceivably the LF representation of (41) could be one in which the relative clauses are extraposed. If so, the resulting structures would be compatible with the revised proposal. However, as <link rid="b36">Gu&eacute;ron and May (1984</link>) argue, extraposition is typically undone at LF (although see <link rid="b37">Lechner 1999</link>; and <link rid="b38">Fox 2002</link>, who challenge this assumption).</span>
+</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss15" level="1" type="references">
+<heading id="h14" level="1">REFERENCES</heading>
+<reference id="b13" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Aoun</surname><x>, </x><forenames>Joseph</forenames>
+</name><x> and </x><name type="author">
+<forenames>Yen-Hui</forenames><x> </x><surname>Audrey Li</surname>
+</name>
+</namegroup><x> (</x><date date="1993">1993b</date><x>). </x><title type="book">The Syntax of Scope</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b32" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bach</surname><x>, </x><forenames>Emmon</forenames>
+</name><x> and </x><name type="author">
+<forenames>Robin</forenames><x> </x><surname>Cooper</surname>
+</name>
+</namegroup><x> (</x><date date="1978">1978</date><x>). </x><title type="document">The NP-S Analysis of Relative Clauses and Compositional Semantics</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>2</volume><x>: </x><page type="first">145</page><x>&ndash;</x><page type="last">150</page><x>.</x>
+</reference>
+<reference id="b18" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Barwise</surname><x>, </x><forenames>Jon</forenames>
+</name><x> and </x><name type="author">
+<forenames>Robin</forenames><x> </x><surname>Cooper</surname>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="document">Generalized Quantifiers and Natural Language</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>4</volume><x>: </x><page type="first">159</page><x>&ndash;</x><page type="last">219</page><x>.</x>
+</reference>
+<reference id="b21" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Breuning</surname><x>, </x><forenames>Benjamin</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">QR Obeys Superiority: ACD and Frozen Scope</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>32</volume><x>: </x><page type="first">233</page><x>&ndash;</x><page type="last">273</page><x>.</x>
+</reference>
+<reference id="b23" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986a</date><x>). </x><title type="book">Barriers</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b26" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995c</date><x>). </x><title type="book">The Minimalist Program</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b11" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name><x> and </x><name type="author">
+<forenames>Howard</forenames><x> </x><surname>Lasnik</surname>
+</name><x> (</x>
+</namegroup>
+<date date="1995">1995</date><x>). </x><title type="document">The Theory of Principles and Parameters</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<name type="author">
+<forenames>Noam</forenames><x> </x><surname>Chomsky</surname>
+</name><x>, </x><title type="book">The Minimalist Program</title><x>. </x><address>MIT Press</address><x>: </x><publisher>Cambridge, MA</publisher><x>.</x>
+</reference>
+<reference id="b20" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cooper</surname><x>, </x><forenames>Robin</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="book">Quantification and Syntactic Theory</title><x>. </x><address>Dordrecht</address><x>: </x><publisher>Reidel</publisher><x>.</x>
+</reference>
+<reference id="b30" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Diesing</surname><x>, </x><forenames>Molly</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992b</date><x>). </x><title type="book">Indefinites</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b10" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Fiengo</surname><x>, </x><forenames>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date><x>). </x><title type="document">On Trace Theory</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>8</volume><x>: </x><page type="first">35</page><x>&ndash;</x><page type="last">61</page><x>.</x>
+</reference>
+<reference id="b28" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Fiengo</surname><x>, </x><forenames>Robert</forenames>
+</name><x> and </x><name type="author">
+<forenames>Robert</forenames><x> </x><surname>May</surname>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">Indices and Identity</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b31" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Fodor</surname><x>, </x><forenames>Janet<x> </x>Dean</forenames>
+</name><x> and </x><name type="author">
+<forenames>Ivan</forenames><x> </x><surname>Sag</surname>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">Referential and Quantificational Indefinites</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>5</volume><x>: </x><page type="first">355</page><x>&ndash;</x><page type="last">398</page><x>.</x>
+</reference>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Fox</surname><x>, </x><forenames>Danny</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="book">Economy and Semantic Interpretation</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b38" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Fox</surname><x>, </x><forenames>Danny</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="document">Antecedent Contained Deletion and the Copy Theory of Movement</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>33</volume><x>: </x><page type="first">63</page><x>&ndash;</x><page type="last">96</page><x>.</x>
+</reference>
+<reference id="b8" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Gabbay</surname><x>, </x><forenames>Dov</forenames>
+</name><x> and </x><name type="author">
+<forenames>Julius</forenames><x> </x><surname>Moravcsik</surname>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date><x>). </x><title type="document">Branching Quantifiers, English and Montague Grammar</title><x>. </x><title type="journal">Theoretical Linguistics</title><x> </x><volume>1/1</volume><x>: </x><page type="first">139</page><x>&ndash;</x><page type="last">157</page><x>.</x>
+</reference>
+<reference id="b4" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Gillon</surname><x>, </x><forenames>Brendan<x> </x>S<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="document">Collectivity and Distributivity Internal to English Noun Phrases</title><x>. </x><title type="journal">Language Sciences</title><x> </x><volume>18</volume><x>: </x><page type="first">443</page><x>&ndash;</x><page type="last">468</page><x>.</x>
+</reference>
+<reference id="b36" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Gu&eacute;ron</surname><x>, </x><forenames>Jacqueline</forenames>
+</name><x> and </x><name type="author">
+<forenames>Robert</forenames><x> </x><surname>May</surname>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">Extraposition and Logical Form</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>15</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">31</page><x>.</x>
+</reference>
+<reference id="b14" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Heim</surname><x>, </x><forenames>Irene</forenames>
+</name><x> and </x><name type="author">
+<forenames>Angelika</forenames><x> </x><surname>Kratzer</surname>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="book">Semantics in Generative Grammar</title><x>. </x><address>Oxford</address><x>: </x><publisher>Blackwell</publisher><x>.</x>
+</reference>
+<reference id="b24" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Higginbotham</surname><x>, </x><forenames>James</forenames>
+</name><x> and </x><name type="author">
+<forenames>Robert</forenames><x> </x><surname>May</surname>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="document">Questions, Quantifiers and Crossing</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>1</volume><x>: </x><page type="first">41</page><x>&ndash;</x><page type="last">80</page><x>.</x>
+</reference>
+<reference id="b7" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hintikka</surname><x>, </x><forenames>Jaakko</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date><x>). </x><title type="document">Quantifiers vs. Quantification Theory</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>5</volume><x>: </x><page type="first">153</page><x>&ndash;</x><page type="last">177</page><x>.</x>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hornstein</surname><x>, </x><forenames>Norbert</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="book">Logical Form: From GB to Minimalism</title><x>. </x><address>Oxford</address><x>: </x><publisher>Blackwell</publisher><x>.</x>
+</reference>
+<reference id="b33" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Huang</surname><x>, </x><forenames>C.-T<x>. </x>James</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982a</date>
+<miscellaneoustext>). Logical Relations in Chinese and the Theory of Grammar</miscellaneoustext><x>. </x>
+<publisher>PhD Dissertation, MIT</publisher><x>.</x>
+</reference>
+<reference id="b22" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">The Antisymmetry of Syntax<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b12" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">Overt vs. Covert Movement</title><x>. </x><title type="journal">Syntax</title><x> </x><volume>1</volume><x>: </x><page type="first">128</page><x>&ndash;</x><page type="last">191</page><x>.</x>
+</reference>
+<reference id="b16" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kennedy</surname><x>, </x><forenames>Christopher</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997a</date><x>). </x><title type="document">Antecedent-Contained Deletion and the Syntax of Quantification</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>28</volume><x>: </x><page type="first">662</page><x>&ndash;</x><page type="last">688</page><x>.</x>
+</reference>
+<reference id="b15" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kitahara</surname><x>, </x><forenames>Hisatsugu</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="document">Raising Quantifiers without Quantifier Raising</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Minimal Ideas: Syntactic Studies in the Minimalist Framework</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Werner</forenames><x> </x><surname>Abraham</surname>
+</name><x>, </x><name type="editor">
+<forenames>Samuel</forenames><x> </x><surname>Epstein</surname>
+</name><x>, </x><name type="editor">
+<forenames>H&ouml;skuldur</forenames><x> </x><surname>Thr&aacute;insson</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>C<x>. </x>Jan</forenames><x> </x><surname>Wouter-Zwart</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">189</page><x>&ndash;</x><page type="last">197</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b1" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Larson</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985c</date>
+<miscellaneoustext>). Quantifying into NP. Unpublished manuscript, Cambridge, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b37" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Lechner</surname><x>, </x><forenames>Winfried</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date>
+<miscellaneoustext>). Comparatives and DP-Structure. PhD dissertation, Amherst, University of Massachusetts</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b3" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>May</surname><x>, </x><forenames>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date>
+<miscellaneoustext>). The Grammar of Quantification<i>.</i> PhD dissertation, Cambridge, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>May</surname><x>, </x><forenames>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="book">Logical Form: Its Structure and Derivation</title><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press</publisher><x>.</x>
+</reference>
+<reference id="b34" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>May</surname><x>, </x><forenames>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Review of R. Cooper <i>Quantification and Syntactic Theory</i>
+</title><x>. </x><title type="journal">Language</title><x> </x><volume>62</volume><x>: </x><page type="first">902</page><x>&ndash;</x><page type="last">908</page><x>.</x>
+</reference>
+<reference id="b25" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>May</surname><x>, </x><forenames>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">Interpreting Logical Form</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>12</volume><x>: </x><page type="first">387</page><x>&ndash;</x><page type="last">435</page><x>.</x>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Montague</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date><x>). </x><title type="book">Formal Philosophy: Selected Papers of Richard Montague</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Richmond<x> </x>H<x>.</x>
+</forenames><x> </x><surname>Thomason</surname>
+</name>
+<miscellaneoustext> (ed.)</miscellaneoustext><x>.</x>
+</namegroup><x> </x><address>New Haven</address><x>: </x><publisher>Yale University Press</publisher><x>.</x>
+</reference>
+<reference id="b9" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date>
+<miscellaneoustext>). The Syntactic Domain of Anaphora. PhD dissertation, Cambridge, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b29" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983a</date><x>). </x><title type="book">Anaphora and Semantic Interpretation</title><x>. </x><address>London/Chicago</address><x>: </x><publisher>Croom Helm and Chicago University Press.</publisher>
+</reference>
+<reference id="b19" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Quantifier Scope: How Labour is Divided between QR and Choice Functions</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>20</volume><x>: </x><page type="first">335</page><x>&ndash;</x><page type="last">397</page><x>.</x>
+</reference>
+<reference id="b35" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Riemsdijk</surname><x>, </x><forenames>Henk<x> </x>C<x>. </x>van</forenames>
+</name><x> and </x><name type="author">
+<forenames>Edwin</forenames><x> </x><surname>Williams</surname>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="document">NP Structure</title><x>. </x><title type="journal">The Linguistic Review</title><x> </x><volume>1</volume><x>: </x><page type="first">171</page><x>&ndash;</x><page type="last">217</page><x>.</x>
+</reference>
+<reference id="b27" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Sauerland</surname><x>, </x><forenames>Uli</forenames>
+</name>
+</namegroup><x> (</x><date date="2005">2005</date><x>). </x><title type="document">DP is Not a Scope Island</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>36</volume><x>: </x><page type="first">303</page><x>&ndash;</x><page type="last">314</page><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

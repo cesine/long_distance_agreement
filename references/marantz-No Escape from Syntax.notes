@@ -1,0 +1,289 @@
+No Escape from Syntax:
+Don't Try Morphological Analysis in the Privacy of
+Your Own Lexicon
+[A. Dimitriadis, L. Siegel, et al., eds., University of Pennsylvania Working Papers
+in Linguistics, Vol. 4.2, Proceedings of the 21st Annual Penn Linguistics
+Colloquium, 1997, pp. 201-225]
+Alec Marantz
+
+Distributed Morphology explodes the
+Lexicon and includes a number of distributed, non-computational
+lists as Lexicon-replacements;
+
+List 1 or the “narrow lexicon,” most directly replaces
+the Lexicon as it provides the units that the syntax operates with.
+This List 1 contains the atomic roots of the language and the
+atomic bundles of grammatical features.
+
+-ah no phonological material?
+
+The
+sets of grammatical features are determined by Universal Grammar
+and perhaps by language-particular (but language-wide) principles.
+Since these sets are freely formed, subject to principles of
+formation, List 1 is “generative.”
+
+
+List 2 or the “Vocabulary,”
+provides the phonological forms for the terminal nodes from the
+syntax (for roots as well as bundles of grammatical features, unless
+roots come with their phonological forms from the narrow
+lexicon).
+
+The Vocabulary includes the connections between sets of
+grammatical features and phonological features, and thus determines
+the connections between terminal nodes from the syntax and their
+phonological realization. The Vocabulary is non-generative but
+expandable.
+
+The Vocabulary items are underspecified with respect
+to the features of the terminal nodes from the syntax; they compete
+for insertion at the terminal nodes, with the most highly specified
+item that doesn’t conflict in features with the terminal node
+winning the competition.
+
+Encyclopedia is nongenerative
+but expandable.
+
+It is an important and open question how much
+information about roots is present in the narrow Lexicon (e.g.,
+does the narrow lexicon contain sufficient information to identify
+particular roots or does it contain only information about classes of
+roots, of the sort discussed in section 3 below),
+
+whether the phonological forms of roots are among the Vocabulary items,
+
+ and whether and how the particular choice of root from the narrow Lexicon 
+
+or from the Vocabulary feeds semantic interpretation.
+
+
+the claim of Lexicalism is the claim of special status
+for word-sized units,
+
+we reject the proposed correlation
+of word units with a variety of possible “elses”: special sound,
+special meaning, or special structure/meaning correspondences.
+
+The general lesson from studies in prosodic phonology is that
+syntactic structure isn’t identical to prosodic structure at any level,
+including the Word level (i.e., it is always necessary to construct
+prosodic structure from syntactic structure (or “map” syntactic
+structure onto prosodic structure)).
+
+Although Lexical Items might not be phonological
+Words, they still might serve as phonological units if they were
+the proper domain of a particular set of phonological rules, the
+“lexical phonological rules” (characterized at least by the
+possibility of morphological triggers and exceptions). 
+
+Where the
+issue of whether “lexical phonology” applies only within Lexical
+Items is discussed, the evidence suggests that the Lexical Item is
+often too small a unit for lexical phonology (see Hayes 1990).
+
+ I suggest the Lexical Item is
+sometimes too big a domain for lexical phonology as well,
+
+So words can have special meanings of
+the sorts that roots might have, but syntactically derived structures
+must have meanings predictable from the meanings of their parts
+and of their internal structures.
+
+as Jackendoff (1996) reminds us recently, there is no
+sharp divide between the special meanings of words and the special
+meanings of phrases
+
+lexical entries (or vocab?) must have
+“special” meanings since they’re defined as the elements whose
+meanings are not completely determined by their grammatical
+features) in the (syntactic) context of other elements within a
+locality domain. The locality domains for special meanings are
+defined syntactically.
+
+Since phonological word structure is created
+post-syntactically (see (4) above), and many functional heads and
+grammatical morphemes may be packaged inside a single
+phonological word, these locality domains may sometimes be
+smaller than a (phonological) word, meaning that some words, like
+some phrases, cannot have special meanings — can’t be
+“idioms.”
+
+the literature has already argued
+conclusively for one boundary of such domains: The syntactic head
+that projects agents defines a locality domain for special meanings.
+
+a. No idioms with fixed agents
+
+b. No eventive-passive idioms, but possible noneventive
+stative idioms
+
+c. No idioms with causative morpheme and lower
+agentive verb, but possible idioms with causative and
+lower non-agentive verb
+
+
+(7b) is verified by the literature on
+differences between so-called “adjectival passives” and “syntactic
+passives.” 
+
+These differences follow from a structural difference
+rather than a difference between “lexical” and “syntactic” derivation.
+
+The “adjectival” — really, stative — passives are created with a
+functional head merging below the head that projects agents, 
+
+while
+eventive, agentive passives are formed with a functional head
+merging above (or as) the head which projects agents.
+
+The observation that verbs passive in form can be idioms
+(or part of idioms) only if they are stative, not if they are eventive,
+was made for English and French by Ruwet (1991).
+
+English and French that a causative
+construction may not be idiomatic unless the lower verb is nonagentive.
+
+In languages like Japanese, where causative light verbs
+show up as affixes on the lower verb root, the restriction on
+domains of special meaning implies that derived causative verbs
+with agentive root verbs may not have special meaning/be
+idiomatic.
+
+I argue that are no special structure/meaning
+correspondences anywhere, neither within words nor within
+phrases
+
+if the morphophonology justifies
+decomposition into a complex structure of terminal nodes, the
+syntax must create this structure and the structure must be
+interpreted in the regular way for such constructions
+
+Nouns like “transmission,” carry the semantic implication of
+their internal structure, which includes an aspectual pre-verb, a
+verbal stem, and a nominalizing suffix.
+
+If these words refer to
+things, then these things should be for accomplishing something
+
+“die” does not have the same aspectual properties as
+“kick the bucket,” So one can say, “he was
+dying for three weeks before the end,” but not, “*he was kicking
+the bucket for three weeks....”
+
+What about the intuition behind lexicalism, that words are
+special? I think this intuition results from the mistaking the role
+of roots in the language for the role of Words.
+
+The functional categories that attach to roots in Words often
+include boundaries that separate domains of special meaning. So
+Words often are islands of special meaning, and Words are usually
+also identified by their root content, where the roots are the items
+subject to special contextual meanings.
+
+Crucial for Chomsky are the consequences of giving up the
+distributional definition of grammatical categories.
+— and this is in fact the case.	
+
+all the “lexical”
+grammatical categories have the same distribution, taking a
+complement to form an X’, which takes a specifier to yield X-max:
+the categories are distinguished (only) by their internal features.
+
+Before “Remarks,” while phones (in
+structuralist phonological theories) might be grouped into the same
+category (phoneme) when they were in complementary distribution,
+words were grouped into the same grammatical category (N, V,
+Adj) when they shared distribution.
+
+What Chomsky really discussed in “Remarks” is
+summarized by this quote, Chomsky (1970, p. 17): “We might
+extend the base rules to accommodate the derived nominal directly
+(I will refer to this as the ‘lexicalist position’), thus simplifying
+the transformational component; or alternatively, we might
+simplify the base structures, excluding these forms [the
+nominalizations], and derive them by some extension of the
+transformational apparatus (the ‘transformational position’).” Note
+that the crucial issue here is about extending the base rules (i.e.,
+allowing N’s to take complements) rather than adding operations to
+a place called “the lexicon.”
+
+Roots
+like ÖDESTROY and ÖGROW (to borrow notation from Pesetsky
+1995) are category neutral, neutral between N and V. When the
+roots are placed in a nominal environment, the result is a
+“nominalization”; when the roots are placed in a verbal
+environment, they become verbs.
+
+the agent of transitive “grow” in (13a)
+is not an argument of the root ÖGROW but rather a type of
+causative agent projected only in a verbal environment (as is the
+causative subject of psych verbs like “amuse,” among others).
+
+The exact (semantic) categories for roots that predicts their
+varying behavior in nominal and verbal environments is not
+important here (although identifying these categories is of course
+essential to syntactic theory).
+
+There’s a further issue (we won’t discuss) of whether
+the categories reflect features of the roots themselves or rather
+features of functional nodes that serve as the context for the
+insertion of the roots.
+
+Among the functional heads in whose environments roots
+become verbs (these may be “aspectual” in some sense), one, call it
+“v-1,” projects an agent while another, call it “v-2,” does not.
+
+Crucially, there’s an apparent
+incompatibility between v-2 and verb roots that imply external
+cause or agent, like ÖDESTROY — see (12b). It is possible that a
+“middle” reading is forced when v-2 is combined with this class of
+roots (“These carefully constructed sets will destroy easily during
+the crucial earthquake scenes of the movie”) or that such a
+combination never finds a semantic interpretation.
+
+Essentially,
+“possessors” of NPs may be interpreted in almost any kind of
+semantic relation with respect to the possessed NP that can easily
+be reconstructed from the meaning of the possessor and possessed
+by themselves (consider, e.g., “yesterday’s destruction of the city”).
+
+It’s crucial that the possessive “causer” of “John’s destruction of
+the city” not be an agent of the sort projected by v-1, but rather
+just the sort of agent implied by an event with an external rather
+than an internal cause.
+
+"The US destroyed the city,” or “Neglect
+destroyed the city,” the interpretation allows for agents or causes
+between the identified higher cause (the “US” and “neglect”) and the
+actual physical destruction (really caused by armies, perhaps, in the
+first case, maybe vandals in the second). As in, “the city’s
+destruction,” the existence of the direct cause of the destruction in
+such examples must be implied by the root.
+
+The agent-projecting v-1, which serves to “verbalize”
+roots in its environment, occurs of course in the sentence in (17),
+but also in the -ing nominalization in (18). These -ing
+nominalizations are true “nominalizations” within the present
+framework; unlike “destruction” and “growth,” for example, these
+-ing forms contain both a verbalizing (v-1) and a nominalizing
+environment (D) and so are really nouns made from verbs.
+(likely more heads between D and v-1, e.g., for -ing)
+
+Chomsky’s argument against the lexicon is quite
+straightforward. If we derived words in the lexicon, we would
+derive transitive “grow” there and nothing would prevent us from
+also deriving the nominalization “growth” with transitive meaning.
+The only thing that could rule out transitive causative “growth,”
+then, would be some stipulation, such as, “don’t make
+nominalizations from verbs that are causatives of change of state
+verbs with internal causers.”
+
+By dissolving the lexicon, we return directly to the issues
+that motivated lexical phonology and morphology in the first
+place: what are the domains for contextual allomorphy and
+contextual allosemy (special meanings in particular contexts)? The
+failure of lexicalism is simply the falsification of an attractive and
+reasonable hypothesis: that the “word” (in some sense) is a
+privileged domain in grammar.
+

@@ -1,0 +1,1863 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="9"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 9 - Binding Theory.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">260</page>
+<page type="last">283</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="0"/>
+<count type="table" count="22"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="78"/>
+<count type="page" count="24"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051105"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 9&ensp;Reuland: Binding Theory</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 9&ensp;Reuland: Binding Theory</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">9&ensp;Binding Theory: Terms and Concepts</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>ERIC</forenames><x> </x><surname>REULAND</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Binding</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>The canonical binding theory of <link rid="b1">Chomsky (1981</link>)</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>
+<link rid="b2">Chomsky (1986b</link>)</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>Predicates and reflexivity</p>
+</li>
+<li level="1">
+<number>6&ensp;</number>
+<p>Reflexivity and licensers</p>
+</li>
+<li level="1">
+<number>7&ensp;</number>
+<p>Types of anaphoric expressions</p>
+</li>
+<li level="1">
+<number>8&ensp;</number>
+<p>Long-distance anaphora</p>
+</li>
+<li level="1">
+<number>9&ensp;</number>
+<p>Binding vs. logophoricity</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1&ensp;Introduction</heading>
+<p>Natural language allows different expressions to receive identical values in some actual or virtual world. To take a venerable example, in the world as we know it, English <i>morning star</i> and <i>evening star</i> both have the planet Venus as their value. That is, both <i>refer</i> to Venus. Such expressions are <i>coreferential</i>. Coreference may hold on the basis of an empirical fact, as in the Venus case, but also speakers&rsquo; intentions may suffice to establish coreference. A pronominal such as <i>he</i> can be used to refer to any object that is linguistically classified as masculine and singular, as in <i>John&apos;s mother thought he was guilty</i>. Here, <i>he</i> may refer to John but also to some other masculine individual.</p>
+<p>Coreference is not the only way in which the interpretation of two elements can be related. <i>No one</i> in <i>no one believes he is guilty</i> does not refer to an individual, hence <i>a fortiori</i>, <i>he</i> cannot refer to that individual. Under the most salient reading <i>he</i> does, nevertheless, depend on <i>no one</i> for its interpretation. In this case the dependency is linguistically encoded, and is called <i>binding</i>.</p>
+<p>The difference between binding and coreference can be further illustrated by the contrasts between the following mini-texts (as discussed in <link rid="b3">Heim 1982</link>). Although coreference is possible across sentences, as in (1a), where <i>John</i> and <i>he</i> can be independently used to refer to the same individual, <i>everyone</i> and <i>no one</i> in (1b) are not referential; hence, an interpretive dependency between <i>he</i> and these expressions cannot be established through coreference. Binding, the other option, is not available cross-sententially. Hence the sequel in (1b) is not felicitous. That there is nothing wrong with <i>he</i> being <i>bound</i> by a quantificational expression is shown by (2):</p>
+<p>(1)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry><i>John</i> has a gun. Will <i>he</i> shoot?</entry>
+</row>
+<row><entry>b.</entry>
+<entry><i>Everyone</i><b>/</b><i>No one</i> has a gun. *Will <i>he</i> shoot?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(2)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source"> <tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry><i>John</i> was convinced that <i>he</i> would be welcome.</entry>
+</row>
+<row><entry>b.</entry>
+<entry><i>Everyone</i><b>/</b><i>No one</i> was convinced that <i>he</i> would be welcome.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Binding is thus an interpretive dependency that is linguistically encoded by means available within sentence grammar. Not only is it the case that some elements can be bound, other elements must be bound. As any traditional grammar of Latin notes, certain elements (<i>se</i>, <i>sibi</i>, etc.) must have an antecedent. Similar facts are duly observed in traditional grammars of Dutch, English, etc.</p>
+<p>Traditional grammars, generally, do not devote much space to this type of fact. There is usually just a brief paragraph about reflexives and reciprocals, and that&apos;s it. A typical statement is that a reflexive pronominal is used in the object position (to avoid &lsquo;repetition of the subject&rsquo;) when the verb expresses a reflexive relation (e.g. <link rid="b4">Jespersen 1933/1983</link>; <link rid="b5">Gleason 1965</link>).</p>
+<p>On the other hand, after the emergence of Generative Grammar, with its focus on explicit description and explanation, binding increasingly attracted attention. Starting out with seminal works such as <link rid="b6">Lees and Klima (1963</link>), <link rid="b7 b8">Postal (1969, 1971</link>), Ross (1970), <link rid="b9">Helke (1971</link>), to mention a few, it soon developed into an important grammatical field.</p>
+<p>Providing an overview of the development of binding theory and the various issues it gives rise to is surely beyond the scope of this contribution. Doing so would require more than a book. Recent works with such an ambitious aim include <link rid="b10 b11">Safir (2004a, 2004b</link>) and <link rid="b12">B&uuml;ring (2005</link>). <link rid="b13">Huang (2000</link>) presents an overview attempting to cover a range of variation in anaphoric systems. An earlier endeavor within the framework of Lexical Functional Grammar is <link rid="b14">Dalrymple (1993</link>). Binding also plays a significant role in the framework of Head-driven Phrase Structure Grammar (<link rid="b15 b16">Pollard and Sag 1992, 1994</link>).</p>
+<p>Here I will limit myself to a number of issues that arose over the last decades in works following up on the approach to binding set out in <link rid="b1">Chomsky (1981</link>) and subsequent work. My main goal is to provide the background necessary to assess the various discussions of binding phenomena in other chapters in these volumes. Therefore this will not be a &lsquo;comprehensive&rsquo; overview and many issues in binding that are not discussed elsewhere in this <i>Companion</i> will not be dealt with here.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2&ensp;Binding</heading>
+<p>Over the last decades many ideas have been developed about the linguistic mechanisms involved in encoding of binding. A recurrent idea is that at least at some level binding reflects a logical operator&ndash;variable relation. For instance, <link rid="b17">Reinhart (2000a</link>) presents the following definition of binding:</p>
+<p>(3)&ensp;<i>Logical syntax binding: Binding is the procedure of closing a property</i>
+</p>
+<p><b><i>A-binding</i>
+</b>
+</p>
+<p>&alpha; A-binds &bgr; iff &alpha; is the sister of a &lgr;-predicate whose operator binds &bgr;.</p>
+<p>The way this definition captures binding in contrast with coreference is illustrated by the two readings of (4a), given in (4b) and (4c):</p>
+<p>(4)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Only Lucie respects her husband.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Only Lucie (&lgr;x (x respects y&apos;s husband)) (y could be valued as any female individual)</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Only Lucie (&lgr;x (x respects x&apos;s husband))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (4b) the property that is ascribed only to Lucie is that of respecting a certain individual (Mr X), who happens to be her or somebody else&apos;s husband. All other women do not respect this person, but they may well respect their own husbands. In (4c) the property ascribed only to Lucie is that of respecting her own husband. By implication, all other women do not respect their own husbands.</p>
+<p>In order for binding to obtain at all, it is necessary that the dependent element can be translated as a variable in logical syntax. But, as is well known, binding is subject to further constraints, which cannot be explained on the basis of its logical properties alone. These constraints will be discussed below.</p>
+</subsection>
+<subsection id="ss4" level="1">
+<heading id="h3" level="1">3&ensp;The canonical binding theory of <link rid="b1">Chomsky (1981</link>)</heading>
+<p>In <link rid="b1">Chomsky&apos;s binding theory (1981</link>), the theory of A(rgument)-binding describes the interpretive dependencies between phrases in argument positions, or A-positions, briefly arguments. A-positions are taken to be the positions in which a lexical item assigns a semantic role (<i>agent</i>, <i>patient</i>, <i>beneficiary</i>, etc.) to an expression, or in which the latter&apos;s Case is determined (nominative, accusative, etc.).<link rid="fn1">
+<sup>1</sup></link> Arguments can be dislocated ending up in a non-A-position (by topicalization, question formation, etc.), as in (5). Here, <i>t</i> indicates their canonical position.</p>
+<p>(5)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry><i>Him</i>, I never believed the baron to have pulled out <i>t.</i>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry><i>Which man</i> did he think <i>t</i> fell off the bridge?</entry>
+</row>
+<row><entry>c.</entry>
+<entry><i>Himself</i>, the driver pulled <i>t</i> out immediately.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The rules of A-binding apply to dislocated elements in their canonical position (for complex phrases this is an approximation; for current purposes any complications can be disregarded).</p>
+<p>Arguments are classified as R-expressions, pronominals, or anaphors. If the head of a phrase has lexical features (or certain grammatical features, such as <i>wh</i>) this phrase is an R-expression. Thus <i>the merry linguist</i>, <i>the idiot, no one</i>, <i>everyone</i>, <i>which man</i>, etc., are all R-expressions. R-expressions cannot be bound.<link rid="fn2">
+<sup>2</sup></link> <i>Pronominals</i> (<i>I</i>, <i>you</i>, <i>he</i>, etc.) are elements that are only specified for person, gender, and number (the phi-features) and grammatical category. They may, but need not, depend on another argument for their interpretation and they can be accompanied by a pointing gesture, that is, used deictically. Anaphors are referentially defective nominal elements. They cannot be used deictically. In the literature the term reflexive is often used as a synonym for anaphor. One also finds pronoun as a cover term for anaphors and pronominals.<link rid="fn3">
+<sup>3</sup></link>
+</p>
+<p>Anaphors can be classified in two general types: simplex anaphors and complex anaphors. In many respects, reciprocals, such as <i>each other</i>, behave as anaphors as well, although their semantics is rather more complex (see, for instance, <link rid="b18">Heim, Lasnik, and May 1991</link>).<link rid="fn4">
+<sup>4</sup></link> Also elements like <i>(his/her) own</i>, <i>(the) other</i>, <i>(the) same</i> are inherently anaphoric, see <link rid="b19">Safir (1996b</link>). Their binding properties differ from canonical anaphors, however, and I will not discuss them here.</p>
+<p>Lexically, simplex anaphors are like pronominals; they are different in that they are underspecified for certain features. Quite generally a specification for number is lacking, as is a specification for gender; a specification for person may be lacking as well (as, for instance, (Mandarin) Chinese <i>ziji</i>, Japanese <i>zibun</i>, or Slavic (Russian <i>seb&rsquo;a</i>, Serbo-Croation <i>sebe</i>, etc.)). English lacks simplex anaphors, but cross-linguistically they occur frequently. Some well-studied examples are Dutch <i>zich</i>, Icelandic <i>sig</i>, Chinese <i>ziji</i>, and Japanese <i>zibun</i>. In many contexts their interpretation just corresponds to English <i>himself</i>.</p>
+<p>Complex anaphors generally consist of a pronominal or a simplex anaphor and some other element. These other elements may be of various sorts (doubled pronominal forms, intensifiers, body-parts, etc.); see <link rid="ss7">section 6</link>.</p>
+<p>If <i>a</i> binds <i>b</i>, it is said that <i>a</i> is the antecedent of <i>b</i>. Since potential binding relations cannot be read off from the content of the expressions involved they must be annotated in the linguistic representations. To this end, <link rid="b1">Chomsky (1981</link>) and much of the subsequent literature uses a system of indexing. Each argument is assigned a certain integer as its index. If two arguments are assigned the same integer they are co-indexed. In practice one uses subscripts such as <i>i</i>, <i>j</i>, <i>k</i>, etc. as variable indices. If <i>a</i> and <i>b</i> are co-indexed this is indicated by an identical subscript. Thus, in an expression (<i>a</i><sub>i</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;<i>b</i><sub>i</sub>) <i>a</i> and <i>b</i> are co-indexed. Since indices are nothing more than linguistic markers in the structure it is still possible for two expressions to be assigned the same object in some outside world if they are not co-indexed (<i>morning star</i> and <i>evening star</i> are not necessarily co-indexed). Binding without co-indexing is not possible, though. In order for <i>a</i> and <i>b</i> to be co-indexed (6) must be satisfied:</p>
+<p>(6)&ensp;<i>a</i> and <i>b</i> are non-distinct in features for person, number, and gender.</p>
+<p>Non-distinctness, rather than identity of features, is required for co-indexing, since in many languages one anaphoric element is compatible with masculine or feminine, singular or plural antecedents. This property is illustrated by, for instance, Dutch <i>zich</i> and Icelandic <i>sig</i>. On the other hand, both are specified as 3rd person, and cannot have 1st or 2nd person antecedents. In other languages (for instance Slavic languages like Russian) a person specification is lacking as well, and we find one anaphoric form for all persons.</p>
+<p>Whereas the use of indices as descriptive devices is generally accepted, their precise status in the grammar has been the subject of considerable debate.<link rid="fn5">
+<sup>5</sup></link> It has become an important theoretical issue whether they can be eliminated from the grammar, and their effects reduced to more basic properties of the grammatical system.<link rid="fn6">
+<sup>6</sup></link>
+</p>
+<p>In order for binding to be possible the binder must c-command the element to be bound. The standard definition is given in (7).</p>
+<p>(7)&ensp;<i>a</i> c-commands <i>b</i> if and only if <i>a</i> does not contain <i>b</i> and the first branching node dominating <i>a</i> also dominates <i>b</i>.</p>
+<p>More schematically, one can say that <i>a</i> c-commands <i>b</i> iff <i>a</i> is a sister to &ggr; containing <i>b</i>:</p>
+<p>(8)&ensp;&lsqb;a&lsqb;<sub>&ggr;</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;b&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;&rsqb;</p>
+<p>Binding by a non-c-commanding antecedent is impossible as illustrated by the ungrammaticality of <i>*John</i><sub><i>i</i>
+</sub><i>&apos;s mother loves himself</i><sub><i>i</i>
+</sub>. Putting both conditions together yields (9) as the standard condition on binding:</p>
+<p>(9)&ensp;<i>a</i> binds <i>b</i> iff <i>a</i> and <i>b</i> are co-indexed and <i>a</i> c-commands <i>b.</i>
+</p>
+<p>In addition, anaphors and pronominals impose specific locality conditions on their binders. A binder of an anaphor may not be &lsquo;too far away&rsquo;, the binding of a pronominal may not be &lsquo;too nearby&rsquo;. One of the recurrent themes in binding theory is how precisely these locality conditions are to be captured. (10) presents the binding conditions proposed in <link rid="b1">Chomsky (1981</link>):</p>
+<p>(10)&ensp;Binding Conditions:</p>
+<listgroup id="l2" type="A">
+<li level="1">
+<number>(A) </number>
+<p>An anaphor is bound in its governing category.</p>
+</li>
+<li level="1">
+<number>(B) </number>
+<p>A pronominal is free in its governing category.</p>
+</li>
+<li level="1">
+<number>(C) </number>
+<p>An R-expression is free.</p>
+</li>
+</listgroup>
+<p>This formulation of the binding conditions expresses that bound pronominals and anaphors are in complementary distribution. Although, as discussed below, binding theory has subsequently undergone considerable revision, the conditions as formulated here still constitute a fairly good first approximation. These definitions express locality by the notion of a &lsquo;governing category&rsquo;, as in (11). In the case of anaphors, the basic intuition is that they do not allow a binder that is beyond the nearest subject.</p>
+<p>(11)&ensp;&ggr; is a governing category for &alpha; if and only if &ggr; is the minimal category containing &alpha;, a governor of &alpha;, and a SUBJECT (<i>accessible to</i> &alpha;).</p>
+<p>A governor of &alpha;, in this framework is an element assigning a semantic role or Case to &alpha;. (12) illustrates the paradigm case that is captured by (11). Binding is indicated by italics; &lsqb;<sub>GC-&alpha;</sub> stands for the <i>governing category of</i> &alpha;.</p>
+<p>(12)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry><i>John</i> expected &lsqb;<sub>GC-himself/him</sub> the queen to invite <i>him</i>/*<i>himself</i> for a drink&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>GC-himself/him</sub> <i>John</i> expected &lsqb;<sub>IP</sub> <i>himself</i>/*<i>him</i> to be able to invite the queen&rsqb;&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Ignoring, for the moment, the italicized condition, (12) exemplifies what is knows as the Specified Subject Condition (SSC); the governing category of &alpha; is the domain of the subject nearest to &alpha;. For <i>him</i>/<i>himself</i> this subject is <i>the queen</i> in (12a) and <i>John</i> in (12b). Unlike what is seen in infinitives, a finite clause comes out as the governing category for its subject. One way of capturing this is to assume that the finite inflection, which is a carrier of nominal features (agreeing for person, number) also counts as a subject for the computation of the governing category. The notion SUBJECT (in capitals) thus generalizes over the DP in canonical subject position and the Agreement on the tensed verb/auxiliary.</p>
+<p>Under certain conditions, an anaphor can be appropriately bound by an antecedent that is outside the finite clause containing the anaphor. This is illustrated in (13):</p>
+<p>(13)&ensp;<i>The boys</i> were afraid &lsqb;that &lsqb;pictures of <i>themselves</i>&rsqb; would be on sale&rsqb;</p>
+<p>This &lsquo;domain extension&rsquo; is captured by the italicized condition in (11). In order to count for the computation of the governing category of an anaphor, a SUBJECT must be accessible to the anaphor. Accessibility is defined in (14):</p>
+<p>(14)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>&alpha; is accessible to &bgr; if and only if &bgr; is in the c-command domain of &alpha;, and assignment to &bgr; of the index of &alpha; would not violate the i-within-i condition.</entry>
+</row>
+<row><entry><i>i-within-i condition</i>
+</entry>
+</row>
+<row><entry>&lsqb;<sub>&ggr;</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;&delta;&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;, where &ggr; and &delta; bear the same index.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In the case of (13), co-indexing <i>&lsqb;pictures of themselves&rsqb;</i> and <i>would</i> by &lsquo;subject-verb&rsquo; agreement (irrespective of the fact that the auxiliary <i>would</i> does not carry overt agreement in English), and subsequently co-indexing <i>themselves</i> and <i>would</i> by the &lsquo;test indexing&rsquo; of (14), yields the indexing configuration of (15):</p>
+<p>(15)&ensp;<i>The boys</i> were afraid &lsqb;that &lsqb;<sub>&ggr;</sub> pictures of <i>themselves</i><sub>i</sub>&rsqb;<sub>i</sub> would<sub>i</sub> be on sale&rsqb;.</p>
+<p>This configuration violates (14), hence is marked illicit, and therefore <i>would</i> does not count as an accessible SUBJECT for <i>himself</i>. Hence, &ggr; is not a governing category for <i>himself</i>, which may therefore look for an antecedent in the next higher clause. As will be discussed in <link rid="ss10">section 9</link>, the configuration in (15) is not the only case where an anaphor may be unexpectedly bound by a more distant antecedent. This is one of the reasons for exploring alternative ways to account for this type of fact.</p>
+</subsection>
+<subsection id="ss5" level="1">
+<heading id="h4" level="1">4&ensp;<link rid="b2">Chomsky (1986b</link>)</heading>
+<p>As noted by <link rid="b20">Huang (1982a</link>) the canonical binding theory as summarized above does not capture the fact that in the possessor position of a DP bound pronominals and anaphors are not in complementary distribution, as illustrated in (16):</p>
+<p>(16)&ensp;<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry><i>The girls</i> admired &lsqb;<sub>&ggr;</sub> <i>their</i> friends&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry><i>The girls</i> admired &lsqb;<sub>&ggr;</sub> <i>each other</i>&apos;s friends&rsqb;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>On the basis of this, <link rid="b2">Chomsky (1986b</link>) following insights from <link rid="b20">Huang (1982a</link>), develops an alternative for computing the local domain. The core domain is that of a Complete Functional Complex (CFC), a domain in which all grammatical functions of a given predicate are realized. It is, then, proposed that the Binding domain of some element &alpha; is the smallest CFC containing &alpha; for which there is an indexing I which is BT compatible, where BT-compatibility reflects the following assumptions: (i) anaphors must be bound; (ii) pronominals need not be bound; (iii) that any indexing to be taken into consideration must obey the i-within-i condition; (iv) nominal heads may carry indices, but are not possible antecedents. So, for an anaphor the binding domain is the smallest CFC in which it can be bound under some indexing I, for a pronominal the binding domain is the smallest CFC in which it can be free under I. So, for <i>their</i> in (16a) it is sufficient if it is free in &ggr;, which it is. For <i>each other</i> in (16b) it is sufficient if it is bound in the next higher binding domain, which it is too.</p>
+<p>In order for an anaphor in the subject position of a finite clause to be correctly ruled out Chomsky adopts a proposal by <link rid="b21">Lebeaux (1983</link>), who assumes that anaphors undergo abstract movement towards their antecedents at LF; anaphor-movement from the subject position of a finite clause leaves a trace that does not meet general conditions on traces.<link rid="fn7">
+<sup>7</sup></link>
+</p>
+</subsection>
+<subsection id="ss6" level="1">
+<heading id="h5" level="1">5&ensp;Predicates and reflexivity</heading>
+<p>Languages often have a richer anaphora system than modern English. Many languages have a three-way or even four-way distinction between pronominals, simplex anaphors (henceforth SE-anaphors), and complex anaphors (with a possible subdivision), instead of the two-way distinction found in English. Furthermore, certain languages admit bound pronominals in environments where the canonical binding theory only allows anaphors.</p>
+<p>Much of the complexity of binding systems results from the interaction between binding and properties of predicates. Consider a situation where binder and bindee are both arguments of the same predicate. This is represented in (7), where <i>Pronoun</i> is used as a cover term for anaphors and pronominals:</p>
+<p>(17)&ensp;DP<sub>i</sub> P(redicate) Pro(noun)<sub>i</sub>
+</p>
+<p>Such a predicate is defined to be reflexive, as in (8):</p>
+<p>(18)&ensp;A predicate is reflexive iff two of its arguments (e.g. subject and object) are co-indexed.&emsp;&emsp;&emsp;&emsp;(<link rid="b22">Reinhart and Reuland 1993</link>)</p>
+<p>On the basis of the surface form the following two cases can be distinguished: (i) P allows subject and object to have different values; (ii) P does not allow this. In the latter case P is intrinsically reflexive. In English this is exemplified by predicates such as <i>behave</i>, and in Dutch by its counterpart <i>gedragen</i>: <i>John behaved X</i> is ill-formed for any expression but <i>himself</i>. The only options are <i>John behaved</i> and <i>John</i><sub><i>i</i>
+</sub> <i>behaved himself</i><sub><i>i</i>
+</sub>. In the former, <i>behave</i> clearly denotes a property. Assuming standard translation procedures from syntactic structure to &lsquo;logical syntax&rsquo; (19a) yields the logical syntax representation in (19b):<link rid="fn8">
+<sup>8</sup></link>
+</p>
+<p>(19)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John behaved</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John (&lgr;x (x behaved))</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>On the other hand, the form <i>John</i><sub><i>i</i>
+</sub> <i>behaved himself</i><sub><i>i</i>
+</sub> is technically reflexive. Both <i>John</i> and <i>himself</i> are syntactic arguments of <i>behave</i>, and they are co-indexed. Given standard translation procedures (in which a bound anaphor translates as a bound variable) (20a) will be translated as a logical syntax representation of the form (20b):</p>
+<p>(20)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source"> <tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John<sub>i</sub> behaved himself<sub>i</sub>.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>John (&lgr;x (x behaved x)).</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>However, semantically it makes no sense to interpret the sentence (20a) as denoting a reflexive relation. Despite the differences in surface syntactic form and in logical syntax, semantically (19a) and (20a) are equivalent, simply because <i>behave</i> denotes a property, not a relation. Consequently, either some process must allow (20b) to reduce to (19b), or else some process must prevent (20a) being translated as (20b), and instead translate it as (19b).</p>
+<p>Other verbs, such as <i>wash</i> allow a transitive use, but also allow object omission. Thus, one can have the transitive <i>John washed the kids</i>, a reflexive <i>John washed himself</i>, and also <i>washed</i> without an object as in <i>John washed</i> (note that this use of <i>washed</i> is infelicitous if inserted in <i>John washed the kids and</i> .&nbsp;.&nbsp;.&nbsp;). This raises the question of how the two types of <i>wash</i> are related. (That it has a dual entry shows up independently in the fact that in nominalizations with no marking whatsoever, it allows a reflexive interpretation as in <i>wassen in gezond</i> &lsquo;washing (oneself) is healthy&rsquo;. Non-reflexive predicates do not allow such a reflexive interpretation under nominalization.)</p>
+<p>
+<link rid="b23">Reinhart (2002</link>) develops a general theory about relations between verbal concepts and about the way their properties are formally coded to be legible to the computational system. Her approach to lexical alternations captures by a limited set of operations the different ways in which one verbal concept can be realized. One of these is a lexical operation that reduces the internal role.<link rid="fn9">
+<sup>9</sup></link> So, the predicate resulting from applying this reduction operation to the transitive predicate <i>wash</i> is an intransitive variant of <i>wash</i>, denoting a property.</p>
+<p>In Dutch, verbs like <i>gedragen</i> &lsquo;behave&rsquo;, <i>schamen</i>, &lsquo;be ashamed&rsquo;, etc. do not allow the object to be absent. Instead they require the simplex anaphor <i>zich</i>. Verbs such as <i>wassen</i> &lsquo;wash&rsquo; do not require the simplex anaphor, but allow it. <link rid="b23">Reinhart (2002</link>) argues that Dutch, like English, allows internal role reduction, but, unlike what happens in English, a reflex of transitivity is left in the form of a structural Case residue. This Case residue is also there in the other verbs discussed, and what the simplex anaphor <i>zich</i> does is check this Case (as would be independently required by current theories of Case as in <link rid="b24">Chomsky 1995c</link>).</p>
+<p>In English only a limited number of verbs (primarily verbs of &lsquo;grooming&rsquo;) allow object omission. In Dutch such verbs all have <i>zich</i>, but the class of Dutch verbs allowing <i>zich</i> is considerably larger. It includes transitive verbs like <i>verdedigen</i> &lsquo;defend&rsquo;, <i>snijden</i> &lsquo;cut&rsquo;, verwonden &lsquo;hurt&rsquo;, <i>ontwapenen</i> &lsquo;disarm&rsquo;, etc. Unlike the verbs of the <i>behave</i> class these verbs also allow a complex anaphor. <link rid="b25">Vikner (1984</link>) describes a relatively small closed class of verbs with mixed reflexivization properties in Danish. In Dutch, however, this class of verbs appears to be open; <link rid="b26">Barnes (1986</link>) describes a similar situation for Faroese. Yet, there is an important class of verbs that do not allow <i>zich</i>, but instead require the complex anaphor <i>zichzelf</i> &equals; <i>himself</i>, as in <i>George<sub>i</sub> bewondert zichzelf</i><sub><i>i</i>
+</sub>/*<i>zich<sub>i</sub>
+</i> &lsquo;George admires himself&rsquo;. This class of verbs includes: (i) transitive verbs such as <i>haten</i> &lsquo;hate&rsquo;, <i>bewonderen</i> &lsquo;admire&rsquo;, <i>kennen</i> &lsquo;know&rsquo;, <i>bezitten</i> &lsquo;possess&rsquo;; (ii) all verbs with a subcategorized PP object, such as <i>vertrouwen op</i> &lsquo;rely on&rsquo;, <i>afhankelijk zijn van</i> &lsquo;depend on&rsquo;.</p>
+<p>In some of its uses Dutch <i>zich</i>, like its cognates in other languages, looks like an expletive, as the counterpart of object omission in English. Yet, <i>zich</i> cannot be an expletive intrinsically, since in other environments it behaves as a real argument anaphor. For instance, it alternates with the pronominal <i>hem</i> in <i>Jan<sub>i</sub> legde het boek naast zich<sub>i</sub>
+</i>/<i>hem<sub>i</sub>
+</i> &lsquo;John put the book next to him&rsquo; and it occurs as a small clause subject in <i>Jan<sub>i</sub> voelde</i> &lsqb;<i>zich<sub>i</sub> wegglijden</i>&rsqb; &lsquo;John felt &lsqb;himself slide away&rsqb;&rsquo;. Given that <i>zich</i> is a possible argument it is surprising that it cannot occur in the object position of predicates of the non-mixed type, such as <i>bewonderen</i> &lsquo;admire&rsquo;.</p>
+<p>This leads to the following conclusions: (i) The lexical operation of internal role reduction is restricted in its scope; (ii) Where role reduction does not apply some independent principle must rule out the simplex anaphor. That is, apparently, role reduction cannot apply to <i>bewonderen</i> &lsquo;admire&rsquo;, but, if it does not, why cannot <i>Jan bewonderde zich</i> nevertheless be interpreted as <i>John (</i>&lgr;<i>x (x admired x))</i>? Although the complex anaphor has a somewhat wider distribution than just the environments where it is required (it may also be used for contrast, etc.), the general pattern comes down to this: A complex anaphor is required in cases where binding creates a reflexive predicate by &lsquo;brute force&rsquo;. It is not required when the predicate is &lsquo;prepared&rsquo; for reflexivity, either as a primitive property, or as a result of role-reduction. If the anaphor and its antecedent are not co-arguments, as in <i>Jan</i><sub><i>i</i>
+</sub> <i>voelde zich</i><sub><i>i</i>
+</sub> <i>wegglijden</i> &lsquo;John felt himself slide away&rsquo;, where the anaphor is a small clause subject, a complex anaphor is not required either. In Dutch sentences with locative of directional PPs, the simplex anaphor is allowed as well. Here, a pronominal is also possible (<i>Jan</i><sub><i>i</i>
+</sub> <i>zag een slang achter zich</i><sub><i>i</i>
+</sub><i>/hem</i><sub><i>i</i>
+</sub> &lsquo;John saw a snake behind him&rsquo;). <i>Zichzelf</i> is infelicitous here. For further discussion, see <link rid="ss7">section 6</link>.<link rid="fn10">
+<sup>10</sup></link>
+</p>
+</subsection>
+<subsection id="ss7" level="1">
+<heading id="h6" level="1">6&ensp;Reflexivity and licensers</heading>
+<p>A recurrent cross-linguistic pattern is that reflexivity of predicates must be licensed. Reflexivity of a predicate can be licensed by its lexical properties, as we saw in the previous section, or if one of its arguments is a SELF-anaphor (i.e., an element such as English X-<i>self</i>, or Dutch X-<i>zelf</i>, where X may vary over (a subset of) pronominals or SE-anaphors). This is represented in (21):</p>
+<p>(21)&ensp;A reflexive predicate is reflexive-marked.</p>
+<p>The requirement that reflexivity must be licensed is pervasive across languages. <link rid="b27">Faltz (1977</link>) and <link rid="b28">Schladt (2000</link>) present extensive overviews. Schladt, for instance, includes in his overview 147 languages from many different linguistic families, which all require special marking of reflexive constructions instead of a locally bound pronoun (simplex anaphor or pronominal). The means languages employ to license reflexive constructions are varied, but the need to do so is rather general. Faltz&apos;s typology distinguishes between &lsquo;head-reflexives&rsquo; and &lsquo;adjunct reflexives&rsquo;.<link rid="fn11">
+<sup>11</sup></link> Schladt presents a wider variety of possibilities. Languages may use SELF-type elements as in various branches of Germanic, but also forms duplicating the bound element, clitics, a range of verbal affixes, and prepositional constructions are used in addition to clear instances of body-parts or focus markers. Not all licensers are part of the anaphoric element, or even nominal. In some languages even a different construction is used, such as embedding the bound element in a PP.</p>
+<p>Whether the element used to license reflexivity is infelicitous or ungrammatical if it does not reflexivize a predicate may vary. In English, certain environments exempt a SELF-anaphor from this requirement. (22a), where the SELF-anaphor is not a syntactic argument of the predicate, is felicitous with <i>himself</i> bound by <i>Max</i>, whereas (22b), where <i>himself</i> is a syntactic argument of <i>invite</i> is ill-formed (see <link rid="ss10">section 9</link> for further discussion):</p>
+<p>(22)&ensp;<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry><i>Max</i> boasted that the queen invited Mary and <i>himself</i> for a drink.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*<i>Max</i> boasted that the queen invited <i>himself</i> for a drink.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In some other languages, for instance Malayalam, the licensing anaphor does not need to be locally bound at all (<link rid="b29">Jayaseelan 1997</link>). This is illustrated by (23):</p>
+<p>(23)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry namest="col2" nameend="col3">raaman<sub>i</sub> <u>t</u>an-ne<sub>i</sub> *(<u>t</u>anne) sneehiku<u>nn</u>u</entry>
+</row>
+<row><entry namest="col2" nameend="col3">Raman SE-acc self loves</entry>
+</row>
+<row><entry namest="col2" nameend="col3">&lsquo;Raman loves himself.&rsquo;</entry>
+</row>
+<row><entry morerows="2">b.</entry>
+<entry>raaman<sub>i</sub> wicaariccu</entry>
+<entry>&lsqb;penkuttikal <u>t</u>an-ne<sub>i</sub> <u>t</u>anne sneehikku<u>nn</u>u e<u>nn</u>
+<formula id="mu1" format="inline">
+<file name="Graphics\chapter_9_mu1.gif" type="gif"/>
+</formula>&rsqb;</entry>
+</row>
+<row><entry>Raman thought</entry>
+<entry>&lsqb;girls SE-acc self love Comp&rsqb;</entry>
+</row>
+<row><entry namest="col2" nameend="col3">&lsquo;Raman thought that the girls loved him(self).&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (23a) local binding requires the presence of the full <u><i>t</i>
+</u><i>an-ne</i><sub><i>i</i>
+</sub> <i>tanne</i>. But in (23b) the anaphor <u><i>t</i>
+</u><i>an-ne</i> <u><i>t</i>
+</u><i>anne</i> in the downstairs clause is bound by the upstairs <i>raaman</i>, indicating that it is not subject to a local binding requirement.</p>
+<p>As discussed in <related relationship="sibling" type="samework"><externallink id="chapter 38 - Logophoricity.xml" type="file">chapter 38</externallink></related> in this volume and <link rid="ss10">section 9</link> below, certain exempt anaphors receive a logophoric interpretation. The core property of logophoricity is that the logophoric element is felicitous only in reportive contexts transmitting the words or thoughts of an individual or individuals other than the speaker or narrator and designates the individual or individuals whose words or thoughts are transmitted in the reported context in which the logophoric pronoun occurs (<link rid="b30">Clements 1975</link>: 171&ndash;172). Also exempt anaphors in English may show such an effect, as illustrated in (37) below.</p>
+</subsection>
+<subsection id="ss8" level="1">
+<heading id="h7" level="1">7&ensp;Types of anaphoric expressions</heading>
+<p>As discussed in <link rid="ss4">section 3</link>, the canonical binding theory distinguishes between anaphors, pronominals, and R-expressions. For present purposes no further discussion of R-expressions is needed.</p>
+<p>We thus have an anaphoric system with essentially a two-way distinction between anaphors and pronominals. Pronominals have the capacity for independent reference (abbreviated as &lsqb;&plus;R&rsqb;), anaphors lack this capacity (abbreviated as &lsqb;&minus;R&rsqb;). The typology of anaphoric expressions in <link rid="b1">Chomsky (1981</link>) and subsequent work also includes the element PRO, as the understood subject of non-finite clauses (<i>Gerhard asked George &lsqb;PRO to leave&rsqb;</i>). In the canonical binding theory PRO was analyzed as &lt;&plus;pronominal, &plus;anaphoric&gt;. The binding conditions as formulated in (10) entail that bound pronominals and anaphors are in complementary distribution. Hence, PRO&apos;s distribution is limited to positions where it is exempted from the binding requirements.<link rid="fn12">
+<sup>12</sup></link> Although the details of the original analysis do not carry over to current theories (as in <link rid="b24">Chomsky 1995c</link> and related work), one insight has turned out to be important: whether or not an element requires a binder is not only determined by its intrinsic properties. It may also depend on how these properties interact with the syntactic environment. This is relevant for an understanding of the phenomenon of exemption in general (see <link rid="ss10">section 9</link> for further discussion of exemption and its relation to logophoricity).</p>
+<p>If we make the proviso that in certain environments SELF-anaphors in English are exempt from a binding requirement (as illustrated in (22)), this two-way system essentially captures the situation in English. Other languages have a three-way or a four-way distinction however.</p>
+<p>Dutch, for instance, distinguishes between pronominals (1st and 2nd person singular and plural; 3rd person singular masculine, feminine, and neuter; 3rd person plural common gender). Furthermore, pronominals occur in a weak or a strong form. The pronominal paradigm has rudimentary Case distinctions. Furthermore, there is a simplex anaphor <i>zich</i>, which only occurs in 3rd person (no singular/plural contrast). Here, and elsewhere we will use the term SE-anaphor as follows:</p>
+<p>(24)&ensp;A SE-anaphor is a non-clitic pronoun that lacks a specification for gender and number, and is therefore deficient in phi-features.<link rid="fn13">
+<sup>13</sup></link>
+</p>
+<p>In environments where <i>zich</i> would be used for 3rd person, 1st and 2nd person are realized by a canonical pronominal form (either the strong or the weak form in 1st person, the weak form in 2nd person). There is a complex anaphor <i>zichzelf</i> consisting of <i>zich</i> plus the morpheme <i>zelf</i>, which is a cognate of English <i>self</i>. <i>Zichzelf</i> is thus a SELF-anaphor in our terms. In 1st and 2nd person the SELF-anaphor is realized as the corresponding pronominal with <i>zelf</i>. The contexts in which SE-anaphors occur include the object position of predicates that are intrinsically reflexive, whereas SELF-anaphors occur with predicates that are not. This pattern is reflected in the following typology for anaphors and pronominals (see <link rid="b22">Reinhart and Reuland (1993</link>)).</p>
+<p>(25)&ensp;<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<thead>
+<row><entry>
+</entry>
+<entry>SELF</entry>
+<entry>SE</entry>
+<entry>(Pro)nominal</entry>
+</row>
+</thead>
+<tbody>
+<row><entry>Refl(exivizing function)</entry>
+<entry>&plus;</entry>
+<entry>&minus;</entry>
+<entry>&minus;</entry>
+</row>
+<row><entry>R(eferential independence)</entry>
+<entry>&minus;</entry>
+<entry>&minus;</entry>
+<entry>&plus;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>It is to be expected that the properties of complex anaphors follow from the properties of their parts (<link rid="b31">Hellan 1988</link>). Hence, an element of the form SE-SELF is expected to combine referential dependence with a reflexivizing function, as is the case. Contrary to what one would expect, in many contexts the combination pronominal-SELF in English or Frisian behaves identically, that is also as &lsqb;&plus;Refl, &minus;R&rsqb;. <link rid="b32">Anagnostopoulou and Everaert (1999</link>) show that, in any case, the Modern Greek anaphor <i>o eafto tu</i> is &lsqb;&plus;Refl, &plus;R&rsqb;. Therefore these feature values are not incompatible. They show that <i>eafto</i> is a nominal head and argue that Modern Greek instantiates a more general pattern of inalienable possession anaphors.</p>
+<p>Full pronominals also combine with <i>zelf</i> in Dutch. <link rid="b33">Koster (1985</link>) argues that the resulting element is an anaphor that is not subject to a local binding requirement. In fact, its interpretation is arguably logophoric. For instance, the Dutch counterparts of the English (37) discussed below show the very same contrast. Logophoric interpretation of <i>zich</i> and <i>zichzelf</i> is only marginal to impossible in Dutch. Logophoric interpretation of 1st and 2nd person SELF-anaphors is easily available, though, and subject to similar constraints as their English counterparts.<link rid="fn14">
+<sup>14</sup></link> The facts that English SELF-anaphors just like 1st and 2nd person SELF-anaphors in Dutch, and Dutch 3rd person pronominal &plus; SELF can be interpreted when they are in an exempt position, but <i>zichzelf</i> cannot, should follow from their differences in feature composition. Further exploring the insights of <link rid="b31">Hellan (1988</link>) they do. In the standard case the properties of a complex element are determined by the properties of its components together. In the case of a Pronominal &plus; SELF, it must be the SELF that in interaction with the environment contributes the &minus;R-property. However, exemption implies that SELF is not the active component.<link rid="fn15">
+<sup>15</sup></link> Hence, it cannot determine &minus;R-status of the expression as a whole. As a consequence, in the relevant environments the properties of the other component, namely the pronoun, will determine whether the expression of the form <i>&lt;pron SELF&gt;</i> is &plus;R or &minus;R. <i>Zich</i> is phi-feature deficient, hence it cannot be anything else but &minus;R, hence <i>&lt;zich SELF&gt;</i> is illicit if not bound. However if <i>pron</i> is not phi-feature deficient, nothing precludes its interpretation as &plus;R if SELF cannot come into play. This is precisely the pattern found.</p>
+<p>Scandinavian languages (Icelandic, and Norwegian with the other mainland Scandinavian languages) uncontroversially have a four-way system: Pronominals, SE-anaphors, SE-SELF, and Pronominal-SELF. Anaphor selection has a similar sensitivity to predicate structure as in Dutch, but complex anaphors come in two types: pronominal-SELF and SE-SELF; SE-SELF is required if the antecedent is a subject, pronominal-SELF if it is not. Moreover, these languages have a possessive anaphor, in addition to a possessive pronoun. The possessive anaphor must be selected if the antecedent is a subject. In Icelandic, the SE-anaphor allows a logophoric interpretation, notably in the domain of a subjunctive. Logophoric interpretation of the other forms has not been reported. See <link rid="b31">Hellan (1988</link>), <link rid="b34">Thr&aacute;insson (1991</link>), <link rid="b35">Sigurj&oacute;nsd&oacute;ttir (1993</link>), <link rid="b36">Sigurj&oacute;nsd&oacute;ttir and Hyams (1992</link>).</p>
+<p>Frisian has a two-way system, but different from English. Its system is, in fact, rather like Dutch. Only, it lacks the SE-anaphor <i>zich</i>. Instead it has the pronominal <i>him</i> &lsquo;him&rsquo;, <i>har</i> &lsquo;her&rsquo;, <i>har(ren)</i> &lsquo;them&rsquo; (given in their strong forms) where Dutch has <i>zich</i>. Frisian has local binding of pronominals in all persons (see <link rid="b37 b38">Everaert 1986b, 1991</link>). These elements are true pronouns. Consequently, a sentence like <i>Jan fielde him fuortglieden</i> &lsquo;John felt PRON slip away&rsquo; is ambiguous between a reading in which John slips away and a reading in which someone else slips away, unlike its Dutch counterpart with <i>zich</i>. <link rid="b39">Reuland and Reinhart (1995</link>) relate local binding of this class of pronominals in Frisian to an independent property of the Case system; these pronominals are underspecified for structural Case. Although, just like Dutch, Frisian pronominals have weak forms alongside strong forms, the weak/strong distinction is irrelevant to local binding. In other respects the Frisian anaphoric system is like Dutch. Where Dutch has <i>zichzelf</i>, Frisian has <i>himsels</i>, etc.</p>
+<p>German (notably, the standard variant High German) superficially has a two-way system, distinguishing between pronominals and anaphors. The canonical 3rd person anaphor is a monomorphemic <i>sich</i>. It occurs regardless of the properties of the predicate. So, one has <i>er sch&auml;mt sich</i> &lsquo;he is ashamed&rsquo; alongside <i>er hasst sich</i> &lsquo;he hates himself&rsquo;; the same holds true for all persons. The one indication of a potential structural difference is that the <i>sich</i> in <i>er hasst sich</i> can be topicalized and stressed as in <i>sich hasst er</i>, whereas the sich in <i>er sch&auml;mt sich</i> cannot. In Dutch <i>zich</i> can never be topicalized, even when it is a true argument, as in *<i>zich voelde hij t wegglijden</i> &lsquo;himself he felt slip away&rsquo;. In such a case <i>zichzelf</i> must be used. If the possibility to bear stress is reflects differences in internal structure, the two types of <i>sich</i> could be argued to be structurally distinct. Although German allows the morpheme <i>selbst</i> to be attached to <i>sich</i> and pronominals, there is little evidence that it is more than an emphatic element (but see the discussion of datives in <link rid="b22">Reinhart and Reuland 1993</link>; and <link rid="b39">Reuland and Reinhart 1995</link>).</p>
+<p>It follows from this typology that SELF-anaphors are local, unless they are exempt. For the binding properties of SE-anaphors, see <link rid="ss9">section 8</link>.</p>
+<p>Extending this discussion to cover a substantial part of the languages of the world would lead beyond the confines of a quick overview. The literature contains substantial discussion of contrasts in Mandarin Chinese between a simplex anaphor <i>ziji</i> and a complex anaphor <i>ta ziji</i>, where the former is often classed as long-distance and the latter as local (see the literature cited in <link rid="ss9">section 8</link>). A contrast between a simplex anaphor <i>zibun</i> and a complex anaphor <i>zibun zisin</i> has been reported in Japanese. Whereas <i>zibun zisin</i>, like other complex anaphors based on <i>zibun</i> is local, the precise properties of <i>zibun</i> are much debated. It has been typed as an element much like a typical SE-anaphor (<link rid="b40">Aikawa 1993</link>), but also as an element more like a Frisian type pronominal, which in some of its uses hides the more complex structure that has been claimed for German <i>sich</i> (<link rid="b41">Hara 2001</link>). Matters tend to be obscured by the fact that its interpretation is much more sensitive to discourse factors that generally enter into logophoric interpretation than its counterparts in Germanic.</p>
+</subsection>
+<subsection id="ss9" level="1">
+<heading id="h8" level="1">8&ensp;Long-distance anaphora</heading>
+<p>In general an anaphoric relation is defined as long-distance when the antecedent is outside the governing category of the anaphoric element as defined in (11), or, to put it informally, when the binding relation crosses a subject. Since in the case of pronominal binding this is nothing special, more specifically the term is used whenever an anaphor depends for its interpretation on an antecedent outside its governing category. Much of the discussion in the literature centers on the question of whether long-distance anaphora is restricted to certain anaphor types, and on the question of what motivates it. Another issue, discussed in <link rid="ss10">section 9</link>, is that not all anaphor-antecedent relations are of the same type. Structural binding relations must be distinguished from relations governed by a logophoric strategy. In this section we will summarize the structural binding part.</p>
+<p>
+<link rid="b42">Bouchard (1984</link>) argued that in order to be interpreted, an argument must be fully specified for phi-features. Many languages have anaphors that lack a full specification for phi-features. If so, it follows from this requirement that they must acquire a full specification in order to be interpreted. This type of element includes Dutch <i>zich</i>, Icelandic <i>sig</i>, Norwegian <i>seg</i>, (Mandarin) Chinese <i>ziji</i>, and Japanese <i>zibun</i>, etc. In line with a proposal by <link rid="b21">Lebeaux (1983</link>), for such anaphors, binding is taken to require abstract movement to an element supplying them with phi-features. If the moved element is just a head, standard conditions on movement yield that subjects do not count as interveners. Hence, one would expect only those locality restrictions on their binding domains that follow from general properties of movement (see <link rid="b27">Faltz 1977</link>; <link rid="b43 b44">Pica 1987, 1991</link>).</p>
+<p>Following this line, it has been proposed that long-distance anaphora in Chinese is licensed by abstract movement of the anaphor <i>ziji</i> in Chinese to a source for phi-features (<link rid="b45">Battistella 1987</link>; <link rid="b46">Cole et al. 1990</link>). These authors assume that <i>ziji</i> is an X<sup>0</sup> constituent that undergoes head-movement to a suitable target. A c-commanding NP will not do, since it is a maximal projection. The only element that meets the requirements that it c-commands the anaphor, is in head position, and carries phi-features is AGR. The result is summarized in (26):</p>
+<p>(26)&ensp;SE-heads move to AGR at LF.</p>
+<p>It is assumed that AGR is inside I, so the movement is to I. Since AGR is always co-indexed with the subject and SE-anaphors always associate with AGR, it follows that SE-anaphors, in their grammatical (non-logophoric) use are subject-oriented. It is assumed that movement of <i>ziji</i> is not restricted, since any higher subject is a possible antecedent, provided no blocking effect obtains.</p>
+<p>The blocking effect in Chinese can be briefly characterized as follows: the path between <i>ziji</i> and its envisaged antecedent may not contain a possible antecedent with a different specification for person from the latter.</p>
+<p>
+<link rid="b47">Huang and Tang (1991</link>) retain the idea of LF-movement, but argue that <i>ziji</i> is syntactically <i>pro-ziji</i>. Movement of <i>ziji</i> is, then, in fact successive-cyclic A&prime;-movement of an XP, adjoining it to IP, instead of X<sup>0</sup>-movement. This movement, they argue is not subject to antecedent-government requirements. They assume that <i>ziji</i> picks up its phi-features immediately in the local domain. Once it has phi-features it may be interpreted as bound by any potential higher-up antecedent provided it has moved into the latter&apos;s domain. Thus, in each of the positions it occupies <i>ziji</i> may undergo local binding. The blocking effect reduces to a mismatch between phi-features initially acquired and the phi-features of an intervening potential binder. Once movement leads to a configuration in which there is a mismatch, as between 3rd person and 1st person, the derivation is blocked. Such blocking effects have not been reported for languages with a relatively strong verbal inflection.<link rid="fn16">
+<sup>16</sup></link>
+</p>
+<p>This relation between verbal inflection and blocking can, then, be understood on the basis of the following informal representation, with the relevant dependencies indicated regardless of details of order and hierarchical structure:</p>
+<p>(27)&ensp;<object id="fu1" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_9_fu1.jpg" type="jpg" id="fu1_source"/>
+</objectsource>
+</object>
+</p>
+<p>As a widely adopted implementation runs, an INFL entirely without phi-features is susceptible to adopting features from the anaphor, which leads to a clash with the subject features if they are different. An INFL with phi-features stays firm and limits feature exchange to the subject as its canonical &lsquo;mate&rsquo;. An LF-movement approach has also been argued for Japanese <i>zibun</i> (<link rid="b48">Katada 1991</link>).</p>
+<p>Across the Germanic languages the binding domain of SE-anaphors shows considerable variation. From the LF-movement perspective this requires an independent explanation. See <related relationship="sibling" type="samework"><externallink id="chapter 40 - Long-Distance Binding in Germanic Languages.xml" type="file">chapter 40</externallink></related>.</p>
+</subsection>
+<subsection id="ss10" level="1">
+<heading id="h9" level="1">9&ensp;Binding vs. logophoricity</heading>
+<p>Many approaches to long-distance binding make the empirical assumption that the dependencies under consideration invariably reflect structural binding relations. One of the important results of the study of anaphora is the discovery of a systematic distinction between true structural binding, either local or long-distance, and the interpretation of anaphoric elements in exempt positions. Already in the seventies <link rid="b49">Ross (1970b</link>), <link rid="b50">Cantrall (1974</link>), and <link rid="b51 b52">Kuno (1972b, 1975</link>, see also <link rid="b53">Kuno 1987a</link>) observed that 1st and 2nd person anaphors in English can occur without a linguistic antecedent, as illustrated in (28):</p>
+<p>(28)&ensp;Physicists like yourself are a godsend.&ensp;(<link rid="b49">Ross 1970b</link>)</p>
+<p>In fact, violations of condition A are not limited to 1st and 2nd person anaphors. As noted by <link rid="b15">Pollard and Sag (1992</link>), already <link rid="b8">Postal (1971</link>) observed that picture nouns reflexives are not subject to the same constraints as ordinary reflexives. <link rid="b42">Bouchard (1984</link>) concluded that a general distinction exists between true anaphors and exempt anaphors. In line with this, <link rid="b54">Zribi-Hertz (1989</link>) discusses about 130 examples from actual texts of English anaphors not obeying the binding conditions, hence logophoric in our present sense, including cases with a 1st person anaphor like (29a) as well as cases with a 3rd person anaphor like (29b):</p>
+<p>(29)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>She gave both Brenda and myself a dirty look.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>It angered him that she&nbsp;.&nbsp;.&nbsp;.&nbsp;tried to attract a man like himself.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The earliest discussion pointing towards a systematic distinction between structural binding and logophoricity is by <link rid="b30">Clements (1975</link>), elaborating on <link rid="b55">Hag&egrave;ge (1974</link>) (see <related relationship="sibling" type="samework"><externallink id="chapter 38 - Logophoricity.xml" type="file">chapter 38</externallink></related>), followed by <link rid="b56">Sells (1987</link>). Extensive investigation of logophoricity versus structural binding has been conducted on Icelandic (based on <link rid="b57">Thr&aacute;insson 1976a</link>; and <link rid="b58 b59">Maling 1984, 1986</link>). <link rid="b60">Anderson (1986</link>), <link rid="b61">Hellan (1991a</link>), and <link rid="b34">Thr&aacute;insson (1991</link>) found systematic differences in Icelandic between long-distance &lsquo;binding&rsquo; into finite clauses (indicative or subjunctive) and long-distance binding into infinitival clauses indicating that only the latter falls under the structural binding theory. The other occurrences of long-distance anaphors are logophoric. As such, their distribution is much freer, and they are governed by discourse, rather than by purely structural considerations (see <related relationship="sibling" type="samework"><externallink id="chapter 33 - Icelandic Logophoric Anaphora.xml" type="file">chapter 33</externallink></related> for further discussion). Some of the earlier work on anaphors in Italian also addresses issues that in retrospect typically involve binding versus logophoricity (<link rid="b62">Napoli 1979</link>; <link rid="b63">Giorgi 1984</link>; see <link rid="b64">Reuland 1990</link> for some discussion).</p>
+<p>English shows a clear and systematic pattern in the distribution of bound versus exempt anaphors, which is illustrated by the contrasts in (30&ndash;34):</p>
+<p>(30)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Physicists like yourself are a godsend.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*A famous physicist has just looked for yourself.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(31)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>She gave both Brenda and myself a dirty look.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*She gave myself a dirty look.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(32)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>It angered him that she &hellip; tried to attract a man like himself.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*It angered him that she tried to attract himself.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(33)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Max boasted that the queen invited Lucie and himself for a drink.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Max boasted that the queen invited himself for a drink.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(34)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>This letter was addressed only to myself.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*This letter was addressed to myself.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>What the exempt cases have in common is that the anaphor is not itself a syntactic argument of the main predicate, rather it is contained in such an argument. For instance, in (32a), the object argument of <i>attract</i> is <i>a man like himself</i>, in (33a) the object argument of <i>invite</i> is <i>Lucie and himself</i>, not just <i>himself</i>, in (34a) <i>myself</i> bears focus. Systematic accounts of the distribution of true versus exempt anaphors are presented in <link rid="b65 b22">Reinhart and Reuland (1991, 1993</link>) and <link rid="b15 b16">Pollard and Sag (1992, 1994</link>).</p>
+<p>Pollard and Sag base their approach on an obliqueness hierarchy:</p>
+<p>(35)&ensp;An anaphor must be co-indexed with a less oblique coargument, if there is one.</p>
+<p>If an anaphor fails to have a less oblique coargument it is exempt.<link rid="fn17">
+<sup>17</sup></link>
+</p>
+<p>
+<link rid="b65 b22">Reinhart and Reuland (1991, 1993</link>) analyze anaphors such as <i>himself</i> (SELF-anaphors) as reflexive markers. SELF-anaphors mark a predicate of which they are arguments as reflexive. A syntactic predicate, i.e., a predicate with a subject, must be interpreted as reflexive if it is reflexive marked. If a SELF-anaphor is not an argument of a syntactic predicate, it is exempt.<link rid="fn18">
+<sup>18</sup></link>
+</p>
+<p>Regardless of further differences in scope, in this particular domain both theories capture essentially the same pattern, and both entail that the interpretation of exempt anaphors, and only of these, is subject to processing and discourse constraints, rather than to structural conditions. The role of processing constraints is illustrated by sensitivity to the nature of interveners, as illustrated in (36) (examples from <link rid="b15">Pollard and Sag (1992</link>), with some indexings added):</p>
+<p>(36)</p>
+<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Bill<sub>j</sub> remembered that <i>Tom</i><sub><i>i</i>
+</sub> saw &lsqb;a picture of himself<sub>i/*j</sub>&rsqb; in the post office.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Bill<sub>j</sub> remembered that the <i>Times</i><sub><i>i</i>
+</sub> had printed &lsqb;a picture of himself<sub>*i/?j</sub>&rsqb; in the Sunday Edition.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Bill<sub>j</sub> thought that <i>nothing</i><sub><i>i</i>
+</sub> could make &lsqb;a picture of himself<sub>*i/j</sub> in the <i>Times</i>&rsqb; acceptable to Sandy.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+<p>As these examples show, an intervening argument does or does not block a crossing dependency depending on whether it qualifies as a potential antecedent. The relevance of discourse conditions to the interpretation of exempt anaphors is illustrated by contrasts as in (37):</p>
+<p>(37)&ensp;<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2"/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John<sub>i</sub> was going to get even with Mary. That picture of himself<sub>i</sub> in the paper would really annoy her, as would the other stunts he had planned.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Mary was quite taken aback by the publicity John<sub>i</sub> was receiving. That picture of himself<sub>i</sub> in the paper had really annoyed her, and there was not much she could do about it. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>There is a clear difference in well-formedness between these two discourses. Yet, structurally the position of the anaphor <i>himself</i> is identical in both cases. The only relevant contrast is in the discourse status of the antecedent. In (37a) John&apos;s viewpoint is taken, in (37b) Mary&apos;s. Hence, in (37b) <i>John</i> does not yield a proper discourse antecedent for <i>himself</i>.</p>
+<p>It is important to distinguish between the syntactic notion of an exempt position, and the semantic notion of logophoricity. It is an empirical issue to what extent all English anaphors in exempt position are indeed sensitive to the factors typically involved in logophoricity. The same holds true for exempt anaphors in other languages. In (37) exemption and logophoricity coincide. In other cases, for instance (22), this remains to be established. But note, that discourse based interpretation strategies may vary. See <link rid="b66">Cole et al. (2001a</link>) for much material and discussion, and <link rid="b67">Cole et al. (2001b</link>) for a case of striking variation between closely related languages. Hence, certain discourse based interpretation strategies may in fact not involve logophoricity in any strict sense.</p>
+<p>We can conclude this overview with an important methodological conclusion for the study of long-distance anaphora:</p>
+<p>In each case of a non-local dependency it is crucial to determine whether interpretation involves binding or a discourse based strategy.</p>
+</subsection>
+<subsection id="ss11" level="1">
+<heading id="h10" level="1">NOTES</heading>
+<p>I would like to thank an anonymous reviewer for helpful comments.</p>
+<p>
+<span id="fn1">
+<number>1&emsp;</number>Pre-theoretically, these are the positions associated with grammatical functions, such as subject, object, etc. I will refrain from discussing issues in current theories of Case assignment or Case checking.</span>
+</p>
+<p>
+<span id="fn2">
+<number>2&emsp;</number>This does not imply that they cannot be used anaphorically, or that for some an anaphoric use cannot be strongly preferred, as in the case of epithets.</span>
+</p>
+<p>
+<span id="fn3">
+<number>3&emsp;</number>In part of the literature the term <i>anaphor</i> is used for any expression that refers back to an individual previously mentioned. So, under that use <i>the idiot</i> in <i>George decided to attack. The idiot thought he could fool everyone</i> is an anaphor. Here I will follow the standard usage in the generative literature and reserve the term <i>anaphor</i> for &lsquo;specialized&rsquo; anaphors. So, <i>the idiot</i> &lsquo;is&rsquo; not an anaphor, although it &lsquo;is used&rsquo; here as anaphoric to George.</span>
+</p>
+<p>
+<span id="fn4">
+<number>4&emsp;</number>For discussion of reciprocals see also <link rid="b68">Williams (1991</link>), or <link rid="b69">Dalrymple et al. (1994</link>).</span>
+</p>
+<p>
+<span id="fn5">
+<number>5&emsp;</number>Roughly, the issue is whether indices directly reflect the referential properties of nominal expressions, or are annotations of the structure that can only be interpreted when they express binding relations. See <link rid="b70">Chomsky (1980a</link>), <link rid="b71">Fiengo and May (1994</link>), <link rid="b72">Lasnik (1989a</link>), and <link rid="b73">Reinhart (1983a</link>) for different stands on that issue.</span>
+</p>
+<p>
+<span id="fn6">
+<number>6&emsp;</number>See, for instance, <link rid="b16">Pollard and Sag (1994</link>), <link rid="b24">Chomsky (1995c</link>), <link rid="b17">Reinhart (2000a</link>), <link rid="b74">Reuland (2001</link>), and with a different perspective, <link rid="b75">Kayne (2002</link>), and <link rid="b76">Hornstein (2001</link>).</span>
+</p>
+<p>
+<span id="fn7">
+<number>7&emsp;</number>Within the framework of <link rid="b2">Chomsky (1986b</link>) the trace was required to be antecedent-governed. Failing this it violated the empty category principle. In current theory these effects are derived from more fundamental properties of the grammar. Discussion would lead us beyond the scope of this contribution.</span>
+</p>
+<p>
+<span id="fn8">
+<number>8&emsp;</number>It is important to stress that &lsquo;logical syntax&rsquo; does not equal semantics. Two different expressions in logical syntax may well be semantically equivalent as a matter of contingent fact. Such equivalences may even be systematic and stateable in terms of properties of their form. So one may well wish to say that one form reduces to another as a matter of fact, without implying that there is a logical equivalence relation between the two.</span>
+</p>
+<p>
+<span id="fn9">
+<number>9&emsp;</number>For earlier relevant discussion, see <link rid="b77">Chierchia (2004</link>).</span>
+</p>
+<p>
+<span id="fn10">
+<number>10&emsp;</number>Note that strictly speaking role reduction is not the only factor that could account for the simplex anaphor being allowed. Also internal structure of the predicate could conceivably play a role. However, I will not pursue that here.</span>
+</p>
+<p>
+<span id="fn11">
+<number>11&emsp;</number>In Faltz&apos;s typology, head reflexives are based on an element that occurs independently as a nominal head (not rarely a body part), generally with a pronominal specifier. The relation may be understood as one of inalienable possession (<link rid="b43 b44">Pica 1987, 1991</link>). Faltz gives a few examples (including Basque, Fula, Malagasy, and Hebrew) one of which is repeated here for illustration:</span>
+</p>
+<p>Basque<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5"/>
+<tbody>
+<row><entry morerows="5"> (i)</entry>
+<entry morerows="2">a.</entry>
+<entry>aitak</entry>
+<entry>bere burua</entry>
+<entry>hil du</entry>
+</row>
+<row><entry>father&plus;ERG</entry>
+<entry>3SGPOSS head&plus;NOMDEF</entry>
+<entry>kill have&plus;3SG&plus;3SG</entry>
+</row>
+<row><entry namest="col3" nameend="col5">&lsquo;The father killed himself.&rsquo;</entry>
+</row>
+<row><entry morerows="2">b.</entry>
+<entry namest="col3" nameend="col5">bere buruan txapeli ipi&ntilde;i du</entry>
+</row>
+<row><entry namest="col3" nameend="col5">3SGPOSS head&plus;LOCDEF cap&plus;NOM put have&plus;3SG&plus;3SG</entry>
+</row>
+<row><entry namest="col3" nameend="col5">&lsquo;He put the cap on his head.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The same stem which occurs as a lexical N meaning &lsquo;head&rsquo; in (ib) is used as a reflexive in (ia).</p>
+<p>Adjunct reflexives are constructed of a pronoun or simplex anaphor and an adjunct, marking emphasis or focus, which may also attach to lexical NPs. According to <link rid="b29">Jayaseelan (1997</link>), Malayalam represents this option. One of the examples Faltz gives is Irish:</p>
+<p>Irish:<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3"/>
+<tbody>
+<row><entry morerows="3">(ii)</entry>
+<entry morerows="1">a.</entry>
+<entry>ghortaigh Se&aacute;n &eacute;</entry>
+</row>
+<row><entry>&lsquo;Sean hurt him.&rsquo;</entry>
+</row>
+<row><entry morerows="1">b.&ensp;</entry>
+<entry>ghortaigh Se&aacute;n &eacute; f&eacute;in</entry>
+</row>
+<row><entry>&lsquo;Sean hurt himself.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<span id="fn12">
+<number>12&emsp;</number>Within the framework of <link rid="b1">Chomsky (1981</link>) this explains why PRO&apos;s distribution is limited to positions where it lacks a governor/Case assigner, the &lsquo;subject&rsquo; position of tense-less clauses. Consequently, in precisely these positions it lacks a governing category in which it &lsquo;has to be&rsquo; bound or free.</span>
+</p>
+<p>
+<span id="fn13">
+<number>13&emsp;</number>Although clitics in Romance may share with <i>zich</i> a phi-feature deficiency, their clitic-hood may entail properties that do not necessarily obtain for <i>zich</i> and its cognates. Hence, they are not SE-anaphors in the present sense.</span>
+</p>
+<p>
+<span id="fn14">
+<number>14&emsp;</number>The following contrasts illustrate that Dutch <i>mezelf</i>, just like English <i>myself</i>, reflexivizes a syntactic predicate only if it is a syntactic argument of the latter:</span>
+</p>
+<listgroup id="l3" type="i">
+<li level="1">
+<number>(i)&ensp;</number>
+<p>Er waren vijf toeristen in de kamer behalve mezelf.</p>
+<p>&lsquo;There were five tourists in the room apart from myself.&rsquo;</p>
+</li>
+<li level="1">
+<number>(ii)&ensp;</number>
+<p>*Vijf toeristen praatten met mezelf in de kamer.</p>
+<p>&lsquo;*Five tourists talked to myself in the room.&rsquo;</p>
+</li>
+</listgroup>
+<p>
+<span id="fn15">
+<number>15&emsp;</number>For discussion of the precise role of SELF see <link rid="b74">Reuland (2001</link>).</span>
+</p>
+<p>
+<span id="fn16">
+<number>16&emsp;</number>Romanian may be an exception, though (Anca Sevcenco, work in progress).</span>
+</p>
+<p>
+<span id="fn17">
+<number>17&emsp;</number>For ease of reference I summarize the definitions and conditions given in <link rid="b15">Pollard and Sag (1992</link>):</span>
+</p>
+<listgroup id="l4" type="i">
+<li level="1">
+<number>(i)&ensp;</number>
+<p><i>Definitions of o-command and o-binding</i>
+</p>
+<p>A <i>o-commands</i> B just in case A locally o-commands some C dominating B.</p>
+<p>A <i>o-binds</i> B just in case A and B are co-indexed and A o-commands B. If B is not o-bound it is said to be <i>o-free</i>.</p>
+</li>
+<li level="1">
+<number>(ii)&ensp;</number>
+<p><i>Binding theory</i>
+</p>
+</li>
+<li level="2">
+<number>A.&ensp;</number>
+<p>A locally o-commanded anaphor must be locally o-bound.</p>
+</li>
+<li level="2">
+<number>B.&ensp;</number>
+<p>A personal pronoun must be locally o-free.</p>
+</li>
+<li level="2">
+<number>C.&ensp;</number>
+<p>A non-pronoun must be o-free.</p>
+</li>
+</listgroup>
+<p>
+<span id="fn18">
+<number>18&emsp;</number>For ease of reference, I summarize the definitions and conditions from <link rid="b22">Reinhart and Reuland (1993</link>):</span>
+</p>
+<listgroup id="l5" type="i">
+<li level="1">
+<number>(i)&ensp;</number>
+<p><i>Definitions</i>:</p>
+</li>
+<li level="2">
+<number>a.&ensp;</number>
+<p>The <i>syntactic predicate</i> formed of (a head) P is P, all its syntactic arguments and an external argument of P (subject).</p>
+<p>The <i>syntactic arguments</i> of P are the projections assigned theta-role or Case by P.</p>
+</li>
+<li level="2">
+<number>b.&ensp;</number>
+<p>The <i>semantic predicate</i> formed of P is P and all its arguments at the relevant semantic level.</p>
+</li>
+<li level="2">
+<number>c.&ensp;</number>
+<p>A predicate is <i>reflexive</i> iff two of its arguments are co-indexed.</p>
+</li>
+<li level="2">
+<number>d.&ensp;</number>
+<p>A predicate (of P) is <i>reflexive-marked</i> iff either (i) P is lexically reflexive or (ii) one of P&apos;s arguments is a SELF-anaphor.</p>
+</li>
+<li level="1">
+<number>(ii)&ensp;</number>
+<p><i>Binding conditions</i>:</p>
+</li>
+<li level="2">
+<number>A:&ensp;</number>
+<p>A reflexive-marked syntactic predicate is reflexive.</p>
+</li>
+<li level="2">
+<number>B:&ensp;</number>
+<p>A reflexive semantic predicate is reflexive-marked.</p>
+</li>
+<li level="1">
+<number>(iii)&ensp;</number>
+<p><i>Generalized chain definition</i>:</p>
+<p>C &equals; (&alpha;<sub>1</sub>,&nbsp;.&nbsp;.&nbsp;.&nbsp;, &alpha;<sub>n</sub>) is a chain iff C is the maximal sequence such that:</p>
+</li>
+<li level="2">
+<number>(i)&ensp;</number>
+<p>there is an index i such that for all j, 1 &lt; j &lt; n, &alpha;<sub>j</sub> carries that index, and</p>
+</li>
+<li level="2">
+<number>(ii)&ensp;</number>
+<p>for all j, 1 &lt; j <i>&lt;</i> n, &alpha;<sub>j</sub> governs &alpha;<sub>j&plus;1</sub>
+</p>
+</li>
+<li level="1">
+<number>(iv)&ensp;</number>
+<p><i>Condition on A-chains</i> (condition on well-formedness):</p>
+<p>A maximal A-chain (&alpha;<sub>1</sub>,&nbsp;.&nbsp;.&nbsp;.&nbsp;, &alpha;<sub>n</sub>) contains exactly one link &ndash; &alpha;<sub>1</sub> &ndash; which is completely specified for grammatical features.</p>
+</li>
+</listgroup>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss12" level="1" type="references">
+<heading id="h11" level="1">REFERENCES</heading>
+<reference id="b40" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Aikawa</surname><x>, </x><forenames>Takako</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date>
+<miscellaneoustext>). Reflexivity in Japanese and LF-Analysis of <i>Zibun</i>-Binding. PhD dissertation, Ohio State University</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b32" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Anagnostopoulou</surname><x>, </x><forenames>Elena</forenames>
+</name><x> and </x><name type="author">
+<forenames>Martin</forenames><x> </x><surname>Everaert</surname>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">Towards a More Complete Typology of Anaphoric Expressions</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>30</volume><x>: </x><page type="first">97</page><x>&ndash;</x><page type="last">118</page><x>.</x>
+</reference>
+<reference id="b60" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Anderson</surname><x>, </x><forenames>Stephen</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">The Typology of Anaphoric Dependencies: Icelandic (and other) Reflexives</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Topics in Scandinavian Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Lars</forenames><x> </x><surname>Hellan</surname>
+</name><x> and </x><name type="editor">
+<forenames>Kirsti<x> </x>Koch</forenames><x> </x><surname>Christensen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">65</page><x>&ndash;</x><page type="last">88</page><x>. </x><address>Dordrecht</address><x>; </x><publisher>Reidel</publisher><x>.</x>
+</reference>
+<reference id="b26" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Barnes</surname><x>, </x><forenames>Michael</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Reflexivisation in Faroese</title><x>. </x><title type="journal">Arkiv f&ouml;r Nordisk Filologi</title><x> </x><volume>101</volume><x>: </x><page type="first">95</page><x>&ndash;</x><page type="last">126</page><x>.</x>
+</reference>
+<reference id="b45" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Battistella</surname><x>, </x><forenames>Edwin</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Chinese Reflexivization</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Second Harbin Conference on Generative Grammar</title><x>. </x><address>Harbin</address><x>: </x><publisher>Heilongjiang University</publisher><x>.</x>
+</reference>
+<reference id="b42" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Bouchard</surname><x>, </x><forenames>Denis</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="book">On the Content of Empty Categories</title>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b12" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>B&uuml;ring</surname><x>, </x><forenames>Daniel</forenames>
+</name>
+</namegroup><x> (</x><date date="2005">2005</date><x>). </x><title type="book">Binding Theory</title>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b50" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cantrall</surname><x>, </x><forenames>William</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date><x>). </x><title type="book">View Point, Reflexives and the Nature of Noun Phrases<x>.</x>
+</title><x> </x><address>The Hague</address><x>: </x><publisher>Mouton.</publisher>
+</reference>
+<reference id="b77" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chierchia</surname><x>, </x><forenames>Gennaro</forenames>
+</name>
+</namegroup><x> (</x><date date="2004">2004</date><x>). </x><title type="document">A Semantics for Unaccusatives and its Syntactic Consequences</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The Unaccusativity Puzzle</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Artemis</forenames><x> </x><surname>Alexiadou</surname>
+</name><x>, </x><name type="editor">
+<forenames>Elena</forenames><x> </x><surname>Anagnostopoulou</surname>
+</name><x>
+</x><x>, and </x><name type="editor">
+<forenames>Martin</forenames><x> </x><surname>Everaert</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">288</page><x>&ndash;</x><page type="last">331</page>
+<x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press.</publisher>
+</reference>
+<reference id="b70" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980a</date><x>). </x><title type="document">On Binding</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>11</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">46</page><x>.</x>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="book">Lectures on Government and Binding</title>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986b</date><x>). </x><title type="book">Knowledge of Language: Its Nature, Origin and Use</title>
+<x>. </x><address>New York</address><x>: </x><publisher>Praeger.</publisher>
+</reference>
+<reference id="b24" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995c</date><x>). </x><title type="book">The Minimalist Program</title>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b30" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Clements</surname><x>, </x><forenames>George<x> </x>Nicholas</forenames>
+</name>
+</namegroup><x> (</x><date date="1975">1975</date><x>). </x><title type="document">The Logophoric Pronoun in Ewe: Its Role in Discourse</title><x>. </x><title type="journal">Journal of West African Languages</title><x> </x><volume>10</volume><x>: </x><page type="first">141</page><x>&ndash;</x><page type="last">177</page><x>.</x>
+</reference>
+<reference id="b46" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Cole</surname><x>, </x><forenames>Peter</forenames>
+</name><x>, </x><name type="author">
+<forenames>Gabriella</forenames><x> </x><surname>Hermon</surname>
+</name>
+<x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>Li-May</forenames><x> </x><surname>Sung</surname>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Principles and Parameters of Long Distance Reflexives</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>21</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">23</page><x>.</x>
+</reference>
+<reference id="b66" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cole</surname><x>, </x><forenames>Peter</forenames>
+</name><x>, </x><name type="author">
+<forenames>Gabriella</forenames><x> </x><surname>Hermon</surname>
+</name>
+<x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>C.-T<x>. </x>James</forenames><x> </x><surname>Huang</surname>
+</name>
+</namegroup><x> (</x><date date="2001">2001a</date><x>). </x><title type="book">Long Distance Reflexives</title>
+<x>. </x><address>San Diego</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference id="b67" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cole</surname><x>, </x><forenames>Peter</forenames>
+</name><x>, </x><name type="author">
+<forenames>Gabriella</forenames><x> </x><surname>Hermon</surname>
+</name>
+<x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>Cher<x> </x>Leng</forenames><x> </x><surname>Lee</surname>
+</name>
+</namegroup><x> (</x><date date="2001">2001b</date><x>). </x><title type="document">Grammatical and Discourse Conditions on Long-Distance Reflexives in Two Chinese Dialects</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Long-Distance Reflexives</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Cole</surname>
+</name><x>, </x><name type="editor">
+<forenames>Gabriella</forenames><x> </x><surname>Hermon</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>C.-T<x>. </x>James</forenames><x> </x><surname>Huang</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>New York</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference id="b14" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Dalrymple</surname><x>, </x><forenames>Mary</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="book">The Syntax of Anaphoric Binding<x>.</x>
+</title><x> </x><address>Stanford, CA</address><x>: </x><publisher>CSLI Publications.</publisher>
+</reference>
+<reference id="b69" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Dalrymple</surname><x>, </x><forenames>Mary</forenames>
+</name><x>, </x><name type="author">
+<forenames>Sam</forenames><x> </x><surname>Mchombo</surname>
+</name>
+<x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>Stanley</forenames><x> </x><surname>Peters</surname>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">Semantic Similarities and Syntactic Contrasts between Chichewa and English Reciprocals</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>25</volume><x>: </x><page type="first">145</page><x>&ndash;</x><page type="last">163</page><x>.</x>
+</reference>
+<reference id="b37" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Everaert</surname><x>, </x><forenames>Martin</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986b</date><x>). </x><title type="book">The Syntax of Reflexivization</title>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b38" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Everaert</surname><x>, </x><forenames>Martin</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Contextual Determination of the Anaphor/Pronominal Distinction</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Long-Distance Anaphora</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jan</forenames><x> </x><surname>Koster</surname>
+</name><x> and </x><name type="editor">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">77</page><x>&ndash;</x><page type="last">118</page>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b27" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Faltz</surname><x>, </x><forenames>Leonard<x> </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date>
+<miscellaneoustext>). Reflexivization: A Study in Universal Syntax. PhD dissertation, University of California at Berkeley</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b71" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Fiengo</surname><x>, </x><forenames>Robert</forenames>
+</name><x> and </x><name type="author">
+<forenames>Robert</forenames><x> </x><surname>May</surname>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">Indices and Identity</title>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b63" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Giorgi</surname><x>, </x><forenames>Alessandra</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">Towards a Theory of Long-Distance Anaphors: A GB Approach</title><x>. </x><title type="journal">The Linguistic Review</title><x> </x><volume>3</volume><x>: </x><page type="first">307</page><x>&ndash;</x><page type="last">359</page><x>.</x>
+</reference>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Gleason</surname><x>, </x><forenames>Henry</forenames>
+</name>
+</namegroup><x> (</x><date date="1965">1965</date><x>). </x><title type="book">Linguistics and English Grammar</title><x>. </x><address>New York</address><x>: </x><publisher>Holt, Rinehart and Winston</publisher><x>.</x>
+</reference>
+<reference id="b55" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hag&egrave;ge</surname><x>, </x><forenames>Claude</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date><x>). </x><title type="document">Les Pronoms Logophoriques</title><x>. </x><title type="journal">Bulletin de la Soci&eacute;t&eacute; de Linguistique de Paris</title><x> </x><volume>69</volume><x>: </x><page type="first">287</page><x>&ndash;</x><page type="last">310</page><x>.</x>
+</reference>
+<reference id="b41" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Hara</surname><x>, </x><forenames>Takaaki</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date>
+<miscellaneoustext>). Reflexive Interpretation in Japanese. Unpublished manuscript, Utrecht, UIL OTS</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b3" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Heim</surname><x>, </x><forenames>Irene</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date>
+<miscellaneoustext>). The Semantics of Definite and Indefinite Noun Phrases. PhD dissertation, Amherst, University of Massachusetts</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b18" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Heim</surname><x>, </x><forenames>Irene</forenames>
+</name><x>, </x><name type="author">
+<forenames>Howard</forenames><x> </x><surname>Lasnik</surname>
+</name>
+<x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>Robert</forenames><x> </x><surname>May</surname>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Reciprocity and Plurality</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>22</volume><x>: </x><page type="first">63</page><x>&ndash;</x><page type="last">103</page><x>.</x>
+</reference>
+<reference id="b9" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Helke</surname><x>, </x><forenames>Michael</forenames>
+</name>
+</namegroup><x> (</x><date date="1971">1971</date>
+<miscellaneoustext>). The Grammar of English Reflexives. PhD dissertation, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b31" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hellan</surname><x>, </x><forenames>Lars</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="book">Anaphora in Norwegian and the Theory of Grammar</title>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b61" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hellan</surname><x>, </x><forenames>Lars</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991a</date><x>). </x><title type="document">Containment and Connectedness Anaphors</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Long-Distance Anaphora</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jan</forenames><x> </x><surname>Koster</surname>
+</name><x> and </x><name type="editor">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">27</page><x>&ndash;</x><page type="last">48</page>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b76" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hornstein</surname><x>, </x><forenames>Norbert</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="book">Move! A Minimalist Theory of Construal</title>
+<x>. </x><address>Oxford</address><x>: </x><publisher>Blackwell.</publisher>
+</reference>
+<reference id="b20" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Huang</surname><x>, </x><forenames>C.-T<x>. </x>James</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982a</date>
+<miscellaneoustext>). Logical Relations in Chinese and the Theory of Grammar. PhD dissertation, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b47" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Huang</surname><x>, </x><forenames>C.-T<x>. </x>James</forenames>
+</name><x> and </x><name type="author">
+<forenames>C.-C<x>. </x>Jane</forenames><x> </x><surname>Tang</surname>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">On the Local Nature of the Long-Distance Reflexive in Chinese</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x> </x>
+<title type="book">Long-Distance Anaphora</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jan</forenames><x> </x><surname>Koster</surname>
+</name><x> and </x><name type="editor">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">263</page><x>&ndash;</x><page type="last">282</page>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b13" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Huang</surname><x>, </x><forenames>Yan</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="book">Anaphora: A Cross-Linguistic Study</title>
+<x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press.</publisher>
+</reference>
+<reference id="b29" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Jayaseelan</surname><x>, </x><forenames>Karattuparambil</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Anaphors as Pronouns</title><x>. </x><title type="journal">Studia Linguistica</title><x> </x><volume>51</volume><x>: </x><page type="first">186</page><x>&ndash;</x><page type="last">234</page><x>.</x>
+</reference>
+<reference id="b4" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Jespersen</surname><x>, </x><forenames>Otto</forenames>
+</name>
+</namegroup><x> (</x><date date="1933">1933/1983</date><x>). </x><title type="book">Essentials of English Grammar</title>
+<x>. </x><address>London</address><x>: </x><publisher>Allen and Unwin.</publisher>
+</reference>
+<reference id="b48" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Katada</surname><x>, </x><forenames>Fusa</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">The LF Representation of Anaphors</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>22</volume><x>: </x><page type="first">287</page><x>&ndash;</x><page type="last">313</page><x>.</x>
+</reference>
+<reference id="b75" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kayne</surname><x>, </x><forenames>Richard</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="document">Pronouns and their Antecedents</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Derivation and Explanation in the Minimalist Program</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Samuel</forenames><x> </x><surname>Epstein</surname>
+</name><x> and </x><name type="editor">
+<forenames>T<x>. </x>Daniel</forenames><x> </x><surname>Seely</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">133</page><x>&ndash;</x><page type="last">166</page>
+<x>. </x><address>Oxford</address><x>: </x><publisher>Blackwell.</publisher>
+</reference>
+<reference id="b33" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Koster</surname><x>, </x><forenames>Jan</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">Reflexives in Dutch</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x> </x>
+<title type="book">Grammatical Representation</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jacqueline</forenames><x> </x><surname>Gu&eacute;ron</surname>
+</name><x>, </x><name type="editor">
+<forenames>Hans</forenames><x> </x><surname>Obenauer</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Jean-Yves</forenames><x> </x><surname>Pollock</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">141</page><x>&ndash;</x><page type="last">168</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b51" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kuno</surname><x>, </x><forenames>Susumu</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972b</date><x>). </x><title type="document">Pronominalization, Reflexivization and Direct Discourse</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>3</volume><x>: </x><page type="first">161</page><x>&ndash;</x><page type="last">196</page><x>.</x>
+</reference>
+<reference id="b52" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kuno</surname><x>, </x><forenames>Susumu</forenames>
+</name>
+</namegroup><x> (</x><date date="1975">1975</date><x>). </x><title type="document">Conditions on Verb Phrase Deletion</title><x>. </x><title type="journal">Foundations of Language</title><x> </x><volume>13</volume><x>: </x><page type="first">161</page><x>&ndash;</x><page type="last">175</page><x>.</x>
+</reference>
+<reference id="b53" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kuno</surname><x>, </x><forenames>Susumu</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987a</date><x>). </x><title type="book">Functional Syntax, Anaphora, Discourse and Empathy<x>.</x>
+</title><x> </x><address>Chicago</address><x>: </x><publisher>University of Chicago Press.</publisher>
+</reference>
+<reference id="b72" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lasnik</surname><x>, </x><forenames>Howard</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989a</date><x>). </x><title type="book">Essays on Anaphora</title>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer.</publisher>
+</reference>
+<reference id="b21" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Lebeaux</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">A Distributional Difference between Reciprocals and Reflexives</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>14</volume><x>: </x><page type="first">723</page><x>&ndash;</x><page type="last">730</page><x>.</x>
+</reference>
+<reference id="b6" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Lees</surname><x>, </x><forenames>Robert<x> </x>B<x>.</x>
+</forenames>
+</name><x> and </x><name type="author">
+<forenames>Edward<x> </x>S<x>.</x>
+</forenames><x> </x><surname>Klima</surname>
+</name>
+</namegroup><x> (</x><date date="1963">1963</date><x>). </x><title type="document">Rules for English Pronominalization</title><x>. </x><title type="journal">Language</title><x> </x><volume>39</volume><x>: </x><page type="first">17</page><x>&ndash;</x><page type="last">28</page><x>.</x>
+</reference>
+<reference id="b58" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Maling</surname><x>, </x><forenames>Joan</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">Non-Clause-Bounded Reflexives in Modern Icelandic</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>7</volume><x>: </x><page type="first">211</page><x>&ndash;</x><page type="last">241</page><x>.</x>
+</reference>
+<reference id="b59" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Maling</surname><x>, </x><forenames>Joan</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Clause-Bounded Reflexives in Modern Icelandic</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Topics in Scandinavian Syntax</title><x>, </x><namegroup type="editors">
+<name type="editor">
+<forenames>Lars</forenames><x> </x><surname>Hellan</surname>
+</name><x> and </x><name type="editor">
+<forenames>Kirsti<x> </x>Koch</forenames><x> </x><surname>Christensen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">53</page><x>&ndash;</x><page type="last">63</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Reidel.</publisher>
+</reference>
+<reference id="b62" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Napoli</surname><x>, </x><forenames>Donna-Jo</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date><x>). </x><title type="document">Reflexivization across Clause Boundaries in Italian</title><x>. </x><title type="journal">Journal of Linguistics</title><x> </x><volume>15</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">28</page><x>.</x>
+</reference>
+<reference id="b43" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Pica</surname><x>, </x><forenames>Pierre</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">On the Nature of the Reflexivization Cycle</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society 17</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Joyce</forenames><x> </x><surname>McDonough</surname>
+</name><x> and </x><name type="editor">
+<forenames>Bernadette</forenames><x> </x><surname>Plunkett</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">483</page><x>&ndash;</x><page type="last">499</page>
+<x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association.</publisher>
+</reference>
+<reference id="b44" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Pica</surname><x>, </x><forenames>Pierre</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">On the Interaction between Antecedent-Government and BTC Binding: The Case of Long-Distance Reflexivization</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x> </x>
+<title type="book">Long-Distance Anaphora</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jan</forenames><x> </x><surname>Koster</surname>
+</name><x> and </x><name type="editor">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">119</page><x>&ndash;</x><page type="last">137</page>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b15" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Pollard</surname><x>, </x><forenames>Carl</forenames>
+</name><x> and </x><name type="author">
+<forenames>Ivan</forenames><x> </x><surname>Sag</surname>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Anaphors in English and the Scope of the Binding Theory</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>23</volume><x>: </x><page type="first">261</page><x>&ndash;</x><page type="last">305</page><x>.</x>
+</reference>
+<reference id="b16" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Pollard</surname><x>, </x><forenames>Carl</forenames>
+</name><x> and </x><name type="author">
+<forenames>Ivan</forenames><x> </x><surname>Sag</surname>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">Head-Driven Phrase Structure Grammar</title>
+<x>. </x><address>Stanford/Chicago</address><x>: </x><publisher>CSLI Publications and University of Chicago Press.</publisher>
+</reference>
+<reference id="b7" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Postal</surname><x>, </x><forenames>Paul<x> </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1969">1969</date><x>). </x><title type="document">On So-Called &ldquo;Pronouns&rdquo; in English</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Modern Studies in English</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>David</forenames><x> </x><surname>Reibel</surname>
+</name><x> and </x><name type="editor">
+<forenames>Sanford</forenames><x> </x><surname>Schane</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Englewood Cliffs, NJ</address><x>: </x><publisher>Prentice-Hall.</publisher>
+</reference>
+<reference id="b8" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Postal</surname><x>, </x><forenames>Paul<x> </x>M<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="1971">1971</date><x>). </x><title type="book">Cross-Over Phenomena</title>
+<x>. </x><address>New York</address><x>: </x><publisher>Holt, Rinehart, and Winston.</publisher>
+</reference>
+<reference id="b73" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983a</date><x>). </x><title type="book">Anaphora and Semantic Interpretation</title>
+<x>. </x><address>London/Chicago</address><x>: </x><publisher>Croom Helm/University of Chicago Press.</publisher>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000a</date><x>). </x><title type="document">Strategies of Anaphora Resolution</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Interface Strategies</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Hans</forenames><x> </x><surname>Bennis</surname>
+</name><x>, </x><name type="editor">
+<forenames>Martin</forenames><x> </x><surname>Everaert</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">295</page><x>&ndash;</x><page type="last">324</page>
+<x>. </x><address>Amsterdam</address><x>: </x><publisher>Royal Netherlands Academy of Arts and Sciences.</publisher>
+</reference>
+<reference id="b23" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="document">The Theta System: An Overview</title><x>. </x><title type="journal">Theoretical Linguistics</title><x> </x><volume>28</volume><x>: </x><page type="first">229</page><x>&ndash;</x><page type="last">290</page><x>.</x>
+</reference>
+<reference id="b65" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name><x> and </x><name type="author">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Anaphors and Logophors: An Argument Structure Perspective</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x> </x>
+<title type="book">Long-Distance Anaphora</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jan</forenames><x> </x><surname>Koster</surname>
+</name><x> and </x><name type="editor">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">283</page><x>&ndash;</x><page type="last">321</page>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b22" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Reinhart</surname><x>, </x><forenames>Tanya</forenames>
+</name><x> and </x><name type="author">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Reflexivity</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>24</volume><x>: </x><page type="first">595</page><x>&ndash;</x><page type="last">652</page><x>.</x>
+</reference>
+<reference id="b64" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Reuland</surname><x>, </x><forenames>Eric</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Reflexives and Beyond: Non-Local Anaphora in Italian Revisited</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Grammar in Progress</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Joan</forenames><x> </x><surname>Mascar&oacute;</surname>
+</name><x> and </x><name type="editor">
+<forenames>Marina</forenames><x> </x><surname>Nespor</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">351</page><x>&ndash;</x><page type="last">362</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b74" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Reuland</surname><x>, </x><forenames>Eric</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">Primitives of Binding</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>32</volume><x>: </x><page type="first">439</page><x>&ndash;</x><page type="last">492</page><x>.</x>
+</reference>
+<reference id="b39" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Reuland</surname><x>, </x><forenames>Eric</forenames>
+</name><x> and </x><name type="author">
+<forenames>Tanya</forenames><x> </x><surname>Reinhart</surname>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Pronouns, Anaphors and Case</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Studies in Comparative Germanic Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Hubert</forenames><x> </x><surname>Haider</surname>
+</name><x>, </x><name type="editor">
+<forenames>Susan</forenames><x> </x><surname>Olsen</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Sten</forenames><x> </x><surname>Vikner</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">241</page><x>&ndash;</x><page type="last">269</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer.</publisher>
+</reference>
+<reference id="b49" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ross</surname><x>, </x><forenames>John<x> </x>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1970">1970b</date><x>). </x><title type="document">On Declarative Sentences</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Readings in English Transformational Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Roderick</forenames><x> </x><surname>Jacobs</surname>
+</name><x> and </x><name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Rosenbaum</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Waltham, MA</address><x>: </x><publisher>Ginn.</publisher>
+</reference>
+<reference id="b19" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Safir</surname><x>, </x><forenames>Kenneth</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996b</date><x>). </x><title type="document">Semantic Atoms of Anaphora</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>14</volume><x>: </x><page type="first">545</page><x>&ndash;</x><page type="last">589</page><x>.</x>
+</reference>
+<reference id="b10" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Safir</surname><x>, </x><forenames>Kenneth</forenames>
+</name>
+</namegroup><x> (</x><date date="2004">2004a</date><x>). </x><title type="book">The Syntax of Anaphora</title>
+<x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press.</publisher>
+</reference>
+<reference id="b11" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Safir</surname><x>, </x><forenames>Kenneth</forenames>
+</name>
+</namegroup><x> (</x><date date="2004">2004b</date><x>). </x><title type="book">The Syntax of (In)dependence</title>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b28" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Schladt</surname><x>, </x><forenames>Mathias</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">The Typology and Grammaticalization of Reflexives</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x> </x>
+<title type="book">Reflexives: Forms and Functions</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Zygmunt</forenames><x> </x><surname>Frajzyngier</surname>
+</name><x> and </x><name type="editor">
+<forenames>Traci</forenames><x> </x><surname>Curl</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Amsterdam</address><x>: </x><publisher>Benjamins.</publisher>
+</reference>
+<reference id="b56" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Sells</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Aspects of Logophoricity</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>18</volume><x>: </x><page type="first">445</page><x>&ndash;</x><page type="last">479</page><x>.</x>
+</reference>
+<reference id="b35" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Sigurj&oacute;nsd&oacute;ttir</surname><x>, </x><forenames>Sigr&iacute;dur</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Binding in Icelandic: Evidence from Language Acquisition</title><x>. </x><title type="journal">UCLA Working Papers in Psycholinguistics</title><x> </x><volume>2/1</volume>
+<page type="first">
+</page><x>.</x>
+</reference>
+<reference id="b36" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Sigurj&oacute;nsd&oacute;ttir</surname><x>, </x><forenames>Sigr&iacute;dur</forenames>
+</name><x> and </x><name type="author">
+<forenames>Nina</forenames><x> </x><surname>Hyams</surname>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Reflexivization and Logophoricity: Evidence from the Acquisition of Icelandic</title><x>. </x><title type="journal">Language Acquisition</title><x> </x><volume>2</volume><x>, </x><page type="first">359</page><x>&ndash;</x><page type="last">413</page><x>.</x>
+</reference>
+<reference id="b57" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Thr&aacute;insson</surname><x>, </x><forenames>H&ouml;skuldur</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976a</date><x>). </x><title type="document">Reflexives and Subjunctives in Icelandic</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society 6</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Alan</forenames><x> </x><surname>Ford</surname>
+</name><x>, </x><name type="editor">
+<forenames>John</forenames><x> </x><surname>Reighard</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Rajendra</forenames><x> </x><surname>Singh</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.). </x><page type="first">225</page><x>&ndash;</x><page type="last">239</page>
+<x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association.</publisher>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Thr&aacute;insson</surname><x>, </x><forenames>H&ouml;skuldur</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date><x>). </x><title type="book">On Complementation in Icelandic</title>
+<x>. </x><address>New York</address><x>: </x><publisher>Garland.</publisher>
+</reference>
+<reference id="b34" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Thr&aacute;insson</surname><x>, </x><forenames>H&ouml;skuldur</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Long Distance Reflexives and the Typology of NPs</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Long-Distance Anaphora</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jan</forenames><x> </x><surname>Koster</surname>
+</name><x> and </x><name type="editor">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">49</page><x>&ndash;</x><page type="last">75</page>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b25" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Vikner</surname><x>, </x><forenames>Sten</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date>
+<miscellaneoustext>). Anaphors in Danish as Compared to English Seen from the Point of View of the Government-Binding Theory. MA dissertation, University of London</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b68" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Williams</surname><x>, </x><forenames>Edwin</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">Reciprocal Scope</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>22</volume><x>: </x><page type="first">159</page><x>&ndash;</x><page type="last">173</page><x>.</x>
+</reference>
+<reference id="b54" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Zribi-Hertz</surname><x>, </x><forenames>Anne</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">Anaphor Binding and Narrative Point of View</title><x>. </x><title type="journal">Language</title><x> </x><volume>65</volume><x>: </x><page type="first">695</page><x>&ndash;</x><page type="last">727</page><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

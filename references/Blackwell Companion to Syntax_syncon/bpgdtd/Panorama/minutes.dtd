@@ -1,0 +1,134 @@
+<!--
+		This is a very simple DTD for minutes of meetings..
+	You may easily modify it to incorporate additional elements
+	which may show up in the BODY by editing the PARATYP
+	parameter entity, and additional elements within PARAgraphs
+	and similar elements by modifying the PARACON entity.           
+										-->
+
+<!ENTITY  %  emphs              "emph1 | emph2 "        >
+<!ENTITY  %  text               "%emphs; "      >
+<!ENTITY  %  heads              "h1 | h2"                                       >
+<!ENTITY  %  lists              "list1 | list2"                                 >
+<!ENTITY  %  special            "motion | action "                      >
+<!ENTITY  %  paracon            "%text; | q "                           >
+<!ENTITY  %  paratyp            "para | bq | note | %heads;"    >
+
+<!ELEMENT minutes               (head, body)    >
+<!ELEMENT head          (group, mtgtype?, date, attends, locale, mtgnum?)       >
+<!ELEMENT body          (open?, item*, adjourn?, actsumm?)      >
+<!ELEMENT item          (topic, (%paratyp; | table | %lists;| %special;)*)      >
+<!ELEMENT (%paratyp;)           (#PCDATA | %paracon;)*          >
+<!ELEMENT (%lists;)                     (lhead?, litem)+                        >
+<!ELEMENT litem         (#PCDATA | (para | %lists;)*)  >
+<!ELEMENT motion                (mover, second, content, discuss?, vote)  >
+<!ELEMENT adjourn               (mover, second)  >
+<!ELEMENT actsumm               (action+)  >
+<!ELEMENT action                (num?, descr, assignto, duedate?, status?)  >
+<!ELEMENT (locale | date | mtgnum | group| mtgtype)       (#PCDATA)  >
+<!ELEMENT attends               (name, affil?)+ >
+<!ELEMENT (open | name | affil)         (#PCDATA)  >
+<!ELEMENT (mover, second, content, discuss, vote)               (#PCDATA)  >
+<!ELEMENT (num, assignto, duedate, status)              (#PCDATA)  >
+<!ELEMENT (%paracon;)                                   (#PCDATA)  >
+<!ELEMENT (lhead| topic| descr)         (#PCDATA | %paracon;)*  >
+<!ELEMENT table         (tblhead?, tblbody, tblfoot?)  >
+
+<!-- Table model follows: -- >
+
+
+<!ENTITY % TblBody      "(TblHead | TblBody | TblFoot)">
+<!ENTITY % TblCDfs      "TblCDefs">
+<!ENTITY % TblCDef      "TblCDef">
+<!ENTITY % TblRows      "TblRows">
+<!ENTITY % TblRow       "TblRow">
+<!ENTITY % TblCell      "TblCell">
+<!ENTITY % CellMdl      "(#PCDATA)">
+
+<!ENTITY % VBorder
+	"(VSingle|VDouble|VTriple|VDash|VDot|VBold|VBlank|VNone)">
+<!ENTITY % HBorder
+	"(HSingle|HDouble|HTriple|HDash|HDot|HBold|HBlank|HNone)">
+<!ENTITY % VAlign  "(Top|Middle|Bottom)">
+<!ENTITY % HAlign  "(Left|Both|Center|Right|Char)">
+
+<!ENTITY % TblUnit      "(percent|pixels|points|picas|mm|cm|inches)">
+
+<!ENTITY % RProps
+	'RowSep         %HBorder;  #IMPLIED
+	 VAlign         %VAlign;   #IMPLIED'>
+<!ENTITY % CProps
+	'ColSep         %VBorder;       #IMPLIED
+	 HAlign         %HAlign;        #IMPLIED
+	 AlignChr       CDATA           #IMPLIED
+	 CharPos        CDATA           #IMPLIED'>
+
+
+<!-- TblBody is the top-level table element -->
+<!ELEMENT %TblBody; ((%TblCDfs;), (%TblRows;))>
+<!ATTLIST %TblBody;
+	TblWd           CDATA           #IMPLIED
+	TblHt           CDATA           #IMPLIED
+	TblUnits        %TblUnit;       #IMPLIED
+>
+
+<!-- Table Column Definitions: -->
+<!ELEMENT %TblCDfs; (%TblCDef;)+>
+<!ATTLIST %TblCDfs;
+	-- CProps with default values to apply to all columns --
+	ColSep          %VBorder;       "VSingle"
+	HAlign          %HAlign;        "Left"
+	AlignChr        CDATA           #IMPLIED
+	CharPos         CDATA           #IMPLIED
+	-- default width for all cells in all columns --
+	ColWd           CDATA           #IMPLIED
+	TblUnits        %TblUnit;       #IMPLIED
+	-- default top border for all cells in row 1 --
+	TopSep          %HBorder;       "HSingle"
+>
+<!-- there is exactly one TblCDef for each column in the table -->
+<!ELEMENT %TblCDef; EMPTY -- Only exists to hold attributes -->
+<!ATTLIST %TblCDef;
+	%CProps;                -- overrides settings in TblCDfs --
+	-- width for all cells in this column --
+	ColWd           CDATA           #IMPLIED
+	TblUnits        %TblUnit;       #IMPLIED
+	-- top border for cell in row 1 --
+	TopSep          %HBorder;       #IMPLIED        -- overrides TblCDfs defn --
+>
+
+<!-- Table Rows: -->
+<!ELEMENT %TblRows; (%TblRow;)+>
+<!ATTLIST %TblRows;
+	-- RProps with default values to apply to all rows --
+	RowSep          %HBorder;       "HSingle"
+	VAlign          %VAlign;        "Top"
+	-- default height of all rows --
+	RowHt           CDATA           #IMPLIED
+	TblUnits        %TblUnit;       #IMPLIED
+	-- default left border for all cells in column 1 --
+	LeftSep         %VBorder        "VSingle"
+>
+<!ELEMENT %TblRow; (%TblCell;)+>
+<!ATTLIST %TblRow;
+	%RProps;        -- can override settings in TblRows --
+	-- height of this row --
+	RowHt           CDATA           #IMPLIED
+	TblUnits        %TblUnit;       #IMPLIED
+	-- left border for cell in column 1 --
+	LeftSep         %VBorder        #IMPLIED        -- overrides TblRows setting --
+>
+
+<!-- Table Cells -->
+<!ELEMENT %TblCell; %CellMdl;>
+<!ATTLIST %TblCell;
+	%RProps;                -- can override settings in TblRow --
+	%CProps;                -- can override settings in TblCDef --
+	-- cell positioning --
+	ColStart        NUMBER          #IMPLIED
+	ColSpan         NUMBER          "1"             -- span >= 1 --
+	RowStart        NUMBER          #IMPLIED
+	RowSpan         NUMBER          "1"             -- span >= 1 --
+>
+
+

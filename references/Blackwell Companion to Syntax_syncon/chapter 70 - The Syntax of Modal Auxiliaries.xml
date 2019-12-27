@@ -1,0 +1,2707 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="70"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 70 - The Syntax of Modal Auxiliaries.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">1</page>
+<page type="last">22</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="0"/>
+<count type="table" count="35"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="38"/>
+<count type="page" count="22"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051201"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 70&ensp;Barbiers: Syntax of Modal Auxiliaries</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 70&ensp;Barbiers: Syntax of Modal Auxiliaries</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">70&ensp;The Syntax of Modal Auxiliaries</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>SJEF</forenames><x> </x><surname>BARBIERS</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Argument structure of modals</p>
+</li>
+<li level="2">
+<number>2.1&ensp;</number>
+<p>Transitive&ndash;intransitive alternations</p>
+</li>
+<li level="2">
+<number>2.2&ensp;</number>
+<p>The raising&ndash;control analysis of the epistemic&ndash;root ambiguity</p>
+</li>
+<li level="2">
+<number>2.3&ensp;</number>
+<p>Prepositional arguments of modals</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>The structural position of modals</p>
+</li>
+<li level="2">
+<number>3.1&ensp;</number>
+<p>Different positions for modal auxiliaries and modal main verbs</p>
+</li>
+<li level="2">
+<number>3.2&ensp;</number>
+<p>Different positions for epistemic and root modals</p>
+</li>
+<li level="2">
+<number>3.3&ensp;</number>
+<p>Different positions for necessity and possibility modals, and further distinctions</p>
+</li>
+<li level="2">
+<number>3.4&ensp;</number>
+<p>Different positions at PF and LF</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>The complement of modals</p>
+</li>
+<li level="2">
+<number>4.1&ensp;</number>
+<p>Non-disambiguating complements</p>
+</li>
+<li level="2">
+<number>4.2&ensp;</number>
+<p>Complements that force an epistemic interpretation</p>
+</li>
+<li level="2">
+<number>4.3&ensp;</number>
+<p>Complements that force root interpretations</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1 Introduction</heading>
+<p>Modality is a semantic concept and covers, <i>inter alia</i>, notions such as possibility, necessity, probability, obligation, permission, ability, and volition. Modality can be expressed syntactically by modal verbs, imperatives, verbal inflection, modal adverbs, and modal particles. This chapter is restricted to modality expressed by modal auxiliaries such as CAN, MUST, MAY, WILL, WANT, and NEED.<link rid="fn1">
+<sup>1</sup></link>
+</p>
+<p>A great deal of research on the syntax of modal auxiliaries has concentrated on the distinction between epistemic and root interpretations. Roughly, epistemic interpretations are a class of interpretations involving a speaker-oriented or, in the case of embedded clauses, matrix-subject oriented qualification or modification of the truth of a proposition, while root interpretations involve the will, ability, permission, or obligation to perform some action or bring about some state of affairs (cf. <link rid="b1">Lyons 1977</link> and <link rid="b2">Palmer 1986</link> for a fine-grained classification and description of modal interpretations). Sentences are often ambiguous between the two readings. In many Germanic and Romance languages the same set of modals can have both the epistemic and the root interpretations. An example is given in (1):</p>
+<p>(1)<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry namest="col1" nameend="col2">John must be home at six o&rsquo;clock.</entry>
+</row>
+<row><entry>Epistemic:</entry>
+<entry>&lsquo;(Given what I, the speaker, know), I conclude that John will be home at six o&rsquo;clock.&rsquo;</entry>
+</row>
+<row><entry>Root:</entry>
+<entry>&lsquo;John is obliged to be home at six o&rsquo;clock.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>An important question is whether this systematic semantic ambiguity entails the existence of two different syntactic structures. One of the first answers to this question (<link rid="b3">Ross 1969a</link>) is that modals with an epistemic interpretation are one-place predicates, taking the entire proposition as their complement, whereas root modals are two-place predicates, i.e., they involve relations between the subject and the rest of the clause:</p>
+<p>(2)<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>Epistemic:</entry>
+<entry>must (John be home at six o&rsquo;clock)</entry>
+</row>
+<row><entry>Root:</entry>
+<entry>must (John, be home at six o&rsquo;clock)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>I take this idea as a starting point, as a great deal of work has been invested to translate it into syntactic terms.</p>
+<p>There are different ways to represent the alternation between monadic and dyadic modality syntactically. A first option would be to try to reduce the modal alternation to similar alternations with verbs like <i>break</i> and <i>smoke</i>. However, it will be shown in <link rid="ss3">section 2</link> that these are alternations of a fundamentally different type.</p>
+<p>A second way to represent the alternation in terms of argument structure is to analyze root modals as control structures and epistemic modals as subject raising structures. This is the most common generative analysis of the root&ndash;epistemic ambiguity (<link rid="b4">Hofmann 1966</link>; <link rid="b3">Ross 1969a</link>; <link rid="b5">Perlmutter 1970b</link> and numerous studies since then). However, as shown in <link rid="ss7">section 3</link>, there are a number of serious problems for this analysis.</p>
+<p>Third, the modal alternation could be the result of generating modals in different base positions, a higher, possibly functional, position for epistemic modals and a lower, possibly lexical, position for root modals. This analysis is not entirely without problems either, as <link rid="ss8 ss9 ss10">sections 3.1&ndash;3.3</link> show.</p>
+<p>A fourth way to analyze the modal alternation is to assume that epistemic modals, but not root modals, undergo movement at LF. This possibility is discussed in <link rid="ss11">section 3.4</link>. On this approach, the monadic nature of the modal verb in epistemic interpretations is not established until LF.</p>
+<p>A different perspective on the possibility of generating modals in different head positions is to look at how different types of complement of modals influence modal interpretation. This perspective is chosen in <link rid="ss12">section 4</link>.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2 Argument structure of modals</heading>
+<subsection id="ss4" level="2">
+<heading id="h3" level="2">2.1 Transitive&ndash;intransitive alternations</heading>
+<p>As is well known, English modals have a defective inflection paradigm and a distribution different from that of main verbs (see <link rid="ss7">section 3</link>). Therefore, the question whether the dyadic&ndash;monadic alternation is reducible to other transitive&ndash;intransitive alternations does not seem to be relevant for English. It is a relevant question, however, for languages in which modals have many properties in common with main verbs, such as Dutch and German. This section shows that in such languages the modal alternation is not reducible to transitive&ndash;intransitive alternations either.</p>
+<p>Transitive&ndash;intransitive alternations are found cross-linguistically with main verbs like <i>break</i> and <i>smoke</i> (3a&ndash;d). A common analysis of such alternations is that each of these verbs has only one lexical entry, which corresponds to the transitive variant. The intransitive variant is derived by a lexical operation that reduces transitive predicates to intransitive predicates by removing the external argument.</p>
+<p>(3)<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John broke the window.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>The window broke.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>John smoked the eel.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>The chimney smoked. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In fact, <i>break</i> and <i>smoke</i> represent two different types of alternation: <i>break</i> is a transitive&ndash;unaccusative alternation and <i>smoke</i> a transitive&ndash;unergative alternation (cf. <link rid="b6">Abraham 2000</link>). The two can be distinguished by using classic tests described in <link rid="b7">Burzio (1986</link>) and <link rid="b8">Hoekstra (1984b</link>). In Dutch, the unaccusative alternant selects the auxiliary BE in the perfect tense (4b) and its adjectival participle can modify a noun that corresponds to the surface subject of the unaccusative (4c). The unergative alternant selects the auxiliary HAVE (4e) and its participle cannot modify a noun that corresponds to the surface subject of the unergative (4f).</p>
+<p>(4)<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry namest="col1" nameend="col5">
+<b>Transitive&ndash;unaccusative</b>
+</entry>
+</row>
+<row><entry>a.</entry>
+<entry>Jan</entry>
+<entry>breekt</entry>
+<entry>de</entry>
+<entry>ruit.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>John</entry>
+<entry>breaks</entry>
+<entry>the</entry>
+<entry>window</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>b.</entry>
+<entry>De</entry>
+<entry>ruit</entry>
+<entry>is/</entry>
+<entry>*heeft</entry>
+<entry>gebroken.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>the</entry>
+<entry>window</entry>
+<entry>is/</entry>
+<entry>has</entry>
+<entry>broken</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>c.</entry>
+<entry>de</entry>
+<entry>gebroken</entry>
+<entry>ruit</entry>
+</row>
+<row><entry>
+</entry>
+<entry>the</entry>
+<entry>broken</entry>
+<entry>window</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry namest="col1" nameend="col5">
+<b>Transitive&ndash;unergative</b>
+</entry>
+</row>
+<row><entry>d.</entry>
+<entry>Jan</entry>
+<entry>rookt</entry>
+<entry>een</entry>
+<entry>paling.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>John</entry>
+<entry>smokes</entry>
+<entry>an</entry>
+<entry>eel</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>e.</entry>
+<entry>De</entry>
+<entry>kachel</entry>
+<entry>heeft/</entry>
+<entry>*is</entry>
+<entry>gerookt.<link rid="fn2">
+<sup>2</sup></link>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>the</entry>
+<entry>stove</entry>
+<entry>has/</entry>
+<entry>is</entry>
+<entry>smoked</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>f.</entry>
+<entry>*de</entry>
+<entry>gerookte</entry>
+<entry>kachel</entry>
+</row>
+<row><entry>
+</entry>
+<entry>the</entry>
+<entry>smoked</entry>
+<entry>stove</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>If the root&ndash;epistemic ambiguity of modals were to involve reduction of dyadic predicates to monadic ones, then these tests would show that modals belong to the same class as <i>roken</i> &lsquo;smoke&rsquo;, as (5a&ndash;c) illustrate. In the perfect tense HAVE is selected and the participle cannot modify a noun corresponding to the surface subject of the intransitive alternant:</p>
+<p>(5)<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry namest="col1" nameend="col4">
+<b>Root&ndash;epistemic</b>
+</entry>
+</row>
+<row><entry>a.</entry>
+<entry>Jan</entry>
+<entry>mag</entry>
+<entry>eten.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>John</entry>
+<entry>may</entry>
+<entry>eat</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col4">&lsquo;John is allowed to eat.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>b.</entry>
+<entry>Eten</entry>
+<entry>heeft/</entry>
+<entry>*is</entry>
+<entry>altijd</entry>
+<entry>gemogen.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>eat</entry>
+<entry>has/</entry>
+<entry>is</entry>
+<entry>always</entry>
+<entry>may-Part</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col6">&lsquo;It has always been allowed to eat&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>c.</entry>
+<entry>*het</entry>
+<entry>gemogen</entry>
+<entry>eten</entry>
+</row>
+<row><entry>
+</entry>
+<entry>the</entry>
+<entry>allow-Part</entry>
+<entry>eating</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>However, the monadic alternant of the modal (5b) does not have an epistemic interpretation, which shows that the epistemic&ndash;root ambiguity is not an instance of the transitive&ndash;unergative alternation either. Moreover, for the epistemic interpretation to be possible, the external argument does not need to disappear, as (1) shows. We can thus conclude that the epistemic&ndash;root ambiguity can neither be reduced to the transitive&ndash;unaccusative alternation nor to the transitive&ndash;unergative alternation.</p>
+</subsection>
+<subsection id="ss5" level="2">
+<heading id="h4" level="2">2.2 The raising&ndash;control analysis of the epistemic&ndash;root ambiguity</heading>
+<p>A consequence of treating root modals as dyadic predicates is that they involve a control structure, if something like the theta-criterion holds. If a root modal assigns a theta-role to the surface subject DP and if a DP must receive exactly one theta role, it cannot be the case that root modals involve raising structures. If they did, the raised subject would receive a theta-role from both the embedded predicate and the modal. Therefore, root modals can be analyzed only as dyadic predicates if they involve control structures, which implies that PRO in the complement of the modal receives the external theta-role of the embedded verb, while the matrix subject receives its theta-role from the modal directly.</p>
+<p>(6)<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;&lsqb;<sub>
+</sub><sub>DP</sub> John&rsqb; must &lsqb;<sub>DP </sub><strike>John</strike>&rsqb; work from nine to five&rsqb;&rsqb;.</entry>
+<entry>Raising &amp; epistemic</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;&lsqb;<sub>DP</sub> John&rsqb;<sub>i</sub> must &lsqb;PRO<sub>i</sub> work from nine to five&rsqb;&rsqb;.</entry>
+<entry>Control &amp; root</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The control&ndash;raising analysis rather elegantly captures the idea that root modals are dyadic predicates while epistemic modals are monadic predicates. However, many problems for this analysis have been noted in the literature. First, assuming a PRO-subject in the infinitival complement of the modal is problematic because infinitival complements without <i>te</i> &lsquo;to&rsquo; usually cannot have PRO as their subject, as the Dutch example in (7a) illustrates.<link rid="fn3">
+<sup>3</sup></link>
+</p>
+<p>(7)<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Jan</entry>
+<entry>voelde</entry>
+<entry>&lsqb;zich/</entry>
+<entry>*PRO</entry>
+<entry>wegzakken</entry>
+<entry>in de modder&rsqb;.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>John</entry>
+<entry>felt</entry>
+<entry>himself/</entry>
+<entry>PRO</entry>
+<entry>sink</entry>
+<entry>in the mire</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col7">&lsquo;John felt that he was sinking in the mire.&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Jan</entry>
+<entry>voelde</entry>
+<entry>dat</entry>
+<entry>hij</entry>
+<entry>wegzonk</entry>
+<entry>in de modder.</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col7">&lsquo;John felt that he was sinking in the mire.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>c.</entry>
+<entry>Jan</entry>
+<entry>at &lsqb;<sub>sc</sub>
+</entry>
+<entry>zich/</entry>
+<entry>*PRO</entry>
+<entry>ziek&rsqb;.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>John</entry>
+<entry>ate</entry>
+<entry>himself/</entry>
+<entry>PRO</entry>
+<entry>sick</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col5">&lsquo;John ate so much that he got sick.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The infinitival complement in (7a) requires a reflexive as its subject if it is to express the same meaning as (7b). If this infinitival complement can be analyzed as a small clause (SC), the impossibility of PRO in (7a) is an instance of the broader generalization that SC-complements cannot have a PRO subject, as (7c) illustrates (cf. <link rid="b9">Stowell 1981</link>).</p>
+<p>A possible way out would be to argue that modals do not take small clauses as their complements, but larger constituents, e.g., CP or TP. For the Germanic languages there does not seem to be much evidence, however, that this is the case. C-elements such as complementizers are impossible in the complement of a modal, as is embedded <i>wh</i>. If infinitival <i>to</i> is a T-element, its obligatory absence in most modal contexts shows that the complement of a modal is not a TP either. Higher adjuncts such as evidential and modal adverbs cannot be part of the complement of a modal, which also suggests that complements of modals are smaller than CP.</p>
+<p>However, it cannot be concluded from the situation in Germanic that it is generally impossible for modals to have a CP or TP complement. As <link rid="b10">Tomi&#x0107; (2002</link>) argues, Macedonian has a set of modals that take subjunctive CP-complements. Incidentally, these Macedonian constructions should not be confused with cases in which modals in Germanic seemingly take a CP-complement, as in (8a). There is reason to think that CP in this construction is not a complement but an adjunct (cf. <link rid="b11">Bennis 1986</link>). As with adjunct clauses, CP in this construction is opaque for extraction, as the Dutch example in (8b) illustrates.</p>
+<p>(8)<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Het</entry>
+<entry>kan</entry>
+<entry>niet &lsqb;<sub>CP</sub>
+</entry>
+<entry>dat</entry>
+<entry>Nederland</entry>
+<entry>de</entry>
+<entry>Portugese</entry>
+<entry>ploeg</entry>
+<entry>vanavond</entry>
+<entry>verslaat&rsqb;.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>it</entry>
+<entry>can</entry>
+<entry>not</entry>
+<entry>that</entry>
+<entry>the Netherlands</entry>
+<entry>the</entry>
+<entry>Portuguese</entry>
+<entry>team</entry>
+<entry>tonight</entry>
+<entry>beats</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col11">&lsquo;It is impossible that the Dutch will beat the Portuguese team tonight.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry>b.</entry>
+<entry>*Welke</entry>
+<entry>ploeg</entry>
+<entry>kan</entry>
+<entry>het</entry>
+<entry>dat</entry>
+<entry>Nederland</entry>
+<entry><strike>welke ploeg</strike>
+</entry>
+<entry>vanavond</entry>
+<entry>verslaat?</entry>
+</row>
+<row><entry>
+</entry>
+<entry>which</entry>
+<entry>team</entry>
+<entry>can</entry>
+<entry>it</entry>
+<entry>that</entry>
+<entry>the Netherlands</entry>
+<entry>which team</entry>
+<entry>tonight</entry>
+<entry>beats</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A second problem for the analysis of root modals as dyadic control predicates is provided by sentences in which the matrix subject cannot be interpreted as the person being obliged or permitted to do something (<link rid="b12">Feldman 1986</link>; <link rid="b13">Klooster 1986</link>; <link rid="b14">Brennan 1993</link>; <link rid="b15">Barbiers 1995</link>):</p>
+<p>(9)<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>This</entry>
+<entry>letter</entry>
+<entry>must be in London</entry>
+<entry>before five </entry>
+<entry>o&rsquo;clock.</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col6">&lsquo;It is necessary/obligatory that this letter be in London before five o&rsquo;clock.&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Al</entry>
+<entry>deze</entry>
+<entry>kranten</entry>
+<entry>mogen</entry>
+<entry>weg.<link rid="fn4">
+<sup>4</sup></link>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>all</entry>
+<entry>these</entry>
+<entry>newspapers</entry>
+<entry>may</entry>
+<entry>away</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col6">&lsquo;It is permitted to throw away all of these newspapers.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In these sentences, the modal clearly is a monadic predicate taking the entire clause as its argument, but (9a) can and (9b) must have a root interpretation. Obviously, it is the addressee of utterances like (9a, b) that has the obligation or permission to do something, but the crucial point is that this addressee cannot be expressed syntactically here. In addition, it has often been observed that root modals (in fact, modals in general) cannot be passivized.<link rid="fn5">
+<sup>5</sup></link> This is unexpected if they are dyadic verbs, since dyadic verbs which assign an external theta role satisfy an important condition for passivizability (<link rid="b7">Burzio 1986</link>). However, it should be noted that modals share this inability to occur in the passive with other stative transitive verbs; it may be that the crucial factor blocking passivization here is stativity.<link rid="fn6">
+<sup>6</sup></link>
+</p>
+<p>A third problem for the control analysis of root modals involves the behavior of expletive subjects (<link rid="b16">Thr&aacute;insson and Vikner 1995</link>; <link rid="b17">Warner 1993</link>). In some languages, e.g., English, expletive subjects occur with raising verbs but not with control verbs (10a, b), the explanation being that expletives cannot receive a theta-role but would get one in a control structure. If root interpretations always involved control structures, expletive subjects are predicted to be incompatible with root interpretations, contrary to fact, as (10c) illustrates.<link rid="fn7">
+<sup>7</sup></link>
+</p>
+<p>(10)<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>There seems to be a man in the room.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*There tried someone to call you.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>There must be a solution to this problem on my table this morning. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A fourth problem emerges when we look at languages with morphological case. <link rid="b18">Wurmbrand and Bobaljik (1999</link>) claim that in Icelandic modals with a root interpretation behave like raising predicates with respect to quirky case. When a verb requiring quirky case on its subject is embedded under a raising verb, the surface subject may appear with quirky case (11a). When such a verb is embedded under a control verb, the surface subject must appear with nominative case (11b). Regardless of the interpretation, the subject of modal clauses always occurs with quirky case when the embedded verb requires this (11c&ndash;d).<link rid="fn8">
+<sup>8</sup></link>
+</p>
+<p>(11)<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Harald/&percnt;Haraldur vir&eth;ist ekki vanta peninga.</entry>
+<entry>Icelandic</entry>
+</row>
+<row><entry>
+</entry>
+<entry>Harold-Acc/Harold-Nom seems not lack money</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;Harold seems not to lack money.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Haraldur/*Harald vonast til a&eth; vanta ekki peninga.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>Harold-Nom/*Harold-Acc hopes for to lack not money</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;Harold hopes not to lack money.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Haraldi/*Haraldur &aelig;tlar a&eth; l&iacute;ka vel &iacute; Stuttgart.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>Harold-Dat/*Harald-Nom intends to like well in Stuttgart</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;It looks like Harold will like it in Stuttgart.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+<row><entry>d.</entry>
+<entry>Umsaekjandann ver&eth;ur a&eth; vanta peninga.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>the-applicant-Acc must to lack money</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;The applicant must lack money.&rsquo; (In order to apply for this grant)</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A fifth problem involves modals taking a non-verbal complement. <link rid="b15 b19">Barbiers (1995, 2002</link>; cf. also <link rid="ss12">section 4</link>) shows that Dutch modals can take a non-verbal complement, e.g., a PP or AP complement.<link rid="fn9">
+<sup>9</sup></link> Modals with a PP or AP complement are subject raising constructions. Yet, they can only get non-epistemic interpretations.</p>
+<p>Finally, <link rid="b18">Wurmbrand and Bobaljik (1999</link>) show that A-reconstruction for scope, i.e., the subject taking scope under the modal, is possible for both root and epistemic modals in German. As is well known, A-reconstruction is possible with raising verbs but not with control verbs (cf. <link rid="b20">May 1985</link>, among many others). The crucial example is given in (12a), which shows that a root interpretation is compatible with wide scope of the modal.<link rid="fn10">
+<sup>10</sup></link> <link rid="b21">Butler (2003</link>) makes the same point for English (12b).</p>
+<p>(12)<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Ein &Ouml;sterreicher mu&szlig; das n&auml;chste Rennen gewinnen (damit &Ouml;sterreich</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>die F&uuml;hrung im Weltcup &uuml;bernimmt).</entry>
+<entry>German</entry>
+</row>
+<row><entry>
+</entry>
+<entry>an Austrian must win the next race (in order for Austria to have the most gold medals)</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>i. &lsquo;It is necessary that an Austrian (whoever it is) win the next race.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>Scope: modal &gt; subject</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>ii.&emsp;&num;&lsquo;There is an Austrian and it is necessary that he win the next race.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>Scope: subject &gt; modal</entry>
+<entry>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Some philosophers must go to those seminars.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>i.&emsp;&lsquo;There are some philosophers which are required to go to those seminars.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>Scope: subject &gt; modal</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>ii. &lsquo;It is required that some philosophers go to those seminars (as a condition of our being given money to run them).&rsquo;</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>Scope: modal &gt; subject</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In sum, the observations presented in this section pose serious problems for a control analysis of modals with a root interpretation, but not for a raising analysis. We have also seen that root modality comes in two types. In the first type, subject-oriented root modality, the surface subject has the permission, obligation, ability to perform some action, or achieve a certain state. In the second type, non-subject oriented modality, the event or state denoted by the embedded verb is allowed, permitted, or made possible, but the permission, obligation, or ability is not attributed to the surface subject. Consequently, it is not possible to distinguish root and epistemic modality in terms of theta role assignment to the surface subject. Moreover, the evidence presented in the previous section suggests that modal auxiliaries are raising verbs, which do not assign a theta role to the surface subject. The question whether the two types of root interpretation can and should be distinguished syntactically is still open. If all modals are raising verbs and if in the subject-oriented interpretation the surface subject gets a theta role from the modal, subject-oriented root interpretations pose a serious problem for the theta criterion.</p>
+</subsection>
+<subsection id="ss6" level="2">
+<heading id="h5" level="2">2.3&ensp;Prepositional arguments of modals</heading>
+<p>To conclude this section, I add some well-known observations on the argument structure of modals that any theory should capture. In Dutch, the source of permission or obligation can be realized as a PP introduced by the preposition <i>van</i> &lsquo;of&rsquo; (13a&ndash;c). The imperative clause in (13d) shows that it is really the modal that licenses the presence of a <i>van</i> PP.</p>
+<p>(13)<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Jan moet van zijn vader naar huis gaan.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>John must of his father to home go</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;His father forces John to go home.&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Jan mag van zijn vader naar huis gaan.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>John may of his father to home go</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;His father permits John to go home.&rsquo;</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Jan hoeft van mij niet naar huis te gaan.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>John needs of me not to home go</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;I do not force John to go home.&rsquo;</entry>
+</row>
+<row><entry>d.</entry>
+<entry>Ga (*van mij) maar naar huis.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>go (of me) just to home</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;Just go home.&rsquo; </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Although these modals apparently have a theta-role to assign to the source argument, they are not able to license their case, witness the occurrence of <i>van</i> &lsquo;of&rsquo;, the same preposition that shows up to license case on arguments of nouns.</p>
+<p>The source argument cannot be licensed by modals expressing ability or will:</p>
+<p>(14)<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>??Jan kan van mij naar huis gaan.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>John can of me to home go</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;I allow John to go home.&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Jan wil van mij naar huis gaan.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>John wants of me to house go</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The status of (14a) is not so clear. The impossibility of a <i>van</i> PP with <i>willen</i> &lsquo;want&rsquo; in (14b) is presumably due to the fact that the source argument is already expressed by the subject. Whereas the source of permission and obligation is distinct from the possessor of permission and obligation, the source and possessor of will coincide. This also suggests that the modal auxiliary <i>willen</i> is not always a raising verb, a claim which is supported by the minimal pair in (15a, b). In addition, passivization and use as a prenominal modifier is possible with <i>willen</i> (15c, d).</p>
+<p>(15)<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Jan/*Het wil dat Piet gaat.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>John/It wants that Pete goes</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;John wants Pete to leave.&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Het/*Jan schijnt/kan dat hij gaat.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>it/John seems/can that he goes</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;It seems/is possible that he is leaving.&rsquo;</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Dat wordt door veel mensen gewild.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>that is by many people wanted</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;Many people want that.&rsquo;</entry>
+</row>
+<row><entry>d.</entry>
+<entry>een gewild object</entry>
+</row>
+<row><entry>
+</entry>
+<entry>a wanted object</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Another intriguing case of PP arguments licensed by modality is found in so-called modal passives. When a PP with <i>voor</i> &lsquo;for&rsquo; is combined with a modal passive, the modal passive can have only an ability interpretation. On the other hand, when a PP with <i>door</i> &lsquo;by&rsquo; occurs, only an obligation interpretation is available (see 16a, b) (cf. <link rid="b22">Bennis 1990</link>).</p>
+<p>(16)<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>een voor Jan op te lossen probleem</entry>
+</row>
+<row><entry>
+</entry>
+<entry>a for John up to solve problem</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;a problem that can be solved by John&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>een door Jan op te lossen probleem</entry>
+</row>
+<row><entry>
+</entry>
+<entry>a by John up to solve problem</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;a problem that must be solved by John&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In addition to raising questions about the relation between argument structure and modality, the modal passive construction in (16) shows that syntactic constructions may yield modal interpretations in the absence of any modal verb. This seems quite generally to be the case cross-linguistically: BE TO INFINITIVE and HAVE TO INFINITIVE combinations have a modal meaning in many languages.</p>
+</subsection>
+</subsection>
+<subsection id="ss7" level="1">
+<heading id="h6" level="1">3&ensp;The structural position of modals</heading>
+<p>An alternative way to shed some light on the epistemic&ndash;root distinction is to investigate the structural position of modals. It turns out, however, that their position is rather difficult to establish; a simple and universal picture seems virtually impossible given the empirical facts. At least four types of distinction should be taken into account:</p>
+<listgroup id="l2" type="i">
+<li level="1">
+<number>(i)</number>
+<p>the distinction between modal auxiliaries and modal main verbs;</p>
+</li>
+<li level="1">
+<number>(ii)</number>
+<p>the distinction between epistemic and root modality;</p>
+</li>
+<li level="1">
+<number>(iii)</number>
+<p>fine-grained distinctions within the class of epistemic interpretations and within the class of root interpretations;</p>
+</li>
+<li level="1">
+<number>(iv)</number>
+<p>the distinction between the position where a modal is interpreted and the position where a modal is pronounced.</p>
+</li>
+</listgroup>
+<p>The evidence currently available strongly suggests that cross-linguistic parameterization involves all four distinctions.</p>
+<subsection id="ss8" level="2">
+<heading id="h7" level="2">3.1&ensp;Different positions for modal auxiliaries and modal main verbs</heading>
+<p>The distinction between modals behaving like auxiliaries and modals behaving like main verbs has engendered a great deal of discussion. A well-known view is that modals in English are auxiliaries generated in Infl or Aux (cf. <link rid="b23">Roberts 1985</link>) because they have a defective inflectional paradigm and behave like other auxiliaries in that they can undergo residual V2 and do not trigger DO-support in negative clauses. On this view, modals in languages like German and Dutch are main verbs projecting their own VPs, as their properties are largely (though not completely) identical to those of main verbs.</p>
+<p>However, the distribution and properties of modals in Dutch suggest that Dutch modals can be used both as main verbs and as auxiliaries. Evidence that they can be used as main verbs was provided in the previous section. It was shown there that the volition modal <i>willen</i> &lsquo;want&rsquo; behaves like a transitive verb when it selects a CP complement. Obligation and permission modals optionally select a PP argument that expresses the source of permission or obligation, but ability and volition modals do not. Non-verbal complements of modals in languages such as Dutch, German, Afrikaans, Frisian, and Norwegian provide a further piece of evidence for the claim that modals can have their own argument structure (see <link rid="ss12">section 4</link>).</p>
+<p>The main-verb use of modals can also be distinguished from their use as auxiliaries by looking at inflection. Unlike English modals, Dutch modals have a participial form. When used as a main verb embedded under a perfective auxiliary, the modal occurs as a participle (17a). When used as an auxiliary, the modal appears as an infinitive instead of a participle (17b). This so-called Infinitivus-pro-Participio effect (IPP) is typical for auxiliaries, witness the contrasts in (17c, d) and (17e, f).</p>
+<p>(17)<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Jan had dat best gekund/*kunnen.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>John had that best could-PCP/can-INF</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;John would very well have been able to do that.&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Jan had dat best kunnen/*gekund doen.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>John had that best can-INF/could-PCP do-INF</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;John would very well have been able to do that.&rsquo;</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Jan is thuis gebleven/*blijven.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>John is home stayed-PCP/stay-INF</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;John stayed home.&rsquo;</entry>
+</row>
+<row><entry morerows="2">d.</entry>
+<entry>Jan is blijven/*gebleven werken.</entry>
+</row>
+<row><entry>John is keep-INF/kept-PCP work-INF</entry>
+</row>
+<row><entry>&lsquo;John kept on working.&rsquo;</entry>
+</row>
+<row><entry morerows="2">e.</entry>
+<entry>Jan had niet hoeven/*gehoeven te komen.</entry>
+</row>
+<row><entry>John had not need-INF/needed-PCP to come</entry>
+</row>
+<row><entry>&lsquo;It was not necessary for John to come.&rsquo;</entry>
+</row>
+<row><entry>f.</entry>
+<entry>Jan had gezegd/*zeggen te komen.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>John has said-PCP/say-INF to come</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;John had said that he would come.&rsquo; </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Facts such as (17a) are a problem for the hypothesis that modals always have a verbal complement which may be a phonologically silent or a lexically empty verb (<link rid="b24">Vanden Wyngaerd 1994</link>; <link rid="b25">van Riemsdijk 2002</link>), as this hypothesis predicts the IPP effect to occur in such cases as well. The absence of the IPP effect cannot be ascribed to the fact that the verbal complement is not pronounced, given cases such as (18) where the IPP effect is obligatory despite the absence of an audible verbal complement.</p>
+<p>(18)<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>Jan had de kamer mogen/*gemogen maar niet hoeven opruimen.</entry>
+</row>
+<row><entry>John had the room may-INF/may-PCP but not need-INF clean</entry>
+</row>
+<row><entry>&lsquo;John was allowed to clean the room but he did not have to do it.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>It therefore seems to be necessary to specify in the lexicon that in languages like Dutch, modals are syntactically ambiguous between main and auxiliary verbs. This does not complicate the grammar in any way, as such specification is independently needed for other verbs. For example, the verbs <i>beloven</i> &lsquo;promise&rsquo; and <i>dreigen</i> &lsquo;threaten&rsquo; can be used both as main verbs (19a, c) and as epistemic auxiliaries (19b, d). Interestingly, as auxiliaries they do not just lack a participial form, they cannot occur in the perfect tense at all (19a, b).<link rid="fn11">
+<sup>11</sup></link> In addition, in its auxiliary use <i>beloven</i> &lsquo;promise&rsquo; cannot license an indirect object (19a, b). The possibility to be used as an epistemic auxiliary seems to be idiosyncratic, i.e., there does not seem to be a way to predict that <i>beloven</i> &lsquo;promise&rsquo; and <i>dreigen</i> &lsquo;threaten&rsquo; can be used as auxiliaries while <i>zeggen</i> &lsquo;say&rsquo; en <i>verraden</i> &lsquo;betray&rsquo; cannot (19e).</p>
+<p>(19)<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Jan heeft (ons) beloofd/*beloven te komen.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>John has (us) promised-PCP/promise-INF to come</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;John promised (us) to come.&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Het belooft/*heeft beloofd/*heeft beloven (*ons) een mooie dag te worden.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>it promises/has promised-PCP/has promise-INF (us) a fine day to become</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;It promises (*us) to be a fine day.&rsquo;</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Jan heeft gedreigd/*dreigen op te stappen.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>John has threatened-PCP/threaten-INF to leave</entry>
+</row>
+<row><entry>d.</entry>
+<entry>Het dreigt/*heeft gedreigd/*heeft dreigen te gaan regenen.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>it threatens/has threatened-PCP/has threaten-INF to go rain</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;There&apos;s a threat of rain.&rsquo;</entry>
+</row>
+<row><entry>e.</entry>
+<entry>*Het zegt/verraadt een mooie dag te worden.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>it says/betrays a beautiful day to become</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>To conclude this section, there are two reasons to distinguish main verb and auxiliary modals. The first is the difference between English on the one hand and languages such as Dutch and German on the other. The second is the language-internal behavior of modals in languages like Dutch. In English, the syntactic distribution and behavior of modals patterns with other auxiliaries. In Dutch, modals can both be used as main verbs and as auxiliaries. Since English, German, and Dutch modals are all ambiguous between epistemic and root interpretations, the auxiliary&ndash;main verb distinction does not correspond to this ambiguity.</p>
+<p>Language internally, the main verb&ndash;auxiliary distinction does not correspond to the root&ndash;epistemic distinction either. In (20a), the modal is used as a main verb but it has an epistemic interpretation. In (20b), it is used as a main verb with a root interpretation.</p>
+<p>(20)<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Dat Jan te laat gekomen is, dat kan haast niet.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>that John too late come is, that can almost not</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;It is almost impossible that John was too late.&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Jan had best naar huis gemogen.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>John had best to home may-PCP</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;John would have been allowed to go home.&rsquo; </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+<subsection id="ss9" level="2">
+<heading id="h8" level="2">3.2&ensp;Different positions for epistemic and root modals</heading>
+<p>Although modals across and even within languages may differ with respect to their categorial status, it is clear that this distinction alone does not determine the structural position of modals. A complication is that languages may have two base positions for modals. <link rid="b26">Picallo (1990</link>) claims that this is the case in Catalan. There is a higher IP position above clausal negation that corresponds to epistemic interpretations, and there is a lower VP position below clausal negation corresponding to root interpretations. Evidence that Catalan has two different base positions for modals, one for epistemic and one for root modals derives, among other things, from the interpretation of adjacent modals and the interaction of modal interpretations with the position of perfective auxiliaries. According to Picallo, in the Catalan sentence in (21) only the first modal can have an epistemic interpretation.</p>
+<p>(21)&ensp;&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>
+</entry>
+<entry>En Pere due poder tocar el piano.</entry>
+<entry>Catalan</entry>
+</row>
+<row><entry>
+</entry>
+<entry>the Pere must can play the piano</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>i. &lsquo;It must be the case that Pere is able/allowed to play the piano.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>ii. *&rsquo;It must be the case that it is possible that Pere would play the piano.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Although this may be true for Catalan, the restriction does not hold universally, as the Dutch sentence in (22a) (from <link rid="b15">Barbiers 1995</link>: 194) and the Icelandic sentence in (22b) (from <link rid="b16">Thr&aacute;insson and Vikner 1995</link>: 76) show:</p>
+<p>(22)<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Het moet hem nog wel eens willen tegenzitten.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>it must him once in a while want against-sit</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;It is said that things go against him once in a while.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&thorn;a&eth; mun vilja rigna me&eth;an &thorn;i&eth; eru&eth; &thorn;ar.</entry>
+<entry>Icelandic</entry>
+</row>
+<row><entry>
+</entry>
+<entry>it will want rain while you are there</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;It will tend to rain while you are there.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>There&apos;s a more robust generalization that seems to support the idea that epistemic modals are generated higher than root modals, namely the fact that root modals can be embedded under epistemic modals but not vice versa (but see the next section for a different interpretation of these facts). This is illustrated for Catalan in (23) (from <link rid="b26">Picallo 1990</link>: 294). The modal <i>deure</i> &lsquo;must&rsquo; can only have an epistemic interpretation and therefore causes ungrammaticality when embedded under a root modal. The generalization also holds for Dutch (<link rid="b15">Barbiers 1995</link>: 194), Danish, and Icelandic (<link rid="b16">Thr&aacute;insson and Vikner 1995</link>: 98).</p>
+<p>(23)<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry>*En</entry>
+<entry>Joan</entry>
+<entry>pot</entry>
+<entry>duere</entry>
+<entry>tocar</entry>
+<entry>el</entry>
+<entry>piano.</entry>
+<entry>Catalan</entry>
+</row>
+<row><entry>the</entry>
+<entry>Joan</entry>
+<entry>may</entry>
+<entry>must</entry>
+<entry>play</entry>
+<entry>the</entry>
+<entry>piano</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Picallo&apos;s second piece of evidence involves the interaction between modal and perfective auxiliaries. Perfective auxiliaries in Catalan can precede root modals but not epistemic modals, while both root and epistemic modals can precede perfective auxiliaries (<link rid="b26">Picallo 1990</link>: 293). This follows if root modals are generated lower than epistemic modals. The restriction also holds for Dutch (<link rid="b15">Barbiers 1995</link>: 197&ndash;198).<link rid="fn12">
+<sup>12</sup></link>
+</p>
+<p>(24)<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*En</entry>
+<entry>Pere</entry>
+<entry>havia</entry>
+<entry>degut</entry>
+<entry>venir.</entry>
+<entry>Catalan</entry>
+</row>
+<row><entry>
+</entry>
+<entry>the</entry>
+<entry>Pere</entry>
+<entry>had</entry>
+<entry>must</entry>
+<entry>come</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry>b.</entry>
+<entry>En Joan</entry>
+<entry>ha</entry>
+<entry>pogut</entry>
+<entry>anar</entry>
+<entry>a</entry>
+<entry>Banyoles.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;Joan</entry>
+<entry>has been</entry>
+<entry>allowed to</entry>
+<entry>go</entry>
+<entry>to</entry>
+<entry>Banyoles.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+<subsection id="ss10" level="2">
+<heading id="h9" level="2">3.3&ensp;Different positions for necessity and possibility modals, and further distinctions</heading>
+<p>
+<link rid="b27">Cormack and Smith (2002</link>) argue that necessity/obligation modals are generated in a position higher than negation and possibility/ability modals in a position lower than negation. This captures the facts in (25).<link rid="fn13">
+<sup>13</sup></link>
+</p>
+<p>(25)<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Alfred shouldn&apos;t eat nuts.</entry>
+<entry>(deontic)</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;It is advisable for Alfred not to eat nuts.&rsquo;</entry>
+<entry>should &gt; not</entry>
+</row>
+<row><entry>
+</entry>
+<entry>*&lsquo;It is not the case that it is advisable for A. to eat nuts</entry>
+<entry>*not &gt; should</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Bob shouldn&apos;t be late.</entry>
+<entry>(epistemic)</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;It is predictable that Bob will not be late.&rsquo;</entry>
+<entry>should &gt; not</entry>
+</row>
+<row><entry>
+</entry>
+<entry>*&lsquo;It is not the case that it is predictable that Bob will be late.&rsquo;</entry>
+<entry>*not &gt; should</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Edwin can&apos;t climb trees.</entry>
+<entry>(deontic)</entry>
+</row>
+<row><entry>
+</entry>
+<entry>*&lsquo;Edwin is able not to climb trees.&rsquo;</entry>
+<entry>*can &gt; not</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;It is not the case that Edwin can climb trees.&rsquo;</entry>
+<entry>not &gt; can</entry>
+</row>
+<row><entry>d.</entry>
+<entry>Jean can&apos;t have left.</entry>
+<entry>(epistemic)</entry>
+</row>
+<row><entry>
+</entry>
+<entry>*&lsquo;It is possible that Jean has not left.&rsquo;</entry>
+<entry>*can &gt; not</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;It is not the case that it is possible for Jean to have left.&rsquo;</entry>
+<entry>not &gt; can</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Cormack and Smith&apos;s analysis has two important consequences. First, since both necessity and possibility modals precede negation at the surface, it must be the case that possibility modals raise across negation at PF. Second, since possibility modals scoping under negation can have an epistemic reading whereas necessity modals scoping over negation can have a root interpretation, there cannot be a syntactic explanation for the cross-linguistic impossibility for root modals to take scope over epistemic modals. Indeed, <link rid="b27">Cormack and Smith (2002</link>: 155) claim that *root &gt; epistemic is a conceptual constraint. A point in favor of this claim is that modal main verbs in English cannot have root &gt; epistemic scope either.</p>
+<p>A culmination of distinctions between modal interpretations and corresponding syntactic positions can be found in <link rid="b28">Cinque (1999</link>). Cinque proposes the syntactic hierarchy in (26).</p>
+<p>(26)&emsp;Mod<sub>Epistemic</sub> .&nbsp;.&nbsp;.&nbsp;&gt; Mod<sub>Necessity</sub> &gt; Mod<sub>Possibility</sub> &gt; Mod<sub>Volition</sub> &gt; Mod<sub>Obligation</sub> &gt; Mod<sub>Ability/Permission</sub>
+</p>
+<p>It is clear that Cormack and Smith and Cinque agree that necessity modals are higher than possibility modals and that obligation modals are higher than ability modals. Three positions that Cinque adds involve volition modals and a distinction between epistemic and alethic modality. Evidence for the syntactic position of volition modals comes from Italian sentences such as (27a, b) (<link rid="b28">Cinque 1999</link>: 80), where the only possible scope relations are possibility &gt; volition and volition &gt; ability/permission, respectively.</p>
+<p>(27)<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Gianni potrebbe voler uscire.</entry>
+<entry>Italian</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;John could want to go out.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Gianni vorrebbe poter cantare.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;John would want to be allowed to sing.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As for the second distinction, alethic modality semantically involves purely logical necessity or possibility, whereas epistemic modality involves speaker&apos;s deductions or opinions. Syntactically, epistemic modals are in a position higher than Tense, whereas alethic modals are lower than Tense. As evidence for the first point, Cinque provides, <i>inter alia</i>, the Una example in (28a).<link rid="fn14">
+<sup>14</sup></link> According to <link rid="b29">Baker&apos;s (1985a</link>) Mirror Principle, if X is a functional head generated higher in the structure than the functional head Y, X will occur in a position peripheral to Y when a complex word is derived by successive cyclic movement of the verb to the respective functional heads. Since <i>darib</i> in (28a) is to the right of the future-tense morpheme, it must originate in a higher position. Evidence that alethic modals are lower than Tense comes from the Hawick Scots sentence in (28b) (from <link rid="b30">Brown 1992</link>). In this sentence <i>can</i> is in the scope of the future tense marker <i>will</i> and can be interpreted either in the ability or in the possibility sense.</p>
+<p>(28)<object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Er bin-kwan-de-darib.</entry>
+<entry>Una</entry>
+</row>
+<row><entry>
+</entry>
+<entry>she go-Fut-3Sg-<smallcapitals>probab</smallcapitals>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;She might go.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>He will can do it.</entry>
+<entry>Hawick Scots</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In Cinque&apos;s theory, every head in (26) provides a Spec position for a corresponding modal adverb. This predicts that different types of modal adverb observe the same hierarchy as the heads in (26). For evidence, see <link rid="b28">Cinque (1999</link>: <related relationship="sibling" type="samework"><externallink id="chapter 4 - Adverb Classes and Adverb Placement.xml" type="file">chapter 4</externallink></related>).</p>
+</subsection>
+<subsection id="ss11" level="2">
+<heading id="h10" level="2">3.4&ensp;Different positions at PF and LF</heading>
+<p>As we have seen in the preceding section, the position in which a modal is pronounced should be distinguished from the position in which it is interpreted. This can be done in various ways, depending on the set of assumptions adopted. <link rid="b27">Cormack and Smith (2002</link>) argue that a modal is inserted in the position where it is interpreted, while the position of pronunciation may be different as a result of PF movement. A second possibility is that modals are not generated in the position where they are interpreted, but that they reach their interpretive position by LF-movement.</p>
+<p>It is common to assume that modal auxiliaries are quantifiers. Necessity/obligation modals can be shown to involve universal quantification over possible worlds, whereas possibility/ability/permission modals are existential quantifiers over possible worlds. If modals are quantifiers, they should be able to raise at LF. <link rid="b31">McDowell (1987</link>) argues that this is the case for epistemic modals. Epistemic modals would differ from root modals in that they raise to a clause initial position at LF where they take scope over the entire proposition. According to McDowell, the incompatibility of epistemic modality with yes/no and <i>wh</i>-questions supports this analysis, as the epistemic operator and the <i>wh</i> or question operator compete for the same position within COMP. Whereas McDowell&apos;s claim may be correct for the incompatibility of epistemic necessity with yes/no questions (cf. 29b), epistemic possibility and yes/no questions are clearly not incompatible; see (29c, d). Moreover, <link rid="b14">Brennan (1993</link>) shows that epistemic modals occur in <i>wh</i>-questions quite freely (see 29e, f).</p>
+<p>(29)<object id="tu28" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu28_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Jan</entry>
+<entry>moet</entry>
+<entry>wel</entry>
+<entry>een</entry>
+<entry>moedertaalspreker</entry>
+<entry>van</entry>
+<entry>het</entry>
+<entry>Fins</entry>
+<entry>zijn.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>John</entry>
+<entry>must</entry>
+<entry>AFF</entry>
+<entry>a</entry>
+<entry>native speaker</entry>
+<entry>of</entry>
+<entry>the</entry>
+<entry>Finnish</entry>
+<entry>be</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col10">&lsquo;(John speaks Finnish fluently, so) John must be a native speaker of Finnish.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry>b.</entry>
+<entry>*Moet</entry>
+<entry>Jan</entry>
+<entry>wel</entry>
+<entry>een</entry>
+<entry>moedertaalspreker</entry>
+<entry>van</entry>
+<entry>het</entry>
+<entry>Fins</entry>
+<entry>zijn?</entry>
+</row>
+<row><entry>
+</entry>
+<entry>must</entry>
+<entry>John</entry>
+<entry>AFF</entry>
+<entry>a</entry>
+<entry>native speaker</entry>
+<entry>of</entry>
+<entry>the</entry>
+<entry>Finnish</entry>
+<entry>be</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col10">Intended meaning: &lsquo;Is it necessarily true that John is a native speaker of Finnish?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry>c.</entry>
+<entry>Kan</entry>
+<entry>Jan</entry>
+<entry>een</entry>
+<entry>moedertaalspreker</entry>
+<entry>van</entry>
+<entry>het</entry>
+<entry>Fins</entry>
+<entry>zijn?</entry>
+</row>
+<row><entry>
+</entry>
+<entry>can</entry>
+<entry>John</entry>
+<entry>a</entry>
+<entry>native speaker</entry>
+<entry>of</entry>
+<entry>the</entry>
+<entry>Finnish</entry>
+<entry>be</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col9">&lsquo;Is it possible that he is a native speaker of Finnish?&rsquo;</entry>
+</row>
+<row><entry>d.</entry>
+<entry namest="col2" nameend="col9">Could the keys be on John&apos;s table? (<link rid="b14">Brennan 1993</link>)</entry>
+</row>
+<row><entry>e.</entry>
+<entry namest="col2" nameend="col9">What may he have done?</entry>
+</row>
+<row><entry>f.</entry>
+<entry namest="col2" nameend="col9">Where must the murder weapon be hidden, in your view?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b21">Butler (2003</link>) is another attempt at capturing the scope of modals in terms of LF-raising. He argues that there are two scope positions for modals, one at the periphery of vP giving rise to root interpretations and one at the periphery of CP giving rise to epistemic interpretations. Both vP and CP are phases, hence propositional, and Butler&apos;s proposal thus captures <link rid="b32">Kratzer&apos;s (1977</link>) insight that modals are propositional operators.</p>
+<p>As <link rid="b14">Brennan (1993</link>) shows, the interpretation of symmetric predicates embedded under a modal supports the claim that epistemic modals are in a higher position at LF than root modals. Brennan&apos;s example of a symmetric predicate is given in (30). The predicate is symmetric because (30a) implies (30b) and vice versa. When embedded under an epistemic modal, symmetry is retained (30c). When embedded under a root modal, symmetry is destroyed. This follows if only root modals are low enough to establish a relation between the subject and the embedded predicate.</p>
+<p>(30)<object id="tu29" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu29_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>The governor shook hands with all the prisoners.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>All the prisoners shook hands with the governor.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>c.</entry>
+<entry>The governor may shake hands with all the prisoners.</entry>
+<entry>Epistemic</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;It is possible that the governor will shake hands with all the prisoners.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;It is possible that all the prisoners will shake hands with the governor.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+<row><entry>d.</entry>
+<entry>The governor may shake hands with all the prisoners.</entry>
+<entry>Root</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&lsquo;The governor is allowed to shake hands with all the prisoners.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&ne; &lsquo;All the prisoners are allowed to shake hands with the governor.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The scopal interaction between modals and other quantifiers could be taken to provide further evidence for the higher position of epistemic modals at LF (von <link rid="b33">Fintel and Iatridou 2003</link>). Whereas quantifiers show scope ambiguities with root modals (31a), they do not show such ambiguities with epistemic modals (31b, c).</p>
+<p>(31)<object id="tu30" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu30_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry namest="col2" nameend="col4">Most of our students must get outside funding &ndash;</entry>
+</row>
+<row><entry>
+</entry>
+<entry>i.</entry>
+<entry>for the department budget to work out.</entry>
+<entry>must &gt; most</entry>
+</row>
+<row><entry>
+</entry>
+<entry>ii.</entry>
+<entry>the others have already been given university fellowships.</entry>
+<entry>most &gt; must</entry>
+</row>
+<row><entry>b.</entry>
+<entry namest="col2" nameend="col4">&num;Every student is the tallest person in the department.</entry>
+</row>
+<row><entry>c.</entry>
+<entry namest="col2" nameend="col4">&num;Every student may be the tallest person in the department.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>i.</entry>
+<entry>every student x (may x be the tallest)</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>ii.</entry>
+<entry>may (every student be the tallest)</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl> </insitu>
+</objectsource>
+</object>
+</p>
+<p>The first interpretation of (31c) would make sense but is not available; the second interpretation does not make sense but is available. This shows that a quantified subject cannot raise over an epistemic modal whereas it can raise over a root modal. These facts would follow if the position of epistemic modals at LF is higher than the position to which the quantifier raises. However, von Fintel and Iatridou argue that this is not the right analysis, since even low possibility modals do not allow a quantifier to take wide scope. They conclude that a quantifier cannot bind its trace across an epistemic modal at LF.</p>
+</subsection>
+</subsection>
+<subsection id="ss12" level="1">
+<heading id="h11" level="1">4 The complement of modals</heading>
+<p>The syntactic representation of the epistemic&ndash;root distinction can also be studied from the perspective of the modal&apos;s complement. Relatively little attention has been paid in the literature to the influence of the modal&apos;s complement on modal interpretation. This section provides an overview.</p>
+<subsection id="ss13" level="2">
+<heading id="h12" level="2">4.1 Non-disambiguating complements</heading>
+<p>At first sight it might seem plausible to expect that modals with a root interpretation require verbs assigning an agent role as their complements. An agent may seem to be necessary to carry the permission, obligation, ability, or will to perform the action denoted by the embedded verb. Passive, unaccusative, stative complements and complements with a perfect might then be expected to force epistemic interpretations. In passives, the agent role is demoted, in unaccusatives there is no agent role, stative verbs denote a state of affairs, not an action that can be performed by an agent, and in perfectives the event denoted by the verb has already been completed. However, these types of complement all allow root interpretations:</p>
+<p>(32)<object id="tu31" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu31_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry namest="col2" nameend="col5">This room must be cleaned immediately.</entry>
+<entry>Passive</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col6">&lsquo;You must clean this room immediately&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Je</entry>
+<entry>mag</entry>
+<entry>niet</entry>
+<entry>weglopen.</entry>
+<entry>Unaccusative</entry>
+</row>
+<row><entry>
+</entry>
+<entry>you</entry>
+<entry>may</entry>
+<entry>not</entry>
+<entry>away-walk</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col6">&lsquo;You&rsquo;re not allowed to walk away.&rsquo;</entry>
+</row>
+<row><entry>c.</entry>
+<entry namest="col2" nameend="col5">You must know the answer before five o&rsquo;clock.</entry>
+<entry>Stative</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col6">&lsquo;You&rsquo;re required to know the answer before five o&rsquo;clock.&rsquo;</entry>
+</row>
+<row><entry>d.</entry>
+<entry namest="col2" nameend="col5">You must have cleaned your room before five o&rsquo;clock.</entry>
+<entry>Perfective</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col6">&lsquo;You&rsquo;re obliged to have cleaned your room before five o&rsquo;clock.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+<subsection id="ss14" level="2">
+<heading id="h13" level="2">4.2 Complements that force an epistemic interpretation</heading>
+<p>Complements denoting a state or event that cannot change (anymore) force an epistemic interpretation (<link rid="b15 b19">Barbiers 1995, 2002</link>). There are two types of complement for which this is the case:</p>
+<p>(33)<object id="tu32" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu32_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Stative complements which contain an individual-level predicate, provided that the subject has fixed reference.<link rid="fn15">
+<sup>15</sup></link>
+</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Perfect complements, but only if the completion stage of the event has taken place in the past. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>An example of both cases is given in (34):</p>
+<p>(34)<object id="tu33" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu33_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John must be a native speaker of Finnish.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&num;&lsquo;John has the obligation to be a native speaker of Finnish.&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>They must have cleaned this room yesterday.</entry>
+</row>
+<row><entry>
+</entry>
+<entry>&num;&lsquo;They must have had the obligation to clean this room yesterday.&rsquo; </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>These two observations do not seem to have any consequences for the syntactic analysis of modal ambiguity, as disambiguation is the result of semantic properties of the complements. Nevertheless, the two types of complement in (34) are useful diagnostics to establish whether an epistemic interpretation is possible in a certain construction. An anonymous reviewer correctly points out that this test is not watertight, however. If an <i>if</i>-clause is added to sentences like (34), root interpretations are available (35).</p>
+<p>(35)<object id="tu34" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu34_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>John must be a native speaker of Finnish if he wants to apply for the position.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>They must have cleaned this room yesterday if they want to go to the zoo today. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+<subsection id="ss15" level="2">
+<heading id="h14" level="2">4.3&ensp;Complements that force root interpretations</heading>
+<p>For an epistemic interpretation to be available, it is necessary that the complement contain an infinitival verb. This can be seen in languages in which modals allow non-verbal complements, such as Dutch. Such constructions can have only root interpretations, as the examples in (36) show (from <link rid="b15">Barbiers 1995</link>: 153).</p>
+<p>(36)<object id="tu35" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu35_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Jan</entry>
+<entry>mag</entry>
+<entry>(dan)</entry>
+<entry>weggaan</entry>
+<entry>(hij zal ooit terugkeren).</entry>
+</row>
+<row><entry>
+</entry>
+<entry>John</entry>
+<entry>may</entry>
+<entry>(then)</entry>
+<entry>away-go</entry>
+<entry>(he will once return)</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col6">i.&ensp;&lsquo;John has permission to leave.</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col6">ii.&ensp;&lsquo;It may be true that John is leaving (but some day he will return).&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>b.</entry>
+<entry>Jan</entry>
+<entry>mag</entry>
+<entry>(dan)</entry>
+<entry>weg</entry>
+<entry>(hij zal ooit terugkeren).</entry>
+</row>
+<row><entry>
+</entry>
+<entry>John</entry>
+<entry>may</entry>
+<entry>(then)</entry>
+<entry>away</entry>
+<entry>(he will once return)</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col6">i.&ensp;&lsquo;John has permission to leave.&rsquo;</entry>
+</row>
+<row><entry>
+</entry>
+<entry namest="col2" nameend="col6">ii.&ensp;*&lsquo;It may be true that John is leaving (but some day he will return).&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As was noted in <link rid="ss7">section 3</link>, the claim that such constructions involve non-verbal complements is controversial. <link rid="b24">Vanden Wyngaerd (1994</link>) proposes that they involve PF deletion of an infinitival verb. <link rid="b25">Van Riemsdijk (2002</link>) argues that the lexicons of languages that allow &lsquo;non-verbal complements&rsquo; contain empty verbs that are licensed by modals. While there is good evidence that this claim is correct for Swiss German, the impossibility of an epistemic interpretation in cases like (36b) is a strong argument against an empty verb analysis for Dutch. For more arguments, cf. <link rid="b15 b19">Barbiers (1995, 2002</link>).</p>
+</subsection>
+</subsection>
+<subsection id="ss16" level="1">
+<heading id="h15" level="1">5 Conclusion</heading>
+<p>In the past forty years, generative syntactic research on modal auxiliaries has focussed on the syntactic correlate of the semantic epistemic&ndash;root distinction. The original idea that epistemic modals are monadic predicates while root modals are dyadic has proved to be too simple, as monadic instances of root modals have been shown to exist as well. The influential analysis that takes epistemic modals to be raising predicates and root modals to be control predicates has turned out to be problematic too, given that monadic root modals behave like raising predicates on a number of tests. In current analyses, the leading idea is that epistemic modals are interpreted in a position higher in the clause than root modals. So far, it appears that there is not any conclusive evidence to decide whether this higher position is the result of base generation or LF-movement. Recent research also suggests that finer positional distinctions are necessary, such as a distinction between necessity and possibility modals, obligation and ability/permission modals, alethic and epistemic modals. Issues for future research include cross-linguistic parameterization, such as the difference between main verb and auxiliary modals, and the question why the epistemic&ndash;root ambiguity occurs only with modal auxiliaries, not with modal adverbs.<link rid="fn16">
+<sup>16</sup></link>
+</p>
+</subsection>
+<subsection id="ss17" level="1">
+<heading id="h16" level="1">NOTES</heading>
+<p>I thank Werner Abraham, Frits Beukema, Wim van der Wurff, and an anonymous reviewer for useful comments on previous versions of this chapter. All remaining errors are mine.</p>
+<p>
+<span id="fn1">
+<number>1&emsp;</number>Caps indicate English modals and their equivalents in other languages.</span>
+</p>
+<p>
+<span id="fn2">
+<number>2&emsp;</number>I use an underlying object different from the one in (4d) to avoid complications caused by the fact that BE is also the perfect auxiliary of the passive in Dutch.</span>
+</p>
+<p>
+<span id="fn3">
+<number>3&emsp;</number>Note that this is true at the observational level. The theory-internal hypothesis that PRO cannot occur in governed positions is irrelevant for the problem under discussion.</span>
+</p>
+<p>
+<span id="fn4">
+<number>4&emsp;</number>See <link rid="b15 b19">Barbiers (1995, 2002</link>) for arguments that this construction does not involve ellipsis; see <link rid="b25">van Riemsdijk (2002</link>) for the opposite view; see also <link rid="ss8 ss12">sections 3.1 and 4</link>.</span>
+</p>
+<p>
+<span id="fn5">
+<number>5&emsp;</number>The verb in the complement can be passivized if it has an external argument. The point at issue here is that the modal verb itself cannot be passivized.</span>
+</p>
+<p>
+<span id="fn5a">
+<number>5&emsp;</number>The construction can also be found in Afrikaans, German, Norwegian, Yiddish, and West-Frisian.</span>
+</p>
+<p>
+<span id="fn6">
+<number>6&emsp;</number>An indication that modal auxiliaries are stative is the fact that they cannot occur in the progressive (i), like other stative verbs (ii), but unlike dynamic verbs (iii).</span>
+</p>
+<p>(i)&emsp;*Jan is aan het kunnen schaatsen.</p>
+<p>John is to the can-INF skating</p>
+<p>&num;&lsquo;John is being able to skate.&rsquo;</p>
+<p>(ii)&emsp;*Jan is het antwoord aan het kennen</p>
+<p>John is the answer to the knowing</p>
+<p>(iii)&emsp;Jan is aan het schaatsen.</p>
+<p>John is to the skating</p>
+<p>&lsquo;John is skating.&rsquo;</p>
+<p>
+<span id="fn7">
+<number>7&emsp;</number>In Danish, root modals do not seem to allow non-arguments such as expletives, weather IT and idiom chunks as their subjects. Nevertheless, <link rid="b16">Thr&aacute;insson and Vikner (1995</link>: 63&ndash;66) claim that in Danish both root and epistemic modals involve raising structures. They account for the impossiblity of non-arguments as subjects of root modals by assuming that root but not epistemic modals assign an &lsquo;additional&rsquo; theta-role to the surface subject. This &lsquo;additional&rsquo; theta role is subject to an &lsquo;additional&rsquo; theta criterion that precludes the assignment of more than one additional role to an argument. This explains why embedded predicates that assign an additional theta role as well, such as BECOME and GET block the root interpretations. According to Thr&aacute;insson and Vikner, in Icelandic the epistemic&ndash;root distinction does straightforwardly correspond to raising and control structures. A less attractive aspect of this analysis is that it assumes different mechanisms for theta role assignment, and cross-linguistic parameterization of the availability of additional theta-role assignment.</span>
+</p>
+<p>
+<span id="fn8">
+<number>8&emsp;</number>Examples in (11) from <link rid="b18">Wurmbrand and Bobaljik (1999</link>).</span>
+</p>
+<p>
+<span id="fn9">
+<number>9&emsp;</number>The construction can also be found in Afrikaans, German, Norwegian, Yiddish, and West-Frisian.</span>
+</p>
+<p>
+<span id="fn10">
+<number>10&emsp;</number>Example from Wurmbrand and Bobaljik. Pragmatic context is provided to favor the wide-scope reading of the modal.</span>
+</p>
+<p>
+<span id="fn11">
+<number>11&emsp;</number>I owe this observation to Gertjan Postma.</span>
+</p>
+<p>
+<span id="fn12">
+<number>12&emsp;</number>
+<link rid="b15">Barbiers (1995</link>) follows Picallo&apos;s assumption that epistemic modals are generated in a higher position than root modals, but develops an analysis on the basis of a split-VP-hypothesis, in which what is usually taken to be little v is identified as a D-head. According to this analysis, root modals are generated below D and epistemic modals, on top of DP. The restrictions on double modals and the interaction between perfective auxiliaries and modal interpretation follow straightforwardly from this analysis. It is further shown that there are a number of parallels between modals with a nominal DP-complement and modals with a verbal DP-complement.</span>
+</p>
+<p>
+<span id="fn13">
+<number>13&emsp;</number>Importantly, Cormack and Smith distinguish three types of negation: echoic, polarity, and adverbial (i.e., VP) negation. The observations in (25) all involve scope relative to polarity negation.</span>
+</p>
+<p>
+<span id="fn14">
+<number>14&emsp;</number>Una is an Irian Jaya language; the example is from <link rid="b34">Louwerse (1988</link>).</span>
+</p>
+<p>
+<span id="fn15">
+<number>15&emsp;</number>Names are DPs with fixed reference. In the unmarked case, the referent of a name is constant across time and across different possible worlds (but see section 4.4 for irrealis contexts).</span>
+</p>
+<p>
+<span id="fn16">
+<number>16&emsp;</number>I owe the latter question to an anonymous reviewer.</span>
+</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss18" level="1" type="references">
+<heading id="h17" level="1">REFERENCES</heading>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Abraham</surname><x>, </x><forenames>Werner</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">The Aspect&ndash;Case Typology Correlation: Perfectivity and Burzio&apos;s Generalization</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Arguments and Case: Explaining Burzio&apos;s Generalization</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Eric</forenames><x> </x><surname>Reuland</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">131</page><x>&ndash;</x><page type="last">193</page><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference id="b29" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Baker</surname><x>, </x><forenames>Mark</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985a</date><x>). </x><title type="document">The Mirror Principle and Morphosyntactic Explanation</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>16</volume><x>: </x><page type="first">373</page><x>&ndash;</x><page type="last">416</page><x>.</x>
+</reference>
+<reference id="b15" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Barbiers</surname><x>, </x><forenames>Sjef</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date>
+<miscellaneoustext>). The Syntax of Interpretation. PhD dissertation, Leiden University</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b19" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Barbiers</surname><x>, </x><forenames>Sjef</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="document">Modality and Polarity</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Modality and its Interaction with the Verbal System</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Sjef</forenames><x> </x><surname>Barbiers</surname>
+</name><x>, </x><name type="editor">
+<forenames>Frits</forenames><x> </x><surname>Beukema</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Wim</forenames><x> </x><surnameprefix>van</surnameprefix><x> </x><surname>der Wurff</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">51</page><x>&ndash;</x><page type="last">74</page>
+<x>. </x><address>Amsterdam/Philadelphia</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference id="b11" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Bennis</surname><x>, </x><forenames>Hans</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="book">Gaps and Dummies<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b22" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Bennis</surname><x>, </x><forenames>Hans</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">TI: A Note on Modal Passives</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Grammar in Progress: GLOW Essays for Henk van Riemsdijk</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Juan</forenames><x> </x><surname>Mascar&oacute;</surname>
+</name><x> and </x><name type="editor">
+<forenames>Marina</forenames><x> </x><surname>Nespor</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">33</page><x>&ndash;</x><page type="last">40</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b14" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Brennan</surname><x>, </x><forenames>Virginia</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date>
+<miscellaneoustext>). Root and Epistemic Modal Auxiliary Verbs. PhD dissertation, University of Massachusetts</miscellaneoustext><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Brennan</surname><x>, </x><forenames>Virginia</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Quantificational Modals</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>28</volume><x>: </x><page type="first">165</page><x>&ndash;</x><page type="last">169</page><x>.</x>
+</reference>
+<reference id="b30" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Brown</surname><x>, </x><forenames>Keith</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Double Modals in Hawick Scots</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Dialects of English: Studies in Grammatical Variation</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Trudgill</surname>
+</name><x> and </x><name type="editor">
+<forenames>Jack<x> </x>K<x>.</x>
+</forenames><x> </x><surname>Chambers</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">74</page><x>&ndash;</x><page type="last">103</page>
+<x>. </x><address>London</address><x>: </x><publisher>Longman.</publisher>
+</reference>
+<reference id="b7" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Burzio</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="book">Italian Syntax: A Government-Binding Approach</title>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Reidel.</publisher>
+</reference>
+<reference id="b21" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Butler</surname><x>, </x><forenames>Johnny</forenames>
+</name>
+</namegroup><x> (</x><date date="2003">2003</date><x>). </x><title type="document">A Minimalist Treatment of Modality</title><x>. </x><title type="journal">Lingua</title><x> </x><volume>113</volume><x>: </x><page type="first">967</page><x>&ndash;</x><page type="last">996</page><x>.</x>
+</reference>
+<reference id="b28" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="book">Adverbs and Functional Heads: A Cross-Linguistic Perspective</title>
+<x>. </x><address>New York</address><x>: </x><publisher>Oxford University Press.</publisher>
+</reference>
+<reference id="b27" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cormack</surname><x>, </x><forenames>Annabel</forenames>
+</name><x> and </x><name type="author">
+<forenames>Neil</forenames><x> </x><surname>Smith</surname>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="document">Modals and Negation in English</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Modality and its Interaction with the Verbal System</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Sjef</forenames><x> </x><surname>Barbiers</surname>
+</name><x>, </x><name type="editor">
+<forenames>Frits</forenames><x> </x><surname>Beukema</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Wim</forenames><x> </x><surnameprefix>van</surnameprefix><x> </x><surname>der Wurff</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">133</page><x>&ndash;</x><page type="last">164</page>
+<x>. </x><address>Amsterdam/Philadelphia</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Diewald</surname><x>, </x><forenames>Gabriele</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Zur Grammatikalisierung der Modalverben im Deutschen</title><x>. </x><title type="journal">Zeitschrift f&uuml;r Sprachwissenschaft</title><x> </x><volume>12</volume><x>: </x><page type="first">218</page><x>&ndash;</x><page type="last">234</page><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Ernst</surname><x>, </x><forenames>Thomas</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">The Phrase Structure of English Negation</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>9</volume><x>: </x><page type="first">109</page><x>&ndash;</x><page type="last">144</page><x>.</x>
+</reference>
+<reference id="b12" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Feldman</surname><x>, </x><forenames>Fred</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="book">Doing the Best We Can<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Reidel.</publisher>
+</reference>
+<reference id="b33" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Fintel</surname><x>, </x><forenames>Kai<x> </x>von</forenames>
+</name><x> and </x><name type="author">
+<forenames>Sabine</forenames><x> </x><surname>Iatridou</surname>
+</name>
+</namegroup><x> (</x><date date="2003">2003</date><x>). </x><title type="document">Epistemic Containment</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>34/2</volume><x>: </x><page type="first">173</page><x>&ndash;</x><page type="last">198</page><x>.</x>
+</reference>
+<reference id="b8" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hoekstra</surname><x>, </x><forenames>Teun</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984b</date><x>). </x><title type="book">Transitivity<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b4" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hofmann</surname><x>, </x><forenames>T<x>. </x>Ronald</forenames>
+</name>
+</namegroup><x> (</x><date date="1966">1966</date><x>). </x><title type="document">Past Tense Replacement and the Modal System</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Notes from the Linguistic Underground</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>James</forenames><x> </x><surname>McCawley</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">85</page><x>&ndash;</x><page type="last">100</page>
+<x>. </x><address>New York</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference id="b13" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Klooster</surname><x>, </x><forenames>Wim</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Problemen met Complementen. (Problems with Complements.)</title><x> </x><title type="journal">Tabu</title><x> </x><volume>16</volume><x>: </x><page type="first">112</page><x>&ndash;</x><page type="last">132</page><x>.</x>
+</reference>
+<reference id="b32" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kratzer</surname><x>, </x><forenames>Angelika</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date><x>). </x><title type="document">What &lsquo;must&rsquo; and &lsquo;can&rsquo; must and can mean</title><x>. </x><title type="journal">Linguistics and Philosophy</title><x> </x><volume>1</volume><x>: </x><page type="first">337</page><x>&ndash;</x><page type="last">355</page><x>.</x>
+</reference>
+<reference id="b34" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Louwerse</surname><x>, </x><forenames>John</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">The Morphosyntax of <i>Una</i> in Relation to Discourse Structure: A Descriptive Analysis</title><x>. </x><title type="book">Pacific Linguistics</title>
+<miscellaneoustext> Series B, 100</miscellaneoustext>
+<x>. </x><address>Canberra</address><x>: </x><publisher>Australian National University.</publisher>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lyons</surname><x>, </x><forenames>John</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date><x>). </x><title type="book">Semantics<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b20" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>May</surname><x>, </x><forenames>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="book">Logical Form: Its Structure and Derivation</title>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b31" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>McDowell</surname><x>, </x><forenames>Joyce</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date>
+<miscellaneoustext>). Assertion and Modality. PhD dissertation, University of Southern California</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Palmer</surname><x>, </x><forenames>Frank</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="book">Mood and Modality<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Perlmutter</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1970">1970b</date><x>). </x><title type="document">The Two Verbs <i>Begin</i>
+</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Readings in English Transformational Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Roderick</forenames><x> </x><surname>Jacobs</surname>
+</name><x> and </x><name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Rosenbaum</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Boston</address><x>: </x><publisher>Ginn.</publisher>
+</reference>
+<reference id="b26" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Picallo</surname><x>, </x><forenames>Carme</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Modal Verbs in Catalan</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>8</volume><x>: </x><page type="first">285</page><x>&ndash;</x><page type="last">312</page><x>.</x>
+</reference>
+<reference id="b25" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Riemsdijk</surname><x>, </x><forenames>Henk<x> </x>C<x>. </x>van</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="document">The unbearable lightness of GOing</title><x>. </x><title type="journal">The Journal of Comparative Germanic Linguistics</title><x> </x><volume>5</volume><x>: </x><page type="first">143</page><x>&ndash;</x><page type="last">196</page><x>.</x>
+</reference>
+<reference id="b23" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Roberts</surname><x>, </x><forenames>Ian</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">Agreement Parameters and the Development of English Modal Auxiliaries</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>3</volume><x>: </x><page type="first">21</page><x>&ndash;</x><page type="last">58</page><x>.</x>
+</reference>
+<reference id="b3" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ross</surname><x>, </x><forenames>John<x> </x>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1969">1969a</date><x>). </x><title type="document">Auxiliaries as Main Verbs</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Studies in Philosophical Linguistics 1</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>William</forenames><x> </x><surname>Todd</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">77</page><x>&ndash;</x><page type="last">102</page>
+<x>. </x><address>Evanston</address><x>: </x><publisher>Great Expectations Press.</publisher>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Roussou</surname><x>, </x><forenames>Anna</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">Modals and the Subjunctive</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Studies in Greek Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Artemis</forenames><x> </x><surname>Alexiadou</surname>
+</name><x>, </x><name type="editor">
+<forenames>Geoffrey</forenames><x> </x><surname>Horrocks</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Melita</forenames><x> </x><surname>Stavrou</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">169</page><x>&ndash;</x><page type="last">183</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer.</publisher>
+</reference>
+<reference id="b9" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Stowell</surname><x>, </x><forenames>Tim</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date>
+<miscellaneoustext>). Origins of Phrase Structure. PhD dissertation, MIT</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b16" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Thr&aacute;insson</surname><x>, </x><forenames>H&ouml;skuldur</forenames>
+</name><x> and </x><name type="author">
+<forenames>Sten</forenames><x> </x><surname>Vikner</surname>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Modals and Double Modals in the Scandinavian Languages</title><x>. </x><title type="journal">Working Papers in Scandinavian Syntax</title><x> </x><volume>55</volume><x>: </x><page type="first">51</page><x>&ndash;</x><page type="last">88</page><x>.</x>
+</reference>
+<reference id="b10" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Tomi&#x0107;</surname><x>, </x><forenames>Olga<x> </x>Mi&scaron;eska</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="document">Modality and Mood in Macedonian</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Modality and its Interaction with the Verbal System</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Sjef</forenames><x> </x><surname>Barbiers</surname>
+</name><x>, </x><name type="editor">
+<forenames>Frits</forenames><x> </x><surname>Beukema</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Wim</forenames><x> </x><surnameprefix>van</surnameprefix><x> </x><surname>der Wurff</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">261</page><x>&ndash;</x><page type="last">278</page>
+<x>. </x><address>Amsterdam/Philadelphia</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Warner</surname><x>, </x><forenames>Anthony</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="book">English Auxiliaries<x>.</x>
+</title><x> </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b18" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Wurmbrand</surname><x>, </x><forenames>Susi</forenames>
+</name><x> and </x><name type="author">
+<forenames>Jonathan</forenames><x> </x><surname>Bobaljik</surname>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date>
+<miscellaneoustext>). Modals, Raising and A-Reconstruction. Technical report, Leiden University</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b24" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Wyngaerd</surname><x>, </x><forenames>Guido<x> </x>Vanden</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">Pro-Legomena, Distribution and Reference of Infinitival Subjects<x>.</x>
+</title><x> </x><address>Berlin/New York</address><x>: </x><publisher>Mouton.</publisher>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

@@ -1,0 +1,171 @@
+15 Aug 2001
+	1. type attribute on question and questiongroup changed from a fixed value to CDATA.
+	2. %data; parameter entity expanded
+	3. title given content model of %data;
+
+2 July 2001
+	1. fill element created. Added to %data.
+
+11 May 2001
+	1. alternativename no longer forced to appear at end of name element
+
+23 April 2001
+	1. ascii attribute added to symbol for ascii value of symbol
+
+4 April 2001
+	1. object allowed in span
+	2. bookdetails allowed in p
+
+3 April 2001
+	1. subjectgroup added to questiongroup
+	2. id added to questiongroup
+
+15 March 2001
+	Math things:-
+	1. alternativemath disallowed in alternativemath
+	2. content model of formula slightly adjusted so that
+		- each formula must contain one of (math | simplemath | file | tex)
+		- this can be followed by 0 or more alternativemath elements
+	3. formula added to title
+	4. formula given source attribute to indicate what the original source of the formula is where alternative versions exist
+	
+	Name things:-
+	5. fullname and alternativename elements created to cope with transliterated Chinese names in ASH
+	6. file allowed in fullname, forename and surname for same reason
+	
+	Other things:-
+	7. subject and subjectgroup given type attributes
+	8. rating and ratinggroup given type attributes
+	9. strike added to formatting to allow tagging of strikethrough text
+	
+
+1 February 2001
+	1. phis added to bpg4-0entities.mod
+	2. type attribute added to forenames to allow identification of initials in future (i.e. don't case-fold initials)
+	3. copyright in contentinfo changed from ? to * to allow > 1 occurrences
+
+18 January 2001
+	1. currency and value added as attributes of price
+	2. type attribute of page changed to CDATA.
+
+17 January 2001
+	1. Attributes removed from tocentry and replaced by children elements.
+	2. Reference elements (corporatename | documentid | etal | event | inpress | issue | miscellaneoustext | name | page | publisher | supplement | thesis | translated | volume) added to book details for book review tagging.
+
+
+11 January 2001
+	1. span changed to (#PCDATA | %formatting; | %linksetc; | related | formula)* to allow links and formulae in legends.
+
+5 December 2000 (January update)
+	1. namegroup added to documentinfo
+	2. date and idgroup added to contentinfo
+
+29 November 2000  (December update)
+	1. Contents of tex changed to #PCDATA (no formatting). also tex help page updated with CDATA information.
+	2. tex given optional type attribute
+
+28 November 2000 (December update)
+	1. eisbn changed from (#PCDATA | %formatting; | %linksetc;)* to (#PCDATA)
+	2. eisbn added to bindinggroup, bookdetails and contentinfo
+
+
+
+23 November 2000 (December update)
+	1. number added to %formatting;
+	2. price added to %data;
+	3. bookdetails added to header, section and subsection
+	4. namegroup added to %data;
+	5. objectsource changed from ((filegroup|file+)|insitu) to ((filegroup|file)|insitu)
+
+17 November 2000
+	1. symbols.ent combined into entities.mod
+
+1 November 2000
+	1. New parameter entity created: 
+		<!ENTITY % mathelements         "(math | simplemath | file | tex | alternativemath)+">
+	2. Content of <alternativemath> and <formula> changed to %mathelements;
+	3. Comments listing e.g. acceptable type values deleted from the DTD files
+	4. In <documentinfo>, "date," changed to "date+," to allow more than one date to be specified
+	5. <alternativeformat> with a type attribute added to %formatting; parameter entity to contain e.g. alternative versions of text strings such as dates
+	6. In <bookdetails>, "readership" changed to "readergroup" in content model
+	7. <objectgroup> added to content model of %bodytext; parameter entity
+	8. <section> and <subsection> given a "language' attribute
+
+
+*******************************************************************
+*   stable version released on 6 October 2000
+*   all changes below this line were to the draft version of DTD 4
+*******************************************************************
+
+4 Oct	1. Structure of <object> changed.
+	2. <objectsubgroup> added to <objectgroup> to handle multipart figures.
+
+*************************
+
+2 Oct	1. <insitu> redefined as ANY 
+	2. <shortlegend> moved out of %data; and moved into <p>.
+
+*************************
+
+20 Sept	1. Added padding-bottom to li (list item)
+	2. li now is (number?, p+)
+
+*************************
+
+9 Sept  1. Added note as an attribute to file for combined figures
+
+*************************
+
+8 Sept 	1.  <address> added to <event>
+	2.  Added 'dateend' as attribute to <date>
+	3.  Added 'type' as attribute to <address>
+	4.  In <event>: changed <titlegroup> to <title> and added <name> and <corporatename> alongside <namegroup>
+	5.  <address>: default format attribute changed to "inline"
+
+*************************
+
+7 Sept 	1.  Give <object> an ID attribute so that the complete object 
+		(e.g. figure and legend) can be referenced as one item. 
+	2.  <table> deleted from <objectgroup>
+	3.  <insitu> added as an equivalent to <file> to contain objects which 
+		are in the main XML file (such as tables or svg markup) rather than in a separate file.
+	4.  <tbl> added to <insitu>
+	5.  <number> taken out of %data; now appears only in sensible places 
+		(<address>, <heading>, <li>, <question> and <answer>, <formula>, <reference>, <p> and <span>)
+	6.  id attribute added to legend if we want to return the entire legend.
+	7.  <objectsource> added to <object> to contain file, filegroup or table.
+	8.  Add <span> to %formatting; with an ID attribute so that spans of text in 
+		e.g. legends and addresses can be identified and retrieved simply.
+	9.  Deleted id attribute from <p>.
+	10. Document that <formula>, <reference>, <list>, <heading>, <comment>, <question> and <answer> 
+		should have their attributes as an ID value to the tag, rather than in a <number> sub-element.
+	11. Document that <address> and <legend> should have their ID values in a <number> sub-element, but 
+		should also use <span> to identify the extent of the text to return.
+	12. <acknowledgements> deleted. Use subsection type="acknowledgements".
+	13. <p> removed from <li>
+	14. id deleted from <number>
+
+*************************
+
+6 Sept rating and readership changed from #PCDATA to text and formatting
+6 Sept entities.mod thinsp redefined as &#8201;
+
+*************************
+
+5 Sept deleted displaychange and added its attributes to subsection
+
+*************************
+
+1 Sept 	1. added legend to alternative version for details of alt ver.
+	2. added type to legend(?)
+	3. tightened up %data use. More could be done (question and answer).
+	4. added level to tocheading and changed it from ? to * in documentinfo.
+	5. relatedgroup changed from * to ? in documentinfo. 
+	6. history added to documentinfo
+	7. contentinfo disambiguated: ((issn, eissn?, coden?) | (isbn))?
+	8. shortlegend taken out of object; put in %data;
+	6. office added to publisherinfo
+	7. tocentry added to subsection
+	8. countgroup in documentinfo made ?
+	9. #PCDATA | %linksetc; | %formatting; |  added to event so that it doesn't have to 
+		require <p> tags e.g. when it occurs in references.

@@ -1,0 +1,3331 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="60"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 60 - Sluicing.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">271</page>
+<page type="last">291</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="5"/>
+<count type="table" count="49"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="42"/>
+<count type="page" count="21"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051128"/>
+<trackingdate type="markedup" date="0000" by="christine tsai"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 60&ensp;Merchant: Sluicing</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 60&ensp;Merchant: Sluicing</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">60 Sluicing</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>JASON</forenames><x> </x><surname>MERCHANT</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Movement vs. non-movement approaches</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>Theoretical consequences</p>
+</li>
+<li level="2">
+<number>3.1&ensp;</number>
+<p>Non-movement approaches</p>
+</li>
+<li level="2">
+<number>3.2&ensp;</number>
+<p>Movement approaches</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>Puzzles and prospects</p>
+</li>
+<li level="2">
+<number>4.1&ensp;</number>
+<p>Sluicing-COMP generalization puzzles</p>
+</li>
+<li level="2">
+<number>4.2&ensp;</number>
+<p>Sluicing in clause-internal <i>wh</i> languages</p>
+</li>
+<li level="2">
+<number>4.3&ensp;</number>
+<p>Multiple sluicing</p>
+</li>
+<li level="2">
+<number>4.4&ensp;</number>
+<p>Swiping</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1&ensp;Introduction</heading>
+<p>Sluicing is the ellipsis phenomenon illustrated in (1), in which the sentential portion of a constituent question is elided, leaving only a <i>wh</i>-phrase remnant:</p>
+<p>(1)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Jack bought something, but I don&apos;t know what.</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>A: Someone called.</entry>
+</row>
+<row><entry>B: Really? Who?</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Beth was there, but you&rsquo;ll never guess who else.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>Jack called, but I don&apos;t know &lcub;when/how/why&rcub;.</entry>
+</row>
+<row><entry>e.</entry>
+<entry>Sally&apos;s out hunting &ndash; guess what!</entry>
+</row>
+<row><entry>f.</entry>
+<entry>A car is parked on the lawn &ndash; find out whose. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The sluices in (1) should be compared to their non-elliptical counterparts in (2), with which they are synonymous:</p>
+<p>(2)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Jack bought something, but I don&apos;t know what he bought.</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>A: Someone called.</entry>
+</row>
+<row><entry>B: Really? Who called?</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Beth was there, but you&rsquo;ll never guess who else was there.</entry>
+</row>
+<row><entry>d.</entry>
+<entry>Jack called, but I don&apos;t know &lcub;when/how/why&rcub; he called.</entry>
+</row>
+<row><entry>e.</entry>
+<entry>Sally&apos;s out hunting &ndash; guess what she&apos;s out hunting!</entry>
+</row>
+<row><entry>f.</entry>
+<entry>A car is parked on the lawn &ndash; find out whose is parked on the lawn. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl> </insitu>
+</objectsource>
+</object>
+</p>
+<p>Sluicing appears to be widespread cross-linguistically (unlike VP ellipsis), and may in fact be found in some form or another in every language (like nominal ellipses, gapping, stripping, and fragment answers). It is found in at least English, Frisian, Icelandic, Swedish, Norwegian, Danish, Irish, Greek, German, Dutch, Russian, Polish, Bulgarian, Serbo-Croatian, Slovene, Persian, Hindi-Urdu, Catalan, Spanish, French, Italian, Romanian, Hebrew, Arabic, Basque, Japanese, Chinese, Korean, Finnish, and Hungarian.</p>
+<p>Situated as it is at the intersection of two of the best-studied and most intriguing areas of generative research, namely ellipsis and <i>wh</i>-movement, it comes as no surprise that sluicing has been extensively discussed since it was first investigated (and named) in <link rid="b1">Ross (1969b</link>). Following the divisions in general for the analysis of ellipses, there are two general schools of analysis for sluicing: either the understood material is present at some level of syntactic structure or it is not. The first school, which takes sluicing to be a subspecies of ellipsis, is represented by the majority of analyses, beginning with <link rid="b1">Ross (1969b</link>), and continuing with <link rid="b2">Chao (1988</link>), <link rid="b3">Lobeck (1991, </link>
+<link rid="b4">1995</link>), <link rid="b5">Chung et al. (1995</link>), <link rid="b6">Lasnik (2001</link>), and <link rid="b7">Merchant (2001</link>), among several others. Non-structural analyses of sluicing in particular have been pursued by van <link rid="b8">Riemsdijk (1978a</link>) and <link rid="b9">Ginzburg and Sag (2000</link>), who posit that a clausal node immediately and exhaustively dominates the <i>wh</i>-phrase.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2&ensp;Movement vs. non-movement approaches</heading>
+<p>Among the analyses that posit structure internal to the ellipsis site, two approaches can be identified. The first, originating with <link rid="b1">Ross (1969b</link>) and pursued more recently by <link rid="b6">Lasnik (2001</link>) and <link rid="b7">Merchant (2001</link>), among others, analyzes sluicing as involving movement of a <i>wh</i>-phrase out of a sentential constituent (S, IP, or TP), followed by deletion of that node. This derivation is schematized in (3), where angled brackets represent deletion (or, more neutrally, enclose unpronounced material):</p>
+<p>(3)&ensp;<object id="fu1" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_60_fu1.jpg" type="jpg" id="fu1_source"/>
+</objectsource>
+</object>
+</p>
+<p>For an example like (1a), then, the structure would be the following:</p>
+<p>(4)&ensp;Jack bought something, but I don&apos;t know &lsqb;<sub>CP</sub> what<sub>1</sub> C<sup>0</sup> &lt;&lsqb;<sub>TP</sub> he bought <i>t</i><sub>1</sub>&rsqb;&gt;&rsqb;.</p>
+<p>The primary support for such a derivation comes from connectivity effects. The <i>wh</i>-phrase &lsquo;remnant&rsquo; in sluicing shows similar behavior across a wide range of grammatical dependencies to its <i>wh</i>-phrase counterpart in fully sentential, non-elliptical structures. These connectivity effects range from case-matching effects and preposition-stranding parallelisms to binding phenomena.</p>
+<p>First, as noted in <link rid="b1">Ross (1969b</link>), the sluiced <i>wh</i>-phrase must bear the case that its counterpart in a non-elided structure would bear. This is illustrated for German below:</p>
+<p>(5)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry>Er will</entry>
+<entry>jemandem</entry>
+<entry>schmeicheln,</entry>
+<entry>aber</entry>
+<entry>sie</entry>
+<entry>wissen</entry>
+<entry>nicht,</entry>
+<entry>&lcub;*wer</entry>
+<entry>/ *wen</entry>
+<entry>/ wem&rcub;.</entry>
+</row>
+<row><entry>he wants</entry>
+<entry>someone.<smallcapitals>dat</smallcapitals>
+</entry>
+<entry>flatter </entry>
+<entry>but</entry>
+<entry>they</entry>
+<entry>know</entry>
+<entry>not</entry>
+<entry>who.<smallcapitals>nom</smallcapitals>
+</entry>
+<entry>who.<smallcapitals>acc</smallcapitals>
+</entry>
+<entry>who.<smallcapitals>dat</smallcapitals>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col10">&lsquo;He wants to flatter someone, but they don&apos;t know who.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(6)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry>Er will</entry>
+<entry>jemanden</entry>
+<entry>loben,</entry>
+<entry>aber</entry>
+<entry>sie</entry>
+<entry>wissen</entry>
+<entry>nicht,</entry>
+<entry>&lcub;*wer</entry>
+<entry>/ wen</entry>
+<entry>/ *wem&rcub;.</entry>
+</row>
+<row><entry>he wants</entry>
+<entry>someone.<smallcapitals>acc</smallcapitals>
+</entry>
+<entry>praise</entry>
+<entry>but</entry>
+<entry>they</entry>
+<entry>know</entry>
+<entry>not</entry>
+<entry>who.<smallcapitals>nom</smallcapitals>
+</entry>
+<entry>who.<smallcapitals>acc</smallcapitals>
+</entry>
+<entry>who.<smallcapitals>dat</smallcapitals>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col10">&lsquo;He wants to flatter someone, but they don&apos;t know who.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Compare these to their non-elided counterparts:</p>
+<p>(7)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry>Sie</entry>
+<entry>wissen</entry>
+<entry>nicht,</entry>
+<entry>&lcub;*wer</entry>
+<entry>/ *wen </entry>
+<entry>/ wem&rcub;</entry>
+<entry>er schmeicheln</entry>
+<entry>will.</entry>
+</row>
+<row><entry>they</entry>
+<entry>know</entry>
+<entry>not</entry>
+<entry>who.<smallcapitals>nom</smallcapitals>
+</entry>
+<entry>who.<smallcapitals>acc </smallcapitals>
+</entry>
+<entry>who.<smallcapitals>dat</smallcapitals>
+</entry>
+<entry>he flatter </entry>
+<entry>wants</entry>
+</row>
+<row><entry namest="col1" nameend="col8">&lsquo;They don&apos;t know who he wants to flatter.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(8)&ensp;<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry>Sie</entry>
+<entry>wissen</entry>
+<entry>nicht,</entry>
+<entry>&lcub;*wer</entry>
+<entry>/ wen</entry>
+<entry>/ *wem&rcub;</entry>
+<entry>er loben</entry>
+<entry>will.</entry>
+</row>
+<row><entry>they</entry>
+<entry>know</entry>
+<entry>not</entry>
+<entry>who.<smallcapitals>nom</smallcapitals>
+</entry>
+<entry>who.<smallcapitals>acc</smallcapitals>
+</entry>
+<entry>who.<smallcapitals>dat</smallcapitals>
+</entry>
+<entry>he praise</entry>
+<entry>wants</entry>
+</row>
+<row><entry namest="col1" nameend="col8">&lsquo;They don&apos;t know who he wants to praise.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Similar facts are found in all case-marking languages that relevant data are available for: English, Greek, Dutch, Finnish, Hungarian, Russian, Polish, Czech, Slovene, Hindi, Basque, Turkish, and Korean.</p>
+<p>Second, there is a correlation between the availability in a given language for preposition-stranding <i>wh</i>-movement and the possibility for sluicing a <i>wh</i>-phrase without a preposition which corresponds to a correlate marked by a preposition. In general, a language <i>L</i> will allow preposition stranding under sluicing if <i>L</i> allows preposition stranding under regular <i>wh</i>-movement. The relevant facts are given here for selected languages of both kinds.</p>
+<p><b>Preposition-stranding languages:</b>
+</p>
+<listgroup id="l2" type="1">
+<li>
+<number>(9)&ensp;</number>
+<p>English:</p>
+<p>
+<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Peter was talking with someone, but I don&apos;t know (with) who.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Who was he talking with?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li>
+<number>(10)&ensp;</number>
+<p>Frisian:</p>
+<p>
+<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Piet hat mei</entry>
+<entry>ien</entry>
+<entry>sprutsen,</entry>
+<entry>mar</entry>
+<entry>ik</entry>
+<entry>wyt</entry>
+<entry>net (mei) wa.</entry>
+</row>
+<row><entry>Piet has with</entry>
+<entry>someone</entry>
+<entry>talked</entry>
+<entry>but </entry>
+<entry>I</entry>
+<entry>know</entry>
+<entry>not with who</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>Wa</entry>
+<entry>hat</entry>
+<entry>Piet</entry>
+<entry>mei</entry>
+<entry>sprutsen?</entry>
+</row>
+<row><entry>who</entry>
+<entry>has</entry>
+<entry>Piet</entry>
+<entry>with</entry>
+<entry>spoken</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li>
+<number>(11)&ensp;</number>
+<p>Norwegian:</p>
+<p>
+<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Per har snakket</entry>
+<entry>med</entry>
+<entry>noen,</entry>
+<entry>men</entry>
+<entry>jeg</entry>
+<entry>vet</entry>
+<entry>ikke</entry>
+<entry>(med)</entry>
+<entry>hvem.</entry>
+</row>
+<row><entry>Per has talked</entry>
+<entry>with</entry>
+<entry>someone</entry>
+<entry>but</entry>
+<entry>I</entry>
+<entry>know</entry>
+<entry>not</entry>
+<entry>with</entry>
+<entry>who</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>Hvem</entry>
+<entry>har</entry>
+<entry>Per</entry>
+<entry>snakket</entry>
+<entry>med?</entry>
+</row>
+<row><entry>who</entry>
+<entry>has</entry>
+<entry>Per</entry>
+<entry>spoken</entry>
+<entry>with</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li>
+<number>(12)&ensp;</number>
+<p>Danish:</p>
+<p>
+<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="14">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13" align="char" char="."/>
+<colspec colnum="14" colname="col14" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Peter</entry>
+<entry>har</entry>
+<entry>snakket</entry>
+<entry>med</entry>
+<entry>en</entry>
+<entry>eller</entry>
+<entry>anden,</entry>
+<entry>men</entry>
+<entry>jeg</entry>
+<entry>ved</entry>
+<entry>ikke</entry>
+<entry>(med)</entry>
+<entry>hvem.</entry>
+</row>
+<row><entry>Peter</entry>
+<entry>has</entry>
+<entry>talked</entry>
+<entry>with</entry>
+<entry>one</entry>
+<entry>or</entry>
+<entry>another</entry>
+<entry>but</entry>
+<entry>I</entry>
+<entry>know</entry>
+<entry>not</entry>
+<entry>with</entry>
+<entry>who</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>Hvem</entry>
+<entry>har</entry>
+<entry>Peter</entry>
+<entry>snakket</entry>
+<entry>med?</entry>
+</row>
+<row><entry>who</entry>
+<entry>has</entry>
+<entry>Peter</entry>
+<entry>spoken</entry>
+<entry>with</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p><b>Non-preposition-stranding languages:</b>
+</p>
+<listgroup id="l3" type="1">
+<li>
+<number>(13)&ensp;</number>
+<p>Greek:</p>
+<p>
+<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>I</entry>
+<entry>Anna</entry>
+<entry>milise</entry>
+<entry>me</entry>
+<entry>kapjon,</entry>
+<entry>alla</entry>
+<entry>dhe</entry>
+<entry>ksero</entry>
+<entry>*(me)</entry>
+<entry>pjon.</entry>
+</row>
+<row><entry>the</entry>
+<entry>Anna</entry>
+<entry>spoke</entry>
+<entry>with</entry>
+<entry>someone</entry>
+<entry>but</entry>
+<entry>not</entry>
+<entry>I.know</entry>
+<entry>with</entry>
+<entry>who</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>*Pjon</entry>
+<entry>milise</entry>
+<entry>me?</entry>
+</row>
+<row><entry>who</entry>
+<entry>she.spoke</entry>
+<entry>with</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li>
+<number>(14)&ensp;</number>
+<p>German:</p>
+<p>
+<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="12">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Anna</entry>
+<entry>hat</entry>
+<entry>mit</entry>
+<entry>jemandem</entry>
+<entry>gesprochen,</entry>
+<entry>aber</entry>
+<entry>ich</entry>
+<entry>wei&szlig;</entry>
+<entry>nicht,</entry>
+<entry>*(mit)</entry>
+<entry>wem.</entry>
+</row>
+<row><entry>Anna</entry>
+<entry>has</entry>
+<entry>with</entry>
+<entry>someone</entry>
+<entry>spoken</entry>
+<entry>but</entry>
+<entry>I</entry>
+<entry>know</entry>
+<entry>not</entry>
+<entry>with</entry>
+<entry>who</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>*Wem</entry>
+<entry>hat</entry>
+<entry>sie</entry>
+<entry>mit</entry>
+<entry>gesprochen?</entry>
+</row>
+<row><entry>who</entry>
+<entry>has</entry>
+<entry>she</entry>
+<entry>with</entry>
+<entry>spoken</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li>
+<number>(15)&ensp;</number>
+<p>Yiddish:</p>
+<p>
+<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="12">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Zi</entry>
+<entry>hot</entry>
+<entry>mit</entry>
+<entry>emetsn</entry>
+<entry>geredt,</entry>
+<entry>ober</entry>
+<entry>ikh</entry>
+<entry>veys</entry>
+<entry>nit</entry>
+<entry>*(mit)</entry>
+<entry>vemen.</entry>
+</row>
+<row><entry>she</entry>
+<entry>has</entry>
+<entry>with</entry>
+<entry>someone</entry>
+<entry>spoken</entry>
+<entry>but</entry>
+<entry>I</entry>
+<entry>know</entry>
+<entry>not</entry>
+<entry>with</entry>
+<entry>who</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>*Vemen</entry>
+<entry>hot</entry>
+<entry>zi</entry>
+<entry>mit</entry>
+<entry>geredt?</entry>
+</row>
+<row><entry>who</entry>
+<entry>has</entry>
+<entry>she</entry>
+<entry>with</entry>
+<entry>spoken</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li>
+<number>(16)&ensp;</number>
+<p>Russian:</p>
+<p>
+<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Anja</entry>
+<entry>govorila</entry>
+<entry>s</entry>
+<entry>kem-to,</entry>
+<entry>no</entry>
+<entry>ne</entry>
+<entry>znaju</entry>
+<entry>*(s)</entry>
+<entry>kem.</entry>
+</row>
+<row><entry>Anja</entry>
+<entry>spoke</entry>
+<entry>with</entry>
+<entry>someone,</entry>
+<entry>but</entry>
+<entry>not</entry>
+<entry>I.know</entry>
+<entry>with</entry>
+<entry>who</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>*Kem</entry>
+<entry>ona</entry>
+<entry>govorila</entry>
+<entry>s?</entry>
+</row>
+<row><entry>who</entry>
+<entry>she</entry>
+<entry>spoke</entry>
+<entry>with</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li>
+<number>(17)&ensp;</number>
+<p>Slovene:</p>
+<p>
+<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Anna</entry>
+<entry>je</entry>
+<entry>govorila</entry>
+<entry>z</entry>
+<entry>nekom,</entry>
+<entry>ampak</entry>
+<entry>ne</entry>
+<entry>vem</entry>
+<entry>*(s)</entry>
+<entry>kom.</entry>
+</row>
+<row><entry>Anna</entry>
+<entry>
+<smallcapitals>aux</smallcapitals>
+</entry>
+<entry>spoken</entry>
+<entry>with</entry>
+<entry>someone</entry>
+<entry>but</entry>
+<entry>not</entry>
+<entry> I.know</entry>
+<entry>with</entry>
+<entry>who</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>*Kom</entry>
+<entry>je</entry>
+<entry>govorila</entry>
+<entry>Anna</entry>
+<entry>s?</entry>
+</row>
+<row><entry> who</entry>
+<entry>
+<smallcapitals>aux</smallcapitals>
+</entry>
+<entry>spoken</entry>
+<entry>Anna</entry>
+<entry>with</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li>
+<number>(18)&ensp;</number>
+<p>Bulgarian:</p>
+<p>
+<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Anna</entry>
+<entry>e</entry>
+<entry>govorila</entry>
+<entry>s</entry>
+<entry>njakoj,</entry>
+<entry>no</entry>
+<entry>na</entry>
+<entry>znam</entry>
+<entry>*(s)</entry>
+<entry>koj.</entry>
+</row>
+<row><entry>Anna</entry>
+<entry>
+<smallcapitals>aux</smallcapitals>
+</entry>
+<entry>spoken</entry>
+<entry>with</entry>
+<entry>someone</entry>
+<entry>but</entry>
+<entry>not</entry>
+<entry>I.know</entry>
+<entry>with</entry>
+<entry>who</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>*Ko</entry>
+<entry>e </entry>
+<entry>govorila</entry>
+<entry>Anna</entry>
+<entry>s?</entry>
+</row>
+<row><entry>who</entry>
+<entry>
+<smallcapitals>aux</smallcapitals>
+</entry>
+<entry>spoken</entry>
+<entry>Anna</entry>
+<entry>with</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li>
+<number>(19)&ensp;</number>
+<p>Serbo-Croatian:</p>
+<p>
+<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Ana</entry>
+<entry>je</entry>
+<entry>govorila</entry>
+<entry>sa</entry>
+<entry>nekim,</entry>
+<entry>ali</entry>
+<entry>ne</entry>
+<entry>znam</entry>
+<entry>*(sa)</entry>
+<entry>kim.</entry>
+</row>
+<row><entry>Ana</entry>
+<entry>
+<smallcapitals>aux</smallcapitals>
+</entry>
+<entry>spoken</entry>
+<entry>with</entry>
+<entry>someone</entry>
+<entry>but</entry>
+<entry>not</entry>
+<entry>I.know</entry>
+<entry>with</entry>
+<entry>who</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>*Kim</entry>
+<entry>je</entry>
+<entry>govorila</entry>
+<entry>Ana</entry>
+<entry>sa?</entry>
+</row>
+<row><entry>who</entry>
+<entry>
+<smallcapitals>aux</smallcapitals>
+</entry>
+<entry>spoken</entry>
+<entry>Anna</entry>
+<entry>with</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li>
+<number>(20)&ensp;</number>
+<p>Persian:</p>
+<p>
+<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Ali</entry>
+<entry>ba</entry>
+<entry>kasi</entry>
+<entry>harf</entry>
+<entry>mi-zad,</entry>
+<entry>
+<formula id="mu1" format="inline">
+<file name="Graphics\chapter_60_mu1.gif" type="gif"/>
+</formula>ama</entry>
+<entry>ne-mi-dan-am</entry>
+<entry>*(ba)</entry>
+<entry>ki.</entry>
+</row>
+<row><entry>Ali</entry>
+<entry>with</entry>
+<entry>someone</entry>
+<entry>talk</entry>
+<entry>
+<smallcapitals>prog</smallcapitals>-hit.3sg</entry>
+<entry>but</entry>
+<entry>not-<smallcapitals>prog</smallcapitals>-know-I</entry>
+<entry>with</entry>
+<entry>who</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>*Ki</entry>
+<entry>Ali</entry>
+<entry>ba</entry>
+<entry>harf</entry>
+<entry>mi-zad?</entry>
+</row>
+<row><entry>who</entry>
+<entry>Ali</entry>
+<entry>with</entry>
+<entry>talk</entry>
+<entry>
+<smallcapitals>prog</smallcapitals>-hit.3sg</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li>
+<number>(21)&ensp;</number>
+<p>Hebrew:</p>
+<p>
+<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Dani</entry>
+<entry>katav</entry>
+<entry>le-mishehu,</entry>
+<entry>aval</entry>
+<entry>ani</entry>
+<entry>lo</entry>
+<entry>yode&rsquo;a</entry>
+<entry>*(le-)mi.</entry>
+</row>
+<row><entry>Dani</entry>
+<entry>wrote</entry>
+<entry>to-someone,</entry>
+<entry>but</entry>
+<entry>I</entry>
+<entry>not</entry>
+<entry>know</entry>
+<entry> to-who</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>*Mi</entry>
+<entry>Dani</entry>
+<entry>katav</entry>
+<entry>le?</entry>
+</row>
+<row><entry>who</entry>
+<entry>Dani</entry>
+<entry>spoke</entry>
+<entry>with</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li>
+<number>(22)&ensp;</number>
+<p>Basque:</p>
+<p>
+<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>Ana-k</entry>
+<entry>norbait-ekin</entry>
+<entry>hitzegin</entry>
+<entry>zuen,</entry>
+<entry>baina</entry>
+<entry>ez</entry>
+<entry>dakit</entry>
+<entry>nor-</entry>
+<entry>*(ekin).</entry>
+</row>
+<row><entry>Ana-<smallcapitals>erg</smallcapitals>
+</entry>
+<entry>someone-with</entry>
+<entry>talk.to</entry>
+<entry>
+<smallcapitals>aux</smallcapitals>
+</entry>
+<entry>but</entry>
+<entry>not</entry>
+<entry>know</entry>
+<entry>who-</entry>
+<entry>with</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">b.</entry>
+<entry>*Nor</entry>
+<entry>hitzegin</entry>
+<entry>zuen</entry>
+<entry>-ekin?</entry>
+</row>
+<row><entry>who</entry>
+<entry>talk.to</entry>
+<entry>
+<smallcapitals>aux</smallcapitals>
+</entry>
+<entry>with</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+</listgroup>
+<p>Third, binding of elements in <i>wh</i>-phrase remnants is possible, as <link rid="b6">Lasnik (2001</link>) shows:</p>
+<p>(23)&ensp;Every linguist<sub>1</sub> criticized some of his<sub>1</sub> work, but I&apos;m not sure how much of his<sub>1</sub> work &lt;every linguist<sub>1</sub> criticized <i>t</i>&gt;.</p>
+<p>(24)&ensp;Each of the linguists criticized some of the other linguists, but I&apos;m not sure how many of the other linguists &lt;each of them criticized <i>t</i>&gt;.</p>
+<p>These parallels in distribution are immediately and straightforwardly accounted for by the deletion theory of sluicing, since the grammatical constraints that regulate case on <i>wh</i>-phrases, the possibility of extracting a <i>wh</i>-phrase from a PP, binding into <i>wh</i>-phrases, and scope will be operative uniformly in both elliptical and non-elliptical structures.</p>
+<p>The second strand of analyses of sluicing which posit structure internal to the ellipsis site is represented by <link rid="b4">Lobeck (1995</link>) and <link rid="b5">Chung et al. (1995</link>). For these authors, ellipses consist of a designated null category drawn from the lexicon which is replaced after S-structure/Spell-Out by a phrase marker copied from the antecedent by LF. For an example like (1a), then, the derivation would contain the following structures, where the elliptical <i>e</i> in (25a) has been replaced by the boldface material in (25b):</p>
+<p>(25)&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry>At Spell-Out:</entry>
+</row>
+<row><entry>Jack bought something, but I don&apos;t know &lsqb;<sub>CP</sub> what C<sup>0</sup> &lsqb;<sub>TP</sub> <i>e</i>&rsqb;&rsqb;.</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>At LF:</entry>
+</row>
+<row><entry>Jack bought something, but I don&apos;t know &lsqb;<sub>CP</sub> what C<sup>0</sup> &lsqb;<sub>TP</sub> <b>Jack bought something</b>&rsqb;&rsqb;. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl> </insitu>
+</objectsource>
+</object>
+</p>
+<p>These analyses posit no movement of the <i>wh</i>-remnant: it is base-generated in Spec, CP and comes to bind a variable (supplied by the indefinite internal to the copied TP) only at LF. The primary motiviation for such a movementless approach comes from the fact, noted by <link rid="b1">Ross (1969b</link>), that sluicing appears not to respect islands &ndash; more accurately, that the <i>wh</i>-phrase in sluicing can be associated with (bind) a variable which corresponds in position to a correlate internal to an island in the antecedent TP.</p>
+<p>Examples for the major kinds of syntactic islands are given (occasionally with non-elliptical controls) in (26&ndash;34):</p>
+<listgroup id="l4" type="1">
+<li>
+<number>(26)&ensp;</number>
+<p><b>Relative clause island:</b>
+</p>
+<p>
+<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>They want to hire someone who speaks a Balkan language, but I don&apos;t remember which.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*I don&apos;t remember which <i>(Balkan language) they want to hire someone &lsqb;who speaks ___ &rsqb;</i>. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li>
+<number>(27)&ensp;</number>
+<p><b>Left-branch (attributive adjective case):</b>
+</p>
+<p>
+<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>She bought a big car, but I don&apos;t know how big.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*I don&apos;t know how big <i>she bought &lsqb;a</i> <i>___ car&rsqb;</i>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl> </insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li>
+<number>(28)&ensp;</number>
+<p><b>Derived position islands (subjects, topicalizations):</b>
+</p>
+<p>
+<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>A biography of one of the Marx brothers is going to be published this year &ndash; guess which!</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Guess which <i>(Marx brother) &lsqb;a biography of ___ &rsqb; is going to be published this year</i>.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl> </insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li><number>(29)&ensp;</number>
+<p><b>COMP-trace effects</b> (cf. <link rid="b5">Chung et al.&apos;s 1995</link>: (90), (91a); <link rid="b10">Perlmutter 1971</link>: 112):</p>
+<p><object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>It appears that someone will resign, but it&apos;s not yet clear who.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Sally asked if somebody was going to fail Syntax One, but I can&apos;t remember who. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl> </insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li>
+<number>(30)&ensp;</number>
+<p><b>Coordinate Structure Constraint:</b>
+</p>
+<p>
+<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>They persuaded Kennedy and some other Senator to jointly sponsor the legislation, but I can&apos;t remember which one. (<link rid="b5">Chung et al.&apos;s 1995</link>: (88b))</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Bob ate dinner and saw a movie that night, but he didn&apos;t say which.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl> </insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li>
+<number>(31)&ensp;</number>
+<p><b>Adjuncts:</b>
+</p>
+<p>
+<object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Ben will be mad if Abby talks to one of the teachers, but she couldn&apos;t remember which.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*Ben will be mad if Abby talks to one of the teachers, but she couldn&apos;t remember which <i>(of the teachers) Ben will be mad &lsqb;if she talks to</i><i> ___ &rsqb;</i>.</entry>
+</row>
+<row><entry>c.</entry>
+<entry>Ben left the party because one of the guests insulted him, but he wouldn&apos;t tell me which.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl> </insitu>
+</objectsource>
+</object>
+</p>
+</li>
+<li><number>(32)&ensp;</number>
+<p><b>Complement to nouns</b> (<link rid="b5">Chung et al.&apos;s 1995</link>: (84c)):</p>
+<p>The administration has issued a statement that it is willing to meet with one of the student groups, but I&apos;m not sure which one.</p>
+</li>
+<li><number>(33)&ensp;</number>
+<p><b>Sentential subject</b> (<link rid="b5">Chung et al.&apos;s 1995</link>: (84b)):</p>
+<p>That certain countries would vote against the resolution has been widely reported, but I&apos;m not sure which ones.</p>
+</li>
+<li><number>(34)&ensp;</number>
+<p><b>Embedded question</b> (<link rid="b5">Chung et al.&apos;s 1995</link>: (84a)):</p>
+<p> Sandy was trying to work out which students would be able to solve a certain problem, but she wouldn&apos;t tell us which one.</p>
+</li>
+</listgroup>
+<p>In (26a), for example, the <i>wh</i>-phrase <i>which</i> has moved out of the relative clause, interpretationally parallel to its unelided but ungrammatical counterpart in (26b). Similar remarks apply to the remaining islands.</p>
+<p>If island sensitivity arises only from movement structures, as is usually assumed, the non-movement approaches (employing either LF-copying as above or eschewing structure at all, as <link rid="b9">Ginzburg and Sag 2000</link> do) have an immediate account of the absence of islands effects in sluicing.</p>
+</subsection>
+<subsection id="ss4" level="1">
+<heading id="h3" level="1">3&ensp;Theoretical consequences</heading>
+<p>It is fair to say that the greater part of the work on sluicing has been devoted to various attempts to make theoretical sense out of the conundrum presented above: how to account for the connectivity effects (which seem to implicate movement structures) as well as the lack of island effects (which seem to implicate the opposite). The following two subsections explicate the tacks that have been taken.</p>
+<subsection id="ss5" level="2">
+<heading id="h4" level="2">3.1&ensp;Non-movement approaches</heading>
+<p>For non-movement approaches such as <link rid="b4">Lobeck (1995</link>), <link rid="b5">Chung et al. (1995</link>), and <link rid="b9">Ginzburg and Sag (2000</link>), the primary explicandum is the connectivity effects, since the absence of island effects is directly captured. <link rid="b5">Chung et al. (1995</link>) propose that at LF, a kind of co-indexing applies to the <i>wh</i>-phrase in Spec, CP and the correlate inside the copied TP, yielding structures like the following:</p>
+<p>(35)&ensp;Jack bought something, but I don&apos;t know &lsqb;<sub>CP</sub> what<sup><i>x</i>
+</sup> C<sup>0</sup> &lsqb;<sub>TP</sub><b> Jack bought something</b><sup><i>x</i>
+</sup>&rsqb;&rsqb;.</p>
+<p>If this co-indexing can be made to impose case uniformity, then the case connectivity effects can be accounted for. The P-standing facts are more problematic: it is unclear just how to rule out the following:</p>
+<p>(36)&ensp;*I Anna milise me kapjon, alla dhe ksero &lsqb;<sub>CP</sub> pjon<sup><i>x</i>
+</sup> &lsqb;<b>i Anna milise me kapjon</b><sup><i>x</i>
+</sup>&rsqb;&rsqb;. the Anna spoke with someone but not I.know who</p>
+<p>One possibility, explored in <link rid="b11">Merchant (2000</link>), is to require movement in the antecedent clause, prior to LF-copying: scoping the correlate (here <i>kapjon</i> &lsquo;someone&rsquo;) would require stranding a preposition at LF, and if <link rid="b12">Bayer (1996</link>) is correct, this is impossible in these languages, so the requisite structure for resolution of the ellipsis at LF would be unavailable. Such a solution requires positing an additional Chain Uniformity condition that imposes category uniformity on all elements in a chain (even derived); see <link rid="b11">Merchant (2000</link>) for the definition of such a condition.</p>
+<p>Similar remarks hold for <link rid="b9">Ginzburg and Sag&apos;s (2000</link>) account of the connectivity effects. For them, sluices like the ones discussed thus far are introduced by the phrasal type <i>sluiced-interrogative-clause</i>, which is a subtype of <i>headed-fragment-phrase</i> (among others). Such phrases are subject to a constraint (call it the &lsquo;uniformity&rsquo; constraint; <link rid="b9">Ginzburg and Sag 2000</link>: 304, (17)) that they dominate a phrase (the <i>wh</i>-phrase) whose <smallcapitals>category</smallcapitals> and <smallcapitals>content</smallcapitals> values are the same as (are co-indexed with) the <smallcapitals>category</smallcapitals> and <smallcapitals>content</smallcapitals> values of a phrase (the correlate) provided by the context. (The grammatical information of the correlate is introduced into the sign of the fragment phrase by a feature designed for this purpose, called <smallcapitals>sal</smallcapitals>-<smallcapitals>utt</smallcapitals>.) Since case and phi-features are subsorts of <smallcapitals>category</smallcapitals> and <smallcapitals>content</smallcapitals> respectively, this constraint will ensure that the case and phi-features of the remnant and the correlate match. Ginzburg and Sag&apos;s uniformity constraint and Merchant&apos;s Chain Uniformity condition are quite comparable in formulation and functioning. Neither condition, however, straightforwardly rules out (36). For Merchant&apos;s condition, this is because nothing rules out co-indexing <i>pjon</i> with <i>kapjon</i>, the latter embedded unmoved in a PP (it is for this reason that the correlate must be assumed to move as well). Similarly, nothing in Ginzburg and Sag&apos;s formulation rules out <i>pjon</i> being the head of a <i>hd-frag-ph</i> whose <smallcapitals>sal</smallcapitals>-<smallcapitals>utt</smallcapitals> value is the local value of <i>kapjon</i>. There is no obvious way to state the requirement that in some languages (e.g., Greek) but not others (e.g., English), correlates cannot be DPs selected by Ps.</p>
+</subsection>
+<subsection id="ss6" level="2">
+<heading id="h5" level="2">3.2&ensp;Movement approaches</heading>
+<p>Movement approaches deal easily with the connectivity facts, since nothing novel need be said. For them, however, the lack of island sensitivity is the primary explicandum. We can identify two main approaches to dealing with this fact. The first is to reanalyze the movement involved in sluicing as one that does not in fact cross an island boundary. This strategy is pursued for those islands which include a propositional proper subdomain, such as relative clauses, clausal adjuncts, and sentential subjects, by <link rid="b7">Merchant (2001</link>) (see also <link rid="b13">Baker and Brame 1972</link> for a related suggestion, and <link rid="b14">Fukaya 2003</link>). On this view, the apparent extraction out of an island such as the relative clause in (37a), with the putative (ill-formed) source in (37b), does not in fact occur:</p>
+<p>(37)&ensp;<object id="tu31" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu31_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>They want to hire someone who speaks a Balkan language, but I don&apos;t remember which.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*I don&apos;t remember which <i>(Balkan language) they want to hire someone &lsqb;who speaks ___ &rsqb;</i>. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl> </insitu>
+</objectsource>
+</object>
+</p>
+<p>Instead, the extraction is local, and the desired reading is generated by interpreting the elided pronoun (whose correlate is the trace of the relative operator) as an E-type pronoun:</p>
+<p>(38)&ensp;They want to hire someone who speaks a Balkan language, but I don&apos;t remember which<sub>1</sub> &lt;he<sup><i>&Egr;-type</i>
+</sup> should speak <i>t</i><sub>1</sub>&gt;.</p>
+<p>Even if such an approach works for propositional islands (though <link rid="b6">Lasnik 2001</link> presents evidence that raises certain difficulties), there remains a subset of islands that are unaccounted for: left-branch extractions, derived-position islands, COMP-trace effects, and coordinate structures. For these, movement approaches from <link rid="b1">Ross (1969b</link>) and <link rid="b15">Chomsky (1972b</link>) to <link rid="b6">Lasnik (2001</link>) and <link rid="b7">Merchant (2001</link>) have posited that the source of the island violation is the pronunciation of the island. For Ross, this meant that island violations were calculated across the derivation, with island violations that remained at surface structure relatively worse than those that were targeted by deletion. <link rid="b15">Chomsky (1972b</link>) proposed that crossing an island left a feature (a &lsquo;*&rsquo;) which could be eliminated by a later deletion operation. Lasnik and Merchant pursue this idea in various forms, essentially reviving the idea and coding it as a feature of crossed island nodes or of traces (non-head copies in a <i>wh</i>-chain): deletion, however construed (either as an operation, as in older accounts, or as a mere reflex of the PF-interpretation of the featural content of the ellipsis-licensing head), will have the effect that at PF, the offending feature will not be present in the representation. These two latter possibilities are illustrated in the two trees in (39) and (40), respectively:</p>
+<p>(39)&ensp;<object id="tu32" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu32_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>They want to hire someone who speaks a Balkan language, but I don&apos;t remember which.&ensp;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>
+<object id="fu2" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_60_fu2.jpg" type="jpg" id="fu2_source"/>
+</objectsource>
+</object>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(40)&ensp;<object id="tu33" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu33_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>They want to hire someone who speaks a Balkan language, but I don&apos;t remember which.</entry>
+</row>
+<row><entry>b</entry>
+<entry>
+<object id="fu3" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_60_fu3.jpg" type="jpg" id="fu3_source"/>
+</objectsource>
+</object>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The central idea in both these implementations is that islands are essentially a PF phenomenon, and that ellipsis can repair an otherwise grammatically deviant structure. This notion is has proven fruitful in a number of other domains in ellipsis, and in sluicing in particular.</p>
+</subsection>
+</subsection>
+<subsection id="ss7" level="1">
+<heading id="h6" level="1">4&ensp;Puzzles and prospects</heading>
+<p>The domain of sluicing, more so perhaps than any other ellipsis construction, seems to have more open questions than widely accepted conclusions. Far more so than with nominal ellipses or VP-ellipsis in particular, the data that fall under sluicing give rise to a host of puzzling phenomena, the majority of which have never received systematic attention in the literature, let alone theoretically satisfying explanations. This last section is devoted to enumerating these puzzles, along with various approaches to them, and in showing where fruitful areas for further research may be found.</p>
+<p>Broadly speaking, the puzzles divide into two kinds: movements or elements which exceptionally <i>cannot</i> occur in the presence of sluicing (the sluicing-COMP puzzles), and movements which exceptionally <i>can</i> occur with sluicing (sluicing in <i>wh</i>-in-situ languages, multiple sluicing, and swiping).</p>
+<subsection id="ss8" level="2">
+<heading id="h7" level="2">4.1&ensp;Sluicing-COMP generalization puzzles</heading>
+<p>Given the most generally accepted picture of sluicing, namely that it consists of a <i>wh</i>-phrase remnant in Spec, CP with the sentential constituent (TP) unpronounced, several puzzles emerge immediately, which can be grouped under the following generalization:</p>
+<listgroup id="l5" type="1">
+<li>
+<number>(41)&ensp;</number>
+<p><b>The sluicing-COMP generalization:</b>
+</p>
+<p>In sluicing, no non-operator material may appear in COMP.</p>
+</li>
+</listgroup>
+<p>The term &lsquo;operator&rsquo; here refers to the phonological exponence of the <i>wh</i>-phrase itself, and &lsquo;COMP&rsquo; means, as usual, all material dominated by CP but not dominated by TP. The generalization in (41) rules out any elements in sluicing that are not part of the <i>wh</i>-phrase itself: moved elements like clitics, auxiliaries, etc. (whether they attach to C or to the <i>wh</i>-phrase) as well as base-generated elements like complementizers themselves.</p>
+<p>The first set is illustrated by the lack of subject&ndash;auxiliary inversion in matrix sluicing in the Germanic languages, as in (42), which gives the data from English, Frisian, German, Dutch, Danish, Norwegian, Swedish, Yiddish, and Icelandic, in that order:</p>
+<p>(42)&ensp;<object id="tu34" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu34_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>A: Max has invited someone.</entry>
+<entry>B: Really?</entry>
+<entry>Who (*has)?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>A: Jelle hat ien &uacute;tnoege.</entry>
+<entry>B: Soa?</entry>
+<entry>Wa (*hat)?</entry>
+</row>
+<row><entry>c.</entry>
+<entry>A: Max hat jemand eingeladen.</entry>
+<entry>B: Echt?</entry>
+<entry>Wen (*hat)?</entry>
+</row>
+<row><entry>d.</entry>
+<entry>A: Max heeft iemand uitgenodigd.</entry>
+<entry>B: Ja?</entry>
+<entry>Wie (*heeft)?</entry>
+</row>
+<row><entry>e.</entry>
+<entry>A: Max har inviteret en eller anden.</entry>
+<entry>B: Ja?</entry>
+<entry>Hvem (*har)?</entry>
+</row>
+<row><entry>f.</entry>
+<entry>A: Anna har invitert noen.</entry>
+<entry>B: Ja?</entry>
+<entry>Hvem (*har)?</entry>
+</row>
+<row><entry>g.</entry>
+<entry>A: Anna har bjudit n&aring;gon.</entry>
+<entry>B: Ja?</entry>
+<entry>Vem (*har)?</entry>
+</row>
+<row><entry>h.</entry>
+<entry>A: Moyshe hot emetsn ayngelodn.</entry>
+<entry>B: Nu?</entry>
+<entry>Vemen (*hot)?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">i.</entry>
+<entry>A: Anna</entry>
+<entry>hefur</entry>
+<entry>bo&eth;i&eth;</entry>
+<entry>vini</entry>
+<entry>s&iacute;num.</entry>
+<entry>B: Er a&eth;?</entry>
+<entry>Hverjum</entry>
+<entry>(*hefur)?</entry>
+</row>
+<row><entry>Anna</entry>
+<entry>has</entry>
+<entry>invited</entry>
+<entry>friend</entry>
+<entry>her</entry>
+<entry>is that?</entry>
+<entry>who</entry>
+<entry> &thinsp;has</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A simple solution to this fact would be to order T-to-C movement after sluicing: the deletion of the TP node would bleed the raising of the auxiliary into C. Approaches that eschew additional structure under the CP node also fare well with these facts. For other approaches, these facts are taken as a window on the mechanisms of satisfaction of feature strength: <link rid="b6">Lasnik (2001</link>) and <link rid="b7">Merchant (2001</link>) suggest that these facts indicate either that feature movement alone is possible (just in case the host is deleted, avoiding a PF crash) or that the strong feature that drives T-to-C movement is located on T: a strong feature internal to an ellipsis site need not move, since, by economy, it will not trigger a PF crash due to the deletion of a constituent containing it.</p>
+<p>A similar puzzle comes from the Wackernagel clitics in South Slavic languages such as Slovene; these clitics are usually argued to cliticize onto the (first) <i>wh</i>-phrase in Spec, CP, as in (43a). Under sluicing, however, such clitics are obligatorily absent, as seen in (43b):</p>
+<p>(43)&ensp;<object id="tu35" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu35_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Peter</entry>
+<entry>se</entry>
+<entry>je</entry>
+<entry>spra&scaron;eval, &lsqb;<sub>CP</sub>
+</entry>
+<entry>kako<sub>1</sub>
+</entry>
+<entry>je<sub>2 </sub>&lsqb;<sub>TP</sub>
+</entry>
+<entry>&Scaron;pela <i>t</i><sub>2</sub>
+</entry>
+<entry>popravila <i>t</i><sub>1</sub>&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>Peter</entry>
+<entry>
+<smallcapitals>refl</smallcapitals>
+</entry>
+<entry>
+<smallcapitals>aux</smallcapitals>
+</entry>
+<entry>asked</entry>
+<entry>what</entry>
+<entry>
+<smallcapitals>aux</smallcapitals>
+</entry>
+<entry>&Scaron;pela</entry>
+<entry>fixed</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;Peter wondered what &Scaron;pela fixed.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>&Scaron;pela</entry>
+<entry>je</entry>
+<entry>popravila</entry>
+<entry>nekako,</entry>
+<entry>a nisem</entry>
+<entry>vpra&scaron;al,</entry>
+<entry>&lsqb;<sub>CP</sub> kako (*je) &lt;&gt;&rsqb;.</entry>
+</row>
+<row><entry>&Scaron;pela</entry>
+<entry>
+<smallcapitals>aux</smallcapitals>
+</entry>
+<entry>fixed</entry>
+<entry>something</entry>
+<entry>but <smallcapitals>neg</smallcapitals>.I.<smallcapitals>aux</smallcapitals>
+</entry>
+<entry>asked</entry>
+<entry> &thinsp;&thinsp; what <smallcapitals>aux</smallcapitals>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;&Scaron;pela fixed something, but I didn&apos;t ask what.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b4">Lobeck (1995</link>: 59) shows that parallel facts hold for complementizer agreement in Germanic varieties such as Bavarian, where subject features can be found as a clitic on material in COMP, unless sluicing applies:</p>
+<p>(44)&ensp;<object id="tu36" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu36_source">
+<tbl frame="none">
+<tgroup cols="12">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<tbody>
+<row><entry>Du</entry>
+<entry>woidd-st</entry>
+<entry>doch</entry>
+<entry>kumma,</entry>
+<entry>owa</entry>
+<entry>mia</entry>
+<entry>wissn</entry>
+<entry>ned</entry>
+<entry>wann-st</entry>
+<entry>(du)</entry>
+<entry>kumma</entry>
+<entry>woidd-st.</entry>
+</row>
+<row><entry>you</entry>
+<entry>wanted-2sg</entry>
+<entry>
+<smallcapitals>prt</smallcapitals>
+</entry>
+<entry>come</entry>
+<entry>but</entry>
+<entry>we</entry>
+<entry>know</entry>
+<entry>not</entry>
+<entry>when-2sg</entry>
+<entry> you</entry>
+<entry>come</entry>
+<entry>wanted-2sg</entry>
+</row>
+<row><entry namest="col1" nameend="col12">&lsquo;You wanted to come, but we don&apos;t know when you wanted to come.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(45)&ensp;<object id="tu37" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu37_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry>Du</entry>
+<entry>woidd-st</entry>
+<entry>doch</entry>
+<entry>kumma,</entry>
+<entry>owa</entry>
+<entry>mia</entry>
+<entry>wissn</entry>
+<entry>ned</entry>
+<entry>wann</entry>
+<entry>(*-st).</entry>
+</row>
+<row><entry>you</entry>
+<entry>wanted-2sg</entry>
+<entry>
+<smallcapitals>prt</smallcapitals>
+</entry>
+<entry>come</entry>
+<entry>but</entry>
+<entry>we</entry>
+<entry>know</entry>
+<entry>not</entry>
+<entry>when</entry>
+<entry>-2sg</entry>
+</row>
+<row><entry namest="col1" nameend="col10">&lsquo;You wanted to come, but we don&apos;t know when.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The range of solutions possible for accounting for such facts seems to be similar to those proposed for the lack of subject&ndash;auxiliary inversion in Germanic.</p>
+<p>The second set of facts that fall under the sluicing-COMP generalization concern base-generated elements, in particular complementizers. These are found in many languages, including Danish, Norwegian, Frisian, Dutch varieties, Slovene, and Irish. I give the data here from Irish only:</p>
+<p>(46)&ensp;<object id="tu38" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu38_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry>Cheannaigh</entry>
+<entry>s&eacute;</entry>
+<entry>leabhar</entry>
+<entry>inteacht</entry>
+<entry>ach</entry>
+<entry>n&iacute;l</entry>
+<entry>fhios</entry>
+<entry>agam</entry>
+<entry>c&eacute;acu</entry>
+<entry>ceann (*a / *ar).</entry>
+</row>
+<row><entry>bought</entry>
+<entry>he</entry>
+<entry>book</entry>
+<entry>some</entry>
+<entry>but</entry>
+<entry>not.is</entry>
+<entry>knowledge</entry>
+<entry>at.me</entry>
+<entry>which</entry>
+<entry>one C<sub>trace</sub> / C<sub>pro</sub>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col10">&lsquo;He bought a book, but I don&apos;t know which.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Although a complementizer (either <i>aL</i> or <i>aN</i>) is obligatorily present in non-elliptical contexts in Irish, complementizers are obligatorily absent in sluicing. Two possibilities arise: first, there may be no structure other than the <i>wh</i>-phrase present, or second, the complementizer may have been incorporated into the sentential domain prior to deletion. The second possibility can be fleshed out in a variety of ways: several authors have proposed that complementizers (at least in Irish and Hebrew) cliticize onto a host internal to TP &ndash; such cliticization, clearly, would feed deletion.</p>
+<p>Finally, I note that there are apparent exceptions to the sluicing-COMP generalization as stated, in particular from Hungarian and Japanese. It is surely no accident that these languages are commonly analyzed as not having movement into Spec, CP overtly in questions, an issue we turn to now.</p>
+</subsection>
+<subsection id="ss9" level="2">
+<heading id="h8" level="2">4.2&ensp;Sluicing in clause-internal <roman>wh</roman> languages</heading>
+<p>If sluicing is contingent upon <i>wh</i>-movement into Spec, CP, then it comes as some surprise that what appears to be sluicing is found in languages in which <i>wh</i>-phrases do not front to Spec, CP, including both <i>wh</i>-in-situ languages like Japanese, Chinese, and Korean, and languages in which <i>wh</i>-phrases surface in a designated clause-internal position (often a focus position preceding the verb), such as Hungarian, Turkish, and Hindi. I give here data from Japanese and Hungarian:</p>
+<p>(47)&ensp;<object id="tu39" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu39_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry>Abby-ga</entry>
+<entry>dareka-o</entry>
+<entry>mi-ta</entry>
+<entry>ga,</entry>
+<entry>watashi-wa</entry>
+<entry>dare</entry>
+<entry>ka</entry>
+<entry>wakaranai.</entry>
+</row>
+<row><entry>Abby-<smallcapitals>nom</smallcapitals>
+</entry>
+<entry>someone-<smallcapitals>acc</smallcapitals>
+</entry>
+<entry>see-<smallcapitals>past</smallcapitals>
+</entry>
+<entry>but</entry>
+<entry>I-<smallcapitals>top</smallcapitals>
+</entry>
+<entry>who</entry>
+<entry>Q</entry>
+<entry>know.not</entry>
+</row>
+<row><entry namest="col1" nameend="col8">&lsquo;Abby saw someone, but I don&apos;t know who.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(48)&ensp;<object id="tu40" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu40_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry>A</entry>
+<entry>gyerekek</entry>
+<entry>tal&aacute;lkoztak</entry>
+<entry>valakivel</entry>
+<entry>de</entry>
+<entry>nem</entry>
+<entry>eml&eacute;kszem,</entry>
+<entry>hogy</entry>
+<entry>kivel.</entry>
+</row>
+<row><entry>the</entry>
+<entry>children</entry>
+<entry>met</entry>
+<entry>someone.with</entry>
+<entry>but</entry>
+<entry>not</entry>
+<entry>I.remember</entry>
+<entry>that</entry>
+<entry>who.with</entry>
+</row>
+<row><entry namest="col1" nameend="col9">&lsquo;The kids met with someone, but I don&apos;t remember who.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The Japanese data in particular have been the subject of a number of studies. Two approaches can be identified. The first, proposed by <link rid="b16">Takahashi (1994</link>), is to claim that Japanese sluicing involves a kind of movement to a clause-peripheral position (perhaps <i>wh</i>-movement to Spec, CP, perhaps merely a kind of A&prime;-scrambling), followed by deletion of the sentential node, as in English. The second assimilates the Japanese facts to a kind of reduced cleft structure, a structure I have called &lsquo;pseudosluicing&rsquo;; under these approaches (found in <link rid="b17">Shimoyama 1995</link>; <link rid="b18">Kuwabara 1996</link>; <link rid="b19">Nishiyama et al. 1996</link>; <link rid="b20">Merchant 1998</link>; <link rid="b21">Kizu 2001</link>; <link rid="b22">Hiraiwa and Ishihara 2002</link>; <link rid="b14">Fukaya 2003</link>; and for another sort of sluicing, <link rid="b23">Fukaya and Hoji 1999</link>), the unpronounced material in (47) is not due to ellipsis of a TP, but rather simply to the fact that Japanese allows a null copula and a null &lsquo;expletive&rsquo; subject:</p>
+<p>(49)&ensp;<object id="tu41" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu41_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>watashi-wa &lsqb;<sub>CP</sub> &lsqb;<sub>TP</sub>
+</entry>
+<entry><i>pro</i>
+</entry>
+<entry>dare <i>copula</i>&rsqb;</entry>
+<entry>ka&rsqb;</entry>
+<entry>wakaranai</entry>
+</row>
+<row><entry>I-<smallcapitals>top</smallcapitals>
+</entry>
+<entry>it</entry>
+<entry>who</entry>
+<entry>Q</entry>
+<entry>know.not</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;I don&apos;t know who &lt;it was&gt;.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Such a pseudosluicing analysis has many merits for the Japanese facts, but it has never been pursued for the Hungarian-type languages. For these languages, one suggestion that has been made is that a scrambling-type movement may create the input structures for deletion, or that whatever constraint prevents overt movement into Spec, CP is ameliorated by the deletion itself, however such an idea is implemented. (One possibility, following the reasoning concerning T-to-C movement above, would be to claim that the traces of <i>wh</i>-movement in these languages would trigger some kind of PF crash that deletion repairs, for example.) Another possibility, following recent work by <link rid="b24">Simpson and Bhattacharya (2003</link>) on Bangla, is that these languages in fact do have <i>wh</i>-movement to Spec, CP, but that other factors in their grammars mask this movement; if such an analysis is correct, the fact that sluicing is possible would indicate that deletion can bleed the other movements involved in non-elliptical clauses.</p>
+<subsection id="ss10" level="3">
+<heading id="h9" level="3">4.3&ensp;Multiple sluicing</heading>
+<p>Multiple sluicing refers to structures in which more than one <i>wh</i>-phrase form remnants of sluicing, as in (50):</p>
+<p>(50)&ensp;?Everyone brought something, but I couldn&apos;t tell you who what.</p>
+<p>While such examples have a marginal status in English for some speakers (and even for those who accept them, such as myself and <link rid="b25">Bolinger 1978</link>, they require a generator in the antecedent, giving rise to an obligatory pair-list reading: <i>Someone hit someone first, but we couldn&apos;t determine &lcub;who hit who first/*who who&rcub;.</i>), they appear to be fully acceptable in a number of other languages, including German, Dutch, and Greek:</p>
+<p>(51)&ensp;<object id="tu42" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu42_source">
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Jemand</entry>
+<entry>hat</entry>
+<entry>was</entry>
+<entry>gesehen,</entry>
+<entry>aber</entry>
+<entry>ich</entry>
+<entry>wei&szlig;</entry>
+<entry>nicht,</entry>
+<entry>wer</entry>
+<entry>was.</entry>
+</row>
+<row><entry>someone</entry>
+<entry>has</entry>
+<entry>something</entry>
+<entry>seen</entry>
+<entry>but</entry>
+<entry>I</entry>
+<entry>know</entry>
+<entry>not</entry>
+<entry>who</entry>
+<entry>what</entry>
+</row>
+<row><entry namest="col2" nameend="col11">(lit.) &lsquo;Someone saw something, but I don&apos;t know who what.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Iemand</entry>
+<entry>heeft</entry>
+<entry>iets</entry>
+<entry>gezien,</entry>
+<entry>maar</entry>
+<entry>ik</entry>
+<entry>weet</entry>
+<entry>niet</entry>
+<entry>wie</entry>
+<entry>wat.</entry>
+</row>
+<row><entry>someone</entry>
+<entry>has</entry>
+<entry>something</entry>
+<entry>seen</entry>
+<entry>but</entry>
+<entry>I</entry>
+<entry>know</entry>
+<entry>not</entry>
+<entry>who</entry>
+<entry>what</entry>
+</row>
+<row><entry namest="col2" nameend="col11">(lit.) &lsquo;Someone saw something, but I don&apos;t know who what.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>Kapjos</entry>
+<entry>idhe</entry>
+<entry>kapjon,</entry>
+<entry>alla</entry>
+<entry>dhe</entry>
+<entry>ksero</entry>
+<entry>pjos</entry>
+<entry>pjon.</entry>
+</row>
+<row><entry>someone.<smallcapitals>nom</smallcapitals>
+</entry>
+<entry>saw</entry>
+<entry>someone.<smallcapitals>acc</smallcapitals>
+</entry>
+<entry>but</entry>
+<entry>not</entry>
+<entry>I.know</entry>
+<entry>who.<smallcapitals>nom</smallcapitals>
+</entry>
+<entry>who.<smallcapitals>acc</smallcapitals>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col9">(lit.) &lsquo;Someone saw someone, but I don&apos;t know who whom.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The immediate question that such structures give rise to concerns the nature of the movement involved in fronting the <i>wh</i>-phrases out of the clause, given that these languages allow only a single <i>wh</i>-phrase to front in non-elliptical contexts. It seems most plausible that the application of deletion to the clausal host of multiple <i>wh</i>-movement in these cases repairs whatever goes wrong in the non-elliptical cases; essentially, one would like to give an analysis to multiple sluicing that is parallel to the analysis of multiple <i>wh</i>-fronting in languages like Bulgarian, which permit it in non-elliptical contexts. Expectedly, then, the analytical options that have been pursued run the gamut of those that have been proposed for multiple <i>wh</i>-fronting. These are the following: (i) either all <i>wh</i>-phrases front by <i>wh</i>-movement into Spec, CP (adjoining to each other there or tucking in; <link rid="b26">Rudin 1986</link>; <link rid="b27">Richards 2001</link>), or (ii) the initial <i>wh</i>-phrase moves by <i>wh</i>-movement into Spec, CP with the non-initial <i>wh</i>-phrases moving to distinct clause-peripheral positions (<link rid="b26">Rudin 1986</link>; <link rid="b28">Bo&scaron;kovi&#x0107; 2002</link>; <link rid="b29">Grohmann 2003</link>), or (iii) the <i>wh</i>-phrases form a <i>wh</i>-cluster and front together (<link rid="b30">Grewendorf 2001</link>).</p>
+<p>Multiple sluicing gives rise to superiority effects, which is expected under all three of the options above (illustrated here for English and Greek); these facts are more puzzling for base-generation accounts of sluicing:</p>
+<p>(52)&ensp;<object id="tu43" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu43_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry namest="col2" nameend="col9">*Everyone brought something (different) to the potluck, but I couldn&apos;t tell you what who.</entry>
+</row>
+<row><entry morerows="2">b.</entry>
+<entry>*Kapjos</entry>
+<entry>idhe</entry>
+<entry>kapjon,</entry>
+<entry>alla</entry>
+<entry>dhe</entry>
+<entry>ksero</entry>
+<entry>pjon</entry>
+<entry>pjos.</entry>
+</row>
+<row><entry>someone-<smallcapitals>nom</smallcapitals>
+</entry>
+<entry>saw</entry>
+<entry>someone.<smallcapitals>acc</smallcapitals>
+</entry>
+<entry>but</entry>
+<entry>not</entry>
+<entry>I.know</entry>
+<entry>who.<smallcapitals>acc</smallcapitals>
+</entry>
+<entry>who.<smallcapitals>nom</smallcapitals>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col9">(lit.) &lsquo;Someone saw someone, but I don&apos;t know whom who.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>There are restrictions on the <i>wh</i>-phrases that can be found in multiple sluicing that do not follow merely from positing movement, and which support options (ii) and (iii) above over (i). In particular, multiple sluicing is more sensitive to locality than simple <i>wh</i>-movement is: the initial and non-initial <i>wh</i>-phrases must be local to one another, where &lsquo;local&rsquo; is roughly equivalent to &lsquo;clause mate&rsquo;, as pointed out in <link rid="b16">Takahashi (1994</link>), <link rid="b31">Nishigauchi (1998</link>), <link rid="b32">Heck and M&uuml;ller (2000</link>), and <link rid="b7">Merchant (2001</link>: 113):</p>
+<p>(53)&ensp;*Everybody said Lucy&apos;d bring something different to the potluck, but I can&apos;t remember who<sub>1</sub> what<sub>2</sub> &lt;<i>t</i><sub>1</sub> said Lucy&apos;d bring <i>t</i><sub>2</sub> to the potluck&gt;.&rsquo;</p>
+<p>&lsquo;Clause mate&rsquo;, however, is not exactly the right notion; cross-clausal multiple sluicing in German is much better across restructuring verbs like <i>versuchen</i> &lsquo;try&rsquo; than across non-restructuring verbs like <i>z&ouml;gern</i> &lsquo;hesitate&rsquo; (<link rid="b33">Sauerland 1999b</link>):</p>
+<p>(54)&ensp;<object id="tu44" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu44_source">
+<tbl frame="none">
+<tgroup cols="13">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13" align="char" char="."/>
+<tbody>
+<row><entry>Irgendjemand</entry>
+<entry>hat</entry>
+<entry>&lcub;versucht</entry>
+<entry>/?*gez&ouml;gert&rcub;</entry>
+<entry>irgendetwas</entry>
+<entry>zu</entry>
+<entry>klauen,</entry>
+<entry>aber</entry>
+<entry>ich</entry>
+<entry>weiss</entry>
+<entry>nicht,</entry>
+<entry>wer</entry>
+<entry>was.</entry>
+</row>
+<row><entry>someone</entry>
+<entry>has</entry>
+<entry>tried</entry>
+<entry> hesitated</entry>
+<entry>something</entry>
+<entry>to</entry>
+<entry>steal</entry>
+<entry>but</entry>
+<entry>I</entry>
+<entry>know</entry>
+<entry>not</entry>
+<entry>who</entry>
+<entry>what</entry>
+</row>
+<row><entry namest="col1" nameend="col12">(lit.) &lsquo;Someone &lcub;tried/hesitated&rcub; to steal something, but I don&apos;t know who what.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In fact, even finite, tensed, non-restructuring CP boundaries can sometimes be crossed in multiple sluicing, as long as the embedded subject is bound by the matrix subject:</p>
+<p>(55)&ensp;Everybody<sub><i>i</i>
+</sub> said he<sub><i>i</i>
+</sub>&apos;d bring something different to the potluck, but I can&apos;t remember who<sub>1</sub> what<sub>2</sub> &lt;<i>t</i><sub>1</sub> said he<sub>1</sub>&apos;d bring <i>t</i><sub>2</sub> to the potluck&gt;.</p>
+<p>This set of restrictions is highly reminiscent of the set found in gapping, as discussed in detail by <link rid="b34">Johnson (1996</link>), and to the availability of multiple-pair answers to multiple questions in English, as <link rid="b35">Dayal (2002</link>) discusses. All of this evidence seems to point to locality restrictions on the movement found in multiple sluicing, a movement which is possible only if the host of movement is subject to ellipsis (parallel, in other words, to the repair effects found for the scrambling-like movements posited by <link rid="b34 b36">Johnson 1996, 2001</link>, and <link rid="b27">Richards 2001</link> for gapping and pseudogapping). This is not to say that multiple sluicing is a subspecies of gapping, of course, since gapping is restricted to local conjunctions and disallows backwards application in right-branching languages, while multiple sluicing is not limited to conjunctions (<link rid="b37">Romero 1997b</link>) and does occur preceding its &lsquo;antecedent&rsquo; clause (as <link rid="b38">Hoyt and Teodorescu 2003</link> show: <i>I don&apos;t know who with who, but I am sure everyone will get hooked up with someone</i>).</p>
+<p>Multiple sluicing is also found in Japanese, Bulgarian, Turkish, and Romanian, among other languages:</p>
+<p>(56)&ensp;<object id="tu45" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu45_source">
+<tbl frame="none">
+<tgroup cols="12">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Sono</entry>
+<entry>toki,</entry>
+<entry>dareka-ga</entry>
+<entry>nanika-o</entry>
+<entry>mise-ta.</entry>
+<entry>Sikasi,</entry>
+<entry>dare-ga</entry>
+<entry>nani-o</entry>
+<entry>ka</entry>
+<entry>omoidase-nai. </entry>
+<entry>(<link rid="b31">Nishigauchi 1998</link>: 146, (70))</entry>
+</row>
+<row><entry>that</entry>
+<entry>time</entry>
+<entry>someone-<smallcapitals>nom</smallcapitals>
+</entry>
+<entry>something-<smallcapitals>acc</smallcapitals>
+</entry>
+<entry>showed</entry>
+<entry>but</entry>
+<entry>who-<smallcapitals>nom</smallcapitals>
+</entry>
+<entry>what-<smallcapitals>acc</smallcapitals>
+</entry>
+<entry>Q</entry>
+<entry>remember-not</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col11">&lsquo;At that moment, someone showed something (to me). (lit.) But I can&apos;t remember who what.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Njakoj</entry>
+<entry>e</entry>
+<entry>vidjal</entry>
+<entry>njakogo,</entry>
+<entry>no</entry>
+<entry>ne</entry>
+<entry>znam</entry>
+<entry>koj</entry>
+<entry>kogo.</entry>
+</row>
+<row><entry>someone</entry>
+<entry>
+<smallcapitals>aux</smallcapitals>
+</entry>
+<entry>seen</entry>
+<entry>someone</entry>
+<entry>but</entry>
+<entry>not</entry>
+<entry>I.know</entry>
+<entry>who</entry>
+<entry>whom</entry>
+</row>
+<row><entry namest="col2" nameend="col10">&lsquo;Someone saw someone, but I don&apos;t know who saw who.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry>Biri</entry>
+<entry>bir &#x015F;ey</entry>
+<entry>g&ouml;rd&uuml;</entry>
+<entry>ama,</entry>
+<entry>kim</entry>
+<entry>ne</entry>
+<entry>bil-mi-yor-um.</entry>
+</row>
+<row><entry>someone</entry>
+<entry>something</entry>
+<entry>saw</entry>
+<entry>but</entry>
+<entry>who.<smallcapitals>nom</smallcapitals>
+</entry>
+<entry>what.<smallcapitals>acc</smallcapitals>
+</entry>
+<entry>know-<smallcapitals>neg</smallcapitals>-<smallcapitals>prog</smallcapitals>-1sg</entry>
+</row>
+<row><entry namest="col2" nameend="col8">(lit.) &lsquo;Someone saw something, but I don&apos;t know who what.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="13">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<colspec colnum="13" colname="col13" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">d.</entry>
+<entry>Ion</entry>
+<entry>a</entry>
+<entry>dat</entry>
+<entry>cuiva</entry>
+<entry>ceva</entry>
+<entry>&#x015F;i</entry>
+<entry>vreau</entry>
+<entry>s&#x01CE;</entry>
+<entry>&#x015F;tiu</entry>
+<entry>cui</entry>
+<entry>ce.</entry>
+<entry>(<link rid="b38">Hoyt and Teodorescu 2003</link>: 2, (7a))</entry>
+</row>
+<row><entry>Ion</entry>
+<entry>has</entry>
+<entry>given</entry>
+<entry>someone</entry>
+<entry>something</entry>
+<entry>and</entry>
+<entry>I.want</entry>
+<entry>
+<smallcapitals>subj</smallcapitals>
+</entry>
+<entry>I.know</entry>
+<entry>whom</entry>
+<entry>what</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col13">(lit.) &lsquo;Ion gave something to someone and I want to know what to whom.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The analytical questions raised by these languages are somewhat different than those above. For multiple <i>wh</i>-fronting languages like Bulgarian, Russian, Serbo-Croatian, and Romanian, the existence of multiple sluicing is expected. In Japanese, the same questions arise as did in the previous section; because Japanese allows multiple focus structures with the copula, however, a solution similar to that proposed for single sluicing seems possible. There is reason to believe that these apparently similar facts across these languages do not submit to a uniform analysis, however: see <link rid="b38">Hoyt and Teodorescu (2003</link>) for a careful examination of the differences between multiple sluicing in Romanian and that in Japanese.</p>
+</subsection>
+</subsection>
+<subsection id="ss11" level="2">
+<heading id="h10" level="2">4.4&ensp;Swiping</heading>
+<p>Monomorphemic <i>wh</i>-words selected by certain (generally &lsquo;simplex&rsquo;) prepositions can undergo a surprising inversion in sluicing, as illustrated by the following data:</p>
+<p>(57)&ensp;<object id="tu46" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu46_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Abby was talking, but I don&apos;t know who to.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>They were arguing; God only knows what about.</entry>
+</row>
+<row><entry morerows="1">c.</entry>
+<entry>A: She got a package in the mail.</entry>
+</row>
+<row><entry>B: Really? Who from?</entry>
+</row>
+<row><entry>d.</entry>
+<entry>He&rsquo;ll be at the Red Room, but I don&apos;t know when till.</entry>
+</row>
+<row><entry>e.</entry>
+<entry>Bees are getting into the house, but we can&apos;t figure out where from.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl> </insitu>
+</objectsource>
+</object>
+</p>
+<p>This phenomenon, known as <i>swiping</i> (for <u>s</u>luiced <i><u>w</u>h</i>-word <u>i</u>nversion with <u>p</u>repositions (<u>i</u>n <u>N</u>orthern <u>G</u>ermanic)), has been discussed by <link rid="b1">Ross (1969b</link>), <link rid="b39">Rosen (1976</link>), Van <link rid="b8">Riemsdijk (1978a</link>), <link rid="b5">Chung et al. (1995</link>), <link rid="b40">Culicover (1999</link>), <link rid="b27">Richards (2001</link>), <link rid="b41">Merchant (2002</link>), and Van <link rid="b42">Craenenbroeck (2004</link>). It is also found in Danish, and, for about 50 percent of speakers consulted, in Norwegian; it is found too, with variations, in some Dutch dialects, as described in Van <link rid="b42">Craenenbroeck (2004</link>):</p>
+<p>(58)&ensp;<object id="tu47" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu47_source">
+<tbl frame="none">
+<tgroup cols="12">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">a.</entry>
+<entry namest="col2" nameend="col12">Danish:</entry>
+</row>
+<row><entry>Per</entry>
+<entry>er</entry>
+<entry>g&aring;et</entry>
+<entry>i</entry>
+<entry>biografen,</entry>
+<entry>men</entry>
+<entry>jeg</entry>
+<entry>ved</entry>
+<entry>ikke</entry>
+<entry>hvem</entry>
+<entry>med.</entry>
+</row>
+<row><entry morerows="3">b.</entry>
+<entry namest="col2" nameend="col12">Norwegian:</entry>
+</row>
+<row><entry>&percnt; Per</entry>
+<entry>
+</entry>
+<entry> gikk</entry>
+<entry>p&aring;</entry>
+<entry>kino,</entry>
+<entry>men</entry>
+<entry>jeg</entry>
+<entry>veit</entry>
+<entry>ikke</entry>
+<entry>hvem</entry>
+<entry>med.</entry>
+</row>
+<row><entry>Per</entry>
+<entry>is</entry>
+<entry>gone/went</entry>
+<entry>to</entry>
+<entry>cinema</entry>
+<entry>but</entry>
+<entry>I</entry>
+<entry>know</entry>
+<entry>not</entry>
+<entry>who</entry>
+<entry>with</entry>
+</row>
+<row><entry namest="col2" nameend="col12">&lsquo;Per went to the movies but I don&apos;t know who with.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Swiping exhibits a number of puzzling properties. It is limited to a small set of <i>wh</i>-words (<i>who</i>, <i>what</i>, <i>where</i>, <i>when</i>, and variably across speakers, <i>how long</i>, <i>how much</i>, <i>how many</i>), excluding all phrasal <i>wh</i>-XPs as well as <i>which</i> and <i>whose</i>. It is found only in sluicing (not gapping or pseudogapping, for example). And though aggressively non-D-linking modifiers such as <i>the hell</i> or <i>on earth</i> are generally excluded from sluicing (*<i>Somebody broke it and I want to know who the hell!</i>), these modifiers become possible just in case swiping applies: <i>They were arguing, but God only knows what the hell about.</i>
+</p>
+<p>
+<link rid="b1">Ross (1969b</link>) (and <link rid="b39">Rosen 1976</link> following him) analyzed swiping as a result of a non-constituent deletion rule, formulated in (59):</p>
+<p>(59)&ensp;<object id="tu48" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu48_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry>.&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>CP</sub>
+</entry>
+<entry>XP<sub>&lsqb;&plus;wh&rsqb;</sub> &lsqb;<sub>IP</sub>
+</entry>
+<entry>&alpha; &minus;</entry>
+<entry>(P) &minus; </entry>
+<entry>&bgr;&rsqb;&nbsp;.&nbsp;.&nbsp;.</entry>
+<entry>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>1</entry>
+<entry>2</entry>
+<entry> 3</entry>
+<entry>4</entry>
+<entry>&rArr;<sub>OPT</sub>
+</entry>
+</row>
+<row><entry>
+</entry>
+<entry>1</entry>
+<entry>&Oslash;</entry>
+<entry> 3</entry>
+<entry>&Oslash;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Van <link rid="b8">Riemsdijk (1978</link>) proposed to assimilate swiping to R-pronoun inversion, found in Dutch and other continental West Germanic varieties (an idea endorsed in <link rid="b4">Lobeck 1995</link> and <link rid="b5">Chung et al. 1995</link> as well):</p>
+<p>(60)&ensp;<object id="tu49" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu49_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>Waarmee</entry>
+<entry>wou</entry>
+<entry>je</entry>
+<entry>het</entry>
+<entry>doen?</entry>
+</row>
+<row><entry>wherewith</entry>
+<entry>wanted</entry>
+<entry>you</entry>
+<entry>it</entry>
+<entry>do</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;What did you want to do it with?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b27">Richards (2001</link>: 139&ndash;140) suggests that swiping is a case of stranding in an intermediate Spec, FP, an analysis championed on new and persuasive cross-linguistic grounds in Van <link rid="b42">Craenenbroeck (2004</link>):</p>
+<p>(61)&ensp;<object id="fu4" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_60_fu4.jpg" type="jpg" id="fu4_source"/>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b41">Merchant (2002</link>) analyzes swiping as head-to-head movement of the <i>wh</i>-word into P<sup>0</sup>, a kind of incorporation during the derivation from Spell-Out to PF:</p>
+<p>(62)&ensp;<object id="fu5" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_60_fu5.jpg" type="jpg" id="fu5_source"/>
+</objectsource>
+</object>
+</p>
+<p>Finally, <link rid="b40">Culicover (1999</link>) claims that swiping is &ldquo;<i>sui generis</i>,&rdquo; and that the PP is exhaustively dominated by a CP node (&ldquo;radically violating standard X&prime;-theory&rdquo; 1999: 138).</p>
+<p>All of these proposed analyses succeed in capturing some but not all of the relevant facts, and several require fairly substantial departures from widely accepted tenets of grammatical analysis as well. As such, swiping remains one of the more recalcitrant puzzles in the sluicing arena.</p>
+</subsection>
+</subsection>
+<subsection id="ss12" level="1">
+<heading id="h11" level="1">5&ensp;Conclusion</heading>
+<p>Sluicing remains an area of active research, primarily for two reasons: first, it sits at the intersection of ellipsis and <i>wh</i>-movement, two areas which continue to generate enormous research activity, and second, it raises so many fascinating puzzles. Some of these puzzles were illustrated in the last section, which was concerned primarily with the curiosa from sluicing&apos;s cabinet, phenomena which occur in conjunction with sluicing and which are anomalous from a variety of perspectives. As such, they form part of the outstanding issues for future work to address, and it can be hoped that they might shed light on other areas of the grammar, in particular on the nature of repair and the PF interface.</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss13" level="1" type="references">
+<heading id="h12" level="1">REFERENCES</heading>
+<reference id="b13" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Baker</surname><x>, </x><forenames>Carl<x> </x>L<x>.</x>
+</forenames>
+</name><x> and </x><name type="author">
+<forenames>Michael</forenames><x> </x><surname>Brame</surname>
+</name>
+</namegroup><x> (</x><date date="1972">1972</date><x>). </x><title type="document">&ldquo;Global Rules&rdquo;: A Rejoinder</title><x>. </x><title type="journal">Language</title><x> </x><volume>48</volume><x>: </x><page type="first">51</page><x>&ndash;</x><page type="last">75</page><x>.</x>
+</reference>
+<reference id="b12" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Bayer</surname><x>, </x><forenames>Josef</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="book">Directionality and Logical Form: On the Scope of Focussing Particles and <roman>Wh</roman>-in-Situ</title>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b25" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Bolinger</surname><x>, </x><forenames>Dwight</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978</date><x>). </x><title type="document">Asking More than One Thing at a Time</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Questions</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Henry</forenames><x> </x><surname>Hiz</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">107</page><x>&ndash;</x><page type="last">150</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Reidel</publisher><x>.</x>
+</reference>
+<reference id="b28" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bo&scaron;kovi&#x0107;</surname><x>, </x><forenames>&#x017D;eljko</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="document">On Multiple <i>Wh</i>-Fronting</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>33</volume><x>: </x><page type="first">351</page><x>&ndash;</x><page type="last">383</page><x>.</x>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chao</surname><x>, </x><forenames>Wynn</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="book">On Ellipsis</title><x>. </x><address>New York</address><x>: </x><publisher>Garland</publisher><x>.</x>
+</reference>
+<reference id="b15" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1972">1972b</date><x>). </x><title type="document">Some Empirical Issues in the Theory of Transformational Grammar</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x> </x>
+<title type="book">The Goals of Linguistic Theory</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Stanley</forenames><x> </x><surname>Peters</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">63</page><x>&ndash;</x><page type="last">130</page><x>. </x><address>Englewood Cliffs, NJ</address><x>: </x><publisher>Prentice-Hall</publisher><x>.</x>
+</reference>
+<reference id="b5" type="journal">
+<namegroup type="author">
+<name type="author">
+<forenames>Chung</forenames><x>, </x><surname>Sandra</surname>
+</name><x>, </x><name type="author">
+<forenames>William</forenames><x> </x><surname>Ladusaw</surname>
+</name>
+<x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>James</forenames><x> </x><surname>McCloskey</surname>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Sluicing and Logical Form</title><x>. </x><title type="journal">Natural Language Semantics</title><x> </x><volume>3</volume><x>: </x><page type="first">239</page><x>&ndash;</x><page type="last">282</page><x>.</x>
+</reference>
+<reference id="b42" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Craenenbroeck</surname><x>, </x><forenames>Jeroen<x> </x>van</forenames>
+</name>
+</namegroup><x> (</x><date date="2004">2004</date>
+<miscellaneoustext>). Ellipsis in Dutch Dialects. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Leiden University</address><x>.</x>
+</reference>
+<reference id="b40" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Culicover</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="book">Syntactic Nuts: Hard Cases, Syntactic Theory, and Language Acquisition<x>.</x>
+</title><x> </x><address>Oxford</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference id="b35" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Dayal</surname><x>, </x><forenames>Veneeta</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="document">Single-Pair versus Multiple-Pair Answers: <i>Wh</i>-in-Situ and Scope</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>33</volume><x>: </x><page type="first">512</page><x>&ndash;</x><page type="last">520</page><x>.</x>
+</reference>
+<reference id="b14" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Fukaya</surname><x>, </x><forenames>Teruhiko</forenames>
+</name>
+</namegroup><x> (</x><date date="2003">2003</date>
+<miscellaneoustext>). Island (In)sensitivity in Japanese Sluicing and Stripping. Paper presented at the Twenty-second West Coast Conference on Formal Linguistics, San Diego</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b23" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Fukaya</surname><x>, </x><forenames>Teruhiko</forenames>
+</name><x> and </x><name type="author">
+<forenames>Hajime</forenames><x> </x><surname>Hoji</surname>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">Stripping and Sluicing in Japanese and Some Implications</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Eighteenth West Coast Conference on Formal Linguistics</title><x>, </x><namegroup type="editors">
+<name type="editor">
+<forenames>Sonya</forenames><x> </x><surname>Bird</surname>
+</name><x>, </x><name type="editor">
+<forenames>Andrew</forenames><x> </x><surname>Carnie</surname>
+</name><x>, </x><name type="editor">
+<forenames>Jason<x> </x>D<x>.</x>
+</forenames><x> </x><surname>Haugen</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Norquest</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">145</page><x>&ndash;</x><page type="last">158</page>
+<x>. </x><address>Somerville</address><x>: </x><publisher>Cascadilla Press</publisher><x>.</x>
+</reference>
+<reference id="b9" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ginzburg</surname><x>, </x><forenames>Jonathan</forenames>
+</name><x> and </x><name type="author">
+<forenames>Ivan</forenames><x> </x><surname>Sag</surname>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="book">Interrogative Investigations: The Form, Meaning, and Use of English Interrogatives<x>.</x>
+</title><x> </x><address>Stanford</address><x>: </x><publisher>CSLI Publications</publisher><x>.</x>
+</reference>
+<reference id="b30" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Grewendorf</surname><x>, </x><forenames>G&uuml;nther</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">Multiple <i>Wh-</i>Fronting</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>32</volume><x>: </x><page type="first">87</page><x>&ndash;</x><page type="last">122</page><x>.</x>
+</reference>
+<reference id="b29" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Grohmann</surname><x>, </x><forenames>Kleanthes</forenames>
+</name>
+</namegroup><x> (</x><date date="2003">2003</date><x>). </x><title type="book">Prolific Domains: On the Anti-Locality of Movement Dependencies</title>
+<x>. </x><address>Amsterdam/Philadelphia</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b32" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Heck</surname><x>, </x><forenames>Fabian</forenames>
+</name><x> and </x><name type="author">
+<forenames>Gereon</forenames><x> </x><surname>M&uuml;ller</surname>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date>
+<miscellaneoustext>). Repair-Driven Movement and the Local Optimization of Derivations. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>University of Stuttgart and IDS Mannheim</address><x>.</x>
+</reference>
+<reference id="b22" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Hiraiwa</surname><x>, </x><forenames>Ken</forenames>
+</name><x> and </x><name type="author">
+<forenames>Shinichiro</forenames><x> </x><surname>Ishihara</surname>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="document">Missing Links: Cleft, Sluicing, and <i>No Da</i> Construction in Japanese</title><x>. </x><title type="journal">MIT Working Papers in Linguistics</title><x> </x><volume>43</volume><x>: </x><page type="first">35</page><x>&ndash;</x><page type="last">54</page><x>.</x>
+</reference>
+<reference id="b38" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Hoyt</surname><x>, </x><forenames>Frederick</forenames>
+</name><x> and </x><name type="author">
+<forenames>Alexandra</forenames><x> </x><surname>Teodorescu</surname>
+</name>
+</namegroup><x> (</x><date date="2003">2003</date>
+<miscellaneoustext>). Multiple Sluicing in Romanian. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>University of Texas, Austin</address><x>.</x>
+</reference>
+<reference id="b34" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Johnson</surname><x>, </x><forenames>Kyle</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date>
+<miscellaneoustext>). In Search of the English Middle Field. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Amherst, University of Massachusetts</address><x>.</x>
+</reference>
+<reference id="b36" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Johnson</surname><x>, </x><forenames>Kyle</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">What VP Ellipsis Can Do, and What it Can&apos;t, but not Why</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x> </x>
+<title type="book">The Handbook of Contemporary Syntactic Theory</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Mark</forenames><x> </x><surname>Baltin</surname>
+</name><x> and </x><name type="editor">
+<forenames>Chris</forenames><x> </x><surname>Collins</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">439</page><x>&ndash;</x><page type="last">479</page>
+<x>. </x><address>Oxford</address><x>: </x><publisher>Blackwell</publisher><x>.</x>
+</reference>
+<reference id="b21" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kizu</surname><x>, </x><forenames>Mika</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">A Note on Sluicing in <i>Wh</i>-in-Situ Languages</title><x>. </x><title type="journal">MIT Working Papers in Linguistics</title><x> </x><volume>36</volume>
+<page type="first">
+</page><x>.</x>
+</reference>
+<reference id="b18" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kuwabara</surname><x>, </x><forenames>Kazuki</forenames>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="document">Multiple <i>Wh</i>-Phrases in Elliptical Clauses and Some Aspects of Clefts with Multiple Foci</title><x>. </x><title type="journal">MIT Working Papers in Linguistics</title><x> </x><volume>29</volume><x>: </x><page type="first">97</page><x>&ndash;</x><page type="last">116</page><x>.</x>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lasnik</surname><x>, </x><forenames>Howard</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">When Can you Save a Structure by Destroying it?</title>
+<miscellaneoustext> In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society 31</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Minjoo</forenames><x> </x><surname>Kim</surname>
+</name><x> and </x><name type="editor">
+<forenames>Uri</forenames><x> </x><surname>Strauss</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">301</page><x>&ndash;</x><page type="last">320</page><x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association</publisher><x>.</x>
+</reference>
+<reference id="b3" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lobeck</surname><x>, </x><forenames>Anne</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991a</date><x>). </x><title type="document">The Phrase Structure of Ellipsis</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Perspectives on Phrase Structure: Heads and Licensing</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Susan</forenames><x> </x><surname>Rothstein</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">81</page><x>&ndash;</x><page type="last">103</page>
+<x>. </x><address>San Diego</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b4" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lobeck</surname><x>, </x><forenames>Anne</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="book">Ellipsis: Functional Heads, Licensing, and Identification</title>
+<x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference id="b20" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Merchant</surname><x>, </x><forenames>Jason</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">&lsquo;Pseudosluicing&rsquo;: Elliptical Clefts in Japanese and English</title><x>. </x><title type="journal">ZAS Working Papers in Linguistics</title><x> </x><volume>10</volume><x>: </x><page type="first">88</page><x>&ndash;</x><page type="last">112</page><x>.</x>
+</reference>
+<reference id="b11" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Merchant</surname><x>, </x><forenames>Jason</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">Islands and LF-Movement in Greek Sluicing</title><x>. </x><title type="journal">Journal of Greek Linguistics</title><x> </x><volume>1</volume><x>: </x><page type="first">41</page><x>&ndash;</x><page type="last">64</page><x>.</x>
+</reference>
+<reference id="b7" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Merchant</surname><x>, </x><forenames>Jason</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="book">The Syntax of Silence: Sluicing, Islands and the Theory of Ellipsis</title>
+<x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference id="b41" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Merchant</surname><x>, </x><forenames>Jason</forenames>
+</name>
+</namegroup><x> (</x><date date="2002">2002</date><x>). </x><title type="document">Swiping in Germanic</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Studies in Comparative Germanic Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>C<x>. </x>Jan-Wouter</forenames><x> </x><surname>Zwart</surname>
+</name><x> and </x><name type="editor">
+<forenames>Werner</forenames><x> </x><surname>Abraham</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">289</page><x>&ndash;</x><page type="last">315</page>
+<x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b31" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Nishigauchi</surname><x>, </x><forenames>Taisuke</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">&lsquo;Multiple Sluicing&rsquo; in Japanese and the Functional Nature of <i>Wh-</i>Phrases</title><x>. </x><title type="journal">Journal of East Asian Linguistics</title><x> </x><volume>7</volume><x>: </x><page type="first">121</page><x>&ndash;</x><page type="last">152</page><x>.</x>
+</reference>
+<reference id="b19" type="journal">
+<namegroup type="author">
+<name type="author">
+<forenames>Nishiyama</forenames><x>, </x><surname>Kunio</surname>
+</name><x>, </x><name type="author">
+<forenames>John</forenames><x> </x><surname>Whitman</surname>
+</name>
+<x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>Eun-Young</forenames><x> </x><surname>Yi</surname>
+</name>
+</namegroup><x> (</x><date date="1996">1996</date><x>). </x><title type="document">Syntactic Movement of Overt <i>Wh</i>-Phrases in Japanese and Korean</title><x>. </x><title type="journal">Japanese/Korean Linguistics</title><x> </x><volume>5</volume><x>: </x><page type="first">337</page><x>&ndash;</x><page type="last">351</page><x>.</x>
+</reference>
+<reference id="b10" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Perlmutter</surname><x>, </x><forenames>David</forenames>
+</name>
+</namegroup><x> (</x><date date="1971">1971</date><x>). </x><title type="book">Deep and Surface Structure Constraints in Syntax</title><x>. </x><address>New York</address><x>: </x><publisher>Holt, Rinehart and Winston</publisher><x>.</x>
+</reference>
+<reference id="b27" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Richards</surname><x>, </x><forenames>Norvin</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="book">Movement in Language: Interactions and Architectures</title>
+<x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference id="b8" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Riemsdijk</surname><x>, </x><forenames>Henk<x> </x>C<x>. </x>van</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978a</date><x>). </x><title type="book">A Case Study in Syntactic Markedness: The Binding Nature of Prepositional Phrases<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b37" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Romero</surname><x>, </x><forenames>Maribel</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997b</date><x>). </x><title type="document">Recoverability Conditions for Sluicing</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Empirical Issues in Formal Syntax and Semantics: Selected Papers from the Colloque de Syntaxe et S&eacute;mantique &agrave; Paris 1995<x>.</x>
+</title><x> </x><namegroup type="editors">
+<name type="editor">
+<forenames>Francis</forenames><x> </x><surname>Corblin</surname>
+</name><x>, </x><name type="editor">
+<forenames>Dani&egrave;le</forenames><x> </x><surname>Godard</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Jean-Marie</forenames><x> </x><surname>Marandin</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">193</page><x>&ndash;</x><page type="last">216</page>
+<x>. </x><address>Bern</address><x>: </x><publisher>Peter Lang</publisher><x>.</x>
+</reference>
+<reference id="b39" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rosen</surname><x>, </x><forenames>Carol</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="document">Guess What About?</title>
+<miscellaneoustext> In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society 6</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Alan</forenames><x> </x><surname>Ford</surname>
+</name><x>, </x><name type="editor">
+<forenames>John</forenames><x> </x><surname>Reighard</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Rajendra</forenames><x> </x><surname>Singh</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">205</page><x>&ndash;</x><page type="last">211</page>
+<x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association</publisher><x>.</x>
+</reference>
+<reference id="b1" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ross</surname><x>, </x><forenames>John<x> </x>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1969">1969b</date><x>). </x><title type="document">Guess Who?</title>
+<miscellaneoustext> In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Fifth Regional Meeting of the Chicago Linguistic Society</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Robert</forenames><x> </x><surname>Binnick</surname>
+</name><x>, </x><name type="editor">
+<forenames>Alice</forenames><x> </x><surname>Davison</surname>
+</name><x>, </x><name type="editor">
+<forenames>Georgia</forenames><x> </x><surname>Green</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Jerry</forenames><x> </x><surname>Morgan</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">252</page><x>&ndash;</x><page type="last">286</page>
+<x>. </x><address>Chicago</address><x>: </x><publisher>Chicago Linguistic Society</publisher><x>.</x>
+</reference>
+<reference id="b26" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rudin</surname><x>, </x><forenames>Catherine</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="book">Aspects of Bulgarian Syntax: Complementizers and <roman>Wh</roman>-Constructions</title>
+<x>. </x><address>Columbus, OH</address><x>: </x><publisher>Slavica</publisher><x>.</x>
+</reference>
+<reference id="b33" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Sauerland</surname><x>, </x><forenames>Uli</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999b</date>
+<miscellaneoustext>). Locality in Ellipsis: Sluicing vs. Multiple Sluicing. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>University of T&uuml;bingen</address><x>.</x>
+</reference>
+<reference id="b17" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Shimoyama</surname><x>, </x><forenames>Junko</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date>
+<miscellaneoustext>). On &lsquo;Sluicing&rsquo; in Japanese. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Amherst, University of Massachusetts</address><x>.</x>
+</reference>
+<reference id="b24" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Simpson</surname><x>, </x><forenames>Andrew</forenames>
+</name><x> and </x><name type="author">
+<forenames>Tanmoy</forenames><x> </x><surname>Bhattacharya</surname>
+</name>
+</namegroup><x> (</x><date date="2003">2003</date><x>). </x><title type="document">Obligatory Overt <i>Wh</i>-Movement in a <i>Wh</i>-in-Situ Language</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>34</volume><x>: </x><page type="first">127</page><x>&ndash;</x><page type="last">142</page><x>.</x>
+</reference>
+<reference id="b16" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Takahashi</surname><x>, </x><forenames>Daiko</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">Sluicing in Japanese</title><x>. </x><title type="journal">Journal of East Asian Linguistics</title><x> </x><volume>3</volume><x>: </x><page type="first">265</page><x>&ndash;</x><page type="last">300</page><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

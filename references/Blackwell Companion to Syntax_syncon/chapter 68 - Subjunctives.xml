@@ -1,0 +1,3760 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_article" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="68"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_article">
+<file name="chapter 68 - Subjunctives.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">660</page>
+<page type="last">684</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="1"/>
+<count type="table" count="48"/>
+<count type="formula" count="1"/>
+<count type="reference_total" count="73"/>
+<count type="page" count="25"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20051201"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 68&ensp;Quer: Subjunctives</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 68&ensp;Quer: Subjunctives</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">68 Subjunctives</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>JOSEP</forenames><x> </x><surname>QUER</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>Syntactic transparency</p>
+</li>
+<li level="2">
+<number>2.1&ensp;</number>
+<p>Obviation</p>
+</li>
+<li level="2">
+<number>2.2&ensp;</number>
+<p>Long-distance anaphoric binding and NPI-licensing</p>
+</li>
+<li level="2">
+<number>2.3&ensp;</number>
+<p>Raising</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>Syntactic licensing of subjunctive clauses</p>
+</li>
+<li level="2">
+<number>3.1&ensp;</number>
+<p>Subjunctive as defective Tense</p>
+</li>
+<li level="2">
+<number>3.2&ensp;</number>
+<p>Subjunctive as operator</p>
+</li>
+<li level="2">
+<number>3.3&ensp;</number>
+<p>Subjunctive as a dependent nominal</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>Functional syntax of subjunctive forms</p>
+</li>
+<li level="2">
+<number>4.1&ensp;</number>
+<p>The locus of subjunctive: I vs. C, V-to-C movement</p>
+</li>
+<li level="2">
+<number>4.2&ensp;</number>
+<p>Mood Phrase</p>
+</li>
+<li level="2">
+<number>4.3&ensp;</number>
+<p>Subject licensing and Control</p>
+</li>
+<li level="2">
+<number>4.4&ensp;</number>
+<p>Subject inversion</p>
+</li>
+<li level="2">
+<number>4.5&ensp;</number>
+<p>C-deletion</p>
+</li>
+<li level="1">
+<number>5&ensp;</number>
+<p>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1 Introduction</heading>
+<p>Subjunctive is the traditional label for one of the possible values of the grammatical category &lsquo;mood&rsquo; (in some grammatical traditions also known as conjunctive). It minimally contrasts with the mood category displayed in main assertive clauses, indicative. It usually surfaces in subordinate clauses (Greek <i>hypotaktik&eacute;</i> &lsquo;subordinated&rsquo;), but independent uses of subjunctive are attested as well. In many languages this category is typically realized as a separate finite verbal paradigm with specific inflectional morphemes (see the verbal ending in (1a)), but it can also be materialized in inflectional particles (such as Greek <i>na</i> in (1b)) or in the C-system (note the Russian subjunctive complementizer <i>ctoby</i> in (1c)).</p>
+<p>(1)<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row>
+<entry>a.</entry>
+<entry>Volen</entry>
+<entry>que</entry>
+<entry>dimiteix<i>i</i>.</entry>
+<entry>Catalan</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>want.3PL</entry>
+<entry>that</entry>
+<entry>resign.SUB.3SG</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry>b.</entry>
+<entry>&thgr;&eacute;lun</entry>
+<entry><i>na</i>
+</entry>
+<entry>pareti&thgr;&iacute;</entry>
+<entry>Greek</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>want.3PL</entry>
+<entry>SUB</entry>
+<entry>resign.3SG</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col4">&lsquo;They want her/him to resign.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row>
+<entry>c.</entry>
+<entry>Ja</entry>
+<entry>zhelaju</entry>
+<entry>cto-<i>by</i>
+</entry>
+<entry>ona</entry>
+<entry>ushla.</entry>
+<entry>Russian</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>I</entry>
+<entry>desire.1SG</entry>
+<entry>that-BY</entry>
+<entry>she</entry>
+<entry>go.PST</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col7">&lsquo;I desire that she should go.&rsquo;<link rid="fn1">
+<sup>1</sup></link>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>A wide range of syntactic phenomena have been argued to depend on the co-occurrence of subjunctive. However, subjunctive does not constitute a syntactically uniform object, either cross-linguistically or even within the same language. For instance, some of the subjunctive-related phenomena described for one language do not hold for other languages having subjunctive mood. Similarly, some allegedly subjunctive-related phenomena show up in a subset of the subjunctive clauses in a language, but not in all of them. These facts indicate that subjunctive may be essentially seen as an epiphenomenon derived from other lexical, syntactic, or semantic factors and that as such it does not allow us to identify subjunctive clauses as one class. We concentrate here on the syntactic properties that have beem claimed to pertain to subjunctive subordination, mainly argument clauses. The interpretive effects of this mood category are put aside, unless considered essential for the explanation.<link rid="fn2">
+<sup>2</sup></link>
+</p>
+<p>First, we will examine three phenomena that have been linked to the syntactic transparency of subjunctives as clausal domains. Next, in <link rid="ss7">section 3</link>, we will review the approaches that take subjunctive clauses to be a syntactic object different from indicative clauses, subject to specific licensing conditions. Finally, in <link rid="ss11">section 4</link>, we will concentrate on the different aspects of the functional structure of subjunctive clauses to the extent that they show specific traits vis-&agrave;-vis indicative clauses.</p>
+<p>Most work on the syntax of subjunctives has concentrated on Romance and Balkan languages, which will also provide the empirical evidence for this survey.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2 Syntactic transparency</heading>
+<p>Subjunctive clauses have been argued to constitute more transparent domains than indicative ones with respect to a number of syntactic relations. Some of the explanations concentrate on one or more of the transparency effects, or on a certain group of languages, which makes it difficult to characterize the notion of subjunctive transparency in a unified fashion. The biggest difficulty, though, lies in the fact that the purported transparency of subjunctive clauses does not seem to be a property of subjunctives as such, but rather of a subset thereof, and that the determining factor for transparency has to be found ultimately in the lexical semantic properties of the item licensing or selecting them.</p>
+<subsection id="ss4" level="2">
+<heading id="h3" level="2">2.1 Obviation</heading>
+<p>In most Romance languages, subjunctive clauses embedded under volitional and directive predicates display obviation effects, that is, a ban on coreference between the embedded and the matrix subject, as in (2).</p>
+<p>(2)<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row>
+<entry>a.</entry>
+<entry>*Queremos<sub>i</sub>
+</entry>
+<entry>que</entry>
+<entry>ganemos<sub>i</sub>.</entry>
+<entry>Spanish</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>want.1PL</entry>
+<entry>that</entry>
+<entry>win.SUB.PRS.1PL</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col4">&lsquo;We want to win.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row>
+<entry>b.</entry>
+<entry>Queremos<sub>i</sub>
+</entry>
+<entry>que</entry>
+<entry>ganen<sub>k</sub>.</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>want.1PL</entry>
+<entry>that</entry>
+<entry>win.SUB.PRS.3PL</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col4">&lsquo;We want them to win.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b1 b71">Picallo (1984, 1985</link>) ascribes the coreference restriction between matrix and embedded subjects to the defective Tense specification of subjunctive clauses (see <link rid="ss8">section 3.1</link>). This defectivity enforces the establishment of a T(ense)-chain between the tense features of the subjunctive Infl node and the Infl antecedent. As a result of this, the binding domain for the embedded subject is extended and the first accessible subject for the embedded subject turns out to be the matrix subject.<link rid="fn3">
+<sup>3</sup></link> By Principle B of the Binding Theory, the embedded pronominal Agr is forced to be free in its binding domain, thus excluding coindexation with the matrix Agr.</p>
+<p>The restriction on the reference of the embedded subject is operative only with respect to the matrix subject, though, and it does not apply when coreference is established with an internal argument in the main clause.<link rid="fn4">
+<sup>4</sup></link> In Picallo&apos;s account this is derived through the Case Resistance Principle (Stowell <link rid="b1">Picallo (1984</link>, 1981), which forces extraposition of the embedded clause. As a result of this, the internal argument of the main clause does not c-command the embedded subject and they can freely corefer.</p>
+<p>(3)<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row>
+<entry>Les<sub>i</sub>
+</entry>
+<entry>pidi&oacute;</entry>
+<entry>que</entry>
+<entry>se</entry>
+<entry>callaran<sub>i</sub>.</entry>
+<entry>
+</entry>
+<entry>Spanish</entry>
+</row>
+<row>
+<entry>to-them</entry>
+<entry>ask.PST.3SG</entry>
+<entry>that</entry>
+<entry>REFL</entry>
+<entry namest="col5" nameend="col6">be-quiet.SUB.PST.3PL</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col6">&lsquo;S/he asked them to be quiet.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Obviation was originally taken to be a defining property of subjunctive as a whole, but it has been shown that it is a property only of a set of subordinating predicates in some languages (Romance, but not Balkan, languages possess this characteristic). While restricting obviation to the relevant set of subjunctive selecting predicates (volitionals, directives, causatives), many accounts of obviation build on Picallo&apos;s insight that the defectivity of subjunctive tense lies at the bottom of subject disjoint reference (see the reference to the analyses by Progovac and Raposo in <link rid="ss8">section 3.1</link>). Alternatively, Su&ntilde;er and Padilla-Rivera derive obviation from a lexical feature specified in the relevant set of predicates. However, on the accounts of subjunctive as an operator (<link rid="ss9">section 3.2</link>), obviation effects are seen as the consequence of operator movement: though enforced by other requirements, the displacement of the operator ends up creating a configuration where the matrix and the embedded subjects must be disjoint in reference.</p>
+<p>It is important to note that obviation effects do not arise in operator triggered subjunctive (Polarity Subjunctive, in Stowell&apos;s terms, see <link rid="ss10">section 3.3</link> for the distinction), as in (4):</p>
+<p>(4)<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row>
+<entry>No cree<sub>i</sub>
+</entry>
+<entry>que</entry>
+<entry>vaya<sub>i</sub>.</entry>
+<entry>Spanish</entry>
+</row>
+<row>
+<entry>not believe.3SG</entry>
+<entry>that</entry>
+<entry>go.SUB.PRS.3SG</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col4">&lsquo;S/he doesn&apos;t think s/he&rsquo;ll go.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b2">Farkas (1992a</link>) follows a rather different path from the accounts reported so far and explains obviation as a case of blocking by infinitival clauses in canonical (subject) control contexts: in order to encode the subject dependency, infinitives are then selected over subjunctives, which mark the broader notion of world dependency. Another alternative account has recently been suggested by <link rid="b3">Dobrovie-Sorin (2001</link>), who argues that subjunctive clauses in Romance languages other than Romanian do define a governing category for their subjects. The need to use an infinitival clause in a subject-control structure where both subjects are coreferent would derive from a principle that requires choosing an anaphor instead of a pronoun whenever possible (see Bouchard 1982). A potential problem for this explanation is created by operator-triggered subjunctives as in (4), because, everything else being equal, an infinitival should surface instead of a subjunctive.</p>
+<p>However robust the core obviation cases might be, there are a number of factors that lift subject disjoint reference effects (see <link rid="b4 b5">Ruwet 1984, 1991</link> for a more detailed discussion):</p>
+<p>(i) a modal in the embedded clause</p>
+<p>(5)<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row>
+<entry>Espero<sub>i</sub>
+</entry>
+<entry>que</entry>
+<entry>pueda<sub>i</sub>
+</entry>
+<entry>ir.</entry>
+<entry>Spanish</entry>
+</row>
+<row>
+<entry>hope.1SG</entry>
+<entry>that</entry>
+<entry>can.SUB.PRS.1SG</entry>
+<entry>to-go</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col4">&lsquo;I hope to be able to go.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(ii) focus on the embedded subject</p>
+<p>(6)<object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row>
+<entry>Espero<sub>i</sub>
+</entry>
+<entry>que</entry>
+<entry>gane<sub>i</sub>
+</entry>
+<entry>s&oacute;lo</entry>
+<entry>yo</entry>
+<entry>ahora.</entry>
+<entry>Spanish</entry>
+</row>
+<row>
+<entry>hope.1SG</entry>
+<entry>that</entry>
+<entry>win.SUB.PRS.1SG</entry>
+<entry>only</entry>
+<entry>I</entry>
+<entry>now</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col4">&lsquo;I hope to win alone now.&rsquo;</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(iii) passive subjects in the matrix or the embedded clause</p>
+<p>(7)<object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row>
+<entry>a.</entry>
+<entry>Espero<sub>i</sub>
+</entry>
+<entry>que</entry>
+<entry>sea<sub>i</sub>
+</entry>
+<entry>autorizado</entry>
+<entry>a</entry>
+<entry>ir.</entry>
+<entry>Spanish</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>hope.1SG</entry>
+<entry>that</entry>
+<entry>be.SUB.PRS.1SG</entry>
+<entry>allow.PPL</entry>
+<entry>to</entry>
+<entry>to-go</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col7">&lsquo;I hope to be allowed to go.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row>
+<entry>b.</entry>
+<entry>Fue<sub>i</sub>
+</entry>
+<entry>convencido</entry>
+<entry>de</entry>
+<entry>que</entry>
+<entry>se</entry>
+<entry>marchara<sub>i</sub>
+</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>be.PST.3SG</entry>
+<entry>convince.PPL</entry>
+<entry>of</entry>
+<entry>that</entry>
+<entry>REFL</entry>
+<entry>leave.SUB.3SG</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col7">&lsquo;He was persuaded to leave.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(iv) coordinated complements</p>
+<p>(8)<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row>
+<entry>?Je</entry>
+<entry>veux</entry>
+<entry>que</entry>
+<entry>tu</entry>
+<entry>partes</entry>
+<entry>et</entry>
+<entry>que</entry>
+<entry>je</entry>
+<entry>reste.</entry>
+<entry>French<link rid="fn5">
+<sup>5</sup></link>
+</entry>
+</row>
+<row>
+<entry>I</entry>
+<entry>want.3SG</entry>
+<entry>that</entry>
+<entry>you</entry>
+<entry>leave.SUB.2SG</entry>
+<entry>and</entry>
+<entry>that</entry>
+<entry>I</entry>
+<entry>Stay.SUB.1SG</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col9">&lsquo;I want you to go and for me to stay.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(v) prefective aspect in the complement clause</p>
+<p>(9)<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row>
+<entry>Je</entry>
+<entry>voudrais</entry>
+<entry>que</entry>
+<entry>je</entry>
+<entry>sois</entry>
+<entry>d&eacute;j&agrave;</entry>
+<entry>parti!</entry>
+<entry>French</entry>
+</row>
+<row>
+<entry>I</entry>
+<entry>want.COND.1SG</entry>
+<entry>that</entry>
+<entry>I</entry>
+<entry>be.SUB.1SG</entry>
+<entry>already</entry>
+<entry>leave.PPL</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col8">&lsquo;I would like for me to be already gone!&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>At face value, these cases pose serious problems to purely syntactic accounts of obviation effects.</p>
+</subsection>
+<subsection id="ss5" level="2">
+<heading id="h4" level="2">2.2 Long-distance anaphoric binding and NPI-licensing</heading>
+<p>Subjunctive appears to be a prerequisite for simplex long-distance anaphors (i.e., logophoric use of reflexive pronouns) to be licensed in some languages like Icelandic, Italian, and French.<link rid="fn6">
+<sup>6</sup></link>
+</p>
+<p>(10)<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row>
+<entry>J&oacute;n<sub>i</sub>
+</entry>
+<entry>segir</entry>
+<entry>a&eth;</entry>
+<entry>P&eacute;tur<sub>j</sub>
+</entry>
+<entry>raki</entry>
+<entry>sig<sub>i/j</sub>.</entry>
+<entry>Icelandic</entry>
+</row>
+<row>
+<entry>John</entry>
+<entry>say.3SG</entry>
+<entry>that</entry>
+<entry>Peter</entry>
+<entry>shave.SUB.3SG</entry>
+<entry>self</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col7">&lsquo;John says that Peter shaves himself.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(11)<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row>
+<entry>J&oacute;n<sub>i</sub>
+</entry>
+<entry>veit</entry>
+<entry>a&eth;</entry>
+<entry>P&eacute;tur<sub>j</sub>
+</entry>
+<entry>rakar</entry>
+<entry>sig<sub>*i/j</sub>.</entry>
+</row>
+<row>
+<entry>John</entry>
+<entry>know.3SG</entry>
+<entry>that</entry>
+<entry>Peter</entry>
+<entry>shave.IND.3SG</entry>
+<entry>self</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col6">&lsquo;John knows that Peter shaves himself.&rsquo;<link rid="fn7">
+<sup>7</sup></link>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>However, subjunctive is a necessary, but not a sufficient condition for the licensing. Reuland and Sigurj&oacute;nsd&oacute;ttir (1997) point out that the Icelandic logophor <i>sig</i> in subjunctive clauses is regulated by discourse conditions (its antecedent has to bear the point of view of the utterance, whether it c-commands the logophor or not), as opposed to <i>sig</i> in infinitival clauses, where grammatical constraints are at play.</p>
+<p>Licensing of NPIs and negative indefinites can also happen at a distance (over a clause boundary or more) if the embedded clause containing the licensee is in the subjunctive. Indicative blocks this kind of long-distance licensing. Furthermore, Kayne (1981) and Rizzi (1982) noted a subject&ndash;object asymmetry in French and Italian: while a preverbal NPI subject licensed by matrix negation gives an ungrammatical result, the structure is grammatical if it involves an NPI object in the same configuration:</p>
+<p>(12)<object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row>
+<entry>a.</entry>
+<entry>Non</entry>
+<entry>pretendo</entry>
+<entry>che</entry>
+<entry>tu</entry>
+<entry>arresti</entry>
+<entry>nessuno.</entry>
+<entry>Italian</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>not</entry>
+<entry>require.1SG</entry>
+<entry>that</entry>
+<entry>you</entry>
+<entry>arrest.SUB.2SG</entry>
+<entry>no one</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col8">&lsquo;I do not require that you arrest anyone.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row>
+<entry>b.</entry>
+<entry>*Non</entry>
+<entry>pretendo</entry>
+<entry>che</entry>
+<entry>nessuno</entry>
+<entry>ti</entry>
+<entry>arresti.</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>not</entry>
+<entry>require.1SG</entry>
+<entry>that</entry>
+<entry>noone</entry>
+<entry>you</entry>
+<entry>arrest.SUB.3SG</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col7">&lsquo;I do not require that anyone arrests you.&rsquo;<link rid="fn8">
+<sup>8</sup></link>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p> Related facts were discussed in Kayne (1984) involving NPs headed by <i>de</i> &lsquo;of&rsquo; in French, as in (13): the empty QP heading the <i>de</i>-N NP &lsqb;<sub>NP</sub> &lsqb;<sub>QP</sub> e&rsqb; <i>de</i> N&rsqb; can be licensed long-distance by <i>pas</i> across a subjunctive clausal boundary, but only if the NP is in object position. For a detailed account of these facts, see <link rid="b6">Kampers-Manhe (1992</link>).</p>
+<p>(13)<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<tbody>
+<row>
+<entry>a.</entry>
+<entry>Jean</entry>
+<entry>ne</entry>
+<entry>voudrait</entry>
+<entry>pas</entry>
+<entry>que</entry>
+<entry>tu</entry>
+<entry>boives</entry>
+<entry>de</entry>
+<entry>bi&egrave;re.</entry>
+<entry>French</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>John</entry>
+<entry>NE</entry>
+<entry>want.COND.3SG</entry>
+<entry>NOT</entry>
+<entry>that</entry>
+<entry>you</entry>
+<entry>drink.SUB.2SG</entry>
+<entry>of</entry>
+<entry>beer</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry>&nbsp;</entry>
+<entry namest="col2" nameend="col11">&lsquo;John wouldn&apos;t like for you to drink beer.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<tbody>
+<row>
+<entry>b.</entry>
+<entry>*Jean</entry>
+<entry>ne</entry>
+<entry>voudrait</entry>
+<entry>pas</entry>
+<entry>que</entry>
+<entry>de</entry>
+<entry>bi&egrave;re</entry>
+<entry>lui</entry>
+<entry>coule</entry>
+<entry>dessus.</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>John</entry>
+<entry>NE</entry>
+<entry>want.COND.3SG</entry>
+<entry>NOT</entry>
+<entry>that</entry>
+<entry>of</entry>
+<entry>beer</entry>
+<entry>him</entry>
+<entry>spill.SUB.3SG</entry>
+<entry>on</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col11">(&lsquo;John wouldn&apos;t like it if beer were spilled on him.&rsquo;)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Under the assumption that the NPI in (12) has to move covertly to the matrix negation marking its scope, <link rid="b1">Picallo (1984</link>) attributes the ill-formedness of a case like (12b) under the purported reading to the inability of subjunctive Infl to properly govern the trace in preverbal subject position. In a different vein, <link rid="b7 b8">Progovac (1993, 1994</link>) suggests that the domain extension of the embedded subjunctive which would be required for the NPI to be licensed by matrix negation does not take place in (12b) because the preverbal NPI subject triggers negative agreement on that Infl node, thus blocking Subjunctive Functional Deletion (see <link rid="ss8">section 3.1</link>).</p>
+<p>Nevertheless, subjunctive as such again does not suffice for long distance licensing of NPIs and NIs, as other factors like the existence of a single T-domain between the embedded and the main clause seem to be involved. For a detailed discussion, see <link rid="b9">Giannakidou and Quer (1997</link>) and for reinterpretations of that proposal, see <link rid="b10">Giannakidou (1997</link>, 1998).</p>
+</subsection>
+<subsection id="ss6" level="2">
+<heading id="h5" level="2">2.3 Raising</heading>
+<p>Subject raising out of subjunctive clauses has been described and analyzed for Balkan languages like Romanian and Greek, illustrated here by (14) and (15), respectively.</p>
+<p>(14)<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row>
+<entry>Studen tcedil ii</entry>
+<entry>trebuiau</entry>
+<entry>&lsqb;t</entry>
+<entry>s&#x01CE;</entry>
+<entry>plece&rsqb;.</entry>
+<entry>Romanian<link rid="fn9">
+<sup>9</sup></link>
+</entry>
+</row>
+<row>
+<entry>students-the</entry>
+<entry>must.3PL</entry>
+<entry>
+</entry>
+<entry>SUB</entry>
+<entry>leave.3PL</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col6">&lsquo;The students must have left&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(15)<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row>
+<entry>Ta</entry>
+<entry>pedhia</entry>
+<entry>arxisan</entry>
+<entry>na</entry>
+<entry>trexun.</entry>
+<entry>Greek<link rid="fn10">
+<sup>10</sup></link>
+</entry>
+</row>
+<row>
+<entry>the</entry>
+<entry>children</entry>
+<entry>start.PST.3PL</entry>
+<entry>SUB</entry>
+<entry>run.PRS.3PL</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col5">&lsquo;The children started to run.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Subjunctives, unlike infinitives, display finite morphology with subject agreement. Raising from a finite clause poses theoretical problems, as it contradicts the generalization that raising to subject is allowed only for case reasons out of non-finite clauses.<link rid="fn11">
+<sup>11</sup></link> Subjunctive morphology can independently license lexical subjects in the embedded clause, as can be observed in the counterpart to (14):</p>
+<p>(16)<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row>
+<entry>Trebuia</entry>
+<entry>&lsqb;ca</entry>
+<entry>studen tcedil ii</entry>
+<entry>s&#x01CE;</entry>
+<entry>plece&rsqb;.</entry>
+<entry>Romanian</entry>
+</row>
+<row>
+<entry>must.3SG</entry>
+<entry>that</entry>
+<entry>students-the</entry>
+<entry>SUB</entry>
+<entry>leave.3PL</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col6">&lsquo;It must have been the case that the students left.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This has been taken to be sufficient evidence to exclude raising to subject out of subjunctive clauses in Balkan languages (<link rid="b11">Philippaki-Warburton 1987</link>). However, some proposals have been made that do analyze these types as instances of raising. <link rid="b3">Dobrovie Sorin (2001</link>), for example, reduces both raising and control in Balkan subjunctive clauses to anaphoric binding. <link rid="b12">Roussou (2001</link>) also brings them together by arguing that the functional domain of subjunctive CPs lacks the projections of both Fin (in the C system) and AgrS (in the IP system). Drawing on Manzini and Roussou&apos;s (1998) framework, she suggests that the &lsquo;raised&rsquo; DP in the matrix clause is actually sitting in a topic position and that the main AgrS attracts the thematic feature of the embedded predicate, which triggers morphological agreement between the matrix and the embedded predicate. This replicates in more recent terms the traditional view that complements to raising verbs are defective in some sense, i.e., IPs instead of CPs. An important fact to take into account in this connection is that the presence of an overt complementizer blocks raising out of the subjunctive clause, as illustrated in (17):</p>
+<p>(17)<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row>
+<entry>To tcedil i</entry>
+<entry>doctorii</entry>
+<entry>s-au</entry>
+<entry>nimerit</entry>
+<entry>(*ca) s&#x01CE;</entry>
+<entry>Romanian</entry>
+</row>
+<row>
+<entry>all</entry>
+<entry>doctors-the</entry>
+<entry>REFL-have.3PL</entry>
+<entry>happen.PPL</entry>
+<entry>that SUB</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry>fie</entry>
+<entry>de</entry>
+<entry>acord.</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry>be.3PL</entry>
+<entry>of</entry>
+<entry>agreement</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col6">&lsquo;All the doctors happened to agree with each other.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+</subsection>
+<subsection id="ss7" level="1">
+<heading id="h20" level="1">3 Syntactic licensing of subjunctive clauses</heading>
+<p>The dependent character of subjunctive clauses has been reinterpreted in different ways: as a result of dependent Tense, of the need for operator licensing, or of narrow scope properties of the mood itself. Some of the properties of subjunctives reviewed in <link rid="ss3">section 2</link> have been argued to derive naturally from the kind of analysis put forth.</p>
+<subsection id="ss8" level="2">
+<heading id="h21" level="2">3.1 Subjunctive as defective Tense</heading>
+<p>The tense properties of subjunctive forms are argued to be defective, as they rely on the full tense specification of the matrix. This surfaces in the restrictions on sequence of tense in subjunctive dependents that do not show up in indicative dependents. This can be observed in the Catalan examples (18): while a CP complement in the indicative allows for both present and past tenses (18a), the past form is excluded in a subjuntive clause embedded under a present tense (18b).</p>
+<p>(18)<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row>
+<entry>a.</entry>
+<entry>Sabia</entry>
+<entry>que</entry>
+<entry>telefona/</entry>
+<entry>telefonava.</entry>
+<entry>Catalan</entry>
+</row>
+<row>
+<entry>&nbsp;</entry>
+<entry>know.IMPF.1SG</entry>
+<entry>that</entry>
+<entry>phone.IND.PRS.3SG</entry>
+<entry>phone.IND.IMPF.3SG</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col6">&lsquo;I knew that s/he calls/that she used to call.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row>
+<entry>b.</entry>
+<entry>Desitja</entry>
+<entry>que</entry>
+<entry>telefoni/</entry>
+<entry>*telefon&eacute;s.</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>desire.PRS.3SG</entry>
+<entry>that</entry>
+<entry>phone.SUB.PRS.3SG</entry>
+<entry>phone.SUB.IMPF.3SG</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col5">&lsquo;S/he wishes that s/he calls/called.&rsquo;<link rid="fn12">
+<sup>12</sup></link>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Relying on these basic facts, <link rid="b1 b71">Picallo (1984,1985</link>) develops the hypothesis that even displaying morphological tense oppositions such as &lsqb;&plusmn; Past&rsqb; &ndash; though they do not always do so &ndash; subjunctive forms do not have an independent temporal interpretation. In this respect, they are defective if we compare them with indicative forms, whose tense is contentful. This characteristic prevents them from appearing independently in assertive root clauses, as in (19).</p>
+<p>(19)<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row>
+<entry>a.</entry>
+<entry>*Daniel</entry>
+<entry>haya llamado.</entry>
+<entry>Spanish</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>Daniel</entry>
+<entry>call.SUB.PERF.3SG</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col4">&lsquo;Daniel has called (SUB).&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row>
+<entry>b.</entry>
+<entry>*Ahir</entry>
+<entry>plogu&eacute;s.</entry>
+<entry>Catalan</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>yesterday</entry>
+<entry>rain.SUB.IMPF.3SG</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col4">&lsquo;Yesterday it rained (SUB).&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The core of Picallo&apos;s proposal consists in characterizing subjunctive Infl as &lsqb;&minus;Tense, &plus;Agr&rsqb;, whereas its indicative counterpart would be &lsqb;&plus;Tense, &plus;Agr&rsqb;. The defectivity of subjunctive Infl forces it to rely on the content of the superordinate Infl for its tense interpretation, which materializes in an anaphoric-like link between the temporal features of the subjunctive and those of the root Infl.<link rid="fn13">
+<sup>13</sup></link> Given that in root contexts there is no tense specification available, the subjunctive tense in sentences like (19) remains unbound and leads to ungrammaticality, in the same fashion as unbound nominal anaphors.<link rid="fn14">
+<sup>14</sup></link>
+</p>
+<p>The tense dependency of subjunctive is argued to give rise to several transparency effects affecting the subordinate clause: disjoint reference between the embedded and the matrix subjects (obviation), long-distance anaphoric binding and NPI-licensing across a CP boundary, subject raising from a finite domain, etc. (see <link rid="ss3">section 2</link>).</p>
+<p>The syntactic dependency of subjunctive Infl and the phenomena deriving from this property are analyzed as the result of different mechanisms. <link rid="b71">Picallo (1985</link>) claims that a T(ense)-chain is established between the tense features of the subjunctive Infl node and those of the antecedent Infl. The extension of the binding domain of the embedded clause to the matrix one is seen as the consequence of such a T-chain formation. Under this view, what establishes a transparent domain for binding are the tense properties of subjunctives rather than the agreement ones. <link rid="b7 b8">Progovac (1993, 1994</link>) argues that domain extension with subjunctives takes place under a more general condition at LF: according to her, subjunctive Infl/Comp projections become invisible (or rather, delete) at LF up to recoverability, under the assumption that they are unnecessary for interpretation. She discusses three phenomena that would be sensitive to functional deletion; long distance licensing of negative polarity items, long distance reflexivization, and disjoint reference effects between embedded and matrix subject. However, functional deletion is not contingent on the existence of subjunctive in a given grammar. In fact, a language like Serbian&ndash;Croatian, without a subjunctive paradigm, displays the effects of domain extension under volitional predicates.</p>
+<p>Despite the general treatment of subjunctive clauses as transparent domains, it has been widely acknowledged that different sets of embedded subjunctives have to be distinguished as not all of them have the described properties. A clear divide exists between subjunctive complements to volitional and directive predicates (<i>want</i>, <i>order</i>) and subjunctive complements to factive and epistemic predicates (<i>regret</i>, <i>believe</i>). In her proposal, for instance, Progovac restricts the application of functional Infl/Comp deletion to clausal complements of volitional predicates, because they select a Comp without a truth value and an Infl without independent tense. The complements to factive predicates, on the other hand, cannot undergo functional deletion because they realize a C with a truth value, which would not be recoverable if deleted. <link rid="b13">Raposo (1985</link>), though taking the same basic facts as Picallo as departure point, does not reduce them to the indicative&ndash;subjunctive opposition, but to the selectional properties of the embedding predicates. He identifies two basic classes: E-predicates (including epistemics and declaratives) and W-predicates (comprising volitionals, non-factive emotives, and verbs of influence, permission and necessity). The former would select a &lsqb;&plus;Tense&rsqb; operator in their C, while the latter would not select it, leading to a &lsqb;&minus;Tense&rsqb; specification of their C. Only in the first case would opacity be triggered by the presence of the &lsqb;&plus;Tense&rsqb; operator. If absent, the subjunctive tense must be bound by the tense specification of the matrix indicative, giving rise to transparency effects.<link rid="fn15">
+<sup>15</sup></link>
+</p>
+<p>Nevertheless, <link rid="b13">Raposo (1985</link>) clearly dissociates mood choice from the temporal interpretation of the complement: whereas W-predicates typically select for subjunctive mood, there are also E-predicates that take subjunctive when negated or questioned, but still do not give rise to transparency effects<link rid="fn16">
+<sup>16 </sup></link>(see (20), where coreference between matrix and embedded subjects is allowed).</p>
+<p>(20)<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row>
+<entry>O</entry>
+<entry>Manuel<sub>i</sub>
+</entry>
+<entry>n&atilde;o</entry>
+<entry>acredita</entry>
+<entry>que</entry>
+<entry>(ele)<sub>i</sub>
+</entry>
+<entry>ganhe</entry>
+<entry>a</entry>
+<entry>corrida.</entry>
+<entry>Portuguese</entry>
+</row>
+<row>
+<entry>the</entry>
+<entry>Manuel</entry>
+<entry>not</entry>
+<entry>believe.3SG</entry>
+<entry>that</entry>
+<entry>he</entry>
+<entry>win.SUB.3SG</entry>
+<entry>the</entry>
+<entry>race</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col10">&lsquo;Manuel does not believe that he will win the race.&rsquo;<link rid="fn17">
+<sup>17</sup></link>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Su&ntilde;er and Padilla-Rivera (<link rid="b14 b15 b16">Su&ntilde;er and Padilla-Rivera 1985, 1987, 1990</link>; <link rid="b17">Padilla-Rivera 1990</link>; <link rid="b18">Su&ntilde;er 1990</link>) have extensively argued against the claim that subjunctive clauses lack tense in Spanish. They show that strict temporal dependencies arise exclusively in the complements of subjunctive-selecting predicates and they attribute this fact to the presence of a &lsqb;&minus;Precedence&rsqb; feature that bars non-agreeing sequences of tense like &lsqb;&minus;past .&nbsp;.&nbsp;.&nbsp;&plus;past&rsqb;, as exemplified in (18b), or &lsqb;&plus;past .&nbsp;.&nbsp;.&nbsp;&minus;past&rsqb;, as in (21).</p>
+<p>(21)<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row>
+<entry>Quer&iacute;a</entry>
+<entry>que</entry>
+<entry>telefonearas/</entry>
+<entry>*telefonees.</entry>
+<entry>Spanish</entry>
+</row>
+<row>
+<entry>want.IMPF.3SG</entry>
+<entry>that</entry>
+<entry>phone.SUB.IMPF.2SG</entry>
+<entry>phone.SUB.PRS.2SG</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col4">&lsquo;S/he wanted you to phone.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>They point out, though, that the feature &lsqb;&minus;Precedence&rsqb; is not exclusive of predicates that select subjunctive: the sequence of tense restrictions triggered by this feature also surfaces in the complement of indicative-selecting predicates like <i>prometer</i> &lsquo;to promise&rsquo;. In addition, they dissociate subject obviation, an alleged transparency effect, from subjunctive as a category and attribute it to the lexical feature &lsqb;WILL&rsqb;. <link rid="b19">Zaring (1985</link>) essentially aligns with Su&ntilde;er and Padilla-Rivera&apos;s position on tense restrictions in subjunctive complements and proposes a feature system that distinguishes Portuguese inflected infinitives (which are tenseless but display agreement) from subjunctive by means of a &lsqb;&plusmn;Indicative&rsqb; feature: subjunctive would not simply be &lsqb;&minus;Tense, &plus;Agr&rsqb; (the feature composition of inflected infinitives), but rather &lsqb;&minus;Tense, &plus;Agr, &minus;Indicative&rsqb;.</p>
+</subsection>
+<subsection id="ss9" level="2">
+<heading id="h6" level="2">3.2 Subjunctive as operator</heading>
+<p>Subjunctive clauses (or rather, a subset thereof) have been claimed to possess an idiosyncratic complementizer with operator-like properties. The idiosyncratic tense and binding properties of subjunctive dependents are made to follow from the syntax attached to the special C.</p>
+<p>
+<link rid="b20 b21 b22">Kempchinsky&apos;s (1986, 1987, 1990</link>) main insight is that subjunctive complements to verbs of volition, influence, and command are in some sense like embedded imperatives. In her proposal, the main predicate selects an imperative operator in the subordinate C which has to be identified by the subjunctive I head. This identification requirement is satisfied at LF in languages like Spanish by covert I-to-C movement, as schematized in (22).</p>
+<p>(22)&emsp;<formula id="mu1" format="inline">
+<file name="Graphics\chapter_68_mu1.gif" type="gif"/>
+</formula>
+</p>
+<p>Through this movement the subjunctive Infl head ends up co-indexed with one of the arguments of the main predicate, and this would constitute the explanation for the subject&ndash;obviation effects. The restrictions on the sequence of tense are argued to stem from the presence of the imperative operator, which imposes a future interpretation on the embedded eventuality.</p>
+<p>In languages like Romanian, which display an overt subjunctive C, such an identification requirement would not be operative, and I-to-C movement would not take place. Similarly, subjunctive-taking verbs that do not belong to the volitional or directive type do not select such an imperative operator, and consequently I-to-C movement does not apply. As a result, no subject obviation or sequence of tense effects arise.</p>
+<p>
+<link rid="b23">Avrutin and Babyonyshev (1997</link>) view the Russian subjunctive complementizer <i>ctoby</i> (see (1c)) as an operator that must raise by head movement up to the matrix V in order to be able to bind the two event variables of the matrix and embedded predicates. In order to reach the appropriate c-command configuration, the complex formed by V-to-I-to-C movement (claimed to be universal, either overtly or covertly) adjoins to the V head in the main clause. From that position, it binds the main and embedded event variables, thus imposing a temporal ordering between the two eventualities. Given that the matrix V also undergoes V-to-I-to-C movement, at LF the embedded C&ndash;AgrS&ndash;T&ndash;V complex ends up adjoined to the matrix C&ndash;AgrS&ndash;T&ndash;V one. In this configuration the main AgrS c-commands the embedded AgrS. Under the assumption that the two heads are co-indexed when main and embedded subjects are coreferential, they induce a Principle B violation, which would constitute the explanation for the obviation phenomena. They have to stipulate that the C selected by epistemic predicates, though identical in form to the one selected by volitionals, does not raise to the matrix V because their subjunctive complements do not show sequence of tense restrictions or obviation effects.</p>
+</subsection>
+<subsection id="ss10" level="2">
+<heading id="h7" level="2">3.3 Subjunctive as a dependent nominal</heading>
+<p>The parallelism drawn between subjunctive clauses and nominal indefinite expressions originates in the observation that subjunctive tense is not referential and needs independent licensing. This is different from stating that it simply picks up reference in the main clause anaphorically and it allows us to account for the existing past shifted, future shifted, and simultaneous readings of embedded subjunctives.</p>
+<p>
+<link rid="b24 b25">Tsoulas (1994, 1995</link>) draws the parallel between indefinite nominals and infinitive/subjunctive clauses on the basis of wh-extraction patterns: wh-movement out of an indefinite NP or an infinitival/subjunctive clause gives a better result than extraction out of a definite NP or an indicative CP (compare (23) and (24)).</p>
+<p>(23)<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row>
+<entry>a.</entry>
+<entry>De</entry>
+<entry>qui</entry>
+<entry>veux-tu</entry>
+<entry>voir</entry>
+<entry>une</entry>
+<entry>photo?</entry>
+<entry>French</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>of</entry>
+<entry>who</entry>
+<entry>want.PRS.2SG-you</entry>
+<entry>to-see</entry>
+<entry>a</entry>
+<entry>picture</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col8">&lsquo;Who do you want to see a picture of?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row>
+<entry>b.</entry>
+<entry>*De</entry>
+<entry>qui</entry>
+<entry>veux-tu</entry>
+<entry>voir</entry>
+<entry>la</entry>
+<entry>photo?</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>of</entry>
+<entry>who</entry>
+<entry>want.PRS.2SG-you</entry>
+<entry>to-see</entry>
+<entry>the</entry>
+<entry>picture</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col7">&lsquo;Who do you want to see the picture of?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(24)<object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="10">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<tbody>
+<row>
+<entry>a.</entry>
+<entry>Que</entry>
+<entry>te</entry>
+<entry>demandes-tu</entry>
+<entry>qui</entry>
+<entry>a</entry>
+<entry>exig&eacute;</entry>
+<entry>que</entry>
+<entry>S&oacute;phie</entry>
+<entry>&eacute;crive?</entry>
+</row>
+<row>
+<entry>&nbsp;</entry>
+<entry>what</entry>
+<entry>REFL</entry>
+<entry>ask.PSR.2SG-you</entry>
+<entry>who</entry>
+<entry>have.PRS.3SG</entry>
+<entry>require.PPL</entry>
+<entry>that</entry>
+<entry>S&oacute;phie</entry>
+<entry>write.SUB.3SG</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col8">&lsquo;What do you wonder who required that S&oacute;phie write?&rsquo;</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="11">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<tbody>
+<row>
+<entry>b.</entry>
+<entry>*Que</entry>
+<entry>te</entry>
+<entry>demandes-tu</entry>
+<entry>qui</entry>
+<entry>a</entry>
+<entry>dit</entry>
+<entry>qu&rsquo;</entry>
+<entry>Alex</entry>
+<entry>a</entry>
+<entry>vu?</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>what</entry>
+<entry>REFL</entry>
+<entry>ask.PSR.2SG-you</entry>
+<entry>who</entry>
+<entry>have.PRS.3SG</entry>
+<entry>say.PPL</entry>
+<entry>that</entry>
+<entry>Alex</entry>
+<entry>have.PRS.3SG</entry>
+<entry>see.PPL</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col9">&lsquo;What do you wonder who said Alex saw?&rsquo;</entry>
+<entry>
+</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Tsoulas proposes that indefiniteness in the clausal domain amounts to temporal indefiniteness, which derives from the impossibility to assign a truth value to the embedded proposition. Subjunctive complements to factive verbs are analyzed as the correlates of specific indefinites, which also block extraction.</p>
+<p>As an indefinite Tense, subjunctive has to be licensed by a sentential operator in the relevant syntactic configuration (head-to-head dependency, c-command). Under the view that subjunctive CPs are the clausal analogues of NPIs or indefinites, they have to appear in the scope of the a certain type of operator in syntax (intensional, non-veridical, etc.). By contrast, indicative clauses have to escape from the scope of such operators (anti-polarity or positive polarity effects).</p>
+<p>Manzini (2000) gives a syntactic interpretation of Tsoulas&apos;s proposal by positing that subjunctive is an indefinite T that has to be licensed in a head-to-head dependecy bound by an intensional operator such as negation, a question operator, or conditional <i>if</i>. Subjunctive morphology constitutes the spell-out of such a T-dependency; otherwise the mood that surfaces is indicative. The main motivation for this type of approach is the sensitivity of subjunctive dependecies to island and parasitic gap-like configurations. Long distance reflexivization and obviation effects are argued to rest on the presence of the syntactic dependency established by the subjunctive.</p>
+<p>The apparent scopal behavior of mood morphology has also been interpreted as a consequence of the polar status of the subjunctive morphology itself. <link rid="b26 b27">Giannakidou (1994, 1995</link>) establishes a direct link between the semantic licensing of subjunctive and (negative) polarity items: both are legitimate in non-veridical contexts. By contrast, indicative behaves as a positive polarity item that escapes non-veridical triggers. The scopal behavior of indicative/subjunctive had been also proposed in <link rid="b28">Kampers-Manhe (1991</link>) for French relative clauses.</p>
+<p>The polarity approach to mood has been pursued in a number of syntactically oriented studies. The foundations of such approaches can be sought in <link rid="b29">Stowell&apos;s (1993</link>, 1995a, 1995b) theory of tense. Stowell&apos;s basic insight that sequence-of-tense phenomena have to be understood as a consequence of the polar properties of tense morphology is argued to be applicable to mood morphology as well. In such an account, mood has an impact on the derivation to LF, as scope might have to be determined covertly: while subjunctive clauses must remain in the scope of its licenser, yielding a narrow-scope effect, indicative CPs have to undergo LF movement in order to get out of the scope of an intensional operator. <link rid="b30 b31">Brugger and D&rsquo;Angelo (1994, 1995</link>) develop these ideas by stating that the (Italian) subjunctive is an intensional-operator polarity item, whereas indicative is an anti-intensional-operator polarity item, and explore the interaction of the polarity properties of tense and mood. <link rid="b32">Laka (1990</link>, 1995) pursued similar ideas on the licensing of indicative and subjunctive clauses, but she placed the burden of the explanation on the polarity properties of C, arguing for the existence of a negative complementizer that has to remain in the scope of its licenser.</p>
+<p>This sort of approach also has to distinguish two types of subjunctives: those lexically selected by a (strong intensional) predicate and those licensed by a clausal operator like negation. <link rid="b29">Stowell (1993</link>) calls them Intensional Subjunctive and Polarity Subjunctive, respectively. The two types show opposite behavior with respect to the following properties, which are argued to follow from the polar properties of tense and mood morphology:</p>
+<p>(i) Possibility of displaying past morphology under a matrix present tense (compare (25) with (18b) above).</p>
+<p>(25)<object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row>
+<entry>No</entry>
+<entry>recorda</entry>
+<entry>que</entry>
+<entry>s&rsquo;hi</entry>
+<entry>assembl&eacute;s.</entry>
+<entry>Catalan</entry>
+</row>
+<row>
+<entry>not</entry>
+<entry>remember.3SG</entry>
+<entry>that</entry>
+<entry>REFL-DAT</entry>
+<entry>resemble.SUB.IMPF.3SG</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col6">&lsquo;S/he doesn&apos;t remember whether s/he looked alike.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(ii) Alternation with indicative clauses (compare (26) with (25) and (27)).</p>
+<p>(26)<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row>
+<entry>No</entry>
+<entry>recorda</entry>
+<entry>que</entry>
+<entry>s&rsquo;hi</entry>
+<entry>assemblava.</entry>
+</row>
+<row>
+<entry>not</entry>
+<entry>remember.3SG</entry>
+<entry>that</entry>
+<entry>REFL-DAT</entry>
+<entry>resemble.IND.IMPF.3SG</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col5">&lsquo;S/he doesn&apos;t remember that s/he looked alike.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(27)<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row>
+<entry>*No</entry>
+<entry>vol</entry>
+<entry>que</entry>
+<entry>surten.</entry>
+</row>
+<row>
+<entry>not</entry>
+<entry>want.3SG</entry>
+<entry>that</entry>
+<entry>go-out.IND.3PL</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col4">&lsquo;S/he doesn&apos;t want them to go out.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(iii) Multiple subjunctive embedding under the same trigger (compare (28) with (29)).</p>
+<p>(28)<object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row>
+<entry>No</entry>
+<entry>crec</entry>
+<entry>que</entry>
+<entry>recordi</entry>
+<entry>que</entry>
+<entry>s&rsquo;hi</entry>
+<entry>assembl&eacute;s.</entry>
+</row>
+<row>
+<entry>not</entry>
+<entry>believe.1SG</entry>
+<entry>that</entry>
+<entry>remember.SUB.3SG</entry>
+<entry>that</entry>
+<entry>REFL-DAT</entry>
+<entry>resemble.SUB.IMPF.3SG</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col6">&lsquo;I don&apos;t think s/he remembers whether s/he looked alike.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(29)<object id="tu28" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu28_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row>
+<entry>*Vull</entry>
+<entry>que</entry>
+<entry>recordi</entry>
+<entry>que</entry>
+<entry>s&rsquo;hi</entry>
+<entry>assembl&eacute;s.</entry>
+</row>
+<row>
+<entry>want.1SG</entry>
+<entry>that</entry>
+<entry>remember.SUB.3SG</entry>
+<entry>that</entry>
+<entry>REFL-DAT</entry>
+<entry>resemble.SUB.3SG</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col6">&lsquo;I don&apos;t want that s/he remembers whether s/he looked alike.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(iv) Subject-obviation effects (compare (30) with (31)).</p>
+<p>(30)<object id="tu29" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu29_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row>
+<entry>No</entry>
+<entry>crec</entry>
+<entry>que</entry>
+<entry>hi</entry>
+<entry>vagi.</entry>
+</row>
+<row>
+<entry>not</entry>
+<entry>believe.1SG</entry>
+<entry>that</entry>
+<entry>LOC</entry>
+<entry>go.SUB.PRS.1SG</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col5">&lsquo;I don&apos;t think I&rsquo;ll go.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(31)<object id="tu30" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu30_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row>
+<entry>*No</entry>
+<entry>vull</entry>
+<entry>que</entry>
+<entry>hi</entry>
+<entry>vagi.</entry>
+</row>
+<row>
+<entry>not</entry>
+<entry>want.1SG</entry>
+<entry>that</entry>
+<entry>LOC</entry>
+<entry>go.SUB.PRS.1SG</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col5">&lsquo;I don&apos;t want to go.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+</subsection>
+<subsection id="ss11" level="1">
+<heading id="h8" level="1">4 Functional syntax of subjunctive forms</heading>
+<p>Different answers have been given to the question of where mood features reside in clause structure. Such answers have different implications for clausal architecture and syntactic derivation. In the following sections we will discuss some of these answers.</p>
+<subsection id="ss12" level="2">
+<heading id="h9" level="2">4.1 The locus of subjunctive: I vs. C, I-to-C movement</heading>
+<p>Subjunctive surfaces most frequently in the verb complex, either as a specific verb-ending or as an inflectional particle. However, the core cases of subjunctive dependents are triggered through lexical selection by a superordinate predicate. Given that lexical selection is a local head-to-head relationship, the embedded C must be involved somehow in the establishment of the dependency. This can be directly observed in languages that have special C forms for subjunctive dependents, such as Romanian (<i>ca</i>), Albanian (<i>q&euml;</i>), and Salentino (<i>ku</i>).</p>
+<p>(32)<object id="tu31" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu31_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row>
+<entry>a.</entry>
+<entry>Ion</entry>
+<entry>vrea</entry>
+<entry>ca</entry>
+<entry>s&#x01CE;</entry>
+<entry>manince.</entry>
+<entry>Romanian<link rid="fn18">
+<sup>18</sup></link>
+</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>John</entry>
+<entry>want.3SG</entry>
+<entry>that (SUB)</entry>
+<entry>SUB</entry>
+<entry>eat.3SG</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col7">&lsquo;John wants him/her to eat.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row>
+<entry>b.</entry>
+<entry>Jani</entry>
+<entry>do</entry>
+<entry>q&euml;</entry>
+<entry>t&euml;</entry>
+<entry>haj&euml;.</entry>
+<entry>Albanian</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>John</entry>
+<entry>want.3SG</entry>
+<entry>that (SUB)</entry>
+<entry>SUB</entry>
+<entry>eat.3SG</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col7">&lsquo;John wants him/her to eat.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>For languages that do not display specialized Cs overtly, the same divide has sometimes been postulated. In a language like Greek, subjunctive marking is superficially ambiguous between an inflectional element and a C-like element. This has led researchers to provide arguments for both positions: Philippaki-Warburton and Veloudis (1984), <link rid="b11">Philippaki-Warburton (1987</link>), and <link rid="b33">Rivero (1994</link>) analyze the subjunctive marker <i>na</i> as an Infl particle, whereas <link rid="b34">Agouraki (1991</link>), <link rid="b35">Dobrovie-Sorin (1994b</link>), and <link rid="b25">Tsoulas (1995</link>) defend its C status. As a C-like element, the subjunctive particle is sentence initial, preceding negation and clitics, and can head embedded clauses in the absence of any other C-element. As an I-like element, it must be adjacent to the verb cluster, it must be repeated under conjunction and it can cooccur with <i>Wh</i> phrases. An analysis featuring I-to-C movement (either overt or covert) constitutes a third kind of approach that reconciles both points of view by explaining the ambiguity and at the same time straightforwardly accounts for the long-distance selection problem, namely how is subjunctive selected by a matrix element despite the intervening heads? In some analyses this view is cast in terms of feature movement (see <link rid="b36">Svenonius 1994</link>, for instance).</p>
+</subsection>
+<subsection id="ss13" level="2">
+<heading id="h10" level="2">4.2 Mood Phrase</heading>
+<p>In the context of the proliferation of verbal functional categories beyond IP and CP, MoodP has been proposed in order to host mood features and to account for some of the subjunctive-related phenomena. It is mostly represented as an intermediate projection between the IP and the CP domains (<link rid="b37 b38 b39">Terzi 1991, 1992, 1997</link>; <link rid="b33">Rivero 1994</link>; <link rid="b40">Philippaki-Warburton 1991</link>); see (33). The need to check a subjunctive feature on this head may trigger overt movement to such a high position, which in some accounts explains the C-like properties of a subjunctive verb complex. Terzi makes crucial use of the &lsqb;Spec, MP&rsqb; position as a host for the PRO subject in control structures. Her reasoning is that M, by not bearing finiteness features, can check the Null Case that the PRO subject bears. In doing this, she is forced to establish a different structure for non-control structures, where the verbal complex moves all the way up to C, from where a pro subject is licensed in &lsqb;Spec, MP&rsqb;.</p>
+<p>(33)&ensp;<object id="fu1" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_68_fu1.jpg" type="jpg" id="fu1_source"/>
+</objectsource>
+</object>
+</p>
+<p>By contrast, <link rid="b41">Kempchinsky (1998</link>), making use of the MP projection, suggests that subjunctive complements to volitionals are not CPs but MPs.</p>
+</subsection>
+<subsection id="ss14" level="2">
+<heading id="h11" level="2">4.3 Subject licensing and Control</heading>
+<p>Languages such as Greek and Romanian display obligatory control with finite subjunctive clauses in the same environments where other languages resort to non-finite subordination structures. <link rid="b42">Iatridou (1993</link>) pointed out that in Greek some predicates trigger real control, as the embedded V must display the same agreement specification as the matrix one (34), no lexical subject can appear in the embedded clause (35) and the embedded V cannot have independent tense (36). For her, lack of Tense implies lack of nominative Case: the embedded subject must then be a PRO licensed by Null Case.</p>
+<p>(34)<object id="tu32" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu32_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row>
+<entry>O</entry>
+<entry>Janis</entry>
+<entry>kseri</entry>
+<entry>na</entry>
+<entry>kolimbaj/</entry>
+<entry>*kolimbao.</entry>
+<entry>Greek</entry>
+</row>
+<row>
+<entry>the</entry>
+<entry>John</entry>
+<entry>know.3SG</entry>
+<entry>SUB</entry>
+<entry>swim.3SG</entry>
+<entry>swim.1SG</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col7">&lsquo;John knows how to swim/Janis can swim.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(35)<object id="tu33" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu33_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row>
+<entry>*O</entry>
+<entry>Janis</entry>
+<entry>kseri</entry>
+<entry>na</entry>
+<entry>kolimbaj</entry>
+<entry>i</entry>
+<entry>Ana.</entry>
+</row>
+<row>
+<entry>the</entry>
+<entry>John</entry>
+<entry>know.3SG</entry>
+<entry>SUB</entry>
+<entry>swim.3SG</entry>
+<entry>the</entry>
+<entry>Anna</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col7">&lsquo;John knows how to swim Anna.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(36)<object id="tu34" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu34_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row>
+<entry>*O</entry>
+<entry>Janis</entry>
+<entry>kseri</entry>
+<entry>na</entry>
+<entry>kolimbuse.</entry>
+</row>
+<row>
+<entry>the</entry>
+<entry>John</entry>
+<entry>know.3SG</entry>
+<entry>SUB</entry>
+<entry>swim.IMPF.3SG</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col5">&lsquo;John knows how to swim (PAST).&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>However, in cases of optional control, lexical embedded subjects are possible despite the tense restrictions (1b). <link rid="b38 b39">Terzi (1992, 1997</link>) interprets this as indicating that we are dealing with a different structure where V-to-C movement and a <i>pro</i> subject are involved. Roussou (1991) sets volitionals apart from control predicates and argues that they do have a full CP structure and AgrS; in her account, subject coreference derives from associating the matrix and the embedded AgrS.</p>
+<p>(37)<object id="tu35" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu35_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row>
+<entry>O</entry>
+<entry>Janis</entry>
+<entry>theli</entry>
+<entry>na</entry>
+<entry>kolimbisi/*-e</entry>
+<entry>(i</entry>
+<entry>Ana).</entry>
+<entry>Greek</entry>
+</row>
+<row>
+<entry>the</entry>
+<entry>John</entry>
+<entry>want.3SG</entry>
+<entry>SUB</entry>
+<entry>swim.PRS/PST.3SG</entry>
+<entry>the</entry>
+<entry>Anna</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col8">&lsquo;John wants to swim/Anna to swim.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b43">Varlokosta and Hornstein (1992</link>) also distinguish two types of subjunctive clauses on the basis of the presence or absence of temporal reference in the embedded clause. Whereas <i>pro</i> would be the empty subject in the former case, in the latter PRO can be identified as the subject category, because it forbids split antecedents, it only permits sloppy readings under ellipsis, and it requires a <i>de se</i> interpretation. This same divide is exploited by <link rid="b44">Krapova (2001</link>), who defends the existence of two different types of subjunctive.</p>
+<p>At the same time, other analyses maintain that <i>pro</i> is uniformly the empty subject category of subjunctives, while control must derived from other factors. <link rid="b45">Philippaki and Catsimali (1999</link>) defend this point of view by showing that predicate adjectives, NP-modifiers, and intensifiers of the embedded subject are necessarily marked with Nominative morphology in Greek. In addition, examples can be constructed featuring an NP-subject to the right of the embedded V but still to the left of a constituent in the subordinate clause. Finally, the PROarb that is typical of languages that have control is not attested in subjunctive complements. They take this as conclusive evidence that PRO should be banned from control subjuntives in Greek.</p>
+<p>
+<link rid="b3">Dobrovie-Sorin (2001</link>) follows a different path on this issue by explaining both control and raising as instances of anaphoric binding.</p>
+</subsection>
+<subsection id="ss15" level="2">
+<heading id="h12" level="2">4.4 Subject inversion</heading>
+<p>Subject (stylistic) inversion in French is allowed only in contexts where there is some kind of operator present, such as a <i>Wh</i> or a relative operator. Subjunctive clauses, being one of such subject postposing contexts, are claimed to involve a covert operator that licenses the inversion (Kayne and Pollock 1978).</p>
+<p>(38)<object id="tu36" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu36_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row>
+<entry>Je</entry>
+<entry>veux</entry>
+<entry>que</entry>
+<entry>parte</entry>
+<entry>Paul.</entry>
+<entry>French</entry>
+</row>
+<row>
+<entry>I</entry>
+<entry>want.1SG</entry>
+<entry>that</entry>
+<entry>leave.SUB.3SG</entry>
+<entry>Paul</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col5">&lsquo;I want Paul to leave.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>However, this type of alleged inversion is not allowed in all subjunctive clauses, as <link rid="b46">Kampers-Manhe (1998</link>) points out: it is limited to ergative, passive, and certain unergative verbs, it is only allowed when the matrix is of a certain type (volitional, verb of fear, etc., but not factive&ndash;emotive or a negated epistemic), and with a definite subject no inversion is possible if a VP-final constituent cooccurs. In her analysis, that the subject DP be within focus is claimed to be a requirement for the inverted order to be grammatical in combination with the defective properties of subjunctive tense under volitionals: with these verbs there is no Tense feature in C, which determines that the Case feature on the T head is weak and consequently it does not need to be checked overtly, so the DP subject can stay in situ. What this analysis amounts to is that the postverbal subject remains in its base generated position under the required conditions.</p>
+</subsection>
+<subsection id="ss16" level="2">
+<heading id="h13" level="2">4.5 C-deletion</heading>
+<p>In some Romance varieties, such as Italian,<link rid="fn19">
+<sup>19</sup></link> the overt C introducing an argument clause can be absent in certain subjunctive CPs.<link rid="fn20">
+<sup>20</sup></link> An example of this phenomenon, called Complementizer Deletion or C-deletion (CD), is reproduced under (39):<link rid="fn21">
+<sup>21</sup></link> (39a) is the CD case corresponding to (39b).</p>
+<p>(39)<object id="tu37" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu37_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row>
+<entry>a.</entry>
+<entry>Credo</entry>
+<entry>lo</entry>
+<entry>faccia.</entry>
+<entry>Italian</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>think.1SG</entry>
+<entry>it</entry>
+<entry>do.SUB.PRS.3SG</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row>
+<entry>b.</entry>
+<entry>Credo</entry>
+<entry>che</entry>
+<entry>lo</entry>
+<entry>faccia.</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>think.1SG</entry>
+<entry>that</entry>
+<entry>it</entry>
+<entry>do.SUB.PRS.3SG</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col5">&lsquo;I think he does it.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Beyszond a slight register difference (CD is perceived as somewhat more formal), both variants are interpreted as equivalent, thus rendering CD completely optional. However, there are four clear restrictions on the application of CD.</p>
+<p>(i) It occurs only in the presence of subjunctive morphology in the embedded verb (compare (39a) with (40)).</p>
+<p>(40)<object id="tu38" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu38_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row>
+<entry>Ha</entry>
+<entry>detto</entry>
+<entry>*(che)</entry>
+<entry>&egrave;</entry>
+<entry>partito.</entry>
+<entry>Italian</entry>
+</row>
+<row>
+<entry>have.3SG</entry>
+<entry>say.PPL</entry>
+<entry>that</entry>
+<entry>be.IND.3SG</entry>
+<entry>leave.PPL</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col5">&lsquo;S/he said he has left.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Some speakers, though, accept CD with an embedded future or conditional tense as well:<link rid="fn22">
+<sup>22</sup></link>
+</p>
+<p>(41)<object id="tu39" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu39_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row>
+<entry>a.</entry>
+<entry>Credo</entry>
+<entry>sar&agrave;</entry>
+<entry>interessante.</entry>
+</row>
+<row>
+<entry>&nbsp;</entry>
+<entry>believe.1SG</entry>
+<entry>be.IND.FUT.3SG</entry>
+<entry>interesting</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col4">&lsquo;I think it will be interesting.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row>
+<entry>b.</entry>
+<entry>Credo</entry>
+<entry>funzionerebbe</entry>
+<entry>meglio.</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>believe.1SG</entry>
+<entry>work.COND.3SG</entry>
+<entry>better</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col4">&lsquo;I think it would work better.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(ii) CD is only possible if the embedded CP occurs in its argument position, and not when it is in a left dislocated or focalized position:</p>
+<p>(42)<object id="tu40" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu40_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row>
+<entry>a.</entry>
+<entry>(Che)*</entry>
+<entry>fosse</entry>
+<entry>partito,</entry>
+<entry>lo</entry>
+<entry>credeva.</entry>
+</row>
+<row>
+<entry>&nbsp;</entry>
+<entry>that</entry>
+<entry>be.SUB.3SG</entry>
+<entry>leave.PPL</entry>
+<entry>it</entry>
+<entry>believe.IMPF.3SG</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col6">&lsquo;That he had left, he believed it.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row>
+<entry>b.</entry>
+<entry>(CHE)*</entry>
+<entry>FOSSE</entry>
+<entry>PARTITO</entry>
+<entry>credeva.</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry>that</entry>
+<entry>be.SUB.3SG</entry>
+<entry>leave.PPL</entry>
+<entry>believe.IMPF.3SG</entry>
+</row>
+<row>
+<entry>
+</entry>
+<entry namest="col2" nameend="col5">&lsquo;THAT HE HAD LEFT, he believed.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(iii) Not all verbs allow for CD. Typically, epistemic and volitional predicates admit it, but factives do not, as in example (25).</p>
+<p>(43)<object id="tu41" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu41_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row>
+<entry>Si</entry>
+<entry>rammarica</entry>
+<entry>*(che)</entry>
+<entry>sia</entry>
+<entry>partito.</entry>
+</row>
+<row>
+<entry>REFL</entry>
+<entry>regret.3SG</entry>
+<entry>that</entry>
+<entry>be.SUB.3SG</entry>
+<entry>leave.PPL</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col5">&lsquo;S/he regrets that he has left.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Some adjectives and nouns taking sentential complements can also display CD to a certain degree:</p>
+<p>(44)<object id="tu42" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu42_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row>
+<entry>Sono</entry>
+<entry>certo</entry>
+<entry>tu</entry>
+<entry>lo</entry>
+<entry>possa</entry>
+<entry>fare.</entry>
+</row>
+<row>
+<entry>be</entry>
+<entry>sure</entry>
+<entry>you</entry>
+<entry>it</entry>
+<entry>can.SUB.2SG</entry>
+<entry>to-do</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col6">&lsquo;I&apos;m sure you can do it.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(iv) It should be differentiated from Aux-to-Comp movement (Rizzi 1982), as a lexical subject cannot intervene between the raised finite form and the participle:</p>
+<p>(45)<object id="tu43" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu43_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row>
+<entry>*Credeva</entry>
+<entry>fosse</entry>
+<entry>Gianni</entry>
+<entry>arrivato.</entry>
+</row>
+<row>
+<entry>believe.IMPF.3SG</entry>
+<entry>be.SUB.3SG</entry>
+<entry>John</entry>
+<entry>arrive.PPL</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col4">&lsquo;S/he thought John had arrived.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This phenomenon, originally noted in Rizzi (1982), has received different kinds of analysis. <link rid="b47">Scorretti (1991</link>) interpreted CD as the optional absence of the CP projection in the complement clause of certain predicates, much as in the non-finite complements of raising verbs. Apart from the problem deriving from the optional selection of CP/IP by the same matrix element, this analysis fails to explain CD and the embedded V2 phenomenon in Germanic languages under the same light. By contrast, <link rid="b48">Poletto (2001</link>) capitalizes on the observation that the set of Italian verbs allowing CD basically coincides with the class of bridge verbs permitting embedded V2 in German and Mainland Scandinavian and develops an account based on V-to-C movement for CD. The Italian CD phenomenon derives, according to her, from the presence of a &lsqb;&minus;realis&rsqb; feature in a low C position that attracts the V if the lexical complementizer is absent. Such a feature can only be checked by an overt complementizer or by the relevant verbal morphology (i.e., subjunctive, plus future/conditional in the corresponding varieties). The relevant set of predicates would select such a feature in the embedded C domain. Additional evidence for her position is constructed on the basis of adverb placement vis-&agrave;-vis CD in <link rid="b49">Cinque&apos;s (1999</link>) framework, as well as subject placement in CD cases.</p>
+<p>
+<link rid="b50">Giorgi and Pianesi (1997</link>) reject the V-to-C analysis for CD on different grounds. The fact that most Italian verbs that allow CD coincide with bridge verbs that display embedded V2 in Germanic does not constitute a strong argument for adopting the essentials of the analysis for embedded V2. There are even some CD verbs in Italian that correspond to non-bridge verbs in Germanic. Moreover, under a V-to-C analysis the ungrammaticality of a subject between the fronted verb and the past participle as in (45) is unexpected, because &lsqb;Spec, AgrSP&rsqb; should in principle be available. However, a consistent group of speakers reject a preverbal subject in CD cases, which does not follow from an alternative analysis where the subjunctive verb stays in AgrS:</p>
+<p>
+<object id="tu44" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu44_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row>
+<entry>&percnt;Credeva</entry>
+<entry>Gianni</entry>
+<entry>fosse</entry>
+<entry>arrivato.</entry>
+<entry>Italian</entry>
+</row>
+<row>
+<entry>believe.IMPF.3SG</entry>
+<entry>John</entry>
+<entry>be.SUB.3SG</entry>
+<entry>arrive.PPL</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col5">&lsquo;S/he thought John had arrived.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Giorgi and Pianesi follow a different path and argue that CD is the consequence of selecting a lexicalized syncretic category Mood/Agr in the complement clause. Agr stands for the phi-features and nominative Case, and Mood for the feature corresponding to the subjunctive complementizer, which is different from the one introducing indicative clauses. The split between speakers concerning the grammaticality of CD cases with preverbal subjects like (46) can be reduced to the properties attributed by both groups to &lsqb;Spec, Mood/Agr&rsqb;: an A-position for those accepting the preverbal subject, and an A&prime;-position for those rejecting it. Under this analysis, no subject position is available between the raised verb and the participle, which explains the ungrammaticality of cases like (45). Movement of the verb to the Mood/Agr head is overt because the Agr features are strong. Alternatively, the relevant features can also be scattered in two separate projections MoodP and AgrP; in such a situation the verb raises only to Agr overtly and the complementizer is lexically realized; the verb will only move covertly to check the &lsqb;&plus;mood&rsqb; feature. They derive the impossibility of CD with factive or interrogative predicates from the assumption that a feature like &lsqb;&plus;fact&rsqb; or &lsqb;&plus;Wh&rsqb; cannot be lexicalized by a subjunctive verb, and the scattered projection is forced, whereby the complementizer lexicalizes as <i>che</i> and <i>se</i> respectively.</p>
+</subsection>
+</subsection>
+<subsection id="ss17" level="1">
+<heading id="h14" level="1">5 Conclusion</heading>
+<p>From this brief survey of the different syntactic phenomena arising in subjunctive clauses it becomes clear that they do not constitute a uniform class; not only cross-linguistically but also within languages. Most studies have concentrated on subjunctive argument clauses, where lexical and semantic factors play an important role. Some of the theoretical proposals discussed here would have to be adapted or simply changed in order to be able to account for other subordination domains in the subjunctive, such as relative clauses and adjunct clauses. In any event, the study of the syntax of subjunctives has led to formulating interesting questions about the interface of syntax with the lexicon and semantics.</p>
+</subsection>
+<subsection id="ss18" level="1">
+<heading id="h15" level="1">NOTES</heading>
+<p>
+<span id="fn1">
+<number>1&emsp;</number>Example (c) is from Palmer (2001: 218).</span>
+</p>
+<p>
+<span id="fn2">
+<number>2&emsp;</number>On the interpretation of subjunctive clauses, see <link rid="b51">Farkas (1992b</link>), Giorgi and Pianesi (1998), and <link rid="b52">Quer (1998</link>).</span>
+</p>
+<p>
+<span id="fn3">
+<number>3&emsp;</number>Notice, though, that this is not always the case, as a DP subject can require a disjoint subject in the CP complement to the N, as in (i):</span>
+</p>
+<p>(i)<object id="tu45" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu45_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row>
+<entry>*el</entry>
+<entry>seu<sub>i</sub>
+</entry>
+<entry>desig</entry>
+<entry>que</entry>
+<entry>viatgi<sub>i</sub>
+</entry>
+<entry>Catalan</entry>
+</row>
+<row>
+<entry>the</entry>
+<entry>his/her</entry>
+<entry>desire</entry>
+<entry>that</entry>
+<entry>travel.SUB.PRS.3G</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col5">&lsquo;his/her desire to travel&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<span id="fn4">
+<number>4&emsp;</number>There is a consistent exception to this pattern: ergative predicates taking a clausal subject in the subjunctive also display subject-obviation effects with respect to the oblique argument in the matrix clause, as in (i):</span>
+</p>
+<p>(i)<object id="tu46" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu46_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row>
+<entry>Li<sub>i</sub>
+</entry>
+<entry>agrada</entry>
+<entry>que</entry>
+<entry>*viatgi<sub>i</sub>
+</entry>
+<entry>/viatgin<sub>k</sub>.</entry>
+<entry>Catalan</entry>
+</row>
+<row>
+<entry>to-him</entry>
+<entry>please.3SG</entry>
+<entry>that</entry>
+<entry>travel.SUB.3SG</entry>
+<entry>travel.SUB.3PL</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col6">&lsquo;He likes to travel/for them to travel.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b71">Picallo (1985</link>) explains this unexpected pattern by assuming that such predicates do not assign structural case to their subject, therefore they are not forced to extrapose by the Case Resistance Principle.</p>
+<p>
+<span id="fn5">
+<number>5&emsp;</number>Example taken from <link rid="b5">Ruwet (1991</link>).</span>
+</p>
+<p>
+<span id="fn6">
+<number>6&emsp;</number>For Icelandic, see, for instance, <link rid="b53">Thr&aacute;insson (1976</link>, 1990), Maling (1984), and <link rid="b54">Sigur&eth;sson (1990</link>); for Italian, see Napoli (1979) and Giorgi (1984); for French, <link rid="b55">Pica (1985</link>).</span>
+</p>
+<p>
+<span id="fn7">
+<number>7&emsp;</number>Icelandic examples from Reuland and Sigurj&oacute;nsd&oacute;ttir (1997).</span>
+</p>
+<p>
+<span id="fn8">
+<number>8&emsp;</number>This example is markedly grammatical under the irrelevant double negation reading &lsquo;I do not require that no-one arrests you&rsquo;.</span>
+</p>
+<p>
+<span id="fn9">
+<number>9&emsp;</number>Example taken from <link rid="b56">Rivero (1989</link>).</span>
+</p>
+<p>
+<span id="fn10">
+<number>10&emsp;</number>Example taken from <link rid="b57">Alexiadou and Anagnostopoulou (1999</link>).</span>
+</p>
+<p>
+<span id="fn11">
+<number>11&emsp;</number>
+<link rid="b57">Alexiadou and Anagnostopoulou (1999</link>) propose that the agreement in the embedded subjunctive is not the reflex of Case checking but rather EPP checking.</span>
+</p>
+<p>
+<span id="fn12">
+<number>12&emsp;</number>Examples adapted from <link rid="b71">Picallo (1985</link>: 47&ndash;48).</span>
+</p>
+<p>
+<span id="fn13">
+<number>13&emsp;</number>For the idea that subjunctive clauses are tenseless or, rather, that tense in subjunctive clauses is anaphoric, see <link rid="b58">Luj&aacute;n (1980</link>), <link rid="b59">Anderson (1982</link>), Pica (1984), <link rid="b60">Everaert (1984</link>), <link rid="b61">Jakubowicz (1984</link>), and <link rid="b62">Johnson (1985</link>), among others.</span>
+</p>
+<p>
+<span id="fn14">
+<number>14&emsp;</number>Cases of independent subjunctive forms in non-assertive root contexts such as (i) will not be discussed here. They often involve some element in C (an overt complementizer, V-to-C movement, etc.) indicating directive force, which seems to suggest that a covert modal is binding the tense variable of the subjunctive verb.</span>
+</p>
+<p>(i)<object id="tu47" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu47_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row>
+<entry>Que</entry>
+<entry>marxi!</entry>
+<entry>Catalan</entry>
+</row>
+<row>
+<entry>that</entry>
+<entry>leave.SUB.PRS.3SG</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2">&lsquo;Let him/her leave!&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<span id="fn15">
+<number>15&emsp;</number>A further elaboration of this proposal is presented in <link rid="b63">Ambar (1992</link>) for Portuguese. She distinguishes morphological Tense, a feature of Infl, and semantic Tense, a feature of C. Unlike epistemic predicates, volitionals select a clause without semantic Tense, which would derive the characteristic properties of their complements.</span>
+</p>
+<p>
+<span id="fn16">
+<number>16&emsp;</number>See also <link rid="b64">Rivero (1971, 1977</link>), <link rid="b65">Salamanca (1981</link>), and <link rid="b66">Meireles and Raposo (1983</link>).</span>
+</p>
+<p>
+<span id="fn17">
+<number>17&emsp;</number>Example taken from <link rid="b13">Raposo (1985</link>: 103).</span>
+</p>
+<p>
+<span id="fn18">
+<number>18&emsp;</number>Examples from <link rid="b12">Roussou (2001</link>).</span>
+</p>
+<p>
+<span id="fn19">
+<number>19&emsp;</number>C-deletion has usually been described and analyzed for Italian. Spanish, for instance, displays essentially the same phenomenon, although the distribution does not always coincide with the Italian one. One such difference is that Spanish typically allows C-deletion with a factive matrix verb:</span>
+</p>
+<p>(i)<object id="tu48" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu48_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row>
+<entry>Lamento</entry>
+<entry>la</entry>
+<entry>hayan</entry>
+<entry>molestado.</entry>
+<entry>Spanish</entry>
+</row>
+<row>
+<entry>regret.1SG</entry>
+<entry>her</entry>
+<entry>have.SUB.3SG</entry>
+<entry>bother.PPL</entry>
+<entry>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col4">&lsquo;I&apos;m sorry they bothered her.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>For a discussion of the Spanish facts, see <link rid="b18">Su&ntilde;er (1990</link>).</p>
+<p>
+<span id="fn20">
+<number>20&emsp;</number>
+<link rid="b48">Poletto (2001</link>) also discusses C-deletion in adjunct disjunctive clauses, which correspond to <link rid="b67 b68">K&ouml;nig&apos;s (1986, 1988</link>) alternative concessive conditionals. For the corresponding facts in Catalan and Spanish, and the semantic interpretation of such structures, see <link rid="b52">Quer (1998</link>: <related relationship="sibling" type="samework"><externallink id="chapter 5 - Affectedness.xml" type="file">chapter 5</externallink></related>).</span>
+</p>
+<p>
+<span id="fn21">
+<number>21&emsp;</number>Example taken from <link rid="b48">Poletto (2001</link>: 268).</span>
+</p>
+<p>
+<span id="fn22">
+<number>22&emsp;</number>Examples from <link rid="b48">Poletto (2001</link>: 267).</span>
+</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss19" level="1" type="references">
+<heading id="h16" level="1">REFERENCES</heading>
+<reference id="b34" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Agouraki</surname><x>, </x><forenames>Georgia</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">A Modern Greek Complementizer and its Significance for Universal Grammar</title><x>. </x><title type="journal">UCL Working Papers in Linguistics</title><x> </x><volume>3</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">24</page><x>.</x>
+</reference>
+<reference id="b57" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Alexiadou</surname><x>, </x><forenames>Artemis</forenames>
+</name><x> and </x><name type="author">
+<forenames>Elena</forenames><x> </x><surname>Anagnostopoulou</surname>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">Raising without Infinitives and the Nature of Agreement</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Eighteenth West Coast Conference on Formal Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Sonya</forenames><x> </x><surname>Bird</surname>
+</name><x>, </x><name type="editor">
+<forenames>Andrew</forenames><x> </x><surname>Carnie</surname>
+</name><x>, </x><name type="editor">
+<forenames>Jason<x> </x>D</forenames><x>.&nbsp;</x><surname>Haugen</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Norquest</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">14</page><x>&ndash;</x><page type="last">26</page>
+<x>. </x><address>Somerville</address><x>: </x><publisher>Cascadilla Press</publisher><x>.</x>
+</reference>
+<reference id="b63" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ambar</surname><x>, </x><forenames>Manuela</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Temps et Structure de la Phrase en Portugais</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Structure de la Phrase et Th&eacute;orie du Liage</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Hans-Georg</forenames><x> </x><surname>Obenauer</surname>
+</name><x> and </x><name type="editor">
+<forenames>Anne</forenames><x> </x><surname>Zribi-Hertz</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Saint-Denis</address><x>: </x><publisher>Presses Universitaires de Vincennes</publisher><x>.</x>
+</reference>
+<reference id="b59" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Anderson</surname><x>, </x><forenames>Stephen</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">Types of Dependency in Anaphors: Icelandic (and Other) Reflexives</title><x>. </x><title type="journal">Journal of Linguistic Research</title><x> </x><volume>2</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">22</page><x>.</x>
+</reference>
+<reference id="b23" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Avrutin</surname><x>, </x><forenames>Sergey</forenames>
+</name><x> and </x><name type="author">
+<forenames>Maria</forenames><x> </x><surname>Babyonyshev</surname>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Obviation in Subjunctive Clauses and AGR: Evidence from Russian</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>15</volume><x>: </x><page type="first">229</page><x>&ndash;</x><page type="last">262</page><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Bouchard</surname><x>, </x><forenames>Denis</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="book">On the Content of Empty Categories</title>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b30" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Brugger</surname><x>, </x><forenames>Gerhard</forenames>
+</name><x> and </x><name type="author">
+<forenames>Mario</forenames><x> </x><surname>D&rsquo;Angelo</surname>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date>
+<miscellaneoustext>). Aspect and Tense at LF: The Italian Present Perfect. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>University of Venice</address><x>.</x>
+</reference>
+<reference id="b31" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Brugger</surname><x>, </x><forenames>Gerhard</forenames>
+</name><x> and </x><name type="author">
+<forenames>Mario</forenames><x> </x><surname>D&rsquo;Angelo</surname>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Movement at LF Triggered by Mood and Tense</title><x>. </x><title type="journal">Folia Linguistica</title><x> </x><volume>XXIX</volume><x>: </x><page type="first">195</page><x>&ndash;</x><page type="last">221</page><x>.</x>
+</reference>
+<reference id="b49" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Cinque</surname><x>, </x><forenames>Guglielmo</forenames>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="book">Adverbs and Functional Heads: A Cross-Linguistic Perspective</title>
+<x>. </x><address>New York</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Demonte</surname><x>, </x><forenames>Violeta</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date><x>). </x><title type="book">La Subordinaci&oacute;n Sustantiva</title>
+<x>. </x><address>Madrid</address><x>: </x><publisher>C&aacute;tedra</publisher><x>.</x>
+</reference>
+<reference id="b35" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Dobrovie-Sorin</surname><x>, </x><forenames>Carmen</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994b</date><x>). </x><title type="book">The Syntax of Romanian: Comparative Studies in Romance</title>
+<x>. </x><address>Berlin/New York</address><x>: </x><publisher>Mouton de Gruyter</publisher><x>.</x>
+</reference>
+<reference id="b3" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Dobrovie-Sorin</surname><x>, </x><forenames>Carmen</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">Head-to-Head Merge in Balkan Subjunctives and Locality</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Comparative Syntax of the Balkan Languages</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Mar&iacute;a<x> </x>Luisa</forenames><x> </x><surname>Rivero</surname>
+</name><x> and </x><name type="editor">
+<forenames>Angela</forenames><x> </x><surname>Ralli</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">44</page><x>&ndash;</x><page type="last">73</page>
+<x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference id="b60" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Everaert</surname><x>, </x><forenames>Martin</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">Icelandic Long Reflexivization and Tense-Connectedness</title><x>. </x><title type="journal">Working Papers in Scandinavian Syntax</title><x> </x><volume>12</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">35</page><x>.</x>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Farkas</surname><x>, </x><forenames>Donka</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992a</date><x>). </x><title type="document">On Obviation</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Lexical Matters</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ivan</forenames><x> </x><surname>Sag</surname>
+</name><x> and </x><name type="editor">
+<forenames>Anna</forenames><x> </x><surname>Szabolcsi</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">85</page><x>&ndash;</x><page type="last">109</page>
+<x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications</publisher><x>.</x>
+</reference>
+<reference id="b51" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Farkas</surname><x>, </x><forenames>Donka</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992b</date><x>). </x><title type="document">On the Semantics of Subjunctive Complements</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Romance Languages and Modern Linguistic Theory</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Paul</forenames><x> </x><surname>Hirschb&uuml;hler</surname>
+</name><x> and </x><name type="editor">
+<forenames>Konrad</forenames><x> </x><surname>Koerner</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">69</page><x>&ndash;</x><page type="last">104</page>
+<x>. </x><address>Amsterdam/Philadelphia</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b26" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Giannakidou</surname><x>, </x><forenames>Anastasia</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">The Semantic Licensing of NPIs and the Modern Greek Subjunctive</title><x>. </x><title type="other">Language and Cognition 4: Yearbook of the Research Group for Theoretical and Experimental Linguistics 4</title><x> </x><page type="first">55</page><x>&ndash;</x><page type="last">68</page><x>.</x>
+</reference>
+<reference id="b27" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Giannakidou</surname><x>, </x><forenames>Anastasia</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Subjunctive, Habituality and Negative Polarity Items</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of SALT V</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Mandy</forenames><x> </x><surname>Simons</surname>
+</name><x> and </x><name type="editor">
+<forenames>Teresa</forenames><x> </x><surname>Galloway</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">94</page><x>&ndash;</x><page type="last">111</page>
+<x>. </x><address>Ithaca</address><x>: </x><publisher>Cornell University Press</publisher><x>.</x>
+</reference>
+<reference id="b10" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Giannakidou</surname><x>, </x><forenames>Anastasia</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date>
+<miscellaneoustext>). The Landscape of Polarity Items. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Groningen University</address><x>.</x>
+</reference>
+<reference id="b9" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Giannakidou</surname><x>, </x><forenames>Anastasia</forenames>
+</name><x> and </x><name type="author">
+<forenames>Josep</forenames><x> </x><surname>Quer</surname>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">Long-Distance Licensing of Negative Indefinites</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Negation and Polarity</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Danielle</forenames><x> </x><surname>Forget</surname>
+</name><x>, </x><name type="editor">
+<forenames>Paul</forenames><x> </x><surname>Hirschb&uuml;hler</surname>
+</name><x>, </x><name type="editor">
+<forenames>France</forenames><x> </x><surname>Martineau</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>Mar&iacute;a<x> </x>Luisa</forenames><x> </x><surname>Rivero</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">95</page><x>&ndash;</x><page type="last">113</page>
+<x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b50" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Giorgi</surname><x>, </x><forenames>Alessandra</forenames>
+</name><x> and </x><name type="author">
+<forenames>Fabio</forenames><x> </x><surname>Pianesi</surname>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="book">Tense and Aspect: From Semantics to Morphosyntax</title>
+<x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference id="b42" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Iatridou</surname><x>, </x><forenames>Sabine</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">On Nominative Case Assignment and a Few Related Things</title><x>. </x><title type="journal">MIT Working Papers in Linguistics</title><x> </x><volume>19</volume><x>: </x><page type="first">175</page><x>&ndash;</x><page type="last">196</page><x>.</x>
+</reference>
+<reference id="b61" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Jakubowicz</surname><x>, </x><forenames>Celia</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">Do Binding Principles Apply to INFL?</title>
+<miscellaneoustext> In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society 14</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Charles</forenames><x> </x><surname>Jones</surname>
+</name><x> and </x><name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Sells</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">188</page><x>&ndash;</x><page type="last">206</page>
+<x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association</publisher><x>.</x>
+</reference>
+<reference id="b62" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Johnson</surname><x>, </x><forenames>Kyle</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">Some Notes on Subjunctive Clauses and Binding in Icelandic</title><x>. </x><title type="journal">MIT Working Papers in Linguistics</title><x> </x><volume>6</volume><x>: </x><page type="first">102</page><x>&ndash;</x><page type="last">137</page><x>.</x>
+</reference>
+<reference id="b28" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kampers-Manhe</surname><x>, </x><forenames>Brigitte</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="book">L&rsquo;Opposition Subjonctif/Indicatif dans les Relatives</title>
+<x>. </x><address>Amsterdam</address><x>: </x><publisher>Rodopi</publisher><x>.</x>
+</reference>
+<reference id="b6" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kampers-Manhe</surname><x>, </x><forenames>Brigitte</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">The French Subjunctive and the ECP</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Linguistics in the Netherlands</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Reineke</forenames><x> </x><surname>Bok-Bennema</surname>
+</name><x> and </x><name type="editor">
+<forenames>Roeland</forenames><x> </x><surnameprefix>van</surnameprefix><x> </x><surname>Hout</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">137</page><x>&ndash;</x><page type="last">148</page>
+<x>. </x><address>Amsterdam/Philadelphia</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b46" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kampers-Manhe</surname><x>, </x><forenames>Brigitte</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">Je Veux Que Parte Paul: A Neglected Construction</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Romance Linguistics: Theoretical Perspectives. Selected Papers from the 27th Linguistic Symposium on Romance Languages (LSRL XXVII), Irvine, February, 20&ndash;22, 1997</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Armin</forenames><x> </x><surname>Schwegler</surname>
+</name><x>, </x><name type="editor">
+<forenames>Bernard</forenames><x> </x><surname>Tranel</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Myriam</forenames><x> </x><surname>Uribe-Etxebarria</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">129</page><x>&ndash;</x><page type="last">141</page><x>. </x><address>Amsterdam/Philadelphia</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b20" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Kempchinsky</surname><x>, </x><forenames>Paula</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date>
+<miscellaneoustext>). Romance Subjunctive Clauses and Logical Form. PhD dissertation</miscellaneoustext><x>, </x>
+<address>UCLA</address><x>.</x>
+</reference>
+<reference id="b21" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kempchinsky</surname><x>, </x><forenames>Paula</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">The Subjunctive Disjoint Reference Effect</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Studies in Romance Languages</title><x>.</x><namegroup type="editors">
+<name type="editor">
+<x> </x><forenames>Carol</forenames><x> </x><surname>Neidle</surname>
+</name><x> and </x><name type="editor">
+<forenames>Rafael</forenames><x> </x><surname>N&uacute;&ntilde;ez-Cede&ntilde;o</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">123</page><x>&ndash;</x><page type="last">140</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b22" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kempchinsky</surname><x>, </x><forenames>Paula</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">M&aacute;s Sobre el Efecto de Referencia Disjunta del Subjuntivo</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Indicativo y Subjuntivo</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ignacio</forenames><x> </x><surname>Bosque</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">234</page><x>&ndash;</x><page type="last">258</page>
+<x>. </x><address>Madrid</address><x>: </x><publisher>Taurus</publisher><x>.</x>
+</reference>
+<reference id="b41" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Kempchinsky</surname><x>, </x><forenames>Paula</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">Mood Phrase, Case Checking and Obviation</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Romance Linguistics: Theoretical Perspectives. Selected Papers from the 27th Linguistic Symposium on Romance Languages (LSRL XXVII), Irvine, February, 20&ndash;22 1997</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Armin</forenames><x> </x><surname>Schwegler</surname>
+</name><x>, </x><name type="editor">
+<forenames>Bernard</forenames><x> </x><surname>Tranel</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Myriam</forenames><x> </x><surname>Uribe-Etxebarria</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">143</page><x>&ndash;</x><page type="last">154</page>
+<x>. </x><address>Amsterdam/Philadelphia</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b67" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>K&ouml;nig</surname><x>, </x><forenames>Ekkehard</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="document">Conditional, Concessive Conditionals and Concessives: Areas of Contrast, Overlap and Neutralization</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">On Conditionals</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Elizabeth<x> </x>Closs</forenames><x> </x><surname>Traugott</surname>
+</name><x>, </x><name type="editor">
+<forenames>Alice<x> </x>ter</forenames><x> </x><surname>Meulen</surname>
+</name><x>, </x><name type="editor">
+<forenames>Judy</forenames><x> </x><surname>Reilly</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Charles</forenames><x> </x><surname>Ferguson</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">229</page><x>&ndash;</x><page type="last">246</page>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference id="b68" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>K&ouml;nig</surname><x>, </x><forenames>Ekkehard</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date><x>). </x><title type="document">Concessive Connectives and Concessive Sentences: Cross-Linguistic Regularities and Pragmatic Principles</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Explaining Language Universals</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>John</forenames><x> </x><surname>Hawkins</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">145</page><x>&ndash;</x><page type="last">166</page>
+<x>. </x><address>Oxford</address><x>: </x><publisher>Blackwell</publisher><x>.</x>
+</reference>
+<reference id="b44" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Krapova</surname><x>, </x><forenames>Iliyana</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">Subjunctives in Bulgarian and Modern Greek</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Comparative Syntax of the Balkan Languages</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Mar&iacute;a<x> </x>Luisa</forenames><x> </x><surname>Rivero</surname>
+</name><x> and </x><name type="editor">
+<forenames>Angela</forenames><x> </x><surname>Ralli</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">105</page><x>&ndash;</x><page type="last">126</page>
+<x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference id="b32" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Laka</surname><x>, </x><forenames>Itziar</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date>
+<miscellaneoustext>). Negation in Syntax. PhD dissertation</miscellaneoustext><x>, </x>
+<address>MIT</address><x>.</x>
+</reference>
+<reference id="b58" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Luj&aacute;n</surname><x>, </x><forenames>Marta</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="document">Clitic Promotion and Mood in Spanish Verbal Complements</title><x>. </x><title type="journal">Linguistics</title><x> </x><volume>18</volume><x>: </x><page type="first">381</page><x>&ndash;</x><page type="last">484</page><x>.</x>
+</reference>
+<reference id="b66" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Meireles</surname><x>, </x><forenames>Jose<x> </x>A<x>.</x>
+</forenames>
+</name><x> and </x><name type="author">
+<forenames>Eduardo</forenames><x> </x><surname>Raposo</surname>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date>
+<miscellaneoustext>). Subjunctives and Disjoint Reference in Portuguese: Some Implications for the Binding Theory. Paper presented at the Colloqui Internacional de Ling&uuml;&iacute;stica Te&ograve;rica i Lleng&uuml;es Rom&agrave;niques, Sitges</miscellaneoustext><x>.</x>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Padilla-Rivera</surname><x>, </x><forenames>Jos&eacute;</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="book">On the Definition of Binding Domains in Spanish: Evidence from Child Language</title>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b11" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Philippaki-Warburton</surname><x>, </x><forenames>Irene</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">The Theory of Empty Categories and the Pro-drop Parameter in Modern Greek</title><x>. </x><title type="journal">Journal of Linguistics</title><x> </x><volume>23</volume><x>: </x><page type="first">289</page><x>&ndash;</x><page type="last">318</page><x>.</x>
+</reference>
+<reference id="b40" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Philippaki-Warburton</surname><x>, </x><forenames>Irene</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">The Analysis of the Verb Group in Modern Greek &lsqb;in Greek&rsqb;</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Studies in Greek Linguistics: Proceedings of the 11th Annual Meeting of the Department of Linguistics, University of Thessaloniki</title><x>. </x><page type="first">119</page><x>&ndash;</x><page type="last">138</page>
+<x>. </x><address>Thessaloniki</address><x>: </x><publisher>Kyriakides</publisher><x>.</x>
+</reference>
+<reference id="b45" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Philippaki-Warburton</surname><x>, </x><forenames>Irene</forenames>
+</name><x> and </x><name type="author">
+<forenames>Georgia</forenames><x> </x><surname>Catsimali</surname>
+</name>
+</namegroup><x> (</x><date date="1999">1999</date><x>). </x><title type="document">On Control in Greek</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Studies in Greek Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Artemis</forenames><x> </x><surname>Alexiadou</surname>
+</name><x>, </x><name type="editor">
+<forenames>Geoffrey</forenames><x> </x><surname>Horrocks</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Melita</forenames><x> </x><surname>Stavrou</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">153</page><x>&ndash;</x><page type="last">168</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Kluwer</publisher><x>.</x>
+</reference>
+<reference id="b55" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Pica</surname><x>, </x><forenames>Pierre</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">Subject, Tense and Truth: Towards a Modular Approach to Binding</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Grammatical Representation</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jaqueline</forenames><x> </x><surname>Gu&eacute;ron</surname>
+</name><x>, </x><name type="editor">
+<forenames>Hans-Georg</forenames><x> </x><surname>Obenauer</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Jean-Yves</forenames><x> </x><surname>Pollock</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">259</page><x>&ndash;</x><page type="last">291</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris</publisher><x>.</x>
+</reference>
+<reference id="b1" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Picallo</surname><x>, </x><forenames>Carme</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">The Infl Node and the Null Subject Parameter</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>15</volume><x>: </x><page type="first">75</page><x>&ndash;</x><page type="last">101</page><x>.</x>
+</reference>
+<reference id="b71" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Picallo</surname><x>, </x><forenames>Carme</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date>
+<miscellaneoustext>). Opaque Domains. PhD dissertation</miscellaneoustext><x>, </x>
+<address>CUNY</address><x>.</x>
+</reference>
+<reference id="b48" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Poletto</surname><x>, </x><forenames>Cecilia</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">Complementizer Deletion and Verb Movement in Standard Italian</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Current Studies in Italian Syntax: Essays Offered to Lorenzo Renzi</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Guglielmo</forenames><x> </x><surname>Cinque</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>. </x><address>Amsterdam</address><x>: </x><publisher>Elsevier</publisher><x>.</x>
+</reference>
+<reference id="b7" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Progovac</surname><x>, </x><forenames>Ljiljana</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">The (Mis)behavior of Anaphora and Negative Polarity</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>10</volume><x>: </x><page type="first">37</page><x>&ndash;</x><page type="last">59</page><x>.</x>
+</reference>
+<reference id="b8" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Progovac</surname><x>, </x><forenames>Ljiljana</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="book">Positive and Negative Polarity: A Binding Approach</title>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press</publisher><x>.</x>
+</reference>
+<reference id="b52" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Quer</surname><x>, </x><forenames>Josep</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="book">Mood at the Interface</title>
+<x>. </x><address>The Hague</address><x>: </x><publisher>Holland Academic Graphics</publisher><x>.</x>
+</reference>
+<reference id="b13" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Raposo</surname><x>, </x><forenames>Eduardo</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">Some Asymmetries in the Binding Theory in Romance</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>5</volume><x>: </x><page type="first">75</page><x>&ndash;</x><page type="last">110</page><x>.</x>
+</reference>
+<reference id="b64" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rivero</surname><x>, </x><forenames>Mar&iacute;a<x> </x>Luisa</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date><x>). </x><title type="book">Estudios de Gram&aacute;tica Generativa del Espa&ntilde;ol</title>
+<x>. </x><address>Madrid</address><x>: </x><publisher>C&aacute;tedra</publisher><x>.</x>
+</reference>
+<reference id="b56" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rivero</surname><x>, </x><forenames>Mar&iacute;a<x> </x>Luisa</forenames>
+</name>
+</namegroup><x> (</x><date date="1989">1989</date><x>). </x><title type="document">Barriers and Rumanian</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Studies in Romance Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Carl</forenames><x> </x><surname>Kirschner</surname>
+</name><x> and </x><name type="editor">
+<forenames>Janet</forenames><x> </x><surname>Decesaris</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">289</page><x>&ndash;</x><page type="last">312</page>
+<x>. </x><address>Amsterdam/Philadelphia</address><x>: </x><publisher>John Benjamins</publisher><x>.</x>
+</reference>
+<reference id="b33" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Rivero</surname><x>, </x><forenames>Mar&iacute;a<x> </x>Luisa</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">Clause Structure and V-Movement in the Languages of the Balkans</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>12</volume><x>: </x><page type="first">63</page><x>&ndash;</x><page type="last">120</page><x>.</x>
+</reference>
+<reference id="b12" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Roussou</surname><x>, </x><forenames>Anna</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">Control and Raising In and Out of Subjunctive Complements</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Comparative Syntax of the Balkan Languages</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Mar&iacute;a<x> </x>Luisa</forenames><x> </x><surname>Rivero</surname>
+</name><x> and </x><name type="editor">
+<forenames>Angela</forenames><x> </x><surname>Ralli</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">74</page><x>&ndash;</x><page type="last">104</page>
+<x>. </x><address>Oxford</address><x>: </x><publisher>Oxford University Press</publisher><x>.</x>
+</reference>
+<reference id="b4" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Ruwet</surname><x>, </x><forenames>Nicolas</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984</date><x>). </x><title type="document">Je Veux Partir/*Je Veux Que Je Parte</title><x>. </x><title type="journal">Cahiers de Grammaire</title><x> </x><volume>7</volume><x>: </x><page type="first">75</page><x>&ndash;</x><page type="last">138</page><x>.</x>
+</reference>
+<reference id="b5" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ruwet</surname><x>, </x><forenames>Nicolas</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="book">Syntax and Human Experience</title>
+<x>. </x><address>Chicago/London</address><x>: </x><publisher>University of Chicago Press</publisher><x>.</x>
+</reference>
+<reference id="b65" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Salamanca</surname><x>, </x><forenames>Danilo</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date>
+<miscellaneoustext>). Subjunctive Syntax. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>MIT</address><x>.</x>
+</reference>
+<reference id="b47" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Scorretti</surname><x>, </x><forenames>Mauro</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date>
+<miscellaneoustext>). Complementizers in Italian and Romance. PhD dissertation</miscellaneoustext><x>, </x>
+<address>University of Amsterdam</address><x>.</x>
+</reference>
+<reference id="b54" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Sigur&eth;sson</surname><x>, </x><forenames>Halld&oacute;r<x> </x>&Aacute;rmann</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Long Distance Reflexives and Moods in Icelandic</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Modern Icelandic Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Joan</forenames><x> </x><surname>Maling</surname>
+</name><x> and </x><name type="editor">
+<forenames>Annie</forenames><x> </x><surname>Zaenen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">309</page><x>&ndash;</x><page type="last">346</page>
+<x>. </x><address>New York</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b29" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Stowell</surname><x>, </x><forenames>Tim</forenames>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date>
+<miscellaneoustext>). Syntax of Tense. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Los Angeles, UCLA</address><x>.</x>
+</reference>
+<reference id="b18" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Su&ntilde;er</surname><x>, </x><forenames>Avellina</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Caracter&iacute;sticas Sint&aacute;cticas y Sem&aacute;nticas de los Verbos Afines a Lamentar</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Verba: Anexo 32</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Gerd</forenames><x> </x><surname>Wotjak</surname>
+</name><x> and </x><name type="editor">
+<forenames>Alexandre</forenames><x> </x><surname>Veiga</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Santiago de Compostela</address><x>: </x><publisher>Universidad de Santiago de Compostela</publisher><x>.</x>
+</reference>
+<reference type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Su&ntilde;er</surname><x>, </x><forenames>Margarita</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">El Tiempo en las Subordinadas</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Tiempo y Aspecto en Espa&ntilde;ol</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ignacio</forenames><x> </x><surname>Bosque</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">77</page><x>&ndash;</x><page type="last">105</page>
+<x>. </x><address>Madrid</address><x>: </x><publisher>C&aacute;tedra</publisher><x>.</x>
+</reference>
+<reference id="b14" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Su&ntilde;er</surname><x>, </x><forenames>Margarita</forenames>
+</name><x> and </x><name type="author">
+<forenames>Jos&eacute;</forenames><x> </x><surname>Padilla-Rivera</surname>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">On Obviation and Subjunctive Clauses</title><x>. </x><title type="journal">Cornell University Working Papers in Linguistics</title><x> </x><volume>7</volume><x>: </x><page type="first">196</page><x>&ndash;</x><page type="last">207</page><x>.</x>
+</reference>
+<reference id="b15" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Su&ntilde;er</surname><x>, </x><forenames>Margarita</forenames>
+</name><x> and </x><name type="author">
+<forenames>Jos&eacute;</forenames><x> </x><surname>Padilla-Rivera</surname>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="document">Sequence of Tenses and the Subjunctive, Again</title><x>. </x><title type="journal">Hispania</title><x> </x><volume>70</volume><x>: </x><page type="first">634</page><x>&ndash;</x><page type="last">642</page><x>.</x>
+</reference>
+<reference id="b16" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Su&ntilde;er</surname><x>, </x><forenames>Margarita</forenames>
+</name><x> and </x><name type="author">
+<forenames>Jos&eacute;</forenames><x> </x><surname>Padilla-Rivera</surname>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">Concordancia Temporal y Subjuntivo</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Indicativo y Subjuntivo</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ignacio</forenames><x> </x><surname>Bosque</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">185</page><x>&ndash;</x><page type="last">201</page>
+<x>. </x><address>Madrid</address><x>: </x><publisher>Taurus</publisher><x>.</x>
+</reference>
+<reference id="b36" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Svenonius</surname><x>, </x><forenames>Peter</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">C-Selection as Feature Checking</title><x>. </x><title type="journal">Studia Linguistica</title><x> </x><volume>48</volume><x>: </x><page type="first">133</page><x>&ndash;</x><page type="last">155</page><x>.</x>
+</reference>
+<reference type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Szendr&#x0151;i</surname><x>, </x><forenames>Kriszta</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">A Syntactic Account of the Subjunctive in Hungarian</title><x>. </x><title type="journal">ELTE SOAS Undergraduate Papers in Linguistics <roman>(1997)</roman>
+</title><x>: </x><page type="first">249</page><x>&ndash;</x><page type="last">262</page><x>.</x>
+</reference>
+<reference id="b37" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Terzi</surname><x>, </x><forenames>Arhonto</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="document">PRO and Obviation in Modern Greek</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Tenth West Coast Conference on Formal Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Dawn</forenames><x> </x><surname>Bates</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">471</page><x>&ndash;</x><page type="last">82</page>
+<x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications</publisher><x>.</x>
+</reference>
+<reference id="b38" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Terzi</surname><x>, </x><forenames>Arhonto</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date>
+<miscellaneoustext>). PRO in Finite Clauses: A Study of the Inflectional Heads of the Balkan Languages. PhD dissertation</miscellaneoustext><x>, </x>
+<address>CUNY</address><x>.</x>
+</reference>
+<reference id="b39" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Terzi</surname><x>, </x><forenames>Arhonto</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">PRO and Null Case in Finite Clauses</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>14</volume><x>: </x><page type="first">335</page><x>&ndash;</x><page type="last">360</page><x>.</x>
+</reference>
+<reference id="b53" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Thr&aacute;insson</surname><x>, </x><forenames>H&ouml;skuldur</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date><x>). </x><title type="document">A Semantic Reflexive in Icelandic</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Modern Icelandic Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Joan</forenames><x> </x><surname>Maling</surname>
+</name><x> and </x><name type="editor">
+<forenames>Annie</forenames><x> </x><surname>Zaenen</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">289</page><x>&ndash;</x><page type="last">307</page>
+<x>. </x><address>New York</address><x>: </x><publisher>Academic Press</publisher><x>.</x>
+</reference>
+<reference id="b24" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Tsoulas</surname><x>, </x><forenames>George</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">Subjunctives as Indefinites</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Teoria del Linguaggio e Analisi Linguistica: XX Incontro di Grammatica Generativa</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Gian<x> </x>Luigi</forenames><x> </x><surname>Borgato</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">387</page><x>&ndash;</x><page type="last">407</page>
+<x>. </x><address>Padua</address><x>: </x><publisher>Unipress</publisher><x>.</x>
+</reference>
+<reference id="b25" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Tsoulas</surname><x>, </x><forenames>George</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">Indefinite Clauses: Some Notes on the Syntax and Semantics of Subjunctives and Infinitives</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the Thirteenth West Coast Conference on Formal Linguistics</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Raul</forenames><x> </x><surname>Aranovich</surname>
+</name><x>, </x><name type="editor">
+<forenames>Willam</forenames><x> </x><surname>Byrne</surname>
+</name><x>, </x><name type="editor">
+<forenames>Susanne</forenames><x> </x><surname>Preuss</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Martha</forenames><x> </x><surname>Senturia</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">515</page><x>&ndash;</x><page type="last">530</page>
+<x>. </x><address>Stanford</address><x>: </x><publisher>CSLI Publications</publisher><x>.</x>
+</reference>
+<reference id="b43" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Varlokosta</surname><x>, </x><forenames>Spyridoula</forenames>
+</name><x> and </x><name type="author">
+<forenames>Norbert</forenames><x> </x><surname>Hornstein</surname>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Control in Modern Greek</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society 23</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Amy<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Schafe</surname>
+</name>
+<miscellaneoustext>r (ed.)</miscellaneoustext>
+</namegroup><x>, </x><page type="first">507</page><x>&ndash;</x><page type="last">521</page>
+<x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association</publisher><x>.</x>
+</reference>
+<reference id="b19" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Zaring</surname><x>, </x><forenames>Laurie</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date>
+<miscellaneoustext>). The Syntactic Role of Verbal Inflection in French and Brazilian Portuguese. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cornell University</address><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

@@ -1,0 +1,276 @@
+Artemis Alexiadou (2001), Functional Structure in Nominals.
+John Benjamins, Hardback, ISBN 1 58811 055 9, $82.00 (Hardback),
+			  ISBN 90 272 2763 2, NLG180.00 (Hardback)
+			
+Book Announcement on Linguist:
+http://linguistlist.org/issues/12/12-2325.html
+	
+	
+David Golumbia, New York, NY
+	
+OVERVIEW
+	
+Alexiadou provides a dense and powerful argument about a central issue
+throughout the history of generative grammar, the role played by
+nominalized verbs (for example, "destruction" in "the destruction of
+the city"), most famously as the subject of Chomsky (1970). The
+distribution of such phenomena seem to reveal a great deal about the
+structure of nominal phrases (NPs) and more generally determiner
+phrases (DPs), especially in languages like English that display
+several nominalization patterns. Alexiadou's study is emphatically
+cross-linguistic, using Modern Greek as its empirical base and
+providing examples from a range of sample languages including English,
+French, Spanish, Italian, German, Russian, Hungarian, Hebrew and
+Arabic, with briefer glances at several other modern and indigenous
+languages. This especially multivariate empirical base provides strong
+support for the book's argument, which is carefully integrated into
+recent generative theory.
+	
+Alexiadou argues that the distribution of nominals reflects abstract
+functional projections, especially DPs/NPs. This abstract level of
+representation determines the structure of apparent phrases, and not
+vice versa. Following Halle and Marantz (1993), Alexiadou suggests
+that the "syntactic categories N, V and A are actually morphological
+categories created by the syntax, i.e. post-syntactically realized"
+(211). Chapters 1 and 2 provide an overview of this argument; Chapters
+3 and 4 provide a deep and impressive survey across languages to
+support the argument; Chapter 5 extends this survey to argue that the
+reliance on abstract functional projections reveals "certain
+similarities between nominals in nominative-accusative languages and
+certain patterns found in ergative languages" (167), ergativity taken
+here in the spirit of the best-known study of the pattern, Dixon
+(1994).
+	
+CHAPTERS
+
+1. Introduction (1-26)
+
+The Introduction provides a brief summary of the argument to come. The
+goal is to understand "certain aspects of the internal structure of
+DPs" (1) beyond simply the nominalizations indicated in the title, and
+in common with other recent transformationalist studies. Alexiadou
+surveys the types of nominals in English, breaking them down into
+three categories:
+	
+ (1) Gerunds (e.g., "John's criticizing the book")
+ (2) Derived Nominals (e.g., "The barbarian's destruction of the city")
+ (3) Mixed Nominalizations (e.g., "Belushi's mixing of drugs led to his
+     demise")
+	
+	
+Situating her work within a Distributed Morphology (DM) framework,
+following Halle and Marantz (1993) and Marantz (1999), she argues that
+these nominalization patterns can best be understood via "an approach
+to word formation according to which lexical elements, unspecified for
+syntactic category are introduced into variable syntactic
+environments" (7); "on such an approach, functional heads fully
+determine the category of a lexical head." This allows a satisfyingly
+abstract approach, in that similar mechanisms are thought to determine
+the pieces of linguistic phenomena regardless of the functional level
+at which they appear.
+	
+Alexiadou follows Grimshaw (1990) among others in analyzing the event
+structure of nominalizations to distinguish between process and result
+nominalizations. She surveys eleven diagnostics for distinguishing
+between the types, of which the first three are: "process nominals
+denote an event; result nominals denote the output of an event";
+"process nouns take internal arguments obligatorily, while result
+nominals never do" and "process nominals can take agent-oriented
+modifiers, while this is not possible with result nouns" (9-10).
+	
+Alexiadou contrasts her account with those of Grimshaw and Chomsky
+(1970), but in concert with more recent generative approaches. She
+argues that "there is a VP node within event/process] nominals" (14)
+which is not true of result nominals. She then presents her model for
+"the fine structure of process nominals" (16) via a functional
+projection tree structure (19) with around seven nodes. The DP head of
+this projection is said to be common to both verbs and process
+nominals, thus collapsing the apparent noun/verb distinction for
+certain kinds of surface forms; "the difference between result and
+process nouns relates to the presence vs. absence of certain
+verbal-like functional projections, much like the VP analysis of
+process nominals. However, it differs from this approach in that it
+allows for result nominals to take complements as well, since both
+types are derived from unspecified roots that can take internal
+arguments" (20). While this discussion forms the main part of the
+book, as Alexiadou notes, it leads fairly naturally toward discussions
+of ergativity that advance nominalization as a possible source.
+	
+2. The Functional Architecture of Nominalizations (27-76)
+	
+The first part of the main discussion returns to the structure of
+event nominals, specifically examining the nodes of the tree presented
+at the end of the introduction. In particular she surveys various
+language data to emphasize the presence of an Aspect Phase (AspP) and
+a light v/Voice Phase (vP). Recent work on the status of NP vs DP as
+the dominating element of the overt NP. Elements thought to be
+captured by this approach include the presence of agreement, number
+and gender. The status of Spec,DP as A vs A' is explored, and
+Alexiadou's polyglot approach is especially welcome here, since it has
+been argued that "a crucial difference between English and Greek is
+that in English Spec,DP corresponds to Spec,IP, thus being an
+A-position, while in Greek it corresponds to Spec,CP, thus being an
+A'-position" (30). Exploring the Greek DP, she demonstrates that
+"Greek shows a preliminary distinction between event vs. result
+nominals identified by the criteria of manner and aspectual
+modification" (46). She goes on to explore the properties of AspP and
+vP in process nominals, again pressing on the process vs. result
+distinction. "The difference between result and process nominals is
+not one of argument structure, since both nominal types can have
+complements ... but rather it relates to the presence vs. absence of
+functional layers that bring about process/event readings" (58).
+	
+While vP and AP layers are found in process nominalizations, there is
+an absence of phenomena related to Tense (as well as other
+inflectional categories such as Mood). More generally, "both sentences
+and NPs denote events, but the manner with which they denote is quite
+different [as] distinguished by their types. A proposition is seen as
+the result of applying tense to an event description. To this end,
+tense acts as a generalized quantifier over event descriptions. D
+takes this function in the nominal context" (62). This allows
+Alexiadou to account for the existence of languages (like some in the
+Salish group) with weak or no noun/verb distinctions, by "predicting
+that languages that lack Tense as a separate category should
+neutralize the distinction between nouns and verbs" (62). She reviews
+and rejects some arguments about the presence vs. absence of Tense in
+DPs and an objection to the question of licensing in arguments, and
+then reviews a manuscript proposal from Embick (1998) according to
+which "the presence of agreement is not statable as a property of the
+roots, but as a property of roots in syntactic environments" (68).
+	
+3. Intransitivity in Nominalization (77-126)
+	
+Chapters 3 and 4 present a detailed, step-by-step account of the
+architecture of process nominals. Chapter 3 focuses on the vP found in
+process nominals. She situates the argument by claiming that "event
+nominals are ergative constructions" (78), providing an extensive
+survey of examples from a wide variety of languages, showing that they
+appear to be uniformly either "passive" or unaccusative (88),
+according to a relatively theory-specific definition of passive
+(accounting for her consistent use of scare quotes around the
+term). Her demonstration shows that nominals in general fall into a
+passive/unaccusative inflectional category, so that "(a) process
+nominals of the destruction type are intransitive; (b) English
+'passive' nominals are event nominals and thus have argument
+structure, and (c) intransitive nominals are not derived by a process
+of passivization. This is consistent with the assumption that
+transitivity is a derived property" (111). Returning to process
+nominals, then, she again invokes DM to propose that the "type of v
+found in process nominalizations is the one found in unaccusative
+structures, i.e. the one that does not project an external
+argument/agent" (112). She then glances at by-phrases (e.g., "the
+destruction of the city by the barbarians") noting certain patterns in
+the availability of this construction with nominals and arguing that
+"the by-phrase is strictly parallel to ergative case, if this is
+analyzed as a prepositional/lexical case" (119).
+	
+4. Variation in Functional Structure (127-166)
+	
+The architecture of nominalizations is explored in this chapter via an
+especially wide typological survey of nominalization
+patterns. Alexiadou accounts for variation in terms of the kinds of
+functional projections encountered in across languages, so that core
+features of nominalization can vary widely. She surveys differences in
+patterns of presence vs. absence of a Complementizer (C) level, of
+AspP, vP, number, D, and the presence of agents in Spec,DP. The survey
+is meant to demonstrate that "the presence of Aspect contributes to
+event specification, and moreover, it is linked with the availability
+of adverbial modification"; that "while the presence of v contributes
+to eventive interpretation, the transitivity of v regulates the
+agentive vs. non-agentive character of the nominal and the
+availability of the accusative case;" and "the A vs. A' status of D
+regulates the availability of transitive nominalizations" (157). In a
+brief Appendix (158-162) to this chapter, Alexiadou surveys nominal
+infinitives in Italian, Dutch and German, finding more evidence for
+the claim that "nominalized infinitives include AspP and vP" (158).
+	
+5. Nominalization and Ergativity (167-210)
+	
+In a sense, the preceding chapters have been building a base for the
+argument put forward in the book's fifth and final chapter. Here,
+Alexiadou turns to what is her main theoretical target, which is to
+craft a connection between the structure of nominalization and the
+development of ergative patterning in some languages. This follows a
+distinguished tradition in the generative literature, due in no small
+part to the obvious typological splits in world languages (especially
+between ergative-absolutive and nominative-accusative clause
+alignments), which present a challenge to models of universal
+functional structure. Alexiadou considers construals of ergative
+patterns in terms of Case and Agreement and the formation of the
+perfect, and then examines in detail genitive constructions and
+constructions with auxiliaries. She finds significant similarities in
+patterns of nominalization and ergative patterns in both Case and the
+formation of perfects. In an Appendix to this chapter (198-204), she
+follows a complex recent line of discussion about participle
+formation, finding that "it must be the case that adjectives and
+participles differ in that the former are bare roots, while the latter
+include certain layers of functional structure" (204).
+	
+6. Conclusions (211-213)
+	
+The brief conclusion largely reiterates material from the
+Introduction; again drawing attention to her DM foundation according
+to which "there are no differences between word formation and syntax"
+(213).
+	
+DISCUSSION
+	
+This is a fascinating, dense and important book that both provokes and
+to a lesser degree frustrates. It continues the important work of
+Alexiadou and her colleagues in various (especially European) groups
+of generative grammarians, and the polyglot base of her analysis is
+fascinating. The book speaks to what are some of the most central and
+challenging issues in the generative tradition, and knits arguments
+about the issues together to show how they have persisted throughout
+the literature. Her presentation of the evidence and arguments is
+succinct, interesting, and often extremely pointed with regard to the
+question at issue.
+	
+At the same time, this book suffers from issues one is familiar with
+in volumes from this publisher. There are a number of proofreading and
+copyediting errors, occasionally making the interpretation of phrases
+and clauses ambiguous. Alexiadou's English is very strong, but one
+nevertheless suspects it is not her first language, and certain key
+argumentative passages suffer from a lack of editing that might have
+made the passages clearer. This is usually a minor problem, but
+because this book runs up against some of the deepest issues in
+generative grammar, the reader cannot help wanting to understand the
+author's points as precisely as possible.
+	
+The book is persuasive, although there remain open questions even at
+its core; for example, and it is hard to say whether this is due to
+editing or not, it remains hard to keep Alexiadou's base observations
+about nominals clearly in sight at all moments. Does the process
+vs. event reading rest on the presence of functional layers, or are
+the layers simply options that can be present but are not coextensive
+with a lexical phenomenon? That is, there are hints of circularity
+around some of her main contentions, so that one worries that the
+theory is verging on description as it becomes complex enough to
+handle so much typological data. These are metatheoretical worries
+that Alexiadou, like many of the best generative grammarians, attempts
+to address as her argument goes forward, and one looks forward to more
+work along these lines with anticipation.
+	
+REFERENCES
+	
+Chomsky, N. (1970). Remarks on Nominalization. In Chomsky (1972), 11-61.
+	
+Chomsky, N. (1972). Studies on Semantics in Generative Grammar.
+The Hague: Mouton.
+	
+Dixon, R. M. W. (1994). Ergativity. New York: Cambridge University Press.
+	
+Embick, D. (1998). Syntax and Categories: Verbs and Participles in the
+Latin Perfect. Ms., MIT.
+	
+Grimshaw, J. (1990). Argument Structure. Cambridge, MA: MIT Press.
+	
+Halle, M. and Marantz, A. (1993). Distributed Morphology and the
+Pieces of Inflection. In K. Hale and S. J. Keyser (eds.), The View
+from Building 20. Cambridge, MA: MIT Press.
+	
+Marantz, A. (1999). Creating Words Above and Below Little v. Ms., MIT.
+The reviewer is an independent scholar who works on cultural studies
+of linguistics, philosophy and computation.
+	
+	

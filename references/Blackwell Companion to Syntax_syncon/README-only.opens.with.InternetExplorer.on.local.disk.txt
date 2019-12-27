@@ -1,0 +1,3 @@
+﻿these xml files use external dtd, meaning they only work on if they are opend using internet explorer (not firefox) on a local disk (not on a website).
+
+at least thats what i found...

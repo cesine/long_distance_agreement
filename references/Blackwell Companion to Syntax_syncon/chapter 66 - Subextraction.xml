@@ -1,0 +1,3781 @@
+<?xml version='1.0'?>
+<?xml-stylesheet type="text/xsl" href="bpg4-0.xsl"?>
+<!DOCTYPE content PUBLIC "-//BLACKWELL PUBLISHING GROUP//DTD 4.0//EN" "bpg4-0.dtd" []>
+<content dtdver="4.0">
+<publisherinfo>
+<publisher>Blackwell Publishing Ltd</publisher>
+<address>Oxford, UK</address>
+</publisherinfo>
+<contentinfo type="book">
+<contentcode>BCT</contentcode>
+<titlegroup>
+<title type="book">Blackwell Companion to Syntax</title>
+</titlegroup>
+<isbn>1405114851</isbn>
+<copyright>&copy; 2006 by Blackwell Publishing Ltd</copyright>
+</contentinfo>
+<document sequence="1" type="primary_chapter" referencetype="harvard">
+<header>
+<documentinfo language="en">
+<idgroup>
+<documentid type="bpl" id="66"/>
+</idgroup>
+<relatedgroup>
+<related relationship="self" type="primary_chapter">
+<file name="chapter 66 - Subextraction.xml" type="xml"/>
+</related>
+</relatedgroup>
+<date date="2005-11">November 2005</date>
+<pagedetails>
+<page type="first">566</page>
+<page type="last">600</page>
+</pagedetails>
+<countgroup>
+<count type="figure_total" count="6"/>
+<count type="table" count="72"/>
+<count type="formula" count="0"/>
+<count type="reference_total" count="73"/>
+<count type="page" count="35"/>
+<count type="word" count="0"/>
+</countgroup>
+<trackinghistory>
+<trackingdate type="created" date="20050811"/>
+<trackingdate type="markedup" date="0000"/>
+<trackingdate type="paginated" date="0000" by="Graphicraft"/>
+</trackinghistory>
+<tocheading>Original Articles</tocheading>
+<runningheadgroup>
+<runninghead type="title">
+<i>Chapter 66&ensp;Corver: Subextraction</i>
+</runninghead>
+<runninghead type="author">
+<i>Chapter 66&ensp;Corver: Subextraction</i>
+</runninghead>
+</runningheadgroup>
+</documentinfo>
+<titlegroup>
+<title type="document">66 Subextraction</title>
+</titlegroup>
+<namegroup type="author">
+<name type="author">
+<forenames>NORBERT</forenames><x> </x><surname>CORVER</surname>
+</name>
+</namegroup>
+</header>
+<section id="s1-1" type="body">
+<subsection id="ss1" level="1">
+<listgroup id="l1" type="1">
+<li level="1">
+<number>1&ensp;</number>
+<p>Introduction</p>
+</li>
+<li level="1">
+<number>2&ensp;</number>
+<p>The Left Branch Condition</p>
+</li>
+<li level="1">
+<number>3&ensp;</number>
+<p>Constraints on left-branch subextraction</p>
+</li>
+<li level="2">
+<number>3.1&ensp;</number>
+<p>Constraints in terms of the extraction site</p>
+</li>
+<li level="2">
+<number>3.2&ensp;</number>
+<p>Subextraction and the containing extraction domain</p>
+</li>
+<li level="3">
+<number>3.2.1&ensp;</number>
+<p>The Relativized A-over-A Condition</p>
+</li>
+<li level="3">
+<number>3.2.2&ensp;</number>
+<p>The Subjacency Condition</p>
+</li>
+<li level="2">
+<number>3.3&ensp;</number>
+<p>Subextraction and proper government</p>
+</li>
+<li level="2">
+<number>3.4&ensp;</number>
+<p>Subextraction and morphological/phonological constraints</p>
+</li>
+<li level="1">
+<number>4&ensp;</number>
+<p>Subextraction from the <i>wat voor N</i>-construction</p>
+</li>
+<li level="2">
+<number>4.1&ensp;</number>
+<p>Introductory remarks on the <i>wat voor N</i>-construction</p>
+</li>
+<li level="2">
+<number>4.2&ensp;</number>
+<p>Approaches to the split <i>wat voor N</i>-construction</p>
+</li>
+<li level="3">
+<number>4.2.1&ensp;</number>
+<p>Categorial change: the <i>wat voor N</i>-phrase as a &lsqb;&minus;V&rsqb;-category</p>
+</li>
+<li level="3">
+<number>4.2.2&ensp;</number>
+<p>The <i>wat voor N</i>-construction as a reanalyzed structure</p>
+</li>
+<li level="3">
+<number>4.2.3&ensp;</number>
+<p>The <i>wat voor N</i>-construction as an adjunction configuration</p>
+</li>
+<li level="3">
+<number>4.2.4&ensp;</number>
+<p>The <i>wat voor N</i>-construction as a predicate displacement construction</p>
+</li>
+<li level="2">
+<number>4.3&ensp;</number>
+<p>A subject&ndash;object asymmetry</p>
+</li>
+<li level="1">
+<p>
+<number>5&ensp;</number>Subextraction in Slavic languages</p>
+</li>
+<li level="1">
+<p>
+<number>6&ensp;</number>Conclusion</p>
+</li>
+</listgroup>
+</subsection>
+<subsection id="ss2" level="1">
+<heading id="h1" level="1">1&ensp;Introduction</heading>
+<p>Displacement is a core property of human language. Constituents can be rearranged in syntactic structure. In (1a), for example, the direct object noun phrase (<i>this car</i>) has been moved to the left periphery of the clause and no longer occupies its base position, i.e., complement to V, as in (1b):</p>
+<p>(1)&ensp;<object id="tu1" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu1_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry><i>This car</i> I really like.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>I really like <i>this car</i>. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In (1a), the noun phrase selected by the verb <i>like</i> is moved to a landing site within the so-called extended projection of that verb (cf. <link rid="b1">Grimshaw 1991</link>), which is the clause (i.e. CP). The direct object remains within the structure projected from the verb, so to speak.</p>
+<p>Turning to (2), the direct object <i>this car</i> is no longer part of the extended projection of the selecting verb <i>to like</i>. Rather, the direct object noun phrase has been moved out of the embedded clause and finds its landing site within the matrix clause.</p>
+<p>(2)&ensp;<i>This car</i> I believe &lsqb;that you will really like &ndash;&rsqb;</p>
+<p>This instance of displacement is a case of <i>subextraction</i>: the direct object noun phrase is extracted from within the embedded clause. That is, it is moved to a landing position which is external to the extended projection of the head (<i>like</i>) with which it stands in a certain base relationship (in this case, a thematic relationship).</p>
+<p>In the spirit of the search for restrictions on displacement, the question should be raised what restrictions hold on subextraction. Can any element be freely removed from the extended projection of some head X to which it stands in a particular relation? Schematically:</p>
+<p>(3)&ensp;<object id="tu2" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu2_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>&lsqb;<sub>yp</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;&alpha;&nbsp;.&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>xp</sub>&nbsp;.&nbsp;.&nbsp;.&bgr; X&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>where &alpha; is the landing site and &bgr; the extraction site (order of X and &bgr; is irrelevant).</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>When X and &bgr; in (3) stand in a predicate&ndash;argument relationship, subextraction is generally allowed in a language like English:</p>
+<p>(4)&ensp;<object id="tu3" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu3_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;<sub>CP</sub> <i>Whose throat</i> did you stick your finger &lsqb;<sub>PP</sub> into &ndash;&rsqb;&rsqb;?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>the man &lsqb;<sub>CP</sub> <i>of whom</i> I saw &lsqb;<sub>DP</sub> several pictures &ndash;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>c.</entry>
+<entry>a man &lsqb;<sub>CP</sub> <i>of whom</i> I&rsquo;ll never be &lsqb;<sub>AP</sub> proud &ndash;&rsqb;&rsqb; </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In these examples it is the complement to a lexical head (P, N, A) that has been extracted from the extended projection (PP, DP, AP) of this head.</p>
+<p>Displacement very often does not apply to what is traditionally (cf. <link rid="b2">Chomsky 1970</link>) called the specifier system of a phrase.<link rid="fn1">
+<sup>1</sup></link> As illustrated in (5&ndash;8), for example, the specifier system of the noun phrase is inaccessible to movement operations: determiners carrying demonstrative or interrogative force and possessors like <i>whose</i> cannot be removed from the nominal domain. As shown by the b-examples, the entire noun phrase has to be fronted. Under the assumption that it is some grammatical property of the specifying element (e.g., a <i>wh-</i>feature) that triggers the displacement process, we can say that the determiners and the nominal possessor drag along the rest of the noun phrase. This phenomenon in which a category properly containing a category targeted for movement is displaced is termed <i>Pied-Piping</i> (cf. <link rid="b3">Ross 1986</link>). (See <related relationship="sibling" type="samework"><externallink id="chapter 50 - Pied-Piping.xml" type="file">chapter 50</externallink></related>.)</p>
+<p>(5)&ensp;<object id="tu4" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu4_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*<i>This</i> I really like &lsqb;&ndash; car&rsqb;!</entry>
+</row>
+<row><entry>b.</entry>
+<entry><i>This car</i> I really like &ndash;!</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p> (6)&ensp;<object id="tu5" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu5_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*<i>Which</i> do you like &lsqb;&ndash; car&rsqb;?</entry>
+</row>
+<row><entry>b.</entry>
+<entry><i>Which car</i> do you like &ndash;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(7) <object id="tu6" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu6_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*<i>What</i> he is &lsqb;&ndash; a fool&rsqb;!</entry>
+</row>
+<row><entry>b.</entry>
+<entry><i>What a fool</i> he is &ndash;!</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(8) <object id="tu7" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu7_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*<i>Whose</i> do you like &lsqb;&ndash; car&rsqb;?</entry>
+</row>
+<row><entry>b.</entry>
+<entry><i>Whose car</i> do you like &ndash;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As shown by (9) and (10), it is not only the specifier system of the noun phrase that is inaccessible to movement. Such modifying elements as attributive APs cannot be removed from the noun phrase either.</p>
+<p>(9)&ensp;<object id="tu8" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu8_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*<i>That big</i> John bought &lsqb;&ndash; a car&rsqb;!</entry>
+</row>
+<row><entry>b.</entry>
+<entry><i>That big a car</i> John bought &ndash;!</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(10)&ensp;<object id="tu9" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu9_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*<i>How big</i> did John buy &lsqb;&ndash; a car&rsqb;?</entry>
+</row>
+<row><entry>b.</entry>
+<entry><i>How big a car</i> did John buy &ndash;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Examples (11) and (12) illustrate the inaccessibility of the specifier system for the adjectival domain: degree words like <i>that</i> and <i>how</i> cannot be extracted from the adjectival phrase. Also in this case, preposing must apply to the entire adjective phrase. More precisely: the degree word that is targeted for movement carries along (i.e., pied-pipes) the other material contained within the dominating AP.</p>
+<p>(11)&ensp;<object id="tu10" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu10_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*<i>That</i> she certainly isn&apos;t &lsqb;&ndash; tall&rsqb;!</entry>
+</row>
+<row><entry>b.</entry>
+<entry><i>That tall</i> she certainly isn&apos;t &ndash;!</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(12)&ensp;<object id="tu11" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu11_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*<i>How</i> are you &lsqb;&ndash; tall&rsqb;? / <i>How</i> you are &lsqb;&ndash; tall&rsqb;!</entry>
+</row>
+<row><entry>b.</entry>
+<entry><i>How tall</i> are you &ndash;? / <i>How tall</i> you are &ndash;!</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The following question, of course, arises: what blocks subextraction of those (left-branch) specifiers and modifiers from within the nominal and adjectival domain?<link rid="fn2">
+<sup>2</sup></link> A first attempt to answer this question was given in <link rid="b3">Ross (1986</link>), who proposed his Left Branch Condition to account for the above-mentioned facts (see <link rid="ss3">section 2</link>). After Ross&apos;s formulation of this island constraint, alternative analyses were proposed that try to capture the impossibility of extracting left-branch elements from within the nominal and adjectival system in a language like English. These analyses are discussed in <link rid="ss4">section 3</link>.</p>
+<p>Another question which arises: is this restriction on subextraction from noun phrases and adjective phrases a universal one? As Ross pointed out himself (<link rid="ss3">section 2</link>), the answer is &lsquo;no&rsquo;; there are languages (e.g., Russian and Latin) that quite freely permit extraction of specifying and modifying elements from within the nominal and/or adjectival domain. The question then, of course, arises what underlies this cross-linguistic variation in subextraction behavior. <link rid="ss19">Section 5</link> discusses a number of proposals that have been made to account for this cross-linguistic variation. Besides languages quite freely permitting subextraction from noun phrases and/or adjective phrases, there are languages that in general exclude such subextraction but have one or more construction types that exceptionally permit subextraction. In <link rid="ss11">section 4</link> one such construction will be highlighted, namely, the so-called <i>wat voor N</i>-construction in Dutch (&lsquo;what kind of N&rsquo;), a construction type which is also found in other Germanic languages. This nominal construction has the exceptional property that the left-branch interrogative element <i>wat</i> can be moved out of the noun phrase.</p>
+</subsection>
+<subsection id="ss3" level="1">
+<heading id="h2" level="1">2&ensp;The Left Branch Condition</heading>
+<p>
+<link rid="b3">Ross (1986</link>) was one of the first who observed the immobility of elements that specify or modify nominal and adjectival constituents. In order to account for this restriction on subextraction, he formulated his Left Branch Condition:<link rid="fn3">
+<sup>3</sup></link>
+</p>
+<p>(13) <object id="tu12" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu12_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Left Branch Condition (LBC):</b>
+</entry>
+</row>
+<row><entry>No NP which is the leftmost constituent of a larger NP can be reordered out of this NP by a transformational rule.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Reference to the notion &lsquo;left branch&rsquo; is prompted by the fact that determiners, possessors like <i>whose</i>, and (AP-internal) degree words occupy a position to the left of the nominal/adjectival projection line. In the formulation of the condition it is the linear property of &lsquo;leftmostness&rsquo; that determines the non-extractability of certain elements, i.e., NPs according to Ross. We should add immediately here that for Ross the categorial label &lsquo;NP&rsquo; applies not only to a lexical item like <i>whose</i> in (8), but also to adjective phrases (as in (9&ndash;10)) and such degree words as <i>that</i> and <i>how</i> in (11&ndash;12). Given this assumption, the LBC correctly predicts the ill-formedness of the a-examples in (5&ndash;12).<link rid="fn4">
+<sup>4</sup></link> In (8a), for example, the NP <i>whose</i> is the leftmost element within the containing NP and therefore cannot be moved out of it. In (12a), the NP <i>how</i> is extracted from the larger NP (<i>how tall</i>). Since <i>how</i> is the leftmost element within the larger NP, subextraction yields a LBC-violation. In (10a) it is the <i>wh-</i>degree word <i>how</i> that is targeted for movement. <i>How</i> itself cannot be fronted since it is the leftmost element within the NP <i>how big</i>: <i>*How did John buy &lsqb;&lsqb;&ndash; big&rsqb; a car&rsqb;?</i> The NP <i>how big</i> cannot be fronted either; it is the leftmost element within the NP <i>how big a car</i>. The only legitimate displacement is movement of the entire direct object NP. So the interrogative degree word <i>how</i>, which is targeted for movement, drags along the dominating attributive AP and the dominating NP.</p>
+<p>A question which obviously arises is whether the inaccessibility of left-branch elements (in the nominal and adjectival domain) is a universal property of human language. That is, is the LBC a universal constraint? As <link rid="b3">Ross (1986</link>) himself already observed, in certain languages (e.g., Russian, Latin) subextraction of left-branch specifiers and modifiers is permitted. Consider, for example, the following examples from Polish, where a specifying or modifying element is removed from the containing noun phrase (examples from <link rid="b4">Rappaport 2000</link>):</p>
+<p>(14)&ensp;<object id="tu13" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu13_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry><i>Czyj<object id="fu7" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_66_fu7.gif" type="gif" id="fu7_source"/>
+</objectsource>
+</object></i>
+</entry>
+<entry><i>ukrad&#x0142;e&#x015B;</i>
+</entry>
+<entry>&lsqb;&ndash; ksi<object id="fu7" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_66_fu7.gif" type="gif" id="fu7_source"/>
+</objectsource>
+</object>&#x017C;k<object id="fu8" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_66_fu8.gif" type="gif" id="fu8_source"/>
+</objectsource>
+</object> &rsqb;?</entry>
+<entry>Polish</entry>
+</row>
+<row><entry>whose</entry>
+<entry>you-stole</entry>
+<entry>&ndash; book</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Whose book did you steal?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry><i>Jak<object id="fu7" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_66_fu7.gif" type="gif" id="fu7_source"/>
+</objectsource>
+</object></i>
+</entry>
+<entry>kupi&#x0142;e&#x015B;</entry>
+<entry>&lsqb;&ndash; ksi<object id="fu7" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_66_fu7.gif" type="gif" id="fu7_source"/>
+</objectsource>
+</object>&#x017C;k<object id="fu8" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_66_fu8.gif" type="gif" id="fu8_source"/>
+</objectsource>
+</object>&rsqb;?</entry>
+</row>
+<row><entry>what-kind-of<sub>Fem.Sg.Acc</sub>
+</entry>
+<entry>you-bought-</entry>
+<entry>book<sub>Fem.Sg.Acc</sub>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;What kind of book did you buy?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">c.</entry>
+<entry><i>Jak du&#x017C;e</i>
+</entry>
+<entry>widzia&#x0142;e&#x015B; </entry>
+<entry>&lsqb;&ndash; auto&rsqb;</entry>
+</row>
+<row><entry>how big</entry>
+<entry>you-saw &ndash; car</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;How big a car did you see?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>About those languages which do not display the LBC-effect <link rid="b3">Ross (1986</link>: 146) remarks, &ldquo;As far as I know, it is only in highly inflected languages, in whose grammar the rule <i>Scrambling</i> appears, that the Left Branch Condition is not operative, but it is not the case that it is not operative in all such languages. &lsqb;e.g., Finnish, NC&rsqb; At present, therefore, I am unable to predict when a language will exhibit the Left Branch Condition and when not.&rdquo;<link rid="fn5">
+<sup>5</sup></link> In <link rid="ss19">section 5</link>, a number of proposals will be discussed that try to account for this cross-linguistic variation in subextraction behavior.</p>
+<p>Besides those languages which rather freely admit subextraction from the nominal and/or adjectival system, there are also languages which, on the whole, obey the LBC, except for some special construction(s). Consider, for example, the following cases:</p>
+<p>(15)&ensp;<object id="tu14" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu14_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry><i>Wat</i> heeft Jan</entry>
+<entry>&lsqb;&ndash; voor boeken&rsqb;</entry>
+<entry>verkocht?</entry>
+<entry>Dutch</entry>
+</row>
+<row><entry>what has John</entry>
+<entry>&ndash; for books</entry>
+<entry>sold</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;What kind of books did John sell?&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>*<i>Welke</i>
+</entry>
+<entry>heeft Jan &lsqb;&ndash; boeken&rsqb;</entry>
+<entry>verkocht?</entry>
+</row>
+<row><entry>which</entry>
+<entry>has John &ndash; books</entry>
+<entry>sold</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;Which books did John sell?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(16)&ensp;<object id="tu15" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu15_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry><i>Combien</i>
+</entry>
+<entry>a-t-il vendu</entry>
+<entry>&lsqb;&ndash; de livres&rsqb;?</entry>
+<entry>French</entry>
+</row>
+<row><entry>how-many</entry>
+<entry>has-he sold</entry>
+<entry>&ndash; of books</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;How many books did he sell ?&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>*<i>Quels</i>
+</entry>
+<entry>a-t-il vendu</entry>
+<entry>&lsqb;&ndash; livres&rsqb;?</entry>
+</row>
+<row><entry>which</entry>
+<entry>has-he sold</entry>
+<entry>&ndash; books</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;Which books did he sell?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(17)&ensp;<object id="tu16" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu16_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry><i>Ki-nek</i> akarod,</entry>
+<entry>hogy halljam</entry>
+<entry>&lsqb;&ndash; a hang-j&aacute;-t&rsqb;?</entry>
+<entry>Hungarian</entry>
+</row>
+<row><entry>who-Dat you-want</entry>
+<entry>that I-hear</entry>
+<entry>&ndash; the voice-Poss.3SG-Acc</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Whose voice do you want me to hear?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry><i>*Melyik </i>akarod,</entry>
+<entry>hogy halljam</entry>
+<entry>&lsqb;a &ndash; hang-t&rsqb;?</entry>
+</row>
+<row><entry>which you-want</entry>
+<entry>that I-hear</entry>
+<entry>the &ndash; voice-Acc</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;Which voice do you want me to hear?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In the a-examples in (15), (16), and (17), a left-branch element is removed from a containing noun phrase. In (15a) the <i>wh-</i>element <i>wat</i> has been extracted out of a so-called <i>wat voor N</i>-construction, yielding a discontinuous noun phrase. In (16a) the interrogative quantifier <i>combien</i> has undergone subextraction from within the noun phrase. In (17a), finally, a nominal possessor has been reordered out of the containing noun phrase (cf. <link rid="b5">Szabolcsi 1983</link>). These subextractions are exceptional in those languages. In general, left-branch elements cannot be removed out of the noun phrase in those languages, as is illustrated by the b-examples.</p>
+<p>Some instances of left-branch extraction have been noted for the adjectival domain. (cf. <link rid="b6">Grosu 1974</link>; <link rid="b7">Bracco 1980</link>; <link rid="b8">Rivero 1980</link>; <link rid="b9">Rizzi 1990b</link>; <link rid="b10">Corver 2000</link>):</p>
+<p>(18)&ensp;<object id="tu17" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu17_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>&iquest;<i>C&oacute;mo</i>
+</entry>
+<entry>dices</entry>
+<entry>que es</entry>
+<entry>&lsqb;&ndash; de inteligente&rsqb;?</entry>
+<entry>Spanish</entry>
+</row>
+<row><entry>how</entry>
+<entry>you-say</entry>
+<entry>that he-is</entry>
+<entry>&ndash; of intelligent</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;How intelligent do you say he is?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry><i>*Tan</i>
+</entry>
+<entry>es</entry>
+<entry>&lsqb;&ndash; intelligente&rsqb;</entry>
+</row>
+<row><entry>so-much</entry>
+<entry>he-is</entry>
+<entry>&ndash; intelligent</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;He is so intelligent.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(19)&ensp;<object id="tu18" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu18_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry><i>C&icirc;t</i>
+</entry>
+<entry>e Maria</entry>
+<entry>&lsqb;&ndash; de frumoas&#x01CE;&rsqb;!</entry>
+<entry>Romanian</entry>
+</row>
+<row><entry>how-much</entry>
+<entry>is Mary</entry>
+<entry>&ndash; of beautiful</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;How beautiful Mary is!&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>*<i>Ce</i>
+</entry>
+<entry>e Maria</entry>
+<entry>&lsqb;&ndash; frumoas&#x01CE;&rsqb;!</entry>
+</row>
+<row><entry>what</entry>
+<entry>is Mary</entry>
+<entry>&ndash; beautiful</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;How beautiful Mary is!&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(20)&ensp;<object id="tu19" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu19_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry><i>Quanto</i>
+</entry>
+<entry>&egrave; &lsqb;&ndash; alto&rsqb;?</entry>
+<entry>Italian</entry>
+</row>
+<row><entry>how-much</entry>
+<entry>he-is &ndash; tall</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;How tall is he?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>*<i>Troppo</i>
+</entry>
+<entry>&egrave; &lsqb;&ndash; alto&rsqb;!</entry>
+</row>
+<row><entry>too-much</entry>
+<entry>he-is &ndash; tall</entry>
+</row>
+<row><entry namest="col2" nameend="col3">&lsquo;Too tall he is!&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The limited subextraction phenomenon exemplified in the a-examples in (15&ndash;17) and (18&ndash;20) raises the question why extraction is permitted in those cases. That is, in what way do these constructions differ from normal noun phrases or adjective phrases, which do not permit subextraction. In <link rid="ss11">section 4</link>, one construction type will be highlighted, namely, the <i>wat voor N</i>-construction, which is exemplified in (15).</p>
+</subsection>
+<subsection id="ss4" level="1">
+<heading id="h3" level="1">3&ensp;Constraints on left-branch subextraction</heading>
+<p>We discuss here a number of analyses that have been given to account for the Left Branch effect. Each of these analyses relates the impossibility of subextraction to some grammatical property of the syntactic structure: (a) the linear or hierarchical position of the subextracted element (<link rid="ss5">section 3.1</link>); (b) the nature of the phrase dominating the left-branch element that is targeted for movement (<link rid="ss6">section 3.2</link>); (c) the licensing (i.e., proper government) of the trace left behind after subextraction (<link rid="ss9">section 3.3</link>); (d) the morphological or phonological interpretability of the syntactic structure after subextraction has applied (<link rid="ss10">section 3.4</link>).</p>
+<subsection id="ss5" level="2">
+<heading id="h4" level="2">3.1&ensp;Constraints in terms of the extraction site</heading>
+<p>In <link rid="b3">Ross (1986</link>), the immobility of NP- and AP-internal left-branch specifiers and modifiers was noted. According to his LBC, the factor determining their immobility is their syntactic placement within the containing phrase (i.e., NP); that is, when some element &alpha; is leftmost within NP, &alpha; cannot be extracted out of that NP. Strictly speaking, the formulation in (13) does not account for the ungrammaticality of the following examples:</p>
+<p>(21)&ensp;<object id="tu20" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu20_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*<i>Very pretty</i> I saw &lsqb;John&apos;s &ndash; daughter&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*<i>Very intelligent</i> I met &lsqb;several &ndash; girls&rsqb;. </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In these examples the attributive AP is not the leftmost constituent of the containing NP. Nevertheless, subextraction is not permitted. Evidently, reference to leftmostness is too weak.</p>
+<p>
+<link rid="b11 b12 b13">Emonds (1976, 1980, 1985</link>) proposed various reformulations of Ross&apos;s LBC. In <link rid="b13">Emonds (1985</link>) the following definition is given:</p>
+<p>(22)&ensp;<object id="tu21" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu21_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Generalized Left Branch Condition (GLBC):</b>
+</entry>
+</row>
+<row><entry>No syntactic category C<sup>j</sup> to the left of the lexical head of an X<sup>2</sup> can be analyzed as a C<sup>j</sup> by a transformation.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Like Ross&apos;s LBC, the GLBC states that the (linear) property of being to the left of the (lexical) head of a phrase is the relevant factor that accounts for non-extractability. Emonds&apos;s reformulation differs, however, in one crucial respect from Ross&apos;s LBC: the GLBC refers to all material to the left of the head of a phrase, not only to the constituent which is leftmost of the head of a phrase. So the ill-formedness of the examples in (21) is predicted.</p>
+<p>
+<link rid="b14">Chomsky (1973</link>: n 10) gives a reinterpretation of Ross&apos;s LBC as a condition that would prevent extraction of the specifier of an NP or an AP. He argues that the ungrammaticality of sentences such as (5&ndash;10) &ldquo;can perhaps be attributed to a principle that requires that if the specifier of a noun phrase or an adjective phrase &lsqb;&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb; is extracted, then the whole phrase must be extracted.&rdquo; As opposed to Ross&apos;s LBC, which refers to the property of leftmostness, Chomsky&apos;s Specifier Constraint refers to the property of being in a certain hierarchical position within the phrase, namely, the specifier position of a phrase XP.</p>
+<p>A similar reinterpretation of Ross&apos;s LBC is proposed by <link rid="b15">May (1977</link>). He formulates the following condition:</p>
+<p>(23)&ensp;<object id="tu22" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu22_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Condition on Analyzability:</b>
+</entry>
+</row>
+<row><entry>If a rule &Oslash; mentions SPEC, then &Oslash; applies to the minimal &lsqb;&plus;N&rsqb;-phrase dominating SPEC, which is not immediately dominated by another &lsqb;&plus;N&rsqb;-phrase.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This condition states that if a transformational rule targets an element occupying the specifier position of a &lsqb;&plus;N&rsqb;-projection (i.e., NP and AP), the dominating &lsqb;&plus;N&rsqb;-projection is the category that is displaced. The addition &ldquo;which is not immediately dominated by another &lsqb;&plus;N&rsqb;-phrase&rdquo; excludes displacements like (24):</p>
+<p>(24)&ensp;<i>*Whose father&apos;s</i> did you see &lsqb;&ndash; car&rsqb;?</p>
+<p>The <i>wh-</i>element <i>who</i>(<i>se</i>) is targeted for <i>wh-</i>movement. The containing NP (<i>whose father</i>) cannot be fronted, however, since it is immediately dominated by another NP (i.e., &lsqb;&plus;N&rsqb;-projection).</p>
+<p>The four constraints mentioned here (LBC, GLBC, the Specifier Constraint, and the Condition on Analyzability) all try to account for the impossibility of left-branch subextraction in English in terms of a property of the extraction site. This could be either the linear property &lsquo;leftmostness&rsquo; or &lsquo;being to the left of the head&rsquo;, or the hierarchical property of being in the specifier position. The former refers to a string-peripheral position, the latter to a hierarchically peripheral position.</p>
+<p>It is interesting to see that in the generative literature conditions have been proposed that claim exactly the opposite. These conditions state that extraction of some element A from within a phrase is only possible if A is in a string-peripheral/hierarchically peripheral position. An example of a condition stating the accessibility of string-peripheral positions is De <link rid="b16">Haan&apos;s (1979</link>) Accessibility Condition.<link rid="fn6">
+<sup>6</sup></link>
+</p>
+<p>(25) <object id="tu23" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu23_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Accessibility Condition:</b>
+</entry>
+</row>
+<row><entry>No transformational rule can involve X<sup>1</sup>, Y or X<sup>2</sup>, Y in the structure:</entry>
+</row>
+<row><entry>.&nbsp;.&nbsp;.&nbsp;X<sup>1</sup> .&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>&alpha;</sub> .&nbsp;.&nbsp;.&nbsp;Y .&nbsp;.&nbsp;.&nbsp;&rsqb; .&nbsp;.&nbsp;.&nbsp;X<sup>2</sup> .&nbsp;.&nbsp;.&nbsp;</entry>
+</row>
+<row><entry>where &alpha; is a bounding node,</entry>
+</row>
+<row><entry>unless Y is left peripheral in &alpha;, or</entry>
+</row>
+<row><entry>Y is right peripheral in &alpha;, respectively.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>According to this condition, some targeted constituent Y can leave the dominating phrase (&alpha;) only if Y is in a peripheral position: left-peripheral for leftward subextraction, right-peripheral for rightward subextraction.</p>
+<p>An example of a constraint stating that structurally peripheral positions are accessible to movement is Van <link rid="b17">Riemsdijk&apos;s (1978a</link>) Head Constraint:<link rid="fn7">
+<sup>7</sup></link>
+</p>
+<p>(26) <object id="tu24" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu24_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>The Head Constraint:</b>
+</entry>
+</row>
+<row><entry>No rule may involve X<sub>i</sub>/X<sub>j</sub> and Y<sub>i</sub>/Y<sub>j</sub> in the structure</entry>
+</row>
+<row><entry>.&nbsp;.&nbsp;.&nbsp;X<sub>i</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>H</sub>n&nbsp;.&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>H&prime;</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;Y<sub>i</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;H&nbsp;.&nbsp;.&nbsp;.&nbsp;Y<sub>j</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;<sub>H&prime;</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;<sub>H</sub>n&nbsp;.&nbsp;.&nbsp;.&nbsp;X<sub>j</sub>&nbsp;.&nbsp;.&nbsp;.</entry>
+</row>
+<row><entry>(where H is the phonologically specified (i.e., non-null) head and H<sup>n</sup> is the maximal projection of H, and H ranges over V, N, A, P.)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Van Riemsdijk points out that in a language like Dutch certain complements of P (namely, pronominal elements such as <i>het</i> &lsquo;it&rsquo;, <i>wat</i> &lsquo;what&rsquo;, <i>dat</i> &lsquo;that&rsquo;) are moved to &lsqb;Spec, PP&rsqb;, where they change their formal appearance, i.e., they become R-pronouns (<i>er</i> &lsquo;there&rsquo;, <i>daar</i> &lsquo;there&rsquo;, <i>waar</i> &lsquo;where&rsquo;). Due to this PP-internal movement the R-pronoun is no longer within the complement domain of P (i.e., H in (26)). Being in the specifier position of PP, the R-pronoun is accessible to transformation rules:<link rid="fn8">
+<sup>8</sup></link>
+</p>
+<p>(27)&ensp;<object id="tu25" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu25_source">
+<tbl frame="none">
+<tgroup cols="9">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry><i>Daar</i><sub>i</sub>
+</entry>
+<entry>heeft Jan</entry>
+<entry>&lsqb;<sub>PP</sub>
+</entry>
+<entry>t&prime;<sub>i</sub> &lsqb;<sub>P&prime;</sub>
+</entry>
+<entry>op</entry>
+<entry>t<sub>i</sub>&rsqb;&rsqb;</entry>
+<entry>gerekend.</entry>
+<entry>Dutch</entry>
+</row>
+<row><entry>there</entry>
+<entry>has John</entry>
+<entry>&ndash;</entry>
+<entry>on</entry>
+<entry>&ndash;</entry>
+<entry>counted</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col9">&lsquo;That, John counted on.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry><i>Waar</i><sub>i</sub>
+</entry>
+<entry>heeft Jan</entry>
+<entry>&lsqb;<sub>PP</sub>
+</entry>
+<entry>t&prime;<sub>i</sub> &lsqb;<sub>P&prime;</sub>
+</entry>
+<entry>op</entry>
+<entry>t<sub>i</sub>&rsqb;&rsqb;</entry>
+<entry>gerekend?</entry>
+</row>
+<row><entry>where</entry>
+<entry>has John</entry>
+<entry>
+</entry>
+<entry>&ndash; </entry>
+<entry>on </entry>
+<entry>&ndash;</entry>
+<entry>counted</entry>
+</row>
+<row><entry namest="col2" nameend="col8">&lsquo;What did John count on?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As shown by the ill-formedness of (28), nominal elements that remain in the complement position within the PP cannot be reordered out of the PP (cf. (28a); pied-piping of the dominating PP is required, as in (28b)).</p>
+<p>(28)&ensp;<object id="tu26" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu26_source">
+<tbl frame="none">
+<tgroup cols="7">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>*<i>Wie</i><sub>i</sub>
+</entry>
+<entry>heb je</entry>
+<entry>&lsqb;<sub>PP</sub> &lsqb;<sub>P&prime;</sub>
+</entry>
+<entry>op t<sub>i</sub>&rsqb;&rsqb;</entry>
+<entry>gerekend?</entry>
+<entry>Dutch</entry>
+</row>
+<row><entry>who</entry>
+<entry>have you</entry>
+<entry>
+</entry>
+<entry>on &ndash;</entry>
+<entry>counted</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col7">&lsquo;Who did you count on?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>&lsqb;Op wie&rsqb;</entry>
+<entry>heb je</entry>
+<entry>gerekend?</entry>
+</row>
+<row><entry>on who</entry>
+<entry>have you</entry>
+<entry>counted</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;Who did you count on?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Obviously, if the Left Branch effect is not explained in terms of a distributional property of the extraction site (i.e., leftmost/string-peripheral within projection XP or hierarchically peripheral within XP), some other linguistic property must be found that is responsible for the non-extractability of NP- or AP-internal left-branch elements in a language like English.</p>
+</subsection>
+<subsection id="ss6" level="2">
+<heading id="h5" level="2">3.2&ensp;Subextraction and the containing extraction domain</heading>
+<p>In <link rid="ss5">section 3.1</link> several approaches to left-branch subextraction were discussed that tried to characterize the inaccessibility of certain constituents in terms of the (structural or linear) position of the element targeted for movement. Other approaches to the non-extractability of left-branch specifiers/modifiers have emphasized properties of the extraction domain, i.e., the category (or categories) that contain the left-branch element.</p>
+<subsection id="ss7" level="3">
+<heading id="h6" level="3">3.2.1&ensp;The Relativized A-over-A Condition</heading>
+<p>
+<link rid="b18">Bresnan (1976c</link>) tried to account for the restrictions on left-branch subextraction in terms of her Relativized A-over-A condition (RAOAC). This condition is a reformulation of <link rid="b19">Chomsky&apos;s (1964a</link>) A-over-A Condition, which is stated in (29):</p>
+<p>(29) <object id="tu27" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu27_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>A-over-A Condition:</b>
+</entry>
+</row>
+<row><entry>In a structure&nbsp;.&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>A&nbsp;.&nbsp;.&nbsp;.&nbsp;</sub>&lsqb;<sub>A</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;&nbsp;.&nbsp;.&nbsp;.&nbsp;, if a structural description refers to A ambiguously, then the structural description can only analyze the higher, more inclusive, node A.</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The A-over-A Condition accounts for the facts in (30): fronting can only apply to the maximal (i.e., more inclusive) NP.</p>
+<p>(30)&ensp;<object id="tu28" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu28_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*<i>Whose</i> do you like &lsqb;&ndash; car&rsqb;?</entry>
+</row>
+<row><entry>b.</entry>
+<entry><i>Whose car</i> do you like &ndash;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Bresnan reformulates Chomsky&apos;s A-over-A Condition in two respects. First of all, she states that a phrase of type A (&equals; the target predicate) that a transformation effects must be maximal, not in the absolute sense of Chomsky&apos;s condition given in (29), but with respect to the context predicates (i.e., the constant factor not operated on by the rule) of the structural condition in the transformational rule. Secondly, maximalization is considered to be a function of the categorial features (&plus;/&minus;N, &plus;/&minus;V) mentioned in the structural description of the transformational rule, rather than a function of the categories as such.</p>
+<p>Consider now Bresnan&apos;s rule of question movement, which is a cross-categorial rule affecting such constituents as NP, AP, ADVP, and QP that begin with an interrogative morpheme (<i>wh</i>):</p>
+<p>(31)&ensp;<object id="tu29" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu29_source">
+<tbl frame="none">
+<tgroup cols="8">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<tbody>
+<row>
+<entry>&lsqb;<sub>S&prime;-</sub>
+</entry>
+<entry>Q -</entry>
+<entry>W<sub>1</sub> &ndash;</entry>
+<entry>&lsqb;<sub>XP</sub>
+</entry>
+<entry><i>wh</i> &ndash;</entry>
+<entry>W<sub>2</sub>&rsqb; - W</entry>
+<entry>3</entry>
+<entry>
+</entry>
+</row>
+<row><entry></entry>
+<entry>1</entry>
+<entry>2</entry><entry></entry>
+<entry>3</entry>
+<entry>4</entry>
+<entry>5</entry>
+<entry>&rarr;</entry>
+</row>
+<row><entry></entry>
+<entry>2</entry>
+<entry>4</entry><entry></entry>
+<entry>2</entry>
+<entry>0</entry>
+<entry>5</entry>
+<entry>
+</entry>
+</row>
+<row><entry></entry><entry namest="col3" nameend="col8">(where Q represents the question complementizer)</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The maximal projection XP in (31) is the target predicate, i.e., the element operated on by the transformational rule. Q (&equals; Comp) is a context predicate; it dominates the node into which the <i>wh</i>-phrase is moved. The RAOAC predicts that the transformational rule of question movement can apply only when a proper analysis assigns a maximal value to XP for the fixed values Q and S&prime; (i.e., the context predicates of the structural condition). Subextractions like in (30a) above and (32a) violate the RAOAC. The &lsqb;&plus;wh&rsqb; possessor-NP and the &lsqb;&plus;wh&rsqb; attributive AP satisfy the question movement rule (i.e., &lsqb;&plus;wh&rsqb;NP/AP are constituents that can substitute for Comp), but they are not the maximal values in relation to Comp. Movement of the entire direct object-NP, as in (30b) and (32b), satisfies the maximalization requirement.</p>
+<p>(32)&ensp;<object id="tu30" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu30_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*<i>How big</i> did he buy &lsqb;&ndash; a car&rsqb;?</entry>
+</row>
+<row><entry>b.</entry>
+<entry><i>How big a car</i> did he buy? </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+<subsection id="ss8" level="3">
+<heading id="h7" level="3">3.2.2&ensp;The Subjacency Condition</heading>
+<p>Another constraint which ascribes the impossibility of certain movement operations to the configuration that contains the node to be moved is <link rid="b14 b20">Chomsky&apos;s (1973, 1977b</link>) Subjacency Condition.<link rid="fn9">
+<sup>9</sup></link> This locality constraint states that a transformational rule cannot move a constituent from position Y to position X in a configuration like (33) if &alpha; and &bgr; are bounding nodes (NP and S being bounding nodes for English).</p>
+<p>(33) .&nbsp;.&nbsp;.&nbsp;X&nbsp;.&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>&alpha;</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>&bgr;</sub>&nbsp;.&nbsp;.&nbsp;.&nbsp;Y&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;&nbsp;.&nbsp;.&nbsp;.&nbsp;&rsqb;&nbsp;.&nbsp;.&nbsp;.&nbsp;X&nbsp;.&nbsp;.&nbsp;.&nbsp;</p>
+<p>Chomsky points out that various island constraints &ndash; the Complex NP Constraint, the <i>Wh-</i>island constraint, and the Subject Condition, for example &ndash; are subsumed under the Subjacency Condition. The possibility of deriving the ill-formed subextractions in (5&ndash;10) is not discussed in <link rid="b14 b20">Chomsky (1973, 1977b</link>).<link rid="fn10">
+<sup>10</sup></link> Movement of determiners, possessors, and attributive APs from within the nominal domain to Comp always crosses two bounding nodes in English, namely, NP and S. So it seems that at least for English, part of the LBC-effects can be reduced to the Subjacency condition as formulated above.</p>
+<p>
+<link rid="b21">Chomsky (1981</link>: 168), however, points out that a Subjacency account of the ill-formed sub-extraction examples in (5&ndash;10) is unlikely, given the fact that similar sub-extractions are ill-formed in a language like Italian (cf. (34) and (35)), which, as argued by <link rid="b22">Rizzi (1982b</link>), has NP and S&prime; as bounding nodes for Subjacency. If Italian has S&prime; rather than S as a bounding node, left-branch extraction out of a noun phrase is not blocked.</p>
+<p>(34)&ensp;<object id="tu31" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu31_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">
+</entry>
+<entry>*<i>Questi</i>
+</entry>
+<entry>hai incontrato</entry>
+<entry>&lsqb;<sub>NP</sub> &ndash; ragazzi&rsqb;?</entry>
+<entry>Italian</entry>
+</row>
+<row><entry>which</entry>
+<entry>you-have met</entry>
+<entry> &ndash; boys</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Which boys did you meet?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(35)&ensp;<object id="tu32" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu32_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">
+</entry>
+<entry>*Quanti</entry>
+<entry>hai incontrato</entry>
+<entry>&lsqb;<sub>NP</sub> &ndash; ragazzi&rsqb;?</entry>
+</row>
+<row><entry>how-many</entry>
+<entry>you-have met</entry>
+<entry> &ndash; boys</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;How many boys did you meet?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In view of the fact that the LBC-effect cannot be subsumed under the Subjacency Condition, we should try to find some other principle of grammar to which it can be reduced. <link rid="b21">Chomsky (1981</link>: 168) suggests that the Empty Category Principle (ECP) is a good candidate for explaining the impossibility of left-branch subextraction from NP. The ECP is discussed in <link rid="ss9">section 3.3</link>.</p>
+</subsection>
+</subsection>
+<subsection id="ss9" level="2">
+<heading id="h8" level="2">3.3&ensp;Subextraction and proper government</heading>
+<p>Another approach towards the restrictions on left-branch subextraction is in terms of the empty category (i.e., trace) left behind after movement. The principle of grammar regulating the distribution of (non-pronominal) empty categories is the Empty Category Principle (ECP) (cf. <link rid="b23 b21">Chomsky 1980a, 1981</link>). This principle requires that traces be properly governed (i.e., locally identified) by a proper governor. In <link rid="b21">Chomsky (1981</link>), the relation of proper government is defined as follows:</p>
+<p>(36) <object id="tu33" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu33_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry namest="col1" nameend="col2">
+<b>Proper government:</b>
+</entry>
+</row>
+<row><entry>(i)</entry>
+<entry>A is lexical (&equals; X<sup>o</sup>), or</entry>
+</row>
+<row><entry>(ii)</entry>
+<entry>A locally binds B</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Under this approach, subextraction of NP- and AP-internal specifiers and modifiers is blocked due to the fact that the trace is not properly governed.</p>
+<p>
+<link rid="b21">Chomsky (1981</link>: 168) contains a short discussion of the non-extractability of left-branch possessor noun phrases from within NPs in English (e.g., <i>*Whose did you see book?</i>). He accounts for the ill-formedness of this possessor-subextraction by stating that even though N governs the trace in the specifier position of NP, it does not <i>properly</i> govern this empty element; that is, N does not belong to the set of proper governors. This account of the non-extractability of left-branch possessors from within NP obviously extends to other left-branch effects, e.g., those involving determiners (cf. (5), (6)) and attributive APs (cf. (9), (10)).</p>
+<p>Chomsky&apos;s analysis relies on the assumption that the trace occupying the specifier position of NP cannot be properly governed from outside. If proper government of the empty category in &lsqb;Spec, NP&rsqb; by a noun phrase-external proper governor (e.g., V) were possible, subextraction (e.g., of <i>whose</i>) should be permitted. Thus, the question arises as to what blocks proper government of the trace in &lsqb;Spec, NP&rsqb; by an external governor, say V. As pointed out earlier, Chomsky assumes that even though the trace is not properly governed by N, it falls within the government domain of N (for reasons of genitive-case assignment). Implicit in this analysis is the idea that potential proper governors that are external to NP do not have access to &lsqb;Spec, NP&rsqb; if this position falls within the government domain of the lexical head N. So, a trace always falls within the government domain of a single head. <link rid="b24">Giorgi and Longobardi (1991</link>: 101) state this explicitly in terms of their Uniqueness Constraint on Government:<link rid="fn11">
+<sup>11</sup></link>
+</p>
+<p>(37) <object id="tu34" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu34_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><b>Uniqueness Constraint on Government:</b>
+</entry>
+</row>
+<row><entry>If a position &bgr; is governed by a lexical head &alpha;, it has no other governors</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>They point out that left-branch possessors, attributive APs, and other left-branch elements that cannot be removed from within NP fall within the government domain of N; the reason is that these left-branch elements enter into a case-dependency with N (i.e., N assigns genitive case to the possessor) or into an agreement relationship with N (e.g., in number or gender). With Chomsky, they assume that even though N governs these left-branch positions, it does not properly govern them.</p>
+<p>
+<link rid="b9">Rizzi (1990b</link>) also proposes an ECP-account for such ill-formed specifier extractions as <i>Whose did you see &lsqb;&ndash; car&rsqb;?</i> In contrast with <link rid="b21">Chomsky (1981</link>) he adopts a conjunctive definition of the ECP. More specifically, he states that a non-pronominal empty category must be (i) properly head-governed and (ii) antecedent-governed or theta-governed (cf. <link rid="b9">Rizzi 1990b</link>: 32). The former component of this formulation of the ECP captures the formal licensing relation; i.e., it characterizes the formal environment in which the null element can be found. The second component is the principle of identification, which recovers some contentive property of the null element on the basis of its immediate structural environment. As for the formal licensing relation, Rizzi assumes that a trace must be head-governed within the immediate projection of the head. In other words, complements to a head H are properly head-governed, specifiers are not. As a consequence, specifier (or modifier) extractions like those in (5&ndash;8) and (9&ndash;10) from within the nominal domain are impossible, given the fact that the trace left behind after subextraction falls outside the proper-head government domain of the head (N). It is furthermore assumed that potential proper governors (like V) do not have access to the NP- or AP-internal specifier position. In other words, government into the nominal domain is excluded. This opacity of the NP is determined as follows: even though N does not head-govern the specifier position, it has m-command over the specifier position. This way, the lexical head N always intervenes between the specifier of N and the external governor.</p>
+<p>
+<link rid="b24">Giorgi and Longobardi (1991</link>) and <link rid="b9">Rizzi (1990b</link>: 111, n. 4) point out that the impossibility of specifier extraction from within AP (cf. (11), (12)) can be explained along the same lines: A is not a proper governor for the trace in &lsqb;Spec, AP&rsqb;. Government of the trace in &lsqb;Spec, AP&rsqb; by some external governor (say V) is blocked because the lexical head A protects its Spec-position for government from outside.</p>
+<p>Thus far, it was shown that the restrictions on subextraction from NP and AP can be explained in terms of the theory of proper government (ECP), if it is assumed that N and A are not sufficient governors and that NP-/AP-external governors cannot govern into the nominal or adjectival domain. Of course, there are cases where subextraction is permitted: subject noun phrases in &lsqb;Spec, IP&rsqb; can be extracted from within IP (cf. (38)), and <i>wh-</i>phrases in &lsqb;Spec, CP&rsqb; (via successive cyclic movement) can be removed from CP (cf. (39)).</p>
+<p>(38) <i>Who</i> (do you think) &lsqb;<sub>IP</sub> &ndash; left&rsqb;?</p>
+<p>(39) <i>What</i> did she say &lsqb;<sub>CP</sub> &ndash; &lsqb;<sub>C&prime;</sub> that &lsqb;<sub>IP</sub> John bought &ndash;&rsqb;&rsqb;&rsqb;</p>
+<p>These examples show that certain specifier positions are accessible to subextraction. <link rid="b24">Giorgi and Longobardi (1991</link>: 101) and <link rid="b9">Rizzi (1990b</link>) relate this contrast in Spec-accessibility to the lexical/non-lexical distinction: Specifiers of I and C are available to external government, specifiers of lexical categories (e.g., N, A) are not.</p>
+<p>The proper government-approaches discussed so far adopt the so-called lexical head analysis for noun phrases and adjective phrases: that is, specifying elements like <i>that</i>, <i>which</i>, <i>whose</i>, and <i>how</i> occupy the specifier position of a lexical head (N/A):</p>
+<p>(40)&ensp;<object id="tu35" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu35_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;<sub>NP</sub> that/which/whose &lsqb;<sub>N&prime;</sub> car&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>AP</sub> how &lsqb;<sub>A&prime;</sub> tall&rsqb;&rsqb; </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In <link rid="b25 b26 b27 b28">Corver (1990, 1992, 1997a, b</link>) a proper-government approach towards the Left Branch effect is developed which makes use of the DP- and DegP-hypotheses for nominal and adjectival structures (cf. <link rid="b29">Abney 1987</link>). The relevant structural configurations are then as in (41) and (42).</p>
+<p>(41)&ensp;<object id="fu1" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_66_fu1.jpg" type="jpg" id="fu1_source"/>
+</objectsource>
+</object>
+</p>
+<p>(42)&ensp;<object id="fu2" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_66_fu2.jpg" type="jpg" id="fu2_source"/>
+</objectsource>
+</object>
+</p>
+<p>Adopting a Barriers-type theory of locality (cf. <link rid="b30">Chomsky 1986a</link>), Corver accounts for the left-branch extraction effects in the following way. Subextraction of the <i>wh-</i>determiner <i>which</i> in (41) is blocked by ECP (and Subjacency). Being a head (D), <i>which</i> must move directly to the left periphery of the clause (CP). The <i>wh-</i>determiner cannot escape the barrierhood of intervening maximal projections (VP and IP) by adjoining to them; this is due to the structure preservation requirement that a X<sup>&ogr;</sup>-category cannot adjoin to an XP-category. So, movement to the left periphery of the clause crosses two barriers: VP and IP (the latter by inheritance according to <link rid="b30">Chomsky&apos;s 1986a</link> theory). This is represented schematically in (43).</p>
+<p>(43) &lsqb;<sub>CP</sub> Spec &lsqb;<sub>C&prime;</sub> C &lsqb;<b><sub>IP</sub>
+</b> .&nbsp;.&nbsp;.&nbsp;. &lsqb;<b><sub>VP</sub>
+</b> V &lsqb;<sub>DP</sub> &lsqb;<sub>D</sub> <i>which</i>&rsqb; &lsqb;<sub>NP</sub> car&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;</p>
+<p>After having been moved (directly) to the left periphery of the clause, the <i>wh-</i>determiner would not be able to antecedent-govern the trace. Moreover, Subjacency would be violated since two barriers (i.e., bounding nodes) would have been crossed.</p>
+<p>The non-extractability of the attributive AP is explained as follows. Under the Barriers theory, both the NP and the DP would be barriers. NP is an inherent barrier because it is not governed by a lexical category (i.e., it is governed by D), and DP is a barrier by inheritance, i.e., it immediately contains an inherent barrier. Direct movement of the attributive AP out of DP would yield a subjacency violation. It should be noted, though, that the AP could escape a Subjacency violation by moving into &lsqb;Spec, DP&rsqb; before leaving the DP. This intermediate step crosses only one barrier, namely, NP. Even though a Subjacency violation may be circumvented this way, the trace in the original position of the moved attributive AP would not satisfy ECP. The trace is not lexically governed (i.e., N does not stand in a theta relation to the AP), nor is it antecedent governed; the NP-projection protects the trace in the original position from government from outside.<link rid="fn12">
+<sup>12</sup></link>
+</p>
+<p>The non-extractability of <i>whose</i> in (41) is explained as follows. With <link rid="b29">Abney (1987</link>), Corver assumes that this possessor is not a constituent: <i>who</i> occupies &lsqb;Spec, DP&rsqb; while -<i>s</i> is the D-head. Given the fact that only constituents can move, <i>whose</i> is frozen in situ; fronting is possible only if the rest of the noun phrase is pied-piped.</p>
+<p>Consider next the adjectival structure in (42). Extraction of the degree word is out for the same reason why determiners cannot be extracted. The Deg<sup>o</sup> must be moved directly to the left periphery of the clause; it cannot escape the barrierhood of intervening XP-categories (e.g., DegP, VP, IP) due to the fact that a X<sup>o</sup> cannot adjoin to a maximal category (XP). Fronting of the degree word makes it cross three barriers, yielding ECP- and Subjacency violations. Schematically:</p>
+<p>(44) &lsqb;<sub>CP</sub> Spec &lsqb;<sub>C&prime;</sub> C &lsqb;<b><sub>IP</sub>
+</b> .&nbsp;.&nbsp;.&nbsp;. &lsqb;<b><sub>VP</sub>
+</b> V &lsqb;<b><sub>DegP</sub>
+</b> &lsqb;<sub>Deg</sub> how&rsqb; &lsqb;<sub>AP</sub> angry&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;</p>
+</subsection>
+<subsection id="ss10" level="2">
+<heading id="h9" level="2">3.4&ensp;Subextraction and morphological/phonological constraints</heading>
+<p>Movement operations have often been formulated in terms of the category that is moved. For example, in a <i>wh-</i>movement construction like <i>Which car did you see?</i>, it is the <i>wh-</i>word <i>which</i> that is targeted by the movement rule. In <link rid="b31">Chomsky (1995c</link>) it is not so much the category itself (say, D) that is targeted for movement, but rather some property of the feature inventory making up the category. In the case of a <i>wh-</i>determiner like <i>which</i>, it is a <i>wh-</i>feature rather than the category D (i.e., the element instantiating the entire feature structure) which is targeted. It is further assumed that this feature associated with a lexical item is raised to some position in the functional domain where this feature is checked off (i.e., where it enters into a matching relation with a functional head which is specified for this grammatical feature). <link rid="b31">Chomsky (1995c</link>: 262 ff.) assumes that for reasons of economy, the operation Move just seeks to raise the feature F (e.g., <i>wh</i>). More material is moved along (i.e., pied-piped) with the raised feature if this is needed for getting an interface representation that is interpretable. Chomsky argues that it is especially properties of the phonological component that require such pied-piping. Isolated features and other scattered parts of words may not be subject to phonological rules; the representation will be &ldquo;unpronounceable&rdquo;. Chomsky further notes that there may be a morphological requirement that features of a single lexical item must be within a single X<sup>o</sup> (cf. <link rid="b32">McGinnis 1995</link>). Or, to put it differently, subextraction of a feature F from within the feature constellation making up a lexical item is impossible (at least in overt syntax). The targeted feature will move along the rest of the feature constellation making up the lexical item, and possibly other material will be moved along.</p>
+<p>Chomsky gives the following example of this approach toward &lsquo;phonology driven&rsquo; pied-piping: a <i>wh-</i>word like <i>who</i> has three components: the <i>wh-</i>feature, an abstract element underlying indefinite pronouns, and the feature &lsqb;&plusmn; human&rsqb;. The operation of <i>wh-</i>movement raises just the <i>wh-</i>feature. Movement of this feature (i.e., subextraction from within the word) alone would result in an illegitimate PF-representation; the features making up the word would be scattered and consequently be unpronounceable. Therefore, at least the whole word <i>who</i> will have to be pied-piped in overt movement. Chomsky further points out that in a string like (45a) with the representation (45b), the <i>wh-</i>feature must drag along the entire DP.</p>
+<p>(45)&ensp;<object id="tu36" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu36_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>whose car</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>DP</sub> who &lsqb;<sub>D&prime;</sub> -s(e) &lsqb;<sub>NP</sub> car&rsqb;&rsqb;&rsqb; </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Raising of <i>who</i> alone leaves behind the sequence <i>-&apos;s book</i>, which is an illegimate PF-object. <i>Who&apos;s</i> (&equals; <i>whose</i>) cannot raise either since it is not a syntactic object (i.e., not a constituent), and hence not input to any movement operation (see also <link rid="b25">Corver 1990</link>; 172). So, it is the entire DP (<i>whose car</i>) that must be moved in order to get a legitimate PF-representation. Thus, according to <link rid="b31">Chomsky (1995c</link>), LBC-effects reduce to phonological and morphological requirements, rather than syntactic requirements like the ECP. Certain subextractions, that is, yield representations that cannot be interpreted by morphological or phonological rules.</p>
+<p>
+<link rid="b33">Kennedy and Merchant (2000</link>), too, argue that the principles underlying the LBC must be formulated in terms of PF representations. In line with the idea of Full Interpretation (cf. <link rid="b31">Chomsky 1995c</link>), they argue that (at least) all terminal nodes must have a phonological value. In the Late-insertion model of <link rid="b34">Halle and Marantz (1993</link>) the notion of &lsquo;having a phonological value&rsquo; is implemented in terms of the presence or absence in the lexicon of lexical items instantiating the featural combinations on syntactic objects. So, the syntax feeds the PF-interface by supplying the latter with feature bundles which the morphology must then make sense of, namely, by finding lexical items that correspond to the various feature combinations and inserting the items under the relevant nodes, which may then be pronounced. If the lexicon lacks an item with a particular feature specification, the derivation crashes: the PF representation is uninterpretable.</p>
+<p>Kennedy and Merchant, who focus on the extractability of DP-internal APs, point out that the impossibility of extracting an attributive adjective phrase is due to an uninterpretable feature-combination created by agreement between a &lsqb;&plus;wh&rsqb;DegP and the head of the nominal constituent in which it originates. Under the assumption that DegP-extraction from within DP proceeds through &lsqb;Spec, DP&rsqb; and that Spec&ndash;Head agreement takes place between a functional head and its specifier, the &lsqb;&plus;wh&rsqb; feature on DegP is passed to the head of DP, deriving the structure in (46).</p>
+<p>(46)&ensp;<object id="fu3" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_66_fu3.jpg" type="jpg" id="fu3_source"/>
+</objectsource>
+</object>
+</p>
+<p>Subsequent subextraction of DegP does not alter the feature values in DP, leading to a PF-representation in which there is an occurrence of the &lsqb;&plus;wh&rsqb;-feature on D. Such a representation, they claim, is uninterpretable because there is no D-element of English vocabulary that can be inserted into this context. Since Full Interpretation requires all symbols in the PF-representation to have a phonological interpretation (i.e., instantiated by lexical insertion), the derivation crashes.</p>
+<p>Movement (i.e., pied-piping) of the entire DP (<i>how big a car</i>) to &lsqb;Spec, CP&rsqb; avoids a violation at PF. When the entire DP is pied-piped along with DegP, the &lsqb;&plus;wh&rsqb;-feature on D (as well as DegP) is checked off in &lsqb;Spec, CP&rsqb; by a &lsqb;&plus;wh&rsqb; C-head. Since the &plus;wh<i>-</i>feature is no longer present on D, the indefinite article <i>a</i> can be lexically inserted in D.</p>
+</subsection>
+</subsection>
+<subsection id="ss11" level="1">
+<heading id="h10" level="1">4&ensp;Subextraction from the <i>wat voor N</i>-construction</heading>
+<subsection id="ss12" level="2">
+<heading id="h11" level="2">4.1&ensp;Introductory remarks on the <roman>wat voor N-</roman>construction</heading>
+<p>As was noted in <link rid="ss2">section 1</link>, there are languages that do not permit (left-branch) subextraction from the nominal (or adjectival) domain, except for some special constructions. Dutch is such a language. Subextraction of specifying elements from within the nominal domain is ruled out in general. There is a nominal construction, however, which permits removal of a left-branch specifying element, namely, the so-called <i>wat voor N</i> (&lsquo;what kind of N&rsquo;) noun phrase. This nominal construction asks for the nature, quality, or sort of person or object. As shown in (47b), subextraction of the <i>wh-</i>element <i>wat</i> from within the noun phrase is permitted.<link rid="fn13">
+<sup>13</sup></link> Sentence (47a) shows that the containing noun phrase can be pied-piped.<link rid="fn14">
+<sup>14</sup></link>
+</p>
+<p>(47)&ensp;<object id="tu37" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu37_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;Wat voor (een) boek&rsqb;<sub>i</sub> heb je t<sub>i</sub> gelezen?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Wat<sub>i</sub> heb je &lsqb;t<sub>i</sub> voor (een) boek&rsqb; gelezen? </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This same extraction pattern is found in many other Germanic languages:<link rid="fn15">
+<sup>15</sup></link>
+</p>
+<p>(48)&ensp;<object id="tu38" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu38_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry><i>Was</i> hast du</entry>
+<entry>&lsqb;&ndash; f&uuml;r ein Buch&rsqb;</entry>
+<entry>gelesen?</entry>
+<entry>German</entry>
+</row>
+<row><entry>what have you</entry>
+<entry>&ndash; for a book</entry>
+<entry>read</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;What kind of book did you read?&rsquo;</entry>
+<entry>
+</entry>
+</row>
+<row><entry morerows="2">b.</entry>
+<entry><i>Hva</i> leser du</entry>
+<entry>&lsqb;&ndash; for ei bok&rsqb;?</entry>
+<entry>
+</entry>
+<entry>Norwegian</entry>
+</row>
+<row><entry>what read you</entry>
+<entry>&ndash; for a book</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;What kind of book do you read?&rsquo;</entry>
+<entry>
+</entry>
+</row>
+<row><entry morerows="2">c.</entry>
+<entry><i>Vad</i> l&auml;ser du</entry>
+<entry>&lsqb;&ndash; f&ouml;r en bok&rsqb;?</entry>
+<entry>
+</entry>
+<entry>Swedish</entry>
+</row>
+<row><entry>what read you</entry>
+<entry>&ndash; for a book</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;What kind of book do you read?&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Subextraction of <i>wat</i> obviously poses a problem for Ross&apos;s Left Branch Condition (or any of its reformulations; cf. sections 2 and 3.1). The <i>wh-</i>element is the leftmost constituent within the noun phrase and should therefore not be accessible to movement operations according to the LBC. Under Bresnan&apos;s Relativized A-over-A condition (<link rid="ss7">section 3.2.1</link>), the possibility of extracting the nominal element <i>wat</i> out of the containing noun phrase (<i>wat voor een boek</i>) is not expected either: it is the containing NP which is the maximal target predicate for question formation. As regards the Subjacency condition (<link rid="ss8">section 3.2.2</link>), the question obviously arises why movement of an element from within the noun phrase to the left periphery of the clause does not yield a violation of this locality constraint; this under the assumption that NP and S are the bounding nodes for Dutch.<link rid="fn16">
+<sup>16</sup></link> And if one adopts an approach towards subextraction possibilities in terms of proper government (i.e., ECP), the question should be raised why the trace left behind in (47) is accessible to proper goverment, whereas a trace of some other <i>wh-</i>determiner (e.g., <i>welke</i> &lsquo;which&rsquo;) is not; see (49):</p>
+<p>(49)&ensp;<object id="tu39" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu39_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>*<i>Welk</i>
+</entry>
+<entry>heb</entry>
+<entry>je</entry>
+<entry>&lsqb;&ndash; boek&rsqb; gelezen?</entry>
+<entry>Dutch</entry>
+</row>
+<row><entry>which</entry>
+<entry>have</entry>
+<entry>you</entry>
+<entry>&ndash; book read</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col4">&lsquo;Which book have you read?&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>All in all, the question that arises is the following: what property does the <i>wat voor N</i>-construction have that other nominal constructions also featuring a <i>wh-</i>determiner (e.g., <i>welke auto</i> &lsquo;which car&rsquo;) lack? In what follows, a number of analyses of the discontinuous <i>wat voor N</i>-construction will be presented. At the outset it should be pointed out that one logically possible analysis should be rejected immediately, namely, an analysis according to which (47b) does not feature subextraction of <i>wat</i> but, rather, involves fronting of the entire noun phrase and subsequent extraposition of the sequence <i>voor (een) boek</i>. Such an analysis is excluded for the simple reason that the sequence <i>voor N</i> does not occupy an &lsquo;extraposed&rsquo; position. In (50a), for example, the sequence <i>voor boek</i> precedes the verb and hence occupies a clause-internal (i.e., non-extraposed) position. If extaposition were involved, we would have the structure in (50b).<link rid="fn17">
+<sup>17</sup></link> Notice also that the string <i>voor N</i> can be followed by an obligatory constituent selected by the verb; cf. (51).</p>
+<p>(50)<object id="tu40" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu40_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry><i>Wat</i>
+</entry>
+<entry>heb</entry>
+<entry>je</entry>
+<entry>&lsqb;&ndash; voor boek&rsqb; gekocht?</entry>
+<entry>Dutch</entry>
+</row>
+<row><entry>what</entry>
+<entry>have</entry>
+<entry>you</entry>
+<entry>&ndash; for book bought</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;What kind of book did you buy?&rsquo;</entry>
+</row>
+<row><entry morerows="2">b.</entry>
+<entry><sup>&num;</sup><i>Wat</i>
+</entry>
+<entry>heb</entry>
+<entry>je</entry>
+<entry>gekocht <i>voor boek?</i>
+</entry>
+<entry>
+</entry>
+</row>
+<row><entry>what</entry>
+<entry>have</entry>
+<entry>you</entry>
+<entry>bought for book</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;What kind of book did you buy?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(51)&ensp;<object id="tu41" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu41_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry><i>Wat</i>
+</entry>
+<entry>heeft Jan</entry>
+<entry>&lsqb;&ndash; voor boeken&rsqb;</entry>
+<entry>op tafel gelegd?</entry>
+</row>
+<row><entry>what</entry>
+<entry>has Jan</entry>
+<entry>&ndash; for books</entry>
+<entry>on table put</entry>
+</row>
+<row><entry namest="col1" nameend="col4">&lsquo;What kind of books did Jan put on the table?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+</subsection>
+<subsection id="ss13" level="2">
+<heading id="h12" level="2">4.2&ensp;Approaches to the split <roman>wat voor N-</roman>construction</heading>
+<subsection id="ss14" level="3">
+<heading id="h13" level="3">4.2.1&ensp;Categorial change: the <roman>wat voor N-</roman>phrase as a &lsqb;&minus;V&rsqb;-category</heading>
+<p>
+<link rid="b35">Den Besten (1985</link>) argues that the proper treatment of the split <i>wat voor</i>-construction involves subextraction of the question word <i>wat</i>. He assumes that extraction of <i>wat</i> from within the NP changes the categorial status of the containing noun phrase. After subextraction, the &lsqb;<i>t<sub>i</sub> voor N</i>&rsqb;-phrase changes from &lsqb;&plus;N, &minus;V&rsqb;<sup>3</sup> into &lsqb;&minus;V&rsqb;<sup>3</sup>.</p>
+<p>(52) &lsqb;<sub>&minus;V3</sub> wat &lsqb;<sub>&minus;V2</sub> &lsqb;<sub>&minus;V1</sub> &lsqb;<sub>&minus;V</sub> voor&rsqb; &lsqb;<sub>NP</sub> een auto&rsqb;&rsqb;&rsqb;&rsqb;</p>
+<p>According to Den Besten, this categorial change is due to the presence of the preposition <i>voor</i>, which becomes the head of the &lsqb;&minus;V&rsqb;<sup>3</sup>-category after subextraction of <i>wat</i>. The &lsqb;&minus;V&rsqb;<sup>3</sup>-internal trace gets properly governed by the verb via the preposition which is the head of the &lsqb;&minus;V&rsqb;<sup>3</sup>-phrase. It is further argued that the switch from &lsqb;&plus;N, &minus;V&rsqb;<sup>3</sup> to &lsqb;&minus;V&rsqb;<sup>3</sup> accounts for the absence of subjacency effects in the split wat voor-construction.<link rid="fn18">
+<sup>18</sup></link> Under the assumption that &lsqb;&minus;V&rsqb;<sup>3</sup> is not a bounding node, no subjacency violation is triggered if <i>wat</i> is moved to Comp, because S is the only bounding node separating the moved <i>wh-</i>element and its trace.</p>
+<p>(53)&ensp;<object id="tu42" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu42_source">
+<tbl frame="none">
+<tgroup cols="12">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<colspec colnum="7" colname="col7" align="char" char="."/>
+<colspec colnum="8" colname="col8" align="char" char="."/>
+<colspec colnum="9" colname="col9" align="char" char="."/>
+<colspec colnum="10" colname="col10" align="char" char="."/>
+<colspec colnum="11" colname="col11" align="char" char="."/>
+<colspec colnum="12" colname="col12" align="char" char="."/>
+<tbody>
+<row><entry>Ik vraag</entry>
+<entry>me</entry>
+<entry>af</entry>
+<entry>&lsqb;<sub>S&prime;</sub>
+</entry>
+<entry>wat</entry>
+<entry>&lsqb;<sub>S</sub> Jan &lsqb;<sub>VP</sub>
+</entry>
+<entry>&lsqb;<sub>&minus;V3</sub>
+</entry>
+<entry>&ndash; voor</entry>
+<entry>een</entry>
+<entry>auto&rsqb;</entry>
+<entry>koopt&rsqb;&rsqb;&rsqb;.</entry>
+<entry>Dutch</entry>
+</row>
+<row><entry>I wonder</entry>
+<entry>Refl</entry>
+<entry>Prt</entry>
+<entry>what</entry>
+<entry> John</entry>
+<entry>
+</entry>
+<entry>&ndash; for </entry>
+<entry>a </entry>
+<entry>car </entry>
+<entry>buys</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col12">&lsquo;I wonder what kind of car John will buy.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Notice that this account holds only if the Subjacency condition is considered a condition on representations and not a condition on rule application. That is, the condition must apply to the output of the movement rule.</p>
+<p>Den Besten further argues that the Left Branch Condition effect, which is said to be reducible to the ECP, is suspended because the trace of <i>wat</i> is licensed by the preposition <i>voor</i>. He claims that <i>voor</i> will not suffice as a proper governor itself since it is a weak governor. It is assumed that the lexical category V properly governs the trace of <i>wat</i> through the head of the new category &lsqb;&minus;V&rsqb;<sup>3</sup>, i.e., through the preposition <i>voor</i>. The property of proper government trickles down to the head &lsqb;&minus;V&rsqb; (cf. <link rid="ss9">section 3.3</link> for discussion of proper government of V into the noun phrase). So the <i>wh-</i>trace in &lsqb;&minus;V&rsqb;<sup>3</sup> will be licensed (&equals; properly governed) by a chain of governors.</p>
+<p>In short, it is the categorial change of the containing noun phrase from &lsqb;&plus;N, &minus;V&rsqb; into &lsqb;&minus;V&rsqb; that is of importance in this analysis: the &lsqb;&minus;V&rsqb;-projection is not a bounding node for Subjacency; furthermore, this projection is accessible to government from outside. A noun phrase like <i>welke auto</i> (&lsquo;which car&rsquo;), which lacks a prepositional element like <i>voor</i>, does not permit such a categorial change. Subextraction of <i>welke</i> will be from within the maximal projection of &lsqb;&plus;N, &minus;V&rsqb; (i.e., NP) and consequently yield a Subjacency-violation and an ECP-violation (under the assumption that &lsqb;Spec, NP&rsqb; is not accessible to external governors; see <link rid="ss9">section 3.3</link>).</p>
+</subsection>
+<subsection id="ss15" level="3">
+<heading id="h14" level="3">4.2.2&ensp;The <roman>wat voor N-</roman>construction as a reanalyzed structure</heading>
+<p>
+<link rid="b36">Bennis (1983</link>) proposes that the string <i>wat voor N</i> is best viewed as a co-analyzed or reanalyzed structure. Co-analysis refers to a situation in which a string is assigned more than one structural analysis because of the ambiguous behavior of some linguistic element. The co-analyzed structure can be represented by a &lsquo;double tree representation&rsquo;, i.e., a tree with two dimensions. Under this reanalysis approach, the string <i>wat voor N</i> is assigned two structural representations: one in which <i>wat voor</i> forms a unit separate from N (dimension I in (54)) another in which <i>voor N</i> forms a unit that combines with <i>wat</i> (dimension II in (54)). The tree is displayed as two coexisting dimensions, each of which is a tree with its own properties.</p>
+<p>(54)&ensp;<object id="fu4" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_66_fu4.jpg" type="jpg" id="fu4_source"/>
+</objectsource>
+</object>
+</p>
+<p>Bennis notes that movement rules can apply to both levels of representation. He further argues that the reanalyzed structure in (54) as such cannot account for the split pattern. Removal of the question phrase <i>wat</i> would still be from within NP and consequently violate such principles as the LBC, the Subjacency Condition, and the ECP. It is therefore suggested that a second reanalysis operation applies to the output of the first reanalysis operation (i.e., the lower dimension in (54)). This yields a triple tree structure. For the sake of clarity, (55) only gives the two reanalyzed dimensions.</p>
+<p>(55)&ensp;<object id="fu5" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_66_fu5.jpg" type="jpg" id="fu5_source"/>
+</objectsource>
+</object>
+</p>
+<p>Dimension III permits extraction of the question word <i>wat</i>, which is no longer within the noun phrase after the second reanalysis operation has applied. The LBC is not violated in this dimension since the question word is not a left-branch specifier of the noun phrase in this third dimension. The Subjacency Condition is not violated either in dimension III because movement of <i>wat</i> crosses only the bounding node S. ECP is also satisfied, since the verb properly governs the trace of the moved question word.</p>
+<p>What distinguishes the <i>wat voor N</i>-construction from nominal constructions that do not permit left-branch subextraction is the property of reanalysis. The noun phrase <i>wat voor N</i> can be restructured in such a way that the <i>wh-</i>element <i>wat</i> is no longer part of the noun phrase. The underlying assumption is that similar restructurings are not possible with such noun phrases as <i>welke auto</i> (&lsquo;which car&rsquo;), that do not allow subextraction of the <i>wh-</i>element.</p>
+</subsection>
+<subsection id="ss16" level="3">
+<heading id="h15" level="3">4.2.3&ensp;The <roman>wat voor N-</roman>construction as an adjunction configuration</heading>
+<p>In <link rid="b25">Corver (1990</link>; <link rid="b37">1991b</link>) it is argued that the proper analysis of a <i>wat voor N</i>-phrase like <i>wat voor een auto</i> is the one given in (56).</p>
+<p>(56)&ensp;<object id="fu6" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_66_fu6.jpg" type="jpg" id="fu6_source"/>
+</objectsource>
+</object>
+</p>
+<p>The interrogative element is the head of this phrase; the string <i>voor</i> (<i>een</i>) <i>N</i> forms a PP which is base-adjoined to DP. The optional article <i>een</i> occupies the lower D-position and takes an NP-complement. It is assumed that the DP <i>wat</i> is not an argument of some predicate; e.g., it is not assigned a theta role by the verb.<link rid="fn19">
+<sup>19</sup></link> It is the entire <i>wat voor</i>-phrase which is the argument of the verb. It is further proposed that the PP headed by <i>voor</i> behaves as predicative phrase with regard to <i>wat</i>. Support for the predicative status of the PP headed by <i>voor</i> is given by the following examples, where <i>voor</i> also shows up in predicative contexts.</p>
+<p>(57)&ensp;<object id="tu43" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu43_source">
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Ik schold hem uit</entry>
+<entry>&lsqb;voor (een) bedrieger&rsqb;.</entry>
+</row>
+<row><entry>I called him Prt</entry>
+<entry>for (an) impostor</entry>
+</row>
+<row><entry namest="col2" nameend="col3">&lsquo;I called him an impostor.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>Ik hield het</entry>
+<entry>&lsqb;voor waar&rsqb;.</entry>
+</row>
+<row><entry>I held it</entry>
+<entry>for true</entry>
+</row>
+<row><entry namest="col2" nameend="col3">&lsquo;I took it to be true.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Adopting a Barriers-type framework, Corver accounts for the possibility of subextracting <i>wat</i> in the following way. In (58) <i>wat</i> has been reordered out of a direct object noun phrase. Neither the Subjacency Condition nor the ECP is violated since the fronted <i>wat</i> can reach &lsqb;Spec, CP&rsqb; without crossing any barrier (i.e., a maximal projection that is not L-marked). The direct object-DP itself is L-marked (i.e., assigned a theta role by a lexical category) and therefore does not constitute a barrier for extraction. The potential barrierhood of VP can be voided via adjunction to it, and IP is not a barrier by stipulation. Schematically (note that the finite verb has been moved to C):</p>
+<p>(58) &lsqb;<sub>CP</sub> wat<sub>i</sub> &lsqb;<sub>C&prime;</sub> heb &lsqb;<sub>IP</sub> je &lsqb;<sub>VP</sub> t&prime;<sub>i</sub> &lsqb;<sub>VP</sub> &lsqb;<sub>DP</sub> t<sub>i</sub> voor boek&rsqb; gekocht&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;</p>
+<p>Summarizing, Corver&apos;s analysis crucially assumes that the <i>wat voor N</i>-construction has a different phrasal structure than those nominal constructions (e.g., <i>welke auto</i>, &lsquo;which car&rsquo;) that do not feature subextraction. The former involves an adjunction configuration: a predicative PP is base-adjoined to the DP <i>wat</i>. In a nominal construction like <i>welke auto</i>, the <i>wh-</i>determiner <i>welke</i> heads the DP-projection and takes the NP <i>auto</i> as its complement: &lsqb;<sub>DP</sub> &lsqb;<sub>D&prime;</sub> <i>welke</i> &lsqb;<sub>NP</sub> <i>auto</i>&rsqb;&rsqb;&rsqb;. The D-head cannot be extracted from within the containing DP; see Corver&apos;s analysis of the left-branch effect in <link rid="ss9">section 3.3</link>.<link rid="fn20">
+<sup>20</sup></link>
+</p>
+</subsection>
+<subsection id="ss17" level="3">
+<heading id="h16" level="3">4.2.4&ensp;The <roman>wat voor N-</roman>construction as a predicate displacement construction</heading>
+<p>The analyses presented thus far assume that the <i>wh-</i>element <i>wat</i> is base-generated as a left peripheral element within the containing noun phrase. Contrary to those analyses, <link rid="b38">Bennis et al. (1998</link>) claim that the <i>wh-</i>element <i>wat</i> is in a derived position. They assume that <i>wat</i> originates as a DP-internal nominal predicate which is moved to the left periphery of the extended nominal projection (i.e., &lsqb;Spec, DP&rsqb;).<link rid="fn21">
+<sup>21</sup></link> Obviously, this <i>wh-</i>movement process is similar to <i>wh-</i>movement within the clausal domain. According to this analysis, a noun phrase like <i>wat voor boeken</i> &lsquo;what for books&rsquo; has the underlying structure in (59a). In this structure, the noun phrase contains a Small Clause structure (XP), which configurationally defines the predication relationship between <i>boeken</i> and <i>wat</i>. After predicate displacement has applied to the <i>wh-</i>word, <i>wat</i> ends up in &lsqb;Spec, DP&rsqb;, which is the leftmost position within the nominal domain. This derived structure is given in (59b).<link rid="fn22">
+<sup>22</sup></link>
+</p>
+<p>(59)&ensp;<object id="tu44" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu44_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>&lsqb;<sub>DP</sub> &lsqb;<sub>D&prime;</sub> voor<sub>&lsqb;&plus;wh&rsqb;</sub> &lsqb;<sub>XP</sub> boeken &lsqb;<sub>X&prime;</sub> X wat&rsqb;&rsqb;&rsqb;&rsqb;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>DP</sub> wat<sub>i</sub> &lsqb;<sub>D&prime;</sub> voor<sub>&lsqb;&plus;wh&rsqb;</sub> &lsqb;<sub>XP</sub> boeken &lsqb;<sub>X&prime;</sub> X t<sub>i</sub>&rsqb;&rsqb;&rsqb;&rsqb; </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As depicted in (59), <i>voor</i> is taken to be a &lsqb;&plus;WH&rsqb; operator head, i.e., a prepositional head with interrogative force. Evidence for this analysis comes from the fact that many southern varieties of Dutch and substandard Dutch in fact use <i>voor</i> as the infinitival complementizer in constructions that feature operator (OP) movement to &lsqb;Spec, CP&rsqb;.</p>
+<p>(60)&ensp;<object id="tu45" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu45_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry>een boek</entry>
+<entry>&lsqb;OP<sub>i</sub>
+</entry>
+<entry><i>voor</i>
+</entry>
+<entry>&lsqb;<sub>IP</sub> t<sub>i</sub> in te kijken&rsqb;&rsqb;</entry>
+<entry>Dutch</entry>
+</row>
+<row><entry>a book</entry>
+<entry>OP</entry>
+<entry>for</entry>
+<entry>&ndash; into to look</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col5">&lsquo;a book to look into&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(61)&ensp;<object id="tu46" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu46_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>Dit</entry>
+<entry>is een man</entry>
+<entry>&lsqb;OP<sub>i</sub><i> voor</i>
+</entry>
+<entry>&lsqb;<sub>IP</sub> PRO t<sub>i</sub> in het oog te houden&rsqb;&rsqb;.</entry>
+</row>
+<row><entry>this</entry>
+<entry>is a man</entry>
+<entry>OP for</entry>
+<entry>PRO &ndash; in the eye to keep</entry>
+</row>
+<row><entry namest="col1" nameend="col4">&lsquo;That is a man to keep an eye on.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The subextraction phenomenon is not dicussed by Bennis et al., though it is quite clear that the subextraction possibility should be related to the fact that the fronted <i>wat</i> occupies the highest A&prime;-position within the extended nominal projection. Analogous to subextraction from the clausal domain via &lsqb;Spec, CP&rsqb;, elements leave the noun phrase via &lsqb;Spec, DP&rsqb;. On the assumption that the specifier position of functional projections (like IP, CP, and DP) is accessible to an external proper governor, say, V, (cf. <link rid="ss9">section 3.3</link>) the extractability of <i>wat</i> is compatible with the ECP-constraint. Notice also that subextraction is compatible with Kennedy and Merchant&apos;s theory on subextraction (cf. <link rid="ss10">section 3.4</link>). They argued that subextraction from within a noun phrase (i.e., DP) is blocked if after subextraction has applied a nominal configuration is created with a feature specification on D for which no lexical item with a matching feature constellation can be found in the lexicon. Since the prepositional determiner <i>voor</i> carries the &lsqb;&plus;wh&rsqb;-feature, subextraction of the <i>wh-</i>element <i>wat</i> from within DP does not yield an uninterpretable phonological representation.</p>
+</subsection>
+</subsection>
+<subsection id="ss18" level="2">
+<heading id="h17" level="2">4.3&ensp;A subject&ndash;object asymmetry</heading>
+<p>As first observed in Den <link rid="b39">Besten (1981</link>), the <i>wat voor</i>-noun phrase can be split (by subextraction of <i>wat</i>) if it occupies the direct object position, but not when it is in the subject position of the clause, i.e., &lsqb;Spec, IP&rsqb; (see also <link rid="b40">Hoekstra 1984b</link>; <link rid="b41">Koster 1987</link>). Sentence (62) exemplifies subextraction of <i>wat</i> from a direct object noun phrase. The examples in (63) show that subextraction is not permitted when the <i>wat voor</i>-phrase is in &lsqb;Spec, IP&rsqb;.</p>
+<p>(62)&ensp;<object id="tu47" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu47_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry><i>Wat</i> heb je</entry>
+<entry>&lsqb;&ndash; voor boeken&rsqb;</entry>
+<entry>gelezen?</entry>
+<entry>Dutch</entry>
+</row>
+<row><entry>what have you</entry>
+<entry>&ndash; for books</entry>
+<entry>read</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;What kind of books have you read?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry><i>Wat</i> denk je</entry>
+<entry>dat Jan</entry>
+<entry>&lsqb;&ndash; voor boeken&rsqb;</entry>
+<entry>heeft gekocht?</entry>
+</row>
+<row><entry>what think you</entry>
+<entry>that John</entry>
+<entry>&ndash; for books</entry>
+<entry>has bought</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;What kind of books do you think John bought?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(63)&ensp;<object id="tu48" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu48_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>*<i>Wat</i>
+</entry>
+<entry>hebben</entry>
+<entry>&lsqb;&ndash; voor mensen&rsqb;</entry>
+<entry>gisteren</entry>
+<entry>hun huis verkocht?</entry>
+</row>
+<row><entry>what</entry>
+<entry>have</entry>
+<entry>&ndash; for people</entry>
+<entry>yesterday</entry>
+<entry>their house sold</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;What kind of people sold their house yesterday?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>*<i>Wat</i>
+</entry>
+<entry>denk je dat</entry>
+<entry>&lsqb;&ndash; voor mensen&rsqb;</entry>
+<entry>hun huis hebben verkocht?</entry>
+</row>
+<row><entry>what</entry>
+<entry>think you that</entry>
+<entry>&ndash; for people</entry>
+<entry>their house have sold</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;What kind of people do you think have sold their house?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Den Besten explains this subject&ndash;object asymmetry in terms of the Empty Category Principle (ECP). In (62), the trace left behind after subextraction of <i>wat</i> is properly governed by the verb which takes the noun phrase as its complement. The verb is able to govern the specifier position of the direct object noun phrase. For subjects, however, there is no proper governor, which explains the ungrammaticality of the examples in (63). Interestingly, a similar contrast can be observed in examples like (64) and (65).</p>
+<p>(64)&ensp;<object id="tu49" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu49_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry><i>Wat</i>
+</entry>
+<entry>werd hem gisteren</entry>
+<entry>&lsqb;&ndash; voor iets&rsqb;</entry>
+<entry>aangeboden?</entry>
+</row>
+<row><entry>what</entry>
+<entry>was him yesterday</entry>
+<entry>&ndash; for something</entry>
+<entry>offered</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;What kind of thing was offered to him yesterday?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry><i>Wat</i>
+</entry>
+<entry>zijn</entry>
+<entry>hem toen</entry>
+<entry>&lsqb;&ndash; voor rampen&rsqb;</entry>
+<entry>overkomen?</entry>
+</row>
+<row><entry>what</entry>
+<entry>are</entry>
+<entry>him then</entry>
+<entry>&ndash; for disasters</entry>
+<entry>happened-to</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;What kind of disasters happened to him?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(65)&ensp;<object id="tu50" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu50_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>*<i>Wat</i>
+</entry>
+<entry>werd</entry>
+<entry>&lsqb;&ndash; voor iets&rsqb;</entry>
+<entry>hem gisteren</entry>
+<entry>aangeboden?</entry>
+</row>
+<row><entry>what</entry>
+<entry>was</entry>
+<entry>&ndash; for something</entry>
+<entry>him yesterday</entry>
+<entry>offered</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;What kind of thing was offered to him yesterday?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>*<i>Wat</i>
+</entry>
+<entry>zijn</entry>
+<entry>&lsqb;&ndash; voor rampen&rsqb;</entry>
+<entry>hem toen</entry>
+<entry>overkomen?</entry>
+</row>
+<row><entry>what</entry>
+<entry>are</entry>
+<entry>&ndash; for disasters</entry>
+<entry>him then</entry>
+<entry>happened-to</entry>
+</row>
+<row><entry namest="col2" nameend="col6">&lsquo;What kind of disasters happened to him?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>If the contrast between (64) and (65) is to be explained in terms of ECP, it should be concluded that the grammatical subject <i>wat voor iets</i>/<i>wat voor rampen</i> (i.e., the noun phrase that agrees with the finite verb) occupies the (VP-internal) direct object position. Only in this position is the (specifier position of the) noun phrase properly governed by the verb. In (64a) it is a passive verb which acts as a proper governor; in (64b) an ergative verb properly governs the trace. In the ill-formed examples in (65) the grammatical subject is in the structural subject position, i.e., &lsqb;Spec, IP&rsqb;, hence, no longer within the proper government domain of the verb. Consequently, subextraction is not permitted.</p>
+</subsection>
+</subsection>
+<subsection id="ss19" level="1">
+<heading id="h18" level="1">5&ensp;Subextraction in Slavic languages</heading>
+<p>As <link rid="b3">Ross (1986</link>: 145ff.) himself already observed, left-branch-specifying or modifying elements can be removed from the nominal domain in a language like Russian:<link rid="fn23">
+<sup>23</sup></link>
+</p>
+<p>(66)&ensp;<object id="tu51" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu51_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry><i>&#x010C;&prime;ju knigu</i>
+</entry>
+<entry>&#x010D;itaje&scaron; &ndash;?</entry>
+<entry>Russian</entry>
+</row>
+<row><entry>whose book</entry>
+<entry>you-are reading-</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;Whose book are you reading?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry><i>&#x010C;&prime;ju &#x010D;itaje&scaron;</i>
+</entry>
+<entry>&lsqb;&ndash; knigu&rsqb;?</entry>
+</row>
+<row><entry>whose you-are-reading</entry>
+<entry>&ndash; book</entry>
+</row>
+<row><entry namest="col2" nameend="col3">&lsquo;Whose book are you reading?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Given the well-formedness of the subextraction in (66), Ross concludes that the LBC is not operative in Russian. The question, of course, arises whether this difference in subextraction behavior can be reduced to some grammatical property on which languages can vary. As was already hinted at by Ross, languages violating the LBC are characterized by a rich morphology. One might therefore want to propose that discontinuous patterns are possible as long as the dependency between the extracted specifier (e.g., in (66)) and the remote head (<i>knigu</i>) is morphologically recoverable. This is the approach taken by <link rid="b42 b43 b44">Horn (1974, 1978, 1983</link>). He proposes a condition called the Noun Phrase Constraint (NPC), which excludes removal of any element from within the noun phrase. So this locality constraint rules out left- and right-branch extractions out of the English noun phrase:</p>
+<p>(67)&ensp;<object id="tu52" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu52_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*<i>Which</i> did you destroy &lsqb;&ndash; book&rsqb;?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*<i>About whom</i> did you destroy &lsqb;a book &ndash;&rsqb;? </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Horn points out that in a language like Polish, subextraction of an agreeing element &ndash; which typically occurs on a left-branch &ndash; is permitted, while extraction of a non-agreeing constituent (e.g., a PP) is not:</p>
+<p>(68)&ensp;<object id="tu53" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu53_source">
+<tbl frame="none">
+<tgroup cols="5">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry><i>Jakie</i> po&#x017C;yczy&#x0142;e&#x015B;</entry>
+<entry>&lsqb;<sub>NP</sub> &ndash; ksi<object id="fu7" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_66_fu7.gif" type="gif" id="fu7_source"/>
+</objectsource>
+</object>&#x017C;ki&rsqb;</entry>
+<entry>z biblioteki?</entry>
+<entry>Polish</entry>
+</row>
+<row><entry>which-Acc you-borrow</entry>
+<entry>&ndash; books-Acc</entry>
+<entry>from library</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;Which books did you borrow from the library?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>*<i>O kim</i>
+</entry>
+<entry>on zniszczy&#x0142;</entry>
+<entry>&lsqb;<sub>NP</sub> ksi<object id="fu7" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_66_fu7.gif" type="gif" id="fu7_source"/>
+</objectsource>
+</object>&#x017C;k<object id="fu8" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_66_fu8.gif" type="gif" id="fu8_source"/>
+</objectsource>
+</object> &ndash;&rsqb;?</entry>
+</row>
+<row><entry>about whom</entry>
+<entry>he destroyed</entry>
+<entry>book-Acc</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;He destroyed a book about whom?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Adjectival forms like <i>jaki</i> are marked morphologically to agree with the head noun that they are related to in gender, number, and case. In contrast, PPs are not marked according to whether they occur in an NP. On the basis of the asymmetry in (68), Horn concludes that &ldquo;the NPC is valid in Polish, but can be overridden just in case there are morphological markers present in the surface structure that can function to associate a constituent in Comp with an empty node elsewhere in the structure&rdquo; (<link rid="b44">Horn 1983</link>: 188).</p>
+<p>In <link rid="b25 b26">Corver (1990, 1992</link>), a different approach is taken to the asymmetry between left-branch subextraction languages and non-subextraction languages. He relates the contrast to the configurational structure of the noun phrase, more specifically, the presence of the DP-layer within the extended nominal projection. That is, languages whose nominals project to DP do not permit subextraction of specifying or modifying elements. Languages whose nominal projections lack the DP-level (i.e., &lsquo;bare&rsquo; NPs) permit subextraction from the nominal domain.<link rid="fn24">
+<sup>24</sup></link> The impossibility of subextraction from DP in a language like English has been discussed in <link rid="ss9">section 3.3</link>. As regards the transparancy of bare NPs, consider the following structural environment, where &alpha; is the left-branch element targeted for movement:</p>
+<p>(69) &lsqb;<sub>CP</sub> .&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>VP</sub> V &lsqb;<sub>NP</sub> &alpha; &lsqb;<sub>N&prime;</sub> N&rsqb;&rsqb;&rsqb;&rsqb;</p>
+<p>In a Barriers framework, the extractability of left-branch specifiers (and modifiers) follows directly. The NP is L-marked by the verb and therefore does not constitute a barrier. Via intermediate adjunction to VP, the left-branch element can reach &lsqb;Spec, CP&rsqb; without violating Subjacency or the ECP. Schematically, (68a) has the following derived structure:</p>
+<p>(70) &lsqb;<sub>CP</sub> <i>Jakie</i><sub>i</sub> &lsqb;<sub>C&prime;</sub> &lsqb;<sub>IP</sub> .&nbsp;.&nbsp;.&nbsp;&lsqb;<sub>VP</sub> t&prime;<sub>i</sub> &lsqb;<sub>VP</sub> &lsqb;<sub>NP</sub> &ndash; &lsqb;<sub>N&prime;</sub> ksi<object id="fu7" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_66_fu7.gif" type="gif" id="fu7_source"/>
+</objectsource>
+</object>&#x017C;k<object id="fu8" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_66_fu8.gif" type="gif" id="fu8_source"/>
+</objectsource>
+</object>&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;</p>
+<p>As pointed out by <link rid="b25">Corver (1990</link>: 332), potential support for the claim that languages like Russian, Czech, and Polish lack a DP is the fact that they do not have articles corresponding to <i>the</i> or <i>a</i> in English (cf. also <link rid="b45">Zlati&#x0107; (1997</link>)). Clearly, articles are the canonical realizations of D.<link rid="fn25">
+<sup>25</sup></link>
+</p>
+<p>(71)&ensp;<object id="tu54" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu54_source">
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry>Ptak</entry>
+<entry>patrzy na</entry>
+<entry>kota.</entry>
+<entry>Polish</entry>
+</row>
+<row><entry>bird</entry>
+<entry>looks at</entry>
+<entry>cat</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col1" nameend="col3">&lsquo;The/a bird is looking at the/a cat.&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Corver further argues that potential candidates for the category D, like demonstratives, possessive pronouns, etc., should be analyzed as adjectives (see also <link rid="b43 b44">Horn 1978, 1983</link>). Being adjectives, they are part of the NP-projection. Evidence for their adjectival status comes from the fact that demonstratives and possessive pronouns have (declension) endings similar to normal adjectives.</p>
+<p>As pointed out in <link rid="b4">Rappaport (2000</link>), a bare NP-analysis for those languages that permit left-branch subextraction raises the question why subextraction of right-branch elements (e.g., PPs) is not permitted either (see also <link rid="b42 b43 b44">Horn 1974, 1978, 1983</link>). If V takes a bare NP-complement containing a PP, this PP should be able to leave the NP, since the latter is L-marked by the verb and, therefore, not a barrier for extraction. As shown by the following examples, however, PPs cannot be removed from within the noun phrase (see also Horn); examples taken from <link rid="b4">Rappaport (2000</link>):</p>
+<p>(72)&ensp;<object id="tu55" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu55_source">
+<tbl frame="none">
+<tgroup cols="6">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<colspec colnum="5" colname="col5" align="char" char="."/>
+<colspec colnum="6" colname="col6" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>*<i>Z czym</i>
+</entry>
+<entry>postrzelili</entry>
+<entry>przed domem</entry>
+<entry>&lsqb;ch&#x0142;opca &ndash;&rsqb;?</entry>
+<entry>Polish</entry>
+</row>
+<row><entry>with what</entry>
+<entry>he-shot</entry>
+<entry>in-front-of house</entry>
+<entry>boy</entry>
+<entry>
+</entry>
+</row>
+<row><entry namest="col2" nameend="col5">&lsquo;With what did they shoot &lsqb;a boy &ndash;&rsqb; in front of the house?&rsquo;</entry>
+<entry>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="3">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<tbody>
+<row><entry morerows="1">
+</entry>
+<entry>A:</entry>
+<entry>Ze skakank<object id="fu7" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_66_fu7.gif" type="gif" id="fu7_source"/>
+</objectsource>
+</object> with jump.rope</entry>
+</row>
+<row><entry>A:</entry>
+<entry>with a jump rope</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+<tbl frame="none">
+<tgroup cols="4">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<colspec colnum="3" colname="col3" align="char" char="."/>
+<colspec colnum="4" colname="col4" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">b.</entry>
+<entry>*<i>Od kogo</i>
+</entry>
+<entry>zniszczy&#x0142;e&#x015B;</entry>
+<entry>&lsqb;list &ndash;&rsqb;?</entry>
+</row>
+<row><entry>From whom</entry>
+<entry>you-destroyed</entry>
+<entry>letter &ndash;</entry>
+</row>
+<row><entry namest="col2" nameend="col4">&lsquo;From whom did you destroy &lsqb;a letter &ndash;&rsqb;?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In English, right-branch adjunct-PPs cannot be removed either from within the noun phrase:</p>
+<p>(73)&ensp;<object id="tu56" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu56_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Peter kissed &lsqb;a girl with red hair&rsqb;.</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*With what did Peter kiss &lsqb;a girl &ndash;&rsqb;? </entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>As <link rid="b46">Culicover and Rochemont (1992</link>) noted, the ill-formedness of (73b) can be explained straightforwardly if one adopts the DP-hypothesis. The category NP, by which the adjunct-PP is dominated, forms a barrier for extraction. Rappaport argues that if right-branch PP-extractions are blocked in English by the presence of a DP, the Polish facts in (72) suggest that NPs are associated with a DP in this language as well. In other words, the &lsquo;right-branch effect&rsquo; provides support for the presence of a DP-layer.<link rid="fn26">
+<sup>26</sup></link>
+</p>
+<p>If languages permitting left-branch subextraction and those blocking it share the same nominal phrase structure (i.e., DP), the question arises how to account for the left-branch subextraction asymmetry. Following ideas proposed by <link rid="b24">Giorgi and Longobardi (1991</link>) in their account of possessor-extraction phenomena, Rappaport argues that extraction of some element Y from within the nominal domain is possible if (i) &lsqb;Spec, DP&rsqb; is available as an intermediate landing site for Y, and (ii) the trace in &lsqb;Spec, DP&rsqb; can be lexically governed from outside (e.g., by V) (cf. <link rid="ss9">section 3.3</link>). As regards the first condition, it is stated that only those elements can move through &lsqb;Spec, DP&rsqb; that enter into a Spec&ndash;Head agreement relationship with D (this is under the assumption that D is the locus of phi-features and case). This implies that agreeing elements like attributive APs, possessive pronouns, and agreeing <i>wh-</i>elements can move through &lsqb;Spec, DP&rsqb; whereas non-agreeing modfiers like PPs cannot. The second condition states that the element in &lsqb;Spec, DP&rsqb; can leave this position only if the trace left behind can be lexically governed from outside, e.g., by V. In languages like Polish and Russian, V is able to govern into DP: &lsqb;Spec, DP&rsqb;, that is, is accessible to government from outside. In a language like English (and other languages blocking left-branch subextraction), V is not able to govern the specifier of a DP-complement. Thus, on this analysis, the parametric distinction between Polish and Russian, on the one hand, and, say, English, lies in whether or not V has the ability to govern inside its DP-complement.<link rid="fn27">
+<sup>27</sup></link>
+</p>
+</subsection>
+<subsection id="ss20" level="1">
+<heading id="h19" level="1">6&ensp;Conclusion</heading>
+<p>Displacement is a core property of natural language: satellite constituents of the verbal predicate can be reordered within the clausal domain, for example to &lsqb;Spec, CP&rsqb;. It was shown that it is sometimes not the entire satellite of the verbal predicate (say a direct object noun phrase) that moves to &lsqb;Spec, CP&rsqb;, but a subpart of it (e.g., a left-branch <i>wh-</i>determiner). In those cases, subextraction applies to the satellite-XP: a left-branch element is moved out of the larger phrase that functions as an argument or a predicate within the clause. In certain languages, left-branch subextraction is blocked in general and is only found in certain construction types (e.g., subextraction of <i>wat</i> from within the <i>wat voor N</i>-construction). In other languages (e.g., Russian, Polish) subextraction of left-branch elements applies much more freely. The central questions that were addressed in this study were: (a) what grammatical property accounts for the inaccessibility of left-branch elements in those languages that generally block left-branch subextraction? (b) why are certain left-branch elements (e.g., <i>wat</i> in the <i>wat voor N</i>-construction) available for subextraction in those languages that generally do not allow subextraction? (c) what grammatical property explains the rather free accessibility of left-branch elements in such languages as Polish and Russian?</p>
+</subsection>
+<subsection id="ss21" level="1">
+<heading id="h20" level="1">NOTES</heading>
+<p>
+<span id="fn1">
+<number>1&emsp;</number>Left-branch subextraction is permitted from the prepositional domain (cf. <link rid="b13">Emonds 1985</link>; <link rid="b25">Corver 1990</link>):</span>
+</p>
+<p>(i)&ensp;<object id="tu57" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu57_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry><i>How far</i> did he go &lsqb;&ndash; into the woods&rsqb;?</entry>
+</row>
+<row><entry>b.</entry>
+<entry><i>How many meters</i> did he raise his head &lsqb;&ndash; above the water&rsqb;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<span id="fn2">
+<number>2&emsp;</number>Right-branch modifiers typically cannot be removed either from within the nominal domain (cf. <link rid="b47">Bach and Horn 1976</link>):</span>
+</p>
+<p>(i)&ensp;<object id="tu58" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu58_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>*<i>With how many wheels</i> did John see &lsqb;a car &ndash;&rsqb;?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>*<i>From which shelf</i> did Susan read &lsqb;a book &ndash;&rsqb;?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>This chapter focusses on left-branch subextractions; see <link rid="ss19">section 5</link> for a brief discussion on right branch subextractions.</p>
+<p>
+<span id="fn3">
+<number>3&emsp;</number>The impossibility of removing an NP from a larger, containing, NP is also captured by <link rid="b19">Chomsky&apos;s (1964a</link>) A-over-A principle. This condition asserts that if a phrase X of category A (say, NP) is embedded within a larger phrase ZXW which is also of category A (say, NP), then no rule applying to category A applies to X (but only to ZXW); see also <link rid="ss7">section 3.2.1</link>.</span>
+</p>
+<p>
+<span id="fn4">
+<number>4&emsp;</number>
+<link rid="b3">Ross (1986</link>: 127 ff.) does not discuss instances of determiner extractions, e.g., <i>Which did he buy &lsqb;&ndash; car&rsqb;?</i> Obviously, these cases of subextraction fall under the LBC, assuming that determiners are nominal (i.e., NPs).</span>
+</p>
+<p>
+<span id="fn5">
+<number>5&emsp;</number>Ross claims that the grammar of each language is provided with what he calls a <i>conditions box</i>, in which all language-particular constraints (e.g., the LBC) are stated once for the whole language. By a universal convention of interpretation, all conditions in the conditions box will be understood to be conditions on the operation of every rule in the grammar (topicalization, relative clause formation, question formation, etc.).</span>
+</p>
+<p>
+<span id="fn6">
+<number>6&emsp;</number>The idea that the periphery of a phrase is accessible to movement operations is also proposed in <link rid="b48 b49">Chomsky (2000, 2001</link>
+<link rid="b49">b</link>). He formulates his Phase Impenetrability Condition (PIC), which states that the domain of a head H is not accessible to operations outside HP, but only H and its edge. The edge is defined as the residue outside of H-bar, i.e., SPECs or elements adjoined to HP. Direct extraction of an element from the complement position of H to a position external to HP is not allowed. Extraction from HP must always proceed via the edge of HP.</span>
+</p>
+<p>
+<span id="fn7">
+<number>7&emsp;</number>Van Riemsdijk notes that the Head Constraint can be interpreted in terms of the c-command relation: an element cannot be extracted out of a maximal projection if it is within the c-command domain of the head of that maximal projection.</span>
+</p>
+<p>
+<span id="fn8">
+<number>8&emsp;</number>Pied-piping of the entire PP is also possible; e.g., <i>Daarop heeft Jan gerekend</i> and <i>Waarop heeft Jan gerekend?</i>
+</span>
+</p>
+<p>
+<span id="fn9">
+<number>9&emsp;</number>Another locality constraint that captures the Left Branch effect is <link rid="b42 b43 b44">Horn&apos;s (1974, 1978, 1983</link>) Noun Phrase Constraint (see also <link rid="b47">Bach and Horn 1976</link>). According to this condition, no element can be removed from within NP. See also <link rid="ss19">section 5</link>.</span>
+</p>
+<p>
+<span id="fn10">
+<number>10&emsp;</number>
+<link rid="b14">Chomsky&apos;s (1973</link>) n. 10 suggests that he does not assume that the Left Branch effect reduces to a locality constraint like Subjacency (see <link rid="ss5">section 3.1</link>. for discussion).</span>
+</p>
+<p>
+<span id="fn11">
+<number>11&emsp;</number>As Giorgi and Longobardi point out, their Uniqueness Constraint on Government can be subsumed under the Minimality condition (<link rid="b30">Chomsky 1986a</link>).</span>
+</p>
+<p>
+<span id="fn12">
+<number>12&emsp;</number>The question arises why English allows such strings as <i>how big a car</i>. If these are derived by movement of the AP to &lsqb;Spec, DP&rsqb;, one would expect an ECP-violation. <link rid="b25">Corver (1990</link>: 320) tentatively proposes that such strings as <i>how big a car</i> are not derived by syntactic movement of <i>how big</i> to &lsqb;Spec, DP&rsqb; but rather by a PF-process that lowers the &lsquo;indefinite article&rsquo; to a position in between the attributive AP (which is NP-internal) and the noun. See <link rid="b33">Kennedy and Merchant (2000</link>), though, for an analysis in which the DegP moves to &lsqb;Spec, DP&rsqb; in syntax.</span>
+</p>
+<p>
+<span id="fn13">
+<number>13&emsp;</number>Certain exclamative constructions in Dutch also display a split noun phrase. As shown in (ia), the entire exclamative noun phrase can be fronted. (ib) exemplifies the split pattern, which arguably involves subextraction of the <i>wh-</i>element <i>wat</i>.</span>
+</p>
+<p>(i)&ensp;<object id="tu59" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu59_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry><i>Wat een boeken</i> heeft Jan &ndash; gekocht!</entry>
+</row>
+<row><entry>what a books has John &ndash; bought</entry>
+</row>
+<row><entry>&lsquo;The books John bought!&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry><i>Wat</i> heeft Jan <i>een boeken</i> gekocht!</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In <link rid="b25">Corver (1990</link>) it is argued, though, that the split construction in (ib) does not involve subextraction from within the noun phrase; he points out that the element <i>wat</i> can be &lsquo;removed&rsquo; from a noun phrase that is contained within an island (e.g., a PP-island; cf. (ii)).</p>
+<p>(ii)&ensp;<object id="tu60" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu60_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry><i>Wat</i> is Jan &lsqb;<sub>PP</sub> met &lsqb;<i>een leuke vrouw</i>&rsqb; getrouwd!</entry>
+</row>
+<row><entry>what is John with a nice woman married</entry>
+</row>
+<row><entry>&lsquo;John is married to such a nice woman!&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>&lsqb;<sub>PP</sub> Met &lsqb;<i>wat een leuke vrouw</i>&rsqb;&rsqb; is Jan getrouwd!</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Note that a <i>wat voor N</i>-noun phrase does not permit subextraction from such an island context (cf. (iiia)); pied-piping of the PP is required, as in (iiib).</p>
+<p>(iii)&ensp;<object id="tu61" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu61_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>*Wat is Jan &lsqb;<sub>PP</sub> met &lsqb;&ndash; voor een vrouw&rsqb;&rsqb; getrouwd?</entry>
+</row>
+<row><entry>what is John with &ndash; for a woman married</entry>
+</row>
+<row><entry>&lsquo;What kind of woman is John married to?&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Met wat voor een vrouw is Jan getrouwd?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>The phenomenon of subextraction from exclamative noun phrases has also been studied for Romance languages. See, for example, <link rid="b50">G&eacute;rard (1980</link>), <link rid="b51">Milner (1978b</link>), <link rid="b52">Obenauer (1976</link>), and <link rid="b53">Radford (1982</link>).</p>
+<p>
+<span id="fn14">
+<number>14&emsp;</number>The indefinite article <i>een</i> is optional in the Dutch <i>wat voor N</i>-construction. A remarkable property of this indefinite article in Dutch is its cooccurrence with a plural N: <i>wat voor een boeken</i> (&lsquo;what kind of books&rsquo;). In <link rid="b38">Bennis et al. (1998</link>), it is claimed that this (spurious) indefinite article does not belong to the following noun (and nor to the preceding <i>wh-</i>element). They argue that <i>een</i> is the head of a DP-internal Small Clause, i.e., X, in (59).</span>
+</p>
+<p>
+<span id="fn15">
+<number>15&emsp;</number>The <i>wat voor N</i>-construction has also been examined for other Germanic languages. See, e.g., <link rid="b54">Lie (1982</link>) for Norwegian, <link rid="b55">Borj&auml;rs (1992</link>) for Swedish, Den <link rid="b39">Besten (1981</link>), and <link rid="b56">Beermann (1997</link>) for German.</span>
+</p>
+<p>
+<span id="fn16">
+<number>16&emsp;</number>On the basis of the Swedish <i>hva for N</i>-construction, <link rid="b54">Lie (1982</link>) proposes that S&prime; rather than S is the bounding node for Subjacency in Swedish.</span>
+</p>
+<p>
+<span id="fn17">
+<number>17&emsp;</number>The observation that the string <i>voor N</i> may undergo PP Extraposition was made in <link rid="b36">Bennis (1983</link>). There is vacillation about the well-formedness of such split patterns involving PP-extraposition (see Den <link rid="b35">Besten 1985</link>).</span>
+</p>
+<p>
+<span id="fn18">
+<number>18&emsp;</number>Den Besten takes NP and S as bounding nodes for Dutch.</span>
+</p>
+<p>
+<span id="fn19">
+<number>19&emsp;</number>Evidence for the nonargument-status of <i>wat</i> comes from a number of phenomena: (a) movement of <i>wat</i> across a <i>wh-</i>island yields a strong (i.e., ECP) violation (cf. (i)); (b) <i>wat</i> cannot be moved across negation (i.e., sensitivity to the negative island effect; cf. (ii)); (c) the trace of <i>wat</i> cannot license a parasitic gap (<i>pg</i>) (cf. (iii)). See <link rid="b25 b37">Corver (1990, 1991b</link>), <link rid="b57">Honcoop (1998</link>) for discussion.</span>
+</p>
+<p>(i)&ensp;<object id="tu62" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu62_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>*<i>Wat</i> vraag jij je af &lsqb;wanneer Jan &lsqb;&ndash; voor boeken&rsqb; gekocht heeft&rsqb;?</entry>
+</row>
+<row><entry>what wonder you Refl Prt when John &ndash; for books bought has</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(ii)&ensp;<object id="tu63" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu63_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>*<i>Wat</i> heeft Jan niet &lsqb;&ndash; voor boeken&rsqb; gelezen?</entry>
+</row>
+<row><entry>what has John not &ndash; for books read</entry>
+</row>
+<row><entry>&lsquo;What kind of books didn&apos;t John read?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(iii)&ensp;<object id="tu64" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu64_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>Wat heeft Jan &lsqb;zonder PRO &lsqb;<i>pg</i> voor tijdschriften&rsqb; te lezen &lsqb;&ndash; voor boeken&rsqb; weggegooid?</entry>
+</row>
+<row><entry>what has John without PRO pg for magazines to read &ndash; for books thrown away</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>Extraction of argumental <i>wat</i> does not display the above-mentioned effects.</p>
+<p>(iv)&ensp;<sup>??</sup><i>Wat</i> vraag jij je af &lsqb;wanneer Jan &ndash; gekocht heeft&rsqb;?</p>
+<p>(v)&ensp;<i>Wat</i> heeft Jan niet &ndash; gelezen?</p>
+<p>(vi)&ensp;<i>Wat</i> heeft Jan &lsqb;zonder PRO <i>pg</i> te lezen&rsqb; &ndash; weggegooid?</p>
+<p>
+<span id="fn20">
+<number>20&emsp;</number>Borj&auml;rs develops an analysis of the Swedish <i>vad for N</i>-construction in which <i>vad</i> is analyzed as the D-head and <i>for N</i> as the PP-complement of the <i>wh-</i>element. She points out that such an analysis leaves unaccounted for the subextraction contrast between a <i>vad for N</i>-construction and a nominal construction like <i>vilken N</i> (which N). She explores the possibility that <i>vad</i> is base-generated in &lsqb;Spec, DP&rsqb;, a position which is accessible to movement.</span>
+</p>
+<p>
+<span id="fn21">
+<number>21&emsp;</number>See <link rid="b58 b59">Postma (1994, 1995</link>) and <link rid="b60">Bennis (1995</link>) for a discussion of the meaning of <i>wat</i>. They both come to the conclusion that the meaning of <i>wat</i> is determined by the structural configuration in which it occurs. That is, if <i>wat</i> remains in its base position (e.g., complement to V), it gets an indefinite reading (cf. (i)), and if it occurs in the specifier position of an interrogative C, it gets an interrogative interpretation under Spec&ndash;Head agreement (cf. (ii)).</span>
+</p>
+<p>(i)&ensp;<object id="tu65" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu65_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry>Jan heeft wat gegeten.</entry>
+</row>
+<row><entry>John has what eaten</entry>
+</row>
+<row><entry>&lsquo;John has eaten something.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(ii)&ensp;<object id="tu66" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu66_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><i>Wat</i> heeft Jan &ndash; gegeten?</entry>
+</row>
+<row><entry>what has John eaten</entry>
+</row>
+<row><entry>&lsquo;What did John eat?&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<link rid="b38">Bennis et al. (1998</link>) assume that the element <i>wat</i> in the <i>wat voor N</i>-construction gets its interrogative force by occupying the Spec position of an interrogative (prepositional) determiner, namely, <i>voor</i>.</p>
+<p>
+<span id="fn22">
+<number>22&emsp;</number>
+<link rid="b38">Bennis et al. (1998</link>) argue that in <i>wat voor N</i>-constructions featuring the (spurious) indefinite article <i>een</i>, two types of predicate-movements take place. First, the nominal predicate <i>wat</i> undergoes Predicate Inversion (i.e., A-movement) to the Spec-position of some higher functional head F. This movement of the nominal predicate across the subject of the DP-internal Small Clause (<i>boeken</i> in (i)) can apply only if the indefinite article heading the SC has raised to the higher functional head F; this is so for reasons of locality (i.e., Equidistance, cf. <link rid="b31">Chomsky 1995c</link>). The second step involves movement of <i>wat</i> from &lsqb;Spec, FP&rsqb; to the operator-position &lsqb;Spec, DP&rsqb;. Schematically:</span>
+</p>
+<p>(i)&ensp;&lsqb;<sub>DP</sub> wat<sub>i</sub> &lsqb;<sub>D&prime;</sub> voor &lsqb;<sub>FP</sub> t&prime;<sub>i</sub> &lsqb;<sub>F&prime;</sub> X<sub>j</sub> (&equals; een) &plus; F &lsqb;<sub>XP</sub> boeken &lsqb;<sub>X&prime;</sub> t<sub>j</sub> t<sub>i</sub>&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;&rsqb;</p>
+<p>
+<span id="fn23">
+<number>23&emsp;</number>In <link rid="b4">Rappaport (2000</link>) it is claimed that the Left Branch Condition is observed in Polish for extraction from Adjective (and Adverb) Phrases. He gives the following examples:</span>
+</p>
+<p>(i)&ensp;<object id="tu67" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu67_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>*Jak Piotr jest &lsqb;&ndash; m<object id="fu7" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_66_fu7.gif" type="gif" id="fu7_source"/>
+</objectsource>
+</object>dry&rsqb;?</entry>
+</row>
+<row><entry>how Peter is &ndash; smart</entry>
+</row>
+<row><entry>&lsquo;How smart is Peter?&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Jak m<object id="fu7" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_66_fu7.gif" type="gif" id="fu7_source"/>
+</objectsource>
+</object>dry jest Piotr?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(ii)&ensp;<object id="tu68" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu68_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>Jak on &lsqb;&ndash; &#x0142;adnie&rsqb; recytuje wiersze?</entry>
+</row>
+<row><entry>how he well recites poetry</entry>
+</row>
+<row><entry>&lsquo;How well does he recite poetry?&rsquo;</entry>
+</row>
+<row><entry morerows="1">b.</entry>
+<entry>Jak &#x0142;adnie on &ndash; recytuje wiersze?</entry>
+</row>
+<row><entry>How well he &ndash; recites poetry</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In <link rid="b44">Horn (1983</link>), it is argued that sometimes left-branch subextraction from AP is possible. He gives the following examples from Polish:</p>
+<p>(iii)&ensp;<object id="tu69" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu69_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><i>Bardzo</i> czu&#x0142; si<object id="fu8" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_66_fu8.gif" type="gif" id="fu8_source"/>
+</objectsource>
+</object> &lsqb;&ndash; niepewnie&rsqb;.</entry>
+</row>
+<row><entry>very he-felt Refl &ndash; uncertainly</entry>
+</row>
+<row><entry>&lsquo;He felt very uncertain.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(iv)&ensp;<object id="tu70" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu70_source">
+<tbl frame="none">
+<tgroup cols="1">
+<colspec colnum="1" colname="col1"/>
+<tbody>
+<row><entry><sup>?</sup><i>Bardzo</i> studenci w mojej grupie s<object id="fu7" type="figure" position="fixed" format="inline">
+<objectsource>
+<file name="Graphics\chapter_66_fu7.gif" type="gif" id="fu7_source"/>
+</objectsource>
+</object> &lsqb;&ndash; wysocy&rsqb;.</entry>
+</row>
+<row><entry>very students in my group are &ndash; tall</entry>
+</row>
+<row><entry>&lsquo;The students in my group are very tall.&rsquo;</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>In <link rid="b61">Borsley (1981</link>), finally, it is observed that the uninflected <i>wh-</i>degree word <i>jak</i> (&lsquo;how&rsquo;) cannot be removed from within the adjectival phrase in Polish (see also <link rid="b4">Rappaport 2000</link>). He argues that subextraction is possible, however, when <i>jak</i> is inflected (cf. (vi)). As shown by the b-examples, pied-piping of the entire AP always yields a well-formed sentence:</p>
+<p>(v)&ensp;<object id="tu71" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu71_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry morerows="2">a.</entry>
+<entry>*Jak Jan jest przystojny?</entry>
+</row>
+<row><entry>how John is handsome</entry>
+</row>
+<row><entry>&lsquo;How handsome is John?&rsquo;</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Jak przystojny jest Jan?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>(vi)&ensp;<object id="tu72" type="table" position="fixed" format="inline">
+<objectsource>
+<insitu id="tu72_source">
+<tbl frame="none">
+<tgroup cols="2">
+<colspec colnum="1" colname="col1"/>
+<colspec colnum="2" colname="col2" align="char" char="."/>
+<tbody>
+<row><entry>a.</entry>
+<entry>Jaki Jan jest przystojny?</entry>
+</row>
+<row><entry>b.</entry>
+<entry>Jaki przystojny jest Jan?</entry>
+</row>
+</tbody>
+</tgroup>
+</tbl>
+</insitu>
+</objectsource>
+</object>
+</p>
+<p>
+<span id="fn24">
+<number>24&emsp;</number>For other studies in which a bare-NP analysis is defended, see, among others, <link rid="b62">Rozwadowska (1995a</link>), <link rid="b63 b64">Willim (1997, 2000</link>), <link rid="b45">Zl&aacute;ti&#x0107; (1997</link>), <link rid="b65">Stjepanovi&#x0107; (2000</link>).</span>
+</p>
+<p>
+<span id="fn25">
+<number>25&emsp;</number>See also <link rid="b66">Uriagereka (1988</link>) for the observation that left-branch extraction correlates with the &lsquo;richness&rsquo; of D. The Left Branch Condition, he argues, holds for languages with D rich.</span>
+</p>
+<p>
+<span id="fn26">
+<number>26&emsp;</number>For further studies on the Slavic noun phrase, in which a DP-structure is adopted, see, e.g., <link rid="b67">Fowler and Franks (1994</link>), <link rid="b68">Babyonyshev (1998</link>), <link rid="b69 b73">Engelhardt and Trugman (1998, 2000</link>), <link rid="b71">Progovac (1998</link>).</span>
+</p>
+<p>
+<span id="fn27">
+<number>27&emsp;</number>In the final part of his paper, <link rid="b72">Rappaport (2001</link>) presents a minimalist account of the left-branch effects, making use of Chomsky&apos;s Phase Impenetrability Condition (Chomsky 1998, 1999). See note 6.</span>
+</p>
+</subsection>
+</section>
+<section id="s1-2" type="backmatter">
+<subsection id="ss22" level="1" type="references">
+<heading id="h21" level="1">REFERENCES</heading>
+<reference id="b29" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Abney</surname><x>, </x><forenames>Steven</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date>
+<miscellaneoustext>). The English Noun Phrase in its Sentential Aspect. PhD dissertation</miscellaneoustext><x>, </x>
+<address>MIT</address><x>.</x>
+</reference>
+<reference id="b68" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Babyonyshev</surname><x>, </x><forenames>Maria</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">The Possessive Construction in Russian: A Crosslinguistic Perspective</title><x>. </x><title type="journal">Journal of Slavic Linguistics</title><x> </x><volume>5</volume><x>: </x><page type="first">193</page><x>&ndash;</x><page type="last">234</page><x>.</x>
+</reference>
+<reference id="b47" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bach</surname><x>, </x><forenames>Emmon</forenames>
+</name><x> and </x><name type="author">
+<forenames>George<x> </x>M<x>.</x>
+</forenames><x> </x><surname>Horn</surname>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="document">Remarks on &lsquo;Conditions on Transformations&rsquo;</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>7</volume><x>: </x><page type="first">265</page><x>&ndash;</x><page type="last">299</page><x>.</x>
+</reference>
+<reference id="b56" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Beermann</surname><x>, </x><forenames>Dorothee</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date>
+<miscellaneoustext>). Syntactic Discontinuity and Predicate Formation. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Tilburg University</address><x>.</x>
+</reference>
+<reference id="b36" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Bennis</surname><x>, </x><forenames>Hans</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">A Case of Restructuring</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Linguistics in the Netherlands 1983</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Hans</forenames><x> </x><surname>Bennis</surname>
+</name><x> and </x><name type="editor">
+<forenames>W<x>. </x>U<x>. </x>S<x>.</x>
+</forenames><x> </x><surnameprefix>van</surnameprefix><x> </x><surname>Lessen Kloek</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">9</page><x>&ndash;</x><page type="last">20</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b60" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Bennis</surname><x>, </x><forenames>Hans</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date><x>). </x><title type="document">The Meaning of Structure: The <i>Wat Voor</i> Construction Revisited</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Linguistics in the Netherlands 1995</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Marcel</forenames><x> </x><surname>den Dikken</surname>
+</name><x> and </x><name type="editor">
+<forenames>Kees</forenames><x> </x><surname>Hengeveld</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference id="b38" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bennis</surname><x>, </x><forenames>Hans</forenames>
+</name><x>, </x><name type="author">
+<forenames>Norbert</forenames><x> </x><surname>Corver</surname>
+</name>
+<x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="author">
+<forenames>Marcel</forenames><x> </x><surname>den Dikken</surname>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">Predication in Nominal Phrases</title><x>. </x><title type="journal">Journal of Comparative Germanic Linguistics</title><x> </x><volume>1</volume><x>: </x><page type="first">85</page><x>&ndash;</x><page type="last">117</page><x>.</x>
+</reference>
+<reference id="b39" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Besten</surname><x>, </x><forenames>Hans<x> </x>den</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="document">Government, Syntaktische Struktur und Kasus</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Sprache: Formen und Strukturen<x>. </x>Akten des 15<x>. </x>Linguistischen Kolloquiums, M&uuml;nster, 1980</title>
+<x>, </x><miscellaneoustext>vol. 1</miscellaneoustext><x>. </x>
+<namegroup type="editors">
+<name type="editor">
+<forenames>Manfred</forenames><x> </x><surname>Kohrt</surname>
+</name><x> and </x><name type="editor">
+<forenames>J&uuml;rgen</forenames><x> </x><surname>Lenerz</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>T&uuml;bingen</address><x>: </x><publisher>Niemeyer.</publisher>
+</reference>
+<reference id="b35" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Besten</surname><x>, </x><forenames>Hans<x> </x>den</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="document">The Ergative Hypothesis and Free Word Order in Dutch and German</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Studies in German Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Jindrich</forenames><x> </x><surname>Toman</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">23</page><x>&ndash;</x><page type="last">62</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b55" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Borj&auml;rs</surname><x>, </x><forenames>Kersti</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">D Selecting a PP Complement in Germanic Languages</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Papers from the Workshop on the Scandinavian Noun Phrase: DGL-UUM-R-32</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Anders</forenames><x> </x><surname>Holmberg</surname>
+</name>
+</namegroup>
+<miscellaneoustext> (ed.)</miscellaneoustext>
+<x>. </x><address>Ume&aring;</address><x>: </x><publisher>Acta Universitatis Umensis.</publisher>
+</reference>
+<reference id="b61" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Borsley</surname><x>, </x><forenames>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="document">
+<i>Wh</i>-Movement and Unbounded Deletion in Polish Equatives</title><x>. </x><title type="journal">Journal of Linguistics</title><x> </x><volume>17</volume><x>: </x><page type="first">271</page><x>&ndash;</x><page type="last">288</page><x>.</x>
+</reference>
+<reference id="b7" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bracco</surname><x>, </x><forenames>Claudio</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="document">On the Island Character of Italian <i>Quanto</i> Comparatives</title><x>. </x><title type="journal">Journal of Italian Linguistics</title><x> </x><volume>1</volume><x>: </x><page type="first">19</page><x>&ndash;</x><page type="last">46</page><x>.</x>
+</reference>
+<reference id="b18" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Bresnan</surname><x>, </x><forenames>Joan</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976c</date><x>). </x><title type="document">On the Form and Functioning of Transformations</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>7</volume><x>: </x><page type="first">3</page><x>&ndash;</x><page type="last">40</page><x>.</x>
+</reference>
+<reference id="b19" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1964">1964a</date><x>). </x><title type="book">Current Issues in Linguistic Theory<x>.</x>
+</title><x> </x><address>The Hague</address><x>: </x><publisher>Mouton.</publisher>
+</reference>
+<reference id="b2" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1970">1970</date><x>). </x><title type="document">Remarks on Nominalization</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Readings in English Transformational Grammar</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Roderick</forenames><x> </x><surname>Jacobs</surname>
+</name><x> and </x><name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Rosenbaum</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">184</page><x>&ndash;</x><page type="last">221</page>
+<x>. </x><address>Boston</address><x>: </x><publisher>Ginn.</publisher>
+</reference>
+<reference id="b14" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1973">1973</date><x>). </x><title type="document">Conditions on Transformations</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">A Festschrift for Morris Halle</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Stephen</forenames><x> </x><surname>Anderson</surname>
+</name><x> and </x><name type="editor">
+<forenames>Paul</forenames><x> </x><surname>Kiparsky</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">232</page><x>&ndash;</x><page type="last">286</page><x>. </x><address>New York</address><x>: </x><publisher>Holt, Rinehart, and Winston.</publisher>
+</reference>
+<reference id="b20" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977b</date><x>). </x><title type="document">On <i>Wh-</i>Movement</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Formal Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Peter</forenames><x> </x><surname>Culicover</surname>
+</name><x>, </x><name type="editor">
+<forenames>Thomas</forenames><x> </x><surname>Wasow</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Adrian</forenames><x> </x><surname>Akmajian</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">71</page><x>&ndash;</x><page type="last">132</page>
+<x>. </x><address>New York</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference id="b23" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980a</date><x>). </x><title type="document">On Binding</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>11</volume><x>: </x><page type="first">1</page><x>&ndash;</x><page type="last">46</page><x>.</x>
+</reference>
+<reference id="b21" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1981">1981</date><x>). </x><title type="book">Lectures on Government and Binding<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b30" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986a</date><x>). </x><title type="book">Barriers</title>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b31" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995c</date><x>). </x><title type="book">The Minimalist Program</title>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b48" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">Minimalist Inquiries: The Framework</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Step by Step: Essays on Minimalist Syntax in Honor of Howard Lasnik</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Roger</forenames><x> </x><surname>Martin</surname>
+</name><x>, </x><name type="editor">
+<forenames>David</forenames><x> </x><surname>Michaels</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Juan</forenames><x> </x><surname>Uriagereka</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">89</page><x>&ndash;</x><page type="last">155</page>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b49" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Chomsky</surname><x>, </x><forenames>Noam</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001b</date><x>). </x><title type="document">Derivation by Phase</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Ken Hale: A Life in Language</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Michael</forenames><x> </x><surname>Kenstowicz</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">1</page><x>&ndash;</x><page type="last">52</page>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b25" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Corver</surname><x>, </x><forenames>Norbert</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990</date>
+<miscellaneoustext>). The Syntax of Left Branch Extractions. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Tilburg University</address><x>.</x>
+</reference>
+<reference id="b37" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Corver</surname><x>, </x><forenames>Norbert</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991b</date><x>). </x><title type="document">The Internal Syntax and Movement Behavior of the Dutch <i>Wat Voor</i>-Construction</title><x>. </x><title type="journal">Linguistische Berichte</title><x> </x><volume>133</volume><x>: </x><page type="first">190</page><x>&ndash;</x><page type="last">228</page><x>.</x>
+</reference>
+<reference id="b26" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Corver</surname><x>, </x><forenames>Norbert</forenames>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">On Deriving Certain Left Branch Extraction Asymmetries: A Case Study in Parametric Syntax</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Proceedings of the North Eastern Linguistic Society 22</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Kimberley</forenames><x> </x><surname>Broderick</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">67</page><x>&ndash;</x><page type="last">84</page>
+<x>. </x><address>Amherst</address><x>: </x><publisher>Graduate Linguistics Student Association.</publisher>
+</reference>
+<reference id="b27" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Corver</surname><x>, </x><forenames>Norbert</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997a</date><x>). </x><title type="document">The Internal Syntax of the Dutch Extended Adjectival Projection</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>15</volume><x>: </x><page type="first">289</page><x>&ndash;</x><page type="last">368</page><x>.</x>
+</reference>
+<reference id="b28" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Corver</surname><x>, </x><forenames>Norbert</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997b</date><x>). </x><title type="document">Much-Support as a Last Resort</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>28</volume><x>: </x><page type="first">119</page><x>&ndash;</x><page type="last">164</page><x>.</x>
+</reference>
+<reference id="b10" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Corver</surname><x>, </x><forenames>Norbert</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">Degree Adverbs as Displaced Predicates</title><x>. </x><title type="journal">Journal of Italian Linguistics</title><x> </x><volume>12</volume><x>: </x><page type="first">155</page><x>&ndash;</x><page type="last">191</page><x>.</x>
+</reference>
+<reference id="b46" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Culicover</surname><x>, </x><forenames>Peter</forenames>
+</name><x> and </x><name type="author">
+<forenames>Michael</forenames><x> </x><surname>Rochemont</surname>
+</name>
+</namegroup><x> (</x><date date="1992">1992</date><x>). </x><title type="document">Adjunct Extraction from NP and the ECP</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>23</volume><x>: </x><page type="first">496</page><x>&ndash;</x><page type="last">501</page><x>.</x>
+</reference>
+<reference id="b11" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Emonds</surname><x>, </x><forenames>Joseph</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="book">A Transformational Approach to English Syntax: Root, Structure-Preserving and Local Transformations</title>
+<x>. </x><address>New York</address><x>: </x><publisher>Academic Press.</publisher>
+</reference>
+<reference id="b12" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Emonds</surname><x>, </x><forenames>Joseph</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="document">Word Order in Generative Grammar</title><x>. </x><title type="journal">Journal of Linguistic Research</title><x> </x><volume>1</volume><x>: </x><page type="first">33</page><x>&ndash;</x><page type="last">54</page><x>.</x>
+</reference>
+<reference id="b13" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Emonds</surname><x>, </x><forenames>Joseph</forenames>
+</name>
+</namegroup><x> (</x><date date="1985">1985</date><x>). </x><title type="book">A Unified Theory of Syntactic Categories</title>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b69" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Engelhardt</surname><x>, </x><forenames>Miriam</forenames>
+</name><x> and </x><name type="author">
+<forenames>Helen</forenames><x> </x><surname>Trugman</surname>
+</name>
+</namegroup><x> (</x><date date="1998">1998a</date><x>). </x><title type="document">D as a Source of Adnominal Genitive in Russian</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Formal Approaches to Slavic Linguistics</title><x> 7. </x><namegroup type="editors">
+<name type="editor">
+<forenames>&#x017D;eljko</forenames><x> </x><surname>Bo&scaron;kovi&#x0107;</surname>
+</name><x>, </x><name type="editor">
+<forenames>Steven</forenames><x> </x><surname>Franks</surname>
+</name><x>
+</x><x>, </x><miscellaneoustext>and</miscellaneoustext><x> </x>
+<name type="editor">
+<forenames>William</forenames><x> </x><surname>Snyder</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">114</page><x>&ndash;</x><page type="last">133</page>
+<x>. </x><address>Ann Arbor</address><x>: </x><publisher>Slavic Publications.</publisher>
+</reference>
+<reference id="b73" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Engelhardt</surname><x>, </x><forenames>Miriam</forenames>
+</name><x> and </x><name type="author">
+<forenames>Helen</forenames><x> </x><surname>Trugman</surname>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">Double Genitive Constructions in Russian</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Comparative Slavic Morphosyntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>George</forenames><x> </x><surname>Fowler</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>. </x><address>Bloomington</address><x>: </x><publisher>Slavica Publishers.</publisher>
+</reference>
+<reference id="b67" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Fowler</surname><x>, </x><forenames>George</forenames>
+</name><x> and </x><name type="author">
+<forenames>Steven</forenames><x> </x><surname>Franks</surname>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">The Structure of DP in Bulgarian</title><x>. </x><title type="journal">Indiana Slavic Studies</title><x> </x><volume>7</volume><x>: </x><page type="first">58</page><x>&ndash;</x><page type="last">68</page><x>.</x>
+</reference>
+<reference id="b50" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>G&eacute;rard</surname><x>, </x><forenames>Josselyne</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="book">L&rsquo;Exclamation en Fran&ccedil;ais</title>
+<x>. </x><address>T&uuml;bingen</address><x>: </x><publisher>Max Niemeyer.</publisher>
+</reference>
+<reference id="b24" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Giorgi</surname><x>, </x><forenames>Alessandra</forenames>
+</name><x> and </x><name type="author">
+<forenames>Giuseppe</forenames><x> </x><surname>Longobardi</surname>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date><x>). </x><title type="book">The Syntax of Noun Phrases: Configuration, Parameters, and Empty Categories</title>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>Cambridge University Press.</publisher>
+</reference>
+<reference id="b1" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Grimshaw</surname><x>, </x><forenames>Jane</forenames>
+</name>
+</namegroup><x> (</x><date date="1991">1991</date>
+<miscellaneoustext>). Extended Projections. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>Brandeis University</address><x>.</x>
+</reference>
+<reference id="b6" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Grosu</surname><x>, </x><forenames>Alexander</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date><x>). </x><title type="document">On the Nature of the Left Branch Condition</title><x>. </x><title type="journal">Linguistic Inquiry</title><x> </x><volume>5</volume><x>: </x><page type="first">308</page><x>&ndash;</x><page type="last">319</page><x>.</x>
+</reference>
+<reference id="b16" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Haan</surname><x>, </x><forenames>Germen<x> </x>de</forenames>
+</name>
+</namegroup><x> (</x><date date="1979">1979</date><x>). </x><title type="book">Conditions on Rules</title>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b34" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Halle</surname><x>, </x><forenames>Morris</forenames>
+</name><x> and </x><name type="author">
+<forenames>Alec</forenames><x> </x><surname>Marantz</surname>
+</name>
+</namegroup><x> (</x><date date="1993">1993</date><x>). </x><title type="document">Distributed Morphology and the Pieces of Inflection</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">The View from Building 20: Essays in Linguistics in Honor of Sylvain Bromberger</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Ken</forenames><x> </x><surname>Hale</surname>
+</name><x> and </x><name type="editor">
+<forenames>Samuel<x> </x>J<x>.</x>
+</forenames><x> </x><surname>Keyser</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">111</page><x>&ndash;</x><page type="last">176</page>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b40" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Hoekstra</surname><x>, </x><forenames>Teun</forenames>
+</name>
+</namegroup><x> (</x><date date="1984">1984b</date><x>). </x><title type="book">Transitivity</title>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b57" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Honcoop</surname><x>, </x><forenames>Martin</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date>
+<miscellaneoustext>). Dynamic Excursions on Weak Islands. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Leiden University</address><x>.</x>
+</reference>
+<reference id="b42" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Horn</surname><x>, </x><forenames>George</forenames>
+</name>
+</namegroup><x> (</x><date date="1974">1974</date>
+<miscellaneoustext>). The Noun Phrase Constraint. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Amherst, University of Massachusetts</address><x>.</x>
+</reference>
+<reference id="b43" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Horn</surname><x>, </x><forenames>George</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978</date><x>). </x><title type="book">Toward a More Adequate Definition of the Notion of Transformation</title>
+<x>. </x><address>Edmonton</address><x>: </x><publisher>Linguistic Research.</publisher>
+</reference>
+<reference id="b44" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Horn</surname><x>, </x><forenames>George</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="book">Lexical-Functional Grammar</title><x>. </x><address>Berlin</address><x>: </x><publisher>Mouton de Gruyter</publisher><x>.</x>
+</reference>
+<reference id="b33" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Kennedy</surname><x>, </x><forenames>Christopher</forenames>
+</name><x> and </x><name type="author">
+<forenames>Jason</forenames><x> </x><surname>Merchant</surname>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">Attributive Comparative Deletion</title><x>. </x><title type="journal">Natural Language and Linguistic Theory</title><x> </x><volume>18</volume>
+<page type="first">
+</page><x>.</x>
+</reference>
+<reference id="b41" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Koster</surname><x>, </x><forenames>Jan</forenames>
+</name>
+</namegroup><x> (</x><date date="1987">1987</date><x>). </x><title type="book">Domains and Dynasties<x>.</x>
+</title><x> </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b54" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Lie</surname><x>, </x><forenames>Sven</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">Discontinuous Questions and Subjacency in Norwegian</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Readings on Unbounded Dependencies in Scandinavian Languages</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Elisabet</forenames><x> </x><surname>Engdahl</surname>
+</name><x> and </x><name type="editor">
+<forenames>Eva</forenames><x> </x><surname>Ejerhed</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">193</page><x>&ndash;</x><page type="last">203</page>
+<x>. </x><address>Ume&aring;</address><x>: </x><publisher>Acta Universitatis Umensis.</publisher>
+</reference>
+<reference id="b15" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>May</surname><x>, </x><forenames>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1977">1977</date>
+<miscellaneoustext>). The Grammar of Quantification. PhD dissertation</miscellaneoustext><x>, </x>
+<address>Cambridge, MIT</address><x>.</x>
+</reference>
+<reference id="b32" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>McGinnis</surname><x>, </x><forenames>Martha</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995</date>
+<miscellaneoustext>). Fission as Feature Movement. Unpublished manuscript</miscellaneoustext><x>, </x>
+<address>MIT</address><x>.</x>
+</reference>
+<reference id="b51" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Milner</surname><x>, </x><forenames>Jean-Claude</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978b</date><x>). </x><title type="book">De la Syntaxe &agrave; l&rsquo;Interpr&eacute;tation</title>
+<x>. </x><address>Paris</address><x>: </x><publisher>Seuil.</publisher>
+</reference>
+<reference id="b52" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Obenauer</surname><x>, </x><forenames>Hans-Georg</forenames>
+</name>
+</namegroup><x> (</x><date date="1976">1976</date><x>). </x><title type="book">&Eacute;tudes de Syntaxe Interrogative du Fran&ccedil;ais</title>
+<x>. </x><address>T&uuml;bingen</address><x>: </x><publisher>Max Niemeyer.</publisher>
+</reference>
+<reference id="b58" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Postma</surname><x>, </x><forenames>Gert-Jan</forenames>
+</name>
+</namegroup><x> (</x><date date="1994">1994</date><x>). </x><title type="document">The Indefinite Reading of <i>Wh</i>
+</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Linguistics in the Netherlands 1994</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Reineke</forenames><x> </x><surname>Bok-Bennema</surname>
+</name><x> and </x><name type="editor">
+<forenames>Crit</forenames><x> </x><surname>Cremers</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">187</page><x>&ndash;</x><page type="last">198</page>
+<x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference id="b59" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Postma</surname><x>, </x><forenames>Gert-Jan</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995b</date><x>). </x><title type="document">Zero Semantics: The Semantic Encoding of Quantificational Meaning</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Linguistics in the Netherlands 1995</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Marcel</forenames><x> </x><surname>den Dikken</surname>
+</name><x> and </x><name type="editor">
+<forenames>Kees</forenames><x> </x><surname>Hengeveld</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">175</page><x>&ndash;</x><page type="last">190</page>
+<x>. </x><address>Amsterdam</address><x>: </x><publisher>John Benjamins.</publisher>
+</reference>
+<reference id="b71" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Progovac</surname><x>, </x><forenames>Ljiljana</forenames>
+</name>
+</namegroup><x> (</x><date date="1998">1998</date><x>). </x><title type="document">Determiner Phrase in a Language Without Determiners</title><x>. </x><title type="journal">Journal of Linguistics</title><x> </x><volume>34</volume><x>: </x><page type="first">165</page><x>&ndash;</x><page type="last">179</page><x>.</x>
+</reference>
+<reference id="b53" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Radford</surname><x>, </x><forenames>Andrew</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982</date><x>). </x><title type="document">The Syntax of Verbal <i>Wh-</i>Exclamatives in Italian</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Studies on the Romance Verb</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Nigel</forenames><x> </x><surname>Vincent</surname>
+</name><x> and </x><name type="editor">
+<forenames>Martin</forenames><x> </x><surname>Harris</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.), </x><page type="first">185</page><x>&ndash;</x><page type="last">204</page>
+<x>. </x><address>London</address><x>: </x><publisher>Croom Helm.</publisher>
+</reference>
+<reference id="b4" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rappaport</surname><x>, </x><forenames>Gilbert<x> </x>C<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">The Slavic Noun Phrase</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Comparative Slavic Morphosyntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>George</forenames><x> </x><surname>Fowler</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>. </x><address>Bloomington</address><x>: </x><publisher>Slavica Publishers.</publisher>
+</reference>
+<reference id="b72" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Rappaport</surname><x>, </x><forenames>Gilbert<x> </x>C<x>.</x>
+</forenames>
+</name>
+</namegroup><x> (</x><date date="2001">2001</date><x>). </x><title type="document">Extraction from Nominal Phrases in Polish and the Theory of Determiners</title><x>. </x><title type="journal">Journal of Slavic Linguistics</title><x> </x><volume>8/3</volume>
+<page type="first">
+</page><x>.</x>
+</reference>
+<reference id="b17" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Riemsdijk</surname><x>, </x><forenames>Henk<x> </x>C<x>. </x>van</forenames>
+</name>
+</namegroup><x> (</x><date date="1978">1978a</date><x>). </x><title type="book">A Case Study in Syntactic Markedness: The Binding Nature of Prepositonal Phrases</title>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b8" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Rivero</surname><x>, </x><forenames>Mar&iacute;a<x> </x>Luisa</forenames>
+</name>
+</namegroup><x> (</x><date date="1980">1980</date><x>). </x><title type="document">Theoretical Implications of the Syntax of Left-Branch Modifiers in Spanish</title><x>. </x><title type="journal">Linguistic Analysis</title><x> </x><volume>6</volume><x>: </x><page type="first">407</page><x>&ndash;</x><page type="last">461</page><x>.</x>
+</reference>
+<reference id="b22" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rizzi</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="1982">1982b</date><x>). </x><title type="document">Violations of the <i>Wh</i>-Island Constraint in Italian and the Subjacency Condition</title><x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Issues in Italian Syntax<x>.</x>
+</title><x> </x><namegroup type="editors">
+<name type="editor">
+<forenames>Luigi</forenames><x> </x><surname>Rizzi</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">49</page><x>&ndash;</x><page type="last">76</page>
+<x>. </x><address>Dordrecht</address><x>: </x><publisher>Foris.</publisher>
+</reference>
+<reference id="b9" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Rizzi</surname><x>, </x><forenames>Luigi</forenames>
+</name>
+</namegroup><x> (</x><date date="1990">1990b</date><x>). </x><title type="book">Relativized Minimality</title>
+<x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b3" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Ross</surname><x>, </x><forenames>John<x> </x>Robert</forenames>
+</name>
+</namegroup><x> (</x><date date="1986">1986</date><x>). </x><title type="book">Infinite Syntax!</title><x> </x><address>Norwood, NJ</address><x>: </x><publisher>Ablex.</publisher>
+</reference>
+<reference id="b62" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Rozwadowska</surname><x>, </x><forenames>Bo&#x017C;ena</forenames>
+</name>
+</namegroup><x> (</x><date date="1995">1995a</date><x>). </x><title type="document">Configurational Hypothesis and Polish NPs</title><x>. </x><title type="journal">Papers and Studies in Contrastive Linguistics</title><x> </x><volume>30</volume><x>: </x><page type="first">131</page><x>&ndash;</x><page type="last">144</page><x>.</x>
+</reference>
+<reference id="b65" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Stjepanovi&#x0107;</surname><x>, </x><forenames>Sandra</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">Extraction of Adjuncts out of NPs</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Comparative Slavic Morphosyntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>George</forenames><x> </x><surname>Fowler</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>. </x><address>Bloomington</address><x>: </x><publisher>Slavica Publishers.</publisher>
+</reference>
+<reference id="b5" type="journal">
+<namegroup type="author">
+<name type="author">
+<surname>Szabolcsi</surname><x>, </x><forenames>Anna</forenames>
+</name>
+</namegroup><x> (</x><date date="1983">1983</date><x>). </x><title type="document">The Possessor that Ran Away from Home</title><x>. </x><title type="journal">Linguistic Review</title><x> </x><volume>3</volume><x>: </x><page type="first">89</page><x>&ndash;</x><page type="last">102</page><x>.</x>
+</reference>
+<reference id="b66" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Uriagereka</surname><x>, </x><forenames>Juan</forenames>
+</name>
+</namegroup><x> (</x><date date="1988">1988</date>
+<miscellaneoustext>). On Government. PhD dissertation</miscellaneoustext><x>, </x>
+<address>University of Connecticut</address><x>.</x>
+</reference>
+<reference id="b63" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Willim</surname><x>, </x><forenames>Ewa</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date><x>). </x><title type="document">On the DP-Hypothesis in Polish, an Articleless Language</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Studies in Syntax</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Piotr</forenames><x> </x><surname>Stalmaszczyk</surname>
+</name></namegroup><miscellaneoustext> (Ed.)</miscellaneoustext><x>, </x><page type="first">137</page><x>&ndash;</x><page type="last">158</page><x>. </x><address>Lublin</address><x>: </x><publisher>Folium</publisher><x>.</x>
+</reference>
+<reference id="b64" type="book">
+<namegroup type="author">
+<name type="author">
+<surname>Willim</surname><x>, </x><forenames>Ewa</forenames>
+</name>
+</namegroup><x> (</x><date date="2000">2000</date><x>). </x><title type="document">On the Grammar of Polish Nominals</title>
+<x>. </x><miscellaneoustext>In</miscellaneoustext><x>: </x>
+<title type="book">Step by Step: Essays on Minimalist Syntax in Honor of Howard Lasnik</title><x>. </x><namegroup type="editors">
+<name type="editor">
+<forenames>Roger</forenames><x> </x><surname>Martin</surname>
+</name><x>, </x><name type="editor">
+<forenames>David</forenames><x> </x><surname>Michaels</surname>
+</name><x>, and </x><name type="editor">
+<forenames>Juan</forenames><x> </x><surname>Uriagereka</surname>
+</name>
+<miscellaneoustext> (eds</miscellaneoustext>
+</namegroup><x>.)</x><x>. </x><address>Cambridge</address><x>: </x><publisher>MIT Press.</publisher>
+</reference>
+<reference id="b45" type="other">
+<namegroup type="author">
+<name type="author">
+<surname>Zlati&#x0107;</surname><x> </x><forenames>Larisa</forenames>
+</name>
+</namegroup><x> (</x><date date="1997">1997</date>
+<miscellaneoustext>). The Structure of the Serbian Noun Phrase. PhD dissertation</miscellaneoustext><x>, </x>
+<address>University of Texas</address><x>.</x>
+</reference>
+</subsection>
+</section>
+</document>
+</content> 

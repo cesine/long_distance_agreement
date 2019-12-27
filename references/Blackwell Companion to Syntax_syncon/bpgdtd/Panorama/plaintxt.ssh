@@ -1,0 +1,14 @@
+<!DOCTYPE STYLESHEET 
+PUBLIC "-//Synex Information AB//DTD Stylesheet Explorer//EN">
+
+<STYLESHEET NAME="Proportional" DTD="PLAINTXT.DTD">
+<STYLE TAG="PLAINTXT">
+<FONT-FAMILY V="Times New Roman">
+<FONT-SIZE V=12>
+<SPC-ABOVE V="12">
+<SPC-LEFT V="8">
+<BREAK-BEFORE>
+<BREAK-AFTER>
+</STYLE>
+
+</STYLESHEET>

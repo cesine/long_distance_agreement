@@ -1,0 +1,153 @@
+<?php
+
+class PhysicalAssets {
+	
+	private $assetId;
+	//private $groupId;
+	private $locationId;
+	private $barCode;
+	private $facultyId;
+	private $legacyCode;
+	private $manufacturer;
+	private $warrantyExpiration;
+	private $model;
+	private $category;
+	private $status;
+	private $poNumber;
+	private $pRequest;
+	
+	function setAssetId($assetId){
+		$this->assetId = $assetId;
+	}
+	
+	function setLocationId($locationId){
+		$this->locationId = $locationId;
+	}
+	
+	function setbarCode($barCode){
+		$this->barCode = $barCode;
+	}
+	
+	function setFacultyId($facultyId){
+		$this->facultyId = $facultyId;
+	}
+	
+	function setLegacyCode($legacyCode){
+		$this->legacyCode = $legacyCode;
+	}
+	
+	function setManufacturer($manufacturere){
+		$this->manufacturer = $manufacturer;
+	}
+	
+	function setWarrantyExpiration($warrantyExpiration){
+		$this->warrantyExpiration = $warrantyExpiration;
+	}
+	
+	function setModel($model){
+		$this->model = $model;
+	}
+	
+	function setCategory($category){
+		$this->category = $category;
+	}
+	
+	function setStatus($status){
+		$this->status = $status;
+	}
+	
+	function setPoNumber($poNumber){
+		$this->poNumber = $poNumber;
+	}
+	
+	function setPRequest($pRequest){
+		$this->pRequest = $pRequest;
+	}
+	
+	function getAssetId(){
+		return $this->assetId;
+	}
+	
+	function getLocationId(){
+		return $this->locationId;
+	}
+	
+	function getCategory(){
+		return $this->category;
+	}
+	
+	function getGroupId(){
+		return $this->groupId;
+	}
+	
+	function getBarCode(){
+		return $this->barCode;
+	}
+	
+	function getFacultyId(){
+		return $this->facultyId;
+	}
+	
+	function getWarrantyExpiration(){
+		return $this->warrantyExpiration;
+	}
+	
+	function getLegacyCode(){
+		return $this->legacyCode;
+	}
+	
+	function getPRequest(){
+		return $this->pRequest;
+	}
+	
+	function getPoNumber(){
+		return $this->poNumber;
+	}
+	
+	function getManufacturer(){
+		return $this->manufacturer;
+	}
+	
+	function getModel(){
+		return $this->model;
+	}
+	
+	function getStatus(){
+		return $this->status;
+	}
+	function displayAssetDetails(){
+		
+	}
+	
+	function displayAsset(){
+		echo '<table border="1" width="80%" cellpadding="1" cellspacing="1">';
+        echo '<tr>';
+        echo '<th colspan="6" bgcolor="cornflowerblue">';
+            echo "SEARCH RESULT #";
+            echo "$i";
+        echo '</th>';
+        echo '</tr>';
+        echo '<tr>';
+            echo '<th bgcolor="lightgray">Asset ID</th>';
+            echo '<th bgcolor="lightgray">Barcode</th>';
+            echo '<th bgcolor="lightgray">Category</th>';
+            echo '<th bgcolor="lightgray">Location</th>';
+            echo '<th bgcolor="lightgray">Status</th>';
+            echo '<th bgcolor="lightgray">Action</th>';
+        echo '</tr>';
+        echo '<tr>';
+	    echo '<td>'.$this->getAssetId().'</td>';
+	    echo '<td>'.$this->getBarCode().'</td>';
+	    echo '<td>'.$this->getCategory().'</td>';
+	    echo '<td>'.$this->getLocationId().'</td>';
+	    echo '<td>'.$this->getStatus().'</td>';
+	    echo '<td><a href="../CONTROLLER/SelectPhysicalAssetDispatcher.php?AssetID='.$this->getAssetId().'&Category='.$this->getCategory().'">View Details</a></td>';
+        echo '</tr>';
+        echo '</table>';
+
+        echo '<br>';
+	}
+	
+}
+
+?>
