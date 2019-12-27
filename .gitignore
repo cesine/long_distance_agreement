@@ -1,6 +1,5 @@
 *.pdf
 
-*.wav
 audio_stimuli
 
 TEST*.xml
